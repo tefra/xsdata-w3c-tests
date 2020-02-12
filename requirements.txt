@@ -1,0 +1,6 @@
+xsdata
+pytest
+pytest-xdist
+pre-commit
+xmlschema
+PyYAML

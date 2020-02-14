@@ -20,8 +20,15 @@ log = logging.getLogger()
 os.chdir(w3c.parent)
 
 
-def assert_bindings(schema: str, is_valid: bool, instance: str, instance_is_valid: bool,
-                    class_name: str, version: str):
+def assert_bindings(
+    schema: str,
+    is_valid: bool,
+    instance: str,
+    instance_is_valid: bool,
+    class_name: str,
+    version: str,
+):
+    __tracebackhide__ = True
     if not schema:
         pytest.skip("No schema for code generator")
 
@@ -64,7 +71,9 @@ def assert_bindings(schema: str, is_valid: bool, instance: str, instance_is_vali
 
 def get_validator(path: Path, version, is_valid):
     try:
-        schema_class = xmlschema.XMLSchema11 if version == "1.1" else xmlschema.XMLSchema10
+        schema_class = (
+            xmlschema.XMLSchema11 if version == "1.1" else xmlschema.XMLSchema10
+        )
         return schema_class(str(path))
     except Exception as e:
         if is_valid:

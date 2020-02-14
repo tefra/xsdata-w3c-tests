@@ -704,7 +704,7 @@ class Ref:
         )
     )
     type: Type = field(
-        default="locator",
+        default=Type.LOCATOR,
         metadata=dict(
             name="type",
             type="Attribute",

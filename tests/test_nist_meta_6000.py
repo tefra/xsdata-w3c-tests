@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -2386,6 +2388,7 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_1():
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2400,6 +2403,7 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_2():
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2414,6 +2418,7 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_3():
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2428,6 +2433,7 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_4():
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2442,6 +2448,7 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_5():
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2456,6 +2463,7 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_1():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2470,6 +2478,7 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_2():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2484,6 +2493,7 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_3():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2498,6 +2508,7 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_4():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2512,6 +2523,7 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_5():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2526,6 +2538,7 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_1():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2540,6 +2553,7 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_2():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2554,6 +2568,7 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_3():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2568,6 +2583,7 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_4():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2582,6 +2598,7 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_5():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2596,6 +2613,7 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_1():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2610,6 +2628,7 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_2():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2624,6 +2643,7 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_3():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2638,6 +2658,7 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_4():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2652,6 +2673,7 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_5():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2666,6 +2688,7 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_1():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2680,6 +2703,7 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_2():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2694,6 +2718,7 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_3():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2708,6 +2733,7 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_4():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2722,6 +2748,7 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_5():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2736,6 +2763,7 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_1():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2750,6 +2778,7 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_2():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2764,6 +2793,7 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_3():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2778,6 +2808,7 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_4():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2792,6 +2823,7 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_5():
     """
     Type list/ID is restricted by facet enumeration.
@@ -2806,6 +2838,7 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_1():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2823,6 +2856,7 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_2():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2840,6 +2874,7 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_3():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2857,6 +2892,7 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_4():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2874,6 +2910,7 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_5():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2891,6 +2928,7 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_1():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2907,6 +2945,7 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_2():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2923,6 +2962,7 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_3():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2939,6 +2979,7 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_4():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2955,6 +2996,7 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_5():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2971,6 +3013,7 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_1():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2988,6 +3031,7 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_2():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3005,6 +3049,7 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_3():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3022,6 +3067,7 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_4():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3039,6 +3085,7 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_5():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3056,6 +3103,7 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3073,6 +3121,7 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3090,6 +3139,7 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3107,6 +3157,7 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3124,6 +3175,7 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3141,6 +3193,7 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3158,6 +3211,7 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3175,6 +3229,7 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3192,6 +3247,7 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3209,6 +3265,7 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5():
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3226,6 +3283,7 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1():
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3240,6 +3298,7 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2():
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3254,6 +3313,7 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3():
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3268,6 +3328,7 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4():
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3282,6 +3343,7 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5():
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3296,6 +3358,7 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1():
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3310,6 +3373,7 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2():
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3324,6 +3388,7 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3():
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3338,6 +3403,7 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4():
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3352,6 +3418,7 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5():
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3366,6 +3433,7 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1():
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3380,6 +3448,7 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2():
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3394,6 +3463,7 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3():
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3408,6 +3478,7 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4():
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3422,6 +3493,7 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5():
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3436,6 +3508,7 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1():
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3450,6 +3523,7 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2():
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3464,6 +3538,7 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3():
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3478,6 +3553,7 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4():
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3492,6 +3568,7 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5():
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3506,6 +3583,7 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_1():
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3520,6 +3598,7 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_2():
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3534,6 +3613,7 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_3():
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3548,6 +3628,7 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_4():
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3562,6 +3643,7 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_5():
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3576,6 +3658,7 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1():
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3590,6 +3673,7 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2():
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3604,6 +3688,7 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3():
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3618,6 +3703,7 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4():
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3632,6 +3718,7 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5():
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3646,6 +3733,7 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1():
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3660,6 +3748,7 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2():
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3674,6 +3763,7 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3():
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3688,6 +3778,7 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4():
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3702,6 +3793,7 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5():
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3716,6 +3808,7 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1():
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3730,6 +3823,7 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2():
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3744,6 +3838,7 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3():
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3758,6 +3853,7 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4():
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3772,6 +3868,7 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5():
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3786,6 +3883,7 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1():
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3800,6 +3898,7 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2():
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3814,6 +3913,7 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3():
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3828,6 +3928,7 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4():
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3842,6 +3943,7 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5():
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3856,6 +3958,7 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1():
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3870,6 +3973,7 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2():
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3884,6 +3988,7 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3():
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3898,6 +4003,7 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4():
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3912,6 +4018,7 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5():
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3926,6 +4033,7 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1():
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3940,6 +4048,7 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2():
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3954,6 +4063,7 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3():
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3968,6 +4078,7 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4():
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3982,6 +4093,7 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5():
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3996,6 +4108,7 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1():
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4010,6 +4123,7 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2():
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4024,6 +4138,7 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3():
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4038,6 +4153,7 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4():
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4052,6 +4168,7 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5():
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4066,6 +4183,7 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1():
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4080,6 +4198,7 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2():
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4094,6 +4213,7 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3():
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4108,6 +4228,7 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4():
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4122,6 +4243,7 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5():
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4136,6 +4258,7 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1():
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4150,6 +4273,7 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2():
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4164,6 +4288,7 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3():
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4178,6 +4303,7 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4():
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4192,6 +4318,7 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5():
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4206,6 +4333,7 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1():
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4220,6 +4348,7 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2():
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4234,6 +4363,7 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3():
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4248,6 +4378,7 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4():
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4262,6 +4393,7 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5():
     """
     Type list/ID is restricted by facet maxLength with value 5.

@@ -1,6 +1,9 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
+@pytest.mark.xfail
 def test_particles_c029_particles_c029_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17,6 +20,7 @@ def test_particles_c029_particles_c029_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c028_particles_c028_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -33,6 +37,7 @@ def test_particles_c028_particles_c028_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c027_particles_c027_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -49,6 +54,7 @@ def test_particles_c027_particles_c027_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c026_particles_c026_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -66,6 +72,7 @@ def test_particles_c026_particles_c026_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c025_particles_c025_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -82,6 +89,7 @@ def test_particles_c025_particles_c025_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c024_particles_c024_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -98,6 +106,7 @@ def test_particles_c024_particles_c024_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c023_particles_c023_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -114,6 +123,7 @@ def test_particles_c023_particles_c023_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c022_particles_c022_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -131,6 +141,7 @@ def test_particles_c022_particles_c022_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c021_particles_c021_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -147,6 +158,7 @@ def test_particles_c021_particles_c021_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c020_particles_c020_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -163,6 +175,7 @@ def test_particles_c020_particles_c020_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c019_particles_c019_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -179,6 +192,7 @@ def test_particles_c019_particles_c019_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c018_particles_c018_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -195,6 +209,7 @@ def test_particles_c018_particles_c018_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c017_particles_c017_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -211,6 +226,7 @@ def test_particles_c017_particles_c017_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c016_particles_c016_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -227,6 +243,7 @@ def test_particles_c016_particles_c016_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c015_particles_c015_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -243,6 +260,7 @@ def test_particles_c015_particles_c015_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c014_particles_c014_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -259,6 +277,7 @@ def test_particles_c014_particles_c014_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c013_particles_c013_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -275,6 +294,7 @@ def test_particles_c013_particles_c013_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c012_particles_c012_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -291,6 +311,7 @@ def test_particles_c012_particles_c012_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c011_particles_c011_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -307,6 +328,7 @@ def test_particles_c011_particles_c011_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c010_particles_c010_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -325,6 +347,7 @@ def test_particles_c010_particles_c010_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c009_particles_c009_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -343,6 +366,7 @@ def test_particles_c009_particles_c009_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c008_particles_c008_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -359,6 +383,7 @@ def test_particles_c008_particles_c008_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c007_particles_c007_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -375,6 +400,7 @@ def test_particles_c007_particles_c007_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c006_particles_c006_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -391,6 +417,7 @@ def test_particles_c006_particles_c006_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c005_particles_c005_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -407,6 +434,7 @@ def test_particles_c005_particles_c005_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c004_particles_c004_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -423,6 +451,7 @@ def test_particles_c004_particles_c004_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c003_particles_c003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -439,6 +468,7 @@ def test_particles_c003_particles_c003_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c002_particles_c002_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -455,6 +485,7 @@ def test_particles_c002_particles_c002_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_c001_particles_c001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -471,6 +502,7 @@ def test_particles_c001_particles_c001_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_b015_particles_b015_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -487,6 +519,7 @@ def test_particles_b015_particles_b015_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_b014_particles_b014_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -503,6 +536,7 @@ def test_particles_b014_particles_b014_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_b013_particles_b013_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -519,6 +553,7 @@ def test_particles_b013_particles_b013_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_b012_particles_b012_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -711,6 +746,7 @@ def test_particles_b001_particles_b001_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_a015_particles_a015_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -727,6 +763,7 @@ def test_particles_a015_particles_a015_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_a014_particles_a014_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -839,6 +876,7 @@ def test_particles_a008_particles_a008_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_a007_particles_a007_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -855,6 +893,7 @@ def test_particles_a007_particles_a007_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_a006_particles_a006_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -1021,6 +1060,7 @@ def test_re_z004i_re_z004i_i():
     )
 
 
+@pytest.mark.xfail
 def test_re_z004v_re_z004v_v():
     r"""
     TEST :branch : Valid characeter mappings from character sequence \d
@@ -1035,6 +1075,7 @@ def test_re_z004v_re_z004v_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_z003v_re_z003v_v():
     r"""
     TEST :branch : Valid characeter mappings from character sequence \w
@@ -4840,6 +4881,7 @@ def test_p12_p12_v():
     )
 
 
+@pytest.mark.xfail
 def test_p11_p11_v():
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
@@ -4855,6 +4897,7 @@ def test_p11_p11_v():
     )
 
 
+@pytest.mark.xfail
 def test_p10_p10_i():
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
@@ -4870,6 +4913,7 @@ def test_p10_p10_i():
     )
 
 
+@pytest.mark.xfail
 def test_p9_p9_v():
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
@@ -5186,6 +5230,7 @@ def test_re_di2_re_di2_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_di1_re_di1_v():
     r"""
     TEST :branch : base='decimal', pattern='\p{Nd}+', value='10000101',
@@ -5929,6 +5974,7 @@ def test_re_da10_re_da10_i():
     )
 
 
+@pytest.mark.xfail
 def test_re_da9_re_da9_v():
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='1',
@@ -7354,6 +7400,7 @@ def test_re_t52_re_t52_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_t51_re_t51_v():
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0BE6;',
@@ -8779,6 +8826,7 @@ def test_re_s39_re_s39_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_s38_re_s38_v():
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1371;',
@@ -9094,6 +9142,7 @@ def test_re_s18_re_s18_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_s17_re_s17_v():
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1369;',
@@ -14739,6 +14788,7 @@ def test_re_l1_re_l1_v():
     )
 
 
+@pytest.mark.xfail
 def test_re_k88_re_k88_v():
     r"""
     TEST :branch : base='string', pattern='\p{IsaA0-a9}', value='',

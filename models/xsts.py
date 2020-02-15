@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from lxml.etree import QName
 from typing import Dict, List, Optional
 from models.xlink import (
-    Type,
+    TypeType,
 )
 
 
@@ -703,8 +703,8 @@ class Ref:
             max_occurs=9223372036854775807
         )
     )
-    type: Type = field(
-        default=Type.LOCATOR,
+    type: TypeType = field(
+        default="locator",
         metadata=dict(
             name="type",
             type="Attribute",

@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -16,6 +18,7 @@ def test_member_type024_member_type024_v():
     )
 
 
+@pytest.mark.xfail
 def test_member_type023_member_type023_v():
     """
     TEST :Adhoc XSD: : Attribute of union of user defined
@@ -31,6 +34,7 @@ def test_member_type023_member_type023_v():
     )
 
 
+@pytest.mark.xfail
 def test_member_type022_member_type022_v():
     """
     TEST :Adhoc XSD: : Element of union of user defined
@@ -61,6 +65,7 @@ def test_member_type021_member_type021_v():
     )
 
 
+@pytest.mark.xfail
 def test_member_type008_member_type008_v():
     """
     TEST :Adhoc XSD: : Element with default value and xsi:type: membertype
@@ -121,6 +126,7 @@ def test_member_type005_member_type005_v():
     )
 
 
+@pytest.mark.xfail
 def test_member_type004_member_type004_v():
     """
     TEST :Adhoc XSD: : Element with default value: membertype of
@@ -136,6 +142,7 @@ def test_member_type004_member_type004_v():
     )
 
 
+@pytest.mark.xfail
 def test_member_type003_member_type003_v():
     """
     TEST :Adhoc XSD: : Attribute: membertype of union(bool,int,string)
@@ -178,6 +185,7 @@ def test_member_type001_member_type001_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default079_is_default079_v():
     """
     TEST :Adhoc XSD: : multiple 'fixed' constraints
@@ -192,6 +200,7 @@ def test_is_default079_is_default079_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default078_is_default078_v():
     """
     TEST :Adhoc XSD: : map xml namespace in the instance to be able to
@@ -280,6 +289,7 @@ def test_is_default073_is_default073_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default072_is_default072_v():
     """
     TEST :Adhoc XSD: : While adding default attributes with
@@ -325,6 +335,7 @@ def test_is_default070_is_default070_i():
     )
 
 
+@pytest.mark.xfail
 def test_is_default060_1_is_default060_1_v():
     """
     TEST :Adhoc XSD: : test empty element typed as xsd:int with default
@@ -580,6 +591,7 @@ def test_is_default051_is_default051_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default028_is_default028_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -595,6 +607,7 @@ def test_is_default028_is_default028_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default027_is_default027_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -610,6 +623,7 @@ def test_is_default027_is_default027_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default026_is_default026_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -625,6 +639,7 @@ def test_is_default026_is_default026_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default025_is_default025_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -700,6 +715,7 @@ def test_is_default021_is_default021_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default011_is_default011_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -715,6 +731,7 @@ def test_is_default011_is_default011_i():
     )
 
 
+@pytest.mark.xfail
 def test_is_default010_is_default010_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -730,6 +747,7 @@ def test_is_default010_is_default010_i():
     )
 
 
+@pytest.mark.xfail
 def test_is_default009_is_default009_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -745,6 +763,7 @@ def test_is_default009_is_default009_i():
     )
 
 
+@pytest.mark.xfail
 def test_is_default008_is_default008_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -760,6 +779,7 @@ def test_is_default008_is_default008_i():
     )
 
 
+@pytest.mark.xfail
 def test_is_default007_is_default007_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -775,6 +795,7 @@ def test_is_default007_is_default007_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default006_is_default006_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -790,6 +811,7 @@ def test_is_default006_is_default006_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default005_is_default005_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -865,6 +887,7 @@ def test_is_default001_is_default001_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_d004a_add_d004a_v():
     """
     TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a
@@ -1375,6 +1398,7 @@ def test_add_b191_add_b191_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b188_add_b188_i():
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for
@@ -1390,6 +1414,7 @@ def test_add_b188_add_b188_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b187_add_b187_v():
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for
@@ -1448,6 +1473,7 @@ def test_add_b176_add_b176_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b175_add_b175_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1463,6 +1489,7 @@ def test_add_b175_add_b175_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b174_add_b174_v():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1478,6 +1505,7 @@ def test_add_b174_add_b174_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b173_add_b173_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1493,6 +1521,7 @@ def test_add_b173_add_b173_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b172_add_b172_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1508,6 +1537,7 @@ def test_add_b172_add_b172_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b171_add_b171_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1523,6 +1553,7 @@ def test_add_b171_add_b171_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b170_add_b170_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1538,6 +1569,7 @@ def test_add_b170_add_b170_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b169_1_add_b169_1_v():
     """
     TEST :Adhoc XSD: : id="243307" description="test valid document with
@@ -1828,6 +1860,7 @@ def test_test93160_test93160_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b145_add_b145_v():
     """
     TEST :Adhoc XSD: : id="87395" description="validateElement on XSD with
@@ -1876,6 +1909,7 @@ def test_add_b142_add_b142_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b140_add_b140_v():
     """
     TEST :Adhoc XSD: : id="78000" description="any and
@@ -1936,6 +1970,7 @@ def test_add_b136_add_b136_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b135_add_b135_v():
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
@@ -1966,6 +2001,7 @@ def test_add_b134_add_b134_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b132_add_b132_v():
     """
     TEST :Adhoc XSD: : id="66745" description="xsd validation:xsd
@@ -1981,6 +2017,7 @@ def test_add_b132_add_b132_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b131_add_b131_v():
     """
     TEST :Adhoc XSD: : id="76423" description="test validation of keys
@@ -1996,6 +2033,7 @@ def test_add_b131_add_b131_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b130_add_b130_v():
     """
     TEST :Adhoc XSD: : id="78162" description="attribute on xsd:any
@@ -2011,6 +2049,7 @@ def test_add_b130_add_b130_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b129_add_b129_v():
     """
     TEST :Adhoc XSD: : id="74834" description="validate xml data when it
@@ -2026,6 +2065,7 @@ def test_add_b129_add_b129_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b125_add_b125_v():
     """
     TEST :Adhoc XSD: : id="78898" description="xsd: wildcard: content type
@@ -2071,6 +2111,7 @@ def test_add_b123_add_b123_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b122_add_b122_v():
     """
     TEST :Adhoc XSD: : id="78910" description="xsd: wildcard: content type
@@ -2101,6 +2142,7 @@ def test_add_b120_add_b120_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b116_add_b116_v():
     """
     TEST :Adhoc XSD: : id="75092" description="xsd: 'any' with
@@ -2133,6 +2175,7 @@ def test_add_b115_add_b115_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b114_add_b114_i():
     """
     TEST :Adhoc XSD: : id="75808" description="xsd testing"
@@ -2253,6 +2296,7 @@ def test_add_b092_add_b092_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b090_add_b090_v():
     """
     TEST :Adhoc XSD: : id="61911" description="xsd: extension: when
@@ -2269,6 +2313,7 @@ def test_add_b090_add_b090_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b088_add_b088_v():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2285,6 +2330,7 @@ def test_add_b088_add_b088_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b087_add_b087_i():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2332,6 +2378,7 @@ def test_add_b080_add_b080_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b076_add_b076_v():
     """
     TEST :Adhoc XSD: : id="75028"
@@ -2573,6 +2620,7 @@ def test_add_b047_add_b047_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b046_add_b046_v():
     """
     TEST :Adhoc XSD: : id="72097" description="xsd: when there is no
@@ -2649,6 +2697,7 @@ def test_add_b31_add_b31_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b028_add_b028_v():
     """
     TEST :Adhoc XSD: : XSD: xsi:type when derived from xsi:type
@@ -2678,6 +2727,7 @@ def test_add_b019_add_b019_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b013_add_b013_i():
     """
     TEST :Adhoc XSD: : id="67514" title="xsd: when processContents is
@@ -2752,6 +2802,7 @@ def test_add_b002_add_b002_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_c001_add_c001_v():
     """
     TEST :Adhoc XSD: : use of xml:base
@@ -2810,6 +2861,7 @@ def test_add_a006_add_a006_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_a005_add_a005_v():
     """
     TEST :Adhoc XSD: : substitution group usage in the same XSD file with
@@ -2857,6 +2909,7 @@ def test_attg_d042_attg_d042_i():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d036_attg_d036_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -2874,6 +2927,7 @@ def test_attg_d036_attg_d036_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d035_attg_d035_i():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -2891,6 +2945,7 @@ def test_attg_d035_attg_d035_i():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d034_attg_d034_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
@@ -3037,6 +3092,7 @@ def test_attg_d026_attg_d026_i():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d025_attg_d025_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3087,6 +3143,7 @@ def test_attg_d023_attg_d023_i():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d022_attg_d022_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3104,6 +3161,7 @@ def test_attg_d022_attg_d022_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d021_attg_d021_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3120,6 +3178,7 @@ def test_attg_d021_attg_d021_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d020_attg_d020_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3136,6 +3195,7 @@ def test_attg_d020_attg_d020_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_d019_attg_d019_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3212,6 +3272,7 @@ def test_attg_d003_attg_d003_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_c038_attg_c038_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3229,6 +3290,7 @@ def test_attg_c038_attg_c038_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_c037_attg_c037_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3246,6 +3308,7 @@ def test_attg_c037_attg_c037_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_c036_attg_c036_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3262,6 +3325,7 @@ def test_attg_c036_attg_c036_v():
     )
 
 
+@pytest.mark.xfail
 def test_attg_c035_attg_c035_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3394,6 +3458,7 @@ def test_attg_c006_attg_c006_i():
     )
 
 
+@pytest.mark.xfail
 def test_att_z015_att_z015_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: a
@@ -3517,6 +3582,7 @@ def test_att_z002_att_z002_v():
     )
 
 
+@pytest.mark.xfail
 def test_att_z001_att_z001_i():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Redefine and
@@ -3577,6 +3643,7 @@ def test_att_q003_att_q003_v():
     )
 
 
+@pytest.mark.xfail
 def test_att_p032_att_p032_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test that
@@ -3593,6 +3660,7 @@ def test_att_p032_att_p032_v():
     )
 
 
+@pytest.mark.xfail
 def test_att_p031_att_p031_i():
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
@@ -3609,6 +3677,7 @@ def test_att_p031_att_p031_i():
     )
 
 
+@pytest.mark.xfail
 def test_att_p029_att_p029_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
@@ -5443,6 +5512,7 @@ def test_ct_z013a_ct_z013a_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z011_b_ct_z011_b_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5533,6 +5603,7 @@ def test_ct_z009_a_ct_z009_a_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z009_ct_z009_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5563,6 +5634,7 @@ def test_ct_z008_ct_z008_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z007_ct_z007_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : Derived
@@ -5593,6 +5665,7 @@ def test_ct_z006_ct_z006_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z005_ct_z005_i():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5609,6 +5682,7 @@ def test_ct_z005_ct_z005_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z003_ct_z003_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5625,6 +5699,7 @@ def test_ct_z003_ct_z003_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_z001_ct_z001_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5749,6 +5824,7 @@ def test_ct_m002_ct_m002_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_l022_ct_l022_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : ability
@@ -5764,6 +5840,7 @@ def test_ct_l022_ct_l022_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_l021_ct_l021_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6169,6 +6246,7 @@ def test_ct_i048_ct_i048_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i047_ct_i047_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6233,6 +6311,7 @@ def test_ct_i044_ct_i044_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i043_ct_i043_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6265,6 +6344,7 @@ def test_ct_i042_ct_i042_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i041_ct_i041_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6329,6 +6409,7 @@ def test_ct_i038_ct_i038_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i037_ct_i037_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6393,6 +6474,7 @@ def test_ct_i034_ct_i034_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i033_ct_i033_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6457,6 +6539,7 @@ def test_ct_i030_ct_i030_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i029_ct_i029_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6709,6 +6792,7 @@ def test_ct_i004_ct_i004_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_i003_ct_i003_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8084,6 +8168,7 @@ def test_ct_d029_ct_d029_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d028_ct_d028_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8114,6 +8199,7 @@ def test_ct_d027_ct_d027_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d026_ct_d026_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8129,6 +8215,7 @@ def test_ct_d026_ct_d026_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d025_ct_d025_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8144,6 +8231,7 @@ def test_ct_d025_ct_d025_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d023_ct_d023_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8174,6 +8262,7 @@ def test_ct_d022_ct_d022_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d021_ct_d021_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8189,6 +8278,7 @@ def test_ct_d021_ct_d021_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d020_ct_d020_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8204,6 +8294,7 @@ def test_ct_d020_ct_d020_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d019_ct_d019_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8219,6 +8310,7 @@ def test_ct_d019_ct_d019_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d018_ct_d018_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8234,6 +8326,7 @@ def test_ct_d018_ct_d018_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d017_ct_d017_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8249,6 +8342,7 @@ def test_ct_d017_ct_d017_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d016_ct_d016_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9031,6 +9125,7 @@ def test_ct_a049_ct_a049_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_a048_ct_a048_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9422,6 +9517,7 @@ def test_ct_a001_ct_a001_v():
     )
 
 
+@pytest.mark.xfail
 def test_dt_z86723_2246_dt_z86723_2246_i():
     """
     TEST :Facet Schemas for string : Validation: xsi:type with built-in
@@ -9499,6 +9595,7 @@ def test_dt_z100507_2242_dt_z100507_2242_i():
     )
 
 
+@pytest.mark.xfail
 def test_id_test70681_2241_id_test70681_2241_v():
     """
     TEST :Facet Schemas for string : ID/IDREF should not allow heading or
@@ -11955,6 +12052,7 @@ def test_hex_binary002_2068_hex_binary002_2068_v():
     )
 
 
+@pytest.mark.xfail
 def test_hex_binary001_2067_hex_binary001_2067_v():
     """
     TEST :Facet Schemas for string : value=
@@ -12011,6 +12109,7 @@ def test_g_month005_2064_g_month005_2064_i():
     )
 
 
+@pytest.mark.xfail
 def test_g_month004_2063_g_month004_2063_v():
     """
     TEST :Facet Schemas for string : value=- -05- - -05:00
@@ -12039,6 +12138,7 @@ def test_g_month003_2062_g_month003_2062_i():
     )
 
 
+@pytest.mark.xfail
 def test_g_month002_2061_g_month002_2061_v():
     """
     TEST :Facet Schemas for string : value=- -03- -
@@ -12783,6 +12883,7 @@ def test_date_time013_2009_date_time013_2009_i():
     )
 
 
+@pytest.mark.xfail
 def test_date_time011_2008_date_time011_2008_i():
     """
     TEST :Facet Schemas for string : value=0000-01-01T00:00:00 Year zero

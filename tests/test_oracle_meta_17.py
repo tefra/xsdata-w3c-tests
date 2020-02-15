@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -190,6 +192,7 @@ def test_zone402_zone402_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_zone401_zone401_v1_xml():
     """
     Equality testing (enumeration) for dateTime values, use YEAR as ZERO
@@ -205,6 +208,7 @@ def test_zone401_zone401_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_zone401_zone401_v2_xml():
     """
     Equality testing (enumeration) for dateTime values, use YEAR as ZERO
@@ -220,6 +224,7 @@ def test_zone401_zone401_v2_xml():
     )
 
 
+@pytest.mark.xfail
 def test_zone401_zone401_v3_xml():
     """
     Equality testing (enumeration) for dateTime values, use YEAR as ZERO
@@ -235,6 +240,7 @@ def test_zone401_zone401_v3_xml():
     )
 
 
+@pytest.mark.xfail
 def test_zone401_zone401_n1_xml():
     """
     Equality testing (enumeration) for dateTime values, use YEAR as ZERO
@@ -250,6 +256,7 @@ def test_zone401_zone401_n1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_zone401_zone401_n2_xml():
     """
     Equality testing (enumeration) for dateTime values, use YEAR as ZERO

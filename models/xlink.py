@@ -3,19 +3,6 @@ from dataclasses import dataclass, field
 from typing import List, Optional
 
 
-class Actuate(Enum):
-    """
-    :cvar ON_LOAD:
-    :cvar ON_REQUEST:
-    :cvar OTHER:
-    :cvar NONE_VALUE:
-    """
-    ON_LOAD = "onLoad"
-    ON_REQUEST = "onRequest"
-    OTHER = "other"
-    NONE_VALUE = "none"
-
-
 class ActuateType(Enum):
     """
     :cvar ON_LOAD:
@@ -315,21 +302,6 @@ class ResourceType:
     )
 
 
-class Show(Enum):
-    """
-    :cvar NEW:
-    :cvar REPLACE:
-    :cvar EMBED:
-    :cvar OTHER:
-    :cvar NONE_VALUE:
-    """
-    NEW = "new"
-    REPLACE = "replace"
-    EMBED = "embed"
-    OTHER = "other"
-    NONE_VALUE = "none"
-
-
 class ShowType(Enum):
     """
     :cvar NEW:
@@ -468,23 +440,6 @@ class TitleEltType:
             type="Attribute"
         )
     )
-
-
-class Type(Enum):
-    """
-    :cvar SIMPLE:
-    :cvar EXTENDED:
-    :cvar TITLE:
-    :cvar RESOURCE:
-    :cvar LOCATOR:
-    :cvar ARC:
-    """
-    SIMPLE = "simple"
-    EXTENDED = "extended"
-    TITLE = "title"
-    RESOURCE = "resource"
-    LOCATOR = "locator"
-    ARC = "arc"
 
 
 class TypeType(Enum):

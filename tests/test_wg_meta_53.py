@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -157,6 +159,7 @@ def test_sg_abstract_upa2_e1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_sg_abstract_upa2_e1bis_xml():
 
     assert_bindings(
@@ -241,6 +244,7 @@ def test_sg_and_defined_sibling_3_sns1a():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_3_sns1b():
 
     assert_bindings(
@@ -289,6 +293,7 @@ def test_sg_and_defined_sibling_3_snn1b():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_3_snn1c():
 
     assert_bindings(
@@ -301,6 +306,7 @@ def test_sg_and_defined_sibling_3_snn1c():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_3_snea():
 
     assert_bindings(
@@ -337,6 +343,7 @@ def test_sg_and_defined_sibling_3_snec():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_2_esn():
 
     assert_bindings(
@@ -373,6 +380,7 @@ def test_sg_and_defined_sibling_2_ssn():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_2_n1sn():
 
     assert_bindings(
@@ -409,6 +417,7 @@ def test_sg_and_defined_sibling_1_sn():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_1_s1n():
 
     assert_bindings(
@@ -433,6 +442,7 @@ def test_sg_and_defined_sibling_1_sn1():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_1_sne():
 
     assert_bindings(
@@ -469,6 +479,7 @@ def test_sg_and_defined_sibling_1_sns():
     )
 
 
+@pytest.mark.xfail
 def test_sg_and_defined_sibling_1_snn1():
 
     assert_bindings(

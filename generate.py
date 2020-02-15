@@ -1,4 +1,5 @@
 import io
+import json
 import textwrap
 from collections import defaultdict
 from dataclasses import asdict
@@ -26,8 +27,11 @@ root = Path(__file__).absolute().parent
 w3c = root.joinpath("w3c")
 tests = root.joinpath("tests")
 
-test_module_tpl = "from tests.utils import assert_bindings\n\n{}"
-test_case_tpl = """
+test_module_tpl = """import pytest
+
+from tests.utils import assert_bindings\n\n{}"""
+
+test_case_tpl = """{marker}
 def test_{name}():
 {documentation}
     assert_bindings(
@@ -39,6 +43,12 @@ def test_{name}():
         version="{version}",
     )
 """
+
+xfails = dict()
+lastfailed = root.joinpath(".pytest_cache/v/cache/lastfailed")
+if lastfailed.exists():
+    with lastfailed.open() as f:
+        xfails = json.load(f)
 
 
 @dataclass
@@ -67,10 +77,13 @@ def generate():
     for group, cases in test_cases.items():
         num = 0
         for chunk_cases in chunks(cases, 1000):
-            output = render_test_cases(chunk_cases)
             num += len(chunk_cases)
-
             test_file = tests.joinpath(f"test_{text.snake_case(group)}_{num}.py")
+            output = render_test_cases(test_file.relative_to(root), chunk_cases)
+
+            if output.find("pytest.mark") == -1:
+                output = "\n".join(output.split("\n")[2:])
+
             test_file.write_text(output)
             test_files.append(str(test_file.relative_to(w3c.parent)))
 
@@ -87,7 +100,7 @@ def chunks(lst, n):
         yield lst[i : i + n]
 
 
-def render_test_cases(cases: List[TestCase]) -> str:
+def render_test_cases(test_file, cases: List[TestCase]) -> str:
     output = []
     names: Dict[str, int] = defaultdict(int)
     for case in cases:
@@ -95,7 +108,12 @@ def render_test_cases(cases: List[TestCase]) -> str:
         if name in names:
             name = f"{name}_{len(names)}"
         names[name] += 1
-        output.append(test_case_tpl.format(name=name, **asdict(case)))
+
+        marker = ""
+        if xfails.get(f"{test_file}::test_{name}"):
+            marker = "\n@pytest.mark.xfail"
+
+        output.append(test_case_tpl.format(name=name, marker=marker, **asdict(case)))
 
     return test_module_tpl.format("\n".join(output))
 

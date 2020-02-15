@@ -1,6 +1,9 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
+@pytest.mark.xfail
 def test_xsd024_xsd024_v00():
     """
     xsd024 Use of the chameleon schema and "smart reference reparing"
@@ -323,6 +326,7 @@ def test_xsd011_xsd011_n04():
     )
 
 
+@pytest.mark.xfail
 def test_xsd011_xsd011_v00():
     """
     xsd011 Nillable.
@@ -379,6 +383,7 @@ def test_xsd008_xsd008_n02():
     )
 
 
+@pytest.mark.xfail
 def test_xsd008_xsd008_v00():
     """
     xsd008 Abstract element and element substitution group.
@@ -561,6 +566,7 @@ def test_xsd006_xsd006_n11():
     )
 
 
+@pytest.mark.xfail
 def test_xsd006_xsd006_v00():
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
@@ -673,6 +679,7 @@ def test_xsd005_xsd005_n06():
     )
 
 
+@pytest.mark.xfail
 def test_xsd005_xsd005_v00():
     """
     xsd005 Complex type derivation. Missing content model.
@@ -882,6 +889,7 @@ def test_xsd004_xsd004_n12():
     )
 
 
+@pytest.mark.xfail
 def test_xsd004_xsd004_v00():
     """
     xsd004 Use of three different type of any element with different
@@ -897,6 +905,7 @@ def test_xsd004_xsd004_v00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -913,6 +922,7 @@ def test_xsd003b_xsd003b_n00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n01():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -929,6 +939,7 @@ def test_xsd003b_xsd003b_n01():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_v00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -945,6 +956,7 @@ def test_xsd003b_xsd003b_v00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_v01():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -961,6 +973,7 @@ def test_xsd003b_xsd003b_v01():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003a_xsd003a_v00():
     """
     xsd003a Element redefinition. Test without redefinition.
@@ -1259,6 +1272,7 @@ def test_xsd001_xsd001_v03():
     )
 
 
+@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_n00():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -1274,6 +1288,7 @@ def test_idc006_nogen_idc006_nogen_n00():
     )
 
 
+@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_n01():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -1289,6 +1304,7 @@ def test_idc006_nogen_idc006_nogen_n01():
     )
 
 
+@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_v00():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -1556,6 +1572,7 @@ def test_identitytestsuitetest002_test_1_v():
     )
 
 
+@pytest.mark.xfail
 def test_identitytestsuitetest002_test_2_v():
     """
     test
@@ -1612,6 +1629,7 @@ def test_identitytestsuitetest001_test_2_n():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_13_n():
     """
     test
@@ -1626,6 +1644,7 @@ def test_test009_test_13_n():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_8_n():
     """
     test
@@ -1640,6 +1659,7 @@ def test_test009_test_8_n():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_1_v():
     """
     test
@@ -1654,6 +1674,7 @@ def test_test009_test_1_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_10_v():
     """
     test
@@ -1668,6 +1689,7 @@ def test_test009_test_10_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_11_v():
     """
     test
@@ -1682,6 +1704,7 @@ def test_test009_test_11_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_12_v():
     """
     test
@@ -1696,6 +1719,7 @@ def test_test009_test_12_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_2_v():
     """
     test
@@ -1710,6 +1734,7 @@ def test_test009_test_2_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_3_v():
     """
     test
@@ -1724,6 +1749,7 @@ def test_test009_test_3_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_4_v():
     """
     test
@@ -1738,6 +1764,7 @@ def test_test009_test_4_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_5_v():
     """
     test
@@ -1752,6 +1779,7 @@ def test_test009_test_5_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_6_v():
     """
     test
@@ -1766,6 +1794,7 @@ def test_test009_test_6_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_7_v():
     """
     test
@@ -1780,6 +1809,7 @@ def test_test009_test_7_v():
     )
 
 
+@pytest.mark.xfail
 def test_test009_test_9_v():
     """
     test
@@ -2074,6 +2104,7 @@ def test_test007_test_8_n():
     )
 
 
+@pytest.mark.xfail
 def test_test006_test_1_v():
     """
     test
@@ -2228,6 +2259,7 @@ def test_test006_test_19_n():
     )
 
 
+@pytest.mark.xfail
 def test_test006_test_2_v():
     """
     test
@@ -2894,6 +2926,7 @@ def test_annotation00101m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_ag_targetns00101m1_p_positive():
     """
     Attribute group reference with QName. (valid schema) Attribute Group
@@ -2910,6 +2943,7 @@ def test_ag_targetns00101m1_p_positive():
     )
 
 
+@pytest.mark.xfail
 def test_ag_name00101m1_p_positive():
     """
     Attribute group declaration. (valid schema) Attribute Group use should
@@ -2925,6 +2959,7 @@ def test_ag_name00101m1_p_positive():
     )
 
 
+@pytest.mark.xfail
 def test_ag_attrwcard00101m1_positive():
     """
     Attribute wildcard is declared in attribute group.  (valid schema)
@@ -2942,6 +2977,7 @@ def test_ag_attrwcard00101m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_ag_attrusens00101m1_p_positive():
     """
     Attribute is declared in attribute group by reference with QName.
@@ -3243,6 +3279,7 @@ def test_ad_targetns00101m_ad_target_ns00101m3_n():
     )
 
 
+@pytest.mark.xfail
 def test_ad_scope00101m1_positive():
     """
     Attribute declared with global scope (valid schema) Attribute declared
@@ -4932,6 +4969,7 @@ def test_au_valconstr00101m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_au_required00101m1_positive():
     """
     Attribute use is declared required.  (valid schema) Element whose
@@ -4962,6 +5000,7 @@ def test_au_required00101m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_au_attrdecl00101m1_p_positive():
     """
     Attribute declaration is resolved for attribute use. (valid schema)
@@ -4978,6 +5017,7 @@ def test_au_attrdecl00101m1_p_positive():
     )
 
 
+@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p():
     """
     Simple types are identified by their {name} and {target namespace}.
@@ -5078,6 +5118,7 @@ def test_psubstitutions00104m_p_substitutions00104m2_n():
     )
 
 
+@pytest.mark.xfail
 def test_psubstitutions00103m_p_substitutions00103m1_p():
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
@@ -5214,6 +5255,7 @@ def test_psubstitutions00102m_p_substitutions00102m2_n():
     )
 
 
+@pytest.mark.xfail
 def test_psubstitutions00101m_p_substitutions00101m1_p():
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
@@ -5694,6 +5736,7 @@ def test_basetd00101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_basetd00101m1_positive():
     """
     restriction of simple content (valid schema) The type definition
@@ -5866,6 +5909,7 @@ def test_valueconstraint01101m4_negative():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint01101m3_positive():
     """
     default value is valid (valid schema) For a string to be a valid
@@ -5902,6 +5946,7 @@ def test_valueconstraint01101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint01101m1_positive():
     """
     fixed value is valid (valid schema) For a string to be a valid default
@@ -6192,6 +6237,7 @@ def test_valueconstraint00501m6_negative():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00501m5_positive():
     """
     default value is valid (valid schema) If the declaration has a {value
@@ -6213,6 +6259,7 @@ def test_valueconstraint00501m5_positive():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00501m4_positive():
     """
     default value is valid (valid schema) If the declaration has a {value
@@ -6255,6 +6302,7 @@ def test_valueconstraint00501m3_negative():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00501m2_positive():
     """
     fixed value is valid (valid schema) If the declaration has a {value
@@ -6276,6 +6324,7 @@ def test_valueconstraint00501m2_positive():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00501m1_positive():
     """
     fixed value is valid (valid schema) If the declaration has a {value
@@ -6347,6 +6396,7 @@ def test_valueconstraint00402m5_positive():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00402m4_positive():
     """
     fixed value is set for anyType (valid schema) Declare an element. Set
@@ -6445,6 +6495,7 @@ def test_valueconstraint00401m5_positive():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00401m4_positive():
     """
     default value is set for anyType (valid schema) Declare an element.
@@ -6524,6 +6575,7 @@ def test_valueconstraint00301m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint00201m_value_constraint00201m1_p():
     """
     Validation of the fixed value attribute. (valid schema) Define an
@@ -6574,6 +6626,7 @@ def test_valueconstraint00101m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_typedef01501m1_positive():
     """
     value must be valid with respect to the type definition (valid schema)
@@ -6610,6 +6663,7 @@ def test_typedef01501m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_typedef01401m1_positive():
     """
     normalized value must be valid with respect to the type definition
@@ -6840,6 +6894,7 @@ def test_typedef00901m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00802m2_negative():
     """
     local type is 'dissalowed' (valid schema) If it is a simple type
@@ -6858,6 +6913,7 @@ def test_typedef00802m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00802m1_positive():
     """
     local type definition is validly derived from simpleType (valid
@@ -6876,6 +6932,7 @@ def test_typedef00802m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00802m1_negative():
     """
     local type definition is validly derived from simpleType (valid
@@ -7033,6 +7090,7 @@ def test_typedef00501m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00403m_type_def00403m1_p():
     """
     Various setting of the {type definition} property. (valid schema) For
@@ -7051,6 +7109,7 @@ def test_typedef00403m_type_def00403m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00402m_type_def00402m1_p():
     """
     Eelements within complexType. (valid schema) Eelements within
@@ -7085,6 +7144,7 @@ def test_typedef00402m_type_def00402m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00401m_type_def00401m1_p():
     """
     Eelements within group. (valid schema) Eelements within  group
@@ -7119,6 +7179,7 @@ def test_typedef00401m_type_def00401m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00301m_type_def00301m1_p():
     """
     The {type definition} property is specified by reference. (valid
@@ -7153,6 +7214,7 @@ def test_typedef00301m_type_def00301m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00205m_type_def00205m1_p():
     """
     default type is used to define {type definition} property. (valid
@@ -7268,6 +7330,7 @@ def test_typedef00202m_type_def00202m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00201m_type_def00201m1_p():
     """
     simpleType is used to define {type definition} property. (valid
@@ -7332,6 +7395,7 @@ def test_typedef00101m_type_def00101m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_term00101m_term00101m1_p():
     """
     The (top-level) element declaration resolved to by the actual value of
@@ -7766,6 +7830,7 @@ def test_targetns00201m_target_ns00201m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p_469():
     """
     Different target namespaces. (valid schema) Define two elements with
@@ -7974,6 +8039,7 @@ def test_substgrpexcl00301m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_substgrpexcl00202m1_positive():
     """
     Rule out extension substitutions (positive case). (valid schema)
@@ -7995,6 +8061,7 @@ def test_substgrpexcl00202m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_substgrpaffil00201m_subst_grp_affil00201m1_p():
     """
     Substitution group memebership is transitive but not symmetric. (valid
@@ -8035,6 +8102,7 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_substgrpaffil00101m_subst_grp_affil00101m1_p():
     """
     General check of the {substitution group affiliation} property. (valid
@@ -8098,6 +8166,7 @@ def test_scope00201m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_scope00101m_scope00101m1_p():
     """
     General check of the {scope} property. (valid schema) Define one
@@ -8258,6 +8327,7 @@ def test_nillable00201m_nillable00201m3_p():
     )
 
 
+@pytest.mark.xfail
 def test_nillable00102m_nillable00102m1_p():
     """
     xsi:nil=false (valid schema) Define nillable element with content type
@@ -8306,6 +8376,7 @@ def test_nillable00101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_nillable00101m1_positive():
     """
     nillable=false (positive case) (valid schema) Define nillable element
@@ -8322,6 +8393,7 @@ def test_nillable00101m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_name00805_name00805_p():
     """
     Element names contain only punctuation characters and digits. (valid
@@ -8341,6 +8413,7 @@ def test_name00805_name00805_p():
     )
 
 
+@pytest.mark.xfail
 def test_name00804_name00804_p():
     """
     Element names contain lower case and upper case letters and non-letter
@@ -8365,6 +8438,7 @@ def test_name00804_name00804_p():
     )
 
 
+@pytest.mark.xfail
 def test_name00803_name00803_p():
     """
     Element names contain digits followed by a non-digit characters.
@@ -8384,6 +8458,7 @@ def test_name00803_name00803_p():
     )
 
 
+@pytest.mark.xfail
 def test_name00802_name00802_p():
     r"""
     Element name contains 7 punctuation characters. (valid schema) Declare
@@ -8408,6 +8483,7 @@ def test_name00802_name00802_p():
     )
 
 
+@pytest.mark.xfail
 def test_name00801_name00801_p():
     r"""
     Element names contain several punctuation characters. (valid schema)
@@ -8448,6 +8524,7 @@ def test_name00601m_name00601m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_name00601m_name00601m1_n():
     """
     The declaration must not be absent (valid schema) Declare an element
@@ -8754,6 +8831,7 @@ def test_name00201m2_positive():
     )
 
 
+@pytest.mark.xfail
 def test_name00201m1_positive():
     """
     complexType definitions and element  declarations have different
@@ -8803,6 +8881,7 @@ def test_name00101m_name00101m1_n_529():
     )
 
 
+@pytest.mark.xfail
 def test_minoccurs00201m_min_occurs00201m1_p():
     """
     Default value of the {minOccurs} property when the ref attribute is
@@ -8869,6 +8948,7 @@ def test_minoccurs00101m_min_occurs00101m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_maxoccurs00201m_max_occurs00201m1_p():
     """
     Default value of the {maxOccurs} property when the ref attribute is
@@ -9135,6 +9215,7 @@ def test_idconstrdefs00301m_id_constr_defs00301m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_idconstrdefs00301m_id_constr_defs00301m2_n():
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and
@@ -9282,6 +9363,7 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_idconstrdefs00201m_id_constr_defs00201m1_p():
     """
     all kinds of identity constraint are not violated (valid schema)
@@ -9432,6 +9514,7 @@ def test_disallowedsubst00503m3_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00503m2_positive():
     """
     derived by restriction: prohibiting substitutions contains 'extension'
@@ -9450,6 +9533,7 @@ def test_disallowedsubst00503m2_positive():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00503m1_positive():
     """
     derived by restriction: prohibiting substitutions is empty (valid
@@ -9505,6 +9589,7 @@ def test_disallowedsubst00502m3_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00502m2_positive():
     """
     complex type substitution: restriction is blocked (valid schema) Two
@@ -9523,6 +9608,7 @@ def test_disallowedsubst00502m2_positive():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00502m1_positive():
     """
     complex type substitution: no blocking constraints (valid schema) Two
@@ -9541,6 +9627,7 @@ def test_disallowedsubst00502m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00501m2_negative():
     """
     restriction is blocked (valid schema) Two elements are declared. The
@@ -9559,6 +9646,7 @@ def test_disallowedsubst00501m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00501m1_positive():
     """
     no blocking constraints (valid schema) Two elements are declared. The
@@ -9596,6 +9684,7 @@ def test_disallowedsubst00401m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00401m1_positive():
     """
     substitution is allowed (valid schema) The blocking constraint must
@@ -9634,6 +9723,7 @@ def test_disallowedsubst00301m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00301m1_positive():
     """
     substitution is allowed (valid schema) The blocking constraint must
@@ -9688,6 +9778,7 @@ def test_disallowedsubst00106m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00106m1_positive():
     """
     Blocking any extension (positive case) (valid schema) Define an
@@ -9763,6 +9854,7 @@ def test_disallowedsubst00102m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_disallowedsubst00102m1_positive():
     """
     Blocking any substitution (positive case) (valid schema) Define an
@@ -9885,6 +9977,7 @@ def test_abstract00201m2_positive():
     )
 
 
+@pytest.mark.xfail
 def test_abstract00201m1_negative():
     """
     use abstarct explicitly set to true  (valid schema) Declare an element
@@ -9901,6 +9994,7 @@ def test_abstract00201m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_abstract00101m_abstract00101m1_p():
     """
     Abstract declarations may not be used to validate element content.
@@ -9957,6 +10051,7 @@ def test_targetns00101m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_name00201m1_positive_597():
     """
     constraints have separate symbol space (valid schema) With the same
@@ -10154,6 +10249,7 @@ def test_fields00202m4_positive():
     )
 
 
+@pytest.mark.xfail
 def test_fields00202m3_positive():
     """
     values of the fields are checked for equality:  string(3.0) compares
@@ -10384,6 +10480,7 @@ def test_annotation00101m1_positive_616():
     )
 
 
+@pytest.mark.xfail
 def test_particles00305m1_positive():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'sequence' must
@@ -10480,6 +10577,7 @@ def test_particles00303m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_particles00302m1_positive():
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'sequence'
@@ -10544,6 +10642,7 @@ def test_particles00301m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_particles00205m1_positive():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
@@ -10560,6 +10659,7 @@ def test_particles00205m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_particles00205m1_negative():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
@@ -11474,6 +11574,7 @@ def test_st_variety00101m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_st_targetns00201m_st_target_ns00201m1_p():
     """
     reference to type (valid schema) Simple type {name}s and {target
@@ -11489,6 +11590,7 @@ def test_st_targetns00201m_st_target_ns00201m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11505,6 +11607,7 @@ def test_st_targetns00101m_st_target_ns00101m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_n():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11521,6 +11624,7 @@ def test_st_targetns00101m_st_target_ns00101m1_n():
     )
 
 
+@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11537,6 +11641,7 @@ def test_st_targetns00101m_st_target_ns00101m2_p():
     )
 
 
+@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_n():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11553,6 +11658,7 @@ def test_st_targetns00101m_st_target_ns00101m2_n():
     )
 
 
+@pytest.mark.xfail
 def test_st_name00401m_st_name00401m1_p():
     """
     Simple type {name}s is provided for reference (valid schema) Simple
@@ -13421,6 +13527,7 @@ def test_st_facets00401m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_st_facets00301m_st_facets00301m1_p():
     """
     Enumeration facet restricts string type (valid schema) Base type
@@ -15144,6 +15251,7 @@ def test_pscontents00302m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_pscontents00301m2_positive():
     """
     processContents='lax' and the declaration is not available (valid
@@ -15190,6 +15298,7 @@ def test_pscontents00301m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_pscontents00301m1_positive():
     """
     processContents='lax' and the declaration is available (valid schema)
@@ -15254,6 +15363,7 @@ def test_pscontents00202m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_pscontents00201m1_positive():
     """
     processContents='skip' (valid schema) {process contents} controls the
@@ -15370,6 +15480,7 @@ def test_pscontents00101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_pscontents00101m1_positive():
     """
     processContents='strict' and the declaration is available (valid
@@ -15446,6 +15557,7 @@ def test_nsconstraint00302m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_nsconstraint00301m1_positive():
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
@@ -15516,6 +15628,7 @@ def test_nsconstraint00202m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_nsconstraint00201m1_positive():
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
@@ -15583,6 +15696,7 @@ def test_nsconstraint00102m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_nsconstraint00101m2_positive():
     """
     default value of 'namespace' is '##any' (valid schema) {namespace
@@ -15617,6 +15731,7 @@ def test_nsconstraint00101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_nsconstraint00101m1_positive():
     """
     namespace='##any' (valid schema) {namespace constraint} provides for

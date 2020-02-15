@@ -14,9 +14,9 @@ from xsdata.reducer import reducer
 from xsdata.utils import text
 from xsdata.writer import writer
 
-from generate import w3c
-
 log = logging.getLogger()
+
+w3c = Path(__file__).absolute().parent.parent.joinpath("w3c")
 os.chdir(w3c.parent)
 
 
@@ -31,6 +31,8 @@ def assert_bindings(
     __tracebackhide__ = True
     if not schema:
         pytest.skip("No schema for code generator")
+
+    # pytest.xfail
 
     reducer.common_types.clear()
     writer.register_generator("pydata", DataclassGenerator())
@@ -81,5 +83,8 @@ def get_validator(path: Path, version, is_valid):
 
 
 def load_class(module_name, clazz_name):
-    module = importlib.import_module(module_name)
-    return getattr(module, clazz_name)
+    try:
+        module = importlib.import_module(module_name)
+        return getattr(module, clazz_name)
+    except Exception as e:
+        pytest.fail(f"Failed to load class name {module_name}::{clazz_name}")

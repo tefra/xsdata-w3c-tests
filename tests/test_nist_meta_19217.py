@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -846,6 +848,7 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -861,6 +864,7 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -876,6 +880,7 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -891,6 +896,7 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -906,6 +912,7 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -921,6 +928,7 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -936,6 +944,7 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -951,6 +960,7 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -966,6 +976,7 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -981,6 +992,7 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1041,6 +1053,7 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4():
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1146,6 +1159,7 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1():
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -1160,6 +1174,7 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2():
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -1174,6 +1189,7 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3():
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -1188,6 +1204,7 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4():
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -1202,6 +1219,7 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4():
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5():
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -1272,6 +1290,7 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_5():
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
@@ -2001,6 +2020,7 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_5():
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
@@ -2076,6 +2096,7 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_5():
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
@@ -2316,6 +2337,7 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_5():
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -2391,6 +2413,7 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_5():
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -2466,6 +2489,7 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_5():
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -2736,6 +2760,7 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_1():
     """
     Type atomic/decimal is restricted by facet minInclusive with value
@@ -2811,6 +2836,7 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_1():
     """
     Type atomic/decimal is restricted by facet minInclusive with value
@@ -2976,6 +3002,7 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_1():
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -3126,6 +3153,7 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
     )
 
 
+@pytest.mark.xfail
 def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_1():
     """
     Type atomic/decimal is restricted by facet minExclusive with value

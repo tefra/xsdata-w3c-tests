@@ -416,7 +416,6 @@ def test_all006_all006_n04_xml():
     )
 
 
-@pytest.mark.xfail
 def test_all005_all005_v01_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -4397,7 +4396,6 @@ def test_id019_id019_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_id019_id019_v02_xml():
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4458,7 +4456,6 @@ def test_id018_id018_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_id018_id018_v02_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4474,7 +4471,6 @@ def test_id018_id018_v02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_id018_id018_v03_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4535,7 +4531,6 @@ def test_id017_id017_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_id017_id017_v02_xml():
     """
     ENTITY attribute with default value ENTITY attribute with default

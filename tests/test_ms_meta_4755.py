@@ -1031,7 +1031,6 @@ def test_re_k4_re_k4_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_k3_re_k3_v():
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='',
@@ -4685,7 +4684,6 @@ def test_re_e13_re_e13_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_e10_re_e10_v():
     """
     TEST :branch : base='string', pattern='|', value='', type='error',
@@ -5042,7 +5040,6 @@ def test_re_c71_re_c71_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_c70_re_c70_v():
     """
     TEST :branch : base='string', pattern='ab{0,0}', value='',
@@ -5785,7 +5782,6 @@ def test_re_c17_re_c17_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_c16_re_c16_v():
     """
     TEST :branch : base='string', pattern='(a{2})*', value='',
@@ -5966,7 +5962,6 @@ def test_re_c5_re_c5_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_c4_re_c4_v():
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='',
@@ -5997,7 +5992,6 @@ def test_re_c3_re_c3_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_c2_re_c2_v():
     """
     TEST :branch : base='string', pattern='a{0}', value='', type='valid',
@@ -8526,7 +8520,6 @@ def test_st_z035_st_z035_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_z034_st_z034_i():
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine
@@ -8560,7 +8553,6 @@ def test_st_z033_st_z033_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_z032_st_z032_i():
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine
@@ -8688,7 +8680,6 @@ def test_st_h008_st_h008_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_h007_st_h007_v():
     """
     TEST :Syntax Checking for simpleType Declaration : union derived from
@@ -8853,7 +8844,6 @@ def test_st_g011_st_g011_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_g010_st_g010_v():
     """
     TEST :Syntax Checking for simpleType Declaration : list of NMTOKEN

@@ -1696,7 +1696,6 @@ def test_id_z008_id_z008_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_z007_id_z007_v():
     """
     TEST :Identity-constraint Definition Schema Component : Values of
@@ -3736,7 +3735,6 @@ def test_id_h031_id_h031_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_h030_id_h030_v():
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -3818,7 +3816,6 @@ def test_id_h026_id_h026_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_h025_id_h025_v():
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -4199,7 +4196,6 @@ def test_id_g028_id_g028_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_g027_id_g027_v():
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -4215,7 +4211,6 @@ def test_id_g027_id_g027_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_g026_id_g026_v():
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5458,7 +5453,6 @@ def test_mg_o036_mg_o036_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_o034_mg_o034_v():
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',
@@ -12619,7 +12613,6 @@ def test_particles_ja001_particles_ja001_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ik026_particles_ik026_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -12637,7 +12630,6 @@ def test_particles_ik026_particles_ik026_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ik012_particles_ik012_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -12911,6 +12903,7 @@ def test_particles_if006_particles_if006_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_if005_particles_if005_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -12978,7 +12971,6 @@ def test_particles_if002_particles_if002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_if001_particles_if001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

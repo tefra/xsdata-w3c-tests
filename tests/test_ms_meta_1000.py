@@ -18,7 +18,6 @@ def test_member_type024_member_type024_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type023_member_type023_v():
     """
     TEST :Adhoc XSD: : Attribute of union of user defined
@@ -142,7 +141,6 @@ def test_member_type004_member_type004_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type003_member_type003_v():
     """
     TEST :Adhoc XSD: : Attribute: membertype of union(bool,int,string)
@@ -623,7 +621,6 @@ def test_is_default027_is_default027_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default026_is_default026_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -639,7 +636,6 @@ def test_is_default026_is_default026_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default025_is_default025_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -715,7 +711,6 @@ def test_is_default021_is_default021_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default011_is_default011_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -731,7 +726,6 @@ def test_is_default011_is_default011_i():
     )
 
 
-@pytest.mark.xfail
 def test_is_default010_is_default010_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -747,7 +741,6 @@ def test_is_default010_is_default010_i():
     )
 
 
-@pytest.mark.xfail
 def test_is_default009_is_default009_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -763,7 +756,6 @@ def test_is_default009_is_default009_i():
     )
 
 
-@pytest.mark.xfail
 def test_is_default008_is_default008_i():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -795,7 +787,6 @@ def test_is_default007_is_default007_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default006_is_default006_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -811,7 +802,6 @@ def test_is_default006_is_default006_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default005_is_default005_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -2909,7 +2899,6 @@ def test_attg_d042_attg_d042_i():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d036_attg_d036_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -2927,7 +2916,6 @@ def test_attg_d036_attg_d036_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d035_attg_d035_i():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -3272,7 +3260,6 @@ def test_attg_d003_attg_d003_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_c038_attg_c038_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3290,7 +3277,6 @@ def test_attg_c038_attg_c038_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_c037_attg_c037_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3308,7 +3294,6 @@ def test_attg_c037_attg_c037_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_c036_attg_c036_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3325,7 +3310,6 @@ def test_attg_c036_attg_c036_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_c035_attg_c035_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -12052,7 +12036,6 @@ def test_hex_binary002_2068_hex_binary002_2068_v():
     )
 
 
-@pytest.mark.xfail
 def test_hex_binary001_2067_hex_binary001_2067_v():
     """
     TEST :Facet Schemas for string : value=

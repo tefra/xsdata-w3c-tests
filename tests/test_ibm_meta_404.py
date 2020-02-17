@@ -236,7 +236,6 @@ def test_assert_034_assert_034_3():
     )
 
 
-@pytest.mark.xfail
 def test_assert_033_assert_033_2():
     """
     Demonstrating assertions on memberTypes of xs:union.
@@ -251,7 +250,6 @@ def test_assert_033_assert_033_2():
     )
 
 
-@pytest.mark.xfail
 def test_assert_032_assert_032_2():
     """
     This is similar to example "assert_031", but here both of memberTypes
@@ -314,7 +312,6 @@ def test_assert_031_assert_031_3():
     )
 
 
-@pytest.mark.xfail
 def test_assert_031_assert_031_4():
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -3534,7 +3531,6 @@ def test_s3_3_4v12_s3_3_4v12i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_3_4v11_s3_3_4v11i():
     """
     Unions involving ID
@@ -3619,7 +3615,6 @@ def test_s3_3_4v06_s3_3_4v06i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_3_4v05_s3_3_4v05i():
     """
     xs:ENTITY with default value on attribute

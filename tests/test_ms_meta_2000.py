@@ -10335,7 +10335,6 @@ def test_date_time_max_inclusive001_1131_date_time_max_inclusive001_1131_v():
     )
 
 
-@pytest.mark.xfail
 def test_date_time_enumeration005b_1130_date_time_enumeration005b_1130_v():
     """
     TEST :Facet Schemas for string : XSD: XsdDateTime comparison of
@@ -10351,7 +10350,6 @@ def test_date_time_enumeration005b_1130_date_time_enumeration005b_1130_v():
     )
 
 
-@pytest.mark.xfail
 def test_date_time_enumeration005a_1129_date_time_enumeration005a_1129_v():
     """
     TEST :Facet Schemas for string : XSD: XsdDateTime comparison of

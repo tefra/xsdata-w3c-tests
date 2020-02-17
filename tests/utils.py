@@ -1,3 +1,4 @@
+import functools
 import importlib
 import logging
 import os
@@ -32,8 +33,6 @@ def assert_bindings(
     if not schema:
         pytest.skip("No schema for code generator")
 
-    # pytest.xfail
-
     reducer.common_types.clear()
     writer.register_generator("pydata", DataclassGenerator())
 
@@ -41,8 +40,7 @@ def assert_bindings(
     schema_path_absolute = w3c.joinpath(schema)
 
     package = f"tests.output.{'.'.join(map(text.snake_case, schema_path.parent.parts))}"
-    runner = CliRunner()
-    result = runner.invoke(cli, [str(w3c.joinpath(schema)), f"--package={package}"])
+    result = generate_models(str(w3c.joinpath(schema)), package)
 
     if is_valid and result.exception:
         raise result.exception
@@ -71,7 +69,14 @@ def assert_bindings(
                 raise e
 
 
-def get_validator(path: Path, version, is_valid):
+@functools.lru_cache(maxsize=5)
+def generate_models(xsd: str, package: str):
+    runner = CliRunner()
+    return runner.invoke(cli, [xsd, f"--package={package}"])
+
+
+@functools.lru_cache(maxsize=5)
+def get_validator(path: Path, version: str, is_valid: bool):
     try:
         schema_class = (
             xmlschema.XMLSchema11 if version == "1.1" else xmlschema.XMLSchema10

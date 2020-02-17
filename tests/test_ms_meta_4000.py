@@ -5974,7 +5974,6 @@ def test_re_da10_re_da10_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_da9_re_da9_v():
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='1',

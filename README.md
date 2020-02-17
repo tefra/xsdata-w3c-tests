@@ -7,4 +7,4 @@ suite.
 
 # Report
 
-1985 failed, 24244 passed, 95 skipped, 13 warnings
+1933 failed, 24294 passed, 97 skipped, 11 warnings

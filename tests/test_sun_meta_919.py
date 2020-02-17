@@ -1272,7 +1272,6 @@ def test_xsd001_xsd001_v03():
     )
 
 
-@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_n00():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -1288,7 +1287,6 @@ def test_idc006_nogen_idc006_nogen_n00():
     )
 
 
-@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_n01():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -5909,7 +5907,6 @@ def test_valueconstraint01101m4_negative():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint01101m3_positive():
     """
     default value is valid (valid schema) For a string to be a valid
@@ -5946,7 +5943,6 @@ def test_valueconstraint01101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint01101m1_positive():
     """
     fixed value is valid (valid schema) For a string to be a valid default
@@ -6626,7 +6622,6 @@ def test_valueconstraint00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_typedef01501m1_positive():
     """
     value must be valid with respect to the type definition (valid schema)
@@ -8814,6 +8809,7 @@ def test_name00301m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_name00201m2_positive():
     """
     simpleType definitions and element  declarations have different symbol

@@ -10,7 +10,6 @@ from typing import Iterator
 from typing import List
 from typing import Union
 
-import yaml
 from lxml import etree
 from xsdata.formats.dataclass.models import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
@@ -66,33 +65,36 @@ class TestCase:
 
 
 def generate():
-    test_cases: Dict[str, List[TestCase]] = defaultdict(list)
-    for test_case in fetch_test_cases():
-        test_cases[test_case.path.stem].append(test_case)
-
     for test_file in tests.glob("test_*.py"):
         test_file.unlink()
 
-    test_files = []
-    for group, cases in test_cases.items():
-        num = 0
-        for chunk_cases in chunks(cases, 1000):
-            num += len(chunk_cases)
-            test_file = tests.joinpath(f"test_{text.snake_case(group)}_{num}.py")
-            output = render_test_cases(test_file.relative_to(root), chunk_cases)
+    prev = None
+    test_cases = []
+    for test_case in fetch_test_cases():
+        group = test_case.path.stem
+        if prev and prev != group:
+            write_test_file(prev, test_cases)
+            test_cases.clear()
 
-            if output.find("pytest.mark") == -1:
-                output = "\n".join(output.split("\n")[2:])
+        test_cases.append(test_case)
+        prev = group
 
-            test_file.write_text(output)
-            test_files.append(str(test_file.relative_to(w3c.parent)))
+    if prev and test_cases:
+        write_test_file(group, test_cases)
 
-    travis = root.joinpath(".travis.yml")
-    config = yaml.full_load(travis.read_text())
-    config["env"] = [f"TESTFILE={test_file}" for test_file in test_files]
-    travis.write_text(
-        yaml.dump(config, sort_keys=False, default_flow_style=False, indent=4)
-    )
+
+def write_test_file(group: str, cases: List[TestCase]):
+    num = 0
+    for chunk_cases in chunks(cases, 1000):
+        num += len(chunk_cases)
+        test_file = tests.joinpath(f"test_{text.snake_case(group)}_{num}.py")
+        output = render_test_cases(test_file.relative_to(root), chunk_cases)
+
+        if output.find("pytest.mark") == -1:
+            output = "\n".join(output.split("\n")[2:])
+
+        print(f"Generating: {str(test_file)}")
+        test_file.write_text(output)
 
 
 def chunks(lst, n):

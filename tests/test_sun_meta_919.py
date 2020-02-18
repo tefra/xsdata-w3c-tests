@@ -566,7 +566,6 @@ def test_xsd006_xsd006_n11():
     )
 
 
-@pytest.mark.xfail
 def test_xsd006_xsd006_v00():
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
@@ -889,7 +888,6 @@ def test_xsd004_xsd004_n12():
     )
 
 
-@pytest.mark.xfail
 def test_xsd004_xsd004_v00():
     """
     xsd004 Use of three different type of any element with different
@@ -6853,6 +6851,7 @@ def test_typedef01101m1_negative():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00901m1_positive():
     """
     the element information item must be valid with respect to the actual
@@ -6889,7 +6888,6 @@ def test_typedef00901m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00802m2_negative():
     """
     local type is 'dissalowed' (valid schema) If it is a simple type
@@ -6927,7 +6925,6 @@ def test_typedef00802m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00802m1_negative():
     """
     local type definition is validly derived from simpleType (valid
@@ -7325,7 +7322,6 @@ def test_typedef00202m_type_def00202m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00201m_type_def00201m1_p():
     """
     simpleType is used to define {type definition} property. (valid
@@ -8809,7 +8805,6 @@ def test_name00301m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00201m2_positive():
     """
     simpleType definitions and element  declarations have different symbol
@@ -8845,6 +8840,7 @@ def test_name00201m1_positive():
     )
 
 
+@pytest.mark.xfail
 def test_name00101m_name00101m1_p_528():
     """
     General check of the {name} property. (valid schema) Define two
@@ -9623,7 +9619,6 @@ def test_disallowedsubst00502m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00501m2_negative():
     """
     restriction is blocked (valid schema) Two elements are declared. The
@@ -10476,7 +10471,6 @@ def test_annotation00101m1_positive_616():
     )
 
 
-@pytest.mark.xfail
 def test_particles00305m1_positive():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'sequence' must
@@ -10638,7 +10632,6 @@ def test_particles00301m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_particles00205m1_positive():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
@@ -10655,7 +10648,6 @@ def test_particles00205m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_particles00205m1_negative():
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
@@ -13523,7 +13515,6 @@ def test_st_facets00401m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_st_facets00301m_st_facets00301m1_p():
     """
     Enumeration facet restricts string type (valid schema) Base type
@@ -15247,7 +15238,6 @@ def test_pscontents00302m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_pscontents00301m2_positive():
     """
     processContents='lax' and the declaration is not available (valid
@@ -15294,7 +15284,6 @@ def test_pscontents00301m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_pscontents00301m1_positive():
     """
     processContents='lax' and the declaration is available (valid schema)
@@ -15359,7 +15348,6 @@ def test_pscontents00202m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_pscontents00201m1_positive():
     """
     processContents='skip' (valid schema) {process contents} controls the
@@ -15476,7 +15464,6 @@ def test_pscontents00101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_pscontents00101m1_positive():
     """
     processContents='strict' and the declaration is available (valid
@@ -15553,7 +15540,6 @@ def test_nsconstraint00302m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_nsconstraint00301m1_positive():
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
@@ -15624,7 +15610,6 @@ def test_nsconstraint00202m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_nsconstraint00201m1_positive():
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
@@ -15692,7 +15677,6 @@ def test_nsconstraint00102m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_nsconstraint00101m2_positive():
     """
     default value of 'namespace' is '##any' (valid schema) {namespace
@@ -15727,7 +15711,6 @@ def test_nsconstraint00101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_nsconstraint00101m1_positive():
     """
     namespace='##any' (valid schema) {namespace constraint} provides for

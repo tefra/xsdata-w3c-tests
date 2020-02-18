@@ -1559,7 +1559,6 @@ def test_add_b170_add_b170_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b169_1_add_b169_1_v():
     """
     TEST :Adhoc XSD: : id="243307" description="test valid document with
@@ -1960,7 +1959,6 @@ def test_add_b136_add_b136_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b135_add_b135_v():
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
@@ -2023,7 +2021,6 @@ def test_add_b131_add_b131_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b130_add_b130_v():
     """
     TEST :Adhoc XSD: : id="78162" description="attribute on xsd:any
@@ -2165,7 +2162,6 @@ def test_add_b115_add_b115_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b114_add_b114_i():
     """
     TEST :Adhoc XSD: : id="75808" description="xsd testing"
@@ -2303,7 +2299,6 @@ def test_add_b090_add_b090_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b088_add_b088_v():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2320,7 +2315,6 @@ def test_add_b088_add_b088_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b087_add_b087_i():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2414,6 +2408,7 @@ def test_add_b069_add_b069_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b068_add_b068_i():
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName" TSTF
@@ -2429,6 +2424,7 @@ def test_add_b068_add_b068_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b067_add_b067_v():
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName"
@@ -2717,7 +2713,6 @@ def test_add_b019_add_b019_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b013_add_b013_i():
     """
     TEST :Adhoc XSD: : id="67514" title="xsd: when processContents is
@@ -2733,6 +2728,7 @@ def test_add_b013_add_b013_i():
     )
 
 
+@pytest.mark.xfail
 def test_add_b012_add_b012_v():
     """
     TEST :Adhoc XSD: : id="67500" title="xsd: checking QName datatype
@@ -3442,7 +3438,6 @@ def test_attg_c006_attg_c006_i():
     )
 
 
-@pytest.mark.xfail
 def test_att_z015_att_z015_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD: a
@@ -3566,7 +3561,6 @@ def test_att_z002_att_z002_v():
     )
 
 
-@pytest.mark.xfail
 def test_att_z001_att_z001_i():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Redefine and
@@ -3627,7 +3621,6 @@ def test_att_q003_att_q003_v():
     )
 
 
-@pytest.mark.xfail
 def test_att_p032_att_p032_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test that
@@ -5587,7 +5580,6 @@ def test_ct_z009_a_ct_z009_a_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_z009_ct_z009_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5649,7 +5641,6 @@ def test_ct_z006_ct_z006_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_z005_ct_z005_i():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5666,7 +5657,6 @@ def test_ct_z005_ct_z005_i():
     )
 
 
-@pytest.mark.xfail
 def test_ct_z003_ct_z003_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6151,6 +6141,7 @@ def test_ct_l001_ct_l001_i():
     )
 
 
+@pytest.mark.xfail
 def test_ct_k001_ct_k001_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8168,6 +8159,7 @@ def test_ct_d028_ct_d028_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d027_ct_d027_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8231,6 +8223,7 @@ def test_ct_d023_ct_d023_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d022_ct_d022_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8404,6 +8397,7 @@ def test_ct_d008_ct_d008_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d006_ct_d006_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8419,6 +8413,7 @@ def test_ct_d006_ct_d006_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d005_ct_d005_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8434,6 +8429,7 @@ def test_ct_d005_ct_d005_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_d002_ct_d002_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8479,6 +8475,7 @@ def test_ct_c008_ct_c008_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_c007_ct_c007_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9456,6 +9453,7 @@ def test_ct_a005_ct_a005_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_a003_ct_a003_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9471,6 +9469,7 @@ def test_ct_a003_ct_a003_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_a002_ct_a002_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -11716,6 +11715,7 @@ def test_qname007_2090_qname007_2090_i():
     )
 
 
+@pytest.mark.xfail
 def test_qname006_2089_qname006_2089_v():
     """
     TEST :Facet Schemas for string : value=fo:foo
@@ -13431,6 +13431,7 @@ def test_duration001_1969_duration001_1969_i():
     )
 
 
+@pytest.mark.xfail
 def test_double030_1968_double030_1968_v():
     """
     TEST :Facet Schemas for string : all valid double values
@@ -13557,6 +13558,7 @@ def test_double022_1960_double022_1960_i():
     )
 
 
+@pytest.mark.xfail
 def test_double021_1959_double021_1959_v():
     """
     TEST :Facet Schemas for string : value=NaN
@@ -13571,6 +13573,7 @@ def test_double021_1959_double021_1959_v():
     )
 
 
+@pytest.mark.xfail
 def test_double020_1958_double020_1958_v():
     """
     TEST :Facet Schemas for string : value=-INF
@@ -13585,6 +13588,7 @@ def test_double020_1958_double020_1958_v():
     )
 
 
+@pytest.mark.xfail
 def test_double019_1957_double019_1957_v():
     """
     TEST :Facet Schemas for string : value=INF
@@ -13599,6 +13603,7 @@ def test_double019_1957_double019_1957_v():
     )
 
 
+@pytest.mark.xfail
 def test_double018_1956_double018_1956_i():
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -
@@ -14104,6 +14109,7 @@ def test_float022_1921_float022_1921_i():
     )
 
 
+@pytest.mark.xfail
 def test_float021_1920_float021_1920_v():
     """
     TEST :Facet Schemas for string : value=NaN
@@ -14118,6 +14124,7 @@ def test_float021_1920_float021_1920_v():
     )
 
 
+@pytest.mark.xfail
 def test_float020_1919_float020_1919_v():
     """
     TEST :Facet Schemas for string : value=-INF
@@ -14132,6 +14139,7 @@ def test_float020_1919_float020_1919_v():
     )
 
 
+@pytest.mark.xfail
 def test_float019_1918_float019_1918_v():
     """
     TEST :Facet Schemas for string : value=INF
@@ -14146,6 +14154,7 @@ def test_float019_1918_float019_1918_v():
     )
 
 
+@pytest.mark.xfail
 def test_float018_1917_float018_1917_i():
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -

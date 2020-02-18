@@ -5,15 +5,47 @@ from typing import List, Optional
 
 class ActuateType(Enum):
     """
+    :cvar NONE_VALUE:
     :cvar ON_LOAD:
     :cvar ON_REQUEST:
     :cvar OTHER:
-    :cvar NONE_VALUE:
     """
+    NONE_VALUE = "none"
     ON_LOAD = "onLoad"
     ON_REQUEST = "onRequest"
     OTHER = "other"
+
+
+class ShowType(Enum):
+    """
+    :cvar EMBED:
+    :cvar NEW:
+    :cvar NONE_VALUE:
+    :cvar OTHER:
+    :cvar REPLACE:
+    """
+    EMBED = "embed"
+    NEW = "new"
     NONE_VALUE = "none"
+    OTHER = "other"
+    REPLACE = "replace"
+
+
+class TypeType(Enum):
+    """
+    :cvar ARC:
+    :cvar EXTENDED:
+    :cvar LOCATOR:
+    :cvar RESOURCE:
+    :cvar SIMPLE:
+    :cvar TITLE:
+    """
+    ARC = "arc"
+    EXTENDED = "extended"
+    LOCATOR = "locator"
+    RESOURCE = "resource"
+    SIMPLE = "simple"
+    TITLE = "title"
 
 
 @dataclass
@@ -41,8 +73,9 @@ class ArcType:
             max_occurs=9223372036854775807
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="arc",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -55,7 +88,8 @@ class ArcType:
         metadata=dict(
             name="arcrole",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     title: Optional[str] = field(
@@ -66,7 +100,7 @@ class ArcType:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    show: Optional[str] = field(
+    show: Optional[ShowType] = field(
         default=None,
         metadata=dict(
             name="show",
@@ -74,7 +108,7 @@ class ArcType:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    actuate: Optional[str] = field(
+    actuate: Optional[ActuateType] = field(
         default=None,
         metadata=dict(
             name="actuate",
@@ -150,8 +184,9 @@ class Extended:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="extended",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -164,7 +199,8 @@ class Extended:
         metadata=dict(
             name="role",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     title: Optional[str] = field(
@@ -201,8 +237,9 @@ class LocatorType:
             max_occurs=9223372036854775807
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="locator",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -224,7 +261,8 @@ class LocatorType:
         metadata=dict(
             name="role",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     title: Optional[str] = field(
@@ -267,8 +305,9 @@ class ResourceType:
             max_occurs=9223372036854775807
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="resource",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -281,7 +320,8 @@ class ResourceType:
         metadata=dict(
             name="role",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     title: Optional[str] = field(
@@ -300,21 +340,6 @@ class ResourceType:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-
-
-class ShowType(Enum):
-    """
-    :cvar NEW:
-    :cvar REPLACE:
-    :cvar EMBED:
-    :cvar OTHER:
-    :cvar NONE_VALUE:
-    """
-    NEW = "new"
-    REPLACE = "replace"
-    EMBED = "embed"
-    OTHER = "other"
-    NONE_VALUE = "none"
 
 
 @dataclass
@@ -344,8 +369,9 @@ class Simple:
             max_occurs=9223372036854775807
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="simple",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -365,7 +391,8 @@ class Simple:
         metadata=dict(
             name="role",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     arcrole: Optional[str] = field(
@@ -373,7 +400,8 @@ class Simple:
         metadata=dict(
             name="arcrole",
             type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
         )
     )
     title: Optional[str] = field(
@@ -384,7 +412,7 @@ class Simple:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    show: Optional[str] = field(
+    show: Optional[ShowType] = field(
         default=None,
         metadata=dict(
             name="show",
@@ -392,7 +420,7 @@ class Simple:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    actuate: Optional[str] = field(
+    actuate: Optional[ActuateType] = field(
         default=None,
         metadata=dict(
             name="actuate",
@@ -424,8 +452,9 @@ class TitleEltType:
             max_occurs=9223372036854775807
         )
     )
-    type: Optional[str] = field(
-        default=None,
+    type: TypeType = field(
+        init=False,
+        default="title",
         metadata=dict(
             name="type",
             type="Attribute",
@@ -440,20 +469,3 @@ class TitleEltType:
             type="Attribute"
         )
     )
-
-
-class TypeType(Enum):
-    """
-    :cvar SIMPLE:
-    :cvar EXTENDED:
-    :cvar TITLE:
-    :cvar RESOURCE:
-    :cvar LOCATOR:
-    :cvar ARC:
-    """
-    SIMPLE = "simple"
-    EXTENDED = "extended"
-    TITLE = "title"
-    RESOURCE = "resource"
-    LOCATOR = "locator"
-    ARC = "arc"

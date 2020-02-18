@@ -32,6 +32,8 @@ def assert_bindings(
     __tracebackhide__ = True
     if not schema:
         pytest.skip("No schema for code generator")
+    if not is_valid:
+        pytest.skip("Invalid schema")
 
     reducer.common_types.clear()
     writer.register_generator("pydata", DataclassGenerator())

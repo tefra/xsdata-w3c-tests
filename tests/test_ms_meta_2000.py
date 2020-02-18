@@ -2489,7 +2489,6 @@ def test_byte_max_inclusive001_1687_byte_max_inclusive001_1687_v():
     )
 
 
-@pytest.mark.xfail
 def test_byte_enumeration004_1686_byte_enumeration004_1686_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -2505,7 +2504,6 @@ def test_byte_enumeration004_1686_byte_enumeration004_1686_v():
     )
 
 
-@pytest.mark.xfail
 def test_byte_enumeration003_1685_byte_enumeration003_1685_i():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -2851,7 +2849,6 @@ def test_short_max_inclusive001_1663_short_max_inclusive001_1663_v():
     )
 
 
-@pytest.mark.xfail
 def test_short_enumeration004_1662_short_enumeration004_1662_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -2867,7 +2864,6 @@ def test_short_enumeration004_1662_short_enumeration004_1662_v():
     )
 
 
-@pytest.mark.xfail
 def test_short_enumeration003_1661_short_enumeration003_1661_i():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -3228,7 +3224,6 @@ def test_int_max_inclusive001_1638_int_max_inclusive001_1638_v():
     )
 
 
-@pytest.mark.xfail
 def test_int_enumeration004_1637_int_enumeration004_1637_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -3244,7 +3239,6 @@ def test_int_enumeration004_1637_int_enumeration004_1637_v():
     )
 
 
-@pytest.mark.xfail
 def test_int_enumeration003_1636_int_enumeration003_1636_i():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -3590,7 +3584,6 @@ def test_long_max_inclusive001_1614_long_max_inclusive001_1614_v():
     )
 
 
-@pytest.mark.xfail
 def test_long_enumeration004_1613_long_enumeration004_1613_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -3606,7 +3599,6 @@ def test_long_enumeration004_1613_long_enumeration004_1613_v():
     )
 
 
-@pytest.mark.xfail
 def test_long_enumeration003_1612_long_enumeration003_1612_i():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
@@ -7057,7 +7049,6 @@ def test_notation_max_length002_1380_notation_max_length002_1380_v():
     )
 
 
-@pytest.mark.xfail
 def test_notation_max_length001_1379_notation_max_length001_1379_i():
     """
     TEST :Facet Schemas for string : facet=maxLength and value=4 and
@@ -7089,7 +7080,6 @@ def test_notation_min_length004_1378_notation_min_length004_1378_v():
     )
 
 
-@pytest.mark.xfail
 def test_notation_min_length003_1377_notation_min_length003_1377_i():
     """
     TEST :Facet Schemas for string : facet=minLength and value=6 and
@@ -7136,7 +7126,6 @@ def test_notation_min_length001_1375_notation_min_length001_1375_v():
     )
 
 
-@pytest.mark.xfail
 def test_notation_length003_1374_notation_length003_1374_i():
     """
     TEST :Facet Schemas for string : facet=length and value=6 and document
@@ -7168,7 +7157,6 @@ def test_notation_length002_1373_notation_length002_1373_v():
     )
 
 
-@pytest.mark.xfail
 def test_notation_length001_1372_notation_length001_1372_i():
     """
     TEST :Facet Schemas for string : facet=length and value=4 and document
@@ -7185,6 +7173,7 @@ def test_notation_length001_1372_notation_length001_1372_i():
     )
 
 
+@pytest.mark.xfail
 def test_qname_enumeration004_1371_qname_enumeration004_1371_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
@@ -7215,6 +7204,7 @@ def test_qname_enumeration003_1370_qname_enumeration003_1370_i():
     )
 
 
+@pytest.mark.xfail
 def test_qname_enumeration002_1369_qname_enumeration002_1369_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
@@ -7469,7 +7459,6 @@ def test_any_uri_b004_1354_any_uri_b004_1354_v():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_b002_1353_any_uri_b002_1353_v():
     """
     TEST :Facet Schemas for string : enum of anyURI: with dbcs char, and
@@ -12325,7 +12314,6 @@ def test_elem_z023_elem_z023_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z022b_elem_z022b_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13034,7 +13022,6 @@ def test_elem_u001_elem_u001_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t074_elem_t074_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13051,7 +13038,6 @@ def test_elem_t074_elem_t074_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t073_elem_t073_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13100,7 +13086,6 @@ def test_elem_t071_elem_t071_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t070_elem_t070_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13117,7 +13102,6 @@ def test_elem_t070_elem_t070_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t069_elem_t069_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13134,7 +13118,6 @@ def test_elem_t069_elem_t069_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t068_elem_t068_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13185,7 +13168,6 @@ def test_elem_t066_elem_t066_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t065_elem_t065_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13220,7 +13202,6 @@ def test_elem_t064_elem_t064_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t063_elem_t063_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13255,7 +13236,6 @@ def test_elem_t062_elem_t062_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t061_elem_t061_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13272,7 +13252,6 @@ def test_elem_t061_elem_t061_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t060_elem_t060_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13289,7 +13268,6 @@ def test_elem_t060_elem_t060_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t059_elem_t059_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13322,7 +13300,6 @@ def test_elem_t058_elem_t058_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t057_elem_t057_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13342,7 +13319,6 @@ def test_elem_t057_elem_t057_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t056_elem_t056_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13362,7 +13338,6 @@ def test_elem_t056_elem_t056_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t055_elem_t055_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13382,7 +13357,6 @@ def test_elem_t055_elem_t055_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t054_elem_t054_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13402,7 +13376,6 @@ def test_elem_t054_elem_t054_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t053_elem_t053_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13419,7 +13392,6 @@ def test_elem_t053_elem_t053_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t052_elem_t052_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13436,7 +13408,6 @@ def test_elem_t052_elem_t052_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t051_elem_t051_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13453,7 +13424,6 @@ def test_elem_t051_elem_t051_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t050_elem_t050_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13470,7 +13440,6 @@ def test_elem_t050_elem_t050_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t049_elem_t049_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13487,7 +13456,6 @@ def test_elem_t049_elem_t049_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t048_elem_t048_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13504,7 +13472,6 @@ def test_elem_t048_elem_t048_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t047_elem_t047_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13521,7 +13488,6 @@ def test_elem_t047_elem_t047_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t046_elem_t046_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13538,7 +13504,6 @@ def test_elem_t046_elem_t046_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t045_elem_t045_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13555,7 +13520,6 @@ def test_elem_t045_elem_t045_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t044_elem_t044_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13572,7 +13536,6 @@ def test_elem_t044_elem_t044_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t043_elem_t043_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13589,7 +13552,6 @@ def test_elem_t043_elem_t043_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t042_elem_t042_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13606,7 +13568,6 @@ def test_elem_t042_elem_t042_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t041_elem_t041_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13623,7 +13584,6 @@ def test_elem_t041_elem_t041_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t040_elem_t040_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13640,7 +13600,6 @@ def test_elem_t040_elem_t040_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t039_elem_t039_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13657,7 +13616,6 @@ def test_elem_t039_elem_t039_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t038_elem_t038_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13674,7 +13632,6 @@ def test_elem_t038_elem_t038_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t037_elem_t037_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13691,7 +13648,6 @@ def test_elem_t037_elem_t037_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t036_elem_t036_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13708,7 +13664,6 @@ def test_elem_t036_elem_t036_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t035_elem_t035_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13725,7 +13680,6 @@ def test_elem_t035_elem_t035_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t034_elem_t034_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13742,7 +13696,6 @@ def test_elem_t034_elem_t034_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t033_elem_t033_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13759,7 +13712,6 @@ def test_elem_t033_elem_t033_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t032_elem_t032_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13776,7 +13728,6 @@ def test_elem_t032_elem_t032_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t031_elem_t031_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13793,7 +13744,6 @@ def test_elem_t031_elem_t031_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t030_elem_t030_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13810,7 +13760,6 @@ def test_elem_t030_elem_t030_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t029_elem_t029_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13830,7 +13779,6 @@ def test_elem_t029_elem_t029_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t028_elem_t028_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13850,7 +13798,6 @@ def test_elem_t028_elem_t028_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t027_elem_t027_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13870,7 +13817,6 @@ def test_elem_t027_elem_t027_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t026_elem_t026_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13923,7 +13869,6 @@ def test_elem_t024_elem_t024_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t023_elem_t023_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13940,7 +13885,6 @@ def test_elem_t023_elem_t023_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t022_elem_t022_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13957,7 +13901,6 @@ def test_elem_t022_elem_t022_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t021_elem_t021_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13974,7 +13917,6 @@ def test_elem_t021_elem_t021_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t020_elem_t020_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13991,7 +13933,6 @@ def test_elem_t020_elem_t020_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t019_elem_t019_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14008,7 +13949,6 @@ def test_elem_t019_elem_t019_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t018_elem_t018_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14025,7 +13965,6 @@ def test_elem_t018_elem_t018_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t017_elem_t017_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14042,7 +13981,6 @@ def test_elem_t017_elem_t017_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t016_elem_t016_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14107,7 +14045,6 @@ def test_elem_t013_elem_t013_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t012_elem_t012_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14851,7 +14788,6 @@ def test_err_e008_err_e008_v():
     )
 
 
-@pytest.mark.xfail
 def test_err_e006_err_e006_v():
     """
     TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth,

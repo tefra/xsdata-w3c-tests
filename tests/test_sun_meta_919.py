@@ -5732,7 +5732,6 @@ def test_basetd00101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_basetd00101m1_positive():
     """
     restriction of simple content (valid schema) The type definition

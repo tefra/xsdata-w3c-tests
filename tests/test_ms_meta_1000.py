@@ -6141,7 +6141,6 @@ def test_ct_l001_ct_l001_i():
     )
 
 
-@pytest.mark.xfail
 def test_ct_k001_ct_k001_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8143,7 +8142,6 @@ def test_ct_d029_ct_d029_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d028_ct_d028_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8159,7 +8157,6 @@ def test_ct_d028_ct_d028_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d027_ct_d027_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8175,7 +8172,6 @@ def test_ct_d027_ct_d027_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d026_ct_d026_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8191,7 +8187,6 @@ def test_ct_d026_ct_d026_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d025_ct_d025_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8207,7 +8202,6 @@ def test_ct_d025_ct_d025_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d023_ct_d023_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8223,7 +8217,6 @@ def test_ct_d023_ct_d023_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d022_ct_d022_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8239,7 +8232,6 @@ def test_ct_d022_ct_d022_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d021_ct_d021_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8255,7 +8247,6 @@ def test_ct_d021_ct_d021_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d020_ct_d020_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8271,7 +8262,6 @@ def test_ct_d020_ct_d020_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d019_ct_d019_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8287,7 +8277,6 @@ def test_ct_d019_ct_d019_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d018_ct_d018_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8303,7 +8292,6 @@ def test_ct_d018_ct_d018_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d017_ct_d017_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8319,7 +8307,6 @@ def test_ct_d017_ct_d017_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d016_ct_d016_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8397,7 +8384,6 @@ def test_ct_d008_ct_d008_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d006_ct_d006_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8413,7 +8399,6 @@ def test_ct_d006_ct_d006_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d005_ct_d005_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8429,7 +8414,6 @@ def test_ct_d005_ct_d005_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_d002_ct_d002_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -8475,7 +8459,6 @@ def test_ct_c008_ct_c008_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_c007_ct_c007_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :

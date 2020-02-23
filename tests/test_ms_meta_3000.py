@@ -1144,7 +1144,6 @@ def test_group_g003v_group_g003v_i():
     )
 
 
-@pytest.mark.xfail
 def test_group_f021v_group_f021v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1538,7 +1537,6 @@ def test_group_b006v_group_b006v_v():
     )
 
 
-@pytest.mark.xfail
 def test_group_b005v_group_b005v_v():
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is choice,
@@ -13982,7 +13980,6 @@ def test_particles_ec036_particles_ec036_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ec035_particles_ec035_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14063,7 +14060,6 @@ def test_particles_ec031_particles_ec031_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ec030_particles_ec030_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14080,7 +14076,6 @@ def test_particles_ec030_particles_ec030_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ec029_particles_ec029_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14748,6 +14743,7 @@ def test_particles_eb028_particles_eb028_i():
     )
 
 
+@pytest.mark.xfail
 def test_particles_eb027_particles_eb027_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

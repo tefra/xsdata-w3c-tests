@@ -640,7 +640,6 @@ def test_assert_017_assert_017_2():
     )
 
 
-@pytest.mark.xfail
 def test_assert_016_assert_016_2():
     """
     Describing both xs:assert & xs:assertion on complexType ->

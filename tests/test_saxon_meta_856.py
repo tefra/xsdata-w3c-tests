@@ -1143,7 +1143,6 @@ def test_assert016_assert016_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert015_assert015_v1_xml():
     """
     Assertion testing type of data $value is typed (complex type with
@@ -1159,7 +1158,6 @@ def test_assert015_assert015_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert014_assert014_v1_xml():
     """
     Assertion testing type of data Element root of subtree is anyType
@@ -1174,7 +1172,6 @@ def test_assert014_assert014_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert013_assert013_v1_xml():
     """
     Assertion testing type of data Attribute within subtree is typed
@@ -1485,7 +1482,6 @@ def test_assert007_assert007_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert006_assert006_v1_xml():
     """
     Inheritance of constraints in a type derived by restriction Tests
@@ -5526,7 +5522,6 @@ def test_open045_open045_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open044_open044_v1_xml():
     """
     defaultAttributes applies to types defined within xs:redefine

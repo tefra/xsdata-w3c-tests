@@ -1959,7 +1959,6 @@ def test_complex021_complex021_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex015_complex015_n1_xml():
     """
     xsi:type on complex type must resolve Instance is invalid if xsi:type
@@ -1975,7 +1974,6 @@ def test_complex015_complex015_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex014_complex014_v1_xml():
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2009,7 +2007,6 @@ def test_complex014_complex014_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex014_complex014_n1_xml():
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2026,7 +2023,6 @@ def test_complex014_complex014_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex014_complex014_n2_xml():
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2043,7 +2039,6 @@ def test_complex014_complex014_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex013_complex013_v1_xml():
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2075,7 +2070,6 @@ def test_complex013_complex013_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex013_complex013_n1_xml():
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2091,7 +2085,6 @@ def test_complex013_complex013_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex013_complex013_n2_xml():
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2107,7 +2100,6 @@ def test_complex013_complex013_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v1_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2123,7 +2115,6 @@ def test_complex012_complex012_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v2_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2139,7 +2130,6 @@ def test_complex012_complex012_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v3_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2155,7 +2145,6 @@ def test_complex012_complex012_v3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v4_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2171,7 +2160,6 @@ def test_complex012_complex012_v4_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v5_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2187,7 +2175,6 @@ def test_complex012_complex012_v5_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_v6_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2203,7 +2190,6 @@ def test_complex012_complex012_v6_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_n1_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2219,7 +2205,6 @@ def test_complex012_complex012_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_n2_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2235,7 +2220,6 @@ def test_complex012_complex012_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex012_complex012_n3_xml():
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2251,7 +2235,6 @@ def test_complex012_complex012_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex011_complex011_v1_xml():
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2283,7 +2266,6 @@ def test_complex011_complex011_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex011_complex011_n1_xml():
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2299,7 +2281,6 @@ def test_complex011_complex011_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex011_complex011_n2_xml():
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2315,7 +2296,6 @@ def test_complex011_complex011_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex011_complex011_n3_xml():
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2499,7 +2479,6 @@ def test_complex007_complex007_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex007_complex007_v2_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2515,7 +2494,6 @@ def test_complex007_complex007_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex007_complex007_n1_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2531,7 +2509,6 @@ def test_complex007_complex007_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex007_complex007_n2_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2547,7 +2524,6 @@ def test_complex007_complex007_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex007_complex007_n3_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2578,7 +2554,6 @@ def test_complex006_complex006_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex006_complex006_v2_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2593,7 +2568,6 @@ def test_complex006_complex006_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex006_complex006_n1_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2608,7 +2582,6 @@ def test_complex006_complex006_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex006_complex006_n2_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2623,7 +2596,6 @@ def test_complex006_complex006_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex006_complex006_n3_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2654,7 +2626,6 @@ def test_complex005_complex005_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex005_complex005_n1_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2670,7 +2641,6 @@ def test_complex005_complex005_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex005_complex005_n2_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2686,7 +2656,6 @@ def test_complex005_complex005_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex005_complex005_n3_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2717,7 +2686,6 @@ def test_complex004_complex004_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex004_complex004_n1_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -9893,7 +9861,6 @@ def test_wild061_wild061_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild060_wild060_v1_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9909,7 +9876,6 @@ def test_wild060_wild060_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild060_wild060_v2_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9925,7 +9891,6 @@ def test_wild060_wild060_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild060_wild060_n2_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9941,7 +9906,6 @@ def test_wild060_wild060_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild059_wild059_v1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9957,7 +9921,6 @@ def test_wild059_wild059_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild059_wild059_n1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9973,7 +9936,6 @@ def test_wild059_wild059_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild059_wild059_n2_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9989,7 +9951,6 @@ def test_wild059_wild059_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild058_wild058_v1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -10005,7 +9966,6 @@ def test_wild058_wild058_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild058_wild058_n1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -10021,7 +9981,6 @@ def test_wild058_wild058_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild058_wild058_n2_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -10172,7 +10131,6 @@ def test_wild054_wild054_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild054_wild054_v2_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10187,7 +10145,6 @@ def test_wild054_wild054_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild054_wild054_n1_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10202,7 +10159,6 @@ def test_wild054_wild054_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild054_wild054_n2_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10309,7 +10265,6 @@ def test_wild052_wild052_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild052_wild052_n1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10324,7 +10279,6 @@ def test_wild052_wild052_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild052_wild052_n2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10355,7 +10309,6 @@ def test_wild047_wild047_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild047_wild047_n1_xml():
     """
     Element Wildcard union with notQName and notNamespace disallows the
@@ -10371,7 +10324,6 @@ def test_wild047_wild047_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild046_wild046_v1_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10387,7 +10339,6 @@ def test_wild046_wild046_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild046_wild046_v2_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10403,7 +10354,6 @@ def test_wild046_wild046_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild046_wild046_n1_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10419,7 +10369,6 @@ def test_wild046_wild046_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild046_wild046_n2_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10435,7 +10384,6 @@ def test_wild046_wild046_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild045_wild045_v1_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10451,7 +10399,6 @@ def test_wild045_wild045_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild045_wild045_v2_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10467,7 +10414,6 @@ def test_wild045_wild045_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild045_wild045_n1_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10483,7 +10429,6 @@ def test_wild045_wild045_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild045_wild045_n2_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10499,7 +10444,6 @@ def test_wild045_wild045_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild044_wild044_v1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10515,7 +10459,6 @@ def test_wild044_wild044_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild044_wild044_n1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10531,7 +10474,6 @@ def test_wild044_wild044_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild044_wild044_n2_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10547,7 +10489,6 @@ def test_wild044_wild044_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild043_wild043_v1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10563,7 +10504,6 @@ def test_wild043_wild043_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild043_wild043_n1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10579,7 +10519,6 @@ def test_wild043_wild043_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild043_wild043_n2_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10595,7 +10534,6 @@ def test_wild043_wild043_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild043_wild043_n3_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10628,7 +10566,6 @@ def test_wild042_wild042_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild042_wild042_n1_xml():
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
@@ -10645,7 +10582,6 @@ def test_wild042_wild042_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild040_wild040_v1_xml():
     """
     Banning xsi attributes has no effect xsi:type is validated without
@@ -10661,7 +10597,6 @@ def test_wild040_wild040_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild040_wild040_n1_xml():
     """
     Banning xsi attributes has no effect xsi:type is validated without
@@ -10677,7 +10612,6 @@ def test_wild040_wild040_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild030_wild030_v1_xml():
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10693,7 +10627,6 @@ def test_wild030_wild030_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild030_wild030_v2_xml():
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10709,7 +10642,6 @@ def test_wild030_wild030_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild030_wild030_n1_xml():
     """
     Example from the spec: restricting away a child element that overlaps

@@ -11384,7 +11384,6 @@ def test_float_pattern001_1061_float_pattern001_1061_v():
     )
 
 
-@pytest.mark.xfail
 def test_decimal_total_digits004_1060_decimal_total_digits004_1060_v():
     """
     TEST :Facet Schemas for string : XSD: totalDigits calculartion for
@@ -11820,7 +11819,6 @@ def test_string_enumeration001_1032_string_enumeration001_1032_i():
     )
 
 
-@pytest.mark.xfail
 def test_string_pattern002_1031_string_pattern002_1031_i():
     """
     TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and

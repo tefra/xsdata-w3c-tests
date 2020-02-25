@@ -333,7 +333,6 @@ def test_is_default070_is_default070_i():
     )
 
 
-@pytest.mark.xfail
 def test_is_default060_1_is_default060_1_v():
     """
     TEST :Adhoc XSD: : test empty element typed as xsd:int with default

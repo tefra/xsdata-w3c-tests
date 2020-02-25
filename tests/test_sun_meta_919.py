@@ -1625,7 +1625,6 @@ def test_identitytestsuitetest001_test_2_n():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_13_n():
     """
     test
@@ -1640,7 +1639,6 @@ def test_test009_test_13_n():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_8_n():
     """
     test
@@ -1655,7 +1653,6 @@ def test_test009_test_8_n():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_1_v():
     """
     test
@@ -1670,7 +1667,6 @@ def test_test009_test_1_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_10_v():
     """
     test
@@ -1685,7 +1681,6 @@ def test_test009_test_10_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_11_v():
     """
     test
@@ -1700,7 +1695,6 @@ def test_test009_test_11_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_12_v():
     """
     test
@@ -1715,7 +1709,6 @@ def test_test009_test_12_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_2_v():
     """
     test
@@ -1730,7 +1723,6 @@ def test_test009_test_2_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_3_v():
     """
     test
@@ -1745,7 +1737,6 @@ def test_test009_test_3_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_4_v():
     """
     test
@@ -1760,7 +1751,6 @@ def test_test009_test_4_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_5_v():
     """
     test
@@ -1775,7 +1765,6 @@ def test_test009_test_5_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_6_v():
     """
     test
@@ -1790,7 +1779,6 @@ def test_test009_test_6_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_7_v():
     """
     test
@@ -1805,7 +1793,6 @@ def test_test009_test_7_v():
     )
 
 
-@pytest.mark.xfail
 def test_test009_test_9_v():
     """
     test
@@ -8821,7 +8808,6 @@ def test_name00201m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00201m1_positive():
     """
     complexType definitions and element  declarations have different
@@ -10041,7 +10027,6 @@ def test_targetns00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00201m1_positive_597():
     """
     constraints have separate symbol space (valid schema) With the same

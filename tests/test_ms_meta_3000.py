@@ -7954,7 +7954,6 @@ def test_mg_d005_mg_d005_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_d001_mg_d001_v():
     """
     TEST :model groups (ALL) : all: with any attribute with no schema
@@ -7985,7 +7984,6 @@ def test_mg_c014_mg_c014_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c012_mg_c012_i():
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
@@ -8001,7 +7999,6 @@ def test_mg_c012_mg_c012_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c011_mg_c011_v():
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
@@ -8017,7 +8014,6 @@ def test_mg_c011_mg_c011_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c010_mg_c010_i():
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
@@ -8033,7 +8029,6 @@ def test_mg_c010_mg_c010_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c007_mg_c007_i():
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
@@ -8049,7 +8044,6 @@ def test_mg_c007_mg_c007_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c006_mg_c006_v():
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
@@ -8065,7 +8059,6 @@ def test_mg_c006_mg_c006_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c005_mg_c005_i():
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
@@ -8096,7 +8089,6 @@ def test_mg_c004_mg_c004_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c003_mg_c003_i():
     """
     TEST :model groups (ALL) : all: check that maxOccurs default is 1,
@@ -8112,7 +8104,6 @@ def test_mg_c003_mg_c003_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c002_mg_c002_v():
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,
@@ -8128,7 +8119,6 @@ def test_mg_c002_mg_c002_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_c001_mg_c001_i():
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,

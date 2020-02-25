@@ -1057,7 +1057,6 @@ def test_d4_3_15ii20_d4_3_15ii20i():
     )
 
 
-@pytest.mark.xfail
 def test_d4_3_15ii19_d4_3_15ii19i():
     """
     assertions on a complex type definition,           having
@@ -1398,7 +1397,6 @@ def test_d4_3_15v21_d4_3_15v21i():
     )
 
 
-@pytest.mark.xfail
 def test_d4_3_15v19_d4_3_15v19i():
     """
     assertions on a complex type definition,           having
@@ -2305,7 +2303,6 @@ def test_s3_4_2_4ii01_s3_4_2_4ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4v13_s3_4_2_4v13i():
     """
     test defaultAttributesApply is absent, and ref attribute in
@@ -2321,7 +2318,6 @@ def test_s3_4_2_4v13_s3_4_2_4v13i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4v03_s3_4_2_4v03i():
     """
     test defaultAttributesApply = true
@@ -2350,7 +2346,6 @@ def test_s3_4_2_4v02_s3_4_2_4v02i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4v01_s3_4_2_4v01i():
     """
     test defaultAttributesApply is absent

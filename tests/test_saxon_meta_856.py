@@ -5704,7 +5704,6 @@ def test_open040_open040_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open035_open035_v1_xml():
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
@@ -8039,7 +8038,6 @@ def test_simple054_simple053_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple050_simple050_v01_xml():
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8055,7 +8053,6 @@ def test_simple050_simple050_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple050_simple050_v02_xml():
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8071,7 +8068,6 @@ def test_simple050_simple050_v02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple050_simple050_n01_xml():
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8087,7 +8083,6 @@ def test_simple050_simple050_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple050_simple050_n02_xml():
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8103,7 +8098,6 @@ def test_simple050_simple050_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple050_simple050_n03_xml():
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of

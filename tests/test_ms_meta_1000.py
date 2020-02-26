@@ -588,7 +588,6 @@ def test_is_default051_is_default051_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default028_is_default028_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -604,7 +603,6 @@ def test_is_default028_is_default028_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default027_is_default027_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements
@@ -770,7 +768,6 @@ def test_is_default008_is_default008_i():
     )
 
 
-@pytest.mark.xfail
 def test_is_default007_is_default007_v():
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -2035,7 +2032,6 @@ def test_add_b130_add_b130_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b129_add_b129_v():
     """
     TEST :Adhoc XSD: : id="74834" description="validate xml data when it
@@ -2682,7 +2678,6 @@ def test_add_b31_add_b31_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b028_add_b028_v():
     """
     TEST :Adhoc XSD: : XSD: xsi:type when derived from xsi:type
@@ -9482,7 +9477,6 @@ def test_ct_a001_ct_a001_v():
     )
 
 
-@pytest.mark.xfail
 def test_dt_z86723_2246_dt_z86723_2246_i():
     """
     TEST :Facet Schemas for string : Validation: xsi:type with built-in

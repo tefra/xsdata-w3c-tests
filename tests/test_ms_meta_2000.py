@@ -14862,7 +14862,6 @@ def test_err_e001_err_e001_v():
     )
 
 
-@pytest.mark.xfail
 def test_err_c007_err_c007_v():
     """
     TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type

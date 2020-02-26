@@ -6376,7 +6376,6 @@ def test_valueconstraint00402m5_positive():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00402m4_positive():
     """
     fixed value is set for anyType (valid schema) Declare an element. Set
@@ -6475,7 +6474,6 @@ def test_valueconstraint00401m5_positive():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00401m4_positive():
     """
     default value is set for anyType (valid schema) Declare an element.

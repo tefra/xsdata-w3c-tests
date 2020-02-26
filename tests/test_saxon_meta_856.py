@@ -5490,6 +5490,7 @@ def test_open045_open045_n2_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open044_open044_v1_xml():
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -5505,6 +5506,7 @@ def test_open044_open044_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open044_open044_n1_xml():
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -5520,6 +5522,7 @@ def test_open044_open044_n1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open044_open044_n2_xml():
     """
     defaultAttributes applies to types defined within xs:redefine

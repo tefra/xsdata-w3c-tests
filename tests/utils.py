@@ -37,6 +37,7 @@ def assert_bindings(
 
     reducer.common_types.clear()
     writer.register_generator("pydata", DataclassGenerator())
+    writer.get_renderer("pydata").modules.clear()
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
@@ -50,7 +51,10 @@ def assert_bindings(
     if not class_name:
         pytest.skip("No class name for data binding")
 
-    module = f"{package}.{text.snake_case(schema_path.stem)}"
+    module = schema_path.name
+    module = module[:-4] if module.endswith(".xsd") else module
+    module = text.snake_case(module)
+    module = f"{package}.{module}"
     clazz = load_class(module, class_name)
     parser = XmlParser()
 

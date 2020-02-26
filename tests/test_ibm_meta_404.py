@@ -4393,7 +4393,6 @@ def test_s3_12ii01_s3_12ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_12v11_s3_12v01i():
     """
     Attribute declarations can now be marked {inheritable}.

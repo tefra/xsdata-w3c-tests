@@ -8202,7 +8202,6 @@ def test_st_z058_st_z058_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_z057_st_z057_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -8268,7 +8267,6 @@ def test_st_z054_st_z054_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_z053_st_z053_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit

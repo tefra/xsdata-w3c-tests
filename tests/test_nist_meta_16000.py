@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -5220,7 +5218,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5235,7 +5232,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5250,7 +5246,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5265,7 +5260,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5280,7 +5274,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5():
     """
     Type atomic/string is restricted by facet enumeration.

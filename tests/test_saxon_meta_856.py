@@ -7489,7 +7489,6 @@ def test_over012_over012_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over012_over012_n01_xml():
     """
     Override a complex type Override a complex type
@@ -7504,7 +7503,6 @@ def test_over012_over012_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over012_over012_n02_xml():
     """
     Override a complex type Override a complex type
@@ -7519,7 +7517,6 @@ def test_over012_over012_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over010_over010_v01_xml():
     """
     Override a simple type Override a simple type
@@ -7534,7 +7531,6 @@ def test_over010_over010_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over010_over010_n01_xml():
     """
     Override a simple type Override a simple type
@@ -7549,7 +7545,6 @@ def test_over010_over010_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over010_over010_n02_xml():
     """
     Override a simple type Override a simple type
@@ -7580,7 +7575,6 @@ def test_over009_over009_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over009_over009_n01_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -7596,7 +7590,6 @@ def test_over009_over009_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over009_over009_n02_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -7750,7 +7743,6 @@ def test_over006_over006_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over005_over005_v01_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7766,7 +7758,6 @@ def test_over005_over005_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over005_over005_n01_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7782,7 +7773,6 @@ def test_over005_over005_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over005_over005_n02_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7798,7 +7788,6 @@ def test_over005_over005_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over004_over004_v01_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7814,7 +7803,6 @@ def test_over004_over004_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over004_over004_n01_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7830,7 +7818,6 @@ def test_over004_over004_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over004_over004_n02_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7846,7 +7833,6 @@ def test_over004_over004_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over003_over003_v01_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7863,7 +7849,6 @@ def test_over003_over003_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over003_over003_n01_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7880,7 +7865,6 @@ def test_over003_over003_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over003_over003_n02_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7897,7 +7881,6 @@ def test_over003_over003_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over002_over002_v01_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -7914,7 +7897,6 @@ def test_over002_over002_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over002_over002_n01_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -7931,7 +7913,6 @@ def test_over002_over002_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over002_over002_n02_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -11316,7 +11297,6 @@ def test_wild013_wild013_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_v1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11333,7 +11313,6 @@ def test_wild012_wild012_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_v2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11350,7 +11329,6 @@ def test_wild012_wild012_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_n1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11367,7 +11345,6 @@ def test_wild012_wild012_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_n2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11384,7 +11361,6 @@ def test_wild012_wild012_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_v1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11401,7 +11377,6 @@ def test_wild011_wild011_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_v2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11418,7 +11393,6 @@ def test_wild011_wild011_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_n1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11435,7 +11409,6 @@ def test_wild011_wild011_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_n2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -12732,7 +12705,6 @@ def test_zone206_zone206_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_zone205_zone205_v01_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12748,7 +12720,6 @@ def test_zone205_zone205_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_zone205_zone205_v02_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12764,7 +12735,6 @@ def test_zone205_zone205_v02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_zone205_zone205_v03_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12780,7 +12750,6 @@ def test_zone205_zone205_v03_xml():
     )
 
 
-@pytest.mark.xfail
 def test_zone205_zone205_n01_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12796,7 +12765,6 @@ def test_zone205_zone205_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_zone205_zone205_n02_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For

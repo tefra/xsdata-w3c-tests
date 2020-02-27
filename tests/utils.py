@@ -51,11 +51,7 @@ def assert_bindings(
     if not class_name:
         pytest.skip("No class name for data binding")
 
-    module = schema_path.name
-    module = module[:-4] if module.endswith(".xsd") else module
-    module = text.snake_case(module)
-    module = f"{package}.{module}"
-    clazz = load_class(module, class_name)
+    clazz = load_class(result.output, class_name)
     parser = XmlParser()
 
     try:
@@ -93,9 +89,17 @@ def get_validator(path: Path, version: str, is_valid: bool):
             pytest.skip("Schema validator failed on parsing definition")
 
 
-def load_class(module_name, clazz_name):
-    try:
-        module = importlib.import_module(module_name)
-        return getattr(module, clazz_name)
-    except Exception as e:
-        pytest.fail(f"Failed to load class name {module_name}::{clazz_name}")
+def load_class(output, clazz_name):
+    search = "Generating package: "
+    packages = [
+        line[len(search) :] for line in output.split("\n") if line.startswith(search)
+    ]
+
+    for package in reversed(packages):
+        try:
+            module = importlib.import_module(package)
+            return getattr(module, clazz_name)
+        except (ModuleNotFoundError, AttributeError):
+            pass
+
+    pytest.fail(f"Failed to load class name {clazz_name}")

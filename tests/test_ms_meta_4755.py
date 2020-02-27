@@ -8510,7 +8510,6 @@ def test_st_z034_st_z034_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_z033_st_z033_i():
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine

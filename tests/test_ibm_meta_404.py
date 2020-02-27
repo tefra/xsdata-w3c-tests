@@ -1760,7 +1760,6 @@ def test_d3_3_10v01_d3_3_10v01i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28ii01_d3_4_28ii01i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1775,7 +1774,6 @@ def test_d3_4_28ii01_d3_4_28ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28ii01_d3_4_28ii02i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1790,7 +1788,6 @@ def test_d3_4_28ii01_d3_4_28ii02i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28ii01_d3_4_28ii03i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1805,7 +1802,6 @@ def test_d3_4_28ii01_d3_4_28ii03i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28ii01_d3_4_28ii04i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1820,7 +1816,6 @@ def test_d3_4_28ii01_d3_4_28ii04i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28ii01_d3_4_28ii05i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1966,7 +1961,6 @@ def test_d3_4_28v02_d3_4_28v02i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_28v01_d3_4_28v01i():
     """
     Tests the simpleType dateTimeStamp and its facets and its use in
@@ -2170,7 +2164,6 @@ def test_s3_4_2_4ii11_s3_4_2_4ii11i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii10_s3_4_2_4ii10i():
     """
     test defaultAttributesApply = false and override as false
@@ -2200,7 +2193,6 @@ def test_s3_4_2_4ii09_s3_4_2_4ii09i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii08_s3_4_2_4ii08i():
     """
     test defaultAttributesApply = false and override as absent
@@ -2215,7 +2207,6 @@ def test_s3_4_2_4ii08_s3_4_2_4ii08i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii07_s3_4_2_4ii07i():
     """
     test defaultAttributesApply = false and redefined as absent
@@ -2245,7 +2236,6 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii05_s3_4_2_4ii05i():
     """
     test defaultAttributesApply = false and redefined as true
@@ -2260,7 +2250,6 @@ def test_s3_4_2_4ii05_s3_4_2_4ii05i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii03_s3_4_2_4ii03i():
     """
     test defaultAttributesApply = false and redefined as absent
@@ -2530,7 +2519,6 @@ def test_d4_3_16ii06_d4_3_16ii06i():
     )
 
 
-@pytest.mark.xfail
 def test_d4_3_16ii05_d4_3_16ii05i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
@@ -2634,7 +2622,6 @@ def test_d4_3_16v06_d4_3_16v06i():
     )
 
 
-@pytest.mark.xfail
 def test_d4_3_16v05_d4_3_16v05i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone

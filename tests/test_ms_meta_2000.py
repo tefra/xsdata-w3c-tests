@@ -7439,7 +7439,6 @@ def test_any_uri_b005_1355_any_uri_b005_1355_i():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_b004_1354_any_uri_b004_1354_v():
     """
     TEST :Facet Schemas for string : enumeration of many anyURI: a b c d e
@@ -10354,7 +10353,6 @@ def test_date_time_enumeration005a_1129_date_time_enumeration005a_1129_v():
     )
 
 
-@pytest.mark.xfail
 def test_date_time_enumeration004_1128_date_time_enumeration004_1128_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and
@@ -10371,7 +10369,6 @@ def test_date_time_enumeration004_1128_date_time_enumeration004_1128_v():
     )
 
 
-@pytest.mark.xfail
 def test_date_time_enumeration003_1127_date_time_enumeration003_1127_i():
     """
     TEST :Facet Schemas for string : facet=enumeration and

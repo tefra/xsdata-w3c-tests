@@ -3684,7 +3684,6 @@ def test_d2_4_1_2v01_d2_4_1_2v01i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1ii05_s3_4_1ii05i():
     """
     Tests derivation by restriction with openContent mode suffix in base
@@ -3700,7 +3699,6 @@ def test_s3_4_1ii05_s3_4_1ii05i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1ii04_s3_4_1ii04i():
     """
     Tests wildcard in opencontent with restrictions (notQName)
@@ -3715,7 +3713,6 @@ def test_s3_4_1ii04_s3_4_1ii04i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1ii03_s3_4_1ii03i():
     """
     Tests defaultOpenContent: when openContent is present in CT,
@@ -3731,7 +3728,6 @@ def test_s3_4_1ii03_s3_4_1ii03i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1ii02_s3_4_1ii02i():
     """
     Tests defaultOpenContent: appliesToEmpty="false"
@@ -3746,7 +3742,6 @@ def test_s3_4_1ii02_s3_4_1ii02i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1ii01_s3_4_1ii01i():
     """
     3.4.4.3 Element Sequence Locally valid (Complex Content) Validation
@@ -3886,7 +3881,6 @@ def test_s3_4_1v04_s3_4_1v04i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v03_s3_4_1v03i():
     """
     Tests openContent for empty content model

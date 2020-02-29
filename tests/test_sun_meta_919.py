@@ -214,6 +214,7 @@ def test_xsd021_xsd021_n11():
     )
 
 
+@pytest.mark.xfail
 def test_xsd021_xsd021_v00():
     """
     xsd021 anyOtherAttribute.
@@ -888,6 +889,7 @@ def test_xsd004_xsd004_n12():
     )
 
 
+@pytest.mark.xfail
 def test_xsd004_xsd004_v00():
     """
     xsd004 Use of three different type of any element with different
@@ -5925,6 +5927,7 @@ def test_valueconstraint01101m2_negative():
     )
 
 
+@pytest.mark.xfail
 def test_valueconstraint01101m1_positive():
     """
     fixed value is valid (valid schema) For a string to be a valid default
@@ -9188,7 +9191,6 @@ def test_idconstrdefs00301m_id_constr_defs00301m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_idconstrdefs00301m_id_constr_defs00301m2_n():
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and

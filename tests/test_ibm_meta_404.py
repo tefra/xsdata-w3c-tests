@@ -2221,7 +2221,6 @@ def test_s3_4_2_4ii07_s3_4_2_4ii07i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     """
     test defaultAttributesApply = true and redefined as false
@@ -3431,6 +3430,7 @@ def test_s3_3_4v12_s3_3_4v12i():
     )
 
 
+@pytest.mark.xfail
 def test_s3_3_4v11_s3_3_4v11i():
     """
     Unions involving ID
@@ -3772,7 +3772,6 @@ def test_s3_4_1v11_s3_4_1v11i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v10_s3_4_1v10i():
     """
     Tests derivation by extension with openContent mode interleave in both
@@ -3804,7 +3803,6 @@ def test_s3_4_1v09_s3_4_1v09i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v08_s3_4_1v08i():
     """
     Tests derivation by extension with openContent mode interleave in
@@ -3820,7 +3818,6 @@ def test_s3_4_1v08_s3_4_1v08i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v07_s3_4_1v07i():
     """
     Tests derivation by extension with openContent mode suffix in both
@@ -3836,7 +3833,6 @@ def test_s3_4_1v07_s3_4_1v07i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v06_s3_4_1v06i():
     """
     Tests openContent in complexType derived by extension
@@ -4615,7 +4611,6 @@ def test_type_alternatives_005_type_alternatives_005_3():
     )
 
 
-@pytest.mark.xfail
 def test_type_alternatives_004_type_alternatives_004_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -5467,7 +5462,6 @@ def test_d3_4_6ii01_d3_4_6ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_6v07_d3_4_6v07i():
     """
     Use of newly allowed name characters in names of schema components
@@ -5483,7 +5477,6 @@ def test_d3_4_6v07_d3_4_6v07i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_6v06_d3_4_6v06i():
     """
     Use of newly allowed name characters in names of schema components
@@ -5499,7 +5492,6 @@ def test_d3_4_6v06_d3_4_6v06i():
     )
 
 
-@pytest.mark.xfail
 def test_d3_4_6v05_d3_4_6v05i():
     """
     Use of newly allowed name characters in names of schema components

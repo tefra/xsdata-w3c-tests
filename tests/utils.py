@@ -1,5 +1,6 @@
 import functools
 import importlib
+import io
 import logging
 import os
 from pathlib import Path
@@ -7,6 +8,7 @@ from pathlib import Path
 import pytest
 import xmlschema
 from click.testing import CliRunner
+from lxml import etree
 from xsdata import cli
 from xsdata.formats.dataclass.generator import DataclassGenerator
 from xsdata.formats.dataclass.parsers import XmlParser
@@ -62,13 +64,21 @@ def assert_bindings(
         else:
             return
 
-    schema_validator = get_validator(schema_path_absolute, version, is_valid)
-    if schema_validator:
-        try:
-            schema_validator.validate(XmlSerializer().render(obj))
-        except Exception as e:
-            if instance_is_valid:
-                raise e
+    schema_validator = get_validator(schema_path_absolute, version)
+    if schema_validator is None and is_valid:
+        pytest.skip("Schema validator failed on parsing definition")
+
+    try:
+        tree = XmlSerializer().render_tree(obj)
+        if isinstance(schema_validator, xmlschema.XMLSchema11):
+            schema_validator.validate(tree)
+        else:
+            schema_validator.assertValid(tree)
+    except Exception as e:
+        xml_instance = etree.tostring(tree, pretty_print=True).decode()
+        log.error(xml_instance)
+        if instance_is_valid:
+            raise e
 
 
 @functools.lru_cache(maxsize=5)
@@ -78,15 +88,19 @@ def generate_models(xsd: str, package: str):
 
 
 @functools.lru_cache(maxsize=5)
-def get_validator(path: Path, version: str, is_valid: bool):
+def get_validator(path: Path, version: str):
+    return initialize_validator(path, version)
+
+
+def initialize_validator(path: Path, version: str):
     try:
-        schema_class = (
-            xmlschema.XMLSchema11 if version == "1.1" else xmlschema.XMLSchema10
-        )
-        return schema_class(str(path))
+        xmlschema_doc = etree.fromstring(path.read_bytes())
+        schema_class = xmlschema.XMLSchema11 if version == "1.1" else etree.XMLSchema
+        return schema_class(xmlschema_doc)
     except Exception as e:
-        if is_valid:
-            pytest.skip("Schema validator failed on parsing definition")
+        if version == "1.1":
+            return None
+        return initialize_validator(path, "1.1")
 
 
 def load_class(output, clazz_name):

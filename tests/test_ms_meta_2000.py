@@ -12309,6 +12309,7 @@ def test_elem_z023_elem_z023_i():
     )
 
 
+@pytest.mark.xfail
 def test_elem_z022b_elem_z022b_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14814,6 +14815,7 @@ def test_err_e004_err_e004_i():
     )
 
 
+@pytest.mark.xfail
 def test_err_e003_err_e003_v():
     """
     TEST :Primer Errata : E2-25 Error: test support for the new language

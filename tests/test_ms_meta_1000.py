@@ -198,7 +198,6 @@ def test_is_default079_is_default079_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default078_is_default078_v():
     """
     TEST :Adhoc XSD: : map xml namespace in the instance to be able to
@@ -2294,6 +2293,7 @@ def test_add_b090_add_b090_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b088_add_b088_v():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2782,7 +2782,6 @@ def test_add_b002_add_b002_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_c001_add_c001_v():
     """
     TEST :Adhoc XSD: : use of xml:base
@@ -3631,7 +3630,6 @@ def test_att_p032_att_p032_v():
     )
 
 
-@pytest.mark.xfail
 def test_att_p031_att_p031_i():
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
@@ -3648,7 +3646,6 @@ def test_att_p031_att_p031_i():
     )
 
 
-@pytest.mark.xfail
 def test_att_p029_att_p029_v():
     """
     TEST :Syntax Checking for Attribute Declaration (form) :
@@ -5683,6 +5680,7 @@ def test_ct_z001_ct_z001_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_o006_ct_o006_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6966,6 +6964,7 @@ def test_ct_h049_ct_h049_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_h047_ct_h047_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7061,6 +7060,7 @@ def test_ct_h037_ct_h037_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_h035_ct_h035_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7156,6 +7156,7 @@ def test_ct_h025_ct_h025_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_h011_ct_h011_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7424,6 +7425,7 @@ def test_ct_g049_ct_g049_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_g047_ct_g047_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7519,6 +7521,7 @@ def test_ct_g037_ct_g037_v():
     )
 
 
+@pytest.mark.xfail
 def test_ct_g035_ct_g035_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9584,6 +9587,7 @@ def test_id_test64335_2240_id_test64335_2240_v():
     )
 
 
+@pytest.mark.xfail
 def test_positive_integer005_2239_positive_integer005_2239_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -10050,6 +10054,7 @@ def test_unsigned_long001_2207_unsigned_long001_2207_i():
     )
 
 
+@pytest.mark.xfail
 def test_non_negative_integer005_2206_non_negative_integer005_2206_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -10610,6 +10615,7 @@ def test_long001_2167_long001_2167_i():
     )
 
 
+@pytest.mark.xfail
 def test_negative_integer005_2166_negative_integer005_2166_v():
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -10680,6 +10686,7 @@ def test_negative_integer001_2162_negative_integer001_2162_i():
     )
 
 
+@pytest.mark.xfail
 def test_non_positive_integer005_2161_non_positive_integer005_2161_v():
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -10820,6 +10827,7 @@ def test_integer012_2152_integer012_2152_i():
     )
 
 
+@pytest.mark.xfail
 def test_integer011_2151_integer011_2151_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -11395,6 +11403,7 @@ def test_language010_2111_language010_2111_i():
     )
 
 
+@pytest.mark.xfail
 def test_language009_2110_language009_2110_v():
     """
     TEST :Facet Schemas for string : value=X-2o
@@ -11423,6 +11432,7 @@ def test_language008_2109_language008_2109_i():
     )
 
 
+@pytest.mark.xfail
 def test_language007_2108_language007_2108_v():
     """
     TEST :Facet Schemas for string : value=I-en-us
@@ -14510,6 +14520,7 @@ def test_decimal017_1891_decimal017_1891_i():
     )
 
 
+@pytest.mark.xfail
 def test_decimal016_1890_decimal016_1890_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -14524,6 +14535,7 @@ def test_decimal016_1890_decimal016_1890_v():
     )
 
 
+@pytest.mark.xfail
 def test_decimal015_1889_decimal015_1889_v():
     """
     TEST :Facet Schemas for string : value=9876543210987654321098765432

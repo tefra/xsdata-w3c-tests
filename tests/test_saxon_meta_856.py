@@ -33,7 +33,6 @@ def test_all314_all314_v02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_all314_all314_v05_xml():
     """
     All model group derived by extension from another all model group,
@@ -214,7 +213,6 @@ def test_all304_all304_n04_xml():
     )
 
 
-@pytest.mark.xfail
 def test_all301_all301_v01_xml():
     """
     All model group derived by extension from another all model group
@@ -1292,7 +1290,6 @@ def test_assert009_assert009_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert008a_assert008a_v1_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1353,7 +1350,6 @@ def test_assert008a_assert008a_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert008_assert008_v1_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1414,7 +1410,6 @@ def test_assert008_assert008_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_assert007_assert007_v1_xml():
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -2890,6 +2885,7 @@ def test_cta0026_cta0026_v01():
     )
 
 
+@pytest.mark.xfail
 def test_cta0025_cta0025_v01():
     """
     Type alternative using a simple type Static context of XPath
@@ -2905,6 +2901,7 @@ def test_cta0025_cta0025_v01():
     )
 
 
+@pytest.mark.xfail
 def test_cta0024_cta0024_v01():
     """
     Type alternative using a simple type Static context of XPath
@@ -3557,6 +3554,7 @@ def test_cta0007_cta0007_n01():
     )
 
 
+@pytest.mark.xfail
 def test_cta0006_cta0006_v01():
     """
     Conditional simple type: selecting a branch of a union Simple type of
@@ -5730,7 +5728,6 @@ def test_open035_open035_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open031_open031_v1_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5748,7 +5745,6 @@ def test_open031_open031_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open031_open031_v2_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5766,7 +5762,6 @@ def test_open031_open031_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open031_open031_v3_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5784,7 +5779,6 @@ def test_open031_open031_v3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open031_open031_v4_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5819,7 +5813,6 @@ def test_open031_open031_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open028_open028_v1_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5835,7 +5828,6 @@ def test_open028_open028_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open028_open028_v2_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5851,7 +5843,6 @@ def test_open028_open028_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open028_open028_v3_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5882,7 +5873,6 @@ def test_open028_open028_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open027_open027_v1_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5898,7 +5888,6 @@ def test_open027_open027_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open027_open027_v2_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5914,7 +5903,6 @@ def test_open027_open027_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open027_open027_v3_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5945,7 +5933,6 @@ def test_open027_open027_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open025_open025_v1_xml():
     """
     Open content and regular content match the same instances Show that
@@ -7488,7 +7475,6 @@ def test_over010_over010_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over009_over009_v01_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -7579,7 +7565,6 @@ def test_over008_over008_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over007_over007_v01_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -7595,7 +7580,6 @@ def test_over007_over007_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over007_over007_n01_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -7611,7 +7595,6 @@ def test_over007_over007_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over007_over007_n02_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -8056,6 +8039,7 @@ def test_simple046_simple046_n01_xml():
     )
 
 
+@pytest.mark.xfail
 def test_simple045_simple045_v01_xml():
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8177,7 +8161,6 @@ def test_simple022_simple022_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple022_simple022_v02_xml():
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -8702,6 +8685,7 @@ def test_vc024_11_vc024_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_vc024_11_vc024_n1_xml():
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9072,6 +9056,7 @@ def test_vc001_vc001_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_vc001_vc001_n1_xml():
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -10078,7 +10063,6 @@ def test_wild054_wild054_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild053_wild053_v1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10094,7 +10078,6 @@ def test_wild053_wild053_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild053_wild053_v2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -11224,6 +11207,7 @@ def test_wild013_wild013_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_wild012_wild012_v1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11240,6 +11224,7 @@ def test_wild012_wild012_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_wild012_wild012_v2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11288,6 +11273,7 @@ def test_wild012_wild012_n2_xml():
     )
 
 
+@pytest.mark.xfail
 def test_wild011_wild011_v1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11304,6 +11290,7 @@ def test_wild011_wild011_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_wild011_wild011_v2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -12330,6 +12317,7 @@ def test_xv003_xv003_v01_xml():
     )
 
 
+@pytest.mark.xfail
 def test_xv002_xv002_v01_xml():
     """
     Use newly-allowed name characters in NCName value Dutch ligature ij is

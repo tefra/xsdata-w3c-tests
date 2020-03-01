@@ -68,6 +68,7 @@ def assert_bindings(
     if schema_validator is None and is_valid:
         pytest.skip("Schema validator failed on parsing definition")
 
+    tree = None
     try:
         tree = XmlSerializer().render_tree(obj)
         if isinstance(schema_validator, xmlschema.XMLSchema11):
@@ -75,8 +76,9 @@ def assert_bindings(
         else:
             schema_validator.assertValid(tree)
     except Exception as e:
-        xml_instance = etree.tostring(tree, pretty_print=True).decode()
-        log.error(xml_instance)
+        if tree is not None:
+            xml_instance = etree.tostring(tree, pretty_print=True).decode()
+            log.error(xml_instance)
         if instance_is_valid:
             raise e
 
@@ -94,9 +96,12 @@ def get_validator(path: Path, version: str):
 
 def initialize_validator(path: Path, version: str):
     try:
-        xmlschema_doc = etree.fromstring(path.read_bytes())
-        schema_class = xmlschema.XMLSchema11 if version == "1.1" else etree.XMLSchema
-        return schema_class(xmlschema_doc)
+        __tracebackhide__ = True
+        if version == "1.1":
+            return xmlschema.XMLSchema11(str(path))
+        else:
+            xmlschema_doc = etree.parse(str(path))
+            return etree.XMLSchema(xmlschema_doc)
     except Exception as e:
         if version == "1.1":
             return None

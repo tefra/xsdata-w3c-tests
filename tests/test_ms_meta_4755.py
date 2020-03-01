@@ -7490,6 +7490,7 @@ def test_sch_u3_sch_u3_i():
     )
 
 
+@pytest.mark.xfail
 def test_sch_t10_sch_t10_v():
     """
     TEST :schema collection and schema location : redefine with an
@@ -7579,6 +7580,7 @@ def test_sch_r2_sch_r2_i():
     )
 
 
+@pytest.mark.xfail
 def test_sch_q3_sch_q3_v():
     """
     TEST :schema collection and schema location : redefine with a
@@ -7594,6 +7596,7 @@ def test_sch_q3_sch_q3_v():
     )
 
 
+@pytest.mark.xfail
 def test_sch_q1_sch_q1_v():
     """
     TEST :schema collection and schema location : redefine with a
@@ -7817,6 +7820,7 @@ def test_sch_e4_sch_e4_v():
     )
 
 
+@pytest.mark.xfail
 def test_sch_d10_sch_d10_v():
     """
     TEST :schema collection and schema location : validate instance
@@ -7966,6 +7970,7 @@ def test_sch_a4_sch_a4_v():
     )
 
 
+@pytest.mark.xfail
 def test_sch_a3_sch_a3_v():
     """
     TEST :schema collection and schema location : Schema
@@ -10692,6 +10697,7 @@ def test_wild_o001_wild_o001_v():
     )
 
 
+@pytest.mark.xfail
 def test_wild_i012_wild_i012_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with
@@ -10707,6 +10713,7 @@ def test_wild_i012_wild_i012_v():
     )
 
 
+@pytest.mark.xfail
 def test_wild_i011_wild_i011_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with
@@ -10879,7 +10886,6 @@ def test_wild_h008_wild_h008_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_h007_wild_h007_v():
     """
     TEST :Syntax Validation - any : ANY (w/
@@ -11437,7 +11443,6 @@ def test_wild_g014_wild_g014_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g013_wild_g013_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
@@ -11486,7 +11491,6 @@ def test_wild_g011_wild_g011_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g010_wild_g010_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
@@ -11550,7 +11554,6 @@ def test_wild_g007_wild_g007_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g006_wild_g006_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) and
@@ -11581,7 +11584,6 @@ def test_wild_g005_wild_g005_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g004_wild_g004_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) and
@@ -11612,7 +11614,6 @@ def test_wild_g003_wild_g003_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g002_wild_g002_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance

@@ -33,6 +33,7 @@ def test_all314_all314_v02_xml():
     )
 
 
+@pytest.mark.xfail
 def test_all314_all314_v05_xml():
     """
     All model group derived by extension from another all model group,
@@ -138,6 +139,7 @@ def test_all306_all306_v01_xml():
     )
 
 
+@pytest.mark.xfail
 def test_all304_all304_v01_xml():
     """
     All model group derived by extension from another all model group
@@ -213,6 +215,7 @@ def test_all304_all304_n04_xml():
     )
 
 
+@pytest.mark.xfail
 def test_all301_all301_v01_xml():
     """
     All model group derived by extension from another all model group
@@ -410,6 +413,7 @@ def test_all006_all006_n04_xml():
     )
 
 
+@pytest.mark.xfail
 def test_all005_all005_v01_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -1290,6 +1294,7 @@ def test_assert009_assert009_n1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_assert008a_assert008a_v1_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1350,6 +1355,7 @@ def test_assert008a_assert008a_n3_xml():
     )
 
 
+@pytest.mark.xfail
 def test_assert008_assert008_v1_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1410,6 +1416,7 @@ def test_assert008_assert008_n3_xml():
     )
 
 
+@pytest.mark.xfail
 def test_assert007_assert007_v1_xml():
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -3725,6 +3732,7 @@ def test_cta0002_cta0002_n01():
     )
 
 
+@pytest.mark.xfail
 def test_cta0001_cta0001_v01():
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3740,6 +3748,7 @@ def test_cta0001_cta0001_v01():
     )
 
 
+@pytest.mark.xfail
 def test_cta0001_cta0001_v02():
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3755,6 +3764,7 @@ def test_cta0001_cta0001_v02():
     )
 
 
+@pytest.mark.xfail
 def test_cta0001_cta0001_v03():
     """
     Conditional simple type: example based on spec Simple type of message
@@ -5828,6 +5838,7 @@ def test_open028_open028_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open028_open028_v2_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5888,6 +5899,7 @@ def test_open027_open027_v1_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open027_open027_v2_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5903,6 +5915,7 @@ def test_open027_open027_v2_xml():
     )
 
 
+@pytest.mark.xfail
 def test_open027_open027_v3_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -6104,7 +6117,6 @@ def test_open015_open015_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open014_open014_v1_xml():
     """
     A valid restriction Base type has open content, restricted type does
@@ -6399,7 +6411,6 @@ def test_open009_open009_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open008_open008_v1_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6415,7 +6426,6 @@ def test_open008_open008_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open008_open008_v2_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6431,7 +6441,6 @@ def test_open008_open008_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open008_open008_v3_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6492,7 +6501,6 @@ def test_open008_open008_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open007_open007_v1_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6508,7 +6516,6 @@ def test_open007_open007_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open007_open007_v2_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6669,7 +6676,6 @@ def test_open006_open006_n3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open005_open005_v1_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6685,7 +6691,6 @@ def test_open005_open005_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open005_open005_v2_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6701,7 +6706,6 @@ def test_open005_open005_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open005_open005_v3_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6717,7 +6721,6 @@ def test_open005_open005_v3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open005_open005_v4_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6980,7 +6983,6 @@ def test_open001_open001_v2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_open001_open001_v3_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7345,7 +7347,6 @@ def test_over015_over015_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over015_over015_v02_xml():
     """
     Override a notation Override a notation
@@ -7360,7 +7361,6 @@ def test_over015_over015_v02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over015_over015_n01_xml():
     """
     Override a notation Override a notation
@@ -7375,7 +7375,6 @@ def test_over015_over015_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_over015_over015_n02_xml():
     """
     Override a notation Override a notation
@@ -7475,6 +7474,7 @@ def test_over010_over010_n02_xml():
     )
 
 
+@pytest.mark.xfail
 def test_over009_over009_v01_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -9160,7 +9160,6 @@ def test_wild080_wild080_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild077_wild077_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9194,7 +9193,6 @@ def test_wild077_wild077_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild076_wild076_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9227,7 +9225,6 @@ def test_wild076_wild076_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild075_wild075_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9351,7 +9348,6 @@ def test_wild073_wild073_v3_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild072_wild072_v1_xml():
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
@@ -9443,7 +9439,6 @@ def test_wild071_wild071_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild070_wild070_v1_xml():
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
@@ -9535,7 +9530,6 @@ def test_wild066_wild066_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild065_wild065_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9566,7 +9560,6 @@ def test_wild065_wild065_n1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild064_wild064_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9675,7 +9668,6 @@ def test_wild063_wild063_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild062_wild062_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -10123,7 +10115,6 @@ def test_wild053_wild053_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild052_wild052_v1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10181,7 +10172,6 @@ def test_wild052_wild052_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild047_wild047_v1_xml():
     """
     Element Wildcard union with notQName and notNamespace disallows the
@@ -11207,7 +11197,6 @@ def test_wild013_wild013_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_v1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11224,7 +11213,6 @@ def test_wild012_wild012_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild012_wild012_v2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11273,7 +11261,6 @@ def test_wild012_wild012_n2_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_v1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11290,7 +11277,6 @@ def test_wild011_wild011_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_wild011_wild011_v2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a

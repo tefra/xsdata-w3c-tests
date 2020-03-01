@@ -73,7 +73,6 @@ def test_s3_3_6v04_s3_3_6v04i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_3_6v01_s3_3_6v01i():
     """
     Wildcards are now allowed in xs:all
@@ -378,7 +377,6 @@ def test_assert_030_assert_030_3():
     )
 
 
-@pytest.mark.xfail
 def test_assert_029_assert_029_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
@@ -1542,6 +1540,7 @@ def test_d4_3_15v07_d4_3_15v07i():
     )
 
 
+@pytest.mark.xfail
 def test_d4_3_15v06_d4_3_15v06i():
     """
     having complexContent, assertions from both derived and base type must
@@ -1714,7 +1713,6 @@ def test_s3_2_3ii01_s3_2_3ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_2_3v04_s3_2_3v04i():
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -2221,6 +2219,7 @@ def test_s3_4_2_4ii07_s3_4_2_4ii07i():
     )
 
 
+@pytest.mark.xfail
 def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     """
     test defaultAttributesApply = true and redefined as false
@@ -3787,7 +3786,6 @@ def test_s3_4_1v10_s3_4_1v10i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_1v09_s3_4_1v09i():
     """
     Tests derivation by restriction with openContent mode interleave in
@@ -3818,6 +3816,7 @@ def test_s3_4_1v08_s3_4_1v08i():
     )
 
 
+@pytest.mark.xfail
 def test_s3_4_1v07_s3_4_1v07i():
     """
     Tests derivation by extension with openContent mode suffix in both
@@ -3833,6 +3832,7 @@ def test_s3_4_1v07_s3_4_1v07i():
     )
 
 
+@pytest.mark.xfail
 def test_s3_4_1v06_s3_4_1v06i():
     """
     Tests openContent in complexType derived by extension
@@ -4108,7 +4108,6 @@ def test_s3_4_6v04_s3_4_6v04i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_4_6v01_s3_4_6v01i():
     """
     Wildcards are now allowed in xs:all
@@ -4298,6 +4297,7 @@ def test_d3_3_9v01_d3_3_9v01ci():
     )
 
 
+@pytest.mark.xfail
 def test_s3_12ii05_s3_12ii05i():
     """
     test xs:error as conditionally assigned type
@@ -4518,7 +4518,6 @@ def test_s3_12v03_s3_12v03i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_12v02_s3_12v02i():
     """
     Basic type alternatives. alternative element with a complexType child
@@ -4536,7 +4535,6 @@ def test_s3_12v02_s3_12v02i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_12v01_s3_12v01i():
     """
     Basic type alternatives. The alternative type extends the base
@@ -4675,7 +4673,6 @@ def test_type_alternatives_002_type_alternatives_002_2():
     )
 
 
-@pytest.mark.xfail
 def test_type_alternatives_001_type_alternatives_001_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -5315,7 +5312,6 @@ def test_s3_10_1v07_s3_10_1v07i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_10_1v06_s3_10_1v06i():
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5332,7 +5328,6 @@ def test_s3_10_1v06_s3_10_1v06i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_10_1v05_s3_10_1v05i():
     """
     the keyword ##definedSibling can be used to exclude all elements

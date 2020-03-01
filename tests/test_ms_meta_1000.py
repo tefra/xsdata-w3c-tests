@@ -918,6 +918,7 @@ def test_add_d002_add_d002_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_d001_add_d001_v():
     """
     TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd without
@@ -1844,7 +1845,6 @@ def test_test93160_test93160_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b145_add_b145_v():
     """
     TEST :Adhoc XSD: : id="87395" description="validateElement on XSD with
@@ -1954,6 +1954,7 @@ def test_add_b136_add_b136_v():
     )
 
 
+@pytest.mark.xfail
 def test_add_b135_add_b135_v():
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
@@ -2276,7 +2277,6 @@ def test_add_b092_add_b092_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b090_add_b090_v():
     """
     TEST :Adhoc XSD: : id="61911" description="xsd: extension: when
@@ -2293,7 +2293,6 @@ def test_add_b090_add_b090_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b088_add_b088_v():
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2601,7 +2600,6 @@ def test_add_b047_add_b047_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b046_add_b046_v():
     """
     TEST :Adhoc XSD: : id="72097" description="xsd: when there is no
@@ -5680,7 +5678,6 @@ def test_ct_z001_ct_z001_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_o006_ct_o006_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6964,7 +6961,6 @@ def test_ct_h049_ct_h049_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_h047_ct_h047_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7060,7 +7056,6 @@ def test_ct_h037_ct_h037_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_h035_ct_h035_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7156,7 +7151,6 @@ def test_ct_h025_ct_h025_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_h011_ct_h011_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7425,7 +7419,6 @@ def test_ct_g049_ct_g049_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_g047_ct_g047_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7521,7 +7514,6 @@ def test_ct_g037_ct_g037_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_g035_ct_g035_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :

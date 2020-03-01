@@ -214,7 +214,6 @@ def test_xsd021_xsd021_n11():
     )
 
 
-@pytest.mark.xfail
 def test_xsd021_xsd021_v00():
     """
     xsd021 anyOtherAttribute.
@@ -889,7 +888,6 @@ def test_xsd004_xsd004_n12():
     )
 
 
-@pytest.mark.xfail
 def test_xsd004_xsd004_v00():
     """
     xsd004 Use of three different type of any element with different
@@ -6218,7 +6216,6 @@ def test_valueconstraint00501m6_negative():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00501m5_positive():
     """
     default value is valid (valid schema) If the declaration has a {value
@@ -6240,7 +6237,6 @@ def test_valueconstraint00501m5_positive():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00501m4_positive():
     """
     default value is valid (valid schema) If the declaration has a {value
@@ -6283,7 +6279,6 @@ def test_valueconstraint00501m3_negative():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00501m2_positive():
     """
     fixed value is valid (valid schema) If the declaration has a {value
@@ -6305,7 +6300,6 @@ def test_valueconstraint00501m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00501m1_positive():
     """
     fixed value is valid (valid schema) If the declaration has a {value
@@ -7067,7 +7061,6 @@ def test_typedef00501m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00403m_type_def00403m1_p():
     """
     Various setting of the {type definition} property. (valid schema) For
@@ -7086,7 +7079,6 @@ def test_typedef00403m_type_def00403m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00402m_type_def00402m1_p():
     """
     Eelements within complexType. (valid schema) Eelements within
@@ -7121,7 +7113,6 @@ def test_typedef00402m_type_def00402m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00401m_type_def00401m1_p():
     """
     Eelements within group. (valid schema) Eelements within  group
@@ -7156,7 +7147,6 @@ def test_typedef00401m_type_def00401m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00301m_type_def00301m1_p():
     """
     The {type definition} property is specified by reference. (valid
@@ -7371,7 +7361,6 @@ def test_typedef00101m_type_def00101m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_term00101m_term00101m1_p():
     """
     The (top-level) element declaration resolved to by the actual value of
@@ -8142,7 +8131,6 @@ def test_scope00201m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_scope00101m_scope00101m1_p():
     """
     General check of the {scope} property. (valid schema) Define one
@@ -8389,7 +8377,6 @@ def test_name00805_name00805_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00804_name00804_p():
     """
     Element names contain lower case and upper case letters and non-letter
@@ -8414,7 +8401,6 @@ def test_name00804_name00804_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00803_name00803_p():
     """
     Element names contain digits followed by a non-digit characters.
@@ -8434,7 +8420,6 @@ def test_name00803_name00803_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00802_name00802_p():
     r"""
     Element name contains 7 punctuation characters. (valid schema) Declare
@@ -8459,7 +8444,6 @@ def test_name00802_name00802_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00801_name00801_p():
     r"""
     Element names contain several punctuation characters. (valid schema)
@@ -8857,7 +8841,6 @@ def test_name00101m_name00101m1_n_529():
     )
 
 
-@pytest.mark.xfail
 def test_minoccurs00201m_min_occurs00201m1_p():
     """
     Default value of the {minOccurs} property when the ref attribute is
@@ -8924,7 +8907,6 @@ def test_minoccurs00101m_min_occurs00101m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_maxoccurs00201m_max_occurs00201m1_p():
     """
     Default value of the {maxOccurs} property when the ref attribute is

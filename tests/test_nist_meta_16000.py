@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -5220,7 +5218,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5235,7 +5232,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5250,7 +5246,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5265,7 +5260,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5280,7 +5274,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5():
     """
     Type atomic/string is restricted by facet enumeration.
@@ -7030,7 +7023,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_1():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7045,7 +7037,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_2():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7060,7 +7051,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_3():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7075,7 +7065,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_4():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7090,7 +7079,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_5():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7105,7 +7093,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_1():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7120,7 +7107,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_2():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7135,7 +7121,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_3():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7150,7 +7135,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_4():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7165,7 +7149,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_5():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7180,7 +7163,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_1():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7195,7 +7177,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_2():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7210,7 +7191,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_3():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7225,7 +7205,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_4():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7240,7 +7219,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_5():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7255,7 +7233,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_1():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7270,7 +7247,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_2():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7285,7 +7261,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_3():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7300,7 +7275,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_4():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7315,7 +7289,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_5():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7330,7 +7303,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7345,7 +7317,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7360,7 +7331,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7375,7 +7345,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7390,7 +7359,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5():
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -9030,7 +8998,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9045,7 +9012,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9060,7 +9026,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9075,7 +9040,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9090,7 +9054,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9245,7 +9208,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9260,7 +9222,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9275,7 +9236,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9290,7 +9250,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9305,7 +9264,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4()
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5():
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -13135,7 +13093,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1():
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13150,7 +13107,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2():
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13165,7 +13121,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3():
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13180,7 +13135,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4():
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13195,7 +13149,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5():
     """
     Type atomic/gYear is restricted by facet enumeration.

@@ -1,5 +1,6 @@
 import functools
 import importlib
+import io
 import logging
 import os
 from pathlib import Path
@@ -7,6 +8,7 @@ from pathlib import Path
 import pytest
 import xmlschema
 from click.testing import CliRunner
+from lxml import etree
 from xsdata import cli
 from xsdata.formats.dataclass.generator import DataclassGenerator
 from xsdata.formats.dataclass.parsers import XmlParser
@@ -32,9 +34,12 @@ def assert_bindings(
     __tracebackhide__ = True
     if not schema:
         pytest.skip("No schema for code generator")
+    if not is_valid:
+        pytest.skip("Invalid schema")
 
     reducer.common_types.clear()
     writer.register_generator("pydata", DataclassGenerator())
+    writer.get_renderer("pydata").modules.clear()
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
@@ -48,8 +53,7 @@ def assert_bindings(
     if not class_name:
         pytest.skip("No class name for data binding")
 
-    module = f"{package}.{text.snake_case(schema_path.stem)}"
-    clazz = load_class(module, class_name)
+    clazz = load_class(result.output, class_name)
     parser = XmlParser()
 
     try:
@@ -60,13 +64,23 @@ def assert_bindings(
         else:
             return
 
-    schema_validator = get_validator(schema_path_absolute, version, is_valid)
-    if schema_validator:
-        try:
-            schema_validator.validate(XmlSerializer().render(obj))
-        except Exception as e:
-            if instance_is_valid:
-                raise e
+    schema_validator = get_validator(schema_path_absolute, version)
+    if schema_validator is None and is_valid:
+        pytest.skip("Schema validator failed on parsing definition")
+
+    tree = None
+    try:
+        tree = XmlSerializer().render_tree(obj)
+        if isinstance(schema_validator, xmlschema.XMLSchema11):
+            schema_validator.validate(tree)
+        else:
+            schema_validator.assertValid(tree)
+    except Exception as e:
+        if tree is not None:
+            xml_instance = etree.tostring(tree, pretty_print=True).decode()
+            log.error(xml_instance)
+        if instance_is_valid:
+            raise e
 
 
 @functools.lru_cache(maxsize=5)
@@ -76,20 +90,35 @@ def generate_models(xsd: str, package: str):
 
 
 @functools.lru_cache(maxsize=5)
-def get_validator(path: Path, version: str, is_valid: bool):
-    try:
-        schema_class = (
-            xmlschema.XMLSchema11 if version == "1.1" else xmlschema.XMLSchema10
-        )
-        return schema_class(str(path))
-    except Exception as e:
-        if is_valid:
-            pytest.skip("Schema validator failed on parsing definition")
+def get_validator(path: Path, version: str):
+    return initialize_validator(path, version)
 
 
-def load_class(module_name, clazz_name):
+def initialize_validator(path: Path, version: str):
     try:
-        module = importlib.import_module(module_name)
-        return getattr(module, clazz_name)
+        __tracebackhide__ = True
+        if version == "1.1":
+            return xmlschema.XMLSchema11(str(path))
+        else:
+            xmlschema_doc = etree.parse(str(path))
+            return etree.XMLSchema(xmlschema_doc)
     except Exception as e:
-        pytest.fail(f"Failed to load class name {module_name}::{clazz_name}")
+        if version == "1.1":
+            return None
+        return initialize_validator(path, "1.1")
+
+
+def load_class(output, clazz_name):
+    search = "Generating package: "
+    packages = [
+        line[len(search) :] for line in output.split("\n") if line.startswith(search)
+    ]
+
+    for package in reversed(packages):
+        try:
+            module = importlib.import_module(package)
+            return getattr(module, clazz_name)
+        except (ModuleNotFoundError, AttributeError):
+            pass
+
+    pytest.fail(f"Failed to load class name {clazz_name}")

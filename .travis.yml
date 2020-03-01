@@ -2,42 +2,9 @@ sudo: false
 language: python
 python:
   - "3.7"
-env:
-  - TESTFILE=tests/test_common_91.py
-  - TESTFILE=tests/test_nist_meta_1000.py
-  - TESTFILE=tests/test_nist_meta_2000.py
-  - TESTFILE=tests/test_nist_meta_3000.py
-  - TESTFILE=tests/test_nist_meta_4000.py
-  - TESTFILE=tests/test_nist_meta_5000.py
-  - TESTFILE=tests/test_nist_meta_6000.py
-  - TESTFILE=tests/test_nist_meta_7000.py
-  - TESTFILE=tests/test_nist_meta_8000.py
-  - TESTFILE=tests/test_nist_meta_9000.py
-  - TESTFILE=tests/test_nist_meta_10000.py
-  - TESTFILE=tests/test_nist_meta_11000.py
-  - TESTFILE=tests/test_nist_meta_12000.py
-  - TESTFILE=tests/test_nist_meta_13000.py
-  - TESTFILE=tests/test_nist_meta_14000.py
-  - TESTFILE=tests/test_nist_meta_15000.py
-  - TESTFILE=tests/test_nist_meta_16000.py
-  - TESTFILE=tests/test_nist_meta_17000.py
-  - TESTFILE=tests/test_nist_meta_18000.py
-  - TESTFILE=tests/test_nist_meta_19000.py
-  - TESTFILE=tests/test_nist_meta_19217.py
-  - TESTFILE=tests/test_sun_meta_919.py
-  - TESTFILE=tests/test_ms_meta_1000.py
-  - TESTFILE=tests/test_ms_meta_2000.py
-  - TESTFILE=tests/test_ms_meta_3000.py
-  - TESTFILE=tests/test_ms_meta_4000.py
-  - TESTFILE=tests/test_ms_meta_4755.py
-  - TESTFILE=tests/test_boeing_meta_12.py
-  - TESTFILE=tests/test_saxon_meta_856.py
-  - TESTFILE=tests/test_oracle_meta_17.py
-  - TESTFILE=tests/test_wg_meta_53.py
-  - TESTFILE=tests/test_ibm_meta_404.py
 before_install:
   - pip install --upgrade pip
 install:
   - pip install tox
 script:
-  - tox -- $TESTFILE
+  - tox

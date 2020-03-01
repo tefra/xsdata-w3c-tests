@@ -1,3 +1,4 @@
+from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from lxml.etree import QName
@@ -196,23 +197,23 @@ class ExpectedOutcome(Enum):
                 behaviors can be used to describe the relevant cases
                 more precisely.</ns0:p>
       </ns0:div>
-    :cvar VALID:
-    :cvar INVALID:
-    :cvar NOT_KNOWN:
-    :cvar RUNTIME_SCHEMA_ERROR:
     :cvar IMPLEMENTATION_DEFINED:
     :cvar IMPLEMENTATION_DEPENDENT:
     :cvar INDETERMINATE:
+    :cvar INVALID:
     :cvar INVALID_LATENT:
+    :cvar NOT_KNOWN:
+    :cvar RUNTIME_SCHEMA_ERROR:
+    :cvar VALID:
     """
-    VALID = "valid"
-    INVALID = "invalid"
-    NOT_KNOWN = "notKnown"
-    RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
     IMPLEMENTATION_DEFINED = "implementation-defined"
     IMPLEMENTATION_DEPENDENT = "implementation-dependent"
     INDETERMINATE = "indeterminate"
+    INVALID = "invalid"
     INVALID_LATENT = "invalid-latent"
+    NOT_KNOWN = "notKnown"
+    RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
+    VALID = "valid"
 
 
 class KnownToken(Enum):
@@ -230,40 +231,40 @@ class KnownToken(Enum):
                 defined immediately below.</ns0:p>
       </ns0:div>
     :cvar VALUE_1_0:
-    :cvar VALUE_1_1:
     :cvar VALUE_1_0_1E:
     :cvar VALUE_1_0_2E:
+    :cvar VALUE_1_1:
+    :cvar CTR_ALL_COMPILE:
+    :cvar CTR_ALL_IDEP:
+    :cvar CTR_ALL_RUNTIME:
+    :cvar UNICODE_4_0_0:
+    :cvar UNICODE_6_0_0:
     :cvar XML_1_0:
     :cvar XML_1_0_1E_4E:
     :cvar XML_1_0_5E:
     :cvar XML_1_1:
-    :cvar UNICODE_4_0_0:
-    :cvar UNICODE_6_0_0:
-    :cvar CTR_ALL_COMPILE:
-    :cvar CTR_ALL_RUNTIME:
-    :cvar CTR_ALL_IDEP:
-    :cvar RESTRICTED_XPATH_IN_CTA:
-    :cvar FULL_XPATH_IN_CTA:
     :cvar COMMENTS_AND_PIS_EXCLUDED:
     :cvar COMMENTS_AND_PIS_INCLUDED:
+    :cvar FULL_XPATH_IN_CTA:
+    :cvar RESTRICTED_XPATH_IN_CTA:
     """
     VALUE_1_0 = "1.0"
-    VALUE_1_1 = "1.1"
     VALUE_1_0_1E = "1.0-1e"
     VALUE_1_0_2E = "1.0-2e"
+    VALUE_1_1 = "1.1"
+    CTR_ALL_COMPILE = "CTR-all-compile"
+    CTR_ALL_IDEP = "CTR-all-idep"
+    CTR_ALL_RUNTIME = "CTR-all-runtime"
+    UNICODE_4_0_0 = "Unicode_4.0.0"
+    UNICODE_6_0_0 = "Unicode_6.0.0"
     XML_1_0 = "XML-1.0"
     XML_1_0_1E_4E = "XML-1.0-1e-4e"
     XML_1_0_5E = "XML-1.0-5e"
     XML_1_1 = "XML-1.1"
-    UNICODE_4_0_0 = "Unicode_4.0.0"
-    UNICODE_6_0_0 = "Unicode_6.0.0"
-    CTR_ALL_COMPILE = "CTR-all-compile"
-    CTR_ALL_RUNTIME = "CTR-all-runtime"
-    CTR_ALL_IDEP = "CTR-all-idep"
-    RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
-    FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
     COMMENTS_AND_PIS_EXCLUDED = "comments-and-PIs-excluded"
     COMMENTS_AND_PIS_INCLUDED = "comments-and-PIs-included"
+    FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
+    RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
 
 
 class KnownXsdVersion(Enum):
@@ -335,27 +336,27 @@ class RuntimeSchemaError(Enum):
               or has it been overtaken by the change made to resolve<ns0:a>bug 12185 Conditional Type Assignment and substitutability</ns0:a>(or other late changes)?</ns0:p>
       </ns0:div>
     :cvar CTR_ALL_COMPILE:
-    :cvar CTR_ALL_RUNTIME:
     :cvar CTR_ALL_IDEP:
+    :cvar CTR_ALL_RUNTIME:
     """
     CTR_ALL_COMPILE = "CTR-all-compile"
-    CTR_ALL_RUNTIME = "CTR-all-runtime"
     CTR_ALL_IDEP = "CTR-all-idep"
+    CTR_ALL_RUNTIME = "CTR-all-runtime"
 
 
 class Status(Enum):
     """
     :cvar ACCEPTED:
-    :cvar STABLE:
-    :cvar QUERIED:
-    :cvar DISPUTED_TEST:
     :cvar DISPUTED_SPEC:
+    :cvar DISPUTED_TEST:
+    :cvar QUERIED:
+    :cvar STABLE:
     """
     ACCEPTED = "accepted"
-    STABLE = "stable"
-    QUERIED = "queried"
-    DISPUTED_TEST = "disputed-test"
     DISPUTED_SPEC = "disputed-spec"
+    DISPUTED_TEST = "disputed-test"
+    QUERIED = "queried"
+    STABLE = "stable"
 
 
 class TestOutcome(Enum):
@@ -416,15 +417,15 @@ class TestOutcome(Enum):
           </ns0:dd>
         </ns0:dl>
       </ns0:div>
-    :cvar VALID:
     :cvar INVALID:
     :cvar NOT_KNOWN:
     :cvar RUNTIME_SCHEMA_ERROR:
+    :cvar VALID:
     """
-    VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
     RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
+    VALID = "valid"
 
 
 class UnicodeVersions(Enum):
@@ -520,11 +521,11 @@ class XpathInCta(Enum):
         <ns0:p>(These token values were added 29 July 2011 to address bug<ns0:a>13455
                 XPath subset causes problem</ns0:a>.)</ns0:p>
       </ns0:div>
-    :cvar RESTRICTED_XPATH_IN_CTA:
     :cvar FULL_XPATH_IN_CTA:
+    :cvar RESTRICTED_XPATH_IN_CTA:
     """
-    RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
     FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
+    RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
 
 
 class Xsd10Editions(Enum):
@@ -878,7 +879,7 @@ class TestResult:
             required=True
         )
     )
-    normalized_load: Optional[float] = field(
+    normalized_load: Optional[Decimal] = field(
         default=None,
         metadata=dict(
             name="normalizedLoad",

@@ -1540,7 +1540,6 @@ def test_d4_3_15v07_d4_3_15v07i():
     )
 
 
-@pytest.mark.xfail
 def test_d4_3_15v06_d4_3_15v06i():
     """
     having complexContent, assertions from both derived and base type must
@@ -3429,7 +3428,6 @@ def test_s3_3_4v12_s3_3_4v12i():
     )
 
 
-@pytest.mark.xfail
 def test_s3_3_4v11_s3_3_4v11i():
     """
     Unions involving ID

@@ -1032,7 +1032,6 @@ def test_re_k4_re_k4_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_k3_re_k3_v():
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='',
@@ -5052,7 +5051,6 @@ def test_re_c71_re_c71_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_c70_re_c70_v():
     """
     TEST :branch : base='string', pattern='ab{0,0}', value='',
@@ -5795,7 +5793,6 @@ def test_re_c17_re_c17_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_c16_re_c16_v():
     """
     TEST :branch : base='string', pattern='(a{2})*', value='',
@@ -5976,7 +5973,6 @@ def test_re_c5_re_c5_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_c4_re_c4_v():
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='',
@@ -6007,7 +6003,6 @@ def test_re_c3_re_c3_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_c2_re_c2_v():
     """
     TEST :branch : base='string', pattern='a{0}', value='', type='valid',

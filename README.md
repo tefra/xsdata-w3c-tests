@@ -7,7 +7,7 @@ suite.
 
 # Report
 
-821 failed, 25416 passed, 87 skipped, 12 warnings
+814 failed, 25423 passed, 87 skipped, 12 warnings
 
 # Methodology
 
@@ -29,5 +29,7 @@ suite.
 
 ```terminal
 pip install -r requirements.txt
-python generate.py  # Run twice to add the xfail decorators from pytest cache
+pytest -n 4 --tb short tests/
+pytest -n 4 --runxfail --tb short tests/  | tee pytest.log  # to run the known failing tests
+python generate.py  # update xfail markers
 ```

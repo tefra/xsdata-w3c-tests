@@ -2514,7 +2514,6 @@ def test_s2_7_2ii01_s2_7_2ii01i():
     )
 
 
-@pytest.mark.xfail
 def test_s2_7_2v01_s2_7_2v01i():
     """
     Structures introduces a mechanism for signaling that an element

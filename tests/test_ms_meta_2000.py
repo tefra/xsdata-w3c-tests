@@ -12128,7 +12128,6 @@ def test_qfe1700e3_qfe1700e3_i():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700e2_qfe1700e2_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12145,7 +12144,6 @@ def test_qfe1700e2_qfe1700e2_v():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700e1_qfe1700e1_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14656,7 +14654,6 @@ def test_elem_o007_elem_o007_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_o006_elem_o006_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

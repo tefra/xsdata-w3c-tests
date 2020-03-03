@@ -8291,7 +8291,6 @@ def test_nillable00201m_nillable00201m3_p():
     )
 
 
-@pytest.mark.xfail
 def test_nillable00102m_nillable00102m1_p():
     """
     xsi:nil=false (valid schema) Define nillable element with content type
@@ -8340,7 +8339,6 @@ def test_nillable00101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_nillable00101m1_positive():
     """
     nillable=false (positive case) (valid schema) Define nillable element

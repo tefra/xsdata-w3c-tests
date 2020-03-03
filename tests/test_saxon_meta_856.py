@@ -1081,7 +1081,6 @@ def test_assert022_assert022_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert021_assert021_v1_xml():
     """
     Assertion combined with chameleon include Effect of
@@ -1098,7 +1097,6 @@ def test_assert021_assert021_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert021_assert021_n1_xml():
     """
     Assertion combined with chameleon include Effect of
@@ -1115,7 +1113,6 @@ def test_assert021_assert021_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert020_assert020_v1_xml():
     """
     Assertion combined with chameleon include Effect of
@@ -1132,7 +1129,6 @@ def test_assert020_assert020_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert020_assert020_n1_xml():
     """
     Assertion combined with chameleon include Effect of

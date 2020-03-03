@@ -9080,7 +9080,6 @@ def test_ct_a049_ct_a049_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_a048_ct_a048_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :

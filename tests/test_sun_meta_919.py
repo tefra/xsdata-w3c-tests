@@ -8357,7 +8357,6 @@ def test_nillable00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00805_name00805_p():
     """
     Element names contain only punctuation characters and digits. (valid

@@ -7404,6 +7404,7 @@ def test_qname_length001_1357_qname_length001_1357_i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_any_uri_b006_1356_any_uri_b006_1356_i():
     r"""
@@ -7439,6 +7440,7 @@ def test_any_uri_b005_1355_any_uri_b005_1355_i():
     )
 
 
+@pytest.mark.schema11
 def test_any_uri_b004_1354_any_uri_b004_1354_v():
     """
     TEST :Facet Schemas for string : enumeration of many anyURI: a b c d e
@@ -7523,6 +7525,7 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_any_uri_a001_1336_any_uri_a001_1336_v():
     """

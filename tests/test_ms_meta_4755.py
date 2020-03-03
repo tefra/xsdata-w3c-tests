@@ -7575,7 +7575,6 @@ def test_sch_r2_sch_r2_i():
     )
 
 
-@pytest.mark.xfail
 def test_sch_q3_sch_q3_v():
     """
     TEST :schema collection and schema location : redefine with a
@@ -7591,7 +7590,6 @@ def test_sch_q3_sch_q3_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_q1_sch_q1_v():
     """
     TEST :schema collection and schema location : redefine with a
@@ -7656,7 +7654,6 @@ def test_sch_g8_sch_g8_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g7_sch_g7_v():
     """
     TEST :schema collection and schema location : A imports B and B and C,
@@ -7673,7 +7670,6 @@ def test_sch_g7_sch_g7_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g5_sch_g5_v():
     """
     TEST :schema collection and schema location : A import B and C, A's
@@ -7689,7 +7685,6 @@ def test_sch_g5_sch_g5_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g4_sch_g4_v():
     """
     TEST :schema collection and schema location : A import B and C, A's
@@ -7721,7 +7716,6 @@ def test_sch_g3_sch_g3_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g2_sch_g2_v():
     """
     TEST :schema collection and schema location : A import B, B import C,
@@ -7737,7 +7731,6 @@ def test_sch_g2_sch_g2_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g1_sch_g1_v():
     """
     TEST :schema collection and schema location : A import B, B import C,
@@ -7753,7 +7746,6 @@ def test_sch_g1_sch_g1_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_f5_sch_f5_v():
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
@@ -7769,7 +7761,6 @@ def test_sch_f5_sch_f5_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_f2_sch_f2_v():
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
@@ -7785,7 +7776,6 @@ def test_sch_f2_sch_f2_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_f1_sch_f1_v():
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
@@ -7815,7 +7805,6 @@ def test_sch_e4_sch_e4_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_d10_sch_d10_v():
     """
     TEST :schema collection and schema location : validate instance
@@ -7865,7 +7854,6 @@ def test_sch_d5_sch_d5_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_c4_sch_c4_v():
     """
     TEST :schema collection and schema location : XSD A include XSD B, A's
@@ -7881,7 +7869,6 @@ def test_sch_c4_sch_c4_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_c3_sch_c3_v():
     """
     TEST :schema collection and schema location : XSD A include XSD B, A's
@@ -7965,7 +7952,6 @@ def test_sch_a4_sch_a4_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_a3_sch_a3_v():
     """
     TEST :schema collection and schema location : Schema

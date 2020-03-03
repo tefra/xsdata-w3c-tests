@@ -54,7 +54,6 @@ class ArcType:
     :ivar title:
     :ivar type:
     :ivar arcrole:
-    :ivar title:
     :ivar show:
     :ivar actuate:
     :ivar from_value:
@@ -90,14 +89,6 @@ class ArcType:
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
-        )
-    )
-    title: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
         )
     )
     show: Optional[ShowType] = field(
@@ -147,41 +138,48 @@ class Extended:
     :ivar arc:
     :ivar type:
     :ivar role:
-    :ivar title:
     """
     class Meta:
         name = "extended"
 
-    title: Optional[str] = field(
-        default=None,
+    title: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="title",
             type="Element",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
-    resource: Optional[str] = field(
-        default=None,
+    resource: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="resource",
             type="Element",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
-    locator: Optional[str] = field(
-        default=None,
+    locator: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="locator",
             type="Element",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
-    arc: Optional[str] = field(
-        default=None,
+    arc: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="arc",
             type="Element",
-            namespace="http://www.w3.org/1999/xlink"
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     type: TypeType = field(
@@ -203,14 +201,6 @@ class Extended:
             min_length=1.0
         )
     )
-    title: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
-    )
 
 
 @dataclass
@@ -220,7 +210,6 @@ class LocatorType:
     :ivar type:
     :ivar href:
     :ivar role:
-    :ivar title:
     :ivar label: label is not required, but locators have no particular
          XLink function if they are not labeled.
     """
@@ -263,14 +252,6 @@ class LocatorType:
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
-        )
-    )
-    title: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
         )
     )
     label: Optional[str] = field(
@@ -466,6 +447,7 @@ class TitleEltType:
         default=None,
         metadata=dict(
             name="lang",
-            type="Attribute"
+            type="Attribute",
+            namespace="http://www.w3.org/XML/1998/namespace"
         )
     )

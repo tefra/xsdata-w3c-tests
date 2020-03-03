@@ -3361,6 +3361,7 @@ def test_attg_c024_attg_c024_v():
     )
 
 
+@pytest.mark.schema11
 def test_attg_c010_attg_c010a():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3377,6 +3378,7 @@ def test_attg_c010_attg_c010a():
     )
 
 
+@pytest.mark.schema11
 def test_attg_c010_attg_c010b():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -9487,6 +9489,7 @@ def test_dt_z86723_2246_dt_z86723_2246_i():
     )
 
 
+@pytest.mark.schema11
 def test_dt_z107447_a_2245_dt_z107447_a_2245_i():
     """
     TEST :Facet Schemas for string : XSD:whitespace handling for xs:token

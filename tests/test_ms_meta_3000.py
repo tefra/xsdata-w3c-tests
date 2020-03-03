@@ -1646,6 +1646,7 @@ def test_id_z011_a_id_z011_a_i():
     )
 
 
+@pytest.mark.schema11
 def test_id_z011_id_z011_i():
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
@@ -10316,7 +10317,6 @@ def test_particles_oa003_particles_oa003_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_oa001_particles_oa001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15674,7 +15674,6 @@ def test_particles_db002_particles_db002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_db001_particles_db001_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15757,7 +15756,6 @@ def test_particles_da002_particles_da002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_da001_particles_da001_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

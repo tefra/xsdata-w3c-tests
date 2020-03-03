@@ -3,6 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
+@pytest.mark.schema11
 def test_s3_3_6ii03_s3_3_6ii03i():
     """
     Tests notQName in allgroup
@@ -17,6 +18,7 @@ def test_s3_3_6ii03_s3_3_6ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_6ii02_s3_3_6ii02i():
     """
     Tests notNamespace in all group
@@ -31,6 +33,7 @@ def test_s3_3_6ii02_s3_3_6ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_6ii01_s3_3_6ii01i():
     """
     maxOccurs may now be >1 in all group
@@ -45,6 +48,7 @@ def test_s3_3_6ii01_s3_3_6ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_6v05_s3_3_6v05i():
     """
     Tests maxOccurs > 1 for elements within all group
@@ -59,6 +63,7 @@ def test_s3_3_6v05_s3_3_6v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_6v04_s3_3_6v04i():
     """
     Tests restriction of all group
@@ -73,6 +78,7 @@ def test_s3_3_6v04_s3_3_6v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_6v01_s3_3_6v01i():
     """
     Wildcards are now allowed in xs:all
@@ -143,6 +149,7 @@ def test_s3_10_6ii01_s3_10_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6v03_s3_10_6v03i():
     """
     Tests namespace attribute on xs:anyAttribute
@@ -157,6 +164,7 @@ def test_s3_10_6v03_s3_10_6v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6v02_s3_10_6v02i():
     """
     Tests namespace attribute on xs:anyAttribute
@@ -171,6 +179,7 @@ def test_s3_10_6v02_s3_10_6v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6v01_s3_10_6v01i():
     """
     Tests notQName on xs:anyAttribute
@@ -185,6 +194,7 @@ def test_s3_10_6v01_s3_10_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_assert_035_assert_035_2():
     """
     An example demonstrating constraining the cardinality of schema
@@ -201,6 +211,7 @@ def test_assert_035_assert_035_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_035_assert_035_3():
     """
     An example demonstrating constraining the cardinality of schema
@@ -217,6 +228,7 @@ def test_assert_035_assert_035_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_034_assert_034_3():
     """
     An example demonstrating assertion defined in simple schema type,
@@ -233,6 +245,7 @@ def test_assert_034_assert_034_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_033_assert_033_2():
     """
     Demonstrating assertions on memberTypes of xs:union.
@@ -247,6 +260,7 @@ def test_assert_033_assert_033_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_032_assert_032_2():
     """
     This is similar to example "assert_031", but here both of memberTypes
@@ -262,6 +276,7 @@ def test_assert_032_assert_032_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_032_assert_032_3():
     """
     This is similar to example "assert_031", but here both of memberTypes
@@ -277,6 +292,7 @@ def test_assert_032_assert_032_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_031_assert_031_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -293,6 +309,7 @@ def test_assert_031_assert_031_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_031_assert_031_3():
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -309,6 +326,7 @@ def test_assert_031_assert_031_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_031_assert_031_4():
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -325,6 +343,7 @@ def test_assert_031_assert_031_4():
     )
 
 
+@pytest.mark.schema11
 def test_assert_031_assert_031_5():
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -341,6 +360,7 @@ def test_assert_031_assert_031_5():
     )
 
 
+@pytest.mark.schema11
 def test_assert_030_assert_030_2():
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
@@ -359,6 +379,7 @@ def test_assert_030_assert_030_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_030_assert_030_3():
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
@@ -377,6 +398,7 @@ def test_assert_030_assert_030_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_029_assert_029_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
@@ -398,6 +420,7 @@ def test_assert_029_assert_029_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_029_assert_029_3():
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
@@ -419,6 +442,7 @@ def test_assert_029_assert_029_3():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert_028_assert_028_2():
     """
@@ -436,6 +460,7 @@ def test_assert_028_assert_028_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_027_assert_027_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation when XML
@@ -452,6 +477,7 @@ def test_assert_027_assert_027_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_026_assert_026_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation when outermost
@@ -469,6 +495,7 @@ def test_assert_026_assert_026_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_025_assert_025_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation using xs:assert
@@ -485,6 +512,7 @@ def test_assert_025_assert_025_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_024_assert_024_2():
     """
     An example demonstrating assertions evaluation, with xs:string schema
@@ -503,6 +531,7 @@ def test_assert_024_assert_024_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_023_assert_023_2():
     """
     An example demonstrating assertions evaluation, with xs:string schema
@@ -523,6 +552,7 @@ def test_assert_023_assert_023_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_022_assert_022_2():
     """
     An example demonstrating assertions evaluation, with a numeric schema
@@ -541,6 +571,7 @@ def test_assert_022_assert_022_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_021_assert_021_2():
     """
     An example demonstrating assertions evaluation, with a xs:string
@@ -557,6 +588,7 @@ def test_assert_021_assert_021_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_020_assert_020_2():
     """
     An example demonstrating assertions evaluation, with a numeric schema
@@ -573,6 +605,7 @@ def test_assert_020_assert_020_2():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert_019_assert_019_2():
     """
@@ -589,6 +622,7 @@ def test_assert_019_assert_019_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_018_assert_018_2():
     """
     This is similar to test 'assert_017', but element a's schema type in
@@ -605,6 +639,7 @@ def test_assert_018_assert_018_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_018_assert_018_3():
     """
     This is similar to test 'assert_017', but element a's schema type in
@@ -621,6 +656,7 @@ def test_assert_018_assert_018_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_017_assert_017_2():
     """
     An assertions example, where an XML schema xs:group definition is
@@ -638,6 +674,7 @@ def test_assert_017_assert_017_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_016_assert_016_2():
     """
     Describing both xs:assert & xs:assertion on complexType ->
@@ -653,6 +690,7 @@ def test_assert_016_assert_016_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_015_assert_015_2():
     """
     Describing relatively involved assertions. Assertions are described in
@@ -669,6 +707,7 @@ def test_assert_015_assert_015_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_014_assert_014_2():
     """
     Assertion defined on attribute's schema type. Uses assertions XPath
@@ -684,6 +723,7 @@ def test_assert_014_assert_014_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_013_assert_013_2():
     """
     Assertions on a fictitious numerical example.
@@ -698,6 +738,7 @@ def test_assert_013_assert_013_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_012_assert_012_2():
     """
     Multiple assertions on a complexType, with a fictitious problem
@@ -713,6 +754,7 @@ def test_assert_012_assert_012_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_011_assert_011_2():
     """
     Assertions on complex type, using xpathDefaultNamespace attribute on
@@ -728,6 +770,7 @@ def test_assert_011_assert_011_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_010_assert_010_2():
     """
     Assertions on complex type derivations.
@@ -742,6 +785,7 @@ def test_assert_010_assert_010_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_009_assert_009_2():
     """
     Assertions on simple type, using assertions XPath 2.0 context variable
@@ -757,6 +801,7 @@ def test_assert_009_assert_009_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_008_assert_008_2():
     """
     Assertions on schema "complex type" definitions, having attribute with
@@ -772,6 +817,7 @@ def test_assert_008_assert_008_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_007_assert_007_2():
     """
     Assertions on schema "simple type" definitions, with inheritance
@@ -787,6 +833,7 @@ def test_assert_007_assert_007_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_006_assert_006_2():
     """
     Assertions on complexType -> complexContent, with inheritance
@@ -802,6 +849,7 @@ def test_assert_006_assert_006_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_005_assert_005_2():
     """
     Multiple assertions on a sample 'simple type'.
@@ -816,6 +864,7 @@ def test_assert_005_assert_005_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_004_assert_004_2():
     """
     Multiple assertions on a complex type, with a fictitious problem
@@ -831,6 +880,7 @@ def test_assert_004_assert_004_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_003_assert_003_2():
     """
     Assertions on a complex type, with relatively bigger content model.
@@ -845,6 +895,7 @@ def test_assert_003_assert_003_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_002_assert_002_2():
     """
     Assertions demonstrating co-occurence constraints (constraints between
@@ -860,6 +911,7 @@ def test_assert_002_assert_002_2():
     )
 
 
+@pytest.mark.schema11
 def test_assert_002_assert_002_3():
     """
     Assertions demonstrating co-occurence constraints (constraints between
@@ -875,6 +927,7 @@ def test_assert_002_assert_002_3():
     )
 
 
+@pytest.mark.schema11
 def test_assert_001_assert_001_2():
     """
     Assertions demonstrating co-occurence constraints, along with an
@@ -891,6 +944,7 @@ def test_assert_001_assert_001_2():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii32_d4_3_15ii32i():
     """
@@ -906,6 +960,7 @@ def test_d4_3_15ii32_d4_3_15ii32i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii31_d4_3_15ii31i():
     """
@@ -921,6 +976,7 @@ def test_d4_3_15ii31_d4_3_15ii31i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii30_d4_3_15ii30i():
     """
     assertion on different namespace test case in simpleType/complexType
@@ -936,6 +992,7 @@ def test_d4_3_15ii30_d4_3_15ii30i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii29_d4_3_15ii29i():
     """
     xpathDefaultNamespace, assertion on different namespace test case in
@@ -951,6 +1008,7 @@ def test_d4_3_15ii29_d4_3_15ii29i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii27_d4_3_15ii27i():
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -966,6 +1024,7 @@ def test_d4_3_15ii27_d4_3_15ii27i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii25_d4_3_15ii25i():
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -981,6 +1040,7 @@ def test_d4_3_15ii25_d4_3_15ii25i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii24_d4_3_15ii24i():
     """
     naive xpathDefaultNamespace(exact uri of targetNamespace) test case in
@@ -996,6 +1056,7 @@ def test_d4_3_15ii24_d4_3_15ii24i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii23_d4_3_15ii23i():
     """
     naive xpathDefaultNamespace (exact uri of targetNamespace) test case
@@ -1011,6 +1072,7 @@ def test_d4_3_15ii23_d4_3_15ii23i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii22_d4_3_15ii22i():
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1026,6 +1088,7 @@ def test_d4_3_15ii22_d4_3_15ii22i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii21_d4_3_15ii21i():
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1041,6 +1104,7 @@ def test_d4_3_15ii21_d4_3_15ii21i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii20_d4_3_15ii20i():
     """
     assertions on a simple type definition.
@@ -1055,6 +1119,7 @@ def test_d4_3_15ii20_d4_3_15ii20i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii19_d4_3_15ii19i():
     """
     assertions on a complex type definition,           having
@@ -1070,6 +1135,7 @@ def test_d4_3_15ii19_d4_3_15ii19i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii18_d4_3_15ii18i():
     """
     assertions on a complex type definition,         having
@@ -1085,6 +1151,7 @@ def test_d4_3_15ii18_d4_3_15ii18i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii17_d4_3_15ii17i():
     """
@@ -1101,6 +1168,7 @@ def test_d4_3_15ii17_d4_3_15ii17i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii15_d4_3_15ii15i():
     """
@@ -1116,6 +1184,7 @@ def test_d4_3_15ii15_d4_3_15ii15i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii14_d4_3_15ii14i():
     """
@@ -1131,6 +1200,7 @@ def test_d4_3_15ii14_d4_3_15ii14i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii13_d4_3_15ii13i():
     """
     dynamic context of the XPath expression, assertion on element
@@ -1145,6 +1215,7 @@ def test_d4_3_15ii13_d4_3_15ii13i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15ii12_d4_3_15ii12i():
     """
@@ -1161,6 +1232,7 @@ def test_d4_3_15ii12_d4_3_15ii12i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii11_d4_3_15ii11i():
     """
     dynamic context of the XPath expression, assertion on attribute
@@ -1175,6 +1247,7 @@ def test_d4_3_15ii11_d4_3_15ii11i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii10_d4_3_15ii10i():
     """
     ssertions on derived complex type
@@ -1189,6 +1262,7 @@ def test_d4_3_15ii10_d4_3_15ii10i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii08_d4_3_15ii08i():
     """
     assertions on a complex type definition having simpleContent
@@ -1203,6 +1277,7 @@ def test_d4_3_15ii08_d4_3_15ii08i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii06_d4_3_15ii06i():
     """
     assertions on a complex type definition,having complexContent,
@@ -1218,6 +1293,7 @@ def test_d4_3_15ii06_d4_3_15ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii04_d4_3_15ii04i():
     """
     assertions on a complex type definition. uses multiple asserts
@@ -1232,6 +1308,7 @@ def test_d4_3_15ii04_d4_3_15ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii03_d4_3_15ii03i():
     """
     assertions on a complex type definition. this schema has a bigger
@@ -1247,6 +1324,7 @@ def test_d4_3_15ii03_d4_3_15ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii02_d4_3_15ii02i():
     """
     Assertions on a complex type definition
@@ -1261,6 +1339,7 @@ def test_d4_3_15ii02_d4_3_15ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15ii01_d4_3_15ii01i():
     """
     Assertions on a complex type definition
@@ -1275,6 +1354,7 @@ def test_d4_3_15ii01_d4_3_15ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v28_d4_3_15v28i():
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -1290,6 +1370,7 @@ def test_d4_3_15v28_d4_3_15v28i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v27_d4_3_15v27i():
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -1305,6 +1386,7 @@ def test_d4_3_15v27_d4_3_15v27i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v26_d4_3_15v26i():
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -1320,6 +1402,7 @@ def test_d4_3_15v26_d4_3_15v26i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v25_d4_3_15v25i():
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -1335,6 +1418,7 @@ def test_d4_3_15v25_d4_3_15v25i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v24_d4_3_15v24i():
     """
     naive xpathDefaultNamespace(exact uri of targetNamespace) test case in
@@ -1350,6 +1434,7 @@ def test_d4_3_15v24_d4_3_15v24i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v23_d4_3_15v23i():
     """
     naive xpathDefaultNamespace (exact uri of targetNamespace) test case
@@ -1365,6 +1450,7 @@ def test_d4_3_15v23_d4_3_15v23i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v22_d4_3_15v22i():
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1380,6 +1466,7 @@ def test_d4_3_15v22_d4_3_15v22i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v21_d4_3_15v21i():
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1395,6 +1482,7 @@ def test_d4_3_15v21_d4_3_15v21i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v19_d4_3_15v19i():
     """
     assertions on a complex type definition,           having
@@ -1410,6 +1498,7 @@ def test_d4_3_15v19_d4_3_15v19i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v18_d4_3_15v18i():
     """
     assertions on a complex type definition,           having
@@ -1425,6 +1514,7 @@ def test_d4_3_15v18_d4_3_15v18i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15v15_d4_3_15v15i():
     """
@@ -1440,6 +1530,7 @@ def test_d4_3_15v15_d4_3_15v15i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_15v14_d4_3_15v14i():
     """
@@ -1455,6 +1546,7 @@ def test_d4_3_15v14_d4_3_15v14i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v13_d4_3_15v13i():
     """
     dynamic context of the XPath expression, assertion on element
@@ -1469,6 +1561,7 @@ def test_d4_3_15v13_d4_3_15v13i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v11_d4_3_15v11i():
     """
     dynamic context of the XPath expression, assertion on attribute
@@ -1483,6 +1576,7 @@ def test_d4_3_15v11_d4_3_15v11i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v10_d4_3_15v10i():
     """
     assertions on derived complex type
@@ -1497,6 +1591,7 @@ def test_d4_3_15v10_d4_3_15v10i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v09_d4_3_15v09i():
     """
     assertions on simple type, using variable $value
@@ -1511,6 +1606,7 @@ def test_d4_3_15v09_d4_3_15v09i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v08_d4_3_15v08i():
     """
     assertions on a complex type definition having simpleContent
@@ -1525,6 +1621,7 @@ def test_d4_3_15v08_d4_3_15v08i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v07_d4_3_15v07i():
     """
     assertions on derived simple type definitions,           all baseType
@@ -1540,6 +1637,7 @@ def test_d4_3_15v07_d4_3_15v07i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v06_d4_3_15v06i():
     """
     having complexContent, assertions from both derived and base type must
@@ -1555,6 +1653,7 @@ def test_d4_3_15v06_d4_3_15v06i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v05_d4_3_15v05i():
     """
     assertions on a simple type definition
@@ -1569,6 +1668,7 @@ def test_d4_3_15v05_d4_3_15v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v04_d4_3_15v04i():
     """
     ssertions on a complex type definition. uses multiple asserts
@@ -1583,6 +1683,7 @@ def test_d4_3_15v04_d4_3_15v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v03_d4_3_15v03i():
     """
     assertions on a complex type definition
@@ -1597,6 +1698,7 @@ def test_d4_3_15v03_d4_3_15v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v02_d4_3_15v02i():
     """
     Assertions on a complex type definition
@@ -1611,6 +1713,7 @@ def test_d4_3_15v02_d4_3_15v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_15v01_d4_3_15v01i():
     """
     Assertions on a complex type definition
@@ -1625,6 +1728,7 @@ def test_d4_3_15v01_d4_3_15v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s4_2_2ii01_s4_2_2ii01i():
     """
     invalid instance vc: conditional inclusion Testing version
@@ -1639,6 +1743,7 @@ def test_s4_2_2ii01_s4_2_2ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s4_2_2v01_s4_2_2v01i():
     """
     vc: conditional inclusion Testing version
@@ -1653,6 +1758,7 @@ def test_s4_2_2v01_s4_2_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3ii05_s3_2_3ii05i():
     """
     Named identity constraints on local element declarations
@@ -1667,6 +1773,7 @@ def test_s3_2_3ii05_s3_2_3ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3ii04_s3_2_3ii04i():
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1682,6 +1789,7 @@ def test_s3_2_3ii04_s3_2_3ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3ii02_s3_2_3ii02i():
     """
     Tests for valid derivation of restriction of complexType in other
@@ -1697,6 +1805,7 @@ def test_s3_2_3ii02_s3_2_3ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3ii01_s3_2_3ii01i():
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1712,6 +1821,7 @@ def test_s3_2_3ii01_s3_2_3ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3v04_s3_2_3v04i():
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1727,6 +1837,7 @@ def test_s3_2_3v04_s3_2_3v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_2_3v01_s3_2_3v01i():
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1742,6 +1853,7 @@ def test_s3_2_3v01_s3_2_3v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_10v01_d3_3_10v01i():
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -1757,6 +1869,7 @@ def test_d3_3_10v01_d3_3_10v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28ii01_d3_4_28ii01i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1771,6 +1884,7 @@ def test_d3_4_28ii01_d3_4_28ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28ii01_d3_4_28ii02i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1785,6 +1899,7 @@ def test_d3_4_28ii01_d3_4_28ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28ii01_d3_4_28ii03i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1799,6 +1914,7 @@ def test_d3_4_28ii01_d3_4_28ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28ii01_d3_4_28ii04i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1813,6 +1929,7 @@ def test_d3_4_28ii01_d3_4_28ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28ii01_d3_4_28ii05i():
     """
     invalid dateTimeStamp values;Invalid enumeration values
@@ -1827,6 +1944,7 @@ def test_d3_4_28ii01_d3_4_28ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v10_d3_4_28v10i():
     """
     Additional dateTimeStamp tests, for attributes
@@ -1841,6 +1959,7 @@ def test_d3_4_28v10_d3_4_28v10i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v09_d3_4_28v09i():
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1856,6 +1975,7 @@ def test_d3_4_28v09_d3_4_28v09i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v08_d3_4_28v08i():
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1871,6 +1991,7 @@ def test_d3_4_28v08_d3_4_28v08i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v07_d3_4_28v07i():
     """
     Tests the simpleType decimal and its facets with (min|max)
@@ -1886,6 +2007,7 @@ def test_d3_4_28v07_d3_4_28v07i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v06_d3_4_28v06i():
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1901,6 +2023,7 @@ def test_d3_4_28v06_d3_4_28v06i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v05_d3_4_28v05i():
     """
     Tests the simpleType decimal and its facets
@@ -1915,6 +2038,7 @@ def test_d3_4_28v05_d3_4_28v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v04_d3_4_28v04i():
     """
     Tests the simpleType decimal and its facets, used with unions
@@ -1929,6 +2053,7 @@ def test_d3_4_28v04_d3_4_28v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v03_d3_4_28v03i():
     """
     Tests the simpleType dateTimeStamp and its facets pattern, used in
@@ -1944,6 +2069,7 @@ def test_d3_4_28v03_d3_4_28v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v02_d3_4_28v02i():
     """
     Tests the simpleType decimal and its facets and its use in attributes
@@ -1958,6 +2084,7 @@ def test_d3_4_28v02_d3_4_28v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_28v01_d3_4_28v01i():
     """
     Tests the simpleType dateTimeStamp and its facets and its use in
@@ -1973,6 +2100,7 @@ def test_d3_4_28v01_d3_4_28v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii07_d3_4_27ii07i():
     """
     Invalid dayTimeDuration values used with (min|max)
@@ -1988,6 +2116,7 @@ def test_d3_4_27ii07_d3_4_27ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii06_d3_4_27ii06i():
     """
     Invalid dayTimeDuration values used in unions
@@ -2002,6 +2131,7 @@ def test_d3_4_27ii06_d3_4_27ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii05_d3_4_27ii05i():
     """
     Invalid values of dayTimeDuration and invalid instance of its facets
@@ -2017,6 +2147,7 @@ def test_d3_4_27ii05_d3_4_27ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii04_d3_4_27ii04i():
     """
     Invalid dayTimeDuration Min/Max Exclusive
@@ -2031,6 +2162,7 @@ def test_d3_4_27ii04_d3_4_27ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii03_d3_4_27ii03i():
     """
     Invalid dayTimeDuration Min/Max Inclusive
@@ -2045,6 +2177,7 @@ def test_d3_4_27ii03_d3_4_27ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii02_d3_4_27ii02i():
     """
     Invalid dayTimeDuration enumeration values
@@ -2059,6 +2192,7 @@ def test_d3_4_27ii02_d3_4_27ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27ii01_d3_4_27ii01i():
     """
     Invalid dayTimeDuration values
@@ -2073,6 +2207,7 @@ def test_d3_4_27ii01_d3_4_27ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27v05_d3_4_27v05i():
     """
     Additional tests for dayTimeDuration and its facets with (min|max)
@@ -2088,6 +2223,7 @@ def test_d3_4_27v05_d3_4_27v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27v04_d3_4_27v04i():
     """
     Tests the simpleType dayTimeDuration and its facets with (min|max)
@@ -2103,6 +2239,7 @@ def test_d3_4_27v04_d3_4_27v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27v03_d3_4_27v03i():
     """
     Tests dayTimeDuration used in unions
@@ -2117,6 +2254,7 @@ def test_d3_4_27v03_d3_4_27v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27v02_d3_4_27v02i():
     """
     Tests the simpleType dayTimeDuration and its facets and its use in
@@ -2132,6 +2270,7 @@ def test_d3_4_27v02_d3_4_27v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_27v01_d3_4_27v01i():
     """
     Tests the simpleType dayTimeDuration and its facets
@@ -2146,6 +2285,7 @@ def test_d3_4_27v01_d3_4_27v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii11_s3_4_2_4ii11i():
     """
     test defaultAttributesApply is absent, and ref attribute in
@@ -2161,6 +2301,7 @@ def test_s3_4_2_4ii11_s3_4_2_4ii11i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii10_s3_4_2_4ii10i():
     """
     test defaultAttributesApply = false and override as false
@@ -2175,6 +2316,7 @@ def test_s3_4_2_4ii10_s3_4_2_4ii10i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii09_s3_4_2_4ii09i():
     """
     test defaultAttributesApply = false/true/absent across multiple schema
@@ -2190,6 +2332,7 @@ def test_s3_4_2_4ii09_s3_4_2_4ii09i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii08_s3_4_2_4ii08i():
     """
     test defaultAttributesApply = false and override as absent
@@ -2204,6 +2347,7 @@ def test_s3_4_2_4ii08_s3_4_2_4ii08i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii07_s3_4_2_4ii07i():
     """
     test defaultAttributesApply = false and redefined as absent
@@ -2218,6 +2362,7 @@ def test_s3_4_2_4ii07_s3_4_2_4ii07i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     """
@@ -2233,6 +2378,7 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii05_s3_4_2_4ii05i():
     """
     test defaultAttributesApply = false and redefined as true
@@ -2247,6 +2393,7 @@ def test_s3_4_2_4ii05_s3_4_2_4ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii03_s3_4_2_4ii03i():
     """
     test defaultAttributesApply = false and redefined as absent
@@ -2261,6 +2408,7 @@ def test_s3_4_2_4ii03_s3_4_2_4ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii02_s3_4_2_4ii02i():
     """
     test defaultAttributesApply = false
@@ -2275,6 +2423,7 @@ def test_s3_4_2_4ii02_s3_4_2_4ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4ii01_s3_4_2_4ii01i():
     """
     test defaultAttributesApply = false, across multiple schema documents
@@ -2289,6 +2438,7 @@ def test_s3_4_2_4ii01_s3_4_2_4ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4v13_s3_4_2_4v13i():
     """
     test defaultAttributesApply is absent, and ref attribute in
@@ -2304,6 +2454,7 @@ def test_s3_4_2_4v13_s3_4_2_4v13i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4v03_s3_4_2_4v03i():
     """
     test defaultAttributesApply = true
@@ -2318,6 +2469,7 @@ def test_s3_4_2_4v03_s3_4_2_4v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4v02_s3_4_2_4v02i():
     """
     test defaultAttributesApply = false
@@ -2332,6 +2484,7 @@ def test_s3_4_2_4v02_s3_4_2_4v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_2_4v01_s3_4_2_4v01i():
     """
     test defaultAttributesApply is absent
@@ -2346,6 +2499,7 @@ def test_s3_4_2_4v01_s3_4_2_4v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_7_2ii01_s2_7_2ii01i():
     """
     default values for xsi:nil
@@ -2382,6 +2536,7 @@ def test_s2_7_2v01_s2_7_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_7_1ii02_s2_7_1ii02i():
     """
     When an xsi:type attribute appears on an element, and has a QName as
@@ -2400,6 +2555,7 @@ def test_s2_7_1ii02_s2_7_1ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_7_1ii01_s2_7_1ii01i():
     """
     xsi:type must resolve to a type definition
@@ -2414,6 +2570,7 @@ def test_s2_7_1ii01_s2_7_1ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_7_1v01_s2_7_1v01i():
     """
     xsi:type must resolve to a type definition
@@ -2428,6 +2585,7 @@ def test_s2_7_1v01_s2_7_1v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_6v02_d3_3_6v02i():
     """
     Lexical representation +INF for double
@@ -2442,6 +2600,7 @@ def test_d3_3_6v02_d3_3_6v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_6v01_d3_3_6v01i():
     """
     Valid test for +0 and -0 bound checking
@@ -2456,6 +2615,7 @@ def test_d3_3_6v01_d3_3_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_8_6ii01_s3_8_6ii01i():
     """
     tighter rule for EDC as regards the type of an element that matches a
@@ -2471,6 +2631,7 @@ def test_s3_8_6ii01_s3_8_6ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_8_6v01_s3_8_6v01i():
     """
     tighter rule for EDC as regards the type of an element that matches a
@@ -2486,6 +2647,7 @@ def test_s3_8_6v01_s3_8_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii07_d4_3_16ii07i():
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2501,6 +2663,7 @@ def test_d4_3_16ii07_d4_3_16ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii06_d4_3_16ii06i():
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2516,6 +2679,7 @@ def test_d4_3_16ii06_d4_3_16ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii05_d4_3_16ii05i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
@@ -2530,6 +2694,7 @@ def test_d4_3_16ii05_d4_3_16ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii04_d4_3_16ii04i():
     """
     Tests the simpleType dateTime and its facets explicitionTimezone, used
@@ -2545,6 +2710,7 @@ def test_d4_3_16ii04_d4_3_16ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii03_d4_3_16ii03i():
     """
     Tests the simpleType dateTime and its facets explicitTimezone, used in
@@ -2560,6 +2726,7 @@ def test_d4_3_16ii03_d4_3_16ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii02_d4_3_16ii02i():
     """
     Tests the simpleType dateTime and its explicitTimezone facets and its
@@ -2575,6 +2742,7 @@ def test_d4_3_16ii02_d4_3_16ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16ii01_d4_3_16ii01i():
     """
     invalid dateTime values
@@ -2589,6 +2757,7 @@ def test_d4_3_16ii01_d4_3_16ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v07_d4_3_16v07i():
     """
     Tests the simpleType dateTime and its facets with explicitTimezone
@@ -2604,6 +2773,7 @@ def test_d4_3_16v07_d4_3_16v07i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v06_d4_3_16v06i():
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2619,6 +2789,7 @@ def test_d4_3_16v06_d4_3_16v06i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v05_d4_3_16v05i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
@@ -2633,6 +2804,7 @@ def test_d4_3_16v05_d4_3_16v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v04_d4_3_16v04i():
     """
     Tests the simpleType dateTime and its facet, explicitTimezone used
@@ -2648,6 +2820,7 @@ def test_d4_3_16v04_d4_3_16v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v03_d4_3_16v03i():
     """
     Tests the simpleType precisionDecimal and its facet, explicitTimezone,
@@ -2663,6 +2836,7 @@ def test_d4_3_16v03_d4_3_16v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v02_d4_3_16v02i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
@@ -2678,6 +2852,7 @@ def test_d4_3_16v02_d4_3_16v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_16v01_d4_3_16v01i():
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
@@ -2693,6 +2868,7 @@ def test_d4_3_16v01_d4_3_16v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_5v02_d3_3_5v02i():
     """
     lexical representation +INF for float
@@ -2707,6 +2883,7 @@ def test_d3_3_5v02_d3_3_5v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_5v01_d3_3_5v01i():
     """
     Valid test for +0 and -0 bound checking
@@ -2721,6 +2898,7 @@ def test_d3_3_5v01_d3_3_5v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_11v01_d3_3_11v01i():
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2736,6 +2914,7 @@ def test_d3_3_11v01_d3_3_11v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_12v01_d3_3_12v01i():
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2751,6 +2930,7 @@ def test_d3_3_12v01_d3_3_12v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_13v01_d3_3_13v01i():
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2766,6 +2946,7 @@ def test_d3_3_13v01_d3_3_13v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_14v01_d3_3_14v01i():
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2781,6 +2962,7 @@ def test_d3_3_14v01_d3_3_14v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii27_s3_3_4ii27i():
     """
     ID on root does not denote any element
@@ -2795,6 +2977,7 @@ def test_s3_3_4ii27_s3_3_4ii27i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii26_s3_3_4ii26i():
     """
     ID on root does not denote any element
@@ -2809,6 +2992,7 @@ def test_s3_3_4ii26_s3_3_4ii26i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii25_s3_3_4ii25i():
     """
     Multiple attributes of type ID with default value
@@ -2823,6 +3007,7 @@ def test_s3_3_4ii25_s3_3_4ii25i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii24_s3_3_4ii24i():
     """
     xs:ID/IDREF with default value on attribute
@@ -2837,6 +3022,7 @@ def test_s3_3_4ii24_s3_3_4ii24i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii23_s3_3_4ii23i():
     """
     xs:ID with default value on attribute, and xs:IDREF on element with
@@ -2852,6 +3038,7 @@ def test_s3_3_4ii23_s3_3_4ii23i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii22_s3_3_4ii22i():
     """
     Multiple attributes of type ID
@@ -2866,6 +3053,7 @@ def test_s3_3_4ii22_s3_3_4ii22i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii21_s3_3_4ii21i():
     """
     Multiple attributes of type ID
@@ -2880,6 +3068,7 @@ def test_s3_3_4ii21_s3_3_4ii21i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii20_s3_3_4ii20i():
     """
     Multiple attributes of type ID, invalid idref value on element
@@ -2894,6 +3083,7 @@ def test_s3_3_4ii20_s3_3_4ii20i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii19_s3_3_4ii19i():
     """
     Multiple attributes of type ID, complexContent, with invalid idref
@@ -2909,6 +3099,7 @@ def test_s3_3_4ii19_s3_3_4ii19i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii18_s3_3_4ii18i():
     """
     Unions involving ID in elements, invalid idref value on element
@@ -2923,6 +3114,7 @@ def test_s3_3_4ii18_s3_3_4ii18i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii17_s3_3_4ii17i():
     """
     Unions involving ID in elements, invalid idref value on attribute
@@ -2937,6 +3129,7 @@ def test_s3_3_4ii17_s3_3_4ii17i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii16_s3_3_4ii16i():
     """
     Unions involving ID in attributes, invalid idref value on attribute
@@ -2951,6 +3144,7 @@ def test_s3_3_4ii16_s3_3_4ii16i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii15_s3_3_4ii15i():
     """
     Unions involving ID in elements, invalid idref value on element
@@ -2965,6 +3159,7 @@ def test_s3_3_4ii15_s3_3_4ii15i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii14_s3_3_4ii14i():
     """
     lists of ID, simpleContent, invalid idref value on element
@@ -2979,6 +3174,7 @@ def test_s3_3_4ii14_s3_3_4ii14i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii13_s3_3_4ii13i():
     """
     lists of ID, simpleContent, invalid idref value on attribute
@@ -2993,6 +3189,7 @@ def test_s3_3_4ii13_s3_3_4ii13i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii12_s3_3_4ii12i():
     """
     lists of ID, invalid idref value on attribute and element
@@ -3007,6 +3204,7 @@ def test_s3_3_4ii12_s3_3_4ii12i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii11_s3_3_4ii11i():
     """
     lists of ID on attributes, invalid idref value on attribute
@@ -3021,6 +3219,7 @@ def test_s3_3_4ii11_s3_3_4ii11i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii10_s3_3_4ii10i():
     """
     Unions involving ID
@@ -3035,6 +3234,7 @@ def test_s3_3_4ii10_s3_3_4ii10i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii09_s3_3_4ii09i():
     """
     lists of ID, invalid value on idref element
@@ -3049,6 +3249,7 @@ def test_s3_3_4ii09_s3_3_4ii09i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii08_s3_3_4ii08i():
     """
     lists of ID, invalid ID value on list of ids
@@ -3063,6 +3264,7 @@ def test_s3_3_4ii08_s3_3_4ii08i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii07_s3_3_4ii07i():
     """
     lists of ID, naive test case on elements
@@ -3077,6 +3279,7 @@ def test_s3_3_4ii07_s3_3_4ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii06_s3_3_4ii06i():
     """
     xs:ID/IDREF with default value on attribute
@@ -3091,6 +3294,7 @@ def test_s3_3_4ii06_s3_3_4ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii05_s3_3_4ii05i():
     """
     xs:ID/IDREF with default value on attribute, invalid id value override
@@ -3106,6 +3310,7 @@ def test_s3_3_4ii05_s3_3_4ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii04_s3_3_4ii04i():
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3120,6 +3325,7 @@ def test_s3_3_4ii04_s3_3_4ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii03_s3_3_4ii03i():
     """
     Multiple attributes of type ID, invalid id value
@@ -3134,6 +3340,7 @@ def test_s3_3_4ii03_s3_3_4ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii02_s3_3_4ii02i():
     """
     Multiple attributes of type ID
@@ -3148,6 +3355,7 @@ def test_s3_3_4ii02_s3_3_4ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4ii01_s3_3_4ii01i():
     """
     Multiple attributes of type ID, with restriction on enum
@@ -3162,6 +3370,7 @@ def test_s3_3_4ii01_s3_3_4ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v30_s3_3_4v30i():
     """
     equality of an atomic value with a singleton list in ID/IDREF
@@ -3176,6 +3385,7 @@ def test_s3_3_4v30_s3_3_4v30i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v29_s3_3_4v29i():
     """
     Multiple attributes of type ID with default value
@@ -3190,6 +3400,7 @@ def test_s3_3_4v29_s3_3_4v29i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v28_s3_3_4v28i():
     """
     xs:ID/IDREF with default value on attribute
@@ -3204,6 +3415,7 @@ def test_s3_3_4v28_s3_3_4v28i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v27_s3_3_4v27i():
     """
     xs:ID/IDREF with default value on attribute
@@ -3218,6 +3430,7 @@ def test_s3_3_4v27_s3_3_4v27i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v26_s3_3_4v26i():
     """
     xs:ID with default value on attribute, and xs:IDREF on element
@@ -3232,6 +3445,7 @@ def test_s3_3_4v26_s3_3_4v26i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v25_s3_3_4v25i():
     """
     Multiple attributes of type ID
@@ -3246,6 +3460,7 @@ def test_s3_3_4v25_s3_3_4v25i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v24_s3_3_4v24i():
     """
     Multiple attributes of type ID
@@ -3260,6 +3475,7 @@ def test_s3_3_4v24_s3_3_4v24i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v23_s3_3_4v23i():
     """
     Multiple attributes of type ID
@@ -3274,6 +3490,7 @@ def test_s3_3_4v23_s3_3_4v23i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v22_s3_3_4v22i():
     """
     Multiple attributes of type ID
@@ -3288,6 +3505,7 @@ def test_s3_3_4v22_s3_3_4v22i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v21_s3_3_4v21i():
     """
     lists of ID, simpleContent
@@ -3302,6 +3520,7 @@ def test_s3_3_4v21_s3_3_4v21i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v20_s3_3_4v20i():
     """
     Unions involving ID in elements, attributes
@@ -3316,6 +3535,7 @@ def test_s3_3_4v20_s3_3_4v20i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v19_s3_3_4v19i():
     """
     Unions involving ID in elements, attributes
@@ -3330,6 +3550,7 @@ def test_s3_3_4v19_s3_3_4v19i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v18_s3_3_4v18i():
     """
     Unions involving ID in attributes
@@ -3344,6 +3565,7 @@ def test_s3_3_4v18_s3_3_4v18i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v17_s3_3_4v17i():
     """
     Unions involving ID in elements
@@ -3358,6 +3580,7 @@ def test_s3_3_4v17_s3_3_4v17i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v16_s3_3_4v16i():
     """
     lists of ID, simpleContent
@@ -3372,6 +3595,7 @@ def test_s3_3_4v16_s3_3_4v16i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v15_s3_3_4v15i():
     """
     lists of ID, simpleContent
@@ -3386,6 +3610,7 @@ def test_s3_3_4v15_s3_3_4v15i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v14_s3_3_4v14i():
     """
     lists of ID, naive test case on elements
@@ -3400,6 +3625,7 @@ def test_s3_3_4v14_s3_3_4v14i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v13_s3_3_4v13i():
     """
     lists of ID on attributes
@@ -3414,6 +3640,7 @@ def test_s3_3_4v13_s3_3_4v13i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v12_s3_3_4v12i():
     """
     Multiple attributes of type ID
@@ -3428,6 +3655,7 @@ def test_s3_3_4v12_s3_3_4v12i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v11_s3_3_4v11i():
     """
     Unions involving ID
@@ -3442,6 +3670,7 @@ def test_s3_3_4v11_s3_3_4v11i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v10_s3_3_4v10i():
     """
     lists of ID, naive test case on elements
@@ -3456,6 +3685,7 @@ def test_s3_3_4v10_s3_3_4v10i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v09_s3_3_4v09i():
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3470,6 +3700,7 @@ def test_s3_3_4v09_s3_3_4v09i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v08_s3_3_4v08i():
     """
     xs:ID/IDREF with default value on attribute
@@ -3484,6 +3715,7 @@ def test_s3_3_4v08_s3_3_4v08i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v07_s3_3_4v07i():
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3498,6 +3730,7 @@ def test_s3_3_4v07_s3_3_4v07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v06_s3_3_4v06i():
     """
     xs:ID/IDREF with default value on attribute
@@ -3512,6 +3745,7 @@ def test_s3_3_4v06_s3_3_4v06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v05_s3_3_4v05i():
     """
     xs:ENTITY with default value on attribute
@@ -3526,6 +3760,7 @@ def test_s3_3_4v05_s3_3_4v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v04_s3_3_4v04i():
     """
     xs:ENTITIES with default value on attribute
@@ -3540,6 +3775,7 @@ def test_s3_3_4v04_s3_3_4v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v03_s3_3_4v03i():
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3554,6 +3790,7 @@ def test_s3_3_4v03_s3_3_4v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v02_s3_3_4v02i():
     """
     xs:ID/IDREF with xs:anyAttribute
@@ -3568,6 +3805,7 @@ def test_s3_3_4v02_s3_3_4v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_3_4v01_s3_3_4v01i():
     """
     xs:ID/IDREF with xs:anyAttribute
@@ -3582,6 +3820,7 @@ def test_s3_3_4v01_s3_3_4v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4ii03_s2_2_4ii03i():
     """
     Tests for duplication on components with keys and uniques
@@ -3596,6 +3835,7 @@ def test_s2_2_4ii03_s2_2_4ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4ii02_s2_2_4ii02i():
     """
     Tests for duplication on components with identity constraints Checks
@@ -3611,6 +3851,7 @@ def test_s2_2_4ii02_s2_2_4ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4ii01_s2_2_4ii01i():
     """
     test attribute which is required as declared in key is abscent
@@ -3625,6 +3866,7 @@ def test_s2_2_4ii01_s2_2_4ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4v03_s2_2_4v03i():
     """
     Tests unresolvable xpath
@@ -3639,6 +3881,7 @@ def test_s2_2_4v03_s2_2_4v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4v02_s2_2_4v02i():
     """
     Valid test for identity constraint referrals
@@ -3653,6 +3896,7 @@ def test_s2_2_4v02_s2_2_4v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s2_2_4v01_s2_2_4v01i():
     """
     Valid test for identity constraint referrals with annotation
@@ -3667,6 +3911,7 @@ def test_s2_2_4v01_s2_2_4v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d2_4_1_2v01_d2_4_1_2v01i():
     """
     test Units of length for list datatype.
@@ -3681,6 +3926,7 @@ def test_d2_4_1_2v01_d2_4_1_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1ii05_s3_4_1ii05i():
     """
     Tests derivation by restriction with openContent mode suffix in base
@@ -3696,6 +3942,7 @@ def test_s3_4_1ii05_s3_4_1ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1ii04_s3_4_1ii04i():
     """
     Tests wildcard in opencontent with restrictions (notQName)
@@ -3710,6 +3957,7 @@ def test_s3_4_1ii04_s3_4_1ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1ii03_s3_4_1ii03i():
     """
     Tests defaultOpenContent: when openContent is present in CT,
@@ -3725,6 +3973,7 @@ def test_s3_4_1ii03_s3_4_1ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1ii02_s3_4_1ii02i():
     """
     Tests defaultOpenContent: appliesToEmpty="false"
@@ -3739,6 +3988,7 @@ def test_s3_4_1ii02_s3_4_1ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1ii01_s3_4_1ii01i():
     """
     3.4.4.3 Element Sequence Locally valid (Complex Content) Validation
@@ -3755,6 +4005,7 @@ def test_s3_4_1ii01_s3_4_1ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1v11_s3_4_1v11i():
     """
     complexType/@mixed
@@ -3769,6 +4020,7 @@ def test_s3_4_1v11_s3_4_1v11i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1v10_s3_4_1v10i():
     """
     Tests derivation by extension with openContent mode interleave in both
@@ -3784,6 +4036,7 @@ def test_s3_4_1v10_s3_4_1v10i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1v09_s3_4_1v09i():
     """
     Tests derivation by restriction with openContent mode interleave in
@@ -3799,6 +4052,7 @@ def test_s3_4_1v09_s3_4_1v09i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1v08_s3_4_1v08i():
     """
     Tests derivation by extension with openContent mode interleave in
@@ -3814,6 +4068,7 @@ def test_s3_4_1v08_s3_4_1v08i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v07_s3_4_1v07i():
     """
@@ -3830,6 +4085,7 @@ def test_s3_4_1v07_s3_4_1v07i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v06_s3_4_1v06i():
     """
@@ -3845,6 +4101,7 @@ def test_s3_4_1v06_s3_4_1v06i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v05_s3_4_1v05i():
     """
@@ -3860,6 +4117,7 @@ def test_s3_4_1v05_s3_4_1v05i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v04_s3_4_1v04i():
     """
@@ -3875,6 +4133,7 @@ def test_s3_4_1v04_s3_4_1v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_1v03_s3_4_1v03i():
     """
     Tests openContent for empty content model
@@ -3889,6 +4148,7 @@ def test_s3_4_1v03_s3_4_1v03i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v02_s3_4_1v02i():
     """
@@ -3904,6 +4164,7 @@ def test_s3_4_1v02_s3_4_1v02i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_1v01_s3_4_1v01i():
     """
@@ -3919,6 +4180,7 @@ def test_s3_4_1v01_s3_4_1v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gii04_d6_gii04i():
     """
     invalid instance use of hyphens within square brackets in regular
@@ -3934,6 +4196,7 @@ def test_d6_gii04_d6_gii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gii03_d6_gii03i():
     """
     invalid instance use of hyphens within square brackets in regular
@@ -3949,6 +4212,7 @@ def test_d6_gii03_d6_gii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gii02_d6_gii02i():
     """
     invalid instance use of hyphens within square brackets in regular
@@ -3964,6 +4228,7 @@ def test_d6_gii02_d6_gii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gii01_d6_gii01i():
     """
     invalid instance use of hyphens within square brackets in regular
@@ -3979,6 +4244,7 @@ def test_d6_gii01_d6_gii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gv04_d6_gv04i():
     """
     use of hyphens within square brackets in regular expressions [bc-]
@@ -3993,6 +4259,7 @@ def test_d6_gv04_d6_gv04i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gv03_d6_gv03i():
     """
     use of hyphens within square brackets in regular expressions [-abc]
@@ -4007,6 +4274,7 @@ def test_d6_gv03_d6_gv03i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gv02_d6_gv02i():
     """
     use of hyphens within square brackets in regular expressions [abc-[c]]
@@ -4021,6 +4289,7 @@ def test_d6_gv02_d6_gv02i():
     )
 
 
+@pytest.mark.schema11
 def test_d6_gv01_d6_gv01i():
     """
     use of hyphens within square brackets in regular expressions [a-c]
@@ -4035,6 +4304,7 @@ def test_d6_gv01_d6_gv01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_6ii03_s3_4_6ii03i():
     """
     Tests notQName
@@ -4049,6 +4319,7 @@ def test_s3_4_6ii03_s3_4_6ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_6ii01_s3_4_6ii01i():
     """
     Instance document element has higher occurences than schema allows
@@ -4063,6 +4334,7 @@ def test_s3_4_6ii01_s3_4_6ii01i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_4_6v08_s3_4_6v08i():
     """
@@ -4078,6 +4350,7 @@ def test_s3_4_6v08_s3_4_6v08i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_6v05_s3_4_6v05i():
     """
     Tests maxOccurs > 1 for elements within all group
@@ -4092,6 +4365,7 @@ def test_s3_4_6v05_s3_4_6v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_6v04_s3_4_6v04i():
     """
     Tests restriction of all group
@@ -4106,6 +4380,7 @@ def test_s3_4_6v04_s3_4_6v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_4_6v01_s3_4_6v01i():
     """
     Wildcards are now allowed in xs:all
@@ -4120,6 +4395,7 @@ def test_s3_4_6v01_s3_4_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d4_3_6ii01_d4_3_6ii01i():
     """
     when the value is collapse, literals consisting solely of whitespace
@@ -4135,6 +4411,7 @@ def test_d4_3_6ii01_d4_3_6ii01i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_d4_3_6v01_d4_3_6v01i():
     """
@@ -4151,6 +4428,7 @@ def test_d4_3_6v01_d4_3_6v01i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s2_2_2v03_s2_2_2v03i():
     """
@@ -4166,6 +4444,7 @@ def test_s2_2_2v03_s2_2_2v03i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s2_2_2v02_s2_2_2v02i():
     """
@@ -4181,6 +4460,7 @@ def test_s2_2_2v02_s2_2_2v02i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s2_2_2v01_s2_2_2v01i():
     """
@@ -4196,6 +4476,7 @@ def test_s2_2_2v01_s2_2_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_target_namespace_005_target_namespace_005_2():
     """
     This example demonstrates 'targetNamespace' attribute on xs:attribute
@@ -4211,6 +4492,7 @@ def test_target_namespace_005_target_namespace_005_2():
     )
 
 
+@pytest.mark.schema11
 def test_target_namespace_004_target_namespace_004_2():
     """
     Composition of XML schemas via xs:import to be able to achive
@@ -4227,6 +4509,7 @@ def test_target_namespace_004_target_namespace_004_2():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01i():
     """
     1a: chameleon include on unqualified names in XPath expressions
@@ -4244,6 +4527,7 @@ def test_d3_3_9v01_d3_3_9v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ai():
     """
     1a: chameleon include on unqualified names in XPath expressions
@@ -4261,6 +4545,7 @@ def test_d3_3_9v01_d3_3_9v01ai():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01bi():
     """
     1a: chameleon include on unqualified names in XPath expressions
@@ -4278,6 +4563,7 @@ def test_d3_3_9v01_d3_3_9v01bi():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ci():
     """
     1a: chameleon include on unqualified names in XPath expressions
@@ -4295,6 +4581,7 @@ def test_d3_3_9v01_d3_3_9v01ci():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_12ii05_s3_12ii05i():
     """
@@ -4310,6 +4597,7 @@ def test_s3_12ii05_s3_12ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12ii04_s3_12ii04i():
     """
     Basic type alternatives selecting invalid content.
@@ -4324,6 +4612,7 @@ def test_s3_12ii04_s3_12ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12ii03_s3_12ii03i():
     """
     The type alternative is selects an invalid element using constructor
@@ -4339,6 +4628,7 @@ def test_s3_12ii03_s3_12ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12ii02_s3_12ii02i():
     """
     The type alternative is selects an invalid element using comparator
@@ -4354,6 +4644,7 @@ def test_s3_12ii02_s3_12ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12ii01_s3_12ii01i():
     """
     The alternative type's value is an invalid float
@@ -4368,6 +4659,7 @@ def test_s3_12ii01_s3_12ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v11_s3_12v01i():
     """
     Attribute declarations can now be marked {inheritable}.
@@ -4382,6 +4674,7 @@ def test_s3_12v11_s3_12v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v10_s3_12v11i():
     """
     Basic type alternatives.             Selection of the alternative type
@@ -4398,6 +4691,7 @@ def test_s3_12v10_s3_12v11i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v09_s3_12v09i():
     """
     Basic type alternatives.
@@ -4412,6 +4706,7 @@ def test_s3_12v09_s3_12v09i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_12v08_s3_12v08i():
     """
@@ -4429,6 +4724,7 @@ def test_s3_12v08_s3_12v08i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v07_s3_12v07i():
     """
     Basic type alternatives.             Selection of the alternative type
@@ -4445,6 +4741,7 @@ def test_s3_12v07_s3_12v07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v06_s3_12v06i():
     """
     Basic type alternatives.             Selection of the alternative type
@@ -4461,6 +4758,7 @@ def test_s3_12v06_s3_12v06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v05_s3_12v05i():
     """
     Basic type alternatives.             Selection of the alternative type
@@ -4477,6 +4775,7 @@ def test_s3_12v05_s3_12v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v04_s3_12v04i():
     """
     Basic type alternatives.             For the first alternative type,
@@ -4499,6 +4798,7 @@ def test_s3_12v04_s3_12v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v03_s3_12v03i():
     """
     Basic type alternatives.                          The alternative type
@@ -4516,6 +4816,7 @@ def test_s3_12v03_s3_12v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v02_s3_12v02i():
     """
     Basic type alternatives. alternative element with a complexType child
@@ -4533,6 +4834,7 @@ def test_s3_12v02_s3_12v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_12v01_s3_12v01i():
     """
     Basic type alternatives. The alternative type extends the base
@@ -4549,6 +4851,7 @@ def test_s3_12v01_s3_12v01i():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_006_type_alternatives_006_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4563,6 +4866,7 @@ def test_type_alternatives_006_type_alternatives_006_2():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_006_type_alternatives_006_3():
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4577,6 +4881,7 @@ def test_type_alternatives_006_type_alternatives_006_3():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_005_type_alternatives_005_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4592,6 +4897,7 @@ def test_type_alternatives_005_type_alternatives_005_2():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_005_type_alternatives_005_3():
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4607,6 +4913,7 @@ def test_type_alternatives_005_type_alternatives_005_3():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_004_type_alternatives_004_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4623,6 +4930,7 @@ def test_type_alternatives_004_type_alternatives_004_2():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_004_type_alternatives_004_3():
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4639,6 +4947,7 @@ def test_type_alternatives_004_type_alternatives_004_3():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_type_alternatives_003_type_alternatives_003_2():
     """
@@ -4656,6 +4965,7 @@ def test_type_alternatives_003_type_alternatives_003_2():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_type_alternatives_002_type_alternatives_002_2():
     """
@@ -4671,6 +4981,7 @@ def test_type_alternatives_002_type_alternatives_002_2():
     )
 
 
+@pytest.mark.schema11
 def test_type_alternatives_001_type_alternatives_001_2():
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4685,6 +4996,7 @@ def test_type_alternatives_001_type_alternatives_001_2():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii07_s3_16_2ii07i():
     """
     xsi:type used to name a member of a restricted union type
@@ -4699,6 +5011,7 @@ def test_s3_16_2ii07_s3_16_2ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii06_s3_16_2ii06i():
     """
     xsi:type used to name a member of a restricted union type
@@ -4713,6 +5026,7 @@ def test_s3_16_2ii06_s3_16_2ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii05_s3_16_2ii05i():
     """
     xsi:type used to name a member of a restricted union type
@@ -4727,6 +5041,7 @@ def test_s3_16_2ii05_s3_16_2ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii04_s3_16_2ii04i():
     """
     Types derived by restriction from a union type
@@ -4741,6 +5056,7 @@ def test_s3_16_2ii04_s3_16_2ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii03_s3_16_2ii03i():
     """
     tests restriction facet in intervening union
@@ -4755,6 +5071,7 @@ def test_s3_16_2ii03_s3_16_2ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii02_s3_16_2ii02i():
     """
     tests restriction facet in intervening union
@@ -4769,6 +5086,7 @@ def test_s3_16_2ii02_s3_16_2ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2ii01_s3_16_2ii01i():
     """
     tests restriction facet in intervening union
@@ -4797,6 +5115,7 @@ def test_s3_16_2v07_s3_16_2v07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v06_s3_16_2v06i():
     """
     Union of unions
@@ -4811,6 +5130,7 @@ def test_s3_16_2v06_s3_16_2v06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v05_s3_16_2v05i():
     """
     xsi:type used to name a member of a restricted union type
@@ -4825,6 +5145,7 @@ def test_s3_16_2v05_s3_16_2v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v04_s3_16_2v04i():
     """
     Types derived by restriction from a union type
@@ -4839,6 +5160,7 @@ def test_s3_16_2v04_s3_16_2v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v03_s3_16_2v03i():
     """
     tests restriction facet in intervening union
@@ -4853,6 +5175,7 @@ def test_s3_16_2v03_s3_16_2v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v02_s3_16_2v02i():
     """
     Types derived by restriction from a union type
@@ -4867,6 +5190,7 @@ def test_s3_16_2v02_s3_16_2v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v01_s3_16_2v01i():
     """
     tests restriction facet in intervening union
@@ -4881,6 +5205,7 @@ def test_s3_16_2v01_s3_16_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d2_4_1_2ii01_d2_4_1_2ii01i():
     """
     test Units of length for list datatype
@@ -4895,6 +5220,7 @@ def test_d2_4_1_2ii01_d2_4_1_2ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_17ii01_d3_3_17ii01i():
     """
     test base64Binary datatype
@@ -4909,6 +5235,7 @@ def test_d3_3_17ii01_d3_3_17ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_17v01_d3_3_17v01i():
     """
     test Units of length for base64Binary datatype.
@@ -4923,6 +5250,7 @@ def test_d3_3_17v01_d3_3_17v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_16ii02_d3_3_16ii02i():
     """
     test Units of length for hexBinary datatype
@@ -4937,6 +5265,7 @@ def test_d3_3_16ii02_d3_3_16ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_16ii01_d3_3_16ii01i():
     """
     test hexBinary datatype
@@ -4965,6 +5294,7 @@ def test_d3_3_16v01_d3_3_16v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_24ii01_d3_4_24ii01i():
     """
     The possibility of a leading sign is allowed for unsignedByte.
@@ -4979,6 +5309,7 @@ def test_d3_4_24ii01_d3_4_24ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_23ii01_d3_4_23ii01i():
     """
     The possibility of a leading sign is allowed for unsignedShort.
@@ -4993,6 +5324,7 @@ def test_d3_4_23ii01_d3_4_23ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_22ii01_d3_4_22ii01i():
     """
     The possibility of a leading sign is allowed for unsignedInt.
@@ -5007,6 +5339,7 @@ def test_d3_4_22ii01_d3_4_22ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_21ii01_d3_4_21ii01i():
     """
     test unsignedLong invalid instance
@@ -5021,6 +5354,7 @@ def test_d3_4_21ii01_d3_4_21ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_24v01_d3_4_24v01i():
     """
     The possibility of a leading sign is allowed for unsignedByte.
@@ -5035,6 +5369,7 @@ def test_d3_4_24v01_d3_4_24v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_23v01_d3_4_23v01i():
     """
     The possibility of a leading sign is allowed for unsignedInt.
@@ -5049,6 +5384,7 @@ def test_d3_4_23v01_d3_4_23v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_22v01_d3_4_22v01i():
     """
     The possibility of a leading sign is allowed for unsignedInt.
@@ -5063,6 +5399,7 @@ def test_d3_4_22v01_d3_4_22v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_21v01_d3_4_21v01i():
     """
     test unsignedLong
@@ -5077,6 +5414,7 @@ def test_d3_4_21v01_d3_4_21v01i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc_009_vc_009_2():
 
@@ -5090,6 +5428,7 @@ def test_vc_009_vc_009_2():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc_008_vc_008_2():
 
@@ -5103,6 +5442,7 @@ def test_vc_008_vc_008_2():
     )
 
 
+@pytest.mark.schema11
 def test_vc_007_vc_007_2():
 
     assert_bindings(
@@ -5115,6 +5455,7 @@ def test_vc_007_vc_007_2():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc_007_vc_007_3():
 
@@ -5128,6 +5469,7 @@ def test_vc_007_vc_007_3():
     )
 
 
+@pytest.mark.schema11
 def test_vc_005_vc_005_2():
 
     assert_bindings(
@@ -5140,6 +5482,7 @@ def test_vc_005_vc_005_2():
     )
 
 
+@pytest.mark.schema11
 def test_vc_003_vc_003_2():
 
     assert_bindings(
@@ -5152,6 +5495,7 @@ def test_vc_003_vc_003_2():
     )
 
 
+@pytest.mark.schema11
 def test_vc_001_vc_001_2():
 
     assert_bindings(
@@ -5164,6 +5508,7 @@ def test_vc_001_vc_001_2():
     )
 
 
+@pytest.mark.schema11
 def test_vc_001_vc_001_3():
 
     assert_bindings(
@@ -5221,6 +5566,7 @@ def test_s3_10_1ii07_s3_10_1ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii06_s3_10_1ii06i():
     """
     invalid element in instance document as it matches the namespace in
@@ -5266,6 +5612,7 @@ def test_s3_10_1ii03_s3_10_1ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii02_s3_10_1ii02i():
     """
     invalid element in instance document as it does not match ns of
@@ -5296,6 +5643,7 @@ def test_s3_10_1ii01_s3_10_1ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v07_s3_10_1v07i():
     """
     skip wildcards now excluded from EDC constraint
@@ -5310,6 +5658,7 @@ def test_s3_10_1v07_s3_10_1v07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v06_s3_10_1v06i():
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5326,6 +5675,7 @@ def test_s3_10_1v06_s3_10_1v06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v05_s3_10_1v05i():
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5341,6 +5691,7 @@ def test_s3_10_1v05_s3_10_1v05i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_s3_10_1v04_s3_10_1v04i():
     """
@@ -5357,6 +5708,7 @@ def test_s3_10_1v04_s3_10_1v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v03_s3_10_1v03i():
     """
     Tests namespace attribute in wildcard
@@ -5371,6 +5723,7 @@ def test_s3_10_1v03_s3_10_1v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v02_s3_10_1v02i():
     """
     Tests notQName and notNamespace list
@@ -5385,6 +5738,7 @@ def test_s3_10_1v02_s3_10_1v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1v01_s3_10_1v01i():
     """
     Tests notQName="##defined"
@@ -5455,6 +5809,7 @@ def test_d3_4_6ii01_d3_4_6ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v07_d3_4_6v07i():
     """
     Use of newly allowed name characters in names of schema components
@@ -5470,6 +5825,7 @@ def test_d3_4_6v07_d3_4_6v07i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v06_d3_4_6v06i():
     """
     Use of newly allowed name characters in names of schema components
@@ -5485,6 +5841,7 @@ def test_d3_4_6v06_d3_4_6v06i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v05_d3_4_6v05i():
     """
     Use of newly allowed name characters in names of schema components
@@ -5500,6 +5857,7 @@ def test_d3_4_6v05_d3_4_6v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v04_d3_4_6v04i():
     r"""
     effect of \i in regular expressions
@@ -5514,6 +5872,7 @@ def test_d3_4_6v04_d3_4_6v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v03_d3_4_6v03i():
     r"""
     effect of \i in regular expressions
@@ -5528,6 +5887,7 @@ def test_d3_4_6v03_d3_4_6v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v02_d3_4_6v02i():
     """
     value space of xs:Name and related types (test NCName)
@@ -5542,6 +5902,7 @@ def test_d3_4_6v02_d3_4_6v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6v01_d3_4_6v01i():
     """
     value space of xs:Name and related types (test Name)
@@ -5556,6 +5917,7 @@ def test_d3_4_6v01_d3_4_6v01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii07_s3_11_2ii07i():
     """
     invalid instance key/keyref selection expressions_2
@@ -5570,6 +5932,7 @@ def test_s3_11_2ii07_s3_11_2ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii06_s3_11_2ii06i():
     """
     invalid instance key/keyref selection expressions_1
@@ -5584,6 +5947,7 @@ def test_s3_11_2ii06_s3_11_2ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii05_s3_11_2ii05i():
     """
     invalid instance key selection expressions_2
@@ -5598,6 +5962,7 @@ def test_s3_11_2ii05_s3_11_2ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii04_s3_11_2ii04i():
     """
     invalid instance key selection expressions_1
@@ -5612,6 +5977,7 @@ def test_s3_11_2ii04_s3_11_2ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii03_s3_11_2ii03i():
     """
     invalid instance unique selection expressions_3
@@ -5626,6 +5992,7 @@ def test_s3_11_2ii03_s3_11_2ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii02_s3_11_2ii02i():
     """
     invalid instance unique selection expressions_2
@@ -5640,6 +6007,7 @@ def test_s3_11_2ii02_s3_11_2ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2ii01_s3_11_2ii01i():
     """
     invalid instance unique selection expressions_1
@@ -5654,6 +6022,7 @@ def test_s3_11_2ii01_s3_11_2ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v06_s3_11_2v06i():
     """
     key/keyref selection expressions_2
@@ -5668,6 +6037,7 @@ def test_s3_11_2v06_s3_11_2v06i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v05_s3_11_2v05i():
     """
     key/keyref selection expressions_1
@@ -5682,6 +6052,7 @@ def test_s3_11_2v05_s3_11_2v05i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v04_s3_11_2v04i():
     """
     key selection expressions_2
@@ -5696,6 +6067,7 @@ def test_s3_11_2v04_s3_11_2v04i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v03_s3_11_2v03i():
     """
     key selection expressions_1
@@ -5710,6 +6082,7 @@ def test_s3_11_2v03_s3_11_2v03i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v02_s3_11_2v02i():
     """
     unique selection expressions 2
@@ -5724,6 +6097,7 @@ def test_s3_11_2v02_s3_11_2v02i():
     )
 
 
+@pytest.mark.schema11
 def test_s3_11_2v01_s3_11_2v01i():
     """
     unique selection expressions
@@ -5738,6 +6112,7 @@ def test_s3_11_2v01_s3_11_2v01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii07_d3_4_26ii07i():
     """
     Tests the simpleType yearMonthDuration and its facets with (min|max)
@@ -5753,6 +6128,7 @@ def test_d3_4_26ii07_d3_4_26ii07i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii06_d3_4_26ii06i():
     """
     Tests yearMonthDuration used in unions
@@ -5767,6 +6143,7 @@ def test_d3_4_26ii06_d3_4_26ii06i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii05_d3_4_26ii05i():
     """
     Invalid values of yearMonthDuration and invalid instance of its facets
@@ -5782,6 +6159,7 @@ def test_d3_4_26ii05_d3_4_26ii05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii04_d3_4_26ii04i():
     """
     Invalid yearMonthDuration Min/Max Exclusive
@@ -5796,6 +6174,7 @@ def test_d3_4_26ii04_d3_4_26ii04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii03_d3_4_26ii03i():
     """
     Invalid yearMonthDuration Min/Max Inclusive
@@ -5810,6 +6189,7 @@ def test_d3_4_26ii03_d3_4_26ii03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii02_d3_4_26ii02i():
     """
     Invalid yearMonthDuration enumeration values
@@ -5824,6 +6204,7 @@ def test_d3_4_26ii02_d3_4_26ii02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26ii01_d3_4_26ii01i():
     """
     Invalid yearMonthDuration values
@@ -5838,6 +6219,7 @@ def test_d3_4_26ii01_d3_4_26ii01i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v06_d3_4_26v06i():
     """
     Pattern is a valid facet for yearMonthDuration
@@ -5852,6 +6234,7 @@ def test_d3_4_26v06_d3_4_26v06i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v05_d3_4_26v05i():
     """
     Additional tests for yearMonth Duration and its facets with (min|max)
@@ -5867,6 +6250,7 @@ def test_d3_4_26v05_d3_4_26v05i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v04_d3_4_26v04i():
     """
     Tests the simpleType yearMonthDuration and its facets with (min|max)
@@ -5882,6 +6266,7 @@ def test_d3_4_26v04_d3_4_26v04i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v03_d3_4_26v03i():
     """
     Tests yearMonthDuration used in unions
@@ -5896,6 +6281,7 @@ def test_d3_4_26v03_d3_4_26v03i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v02_d3_4_26v02i():
     """
     Tests the simpleType decimal and its facets and its use in attributes
@@ -5910,6 +6296,7 @@ def test_d3_4_26v02_d3_4_26v02i():
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_26v01_d3_4_26v01i():
     """
     Tests the simpleType yearMonthDuration and its facets and its use in

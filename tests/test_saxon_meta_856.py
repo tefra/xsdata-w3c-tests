@@ -3,6 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
+@pytest.mark.schema11
 def test_all314_all314_v01_xml():
     """
     All model group derived by extension from another all model group,
@@ -18,6 +19,7 @@ def test_all314_all314_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all314_all314_v02_xml():
     """
     All model group derived by extension from another all model group,
@@ -33,6 +35,7 @@ def test_all314_all314_v02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all314_all314_v05_xml():
     """
@@ -49,6 +52,7 @@ def test_all314_all314_v05_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all314_all314_n01_xml():
     """
     All model group derived by extension from another all model group,
@@ -64,6 +68,7 @@ def test_all314_all314_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all314_all314_n02_xml():
     """
     All model group derived by extension from another all model group,
@@ -79,6 +84,7 @@ def test_all314_all314_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all314_all314_n03_xml():
     """
     All model group derived by extension from another all model group,
@@ -94,6 +100,7 @@ def test_all314_all314_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all314_all314_n04_xml():
     """
     All model group derived by extension from another all model group,
@@ -109,6 +116,7 @@ def test_all314_all314_n04_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all307_all307_n01_xml():
     """
     All model group derived by extension from another all model group;
@@ -124,6 +132,7 @@ def test_all307_all307_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all306_all306_v01_xml():
     """
     All model group derived by extension from another all model group;
@@ -139,6 +148,7 @@ def test_all306_all306_v01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all304_all304_v01_xml():
     """
@@ -155,6 +165,7 @@ def test_all304_all304_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all304_all304_n01_xml():
     """
     All model group derived by extension from another all model group
@@ -170,6 +181,7 @@ def test_all304_all304_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all304_all304_n02_xml():
     """
     All model group derived by extension from another all model group
@@ -185,6 +197,7 @@ def test_all304_all304_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all304_all304_n03_xml():
     """
     All model group derived by extension from another all model group
@@ -200,6 +213,7 @@ def test_all304_all304_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all304_all304_n04_xml():
     """
     All model group derived by extension from another all model group
@@ -215,6 +229,7 @@ def test_all304_all304_n04_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all301_all301_v01_xml():
     """
@@ -231,6 +246,7 @@ def test_all301_all301_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all301_all301_n01_xml():
     """
     All model group derived by extension from another all model group
@@ -246,6 +262,7 @@ def test_all301_all301_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all301_all301_n02_xml():
     """
     All model group derived by extension from another all model group
@@ -261,6 +278,7 @@ def test_all301_all301_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all301_all301_n03_xml():
     """
     All model group derived by extension from another all model group
@@ -276,6 +294,7 @@ def test_all301_all301_n03_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all007_all007_v01_xml():
     """
@@ -292,6 +311,7 @@ def test_all007_all007_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all007_all007_n01_xml():
     """
     All model group with a nested xs:group reference All model group with
@@ -307,6 +327,7 @@ def test_all007_all007_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all007_all007_n02_xml():
     """
     All model group with a nested xs:group reference All model group with
@@ -322,6 +343,7 @@ def test_all007_all007_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all007_all007_n03_xml():
     """
     All model group with a nested xs:group reference All model group with
@@ -337,6 +359,7 @@ def test_all007_all007_n03_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all006_all006_v01_xml():
     """
@@ -353,6 +376,7 @@ def test_all006_all006_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all006_all006_n01_xml():
     """
     All model group, test on children Test that each child of an all group
@@ -368,6 +392,7 @@ def test_all006_all006_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all006_all006_n02_xml():
     """
     All model group, test on children Test that each child of an all group
@@ -383,6 +408,7 @@ def test_all006_all006_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all006_all006_n03_xml():
     """
     All model group, test on children Test that each child of an all group
@@ -398,6 +424,7 @@ def test_all006_all006_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all006_all006_n04_xml():
     """
     All model group, test on children Test that each child of an all group
@@ -413,6 +440,7 @@ def test_all006_all006_n04_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all005_all005_v01_xml():
     """
@@ -429,6 +457,7 @@ def test_all005_all005_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all005_all005_n01_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -444,6 +473,7 @@ def test_all005_all005_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all005_all005_n02_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -459,6 +489,7 @@ def test_all005_all005_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all005_all005_n03_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -474,6 +505,7 @@ def test_all005_all005_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all005_all005_n04_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -489,6 +521,7 @@ def test_all005_all005_n04_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all005_all005_n05_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -504,6 +537,7 @@ def test_all005_all005_n05_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all004_all004_v01_xml():
     """
@@ -520,6 +554,7 @@ def test_all004_all004_v01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all004_all004_v02_xml():
     """
@@ -536,6 +571,7 @@ def test_all004_all004_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all004_all004_n01_xml():
     """
     All model group with nillable="true" Test cases involving
@@ -551,6 +587,7 @@ def test_all004_all004_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all004_all004_n02_xml():
     """
     All model group with nillable="true" Test cases involving
@@ -566,6 +603,7 @@ def test_all004_all004_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all003_all003_v01_xml():
     """
     All model group with mixed content with extended minOccurs and
@@ -582,6 +620,7 @@ def test_all003_all003_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all003_all003_v02_xml():
     """
     All model group with mixed content with extended minOccurs and
@@ -598,6 +637,7 @@ def test_all003_all003_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all003_all003_v03_xml():
     """
     All model group with mixed content with extended minOccurs and
@@ -614,6 +654,7 @@ def test_all003_all003_v03_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all002_all002_v01_xml():
     """
@@ -630,6 +671,7 @@ def test_all002_all002_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all002_all002_n01_xml():
     """
     All model group with substitution groups All model group with extended
@@ -645,6 +687,7 @@ def test_all002_all002_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all002_all002_n02_xml():
     """
     All model group with substitution groups All model group with extended
@@ -660,6 +703,7 @@ def test_all002_all002_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all002_all002_n03_xml():
     """
     All model group with substitution groups All model group with extended
@@ -675,6 +719,7 @@ def test_all002_all002_n03_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_all001_all001_v01_xml():
     """
@@ -691,6 +736,7 @@ def test_all001_all001_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all001_all001_n01_xml():
     """
     All model group with extended minOccurs and maxOccurs values All model
@@ -706,6 +752,7 @@ def test_all001_all001_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all001_all001_n02_xml():
     """
     All model group with extended minOccurs and maxOccurs values All model
@@ -721,6 +768,7 @@ def test_all001_all001_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_all001_all001_n03_xml():
     """
     All model group with extended minOccurs and maxOccurs values All model
@@ -736,6 +784,7 @@ def test_all001_all001_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple010_assert_simple007_n1_xml():
     """
     Assertion on a simple type fails with dynamic XPath error Assertion
@@ -751,6 +800,7 @@ def test_assert_simple010_assert_simple007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple009_assert_simple007_n1_xml():
     """
     Assertion on a simple type fails with dynamic XPath error Assertion
@@ -766,6 +816,7 @@ def test_assert_simple009_assert_simple007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple008_assert_simple007_n1_xml():
     """
     Assertion on a simple type fails with dynamic XPath error Assertion
@@ -781,6 +832,7 @@ def test_assert_simple008_assert_simple007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple007_assert_simple007_n1_xml():
     """
     Assertion on a simple type fails with dynamic XPath error Assertion
@@ -796,6 +848,7 @@ def test_assert_simple007_assert_simple007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple006_assert_simple006_v1_xml():
     """
     Assertion on a simple type with variety union Assertion on a simple
@@ -811,6 +864,7 @@ def test_assert_simple006_assert_simple006_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple006_assert_simple006_n1_xml():
     """
     Assertion on a simple type with variety union Assertion on a simple
@@ -826,6 +880,7 @@ def test_assert_simple006_assert_simple006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert_simple005_assert_simple005_v1_xml():
     """
@@ -842,6 +897,7 @@ def test_assert_simple005_assert_simple005_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert_simple005_assert_simple005_n1_xml():
     """
@@ -858,6 +914,7 @@ def test_assert_simple005_assert_simple005_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple004_assert_simple004_v1_xml():
     """
     Assertion on a simple type using xpathDefaultNamespace on xs:schema
@@ -874,6 +931,7 @@ def test_assert_simple004_assert_simple004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple004_assert_simple004_n1_xml():
     """
     Assertion on a simple type using xpathDefaultNamespace on xs:schema
@@ -890,6 +948,7 @@ def test_assert_simple004_assert_simple004_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple003_assert_simple003_v1_xml():
     """
     Assertion on a simple type using xpathDefaultNamespace Assertion on a
@@ -905,6 +964,7 @@ def test_assert_simple003_assert_simple003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple003_assert_simple003_n1_xml():
     """
     Assertion on a simple type using xpathDefaultNamespace Assertion on a
@@ -920,6 +980,7 @@ def test_assert_simple003_assert_simple003_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple001_assert_simple001_v1_xml():
     """
     Assertion on a simple type Assertion on a simple type: date must be in
@@ -935,6 +996,7 @@ def test_assert_simple001_assert_simple001_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert_simple001_assert_simple001_n1_xml():
     """
     Assertion on a simple type Assertion on a simple type: date must be in
@@ -950,6 +1012,7 @@ def test_assert_simple001_assert_simple001_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert024_assert024_v1_xml():
     """
@@ -966,6 +1029,7 @@ def test_assert024_assert024_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert023_assert023_v1_xml():
     """
     Check that comments are by default not visible in assertions Schema
@@ -982,6 +1046,7 @@ def test_assert023_assert023_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert023_assert023_v2_xml():
     """
     Check that comments are by default not visible in assertions Schema
@@ -998,6 +1063,7 @@ def test_assert023_assert023_v2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert022_assert022_v1_xml():
     """
@@ -1014,6 +1080,7 @@ def test_assert022_assert022_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert021_assert021_v1_xml():
     """
@@ -1030,6 +1097,7 @@ def test_assert021_assert021_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert021_assert021_n1_xml():
     """
@@ -1046,6 +1114,7 @@ def test_assert021_assert021_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert020_assert020_v1_xml():
     """
@@ -1062,6 +1131,7 @@ def test_assert020_assert020_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert020_assert020_n1_xml():
     """
@@ -1078,6 +1148,7 @@ def test_assert020_assert020_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert019_assert019_v1_xml():
     """
@@ -1094,6 +1165,7 @@ def test_assert019_assert019_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert018_assert018_v1_xml():
     """
@@ -1110,6 +1182,7 @@ def test_assert018_assert018_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert017_assert017_v1_xml():
     """
@@ -1126,6 +1199,7 @@ def test_assert017_assert017_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert016_assert016_v1_xml():
     """
@@ -1142,6 +1216,7 @@ def test_assert016_assert016_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert015_assert015_v1_xml():
     """
     Assertion testing type of data $value is typed (complex type with
@@ -1157,6 +1232,7 @@ def test_assert015_assert015_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert014_assert014_v1_xml():
     """
     Assertion testing type of data Element root of subtree is anyType
@@ -1171,6 +1247,7 @@ def test_assert014_assert014_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert013_assert013_v1_xml():
     """
     Assertion testing type of data Attribute within subtree is typed
@@ -1185,6 +1262,7 @@ def test_assert013_assert013_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert012_assert012_n1_xml():
     """
     Assertion involving dynamic error in XPath expression Divide by zero
@@ -1200,6 +1278,7 @@ def test_assert012_assert012_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert011_assert011_v1_xml():
     """
     Assertion involving a call to the doc() function Uses an external
@@ -1217,6 +1296,7 @@ def test_assert011_assert011_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert011_assert011_n1_xml():
     """
     Assertion involving a call to the doc() function Uses an external
@@ -1234,6 +1314,7 @@ def test_assert011_assert011_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert010_assert010_v1_xml():
     """
     Assertion on a complex type with simple content Co-occurrence
@@ -1249,6 +1330,7 @@ def test_assert010_assert010_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert010_assert010_n1_xml():
     """
     Assertion on a complex type with simple content Co-occurrence
@@ -1264,6 +1346,7 @@ def test_assert010_assert010_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert009_assert009_v1_xml():
     """
     Assert that a node-set is empty - error diagnostics handled specially
@@ -1279,6 +1362,7 @@ def test_assert009_assert009_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert009_assert009_n1_xml():
     """
     Assert that a node-set is empty - error diagnostics handled specially
@@ -1294,6 +1378,7 @@ def test_assert009_assert009_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert008a_assert008a_v1_xml():
     """
@@ -1310,6 +1395,7 @@ def test_assert008a_assert008a_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008a_assert008a_n1_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1325,6 +1411,7 @@ def test_assert008a_assert008a_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008a_assert008a_n2_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1340,6 +1427,7 @@ def test_assert008a_assert008a_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008a_assert008a_n3_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1355,6 +1443,7 @@ def test_assert008a_assert008a_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert008_assert008_v1_xml():
     """
@@ -1371,6 +1460,7 @@ def test_assert008_assert008_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008_assert008_n1_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1386,6 +1476,7 @@ def test_assert008_assert008_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008_assert008_n2_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1401,6 +1492,7 @@ def test_assert008_assert008_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert008_assert008_n3_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1416,6 +1508,7 @@ def test_assert008_assert008_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert007_assert007_v1_xml():
     """
@@ -1433,6 +1526,7 @@ def test_assert007_assert007_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert007_assert007_n1_xml():
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -1449,6 +1543,7 @@ def test_assert007_assert007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert007_assert007_n2_xml():
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -1465,6 +1560,7 @@ def test_assert007_assert007_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert007_assert007_n3_xml():
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -1481,6 +1577,7 @@ def test_assert007_assert007_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert006_assert006_v1_xml():
     """
     Inheritance of constraints in a type derived by restriction Tests
@@ -1497,6 +1594,7 @@ def test_assert006_assert006_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert006_assert006_n1_xml():
     """
     Inheritance of constraints in a type derived by restriction Tests
@@ -1513,6 +1611,7 @@ def test_assert006_assert006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert006_assert006_n2_xml():
     """
     Inheritance of constraints in a type derived by restriction Tests
@@ -1529,6 +1628,7 @@ def test_assert006_assert006_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert005_assert005_v1_xml():
     """
@@ -1547,6 +1647,7 @@ def test_assert005_assert005_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert005_assert005_v2_xml():
     """
@@ -1565,6 +1666,7 @@ def test_assert005_assert005_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert005_assert005_n1_xml():
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1582,6 +1684,7 @@ def test_assert005_assert005_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert005_assert005_n2_xml():
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1599,6 +1702,7 @@ def test_assert005_assert005_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert004_assert004_v1_xml():
     """
@@ -1616,6 +1720,7 @@ def test_assert004_assert004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert004_assert004_v2_xml():
     """
@@ -1633,6 +1738,7 @@ def test_assert004_assert004_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert004_assert004_n1_xml():
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1649,6 +1755,7 @@ def test_assert004_assert004_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert004_assert004_n2_xml():
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1665,6 +1772,7 @@ def test_assert004_assert004_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert003_assert003_v1_xml():
     """
     Cross validation between elements and attributes Asserts that
@@ -1681,6 +1789,7 @@ def test_assert003_assert003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_assert003_assert003_v2_xml():
     """
@@ -1698,6 +1807,7 @@ def test_assert003_assert003_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert003_assert003_n1_xml():
     """
     Cross validation between elements and attributes Asserts that
@@ -1714,6 +1824,7 @@ def test_assert003_assert003_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert003_assert003_n2_xml():
     """
     Cross validation between elements and attributes Asserts that
@@ -1730,6 +1841,7 @@ def test_assert003_assert003_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert002_assert002_v1_xml():
     """
     Cross validation between two attributes Cross validation between two
@@ -1745,6 +1857,7 @@ def test_assert002_assert002_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert002_assert002_n1_xml():
     """
     Cross validation between two attributes Cross validation between two
@@ -1760,6 +1873,7 @@ def test_assert002_assert002_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert001_assert001_v1_xml():
     """
     Simple assertion on an attribute value Simple assertion on an
@@ -1775,6 +1889,7 @@ def test_assert001_assert001_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_assert001_assert001_n1_xml():
     """
     Simple assertion on an attribute value Simple assertion on an
@@ -2310,6 +2425,7 @@ def test_complex011_complex011_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex010_complex010_v1_xml():
     """
     xsi:noNamespaceSchemaLocation use="required Specifying use="required"
@@ -2325,6 +2441,7 @@ def test_complex010_complex010_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex010_complex010_n1_xml():
     """
     xsi:noNamespaceSchemaLocation use="required Specifying use="required"
@@ -2340,6 +2457,7 @@ def test_complex010_complex010_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex009_complex009_v1_xml():
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2355,6 +2473,7 @@ def test_complex009_complex009_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex009_complex009_v2_xml():
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2370,6 +2489,7 @@ def test_complex009_complex009_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex009_complex009_n1_xml():
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2385,6 +2505,7 @@ def test_complex009_complex009_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex009_complex009_n2_xml():
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2400,6 +2521,7 @@ def test_complex009_complex009_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex008_complex008_n1_xml():
     """
     xsi:type doesn't resolve xsi:type must resolve to a known type
@@ -2414,6 +2536,7 @@ def test_complex008_complex008_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex008_complex008_n2_xml():
     """
     xsi:type doesn't resolve xsi:type must resolve to a known type
@@ -2428,6 +2551,7 @@ def test_complex008_complex008_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex008_complex008_n3_xml():
     """
     xsi:type doesn't resolve xsi:type must resolve to a known type
@@ -2442,6 +2566,7 @@ def test_complex008_complex008_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex008_complex008_n4_xml():
     """
     xsi:type doesn't resolve xsi:type must resolve to a known type
@@ -2456,6 +2581,7 @@ def test_complex008_complex008_n4_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex007_complex007_v1_xml():
     """
@@ -2472,6 +2598,7 @@ def test_complex007_complex007_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex007_complex007_v2_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2487,6 +2614,7 @@ def test_complex007_complex007_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex007_complex007_n1_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2502,6 +2630,7 @@ def test_complex007_complex007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex007_complex007_n2_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2517,6 +2646,7 @@ def test_complex007_complex007_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex007_complex007_n3_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2532,6 +2662,7 @@ def test_complex007_complex007_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex006_complex006_v1_xml():
     """
@@ -2547,6 +2678,7 @@ def test_complex006_complex006_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex006_complex006_v2_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2561,6 +2693,7 @@ def test_complex006_complex006_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex006_complex006_n1_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2575,6 +2708,7 @@ def test_complex006_complex006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex006_complex006_n2_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2589,6 +2723,7 @@ def test_complex006_complex006_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex006_complex006_n3_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2603,6 +2738,7 @@ def test_complex006_complex006_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex005_complex005_v2_xml():
     """
@@ -2619,6 +2755,7 @@ def test_complex005_complex005_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex005_complex005_n1_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2634,6 +2771,7 @@ def test_complex005_complex005_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex005_complex005_n2_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2649,6 +2787,7 @@ def test_complex005_complex005_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex005_complex005_n3_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2664,6 +2803,7 @@ def test_complex005_complex005_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex004_complex004_v1_xml():
     """
@@ -2679,6 +2819,7 @@ def test_complex004_complex004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex004_complex004_n1_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2693,6 +2834,7 @@ def test_complex004_complex004_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex004_complex004_v2_xml():
     """
@@ -2708,6 +2850,7 @@ def test_complex004_complex004_v2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_complex003_complex003_v1_xml():
     """
@@ -2723,6 +2866,7 @@ def test_complex003_complex003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_complex003_complex003_n1_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2737,6 +2881,7 @@ def test_complex003_complex003_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_cta0044_cta0044_v01():
     """
     Type alternatives - restricting attributes Attribute allowed in one
@@ -2752,6 +2897,7 @@ def test_cta0044_cta0044_v01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0044_cta0044_n01():
     """
     Type alternatives - restricting attributes Attribute allowed in one
@@ -2767,6 +2913,7 @@ def test_cta0044_cta0044_n01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0042_cta0042_v01():
     """
@@ -2783,6 +2930,7 @@ def test_cta0042_cta0042_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0041_cta0041_v01():
     """
@@ -2800,6 +2948,7 @@ def test_cta0041_cta0041_v01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0041_cta0041_n01():
     """
     Type alternative - substitutability Invalid substitution in a
@@ -2816,6 +2965,7 @@ def test_cta0041_cta0041_n01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0040_cta0040_v01():
     """
@@ -2832,6 +2982,7 @@ def test_cta0040_cta0040_v01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0040_cta0040_n01():
     """
     Type alternative - substitutability Valid substitution in a
@@ -3112,6 +3263,7 @@ def test_cta0016_cta0016_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0015_cta0015_v01():
     """
@@ -3128,6 +3280,7 @@ def test_cta0015_cta0015_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0015_cta0015_v02():
     """
@@ -3144,6 +3297,7 @@ def test_cta0015_cta0015_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0015_cta0015_n01():
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3159,6 +3313,7 @@ def test_cta0015_cta0015_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0015_cta0015_n02():
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3174,6 +3329,7 @@ def test_cta0015_cta0015_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0014_cta0014_v01():
     """
@@ -3190,6 +3346,7 @@ def test_cta0014_cta0014_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0014_cta0014_v02():
     """
@@ -3206,6 +3363,7 @@ def test_cta0014_cta0014_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0014_cta0014_n01():
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3221,6 +3379,7 @@ def test_cta0014_cta0014_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0014_cta0014_n02():
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3236,6 +3395,7 @@ def test_cta0014_cta0014_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0013_cta0013_v01():
     """
@@ -3252,6 +3412,7 @@ def test_cta0013_cta0013_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0013_cta0013_v02():
     """
@@ -3268,6 +3429,7 @@ def test_cta0013_cta0013_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0013_cta0013_n01():
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3283,6 +3445,7 @@ def test_cta0013_cta0013_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0013_cta0013_n02():
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3298,6 +3461,7 @@ def test_cta0013_cta0013_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0012_cta0012_v01():
     """
@@ -3314,6 +3478,7 @@ def test_cta0012_cta0012_v01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0012_cta0012_n01():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3329,6 +3494,7 @@ def test_cta0012_cta0012_n01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0011_cta0011_v01():
     """
@@ -3345,6 +3511,7 @@ def test_cta0011_cta0011_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0011_cta0011_v02():
     """
@@ -3361,6 +3528,7 @@ def test_cta0011_cta0011_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0011_cta0011_n01():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3376,6 +3544,7 @@ def test_cta0011_cta0011_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0011_cta0011_n02():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3391,6 +3560,7 @@ def test_cta0011_cta0011_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0010_cta0010_v01():
     """
@@ -3407,6 +3577,7 @@ def test_cta0010_cta0010_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0010_cta0010_v02():
     """
@@ -3423,6 +3594,7 @@ def test_cta0010_cta0010_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0010_cta0010_n01():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3438,6 +3610,7 @@ def test_cta0010_cta0010_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0010_cta0010_n02():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3453,6 +3626,7 @@ def test_cta0010_cta0010_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0009_cta0009_v01():
     """
@@ -3469,6 +3643,7 @@ def test_cta0009_cta0009_v01():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0009_cta0009_v02():
     """
@@ -3485,6 +3660,7 @@ def test_cta0009_cta0009_v02():
     )
 
 
+@pytest.mark.schema11
 def test_cta0009_cta0009_n01():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3500,6 +3676,7 @@ def test_cta0009_cta0009_n01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0009_cta0009_n02():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3515,6 +3692,7 @@ def test_cta0009_cta0009_n02():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0008_cta0008_v01():
     """
@@ -3531,6 +3709,7 @@ def test_cta0008_cta0008_v01():
     )
 
 
+@pytest.mark.schema11
 def test_cta0008_cta0008_n01():
     """
     Inline type alternative Type alternative is an anonymous type defined
@@ -3810,6 +3989,7 @@ def test_cta0001_cta0001_n02():
     )
 
 
+@pytest.mark.schema11
 def test_id054_id054_v01_xml():
     """
     Keyref constraint using xpathDefaultNamespace Use
@@ -3826,6 +4006,7 @@ def test_id054_id054_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id054_id054_n01_xml():
     """
     Keyref constraint using xpathDefaultNamespace Use
@@ -3842,6 +4023,7 @@ def test_id054_id054_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id053_id053_v01_xml():
     """
     Key constraint using xpathDefaultNamespace Use
@@ -3857,6 +4039,7 @@ def test_id053_id053_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id053_id053_n01_xml():
     """
     Key constraint using xpathDefaultNamespace Use
@@ -3872,6 +4055,7 @@ def test_id053_id053_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id052_id052_v01_xml():
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3887,6 +4071,7 @@ def test_id052_id052_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id052_id052_n01_xml():
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3902,6 +4087,7 @@ def test_id052_id052_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id051_id051_v01_xml():
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3917,6 +4103,7 @@ def test_id051_id051_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id051_id051_n01_xml():
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3932,6 +4119,7 @@ def test_id051_id051_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id050_id050_v01_xml():
     """
     Unique constraint using xpathDefaultNamespace Use
@@ -3947,6 +4135,7 @@ def test_id050_id050_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id050_id050_n01_xml():
     """
     Unique constraint using xpathDefaultNamespace Use
@@ -3962,6 +4151,7 @@ def test_id050_id050_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id044_id044_v01_xml():
     """
     Keyref constraint using ref attribute Keyref constraint refers to
@@ -3977,6 +4167,7 @@ def test_id044_id044_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id044_id044_n01_xml():
     """
     Keyref constraint using ref attribute Keyref constraint refers to
@@ -3992,6 +4183,7 @@ def test_id044_id044_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id044_id044_n02_xml():
     """
     Keyref constraint using ref attribute Keyref constraint refers to
@@ -4007,6 +4199,7 @@ def test_id044_id044_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id043_id043_v01_xml():
     """
     Key constraint using ref attribute Key constraint refers to another
@@ -4022,6 +4215,7 @@ def test_id043_id043_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id043_id043_n01_xml():
     """
     Key constraint using ref attribute Key constraint refers to another
@@ -4037,6 +4231,7 @@ def test_id043_id043_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id043_id043_n02_xml():
     """
     Key constraint using ref attribute Key constraint refers to another
@@ -4052,6 +4247,7 @@ def test_id043_id043_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id040_id040_v01_xml():
     """
     Unique constraint using ref attribute Unique constraint refers to
@@ -4067,6 +4263,7 @@ def test_id040_id040_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id040_id040_n01_xml():
     """
     Unique constraint using ref attribute Unique constraint refers to
@@ -4082,6 +4279,7 @@ def test_id040_id040_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id040_id040_n02_xml():
     """
     Unique constraint using ref attribute Unique constraint refers to
@@ -4097,6 +4295,7 @@ def test_id040_id040_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id022_id022_v01_xml():
     """
@@ -4113,6 +4312,7 @@ def test_id022_id022_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id022_id022_n01_xml():
     """
     Atomic value equal to singleton list Value of a key is atomic; value
@@ -4128,6 +4328,7 @@ def test_id022_id022_n01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id021_id021_v01_xml():
     """
@@ -4144,6 +4345,7 @@ def test_id021_id021_v01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id021_id021_v02_xml():
     """
@@ -4160,6 +4362,7 @@ def test_id021_id021_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id021_id021_n01_xml():
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4175,6 +4378,7 @@ def test_id021_id021_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id021_id021_n02_xml():
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4190,6 +4394,7 @@ def test_id021_id021_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id020_id020_v01_xml():
     """
@@ -4206,6 +4411,7 @@ def test_id020_id020_v01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id020_id020_v02_xml():
     """
@@ -4222,6 +4428,7 @@ def test_id020_id020_v02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id020_id020_v03_xml():
     """
@@ -4238,6 +4445,7 @@ def test_id020_id020_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id020_id020_n01_xml():
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4253,6 +4461,7 @@ def test_id020_id020_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id020_id020_n02_xml():
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4268,6 +4477,7 @@ def test_id020_id020_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id019_id019_v01_xml():
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4283,6 +4493,7 @@ def test_id019_id019_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id019_id019_v02_xml():
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4298,6 +4509,7 @@ def test_id019_id019_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id019_id019_n01_xml():
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4313,6 +4525,7 @@ def test_id019_id019_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id019_id019_n02_xml():
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4328,6 +4541,7 @@ def test_id019_id019_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id018_id018_v01_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4343,6 +4557,7 @@ def test_id018_id018_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id018_id018_v02_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4358,6 +4573,7 @@ def test_id018_id018_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id018_id018_v03_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4373,6 +4589,7 @@ def test_id018_id018_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id018_id018_n01_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4388,6 +4605,7 @@ def test_id018_id018_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id018_id018_n02_xml():
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4403,6 +4621,7 @@ def test_id018_id018_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id017_id017_v01_xml():
     """
     ENTITY attribute with default value ENTITY attribute with default
@@ -4418,6 +4637,7 @@ def test_id017_id017_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id017_id017_v02_xml():
     """
     ENTITY attribute with default value ENTITY attribute with default
@@ -4433,6 +4653,7 @@ def test_id017_id017_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id017_id017_n01_xml():
     """
     ENTITY attribute with default value ENTITY attribute with default
@@ -4448,6 +4669,7 @@ def test_id017_id017_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id016_id016_v01_xml():
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4462,6 +4684,7 @@ def test_id016_id016_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id016_id016_v02_xml():
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4476,6 +4699,7 @@ def test_id016_id016_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id016_id016_n01_xml():
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4490,6 +4714,7 @@ def test_id016_id016_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id016_id016_n02_xml():
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4504,6 +4729,7 @@ def test_id016_id016_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id015_id015_v01_xml():
     """
@@ -4519,6 +4745,7 @@ def test_id015_id015_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id015_id015_n01_xml():
     """
     ID element with fixed value ID element with fixed value
@@ -4533,6 +4760,7 @@ def test_id015_id015_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id015_id015_n02_xml():
     """
     ID element with fixed value ID element with fixed value
@@ -4547,6 +4775,7 @@ def test_id015_id015_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id014_id014_v01_xml():
     """
@@ -4562,6 +4791,7 @@ def test_id014_id014_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id014_id014_n01_xml():
     """
     ID element with default value ID element with default value
@@ -4576,6 +4806,7 @@ def test_id014_id014_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id014_id014_n02_xml():
     """
     ID element with default value ID element with default value
@@ -4590,6 +4821,7 @@ def test_id014_id014_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id013_id013_v01_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4604,6 +4836,7 @@ def test_id013_id013_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id013_id013_n01_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4618,6 +4851,7 @@ def test_id013_id013_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id013_id013_n02_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4632,6 +4866,7 @@ def test_id013_id013_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id012_id012_v01_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4646,6 +4881,7 @@ def test_id012_id012_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id012_id012_n01_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4660,6 +4896,7 @@ def test_id012_id012_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id012_id012_n02_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4674,6 +4911,7 @@ def test_id012_id012_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id011_id011_v01_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4688,6 +4926,7 @@ def test_id011_id011_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id011_id011_n01_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4702,6 +4941,7 @@ def test_id011_id011_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id011_id011_n02_xml():
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4716,6 +4956,7 @@ def test_id011_id011_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id010_id010_v01_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4730,6 +4971,7 @@ def test_id010_id010_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id010_id010_n01_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4744,6 +4986,7 @@ def test_id010_id010_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id010_id010_n02_xml():
     """
     ID attribute with default value ID attribute with default value
@@ -4758,6 +5001,7 @@ def test_id010_id010_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id009_id009_v01_xml():
     """
@@ -4773,6 +5017,7 @@ def test_id009_id009_v01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id008_id008_v01_xml():
     """
@@ -4790,6 +5035,7 @@ def test_id008_id008_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id008_id008_n02_xml():
     """
     A complex type with simple ID/IDREF content A complex type with simple
@@ -4806,6 +5052,7 @@ def test_id008_id008_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id008_id008_n03_xml():
     """
     A complex type with simple ID/IDREF content A complex type with simple
@@ -4822,6 +5069,7 @@ def test_id008_id008_n03_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id007_id007_v01_xml():
     """
@@ -4839,6 +5087,7 @@ def test_id007_id007_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id007_id007_n01_xml():
     """
     A highly devious test in which we define a list type whose items may
@@ -4855,6 +5104,7 @@ def test_id007_id007_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id007_id007_n02_xml():
     """
     A highly devious test in which we define a list type whose items may
@@ -4871,6 +5121,7 @@ def test_id007_id007_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id006_id006_v01_xml():
     """
@@ -4888,6 +5139,7 @@ def test_id006_id006_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id006_id006_n01_xml():
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
@@ -4904,6 +5156,7 @@ def test_id006_id006_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id006_id006_n02_xml():
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
@@ -4920,6 +5173,7 @@ def test_id006_id006_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id005_id005_v01_xml():
     """
@@ -4936,6 +5190,7 @@ def test_id005_id005_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id005_id005_n01_xml():
     """
     Element with list-of-IDREF attributes and list-of-IDREF children
@@ -4951,6 +5206,7 @@ def test_id005_id005_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id005_id005_n02_xml():
     """
     Element with list-of-IDREF attributes and list-of-IDREF children
@@ -4966,6 +5222,7 @@ def test_id005_id005_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id004_id004_v01_xml():
     """
@@ -4982,6 +5239,7 @@ def test_id004_id004_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id004_id004_n01_xml():
     """
     Element with list-of-ID attributes and list-of-ID children Element
@@ -4997,6 +5255,7 @@ def test_id004_id004_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id004_id004_n02_xml():
     """
     Element with list-of-ID attributes and list-of-ID children Element
@@ -5012,6 +5271,7 @@ def test_id004_id004_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id003_id003_v01_xml():
     """
@@ -5029,6 +5289,7 @@ def test_id003_id003_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id003_id003_n01_xml():
     """
     Element with more than one ID attribute, one being a wildcard, plus ID
@@ -5045,6 +5306,7 @@ def test_id003_id003_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id003_id003_n02_xml():
     """
     Element with more than one ID attribute, one being a wildcard, plus ID
@@ -5061,6 +5323,7 @@ def test_id003_id003_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id002_id002_v01_xml():
     """
@@ -5077,6 +5340,7 @@ def test_id002_id002_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id002_id002_n01_xml():
     """
     Element with more than one ID attribute, one being a wildcard Element
@@ -5092,6 +5356,7 @@ def test_id002_id002_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id002_id002_n02_xml():
     """
     Element with more than one ID attribute, one being a wildcard Element
@@ -5107,6 +5372,7 @@ def test_id002_id002_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_id001_id001_v01_xml():
     """
@@ -5123,6 +5389,7 @@ def test_id001_id001_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id001_id001_n01_xml():
     """
     Element with more than one ID attribute Element with more than one ID
@@ -5138,6 +5405,7 @@ def test_id001_id001_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_id001_id001_n02_xml():
     """
     Element with more than one ID attribute Element with more than one ID
@@ -5277,6 +5545,7 @@ def test_missing001_missing001_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open205_open205_v1_xml():
     """
     Valid content model defaultAttributes in an imported namespace
@@ -5291,6 +5560,7 @@ def test_open205_open205_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open205_open205_n1_xml():
     """
     Valid content model defaultAttributes in an imported namespace
@@ -5305,6 +5575,7 @@ def test_open205_open205_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open202_open202_v1_xml():
     """
     Valid content model Basic test of defaultAttributes with
@@ -5320,6 +5591,7 @@ def test_open202_open202_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open202_open202_n1_xml():
     """
     Valid content model Basic test of defaultAttributes with
@@ -5335,6 +5607,7 @@ def test_open202_open202_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open201_open201_v1_xml():
     """
     Valid content model Basic test of defaultAttributes
@@ -5349,6 +5622,7 @@ def test_open201_open201_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open201_open201_v2_xml():
     """
     Valid content model Basic test of defaultAttributes
@@ -5363,6 +5637,7 @@ def test_open201_open201_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open047_open047_v1_xml():
     """
     A valid extension complex type extension: derived type's open content
@@ -5379,6 +5654,7 @@ def test_open047_open047_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open047_open047_v2_xml():
     """
     A valid extension complex type extension: derived type's open content
@@ -5395,6 +5671,7 @@ def test_open047_open047_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open047_open047_v3_xml():
     """
     A valid extension complex type extension: derived type's open content
@@ -5411,6 +5688,7 @@ def test_open047_open047_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open047_open047_n1_xml():
     """
     A valid extension complex type extension: derived type's open content
@@ -5427,6 +5705,7 @@ def test_open047_open047_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open045_open045_v1_xml():
     """
     defaultAttributes does not apply to types defined within xs:override
@@ -5446,6 +5725,7 @@ def test_open045_open045_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open045_open045_n1_xml():
     """
     defaultAttributes does not apply to types defined within xs:override
@@ -5465,6 +5745,7 @@ def test_open045_open045_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open045_open045_n2_xml():
     """
     defaultAttributes does not apply to types defined within xs:override
@@ -5484,6 +5765,7 @@ def test_open045_open045_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open044_open044_v1_xml():
     """
@@ -5500,6 +5782,7 @@ def test_open044_open044_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open044_open044_n1_xml():
     """
@@ -5516,6 +5799,7 @@ def test_open044_open044_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open044_open044_n2_xml():
     """
@@ -5532,6 +5816,7 @@ def test_open044_open044_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open043_open043_v1_xml():
     """
     For types defined within xs:override, the relevant defaultOpenContent
@@ -5550,6 +5835,7 @@ def test_open043_open043_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open043_open043_n1_xml():
     """
     For types defined within xs:override, the relevant defaultOpenContent
@@ -5568,6 +5854,7 @@ def test_open043_open043_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open043_open043_n2_xml():
     """
     For types defined within xs:override, the relevant defaultOpenContent
@@ -5586,6 +5873,7 @@ def test_open043_open043_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open042_open042_v1_xml():
     """
     defaultOpenContent applies to types defined within xs:redefine
@@ -5601,6 +5889,7 @@ def test_open042_open042_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open042_open042_n1_xml():
     """
     defaultOpenContent applies to types defined within xs:redefine
@@ -5616,6 +5905,7 @@ def test_open042_open042_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open042_open042_n2_xml():
     """
     defaultOpenContent applies to types defined within xs:redefine
@@ -5631,6 +5921,7 @@ def test_open042_open042_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open041_open041_v1_xml():
     """
@@ -5647,6 +5938,7 @@ def test_open041_open041_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open041_open041_n1_xml():
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -5662,6 +5954,7 @@ def test_open041_open041_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open040_open040_v1_xml():
     """
@@ -5678,6 +5971,7 @@ def test_open040_open040_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open040_open040_n1_xml():
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -5693,6 +5987,7 @@ def test_open040_open040_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open035_open035_v1_xml():
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
@@ -5708,6 +6003,7 @@ def test_open035_open035_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open035_open035_n1_xml():
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
@@ -5723,6 +6019,7 @@ def test_open035_open035_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open035_open035_n2_xml():
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
@@ -5738,6 +6035,7 @@ def test_open035_open035_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open031_open031_v1_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5755,6 +6053,7 @@ def test_open031_open031_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open031_open031_v2_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5772,6 +6071,7 @@ def test_open031_open031_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open031_open031_v3_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5789,6 +6089,7 @@ def test_open031_open031_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open031_open031_v4_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5806,6 +6107,7 @@ def test_open031_open031_v4_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open031_open031_n2_xml():
     """
     A valid extension complex type extension: derived type takes
@@ -5823,6 +6125,7 @@ def test_open031_open031_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open028_open028_v1_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5838,6 +6141,7 @@ def test_open028_open028_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open028_open028_v2_xml():
     """
@@ -5854,6 +6158,7 @@ def test_open028_open028_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open028_open028_v3_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5869,6 +6174,7 @@ def test_open028_open028_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open028_open028_n1_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5884,6 +6190,7 @@ def test_open028_open028_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open027_open027_v1_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5899,6 +6206,7 @@ def test_open027_open027_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open027_open027_v2_xml():
     """
@@ -5915,6 +6223,7 @@ def test_open027_open027_v2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open027_open027_v3_xml():
     """
@@ -5931,6 +6240,7 @@ def test_open027_open027_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open027_open027_n1_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -5946,6 +6256,7 @@ def test_open027_open027_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open025_open025_v1_xml():
     """
     Open content and regular content match the same instances Show that
@@ -5961,6 +6272,7 @@ def test_open025_open025_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open025_open025_n1_xml():
     """
     Open content and regular content match the same instances Show that
@@ -5976,6 +6288,7 @@ def test_open025_open025_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open024_open024_v1_xml():
     """
@@ -5992,6 +6305,7 @@ def test_open024_open024_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open023_open023_v1_xml():
     """
@@ -6008,6 +6322,7 @@ def test_open023_open023_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open022_open022_v1_xml():
     """
     A valid restriction (though Saxon can't yet handle it) Base type has
@@ -6024,6 +6339,7 @@ def test_open022_open022_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open021_open021_v1_xml():
     """
     A valid restriction Base type has suffixed open content, restricted
@@ -6040,6 +6356,7 @@ def test_open021_open021_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open020_open020_v1_xml():
     """
     A valid restriction Base type has suffixed open content, restricted
@@ -6056,6 +6373,7 @@ def test_open020_open020_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open016_open016_v1_xml():
     """
     Open content: no effect on complex types with simple content Default
@@ -6071,6 +6389,7 @@ def test_open016_open016_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open016_open016_n1_xml():
     """
     Open content: no effect on complex types with simple content Default
@@ -6086,6 +6405,7 @@ def test_open016_open016_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open015_open015_v1_xml():
     """
@@ -6102,6 +6422,7 @@ def test_open015_open015_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open015_open015_n1_xml():
     """
     A valid restriction Base type has open content, restricted type has
@@ -6117,6 +6438,7 @@ def test_open015_open015_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open014_open014_v1_xml():
     """
     A valid restriction Base type has open content, restricted type does
@@ -6132,6 +6454,7 @@ def test_open014_open014_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open014_open014_n1_xml():
     """
     A valid restriction Base type has open content, restricted type does
@@ -6147,6 +6470,7 @@ def test_open014_open014_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open013_open013_v1_xml():
     """
@@ -6165,6 +6489,7 @@ def test_open013_open013_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open012_open012_v1_xml():
     """
     Schema defines default open content but not applying to an empty
@@ -6180,6 +6505,7 @@ def test_open012_open012_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open012_open012_n1_xml():
     """
     Schema defines default open content but not applying to an empty
@@ -6195,6 +6521,7 @@ def test_open012_open012_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open012_open012_n2_xml():
     """
     Schema defines default open content but not applying to an empty
@@ -6210,6 +6537,7 @@ def test_open012_open012_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open012_open012_n3_xml():
     """
     Schema defines default open content but not applying to an empty
@@ -6225,6 +6553,7 @@ def test_open012_open012_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open011_open011_v1_xml():
     """
@@ -6242,6 +6571,7 @@ def test_open011_open011_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open011_open011_v2_xml():
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6258,6 +6588,7 @@ def test_open011_open011_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open011_open011_n1_xml():
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6274,6 +6605,7 @@ def test_open011_open011_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open011_open011_n2_xml():
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6290,6 +6622,7 @@ def test_open011_open011_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open010_open010_v1_xml():
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6305,6 +6638,7 @@ def test_open010_open010_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open010_open010_v2_xml():
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6320,6 +6654,7 @@ def test_open010_open010_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open010_open010_n1_xml():
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6335,6 +6670,7 @@ def test_open010_open010_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open010_open010_n2_xml():
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6350,6 +6686,7 @@ def test_open010_open010_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open009_open009_v1_xml():
     """
@@ -6366,6 +6703,7 @@ def test_open009_open009_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open009_open009_v2_xml():
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6381,6 +6719,7 @@ def test_open009_open009_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open009_open009_n1_xml():
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6396,6 +6735,7 @@ def test_open009_open009_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open009_open009_n2_xml():
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6411,6 +6751,7 @@ def test_open009_open009_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_v1_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6426,6 +6767,7 @@ def test_open008_open008_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_v2_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6441,6 +6783,7 @@ def test_open008_open008_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_v3_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6456,6 +6799,7 @@ def test_open008_open008_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_n1_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6471,6 +6815,7 @@ def test_open008_open008_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_n2_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6486,6 +6831,7 @@ def test_open008_open008_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open008_open008_n3_xml():
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6501,6 +6847,7 @@ def test_open008_open008_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open007_open007_v1_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6516,6 +6863,7 @@ def test_open007_open007_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open007_open007_v2_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6531,6 +6879,7 @@ def test_open007_open007_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open007_open007_n1_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6546,6 +6895,7 @@ def test_open007_open007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open007_open007_n2_xml():
     """
     Interleaved open content within a counting content model Designed to
@@ -6561,6 +6911,7 @@ def test_open007_open007_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open006_open006_v1_xml():
     """
@@ -6578,6 +6929,7 @@ def test_open006_open006_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open006_open006_v2_xml():
     """
@@ -6595,6 +6947,7 @@ def test_open006_open006_v2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open006_open006_v3_xml():
     """
@@ -6612,6 +6965,7 @@ def test_open006_open006_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open006_open006_v4_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6628,6 +6982,7 @@ def test_open006_open006_v4_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open006_open006_n1_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6644,6 +6999,7 @@ def test_open006_open006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open006_open006_n2_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6660,6 +7016,7 @@ def test_open006_open006_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open006_open006_n3_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6676,6 +7033,7 @@ def test_open006_open006_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_v1_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6691,6 +7049,7 @@ def test_open005_open005_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_v2_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6706,6 +7065,7 @@ def test_open005_open005_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_v3_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6721,6 +7081,7 @@ def test_open005_open005_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_v4_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6736,6 +7097,7 @@ def test_open005_open005_v4_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_n1_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6751,6 +7113,7 @@ def test_open005_open005_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_n2_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6766,6 +7129,7 @@ def test_open005_open005_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open005_open005_n3_xml():
     """
     Basic interleaved open content Allows any element in specified
@@ -6781,6 +7145,7 @@ def test_open005_open005_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open004_open004_v1_xml():
     """
     mode="none" takes precedence over default open content Open content
@@ -6796,6 +7161,7 @@ def test_open004_open004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open004_open004_n1_xml():
     """
     mode="none" takes precedence over default open content Open content
@@ -6811,6 +7177,7 @@ def test_open004_open004_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open003_open003_v1_xml():
     """
@@ -6828,6 +7195,7 @@ def test_open003_open003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open003_open003_n1_xml():
     """
     Explicit open content takes precedence over default open content
@@ -6844,6 +7212,7 @@ def test_open003_open003_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open002_open002_v1_xml():
     """
@@ -6860,6 +7229,7 @@ def test_open002_open002_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open002_open002_v2_xml():
     """
@@ -6876,6 +7246,7 @@ def test_open002_open002_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open002_open002_v3_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6891,6 +7262,7 @@ def test_open002_open002_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open002_open002_n1_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6906,6 +7278,7 @@ def test_open002_open002_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open002_open002_n2_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6921,6 +7294,7 @@ def test_open002_open002_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open002_open002_n3_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6936,6 +7310,7 @@ def test_open002_open002_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open002_open002_n4_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6951,6 +7326,7 @@ def test_open002_open002_n4_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open001_open001_v1_xml():
     """
@@ -6967,6 +7343,7 @@ def test_open001_open001_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_open001_open001_v2_xml():
     """
@@ -6983,6 +7360,7 @@ def test_open001_open001_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open001_open001_v3_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -6998,6 +7376,7 @@ def test_open001_open001_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open001_open001_n1_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7013,6 +7392,7 @@ def test_open001_open001_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open001_open001_n2_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7028,6 +7408,7 @@ def test_open001_open001_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open001_open001_n3_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7043,6 +7424,7 @@ def test_open001_open001_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_open001_open001_n4_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7058,6 +7440,7 @@ def test_open001_open001_n4_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over030_over030_v01_xml():
     """
@@ -7074,6 +7457,7 @@ def test_over030_over030_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over029_over029_n01_xml():
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
@@ -7092,6 +7476,7 @@ def test_over029_over029_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over029_over029_v01_xml():
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
@@ -7110,6 +7495,7 @@ def test_over029_over029_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over028_over028_n01_xml():
     """
     Simple override test. Test case from Priscilla Walmsley Override a
@@ -7125,6 +7511,7 @@ def test_over028_over028_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over028_over028_v01_xml():
     """
     Simple override test. Test case from Priscilla Walmsley Override a
@@ -7140,6 +7527,7 @@ def test_over028_over028_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over027_over027_n01_xml():
     """
     Override a notation Override a notation. Was over015. See bug 14388
@@ -7154,6 +7542,7 @@ def test_over027_over027_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over023_over023_v01_xml():
     """
     A permissible circular xs:override A permissible circular xs:override
@@ -7169,6 +7558,7 @@ def test_over023_over023_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over023_over023_n01_xml():
     """
     A permissible circular xs:override A permissible circular xs:override
@@ -7184,6 +7574,7 @@ def test_over023_over023_n01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over023_over023_n02_xml():
     """
@@ -7200,6 +7591,7 @@ def test_over023_over023_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over020_over020_v01_xml():
     """
     Indirect chameleon Override declaration Indirect chameleon Override
@@ -7215,6 +7607,7 @@ def test_over020_over020_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over020_over020_n01_xml():
     """
     Indirect chameleon Override declaration Indirect chameleon Override
@@ -7230,6 +7623,7 @@ def test_over020_over020_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over020_over020_n02_xml():
     """
     Indirect chameleon Override declaration Indirect chameleon Override
@@ -7245,6 +7639,7 @@ def test_over020_over020_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over019_over019_v01_xml():
     """
     Chameleon Override declaration Chameleon Override declaration
@@ -7259,6 +7654,7 @@ def test_over019_over019_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over019_over019_n01_xml():
     """
     Chameleon Override declaration Chameleon Override declaration
@@ -7273,6 +7669,7 @@ def test_over019_over019_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over019_over019_n02_xml():
     """
     Chameleon Override declaration Chameleon Override declaration
@@ -7287,6 +7684,7 @@ def test_over019_over019_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over018_over018_v01_xml():
     """
     Override declaration in a target namespace Override declaration in a
@@ -7302,6 +7700,7 @@ def test_over018_over018_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over018_over018_n01_xml():
     """
     Override declaration in a target namespace Override declaration in a
@@ -7317,6 +7716,7 @@ def test_over018_over018_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over018_over018_n02_xml():
     """
     Override declaration in a target namespace Override declaration in a
@@ -7332,6 +7732,7 @@ def test_over018_over018_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over015_over015_v01_xml():
     """
@@ -7347,6 +7748,7 @@ def test_over015_over015_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over015_over015_v02_xml():
     """
     Override a notation Override a notation
@@ -7361,6 +7763,7 @@ def test_over015_over015_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over015_over015_n01_xml():
     """
     Override a notation Override a notation
@@ -7375,6 +7778,7 @@ def test_over015_over015_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over015_over015_n02_xml():
     """
     Override a notation Override a notation
@@ -7389,6 +7793,7 @@ def test_over015_over015_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over012_over012_v01_xml():
     """
@@ -7404,6 +7809,7 @@ def test_over012_over012_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over012_over012_n01_xml():
     """
     Override a complex type Override a complex type
@@ -7418,6 +7824,7 @@ def test_over012_over012_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over012_over012_n02_xml():
     """
     Override a complex type Override a complex type
@@ -7432,6 +7839,7 @@ def test_over012_over012_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over010_over010_v01_xml():
     """
     Override a simple type Override a simple type
@@ -7446,6 +7854,7 @@ def test_over010_over010_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over010_over010_n01_xml():
     """
     Override a simple type Override a simple type
@@ -7460,6 +7869,7 @@ def test_over010_over010_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over010_over010_n02_xml():
     """
     Override a simple type Override a simple type
@@ -7474,6 +7884,7 @@ def test_over010_over010_n02_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over009_over009_v01_xml():
     """
@@ -7490,6 +7901,7 @@ def test_over009_over009_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over009_over009_n01_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -7505,6 +7917,7 @@ def test_over009_over009_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over009_over009_n02_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -7520,6 +7933,7 @@ def test_over009_over009_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over008_over008_v01_xml():
     """
     xs:override of an attribute group declaration xs:override of an
@@ -7535,6 +7949,7 @@ def test_over008_over008_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over008_over008_n01_xml():
     """
     xs:override of an attribute group declaration xs:override of an
@@ -7550,6 +7965,7 @@ def test_over008_over008_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over008_over008_n02_xml():
     """
     xs:override of an attribute group declaration xs:override of an
@@ -7565,6 +7981,7 @@ def test_over008_over008_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over007_over007_v01_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -7580,6 +7997,7 @@ def test_over007_over007_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over007_over007_n01_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -7595,6 +8013,7 @@ def test_over007_over007_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over007_over007_n02_xml():
     """
     xs:override of a model group declaration xs:override of model group
@@ -7610,6 +8029,7 @@ def test_over007_over007_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over006_over006_v01_xml():
     """
     xs:override of a self-referential element declaration xs:override of
@@ -7625,6 +8045,7 @@ def test_over006_over006_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over006_over006_n01_xml():
     """
     xs:override of a self-referential element declaration xs:override of
@@ -7640,6 +8061,7 @@ def test_over006_over006_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over006_over006_n02_xml():
     """
     xs:override of a self-referential element declaration xs:override of
@@ -7655,6 +8077,7 @@ def test_over006_over006_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over005_over005_v01_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7670,6 +8093,7 @@ def test_over005_over005_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over005_over005_n01_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7685,6 +8109,7 @@ def test_over005_over005_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over005_over005_n02_xml():
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7700,6 +8125,7 @@ def test_over005_over005_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over004_over004_v01_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7715,6 +8141,7 @@ def test_over004_over004_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over004_over004_n01_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7730,6 +8157,7 @@ def test_over004_over004_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over004_over004_n02_xml():
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7745,6 +8173,7 @@ def test_over004_over004_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over003_over003_v01_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7761,6 +8190,7 @@ def test_over003_over003_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over003_over003_n01_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7777,6 +8207,7 @@ def test_over003_over003_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over003_over003_n02_xml():
     """
     xs:override including a declaration which overrides nothing in the
@@ -7793,6 +8224,7 @@ def test_over003_over003_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over002_over002_v01_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -7809,6 +8241,7 @@ def test_over002_over002_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over002_over002_n01_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -7825,6 +8258,7 @@ def test_over002_over002_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over002_over002_n02_xml():
     """
     xs:override overriding an element declaration which is referenced in
@@ -7841,6 +8275,7 @@ def test_over002_over002_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over001_over001_v01_xml():
     """
     xs:override overriding an element declaration xs:override overriding
@@ -7856,6 +8291,7 @@ def test_over001_over001_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_over001_over001_n01_xml():
     """
     xs:override overriding an element declaration xs:override overriding
@@ -7871,6 +8307,7 @@ def test_over001_over001_n01_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over001_over001_n02_xml():
     """
@@ -8529,6 +8966,7 @@ def test_subsgroup003_subsgroup003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_subsgroup002_subsgroup002_v1_xml():
     """
@@ -8546,6 +8984,7 @@ def test_subsgroup002_subsgroup002_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_subsgroup002_subsgroup002_n1_xml():
     """
     Tests to show an element declaration can be in multiple substitution
@@ -8562,6 +9001,7 @@ def test_subsgroup002_subsgroup002_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_subsgroup001_subsgroup001_v1_xml():
     """
@@ -8579,6 +9019,7 @@ def test_subsgroup001_subsgroup001_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_subsgroup001_subsgroup001_n1_xml():
     """
     Tests to show an element declaration can be in multiple substitution
@@ -8701,6 +9142,7 @@ def test_vc024_11_vc024_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc023_vc023_v1_xml():
     """
     vc:facetUnavailable with a mix of known and unknown facet
@@ -8716,6 +9158,7 @@ def test_vc023_vc023_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc022_vc022_n1_xml():
     """
     vc:facetAvailable with a mix of known and unknown facets
@@ -8731,6 +9174,7 @@ def test_vc022_vc022_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc021_vc021_n1_xml():
     """
     vc:facetUnavailable with a known facet vc:facetUnavailable with a
@@ -8746,6 +9190,7 @@ def test_vc021_vc021_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc020_vc020_v1_xml():
     """
     vc:facetAvailable with a known facet vc:facetAvailable with a known
@@ -8793,6 +9238,7 @@ def test_vc014_vc014_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc013_vc013_v1_xml():
     """
     vc:typeUnavailable with a mix of known and unknown types
@@ -8808,6 +9254,7 @@ def test_vc013_vc013_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc012_vc012_n1_xml():
     """
     vc:typeAvailable with a mix of known and unknown types
@@ -8823,6 +9270,7 @@ def test_vc012_vc012_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc011_vc011_n1_xml():
     """
     vc:typeUnavailable with a known type vc:typeUnavailable with a known
@@ -8838,6 +9286,7 @@ def test_vc011_vc011_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc010_vc010_v1_xml():
     """
     vc:typeAvailable with a known type vc:typeAvailable with a known type
@@ -8852,6 +9301,7 @@ def test_vc010_vc010_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc009_vc009_v1_xml():
     """
     Misspelt vc: attribute has no effect Misspelt vc: attribute has no
@@ -8867,6 +9317,7 @@ def test_vc009_vc009_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc009_vc009_n1_xml():
     """
     Misspelt vc: attribute has no effect Misspelt vc: attribute has no
@@ -8882,6 +9333,7 @@ def test_vc009_vc009_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc008_vc008_v1_xml():
     """
     Empty vc:xx[un]available attributes have no effect Empty
@@ -8897,6 +9349,7 @@ def test_vc008_vc008_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_vc008_vc008_n1_xml():
     """
     Empty vc:xx[un]available attributes have no effect Empty
@@ -8912,6 +9365,7 @@ def test_vc008_vc008_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc007_vc007_v1_xml():
     """
@@ -8928,6 +9382,7 @@ def test_vc007_vc007_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc007_vc007_n1_xml():
     """
@@ -8944,6 +9399,7 @@ def test_vc007_vc007_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc006_vc006_n1_xml():
     """
@@ -8960,6 +9416,7 @@ def test_vc006_vc006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc005_vc005_v1_xml():
     """
@@ -8977,6 +9434,7 @@ def test_vc005_vc005_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc004_vc004_v1_xml():
     """
@@ -8993,6 +9451,7 @@ def test_vc004_vc004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc003_vc003_v1_xml():
     """
@@ -9072,6 +9531,7 @@ def test_vc001_vc001_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild084_wild084_n1_xml():
     """
     Element Wildcard union with notQName="##defined"
@@ -9086,6 +9546,7 @@ def test_wild084_wild084_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild083_wild083_v1_xml():
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
@@ -9106,6 +9567,7 @@ def test_wild083_wild083_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild083_wild047_n1_xml():
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
@@ -9126,6 +9588,7 @@ def test_wild083_wild047_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild082_wild082_v1_xml():
     """
@@ -9143,6 +9606,7 @@ def test_wild082_wild082_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild080_wild080_v1_xml():
     """
@@ -9160,6 +9624,7 @@ def test_wild080_wild080_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild077_wild077_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9176,6 +9641,7 @@ def test_wild077_wild077_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild077_wild077_n1_xml():
     """
@@ -9193,6 +9659,7 @@ def test_wild077_wild077_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild076_wild076_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9209,6 +9676,7 @@ def test_wild076_wild076_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild076_wild076_n1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9225,6 +9693,7 @@ def test_wild076_wild076_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild075_wild075_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9241,6 +9710,7 @@ def test_wild075_wild075_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild075_wild075_n1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9257,6 +9727,7 @@ def test_wild075_wild075_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild074_wild074_v1_xml():
     """
@@ -9273,6 +9744,7 @@ def test_wild074_wild074_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild074_wild074_n1_xml():
     """
     Test of openContent wildcards and substitution groups in xs:sequence
@@ -9288,6 +9760,7 @@ def test_wild074_wild074_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild074_wild074_n2_xml():
     """
     Test of openContent wildcards and substitution groups in xs:sequence
@@ -9303,6 +9776,7 @@ def test_wild074_wild074_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild073_wild073_v1_xml():
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9318,6 +9792,7 @@ def test_wild073_wild073_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild073_wild073_v2_xml():
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9333,6 +9808,7 @@ def test_wild073_wild073_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild073_wild073_v3_xml():
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9348,6 +9824,7 @@ def test_wild073_wild073_v3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild072_wild072_v1_xml():
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
@@ -9363,6 +9840,7 @@ def test_wild072_wild072_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild072_wild072_n1_xml():
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
@@ -9378,6 +9856,7 @@ def test_wild072_wild072_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild072_wild072_n2_xml():
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
@@ -9393,6 +9872,7 @@ def test_wild072_wild072_n2_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild071_wild071_v1_xml():
     """
@@ -9409,6 +9889,7 @@ def test_wild071_wild071_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild071_wild071_n1_xml():
     """
     Basic test of notQName=##definedSibling with substitution groups
@@ -9424,6 +9905,7 @@ def test_wild071_wild071_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild071_wild071_n2_xml():
     """
     Basic test of notQName=##definedSibling with substitution groups
@@ -9439,6 +9921,7 @@ def test_wild071_wild071_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild070_wild070_v1_xml():
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
@@ -9454,6 +9937,7 @@ def test_wild070_wild070_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild070_wild070_n1_xml():
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
@@ -9469,6 +9953,7 @@ def test_wild070_wild070_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild070_wild070_n2_xml():
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
@@ -9484,6 +9969,7 @@ def test_wild070_wild070_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild068_wild068_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Context determined
@@ -9499,6 +9985,7 @@ def test_wild068_wild068_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild067_wild067_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Substitutability
@@ -9514,6 +10001,7 @@ def test_wild067_wild067_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild066_wild066_v1_xml():
     """
@@ -9530,6 +10018,7 @@ def test_wild066_wild066_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild065_wild065_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9545,6 +10034,7 @@ def test_wild065_wild065_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild065_wild065_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9560,6 +10050,7 @@ def test_wild065_wild065_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild064_wild064_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9575,6 +10066,7 @@ def test_wild064_wild064_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild064_wild064_v2_xml():
     """
@@ -9591,6 +10083,7 @@ def test_wild064_wild064_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild064_wild064_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9606,6 +10099,7 @@ def test_wild064_wild064_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild063_wild063_v1_xml():
     """
@@ -9622,6 +10116,7 @@ def test_wild063_wild063_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild063_wild063_v2_xml():
     """
@@ -9638,6 +10133,7 @@ def test_wild063_wild063_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild063_wild063_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9653,6 +10149,7 @@ def test_wild063_wild063_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild063_wild063_n2_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9668,6 +10165,7 @@ def test_wild063_wild063_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild062_wild062_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9683,6 +10181,7 @@ def test_wild062_wild062_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild062_wild062_n1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9698,6 +10197,7 @@ def test_wild062_wild062_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild062_wild062_n2_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9713,6 +10213,7 @@ def test_wild062_wild062_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild062_wild062_n3_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9728,6 +10229,7 @@ def test_wild062_wild062_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild061_wild061_n1_xml():
     """
     Element fails "dynamic EDC" test - governing type not substitutable
@@ -9743,6 +10245,7 @@ def test_wild061_wild061_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild060_wild060_v1_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9758,6 +10261,7 @@ def test_wild060_wild060_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild060_wild060_v2_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9773,6 +10277,7 @@ def test_wild060_wild060_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild060_wild060_n2_xml():
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9788,6 +10293,7 @@ def test_wild060_wild060_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild059_wild059_v1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9803,6 +10309,7 @@ def test_wild059_wild059_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild059_wild059_n1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9818,6 +10325,7 @@ def test_wild059_wild059_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild059_wild059_n2_xml():
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9833,6 +10341,7 @@ def test_wild059_wild059_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild058_wild058_v1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -9848,6 +10357,7 @@ def test_wild058_wild058_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild058_wild058_n1_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -9863,6 +10373,7 @@ def test_wild058_wild058_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild058_wild058_n2_xml():
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -9878,6 +10389,7 @@ def test_wild058_wild058_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild056_wild056_v1_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9893,6 +10405,7 @@ def test_wild056_wild056_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild056_wild056_n1_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9908,6 +10421,7 @@ def test_wild056_wild056_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild056_wild056_n2_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9923,6 +10437,7 @@ def test_wild056_wild056_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild056_wild056_n3_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9938,6 +10453,7 @@ def test_wild056_wild056_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild055_wild055_v1_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9953,6 +10469,7 @@ def test_wild055_wild055_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild055_wild055_n1_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9968,6 +10485,7 @@ def test_wild055_wild055_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild055_wild055_n2_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9983,6 +10501,7 @@ def test_wild055_wild055_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild055_wild055_n3_xml():
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -9998,6 +10517,7 @@ def test_wild055_wild055_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild054_wild054_v1_xml():
     """
@@ -10013,6 +10533,7 @@ def test_wild054_wild054_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild054_wild054_v2_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10027,6 +10548,7 @@ def test_wild054_wild054_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild054_wild054_n1_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10041,6 +10563,7 @@ def test_wild054_wild054_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild054_wild054_n2_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10055,6 +10578,7 @@ def test_wild054_wild054_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild053_wild053_v1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10070,6 +10594,7 @@ def test_wild053_wild053_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild053_wild053_v2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10085,6 +10610,7 @@ def test_wild053_wild053_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild053_wild053_n1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10100,6 +10626,7 @@ def test_wild053_wild053_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild053_wild053_n2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10115,6 +10642,7 @@ def test_wild053_wild053_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild052_wild052_v1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10129,6 +10657,7 @@ def test_wild052_wild052_v1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild052_wild052_v2_xml():
     """
@@ -10144,6 +10673,7 @@ def test_wild052_wild052_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild052_wild052_n1_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10158,6 +10688,7 @@ def test_wild052_wild052_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild052_wild052_n2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10172,6 +10703,7 @@ def test_wild052_wild052_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild047_wild047_v1_xml():
     """
     Element Wildcard union with notQName and notNamespace disallows the
@@ -10187,6 +10719,7 @@ def test_wild047_wild047_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild047_wild047_n1_xml():
     """
     Element Wildcard union with notQName and notNamespace disallows the
@@ -10202,6 +10735,7 @@ def test_wild047_wild047_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild046_wild046_v1_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10217,6 +10751,7 @@ def test_wild046_wild046_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild046_wild046_v2_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10232,6 +10767,7 @@ def test_wild046_wild046_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild046_wild046_n1_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10247,6 +10783,7 @@ def test_wild046_wild046_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild046_wild046_n2_xml():
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10262,6 +10799,7 @@ def test_wild046_wild046_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild045_wild045_v1_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10277,6 +10815,7 @@ def test_wild045_wild045_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild045_wild045_v2_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10292,6 +10831,7 @@ def test_wild045_wild045_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild045_wild045_n1_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10307,6 +10847,7 @@ def test_wild045_wild045_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild045_wild045_n2_xml():
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10322,6 +10863,7 @@ def test_wild045_wild045_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild044_wild044_v1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10337,6 +10879,7 @@ def test_wild044_wild044_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild044_wild044_n1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10352,6 +10895,7 @@ def test_wild044_wild044_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild044_wild044_n2_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10367,6 +10911,7 @@ def test_wild044_wild044_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild043_wild043_v1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10382,6 +10927,7 @@ def test_wild043_wild043_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild043_wild043_n1_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10397,6 +10943,7 @@ def test_wild043_wild043_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild043_wild043_n2_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10412,6 +10959,7 @@ def test_wild043_wild043_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild043_wild043_n3_xml():
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10427,6 +10975,7 @@ def test_wild043_wild043_n3_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild042_wild042_v1_xml():
     """
@@ -10444,6 +10993,7 @@ def test_wild042_wild042_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild042_wild042_n1_xml():
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
@@ -10460,6 +11010,7 @@ def test_wild042_wild042_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild040_wild040_v1_xml():
     """
     Banning xsi attributes has no effect xsi:type is validated without
@@ -10475,6 +11026,7 @@ def test_wild040_wild040_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild040_wild040_n1_xml():
     """
     Banning xsi attributes has no effect xsi:type is validated without
@@ -10490,6 +11042,7 @@ def test_wild040_wild040_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild030_wild030_v1_xml():
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10505,6 +11058,7 @@ def test_wild030_wild030_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild030_wild030_v2_xml():
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10520,6 +11074,7 @@ def test_wild030_wild030_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild030_wild030_n1_xml():
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10535,6 +11090,7 @@ def test_wild030_wild030_n1_xml():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild029_wild029_v1_xml():
     """
@@ -10551,6 +11107,7 @@ def test_wild029_wild029_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild029_wild029_n1_xml():
     """
     Test of xs:any with notQName attribute in an xs:sequence model group
@@ -10566,6 +11123,7 @@ def test_wild029_wild029_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild029_wild029_n2_xml():
     """
     Test of xs:any with notQName attribute in an xs:sequence model group
@@ -10581,6 +11139,7 @@ def test_wild029_wild029_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild028_wild028_v1_xml():
     """
     Basic test of xs:any with notQName attribute Allows any child element
@@ -10596,6 +11155,7 @@ def test_wild028_wild028_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild028_wild028_n1_xml():
     """
     Basic test of xs:any with notQName attribute Allows any child element
@@ -10611,6 +11171,7 @@ def test_wild028_wild028_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild028_wild028_n2_xml():
     """
     Basic test of xs:any with notQName attribute Allows any child element
@@ -10626,6 +11187,7 @@ def test_wild028_wild028_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild027_wild027_v1_xml():
     """
     Basic test of xs:anyAttribute with notQName attribute Allows any
@@ -10641,6 +11203,7 @@ def test_wild027_wild027_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild027_wild027_n1_xml():
     """
     Basic test of xs:anyAttribute with notQName attribute Allows any
@@ -10656,6 +11219,7 @@ def test_wild027_wild027_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild027_wild027_n2_xml():
     """
     Basic test of xs:anyAttribute with notQName attribute Allows any
@@ -10671,6 +11235,7 @@ def test_wild027_wild027_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild026_wild026_v1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10686,6 +11251,7 @@ def test_wild026_wild026_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild026_wild026_n1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10701,6 +11267,7 @@ def test_wild026_wild026_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild026_wild026_n2_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10716,6 +11283,7 @@ def test_wild026_wild026_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild026_wild026_n3_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10731,6 +11299,7 @@ def test_wild026_wild026_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild026_wild026_n4_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10746,6 +11315,7 @@ def test_wild026_wild026_n4_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild025_wild025_v1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10761,6 +11331,7 @@ def test_wild025_wild025_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild025_wild025_n1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10776,6 +11347,7 @@ def test_wild025_wild025_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild025_wild025_n2_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10791,6 +11363,7 @@ def test_wild025_wild025_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild025_wild025_n3_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10806,6 +11379,7 @@ def test_wild025_wild025_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild025_wild025_n4_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10821,6 +11395,7 @@ def test_wild025_wild025_n4_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild024_wild024_v1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10836,6 +11411,7 @@ def test_wild024_wild024_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild024_wild024_v2_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10851,6 +11427,7 @@ def test_wild024_wild024_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild024_wild024_n1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10866,6 +11443,7 @@ def test_wild024_wild024_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild023_wild023_v1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10881,6 +11459,7 @@ def test_wild023_wild023_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild023_wild023_n1_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10896,6 +11475,7 @@ def test_wild023_wild023_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild023_wild023_n2_xml():
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10911,6 +11491,7 @@ def test_wild023_wild023_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild019_wild019_v1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -10926,6 +11507,7 @@ def test_wild019_wild019_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild019_wild019_n1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -10941,6 +11523,7 @@ def test_wild019_wild019_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild019_wild019_n2_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -10956,6 +11539,7 @@ def test_wild019_wild019_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild019_wild019_n3_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -10971,6 +11555,7 @@ def test_wild019_wild019_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild018_wild018_v1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -10986,6 +11571,7 @@ def test_wild018_wild018_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild018_wild018_n1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11001,6 +11587,7 @@ def test_wild018_wild018_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild018_wild018_n2_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11016,6 +11603,7 @@ def test_wild018_wild018_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild018_wild018_n3_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11031,6 +11619,7 @@ def test_wild018_wild018_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild017_wild017_v1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11046,6 +11635,7 @@ def test_wild017_wild017_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild017_wild017_n1_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11061,6 +11651,7 @@ def test_wild017_wild017_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild017_wild017_n2_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11076,6 +11667,7 @@ def test_wild017_wild017_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild017_wild017_n3_xml():
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11091,6 +11683,7 @@ def test_wild017_wild017_n3_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild016_wild016_v1_xml():
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11107,6 +11700,7 @@ def test_wild016_wild016_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild016_wild016_n1_xml():
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11123,6 +11717,7 @@ def test_wild016_wild016_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild015_wild015_v1_xml():
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11138,6 +11733,7 @@ def test_wild015_wild015_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild015_wild015_n1_xml():
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11153,6 +11749,7 @@ def test_wild015_wild015_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild014_wild014_v1_xml():
     """
     Union of two wildcards using notNamespace The union allows abel but
@@ -11168,6 +11765,7 @@ def test_wild014_wild014_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild014_wild014_n1_xml():
     """
     Union of two wildcards using notNamespace The union allows abel but
@@ -11183,6 +11781,7 @@ def test_wild014_wild014_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild013_wild013_v1_xml():
     """
     Union of two wildcards using notNamespace The union allows anything
@@ -11197,6 +11796,7 @@ def test_wild013_wild013_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild012_wild012_v1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11213,6 +11813,7 @@ def test_wild012_wild012_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild012_wild012_v2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11229,6 +11830,7 @@ def test_wild012_wild012_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild012_wild012_n1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11245,6 +11847,7 @@ def test_wild012_wild012_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild012_wild012_n2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11261,6 +11864,7 @@ def test_wild012_wild012_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild011_wild011_v1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11277,6 +11881,7 @@ def test_wild011_wild011_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild011_wild011_v2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11293,6 +11898,7 @@ def test_wild011_wild011_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild011_wild011_n1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11309,6 +11915,7 @@ def test_wild011_wild011_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild011_wild011_n2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11325,6 +11932,7 @@ def test_wild011_wild011_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild010_wild010_v1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11341,6 +11949,7 @@ def test_wild010_wild010_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild010_wild010_v2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11357,6 +11966,7 @@ def test_wild010_wild010_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild010_wild010_n1_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11373,6 +11983,7 @@ def test_wild010_wild010_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild010_wild010_n2_xml():
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11389,6 +12000,7 @@ def test_wild010_wild010_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild009_wild009_v1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11405,6 +12017,7 @@ def test_wild009_wild009_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild009_wild009_v2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11421,6 +12034,7 @@ def test_wild009_wild009_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild009_wild009_n1_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11437,6 +12051,7 @@ def test_wild009_wild009_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild009_wild009_n2_xml():
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11453,6 +12068,7 @@ def test_wild009_wild009_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild006_wild006_v1_xml():
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
@@ -11468,6 +12084,7 @@ def test_wild006_wild006_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild006_wild006_v2_xml():
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
@@ -11483,6 +12100,7 @@ def test_wild006_wild006_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild006_wild006_n1_xml():
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
@@ -11498,6 +12116,7 @@ def test_wild006_wild006_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild005_wild005_v1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
@@ -11514,6 +12133,7 @@ def test_wild005_wild005_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild005_wild005_v2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
@@ -11530,6 +12150,7 @@ def test_wild005_wild005_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild005_wild005_n1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
@@ -11546,6 +12167,7 @@ def test_wild005_wild005_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild004_wild004_v1_xml():
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
@@ -11561,6 +12183,7 @@ def test_wild004_wild004_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild004_wild004_v2_xml():
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
@@ -11576,6 +12199,7 @@ def test_wild004_wild004_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild004_wild004_n1_xml():
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
@@ -11591,6 +12215,7 @@ def test_wild004_wild004_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild003_wild003_v1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
@@ -11606,6 +12231,7 @@ def test_wild003_wild003_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild003_wild003_v2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
@@ -11621,6 +12247,7 @@ def test_wild003_wild003_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild003_wild003_n1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
@@ -11636,6 +12263,7 @@ def test_wild003_wild003_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild002_wild002_v1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11651,6 +12279,7 @@ def test_wild002_wild002_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild002_wild002_v2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11666,6 +12295,7 @@ def test_wild002_wild002_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild002_wild002_n1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11681,6 +12311,7 @@ def test_wild002_wild002_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild002_wild002_n2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11696,6 +12327,7 @@ def test_wild002_wild002_n2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild001_wild001_v1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11711,6 +12343,7 @@ def test_wild001_wild001_v1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild001_wild001_v2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11726,6 +12359,7 @@ def test_wild001_wild001_v2_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild001_wild001_n1_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11741,6 +12375,7 @@ def test_wild001_wild001_n1_xml():
     )
 
 
+@pytest.mark.schema11
 def test_wild001_wild001_n2_xml():
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -12336,6 +12971,7 @@ def test_xv001_xv001_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone304_zone304_v01_xml():
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12351,6 +12987,7 @@ def test_zone304_zone304_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone304_zone304_v02_xml():
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12366,6 +13003,7 @@ def test_zone304_zone304_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone304_zone304_v03_xml():
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12381,6 +13019,7 @@ def test_zone304_zone304_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone304_zone304_n01_xml():
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12396,6 +13035,7 @@ def test_zone304_zone304_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone304_zone304_n02_xml():
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12411,6 +13051,7 @@ def test_zone304_zone304_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone303_zone303_v01_xml():
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12426,6 +13067,7 @@ def test_zone303_zone303_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone303_zone303_v02_xml():
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12441,6 +13083,7 @@ def test_zone303_zone303_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone303_zone303_v03_xml():
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12456,6 +13099,7 @@ def test_zone303_zone303_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone303_zone303_n01_xml():
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12471,6 +13115,7 @@ def test_zone303_zone303_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone303_zone303_n02_xml():
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12486,6 +13131,7 @@ def test_zone303_zone303_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone302_zone302_v01_xml():
     """
     Test xs:yearMonthDuration including equality rules For example, P1Y is
@@ -12501,6 +13147,7 @@ def test_zone302_zone302_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone302_zone302_n01_xml():
     """
     Test xs:yearMonthDuration including equality rules For example, P1Y is
@@ -12516,6 +13163,7 @@ def test_zone302_zone302_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone301_zone301_v01_xml():
     """
     Test xs:dayTimeDuration including equality rules For example, P1D is
@@ -12531,6 +13179,7 @@ def test_zone301_zone301_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone301_zone301_n01_xml():
     """
     Test xs:dayTimeDuration including equality rules For example, P1D is
@@ -12546,6 +13195,7 @@ def test_zone301_zone301_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone206_zone206_v01_xml():
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12561,6 +13211,7 @@ def test_zone206_zone206_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone206_zone206_v02_xml():
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12576,6 +13227,7 @@ def test_zone206_zone206_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone206_zone206_n01_xml():
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12591,6 +13243,7 @@ def test_zone206_zone206_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone206_zone206_n02_xml():
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12606,6 +13259,7 @@ def test_zone206_zone206_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone205_zone205_v01_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12621,6 +13275,7 @@ def test_zone205_zone205_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone205_zone205_v02_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12636,6 +13291,7 @@ def test_zone205_zone205_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone205_zone205_v03_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12651,6 +13307,7 @@ def test_zone205_zone205_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone205_zone205_n01_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12666,6 +13323,7 @@ def test_zone205_zone205_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone205_zone205_n02_xml():
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12681,6 +13339,7 @@ def test_zone205_zone205_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone204_zone204_n01_xml():
     """
     Leap seconds are not permitted 31 Dec 2008 included a leap second, but
@@ -12696,6 +13355,7 @@ def test_zone204_zone204_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone203_zone203_v01_xml():
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12711,6 +13371,7 @@ def test_zone203_zone203_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone203_zone203_v02_xml():
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12726,6 +13387,7 @@ def test_zone203_zone203_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone203_zone203_v03_xml():
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12741,6 +13403,7 @@ def test_zone203_zone203_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone203_zone203_n01_xml():
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12756,6 +13419,7 @@ def test_zone203_zone203_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone203_zone203_n02_xml():
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12771,6 +13435,7 @@ def test_zone203_zone203_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_v01_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12786,6 +13451,7 @@ def test_zone202_zone202_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_v02_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12801,6 +13467,7 @@ def test_zone202_zone202_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_v03_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12816,6 +13483,7 @@ def test_zone202_zone202_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_n01_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12831,6 +13499,7 @@ def test_zone202_zone202_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_n02_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12846,6 +13515,7 @@ def test_zone202_zone202_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone202_zone202_n03_xml():
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -12861,6 +13531,7 @@ def test_zone202_zone202_n03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone201_zone201_v01_xml():
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
@@ -12876,6 +13547,7 @@ def test_zone201_zone201_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone201_zone201_v02_xml():
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
@@ -12891,6 +13563,7 @@ def test_zone201_zone201_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone201_zone201_n01_xml():
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
@@ -12906,6 +13579,7 @@ def test_zone201_zone201_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone102_zone102_v01_xml():
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -12920,6 +13594,7 @@ def test_zone102_zone102_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone102_zone102_v02_xml():
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -12934,6 +13609,7 @@ def test_zone102_zone102_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone102_zone102_n01_xml():
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -12948,6 +13624,7 @@ def test_zone102_zone102_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone102_zone102_n02_xml():
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -12962,6 +13639,7 @@ def test_zone102_zone102_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone101_zone101_v01_xml():
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
@@ -12977,6 +13655,7 @@ def test_zone101_zone101_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone101_zone101_v02_xml():
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
@@ -12992,6 +13671,7 @@ def test_zone101_zone101_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone101_zone101_n01_xml():
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
@@ -13007,6 +13687,7 @@ def test_zone101_zone101_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone003_zone003_v01_xml():
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13022,6 +13703,7 @@ def test_zone003_zone003_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone003_zone003_v02_xml():
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13037,6 +13719,7 @@ def test_zone003_zone003_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone003_zone003_v03_xml():
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13052,6 +13735,7 @@ def test_zone003_zone003_v03_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone002_zone002_n01_xml():
     """
     Test timezone facet with value="prohibited" Allows an xs:time value
@@ -13067,6 +13751,7 @@ def test_zone002_zone002_n01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone002_zone002_n02_xml():
     """
     Test timezone facet with value="prohibited" Allows an xs:time value
@@ -13082,6 +13767,7 @@ def test_zone002_zone002_n02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone002_zone002_v01_xml():
     """
     Test timezone facet with value="prohibited" Allows an xs:time value
@@ -13097,6 +13783,7 @@ def test_zone002_zone002_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone001_zone001_v01_xml():
     """
     Test timezone facet with value="required" Allows an xs:time value
@@ -13112,6 +13799,7 @@ def test_zone001_zone001_v01_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone001_zone001_v02_xml():
     """
     Test timezone facet with value="required" Allows an xs:time value
@@ -13127,6 +13815,7 @@ def test_zone001_zone001_v02_xml():
     )
 
 
+@pytest.mark.schema11
 def test_zone001_zone001_n01_xml():
     """
     Test timezone facet with value="required" Allows an xs:time value

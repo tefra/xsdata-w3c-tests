@@ -110,7 +110,8 @@ class Documentation:
         default=None,
         metadata=dict(
             name="lang",
-            type="Attribute"
+            type="Attribute",
+            namespace="http://www.w3.org/XML/1998/namespace"
         )
     )
     attributes: Dict[QName, str] = field(
@@ -612,8 +613,7 @@ class Expected:
                     mutually exclusive tokens.</ns0:p>
           </ns0:li>
         </ns0:ul>
-        <ns0:p>Note: The meaning of the<ns0:tt>version</ns0:tt>attribute on this element differs from its meaning
-              elsewhere.</ns0:p>
+        <ns0:p>Note: The meaning of the<ns0:tt>version</ns0:tt></ns0:p>
         <ns0:p>On tests and elements for groups of
                 tests (<ns0:tt>testGroup</ns0:tt>etc.), a<ns0:tt>version</ns0:tt>attribute of the form<ns0:code>version="<ns0:i>x</ns0:i><ns0:i>y</ns0:i><ns0:i>z</ns0:i>"</ns0:code>means "If<ns0:strong>any</ns0:strong>of<ns0:tt>x</ns0:tt>,<ns0:tt>y</ns0:tt>, or<ns0:tt>z</ns0:tt>are supported, tests
                 in this group are applicable."</ns0:p>

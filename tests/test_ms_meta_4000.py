@@ -393,7 +393,6 @@ def test_particles_c006_particles_c006_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_c005_particles_c005_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14753,6 +14752,7 @@ def test_re_l1_re_l1_v():
     )
 
 
+@pytest.mark.schema11
 def test_re_k88_re_k88_v():
     r"""
     TEST :branch : base='string', pattern='\p{IsaA0-a9}', value='',

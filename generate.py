@@ -30,7 +30,7 @@ test_module_tpl = """import pytest
 
 from tests.utils import assert_bindings\n\n{}"""
 
-test_case_tpl = """{marker}
+test_case_tpl = """{decorators}
 def test_{name}():
 {documentation}
     assert_bindings(
@@ -99,7 +99,8 @@ def write_test_file(group: str, cases: List[TestCase]):
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
-        yield lst[i : i + n]
+        end = i + n
+        yield lst[i:end]
 
 
 def render_test_cases(test_file, cases: List[TestCase]) -> str:
@@ -111,11 +112,18 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
             name = f"{name}_{len(names)}"
         names[name] += 1
 
-        marker = ""
+        markers = []
+        if case.version == "1.1":
+            markers.append("@pytest.mark.schema11")
         if xfails.get(f"{test_file}::test_{name}"):
-            marker = "\n@pytest.mark.xfail"
+            markers.append("@pytest.mark.xfail")
+        if markers:
+            markers.insert(0, "")
 
-        output.append(test_case_tpl.format(name=name, marker=marker, **asdict(case)))
+        decorators = "\n".join(markers)
+        output.append(
+            test_case_tpl.format(name=name, decorators=decorators, **asdict(case))
+        )
 
     return test_module_tpl.format("\n".join(output))
 

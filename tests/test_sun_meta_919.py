@@ -7408,7 +7408,7 @@ def test_targetns00402m_target_ns00402m1_p():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_p.xml",
         instance_is_valid=True,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7424,7 +7424,7 @@ def test_targetns00402m_target_ns00402m1_n():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_n.xml",
         instance_is_valid=False,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7440,7 +7440,7 @@ def test_targetns00401m_target_ns00401m1_p():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_p.xml",
         instance_is_valid=True,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7456,7 +7456,7 @@ def test_targetns00401m_target_ns00401m1_n():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_n.xml",
         instance_is_valid=False,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 

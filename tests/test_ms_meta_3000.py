@@ -1710,7 +1710,6 @@ def test_id_z007_id_z007_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_z006_id_z006_v():
     """
     TEST :Identity-constraint Definition Schema Component : test
@@ -1726,7 +1725,6 @@ def test_id_z006_id_z006_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_z005_id_z005_v():
     """
     TEST :Identity-constraint Definition Schema Component : test
@@ -4813,7 +4811,6 @@ def test_id_f022_id_f022_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f021_id_f021_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4846,7 +4843,6 @@ def test_id_f020_id_f020_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f019_id_f019_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -12787,6 +12783,7 @@ def test_particles_if002_particles_if002_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_if001_particles_if001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

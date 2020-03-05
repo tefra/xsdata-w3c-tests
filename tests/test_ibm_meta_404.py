@@ -206,7 +206,7 @@ def test_assert_035_assert_035_2():
         is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion6_1.xml",
         instance_is_valid=True,
-        class_name="List",
+        class_name="ListType",
         version="1.1",
     )
 
@@ -223,7 +223,7 @@ def test_assert_035_assert_035_3():
         is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion6_2.xml",
         instance_is_valid=False,
-        class_name="List",
+        class_name="ListType",
         version="1.1",
     )
 
@@ -4411,7 +4411,6 @@ def test_d4_3_6ii01_d4_3_6ii01i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_6v01_d4_3_6v01i():
     """
     when the value is collapse, literals consisting solely of whitespace

@@ -218,7 +218,7 @@ def make_docstring(group: TestGroup) -> str:
                     element.text or "" if isinstance(element, AnyElement) else element
                     for annotation in group.annotation
                     for documentation in annotation.documentation
-                    for element in documentation.elements
+                    for element in documentation.value_any_element
                     if element
                 ]
             )

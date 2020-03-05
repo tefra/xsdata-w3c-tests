@@ -149,7 +149,6 @@ def test_all306_all306_v01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all304_all304_v01_xml():
     """
     All model group derived by extension from another all model group
@@ -230,7 +229,6 @@ def test_all304_all304_n04_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all301_all301_v01_xml():
     """
     All model group derived by extension from another all model group
@@ -295,7 +293,6 @@ def test_all301_all301_n03_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all007_all007_v01_xml():
     """
     All model group with a nested xs:group reference All model group with
@@ -441,7 +438,6 @@ def test_all006_all006_n04_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all005_all005_v01_xml():
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -538,7 +534,6 @@ def test_all005_all005_n05_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all004_all004_v01_xml():
     """
     All model group with nillable="true" Test cases involving
@@ -720,7 +715,6 @@ def test_all002_all002_n03_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all001_all001_v01_xml():
     """
     All model group with extended minOccurs and maxOccurs values All model
@@ -881,7 +875,6 @@ def test_assert_simple006_assert_simple006_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert_simple005_assert_simple005_v1_xml():
     """
     Assertion on a simple type with variety list Assertion on a simple
@@ -898,7 +891,6 @@ def test_assert_simple005_assert_simple005_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert_simple005_assert_simple005_n1_xml():
     """
     Assertion on a simple type with variety list Assertion on a simple
@@ -1064,7 +1056,6 @@ def test_assert023_assert023_v2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert022_assert022_v1_xml():
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1162,7 +1153,6 @@ def test_assert019_assert019_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert018_assert018_v1_xml():
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1179,7 +1169,6 @@ def test_assert018_assert018_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert017_assert017_v1_xml():
     """
     Assertion testing type of data Atomizing the element succeeds, and the
@@ -1625,7 +1614,6 @@ def test_assert006_assert006_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert005_assert005_v1_xml():
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1644,7 +1632,6 @@ def test_assert005_assert005_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert005_assert005_v2_xml():
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1699,7 +1686,6 @@ def test_assert005_assert005_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert004_assert004_v1_xml():
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1717,7 +1703,6 @@ def test_assert004_assert004_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert004_assert004_v2_xml():
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1786,7 +1771,6 @@ def test_assert003_assert003_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert003_assert003_v2_xml():
     """
     Cross validation between elements and attributes Asserts that
@@ -3133,7 +3117,6 @@ def test_cta0021_cta0021_n01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0020_cta0020_v01():
     """
     Type alternative using a simple type XPath expression sees name of
@@ -3149,7 +3132,6 @@ def test_cta0020_cta0020_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0019_cta0019_v01():
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3165,7 +3147,6 @@ def test_cta0019_cta0019_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0018_cta0018_v01():
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3181,7 +3162,6 @@ def test_cta0018_cta0018_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0017_cta0017_v01():
     """
     Type alternative using a simple type XPath expression can only access
@@ -3260,7 +3240,6 @@ def test_cta0016_cta0016_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0015_cta0015_v01():
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3277,7 +3256,6 @@ def test_cta0015_cta0015_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0015_cta0015_v02():
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3326,7 +3304,6 @@ def test_cta0015_cta0015_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0014_cta0014_v01():
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3343,7 +3320,6 @@ def test_cta0014_cta0014_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0014_cta0014_v02():
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3392,7 +3368,6 @@ def test_cta0014_cta0014_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0013_cta0013_v01():
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3409,7 +3384,6 @@ def test_cta0013_cta0013_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0013_cta0013_v02():
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3458,7 +3432,6 @@ def test_cta0013_cta0013_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0012_cta0012_v01():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3491,7 +3464,6 @@ def test_cta0012_cta0012_n01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0011_cta0011_v01():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3508,7 +3480,6 @@ def test_cta0011_cta0011_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0011_cta0011_v02():
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3557,7 +3528,6 @@ def test_cta0011_cta0011_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0010_cta0010_v01():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3574,7 +3544,6 @@ def test_cta0010_cta0010_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0010_cta0010_v02():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3623,7 +3592,6 @@ def test_cta0010_cta0010_n02():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0009_cta0009_v01():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3640,7 +3608,6 @@ def test_cta0009_cta0009_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0009_cta0009_v02():
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -4325,7 +4292,6 @@ def test_id022_id022_n01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id021_id021_v01_xml():
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4342,7 +4308,6 @@ def test_id021_id021_v01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id021_id021_v02_xml():
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4391,7 +4356,6 @@ def test_id021_id021_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id020_id020_v01_xml():
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4408,7 +4372,6 @@ def test_id020_id020_v01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id020_id020_v02_xml():
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4425,7 +4388,6 @@ def test_id020_id020_v02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id020_id020_v03_xml():
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4726,7 +4688,6 @@ def test_id016_id016_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id015_id015_v01_xml():
     """
     ID element with fixed value ID element with fixed value
@@ -4772,7 +4733,6 @@ def test_id015_id015_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id014_id014_v01_xml():
     """
     ID element with default value ID element with default value
@@ -5014,7 +4974,6 @@ def test_id009_id009_v01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id008_id008_v01_xml():
     """
     A complex type with simple ID/IDREF content A complex type with simple
@@ -5066,7 +5025,6 @@ def test_id008_id008_n03_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id007_id007_v01_xml():
     """
     A highly devious test in which we define a list type whose items may
@@ -7729,7 +7687,6 @@ def test_over018_over018_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over015_over015_v01_xml():
     """
     Override a notation Override a notation
@@ -7790,7 +7747,6 @@ def test_over015_over015_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over012_over012_v01_xml():
     """
     Override a complex type Override a complex type
@@ -12903,7 +12859,6 @@ def test_xv005_xv005_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv004_xv004_v01_xml():
     """
     Use newly-allowed name characters in schema component names Non-BMP
@@ -12914,7 +12869,7 @@ def test_xv004_xv004_v01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv004.v01.xml",
         instance_is_valid=True,
-        class_name="Dĳkstra",
+        class_name="DKstra",
         version="1.0",
     )
 
@@ -12950,7 +12905,6 @@ def test_xv002_xv002_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv001_xv001_v01_xml():
     """
     Use newly-allowed name characters in element and attribute name Dutch
@@ -12962,7 +12916,7 @@ def test_xv001_xv001_v01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv001.v01.xml",
         instance_is_valid=True,
-        class_name="Dĳkstra",
+        class_name="DKstra",
         version="1.0",
     )
 

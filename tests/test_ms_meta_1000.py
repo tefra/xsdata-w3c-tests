@@ -918,7 +918,6 @@ def test_add_d002_add_d002_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_d001_add_d001_v():
     """
     TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd without
@@ -2001,7 +2000,6 @@ def test_add_b132_add_b132_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b131_add_b131_v():
     """
     TEST :Adhoc XSD: : id="76423" description="test validation of keys

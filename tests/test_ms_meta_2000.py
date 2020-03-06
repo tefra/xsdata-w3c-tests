@@ -7526,7 +7526,6 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_any_uri_a001_1336_any_uri_a001_1336_v():
     """
     TEST :Facet Schemas for string : test that the numbers are allowed as

@@ -8835,7 +8835,6 @@ def test_simple002_simple002_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple002_simple002_n02_xml():
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float

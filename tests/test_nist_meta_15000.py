@@ -7547,7 +7547,6 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_1():
     """
     Type atomic/language is restricted by facet minLength with value 4.
@@ -7772,7 +7771,6 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_1
     )
 
 
-@pytest.mark.xfail
 def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_2():
     """
     Type atomic/language is restricted by facet minLength with value 2.
@@ -7843,7 +7841,6 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_2():
     """
     Type atomic/language is restricted by facet maxLength with value 11.
@@ -7928,7 +7925,6 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
     )
 
 
-@pytest.mark.xfail
 def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_3():
     """
     Type atomic/language is restricted by facet maxLength with value 9.

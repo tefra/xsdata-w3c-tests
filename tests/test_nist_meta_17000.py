@@ -10667,7 +10667,6 @@ def test_atomic_duration_min_exclusive_nistxml_sv_iv_atomic_duration_min_exclusi
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_1():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -10863,7 +10862,6 @@ def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_13():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_14():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -10879,7 +10877,6 @@ def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_14():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_15():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -11645,7 +11642,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_1():
     """
     Type atomic/double is restricted by facet whiteSpace with value
@@ -11841,7 +11837,6 @@ def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_13(
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_14():
     """
     Type atomic/double is restricted by facet whiteSpace with value
@@ -11857,7 +11852,6 @@ def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_14(
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_15():
     """
     Type atomic/double is restricted by facet whiteSpace with value

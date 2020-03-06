@@ -36,7 +36,6 @@ def test_all314_all314_v02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all314_all314_v05_xml():
     """
     All model group derived by extension from another all model group,
@@ -1136,7 +1135,6 @@ def test_assert020_assert020_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert019_assert019_v1_xml():
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1185,7 +1183,6 @@ def test_assert017_assert017_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert016_assert016_v1_xml():
     """
     Assertion testing type of data Atomizing the element succeeds (it has
@@ -1902,7 +1899,6 @@ def test_unique003_unique003_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_unique003_unique003_v2_xml():
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -3023,7 +3019,6 @@ def test_cta0026_cta0026_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0025_cta0025_v01():
     """
     Type alternative using a simple type Static context of XPath
@@ -3039,7 +3034,6 @@ def test_cta0025_cta0025_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0024_cta0024_v01():
     """
     Type alternative using a simple type Static context of XPath
@@ -3070,7 +3064,6 @@ def test_cta0023_cta0023_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0022_cta0022_v01():
     """
     Type alternative using a simple type Dynamic context of XPath
@@ -3086,7 +3079,6 @@ def test_cta0022_cta0022_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0021_cta0021_v01():
     """
     Type alternative using a simple type XPath expression sees base URI of
@@ -3177,7 +3169,6 @@ def test_cta0017_cta0017_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0016_cta0016_v01():
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3193,7 +3184,6 @@ def test_cta0016_cta0016_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0016_cta0016_v02():
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -4259,7 +4249,6 @@ def test_id040_id040_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id022_id022_v01_xml():
     """
     Atomic value equal to singleton list Value of a key is atomic; value
@@ -5226,7 +5215,6 @@ def test_id004_id004_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id003_id003_v01_xml():
     """
     Element with more than one ID attribute, one being a wildcard, plus ID
@@ -5278,7 +5266,6 @@ def test_id003_id003_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id002_id002_v01_xml():
     """
     Element with more than one ID attribute, one being a wildcard Element
@@ -5327,7 +5314,6 @@ def test_id002_id002_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id001_id001_v01_xml():
     """
     Element with more than one ID attribute Element with more than one ID
@@ -7837,7 +7823,6 @@ def test_over010_over010_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over009_over009_v01_xml():
     """
     Double override Double override. Depends on schema documents in
@@ -8428,7 +8413,6 @@ def test_simple046_simple046_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple045_simple045_v01_xml():
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8803,7 +8787,6 @@ def test_simple003_simple003_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple002_simple002_v01_xml():
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -8819,7 +8802,6 @@ def test_simple002_simple002_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple002_simple002_n01_xml():
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -8850,7 +8832,6 @@ def test_simple002_simple002_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple001_simple001_v01_xml():
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -8866,7 +8847,6 @@ def test_simple001_simple001_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple001_simple001_n01_xml():
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -8882,7 +8862,6 @@ def test_simple001_simple001_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple001_simple001_n02_xml():
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -9077,7 +9056,6 @@ def test_vc024_11_vc024_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_vc024_11_vc024_n1_xml():
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9466,7 +9444,6 @@ def test_vc001_vc001_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_vc001_vc001_n1_xml():
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -10469,7 +10446,6 @@ def test_wild055_wild055_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild054_wild054_v1_xml():
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10927,7 +10903,6 @@ def test_wild043_wild043_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild042_wild042_v1_xml():
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
@@ -12462,7 +12437,6 @@ def test_xv100noti_xv100noti_notc_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv100c_xv100c_i_xml():
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12478,7 +12452,6 @@ def test_xv100c_xv100c_i_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv100c_xv100c_c_xml():
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12524,7 +12497,6 @@ def test_xv100c_xv100c_notc_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv100i_xv100i_i_xml():
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -12600,7 +12572,6 @@ def test_xv009_xv009_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv009_xv009_v02_xml():
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -12706,7 +12677,6 @@ def test_xv008_xv008_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv007_xv007_v01_xml():
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12812,7 +12782,6 @@ def test_xv006_xv006_n03_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv005_xv005_v01_xml():
     r"""
     Test which characters match \i in a regex Initial name characters in
@@ -12888,7 +12857,6 @@ def test_xv003_xv003_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_xv002_xv002_v01_xml():
     """
     Use newly-allowed name characters in NCName value Dutch ligature ij is

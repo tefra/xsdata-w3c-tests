@@ -1892,7 +1892,6 @@ def test_add_b142_add_b142_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b140_add_b140_v():
     """
     TEST :Adhoc XSD: : id="78000" description="any and
@@ -2122,7 +2121,6 @@ def test_add_b120_add_b120_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b116_add_b116_v():
     """
     TEST :Adhoc XSD: : id="75092" description="xsd: 'any' with
@@ -2918,7 +2916,6 @@ def test_attg_d035_attg_d035_i():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d034_attg_d034_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
@@ -3065,7 +3062,6 @@ def test_attg_d026_attg_d026_i():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d025_attg_d025_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3116,7 +3112,6 @@ def test_attg_d023_attg_d023_i():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d022_attg_d022_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3134,7 +3129,6 @@ def test_attg_d022_attg_d022_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d021_attg_d021_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3151,7 +3145,6 @@ def test_attg_d021_attg_d021_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d020_attg_d020_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3168,7 +3161,6 @@ def test_attg_d020_attg_d020_v():
     )
 
 
-@pytest.mark.xfail
 def test_attg_d019_attg_d019_v():
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -5803,7 +5795,6 @@ def test_ct_l022_ct_l022_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_l021_ct_l021_v():
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -9579,7 +9570,6 @@ def test_id_test64335_2240_id_test64335_2240_v():
     )
 
 
-@pytest.mark.xfail
 def test_positive_integer005_2239_positive_integer005_2239_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -10046,7 +10036,6 @@ def test_unsigned_long001_2207_unsigned_long001_2207_i():
     )
 
 
-@pytest.mark.xfail
 def test_non_negative_integer005_2206_non_negative_integer005_2206_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -10607,7 +10596,6 @@ def test_long001_2167_long001_2167_i():
     )
 
 
-@pytest.mark.xfail
 def test_negative_integer005_2166_negative_integer005_2166_v():
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -10678,7 +10666,6 @@ def test_negative_integer001_2162_negative_integer001_2162_i():
     )
 
 
-@pytest.mark.xfail
 def test_non_positive_integer005_2161_non_positive_integer005_2161_v():
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -10819,7 +10806,6 @@ def test_integer012_2152_integer012_2152_i():
     )
 
 
-@pytest.mark.xfail
 def test_integer011_2151_integer011_2151_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -11395,7 +11381,6 @@ def test_language010_2111_language010_2111_i():
     )
 
 
-@pytest.mark.xfail
 def test_language009_2110_language009_2110_v():
     """
     TEST :Facet Schemas for string : value=X-2o
@@ -11424,7 +11409,6 @@ def test_language008_2109_language008_2109_i():
     )
 
 
-@pytest.mark.xfail
 def test_language007_2108_language007_2108_v():
     """
     TEST :Facet Schemas for string : value=I-en-us
@@ -12070,7 +12054,6 @@ def test_g_month005_2064_g_month005_2064_i():
     )
 
 
-@pytest.mark.xfail
 def test_g_month004_2063_g_month004_2063_v():
     """
     TEST :Facet Schemas for string : value=- -05- - -05:00
@@ -12099,7 +12082,6 @@ def test_g_month003_2062_g_month003_2062_i():
     )
 
 
-@pytest.mark.xfail
 def test_g_month002_2061_g_month002_2061_v():
     """
     TEST :Facet Schemas for string : value=- -03- -
@@ -12844,7 +12826,6 @@ def test_date_time013_2009_date_time013_2009_i():
     )
 
 
-@pytest.mark.xfail
 def test_date_time011_2008_date_time011_2008_i():
     """
     TEST :Facet Schemas for string : value=0000-01-01T00:00:00 Year zero
@@ -13409,7 +13390,6 @@ def test_duration001_1969_duration001_1969_i():
     )
 
 
-@pytest.mark.xfail
 def test_double030_1968_double030_1968_v():
     """
     TEST :Facet Schemas for string : all valid double values
@@ -13536,7 +13516,6 @@ def test_double022_1960_double022_1960_i():
     )
 
 
-@pytest.mark.xfail
 def test_double021_1959_double021_1959_v():
     """
     TEST :Facet Schemas for string : value=NaN
@@ -13551,7 +13530,6 @@ def test_double021_1959_double021_1959_v():
     )
 
 
-@pytest.mark.xfail
 def test_double020_1958_double020_1958_v():
     """
     TEST :Facet Schemas for string : value=-INF
@@ -13566,7 +13544,6 @@ def test_double020_1958_double020_1958_v():
     )
 
 
-@pytest.mark.xfail
 def test_double019_1957_double019_1957_v():
     """
     TEST :Facet Schemas for string : value=INF
@@ -13581,7 +13558,6 @@ def test_double019_1957_double019_1957_v():
     )
 
 
-@pytest.mark.xfail
 def test_double018_1956_double018_1956_i():
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -
@@ -14087,7 +14063,6 @@ def test_float022_1921_float022_1921_i():
     )
 
 
-@pytest.mark.xfail
 def test_float021_1920_float021_1920_v():
     """
     TEST :Facet Schemas for string : value=NaN
@@ -14102,7 +14077,6 @@ def test_float021_1920_float021_1920_v():
     )
 
 
-@pytest.mark.xfail
 def test_float020_1919_float020_1919_v():
     """
     TEST :Facet Schemas for string : value=-INF
@@ -14117,7 +14091,6 @@ def test_float020_1919_float020_1919_v():
     )
 
 
-@pytest.mark.xfail
 def test_float019_1918_float019_1918_v():
     """
     TEST :Facet Schemas for string : value=INF
@@ -14132,7 +14105,6 @@ def test_float019_1918_float019_1918_v():
     )
 
 
-@pytest.mark.xfail
 def test_float018_1917_float018_1917_i():
     """
     TEST :Facet Schemas for string : value=+INF Becomes valid in XSD 1.1 -
@@ -14512,7 +14484,6 @@ def test_decimal017_1891_decimal017_1891_i():
     )
 
 
-@pytest.mark.xfail
 def test_decimal016_1890_decimal016_1890_v():
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -14527,7 +14498,6 @@ def test_decimal016_1890_decimal016_1890_v():
     )
 
 
-@pytest.mark.xfail
 def test_decimal015_1889_decimal015_1889_v():
     """
     TEST :Facet Schemas for string : value=9876543210987654321098765432

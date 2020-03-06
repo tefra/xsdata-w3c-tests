@@ -505,7 +505,6 @@ def test_particles_b014_particles_b014_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_b013_particles_b013_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -956,7 +955,6 @@ def test_particles_a001_particles_a001_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_z006i_re_z006i_i():
     r"""
     TEST :branch : Invalid characeter mappings from character sequence \c
@@ -4277,7 +4275,6 @@ def test_regex_test_74_regex_test_74_i():
     )
 
 
-@pytest.mark.xfail
 def test_regex_test_73_regex_test_73_v():
     """
     TEST :branch : RegexTest_73
@@ -4404,7 +4401,6 @@ def test_regex_test_63_regex_test_63_i():
     )
 
 
-@pytest.mark.xfail
 def test_regex_test_42_regex_test_42_v():
     """
     TEST :branch : RegexTest_42
@@ -5299,7 +5295,6 @@ def test_re_dh4_re_dh4_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_dh3_re_dh3_v():
     r"""
     TEST :branch : base='language', pattern='\c{2,4}', value='ch-a',
@@ -7559,7 +7554,6 @@ def test_re_t39_re_t39_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_t38_re_t38_i():
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1371;',
@@ -7875,7 +7869,6 @@ def test_re_t18_re_t18_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_t17_re_t17_i():
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1369;',
@@ -8596,7 +8589,6 @@ def test_re_s52_re_s52_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_s51_re_s51_i():
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0BE6;',

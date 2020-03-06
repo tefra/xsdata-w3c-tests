@@ -5690,6 +5690,7 @@ def test_s3_10_1v05_s3_10_1v05i():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_s3_10_1v04_s3_10_1v04i():
     """
     Tests weakened wildcard (tests whether error occurs on violation of

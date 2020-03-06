@@ -171,7 +171,6 @@ def test_sg_abstract_upa2_e1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_sg_abstract_upa2_e1bis_xml():
 
     assert_bindings(

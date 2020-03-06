@@ -7526,6 +7526,7 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_any_uri_a001_1336_any_uri_a001_1336_v():
     """
     TEST :Facet Schemas for string : test that the numbers are allowed as
@@ -14808,7 +14809,6 @@ def test_err_e004_err_e004_i():
     )
 
 
-@pytest.mark.xfail
 def test_err_e003_err_e003_v():
     """
     TEST :Primer Errata : E2-25 Error: test support for the new language

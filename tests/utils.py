@@ -1,6 +1,5 @@
 import functools
 import importlib
-import io
 import logging
 import os
 from pathlib import Path
@@ -71,16 +70,30 @@ def assert_bindings(
     tree = None
     try:
         tree = XmlSerializer().render_tree(obj)
-        if isinstance(schema_validator, xmlschema.XMLSchema11):
-            schema_validator.validate(tree)
-        else:
-            schema_validator.assertValid(tree)
+        return assert_valid(schema_validator, tree)
     except Exception as e:
+        if not instance_is_valid:
+            return
+
+        try:
+            original_tree = etree.parse(str(w3c.joinpath(instance)))
+            assert_valid(schema_validator, original_tree)
+        except Exception:
+            pytest.skip("Original instance failed to validate!")
+
         if tree is not None:
             xml_instance = etree.tostring(tree, pretty_print=True).decode()
             log.error(xml_instance)
-        if instance_is_valid:
-            raise e
+
+        raise e
+
+
+def assert_valid(validator, tree):
+    __tracebackhide__ = True
+    if isinstance(validator, xmlschema.XMLSchema11):
+        validator.validate(tree)
+    else:
+        validator.assertValid(tree)
 
 
 @functools.lru_cache(maxsize=5)
@@ -102,7 +115,7 @@ def initialize_validator(path: Path, version: str):
         else:
             xmlschema_doc = etree.parse(str(path))
             return etree.XMLSchema(xmlschema_doc)
-    except Exception as e:
+    except Exception:
         if version == "1.1":
             return None
         return initialize_validator(path, "1.1")
@@ -110,9 +123,8 @@ def initialize_validator(path: Path, version: str):
 
 def load_class(output, clazz_name):
     search = "Generating package: "
-    packages = [
-        line[len(search) :] for line in output.split("\n") if line.startswith(search)
-    ]
+    start = len(search)
+    packages = [line[start:] for line in output.split("\n") if line.startswith(search)]
 
     for package in reversed(packages):
         try:

@@ -1016,7 +1016,6 @@ def test_re_k5_re_k5_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_k4_re_k4_v():
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='#$',
@@ -3242,7 +3241,6 @@ def test_re_h20_re_h20_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_h19_re_h19_v():
     """
     TEST :branch : base='string', pattern='[a-a-x-x]+', value='a-x',
@@ -3664,7 +3662,6 @@ def test_re_g36_re_g36_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g33_re_g33_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3680,7 +3677,6 @@ def test_re_g33_re_g33_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g32_re_g32_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3696,7 +3692,6 @@ def test_re_g32_re_g32_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g31_re_g31_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3712,7 +3707,6 @@ def test_re_g31_re_g31_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g30_re_g30_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3728,7 +3722,6 @@ def test_re_g30_re_g30_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g29_re_g29_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3744,7 +3737,6 @@ def test_re_g29_re_g29_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g28_re_g28_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -3760,7 +3752,6 @@ def test_re_g28_re_g28_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_g27_re_g27_v():
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
@@ -4287,7 +4278,6 @@ def test_re_f44_re_f44_i():
     )
 
 
-@pytest.mark.xfail
 def test_re_f43_re_f43_v():
     r"""
     TEST :branch : base='string', pattern='^\P{IsBasicLatin}', value='a',
@@ -4694,7 +4684,6 @@ def test_re_e13_re_e13_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_e10_re_e10_v():
     """
     TEST :branch : base='string', pattern='|', value='', type='error',
@@ -7620,7 +7609,6 @@ def test_sch_p2_sch_p2_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g12_sch_g12_v():
     """
     TEST :schema collection and schema location : A import B, B import C,
@@ -7700,7 +7688,6 @@ def test_sch_g4_sch_g4_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g3_sch_g3_v():
     """
     TEST :schema collection and schema location : A import B, B import C,
@@ -7985,7 +7972,6 @@ def test_sch_a2_sch_a2_i():
     )
 
 
-@pytest.mark.xfail
 def test_sch_a1_sch_a1_v():
     """
     TEST :schema collection and schema location : Schema Collection:
@@ -9055,7 +9041,6 @@ def test_st_e097_st_e097_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_e096_st_e096_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -9435,7 +9420,6 @@ def test_st_e067_st_e067_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_e066_st_e066_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -9451,7 +9435,6 @@ def test_st_e066_st_e066_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_e065_st_e065_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -9602,7 +9585,6 @@ def test_st_e056_st_e056_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_e055_st_e055_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -9679,7 +9661,6 @@ def test_st_e051_st_e051_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_e050_st_e050_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -10040,7 +10021,6 @@ def test_wild_p001_wild_p001_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o040_wild_o040_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
@@ -10092,7 +10072,6 @@ def test_wild_o038_wild_o038_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o037_wild_o037_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
@@ -10143,7 +10122,6 @@ def test_wild_o034_wild_o034_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o033_wild_o033_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
@@ -10208,7 +10186,6 @@ def test_wild_o030_wild_o030_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o029_wild_o029_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
@@ -10257,7 +10234,6 @@ def test_wild_o027_wild_o027_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o026_wild_o026_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
@@ -10371,7 +10347,6 @@ def test_wild_o020_wild_o020_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o019_wild_o019_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local)
@@ -10388,7 +10363,6 @@ def test_wild_o019_wild_o019_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o018_wild_o018_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
@@ -10421,7 +10395,6 @@ def test_wild_o017_wild_o017_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o016_wild_o016_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with
@@ -10470,7 +10443,6 @@ def test_wild_o014_wild_o014_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o013_wild_o013_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
@@ -10519,7 +10491,6 @@ def test_wild_o011_wild_o011_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o010_wild_o010_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
@@ -10615,7 +10586,6 @@ def test_wild_o005_wild_o005_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o004_wild_o004_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
@@ -10647,7 +10617,6 @@ def test_wild_o003_wild_o003_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_o002_wild_o002_v():
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and
@@ -10725,7 +10694,6 @@ def test_wild_i007_wild_i007_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i006_wild_i006_v():
     """
     TEST :Syntax Validation - any : multiple any in choice with different
@@ -10741,7 +10709,6 @@ def test_wild_i006_wild_i006_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i005_wild_i005_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with
@@ -11032,7 +10999,6 @@ def test_wild_g038_wild_g038_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g037_wild_g037_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
@@ -11067,7 +11033,6 @@ def test_wild_g036_wild_g036_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g035_wild_g035_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
@@ -11213,7 +11178,6 @@ def test_wild_g027_wild_g027_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g026_wild_g026_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
@@ -11342,7 +11306,6 @@ def test_wild_g019_wild_g019_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g018_wild_g018_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
@@ -11375,7 +11338,6 @@ def test_wild_g017_wild_g017_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_g016_wild_g016_v():
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema

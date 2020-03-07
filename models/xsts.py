@@ -43,7 +43,7 @@ class XdmFiltering(Enum):
 @dataclass
 class Appinfo:
     """
-    :ivar value_any_element:
+    :ivar any_element:
     :ivar source:
     :ivar attributes:
     """
@@ -52,7 +52,7 @@ class Appinfo:
         mixed = True
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    value_any_element: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Any",
@@ -80,7 +80,7 @@ class Appinfo:
 @dataclass
 class Documentation:
     """
-    :ivar value_any_element:
+    :ivar any_element:
     :ivar source:
     :ivar lang:
     :ivar attributes:
@@ -90,7 +90,7 @@ class Documentation:
         mixed = True
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    value_any_element: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Any",

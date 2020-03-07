@@ -267,7 +267,7 @@ class LocatorType:
 @dataclass
 class ResourceType:
     """
-    :ivar value_any_element:
+    :ivar any_element:
     :ivar type:
     :ivar role:
     :ivar title:
@@ -277,7 +277,7 @@ class ResourceType:
         name = "resourceType"
         mixed = True
 
-    value_any_element: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Any",
@@ -328,7 +328,7 @@ class Simple:
     """Intended for use as the type of user-declared elements to make them simple
     links.
 
-    :ivar value_any_element:
+    :ivar any_element:
     :ivar type:
     :ivar href:
     :ivar role:
@@ -341,7 +341,7 @@ class Simple:
         name = "simple"
         mixed = True
 
-    value_any_element: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Any",
@@ -414,7 +414,7 @@ class Simple:
 @dataclass
 class TitleEltType:
     """
-    :ivar value_any_element:
+    :ivar any_element:
     :ivar type:
     :ivar lang: xml:lang is not required, but provides much of the
          motivation for title elements in addition to attributes, and so
@@ -424,7 +424,7 @@ class TitleEltType:
         name = "titleEltType"
         mixed = True
 
-    value_any_element: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Any",

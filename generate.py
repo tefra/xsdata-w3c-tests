@@ -13,7 +13,7 @@ from typing import Union
 from lxml import etree
 from xsdata.formats.dataclass.models import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.generators import PythonAbstractGenerator
+from xsdata.formats.generators import PythonAbstractGenerator
 from xsdata.utils import text
 
 from models.xsts import Expected
@@ -218,7 +218,7 @@ def make_docstring(group: TestGroup) -> str:
                     element.text or "" if isinstance(element, AnyElement) else element
                     for annotation in group.annotation
                     for documentation in annotation.documentation
-                    for element in documentation.value_any_element
+                    for element in documentation.any_element
                     if element
                 ]
             )

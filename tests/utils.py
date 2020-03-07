@@ -37,8 +37,7 @@ def assert_bindings(
         pytest.skip("Invalid schema")
 
     reducer.common_types.clear()
-    writer.register_generator("pydata", DataclassGenerator())
-    writer.get_renderer("pydata").modules.clear()
+    writer.register_format("pydata", DataclassGenerator())
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)

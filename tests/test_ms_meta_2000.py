@@ -7490,7 +7490,6 @@ def test_any_uri_b001_1352_any_uri_b001_1352_i():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_a004_1339_any_uri_a004_1339_i():
     """
     TEST :Facet Schemas for string : test that uri with ftp:// gofer://
@@ -7508,7 +7507,6 @@ def test_any_uri_a004_1339_any_uri_a004_1339_i():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_a002_1337_any_uri_a002_1337_v():
     """
     TEST :Facet Schemas for string : test that dbcs charanters are allowed
@@ -7526,7 +7524,6 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_any_uri_a001_1336_any_uri_a001_1336_v():
     """
     TEST :Facet Schemas for string : test that the numbers are allowed as

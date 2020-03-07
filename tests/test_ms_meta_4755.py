@@ -7625,7 +7625,6 @@ def test_sch_g12_sch_g12_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_g8_sch_g8_v():
     """
     TEST :schema collection and schema location : A import B and C, B is

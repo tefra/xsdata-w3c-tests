@@ -12544,7 +12544,6 @@ def test_elem_z015_elem_z015_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z014_elem_z014_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

@@ -9856,7 +9856,6 @@ def test_wild_z005_wild_z005_i():
     )
 
 
-@pytest.mark.xfail
 def test_wild_z004_wild_z004_v():
     """
     TEST :Syntax Validation - any : xsd: un-declared element when content

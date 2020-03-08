@@ -2363,7 +2363,6 @@ def test_s3_4_2_4ii07_s3_4_2_4ii07i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_2_4ii06_s3_4_2_4ii06i():
     """
     test defaultAttributesApply = true and redefined as false

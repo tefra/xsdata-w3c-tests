@@ -9,10 +9,10 @@ import xmlschema
 from click.testing import CliRunner
 from lxml import etree
 from xsdata import cli
+from xsdata.analyzer import analyzer
 from xsdata.formats.dataclass.generator import DataclassGenerator
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
-from xsdata.reducer import reducer
 from xsdata.utils import text
 from xsdata.writer import writer
 
@@ -36,7 +36,7 @@ def assert_bindings(
     if not is_valid:
         pytest.skip("Invalid schema")
 
-    reducer.common_types.clear()
+    analyzer.common_types.clear()
     writer.register_format("pydata", DataclassGenerator())
 
     schema_path = Path(schema)
@@ -59,8 +59,9 @@ def assert_bindings(
     except Exception as e:
         if instance_is_valid:
             raise e
-        else:
-            return
+
+    if not instance_is_valid:
+        return
 
     schema_validator = get_validator(schema_path_absolute, version)
     if schema_validator is None and is_valid:
@@ -71,13 +72,10 @@ def assert_bindings(
         tree = XmlSerializer().render_tree(obj)
         return assert_valid(schema_validator, tree)
     except Exception as e:
-        if not instance_is_valid:
-            return
-
         try:
             original_tree = etree.parse(str(w3c.joinpath(instance)))
             assert_valid(schema_validator, original_tree)
-        except Exception:
+        except Exception as f:
             pytest.skip("Original instance failed to validate!")
 
         if tree is not None:

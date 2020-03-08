@@ -1474,7 +1474,6 @@ def test_add_b175_add_b175_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b174_add_b174_v():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -2352,7 +2351,6 @@ def test_add_b080_add_b080_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b076_add_b076_v():
     """
     TEST :Adhoc XSD: : id="75028"
@@ -5470,7 +5468,6 @@ def test_ct_z013a_ct_z013a_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_z011_b_ct_z011_b_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9540,7 +9537,6 @@ def test_dt_z100507_2242_dt_z100507_2242_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_test70681_2241_id_test70681_2241_v():
     """
     TEST :Facet Schemas for string : ID/IDREF should not allow heading or

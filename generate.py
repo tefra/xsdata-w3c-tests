@@ -159,6 +159,9 @@ def make_test_cases(path: Path, group: TestGroup):
         )
         schema_validity = validity(group.schema_test.expected)
         version = schema_validity.version or "1.0"
+        if group.name == "particlesZ012":
+            version = "1.1"
+
         schema_is_valid = schema_validity.validity == ExpectedOutcome.VALID
 
     version = group.version or version

@@ -903,6 +903,7 @@ def test_xsd004_xsd004_v00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -919,6 +920,7 @@ def test_xsd003b_xsd003b_n00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n01():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -2940,7 +2942,6 @@ def test_ag_name00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_attrwcard00101m1_positive():
     """
     Attribute wildcard is declared in attribute group.  (valid schema)
@@ -2958,7 +2959,6 @@ def test_ag_attrwcard00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_attrusens00101m1_p_positive():
     """
     Attribute is declared in attribute group by reference with QName.
@@ -7199,6 +7199,7 @@ def test_typedef00205m_type_def00205m1_p():
     )
 
 
+@pytest.mark.xfail
 def test_typedef00204m_type_def00204m1_p():
     """
     type attribute is used to define {type definition} property. (valid

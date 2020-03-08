@@ -5926,7 +5926,6 @@ def test_mg_m014_mg_m014_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_m013_mg_m013_v():
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has a
@@ -8503,6 +8502,7 @@ def test_particles_z015_particles_z015_i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_particles_z012_particles_z012_v():
     """
@@ -8516,7 +8516,7 @@ def test_particles_z012_particles_z012_v():
         instance="msData/particles/particlesZ012.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
     )
 
 
@@ -10016,7 +10016,6 @@ def test_particles_ob048_particles_ob048_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob047_particles_ob047_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

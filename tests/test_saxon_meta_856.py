@@ -5706,7 +5706,6 @@ def test_open045_open045_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open044_open044_v1_xml():
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -5723,7 +5722,6 @@ def test_open044_open044_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open044_open044_n1_xml():
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -5740,7 +5738,6 @@ def test_open044_open044_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open044_open044_n2_xml():
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -7673,6 +7670,7 @@ def test_over018_over018_n02_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_over015_over015_v01_xml():
     """
     Override a notation Override a notation
@@ -7688,6 +7686,7 @@ def test_over015_over015_v01_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_over015_over015_v02_xml():
     """
     Override a notation Override a notation
@@ -7703,6 +7702,7 @@ def test_over015_over015_v02_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_over015_over015_n01_xml():
     """
     Override a notation Override a notation
@@ -7718,6 +7718,7 @@ def test_over015_over015_n01_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_over015_over015_n02_xml():
     """
     Override a notation Override a notation

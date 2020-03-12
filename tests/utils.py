@@ -9,12 +9,9 @@ import xmlschema
 from click.testing import CliRunner
 from lxml import etree
 from xsdata import cli
-from xsdata.analyzer import analyzer
-from xsdata.formats.dataclass.generator import DataclassGenerator
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.utils import text
-from xsdata.writer import writer
 
 log = logging.getLogger()
 
@@ -35,9 +32,6 @@ def assert_bindings(
         pytest.skip("No schema for code generator")
     if not is_valid:
         pytest.skip("Invalid schema")
-
-    analyzer.common_types.clear()
-    writer.register_format("pydata", DataclassGenerator())
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
@@ -75,7 +69,7 @@ def assert_bindings(
         try:
             original_tree = etree.parse(str(w3c.joinpath(instance)))
             assert_valid(schema_validator, original_tree)
-        except Exception as f:
+        except Exception:
             pytest.skip("Original instance failed to validate!")
 
         if tree is not None:

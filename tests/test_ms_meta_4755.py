@@ -7547,7 +7547,6 @@ def test_sch_t3_sch_t3_v():
     )
 
 
-@pytest.mark.xfail
 def test_sch_r2_sch_r2_i():
     """
     TEST :schema collection and schema location : redefine with a group,

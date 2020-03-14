@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 

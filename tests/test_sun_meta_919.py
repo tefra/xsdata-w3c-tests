@@ -10527,7 +10527,6 @@ def test_particles00303m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_particles00302m1_positive():
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'sequence'

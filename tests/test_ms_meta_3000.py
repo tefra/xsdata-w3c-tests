@@ -790,7 +790,6 @@ def test_group_i005v_group_i005v_i():
     )
 
 
-@pytest.mark.xfail
 def test_group_i004v_group_i004v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
@@ -7522,7 +7521,6 @@ def test_mg_f017_mg_f017_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f016_mg_f016_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice
@@ -7537,7 +7535,6 @@ def test_mg_f016_mg_f016_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f015_mg_f015_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 elements, 4
@@ -7613,7 +7610,6 @@ def test_mg_f011_mg_f011_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f010_mg_f010_v():
     """
     TEST :model groups (ALL) : sequence: with children element, any,
@@ -9135,7 +9131,6 @@ def test_particles_q013_particles_q013_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_q011_particles_q011_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

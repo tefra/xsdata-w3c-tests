@@ -6635,7 +6635,6 @@ def test_typedef01501m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_typedef01401m1_positive():
     """
     normalized value must be valid with respect to the type definition
@@ -7199,7 +7198,6 @@ def test_typedef00205m_type_def00205m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00204m_type_def00204m1_p():
     """
     type attribute is used to define {type definition} property. (valid

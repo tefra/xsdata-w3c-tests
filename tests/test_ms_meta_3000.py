@@ -4922,7 +4922,6 @@ def test_id_f015_id_f015_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_f014_id_f014_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4939,7 +4938,6 @@ def test_id_f014_id_f014_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f013_id_f013_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4955,7 +4953,6 @@ def test_id_f013_id_f013_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f012_id_f012_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique

@@ -1300,7 +1300,6 @@ def test_idc006_nogen_idc006_nogen_n01():
     )
 
 
-@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_v00():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -2909,7 +2908,6 @@ def test_annotation00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_targetns00101m1_p_positive():
     """
     Attribute group reference with QName. (valid schema) Attribute Group
@@ -2926,7 +2924,6 @@ def test_ag_targetns00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_name00101m1_p_positive():
     """
     Attribute group declaration. (valid schema) Attribute Group use should
@@ -3260,7 +3257,6 @@ def test_ad_targetns00101m_ad_target_ns00101m3_n():
     )
 
 
-@pytest.mark.xfail
 def test_ad_scope00101m1_positive():
     """
     Attribute declared with global scope (valid schema) Attribute declared
@@ -4950,7 +4946,6 @@ def test_au_valconstr00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_au_required00101m1_positive():
     """
     Attribute use is declared required.  (valid schema) Element whose
@@ -4981,7 +4976,6 @@ def test_au_required00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_au_attrdecl00101m1_p_positive():
     """
     Attribute declaration is resolved for attribute use. (valid schema)
@@ -6829,7 +6823,6 @@ def test_typedef01101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00901m1_positive():
     """
     the element information item must be valid with respect to the actual
@@ -8804,7 +8797,6 @@ def test_name00201m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00101m_name00101m1_p_528():
     """
     General check of the {name} property. (valid schema) Define two

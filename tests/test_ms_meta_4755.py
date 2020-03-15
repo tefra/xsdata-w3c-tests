@@ -7474,7 +7474,6 @@ def test_sch_u3_sch_u3_i():
     )
 
 
-@pytest.mark.xfail
 def test_sch_t10_sch_t10_v():
     """
     TEST :schema collection and schema location : redefine with an
@@ -7530,7 +7529,6 @@ def test_sch_t6_sch_t6_i():
     )
 
 
-@pytest.mark.xfail
 def test_sch_t3_sch_t3_v():
     """
     TEST :schema collection and schema location : redefine with a

@@ -11242,7 +11242,6 @@ def test_atomic_float_enumeration_nistxml_sv_iv_atomic_float_enumeration_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_1():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11258,7 +11257,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_2():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11274,7 +11272,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_3():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11290,7 +11287,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_4():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11306,7 +11302,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_5():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11562,7 +11557,6 @@ def test_atomic_float_pattern_1_nistxml_sv_iv_atomic_float_pattern_2_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_1():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11578,7 +11572,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_2():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11594,7 +11587,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_3():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11610,7 +11602,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_4():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11626,7 +11617,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_5():
     r"""
     Type atomic/float is restricted by facet pattern with value

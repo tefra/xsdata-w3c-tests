@@ -7173,7 +7173,6 @@ def test_notation_length001_1372_notation_length001_1372_i():
     )
 
 
-@pytest.mark.xfail
 def test_qname_enumeration004_1371_qname_enumeration004_1371_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
@@ -7204,7 +7203,6 @@ def test_qname_enumeration003_1370_qname_enumeration003_1370_i():
     )
 
 
-@pytest.mark.xfail
 def test_qname_enumeration002_1369_qname_enumeration002_1369_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo

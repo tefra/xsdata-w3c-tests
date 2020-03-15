@@ -5677,7 +5677,6 @@ def test_re_dd1_re_dd1_v():
     )
 
 
-@pytest.mark.xfail
 def test_re_dc5_re_dc5_v():
     r"""
     TEST :branch : base='Qname',

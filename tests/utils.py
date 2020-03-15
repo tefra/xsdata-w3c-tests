@@ -63,7 +63,7 @@ def assert_bindings(
 
     tree = None
     try:
-        tree = XmlSerializer().render_tree(obj)
+        tree = XmlSerializer().render_tree(obj, parser.namespaces)
         return assert_valid(schema_validator, tree)
     except Exception as e:
         try:

@@ -286,7 +286,6 @@ def test_is_default073_is_default073_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default072_is_default072_v():
     """
     TEST :Adhoc XSD: : While adding default attributes with
@@ -2396,7 +2395,6 @@ def test_add_b069_add_b069_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b068_add_b068_i():
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName" TSTF
@@ -2412,7 +2410,6 @@ def test_add_b068_add_b068_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b067_add_b067_v():
     """
     TEST :Adhoc XSD: : id="73986" description="xsd: length of QName"
@@ -2714,7 +2711,6 @@ def test_add_b013_add_b013_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b012_add_b012_v():
     """
     TEST :Adhoc XSD: : id="67500" title="xsd: checking QName datatype
@@ -11673,7 +11669,6 @@ def test_qname007_2090_qname007_2090_i():
     )
 
 
-@pytest.mark.xfail
 def test_qname006_2089_qname006_2089_v():
     """
     TEST :Facet Schemas for string : value=fo:foo

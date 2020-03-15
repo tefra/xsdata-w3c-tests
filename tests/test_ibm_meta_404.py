@@ -443,7 +443,6 @@ def test_assert_029_assert_029_3():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert_028_assert_028_2():
     """
     An example demonstrating XSD 1.1 assertions evaluation, where an

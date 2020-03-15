@@ -9069,7 +9069,6 @@ def test_st_e095_st_e095_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_e094_st_e094_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
@@ -9190,7 +9189,6 @@ def test_st_e080_st_e080_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_e079_st_e079_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed

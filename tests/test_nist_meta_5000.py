@@ -11517,7 +11517,6 @@ def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_pattern_4_nistxml_sv_iv_list_qname_pattern_5_1():
     r"""
     Type list/QName is restricted by facet pattern with value
@@ -11644,7 +11643,6 @@ def test_list_qname_pattern_3_nistxml_sv_iv_list_qname_pattern_4_1():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_pattern_3_nistxml_sv_iv_list_qname_pattern_4_2():
     r"""
     Type list/QName is restricted by facet pattern with value
@@ -11732,7 +11730,6 @@ def test_list_qname_pattern_3_nistxml_sv_iv_list_qname_pattern_4_5():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_pattern_2_nistxml_sv_iv_list_qname_pattern_3_1():
     r"""
     Type list/QName is restricted by facet pattern with value
@@ -11752,7 +11749,6 @@ def test_list_qname_pattern_2_nistxml_sv_iv_list_qname_pattern_3_1():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_pattern_2_nistxml_sv_iv_list_qname_pattern_3_2():
     r"""
     Type list/QName is restricted by facet pattern with value
@@ -12023,7 +12019,6 @@ def test_list_qname_pattern_nistxml_sv_iv_list_qname_pattern_1_3():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_pattern_nistxml_sv_iv_list_qname_pattern_1_4():
     r"""
     Type list/QName is restricted by facet pattern with value
@@ -12292,7 +12287,6 @@ def test_list_qname_length_2_nistxml_sv_iv_list_qname_length_3_5():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_length_1_nistxml_sv_iv_list_qname_length_2_1():
     """
     Type list/QName is restricted by facet length with value 6.
@@ -12367,7 +12361,6 @@ def test_list_qname_length_1_nistxml_sv_iv_list_qname_length_2_5():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_length_nistxml_sv_iv_list_qname_length_1_1():
     """
     Type list/QName is restricted by facet length with value 5.
@@ -12382,7 +12375,6 @@ def test_list_qname_length_nistxml_sv_iv_list_qname_length_1_1():
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_length_nistxml_sv_iv_list_qname_length_1_2():
     """
     Type list/QName is restricted by facet length with value 5.

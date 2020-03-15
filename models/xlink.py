@@ -51,9 +51,9 @@ class TypeType(Enum):
 @dataclass
 class ArcType:
     """
-    :ivar title:
     :ivar type:
     :ivar arcrole:
+    :ivar title:
     :ivar show:
     :ivar actuate:
     :ivar from_value:
@@ -62,16 +62,6 @@ class ArcType:
     class Meta:
         name = "arcType"
 
-    title: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            name="title",
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
     type: TypeType = field(
         init=False,
         default="arc",
@@ -89,6 +79,14 @@ class ArcType:
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
+        )
+    )
+    title: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="title",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink"
         )
     )
     show: Optional[ShowType] = field(
@@ -132,24 +130,41 @@ class Extended:
     The intention is that by simply declaring elements with these as their
     substitutionGroup, all the right things will happen.
 
+    :ivar type:
+    :ivar role:
     :ivar title:
     :ivar resource:
     :ivar locator:
     :ivar arc:
-    :ivar type:
-    :ivar role:
     """
     class Meta:
         name = "extended"
 
-    title: List[str] = field(
-        default_factory=list,
+    type: TypeType = field(
+        init=False,
+        default="extended",
+        metadata=dict(
+            name="type",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            required=True
+        )
+    )
+    role: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="role",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
+        )
+    )
+    title: Optional[str] = field(
+        default=None,
         metadata=dict(
             name="title",
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink"
         )
     )
     resource: List[str] = field(
@@ -182,50 +197,21 @@ class Extended:
             max_occurs=9223372036854775807
         )
     )
-    type: TypeType = field(
-        init=False,
-        default="extended",
-        metadata=dict(
-            name="type",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="role",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
-        )
-    )
 
 
 @dataclass
 class LocatorType:
     """
-    :ivar title:
     :ivar type:
     :ivar href:
     :ivar role:
+    :ivar title:
     :ivar label: label is not required, but locators have no particular
          XLink function if they are not labeled.
     """
     class Meta:
         name = "locatorType"
 
-    title: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            name="title",
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
     type: TypeType = field(
         init=False,
         default="locator",
@@ -254,6 +240,14 @@ class LocatorType:
             min_length=1.0
         )
     )
+    title: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="title",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink"
+        )
+    )
     label: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -267,25 +261,16 @@ class LocatorType:
 @dataclass
 class ResourceType:
     """
-    :ivar any_element:
     :ivar type:
     :ivar role:
     :ivar title:
     :ivar label:
+    :ivar any_element:
     """
     class Meta:
         name = "resourceType"
         mixed = True
 
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Any",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
     type: TypeType = field(
         init=False,
         default="resource",
@@ -321,26 +306,6 @@ class ResourceType:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-
-
-@dataclass
-class Simple:
-    """Intended for use as the type of user-declared elements to make them simple
-    links.
-
-    :ivar any_element:
-    :ivar type:
-    :ivar href:
-    :ivar role:
-    :ivar arcrole:
-    :ivar title:
-    :ivar show:
-    :ivar actuate:
-    """
-    class Meta:
-        name = "simple"
-        mixed = True
-
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
@@ -350,6 +315,26 @@ class Simple:
             max_occurs=9223372036854775807
         )
     )
+
+
+@dataclass
+class Simple:
+    """Intended for use as the type of user-declared elements to make them simple
+    links.
+
+    :ivar type:
+    :ivar href:
+    :ivar role:
+    :ivar arcrole:
+    :ivar title:
+    :ivar show:
+    :ivar actuate:
+    :ivar any_element:
+    """
+    class Meta:
+        name = "simple"
+        mixed = True
+
     type: TypeType = field(
         init=False,
         default="simple",
@@ -409,21 +394,6 @@ class Simple:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-
-
-@dataclass
-class TitleEltType:
-    """
-    :ivar any_element:
-    :ivar type:
-    :ivar lang: xml:lang is not required, but provides much of the
-         motivation for title elements in addition to attributes, and so
-         is provided here for convenience.
-    """
-    class Meta:
-        name = "titleEltType"
-        mixed = True
-
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
@@ -433,6 +403,21 @@ class TitleEltType:
             max_occurs=9223372036854775807
         )
     )
+
+
+@dataclass
+class TitleEltType:
+    """
+    :ivar type:
+    :ivar lang: xml:lang is not required, but provides much of the
+         motivation for title elements in addition to attributes, and so
+         is provided here for convenience.
+    :ivar any_element:
+    """
+    class Meta:
+        name = "titleEltType"
+        mixed = True
+
     type: TypeType = field(
         init=False,
         default="title",
@@ -449,5 +434,14 @@ class TitleEltType:
             name="lang",
             type="Attribute",
             namespace="http://www.w3.org/XML/1998/namespace"
+        )
+    )
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Any",
+            namespace="##any",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )

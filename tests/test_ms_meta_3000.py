@@ -1801,7 +1801,6 @@ def test_id_l103_id_l103_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_l102_id_l102_v():
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -1865,7 +1864,6 @@ def test_id_l099_id_l099_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_l098_id_l098_v():
     """
     TEST :Identity-constraint Definition Schema Component : Test for path

@@ -9921,7 +9921,6 @@ def test_abstract00201m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_abstract00201m1_negative():
     """
     use abstarct explicitly set to true  (valid schema) Declare an element
@@ -11546,7 +11545,6 @@ def test_st_targetns00101m_st_target_ns00101m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_n():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11580,7 +11578,6 @@ def test_st_targetns00101m_st_target_ns00101m2_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_n():
     """
     Identify the type by their {name} and {target namespace} (valid

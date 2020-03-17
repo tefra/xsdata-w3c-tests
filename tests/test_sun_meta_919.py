@@ -1567,7 +1567,6 @@ def test_identitytestsuitetest002_test_1_v():
     )
 
 
-@pytest.mark.xfail
 def test_identitytestsuitetest002_test_2_v():
     """
     test

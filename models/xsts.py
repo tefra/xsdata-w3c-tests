@@ -11,7 +11,7 @@ from models.xlink import (
 class XdmFiltering(Enum):
     """<ns0:div>
 
-        <ns0:p>Clause 1.2 of validation rule<ns0:a>Assertion satisifed</ns0:a>(in Structures sec. 3.13.4.1) says</ns0:p>
+        <ns0:p>Clause 1.2 of validation rule<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#sec-cvc-assertion">Assertion satisifed</ns0:a>(in Structures sec. 3.13.4.1) says</ns0:p>
         <ns0:blockquote>
           <ns0:p>By default, comments and processing instructions are
                 excluded from the partial post-schema-validation infoset,
@@ -28,7 +28,7 @@ class XdmFiltering(Enum):
                 required to be "at user option", any processor that supports this
                 token must also be available in a configuration that supports the
                 other token.)</ns0:p>
-        <ns0:p>(The user option was added in November 2012 to address bug<ns0:a>13935
+        <ns0:p>(The user option was added in November 2012 to address bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935">13935
                 xsd 1.1 assertions testing comment nodes</ns0:a>.
                 These token values were added 20 January 2012 to allow both
                 configurations to be tested.)</ns0:p>
@@ -128,7 +128,7 @@ class ExpectedOutcome(Enum):
 
         <ns0:p>Enumerates the possible values for the prescribed outcome
                 of a test.  Values include both (a) the possible values of
-                type<ns0:a>ts:test-outcome</ns0:a>and
+                type<ns0:a href="#type_test-outcome">ts:test-outcome</ns0:a>and
                 the following additional values:</ns0:p>
         <ns0:dl>
           <ns0:dt>
@@ -164,7 +164,7 @@ class ExpectedOutcome(Enum):
                   as "implementation-dependent", or otherwise explicitly
                   described as varying among implementations but not
                   "implementation-defined".  (For XSD 1.0, this will often
-                  take the form of a normative "<ns0:span>may</ns0:span>" in the text.)</ns0:dd>
+                  take the form of a normative "<ns0:span class="rfc">may</ns0:span>" in the text.)</ns0:dd>
           <ns0:dd>(For schema tests) The conformance of the schema
                   depends upon some property or behavior explicitly
                   described in the spec as "implementation-dependent" or
@@ -177,7 +177,14 @@ class ExpectedOutcome(Enum):
                   following reasons, or for other reasons:<ns0:ul><ns0:li>The result is under-determined (the spec is vague
                       or underspecified), but not described explicitly as
                       varying among conforming implementations.</ns0:li><ns0:li>The spec imposed contradictory requirements on the
-                      result. (I.e. the result is<ns0:em>over-determined.)</ns0:em></ns0:li><ns0:li/></ns0:ul></ns0:dd>
+                      result. (I.e. the result is<ns0:em>over-determined.)</ns0:em></ns0:li><ns0:li>There is an unresolved dispute within the working
+                      group as to what the spec requires the result to be.
+                      (This includes cases where the working group cannot
+                      agree on whether the spec explicitly labels the
+                      result as implementation-dependent or
+                      implementation-defined or not, as well as cases
+                      where the group cannot agree on how to apply the
+                      spec to the case in hand.)</ns0:li></ns0:ul></ns0:dd>
         </ns0:dl>
         <ns0:p>N.B. the values<ns0:tt>implementation-dependent</ns0:tt>and<ns0:tt>implementation-defined</ns0:tt>should be used only when
                 the spec is explicit about the implementation-dependence
@@ -192,7 +199,7 @@ class ExpectedOutcome(Enum):
                 result explicitly as implementation-defined or
                 implementation-dependent.  The value<ns0:tt>indeterminate</ns0:tt>is provided for situations where
                 this has not been done for whatever reason.</ns0:p>
-        <ns0:p>The value<ns0:tt>invalid-latent</ns0:tt>described
+        <ns0:p class="note">The value<ns0:tt>invalid-latent</ns0:tt>described
                 in earlier drafts of this schema document is no longer
                 needed; the version keywords for complex-type restriction
                 behaviors can be used to describe the relevant cases
@@ -334,7 +341,7 @@ class RuntimeSchemaError(Enum):
                   No guarantees.</ns0:dd>
         </ns0:dl>
         <ns0:p>Note, 20 January 2012.  Is this distinction still required,
-              or has it been overtaken by the change made to resolve<ns0:a>bug 12185 Conditional Type Assignment and substitutability</ns0:a>(or other late changes)?</ns0:p>
+              or has it been overtaken by the change made to resolve<ns0:a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12185">bug 12185 Conditional Type Assignment and substitutability</ns0:a>(or other late changes)?</ns0:p>
       </ns0:div>
     :cvar CTR_ALL_COMPILE:
     :cvar CTR_ALL_IDEP:
@@ -384,7 +391,7 @@ class TestOutcome(Enum):
           <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root is<ns0:tt>notKnown</ns0:tt>.</ns0:dd>
           <ns0:dd>(For schema tests, this value is meaningless.)</ns0:dd>
         </ns0:dl>
-        <ns0:p>Note:  processors built as<ns0:a>instance validators</ns0:a>are not required by XSD to
+        <ns0:p>Note:  processors built as<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#key-validator">instance validators</ns0:a>are not required by XSD to
                 distinguish between invalid documents and documents with
                 unknown validity; it is thus not an absolute requirement
                 (although it is desirable for clarity)
@@ -398,7 +405,7 @@ class TestOutcome(Enum):
           <ns0:dd>
             <ns0:p>(For instance tests) The instance has a schema with
                     a latent error (see description below in the documentation
-                    for type<ns0:a>ts:expected-outcome</ns0:a>);
+                    for type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>);
                     the processor did not detect the latent error on the
                     corresponding schema test, but the instance document
                     has exposed the error (by including content
@@ -506,7 +513,7 @@ class XpathInCta(Enum):
           <ns0:p>A conforming processor must accept and process any XPath
                 expression conforming to the "required subset" of [XPath 2.0]
                 defined by the following grammar.</ns0:p>
-          <ns0:p>Note: Any XPath expression containing no static errors as
+          <ns0:p style="margin-left: 2em;">Note: Any XPath expression containing no static errors as
                   defined in [XPath 2.0] may appear in a conforming schema.
                   Conforming processors may but are not required to support
                   XPath expressions not belonging to the required subset of
@@ -519,7 +526,7 @@ class XpathInCta(Enum):
         <ns0:p>The value "<ns0:tt>full-xpath-in-CTA</ns0:tt>" denotes processor support
                 for, or test applicability to, full XPath in conditional type
                 assignment expressions.</ns0:p>
-        <ns0:p>(These token values were added 29 July 2011 to address bug<ns0:a>13455
+        <ns0:p>(These token values were added 29 July 2011 to address bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13455">13455
                 XPath subset causes problem</ns0:a>.)</ns0:p>
       </ns0:div>
     :cvar FULL_XPATH_IN_CTA:
@@ -606,14 +613,14 @@ class Expected:
                     The result specified is applicable to processor
                     configurations supporting<ns0:em>all</ns0:em>of the
                     indicated versions or features of XSD.
-                    See the definition of the<ns0:a><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
+                    See the definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
             <ns0:p>It is an error for more than one<ns0:tt>expected</ns0:tt>element to be applicable to any given processor
                     configuration; this is most easily avoided by
                     making sure that any two sibling<ns0:tt>expected</ns0:tt>elements have<ns0:tt>version</ns0:tt>attributes containing
                     mutually exclusive tokens.</ns0:p>
           </ns0:li>
         </ns0:ul>
-        <ns0:p>Note: The meaning of the<ns0:tt>version</ns0:tt></ns0:p>
+        <ns0:p class="note">Note: The meaning of the<ns0:tt>version</ns0:tt></ns0:p>
         <ns0:p>On tests and elements for groups of
                 tests (<ns0:tt>testGroup</ns0:tt>etc.), a<ns0:tt>version</ns0:tt>attribute of the form<ns0:code>version="<ns0:i>x</ns0:i><ns0:i>y</ns0:i><ns0:i>z</ns0:i>"</ns0:code>means "If<ns0:strong>any</ns0:strong>of<ns0:tt>x</ns0:tt>,<ns0:tt>y</ns0:tt>, or<ns0:tt>z</ns0:tt>are supported, tests
                 in this group are applicable."</ns0:p>
@@ -629,7 +636,7 @@ class Expected:
                 in the same validation episode.  Since the two tokens are
                 defined as mutually exclusive, this would be a
                 contradiction.</ns0:p>
-        <ns0:p>As a matter of test suite design, it
+        <ns0:p class="note">As a matter of test suite design, it
                 is a good idea to keep<ns0:tt>version</ns0:tt>attributes
                 on<ns0:tt>expected</ns0:tt>elements to a single token if
                 possible, to minimize opportunities for confusion.</ns0:p>
@@ -637,7 +644,7 @@ class Expected:
         <ns0:ul>
           <ns0:li>
             <ns0:p><ns0:tt>validity</ns0:tt>- indicates the expected outcome
-                    of the test, using a value of type<ns0:a>ts:expected-outcome</ns0:a>.</ns0:p>
+                    of the test, using a value of type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>.</ns0:p>
             <ns0:p>For an instance test, this typically indicates the expected
                     value of the<ns0:code>[validity]</ns0:code>property on the
                     root element of the instance document, or indicates
@@ -792,7 +799,7 @@ class TestResult:
         <ns0:p>This element has four required attributes:</ns0:p>
         <ns0:ul>
           <ns0:li><ns0:tt>validity</ns0:tt>- the validition outcome of the test.
-                  A value of type<ns0:a>ts:expected-outcome</ns0:a>,
+                  A value of type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>,
                   i.e.
                   one of "<ns0:tt>valid</ns0:tt>", "<ns0:tt>invalid</ns0:tt>",
                   "<ns0:tt>notKnown</ns0:tt>", or "<ns0:tt>runtime-schema-error</ns0:tt>".</ns0:li>
@@ -1142,8 +1149,8 @@ class InstanceTest:
                     test group, test set, or test suite should run the
                     test.</ns0:p>
             <ns0:p>The value is a list of version tokens.  See the
-                    definition of the<ns0:a><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
-            <ns0:p>Note: running instance tests with a
+                    definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
+            <ns0:p class="note">Note: running instance tests with a
                     processor for an inapplicable version may produce an
                     failure owing to non-conformant constructs in the
                     schema document; if the processor does not detect the
@@ -1176,7 +1183,7 @@ class InstanceTest:
                 present for tests included in the XSTS.</ns0:p>
         <ns0:p>The<ns0:tt>current</ns0:tt>and<ns0:tt>prior</ns0:tt>elements should
                 be used to keep a change history of the test; see
-                discussion under the<ns0:a><ns0:tt>schemaTest</ns0:tt></ns0:a>element.</ns0:p>
+                discussion under the<ns0:a href="#elem_schemaTest"><ns0:tt>schemaTest</ns0:tt></ns0:a>element.</ns0:p>
       </ns0:div>
     :ivar annotation:
     :ivar instance_document:
@@ -1283,7 +1290,7 @@ class SchemaTest:
                     haven't already skipped the enclosing test group,
                     test set, or test suite should run the test.</ns0:p>
             <ns0:p>The value is a list of version tokens.  See the
-                    definition of the<ns0:a><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
+                    definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
             <ns0:p>Note that the omission of a version token on a schema
                     test is in some sense strictly advisory: any schema
                     test is meaningful for any processor in any
@@ -1563,7 +1570,7 @@ class TestGroup:
                     or behaviors indicated.  Any processor or processor
                     configuration which supports<ns0:em>any</ns0:em>of the features
                     indicated should run the tests.  Processors which support<ns0:em>none</ns0:em>of them can skip the entire test set.
-                    See the definition of the<ns0:a><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
+                    See the definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
             <ns0:p>Logically, all keywords appearing here should also appear
                     in the<ns0:tt>version</ns0:tt>attribute of the enclosing<ns0:tt>testSet</ns0:tt>, if it has one.</ns0:p>
           </ns0:li>
@@ -1586,7 +1593,7 @@ class TestGroup:
             <ns0:p>When more than one schema document is present, a single
                     schema is constructed from the set (or from other
                     schemas via import).</ns0:p>
-            <ns0:p>Note: XSD's rules for schema composition
+            <ns0:p class="note">Note: XSD's rules for schema composition
                     mean that the order in which schema documents are
                     encountered may be significant.  When more than one
                     schema document is listed in the<ns0:tt>schemaTest</ns0:tt>element, the test should be run as if the schema
@@ -1598,7 +1605,7 @@ class TestGroup:
                     indicated, in a processing mode that involves
                     following the schema-location hints in import
                     statements.</ns0:p>
-            <ns0:p>Note: the working group has made no
+            <ns0:p class="note">Note: the working group has made no
                     decision on whether the schema should be constructed
                     solely from the schema documents listed in the<ns0:tt>schemaTest</ns0:tt>element, or from those schema
                     documents plus the transitive closure of their
@@ -1606,7 +1613,7 @@ class TestGroup:
                     working group has not decided whether<ns0:tt>schemaLocation</ns0:tt>hints in the instance tests
                     should be honored or not.  It is therefore advisable
                     to draft test cases without dependencies on<ns0:tt>schemaLocation</ns0:tt>hints and the like.</ns0:p>
-            <ns0:p>Note: work is pending on these issues of
+            <ns0:p class="note">Note: work is pending on these issues of
                     schema composition.  When it's complete, this part o
                     the test suite schema may be expected to change.</ns0:p>
             <ns0:p>Schema documents may be omitted, for the purpose of
@@ -1699,7 +1706,7 @@ class TestSet:
         <ns0:p>The root element of a document describing a set of tests,
                 normally from a single contributor.  A contributor may
                 supply any number of<ns0:tt>testSet</ns0:tt>files.</ns0:p>
-        <ns0:p>Note: In order to make it possible to browse the test
+        <ns0:p class="note">Note: In order to make it possible to browse the test
                 suite in a browser, it is helpful if large test
                 collections are broken up into several<ns0:tt>testSet</ns0:tt>documents of no more than a megabyte or so each.  If
                 contributions have larger<ns0:tt>testSet</ns0:tt>documents, they

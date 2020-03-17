@@ -4332,7 +4332,6 @@ def test_s3_4_6ii01_s3_4_6ii01i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_6v08_s3_4_6v08i():
     """
     Restrict xs:all to xs:sequence

@@ -8694,7 +8694,6 @@ def test_particles_w001_particles_w001_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_v015_particles_v015_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -8900,7 +8899,6 @@ def test_particles_v003_particles_v003_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_u007_particles_u007_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -8953,7 +8951,6 @@ def test_particles_u004_particles_u004_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_u003_particles_u003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

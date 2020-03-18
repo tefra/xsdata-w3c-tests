@@ -7685,7 +7685,6 @@ def test_over015_over015_v02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over015_over015_n01_xml():
     """
     Override a notation Override a notation
@@ -7701,7 +7700,6 @@ def test_over015_over015_n01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over015_over015_n02_xml():
     """
     Override a notation Override a notation

@@ -8962,7 +8962,6 @@ def test_st_g001_st_g001_v():
     )
 
 
-@pytest.mark.xfail
 def test_ste110_ste110_i():
     """
     TEST :Syntax Checking for simpleType Declaration : test circular union

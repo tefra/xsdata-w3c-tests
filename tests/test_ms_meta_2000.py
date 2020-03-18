@@ -7173,7 +7173,6 @@ def test_notation_length001_1372_notation_length001_1372_i():
     )
 
 
-@pytest.mark.xfail
 def test_qname_enumeration004_1371_qname_enumeration004_1371_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
@@ -7204,7 +7203,6 @@ def test_qname_enumeration003_1370_qname_enumeration003_1370_i():
     )
 
 
-@pytest.mark.xfail
 def test_qname_enumeration002_1369_qname_enumeration002_1369_v():
     """
     TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
@@ -7404,6 +7402,7 @@ def test_qname_length001_1357_qname_length001_1357_i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_any_uri_b006_1356_any_uri_b006_1356_i():
     r"""
@@ -7439,6 +7438,7 @@ def test_any_uri_b005_1355_any_uri_b005_1355_i():
     )
 
 
+@pytest.mark.schema11
 def test_any_uri_b004_1354_any_uri_b004_1354_v():
     """
     TEST :Facet Schemas for string : enumeration of many anyURI: a b c d e
@@ -7488,7 +7488,6 @@ def test_any_uri_b001_1352_any_uri_b001_1352_i():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_a004_1339_any_uri_a004_1339_i():
     """
     TEST :Facet Schemas for string : test that uri with ftp:// gofer://
@@ -7506,7 +7505,6 @@ def test_any_uri_a004_1339_any_uri_a004_1339_i():
     )
 
 
-@pytest.mark.xfail
 def test_any_uri_a002_1337_any_uri_a002_1337_v():
     """
     TEST :Facet Schemas for string : test that dbcs charanters are allowed
@@ -7523,7 +7521,7 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
     )
 
 
-@pytest.mark.xfail
+@pytest.mark.schema11
 def test_any_uri_a001_1336_any_uri_a001_1336_v():
     """
     TEST :Facet Schemas for string : test that the numbers are allowed as
@@ -12125,7 +12123,6 @@ def test_qfe1700e3_qfe1700e3_i():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700e2_qfe1700e2_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12142,7 +12139,6 @@ def test_qfe1700e2_qfe1700e2_v():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700e1_qfe1700e1_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12482,7 +12478,6 @@ def test_elem_z019_elem_z019_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z018_elem_z018_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12547,7 +12542,6 @@ def test_elem_z015_elem_z015_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z014_elem_z014_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14653,7 +14647,6 @@ def test_elem_o007_elem_o007_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_o006_elem_o006_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14810,7 +14803,6 @@ def test_err_e004_err_e004_i():
     )
 
 
-@pytest.mark.xfail
 def test_err_e003_err_e003_v():
     """
     TEST :Primer Errata : E2-25 Error: test support for the new language

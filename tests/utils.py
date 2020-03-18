@@ -1,6 +1,5 @@
 import functools
 import importlib
-import io
 import logging
 import os
 from pathlib import Path
@@ -10,12 +9,9 @@ import xmlschema
 from click.testing import CliRunner
 from lxml import etree
 from xsdata import cli
-from xsdata.formats.dataclass.generator import DataclassGenerator
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
-from xsdata.reducer import reducer
 from xsdata.utils import text
-from xsdata.writer import writer
 
 log = logging.getLogger()
 
@@ -37,10 +33,6 @@ def assert_bindings(
     if not is_valid:
         pytest.skip("Invalid schema")
 
-    reducer.common_types.clear()
-    writer.register_generator("pydata", DataclassGenerator())
-    writer.get_renderer("pydata").modules.clear()
-
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
 
@@ -61,8 +53,9 @@ def assert_bindings(
     except Exception as e:
         if instance_is_valid:
             raise e
-        else:
-            return
+
+    if not instance_is_valid:
+        return
 
     schema_validator = get_validator(schema_path_absolute, version)
     if schema_validator is None and is_valid:
@@ -70,17 +63,28 @@ def assert_bindings(
 
     tree = None
     try:
-        tree = XmlSerializer().render_tree(obj)
-        if isinstance(schema_validator, xmlschema.XMLSchema11):
-            schema_validator.validate(tree)
-        else:
-            schema_validator.assertValid(tree)
+        tree = XmlSerializer().render_tree(obj, parser.namespaces)
+        return assert_valid(schema_validator, tree)
     except Exception as e:
+        try:
+            original_tree = etree.parse(str(w3c.joinpath(instance)))
+            assert_valid(schema_validator, original_tree)
+        except Exception:
+            pytest.skip("Original instance failed to validate!")
+
         if tree is not None:
             xml_instance = etree.tostring(tree, pretty_print=True).decode()
             log.error(xml_instance)
-        if instance_is_valid:
-            raise e
+
+        raise e
+
+
+def assert_valid(validator, tree):
+    __tracebackhide__ = True
+    if isinstance(validator, xmlschema.XMLSchema11):
+        validator.validate(tree)
+    else:
+        validator.assertValid(tree)
 
 
 @functools.lru_cache(maxsize=5)
@@ -102,7 +106,7 @@ def initialize_validator(path: Path, version: str):
         else:
             xmlschema_doc = etree.parse(str(path))
             return etree.XMLSchema(xmlschema_doc)
-    except Exception as e:
+    except Exception:
         if version == "1.1":
             return None
         return initialize_validator(path, "1.1")
@@ -110,9 +114,8 @@ def initialize_validator(path: Path, version: str):
 
 def load_class(output, clazz_name):
     search = "Generating package: "
-    packages = [
-        line[len(search) :] for line in output.split("\n") if line.startswith(search)
-    ]
+    start = len(search)
+    packages = [line[start:] for line in output.split("\n") if line.startswith(search)]
 
     for package in reversed(packages):
         try:

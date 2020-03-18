@@ -3,6 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_ee1s_xml():
 
     assert_bindings(
@@ -15,6 +16,7 @@ def test_sg_abstract_edc_ee1s_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_ee1t_xml():
 
     assert_bindings(
@@ -27,6 +29,7 @@ def test_sg_abstract_edc_ee1t_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_ee1i_xml():
 
     assert_bindings(
@@ -39,6 +42,7 @@ def test_sg_abstract_edc_ee1i_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1se1s_xml():
 
     assert_bindings(
@@ -51,6 +55,7 @@ def test_sg_abstract_edc_e1se1s_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1se1t_xml():
 
     assert_bindings(
@@ -63,6 +68,7 @@ def test_sg_abstract_edc_e1se1t_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1se1i_xml():
 
     assert_bindings(
@@ -75,6 +81,7 @@ def test_sg_abstract_edc_e1se1i_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ite1s_xml():
 
     assert_bindings(
@@ -87,6 +94,7 @@ def test_sg_abstract_edc_e1ite1s_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ite1t_xml():
 
     assert_bindings(
@@ -99,6 +107,7 @@ def test_sg_abstract_edc_e1ite1t_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ite1i_xml():
 
     assert_bindings(
@@ -111,6 +120,7 @@ def test_sg_abstract_edc_e1ite1i_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ie1s_xml():
 
     assert_bindings(
@@ -123,6 +133,7 @@ def test_sg_abstract_edc_e1ie1s_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ie1t_xml():
 
     assert_bindings(
@@ -135,6 +146,7 @@ def test_sg_abstract_edc_e1ie1t_xml():
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_edc_e1ie1i_xml():
 
     assert_bindings(
@@ -159,7 +171,6 @@ def test_sg_abstract_upa2_e1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_sg_abstract_upa2_e1bis_xml():
 
     assert_bindings(

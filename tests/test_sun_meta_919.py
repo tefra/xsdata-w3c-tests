@@ -903,6 +903,7 @@ def test_xsd004_xsd004_v00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -919,6 +920,7 @@ def test_xsd003b_xsd003b_n00():
     )
 
 
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_n01():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -1298,7 +1300,6 @@ def test_idc006_nogen_idc006_nogen_n01():
     )
 
 
-@pytest.mark.xfail
 def test_idc006_nogen_idc006_nogen_v00():
     """
     idc006.nogen ID Constaints. XPath engine test:  ".//a/*/b" and use of
@@ -1566,7 +1567,6 @@ def test_identitytestsuitetest002_test_1_v():
     )
 
 
-@pytest.mark.xfail
 def test_identitytestsuitetest002_test_2_v():
     """
     test
@@ -2907,7 +2907,6 @@ def test_annotation00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_targetns00101m1_p_positive():
     """
     Attribute group reference with QName. (valid schema) Attribute Group
@@ -2924,7 +2923,6 @@ def test_ag_targetns00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_name00101m1_p_positive():
     """
     Attribute group declaration. (valid schema) Attribute Group use should
@@ -2940,7 +2938,6 @@ def test_ag_name00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_attrwcard00101m1_positive():
     """
     Attribute wildcard is declared in attribute group.  (valid schema)
@@ -2958,7 +2955,6 @@ def test_ag_attrwcard00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_ag_attrusens00101m1_p_positive():
     """
     Attribute is declared in attribute group by reference with QName.
@@ -3260,7 +3256,6 @@ def test_ad_targetns00101m_ad_target_ns00101m3_n():
     )
 
 
-@pytest.mark.xfail
 def test_ad_scope00101m1_positive():
     """
     Attribute declared with global scope (valid schema) Attribute declared
@@ -4950,7 +4945,6 @@ def test_au_valconstr00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_au_required00101m1_positive():
     """
     Attribute use is declared required.  (valid schema) Element whose
@@ -4981,7 +4975,6 @@ def test_au_required00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_au_attrdecl00101m1_p_positive():
     """
     Attribute declaration is resolved for attribute use. (valid schema)
@@ -6635,7 +6628,6 @@ def test_typedef01501m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_typedef01401m1_positive():
     """
     normalized value must be valid with respect to the type definition
@@ -6830,7 +6822,6 @@ def test_typedef01101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00901m1_positive():
     """
     the element information item must be valid with respect to the actual
@@ -7408,7 +7399,7 @@ def test_targetns00402m_target_ns00402m1_p():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_p.xml",
         instance_is_valid=True,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7424,7 +7415,7 @@ def test_targetns00402m_target_ns00402m1_n():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_n.xml",
         instance_is_valid=False,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7440,7 +7431,7 @@ def test_targetns00401m_target_ns00401m1_p():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_p.xml",
         instance_is_valid=True,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -7456,7 +7447,7 @@ def test_targetns00401m_target_ns00401m1_n():
         is_valid=True,
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_n.xml",
         instance_is_valid=False,
-        class_name="Global",
+        class_name="GlobalType",
         version="1.0",
     )
 
@@ -8291,7 +8282,6 @@ def test_nillable00201m_nillable00201m3_p():
     )
 
 
-@pytest.mark.xfail
 def test_nillable00102m_nillable00102m1_p():
     """
     xsi:nil=false (valid schema) Define nillable element with content type
@@ -8340,7 +8330,6 @@ def test_nillable00101m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_nillable00101m1_positive():
     """
     nillable=false (positive case) (valid schema) Define nillable element
@@ -8357,7 +8346,6 @@ def test_nillable00101m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00805_name00805_p():
     """
     Element names contain only punctuation characters and digits. (valid
@@ -8808,7 +8796,6 @@ def test_name00201m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_name00101m_name00101m1_p_528():
     """
     General check of the {name} property. (valid schema) Define two
@@ -9933,7 +9920,6 @@ def test_abstract00201m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_abstract00201m1_negative():
     """
     use abstarct explicitly set to true  (valid schema) Declare an element
@@ -10531,7 +10517,6 @@ def test_particles00303m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_particles00302m1_positive():
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'sequence'
@@ -11559,7 +11544,6 @@ def test_st_targetns00101m_st_target_ns00101m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_n():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11593,7 +11577,6 @@ def test_st_targetns00101m_st_target_ns00101m2_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_n():
     """
     Identify the type by their {name} and {target namespace} (valid

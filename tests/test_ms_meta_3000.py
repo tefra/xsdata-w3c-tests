@@ -790,7 +790,6 @@ def test_group_i005v_group_i005v_i():
     )
 
 
-@pytest.mark.xfail
 def test_group_i004v_group_i004v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
@@ -1646,6 +1645,7 @@ def test_id_z011_a_id_z011_a_i():
     )
 
 
+@pytest.mark.schema11
 def test_id_z011_id_z011_i():
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
@@ -1709,7 +1709,6 @@ def test_id_z007_id_z007_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_z006_id_z006_v():
     """
     TEST :Identity-constraint Definition Schema Component : test
@@ -1725,7 +1724,6 @@ def test_id_z006_id_z006_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_z005_id_z005_v():
     """
     TEST :Identity-constraint Definition Schema Component : test
@@ -1803,7 +1801,6 @@ def test_id_l103_id_l103_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_l102_id_l102_v():
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -1867,7 +1864,6 @@ def test_id_l099_id_l099_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_l098_id_l098_v():
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -4812,7 +4808,6 @@ def test_id_f022_id_f022_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f021_id_f021_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4845,7 +4840,6 @@ def test_id_f020_id_f020_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f019_id_f019_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4925,7 +4919,6 @@ def test_id_f015_id_f015_i():
     )
 
 
-@pytest.mark.xfail
 def test_id_f014_id_f014_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4942,7 +4935,6 @@ def test_id_f014_id_f014_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f013_id_f013_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -4958,7 +4950,6 @@ def test_id_f013_id_f013_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_f012_id_f012_v():
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5929,7 +5920,6 @@ def test_mg_m014_mg_m014_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_m013_mg_m013_v():
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has a
@@ -7529,7 +7519,6 @@ def test_mg_f017_mg_f017_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f016_mg_f016_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice
@@ -7544,7 +7533,6 @@ def test_mg_f016_mg_f016_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f015_mg_f015_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 elements, 4
@@ -7620,7 +7608,6 @@ def test_mg_f011_mg_f011_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f010_mg_f010_v():
     """
     TEST :model groups (ALL) : sequence: with children element, any,
@@ -8185,7 +8172,6 @@ def test_mg_a017_mg_a017_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_a015_mg_a015_v():
     """
     TEST :model groups (ALL) : all: with parent restriction
@@ -8260,7 +8246,6 @@ def test_notat_h002v_notat_h002v_i():
     )
 
 
-@pytest.mark.xfail
 def test_notat_h001v_notat_h001v_v():
     """
     TEST :Notations : Instance document declares a notation type
@@ -8508,6 +8493,7 @@ def test_particles_z015_particles_z015_i():
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_particles_z012_particles_z012_v():
     """
@@ -8521,7 +8507,7 @@ def test_particles_z012_particles_z012_v():
         instance="msData/particles/particlesZ012.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
     )
 
 
@@ -8573,7 +8559,6 @@ def test_particles_z005_particles_z005_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_z003_particles_z003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -8708,7 +8693,6 @@ def test_particles_w001_particles_w001_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_v015_particles_v015_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -8914,7 +8898,6 @@ def test_particles_v003_particles_v003_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_u007_particles_u007_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -8967,7 +8950,6 @@ def test_particles_u004_particles_u004_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_u003_particles_u003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9143,7 +9125,6 @@ def test_particles_q013_particles_q013_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_q011_particles_q011_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9562,7 +9543,6 @@ def test_particles_r015_particles_r015_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_r013_particles_r013_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9862,7 +9842,6 @@ def test_particles_p002_particles_p002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob060_particles_ob060_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9881,7 +9860,6 @@ def test_particles_ob060_particles_ob060_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob059_particles_ob059_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9900,7 +9878,6 @@ def test_particles_ob059_particles_ob059_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob057_particles_ob057_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9954,7 +9931,6 @@ def test_particles_ob055_particles_ob055_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob054_particles_ob054_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9990,7 +9966,6 @@ def test_particles_ob053_particles_ob053_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob052_particles_ob052_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10009,7 +9984,6 @@ def test_particles_ob052_particles_ob052_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob048_particles_ob048_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10028,7 +10002,6 @@ def test_particles_ob048_particles_ob048_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob047_particles_ob047_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10047,7 +10020,6 @@ def test_particles_ob047_particles_ob047_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob042_particles_ob042_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10083,7 +10055,6 @@ def test_particles_ob032_particles_ob032_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob022_particles_ob022_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10102,7 +10073,6 @@ def test_particles_ob022_particles_ob022_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob015_particles_ob015_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10121,7 +10091,6 @@ def test_particles_ob015_particles_ob015_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob012_particles_ob012_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10140,7 +10109,6 @@ def test_particles_ob012_particles_ob012_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob007_particles_ob007_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10159,7 +10127,6 @@ def test_particles_ob007_particles_ob007_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob006_particles_ob006_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10195,7 +10162,6 @@ def test_particles_ob005_particles_ob005_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_ob003_particles_ob003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -10316,7 +10282,6 @@ def test_particles_oa003_particles_oa003_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_oa001_particles_oa001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -12788,6 +12753,7 @@ def test_particles_if002_particles_if002_v():
     )
 
 
+@pytest.mark.xfail
 def test_particles_if001_particles_if001_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15674,7 +15640,6 @@ def test_particles_db002_particles_db002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_db001_particles_db001_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15757,7 +15722,6 @@ def test_particles_da002_particles_da002_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_da001_particles_da001_i():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

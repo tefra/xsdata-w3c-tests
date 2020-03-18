@@ -10667,7 +10667,6 @@ def test_atomic_duration_min_exclusive_nistxml_sv_iv_atomic_duration_min_exclusi
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_1():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -10863,7 +10862,6 @@ def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_13():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_14():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -10879,7 +10877,6 @@ def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_14():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_white_space_nistxml_sv_iv_atomic_float_white_space_1_15():
     """
     Type atomic/float is restricted by facet whiteSpace with value
@@ -11245,7 +11242,6 @@ def test_atomic_float_enumeration_nistxml_sv_iv_atomic_float_enumeration_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_1():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11261,7 +11257,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_2():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11277,7 +11272,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_3():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11293,7 +11287,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_4():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11309,7 +11302,6 @@ def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_4_nistxml_sv_iv_atomic_float_pattern_5_5():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11565,7 +11557,6 @@ def test_atomic_float_pattern_1_nistxml_sv_iv_atomic_float_pattern_2_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_1():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11581,7 +11572,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_2():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11597,7 +11587,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_3():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11613,7 +11602,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_4():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11629,7 +11617,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_5():
     r"""
     Type atomic/float is restricted by facet pattern with value
@@ -11645,7 +11632,6 @@ def test_atomic_float_pattern_nistxml_sv_iv_atomic_float_pattern_1_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_1():
     """
     Type atomic/double is restricted by facet whiteSpace with value
@@ -11841,7 +11827,6 @@ def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_13(
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_14():
     """
     Type atomic/double is restricted by facet whiteSpace with value
@@ -11857,7 +11842,6 @@ def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_14(
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_white_space_nistxml_sv_iv_atomic_double_white_space_1_15():
     """
     Type atomic/double is restricted by facet whiteSpace with value
@@ -12383,7 +12367,6 @@ def test_atomic_double_pattern_3_nistxml_sv_iv_atomic_double_pattern_4_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_1():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12399,7 +12382,6 @@ def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_2():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12447,7 +12429,6 @@ def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_5():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12463,7 +12444,6 @@ def test_atomic_double_pattern_2_nistxml_sv_iv_atomic_double_pattern_3_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_1():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12479,7 +12459,6 @@ def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_2():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12495,7 +12474,6 @@ def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_3():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12511,7 +12489,6 @@ def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_4():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12527,7 +12504,6 @@ def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_5():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12543,7 +12519,6 @@ def test_atomic_double_pattern_1_nistxml_sv_iv_atomic_double_pattern_2_5():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_1():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12559,7 +12534,6 @@ def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_1():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_2():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12575,7 +12549,6 @@ def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_2():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_3():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12591,7 +12564,6 @@ def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_3():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_4():
     r"""
     Type atomic/double is restricted by facet pattern with value
@@ -12607,7 +12579,6 @@ def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_4():
     )
 
 
-@pytest.mark.xfail
 def test_atomic_double_pattern_nistxml_sv_iv_atomic_double_pattern_1_5():
     r"""
     Type atomic/double is restricted by facet pattern with value

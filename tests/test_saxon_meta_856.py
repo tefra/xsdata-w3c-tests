@@ -5859,7 +5859,6 @@ def test_open042_open042_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open041_open041_v1_xml():
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -5892,7 +5891,6 @@ def test_open041_open041_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open040_open040_v1_xml():
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -6079,7 +6077,6 @@ def test_open028_open028_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open028_open028_v2_xml():
     """
     A valid extension Derived type has suffix open content, base type does
@@ -6161,7 +6158,6 @@ def test_open027_open027_v2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open027_open027_v3_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -6226,7 +6222,6 @@ def test_open025_open025_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open024_open024_v1_xml():
     """
     A valid restriction Open content in base type has weaker
@@ -6243,7 +6238,6 @@ def test_open024_open024_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open023_open023_v1_xml():
     """
     A valid restriction Open content in base type allows more namespaces
@@ -6343,7 +6337,6 @@ def test_open016_open016_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open015_open015_v1_xml():
     """
     A valid restriction Base type has open content, restricted type has
@@ -6491,7 +6484,6 @@ def test_open012_open012_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open011_open011_v1_xml():
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6624,7 +6616,6 @@ def test_open010_open010_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open009_open009_v1_xml():
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6849,7 +6840,6 @@ def test_open007_open007_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open006_open006_v1_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6867,7 +6857,6 @@ def test_open006_open006_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open006_open006_v2_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6885,7 +6874,6 @@ def test_open006_open006_v2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open006_open006_v3_xml():
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -7115,7 +7103,6 @@ def test_open004_open004_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open003_open003_v1_xml():
     """
     Explicit open content takes precedence over default open content
@@ -7150,7 +7137,6 @@ def test_open003_open003_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open002_open002_v1_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -7167,7 +7153,6 @@ def test_open002_open002_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open002_open002_v2_xml():
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -7264,7 +7249,6 @@ def test_open002_open002_n4_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open001_open001_v1_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7281,7 +7265,6 @@ def test_open001_open001_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open001_open001_v2_xml():
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -9657,7 +9640,6 @@ def test_wild075_wild075_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild074_wild074_v1_xml():
     """
     Test of openContent wildcards and substitution groups in xs:sequence

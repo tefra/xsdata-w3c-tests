@@ -4099,7 +4099,6 @@ def test_s3_4_1v06_s3_4_1v06i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v05_s3_4_1v05i():
     """
     Tests openContent in complexType derived by restriction
@@ -4115,7 +4114,6 @@ def test_s3_4_1v05_s3_4_1v05i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v04_s3_4_1v04i():
     """
     Tests defaultOpenContent in suffix mode
@@ -4146,7 +4144,6 @@ def test_s3_4_1v03_s3_4_1v03i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v02_s3_4_1v02i():
     """
     Tests defaultOpenContent for CT not empty
@@ -4162,7 +4159,6 @@ def test_s3_4_1v02_s3_4_1v02i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v01_s3_4_1v01i():
     """
     Tests defaultOpenContent: appliesToEmpty="true"

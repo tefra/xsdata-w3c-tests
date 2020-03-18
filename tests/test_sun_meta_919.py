@@ -326,7 +326,6 @@ def test_xsd011_xsd011_n04():
     )
 
 
-@pytest.mark.xfail
 def test_xsd011_xsd011_v00():
     """
     xsd011 Nillable.

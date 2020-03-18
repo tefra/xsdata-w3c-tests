@@ -549,7 +549,6 @@ def test_all004_all004_v01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all004_all004_v02_xml():
     """
     All model group with nillable="true" Test cases involving
@@ -2080,7 +2079,6 @@ def test_complex014_complex014_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex014_complex014_v2_xml():
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2144,7 +2142,6 @@ def test_complex013_complex013_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex013_complex013_v2_xml():
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2340,7 +2337,6 @@ def test_complex011_complex011_v1_xml():
     )
 
 
-@pytest.mark.xfail
 def test_complex011_complex011_v2_xml():
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2558,7 +2554,6 @@ def test_complex008_complex008_n4_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex007_complex007_v1_xml():
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
@@ -2639,7 +2634,6 @@ def test_complex007_complex007_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex006_complex006_v1_xml():
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored

@@ -12025,7 +12025,6 @@ def test_elem_z029_elem_z029_v():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700g2_qfe1700g2_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

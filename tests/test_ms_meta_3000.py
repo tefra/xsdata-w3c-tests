@@ -5357,7 +5357,6 @@ def test_mg_q003_mg_q003_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_q002_mg_q002_v():
     """
     TEST :model groups (ALL) : 2 particles with idendical element
@@ -7474,7 +7473,6 @@ def test_mg_g003_mg_g003_i():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f019_mg_f019_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 any, 4 elements
@@ -7489,7 +7487,6 @@ def test_mg_f019_mg_f019_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_f018_mg_f018_v():
     """
     TEST :model groups (ALL) : sequence: with children 4 sequence, 4 any

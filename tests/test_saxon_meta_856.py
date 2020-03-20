@@ -2884,7 +2884,6 @@ def test_cta0044_cta0044_n01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0042_cta0042_v01():
     """
     Element Declarations Consistent Two particles in a content model have
@@ -10992,7 +10991,6 @@ def test_wild030_wild030_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild029_wild029_v1_xml():
     """
     Test of xs:any with notQName attribute in an xs:sequence model group

@@ -6394,7 +6394,6 @@ def test_open014_open014_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open013_open013_v1_xml():
     """
     Schema defines default open content not applying to an empty content
@@ -9492,7 +9491,6 @@ def test_wild083_wild047_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild082_wild082_v1_xml():
     """
     Consistency of governing type declarations between locally-declared

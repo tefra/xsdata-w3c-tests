@@ -934,7 +934,6 @@ def test_xsd003b_xsd003b_n01():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -951,7 +950,6 @@ def test_xsd003b_xsd003b_v00():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v01():
     """
     xsd003b Element redefinition. Test with redefinition with self-

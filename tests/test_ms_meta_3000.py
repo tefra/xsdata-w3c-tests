@@ -5586,7 +5586,6 @@ def test_mg_o008_mg_o008_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_o006_mg_o006_v():
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',

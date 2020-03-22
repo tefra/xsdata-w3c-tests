@@ -7403,7 +7403,6 @@ def test_qname_length001_1357_qname_length001_1357_i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_any_uri_b006_1356_any_uri_b006_1356_i():
     r"""
     TEST :Facet Schemas for string : test with //, \\, \, /, and many
@@ -12026,7 +12025,6 @@ def test_elem_z029_elem_z029_v():
     )
 
 
-@pytest.mark.xfail
 def test_qfe1700g2_qfe1700g2_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

@@ -45,7 +45,7 @@ class Appinfo:
     """
     :ivar any_element:
     :ivar source:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "appinfo"
@@ -68,11 +68,11 @@ class Appinfo:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -83,7 +83,7 @@ class Documentation:
     :ivar any_element:
     :ivar source:
     :ivar lang:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "documentation"
@@ -114,11 +114,11 @@ class Documentation:
             namespace="http://www.w3.org/XML/1998/namespace"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -567,7 +567,7 @@ class Annotation:
       </ns0:div>
     :ivar appinfo:
     :ivar documentation:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "annotation"
@@ -591,11 +591,11 @@ class Annotation:
             max_occurs=9223372036854775807
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -660,7 +660,7 @@ class Expected:
       </ns0:div>
     :ivar validity:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "expected"
@@ -681,11 +681,11 @@ class Expected:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -696,7 +696,7 @@ class Ref:
     :ivar annotation:
     :ivar type:
     :ivar href:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "ref"
@@ -727,11 +727,11 @@ class Ref:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -743,7 +743,7 @@ class StatusEntry:
     :ivar status:
     :ivar date:
     :ivar bugzilla:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "statusEntry"
@@ -782,11 +782,11 @@ class StatusEntry:
             pattern=r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -839,7 +839,7 @@ class TestResult:
     :ivar group:
     :ivar test:
     :ivar normalized_load:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "testResult"
@@ -893,11 +893,11 @@ class TestResult:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1036,7 +1036,7 @@ class TestSuiteResults:
     :ivar processor:
     :ivar submit_date:
     :ivar publication_permission:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "testSuiteResults"
@@ -1091,11 +1091,11 @@ class TestSuiteResults:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1192,7 +1192,7 @@ class InstanceTest:
     :ivar prior:
     :ivar name:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "instanceTest"
@@ -1255,11 +1255,11 @@ class InstanceTest:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1347,7 +1347,7 @@ class SchemaTest:
     :ivar prior:
     :ivar name:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "schemaTest"
@@ -1411,11 +1411,11 @@ class SchemaTest:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1482,7 +1482,7 @@ class TestSuite:
     :ivar release_date:
     :ivar schema_version:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "testSuite"
@@ -1537,11 +1537,11 @@ class TestSuite:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1635,7 +1635,7 @@ class TestGroup:
     :ivar instance_test:
     :ivar name:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "testGroup"
@@ -1690,11 +1690,11 @@ class TestGroup:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )
 
@@ -1758,7 +1758,7 @@ class TestSet:
     :ivar contributor:
     :ivar name:
     :ivar version:
-    :ivar attributes:
+    :ivar other_attributes:
     """
     class Meta:
         name = "testSet"
@@ -1805,10 +1805,10 @@ class TestSet:
             type="Attribute"
         )
     )
-    attributes: Dict[QName, str] = field(
+    other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            name="attributes",
-            type="AnyAttribute"
+            type="AnyAttribute",
+            namespace="##other"
         )
     )

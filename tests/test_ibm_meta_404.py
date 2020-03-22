@@ -4066,7 +4066,6 @@ def test_s3_4_1v08_s3_4_1v08i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v07_s3_4_1v07i():
     """
     Tests derivation by extension with openContent mode suffix in both
@@ -4083,7 +4082,6 @@ def test_s3_4_1v07_s3_4_1v07i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_4_1v06_s3_4_1v06i():
     """
     Tests openContent in complexType derived by extension
@@ -5683,7 +5681,6 @@ def test_s3_10_1v05_s3_10_1v05i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_10_1v04_s3_10_1v04i():
     """
     Tests weakened wildcard (tests whether error occurs on violation of

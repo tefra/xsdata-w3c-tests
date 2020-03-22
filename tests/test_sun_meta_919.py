@@ -326,7 +326,6 @@ def test_xsd011_xsd011_n04():
     )
 
 
-@pytest.mark.xfail
 def test_xsd011_xsd011_v00():
     """
     xsd011 Nillable.
@@ -903,7 +902,6 @@ def test_xsd004_xsd004_v00():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_n00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -920,7 +918,6 @@ def test_xsd003b_xsd003b_n00():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_n01():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -937,7 +934,6 @@ def test_xsd003b_xsd003b_n01():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v00():
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -954,7 +950,6 @@ def test_xsd003b_xsd003b_v00():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v01():
     """
     xsd003b Element redefinition. Test with redefinition with self-

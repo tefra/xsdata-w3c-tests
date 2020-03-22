@@ -45,10 +45,9 @@ def assert_bindings(
     if not class_name:
         pytest.skip("No class name for data binding")
 
-    clazz = load_class(result.output, class_name)
-    parser = XmlParser()
-
     try:
+        clazz = load_class(result.output, class_name)
+        parser = XmlParser()
         obj = parser.from_path(w3c.joinpath(instance), clazz)
     except Exception as e:
         if instance_is_valid:

@@ -622,7 +622,6 @@ def test_assert_019_assert_019_2():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert_018_assert_018_2():
     """
     This is similar to test 'assert_017', but element a's schema type in
@@ -5682,7 +5681,6 @@ def test_s3_10_1v05_s3_10_1v05i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_10_1v04_s3_10_1v04i():
     """
     Tests weakened wildcard (tests whether error occurs on violation of

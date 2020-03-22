@@ -5058,7 +5058,6 @@ def test_id007_id007_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id006_id006_v01_xml():
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
@@ -5159,7 +5158,6 @@ def test_id005_id005_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id004_id004_v01_xml():
     """
     Element with list-of-ID attributes and list-of-ID children Element

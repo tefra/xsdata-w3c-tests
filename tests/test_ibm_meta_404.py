@@ -944,7 +944,6 @@ def test_assert_001_assert_001_2():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii32_d4_3_15ii32i():
     """
     "//" returns empty sequence
@@ -960,7 +959,6 @@ def test_d4_3_15ii32_d4_3_15ii32i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii31_d4_3_15ii31i():
     """
     "//" returns empty sequence
@@ -1151,7 +1149,6 @@ def test_d4_3_15ii18_d4_3_15ii18i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii17_d4_3_15ii17i():
     """
     inability to navigate outside the subtree, assertion on elements with
@@ -1168,7 +1165,6 @@ def test_d4_3_15ii17_d4_3_15ii17i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii15_d4_3_15ii15i():
     """
     inability to navigate outside the subtree, assertion on attributes
@@ -1184,7 +1180,6 @@ def test_d4_3_15ii15_d4_3_15ii15i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii14_d4_3_15ii14i():
     """
     inability to navigate outside the subtree, assertion on elements
@@ -1215,7 +1210,6 @@ def test_d4_3_15ii13_d4_3_15ii13i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15ii12_d4_3_15ii12i():
     """
     inability to navigate outside the subtree, assertion on elements with
@@ -1514,7 +1508,6 @@ def test_d4_3_15v18_d4_3_15v18i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15v15_d4_3_15v15i():
     """
     inability to navigate outside the subtree, assertion on attributes
@@ -1530,7 +1523,6 @@ def test_d4_3_15v15_d4_3_15v15i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_d4_3_15v14_d4_3_15v14i():
     """
     inability to navigate outside the subtree, assertion on elements

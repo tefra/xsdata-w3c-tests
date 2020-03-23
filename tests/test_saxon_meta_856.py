@@ -5058,7 +5058,6 @@ def test_id007_id007_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id006_id006_v01_xml():
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
@@ -5159,7 +5158,6 @@ def test_id005_id005_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id004_id004_v01_xml():
     """
     Element with list-of-ID attributes and list-of-ID children Element
@@ -9508,7 +9506,6 @@ def test_wild082_wild082_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild080_wild080_v1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9543,7 +9540,6 @@ def test_wild077_wild077_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild077_wild077_n1_xml():
     """
     Consistency of governing type declarations between locally-declared
@@ -9902,7 +9898,6 @@ def test_wild067_wild067_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild066_wild066_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Substitutability
@@ -10000,7 +9995,6 @@ def test_wild064_wild064_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild063_wild063_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -10017,7 +10011,6 @@ def test_wild063_wild063_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild063_wild063_v2_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -10557,7 +10550,6 @@ def test_wild052_wild052_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild052_wild052_v2_xml():
     """
     Element Wildcard with notQName=##defined Basic test of ##defined

@@ -3,7 +3,6 @@ import pytest
 from tests.utils import assert_bindings
 
 
-@pytest.mark.xfail
 def test_xsd024_xsd024_v00():
     """
     xsd024 Use of the chameleon schema and "smart reference reparing"
@@ -966,7 +965,6 @@ def test_xsd003b_xsd003b_v01():
     )
 
 
-@pytest.mark.xfail
 def test_xsd003a_xsd003a_v00():
     """
     xsd003a Element redefinition. Test without redefinition.

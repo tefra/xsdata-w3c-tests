@@ -33,7 +33,6 @@ def test_member_type023_member_type023_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type022_member_type022_v():
     """
     TEST :Adhoc XSD: : Element of union of user defined
@@ -64,7 +63,6 @@ def test_member_type021_member_type021_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type008_member_type008_v():
     """
     TEST :Adhoc XSD: : Element with default value and xsi:type: membertype
@@ -125,7 +123,6 @@ def test_member_type005_member_type005_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type004_member_type004_v():
     """
     TEST :Adhoc XSD: : Element with default value: membertype of
@@ -183,7 +180,6 @@ def test_member_type001_member_type001_v():
     )
 
 
-@pytest.mark.xfail
 def test_is_default079_is_default079_v():
     """
     TEST :Adhoc XSD: : multiple 'fixed' constraints
@@ -1950,7 +1946,6 @@ def test_add_b136_add_b136_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b135_add_b135_v():
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
@@ -2041,7 +2036,6 @@ def test_add_b129_add_b129_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b125_add_b125_v():
     """
     TEST :Adhoc XSD: : id="78898" description="xsd: wildcard: content type
@@ -2087,7 +2081,6 @@ def test_add_b123_add_b123_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b122_add_b122_v():
     """
     TEST :Adhoc XSD: : id="78910" description="xsd: wildcard: content type

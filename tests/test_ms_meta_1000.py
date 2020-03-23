@@ -33,7 +33,6 @@ def test_member_type023_member_type023_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type022_member_type022_v():
     """
     TEST :Adhoc XSD: : Element of union of user defined
@@ -64,7 +63,6 @@ def test_member_type021_member_type021_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type008_member_type008_v():
     """
     TEST :Adhoc XSD: : Element with default value and xsi:type: membertype
@@ -125,7 +123,6 @@ def test_member_type005_member_type005_v():
     )
 
 
-@pytest.mark.xfail
 def test_member_type004_member_type004_v():
     """
     TEST :Adhoc XSD: : Element with default value: membertype of

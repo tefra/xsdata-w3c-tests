@@ -1360,7 +1360,6 @@ def test_assert009_assert009_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert008a_assert008a_v1_xml():
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1425,7 +1424,6 @@ def test_assert008a_assert008a_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert008_assert008_v1_xml():
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1490,7 +1488,6 @@ def test_assert008_assert008_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert007_assert007_v1_xml():
     """
     Inheritance of constraints in a type derived by extension Tests

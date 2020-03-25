@@ -9300,7 +9300,6 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_idconstrdefs00201m_id_constr_defs00201m1_p():
     """
     all kinds of identity constraint are not violated (valid schema)

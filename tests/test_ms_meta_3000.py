@@ -8876,7 +8876,6 @@ def test_particles_v004_particles_v004_v():
     )
 
 
-@pytest.mark.xfail
 def test_particles_v003_particles_v003_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

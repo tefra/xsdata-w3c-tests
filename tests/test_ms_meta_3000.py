@@ -837,7 +837,6 @@ def test_group_h019v_group_h019v_i():
     )
 
 
-@pytest.mark.xfail
 def test_group_h018v_group_h018v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -853,7 +852,6 @@ def test_group_h018v_group_h018v_v():
     )
 
 
-@pytest.mark.xfail
 def test_group_h017v_group_h017v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -899,7 +897,6 @@ def test_group_h015v_group_h015v_i():
     )
 
 
-@pytest.mark.xfail
 def test_group_h014v_group_h014v_v():
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -5341,7 +5338,6 @@ def test_mg_q006_mg_q006_v():
     )
 
 
-@pytest.mark.xfail
 def test_mg_q003_mg_q003_v():
     """
     TEST :model groups (ALL) : 2 particles with idendical element
@@ -14352,7 +14348,6 @@ def test_particles_eb039_particles_eb039_i():
     )
 
 
-@pytest.mark.xfail
 def test_particles_eb038_particles_eb038_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14387,7 +14382,6 @@ def test_particles_eb037_particles_eb037_i():
     )
 
 
-@pytest.mark.xfail
 def test_particles_eb036_particles_eb036_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14537,7 +14531,6 @@ def test_particles_eb028_particles_eb028_i():
     )
 
 
-@pytest.mark.xfail
 def test_particles_eb027_particles_eb027_v():
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

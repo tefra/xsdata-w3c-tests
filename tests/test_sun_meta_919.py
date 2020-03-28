@@ -6534,7 +6534,6 @@ def test_valueconstraint00301m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_valueconstraint00201m_value_constraint00201m1_p():
     """
     Validation of the fixed value attribute. (valid schema) Define an

@@ -10639,7 +10639,6 @@ def test_wild_o001_wild_o001_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i012_wild_i012_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with
@@ -10655,7 +10654,6 @@ def test_wild_i012_wild_i012_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i011_wild_i011_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with

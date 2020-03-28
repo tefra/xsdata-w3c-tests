@@ -356,7 +356,6 @@ def test_all007_all007_n03_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all006_all006_v01_xml():
     """
     All model group, test on children Test that each child of an all group
@@ -4937,7 +4936,6 @@ def test_id010_id010_n02_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id009_id009_v01_xml():
     """
     Nillable ID/IDREF elements Nillable ID/IDREF elements

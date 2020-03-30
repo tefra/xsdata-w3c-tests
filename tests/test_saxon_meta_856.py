@@ -647,7 +647,6 @@ def test_all003_all003_v03_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_all002_all002_v01_xml():
     """
     All model group with substitution groups All model group with extended
@@ -2896,7 +2895,6 @@ def test_cta0042_cta0042_v01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0041_cta0041_v01():
     """
     Type alternative - substitutability Invalid substitution in a
@@ -2931,7 +2929,6 @@ def test_cta0041_cta0041_n01():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0040_cta0040_v01():
     """
     Type alternative - substitutability Valid substitution in a
@@ -8581,7 +8578,6 @@ def test_simple016_simple016_n01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple013_simple013_v01_xml():
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
@@ -8627,7 +8623,6 @@ def test_simple013_simple013_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple012_simple012_v01_xml():
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -8644,7 +8639,6 @@ def test_simple012_simple012_v01_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple012_simple012_v02_xml():
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -8693,7 +8687,6 @@ def test_simple012_simple012_n02_xml():
     )
 
 
-@pytest.mark.xfail
 def test_simple010_simple010_v01_xml():
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
@@ -8864,7 +8857,6 @@ def test_subsgroup003_subsgroup003_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_subsgroup002_subsgroup002_v1_xml():
     """
     Tests to show an element declaration can be in multiple substitution
@@ -8899,7 +8891,6 @@ def test_subsgroup002_subsgroup002_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_subsgroup001_subsgroup001_v1_xml():
     """
     Tests to show an element declaration can be in multiple substitution
@@ -9262,7 +9253,6 @@ def test_vc008_vc008_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc007_vc007_v1_xml():
     """
     Include a schema document made empty by version control attributes
@@ -9279,7 +9269,6 @@ def test_vc007_vc007_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc007_vc007_n1_xml():
     """
     Include a schema document made empty by version control attributes
@@ -9296,7 +9285,6 @@ def test_vc007_vc007_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc006_vc006_n1_xml():
     """
     Use of version conditionals to make a schema document empty Use of
@@ -9313,7 +9301,6 @@ def test_vc006_vc006_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc005_vc005_v1_xml():
     """
     Use of version conditionals to ignore an (otherwise invalid)
@@ -9331,7 +9318,6 @@ def test_vc005_vc005_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc004_vc004_v1_xml():
     """
     Use of version conditionals in an included schema document Use of
@@ -9348,7 +9334,6 @@ def test_vc004_vc004_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc003_vc003_v1_xml():
     """
     Test a hypothetical 5.0 feature ignored under XSD 1.1 Test a
@@ -9764,7 +9749,6 @@ def test_wild072_wild072_n2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild071_wild071_v1_xml():
     """
     Basic test of notQName=##definedSibling with substitution groups
@@ -9909,6 +9893,7 @@ def test_wild066_wild066_v1_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_wild065_wild065_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9941,6 +9926,7 @@ def test_wild065_wild065_n1_xml():
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_wild064_wild064_v1_xml():
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,

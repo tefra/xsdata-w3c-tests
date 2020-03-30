@@ -381,7 +381,6 @@ def test_xsd008_xsd008_n02():
     )
 
 
-@pytest.mark.xfail
 def test_xsd008_xsd008_v00():
     """
     xsd008 Abstract element and element substitution group.
@@ -2078,7 +2077,6 @@ def test_test007_test_8_n():
     )
 
 
-@pytest.mark.xfail
 def test_test006_test_1_v():
     """
     test
@@ -2233,7 +2231,6 @@ def test_test006_test_19_n():
     )
 
 
-@pytest.mark.xfail
 def test_test006_test_2_v():
     """
     test
@@ -7164,7 +7161,6 @@ def test_typedef00301m_type_def00301m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_typedef00205m_type_def00205m1_p():
     """
     default type is used to define {type definition} property. (valid
@@ -7987,7 +7983,6 @@ def test_substgrpexcl00301m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_substgrpexcl00202m1_positive():
     """
     Rule out extension substitutions (positive case). (valid schema)
@@ -8009,7 +8004,6 @@ def test_substgrpexcl00202m1_positive():
     )
 
 
-@pytest.mark.xfail
 def test_substgrpaffil00201m_subst_grp_affil00201m1_p():
     """
     Substitution group memebership is transitive but not symmetric. (valid
@@ -8050,7 +8044,6 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_substgrpaffil00101m_subst_grp_affil00101m1_p():
     """
     General check of the {substitution group affiliation} property. (valid
@@ -9449,7 +9442,6 @@ def test_disallowedsubst00503m3_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00503m2_positive():
     """
     derived by restriction: prohibiting substitutions contains 'extension'
@@ -9468,7 +9460,6 @@ def test_disallowedsubst00503m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00503m1_positive():
     """
     derived by restriction: prohibiting substitutions is empty (valid
@@ -9524,7 +9515,6 @@ def test_disallowedsubst00502m3_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00502m2_positive():
     """
     complex type substitution: restriction is blocked (valid schema) Two
@@ -9543,7 +9533,6 @@ def test_disallowedsubst00502m2_positive():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00502m1_positive():
     """
     complex type substitution: no blocking constraints (valid schema) Two
@@ -9580,7 +9569,6 @@ def test_disallowedsubst00501m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00501m1_positive():
     """
     no blocking constraints (valid schema) Two elements are declared. The
@@ -9618,7 +9606,6 @@ def test_disallowedsubst00401m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00401m1_positive():
     """
     substitution is allowed (valid schema) The blocking constraint must
@@ -9657,7 +9644,6 @@ def test_disallowedsubst00301m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00301m1_positive():
     """
     substitution is allowed (valid schema) The blocking constraint must
@@ -9712,7 +9698,6 @@ def test_disallowedsubst00106m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00106m1_positive():
     """
     Blocking any extension (positive case) (valid schema) Define an
@@ -9788,7 +9773,6 @@ def test_disallowedsubst00102m2_negative():
     )
 
 
-@pytest.mark.xfail
 def test_disallowedsubst00102m1_positive():
     """
     Blocking any substitution (positive case) (valid schema) Define an
@@ -9927,7 +9911,6 @@ def test_abstract00201m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_abstract00101m_abstract00101m1_p():
     """
     Abstract declarations may not be used to validate element content.

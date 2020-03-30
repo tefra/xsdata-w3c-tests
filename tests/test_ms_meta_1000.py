@@ -2820,7 +2820,6 @@ def test_add_a006_add_a006_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_a005_add_a005_v():
     """
     TEST :Adhoc XSD: : substitution group usage in the same XSD file with
@@ -5639,7 +5638,6 @@ def test_ct_z003_ct_z003_v():
     )
 
 
-@pytest.mark.xfail
 def test_ct_z001_ct_z001_v():
     """
     TEST :Syntax Checking for top level complexType Declaration :

@@ -4410,7 +4410,6 @@ def test_d4_3_6v01_d4_3_6v01i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s2_2_2v03_s2_2_2v03i():
     """
     Tests for 1 substitution group head
@@ -4426,7 +4425,6 @@ def test_s2_2_2v03_s2_2_2v03i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s2_2_2v02_s2_2_2v02i():
     """
     Tests multiple substitution group heads
@@ -4442,7 +4440,6 @@ def test_s2_2_2v02_s2_2_2v02i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s2_2_2v01_s2_2_2v01i():
     """
     Tests abstract substitution group

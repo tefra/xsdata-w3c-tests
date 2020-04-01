@@ -12378,7 +12378,6 @@ def test_elem_z021e_elem_z021e_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z021d_elem_z021d_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12443,7 +12442,6 @@ def test_elem_z021a_elem_z021a_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z020_elem_z020_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12506,7 +12504,6 @@ def test_elem_z017_elem_z017_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z016_elem_z016_i():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -12596,7 +12593,6 @@ def test_elem_z009_elem_z009_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_z003_elem_z003_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13117,7 +13113,6 @@ def test_elem_t068_elem_t068_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t067_elem_t067_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13134,7 +13129,6 @@ def test_elem_t067_elem_t067_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t066_elem_t066_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13168,7 +13162,6 @@ def test_elem_t065_elem_t065_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t064_elem_t064_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -13202,7 +13195,6 @@ def test_elem_t063_elem_t063_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_t062_elem_t062_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14189,7 +14181,6 @@ def test_elem_t001_elem_t001_i():
     )
 
 
-@pytest.mark.xfail
 def test_elem_s008_elem_s008_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14206,7 +14197,6 @@ def test_elem_s008_elem_s008_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_s007_elem_s007_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14223,7 +14213,6 @@ def test_elem_s007_elem_s007_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_s003_elem_s003_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema
@@ -14240,7 +14229,6 @@ def test_elem_s003_elem_s003_v():
     )
 
 
-@pytest.mark.xfail
 def test_elem_s002_elem_s002_v():
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

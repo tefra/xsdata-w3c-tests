@@ -8308,7 +8308,6 @@ def test_st_z051_st_z051_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_z050_st_z050_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -8325,7 +8324,6 @@ def test_st_z050_st_z050_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_z047_st_z047_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -8342,7 +8340,6 @@ def test_st_z047_st_z047_v():
     )
 
 
-@pytest.mark.xfail
 def test_st_z046_st_z046_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -8392,7 +8389,6 @@ def test_st_z044_st_z044_i():
     )
 
 
-@pytest.mark.xfail
 def test_st_z043_st_z043_v():
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -10639,7 +10635,6 @@ def test_wild_o001_wild_o001_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i012_wild_i012_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with
@@ -10655,7 +10650,6 @@ def test_wild_i012_wild_i012_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_i011_wild_i011_v():
     """
     TEST :Syntax Validation - any : multiple any in sequence with

@@ -2704,7 +2704,6 @@ def test_complex006_complex006_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex005_complex005_v2_xml():
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored,
@@ -2769,7 +2768,6 @@ def test_complex005_complex005_n3_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex004_complex004_v1_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2800,7 +2798,6 @@ def test_complex004_complex004_n1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex004_complex004_v2_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2816,7 +2813,6 @@ def test_complex004_complex004_v2_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_complex003_complex003_v1_xml():
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -6124,7 +6120,6 @@ def test_open027_open027_v1_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_open027_open027_v2_xml():
     """
     A valid extension Base type has suffix open content, extended type
@@ -7477,7 +7472,6 @@ def test_over023_over023_n01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over023_over023_n02_xml():
     """
     A permissible circular xs:override A permissible circular xs:override
@@ -8209,7 +8203,6 @@ def test_over001_over001_n01_xml():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over001_over001_n02_xml():
     """
     xs:override overriding an element declaration xs:override overriding
@@ -12541,7 +12534,7 @@ def test_xv009_xv009_n01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv009.n01.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="Doc",
         version="1.0",
     )
 
@@ -12586,7 +12579,7 @@ def test_xv008_xv008_v01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv008.v01.xml",
         instance_is_valid=True,
-        class_name="",
+        class_name="Doc",
         version="1.0",
     )
 
@@ -12676,7 +12669,7 @@ def test_xv006_xv006_v01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv006.v01.xml",
         instance_is_valid=True,
-        class_name="",
+        class_name="Doc",
         version="1.0",
     )
 
@@ -12796,7 +12789,7 @@ def test_xv003_xv003_v01_xml():
         is_valid=True,
         instance="saxonData/XmlVersions/xv003.v01.xml",
         instance_is_valid=True,
-        class_name="",
+        class_name="Doc",
         version="1.0",
     )
 

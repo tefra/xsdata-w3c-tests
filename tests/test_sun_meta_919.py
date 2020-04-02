@@ -8457,7 +8457,6 @@ def test_name00601m_name00601m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00601m_name00601m1_n():
     """
     The declaration must not be absent (valid schema) Declare an element
@@ -15108,7 +15107,7 @@ def test_pscontents00302m2_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 
@@ -15200,7 +15199,7 @@ def test_pscontents00301m2_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 
@@ -15300,7 +15299,7 @@ def test_pscontents00201m1_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 

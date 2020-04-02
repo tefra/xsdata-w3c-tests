@@ -7515,7 +7515,7 @@ def test_any_uri_a002_1337_any_uri_a002_1337_v():
         is_valid=True,
         instance="msData/datatypes/Facets/anyURI/anyURI_a002.xml",
         instance_is_valid=True,
-        class_name="",
+        class_name="Bar",
         version="1.0",
     )
 

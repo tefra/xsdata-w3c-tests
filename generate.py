@@ -1,4 +1,3 @@
-import io
 import json
 import textwrap
 from collections import defaultdict
@@ -200,13 +199,13 @@ def make_test_cases(path: Path, group: TestGroup):
 
 def read_root_name(path: Path) -> str:
     try:
-        document = path.read_bytes()
-        tree = etree.parse(io.BytesIO(document))
+        recovering_parser = etree.XMLParser(recover=True)
+        tree = etree.parse(str(path), parser=recovering_parser)
         root = tree.getroot()
         return PythonAbstractGenerator.class_name(etree.QName(root.tag).localname)
     except etree.XMLSyntaxError:
         return ""
-    except FileNotFoundError:
+    except OSError:
         return ""
 
 

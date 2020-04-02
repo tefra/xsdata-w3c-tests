@@ -9861,14 +9861,13 @@ def test_wild_z004_wild_z004_v():
     )
 
 
-@pytest.mark.xfail
 def test_wild_z003_wild_z003_v():
     """
     TEST :Syntax Validation - any : xsd: test valid instance with elements
     from a different namespace where xsd defint 'any' with ##other
     """
     assert_bindings(
-        schema="msData/wildcards/wildZ003_b.xsd",
+        schema="msData/wildcards/wildZ003_a.xsd",
         is_valid=True,
         instance="msData/wildcards/wildZ003.xml",
         instance_is_valid=True,

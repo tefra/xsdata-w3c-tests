@@ -5582,7 +5582,7 @@ def test_ct_z007_ct_z007_v():
     types validated as base type when substitution group used
     """
     assert_bindings(
-        schema="msData/complexType/ctZ007_b.xsd",
+        schema="msData/complexType/ctZ007_a.xsd",
         is_valid=True,
         instance="msData/complexType/ctZ007.xml",
         instance_is_valid=True,

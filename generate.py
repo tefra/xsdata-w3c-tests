@@ -146,21 +146,28 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
     version = "1.0"
+    doc_index = 0
 
     if (
         group.schema_test
         and group.schema_test.schema_document
         and group.schema_test.schema_document[0].href
     ):
-        schema_href = (
-            path.joinpath(group.schema_test.schema_document[0].href)
-            .resolve()
-            .relative_to(w3c)
-        )
         schema_validity = validity(group.schema_test.expected)
         version = schema_validity.version or "1.0"
         if group.name == "particlesZ012":
             version = "1.1"
+
+        if group.name in ("wildZ003", "ctZ007"):
+            doc_index = 1
+
+        assert group.schema_test.schema_document[doc_index].href is not None
+
+        schema_href = (
+            path.joinpath(group.schema_test.schema_document[doc_index].href)
+            .resolve()
+            .relative_to(w3c)
+        )
 
         schema_is_valid = schema_validity.validity == ExpectedOutcome.VALID
 

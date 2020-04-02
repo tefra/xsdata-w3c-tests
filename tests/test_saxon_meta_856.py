@@ -3846,7 +3846,6 @@ def test_cta0002_cta0002_n01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0001_cta0001_v01():
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3862,7 +3861,6 @@ def test_cta0001_cta0001_v01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0001_cta0001_v02():
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3878,7 +3876,6 @@ def test_cta0001_cta0001_v02():
     )
 
 
-@pytest.mark.xfail
 def test_cta0001_cta0001_v03():
     """
     Conditional simple type: example based on spec Simple type of message

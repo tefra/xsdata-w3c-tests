@@ -4685,7 +4685,6 @@ def test_s3_12v09_s3_12v09i():
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_s3_12v08_s3_12v08i():
     """
     Basic type alternatives.             Selection of the alternative type

@@ -4125,7 +4125,6 @@ def test_id_h001_id_h001_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_g030_id_g030_v():
     """
     TEST :Identity-constraint Definition Schema Component : key category,

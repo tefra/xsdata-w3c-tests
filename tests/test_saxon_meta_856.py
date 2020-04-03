@@ -3675,7 +3675,6 @@ def test_cta0007_cta0007_n01():
     )
 
 
-@pytest.mark.xfail
 def test_cta0006_cta0006_v01():
     """
     Conditional simple type: selecting a branch of a union Simple type of

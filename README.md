@@ -7,7 +7,7 @@ suite.
 
 # Report
 
-146 failed, 25989 passed, 189 skipped, 14 warnings
+141 failed, 25989 passed, 194 skipped, 14 warnings
 
 # Methodology
 

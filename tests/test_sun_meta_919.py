@@ -4981,7 +4981,6 @@ def test_au_attrdecl00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p():
     """
     Simple types are identified by their {name} and {target namespace}.
@@ -11484,7 +11483,6 @@ def test_st_variety00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00201m_st_target_ns00201m1_p():
     """
     reference to type (valid schema) Simple type {name}s and {target
@@ -11500,7 +11498,6 @@ def test_st_targetns00201m_st_target_ns00201m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11533,7 +11530,6 @@ def test_st_targetns00101m_st_target_ns00101m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11566,7 +11562,6 @@ def test_st_targetns00101m_st_target_ns00101m2_n():
     )
 
 
-@pytest.mark.xfail
 def test_st_name00401m_st_name00401m1_p():
     """
     Simple type {name}s is provided for reference (valid schema) Simple

@@ -302,7 +302,6 @@ class ResourceType:
     """
     class Meta:
         name = "resourceType"
-        mixed = True
 
     any_element: List[object] = field(
         default_factory=list,
@@ -366,7 +365,6 @@ class Simple:
     """
     class Meta:
         name = "simple"
-        mixed = True
 
     any_element: List[object] = field(
         default_factory=list,
@@ -449,7 +447,6 @@ class TitleEltType:
     """
     class Meta:
         name = "titleEltType"
-        mixed = True
 
     any_element: List[object] = field(
         default_factory=list,

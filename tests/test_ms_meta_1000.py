@@ -282,6 +282,7 @@ def test_is_default073_is_default073_v():
     )
 
 
+@pytest.mark.xfail
 def test_is_default072_is_default072_v():
     """
     TEST :Adhoc XSD: : While adding default attributes with

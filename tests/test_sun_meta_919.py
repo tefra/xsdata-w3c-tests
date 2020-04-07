@@ -1042,7 +1042,6 @@ def test_xsd002_xsd002_v00():
     )
 
 
-@pytest.mark.xfail
 def test_xsd002_xsd002_v01():
     """
     xsd002 - use of elementFormDefault="unqualified".

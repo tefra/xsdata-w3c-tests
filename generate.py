@@ -10,7 +10,7 @@ from typing import List
 from typing import Union
 
 from lxml import etree
-from xsdata.formats.dataclass.models import AnyElement
+from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.generators import PythonAbstractGenerator
 from xsdata.utils import text

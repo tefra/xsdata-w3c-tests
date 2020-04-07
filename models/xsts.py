@@ -54,7 +54,7 @@ class Appinfo:
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
-            type="Any",
+            type="Wildcard",
             namespace="##any",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -70,7 +70,7 @@ class Appinfo:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -91,7 +91,7 @@ class Documentation:
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
-            type="Any",
+            type="Wildcard",
             namespace="##any",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -115,7 +115,7 @@ class Documentation:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -440,7 +440,7 @@ class Annotation:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -530,7 +530,7 @@ class Expected:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -588,7 +588,7 @@ class Ref:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -643,7 +643,7 @@ class StatusEntry:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -754,7 +754,7 @@ class TestResult:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -952,7 +952,7 @@ class TestSuiteResults:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1116,7 +1116,7 @@ class InstanceTest:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1272,7 +1272,7 @@ class SchemaTest:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1398,7 +1398,7 @@ class TestSuite:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1551,7 +1551,7 @@ class TestGroup:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1666,7 +1666,7 @@ class TestSet:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )

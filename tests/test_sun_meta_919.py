@@ -4981,7 +4981,6 @@ def test_au_attrdecl00101m1_p_positive():
     )
 
 
-@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p():
     """
     Simple types are identified by their {name} and {target namespace}.
@@ -8457,7 +8456,6 @@ def test_name00601m_name00601m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_name00601m_name00601m1_n():
     """
     The declaration must not be absent (valid schema) Declare an element
@@ -11485,7 +11483,6 @@ def test_st_variety00101m1_negative():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00201m_st_target_ns00201m1_p():
     """
     reference to type (valid schema) Simple type {name}s and {target
@@ -11501,7 +11498,6 @@ def test_st_targetns00201m_st_target_ns00201m1_p():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11534,7 +11530,6 @@ def test_st_targetns00101m_st_target_ns00101m1_n():
     )
 
 
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m2_p():
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11567,7 +11562,6 @@ def test_st_targetns00101m_st_target_ns00101m2_n():
     )
 
 
-@pytest.mark.xfail
 def test_st_name00401m_st_name00401m1_p():
     """
     Simple type {name}s is provided for reference (valid schema) Simple
@@ -15108,7 +15102,7 @@ def test_pscontents00302m2_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 
@@ -15200,7 +15194,7 @@ def test_pscontents00301m2_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 
@@ -15300,7 +15294,7 @@ def test_pscontents00201m1_negative():
         is_valid=True,
         instance="sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="A",
         version="1.0",
     )
 

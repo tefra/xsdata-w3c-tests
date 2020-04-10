@@ -42,9 +42,6 @@ def assert_bindings(
     if is_valid and result.exception:
         raise result.exception
 
-    if not class_name:
-        pytest.skip("No class name for data binding")
-
     try:
         clazz = load_class(result.output, class_name)
         parser = XmlParser()
@@ -123,4 +120,4 @@ def load_class(output, clazz_name):
         except (ModuleNotFoundError, AttributeError):
             pass
 
-    pytest.fail(f"Failed to load class name {clazz_name}")
+    return ModuleNotFoundError(f"Class `{clazz_name}` not found.")

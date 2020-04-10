@@ -1,5 +1,5 @@
 pytest
 pytest-xdist
 xmlschema
-git+https://github.com/tefra/xsdata@w3c-tests
+git+https://github.com/tefra/xsdata@master
 pre-commit

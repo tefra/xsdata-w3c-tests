@@ -1,4 +1,3 @@
-import io
 import json
 import textwrap
 from collections import defaultdict
@@ -11,14 +10,14 @@ from typing import List
 from typing import Union
 
 from lxml import etree
-from xsdata.formats.dataclass.models import AnyElement
+from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.generators import PythonAbstractGenerator
 from xsdata.utils import text
 
 from models.xsts import Expected
-from models.xsts import ExpectedOutcome
 from models.xsts import TestGroup
+from models.xsts import TestOutcome
 from models.xsts import TestSet
 from models.xsts import TestSuite
 
@@ -146,23 +145,30 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
     version = "1.0"
+    doc_index = 0
 
     if (
         group.schema_test
         and group.schema_test.schema_document
         and group.schema_test.schema_document[0].href
     ):
-        schema_href = (
-            path.joinpath(group.schema_test.schema_document[0].href)
-            .resolve()
-            .relative_to(w3c)
-        )
         schema_validity = validity(group.schema_test.expected)
         version = schema_validity.version or "1.0"
         if group.name == "particlesZ012":
             version = "1.1"
 
-        schema_is_valid = schema_validity.validity == ExpectedOutcome.VALID
+        if group.name in ("wildZ003", "ctZ007"):
+            doc_index = 1
+
+        assert group.schema_test.schema_document[doc_index].href is not None
+
+        schema_href = (
+            path.joinpath(group.schema_test.schema_document[doc_index].href)
+            .resolve()
+            .relative_to(w3c)
+        )
+
+        schema_is_valid = schema_validity.validity == TestOutcome.VALID
 
     version = group.version or version
     schema_name = text.snake_case(group.name)
@@ -186,20 +192,20 @@ def make_test_cases(path: Path, group: TestGroup):
             schema_is_valid=schema_is_valid,
             instance_name=text.snake_case(instance.name),
             instance_path=instance_href,
-            instance_is_valid=instance_validity.validity == ExpectedOutcome.VALID,
+            instance_is_valid=instance_validity.validity == TestOutcome.VALID,
             class_name=class_name,
         )
 
 
 def read_root_name(path: Path) -> str:
     try:
-        document = path.read_bytes()
-        tree = etree.parse(io.BytesIO(document))
+        recovering_parser = etree.XMLParser(recover=True)
+        tree = etree.parse(str(path), parser=recovering_parser)
         root = tree.getroot()
         return PythonAbstractGenerator.class_name(etree.QName(root.tag).localname)
     except etree.XMLSyntaxError:
         return ""
-    except FileNotFoundError:
+    except OSError:
         return ""
 
 
@@ -207,7 +213,7 @@ def validity(expects: List[Expected]) -> Expected:
     expect = None
     if len(expects) > 1:
         expect = next(
-            (exp for exp in expects if exp.validity == ExpectedOutcome.VALID), None
+            (exp for exp in expects if exp.validity == TestOutcome.VALID), None
         )
 
     return expect if expect else expects[0]

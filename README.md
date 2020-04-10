@@ -1,13 +1,13 @@
 # xsdata-w3c-tests
 
-[![Build Status](https://travis-ci.org/tefra/xsdata-w3c-tests.svg?branch=master)](https://travis-ci.org/tefra/xsdata-w3c-tests)
+[![Build Status](https://travis-ci.com/tefra/xsdata-w3c-tests.svg?branch=master)](https://travis-ci.com/tefra/xsdata-w3c-tests)
 
 Run xsdata code generator and data binding module against the W3C XML Schema 1.1 test
 suite.
 
 # Report
 
-181 failed, 25943 passed, 200 skipped, 11 warnings
+141 failed, 25989 passed, 194 skipped, 14 warnings
 
 # Methodology
 

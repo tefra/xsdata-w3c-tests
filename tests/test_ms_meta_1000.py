@@ -967,7 +967,7 @@ def test_add_b201_add_b201_i():
         is_valid=True,
         instance="msData/additional/ns.xml",
         instance_is_valid=False,
-        class_name="",
+        class_name="Doc",
         version="1.0",
     )
 
@@ -1378,7 +1378,6 @@ def test_add_b191_add_b191_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b188_add_b188_i():
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for
@@ -1453,7 +1452,6 @@ def test_add_b176_add_b176_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b175_add_b175_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1484,7 +1482,6 @@ def test_add_b174_add_b174_v():
     )
 
 
-@pytest.mark.xfail
 def test_add_b173_add_b173_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1500,7 +1497,6 @@ def test_add_b173_add_b173_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b172_add_b172_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1516,7 +1512,6 @@ def test_add_b172_add_b172_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b171_add_b171_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1532,7 +1527,6 @@ def test_add_b171_add_b171_i():
     )
 
 
-@pytest.mark.xfail
 def test_add_b170_add_b170_i():
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -5582,7 +5576,7 @@ def test_ct_z007_ct_z007_v():
     types validated as base type when substitution group used
     """
     assert_bindings(
-        schema="msData/complexType/ctZ007_b.xsd",
+        schema="msData/complexType/ctZ007_a.xsd",
         is_valid=True,
         instance="msData/complexType/ctZ007.xml",
         instance_is_valid=True,

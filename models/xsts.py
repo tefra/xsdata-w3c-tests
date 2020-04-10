@@ -2,7 +2,7 @@ from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from lxml.etree import QName
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 from models.xlink import (
     TypeType,
 )
@@ -49,13 +49,12 @@ class Appinfo:
     """
     class Meta:
         name = "appinfo"
-        mixed = True
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
-            type="Any",
+            type="Wildcard",
             namespace="##any",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -71,7 +70,7 @@ class Appinfo:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -87,13 +86,12 @@ class Documentation:
     """
     class Meta:
         name = "documentation"
-        mixed = True
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
     any_element: List[object] = field(
         default_factory=list,
         metadata=dict(
-            type="Any",
+            type="Wildcard",
             namespace="##any",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -117,162 +115,10 @@ class Documentation:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
-
-
-class ExpectedOutcome(Enum):
-    """<ns0:div>
-
-        <ns0:p>Enumerates the possible values for the prescribed outcome
-                of a test.  Values include both (a) the possible values of
-                type<ns0:a href="#type_test-outcome">ts:test-outcome</ns0:a>and
-                the following additional values:</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>implementation-defined</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root
-                  depends upon some property or behavior which is
-                  explicitly described in the relevant version of the spec
-                  as "implementation-defined", or for which the spec explicitly
-                  imposes a requirement that implementations specify their
-                  behavior.  (It follows that this
-                  value should never occur for 1.0 tests.)</ns0:dd>
-          <ns0:dd>(For schema tests) The conformance of the schema
-                  depends upon some property or behavior explicitly
-                  described in the spec as "implementation-defined",
-                  or for which the spec explicitly
-                  imposes a requirement that implementations specify their
-                  behavior.</ns0:dd>
-        </ns0:dl>
-        <ns0:p>Note: in most cases of implementation-defined behaviors,
-                as a matter of test suite design it is better to analyse
-                the set of possible implementation behaviors, define
-                version tokens for the possible behaviors, and specify
-                more informative results based on those tokens.  The value<ns0:tt>implementation-defined</ns0:tt>is provided for situations
-                where this is not feasible for whatever reason.</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>implementation-dependent</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root
-                  depends upon some property or behavior which is
-                  explicitly described in the relevant version of the spec
-                  as "implementation-dependent", or otherwise explicitly
-                  described as varying among implementations but not
-                  "implementation-defined".  (For XSD 1.0, this will often
-                  take the form of a normative "<ns0:span class="rfc">may</ns0:span>" in the text.)</ns0:dd>
-          <ns0:dd>(For schema tests) The conformance of the schema
-                  depends upon some property or behavior explicitly
-                  described in the spec as "implementation-dependent" or
-                  as varying among implementations, but not described as
-                  "implementation-defined".</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>indeterminate</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>The intended result is indeterminate for one of the
-                  following reasons, or for other reasons:<ns0:ul><ns0:li>The result is under-determined (the spec is vague
-                      or underspecified), but not described explicitly as
-                      varying among conforming implementations.</ns0:li><ns0:li>The spec imposed contradictory requirements on the
-                      result. (I.e. the result is<ns0:em>over-determined.)</ns0:em></ns0:li><ns0:li>There is an unresolved dispute within the working
-                      group as to what the spec requires the result to be.
-                      (This includes cases where the working group cannot
-                      agree on whether the spec explicitly labels the
-                      result as implementation-dependent or
-                      implementation-defined or not, as well as cases
-                      where the group cannot agree on how to apply the
-                      spec to the case in hand.)</ns0:li></ns0:ul></ns0:dd>
-        </ns0:dl>
-        <ns0:p>N.B. the values<ns0:tt>implementation-dependent</ns0:tt>and<ns0:tt>implementation-defined</ns0:tt>should be used only when
-                the spec is explicit about the implementation-dependence
-                of the result and it is thus clear that the
-                implementation-dependence is a design choice consciously
-                made by the working group. They must not be used in cases
-                where the spec simply appeals to some concept which it
-                turns out not to define: such cases are to be marked<ns0:tt>indeterminate</ns0:tt>.</ns0:p>
-        <ns0:p>Note:  in most cases, as a matter of language design
-                it is better for the language specification to prescribe
-                clearly a particular result for a test, or to identify the
-                result explicitly as implementation-defined or
-                implementation-dependent.  The value<ns0:tt>indeterminate</ns0:tt>is provided for situations where
-                this has not been done for whatever reason.</ns0:p>
-        <ns0:p class="note">The value<ns0:tt>invalid-latent</ns0:tt>described
-                in earlier drafts of this schema document is no longer
-                needed; the version keywords for complex-type restriction
-                behaviors can be used to describe the relevant cases
-                more precisely.</ns0:p>
-      </ns0:div>
-    :cvar IMPLEMENTATION_DEFINED:
-    :cvar IMPLEMENTATION_DEPENDENT:
-    :cvar INDETERMINATE:
-    :cvar INVALID:
-    :cvar INVALID_LATENT:
-    :cvar NOT_KNOWN:
-    :cvar RUNTIME_SCHEMA_ERROR:
-    :cvar VALID:
-    """
-    IMPLEMENTATION_DEFINED = "implementation-defined"
-    IMPLEMENTATION_DEPENDENT = "implementation-dependent"
-    INDETERMINATE = "indeterminate"
-    INVALID = "invalid"
-    INVALID_LATENT = "invalid-latent"
-    NOT_KNOWN = "notKnown"
-    RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
-    VALID = "valid"
-
-
-class KnownToken(Enum):
-    """<ns0:div>
-
-        <ns0:p>Tokens to denote well-known (i.e. documented)
-                versions, features, or implementation-defined behaviors,
-                of XSD.</ns0:p>
-        <ns0:p>The<ns0:tt>known-token</ns0:tt>type is a union of several other
-                types, each with an enumeration of values.  Each sub-type
-                defines keywords for a set of mutually exclusive versions,
-                features, or behaviors, such that in any given schema
-                validation episode, at most one keyword in any subtype
-                will apply.  For examples, see the various subtypes
-                defined immediately below.</ns0:p>
-      </ns0:div>
-    :cvar VALUE_1_0:
-    :cvar VALUE_1_0_1E:
-    :cvar VALUE_1_0_2E:
-    :cvar VALUE_1_1:
-    :cvar CTR_ALL_COMPILE:
-    :cvar CTR_ALL_IDEP:
-    :cvar CTR_ALL_RUNTIME:
-    :cvar UNICODE_4_0_0:
-    :cvar UNICODE_6_0_0:
-    :cvar XML_1_0:
-    :cvar XML_1_0_1E_4E:
-    :cvar XML_1_0_5E:
-    :cvar XML_1_1:
-    :cvar COMMENTS_AND_PIS_EXCLUDED:
-    :cvar COMMENTS_AND_PIS_INCLUDED:
-    :cvar FULL_XPATH_IN_CTA:
-    :cvar RESTRICTED_XPATH_IN_CTA:
-    """
-    VALUE_1_0 = "1.0"
-    VALUE_1_0_1E = "1.0-1e"
-    VALUE_1_0_2E = "1.0-2e"
-    VALUE_1_1 = "1.1"
-    CTR_ALL_COMPILE = "CTR-all-compile"
-    CTR_ALL_IDEP = "CTR-all-idep"
-    CTR_ALL_RUNTIME = "CTR-all-runtime"
-    UNICODE_4_0_0 = "Unicode_4.0.0"
-    UNICODE_6_0_0 = "Unicode_6.0.0"
-    XML_1_0 = "XML-1.0"
-    XML_1_0_1E_4E = "XML-1.0-1e-4e"
-    XML_1_0_5E = "XML-1.0-5e"
-    XML_1_1 = "XML-1.1"
-    COMMENTS_AND_PIS_EXCLUDED = "comments-and-PIs-excluded"
-    COMMENTS_AND_PIS_INCLUDED = "comments-and-PIs-included"
-    FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
-    RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
 
 
 class KnownXsdVersion(Enum):
@@ -594,7 +440,7 @@ class Annotation:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -666,7 +512,7 @@ class Expected:
         name = "expected"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    validity: Optional[ExpectedOutcome] = field(
+    validity: Optional[Union[TestOutcome, "Expected.Value"]] = field(
         default=None,
         metadata=dict(
             name="validity",
@@ -684,10 +530,22 @@ class Expected:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar IMPLEMENTATION_DEFINED:
+        :cvar IMPLEMENTATION_DEPENDENT:
+        :cvar INDETERMINATE:
+        :cvar INVALID_LATENT:
+        """
+        IMPLEMENTATION_DEFINED = "implementation-defined"
+        IMPLEMENTATION_DEPENDENT = "implementation-dependent"
+        INDETERMINATE = "indeterminate"
+        INVALID_LATENT = "invalid-latent"
 
 
 @dataclass
@@ -730,7 +588,7 @@ class Ref:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -785,7 +643,7 @@ class StatusEntry:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -896,7 +754,7 @@ class TestResult:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1094,7 +952,7 @@ class TestSuiteResults:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1258,7 +1116,7 @@ class InstanceTest:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1414,7 +1272,7 @@ class SchemaTest:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1540,7 +1398,7 @@ class TestSuite:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1693,7 +1551,7 @@ class TestGroup:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )
@@ -1808,7 +1666,7 @@ class TestSet:
     other_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
-            type="AnyAttribute",
+            type="Attributes",
             namespace="##other"
         )
     )

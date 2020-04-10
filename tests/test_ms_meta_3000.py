@@ -4125,7 +4125,6 @@ def test_id_h001_id_h001_v():
     )
 
 
-@pytest.mark.xfail
 def test_id_g030_id_g030_v():
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -8202,7 +8201,6 @@ def test_mg_a001_mg_a001_v():
     )
 
 
-@pytest.mark.xfail
 def test_notat_h003_notat_h003_i():
     """
     TEST :Notations : Instance document with (Schema with 3 Notations and
@@ -8219,7 +8217,6 @@ def test_notat_h003_notat_h003_i():
     )
 
 
-@pytest.mark.xfail
 def test_notat_h002v_notat_h002v_i():
     """
     TEST :Notations : Instance document doesn't declare a notation type

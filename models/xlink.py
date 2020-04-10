@@ -51,6 +51,7 @@ class TypeType(Enum):
 @dataclass
 class ArcType:
     """
+    :ivar www_w3_org_1999_xlink_title:
     :ivar type:
     :ivar arcrole:
     :ivar title:
@@ -62,6 +63,16 @@ class ArcType:
     class Meta:
         name = "arcType"
 
+    www_w3_org_1999_xlink_title: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            name="title",
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     type: TypeType = field(
         init=False,
         default="arc",
@@ -130,41 +141,25 @@ class Extended:
     The intention is that by simply declaring elements with these as their
     substitutionGroup, all the right things will happen.
 
-    :ivar type:
-    :ivar role:
-    :ivar title:
+    :ivar www_w3_org_1999_xlink_title:
     :ivar resource:
     :ivar locator:
     :ivar arc:
+    :ivar type:
+    :ivar role:
+    :ivar title:
     """
     class Meta:
         name = "extended"
 
-    type: TypeType = field(
-        init=False,
-        default="extended",
-        metadata=dict(
-            name="type",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="role",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
-        )
-    )
-    title: Optional[str] = field(
-        default=None,
+    www_w3_org_1999_xlink_title: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     resource: List[str] = field(
@@ -197,11 +192,39 @@ class Extended:
             max_occurs=9223372036854775807
         )
     )
+    type: TypeType = field(
+        init=False,
+        default="extended",
+        metadata=dict(
+            name="type",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            required=True
+        )
+    )
+    role: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="role",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
+        )
+    )
+    title: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="title",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink"
+        )
+    )
 
 
 @dataclass
 class LocatorType:
     """
+    :ivar www_w3_org_1999_xlink_title:
     :ivar type:
     :ivar href:
     :ivar role:
@@ -212,6 +235,16 @@ class LocatorType:
     class Meta:
         name = "locatorType"
 
+    www_w3_org_1999_xlink_title: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            name="title",
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     type: TypeType = field(
         init=False,
         default="locator",
@@ -261,16 +294,24 @@ class LocatorType:
 @dataclass
 class ResourceType:
     """
+    :ivar any_element:
     :ivar type:
     :ivar role:
     :ivar title:
     :ivar label:
-    :ivar any_element:
     """
     class Meta:
         name = "resourceType"
-        mixed = True
 
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     type: TypeType = field(
         init=False,
         default="resource",
@@ -306,15 +347,6 @@ class ResourceType:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Any",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
 
 
 @dataclass
@@ -322,6 +354,7 @@ class Simple:
     """Intended for use as the type of user-declared elements to make them simple
     links.
 
+    :ivar any_element:
     :ivar type:
     :ivar href:
     :ivar role:
@@ -329,12 +362,19 @@ class Simple:
     :ivar title:
     :ivar show:
     :ivar actuate:
-    :ivar any_element:
     """
     class Meta:
         name = "simple"
-        mixed = True
 
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     type: TypeType = field(
         init=False,
         default="simple",
@@ -394,30 +434,29 @@ class Simple:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Any",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
 
 
 @dataclass
 class TitleEltType:
     """
+    :ivar any_element:
     :ivar type:
     :ivar lang: xml:lang is not required, but provides much of the
          motivation for title elements in addition to attributes, and so
          is provided here for convenience.
-    :ivar any_element:
     """
     class Meta:
         name = "titleEltType"
-        mixed = True
 
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     type: TypeType = field(
         init=False,
         default="title",
@@ -434,14 +473,5 @@ class TitleEltType:
             name="lang",
             type="Attribute",
             namespace="http://www.w3.org/XML/1998/namespace"
-        )
-    )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Any",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
         )
     )

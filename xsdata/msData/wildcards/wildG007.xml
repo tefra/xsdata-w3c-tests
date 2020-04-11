@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<target:foo xmlns:target="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://www.w3.org/1999/xhtml">
+<target:foo xmlns:target="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <target:b>foo bar</target:b>
 </target:foo>

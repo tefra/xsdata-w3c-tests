@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -986,7 +984,6 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1003,7 +1000,6 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1020,7 +1016,6 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1037,7 +1032,6 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -1054,7 +1048,6 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value

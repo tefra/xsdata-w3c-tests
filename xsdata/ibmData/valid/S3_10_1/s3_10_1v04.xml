@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<a:root xmlns:a="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="a" xmlns:qq="q">
+<a:root xmlns:a="a" xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qq="q">
   <a:z>1</a:z>
   <a:z>1</a:z>
 </a:root>

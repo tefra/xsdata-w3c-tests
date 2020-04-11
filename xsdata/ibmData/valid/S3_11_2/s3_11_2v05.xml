@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<b:root xmlns:b="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="a">
+<b:root xmlns:b="a" xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <b:dept>
     <b:Deptno>10</b:Deptno>
     <b:Dname>Accounting</b:Dname>

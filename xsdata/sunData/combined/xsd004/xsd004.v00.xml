@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<foo:root xmlns:foo="foo" xmlns:bar="bar" xmlns:zot="zot" xmlns:ns0="bob" xmlns:ns1="nowhere" xmlns:ns2="other1">
+<foo:root xmlns:foo="foo" xmlns:bar="bar" xmlns:ns0="bob" xmlns:ns1="nowhere" xmlns:ns2="other1" xmlns:zot="zot">
   <foo:skipAny>
     <foo:root><foo:child/><bar:nocheck><zot:nocheck/></bar:nocheck>mixed is also allowed?</foo:root>
   </foo:skipAny>

@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="auto-generated" name="introspection">
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" contributor="auto-generated" name="introspection">
   <ts:annotation>
     <ts:documentation>
       <p>This test catalogue was generated automatically using the stylesheet

@@ -5671,6 +5671,7 @@ def test_id001_id001_n02_xml(save_xml):
     )
 
 
+@pytest.mark.xfail
 def test_missing006_missing006_v1_xml(save_xml):
     """
     List type with missing item type Error only if the list type is needed
@@ -5687,6 +5688,7 @@ def test_missing006_missing006_v1_xml(save_xml):
     )
 
 
+@pytest.mark.xfail
 def test_missing006_missing006_n1_xml(save_xml):
     """
     List type with missing item type Error only if the list type is needed

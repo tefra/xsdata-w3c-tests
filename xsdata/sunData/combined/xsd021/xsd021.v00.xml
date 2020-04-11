@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<f:root xmlns:f="foo" xmlns:b="bar" xmlns:z="zot" xmlns:u="undeclared">
+<f:root xmlns:f="foo" xmlns:b="bar" xmlns:u="undeclared" xmlns:z="zot">
   <f:skipAny f:a="bra" f:b="bra" u:something="also allowed"/>
   <f:skipAny/>
   <f:laxAny f:a="5" f:undeclared="OK" b:b="2" u:something="also allowed"/>

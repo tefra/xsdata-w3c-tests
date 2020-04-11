@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<a:foo xmlns:a="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:A="B" xmlns:ns0="C" xmlns:D="D" xmlns:e="E">
+<a:foo xmlns:a="http://foobar" xmlns:A="B" xmlns:ns0="C" xmlns:D="D" xmlns:e="E" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <a:bar>foo bar</a:bar>
   <bar>foo bar</bar>
   <foo/>

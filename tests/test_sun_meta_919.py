@@ -7279,7 +7279,6 @@ def test_typedef00802m2_negative(save_xml):
     )
 
 
-@pytest.mark.xfail
 def test_typedef00802m1_positive(save_xml):
     """
     local type definition is validly derived from simpleType (valid

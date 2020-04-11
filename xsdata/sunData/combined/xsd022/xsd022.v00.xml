@@ -1,6 +1,8 @@
 <!-- xsdata instance -->
 <test:root xmlns:test="http://foo.com" xmlns:ns0="http://foo.com">
-  <test:child1>123456 abcdef xxxxxxxx</test:child1>
+  <test:child1>
+		123456 abcdef xxxxxxxx
+	</test:child1>
   <test:child2>true</test:child2>
   <test:child2>false</test:child2>
   <test:child2>false</test:child2>

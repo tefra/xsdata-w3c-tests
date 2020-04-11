@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Oracle Corporation" name="Zone" version="1.1">
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" contributor="Oracle Corporation" name="Zone" version="1.1">
   <ns0:testGroup name="zone401" version="1.1">
     <ns0:annotation>
       <ns0:documentation>

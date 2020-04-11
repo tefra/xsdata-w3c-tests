@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="http://www.dummy.com">
+<root xmlns:myNS="http://www.dummy.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fooTest myNS:testAttr="Test Attribute">
     <child_1>info</child_1>
     <child_2>3</child_2>

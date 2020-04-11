@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<tn:root xmlns:tn="foo" xmlns:q="abc" xmlns:p="abc" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<tn:root xmlns:tn="foo" xmlns:p="abc" xmlns:q="abc" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <tn:key> p:abc </tn:key>
   <tn:ref> q:abc </tn:ref>
 </tn:root>

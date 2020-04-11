@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://www.w3.org/1999/xhtml">
+<doc xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <d/>
   <b>I am a stringy string</b>
   <c>true</c>

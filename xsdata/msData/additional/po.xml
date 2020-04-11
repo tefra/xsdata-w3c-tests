@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<foo:purchaseOrder xmlns:foo="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="foo" orderDate="1999-10-20">
+<foo:purchaseOrder xmlns:foo="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-10-20">
   <foo:shipTo country="US">
     <foo:name>Alice Smith</foo:name>
     <foo:street>123 Maple Street</foo:street>

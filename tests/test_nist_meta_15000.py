@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -2173,7 +2171,6 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_5
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2189,7 +2186,6 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2205,7 +2201,6 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2221,7 +2216,6 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2237,7 +2231,6 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2328,7 +2321,6 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2344,7 +2336,6 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2360,7 +2351,6 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2376,7 +2366,6 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2392,7 +2381,6 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2483,7 +2471,6 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2499,7 +2486,6 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_1(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2515,7 +2501,6 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_2(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2531,7 +2516,6 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_3(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
@@ -2547,7 +2531,6 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_4(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.

@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<myNS:root xmlns:myNS="myNS.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fooNS="fooNS.tempuri.org">
+<myNS:root xmlns:myNS="myNS.tempuri.org" xmlns:fooNS="fooNS.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <myNS:uid val="1"/>
   <myNS:uid val="11"/>
   <myNS:uid val="111"/>

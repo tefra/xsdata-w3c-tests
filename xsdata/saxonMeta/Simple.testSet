@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Saxonica" name="Simple" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Saxonica" name="Simple" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <ts:testGroup name="simple001">
     <ts:annotation>
       <ts:documentation>

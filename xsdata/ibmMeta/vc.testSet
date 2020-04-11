@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <ts:testGroup name="vc_001" version="1.1">
     <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
     <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>

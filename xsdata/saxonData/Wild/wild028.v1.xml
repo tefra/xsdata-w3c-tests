@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<eden xmlns:c="http://genesis.com/" xmlns:evil="http://devil.com/">
+<eden xmlns:evil="http://devil.com/" xmlns:c="http://genesis.com/">
   <adam>m</adam>
   <evil:eve>f</evil:eve>
   <c:cain>m</c:cain>

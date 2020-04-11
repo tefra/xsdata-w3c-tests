@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<a:doc xmlns:a="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:f="foo" xmlns:b="bar">
+<a:doc xmlns:a="http://xsdtesting" xmlns:b="bar" xmlns:f="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <elem>
     <foo/>
     <f:e2/>

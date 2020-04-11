@@ -1,0 +1,14 @@
+<!-- xsdata instance -->
+<c:messages xmlns:c="http://cta0002/" xmlns:ns0="http://cta0002/">
+  <c:message c:min="0">
+    <c:e>1</c:e>
+    <c:e>2</c:e>
+    <c:e>3</c:e>
+  </c:message>
+  <c:message c:min="1">
+    <c:e>1</c:e>
+    <c:e>2</c:e>
+    <c:e>3</c:e>
+  </c:message>
+  <c:message c:min="0"/>
+</c:messages>

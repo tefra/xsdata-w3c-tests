@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<section id="a" nr="1">
+  <head>Intro</head>
+  <section id="b" nr="1.1">
+    <head>Bumph</head>
+  </section>
+  <section id="c" xml:space="preserve" nr="1.2">
+    <head>More Bumph</head>
+  </section>
+</section>

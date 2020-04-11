@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<ns0:top xmlns:ns0="abc">
+  <ns0:a switch="t" r="ewe">
+    <ns0:t/>
+  </ns0:a>
+</ns0:top>

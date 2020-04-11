@@ -1,0 +1,15 @@
+<!-- xsdata instance -->
+<ns0:book xmlns:ns0="http://simple013.ly/">
+  <ns0:subdoc>
+    <ns0:chap>2010-10-12</ns0:chap>
+  </ns0:subdoc>
+  <ns0:doc>
+    <ns0:chap>2010-10-12</ns0:chap>
+  </ns0:doc>
+  <ns0:doc>
+    <ns0:chap>2010-10-12T13:13:13</ns0:chap>
+  </ns0:doc>
+  <ns0:doc>
+    <ns0:chap>18:18:18</ns0:chap>
+  </ns0:doc>
+</ns0:book>

@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<doc>
+  <para id-one="aaa" id-two="bbb"/>
+  <para id-one="ccc" id-two="ddd"/>
+  <para id-one="eee" id-two="eee"/>
+</doc>

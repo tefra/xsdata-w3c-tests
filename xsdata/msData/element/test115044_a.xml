@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<f:root xmlns:f="foo">
+  <f:e>abc</f:e>
+</f:root>

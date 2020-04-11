@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <r>Chapter a</r>
+  <r>Chapter	b</r>
+  <r>Chapter
+c</r>
+  <r>Chapter
+w</r>
+</root>

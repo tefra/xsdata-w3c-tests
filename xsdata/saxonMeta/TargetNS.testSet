@@ -1,0 +1,103 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Saxonica" name="TargetNS" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="target001">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Simple use of targetNamespace on a local element declaration</ns0:Title>
+        <ns0:Description>Simple use of targetNamespace on a local element declaration</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"/>
+    <ns0:schemaTest name="target001.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="target001.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the schema.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target001.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="target001.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, child element is in wrong namespace.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target001.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="target002">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Invalid use of targetNamespace on a local element declaration</ns0:Title>
+        <ns0:Description>Invalid because not part of an xs:restriction</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"/>
+    <ns0:schemaTest name="target002.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target002.n.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="target003">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Simple use of targetNamespace on a local attribute declaration</ns0:Title>
+        <ns0:Description>Simple use of targetNamespace on a local attribute declaration</ns0:Description>
+        <ns0:documentationReference xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"/>
+    <ns0:schemaTest name="target003.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="target003.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the schema.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="target003.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, attribute is in wrong namespace.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="target003.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, attribute is in wrong namespace.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="target004">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Invalid use of targetNamespace on a local attribute declaration</ns0:Title>
+        <ns0:Description>Invalid because not part of an xs:restriction</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>
+    <ns0:schemaTest name="target004.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target004.n.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-18"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+</ns0:testSet>

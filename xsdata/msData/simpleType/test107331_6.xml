@@ -1,0 +1,18 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <item>abc</item>
+  <item>123</item>
+  <item>4.56</item>
+  <item>this is a string</item>
+  <item>false</item>
+  <item>45</item>
+  <item>P1347Y</item>
+  <item>1999-05-31T13:20:00-05:00</item>
+  <item>13:20:00-05:00</item>
+  <item>1999-05-31</item>
+  <item>1999</item>
+  <item>--02-13</item>
+  <item>abcd</item>
+  <item>http://tempuri</item>
+  <item>123</item>
+</root>

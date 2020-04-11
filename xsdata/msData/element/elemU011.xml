@@ -1,0 +1,13 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <r>ax</r>
+  <r>bx</r>
+  <r>aax</r>
+  <r>abx</r>
+  <r>bax</r>
+  <r>bbx</r>
+  <r>aaax</r>
+  <r>abax</r>
+  <r>abbx</r>
+  <r>bbax</r>
+</root>

@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<x:root xmlns:x="http://foo.com" xmlns:f="http://foo.com">
+  <foo/>
+  <foo/>
+  <x:bar/>
+  <x:bar/>
+  <zot/>
+  <zot/>
+</x:root>

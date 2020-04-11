@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/valueConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ElemDecl/valueConstraint valueConstraint00801m1.xsd" xsi:type="test:Text">alpha beta</test:root>

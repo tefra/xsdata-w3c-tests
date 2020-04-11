@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://www.w3.org/1999/xhtml">
+  <x:html>
+    <x:body>Hey this is html</x:body>
+  </x:html>
+</doc>

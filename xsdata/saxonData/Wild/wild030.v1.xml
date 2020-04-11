@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<computer>
+  <CPU>Intel</CPU>
+  <memory>4Gb</memory>
+  <monitor>17inch</monitor>
+  <speaker>loud</speaker>
+  <disk>Seagate</disk>
+  <mouse>USB</mouse>
+</computer>

@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_27_v05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elMaxExclusive_MinInclusive>P27DT23H</elMaxExclusive_MinInclusive>
+  <elMaxExclusive_MinInclusive>-P39DT3M</elMaxExclusive_MinInclusive>
+  <elMaxExclusive_MinExclusive>P27DT23H</elMaxExclusive_MinExclusive>
+  <elMaxExclusive_MinExclusive>-P39DT1M</elMaxExclusive_MinExclusive>
+  <elMaxExclusive_MaxInclusive>-P3323D</elMaxExclusive_MaxInclusive>
+  <elMaxExclusive_MaxInclusive>P27DT3M</elMaxExclusive_MaxInclusive>
+  <elMaxExclusive_MaxExclusive>P26DT23H</elMaxExclusive_MaxExclusive>
+  <elMaxExclusive_MaxExclusive>-P342D</elMaxExclusive_MaxExclusive>
+</dv:root>

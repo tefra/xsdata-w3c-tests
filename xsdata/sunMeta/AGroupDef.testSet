@@ -1,0 +1,242 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="SUN" name="AGroupDef" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="ag_attrusens00101m1_p">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute is declared in attribute group by reference with QName. (valid schema)</ns0:Title>
+        <ns0:Description>Attribute Use should has proper namespace prefix in the ref value 
+                                 to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_attrUseNS00101m1_p">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_p.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_attrusens00101m1_n">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute is declared in attribute group by reference with QName. (invalid schema)</ns0:Title>
+        <ns0:Description>Attribute Use should has proper namespace prefix in the ref value 
+                                 to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_attrUseNS00101m1_n">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_n.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_attrwcard00101m1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute wildcard is declared in attribute group.  (valid schema)</ns0:Title>
+        <ns0:Description>According to declared attribute wildcard content of the attributes in the 
+                                 document should not be processed.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_attrWCard00101m1">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_name00101m1_p">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute group declaration. (valid schema)</ns0:Title>
+        <ns0:Description>Attribute Group use should has proper ref value to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_name00101m1_p">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_p.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_name00101m1_n">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute group declaration. (invalid schema)</ns0:Title>
+        <ns0:Description>Attribute Group use should has proper ref value to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_name00101m1_n">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_n.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_targetns00101m1_p">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute group reference with QName. (valid schema)</ns0:Title>
+        <ns0:Description>Attribute Group use should has proper namespace prefix in the ref value 
+                                 to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_targetNS00101m1_p">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_p.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="ag_targetns00101m1_n">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Attribute group reference with QName. (invalid schema)</ns0:Title>
+        <ns0:Description>Attribute Group use should has proper namespace prefix in the ref value 
+                                 to be resolved to its declaration.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="AG_targetNS00101m1_n">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_n.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted  annotation for an attribute group definition (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for an attribute group definition.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m1">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m2">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted double annotation for an attribute group definition (invalid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for an attribute group definition.
+                             The annotation is specified twice.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m2">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m2.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m3">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted misplaced annotation for an attribute group definition (invalid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for an attribute group definition.
+                             The annotation is misplaced.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m3">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m3.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m4">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted  annotation for an attribute group definition (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for an attribute group definition.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m4">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m5">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted double annotation for an attribute group definition (invalid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for an attribute group definition.
+                             The annotation is specified twice.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m5">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m5.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotation00101m6">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted misplaced annotation for an attribute group definition (invalid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for an attribute group definition.
+                             The annotation is misplaced.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="annotation00101m6">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m6.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+</ns0:testSet>

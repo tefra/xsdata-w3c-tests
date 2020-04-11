@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<messages xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:saxon="http://saxon.sf.net/">
+  <message kind="xs:int" value="12"/>
+  <message kind="xs:date" value="2007-12-31"/>
+  <message kind="xs:decimal" value="93.7"/>
+  <message kind="xs:QName" value="saxon:assign"/>
+</messages>

@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <multiple_ids id1="abc" id2="xyz">
+    <idref_element1>abc</idref_element1>
+    <idref_element2>xyz</idref_element2>
+  </multiple_ids>
+</root>

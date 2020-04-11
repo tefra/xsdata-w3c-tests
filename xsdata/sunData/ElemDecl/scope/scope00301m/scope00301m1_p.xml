@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/scope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalElement1>1</LocalElement1>
+  <LocalElement2>2</LocalElement2>
+</test:root>

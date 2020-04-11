@@ -1,0 +1,36 @@
+<!-- xsdata instance -->
+<a:doc xmlns:a="a" xmlns:b="b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="other">
+  <a:RootContainer>
+    <a:StrictContainer>
+      <b:test b1="a"/>
+    </a:StrictContainer>
+    <a:LaxContainer>
+      <b:test b1="a"/>
+    </a:LaxContainer>
+    <a:SkipContainer>
+      <ns0:anyOtherGarbage/>
+    </a:SkipContainer>
+  </a:RootContainer>
+  <a:RootContainer>
+    <a:StrictContainer>
+      <b:test b1="a"/>
+    </a:StrictContainer>
+    <a:LaxContainer>
+      <ns0:anyOtherGarbage/>
+    </a:LaxContainer>
+    <a:SkipContainer>
+      <ns0:anyOtherGarbage/>
+    </a:SkipContainer>
+  </a:RootContainer>
+  <a:RootContainer>
+    <a:StrictContainer>
+      <b:test b1="a"/>
+    </a:StrictContainer>
+    <a:LaxContainer>
+      <b:test b1="a"/>
+    </a:LaxContainer>
+    <a:SkipContainer>
+      <b:test/>
+    </a:SkipContainer>
+  </a:RootContainer>
+</a:doc>

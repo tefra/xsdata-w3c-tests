@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="urn:my-namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:Member2>string</ns0:Member2>
+</ns0:root>

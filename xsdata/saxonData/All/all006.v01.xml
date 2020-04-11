@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<doc xmlns:d="http://other.ns/">
+  <a>1980-01-01</a>
+  <b>12:00:00</b>
+  <c>12:00:00</c>
+  <d:d>banana</d:d>
+</doc>

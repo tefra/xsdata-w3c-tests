@@ -1,0 +1,279 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Oracle Corporation" name="Zone" version="1.1">
+  <ns0:testGroup name="zone401" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Equality testing (enumeration) for dateTime values, use YEAR as ZERO</ns0:Title>
+        <ns0:Description>Use Year as Zero</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone401.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="zone401.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid date per enumeration</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone401.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid date per enumeration</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone401.v3.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid date per enumeration</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v3.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone401.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid date per enumeration</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone401.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid date per enumeration</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone402" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test year zero allowed for facet maxInclusive for datatype xs:dateTime</ns0:Title>
+        <ns0:Description>Test year zero allowed for facet maxInclusive for datatype xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone402.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="zone402.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid date per maxInclusive facet</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone402.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid date per maxInclusive facet</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone402.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid date per maxInclusive facet</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone403" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime</ns0:Title>
+        <ns0:Description>Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone403.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="zone403.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid, timezone present.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone403.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid, timezone present.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone403.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, timezone not present.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone404" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime</ns0:Title>
+        <ns0:Description>Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone404.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="zone404.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid, timezone not present as expected</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone404.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, timezone present.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone404.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, timezone present.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone405" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime</ns0:Title>
+        <ns0:Description>Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone405.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-07-29">
+        <ns0:annotation>
+          <ns0:documentation>Typo corrected - see bug #12189</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="zone405.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid date</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone405.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid date</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="zone405.v3.xml">
+      <ns0:annotation>
+        <ns0:documentation>valid date</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v3.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone406" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime</ns0:Title>
+        <ns0:Description>Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone406.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone406.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone407" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime</ns0:Title>
+        <ns0:Description>Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone407.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone407.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone408" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test explicitTimezone facet: cannot derive "required" from "prohibited"</ns0:Title>
+        <ns0:Description>Test explicitTimezone facet: cannot derive "required" from "prohibited"</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone408.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone408.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="zone409" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Test explicitTimezone facet: cannot derive "prohibited" from "required"</ns0:Title>
+        <ns0:Description>Test explicitTimezone facet: cannot derive "prohibited" from "required"</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
+    <ns0:schemaTest name="zone409.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone409.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-02-24"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+</ns0:testSet>

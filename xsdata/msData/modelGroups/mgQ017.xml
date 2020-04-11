@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <e1/>
+  <e2>
+    <e1>This is different</e1>
+  </e2>
+</doc>

@@ -1,0 +1,14 @@
+<!-- xsdata instance -->
+<f:root xmlns:f="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <f:non-nillable>
+    <f:x/>
+  </f:non-nillable>
+  <f:nillable1>
+    <f:x/>
+  </f:nillable1>
+  <f:nillable1 xsi:nil="true"/>
+  <f:nillable2>
+		51 32 59
+	</f:nillable2>
+  <f:nillable2 xsi:nil="true"/>
+</f:root>

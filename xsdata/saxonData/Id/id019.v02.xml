@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<doc>
+  <para entity="entity1"/>
+  <para entity="entity2"/>
+  <para entity="-1"/>
+</doc>

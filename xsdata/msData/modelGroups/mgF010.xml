@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://www.w3.org/1999/xhtml">
+  <a>1</a>
+  <h:html>
+    <h:body>Hey this is html</h:body>
+  </h:html>
+  <d/>
+  <c>true</c>
+  <b>I am a stringy string</b>
+</doc>

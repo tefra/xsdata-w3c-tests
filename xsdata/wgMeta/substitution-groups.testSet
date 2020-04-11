@@ -1,0 +1,363 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ns0="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="C. M. Sperberg-McQueen" name="substitution-groups" version="1.1">
+  <ts:annotation>
+    <ts:documentation>
+      <ns0:div>
+        <ns0:p>A set of tests on changes to substition-group behavior,
+     constructed by hand, as a contribution to the XML Schema 1.1
+     test suite.</ns0:p>
+        <ns0:p>Revisions:</ns0:p>
+        <ns0:ul>
+          <ns0:li>2010-06-17 : CMSMcQ : add test groups<ns0:a href="#sg-abstract-upa">sg-abstract-upa</ns0:a>etc. for
+      checking the changes defining abstract elements as members
+      of substitution groups.</ns0:li>
+          <ns0:li>2010-06-16 : CMSMcQ : correct error in test of content 
+      model competition:  the negative wildcard does compete
+      with n, but the element wins (UPA has been weakened in 1.1).</ns0:li>
+          <ns0:li>2010-06-16 : CMSMcQ : move this catalog into 
+      the dev.w3.org directory structure in directory wgMeta.  Change
+      locations of DTD, stylesheet, etc. accordingly.</ns0:li>
+          <ns0:li>2010-06-10 : CMSMcQ : create this test catalog,
+                               using XHTML modularization driver.</ns0:li>
+        </ns0:ul>
+      </ns0:div>
+    </ts:documentation>
+  </ts:annotation>
+  <ts:testGroup name="sg-and-defined-Sibling-1" version="1.0 1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>In section<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#ch_models">G.1.3 Changes to content models</ns0:a>, XSD 1.1 says
+      (in list item 3):</ns0:p>
+          <ns0:blockquote>
+            <ns0:p>Finally, the keyword ##definedSibling can be used to exclude
+       all elements explicitly mentioned in a content model (and all
+       elements substitutable for those elements).</ns0:p>
+          </ns0:blockquote>
+          <ns0:p>So we test the following interactions of definedSibling
+      and substitution groups, in schemas with some subset of
+      elements e, s, n, s1, n1, s2, n2, with s1 substitutable 
+      ('s') for s, and s2 for s1, but n1 and n2<ns0:em>not</ns0:em>substitutable for n (or anything else).  Elements n and s are
+      siblings, together with a negative wildcard (no positive 
+      wildcard is possible) which has the keyword #definedSibling.</ns0:p>
+          <ns0:ol>
+            <ns0:li>A negative wildcard excludes s1 but not n1.</ns0:li>
+            <ns0:li>A negative wildcard competes with n but not s,
+       but the result is the same in either case, since
+       when elements and wildcards compete, the element
+       wins.</ns0:li>
+          </ns0:ol>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>In this test set, we exercise the fact that a
+      negative wildcard excludes s1 but not n1.</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
+    <ts:schemaTest name="snneg">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/snneg.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:expected validity="invalid" version="1.0"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="sn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sn.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="s1n" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/s1n.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sn1" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sn1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sne" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sne.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snn.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sns" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sns.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snn1" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snn1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sns1" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sns1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="sg-and-defined-Sibling-2" version="1.0 1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>Negative wildcard excludes s1 but not n1.
+      (Second time around).</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
+    <ts:schemaTest name="negsn">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/negsn.xsd"/>
+      <ts:expected validity="valid" version="1.1"/>
+      <ts:expected validity="invalid" version="1.0"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="esn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/esn.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="nsn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/nsn.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ssn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/ssn.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="n1sn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/n1sn.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="s1sn" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/s1sn.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="sg-and-defined-Sibling-3" version="1.0 1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>A negative wildcard competes with n, but not s.</ns0:p>
+          <ns0:p>But elements outrank wildcards, so there's no conflict 
+      in either case.</ns0:p>
+          <ns0:p>This test defines a content model beginning with s, n
+      and continuing with any of (negative-wildcard, a),
+      (s, b), or (n, c).  
+      The instance tests have element sequences beginning
+      with s and n, continuing with one of s1, n1, e,
+      and ending with one of a, b, c.  
+      The sequences with s1 test the processor's handling
+      of the competition between s1 and the negative wildcard.
+      The other tests are present primarily for symmetry.</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
+    <ts:schemaTest name="snbranch">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/snbranch.xsd"/>
+      <ts:expected validity="valid" version="1.1"/>
+      <ts:expected validity="invalid" version="1.0"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="sns1a" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sns1a.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sns1b" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sns1b.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sns1c" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sns1c.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snn1a" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snn1a.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snn1b" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snn1b.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snn1c" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snn1c.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snea" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snea.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="sneb" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/sneb.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="snec" version="1.1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/snec.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="sg-abstract-upa" version="1.0 1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>In section<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl">G.1.9 Element declarations</ns0:a>, XSD 1.1 says
+      (in list item 3):</ns0:p>
+          <ns0:blockquote>
+            <ns0:p>Abstract elements may now appear in substitution groups.</ns0:p>
+          </ns0:blockquote>
+          <ns0:p>This change was adopted to resolve bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337">4337 
+       Substitution group and abstract</ns0:a>, which pointed out some
+      uncertainty about whether particular content models did or did
+      not violate the UPA and EDC constraints.</ns0:p>
+          <ns0:p>Because no element in a document instance is locally valid
+      against an abstract element declaration, this change does not
+      mean that abstract elements can now be instantiated in a valid
+      instance document.  Instead, the effect is to make clear that
+      abstract element declarations are considered when deciding
+      whether a content model violates constraints defined in terms of
+      elements' substitution groups.</ns0:p>
+          <ns0:p>This test group illustrates the violation of the Unique
+      Particle Attribution constraint by a competition between a
+      local element declaration and an abstract global element
+      declaration which is substitutable for another.</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"/>
+    <ts:schemaTest name="schemaTest">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/upa.xsd"/>
+      <ts:expected validity="valid" version="1.0"/>
+      <ts:expected validity="invalid" version="1.1"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="e1.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1token.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1token.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1short.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1short.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="sg-abstract-upa2" version="1.0 1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>For context see test group<ns0:a href="#sg-abstact-upa">sg-abstract-upa</ns0:a>above.</ns0:p>
+          <ns0:p>Like<ns0:a href="#sg-abstact-upa">sg-abstract-upa</ns0:a>,
+      this test group illustrates the violation of the Unique
+      Particle Attribution constraint by a competition between a
+      local element declaration and an abstract global element
+      declaration which is substitutable for another.</ns0:p>
+          <ns0:p>In this case, however, the top-level<ns0:tt>e1</ns0:tt>and the local<ns0:tt>e1</ns0:tt>have different types.
+      If a 1.0 processor ignores the global<ns0:tt>e1</ns0:tt>on
+      the grounds that it's not a member of the actual
+      substitution group of<ns0:tt>e</ns0:tt>, then it will accept
+      this schema, and validate the instances as shown.
+      A 1.1 processor must reject the schema; it violates
+      both UPA and EDC.</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent"/>
+    <ts:schemaTest name="schemaTest">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/upa2.xsd"/>
+      <ts:expected validity="valid" version="1.0"/>
+      <ts:expected validity="invalid" version="1.1"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="e1.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1bis.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1token.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1token.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1short.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1short.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="sg-abstract-edc" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ns0:div>
+          <ns0:p>For context see test group<ns0:a href="#sg-abstact-upa">sg-abstract-upa</ns0:a>above.</ns0:p>
+          <ns0:p>The schema in this test group illustrates the violation of
+      the Element Declarations Consistent constraint by an abstract
+      top-level element.  XSD 1.0 processors which treat abstract
+      elements as not part of any actual substitution group will
+      accept the schema and validate the instances accordingly.</ns0:p>
+          <ns0:p>XSD 1.1 processors must reject the schema.</ns0:p>
+        </ns0:div>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent"/>
+    <ts:schemaTest name="schemaTest">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../wgData/sg/edc.xsd"/>
+      <ts:expected validity="valid" version="1.0"/>
+      <ts:expected validity="invalid" version="1.1"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ee1s.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/ee1s.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ee1t.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/ee1t.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ee1i.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/ee1i.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1se1s.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1se1s.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1se1t.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1se1t.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1se1i.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1se1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ite1s.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ite1s.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ite1t.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ite1t.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ite1i.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ite1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ie1s.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ie1s.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ie1t.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ie1t.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="e1ie1i.xml" version="1.0">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../wgData/sg/e1ie1.xml"/>
+      <ts:expected validity="invalid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+</ts:testSet>

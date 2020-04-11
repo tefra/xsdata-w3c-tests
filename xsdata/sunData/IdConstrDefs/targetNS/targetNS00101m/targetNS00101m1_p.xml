@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="IdConstrDefs/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <person>William Smith</person>
+</test:root>

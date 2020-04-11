@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elem>
+    <e1/>
+    <e2/>
+    <e1/>
+    <e2/>
+  </elem>
+</doc>

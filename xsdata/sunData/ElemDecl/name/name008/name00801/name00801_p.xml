@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="ElemDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:a--a>0</ns0:a--a>
+  <ns0:b..b>1</ns0:b..b>
+  <ns0:c__c>2</ns0:c__c>
+  <ns0:d&#183;&#183;d>3</ns0:d&#183;&#183;d>
+  <ns0:e&#903;&#903;e>4</ns0:e&#903;&#903;e>
+  <ns0:f&#1757;&#1757;f>5</ns0:f&#1757;&#1757;f>
+  <ns0:g&#1758;&#1758;g>6</ns0:g&#1758;&#1758;g>
+</ns0:root>

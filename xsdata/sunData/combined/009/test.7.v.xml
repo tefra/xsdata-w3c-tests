@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<foo:override xmlns:foo="urn:foo" a="fixed"/>

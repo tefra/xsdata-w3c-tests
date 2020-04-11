@@ -1,0 +1,15 @@
+<!-- xsdata instance -->
+<ns0:doc xmlns:ns0="http://id050.ly/">
+  <ns0:emp>
+    <ns0:name>John</ns0:name>
+    <ns0:nr>23</ns0:nr>
+  </ns0:emp>
+  <ns0:emp>
+    <ns0:name>Mary</ns0:name>
+    <ns0:nr>29</ns0:nr>
+  </ns0:emp>
+  <ns0:emp>
+    <ns0:name>Ahmed</ns0:name>
+    <ns0:nr>42</ns0:nr>
+  </ns0:emp>
+</ns0:doc>

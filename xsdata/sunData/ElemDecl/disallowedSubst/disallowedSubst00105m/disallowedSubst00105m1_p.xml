@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="ElemDecl/disallowedSubst" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:Head>
+    <ns0:Ear/>
+    <ns0:Eye/>
+  </ns0:Head>
+</ns0:root>

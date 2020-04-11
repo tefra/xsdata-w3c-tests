@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/maxOccurs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Local>2</Local>
+</test:root>

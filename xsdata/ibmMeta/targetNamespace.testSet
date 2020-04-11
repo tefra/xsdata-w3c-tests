@@ -1,0 +1,38 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="TargetNS" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:testGroup name="targetNamespace_004" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Composition of XML schemas via xs:import to be able to achive hetrogeneous namespaced elements
+			in "one" XML document.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"/>
+    <ts:schemaTest name="targetNamespace_004_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/targetNamespace/tns4.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="targetNamespace_004_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/targetNamespace/tns4.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="targetNamespace_005" version="1.1">
+    <ts:annotation>
+      <ts:documentation>This example demonstrates 'targetNamespace' attribute on xs:attribute schema component.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>
+    <ts:schemaTest name="targetNamespace_005_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/targetNamespace/tns5.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="targetNamespace_005_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/targetNamespace/tns5.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+</ts:testSet>

@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id2_attr="more">
+  <foo idrefs_attr="foofo more" id1_attr="foofo"/>
+</test>

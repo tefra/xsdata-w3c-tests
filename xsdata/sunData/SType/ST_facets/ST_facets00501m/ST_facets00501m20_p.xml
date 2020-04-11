@@ -1,0 +1,27 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <value>a00&#8027;</value>
+  <value>a10&#8029;</value>
+  <value>a20&#8031;</value>
+  <value>a2-&#8046;</value>
+  <value>a2A&#8061;</value>
+  <value>a30&#8112;</value>
+  <value>a3-&#8112;</value>
+  <value>a3A&#8113;</value>
+  <value>a40&#8120;</value>
+  <value>a4-&#8121;</value>
+  <value>a4A&#8123;</value>
+  <value>a50&#8136;</value>
+  <value>a5-&#8137;</value>
+  <value>a5A&#8139;</value>
+  <value>a60&#8144;</value>
+  <value>a6-&#8144;</value>
+  <value>a6A&#8145;</value>
+  <value>a70&#8152;</value>
+  <value>a7-&#8153;</value>
+  <value>a7A&#8155;</value>
+  <value>a80&#8160;</value>
+  <value>a8-&#8160;</value>
+  <value>a8A&#8161;</value>
+  <value>a90&#8165;</value>
+</test:root>

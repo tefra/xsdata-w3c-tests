@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<td:root xmlns:td="AttrDecl/valConstr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <td:elementWithAttr td:number="12" price="12.3"/>
+</td:root>

@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <e xsl:use-attribute-sets="foo"/>
+</xsl:stylesheet>

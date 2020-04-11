@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<ns0:game xmlns:ns0="http://chess/ns/">
+  <ns0:white>e4</ns0:white>
+  <ns0:black>e5</ns0:black>
+  <ns0:white>e3</ns0:white>
+  <ns0:result>draw</ns0:result>
+</ns0:game>

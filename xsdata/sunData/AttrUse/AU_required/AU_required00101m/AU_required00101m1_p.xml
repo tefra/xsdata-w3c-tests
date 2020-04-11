@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<td:root xmlns:td="AttrUse/required" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <td:elementWithAttr td:number="157"/>
+</td:root>

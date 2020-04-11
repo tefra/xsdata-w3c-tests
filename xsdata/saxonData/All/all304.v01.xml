@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<doc xmlns:n1="http://one.com/" xmlns:n2="http://two.com/">
+  <n1:one/>
+  <n1:three/>
+  <n2:two/>
+  <n2:four/>
+</doc>

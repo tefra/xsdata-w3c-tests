@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<doc>
+  <node id-one="aaa" id-two="bbb">
+    <node id-one="ccc" id-two="ddd"/>
+    <node id-one="eee" id-two="eee"/>
+    <id>zzz</id>
+    <id>zzz</id>
+    <id>aaa</id>
+  </node>
+</doc>

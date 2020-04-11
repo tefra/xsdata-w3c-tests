@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<td:root xmlns:td="AttrGroup/attrWCard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <td:elementWithAttr number="157"/>
+  <td:elementWithAttr notDefined="wood"/>
+</td:root>

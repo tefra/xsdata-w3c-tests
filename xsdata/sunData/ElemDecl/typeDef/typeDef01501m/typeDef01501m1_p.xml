@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ElemDecl/typeDef typeDef01501m1.xsd" ID="a1">XML Schema: Structures specifies the XML Schema definition language, 
+which offers facilities for describing the structure and constraining 
+the contents of XML 1.0 documents, including those which exploit the 
+XML Namespace facility<dot/></test:root>

@@ -1,0 +1,1206 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:saxon="http://saxon.sf.net/" contributor="Saxonica" name="Id" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="id001" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with more than one ID attribute</ns0:Title>
+        <ns0:Description>Element with more than one ID attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
+    <ns0:schemaTest name="id001.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id001.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id001.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id001.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id002" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with more than one ID attribute, one being a wildcard</ns0:Title>
+        <ns0:Description>Element with more than one ID attribute, one being a wildcard</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
+    <ns0:schemaTest name="id002.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id002.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id002.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id002.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id003" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with more than one ID attribute, one being a wildcard, plus ID children</ns0:Title>
+        <ns0:Description>Element with more than one ID attribute, one being a wildcard, plus ID children</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
+    <ns0:schemaTest name="id003.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id003.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id003.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id003.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id004" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with list-of-ID attributes and list-of-ID children</ns0:Title>
+        <ns0:Description>Element with list-of-ID attributes and list-of-ID children</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"/>
+    <ns0:schemaTest name="id004.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id004.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id004.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id004.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, same ID on two different elements.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id005" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with list-of-IDREF attributes and list-of-IDREF children</ns0:Title>
+        <ns0:Description>Element with list-of-IDREF attributes and list-of-IDREF children</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"/>
+    <ns0:schemaTest name="id005.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id005.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id005.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id005.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id006" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children</ns0:Title>
+        <ns0:Description>Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
+    <ns0:schemaTest name="id006.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id006.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id006.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id006.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id007" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>A highly devious test in which we define a list type whose items may be either IDs or IDREFs</ns0:Title>
+        <ns0:Description>A highly devious test in which we define a list type whose items may be either IDs or IDREFs</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
+    <ns0:schemaTest name="id007.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id007.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, two IDs on the same element can have the same value.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id007.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id007.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unresolved IDREF value hhh.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-05-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id008" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>A complex type with simple ID/IDREF content</ns0:Title>
+        <ns0:Description>A complex type with simple ID/IDREF content at one time imposed 
+                     no uniqueness or referential constraints, but this has been clarified.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"/>
+    <ns0:schemaTest name="id008.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id008.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id008.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid: a complex type with simple content now imposes ID constraints.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-07-29">
+        <ns0:annotation>
+          <ns0:documentation>Changed the status to "invalid" in response to bug #12014</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id008.n03.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid: a complex type with simple content now imposes ID constraints.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v03.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2011-07-29">
+        <ns0:annotation>
+          <ns0:documentation>Changed the status to "invalid" in response to bug #12014</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id009" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Nillable ID/IDREF elements</ns0:Title>
+        <ns0:Description>Nillable ID/IDREF elements</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"/>
+    <ns0:schemaTest name="id009.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id009.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id009.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-05-12"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id010" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID attribute with default value</ns0:Title>
+        <ns0:Description>ID attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id010.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id010.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id010.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id010.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id011" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID attribute with fixed value</ns0:Title>
+        <ns0:Description>ID attribute with fixed value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id011.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id011.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id011.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id011.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id012" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID attribute with default value</ns0:Title>
+        <ns0:Description>ID attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id012.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id012.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id012.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id012.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id013" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID attribute with fixed value</ns0:Title>
+        <ns0:Description>ID attribute with fixed value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id013.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id013.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id013.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id013.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id014" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID element with default value</ns0:Title>
+        <ns0:Description>ID element with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id014.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id014.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id014.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id014.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id015" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ID element with fixed value</ns0:Title>
+        <ns0:Description>ID element with fixed value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
+    <ns0:schemaTest name="id015.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id015.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id015.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id015.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id016" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>IDREF attribute with default value</ns0:Title>
+        <ns0:Description>IDREF attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id016.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id016.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id016.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id016.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id016.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id017" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ENTITY attribute with default value</ns0:Title>
+        <ns0:Description>ENTITY attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id017.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id017.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id017.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id017.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id018" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>ENTITIES attribute with default value</ns0:Title>
+        <ns0:Description>ENTITIES attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id018.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id018.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id018.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id018.v03.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v03.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id018.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id018.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id019" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Union of ENTITY and integer attribute with default value</ns0:Title>
+        <ns0:Description>Union of ENTITY and integer attribute with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id019.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id019.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id019.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id019.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id019.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id020" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element of type xs:ENTITY with default value</ns0:Title>
+        <ns0:Description>Element of type xs:ENTITY with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id020.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id020.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id020.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id020.v03.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v03.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id020.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id020.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id021" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Element of type xs:ENTITIES with default value</ns0:Title>
+        <ns0:Description>Element of type xs:ENTITIES with default value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"/>
+    <ns0:schemaTest name="id021.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id021.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id021.v02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.v02.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id021.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id021.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id022" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Atomic value equal to singleton list</ns0:Title>
+        <ns0:Description>Value of a key is atomic; value of keyref is a list; they can be equal</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-EqualityOfAtomicValAndSingletonList"/>
+    <ns0:schemaTest name="id022.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id022.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id022.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id022.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id022.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id022.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id040" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Unique constraint using ref attribute</ns0:Title>
+        <ns0:Description>Unique constraint refers to another unique constraint using ref attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
+    <ns0:schemaTest name="id040.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id040.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id040.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id040.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id041" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Unique constraint using ref attribute, points to wrong kind of constraint</ns0:Title>
+        <ns0:Description>Key constraint refers to a unique constraint using ref attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
+    <ns0:schemaTest name="id041.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id041.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id042" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Unique constraint using ref attribute, points nowhere</ns0:Title>
+        <ns0:Description>Key constraint refers to a nonexistent constraint using ref attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
+    <ns0:schemaTest name="id042.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id042.bad.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id043" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Key constraint using ref attribute</ns0:Title>
+        <ns0:Description>Key constraint refers to another key constraint using ref attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
+    <ns0:schemaTest name="id043.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id043.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id043.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id043.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id044" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Keyref constraint using ref attribute</ns0:Title>
+        <ns0:Description>Keyref constraint refers to another keyref constraint using ref attribute</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
+    <ns0:schemaTest name="id044.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id044.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id044.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id044.n02.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.n02.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id050" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Unique constraint using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Use XPathDefaultNamespace on the selector and field elements</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
+    <ns0:schemaTest name="id050.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id050.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id050.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id051" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Key constraint using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Use XPathDefaultNamespace on the xs:schema element</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
+    <ns0:schemaTest name="id051.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id051.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id051.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id051.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id052" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Key constraint using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Use XPathDefaultNamespace on the xs:schema element</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
+    <ns0:schemaTest name="id052.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id052.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id052.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id052.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id053" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Key constraint using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Use XPathDefaultNamespace=##targetNamespace on the local element</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
+    <ns0:schemaTest name="id053.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id053.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id053.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id053.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="id054" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Keyref constraint using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Use XPathDefaultNamespace=##local on the local element and the xs:schema element</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
+    <ns0:schemaTest name="id054.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Id/id054.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="id054.v01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id054.v01.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="id054.n01.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, contains duplicate numbers</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id054.n01.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-10-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+</ns0:testSet>

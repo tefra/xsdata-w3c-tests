@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <foo attrTest="foo fu1">special test for datatypes that are attribute only</foo>
+</test>

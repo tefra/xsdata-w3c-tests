@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<doc>
+  <foo>value&#1024;</foo>
+</doc>

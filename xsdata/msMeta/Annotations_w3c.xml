@@ -1,0 +1,886 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Microsoft" name="MS-Annotations2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:testGroup name="annotA001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Empty annotation in schema element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA003">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in any, sequence Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA005">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in appinfo element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA005.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA006">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in attribute element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA006">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA006.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA007">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in attributeGroup element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA007">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA007.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA008">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in choice element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA008">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA008.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA009">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in complexContent element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA009">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA009.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA010">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in documentation element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA010">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA010.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA011">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in field element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA011">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA011.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA012">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in group element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA012">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA012.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA013">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in import element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA013">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA013.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA014">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in include element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA014">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA014.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA015">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in key element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA015">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA015.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA016">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in keyref element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA016">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA016.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA017">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in list element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA017">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA017.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA018">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in notation element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA018">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA018.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA019">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in redefine element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA019">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA019.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA020">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in restriction, simpleType element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA020">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA020.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA021">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in selector element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA021">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA021.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA022">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in union element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA022">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA022.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotA023">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Basic annotation in unique element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotA023">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotA023.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation within Annotation</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB001.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation with appinfo's source=""</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB003">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation with documentation's source=""</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the all Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB004.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB005">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the annotation Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB005.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB006">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the any Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB006">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB006.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB007">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB007">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB007.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB008">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the appInfo Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB008">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB008.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB009">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the attribute Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB009">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB009.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB010">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB010">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB010.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB011">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the choice Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB011">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB011.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB012">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the complexContent Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB012">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB012.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB013">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the complexType Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB013">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB013.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB014">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the documentation Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB014">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB014.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB015">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the element Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB015">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB015.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB016">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the extension Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB016">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB016.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB017">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the field Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB017">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB017.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB018">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the group Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB018">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB018.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB019">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the import Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB019">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB019.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB020">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the include Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB020">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB020.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB021">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the key Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB021">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB021.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB022">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the keyRef Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB022">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB022.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB023">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the list Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB023">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB023.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB024">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the Notation Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB024">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB024.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB025">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the redefine Element</ts:documentation>
+      <ts:documentation>TSTF and author agree this is valid</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB025">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB025.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="stable" date="2008-06-20" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"/>
+      <ts:prior status="queried" date="2006-12-22" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"/>
+      <ts:prior status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB026">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the restriction Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB026">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB026.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB027">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the schema Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB027">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB027.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB028">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the selector Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB028">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB028.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB029">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the sequence Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB029">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB029.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB030">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the simpleContent Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB030">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB030.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB031">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the simpleType Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB031">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB031.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB032">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the union Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB032">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB032.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotB033">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare annotation twice under the unique Element</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotB033">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotB033.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotC001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content &lt;b/&gt; tags</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotC001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotC001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotC002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotC002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotC002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotC003">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotC003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotC003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotC004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotC004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotC004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotC005">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with two appinfos with text</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotC005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotC005.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotD001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content &lt;b/&gt; tags</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotD001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotD001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotD002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotD002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotD002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotD003">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotD003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotD003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotD004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotD004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotD004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotD005">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with two documentations with text</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotD005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotD005.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotE001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotE001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotE001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotE002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotE002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotE002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang=""</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF001.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="english"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF003">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang=" "</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF003.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="en"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF005">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="jp"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF005.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF006">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="ar"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF006">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF006.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF007">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="d"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF007">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF007.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF008">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\MIME\Database\Rfc1766</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF008">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF008.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotF009">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : Annotation with an arbit attribute foo="bar"</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotF009">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotF009.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotZ001">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : ID attribute in annotation</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotZ001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotZ001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotZ002">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : large number of annotation elements</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotZ002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotZ002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="annotZ004">
+    <ts:annotation>
+      <ts:documentation>TEST :Annotation Tests : test default namespace declared on xs:documentation should not overwrite the schema's default namespace</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"/>
+    <ts:schemaTest name="annotZ004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../msData/annotations/annotZ004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2006-07-16"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+</ts:testSet>

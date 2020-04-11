@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test:e xmlns:test="pSubstitutions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <c>1</c>
+</test:e>

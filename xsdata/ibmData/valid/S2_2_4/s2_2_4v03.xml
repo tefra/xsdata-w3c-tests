@@ -1,0 +1,15 @@
+<!-- xsdata instance -->
+<a:root xmlns:a="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hi1>
+    <e1 a1="0"/>
+    <e1 a1="1" a2="1"/>
+    <e2 a1="0" a2="0"/>
+    <e2 a1="1" a2="1"/>
+  </hi1>
+  <hi2>
+    <e1 a1="0"/>
+    <e1 a1="1" a2="1"/>
+    <e2 a1="0" a2="0"/>
+    <e2 a1="1" a2="1"/>
+  </hi2>
+</a:root>

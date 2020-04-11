@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataTypes>
+    <ID>Address</ID>
+    <IDREF>Address</IDREF>
+    <IDREFS>Address</IDREFS>
+    <ID>Address</ID>
+    <IDREF>Address</IDREF>
+    <IDREFS>Address</IDREFS>
+  </DataTypes>
+</Root>

@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<message mustUnderstand="YES">
+  <body>hello..</body>
+</message>

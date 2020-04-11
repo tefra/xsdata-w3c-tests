@@ -1,0 +1,17 @@
+<!-- xsdata instance -->
+<x2:MapInfo xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://www.mydefaultnamespace.com/SAP" x2:HideInactiveListBorder="false" x2:SelectionNamespaces="http://foo" x2:HideSingleMappedCellBorder="true">
+  <x2:Schema x2:ID="Schema3" x2:Namespace="http://www.mydefaultnamespace.com/SAP">
+    <xs:schema targetNamespace="http://www.mydefaultnamespace.com/SAP" elementFormDefault="qualified">
+      <xs:import namespace="http://schemas.microsoft.com/office/excel/2003/xml" schemaLocation="test93490_16.xsd"/>
+      <xs:element name="SAPCodeType">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="NS2item1" type="xs:string"/>
+            <xs:element name="NS2item2" type="xs:string"/>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <a/>
+  </x2:Schema>
+</x2:MapInfo>

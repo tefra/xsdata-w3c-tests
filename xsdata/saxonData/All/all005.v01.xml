@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<doc xmlns:a="http://a.ns/" xmlns:b="http://b.ns/">
+  <a:wasp/>
+  <a:ant/>
+  <a:earwig/>
+  <b:bee/>
+  <b:beetle/>
+  <b:maybug/>
+</doc>

@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<tns:foo xmlns:tns="http://xsdtesting" xmlns:a="b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:b xmlns:ns0="a">test</ns0:b>
+  <ns1:b xmlns:ns1="a">test</ns1:b>
+  <a:b>test</a:b>
+  <a:b>test</a:b>
+  <tns:bar>test</tns:bar>
+  <tns:bar>test</tns:bar>
+  <local/>
+  <local/>
+</tns:foo>

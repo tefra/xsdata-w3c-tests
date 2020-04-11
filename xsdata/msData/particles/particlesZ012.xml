@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<x:root xmlns:x="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <x:E2>1</x:E2>
+  <x:E1>true</x:E1>
+  <x:E1>true</x:E1>
+  <x:E1>false</x:E1>
+  <x:E1>x</x:E1>
+  <x:E1>y</x:E1>
+  <x:E3 x:att1="123"/>
+</x:root>

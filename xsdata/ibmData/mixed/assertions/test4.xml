@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<phonebill custId="XYZTelecom1001">
+  <plan>A</plan>
+  <rent>500</rent>
+</phonebill>

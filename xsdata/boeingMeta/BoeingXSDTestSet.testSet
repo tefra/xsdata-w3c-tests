@@ -1,0 +1,174 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna" name="BoeingXSDTestCases" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:annotation>
+    <ts:documentation>All the following test cases are derived from examples given in the W3C XML Schema
+			Part 0: Primer located at http://www.w3.org/TR/xmlschema-0/ with minor variation in the
+			specific features intended for each test.</ts:documentation>
+  </ts:annotation>
+  <ts:testGroup name="ipo1">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 1</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo1/ipo.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo1/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo1/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="ipo2">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 2</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo2">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo2/ipo.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo2/address.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo2/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo2/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="ipo3">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 3</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo3">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo3/ipo.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo3/address.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo3/itematt.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo3/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo3/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="ipo4">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 4</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo4">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo4/ipo.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo4/address.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo4/itematt.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo4/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo4/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="ipo5">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 5</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo5">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo5/ipo.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo5/address.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo5/itematt.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo5/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo5/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="ipo6">
+    <ts:annotation>
+      <ts:documentation>International Purchase Order 6</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Schemas"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#layer2"/>
+    <ts:schemaTest name="ipo6">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo6/ipo.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo6/address.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo6/itematt.xsd"/>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../boeingData/ipo6/extend.xsd"/>
+      <ts:expected validity="valid"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="ipo_1">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo6/ipo_1.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="ipo_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../boeingData/ipo6/ipo_2.xml"/>
+      <ts:expected validity="valid"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+</ts:testSet>

@@ -1,0 +1,25 @@
+<!-- xsdata instance -->
+<root>
+  <anyuri>http://tempuri</anyuri>
+  <hexbinary>abcd</hexbinary>
+  <month>--12</month>
+  <day>---15</day>
+  <monthday>--02-13</monthday>
+  <year>2004</year>
+  <date>1999-05-31</date>
+  <time>13:20:00-05:00</time>
+  <datetime>1999-05-31T13:20:00-05:00</datetime>
+  <duration>P1347Y</duration>
+  <decimal>56</decimal>
+  <decimal>-56</decimal>
+  <decimal>-562135</decimal>
+  <float>1.2</float>
+  <float>5.24276</float>
+  <float>5.24276</float>
+  <bool>true</bool>
+  <bool>false</bool>
+  <int>123</int>
+  <int>-123</int>
+  <string>this is a string</string>
+  <item>abc</item>
+</root>

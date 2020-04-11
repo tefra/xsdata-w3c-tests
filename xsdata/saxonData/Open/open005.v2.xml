@@ -1,0 +1,12 @@
+<!-- xsdata instance -->
+<doc xmlns:ns0="http://open.com/">
+  <ns0:extra>42</ns0:extra>
+  <ns0:extra>43</ns0:extra>
+  <ns0:extra>44</ns0:extra>
+  <ns0:extra>45</ns0:extra>
+  <ns0:extra>46</ns0:extra>
+  <ns0:extra>47</ns0:extra>
+  <a/>
+  <b/>
+  <c/>
+</doc>

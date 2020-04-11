@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<insi:root xmlns:insi="http://xstest-tns/schema11_D2_4_1_2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <List>123 456</List>
+  <List>123 987 456</List>
+  <List>123 987 567 456</List>
+</insi:root>

@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <e>true</e>
+  <e>5</e>
+  <e>abc</e>
+</root>

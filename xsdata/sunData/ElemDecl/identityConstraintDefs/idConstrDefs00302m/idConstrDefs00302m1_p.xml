@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/identityConstraintDefs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Element ID="e001" IDREF="e001" IDREFS="e001"/>
+  <Element ID="e002" IDREF="e001" IDREFS="e001 e002"/>
+</test:root>

@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/identityConstraintDefs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <person ssn="p008">William Smith</person>
+  <person ssn="p011">Anna Brown</person>
+  <person ssn="p007" parents="p008 p011">John Smith</person>
+</test:root>

@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<ns0:x xmlns:ns0="http://www.example.org">
+  <ns0:y>Hello World</ns0:y>
+</ns0:x>

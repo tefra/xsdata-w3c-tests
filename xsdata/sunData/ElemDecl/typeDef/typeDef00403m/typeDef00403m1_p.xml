@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<test:root xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <test:Global>true</test:Global>
+  <test:GlobalPreDefinedType>true</test:GlobalPreDefinedType>
+  <Local>1.1</Local>
+  <LocalPreDefinedType>true</LocalPreDefinedType>
+  <LocalInline>false</LocalInline>
+</test:root>

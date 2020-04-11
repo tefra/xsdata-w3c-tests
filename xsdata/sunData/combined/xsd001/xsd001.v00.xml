@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<foo:root xmlns:foo="http://foo.com">
+  <child>   </child>
+  <child>atleast3</child>
+  <child>10atmost  </child>
+  <child attr="12345"> jjj </child>
+</foo:root>

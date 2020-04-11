@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <foo>-5</foo>
+</test>

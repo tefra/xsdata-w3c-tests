@@ -1,0 +1,14 @@
+<!-- xsdata instance -->
+<test>
+  <x>
+    <a>hello</a>
+    <b>world</b>
+    <d>world..</d>
+  </x>
+  <y>
+    <a>hello</a>
+    <b>world</b>
+    <c>hello..</c>
+    <d>world..</d>
+  </y>
+</test>

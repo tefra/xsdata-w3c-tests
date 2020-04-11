@@ -1,10 +1,7 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
-@pytest.mark.xfail
-def test_ipo6_ipo_1():
+def test_ipo6_ipo_1(save_xml):
     """
     International Purchase Order 6
     """
@@ -15,11 +12,11 @@ def test_ipo6_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo6_ipo_2():
+def test_ipo6_ipo_2(save_xml):
     """
     International Purchase Order 6
     """
@@ -30,11 +27,11 @@ def test_ipo6_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo5_ipo_1():
+def test_ipo5_ipo_1(save_xml):
     """
     International Purchase Order 5
     """
@@ -45,11 +42,11 @@ def test_ipo5_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo5_ipo_2():
+def test_ipo5_ipo_2(save_xml):
     """
     International Purchase Order 5
     """
@@ -60,11 +57,11 @@ def test_ipo5_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo4_ipo_1():
+def test_ipo4_ipo_1(save_xml):
     """
     International Purchase Order 4
     """
@@ -75,11 +72,11 @@ def test_ipo4_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo4_ipo_2():
+def test_ipo4_ipo_2(save_xml):
     """
     International Purchase Order 4
     """
@@ -90,11 +87,11 @@ def test_ipo4_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo3_ipo_1():
+def test_ipo3_ipo_1(save_xml):
     """
     International Purchase Order 3
     """
@@ -105,11 +102,11 @@ def test_ipo3_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo3_ipo_2():
+def test_ipo3_ipo_2(save_xml):
     """
     International Purchase Order 3
     """
@@ -120,11 +117,11 @@ def test_ipo3_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo2_ipo_1():
+def test_ipo2_ipo_1(save_xml):
     """
     International Purchase Order 2
     """
@@ -135,11 +132,11 @@ def test_ipo2_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo2_ipo_2():
+def test_ipo2_ipo_2(save_xml):
     """
     International Purchase Order 2
     """
@@ -150,11 +147,11 @@ def test_ipo2_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo1_ipo_1():
+def test_ipo1_ipo_1(save_xml):
     """
     International Purchase Order 1
     """
@@ -165,11 +162,11 @@ def test_ipo1_ipo_1():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_ipo1_ipo_2():
+def test_ipo1_ipo_2(save_xml):
     """
     International Purchase Order 1
     """
@@ -180,4 +177,5 @@ def test_ipo1_ipo_2():
         instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.0",
+        save_xml=save_xml,
     )

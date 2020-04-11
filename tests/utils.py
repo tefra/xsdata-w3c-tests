@@ -16,6 +16,7 @@ from xsdata.utils import text
 log = logging.getLogger()
 
 w3c = Path(__file__).absolute().parent.parent.joinpath("w3c")
+output = Path(__file__).absolute().parent.parent.joinpath("xsdata")
 os.chdir(w3c.parent)
 
 
@@ -26,6 +27,7 @@ def assert_bindings(
     instance_is_valid: bool,
     class_name: str,
     version: str,
+    save_xml: bool,
 ):
     __tracebackhide__ = True
     if not schema:
@@ -43,9 +45,10 @@ def assert_bindings(
         raise result.exception
 
     try:
+        instance_path = w3c.joinpath(instance)
         clazz = load_class(result.output, class_name)
         parser = XmlParser()
-        obj = parser.from_path(w3c.joinpath(instance), clazz)
+        obj = parser.from_path(instance_path, clazz)
     except Exception as e:
         if instance_is_valid:
             raise e
@@ -57,9 +60,14 @@ def assert_bindings(
     if schema_validator is None and is_valid:
         pytest.skip("Schema validator failed on parsing definition")
 
-    tree = None
     try:
         tree = XmlSerializer().render_tree(obj, parser.namespaces)
+        if save_xml:
+            xsdata_instance = output.joinpath(instance)
+            xsdata_instance.parent.mkdir(parents=True, exist_ok=True)
+            xsdata_instance.write_bytes(
+                b"<!-- xsdata instance -->\n" + etree.tostring(tree, pretty_print=True)
+            )
         return assert_valid(schema_validator, tree)
     except Exception as e:
         try:
@@ -67,10 +75,6 @@ def assert_bindings(
             assert_valid(schema_validator, original_tree)
         except Exception:
             pytest.skip("Original instance failed to validate!")
-
-        if tree is not None:
-            xml_instance = etree.tostring(tree, pretty_print=True).decode()
-            log.error(xml_instance)
 
         raise e
 

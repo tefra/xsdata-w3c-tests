@@ -4,7 +4,7 @@ from tests.utils import assert_bindings
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_ee1s_xml():
+def test_sg_abstract_edc_ee1s_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -13,11 +13,12 @@ def test_sg_abstract_edc_ee1s_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_ee1t_xml():
+def test_sg_abstract_edc_ee1t_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -26,11 +27,12 @@ def test_sg_abstract_edc_ee1t_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_ee1i_xml():
+def test_sg_abstract_edc_ee1i_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -39,11 +41,12 @@ def test_sg_abstract_edc_ee1i_xml():
         instance_is_valid=True,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1se1s_xml():
+def test_sg_abstract_edc_e1se1s_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -52,11 +55,12 @@ def test_sg_abstract_edc_e1se1s_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1se1t_xml():
+def test_sg_abstract_edc_e1se1t_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -65,11 +69,12 @@ def test_sg_abstract_edc_e1se1t_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1se1i_xml():
+def test_sg_abstract_edc_e1se1i_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -78,11 +83,12 @@ def test_sg_abstract_edc_e1se1i_xml():
         instance_is_valid=False,
         class_name="",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ite1s_xml():
+def test_sg_abstract_edc_e1ite1s_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -91,11 +97,12 @@ def test_sg_abstract_edc_e1ite1s_xml():
         instance_is_valid=False,
         class_name="",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ite1t_xml():
+def test_sg_abstract_edc_e1ite1t_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -104,11 +111,12 @@ def test_sg_abstract_edc_e1ite1t_xml():
         instance_is_valid=False,
         class_name="",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ite1i_xml():
+def test_sg_abstract_edc_e1ite1i_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -117,11 +125,12 @@ def test_sg_abstract_edc_e1ite1i_xml():
         instance_is_valid=False,
         class_name="",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ie1s_xml():
+def test_sg_abstract_edc_e1ie1s_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -130,11 +139,12 @@ def test_sg_abstract_edc_e1ie1s_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ie1t_xml():
+def test_sg_abstract_edc_e1ie1t_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -143,11 +153,12 @@ def test_sg_abstract_edc_e1ie1t_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-def test_sg_abstract_edc_e1ie1i_xml():
+def test_sg_abstract_edc_e1ie1i_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/edc.xsd",
@@ -156,10 +167,11 @@ def test_sg_abstract_edc_e1ie1i_xml():
         instance_is_valid=False,
         class_name="",
         version="1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa2_e1_xml():
+def test_sg_abstract_upa2_e1_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa2.xsd",
@@ -168,10 +180,11 @@ def test_sg_abstract_upa2_e1_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa2_e1bis_xml():
+def test_sg_abstract_upa2_e1bis_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa2.xsd",
@@ -180,10 +193,11 @@ def test_sg_abstract_upa2_e1bis_xml():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa2_e1token_xml():
+def test_sg_abstract_upa2_e1token_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa2.xsd",
@@ -192,10 +206,11 @@ def test_sg_abstract_upa2_e1token_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa2_e1short_xml():
+def test_sg_abstract_upa2_e1short_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa2.xsd",
@@ -204,10 +219,11 @@ def test_sg_abstract_upa2_e1short_xml():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa_e1_xml():
+def test_sg_abstract_upa_e1_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa.xsd",
@@ -216,10 +232,11 @@ def test_sg_abstract_upa_e1_xml():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa_e1token_xml():
+def test_sg_abstract_upa_e1token_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa.xsd",
@@ -228,10 +245,11 @@ def test_sg_abstract_upa_e1token_xml():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_abstract_upa_e1short_xml():
+def test_sg_abstract_upa_e1short_xml(save_xml):
 
     assert_bindings(
         schema="wgData/sg/upa.xsd",
@@ -240,10 +258,11 @@ def test_sg_abstract_upa_e1short_xml():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_sns1a():
+def test_sg_and_defined_sibling_3_sns1a(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -252,11 +271,12 @@ def test_sg_and_defined_sibling_3_sns1a():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.xfail
-def test_sg_and_defined_sibling_3_sns1b():
+def test_sg_and_defined_sibling_3_sns1b(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -265,10 +285,11 @@ def test_sg_and_defined_sibling_3_sns1b():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_sns1c():
+def test_sg_and_defined_sibling_3_sns1c(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -277,10 +298,11 @@ def test_sg_and_defined_sibling_3_sns1c():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_snn1a():
+def test_sg_and_defined_sibling_3_snn1a(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -289,10 +311,11 @@ def test_sg_and_defined_sibling_3_snn1a():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_snn1b():
+def test_sg_and_defined_sibling_3_snn1b(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -301,10 +324,11 @@ def test_sg_and_defined_sibling_3_snn1b():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_snn1c():
+def test_sg_and_defined_sibling_3_snn1c(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -313,10 +337,11 @@ def test_sg_and_defined_sibling_3_snn1c():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_snea():
+def test_sg_and_defined_sibling_3_snea(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -325,10 +350,11 @@ def test_sg_and_defined_sibling_3_snea():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_sneb():
+def test_sg_and_defined_sibling_3_sneb(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -337,10 +363,11 @@ def test_sg_and_defined_sibling_3_sneb():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_3_snec():
+def test_sg_and_defined_sibling_3_snec(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snbranch.xsd",
@@ -349,10 +376,11 @@ def test_sg_and_defined_sibling_3_snec():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_2_esn():
+def test_sg_and_defined_sibling_2_esn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/negsn.xsd",
@@ -361,10 +389,11 @@ def test_sg_and_defined_sibling_2_esn():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_2_nsn():
+def test_sg_and_defined_sibling_2_nsn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/negsn.xsd",
@@ -373,10 +402,11 @@ def test_sg_and_defined_sibling_2_nsn():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_2_ssn():
+def test_sg_and_defined_sibling_2_ssn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/negsn.xsd",
@@ -385,10 +415,11 @@ def test_sg_and_defined_sibling_2_ssn():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_2_n1sn():
+def test_sg_and_defined_sibling_2_n1sn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/negsn.xsd",
@@ -397,10 +428,11 @@ def test_sg_and_defined_sibling_2_n1sn():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_2_s1sn():
+def test_sg_and_defined_sibling_2_s1sn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/negsn.xsd",
@@ -409,10 +441,11 @@ def test_sg_and_defined_sibling_2_s1sn():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_sn():
+def test_sg_and_defined_sibling_1_sn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -421,10 +454,11 @@ def test_sg_and_defined_sibling_1_sn():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_s1n():
+def test_sg_and_defined_sibling_1_s1n(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -433,10 +467,11 @@ def test_sg_and_defined_sibling_1_s1n():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_sn1():
+def test_sg_and_defined_sibling_1_sn1(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -445,10 +480,11 @@ def test_sg_and_defined_sibling_1_sn1():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_sne():
+def test_sg_and_defined_sibling_1_sne(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -457,10 +493,11 @@ def test_sg_and_defined_sibling_1_sne():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_snn():
+def test_sg_and_defined_sibling_1_snn(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -469,10 +506,11 @@ def test_sg_and_defined_sibling_1_snn():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_sns():
+def test_sg_and_defined_sibling_1_sns(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -481,10 +519,11 @@ def test_sg_and_defined_sibling_1_sns():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_snn1():
+def test_sg_and_defined_sibling_1_snn1(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -493,10 +532,11 @@ def test_sg_and_defined_sibling_1_snn1():
         instance_is_valid=True,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_sg_and_defined_sibling_1_sns1():
+def test_sg_and_defined_sibling_1_sns1(save_xml):
 
     assert_bindings(
         schema="wgData/sg/snneg.xsd",
@@ -505,10 +545,11 @@ def test_sg_and_defined_sibling_1_sns1():
         instance_is_valid=False,
         class_name="Test",
         version="1.0 1.1",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_valid_001():
+def test_iri_001_uri_3986_valid_001(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -517,10 +558,11 @@ def test_iri_001_uri_3986_valid_001():
         instance_is_valid=True,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_valid_002():
+def test_iri_001_uri_3986_valid_002(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -529,10 +571,11 @@ def test_iri_001_uri_3986_valid_002():
         instance_is_valid=True,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_valid_003():
+def test_iri_001_uri_3986_valid_003(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -541,10 +584,11 @@ def test_iri_001_uri_3986_valid_003():
         instance_is_valid=True,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_invalid_001():
+def test_iri_001_uri_3986_invalid_001(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -553,10 +597,11 @@ def test_iri_001_uri_3986_invalid_001():
         instance_is_valid=False,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_invalid_002():
+def test_iri_001_uri_3986_invalid_002(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -565,10 +610,11 @@ def test_iri_001_uri_3986_invalid_002():
         instance_is_valid=False,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_uri_3986_invalid_003():
+def test_iri_001_uri_3986_invalid_003(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -577,10 +623,11 @@ def test_iri_001_uri_3986_invalid_003():
         instance_is_valid=False,
         class_name="Uri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_valid_001():
+def test_iri_001_absolute_uri_3986_valid_001(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -589,10 +636,11 @@ def test_iri_001_absolute_uri_3986_valid_001():
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_valid_002():
+def test_iri_001_absolute_uri_3986_valid_002(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -601,10 +649,11 @@ def test_iri_001_absolute_uri_3986_valid_002():
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_valid_003():
+def test_iri_001_absolute_uri_3986_valid_003(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -613,10 +662,11 @@ def test_iri_001_absolute_uri_3986_valid_003():
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_invalid_001():
+def test_iri_001_absolute_uri_3986_invalid_001(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -625,10 +675,11 @@ def test_iri_001_absolute_uri_3986_invalid_001():
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_invalid_002():
+def test_iri_001_absolute_uri_3986_invalid_002(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -637,10 +688,11 @@ def test_iri_001_absolute_uri_3986_invalid_002():
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_iri_001_absolute_uri_3986_invalid_003():
+def test_iri_001_absolute_uri_3986_invalid_003(save_xml):
 
     assert_bindings(
         schema="wgData/iri/ElementDeclarations.xsd",
@@ -649,4 +701,5 @@ def test_iri_001_absolute_uri_3986_invalid_003():
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
         version="1.0",
+        save_xml=save_xml,
     )

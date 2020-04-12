@@ -104,10 +104,7 @@ def initialize_validator(path: Path, version: str):
         else:
             return xmlschema.XMLSchema10(str(path))
     except Exception:
-        if version == "1.1":
-            return xmlschema.XMLSchema10(str(path))
-        else:
-            return xmlschema.XMLSchema11(str(path))
+        return None
 
 
 def load_class(output, clazz_name):

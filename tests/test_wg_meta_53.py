@@ -32,7 +32,6 @@ def test_sg_abstract_edc_ee1t_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_sg_abstract_edc_ee1i_xml(save_xml):
 
     assert_bindings(

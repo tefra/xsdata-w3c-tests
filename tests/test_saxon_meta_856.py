@@ -3378,7 +3378,6 @@ def test_cta0018_cta0018_v01(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0017_cta0017_v01(save_xml):
     """
     Type alternative using a simple type XPath expression can only access
@@ -5807,7 +5806,6 @@ def test_missing003_missing003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.xfail
 def test_missing002_missing001_v1_xml(save_xml):
     """
     Element declaration with missing substitution group head Error only if
@@ -5824,7 +5822,6 @@ def test_missing002_missing001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.xfail
 def test_missing002_missing001_n1_xml(save_xml):
     """
     Element declaration with missing substitution group head Error only if
@@ -13719,7 +13716,6 @@ def test_xv005_xv005_n02_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_xv004_xv004_v01_xml(save_xml):
     """
     Use newly-allowed name characters in schema component names Non-BMP

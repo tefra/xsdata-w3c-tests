@@ -10,16 +10,16 @@ from typing import List
 from typing import Union
 
 from lxml import etree
-from xsdata.formats.dataclass.models.generics import AnyElement
-from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.formats.generators import PythonAbstractGenerator
-from xsdata.utils import text
 
 from models.xsts import Expected
 from models.xsts import TestGroup
 from models.xsts import TestOutcome
 from models.xsts import TestSet
 from models.xsts import TestSuite
+from xsdata.formats.dataclass.models.generics import AnyElement
+from xsdata.formats.dataclass.parsers import XmlParser
+from xsdata.formats.generators import PythonAbstractGenerator
+from xsdata.utils import text
 
 root = Path(__file__).absolute().parent
 w3c = root.joinpath("w3c")
@@ -145,8 +145,8 @@ def fetch_test_cases() -> Iterator[TestCase]:
 def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
-    version = "1.0"
     doc_index = 0
+    schema_version = None
 
     if (
         group.schema_test
@@ -154,10 +154,6 @@ def make_test_cases(path: Path, group: TestGroup):
         and group.schema_test.schema_document[0].href
     ):
         schema_validity = validity(group.schema_test.expected)
-        version = schema_validity.version or "1.0"
-        if group.name == "particlesZ012":
-            version = "1.1"
-
         if group.name in ("wildZ003", "ctZ007"):
             doc_index = 1
 
@@ -171,7 +167,6 @@ def make_test_cases(path: Path, group: TestGroup):
 
         schema_is_valid = schema_validity.validity == TestOutcome.VALID
 
-    version = group.version or version
     schema_name = text.snake_case(group.name)
     documentation = make_docstring(group)
 
@@ -183,6 +178,7 @@ def make_test_cases(path: Path, group: TestGroup):
         instance_href = instance_path.relative_to(w3c)
         instance_validity = validity(instance.expected)
         class_name = read_root_name(instance_path)
+        version = pick_version(schema_version, group.version)
 
         yield TestCase(
             path=path,
@@ -218,6 +214,20 @@ def validity(expects: List[Expected]) -> Expected:
         )
 
     return expect if expect else expects[0]
+
+
+def pick_version(*args):
+    choices = set()
+    for arg in args:
+        if arg:
+            choices.update(arg.split(" "))
+
+    if "1.1" in choices:
+        return "1.1"
+    elif "1.0" in choices:
+        return "1.0"
+    else:
+        return "1.1"
 
 
 def make_docstring(group: TestGroup) -> str:

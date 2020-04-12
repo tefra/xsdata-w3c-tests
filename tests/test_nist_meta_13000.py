@@ -1,6 +1,9 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
+@pytest.mark.schema11
 def test_atomic_negative_integer_min_exclusive_5_nistxml_sv_ii_atomic_negative_integer_min_exclusive_1_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minExclusive with
@@ -12,11 +15,12 @@ def test_atomic_negative_integer_min_exclusive_5_nistxml_sv_ii_atomic_negative_i
         instance="nistData/atomic/negativeInteger/Schema+Instance/NISTXML-SV-II-atomic-negativeInteger-minExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -27,11 +31,12 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -42,11 +47,12 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -57,11 +63,12 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -72,11 +79,12 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -87,11 +95,12 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -102,11 +111,12 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -117,11 +127,12 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -132,11 +143,12 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -147,11 +159,12 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -162,11 +175,12 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -177,11 +191,12 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -192,11 +207,12 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -207,11 +223,12 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -222,11 +239,12 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -237,11 +255,12 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -252,11 +271,12 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -267,11 +287,12 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -282,11 +303,12 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -297,11 +319,12 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -312,11 +335,12 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -327,11 +351,12 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -342,11 +367,12 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -357,11 +383,12 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -372,11 +399,12 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet enumeration.
@@ -387,11 +415,12 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-enumeration-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_1(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -403,11 +432,12 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_2(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -419,11 +449,12 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_3(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -435,11 +466,12 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_4(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -451,11 +483,12 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_5(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -467,11 +500,12 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_1(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -483,11 +517,12 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_2(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -499,11 +534,12 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_3(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -515,11 +551,12 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_4(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -531,11 +568,12 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_5(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -547,11 +585,12 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_1(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -563,11 +602,12 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_2(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -579,11 +619,12 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_3(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -595,11 +636,12 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_4(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -611,11 +653,12 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_5(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -627,11 +670,12 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_1(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -643,11 +687,12 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_2(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -659,11 +704,12 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_3(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -675,11 +721,12 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_4(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -691,11 +738,12 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_5(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -707,11 +755,12 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_1(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -723,11 +772,12 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_2(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -739,11 +789,12 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_3(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -755,11 +806,12 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_4(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -771,11 +823,12 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_5(save_xml):
     r"""
     Type atomic/nonPositiveInteger is restricted by facet pattern with
@@ -787,11 +840,12 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-pattern-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -803,11 +857,12 @@ def test_atomic_non_positive_integer_max_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -819,11 +874,12 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -835,11 +891,12 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -851,11 +908,12 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -867,11 +925,12 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -883,11 +942,12 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -899,11 +959,12 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -915,11 +976,12 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -931,11 +993,12 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -947,11 +1010,12 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -963,11 +1027,12 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -979,11 +1044,12 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -995,11 +1061,12 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1011,11 +1078,12 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1027,11 +1095,12 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1043,11 +1112,12 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1059,11 +1129,12 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1075,11 +1146,12 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1091,11 +1163,12 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1107,11 +1180,12 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxExclusive
@@ -1123,11 +1197,12 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-maxExclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1139,11 +1214,12 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1155,11 +1231,12 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1171,11 +1248,12 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1187,11 +1265,12 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1203,11 +1282,12 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1219,11 +1299,12 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1235,11 +1316,12 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1251,11 +1333,12 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1267,11 +1350,12 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1283,11 +1367,12 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1299,11 +1384,12 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1315,11 +1401,12 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1331,11 +1418,12 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1347,11 +1435,12 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1363,11 +1452,12 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1379,11 +1469,12 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1395,11 +1486,12 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1411,11 +1503,12 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1427,11 +1520,12 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1443,11 +1537,12 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_non_positive_integer_min_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_1_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minExclusive
@@ -1459,11 +1554,12 @@ def test_atomic_non_positive_integer_min_exclusive_5_nistxml_sv_ii_atomic_non_po
         instance="nistData/atomic/nonPositiveInteger/Schema+Instance/NISTXML-SV-II-atomic-nonPositiveInteger-minExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1474,11 +1570,12 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_2(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1489,11 +1586,12 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_3(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1504,11 +1602,12 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_4(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1519,11 +1618,12 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_5(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1534,11 +1634,12 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1549,11 +1650,12 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1564,11 +1666,12 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1579,11 +1682,12 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1594,11 +1698,12 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1609,11 +1714,12 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1624,11 +1730,12 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1639,11 +1746,12 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1654,11 +1762,12 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1669,11 +1778,12 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1684,11 +1794,12 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1699,11 +1810,12 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1714,11 +1826,12 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1729,11 +1842,12 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1744,11 +1858,12 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1759,11 +1874,12 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_1(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1774,11 +1890,12 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_2(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1789,11 +1906,12 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_3(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1804,11 +1922,12 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_4(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1819,11 +1938,12 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_5(save_xml):
     """
     Type atomic/integer is restricted by facet enumeration.
@@ -1834,11 +1954,12 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-enumeration-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_1(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
@@ -1849,11 +1970,12 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_1(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_2(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
@@ -1864,11 +1986,12 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_2(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_3(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
@@ -1879,11 +2002,12 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_3(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_4(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
@@ -1894,11 +2018,12 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_4(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_5(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{18}.
@@ -1909,11 +2034,12 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_5(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_1(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
@@ -1924,11 +2050,12 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_1(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_2(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
@@ -1939,11 +2066,12 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_2(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_3(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
@@ -1954,11 +2082,12 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_3(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_4(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
@@ -1969,11 +2098,12 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_4(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_5(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \d{5}.
@@ -1984,11 +2114,12 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_5(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_1(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
@@ -1999,11 +2130,12 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_1(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_2(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
@@ -2014,11 +2146,12 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_2(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_3(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
@@ -2029,11 +2162,12 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_3(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_4(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
@@ -2044,11 +2178,12 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_4(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_5(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{1}.
@@ -2059,11 +2194,12 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_5(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_1(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
@@ -2074,11 +2210,12 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_1(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_2(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
@@ -2089,11 +2226,12 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_2(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_3(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
@@ -2104,11 +2242,12 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_3(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_4(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
@@ -2119,11 +2258,12 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_4(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_5(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value \-\d{9}.
@@ -2134,11 +2274,12 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_5(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_1(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value
@@ -2150,11 +2291,12 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_1(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_2(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value
@@ -2166,11 +2308,12 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_2(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_3(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value
@@ -2182,11 +2325,12 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_3(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_4(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value
@@ -2198,11 +2342,12 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_4(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_5(save_xml):
     r"""
     Type atomic/integer is restricted by facet pattern with value
@@ -2214,11 +2359,12 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_5(save_
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-pattern-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_9_nistxml_sv_ii_atomic_integer_max_exclusive_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2230,11 +2376,12 @@ def test_atomic_integer_max_exclusive_9_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2246,11 +2393,12 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2262,11 +2410,12 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2278,11 +2427,12 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2294,11 +2444,12 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2310,11 +2461,12 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2326,11 +2478,12 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2342,11 +2495,12 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2358,11 +2512,12 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2374,11 +2529,12 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2390,11 +2546,12 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2406,11 +2563,12 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2422,11 +2580,12 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2438,11 +2597,12 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2454,11 +2614,12 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2470,11 +2631,12 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2486,11 +2648,12 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2502,11 +2665,12 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2518,11 +2682,12 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2534,11 +2699,12 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxExclusive with value
@@ -2550,11 +2716,12 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-maxExclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2566,11 +2733,12 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_2(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2582,11 +2750,12 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_3(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2598,11 +2767,12 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_4(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2614,11 +2784,12 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_5(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2630,11 +2801,12 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2646,11 +2818,12 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2662,11 +2835,12 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2678,11 +2852,12 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2694,11 +2869,12 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2710,11 +2886,12 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2726,11 +2903,12 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2742,11 +2920,12 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2758,11 +2937,12 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2774,11 +2954,12 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2790,11 +2971,12 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2806,11 +2988,12 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2822,11 +3005,12 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2838,11 +3022,12 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2854,11 +3039,12 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2870,11 +3056,12 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_integer_min_exclusive_5_nistxml_sv_ii_atomic_integer_min_exclusive_1_1(save_xml):
     """
     Type atomic/integer is restricted by facet minExclusive with value
@@ -2886,11 +3073,12 @@ def test_atomic_integer_min_exclusive_5_nistxml_sv_ii_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-II-atomic-integer-minExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2901,11 +3089,12 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2916,11 +3105,12 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2931,11 +3121,12 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2946,11 +3137,12 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2961,11 +3153,12 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2976,11 +3169,12 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -2991,11 +3185,12 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3006,11 +3201,12 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3021,11 +3217,12 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3036,11 +3233,12 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3051,11 +3249,12 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3066,11 +3265,12 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3081,11 +3281,12 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3096,11 +3297,12 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3111,11 +3313,12 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3126,11 +3329,12 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3141,11 +3345,12 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3156,11 +3361,12 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3171,11 +3377,12 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3186,11 +3393,12 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3201,11 +3409,12 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_2(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3216,11 +3425,12 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_3(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3231,11 +3441,12 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_4(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3246,11 +3457,12 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_5(save_xml):
     """
     Type atomic/decimal is restricted by facet enumeration.
@@ -3261,11 +3473,12 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-enumeration-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalEnumeration1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3277,11 +3490,12 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3293,11 +3507,12 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3309,11 +3524,12 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3325,11 +3541,12 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3341,11 +3558,12 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3357,11 +3575,12 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3373,11 +3592,12 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3389,11 +3609,12 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3405,11 +3626,12 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3421,11 +3643,12 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3437,11 +3660,12 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3453,11 +3677,12 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3469,11 +3694,12 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3485,11 +3711,12 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3501,11 +3728,12 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3517,11 +3745,12 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3533,11 +3762,12 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3549,11 +3779,12 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3565,11 +3796,12 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
@@ -3581,11 +3813,12 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_1(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -3596,11 +3829,12 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_2(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -3611,11 +3845,12 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_3(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -3626,11 +3861,12 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_4(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -3641,11 +3877,12 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_5(save_xml):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
@@ -3656,11 +3893,12 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-pattern-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalPattern1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_9_nistxml_sv_ii_atomic_decimal_max_exclusive_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3672,11 +3910,12 @@ def test_atomic_decimal_max_exclusive_9_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3688,11 +3927,12 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3704,11 +3944,12 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3720,11 +3961,12 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3736,11 +3978,12 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3752,11 +3995,12 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3768,11 +4012,12 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3784,11 +4029,12 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3800,11 +4046,12 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3816,11 +4063,12 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3832,11 +4080,12 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3848,11 +4097,12 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3864,11 +4114,12 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3880,11 +4131,12 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3896,11 +4148,12 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3912,11 +4165,12 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3928,11 +4182,12 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3944,11 +4199,12 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3960,11 +4216,12 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3976,11 +4233,12 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
@@ -3992,11 +4250,12 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-maxExclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4008,11 +4267,12 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4024,11 +4284,12 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4040,11 +4301,12 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4056,11 +4318,12 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4072,11 +4335,12 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4088,11 +4352,12 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4104,11 +4369,12 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4120,11 +4386,12 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4136,11 +4403,12 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4152,11 +4420,12 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4168,11 +4437,12 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4184,11 +4454,12 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4200,11 +4471,12 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4216,11 +4488,12 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4232,11 +4505,12 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4248,11 +4522,12 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4264,11 +4539,12 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4280,11 +4556,12 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4296,11 +4573,12 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4312,11 +4590,12 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_decimal_min_exclusive_5_nistxml_sv_ii_atomic_decimal_min_exclusive_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
@@ -4328,11 +4607,12 @@ def test_atomic_decimal_min_exclusive_5_nistxml_sv_ii_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-II-atomic-decimal-minExclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinExclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4344,11 +4624,12 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4360,11 +4641,12 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4376,11 +4658,12 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4392,11 +4675,12 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4408,11 +4692,12 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4424,11 +4709,12 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4440,11 +4726,12 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4456,11 +4743,12 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4472,11 +4760,12 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4488,11 +4777,12 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4504,11 +4794,12 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4520,11 +4811,12 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4536,11 +4828,12 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4552,11 +4845,12 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4568,11 +4862,12 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4584,11 +4879,12 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4600,11 +4896,12 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4616,11 +4913,12 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4632,11 +4930,12 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4648,11 +4947,12 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4664,11 +4964,12 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4680,11 +4981,12 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4696,11 +4998,12 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4712,11 +5015,12 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -4728,11 +5032,12 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4744,11 +5049,12 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4760,11 +5066,12 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4776,11 +5083,12 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4792,11 +5100,12 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4808,11 +5117,12 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4824,11 +5134,12 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4840,11 +5151,12 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4856,11 +5168,12 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4872,11 +5185,12 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4888,11 +5202,12 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4904,11 +5219,12 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4920,11 +5236,12 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4936,11 +5253,12 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4952,11 +5270,12 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4968,11 +5287,12 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -4984,11 +5304,12 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5000,11 +5321,12 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5016,11 +5338,12 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5032,11 +5355,12 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5048,11 +5372,12 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5064,11 +5389,12 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5080,11 +5406,12 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5096,11 +5423,12 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5112,11 +5440,12 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -5128,11 +5457,12 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
         instance="nistData/atomic/gMonth/Schema+Instance/NISTXML-SV-II-atomic-gMonth-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---12.
@@ -5143,11 +5473,12 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---12.
@@ -5158,11 +5489,12 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---12.
@@ -5173,11 +5505,12 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---12.
@@ -5188,11 +5521,12 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---12.
@@ -5203,11 +5537,12 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5218,11 +5553,12 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5233,11 +5569,12 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5248,11 +5585,12 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5263,11 +5601,12 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5278,11 +5617,12 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5293,11 +5633,12 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5308,11 +5649,12 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5323,11 +5665,12 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5338,11 +5681,12 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---05.
@@ -5353,11 +5697,12 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_6_nistxml_sv_ii_atomic_g_day_max_inclusive_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---30.
@@ -5368,11 +5713,12 @@ def test_atomic_g_day_max_inclusive_6_nistxml_sv_ii_atomic_g_day_max_inclusive_2
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -5383,11 +5729,12 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -5398,11 +5745,12 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -5413,11 +5761,12 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -5428,11 +5777,12 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -5443,11 +5793,12 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -5458,11 +5809,12 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -5473,11 +5825,12 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -5488,11 +5841,12 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -5503,11 +5857,12 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -5518,11 +5873,12 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -5533,11 +5889,12 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -5548,11 +5905,12 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -5563,11 +5921,12 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -5578,11 +5937,12 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -5593,11 +5953,12 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---05.
@@ -5608,11 +5969,12 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---05.
@@ -5623,11 +5985,12 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---05.
@@ -5638,11 +6001,12 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---05.
@@ -5653,11 +6017,12 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---05.
@@ -5668,11 +6033,12 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---11.
@@ -5683,11 +6049,12 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---11.
@@ -5698,11 +6065,12 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---11.
@@ -5713,11 +6081,12 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---11.
@@ -5728,11 +6097,12 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---11.
@@ -5743,11 +6113,12 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
         instance="nistData/atomic/gDay/Schema+Instance/NISTXML-SV-II-atomic-gDay-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5759,11 +6130,12 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5775,11 +6147,12 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5791,11 +6164,12 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5807,11 +6181,12 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5823,11 +6198,12 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5839,11 +6215,12 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5855,11 +6232,12 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5871,11 +6249,12 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5887,11 +6266,12 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5903,11 +6283,12 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5919,11 +6300,12 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5935,11 +6317,12 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5951,11 +6334,12 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5967,11 +6351,12 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5983,11 +6368,12 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -5999,11 +6385,12 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6015,11 +6402,12 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6031,11 +6419,12 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6047,11 +6436,12 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6063,11 +6453,12 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6079,11 +6470,12 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6095,11 +6487,12 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6111,11 +6504,12 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6127,11 +6521,12 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -6143,11 +6538,12 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6159,11 +6555,12 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6175,11 +6572,12 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6191,11 +6589,12 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6207,11 +6606,12 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6223,11 +6623,12 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6239,11 +6640,12 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6255,11 +6657,12 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6271,11 +6674,12 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6287,11 +6691,12 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6303,11 +6708,12 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6319,11 +6725,12 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6335,11 +6742,12 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6351,11 +6759,12 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6367,11 +6776,12 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6383,11 +6793,12 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6399,11 +6810,12 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6415,11 +6827,12 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6431,11 +6844,12 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6447,11 +6861,12 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6463,11 +6878,12 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6479,11 +6895,12 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6495,11 +6912,12 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6511,11 +6929,12 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6527,11 +6946,12 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -6543,11 +6963,12 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
         instance="nistData/atomic/gMonthDay/Schema+Instance/NISTXML-SV-II-atomic-gMonthDay-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGMonthDayMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1982.
@@ -6558,11 +6979,12 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1982.
@@ -6573,11 +6995,12 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1982.
@@ -6588,11 +7011,12 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1982.
@@ -6603,11 +7027,12 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1982.
@@ -6618,11 +7043,12 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1985.
@@ -6633,11 +7059,12 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1985.
@@ -6648,11 +7075,12 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1985.
@@ -6663,11 +7091,12 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1985.
@@ -6678,11 +7107,12 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1985.
@@ -6693,11 +7123,12 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1993.
@@ -6708,11 +7139,12 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1993.
@@ -6723,11 +7155,12 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1993.
@@ -6738,11 +7171,12 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1993.
@@ -6753,11 +7187,12 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1993.
@@ -6768,11 +7203,12 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1978.
@@ -6783,11 +7219,12 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1978.
@@ -6798,11 +7235,12 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1978.
@@ -6813,11 +7251,12 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1978.
@@ -6828,11 +7267,12 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1978.
@@ -6843,11 +7283,12 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -6858,11 +7299,12 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -6873,11 +7315,12 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -6888,11 +7331,12 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -6903,11 +7347,12 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -6918,11 +7363,12 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -6933,11 +7379,12 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -6948,11 +7395,12 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -6963,11 +7411,12 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -6978,11 +7427,12 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -6993,11 +7443,12 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1980.
@@ -7008,11 +7459,12 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1980.
@@ -7023,11 +7475,12 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1980.
@@ -7038,11 +7491,12 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1980.
@@ -7053,11 +7507,12 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1980.
@@ -7068,11 +7523,12 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2017.
@@ -7083,11 +7539,12 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2017.
@@ -7098,11 +7555,12 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2017.
@@ -7113,11 +7571,12 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2017.
@@ -7128,11 +7587,12 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2017.
@@ -7143,11 +7603,12 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7158,11 +7619,12 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7173,11 +7635,12 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7188,11 +7651,12 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7203,11 +7667,12 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7218,11 +7683,12 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7233,11 +7699,12 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7248,11 +7715,12 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7263,11 +7731,12 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7278,11 +7747,12 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2019.
@@ -7293,11 +7763,12 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
         instance="nistData/atomic/gYear/Schema+Instance/NISTXML-SV-II-atomic-gYear-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7309,11 +7780,12 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7325,11 +7797,12 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7341,11 +7814,12 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7357,11 +7831,12 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7373,11 +7848,12 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7389,11 +7865,12 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7405,11 +7882,12 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7421,11 +7899,12 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7437,11 +7916,12 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7453,11 +7933,12 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7469,11 +7950,12 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7485,11 +7967,12 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7501,11 +7984,12 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7517,11 +8001,12 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7533,11 +8018,12 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7549,11 +8035,12 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7565,11 +8052,12 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7581,11 +8069,12 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7597,11 +8086,12 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7613,11 +8103,12 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7629,11 +8120,12 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7645,11 +8137,12 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7661,11 +8154,12 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7677,11 +8171,12 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet maxInclusive with value
@@ -7693,11 +8188,12 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7709,11 +8205,12 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7725,11 +8222,12 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7741,11 +8239,12 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7757,11 +8256,12 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7773,11 +8273,12 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7789,11 +8290,12 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7805,11 +8307,12 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7821,11 +8324,12 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7837,11 +8341,12 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7853,11 +8358,12 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7869,11 +8375,12 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7885,11 +8392,12 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7901,11 +8409,12 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7917,11 +8426,12 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7933,11 +8443,12 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7949,11 +8460,12 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7965,11 +8477,12 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7981,11 +8494,12 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -7997,11 +8511,12 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8013,11 +8528,12 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_1(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8029,11 +8545,12 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_2(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8045,11 +8562,12 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_3(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8061,11 +8579,12 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_4(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8077,11 +8596,12 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_5(save_xml):
     """
     Type atomic/gYearMonth is restricted by facet minInclusive with value
@@ -8093,11 +8613,12 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
         instance="nistData/atomic/gYearMonth/Schema+Instance/NISTXML-SV-II-atomic-gYearMonth-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicGYearMonthMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_1(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8109,11 +8630,12 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_2(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8125,11 +8647,12 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_3(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8141,11 +8664,12 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_4(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8157,11 +8681,12 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_5(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8173,11 +8698,12 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_1(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8189,11 +8715,12 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_2(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8205,11 +8732,12 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_3(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8221,11 +8749,12 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_4(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8237,11 +8766,12 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_5(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8253,11 +8783,12 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_1(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8269,11 +8800,12 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_2(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8285,11 +8817,12 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_3(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8301,11 +8834,12 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_4(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8317,11 +8851,12 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_5(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8333,11 +8868,12 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_1(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8349,11 +8885,12 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_2(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8365,11 +8902,12 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_3(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8381,11 +8919,12 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_4(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8397,11 +8936,12 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_5(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8413,11 +8953,12 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_1(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8429,11 +8970,12 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_2(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8445,11 +8987,12 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_3(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8461,11 +9004,12 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_4(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8477,11 +9021,12 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_5(save_xml):
     """
     Type atomic/date is restricted by facet maxInclusive with value
@@ -8493,11 +9038,12 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_1(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8509,11 +9055,12 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_2(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8525,11 +9072,12 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_3(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8541,11 +9089,12 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_4(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8557,11 +9106,12 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_5(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8573,11 +9123,12 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_1(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8589,11 +9140,12 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_2(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8605,11 +9157,12 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_3(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8621,11 +9174,12 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_4(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8637,11 +9191,12 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_5(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8653,11 +9208,12 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_1(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8669,11 +9225,12 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_2(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8685,11 +9242,12 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_3(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8701,11 +9259,12 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_4(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8717,11 +9276,12 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_5(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8733,11 +9293,12 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_1(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8749,11 +9310,12 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_2(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8765,11 +9327,12 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_3(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8781,11 +9344,12 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_4(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8797,11 +9361,12 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_5(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8813,11 +9378,12 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_1(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8829,11 +9395,12 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_1
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_2(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8845,11 +9412,12 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_2
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_3(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8861,11 +9429,12 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_3
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_4(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8877,11 +9446,12 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_4
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_5(save_xml):
     """
     Type atomic/date is restricted by facet minInclusive with value
@@ -8893,11 +9463,12 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_5
         instance="nistData/atomic/date/Schema+Instance/NISTXML-SV-II-atomic-date-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_1(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8909,11 +9480,12 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_2(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8925,11 +9497,12 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_3(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8941,11 +9514,12 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_4(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8957,11 +9531,12 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_5(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8973,11 +9548,12 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_1(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -8989,11 +9565,12 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_2(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9005,11 +9582,12 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_3(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9021,11 +9599,12 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_4(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9037,11 +9616,12 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_5(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9053,11 +9633,12 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_1(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9069,11 +9650,12 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_2(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9085,11 +9667,12 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_3(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9101,11 +9684,12 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_4(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9117,11 +9701,12 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_5(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9133,11 +9718,12 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_1(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9149,11 +9735,12 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_2(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9165,11 +9752,12 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_3(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9181,11 +9769,12 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_4(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9197,11 +9786,12 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_5(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9213,11 +9803,12 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_1(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9229,11 +9820,12 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_2(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9245,11 +9837,12 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_3(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9261,11 +9854,12 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_4(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9277,11 +9871,12 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_5(save_xml):
     """
     Type atomic/time is restricted by facet maxInclusive with value
@@ -9293,11 +9888,12 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_1(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9309,11 +9905,12 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_2(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9325,11 +9922,12 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_3(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9341,11 +9939,12 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_4(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9357,11 +9956,12 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_5(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9373,11 +9973,12 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_1(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9389,11 +9990,12 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_2(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9405,11 +10007,12 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_3(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9421,11 +10024,12 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_4(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9437,11 +10041,12 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_5(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9453,11 +10058,12 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_1(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9469,11 +10075,12 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_2(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9485,11 +10092,12 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_3(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9501,11 +10109,12 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_4(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9517,11 +10126,12 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_5(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9533,11 +10143,12 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_1(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9549,11 +10160,12 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_2(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9565,11 +10177,12 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_3(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9581,11 +10194,12 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_4(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9597,11 +10211,12 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_5(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9613,11 +10228,12 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_1(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9629,11 +10245,12 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_1
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_2(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9645,11 +10262,12 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_2
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_3(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9661,11 +10279,12 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_3
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_4(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9677,11 +10296,12 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_4
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_5(save_xml):
     """
     Type atomic/time is restricted by facet minInclusive with value
@@ -9693,11 +10313,12 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_5
         instance="nistData/atomic/time/Schema+Instance/NISTXML-SV-II-atomic-time-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9709,11 +10330,12 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9725,11 +10347,12 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9741,11 +10364,12 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9757,11 +10381,12 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9773,11 +10398,12 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9789,11 +10415,12 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9805,11 +10432,12 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9821,11 +10449,12 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9837,11 +10466,12 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9853,11 +10483,12 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9869,11 +10500,12 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9885,11 +10517,12 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9901,11 +10534,12 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9917,11 +10551,12 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9933,11 +10568,12 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9949,11 +10585,12 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9965,11 +10602,12 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9981,11 +10619,12 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -9997,11 +10636,12 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10013,11 +10653,12 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10029,11 +10670,12 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10045,11 +10687,12 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10061,11 +10704,12 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10077,11 +10721,12 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet maxInclusive with value
@@ -10093,11 +10738,12 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10109,11 +10755,12 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10125,11 +10772,12 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10141,11 +10789,12 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10157,11 +10806,12 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10173,11 +10823,12 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10189,11 +10840,12 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10205,11 +10857,12 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10221,11 +10874,12 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10237,11 +10891,12 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10253,11 +10908,12 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10269,11 +10925,12 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10285,11 +10942,12 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10301,11 +10959,12 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10317,11 +10976,12 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10333,11 +10993,12 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10349,11 +11010,12 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10365,11 +11027,12 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10381,11 +11044,12 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10397,11 +11061,12 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10413,11 +11078,12 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_1(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10429,11 +11095,12 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_2(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10445,11 +11112,12 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_3(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10461,11 +11129,12 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_4(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10477,11 +11146,12 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_5(save_xml):
     """
     Type atomic/dateTime is restricted by facet minInclusive with value
@@ -10493,11 +11163,12 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
         instance="nistData/atomic/dateTime/Schema+Instance/NISTXML-SV-II-atomic-dateTime-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDateTimeMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_1(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10509,11 +11180,12 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_2(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10525,11 +11197,12 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_3(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10541,11 +11214,12 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_4(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10557,11 +11231,12 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_5(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10573,11 +11248,12 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_1(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10589,11 +11265,12 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_2(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10605,11 +11282,12 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_3(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10621,11 +11299,12 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_4(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10637,11 +11316,12 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_5(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10653,11 +11333,12 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_1(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10669,11 +11350,12 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_2(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10685,11 +11367,12 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_3(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10701,11 +11384,12 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_4(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10717,11 +11401,12 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_5(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10733,11 +11418,12 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_1(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10749,11 +11435,12 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_2(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10765,11 +11452,12 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_3(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10781,11 +11469,12 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_4(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10797,11 +11486,12 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_5(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10813,11 +11503,12 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_1(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10829,11 +11520,12 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_2(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10845,11 +11537,12 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_3(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10861,11 +11554,12 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_4(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10877,11 +11571,12 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_5(save_xml):
     """
     Type atomic/duration is restricted by facet maxInclusive with value
@@ -10893,11 +11588,12 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_1(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10909,11 +11605,12 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_2(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10925,11 +11622,12 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_3(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10941,11 +11639,12 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_4(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10957,11 +11656,12 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_5(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10973,11 +11673,12 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_1(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -10989,11 +11690,12 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_2(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11005,11 +11707,12 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_3(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11021,11 +11724,12 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_4(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11037,11 +11741,12 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_5(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11053,11 +11758,12 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_1(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11069,11 +11775,12 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_2(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11085,11 +11792,12 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_3(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11101,11 +11809,12 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_4(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11117,11 +11826,12 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_5(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11133,11 +11843,12 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_1(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11149,11 +11860,12 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_2(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11165,11 +11877,12 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_3(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11181,11 +11894,12 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_4(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11197,11 +11911,12 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_5(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11213,11 +11928,12 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_1(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11229,11 +11945,12 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_2(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11245,11 +11962,12 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_3(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11261,11 +11979,12 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_4(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11277,11 +11996,12 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_5(save_xml):
     """
     Type atomic/duration is restricted by facet minInclusive with value
@@ -11293,11 +12013,12 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
         instance="nistData/atomic/duration/Schema+Instance/NISTXML-SV-II-atomic-duration-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDurationMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11309,11 +12030,12 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11325,11 +12047,12 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11341,11 +12064,12 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11357,11 +12081,12 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11373,11 +12098,12 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11389,11 +12115,12 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11405,11 +12132,12 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11421,11 +12149,12 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11437,11 +12166,12 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11453,11 +12183,12 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11469,11 +12200,12 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11485,11 +12217,12 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11501,11 +12234,12 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11517,11 +12251,12 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11533,11 +12268,12 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11549,11 +12285,12 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11565,11 +12302,12 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11581,11 +12319,12 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11597,11 +12336,12 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11613,11 +12353,12 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11629,11 +12370,12 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11645,11 +12387,12 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11661,11 +12404,12 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11677,11 +12421,12 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet totalDigits with
@@ -11693,11 +12438,12 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-totalDigits-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11709,11 +12455,12 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11725,11 +12472,12 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11741,11 +12489,12 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11757,11 +12506,12 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11773,11 +12523,12 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11789,11 +12540,12 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11805,11 +12557,12 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11821,11 +12574,12 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11837,11 +12591,12 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11853,11 +12608,12 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11869,11 +12625,12 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11885,11 +12642,12 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11901,11 +12659,12 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11917,11 +12676,12 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11933,11 +12693,12 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11949,11 +12710,12 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11965,11 +12727,12 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11981,11 +12744,12 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -11997,11 +12761,12 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12013,11 +12778,12 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12029,11 +12795,12 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12045,11 +12812,12 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12061,11 +12829,12 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12077,11 +12846,12 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet maxInclusive with
@@ -12093,11 +12863,12 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12109,11 +12880,12 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12125,11 +12897,12 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12141,11 +12914,12 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12157,11 +12931,12 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12173,11 +12948,12 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12189,11 +12965,12 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12205,11 +12982,12 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12221,11 +12999,12 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12237,11 +13016,12 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12253,11 +13033,12 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12269,11 +13050,12 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12285,11 +13067,12 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12301,11 +13084,12 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12317,11 +13101,12 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12333,11 +13118,12 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12349,11 +13135,12 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12365,11 +13152,12 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12381,11 +13169,12 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12397,11 +13186,12 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12413,11 +13203,12 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_1(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12429,11 +13220,12 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_2(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12445,11 +13237,12 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_3(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12461,11 +13254,12 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_4(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12477,11 +13271,12 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_5(save_xml):
     """
     Type atomic/positiveInteger is restricted by facet minInclusive with
@@ -12493,11 +13288,12 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
         instance="nistData/atomic/positiveInteger/Schema+Instance/NISTXML-SV-II-atomic-positiveInteger-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicPositiveIntegerMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12509,11 +13305,12 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12525,11 +13322,12 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12541,11 +13339,12 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12557,11 +13356,12 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12573,11 +13373,12 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12589,11 +13390,12 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12605,11 +13407,12 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12621,11 +13424,12 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12637,11 +13441,12 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet totalDigits with value
@@ -12653,11 +13458,12 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-totalDigits-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12669,11 +13475,12 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12685,11 +13492,12 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12701,11 +13509,12 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12717,11 +13526,12 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12733,11 +13543,12 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12749,11 +13560,12 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12765,11 +13577,12 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12781,11 +13594,12 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12797,11 +13611,12 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12813,11 +13628,12 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12829,11 +13645,12 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12845,11 +13662,12 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12861,11 +13679,12 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12877,11 +13696,12 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12893,11 +13713,12 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12909,11 +13730,12 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12925,11 +13747,12 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12941,11 +13764,12 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12957,11 +13781,12 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12973,11 +13798,12 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -12989,11 +13815,12 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -13005,11 +13832,12 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -13021,11 +13849,12 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -13037,11 +13866,12 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet maxInclusive with
@@ -13053,11 +13883,12 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13069,11 +13900,12 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13085,11 +13917,12 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13101,11 +13934,12 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13117,11 +13951,12 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13133,11 +13968,12 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13149,11 +13985,12 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13165,11 +14002,12 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13181,11 +14019,12 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13197,11 +14036,12 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13213,11 +14053,12 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13229,11 +14070,12 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13245,11 +14087,12 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13261,11 +14104,12 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13277,11 +14121,12 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13293,11 +14138,12 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13309,11 +14155,12 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13325,11 +14172,12 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13341,11 +14189,12 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13357,11 +14206,12 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13373,11 +14223,12 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13389,11 +14240,12 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13405,11 +14257,12 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13421,11 +14274,12 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13437,11 +14291,12 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedByte is restricted by facet minInclusive with
@@ -13453,11 +14308,12 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         instance="nistData/atomic/unsignedByte/Schema+Instance/NISTXML-SV-II-atomic-unsignedByte-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedByteMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13469,11 +14325,12 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13485,11 +14342,12 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13501,11 +14359,12 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13517,11 +14376,12 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13533,11 +14393,12 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13549,11 +14410,12 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13565,11 +14427,12 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13581,11 +14444,12 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13597,11 +14461,12 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13613,11 +14478,12 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13629,11 +14495,12 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13645,11 +14512,12 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13661,11 +14529,12 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13677,11 +14546,12 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13693,11 +14563,12 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13709,11 +14580,12 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13725,11 +14597,12 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13741,11 +14614,12 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13757,11 +14631,12 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet totalDigits with
@@ -13773,11 +14648,12 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-totalDigits-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13789,11 +14665,12 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13805,11 +14682,12 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13821,11 +14699,12 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13837,11 +14716,12 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13853,11 +14733,12 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13869,11 +14750,12 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13885,11 +14767,12 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13901,11 +14784,12 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13917,11 +14801,12 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13933,11 +14818,12 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13949,11 +14835,12 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13965,11 +14852,12 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13981,11 +14869,12 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -13997,11 +14886,12 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14013,11 +14903,12 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14029,11 +14920,12 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14045,11 +14937,12 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14061,11 +14954,12 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14077,11 +14971,12 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14093,11 +14988,12 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14109,11 +15005,12 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14125,11 +15022,12 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14141,11 +15039,12 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14157,11 +15056,12 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet maxInclusive with
@@ -14173,11 +15073,12 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14189,11 +15090,12 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14205,11 +15107,12 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14221,11 +15124,12 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14237,11 +15141,12 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14253,11 +15158,12 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14269,11 +15175,12 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14285,11 +15192,12 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14301,11 +15209,12 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14317,11 +15226,12 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14333,11 +15243,12 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14349,11 +15260,12 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14365,11 +15277,12 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14381,11 +15294,12 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14397,11 +15311,12 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14413,11 +15328,12 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14429,11 +15345,12 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14445,11 +15362,12 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14461,11 +15379,12 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14477,11 +15396,12 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14493,11 +15413,12 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14509,11 +15430,12 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14525,11 +15447,12 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14541,11 +15464,12 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14557,11 +15481,12 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedShort is restricted by facet minInclusive with
@@ -14573,11 +15498,12 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         instance="nistData/atomic/unsignedShort/Schema+Instance/NISTXML-SV-II-atomic-unsignedShort-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedShortMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14589,11 +15515,12 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14605,11 +15532,12 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14621,11 +15549,12 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14637,11 +15566,12 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14653,11 +15583,12 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14669,11 +15600,12 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14685,11 +15617,12 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14701,11 +15634,12 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14717,11 +15651,12 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14733,11 +15668,12 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14749,11 +15685,12 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14765,11 +15702,12 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14781,11 +15719,12 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14797,11 +15736,12 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14813,11 +15753,12 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14829,11 +15770,12 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14845,11 +15787,12 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14861,11 +15804,12 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14877,11 +15821,12 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14893,11 +15838,12 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14909,11 +15855,12 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14925,11 +15872,12 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14941,11 +15889,12 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14957,11 +15906,12 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet totalDigits with value
@@ -14973,11 +15923,12 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-totalDigits-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntTotalDigits1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -14989,11 +15940,12 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15005,11 +15957,12 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15021,11 +15974,12 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15037,11 +15991,12 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15053,11 +16008,12 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15069,11 +16025,12 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15085,11 +16042,12 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15101,11 +16059,12 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15117,11 +16076,12 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15133,11 +16093,12 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15149,11 +16110,12 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15165,11 +16127,12 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15181,11 +16144,12 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15197,11 +16161,12 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15213,11 +16178,12 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15229,11 +16195,12 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15245,11 +16212,12 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15261,11 +16229,12 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15277,11 +16246,12 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15293,11 +16263,12 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15309,11 +16280,12 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-1-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15325,11 +16297,12 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-1-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15341,11 +16314,12 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-1-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15357,11 +16331,12 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-1-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet maxInclusive with value
@@ -15373,11 +16348,12 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-maxInclusive-1-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMaxInclusive1",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15389,11 +16365,12 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-6-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15405,11 +16382,12 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-6-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15421,11 +16399,12 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-6-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15437,11 +16416,12 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-6-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15453,11 +16433,12 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-6-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive6",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15469,11 +16450,12 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15485,11 +16467,12 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15501,11 +16484,12 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-5-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15517,11 +16501,12 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-5-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15533,11 +16518,12 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-5-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15549,11 +16535,12 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-4-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15565,11 +16552,12 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-4-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15581,11 +16569,12 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-4-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15597,11 +16586,12 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-4-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15613,11 +16603,12 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-4-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive4",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15629,11 +16620,12 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-3-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15645,11 +16637,12 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-3-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15661,11 +16654,12 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-3-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15677,11 +16671,12 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-3-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15693,11 +16688,12 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-3-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive3",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15709,11 +16705,12 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-2-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15725,11 +16722,12 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-2-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15741,11 +16739,12 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-2-3.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15757,11 +16756,12 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-2-4.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedInt is restricted by facet minInclusive with value
@@ -15773,11 +16773,12 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         instance="nistData/atomic/unsignedInt/Schema+Instance/NISTXML-SV-II-atomic-unsignedInt-minInclusive-2-5.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedIntMinInclusive2",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
@@ -15789,11 +16790,12 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
         instance="nistData/atomic/unsignedLong/Schema+Instance/NISTXML-SV-II-atomic-unsignedLong-totalDigits-5-1.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
@@ -15805,6 +16807,6 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
         instance="nistData/atomic/unsignedLong/Schema+Instance/NISTXML-SV-II-atomic-unsignedLong-totalDigits-5-2.xml",
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits5",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )

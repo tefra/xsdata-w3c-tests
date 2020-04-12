@@ -3,6 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo6_ipo_1(save_xml):
     """
@@ -14,11 +15,12 @@ def test_ipo6_ipo_1(save_xml):
         instance="boeingData/ipo6/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo6_ipo_2(save_xml):
     """
@@ -30,11 +32,12 @@ def test_ipo6_ipo_2(save_xml):
         instance="boeingData/ipo6/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo5_ipo_1(save_xml):
     """
@@ -46,11 +49,12 @@ def test_ipo5_ipo_1(save_xml):
         instance="boeingData/ipo5/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo5_ipo_2(save_xml):
     """
@@ -62,11 +66,12 @@ def test_ipo5_ipo_2(save_xml):
         instance="boeingData/ipo5/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo4_ipo_1(save_xml):
     """
@@ -78,11 +83,12 @@ def test_ipo4_ipo_1(save_xml):
         instance="boeingData/ipo4/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo4_ipo_2(save_xml):
     """
@@ -94,11 +100,12 @@ def test_ipo4_ipo_2(save_xml):
         instance="boeingData/ipo4/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo3_ipo_1(save_xml):
     """
@@ -110,11 +117,12 @@ def test_ipo3_ipo_1(save_xml):
         instance="boeingData/ipo3/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo3_ipo_2(save_xml):
     """
@@ -126,11 +134,12 @@ def test_ipo3_ipo_2(save_xml):
         instance="boeingData/ipo3/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo2_ipo_1(save_xml):
     """
@@ -142,11 +151,12 @@ def test_ipo2_ipo_1(save_xml):
         instance="boeingData/ipo2/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo2_ipo_2(save_xml):
     """
@@ -158,11 +168,12 @@ def test_ipo2_ipo_2(save_xml):
         instance="boeingData/ipo2/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo1_ipo_1(save_xml):
     """
@@ -174,11 +185,12 @@ def test_ipo1_ipo_1(save_xml):
         instance="boeingData/ipo1/ipo_1.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_ipo1_ipo_2(save_xml):
     """
@@ -190,6 +202,6 @@ def test_ipo1_ipo_2(save_xml):
         instance="boeingData/ipo1/ipo_2.xml",
         instance_is_valid=True,
         class_name="PurchaseOrder",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )

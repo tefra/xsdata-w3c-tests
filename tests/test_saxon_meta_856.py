@@ -1991,6 +1991,7 @@ def test_assert001_assert001_n1_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_unique003_unique003_v1_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -2004,11 +2005,12 @@ def test_unique003_unique003_v1_xml(save_xml):
         instance="saxonData/Complex/unique003.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique003_unique003_v2_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -2022,11 +2024,12 @@ def test_unique003_unique003_v2_xml(save_xml):
         instance="saxonData/Complex/unique003.v2.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique003_unique003_n1_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -2040,11 +2043,12 @@ def test_unique003_unique003_n1_xml(save_xml):
         instance="saxonData/Complex/unique003.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique003_unique003_n2_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -2058,11 +2062,12 @@ def test_unique003_unique003_n2_xml(save_xml):
         instance="saxonData/Complex/unique003.n2.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique002_unique002_n1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with mixed
@@ -2075,11 +2080,12 @@ def test_unique002_unique002_n1_xml(save_xml):
         instance="saxonData/Complex/unique002.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique001_unique001_v1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with
@@ -2093,11 +2099,12 @@ def test_unique001_unique001_v1_xml(save_xml):
         instance="saxonData/Complex/unique001.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_unique001_unique001_n1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with
@@ -2111,11 +2118,12 @@ def test_unique001_unique001_n1_xml(save_xml):
         instance="saxonData/Complex/unique001.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex022_complex022_n1_xml(save_xml):
     """
     Empty choice should accept no instances A content model defined as an
@@ -2129,11 +2137,12 @@ def test_complex022_complex022_n1_xml(save_xml):
         instance="saxonData/Complex/complex022.n1.xml",
         instance_is_valid=False,
         class_name="Z",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex022_complex022_n2_xml(save_xml):
     """
     Empty choice should accept no instances A content model defined as an
@@ -2147,11 +2156,12 @@ def test_complex022_complex022_n2_xml(save_xml):
         instance="saxonData/Complex/complex022.n2.xml",
         instance_is_valid=False,
         class_name="Z",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex021_complex021_n1_xml(save_xml):
     """
     Element declared with an abstract type Instance is invalid because the
@@ -2163,11 +2173,12 @@ def test_complex021_complex021_n1_xml(save_xml):
         instance="saxonData/Complex/complex021.n1.xml",
         instance_is_valid=False,
         class_name="ECon",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex015_complex015_n1_xml(save_xml):
     """
     xsi:type on complex type must resolve Instance is invalid if xsi:type
@@ -2179,11 +2190,12 @@ def test_complex015_complex015_n1_xml(save_xml):
         instance="saxonData/Complex/complex015.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex014_complex014_v1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2196,11 +2208,12 @@ def test_complex014_complex014_v1_xml(save_xml):
         instance="saxonData/Complex/complex013.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex014_complex014_v2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2213,11 +2226,12 @@ def test_complex014_complex014_v2_xml(save_xml):
         instance="saxonData/Complex/complex013.v2.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex014_complex014_n1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2230,11 +2244,12 @@ def test_complex014_complex014_n1_xml(save_xml):
         instance="saxonData/Complex/complex013.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex014_complex014_n2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2247,11 +2262,12 @@ def test_complex014_complex014_n2_xml(save_xml):
         instance="saxonData/Complex/complex013.n2.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex013_complex013_v1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2263,11 +2279,12 @@ def test_complex013_complex013_v1_xml(save_xml):
         instance="saxonData/Complex/complex013.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex013_complex013_v2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2279,11 +2296,12 @@ def test_complex013_complex013_v2_xml(save_xml):
         instance="saxonData/Complex/complex013.v2.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex013_complex013_n1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2295,11 +2313,12 @@ def test_complex013_complex013_n1_xml(save_xml):
         instance="saxonData/Complex/complex013.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex013_complex013_n2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2311,11 +2330,12 @@ def test_complex013_complex013_n2_xml(save_xml):
         instance="saxonData/Complex/complex013.n2.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v1_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2327,11 +2347,12 @@ def test_complex012_complex012_v1_xml(save_xml):
         instance="saxonData/Complex/complex012.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v2_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2343,11 +2364,12 @@ def test_complex012_complex012_v2_xml(save_xml):
         instance="saxonData/Complex/complex012.v2.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v3_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2359,11 +2381,12 @@ def test_complex012_complex012_v3_xml(save_xml):
         instance="saxonData/Complex/complex012.v3.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v4_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2375,11 +2398,12 @@ def test_complex012_complex012_v4_xml(save_xml):
         instance="saxonData/Complex/complex012.v4.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v5_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2391,11 +2415,12 @@ def test_complex012_complex012_v5_xml(save_xml):
         instance="saxonData/Complex/complex012.v5.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_v6_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2407,11 +2432,12 @@ def test_complex012_complex012_v6_xml(save_xml):
         instance="saxonData/Complex/complex012.v6.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_n1_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2423,11 +2449,12 @@ def test_complex012_complex012_n1_xml(save_xml):
         instance="saxonData/Complex/complex012.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_n2_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2439,11 +2466,12 @@ def test_complex012_complex012_n2_xml(save_xml):
         instance="saxonData/Complex/complex012.n2.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex012_complex012_n3_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2455,11 +2483,12 @@ def test_complex012_complex012_n3_xml(save_xml):
         instance="saxonData/Complex/complex012.n3.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex011_complex011_v1_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2471,11 +2500,12 @@ def test_complex011_complex011_v1_xml(save_xml):
         instance="saxonData/Complex/complex011.v1.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex011_complex011_v2_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2487,11 +2517,12 @@ def test_complex011_complex011_v2_xml(save_xml):
         instance="saxonData/Complex/complex011.v2.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex011_complex011_n1_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2503,11 +2534,12 @@ def test_complex011_complex011_n1_xml(save_xml):
         instance="saxonData/Complex/complex011.n1.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex011_complex011_n2_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2519,11 +2551,12 @@ def test_complex011_complex011_n2_xml(save_xml):
         instance="saxonData/Complex/complex011.n2.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_complex011_complex011_n3_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2535,7 +2568,7 @@ def test_complex011_complex011_n3_xml(save_xml):
         instance="saxonData/Complex/complex011.n3.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -3140,6 +3173,7 @@ def test_cta0040_cta0040_n01(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_cta0028_cta0028_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3151,11 +3185,12 @@ def test_cta0028_cta0028_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0027_cta0027_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3167,11 +3202,12 @@ def test_cta0027_cta0027_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0026_cta0026_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3183,11 +3219,12 @@ def test_cta0026_cta0026_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0025_cta0025_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3199,11 +3236,12 @@ def test_cta0025_cta0025_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0024_cta0024_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3215,11 +3253,12 @@ def test_cta0024_cta0024_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0023_cta0023_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3231,11 +3270,12 @@ def test_cta0023_cta0023_v01(save_xml):
         instance="saxonData/CTA/cta0023.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0022_cta0022_v01(save_xml):
     """
     Type alternative using a simple type Dynamic context of XPath
@@ -3247,11 +3287,12 @@ def test_cta0022_cta0022_v01(save_xml):
         instance="saxonData/CTA/cta0017.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0021_cta0021_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees base URI of
@@ -3263,11 +3304,12 @@ def test_cta0021_cta0021_v01(save_xml):
         instance="saxonData/CTA/cta0021.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0021_cta0021_n01(save_xml):
     """
     Type alternative using a simple type XPath expression sees base URI of
@@ -3279,11 +3321,12 @@ def test_cta0021_cta0021_n01(save_xml):
         instance="saxonData/CTA/cta0021.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0020_cta0020_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees name of
@@ -3295,11 +3338,12 @@ def test_cta0020_cta0020_v01(save_xml):
         instance="saxonData/CTA/cta0017.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0019_cta0019_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3311,11 +3355,12 @@ def test_cta0019_cta0019_v01(save_xml):
         instance="saxonData/CTA/cta0017.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0018_cta0018_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3327,11 +3372,12 @@ def test_cta0018_cta0018_v01(save_xml):
         instance="saxonData/CTA/cta0017.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_cta0017_cta0017_v01(save_xml):
     """
@@ -3344,11 +3390,12 @@ def test_cta0017_cta0017_v01(save_xml):
         instance="saxonData/CTA/cta0017.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0016_cta0016_v01(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3360,11 +3407,12 @@ def test_cta0016_cta0016_v01(save_xml):
         instance="saxonData/CTA/cta0014.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0016_cta0016_v02(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3376,11 +3424,12 @@ def test_cta0016_cta0016_v02(save_xml):
         instance="saxonData/CTA/cta0014.v02.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0016_cta0016_n01(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3392,11 +3441,12 @@ def test_cta0016_cta0016_n01(save_xml):
         instance="saxonData/CTA/cta0014.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0016_cta0016_n02(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3408,7 +3458,7 @@ def test_cta0016_cta0016_n02(save_xml):
         instance="saxonData/CTA/cta0014.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -3890,6 +3940,7 @@ def test_cta0008_cta0008_n01(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_cta0007_cta0007_n01(save_xml):
     """
     Variant of cta0006 using xs:error Chosen alternative has a type of
@@ -3901,11 +3952,12 @@ def test_cta0007_cta0007_n01(save_xml):
         instance="saxonData/CTA/cta0007.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0006_cta0006_v01(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
@@ -3918,11 +3970,12 @@ def test_cta0006_cta0006_v01(save_xml):
         instance="saxonData/CTA/cta0006.v01.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0006_cta0006_n01(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
@@ -3935,11 +3988,12 @@ def test_cta0006_cta0006_n01(save_xml):
         instance="saxonData/CTA/cta0006.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0006_cta0006_n02(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
@@ -3952,11 +4006,12 @@ def test_cta0006_cta0006_n02(save_xml):
         instance="saxonData/CTA/cta0006.n02.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0005_cta0005_v01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -3969,11 +4024,12 @@ def test_cta0005_cta0005_v01(save_xml):
         instance="saxonData/CTA/cta0003.v01.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0005_cta0005_n01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -3986,11 +4042,12 @@ def test_cta0005_cta0005_n01(save_xml):
         instance="saxonData/CTA/cta0003.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0004_cta0004_v01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -4002,11 +4059,12 @@ def test_cta0004_cta0004_v01(save_xml):
         instance="saxonData/CTA/cta0003.v01.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0004_cta0004_n01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -4018,11 +4076,12 @@ def test_cta0004_cta0004_n01(save_xml):
         instance="saxonData/CTA/cta0003.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0003_cta0003_v01(save_xml):
     """
     Conditional complex type with namespaces Trivial reference to the name
@@ -4034,11 +4093,12 @@ def test_cta0003_cta0003_v01(save_xml):
         instance="saxonData/CTA/cta0003.v01.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0003_cta0003_n01(save_xml):
     """
     Conditional complex type with namespaces Trivial reference to the name
@@ -4050,11 +4110,12 @@ def test_cta0003_cta0003_n01(save_xml):
         instance="saxonData/CTA/cta0003.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="full-xpath-in-CTA",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0002_cta0002_v01(save_xml):
     """
     Conditional complex type with namespaces Complex type of message
@@ -4066,11 +4127,12 @@ def test_cta0002_cta0002_v01(save_xml):
         instance="saxonData/CTA/cta0002.v01.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0002_cta0002_n01(save_xml):
     """
     Conditional complex type with namespaces Complex type of message
@@ -4082,11 +4144,12 @@ def test_cta0002_cta0002_n01(save_xml):
         instance="saxonData/CTA/cta0002.n01.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0001_cta0001_v01(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -4098,11 +4161,12 @@ def test_cta0001_cta0001_v01(save_xml):
         instance="saxonData/CTA/cta0001.v01.xml",
         instance_is_valid=True,
         class_name="Message",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0001_cta0001_v02(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -4114,11 +4178,12 @@ def test_cta0001_cta0001_v02(save_xml):
         instance="saxonData/CTA/cta0001.v02.xml",
         instance_is_valid=True,
         class_name="Message",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0001_cta0001_v03(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -4130,11 +4195,12 @@ def test_cta0001_cta0001_v03(save_xml):
         instance="saxonData/CTA/cta0001.v03.xml",
         instance_is_valid=True,
         class_name="Messages",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0001_cta0001_n01(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -4146,11 +4212,12 @@ def test_cta0001_cta0001_n01(save_xml):
         instance="saxonData/CTA/cta0001.n01.xml",
         instance_is_valid=False,
         class_name="Message",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_cta0001_cta0001_n02(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -4162,7 +4229,7 @@ def test_cta0001_cta0001_n02(save_xml):
         instance="saxonData/CTA/cta0001.n02.xml",
         instance_is_valid=False,
         class_name="Messages",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -8731,6 +8798,7 @@ def test_over001_over001_n02_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_simple085_simple085_v01_xml(save_xml):
     """
     Union derived by restriction with a pattern facet Pattern facet
@@ -8743,11 +8811,12 @@ def test_simple085_simple085_v01_xml(save_xml):
         instance="saxonData/Simple/simple085.v01.xml",
         instance_is_valid=True,
         class_name="Elem",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple055_simple055_n01_xml(save_xml):
     """
     Selector in identity constraint mistakenly identifies an element with
@@ -8760,11 +8829,12 @@ def test_simple055_simple055_n01_xml(save_xml):
         instance="saxonData/Simple/simple055.n01.xml",
         instance_is_valid=False,
         class_name="Catalog",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple054_simple053_n01_xml(save_xml):
     """
     xsi:type must resolve xsi:type isn't one of the member type of a
@@ -8776,11 +8846,12 @@ def test_simple054_simple053_n01_xml(save_xml):
         instance="saxonData/Simple/simple054.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple050_simple050_v01_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8792,11 +8863,12 @@ def test_simple050_simple050_v01_xml(save_xml):
         instance="saxonData/Simple/simple050.v01.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple050_simple050_v02_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8808,11 +8880,12 @@ def test_simple050_simple050_v02_xml(save_xml):
         instance="saxonData/Simple/simple050.v02.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple050_simple050_n01_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8824,11 +8897,12 @@ def test_simple050_simple050_n01_xml(save_xml):
         instance="saxonData/Simple/simple050.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple050_simple050_n02_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8840,11 +8914,12 @@ def test_simple050_simple050_n02_xml(save_xml):
         instance="saxonData/Simple/simple050.n02.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple050_simple050_n03_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8856,11 +8931,12 @@ def test_simple050_simple050_n03_xml(save_xml):
         instance="saxonData/Simple/simple050.n03.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple046_simple046_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8872,11 +8948,12 @@ def test_simple046_simple046_v01_xml(save_xml):
         instance="saxonData/Simple/simple046.v01.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple046_simple046_n01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8888,11 +8965,12 @@ def test_simple046_simple046_n01_xml(save_xml):
         instance="saxonData/Simple/simple046.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple045_simple045_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8904,11 +8982,12 @@ def test_simple045_simple045_v01_xml(save_xml):
         instance="saxonData/Simple/simple045.v01.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple045_simple045_n01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8920,11 +8999,12 @@ def test_simple045_simple045_n01_xml(save_xml):
         instance="saxonData/Simple/simple045.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple044_simple044_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8936,11 +9016,12 @@ def test_simple044_simple044_v01_xml(save_xml):
         instance="saxonData/Simple/simple044.v01.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple044_simple044_n01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8952,11 +9033,12 @@ def test_simple044_simple044_n01_xml(save_xml):
         instance="saxonData/Simple/simple044.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple040_simple040_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8968,11 +9050,12 @@ def test_simple040_simple040_v01_xml(save_xml):
         instance="saxonData/Simple/simple040.v01.xml",
         instance_is_valid=True,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple040_simple040_n01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8984,11 +9067,12 @@ def test_simple040_simple040_n01_xml(save_xml):
         instance="saxonData/Simple/simple040.n01.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple040_simple040_n02_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -9000,11 +9084,12 @@ def test_simple040_simple040_n02_xml(save_xml):
         instance="saxonData/Simple/simple040.n02.xml",
         instance_is_valid=False,
         class_name="E",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple022_simple022_v01_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -9017,11 +9102,12 @@ def test_simple022_simple022_v01_xml(save_xml):
         instance="saxonData/Simple/simple022.v01.xml",
         instance_is_valid=True,
         class_name="Price",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple022_simple022_v02_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -9034,11 +9120,12 @@ def test_simple022_simple022_v02_xml(save_xml):
         instance="saxonData/Simple/simple022.v02.xml",
         instance_is_valid=True,
         class_name="Price",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple022_simple022_v03_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -9051,11 +9138,12 @@ def test_simple022_simple022_v03_xml(save_xml):
         instance="saxonData/Simple/simple022.v03.xml",
         instance_is_valid=True,
         class_name="Price",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple022_simple016_n01_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -9068,11 +9156,12 @@ def test_simple022_simple016_n01_xml(save_xml):
         instance="saxonData/Simple/simple022.n01.xml",
         instance_is_valid=False,
         class_name="Price",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple016_simple016_v01_xml(save_xml):
     """
     xsi:type OK to select a member of a union only if there are no
@@ -9085,11 +9174,12 @@ def test_simple016_simple016_v01_xml(save_xml):
         instance="saxonData/Simple/simple016.v01.xml",
         instance_is_valid=True,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple016_simple016_n01_xml(save_xml):
     """
     xsi:type OK to select a member of a union only if there are no
@@ -9102,11 +9192,12 @@ def test_simple016_simple016_n01_xml(save_xml):
         instance="saxonData/Simple/simple016.n01.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple013_simple013_v01_xml(save_xml):
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
@@ -9118,11 +9209,12 @@ def test_simple013_simple013_v01_xml(save_xml):
         instance="saxonData/Simple/simple013.v01.xml",
         instance_is_valid=True,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple013_simple013_n01_xml(save_xml):
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
@@ -9134,11 +9226,12 @@ def test_simple013_simple013_n01_xml(save_xml):
         instance="saxonData/Simple/simple013.n01.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple013_simple013_n02_xml(save_xml):
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
@@ -9150,11 +9243,12 @@ def test_simple013_simple013_n02_xml(save_xml):
         instance="saxonData/Simple/simple013.n02.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple012_simple012_v01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -9167,11 +9261,12 @@ def test_simple012_simple012_v01_xml(save_xml):
         instance="saxonData/Simple/simple012.v01.xml",
         instance_is_valid=True,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple012_simple012_v02_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -9184,11 +9279,12 @@ def test_simple012_simple012_v02_xml(save_xml):
         instance="saxonData/Simple/simple012.v02.xml",
         instance_is_valid=True,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple012_simple012_n01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -9201,11 +9297,12 @@ def test_simple012_simple012_n01_xml(save_xml):
         instance="saxonData/Simple/simple012.n01.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple012_simple012_n02_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -9218,11 +9315,12 @@ def test_simple012_simple012_n02_xml(save_xml):
         instance="saxonData/Simple/simple012.n02.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple010_simple010_v01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
@@ -9234,11 +9332,12 @@ def test_simple010_simple010_v01_xml(save_xml):
         instance="saxonData/Simple/simple010.v01.xml",
         instance_is_valid=True,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple010_simple010_n01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
@@ -9250,11 +9349,12 @@ def test_simple010_simple010_n01_xml(save_xml):
         instance="saxonData/Simple/simple010.n01.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple010_simple010_n02_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
@@ -9266,11 +9366,12 @@ def test_simple010_simple010_n02_xml(save_xml):
         instance="saxonData/Simple/simple010.n02.xml",
         instance_is_valid=False,
         class_name="Book",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple003_simple003_v01_xml(save_xml):
     """
     Test that simpleType/@final = extension is allowed Depends on
@@ -9282,11 +9383,12 @@ def test_simple003_simple003_v01_xml(save_xml):
         instance="saxonData/Simple/simple003.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple002_simple002_v01_xml(save_xml):
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -9298,11 +9400,12 @@ def test_simple002_simple002_v01_xml(save_xml):
         instance="saxonData/Simple/simple001.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple002_simple002_n01_xml(save_xml):
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -9314,11 +9417,12 @@ def test_simple002_simple002_n01_xml(save_xml):
         instance="saxonData/Simple/simple001.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple002_simple002_n02_xml(save_xml):
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -9330,11 +9434,12 @@ def test_simple002_simple002_n02_xml(save_xml):
         instance="saxonData/Simple/simple001.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple001_simple001_v01_xml(save_xml):
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -9346,11 +9451,12 @@ def test_simple001_simple001_v01_xml(save_xml):
         instance="saxonData/Simple/simple001.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple001_simple001_n01_xml(save_xml):
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -9362,11 +9468,12 @@ def test_simple001_simple001_n01_xml(save_xml):
         instance="saxonData/Simple/simple001.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_simple001_simple001_n02_xml(save_xml):
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -9378,11 +9485,12 @@ def test_simple001_simple001_n02_xml(save_xml):
         instance="saxonData/Simple/simple001.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_subsgroup003_subsgroup003_v1_xml(save_xml):
     """
@@ -9398,7 +9506,7 @@ def test_subsgroup003_subsgroup003_v1_xml(save_xml):
         instance="saxonData/Subsgroup/subsgroup003.xml",
         instance_is_valid=True,
         class_name="Command",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -9475,6 +9583,7 @@ def test_subsgroup001_subsgroup001_n1_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_target003_target003_v1_xml(save_xml):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
@@ -9486,11 +9595,12 @@ def test_target003_target003_v1_xml(save_xml):
         instance="saxonData/TargetNS/target003.v1.xml",
         instance_is_valid=True,
         class_name="Parent",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_target003_target003_n1_xml(save_xml):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
@@ -9502,11 +9612,12 @@ def test_target003_target003_n1_xml(save_xml):
         instance="saxonData/TargetNS/target003.n1.xml",
         instance_is_valid=False,
         class_name="Parent",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_target003_target003_n2_xml(save_xml):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
@@ -9518,11 +9629,12 @@ def test_target003_target003_n2_xml(save_xml):
         instance="saxonData/TargetNS/target003.n2.xml",
         instance_is_valid=False,
         class_name="Parent",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_target001_target001_v1_xml(save_xml):
     """
     Simple use of targetNamespace on a local element declaration Simple
@@ -9534,11 +9646,12 @@ def test_target001_target001_v1_xml(save_xml):
         instance="saxonData/TargetNS/target001.v1.xml",
         instance_is_valid=True,
         class_name="Parent",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_target001_target001_n1_xml(save_xml):
     """
     Simple use of targetNamespace on a local element declaration Simple
@@ -9550,11 +9663,12 @@ def test_target001_target001_n1_xml(save_xml):
         instance="saxonData/TargetNS/target001.n1.xml",
         instance_is_valid=False,
         class_name="Parent",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_vc024_11_vc024_v1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9566,11 +9680,12 @@ def test_vc024_11_vc024_v1_xml(save_xml):
         instance="saxonData/VC/vc001.v1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_vc024_11_vc024_n1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9582,7 +9697,7 @@ def test_vc024_11_vc024_n1_xml(save_xml):
         instance="saxonData/VC/vc001.n1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -9655,6 +9770,7 @@ def test_vc020_vc020_v1_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc014_vc014_v1_xml(save_xml):
     """
@@ -9667,11 +9783,12 @@ def test_vc014_vc014_v1_xml(save_xml):
         instance="saxonData/VC/vc014.v1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc014_vc014_n1_xml(save_xml):
     """
@@ -9684,7 +9801,7 @@ def test_vc014_vc014_n1_xml(save_xml):
         instance="saxonData/VC/vc014.n1.xml",
         instance_is_valid=False,
         class_name="Temp",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -9927,6 +10044,7 @@ def test_vc003_vc003_v1_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_vc002_vc002_v1_xml(save_xml):
     """
     Equivalent schemas with different formulations under XSD 1.0 and XSD
@@ -9939,11 +10057,12 @@ def test_vc002_vc002_v1_xml(save_xml):
         instance="saxonData/VC/vc002.v1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_vc002_vc002_n1_xml(save_xml):
     """
     Equivalent schemas with different formulations under XSD 1.0 and XSD
@@ -9956,11 +10075,12 @@ def test_vc002_vc002_n1_xml(save_xml):
         instance="saxonData/VC/vc002.n1.xml",
         instance_is_valid=False,
         class_name="Temp",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_vc001_vc001_v1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9972,11 +10092,12 @@ def test_vc001_vc001_v1_xml(save_xml):
         instance="saxonData/VC/vc001.v1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_vc001_vc001_n1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9988,7 +10109,7 @@ def test_vc001_vc001_n1_xml(save_xml):
         instance="saxonData/VC/vc001.n1.xml",
         instance_is_valid=True,
         class_name="Temp",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -13019,6 +13140,7 @@ def test_wild001_wild001_n2_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_xv100notc_xv100notc_i_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13030,11 +13152,12 @@ def test_xv100notc_xv100notc_i_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.i.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100notc_xv100notc_c_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13046,11 +13169,12 @@ def test_xv100notc_xv100notc_c_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.c.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100notc_xv100notc_noti_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13062,11 +13186,12 @@ def test_xv100notc_xv100notc_noti_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.noti.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100notc_xv100notc_notc_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13078,11 +13203,12 @@ def test_xv100notc_xv100notc_notc_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.notc.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100noti_xv100noti_i_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -13094,11 +13220,12 @@ def test_xv100noti_xv100noti_i_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.i.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100noti_xv100noti_c_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -13110,11 +13237,12 @@ def test_xv100noti_xv100noti_c_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.c.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100noti_xv100noti_noti_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -13126,11 +13254,12 @@ def test_xv100noti_xv100noti_noti_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.noti.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100noti_xv100noti_notc_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -13142,11 +13271,12 @@ def test_xv100noti_xv100noti_notc_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.notc.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100c_xv100c_i_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13158,11 +13288,12 @@ def test_xv100c_xv100c_i_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.i.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100c_xv100c_c_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13174,11 +13305,12 @@ def test_xv100c_xv100c_c_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.c.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100c_xv100c_noti_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13190,11 +13322,12 @@ def test_xv100c_xv100c_noti_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.noti.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100c_xv100c_notc_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13206,11 +13339,12 @@ def test_xv100c_xv100c_notc_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.notc.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100i_xv100i_i_xml(save_xml):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -13222,11 +13356,12 @@ def test_xv100i_xv100i_i_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.i.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100i_xv100i_c_xml(save_xml):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -13238,11 +13373,12 @@ def test_xv100i_xv100i_c_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.c.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100i_xv100i_noti_xml(save_xml):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -13254,11 +13390,12 @@ def test_xv100i_xv100i_noti_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.noti.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv100i_xv100i_notc_xml(save_xml):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -13270,11 +13407,12 @@ def test_xv100i_xv100i_notc_xml(save_xml):
         instance="saxonData/XmlVersions/xv100.notc.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv009_xv009_v01_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -13286,11 +13424,12 @@ def test_xv009_xv009_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv009.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv009_xv009_v02_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -13302,11 +13441,12 @@ def test_xv009_xv009_v02_xml(save_xml):
         instance="saxonData/XmlVersions/xv009.v02.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv009_xv009_n01_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -13318,11 +13458,12 @@ def test_xv009_xv009_n01_xml(save_xml):
         instance="saxonData/XmlVersions/xv009.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv009_xv009_n02_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -13334,11 +13475,12 @@ def test_xv009_xv009_n02_xml(save_xml):
         instance="saxonData/XmlVersions/xv009.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv009_xv009_n03_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -13350,11 +13492,12 @@ def test_xv009_xv009_n03_xml(save_xml):
         instance="saxonData/XmlVersions/xv009.n03.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv008_xv008_v01_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13366,11 +13509,12 @@ def test_xv008_xv008_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv008.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv008_xv008_n01_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13382,11 +13526,12 @@ def test_xv008_xv008_n01_xml(save_xml):
         instance="saxonData/XmlVersions/xv008.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv008_xv008_n02_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -13398,11 +13543,12 @@ def test_xv008_xv008_n02_xml(save_xml):
         instance="saxonData/XmlVersions/xv008.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv007_xv007_v01_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13414,11 +13560,12 @@ def test_xv007_xv007_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv007.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv007_xv007_n01_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13430,11 +13577,12 @@ def test_xv007_xv007_n01_xml(save_xml):
         instance="saxonData/XmlVersions/xv007.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv007_xv007_n02_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -13446,11 +13594,12 @@ def test_xv007_xv007_n02_xml(save_xml):
         instance="saxonData/XmlVersions/xv007.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv006_xv006_v01_xml(save_xml):
     r"""
     Test which characters match \I in a regex Initial name characters in
@@ -13462,11 +13611,12 @@ def test_xv006_xv006_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv006.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv006_xv006_n01_xml(save_xml):
     r"""
     Test which characters match \I in a regex Initial name characters in
@@ -13478,11 +13628,12 @@ def test_xv006_xv006_n01_xml(save_xml):
         instance="saxonData/XmlVersions/xv006.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv006_xv006_n02_xml(save_xml):
     r"""
     Test which characters match \I in a regex Initial name characters in
@@ -13494,11 +13645,12 @@ def test_xv006_xv006_n02_xml(save_xml):
         instance="saxonData/XmlVersions/xv006.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv006_xv006_n03_xml(save_xml):
     r"""
     Test which characters match \I in a regex Initial name characters in
@@ -13510,11 +13662,12 @@ def test_xv006_xv006_n03_xml(save_xml):
         instance="saxonData/XmlVersions/xv006.n03.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv005_xv005_v01_xml(save_xml):
     r"""
     Test which characters match \i in a regex Initial name characters in
@@ -13526,11 +13679,12 @@ def test_xv005_xv005_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv005.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv005_xv005_n01_xml(save_xml):
     r"""
     Test which characters match \i in a regex Initial name characters in
@@ -13542,11 +13696,12 @@ def test_xv005_xv005_n01_xml(save_xml):
         instance="saxonData/XmlVersions/xv005.n01.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv005_xv005_n02_xml(save_xml):
     r"""
     Test which characters match \i in a regex Initial name characters in
@@ -13558,11 +13713,12 @@ def test_xv005_xv005_n02_xml(save_xml):
         instance="saxonData/XmlVersions/xv005.n02.xml",
         instance_is_valid=False,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_xv004_xv004_v01_xml(save_xml):
     """
@@ -13575,11 +13731,12 @@ def test_xv004_xv004_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv004.v01.xml",
         instance_is_valid=True,
         class_name="DKstra",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv003_xv003_v01_xml(save_xml):
     """
     Use newly-allowed C0 characters in character content and in attribute
@@ -13591,11 +13748,12 @@ def test_xv003_xv003_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv003.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv002_xv002_v01_xml(save_xml):
     """
     Use newly-allowed name characters in NCName value Dutch ligature ij is
@@ -13607,11 +13765,12 @@ def test_xv002_xv002_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv002.v01.xml",
         instance_is_valid=True,
         class_name="Doc",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_xv001_xv001_v01_xml(save_xml):
     """
     Use newly-allowed name characters in element and attribute name Dutch
@@ -13624,7 +13783,7 @@ def test_xv001_xv001_v01_xml(save_xml):
         instance="saxonData/XmlVersions/xv001.v01.xml",
         instance_is_valid=True,
         class_name="DKstra",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 

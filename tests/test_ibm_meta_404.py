@@ -99,6 +99,7 @@ def test_s3_3_6v01_s3_3_6v01i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6ii04_s3_10_6v04i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
@@ -109,11 +110,12 @@ def test_s3_10_6ii04_s3_10_6v04i(save_xml):
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii04.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6ii03_s3_10_6v03i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
@@ -124,11 +126,12 @@ def test_s3_10_6ii03_s3_10_6v03i(save_xml):
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii03.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6ii02_s3_10_6v02i(save_xml):
     """
     Tests notQName and notNamespace list in xs:anyAttribute
@@ -139,11 +142,12 @@ def test_s3_10_6ii02_s3_10_6v02i(save_xml):
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii02.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_6ii01_s3_10_6v01i(save_xml):
     """
     Tests notQName on xs:anyAttribute
@@ -154,7 +158,7 @@ def test_s3_10_6ii01_s3_10_6v01i(save_xml):
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii01.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -2662,6 +2666,7 @@ def test_s2_7_2ii01_s2_7_2ii01i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s2_7_2v01_s2_7_2v01i(save_xml):
     """
     Structures introduces a mechanism for signaling that an element
@@ -2679,7 +2684,7 @@ def test_s2_7_2v01_s2_7_2v01i(save_xml):
         instance="ibmData/valid/S2_7_2/s2_7_2v01.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -5401,6 +5406,7 @@ def test_s3_16_2ii01_s3_16_2ii01i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s3_16_2v07_s3_16_2v07i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
@@ -5411,7 +5417,7 @@ def test_s3_16_2v07_s3_16_2v07i(save_xml):
         instance="ibmData/valid/S3_16_2/s3_16_2v07.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -5592,6 +5598,7 @@ def test_d3_3_16ii01_d3_3_16ii01i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_d3_3_16v01_d3_3_16v01i(save_xml):
     """
     test Units of length for hexBinary datatype.
@@ -5602,7 +5609,7 @@ def test_d3_3_16v01_d3_3_16v01i(save_xml):
         instance="ibmData/valid/D3_3_16/d3_3_16v01.xml",
         instance_is_valid=True,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -5850,6 +5857,7 @@ def test_vc_001_vc_001_3(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5862,11 +5870,12 @@ def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5878,11 +5887,12 @@ def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
     """
     Tests namespace attribute in wildcard
@@ -5893,7 +5903,7 @@ def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -5915,6 +5925,7 @@ def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5926,11 +5937,12 @@ def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5942,7 +5954,7 @@ def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -5964,6 +5976,7 @@ def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5975,7 +5988,7 @@ def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
@@ -6096,6 +6109,7 @@ def test_s3_10_1v01_s3_10_1v01i(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
     r"""
     invalid instance for effect of \c in regular expressions
@@ -6106,11 +6120,12 @@ def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
     r"""
     invalid instance for effect of \i in regular expressions
@@ -6121,11 +6136,12 @@ def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
     """
     invalid instance for value space of xs:NCName
@@ -6136,11 +6152,12 @@ def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_d3_4_6ii01_d3_4_6ii01i(save_xml):
     """
     invalid instance for value space of xs:Name
@@ -6151,7 +6168,7 @@ def test_d3_4_6ii01_d3_4_6ii01i(save_xml):
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xml",
         instance_is_valid=False,
         class_name="Root",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 

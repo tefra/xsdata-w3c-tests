@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_28_v06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elMinInclusive_MinInclusive>2009-02-02T02:00:00+09:00</elMinInclusive_MinInclusive>
+  <elMinInclusive_MinInclusive>2003-02-02T02:00:00+09:00</elMinInclusive_MinInclusive>
+  <elMinInclusive_MinExclusive>2003-02-02T02:00:01+09:00</elMinInclusive_MinExclusive>
+  <elMinInclusive_MinExclusive>2009-02-02T02:00:00+09:00</elMinInclusive_MinExclusive>
+  <elMinInclusive_MaxInclusive>2009-02-02T02:00:00+09:00</elMinInclusive_MaxInclusive>
+  <elMinInclusive_MaxInclusive>2003-02-02T02:00:00+09:00</elMinInclusive_MaxInclusive>
+  <elMinInclusive_MaxExclusive>2009-02-02T01:59:59+09:00</elMinInclusive_MaxExclusive>
+  <elMinInclusive_MaxExclusive>2003-02-02T02:00:00+09:00</elMinInclusive_MaxExclusive>
+</dv:root>

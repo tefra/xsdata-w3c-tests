@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<a:root xmlns:a="ns-a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a:e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
+  <a:b-e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
+  <a:e2>12</a:e2>
+</a:root>

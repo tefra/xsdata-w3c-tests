@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="B">
+  <e/>
+  <e/>
+  <e/>
+  <e/>
+  <f/>
+  <f/>
+  <f/>
+  <f/>
+</root>

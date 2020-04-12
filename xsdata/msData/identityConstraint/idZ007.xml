@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<NewDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <t1>
+    <Id>foo</Id>
+  </t1>
+  <t2>
+    <Id>foo</Id>
+  </t2>
+</NewDataSet>

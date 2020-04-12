@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <complexTest>
+    <comp_foo>fo:fo_124-.sda3</comp_foo>
+  </complexTest>
+  <simpleTest>fo:fo_124-.sda3</simpleTest>
+</root>

@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_re_k73_re_k73_i():
+def test_re_k73_re_k73_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Cc}*', value='#x9;',
     type='invalid', RULE='26,35'
@@ -15,10 +15,11 @@ def test_re_k73_re_k73_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k72_re_k72_v():
+def test_re_k72_re_k72_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{C}*', value='#x20A0;',
     type='valid', RULE='26,35'
@@ -30,10 +31,11 @@ def test_re_k72_re_k72_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k71_re_k71_i():
+def test_re_k71_re_k71_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{C}*', value='#x9;#x070F;#x70
     F;#xE0078;#xE000;#xE000;#x100000;#xF0000;#xFFFFD;#x10FFFD;',
@@ -46,10 +48,11 @@ def test_re_k71_re_k71_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k70_re_k70_v():
+def test_re_k70_re_k70_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{So}*', value='#x9;',
     type='valid', RULE='26,34'
@@ -61,10 +64,11 @@ def test_re_k70_re_k70_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k69_re_k69_i():
+def test_re_k69_re_k69_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{So}*',
     value='#x3190;#x1D1DD;', type='invalid', RULE='26,34'
@@ -76,10 +80,11 @@ def test_re_k69_re_k69_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k68_re_k68_v():
+def test_re_k68_re_k68_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sk}*', value='#x3190;',
     type='valid', RULE='26,34'
@@ -91,10 +96,11 @@ def test_re_k68_re_k68_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k67_re_k67_i():
+def test_re_k67_re_k67_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sk}*',
     value='#x309B;#xFFE3;', type='invalid', RULE='26,34'
@@ -106,10 +112,11 @@ def test_re_k67_re_k67_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k66_re_k66_v():
+def test_re_k66_re_k66_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sc}*', value='#x309B;',
     type='valid', RULE='26,34'
@@ -121,10 +128,11 @@ def test_re_k66_re_k66_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k65_re_k65_i():
+def test_re_k65_re_k65_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sc}*',
     value='#x20A0;#xFFE6;', type='invalid', RULE='26,34'
@@ -136,10 +144,11 @@ def test_re_k65_re_k65_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k64_re_k64_v():
+def test_re_k64_re_k64_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sm}*', value='#x20A0;',
     type='valid', RULE='26,34'
@@ -151,10 +160,11 @@ def test_re_k64_re_k64_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k63_re_k63_i():
+def test_re_k63_re_k63_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Sm}*',
     value='#x2044;#xFFE2;', type='invalid', RULE='26,34'
@@ -166,10 +176,11 @@ def test_re_k63_re_k63_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k62_re_k62_v():
+def test_re_k62_re_k62_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{S}*', value='#x1680;',
     type='valid', RULE='26,34'
@@ -181,10 +192,11 @@ def test_re_k62_re_k62_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k61_re_k61_i():
+def test_re_k61_re_k61_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{S}*', value='#x2044;#xFFE2;#
     x20A0;#x20A0;#xFFE6;#x309B;#x309B;#xFFE3;#x3190;#x3190;#x1D1DD;',
@@ -197,10 +209,11 @@ def test_re_k61_re_k61_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k60_re_k60_v():
+def test_re_k60_re_k60_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zp}*', value='#x2044;',
     type='valid', RULE='26,33'
@@ -212,10 +225,11 @@ def test_re_k60_re_k60_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k59_re_k59_i():
+def test_re_k59_re_k59_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zp}*', value='#x2029;',
     type='invalid', RULE='26,33'
@@ -227,10 +241,11 @@ def test_re_k59_re_k59_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k58_re_k58_v():
+def test_re_k58_re_k58_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zl}*', value='#x2029;',
     type='valid', RULE='26,33'
@@ -242,10 +257,11 @@ def test_re_k58_re_k58_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k57_re_k57_i():
+def test_re_k57_re_k57_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zl}*', value='#x2028;',
     type='invalid', RULE='26,33'
@@ -257,10 +273,11 @@ def test_re_k57_re_k57_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k56_re_k56_v():
+def test_re_k56_re_k56_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zs}*', value='#x2028;',
     type='valid', RULE='26,33'
@@ -272,10 +289,11 @@ def test_re_k56_re_k56_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k55_re_k55_i():
+def test_re_k55_re_k55_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Zs}*',
     value='#x1680;#x3000;', type='invalid', RULE='26,33'
@@ -287,10 +305,11 @@ def test_re_k55_re_k55_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k54_re_k54_v():
+def test_re_k54_re_k54_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Z}*', value='#xBF;',
     type='valid', RULE='26,33'
@@ -302,10 +321,11 @@ def test_re_k54_re_k54_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k53_re_k53_i():
+def test_re_k53_re_k53_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Z}*',
     value='#x1680;#x3000;#x2028;#x2028;#x2029;#x2029;', type='invalid',
@@ -318,10 +338,11 @@ def test_re_k53_re_k53_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k52_re_k52_v():
+def test_re_k52_re_k52_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Po}*', value='#x1680;',
     type='valid', RULE='26,32'
@@ -333,10 +354,11 @@ def test_re_k52_re_k52_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k51_re_k51_i():
+def test_re_k51_re_k51_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Po}*', value='#xBF;#xFF64;',
     type='invalid', RULE='26,32'
@@ -348,10 +370,11 @@ def test_re_k51_re_k51_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k50_re_k50_v():
+def test_re_k50_re_k50_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pf}*', value='#xBF;',
     type='valid', RULE='26,32'
@@ -363,10 +386,11 @@ def test_re_k50_re_k50_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k49_re_k49_i():
+def test_re_k49_re_k49_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pf}*', value='#xBB;#x203A;',
     type='invalid', RULE='26,32'
@@ -378,10 +402,11 @@ def test_re_k49_re_k49_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k48_re_k48_v():
+def test_re_k48_re_k48_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pi}*', value='#xBB;',
     type='valid', RULE='26,32'
@@ -393,10 +418,11 @@ def test_re_k48_re_k48_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k47_re_k47_i():
+def test_re_k47_re_k47_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pi}*', value='#xAB;#x2039;',
     type='invalid', RULE='26,32'
@@ -408,10 +434,11 @@ def test_re_k47_re_k47_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k46_re_k46_v():
+def test_re_k46_re_k46_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pe}*', value='#xAB;',
     type='valid', RULE='26,32'
@@ -423,10 +450,11 @@ def test_re_k46_re_k46_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k45_re_k45_i():
+def test_re_k45_re_k45_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pe}*',
     value='#x301E;#xFF63;', type='invalid', RULE='26,32'
@@ -438,10 +466,11 @@ def test_re_k45_re_k45_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k44_re_k44_v():
+def test_re_k44_re_k44_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Ps}*', value='#x301E;',
     type='valid', RULE='26,32'
@@ -453,10 +482,11 @@ def test_re_k44_re_k44_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k43_re_k43_i():
+def test_re_k43_re_k43_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Ps}*',
     value='#x301D;#xFF62;', type='invalid', RULE='26,32'
@@ -468,10 +498,11 @@ def test_re_k43_re_k43_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k42_re_k42_v():
+def test_re_k42_re_k42_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pd}*', value='#x301D;',
     type='valid', RULE='26,32'
@@ -483,10 +514,11 @@ def test_re_k42_re_k42_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k41_re_k41_i():
+def test_re_k41_re_k41_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pd}*',
     value='#x301C;#xFF0D;', type='invalid', RULE='26,32'
@@ -498,10 +530,11 @@ def test_re_k41_re_k41_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k40_re_k40_v():
+def test_re_k40_re_k40_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pc}*', value='#x301C;',
     type='valid', RULE='26,32'
@@ -513,10 +546,11 @@ def test_re_k40_re_k40_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k39_re_k39_i():
+def test_re_k39_re_k39_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Pc}*',
     value='#x203F;#xFF65;', type='invalid', RULE='26,32'
@@ -528,10 +562,11 @@ def test_re_k39_re_k39_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k38_re_k38_v():
+def test_re_k38_re_k38_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{P}*', value='#xB2;',
     type='valid', RULE='26,32'
@@ -543,10 +578,11 @@ def test_re_k38_re_k38_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k37_re_k37_i():
+def test_re_k37_re_k37_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{P}*', value='#x203F;#xFF65;#
     x301C;#x301C;#xFF0D;#x301D;#x301D;#xFF62;#x301E;#x301E;#xFF63;#xAB;#xA
@@ -560,10 +596,11 @@ def test_re_k37_re_k37_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k36_re_k36_v():
+def test_re_k36_re_k36_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{No}*', value='#x203F;',
     type='valid', RULE='26,31'
@@ -575,10 +612,11 @@ def test_re_k36_re_k36_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k35_re_k35_i():
+def test_re_k35_re_k35_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{No}*',
     value='#xB2;#x10323;', type='invalid', RULE='26,31'
@@ -590,10 +628,11 @@ def test_re_k35_re_k35_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k34_re_k34_v():
+def test_re_k34_re_k34_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Nl}*', value='#xB2;',
     type='valid', RULE='26,31'
@@ -605,10 +644,11 @@ def test_re_k34_re_k34_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k33_re_k33_i():
+def test_re_k33_re_k33_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Nl}*',
     value='#x1034A;#x3025;', type='invalid', RULE='26,31'
@@ -620,10 +660,11 @@ def test_re_k33_re_k33_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k32_re_k32_v():
+def test_re_k32_re_k32_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Nd}*', value='#x1034A;',
     type='valid', RULE='26,31'
@@ -635,10 +676,11 @@ def test_re_k32_re_k32_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k31_re_k31_i():
+def test_re_k31_re_k31_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Nd}*',
     value='#xFF10;#x1D7FF;', type='invalid', RULE='26,31'
@@ -650,10 +692,11 @@ def test_re_k31_re_k31_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k30_re_k30_v():
+def test_re_k30_re_k30_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{N}*', value='#x903;',
     type='valid', RULE='26,31'
@@ -665,10 +708,11 @@ def test_re_k30_re_k30_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k29_re_k29_i():
+def test_re_k29_re_k29_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{N}*',
     value='#xFF10;#x1D7FF;#x1034A;#x1034A;#x3025;#xB2;#xB2;#x10323;',
@@ -681,10 +725,11 @@ def test_re_k29_re_k29_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k28_re_k28_v():
+def test_re_k28_re_k28_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Me}*', value='#xFF10;',
     type='valid', RULE='26,30'
@@ -696,10 +741,11 @@ def test_re_k28_re_k28_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k27_re_k27_i():
+def test_re_k27_re_k27_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Me}*',
     value='#x20DD;#x20E0;', type='invalid', RULE='26,30'
@@ -711,10 +757,11 @@ def test_re_k27_re_k27_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k26_re_k26_v():
+def test_re_k26_re_k26_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Mc}*', value='#x20DD;',
     type='valid', RULE='26,30'
@@ -726,10 +773,11 @@ def test_re_k26_re_k26_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k25_re_k25_i():
+def test_re_k25_re_k25_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Mc}*',
     value='#x903;#x1D172;', type='invalid', RULE='26,30'
@@ -741,10 +789,11 @@ def test_re_k25_re_k25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k24_re_k24_v():
+def test_re_k24_re_k24_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Mn}*',
     value='#x903;#x1D172;', type='valid', RULE='26,30'
@@ -756,10 +805,11 @@ def test_re_k24_re_k24_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k23_re_k23_i():
+def test_re_k23_re_k23_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Mn}*',
     value='#x64B;#x1D1AD;', type='invalid', RULE='26,30'
@@ -771,10 +821,11 @@ def test_re_k23_re_k23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k22_re_k22_v():
+def test_re_k22_re_k22_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{M}*', value='#x1C5;',
     type='valid', RULE='26,30'
@@ -786,10 +837,11 @@ def test_re_k22_re_k22_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k21_re_k21_i():
+def test_re_k21_re_k21_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{M}*', value='#x64B;#x1D1AD;#
     x903;#x1D172;#x903;#x1D172;#x20DD;#x20DD;#x20E0;', type='invalid',
@@ -802,10 +854,11 @@ def test_re_k21_re_k21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k20_re_k20_v():
+def test_re_k20_re_k20_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lo}*', value='#x64B;',
     type='valid', RULE='26,29'
@@ -817,10 +870,11 @@ def test_re_k20_re_k20_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k19_re_k19_i():
+def test_re_k19_re_k19_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lo}*',
     value='#x5D0;#x2FA1D;', type='invalid', RULE='26,29'
@@ -832,10 +886,11 @@ def test_re_k19_re_k19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k18_re_k18_v():
+def test_re_k18_re_k18_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lm}*', value='#x5D0;',
     type='valid', RULE='26,29'
@@ -847,10 +902,11 @@ def test_re_k18_re_k18_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k17_re_k17_i():
+def test_re_k17_re_k17_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lm}*',
     value='#x2B0;#xFF9F;', type='invalid', RULE='26,29'
@@ -862,10 +918,11 @@ def test_re_k17_re_k17_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k16_re_k16_v():
+def test_re_k16_re_k16_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lt}*', value='#x2B0;',
     type='valid', RULE='26,29'
@@ -877,10 +934,11 @@ def test_re_k16_re_k16_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k15_re_k15_i():
+def test_re_k15_re_k15_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lt}*',
     value='#x1C5;#x1FFC;', type='invalid', RULE='26,29'
@@ -892,10 +950,11 @@ def test_re_k15_re_k15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k14_re_k14_v():
+def test_re_k14_re_k14_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Ll}*', value='#x1C5;',
     type='valid', RULE='26,29'
@@ -907,10 +966,11 @@ def test_re_k14_re_k14_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k13_re_k13_i():
+def test_re_k13_re_k13_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Ll}*',
     value='#x61;#x1D7C9;', type='invalid', RULE='26,29'
@@ -922,10 +982,11 @@ def test_re_k13_re_k13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k12_re_k12_v():
+def test_re_k12_re_k12_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lu}*', value='#x61;',
     type='valid', RULE='26,29'
@@ -937,10 +998,11 @@ def test_re_k12_re_k12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k11_re_k11_i():
+def test_re_k11_re_k11_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{Lu}*',
     value='#x41;#x1D7A8;', type='invalid', RULE='26,29'
@@ -952,10 +1014,11 @@ def test_re_k11_re_k11_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k10_re_k10_v():
+def test_re_k10_re_k10_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{L}*', value='#x20DD;',
     type='valid', RULE='26,29'
@@ -967,10 +1030,11 @@ def test_re_k10_re_k10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k9_re_k9_i():
+def test_re_k9_re_k9_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{L}*', value='#x41;#x1D7A8;#x
     61;#x61;#x1D7C9;#x1C5;#x1C5;#x1FFC;#x2B0;#x2B0;#xFF9F;#x5D0;#x5D0;#x2F
@@ -983,10 +1047,11 @@ def test_re_k9_re_k9_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k6_re_k6_i():
+def test_re_k6_re_k6_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='A',
     type='invalid', RULE='26,29'
@@ -998,10 +1063,11 @@ def test_re_k6_re_k6_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k5_re_k5_i():
+def test_re_k5_re_k5_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='!$#',
     type='invalid', RULE='26,29'
@@ -1013,10 +1079,11 @@ def test_re_k5_re_k5_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k4_re_k4_v():
+def test_re_k4_re_k4_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='#$',
     type='valid', RULE='26,29'
@@ -1028,10 +1095,11 @@ def test_re_k4_re_k4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k3_re_k3_v():
+def test_re_k3_re_k3_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\P{L}*]{0,2}', value='',
     type='valid', RULE='26,29'
@@ -1043,10 +1111,11 @@ def test_re_k3_re_k3_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k2_re_k2_v():
+def test_re_k2_re_k2_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{L}*', value='_',
     type='valid', RULE='26,29'
@@ -1058,10 +1127,11 @@ def test_re_k2_re_k2_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_k1_re_k1_i():
+def test_re_k1_re_k1_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\P{L}*', value='aAbB',
     type='invalid', RULE='26,29'
@@ -1073,10 +1143,11 @@ def test_re_k1_re_k1_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j80_re_j80_i():
+def test_re_j80_re_j80_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Cn}*', value='#x9;',
     type='invalid', RULE='25,35'
@@ -1088,10 +1159,11 @@ def test_re_j80_re_j80_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j78_re_j78_i():
+def test_re_j78_re_j78_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Co}*', value='#x2044;',
     type='invalid', RULE='25,35'
@@ -1103,10 +1175,11 @@ def test_re_j78_re_j78_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j77_re_j77_i():
+def test_re_j77_re_j77_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Co}*',
     value='#xE000;#x100000;#xF0000;#xFFFFD;#x10FFFD;', type='valid',
@@ -1119,10 +1192,11 @@ def test_re_j77_re_j77_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j76_re_j76_i():
+def test_re_j76_re_j76_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Cf}*', value='#xE000;',
     type='invalid', RULE='25,35'
@@ -1134,10 +1208,11 @@ def test_re_j76_re_j76_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j75_re_j75_i():
+def test_re_j75_re_j75_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Cf}*',
     value='#x70F;#xE0078;', type='valid', RULE='25,35'
@@ -1149,10 +1224,11 @@ def test_re_j75_re_j75_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j74_re_j74_i():
+def test_re_j74_re_j74_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Cc}*', value='#x070F;',
     type='invalid', RULE='25,35'
@@ -1164,10 +1240,11 @@ def test_re_j74_re_j74_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j73_re_j73_v():
+def test_re_j73_re_j73_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Cc}*', value='#x9;',
     type='valid', RULE='25,35'
@@ -1179,10 +1256,11 @@ def test_re_j73_re_j73_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j72_re_j72_i():
+def test_re_j72_re_j72_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{C}*', value='#x20A0;',
     type='invalid', RULE='25,35'
@@ -1194,10 +1272,11 @@ def test_re_j72_re_j72_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j70_re_j70_i():
+def test_re_j70_re_j70_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{So}*', value='#x9;',
     type='invalid', RULE='25,34'
@@ -1209,10 +1288,11 @@ def test_re_j70_re_j70_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j69_re_j69_i():
+def test_re_j69_re_j69_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{So}*',
     value='#x3190;#x1D1DD;', type='valid', RULE='25,34'
@@ -1224,10 +1304,11 @@ def test_re_j69_re_j69_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j68_re_j68_i():
+def test_re_j68_re_j68_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sk}*', value='#x3190;',
     type='invalid', RULE='25,34'
@@ -1239,10 +1320,11 @@ def test_re_j68_re_j68_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j67_re_j67_v():
+def test_re_j67_re_j67_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sk}*',
     value='#x309B;#xFFE3;', type='valid', RULE='25,34'
@@ -1254,10 +1336,11 @@ def test_re_j67_re_j67_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j66_re_j66_i():
+def test_re_j66_re_j66_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sc}*', value='#x309B;',
     type='invalid', RULE='25,34'
@@ -1269,10 +1352,11 @@ def test_re_j66_re_j66_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j65_re_j65_v():
+def test_re_j65_re_j65_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sc}*',
     value='#x20A0;#xFFE6;', type='valid', RULE='25,34'
@@ -1284,10 +1368,11 @@ def test_re_j65_re_j65_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j64_re_j64_i():
+def test_re_j64_re_j64_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sm}*', value='#x20A0;',
     type='invalid', RULE='25,34'
@@ -1299,10 +1384,11 @@ def test_re_j64_re_j64_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j63_re_j63_v():
+def test_re_j63_re_j63_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Sm}*',
     value='#x2044;#xFFE2;', type='valid', RULE='25,34'
@@ -1314,10 +1400,11 @@ def test_re_j63_re_j63_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j62_re_j62_i():
+def test_re_j62_re_j62_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{S}*', value='#x1680;',
     type='invalid', RULE='25,34'
@@ -1329,10 +1416,11 @@ def test_re_j62_re_j62_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j61_re_j61_i():
+def test_re_j61_re_j61_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{S}*', value='#x2044;#xFFE2;#
     x20A0;#x20A0;#xFFE6;#x309B;#x309B;#xFFE3;#x3190;#x3190;#x1D1DD;',
@@ -1345,10 +1433,11 @@ def test_re_j61_re_j61_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j60_re_j60_i():
+def test_re_j60_re_j60_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zp}*', value='#x2044;',
     type='invalid', RULE='25,33'
@@ -1360,10 +1449,11 @@ def test_re_j60_re_j60_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j59_re_j59_v():
+def test_re_j59_re_j59_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zp}*', value='#x2029;',
     type='valid', RULE='25,33'
@@ -1375,10 +1465,11 @@ def test_re_j59_re_j59_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j58_re_j58_i():
+def test_re_j58_re_j58_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zl}*', value='#x2029;',
     type='invalid', RULE='25,33'
@@ -1390,10 +1481,11 @@ def test_re_j58_re_j58_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j57_re_j57_v():
+def test_re_j57_re_j57_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zl}*', value='#x2028;',
     type='valid', RULE='25,33'
@@ -1405,10 +1497,11 @@ def test_re_j57_re_j57_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j56_re_j56_i():
+def test_re_j56_re_j56_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zs}*', value='#x2028;',
     type='invalid', RULE='25,33'
@@ -1420,10 +1513,11 @@ def test_re_j56_re_j56_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j55_re_j55_v():
+def test_re_j55_re_j55_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Zs}*',
     value='#x1680;#x3000;', type='valid', RULE='25,33'
@@ -1435,10 +1529,11 @@ def test_re_j55_re_j55_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j54_re_j54_i():
+def test_re_j54_re_j54_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Z}*', value='#xBF;',
     type='invalid', RULE='25,33'
@@ -1450,10 +1545,11 @@ def test_re_j54_re_j54_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j53_re_j53_v():
+def test_re_j53_re_j53_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Z}*',
     value='#x1680;#x3000;#x2028;#x2028;#x2029;#x2029;', type='valid',
@@ -1466,10 +1562,11 @@ def test_re_j53_re_j53_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j52_re_j52_i():
+def test_re_j52_re_j52_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Po}*', value='#x1680;',
     type='invalid', RULE='25,32'
@@ -1481,10 +1578,11 @@ def test_re_j52_re_j52_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j51_re_j51_v():
+def test_re_j51_re_j51_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Po}*', value='#xBF;#xFF64;',
     type='valid', RULE='25,32'
@@ -1496,10 +1594,11 @@ def test_re_j51_re_j51_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j50_re_j50_i():
+def test_re_j50_re_j50_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pf}*', value='#xBF;',
     type='invalid', RULE='25,32'
@@ -1511,10 +1610,11 @@ def test_re_j50_re_j50_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j49_re_j49_v():
+def test_re_j49_re_j49_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pf}*', value='#xBB;#x203A;',
     type='valid', RULE='25,32'
@@ -1526,10 +1626,11 @@ def test_re_j49_re_j49_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j48_re_j48_i():
+def test_re_j48_re_j48_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pi}*', value='#xBB;',
     type='invalid', RULE='25,32'
@@ -1541,10 +1642,11 @@ def test_re_j48_re_j48_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j47_re_j47_v():
+def test_re_j47_re_j47_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pi}*', value='#xAB;#x2039;',
     type='valid', RULE='25,32'
@@ -1556,10 +1658,11 @@ def test_re_j47_re_j47_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j46_re_j46_i():
+def test_re_j46_re_j46_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pe}*', value='#xAB;',
     type='invalid', RULE='25,32'
@@ -1571,10 +1674,11 @@ def test_re_j46_re_j46_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j45_re_j45_v():
+def test_re_j45_re_j45_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pe}*',
     value='#x301E;#xFF63;', type='valid', RULE='25,32'
@@ -1586,10 +1690,11 @@ def test_re_j45_re_j45_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j44_re_j44_i():
+def test_re_j44_re_j44_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Ps}*', value='#x301E;',
     type='invalid', RULE='25,32'
@@ -1601,10 +1706,11 @@ def test_re_j44_re_j44_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j43_re_j43_v():
+def test_re_j43_re_j43_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Ps}*',
     value='#x301D;#xFF62;', type='valid', RULE='25,32'
@@ -1616,10 +1722,11 @@ def test_re_j43_re_j43_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j42_re_j42_i():
+def test_re_j42_re_j42_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pd}*', value='#x301D;',
     type='invalid', RULE='25,32'
@@ -1631,10 +1738,11 @@ def test_re_j42_re_j42_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j41_re_j41_v():
+def test_re_j41_re_j41_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pd}*',
     value='#x301C;#xFF0D;', type='valid', RULE='25,32'
@@ -1646,10 +1754,11 @@ def test_re_j41_re_j41_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j40_re_j40_i():
+def test_re_j40_re_j40_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Pc}*', value='#x301C;',
     type='invalid', RULE='25,32'
@@ -1661,10 +1770,11 @@ def test_re_j40_re_j40_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j38_re_j38_i():
+def test_re_j38_re_j38_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{P}*', value='#xB2;',
     type='invalid', RULE='25,32'
@@ -1676,10 +1786,11 @@ def test_re_j38_re_j38_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j37_re_j37_v():
+def test_re_j37_re_j37_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{P}*', value='#x203F;#xFF65;#
     x301C;#x301C;#xFF0D;#x301D;#x301D;#xFF62;#x301E;#x301E;#xFF63;#xAB;#xA
@@ -1693,10 +1804,11 @@ def test_re_j37_re_j37_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j36_re_j36_i():
+def test_re_j36_re_j36_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{No}*', value='#x203F;',
     type='invalid', RULE='25,31'
@@ -1708,10 +1820,11 @@ def test_re_j36_re_j36_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j35_re_j35_i():
+def test_re_j35_re_j35_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{No}*',
     value='#xB2;#x10323;', type='valid', RULE='25,31'
@@ -1723,10 +1836,11 @@ def test_re_j35_re_j35_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j34_re_j34_i():
+def test_re_j34_re_j34_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Nl}*', value='#xB2;',
     type='invalid', RULE='25,31'
@@ -1738,10 +1852,11 @@ def test_re_j34_re_j34_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j33_re_j33_i():
+def test_re_j33_re_j33_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Nl}*',
     value='#x1034A;#x3025;', type='valid', RULE='25,31'
@@ -1753,10 +1868,11 @@ def test_re_j33_re_j33_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j32_re_j32_i():
+def test_re_j32_re_j32_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Nd}*', value='#x1034A;',
     type='invalid', RULE='25,31'
@@ -1768,10 +1884,11 @@ def test_re_j32_re_j32_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j31_re_j31_i():
+def test_re_j31_re_j31_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Nd}*',
     value='#xFF10;#x1D7FF;', type='valid', RULE='25,31'
@@ -1783,10 +1900,11 @@ def test_re_j31_re_j31_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j30_re_j30_i():
+def test_re_j30_re_j30_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{N}*', value='#x903;',
     type='invalid', RULE='25,31'
@@ -1798,10 +1916,11 @@ def test_re_j30_re_j30_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j29_re_j29_i():
+def test_re_j29_re_j29_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{N}*',
     value='#xFF10;#x1D7FF;#x1034A;#x1034A;#x3025;#xB2;#xB2;#x10323;',
@@ -1814,10 +1933,11 @@ def test_re_j29_re_j29_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j28_re_j28_i():
+def test_re_j28_re_j28_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Me}*', value='#xFF10;',
     type='invalid', RULE='25,30'
@@ -1829,10 +1949,11 @@ def test_re_j28_re_j28_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j27_re_j27_v():
+def test_re_j27_re_j27_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Me}*',
     value='#x20DD;#x20E0;', type='valid', RULE='25,30'
@@ -1844,10 +1965,11 @@ def test_re_j27_re_j27_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j26_re_j26_i():
+def test_re_j26_re_j26_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Mc}*', value='#x20DD;',
     type='invalid', RULE='25,30'
@@ -1859,10 +1981,11 @@ def test_re_j26_re_j26_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j25_re_j25_i():
+def test_re_j25_re_j25_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Mc}*',
     value='#x903;#x1D172;', type='valid', RULE='25,30'
@@ -1874,10 +1997,11 @@ def test_re_j25_re_j25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j24_re_j24_i():
+def test_re_j24_re_j24_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Mn}*', value='#x903;',
     type='invalid', RULE='25,30'
@@ -1889,10 +2013,11 @@ def test_re_j24_re_j24_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j23_re_j23_i():
+def test_re_j23_re_j23_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Mn}*',
     value='#x64B;#x1D1AD;', type='valid', RULE='25,30'
@@ -1904,10 +2029,11 @@ def test_re_j23_re_j23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j22_re_j22_i():
+def test_re_j22_re_j22_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{M}*', value='#x1C5;',
     type='invalid', RULE='25,30'
@@ -1919,10 +2045,11 @@ def test_re_j22_re_j22_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j21_re_j21_i():
+def test_re_j21_re_j21_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{M}*', value='#x64B;#x1D1AD;#
     x903;#x1D172;#x903;#x1D172;#x20DD;#x20DD;#x20E0;', type='valid',
@@ -1935,10 +2062,11 @@ def test_re_j21_re_j21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j20_re_j20_i():
+def test_re_j20_re_j20_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lo}*', value='#x64B;',
     type='invalid', RULE='25,29'
@@ -1950,10 +2078,11 @@ def test_re_j20_re_j20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j19_re_j19_i():
+def test_re_j19_re_j19_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lo}*',
     value='#x5D0;#x2FA1D;', type='valid', RULE='25,29'
@@ -1965,10 +2094,11 @@ def test_re_j19_re_j19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j18_re_j18_i():
+def test_re_j18_re_j18_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lm}*', value='#x5D0;',
     type='invalid', RULE='25,29'
@@ -1980,10 +2110,11 @@ def test_re_j18_re_j18_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j17_re_j17_v():
+def test_re_j17_re_j17_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lm}*',
     value='#x2B0;#xFF9F;', type='valid', RULE='25,29'
@@ -1995,10 +2126,11 @@ def test_re_j17_re_j17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j16_re_j16_i():
+def test_re_j16_re_j16_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lt}*', value='#x2B0;',
     type='invalid', RULE='25,29'
@@ -2010,10 +2142,11 @@ def test_re_j16_re_j16_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j15_re_j15_v():
+def test_re_j15_re_j15_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lt}*',
     value='#x1C5;#x1FFC;', type='valid', RULE='25,29'
@@ -2025,10 +2158,11 @@ def test_re_j15_re_j15_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j14_re_j14_i():
+def test_re_j14_re_j14_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Ll}*', value='#x1C5;',
     type='invalid', RULE='25,29'
@@ -2040,10 +2174,11 @@ def test_re_j14_re_j14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j13_re_j13_i():
+def test_re_j13_re_j13_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Ll}*',
     value='#x61;#x1D7C9;', type='valid', RULE='25,29'
@@ -2055,10 +2190,11 @@ def test_re_j13_re_j13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j12_re_j12_i():
+def test_re_j12_re_j12_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lu}*', value='#x61;',
     type='invalid', RULE='25,29'
@@ -2070,10 +2206,11 @@ def test_re_j12_re_j12_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j11_re_j11_i():
+def test_re_j11_re_j11_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{Lu}*',
     value='#x41;#x1D7A8;', type='valid', RULE='25,29'
@@ -2085,10 +2222,11 @@ def test_re_j11_re_j11_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j10_re_j10_i():
+def test_re_j10_re_j10_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\p{L}*', value='#x20DD;',
     type='invalid', RULE='25,29'
@@ -2100,10 +2238,11 @@ def test_re_j10_re_j10_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j8_re_j8_i():
+def test_re_j8_re_j8_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(\p{Ll}\p{Cc}\p{Nd})*',
     value='#x1680;', type='invalid', RULE='25,29'
@@ -2115,10 +2254,11 @@ def test_re_j8_re_j8_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j5_re_j5_i():
+def test_re_j5_re_j5_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\p{L}*]{0,2}', value='aBC',
     type='invalid', RULE='25,29'
@@ -2130,10 +2270,11 @@ def test_re_j5_re_j5_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_j4_re_j4_v():
+def test_re_j4_re_j4_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\p{L}*]{0,2}', value='aX',
     type='valid', RULE='25,29'
@@ -2145,10 +2286,11 @@ def test_re_j4_re_j4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i83_re_i83_v():
+def test_re_i83_re_i83_v(save_xml):
     r"""
     TEST :branch : base='string',pattern="\\.*,\\s*,\\S*,\\i*,\\I?,\\c+,\\
     C+,\\d{0,3},\\D{1,1000},\\w*,\\W*",
@@ -2161,10 +2303,11 @@ def test_re_i83_re_i83_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i82_re_i82_v():
+def test_re_i82_re_i82_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern="\\.,\\s,\\S,\\i,\\I,\\c,\\C,\\d,\\D,\\w,\\W",
@@ -2177,10 +2320,11 @@ def test_re_i82_re_i82_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i81_re_i81_i():
+def test_re_i81_re_i81_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\c', value='\\', type='valid',
     RULE='24'
@@ -2192,10 +2336,11 @@ def test_re_i81_re_i81_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i80_re_i80_i():
+def test_re_i80_re_i80_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\c', value='\\c',
     type='valid', RULE='24'
@@ -2207,10 +2352,11 @@ def test_re_i80_re_i80_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i79_re_i79_i():
+def test_re_i79_re_i79_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\c', value='\p{_xmlC}',
     type='valid', RULE='24'
@@ -2222,10 +2368,11 @@ def test_re_i79_re_i79_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i78_re_i78_v():
+def test_re_i78_re_i78_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\c', value='\c', type='valid',
     RULE='24'
@@ -2237,10 +2384,11 @@ def test_re_i78_re_i78_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i77_re_i77_v():
+def test_re_i77_re_i77_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2253,10 +2401,11 @@ def test_re_i77_re_i77_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i76_re_i76_i():
+def test_re_i76_re_i76_i(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2269,10 +2418,11 @@ def test_re_i76_re_i76_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i75_re_i75_i():
+def test_re_i75_re_i75_i(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2285,10 +2435,11 @@ def test_re_i75_re_i75_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i74_re_i74_v():
+def test_re_i74_re_i74_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2301,10 +2452,11 @@ def test_re_i74_re_i74_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i73_re_i73_v():
+def test_re_i73_re_i73_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2317,10 +2469,11 @@ def test_re_i73_re_i73_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i72_re_i72_v():
+def test_re_i72_re_i72_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\t|\s)a(\r\n|\r|\n|\s)+(\s|\t)b(\s|\r\n|\r|\n)*', value=' a
@@ -2333,10 +2486,11 @@ def test_re_i72_re_i72_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i71_re_i71_v():
+def test_re_i71_re_i71_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\na\nb\nc\n', value=' a b c ',
     type='valid', RULE='24'
@@ -2348,10 +2502,11 @@ def test_re_i71_re_i71_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i69_re_i69_v():
+def test_re_i69_re_i69_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\ta\tb\tc\t', value=' a b c ',
     type='valid', RULE='24'
@@ -2363,10 +2518,11 @@ def test_re_i69_re_i69_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i67_re_i67_v():
+def test_re_i67_re_i67_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n\ra\n\rb', value=' a b',
     type='valid', RULE='24'
@@ -2378,10 +2534,11 @@ def test_re_i67_re_i67_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i65_re_i65_v():
+def test_re_i65_re_i65_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='a\r\nb', value='a b',
     type='valid', RULE='24'
@@ -2393,10 +2550,11 @@ def test_re_i65_re_i65_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i64_re_i64_i():
+def test_re_i64_re_i64_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\t\ta\t\tb\t\t', value=' a b ',
     type='invalid', RULE='24'
@@ -2408,10 +2566,11 @@ def test_re_i64_re_i64_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i63_re_i63_i():
+def test_re_i63_re_i63_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\t\ta\t\tb\t\t', value=' a ',
     type='invalid', RULE='24'
@@ -2423,10 +2582,11 @@ def test_re_i63_re_i63_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i62_re_i62_i():
+def test_re_i62_re_i62_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\t\ta\t\tb\t\t', value=' a b ',
     type='invalid', RULE='24'
@@ -2438,10 +2598,11 @@ def test_re_i62_re_i62_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i61_re_i61_i():
+def test_re_i61_re_i61_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\t\ta\t\tb\t\t', value=' a b ',
     type='invalid', RULE='24'
@@ -2453,10 +2614,11 @@ def test_re_i61_re_i61_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i59_re_i59_i():
+def test_re_i59_re_i59_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\r\ra\r\rb\r\r', value=' a b ',
     type='invalid', RULE='24'
@@ -2468,10 +2630,11 @@ def test_re_i59_re_i59_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i58_re_i58_i():
+def test_re_i58_re_i58_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\r\ra\r\rb\r\r', value=' a ',
     type='invalid', RULE='24'
@@ -2483,10 +2646,11 @@ def test_re_i58_re_i58_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i57_re_i57_i():
+def test_re_i57_re_i57_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\r\ra\r\rb\r\r', value=' a b ',
     type='invalid', RULE='24'
@@ -2498,10 +2662,11 @@ def test_re_i57_re_i57_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i56_re_i56_i():
+def test_re_i56_re_i56_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\r\ra\r\rb\r\r', value=' a b ',
     type='invalid', RULE='24'
@@ -2513,10 +2678,11 @@ def test_re_i56_re_i56_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i55_re_i55_v():
+def test_re_i55_re_i55_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\r\ra\r\rb\r\r', value=' a b ',
     type='valid', RULE='24'
@@ -2528,10 +2694,11 @@ def test_re_i55_re_i55_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i54_re_i54_i():
+def test_re_i54_re_i54_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n\na\n\nb\n\n', value=' a b ',
     type='invalid', RULE='24'
@@ -2543,10 +2710,11 @@ def test_re_i54_re_i54_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i53_re_i53_i():
+def test_re_i53_re_i53_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n\na\n\nb\n\n', value=' a ',
     type='invalid', RULE='24'
@@ -2558,10 +2726,11 @@ def test_re_i53_re_i53_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i52_re_i52_i():
+def test_re_i52_re_i52_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n\na\n\nb\n\n', value=' a b ',
     type='invalid', RULE='24'
@@ -2573,10 +2742,11 @@ def test_re_i52_re_i52_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i51_re_i51_i():
+def test_re_i51_re_i51_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n\na\n\nb\n\n', value=' a b ',
     type='invalid', RULE='24'
@@ -2588,10 +2758,11 @@ def test_re_i51_re_i51_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i49_re_i49_i():
+def test_re_i49_re_i49_i(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='\n\\\r\|\t\.\-\^\?\*\+\{\}\(\)\[\]', value=' \ |
@@ -2604,10 +2775,11 @@ def test_re_i49_re_i49_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i48_re_i48_i():
+def test_re_i48_re_i48_i(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='\n\\\r\|\t\.\-\^\?\*\+\{\}\(\)\[\]', value='\ |
@@ -2620,10 +2792,11 @@ def test_re_i48_re_i48_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i47_re_i47_i():
+def test_re_i47_re_i47_i(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='\n\\\r\|\t\.\-\^\?\*\+\{\}\(\)\[\]', value=' \ |
@@ -2636,10 +2809,11 @@ def test_re_i47_re_i47_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i45_re_i45_v():
+def test_re_i45_re_i45_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\]', value=']', type='valid',
     RULE='24'
@@ -2651,10 +2825,11 @@ def test_re_i45_re_i45_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i44_re_i44_v():
+def test_re_i44_re_i44_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\[', value='[', type='valid',
     RULE='24'
@@ -2666,10 +2841,11 @@ def test_re_i44_re_i44_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i43_re_i43_v():
+def test_re_i43_re_i43_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\)', value=')', type='valid',
     RULE='24'
@@ -2681,10 +2857,11 @@ def test_re_i43_re_i43_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i42_re_i42_v():
+def test_re_i42_re_i42_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\(', value='(', type='valid',
     RULE='24'
@@ -2696,10 +2873,11 @@ def test_re_i42_re_i42_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i41_re_i41_v():
+def test_re_i41_re_i41_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\}', value='}', type='valid',
     RULE='24'
@@ -2711,10 +2889,11 @@ def test_re_i41_re_i41_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i40_re_i40_v():
+def test_re_i40_re_i40_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\{', value='{', type='valid',
     RULE='24'
@@ -2726,10 +2905,11 @@ def test_re_i40_re_i40_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i39_re_i39_v():
+def test_re_i39_re_i39_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\+', value='+', type='valid',
     RULE='24'
@@ -2741,10 +2921,11 @@ def test_re_i39_re_i39_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i38_re_i38_v():
+def test_re_i38_re_i38_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\*', value='*', type='valid',
     RULE='24'
@@ -2756,10 +2937,11 @@ def test_re_i38_re_i38_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i37_re_i37_v():
+def test_re_i37_re_i37_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\?', value='?', type='valid',
     RULE='24'
@@ -2771,10 +2953,11 @@ def test_re_i37_re_i37_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i36_re_i36_v():
+def test_re_i36_re_i36_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\^', value='^', type='valid',
     RULE='24'
@@ -2786,10 +2969,11 @@ def test_re_i36_re_i36_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i35_re_i35_v():
+def test_re_i35_re_i35_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\-', value='-', type='valid',
     RULE='24'
@@ -2801,10 +2985,11 @@ def test_re_i35_re_i35_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i34_re_i34_v():
+def test_re_i34_re_i34_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\.', value='.', type='valid',
     RULE='24'
@@ -2816,10 +3001,11 @@ def test_re_i34_re_i34_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i33_re_i33_v():
+def test_re_i33_re_i33_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\|', value='|', type='valid',
     RULE='24'
@@ -2831,10 +3017,11 @@ def test_re_i33_re_i33_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i32_re_i32_v():
+def test_re_i32_re_i32_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\', value='\', type='valid',
     RULE='24'
@@ -2846,10 +3033,11 @@ def test_re_i32_re_i32_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i31_re_i31_v():
+def test_re_i31_re_i31_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\t', value='#x9;',
     type='valid', RULE='24'
@@ -2861,10 +3049,11 @@ def test_re_i31_re_i31_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i29_re_i29_v():
+def test_re_i29_re_i29_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\n', value='#xA;',
     type='valid', RULE='24'
@@ -2876,10 +3065,11 @@ def test_re_i29_re_i29_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i28_re_i28_i():
+def test_re_i28_re_i28_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\r', value='#xD;',
     type='invalid', RULE='24'
@@ -2891,10 +3081,11 @@ def test_re_i28_re_i28_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i27_re_i27_i():
+def test_re_i27_re_i27_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\r', value='\\r',
     type='invalid', RULE='24'
@@ -2906,10 +3097,11 @@ def test_re_i27_re_i27_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i26_re_i26_i():
+def test_re_i26_re_i26_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\r', value='r',
     type='invalid', RULE='24'
@@ -2921,10 +3113,11 @@ def test_re_i26_re_i26_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i25_re_i25_v():
+def test_re_i25_re_i25_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\r', value='\r', type='valid',
     RULE='24'
@@ -2936,10 +3129,11 @@ def test_re_i25_re_i25_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i24_re_i24_i():
+def test_re_i24_re_i24_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\n', value='#xA;',
     type='invalid', RULE='24'
@@ -2951,10 +3145,11 @@ def test_re_i24_re_i24_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i23_re_i23_i():
+def test_re_i23_re_i23_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\n', value='\\n',
     type='invalid', RULE='24'
@@ -2966,10 +3161,11 @@ def test_re_i23_re_i23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i22_re_i22_i():
+def test_re_i22_re_i22_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\n', value='n',
     type='invalid', RULE='24'
@@ -2981,10 +3177,11 @@ def test_re_i22_re_i22_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i21_re_i21_v():
+def test_re_i21_re_i21_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\n', value='\n', type='valid',
     RULE='24'
@@ -2996,10 +3193,11 @@ def test_re_i21_re_i21_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i20_re_i20_i():
+def test_re_i20_re_i20_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\t', value='#x9;',
     type='invalid', RULE='24'
@@ -3011,10 +3209,11 @@ def test_re_i20_re_i20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i19_re_i19_i():
+def test_re_i19_re_i19_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\t', value='\\t',
     type='invalid', RULE='24'
@@ -3026,10 +3225,11 @@ def test_re_i19_re_i19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i18_re_i18_i():
+def test_re_i18_re_i18_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\t', value='t',
     type='invalid', RULE='24'
@@ -3041,10 +3241,11 @@ def test_re_i18_re_i18_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i17_re_i17_v():
+def test_re_i17_re_i17_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\\t', value='\t', type='valid',
     RULE='24'
@@ -3056,10 +3257,11 @@ def test_re_i17_re_i17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i16_re_i16_v():
+def test_re_i16_re_i16_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='aa?',
     type='valid', RULE='24'
@@ -3071,10 +3273,11 @@ def test_re_i16_re_i16_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i15_re_i15_v():
+def test_re_i15_re_i15_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='a??',
     type='valid', RULE='24'
@@ -3086,10 +3289,11 @@ def test_re_i15_re_i15_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i14_re_i14_v():
+def test_re_i14_re_i14_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='a',
     type='valid', RULE='24'
@@ -3101,10 +3305,11 @@ def test_re_i14_re_i14_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i13_re_i13_v():
+def test_re_i13_re_i13_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='a?a?a?',
     type='valid', RULE='24'
@@ -3116,10 +3321,11 @@ def test_re_i13_re_i13_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i12_re_i12_v():
+def test_re_i12_re_i12_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='a?',
     type='valid', RULE='24'
@@ -3131,10 +3337,11 @@ def test_re_i12_re_i12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i11_re_i11_i():
+def test_re_i11_re_i11_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[(a\?)?]+', value='',
     type='invalid', RULE='24'
@@ -3146,10 +3353,11 @@ def test_re_i11_re_i11_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i10_re_i10_v():
+def test_re_i10_re_i10_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[a\*]*', value='a',
     type='valid', RULE='24'
@@ -3161,10 +3369,11 @@ def test_re_i10_re_i10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i9_re_i9_v():
+def test_re_i9_re_i9_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[a\*]*', value='aa*',
     type='valid', RULE='24'
@@ -3176,10 +3385,11 @@ def test_re_i9_re_i9_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i8_re_i8_v():
+def test_re_i8_re_i8_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[a\*]*', value='a**',
     type='valid', RULE='24'
@@ -3191,10 +3401,11 @@ def test_re_i8_re_i8_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_i1_re_i1_v():
+def test_re_i1_re_i1_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(\n\r\t\\\|\.\-\^\?\*\+\{\}\[\]\(\))*',
@@ -3208,10 +3419,11 @@ def test_re_i1_re_i1_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h21_re_h21_i():
+def test_re_h21_re_h21_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-a-x-x]+', value='a-b',
     type='invalid', RULE='22'
@@ -3223,10 +3435,11 @@ def test_re_h21_re_h21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h20_re_h20_i():
+def test_re_h20_re_h20_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-a-x-x]+', value='j',
     type='invalid', RULE='22'
@@ -3238,10 +3451,11 @@ def test_re_h20_re_h20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h19_re_h19_v():
+def test_re_h19_re_h19_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-a-x-x]+', value='a-x',
     type='valid', RULE='22'
@@ -3253,10 +3467,11 @@ def test_re_h19_re_h19_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h18_re_h18_v():
+def test_re_h18_re_h18_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-]*', value='a--aa---',
     type='valid', RULE='22'
@@ -3268,10 +3483,11 @@ def test_re_h18_re_h18_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h17_re_h17_v():
+def test_re_h17_re_h17_v(save_xml):
     """
     TEST :branch : base='string', pattern='[-a]+', value='a--aa---',
     type='valid', RULE='22'
@@ -3283,10 +3499,11 @@ def test_re_h17_re_h17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h16_re_h16_v():
+def test_re_h16_re_h16_v(save_xml):
     """
     TEST :branch : base='string', pattern='[-]', value='-', type='valid',
     RULE='22'
@@ -3298,10 +3515,11 @@ def test_re_h16_re_h16_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h15_re_h15_i():
+def test_re_h15_re_h15_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='[][]',
     type='invalid', RULE='21,22'
@@ -3313,10 +3531,11 @@ def test_re_h15_re_h15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h14_re_h14_i():
+def test_re_h14_re_h14_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\]\]',
     type='invalid', RULE='21,22'
@@ -3328,10 +3547,11 @@ def test_re_h14_re_h14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h13_re_h13_i():
+def test_re_h13_re_h13_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\[][',
     type='invalid', RULE='21,22'
@@ -3343,10 +3563,11 @@ def test_re_h13_re_h13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h12_re_h12_v():
+def test_re_h12_re_h12_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='[][',
     type='valid', RULE='21,22'
@@ -3358,10 +3579,11 @@ def test_re_h12_re_h12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h11_re_h11_v():
+def test_re_h11_re_h11_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\]\',
     type='valid', RULE='21,22'
@@ -3373,10 +3595,11 @@ def test_re_h11_re_h11_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h10_re_h10_v():
+def test_re_h10_re_h10_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='[\\',
     type='valid', RULE='21,22'
@@ -3388,10 +3611,11 @@ def test_re_h10_re_h10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h9_re_h9_v():
+def test_re_h9_re_h9_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='[]',
     type='valid', RULE='21,22'
@@ -3403,10 +3627,11 @@ def test_re_h9_re_h9_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h8_re_h8_v():
+def test_re_h8_re_h8_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\[]',
     type='valid', RULE='21,22'
@@ -3418,10 +3643,11 @@ def test_re_h8_re_h8_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h7_re_h7_v():
+def test_re_h7_re_h7_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\[',
     type='valid', RULE='21,22'
@@ -3433,10 +3659,11 @@ def test_re_h7_re_h7_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h6_re_h6_v():
+def test_re_h6_re_h6_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value=']',
     type='valid', RULE='21,22'
@@ -3448,10 +3675,11 @@ def test_re_h6_re_h6_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h5_re_h5_v():
+def test_re_h5_re_h5_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='[',
     type='valid', RULE='21,22'
@@ -3463,10 +3691,11 @@ def test_re_h5_re_h5_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_h4_re_h4_v():
+def test_re_h4_re_h4_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\\[\]]{0,3}', value='\',
     type='valid', RULE='21,22'
@@ -3478,10 +3707,11 @@ def test_re_h4_re_h4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g51_re_g51_i():
+def test_re_g51_re_g51_i(save_xml):
     """
     TEST :branch : base='string', pattern='[#x10000;]', value='#x10001;',
     type='invalid', RULE='19'
@@ -3493,10 +3723,11 @@ def test_re_g51_re_g51_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g50_re_g50_i():
+def test_re_g50_re_g50_i(save_xml):
     """
     TEST :branch : base='string', pattern='[#x10000;]', value='#x10000;',
     type='valid', RULE='19' MK & HST agreed this one is OK, as does MS's
@@ -3509,10 +3740,11 @@ def test_re_g50_re_g50_i():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g49_re_g49_v():
+def test_re_g49_re_g49_v(save_xml):
     """
     TEST :branch : base='string', pattern='[?]', value='#x0FFF;',
     type='valid', RULE='19'
@@ -3524,10 +3756,11 @@ def test_re_g49_re_g49_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g48_re_g48_i():
+def test_re_g48_re_g48_i(save_xml):
     """
     TEST :branch : base='string', pattern='[@]', value='a',
     type='invalid', RULE='19'
@@ -3539,10 +3772,11 @@ def test_re_g48_re_g48_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g47_re_g47_v():
+def test_re_g47_re_g47_v(save_xml):
     """
     TEST :branch : base='string', pattern='[@]', value='@', type='valid',
     RULE='19'
@@ -3554,10 +3788,11 @@ def test_re_g47_re_g47_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g45_re_g45_i():
+def test_re_g45_re_g45_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[=->]', value='\?',
     type='invalid', RULE='18'
@@ -3569,10 +3804,11 @@ def test_re_g45_re_g45_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g44_re_g44_v():
+def test_re_g44_re_g44_v(save_xml):
     """
     TEST :branch : base='string', pattern='[=->]', value='>',
     type='valid', RULE='18'
@@ -3584,10 +3820,11 @@ def test_re_g44_re_g44_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g43_re_g43_v():
+def test_re_g43_re_g43_v(save_xml):
     """
     TEST :branch : base='string', pattern='[=->]', value='=',
     type='valid', RULE='18'
@@ -3599,10 +3836,11 @@ def test_re_g43_re_g43_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g40_re_g40_i():
+def test_re_g40_re_g40_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[1-\]]+', value='^',
     type='invalid', RULE='18'
@@ -3614,10 +3852,11 @@ def test_re_g40_re_g40_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g39_re_g39_i():
+def test_re_g39_re_g39_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[1-\]]+', value='0',
     type='invalid', RULE='18'
@@ -3629,10 +3868,11 @@ def test_re_g39_re_g39_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g38_re_g38_v():
+def test_re_g38_re_g38_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[1-\]]+', value='1]',
     type='valid', RULE='18'
@@ -3644,10 +3884,11 @@ def test_re_g38_re_g38_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g36_re_g36_v():
+def test_re_g36_re_g36_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\*a]*', value='a*a****aaaaa*',
     type='valid', RULE='18'
@@ -3659,10 +3900,11 @@ def test_re_g36_re_g36_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g33_re_g33_v():
+def test_re_g33_re_g33_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='z-9', type='valid', RULE='14'
@@ -3674,10 +3916,11 @@ def test_re_g33_re_g33_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g32_re_g32_v():
+def test_re_g32_re_g32_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='a-1', type='valid', RULE='14'
@@ -3689,10 +3932,11 @@ def test_re_g32_re_g32_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g31_re_g31_v():
+def test_re_g31_re_g31_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='a-1z8', type='valid', RULE='14'
@@ -3704,10 +3948,11 @@ def test_re_g31_re_g31_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g30_re_g30_v():
+def test_re_g30_re_g30_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='a1z-9', type='valid', RULE='14'
@@ -3719,10 +3964,11 @@ def test_re_g30_re_g30_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g29_re_g29_v():
+def test_re_g29_re_g29_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='a-1z-8a-1z-9', type='valid', RULE='14'
@@ -3734,10 +3980,11 @@ def test_re_g29_re_g29_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g28_re_g28_v():
+def test_re_g28_re_g28_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='c-4z-9', type='valid', RULE='14'
@@ -3749,10 +3996,11 @@ def test_re_g28_re_g28_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g27_re_g27_v():
+def test_re_g27_re_g27_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*',
     value='a-1x-7', type='valid', RULE='14'
@@ -3764,10 +4012,11 @@ def test_re_g27_re_g27_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g26_re_g26_v():
+def test_re_g26_re_g26_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-1-4x-z-7-9]*', value='',
     type='valid', RULE='14'
@@ -3779,10 +4028,11 @@ def test_re_g26_re_g26_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g25_re_g25_i():
+def test_re_g25_re_g25_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+',
     value='?#x9;?', type='invalid', RULE='14'
@@ -3794,10 +4044,11 @@ def test_re_g25_re_g25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g24_re_g24_i():
+def test_re_g24_re_g24_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='? ?',
     type='invalid', RULE='14'
@@ -3809,10 +4060,11 @@ def test_re_g24_re_g24_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g23_re_g23_i():
+def test_re_g23_re_g23_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?1?',
     type='invalid', RULE='14'
@@ -3824,10 +4076,11 @@ def test_re_g23_re_g23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g22_re_g22_v():
+def test_re_g22_re_g22_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?',
     type='valid', RULE='14'
@@ -3839,10 +4092,11 @@ def test_re_g22_re_g22_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g21_re_g21_i():
+def test_re_g21_re_g21_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?d?',
     type='invalid', RULE='14'
@@ -3854,10 +4108,11 @@ def test_re_g21_re_g21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g20_re_g20_v():
+def test_re_g20_re_g20_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?c?',
     type='valid', RULE='14'
@@ -3869,10 +4124,11 @@ def test_re_g20_re_g20_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g19_re_g19_v():
+def test_re_g19_re_g19_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?b?',
     type='valid', RULE='14'
@@ -3884,10 +4140,11 @@ def test_re_g19_re_g19_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g18_re_g18_v():
+def test_re_g18_re_g18_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\S\D\?a-c\?]+', value='?a?',
     type='valid', RULE='14'
@@ -3899,10 +4156,11 @@ def test_re_g18_re_g18_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g17_re_g17_i():
+def test_re_g17_re_g17_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\\-\{^]', value='',
     type='error', RULE='12,13,14,17'
@@ -3914,10 +4172,11 @@ def test_re_g17_re_g17_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g16_re_g16_i():
+def test_re_g16_re_g16_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^a-z^]', value='',
     type='error', RULE='12,13,14,17'
@@ -3929,10 +4188,11 @@ def test_re_g16_re_g16_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g14_re_g14_v():
+def test_re_g14_re_g14_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='[\\\|\.\?\*\+\(\)\{\}\-\[\]\^]*', value='\|.?*+(){}-[]^',
@@ -3945,10 +4205,11 @@ def test_re_g14_re_g14_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g13_re_g13_v():
+def test_re_g13_re_g13_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\t]', value='#x9;',
     type='valid', RULE='12,13,14,17'
@@ -3960,10 +4221,11 @@ def test_re_g13_re_g13_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g11_re_g11_v():
+def test_re_g11_re_g11_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[\n]', value='#xA;',
     type='valid', RULE='12,13,14,17'
@@ -3975,10 +4237,11 @@ def test_re_g11_re_g11_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g10_re_g10_i():
+def test_re_g10_re_g10_i(save_xml):
     """
     TEST :branch : base='string', pattern='[0-z]*', value='/',
     type='invalid', RULE='12,13,14,17'
@@ -3990,10 +4253,11 @@ def test_re_g10_re_g10_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g9_re_g9_i():
+def test_re_g9_re_g9_i(save_xml):
     """
     TEST :branch : base='string', pattern='[0-z]*', value='{',
     type='invalid', RULE='12,13,14,17'
@@ -4005,10 +4269,11 @@ def test_re_g9_re_g9_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g8_re_g8_v():
+def test_re_g8_re_g8_v(save_xml):
     """
     TEST :branch : base='string', pattern='[0-z]*',
     value='1234567890:;<=>?@Azaz', type='valid', RULE='12,13,14,17'
@@ -4020,10 +4285,11 @@ def test_re_g8_re_g8_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g7_re_g7_i():
+def test_re_g7_re_g7_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-a]', value='b',
     type='invalid', RULE='12,13,14,17'
@@ -4035,10 +4301,11 @@ def test_re_g7_re_g7_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g6_re_g6_v():
+def test_re_g6_re_g6_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-a]', value='a',
     type='valid', RULE='12,13,14,17'
@@ -4050,10 +4317,11 @@ def test_re_g6_re_g6_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g4_re_g4_v():
+def test_re_g4_re_g4_v(save_xml):
     """
     TEST :branch : base='string', pattern='[1-3]{1,4}', value='123',
     type='valid', RULE='12,13,14,17'
@@ -4065,10 +4333,11 @@ def test_re_g4_re_g4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g3_re_g3_i():
+def test_re_g3_re_g3_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a]', value='', type='invalid',
     RULE='12,13,14,17'
@@ -4080,10 +4349,11 @@ def test_re_g3_re_g3_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_g2_re_g2_i():
+def test_re_g2_re_g2_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a]', value='b',
     type='invalid', RULE='12,13,14,17'
@@ -4095,10 +4365,11 @@ def test_re_g2_re_g2_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f55_re_f55_v():
+def test_re_f55_re_f55_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[a-\}-]', value='}-',
     type='valid', RULE='15,16'
@@ -4110,10 +4381,11 @@ def test_re_f55_re_f55_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f54_re_f54_v():
+def test_re_f54_re_f54_v(save_xml):
     """
     TEST :branch : base='string', pattern='[a-abc]', value='abc',
     type='valid', RULE='15,16'
@@ -4125,10 +4397,11 @@ def test_re_f54_re_f54_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f53_re_f53_i():
+def test_re_f53_re_f53_i(save_xml):
     """
     TEST :branch : base='string', pattern='^^a', value='^a',
     type='invalid', RULE='15,16'
@@ -4140,10 +4413,11 @@ def test_re_f53_re_f53_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f52_re_f52_i():
+def test_re_f52_re_f52_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\^a', value='^', type='valid',
     RULE='15,16'
@@ -4155,10 +4429,11 @@ def test_re_f52_re_f52_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f51_re_f51_i():
+def test_re_f51_re_f51_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='a r',
     type='invalid', RULE='15,16'
@@ -4170,10 +4445,11 @@ def test_re_f51_re_f51_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f50_re_f50_i():
+def test_re_f50_re_f50_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='a c',
     type='invalid', RULE='15,16'
@@ -4185,10 +4461,11 @@ def test_re_f50_re_f50_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f49_re_f49_i():
+def test_re_f49_re_f49_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='a z',
     type='invalid', RULE='15,16'
@@ -4200,10 +4477,11 @@ def test_re_f49_re_f49_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f48_re_f48_i():
+def test_re_f48_re_f48_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='a c',
     type='invalid', RULE='15,16'
@@ -4215,10 +4493,11 @@ def test_re_f48_re_f48_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f47_re_f47_i():
+def test_re_f47_re_f47_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='aa',
     type='invalid', RULE='15,16'
@@ -4230,10 +4509,11 @@ def test_re_f47_re_f47_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f46_re_f46_v():
+def test_re_f46_re_f46_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\c^\d\c', value='a*a',
     type='valid', RULE='15,16'
@@ -4245,10 +4525,11 @@ def test_re_f46_re_f46_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f45_re_f45_v():
+def test_re_f45_re_f45_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(^\?)*', value='a+*abc',
     type='valid', RULE='15,16'
@@ -4260,10 +4541,11 @@ def test_re_f45_re_f45_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f44_re_f44_i():
+def test_re_f44_re_f44_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\?', value='?',
     type='invalid', RULE='15,16'
@@ -4275,10 +4557,11 @@ def test_re_f44_re_f44_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f43_re_f43_v():
+def test_re_f43_re_f43_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\P{IsBasicLatin}', value='a',
     type='valid', RULE='15,16'
@@ -4290,10 +4573,11 @@ def test_re_f43_re_f43_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f42_re_f42_i():
+def test_re_f42_re_f42_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\P{IsBasicLatin}',
     value='#x0100;', type='invalid', RULE='15,16'
@@ -4305,10 +4589,11 @@ def test_re_f42_re_f42_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f41_re_f41_i():
+def test_re_f41_re_f41_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\p{IsBasicLatin}', value='a',
     type='invalid', RULE='15,16'
@@ -4320,10 +4605,11 @@ def test_re_f41_re_f41_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f40_re_f40_v():
+def test_re_f40_re_f40_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='^\p{IsBasicLatin}',
     value='#x0100;', type='valid', RULE='15,16'
@@ -4335,10 +4621,11 @@ def test_re_f40_re_f40_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f39_re_f39_i():
+def test_re_f39_re_f39_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-z-[^a]]', value='b',
     type='invalid', RULE='15,16'
@@ -4350,10 +4637,11 @@ def test_re_f39_re_f39_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f36_re_f36_i():
+def test_re_f36_re_f36_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-c-[^a-c]]', value='d',
     type='invalid', RULE='15,16'
@@ -4365,10 +4653,11 @@ def test_re_f36_re_f36_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f34_re_f34_i():
+def test_re_f34_re_f34_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-b-[0-9]]+', value='a1',
     type='invalid', RULE='15,16'
@@ -4380,10 +4669,11 @@ def test_re_f34_re_f34_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f32_re_f32_v():
+def test_re_f32_re_f32_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[a-\}]+', value='abcxyz}',
     type='valid', RULE='15,16'
@@ -4395,10 +4685,11 @@ def test_re_f32_re_f32_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f23_re_f23_i():
+def test_re_f23_re_f23_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^a-d-b-c]', value='cc',
     type='invalid', RULE='15,16'
@@ -4410,10 +4701,11 @@ def test_re_f23_re_f23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f22_re_f22_i():
+def test_re_f22_re_f22_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^a-d-b-c]', value='ab',
     type='invalid', RULE='15,16'
@@ -4425,10 +4717,11 @@ def test_re_f22_re_f22_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f21_re_f21_i():
+def test_re_f21_re_f21_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^a-d-b-c]', value='c-c',
     type='valid', RULE='15,16'
@@ -4440,10 +4733,11 @@ def test_re_f21_re_f21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f20_re_f20_i():
+def test_re_f20_re_f20_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^a-d-b-c]', value='a-b',
     type='valid', RULE='15,16'
@@ -4455,10 +4749,11 @@ def test_re_f20_re_f20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f18_re_f18_i():
+def test_re_f18_re_f18_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-d-[b-c]]', value='c',
     type='invalid', RULE='15,16'
@@ -4470,10 +4765,11 @@ def test_re_f18_re_f18_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f17_re_f17_i():
+def test_re_f17_re_f17_i(save_xml):
     """
     TEST :branch : base='string', pattern='[a-d-[b-c]]', value='b',
     type='invalid', RULE='15,16'
@@ -4485,10 +4781,11 @@ def test_re_f17_re_f17_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f15_re_f15_i():
+def test_re_f15_re_f15_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^-z]+', value='a-z',
     type='invalid', RULE='15'
@@ -4500,10 +4797,11 @@ def test_re_f15_re_f15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f14_re_f14_i():
+def test_re_f14_re_f14_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^-z]+', value='aaz',
     type='valid', RULE='15'
@@ -4515,10 +4813,11 @@ def test_re_f14_re_f14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f13_re_f13_i():
+def test_re_f13_re_f13_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^(]{0,2}', value='@',
     type='invalid', RULE='15'
@@ -4530,10 +4829,11 @@ def test_re_f13_re_f13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f12_re_f12_v():
+def test_re_f12_re_f12_v(save_xml):
     """
     TEST :branch : base='string', pattern='[^(]{0,2}', value=' a',
     type='valid', RULE='15'
@@ -4545,10 +4845,11 @@ def test_re_f12_re_f12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f11_re_f11_v():
+def test_re_f11_re_f11_v(save_xml):
     """
     TEST :branch : base='string', pattern='[^(]{0,2}', value='ab',
     type='valid', RULE='15'
@@ -4560,10 +4861,11 @@ def test_re_f11_re_f11_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f10_re_f10_v():
+def test_re_f10_re_f10_v(save_xml):
     """
     TEST :branch : base='string', pattern='[^(]{0,2}', value='a',
     type='valid', RULE='15'
@@ -4575,10 +4877,11 @@ def test_re_f10_re_f10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f9_re_f9_v():
+def test_re_f9_re_f9_v(save_xml):
     """
     TEST :branch : base='string', pattern='[^(]{0,2}', value='',
     type='valid', RULE='15'
@@ -4590,10 +4893,11 @@ def test_re_f9_re_f9_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f8_re_f8_i():
+def test_re_f8_re_f8_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='[^\s]{3}', value='a c',
     type='invalid', RULE='15'
@@ -4605,10 +4909,11 @@ def test_re_f8_re_f8_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f7_re_f7_v():
+def test_re_f7_re_f7_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='[^\s]{3}', value='abc',
     type='valid', RULE='15'
@@ -4620,10 +4925,11 @@ def test_re_f7_re_f7_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f6_re_f6_i():
+def test_re_f6_re_f6_i(save_xml):
     """
     TEST :branch : base='string', pattern='[^2-9a-x]{2}', value='1x',
     type='invalid', RULE='15'
@@ -4635,10 +4941,11 @@ def test_re_f6_re_f6_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_f4_re_f4_v():
+def test_re_f4_re_f4_v(save_xml):
     """
     TEST :branch : base='string', pattern='[^2-9a-x]{2}', value='1z',
     type='valid', RULE='15'
@@ -4650,10 +4957,11 @@ def test_re_f4_re_f4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_e14_re_e14_v():
+def test_re_e14_re_e14_v(save_xml):
     r"""
     TEST :branch : base='string',
     pattern='(([\.\\\?\*\+\{\}\[\]\(\)\|]?)*)+',
@@ -4666,10 +4974,11 @@ def test_re_e14_re_e14_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_e13_re_e13_v():
+def test_re_e13_re_e13_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='\.\\\?\*\+\{\}\[\]\(\)\|',
     value='.\?*+{}[]()|', type='valid', RULE='10'
@@ -4681,10 +4990,11 @@ def test_re_e13_re_e13_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_e10_re_e10_v():
+def test_re_e10_re_e10_v(save_xml):
     """
     TEST :branch : base='string', pattern='|', value='', type='error',
     RULE='10'. This is valid because branch allow zero or more pieces. A
@@ -4697,10 +5007,11 @@ def test_re_e10_re_e10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d8_re_d8_i():
+def test_re_d8_re_d8_i(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4713,10 +5024,11 @@ def test_re_d8_re_d8_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d7_re_d7_i():
+def test_re_d7_re_d7_i(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4730,10 +5042,11 @@ def test_re_d7_re_d7_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d6_re_d6_v():
+def test_re_d6_re_d6_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4747,10 +5060,11 @@ def test_re_d6_re_d6_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d5_re_d5_v():
+def test_re_d5_re_d5_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4763,10 +5077,11 @@ def test_re_d5_re_d5_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d4_re_d4_v():
+def test_re_d4_re_d4_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4779,10 +5094,11 @@ def test_re_d4_re_d4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d3_re_d3_v():
+def test_re_d3_re_d3_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4795,10 +5111,11 @@ def test_re_d3_re_d3_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d2_re_d2_v():
+def test_re_d2_re_d2_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4811,10 +5128,11 @@ def test_re_d2_re_d2_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_d1_re_d1_v():
+def test_re_d1_re_d1_v(save_xml):
     """
     TEST :branch : base='string',
     pattern='(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*',
@@ -4827,10 +5145,11 @@ def test_re_d1_re_d1_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c84_re_c84_i():
+def test_re_c84_re_c84_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abbcccc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4842,10 +5161,11 @@ def test_re_c84_re_c84_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c83_re_c83_i():
+def test_re_c83_re_c83_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abbc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4857,10 +5177,11 @@ def test_re_c83_re_c83_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c82_re_c82_i():
+def test_re_c82_re_c82_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='aabcc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4872,10 +5193,11 @@ def test_re_c82_re_c82_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c81_re_c81_i():
+def test_re_c81_re_c81_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='acc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4887,10 +5209,11 @@ def test_re_c81_re_c81_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c80_re_c80_i():
+def test_re_c80_re_c80_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='bbbcc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4902,10 +5225,11 @@ def test_re_c80_re_c80_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c79_re_c79_i():
+def test_re_c79_re_c79_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='aabcc', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -4917,10 +5241,11 @@ def test_re_c79_re_c79_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c78_re_c78_v():
+def test_re_c78_re_c78_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='bbccc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -4932,10 +5257,11 @@ def test_re_c78_re_c78_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c77_re_c77_v():
+def test_re_c77_re_c77_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='bbcc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -4947,10 +5273,11 @@ def test_re_c77_re_c77_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c76_re_c76_v():
+def test_re_c76_re_c76_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abbccc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -4962,10 +5289,11 @@ def test_re_c76_re_c76_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c75_re_c75_v():
+def test_re_c75_re_c75_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abbcc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -4977,10 +5305,11 @@ def test_re_c75_re_c75_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c74_re_c74_v():
+def test_re_c74_re_c74_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abccc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -4992,10 +5321,11 @@ def test_re_c74_re_c74_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c73_re_c73_v():
+def test_re_c73_re_c73_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0,1}b{1,2}c{2,3}',
     value='abcc', type='valid', RULE='2,3,4,5,6,7,8'
@@ -5007,10 +5337,11 @@ def test_re_c73_re_c73_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c72_re_c72_i():
+def test_re_c72_re_c72_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{0,0}', value='ab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5022,10 +5353,11 @@ def test_re_c72_re_c72_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c71_re_c71_i():
+def test_re_c71_re_c71_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{0,0}', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5037,10 +5369,11 @@ def test_re_c71_re_c71_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c70_re_c70_v():
+def test_re_c70_re_c70_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab{0,0}', value='',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5052,10 +5385,11 @@ def test_re_c70_re_c70_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c64_re_c64_i():
+def test_re_c64_re_c64_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5067,10 +5401,11 @@ def test_re_c64_re_c64_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c63_re_c63_i():
+def test_re_c63_re_c63_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='abab abab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5082,10 +5417,11 @@ def test_re_c63_re_c63_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c62_re_c62_i():
+def test_re_c62_re_c62_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='ababababa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5097,10 +5433,11 @@ def test_re_c62_re_c62_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c61_re_c61_i():
+def test_re_c61_re_c61_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='ababaa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5112,10 +5449,11 @@ def test_re_c61_re_c61_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c60_re_c60_i():
+def test_re_c60_re_c60_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='ababa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5127,10 +5465,11 @@ def test_re_c60_re_c60_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c59_re_c59_i():
+def test_re_c59_re_c59_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='ab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5142,10 +5481,11 @@ def test_re_c59_re_c59_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c58_re_c58_v():
+def test_re_c58_re_c58_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='abababababababa
     bababababababababababababababababababababababababab', type='valid',
@@ -5158,10 +5498,11 @@ def test_re_c58_re_c58_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c57_re_c57_v():
+def test_re_c57_re_c57_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='ababab',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5173,10 +5514,11 @@ def test_re_c57_re_c57_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c56_re_c56_v():
+def test_re_c56_re_c56_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2,}', value='abab',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5188,10 +5530,11 @@ def test_re_c56_re_c56_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c55_re_c55_i():
+def test_re_c55_re_c55_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='a b',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5203,10 +5546,11 @@ def test_re_c55_re_c55_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c54_re_c54_i():
+def test_re_c54_re_c54_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='a b a b',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5218,10 +5562,11 @@ def test_re_c54_re_c54_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c53_re_c53_i():
+def test_re_c53_re_c53_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='ab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5233,10 +5578,11 @@ def test_re_c53_re_c53_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c52_re_c52_i():
+def test_re_c52_re_c52_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='a ba ba
     b', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5248,10 +5594,11 @@ def test_re_c52_re_c52_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c51_re_c51_v():
+def test_re_c51_re_c51_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='a ba b',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5263,10 +5610,11 @@ def test_re_c51_re_c51_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c50_re_c50_v():
+def test_re_c50_re_c50_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='a b',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5278,10 +5626,11 @@ def test_re_c50_re_c50_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c49_re_c49_v():
+def test_re_c49_re_c49_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(a\sb){0,2}', value='',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5293,10 +5642,11 @@ def test_re_c49_re_c49_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c48_re_c48_i():
+def test_re_c48_re_c48_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abacabac', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5308,10 +5658,11 @@ def test_re_c48_re_c48_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c47_re_c47_i():
+def test_re_c47_re_c47_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abab', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5323,10 +5674,11 @@ def test_re_c47_re_c47_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c46_re_c46_i():
+def test_re_c46_re_c46_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abaca', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5338,10 +5690,11 @@ def test_re_c46_re_c46_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c45_re_c45_i():
+def test_re_c45_re_c45_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abacacac', type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5353,10 +5706,11 @@ def test_re_c45_re_c45_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c44_re_c44_i():
+def test_re_c44_re_c44_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?', value='ac',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5368,10 +5722,11 @@ def test_re_c44_re_c44_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c43_re_c43_v():
+def test_re_c43_re_c43_v(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abacac', type='valid', RULE='2,3,4,5,6,7,8'
@@ -5383,10 +5738,11 @@ def test_re_c43_re_c43_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c42_re_c42_v():
+def test_re_c42_re_c42_v(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?',
     value='abac', type='valid', RULE='2,3,4,5,6,7,8'
@@ -5398,10 +5754,11 @@ def test_re_c42_re_c42_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c41_re_c41_v():
+def test_re_c41_re_c41_v(save_xml):
     """
     TEST :branch : base='string', pattern='((ab)(ac){0,2})?', value='ab',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5413,10 +5770,11 @@ def test_re_c41_re_c41_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c40_re_c40_i():
+def test_re_c40_re_c40_i(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5428,10 +5786,11 @@ def test_re_c40_re_c40_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c39_re_c39_i():
+def test_re_c39_re_c39_i(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='abbbbb',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5443,10 +5802,11 @@ def test_re_c39_re_c39_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c38_re_c38_i():
+def test_re_c38_re_c38_i(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='bbc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5458,10 +5818,11 @@ def test_re_c38_re_c38_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c37_re_c37_i():
+def test_re_c37_re_c37_i(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='abbc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5473,10 +5834,11 @@ def test_re_c37_re_c37_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c36_re_c36_i():
+def test_re_c36_re_c36_i(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='ab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5488,10 +5850,11 @@ def test_re_c36_re_c36_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c35_re_c35_v():
+def test_re_c35_re_c35_v(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='bbbb',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5503,10 +5866,11 @@ def test_re_c35_re_c35_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c34_re_c34_v():
+def test_re_c34_re_c34_v(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='bbb',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5518,10 +5882,11 @@ def test_re_c34_re_c34_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c33_re_c33_v():
+def test_re_c33_re_c33_v(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='bb',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5533,10 +5898,11 @@ def test_re_c33_re_c33_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c32_re_c32_v():
+def test_re_c32_re_c32_v(save_xml):
     """
     TEST :branch : base='string', pattern='a*b{2,4}c{0}', value='aaabbb',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5548,10 +5914,11 @@ def test_re_c32_re_c32_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c31_re_c31_i():
+def test_re_c31_re_c31_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc{2}', value='',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5563,10 +5930,11 @@ def test_re_c31_re_c31_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c30_re_c30_i():
+def test_re_c30_re_c30_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc{2}', value='abccc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5578,10 +5946,11 @@ def test_re_c30_re_c30_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c29_re_c29_i():
+def test_re_c29_re_c29_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc{2}', value='abc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5593,10 +5962,11 @@ def test_re_c29_re_c29_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c28_re_c28_v():
+def test_re_c28_re_c28_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc{2}', value='abcc',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5608,10 +5978,11 @@ def test_re_c28_re_c28_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c27_re_c27_i():
+def test_re_c27_re_c27_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5623,10 +5994,11 @@ def test_re_c27_re_c27_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c26_re_c26_i():
+def test_re_c26_re_c26_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5638,10 +6010,11 @@ def test_re_c26_re_c26_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c25_re_c25_i():
+def test_re_c25_re_c25_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='abbbc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5653,10 +6026,11 @@ def test_re_c25_re_c25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c24_re_c24_i():
+def test_re_c24_re_c24_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='abc',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5668,10 +6042,11 @@ def test_re_c24_re_c24_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c23_re_c23_i():
+def test_re_c23_re_c23_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='ac',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5683,10 +6058,11 @@ def test_re_c23_re_c23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c22_re_c22_v():
+def test_re_c22_re_c22_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab{2}c', value='abbc',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5698,10 +6074,11 @@ def test_re_c22_re_c22_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c21_re_c21_i():
+def test_re_c21_re_c21_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='aaaaaaaaaaaaaa
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -5715,10 +6092,11 @@ def test_re_c21_re_c21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c20_re_c20_i():
+def test_re_c20_re_c20_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='aaa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5730,10 +6108,11 @@ def test_re_c20_re_c20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c19_re_c19_i():
+def test_re_c19_re_c19_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5745,10 +6124,11 @@ def test_re_c19_re_c19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c18_re_c18_v():
+def test_re_c18_re_c18_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='aaaaaaaaaaaaaa
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -5764,10 +6144,11 @@ def test_re_c18_re_c18_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c17_re_c17_v():
+def test_re_c17_re_c17_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='aa',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5779,10 +6160,11 @@ def test_re_c17_re_c17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c16_re_c16_v():
+def test_re_c16_re_c16_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})*', value='',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5794,10 +6176,11 @@ def test_re_c16_re_c16_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c15_re_c15_i():
+def test_re_c15_re_c15_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='aaa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5809,10 +6192,11 @@ def test_re_c15_re_c15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c14_re_c14_i():
+def test_re_c14_re_c14_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='a2',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5824,10 +6208,11 @@ def test_re_c14_re_c14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c13_re_c13_i():
+def test_re_c13_re_c13_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5839,10 +6224,11 @@ def test_re_c13_re_c13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c12_re_c12_i():
+def test_re_c12_re_c12_i(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5854,10 +6240,11 @@ def test_re_c12_re_c12_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c11_re_c11_v():
+def test_re_c11_re_c11_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+',
     value='aaaaaaaaaaaaaaaaaaaa', type='valid', RULE='2,3,4,5,6,7,8'
@@ -5869,10 +6256,11 @@ def test_re_c11_re_c11_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c10_re_c10_v():
+def test_re_c10_re_c10_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='aaaa',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5884,10 +6272,11 @@ def test_re_c10_re_c10_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c9_re_c9_v():
+def test_re_c9_re_c9_v(save_xml):
     """
     TEST :branch : base='string', pattern='(a{2})+', value='aa',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5899,10 +6288,11 @@ def test_re_c9_re_c9_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c8_re_c8_i():
+def test_re_c8_re_c8_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='abababab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5914,10 +6304,11 @@ def test_re_c8_re_c8_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c7_re_c7_i():
+def test_re_c7_re_c7_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='ababa',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5929,10 +6320,11 @@ def test_re_c7_re_c7_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c6_re_c6_i():
+def test_re_c6_re_c6_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='ab',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5944,10 +6336,11 @@ def test_re_c6_re_c6_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c5_re_c5_i():
+def test_re_c5_re_c5_i(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -5959,10 +6352,11 @@ def test_re_c5_re_c5_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c4_re_c4_v():
+def test_re_c4_re_c4_v(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5974,10 +6368,11 @@ def test_re_c4_re_c4_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c3_re_c3_v():
+def test_re_c3_re_c3_v(save_xml):
     """
     TEST :branch : base='string', pattern='((ab){2})?', value='abab',
     type='valid', RULE='2,3,4,5,6,7,8'
@@ -5989,10 +6384,11 @@ def test_re_c3_re_c3_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c2_re_c2_v():
+def test_re_c2_re_c2_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0}', value='', type='valid',
     RULE='2,3,4,5,6,7,8'
@@ -6004,10 +6400,11 @@ def test_re_c2_re_c2_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_c1_re_c1_i():
+def test_re_c1_re_c1_i(save_xml):
     """
     TEST :branch : base='string', pattern='a{0}', value='a',
     type='invalid', RULE='2,3,4,5,6,7,8'
@@ -6019,10 +6416,11 @@ def test_re_c1_re_c1_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b78_re_b78_v():
+def test_re_b78_re_b78_v(save_xml):
     """
     TEST :branch : base='string', pattern='a{0}', value='', type='valid',
     RULE='2,3,4'
@@ -6034,10 +6432,11 @@ def test_re_b78_re_b78_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b61_re_b61_i():
+def test_re_b61_re_b61_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='abc???',
     type='invalid', RULE='2,3,4'
@@ -6049,10 +6448,11 @@ def test_re_b61_re_b61_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b60_re_b60_i():
+def test_re_b60_re_b60_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='abc',
     type='invalid', RULE='2,3,4'
@@ -6064,10 +6464,11 @@ def test_re_b60_re_b60_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b59_re_b59_i():
+def test_re_b59_re_b59_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='bc??',
     type='invalid', RULE='2,3,4'
@@ -6079,10 +6480,11 @@ def test_re_b59_re_b59_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b58_re_b58_i():
+def test_re_b58_re_b58_i(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='ac??',
     type='invalid', RULE='2,3,4'
@@ -6094,10 +6496,11 @@ def test_re_b58_re_b58_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b57_re_b57_v():
+def test_re_b57_re_b57_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??',
     value='abbbbca?', type='valid', RULE='2,3,4'
@@ -6109,10 +6512,11 @@ def test_re_b57_re_b57_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b56_re_b56_v():
+def test_re_b56_re_b56_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='abca??',
     type='valid', RULE='2,3,4'
@@ -6124,10 +6528,11 @@ def test_re_b56_re_b56_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b55_re_b55_v():
+def test_re_b55_re_b55_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??',
     value='abbbc??', type='valid', RULE='2,3,4'
@@ -6139,10 +6544,11 @@ def test_re_b55_re_b55_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b54_re_b54_v():
+def test_re_b54_re_b54_v(save_xml):
     r"""
     TEST :branch : base='string', pattern='(ab+c)a?\?\??', value='abc?',
     type='valid', RULE='2,3,4'
@@ -6154,10 +6560,11 @@ def test_re_b54_re_b54_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b53_re_b53_i():
+def test_re_b53_re_b53_i(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='',
     type='invalid', RULE='2,3,4'
@@ -6169,10 +6576,11 @@ def test_re_b53_re_b53_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b52_re_b52_i():
+def test_re_b52_re_b52_i(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='ac',
     type='invalid', RULE='2,3,4'
@@ -6184,10 +6592,11 @@ def test_re_b52_re_b52_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b51_re_b51_i():
+def test_re_b51_re_b51_i(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='c',
     type='invalid', RULE='2,3,4'
@@ -6199,10 +6608,11 @@ def test_re_b51_re_b51_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b50_re_b50_i():
+def test_re_b50_re_b50_i(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='a',
     type='invalid', RULE='2,3,4'
@@ -6214,10 +6624,11 @@ def test_re_b50_re_b50_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b49_re_b49_i():
+def test_re_b49_re_b49_i(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='aabc',
     type='invalid', RULE='2,3,4'
@@ -6229,10 +6640,11 @@ def test_re_b49_re_b49_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b48_re_b48_v():
+def test_re_b48_re_b48_v(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='abbbc',
     type='valid', RULE='2,3,4'
@@ -6244,10 +6656,11 @@ def test_re_b48_re_b48_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b47_re_b47_v():
+def test_re_b47_re_b47_v(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='abc',
     type='valid', RULE='2,3,4'
@@ -6259,10 +6672,11 @@ def test_re_b47_re_b47_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b46_re_b46_v():
+def test_re_b46_re_b46_v(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='bcccccc',
     type='valid', RULE='2,3,4'
@@ -6274,10 +6688,11 @@ def test_re_b46_re_b46_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b45_re_b45_v():
+def test_re_b45_re_b45_v(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='ab',
     type='valid', RULE='2,3,4'
@@ -6289,10 +6704,11 @@ def test_re_b45_re_b45_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b44_re_b44_v():
+def test_re_b44_re_b44_v(save_xml):
     """
     TEST :branch : base='string', pattern='a?b+c*', value='b',
     type='valid', RULE='2,3,4'
@@ -6304,10 +6720,11 @@ def test_re_b44_re_b44_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b43_re_b43_i():
+def test_re_b43_re_b43_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='',
     type='invalid', RULE='2,3,4'
@@ -6319,10 +6736,11 @@ def test_re_b43_re_b43_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b42_re_b42_i():
+def test_re_b42_re_b42_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='abbc',
     type='invalid', RULE='2,3,4'
@@ -6334,10 +6752,11 @@ def test_re_b42_re_b42_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b41_re_b41_i():
+def test_re_b41_re_b41_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='abcd',
     type='invalid', RULE='2,3,4'
@@ -6349,10 +6768,11 @@ def test_re_b41_re_b41_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b40_re_b40_i():
+def test_re_b40_re_b40_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='a',
     type='invalid', RULE='2,3,4'
@@ -6364,10 +6784,11 @@ def test_re_b40_re_b40_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b39_re_b39_v():
+def test_re_b39_re_b39_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='abccccccccccccccc
     cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
@@ -6382,10 +6803,11 @@ def test_re_b39_re_b39_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b38_re_b38_v():
+def test_re_b38_re_b38_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='ab',
     type='valid', RULE='2,3,4'
@@ -6397,10 +6819,11 @@ def test_re_b38_re_b38_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b37_re_b37_v():
+def test_re_b37_re_b37_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc*', value='abc',
     type='valid', RULE='2,3,4'
@@ -6412,10 +6835,11 @@ def test_re_b37_re_b37_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b36_re_b36_i():
+def test_re_b36_re_b36_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='',
     type='invalid', RULE='2,3,4'
@@ -6427,10 +6851,11 @@ def test_re_b36_re_b36_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b35_re_b35_i():
+def test_re_b35_re_b35_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='abcb',
     type='invalid', RULE='2,3,4'
@@ -6442,10 +6867,11 @@ def test_re_b35_re_b35_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b34_re_b34_i():
+def test_re_b34_re_b34_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='c',
     type='invalid', RULE='2,3,4'
@@ -6457,10 +6883,11 @@ def test_re_b34_re_b34_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b33_re_b33_i():
+def test_re_b33_re_b33_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='bc',
     type='invalid', RULE='2,3,4'
@@ -6472,10 +6899,11 @@ def test_re_b33_re_b33_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b32_re_b32_i():
+def test_re_b32_re_b32_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='ab',
     type='invalid', RULE='2,3,4'
@@ -6487,10 +6915,11 @@ def test_re_b32_re_b32_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b31_re_b31_i():
+def test_re_b31_re_b31_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='a',
     type='invalid', RULE='2,3,4'
@@ -6502,10 +6931,11 @@ def test_re_b31_re_b31_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b30_re_b30_v():
+def test_re_b30_re_b30_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='ac',
     type='valid', RULE='2,3,4'
@@ -6517,10 +6947,11 @@ def test_re_b30_re_b30_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b29_re_b29_v():
+def test_re_b29_re_b29_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='abbbbbbbc',
     type='valid', RULE='2,3,4'
@@ -6532,10 +6963,11 @@ def test_re_b29_re_b29_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b28_re_b28_v():
+def test_re_b28_re_b28_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab*c', value='abc',
     type='valid', RULE='2,3,4'
@@ -6547,10 +6979,11 @@ def test_re_b28_re_b28_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b27_re_b27_i():
+def test_re_b27_re_b27_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc+', value='abcd',
     type='invalid', RULE='2,3,4'
@@ -6562,10 +6995,11 @@ def test_re_b27_re_b27_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b26_re_b26_i():
+def test_re_b26_re_b26_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc+', value='ab',
     type='invalid', RULE='2,3,4'
@@ -6577,10 +7011,11 @@ def test_re_b26_re_b26_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b25_re_b25_i():
+def test_re_b25_re_b25_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc+', value='a',
     type='invalid', RULE='2,3,4'
@@ -6592,10 +7027,11 @@ def test_re_b25_re_b25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b24_re_b24_v():
+def test_re_b24_re_b24_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc+', value='abccccccccccccccc
     cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
@@ -6611,10 +7047,11 @@ def test_re_b24_re_b24_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b23_re_b23_v():
+def test_re_b23_re_b23_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc+', value='abc',
     type='valid', RULE='2,3,4'
@@ -6626,10 +7063,11 @@ def test_re_b23_re_b23_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b22_re_b22_i():
+def test_re_b22_re_b22_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='',
     type='invalid', RULE='2,3,4'
@@ -6641,10 +7079,11 @@ def test_re_b22_re_b22_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b21_re_b21_i():
+def test_re_b21_re_b21_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='abbb',
     type='invalid', RULE='2,3,4'
@@ -6656,10 +7095,11 @@ def test_re_b21_re_b21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b20_re_b20_i():
+def test_re_b20_re_b20_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='bbbc',
     type='invalid', RULE='2,3,4'
@@ -6671,10 +7111,11 @@ def test_re_b20_re_b20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b19_re_b19_i():
+def test_re_b19_re_b19_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='ac',
     type='invalid', RULE='2,3,4'
@@ -6686,10 +7127,11 @@ def test_re_b19_re_b19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b18_re_b18_v():
+def test_re_b18_re_b18_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='abbbbbbbbbbbbbbbb
     bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
@@ -6703,10 +7145,11 @@ def test_re_b18_re_b18_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b17_re_b17_v():
+def test_re_b17_re_b17_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab+c', value='abc',
     type='valid', RULE='2,3,4'
@@ -6718,10 +7161,11 @@ def test_re_b17_re_b17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b16_re_b16_i():
+def test_re_b16_re_b16_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='',
     type='invalid', RULE='2,3,4'
@@ -6733,10 +7177,11 @@ def test_re_b16_re_b16_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b15_re_b15_i():
+def test_re_b15_re_b15_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='abcc',
     type='invalid', RULE='2,3,4'
@@ -6748,10 +7193,11 @@ def test_re_b15_re_b15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b14_re_b14_i():
+def test_re_b14_re_b14_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='bc',
     type='invalid', RULE='2,3,4'
@@ -6763,10 +7209,11 @@ def test_re_b14_re_b14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b13_re_b13_i():
+def test_re_b13_re_b13_i(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='a',
     type='invalid', RULE='2,3,4'
@@ -6778,10 +7225,11 @@ def test_re_b13_re_b13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b12_re_b12_v():
+def test_re_b12_re_b12_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='abc',
     type='valid', RULE='2,3,4'
@@ -6793,10 +7241,11 @@ def test_re_b12_re_b12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b11_re_b11_v():
+def test_re_b11_re_b11_v(save_xml):
     """
     TEST :branch : base='string', pattern='abc?', value='ab',
     type='valid', RULE='2,3,4'
@@ -6808,10 +7257,11 @@ def test_re_b11_re_b11_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b10_re_b10_i():
+def test_re_b10_re_b10_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='',
     type='invalid', RULE='2,3,4'
@@ -6823,10 +7273,11 @@ def test_re_b10_re_b10_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b5_re_b5_i():
+def test_re_b5_re_b5_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='bc',
     type='invalid', RULE='2,3,4'
@@ -6838,10 +7289,11 @@ def test_re_b5_re_b5_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b4_re_b4_i():
+def test_re_b4_re_b4_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='ab',
     type='invalid', RULE='2,3,4'
@@ -6853,10 +7305,11 @@ def test_re_b4_re_b4_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b3_re_b3_i():
+def test_re_b3_re_b3_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='a',
     type='invalid', RULE='2,3,4'
@@ -6868,10 +7321,11 @@ def test_re_b3_re_b3_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b2_re_b2_v():
+def test_re_b2_re_b2_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='abc',
     type='valid', RULE='2,3,4'
@@ -6883,10 +7337,11 @@ def test_re_b2_re_b2_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_b1_re_b1_v():
+def test_re_b1_re_b1_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab?c', value='ac',
     type='valid', RULE='2,3,4'
@@ -6898,10 +7353,11 @@ def test_re_b1_re_b1_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a45_re_a45_v():
+def test_re_a45_re_a45_v(save_xml):
     """
     TEST :branch : base='string', pattern=' a|b ', value='a',
     type='valid', RULE='1'
@@ -6913,10 +7369,11 @@ def test_re_a45_re_a45_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a34_re_a34_i():
+def test_re_a34_re_a34_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='e',
     type='invalid', RULE='1'
@@ -6928,10 +7385,11 @@ def test_re_a34_re_a34_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a33_re_a33_i():
+def test_re_a33_re_a33_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='ac',
     type='invalid', RULE='1'
@@ -6943,10 +7401,11 @@ def test_re_a33_re_a33_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a32_re_a32_i():
+def test_re_a32_re_a32_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='aa',
     type='invalid', RULE='1'
@@ -6958,10 +7417,11 @@ def test_re_a32_re_a32_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a31_re_a31_v():
+def test_re_a31_re_a31_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='d',
     type='valid', RULE='1'
@@ -6973,10 +7433,11 @@ def test_re_a31_re_a31_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a30_re_a30_v():
+def test_re_a30_re_a30_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='c',
     type='valid', RULE='1'
@@ -6988,10 +7449,11 @@ def test_re_a30_re_a30_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a29_re_a29_v():
+def test_re_a29_re_a29_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='b',
     type='valid', RULE='1'
@@ -7003,10 +7465,11 @@ def test_re_a29_re_a29_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a28_re_a28_v():
+def test_re_a28_re_a28_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b|a|c|b|d|a', value='a',
     type='valid', RULE='1'
@@ -7018,10 +7481,11 @@ def test_re_a28_re_a28_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a27_re_a27_i():
+def test_re_a27_re_a27_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='', type='invalid',
     RULE='1'
@@ -7033,10 +7497,11 @@ def test_re_a27_re_a27_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a26_re_a26_i():
+def test_re_a26_re_a26_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='bb',
     type='invalid', RULE='1'
@@ -7048,10 +7513,11 @@ def test_re_a26_re_a26_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a25_re_a25_i():
+def test_re_a25_re_a25_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='aa',
     type='invalid', RULE='1'
@@ -7063,10 +7529,11 @@ def test_re_a25_re_a25_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a24_re_a24_v():
+def test_re_a24_re_a24_v(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='ab', type='valid',
     RULE='1'
@@ -7078,10 +7545,11 @@ def test_re_a24_re_a24_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a23_re_a23_i():
+def test_re_a23_re_a23_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='b', type='invalid',
     RULE='1'
@@ -7093,10 +7561,11 @@ def test_re_a23_re_a23_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a22_re_a22_i():
+def test_re_a22_re_a22_i(save_xml):
     """
     TEST :branch : base='string', pattern='ab', value='a', type='invalid',
     RULE='1'
@@ -7108,10 +7577,11 @@ def test_re_a22_re_a22_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a21_re_a21_i():
+def test_re_a21_re_a21_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='', type='invalid',
     RULE='1'
@@ -7123,10 +7593,11 @@ def test_re_a21_re_a21_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a20_re_a20_i():
+def test_re_a20_re_a20_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='ab',
     type='invalid', RULE='1'
@@ -7138,10 +7609,11 @@ def test_re_a20_re_a20_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a19_re_a19_i():
+def test_re_a19_re_a19_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='bb',
     type='invalid', RULE='1'
@@ -7153,10 +7625,11 @@ def test_re_a19_re_a19_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a18_re_a18_i():
+def test_re_a18_re_a18_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='aa',
     type='invalid', RULE='1'
@@ -7168,10 +7641,11 @@ def test_re_a18_re_a18_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a17_re_a17_v():
+def test_re_a17_re_a17_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='b', type='valid',
     RULE='1'
@@ -7183,10 +7657,11 @@ def test_re_a17_re_a17_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a16_re_a16_v():
+def test_re_a16_re_a16_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|b', value='a', type='valid',
     RULE='1'
@@ -7198,10 +7673,11 @@ def test_re_a16_re_a16_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a15_re_a15_i():
+def test_re_a15_re_a15_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|a', value='', type='invalid',
     RULE='1'
@@ -7213,10 +7689,11 @@ def test_re_a15_re_a15_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a14_re_a14_i():
+def test_re_a14_re_a14_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|a', value='b',
     type='invalid', RULE='1'
@@ -7228,10 +7705,11 @@ def test_re_a14_re_a14_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a13_re_a13_i():
+def test_re_a13_re_a13_i(save_xml):
     """
     TEST :branch : base='string', pattern='a|a', value='aa',
     type='invalid', RULE='1'
@@ -7243,10 +7721,11 @@ def test_re_a13_re_a13_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a12_re_a12_v():
+def test_re_a12_re_a12_v(save_xml):
     """
     TEST :branch : base='string', pattern='a|a', value='a', type='valid',
     RULE='1'
@@ -7258,10 +7737,11 @@ def test_re_a12_re_a12_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a11_re_a11_i():
+def test_re_a11_re_a11_i(save_xml):
     """
     TEST :branch : base='string', pattern='a', value='', type='invalid',
     RULE='1'
@@ -7273,10 +7753,11 @@ def test_re_a11_re_a11_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a10_re_a10_i():
+def test_re_a10_re_a10_i(save_xml):
     """
     TEST :branch : base='string', pattern='a', value='b', type='invalid',
     RULE='1'
@@ -7288,10 +7769,11 @@ def test_re_a10_re_a10_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a9_re_a9_i():
+def test_re_a9_re_a9_i(save_xml):
     """
     TEST :branch : base='string', pattern='a', value='aa', type='invalid',
     RULE='1'
@@ -7303,10 +7785,11 @@ def test_re_a9_re_a9_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a8_re_a8_v():
+def test_re_a8_re_a8_v(save_xml):
     """
     TEST :branch : base='string', pattern='a', value='a', type='valid',
     RULE='1'
@@ -7318,10 +7801,11 @@ def test_re_a8_re_a8_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a7_re_a7_v():
+def test_re_a7_re_a7_v(save_xml):
     """
     TEST :branch : base='string', pattern='', value='', type='valid',
     RULE='1'
@@ -7333,10 +7817,11 @@ def test_re_a7_re_a7_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a6_re_a6_i():
+def test_re_a6_re_a6_i(save_xml):
     """
     TEST :branch : base='string', pattern='', value='#xA;',
     type='invalid', RULE='1'
@@ -7348,10 +7833,11 @@ def test_re_a6_re_a6_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a5_re_a5_i():
+def test_re_a5_re_a5_i(save_xml):
     """
     TEST :branch : base='string', pattern='', value='#x9;',
     type='invalid', RULE='1'
@@ -7363,10 +7849,11 @@ def test_re_a5_re_a5_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a4_re_a4_i():
+def test_re_a4_re_a4_i(save_xml):
     """
     TEST :branch : base='string', pattern='', value='#xD;',
     type='invalid', RULE='1'
@@ -7378,10 +7865,11 @@ def test_re_a4_re_a4_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a3_re_a3_i():
+def test_re_a3_re_a3_i(save_xml):
     """
     TEST :branch : base='string', pattern='', value='#x20;',
     type='invalid', RULE='1'
@@ -7393,10 +7881,11 @@ def test_re_a3_re_a3_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a2_re_a2_i():
+def test_re_a2_re_a2_i(save_xml):
     """
     TEST :branch : base='string', pattern='', value='a', type='invalid',
     RULE='1'
@@ -7408,10 +7897,11 @@ def test_re_a2_re_a2_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_re_a1_re_a1_v():
+def test_re_a1_re_a1_v(save_xml):
     """
     TEST :branch : base='string', pattern='', value='', type='valid',
     RULE='1'
@@ -7423,10 +7913,11 @@ def test_re_a1_re_a1_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_u5_sch_u5_i():
+def test_sch_u5_sch_u5_i(save_xml):
     """
     TEST :schema collection and schema location : Circulcar redefines
     handeling (5) The WG decided the spec. is underspecified in this area,
@@ -7439,10 +7930,11 @@ def test_sch_u5_sch_u5_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_u4_sch_u4_i():
+def test_sch_u4_sch_u4_i(save_xml):
     """
     TEST :schema collection and schema location : Circulcar redefines
     handeling (4) The WG decided the spec. is underspecified in this area,
@@ -7455,10 +7947,11 @@ def test_sch_u4_sch_u4_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_u3_sch_u3_i():
+def test_sch_u3_sch_u3_i(save_xml):
     """
     TEST :schema collection and schema location : Circulcar redefines
     handeling (3) The WG decided the spec. is underspecified in this area,
@@ -7471,10 +7964,11 @@ def test_sch_u3_sch_u3_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_t10_sch_t10_v():
+def test_sch_t10_sch_t10_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with an
     attributeGroup, attribute group's content items are a subset of the
@@ -7489,10 +7983,11 @@ def test_sch_t10_sch_t10_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_t9_sch_t9_v():
+def test_sch_t9_sch_t9_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with a
     attributeGroup, attribute group's content items are a subset of the
@@ -7508,10 +8003,11 @@ def test_sch_t9_sch_t9_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_t6_sch_t6_i():
+def test_sch_t6_sch_t6_i(save_xml):
     """
     TEST :schema collection and schema location : redefine with an
     attributeGroup, attribute group's content items are a subset of the
@@ -7526,10 +8022,11 @@ def test_sch_t6_sch_t6_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_t3_sch_t3_v():
+def test_sch_t3_sch_t3_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with a
     attributeGroup, attribute group's content items are a subset of the
@@ -7542,10 +8039,11 @@ def test_sch_t3_sch_t3_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_r2_sch_r2_i():
+def test_sch_r2_sch_r2_i(save_xml):
     """
     TEST :schema collection and schema location : redefine with a group,
     which has a group ref to itself in the middle, group min,maxOccurs is
@@ -7558,10 +8056,11 @@ def test_sch_r2_sch_r2_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_q3_sch_q3_v():
+def test_sch_q3_sch_q3_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with a
     complexType, which has a restriction, (SRC 5)
@@ -7573,10 +8072,11 @@ def test_sch_q3_sch_q3_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_q1_sch_q1_v():
+def test_sch_q1_sch_q1_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with a
     complexType, which has an extension, (SRC 5)
@@ -7588,10 +8088,11 @@ def test_sch_q1_sch_q1_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_p2_sch_p2_v():
+def test_sch_p2_sch_p2_v(save_xml):
     """
     TEST :schema collection and schema location : redefine with a
     complexType, which has a restriction, (SRC 5)
@@ -7603,10 +8104,11 @@ def test_sch_p2_sch_p2_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g12_sch_g12_v():
+def test_sch_g12_sch_g12_v(save_xml):
     """
     TEST :schema collection and schema location : A import B, B import C,
     A's ns="A", B's ns="B", C's ns="B", All declaration in B and C should
@@ -7619,10 +8121,11 @@ def test_sch_g12_sch_g12_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g8_sch_g8_v():
+def test_sch_g8_sch_g8_v(save_xml):
     """
     TEST :schema collection and schema location : A import B and C, B is
     bogus URL, C is valid XSD, test that there is no error and C is
@@ -7635,10 +8138,11 @@ def test_sch_g8_sch_g8_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g7_sch_g7_v():
+def test_sch_g7_sch_g7_v(save_xml):
     """
     TEST :schema collection and schema location : A imports B and B and C,
     B imports C and D, C imports D and A, multiple import of the same XSD
@@ -7651,10 +8155,11 @@ def test_sch_g7_sch_g7_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g5_sch_g5_v():
+def test_sch_g5_sch_g5_v(save_xml):
     """
     TEST :schema collection and schema location : A import B and C, A's
     ns="A", B's ns="B", C's ns="B", (B and C have no confilcting decl)
@@ -7666,10 +8171,11 @@ def test_sch_g5_sch_g5_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g4_sch_g4_v():
+def test_sch_g4_sch_g4_v(save_xml):
     """
     TEST :schema collection and schema location : A import B and C, A's
     ns="A", B's ns="B", C's ns="C"
@@ -7681,10 +8187,11 @@ def test_sch_g4_sch_g4_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g3_sch_g3_v():
+def test_sch_g3_sch_g3_v(save_xml):
     """
     TEST :schema collection and schema location : A import B, B import C,
     A's ns="A", B's ns="B", C's ns="A", (A and C have no confilcting decl)
@@ -7696,10 +8203,11 @@ def test_sch_g3_sch_g3_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g2_sch_g2_v():
+def test_sch_g2_sch_g2_v(save_xml):
     """
     TEST :schema collection and schema location : A import B, B import C,
     A's ns="A", B's ns="", C's ns="C"
@@ -7711,10 +8219,11 @@ def test_sch_g2_sch_g2_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_g1_sch_g1_v():
+def test_sch_g1_sch_g1_v(save_xml):
     """
     TEST :schema collection and schema location : A import B, B import C,
     A's ns="A", B's ns="B", C's ns="C"
@@ -7726,10 +8235,11 @@ def test_sch_g1_sch_g1_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_f5_sch_f5_v():
+def test_sch_f5_sch_f5_v(save_xml):
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
     ns="A", Y's ns="B", test the namespace of import
@@ -7741,10 +8251,11 @@ def test_sch_f5_sch_f5_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_f2_sch_f2_v():
+def test_sch_f2_sch_f2_v(save_xml):
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
     ns="", Y's ns="A", test the namespace of import
@@ -7756,10 +8267,11 @@ def test_sch_f2_sch_f2_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_f1_sch_f1_v():
+def test_sch_f1_sch_f1_v(save_xml):
     """
     TEST :schema collection and schema location : XSD X import XSD Y, X's
     ns="A", Y's ns="", test the namespace of import
@@ -7771,10 +8283,11 @@ def test_sch_f1_sch_f1_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_e4_sch_e4_v():
+def test_sch_e4_sch_e4_v(save_xml):
     """
     TEST :schema collection and schema location : import namespace="foo"
     """
@@ -7785,10 +8298,11 @@ def test_sch_e4_sch_e4_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_d10_sch_d10_v():
+def test_sch_d10_sch_d10_v(save_xml):
     """
     TEST :schema collection and schema location : validate instance
     against 'chameleon' include schema (2)
@@ -7800,11 +8314,12 @@ def test_sch_d10_sch_d10_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.xfail
-def test_sch_d7_sch_d7_v():
+def test_sch_d7_sch_d7_v(save_xml):
     """
     TEST :schema collection and schema location : A includes B and C, B is
     bogus URL, C is valid XSD, test that there is no error and C is
@@ -7817,11 +8332,12 @@ def test_sch_d7_sch_d7_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.xfail
-def test_sch_d5_sch_d5_v():
+def test_sch_d5_sch_d5_v(save_xml):
     """
     TEST :schema collection and schema location : A include B and C, A's
     ns="A", B's ns="A", C's ns="A", type ref from A to B and C, B to A and
@@ -7834,10 +8350,11 @@ def test_sch_d5_sch_d5_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_c4_sch_c4_v():
+def test_sch_c4_sch_c4_v(save_xml):
     """
     TEST :schema collection and schema location : XSD A include XSD B, A's
     ns="A", B's ns="A", test the namespace of include (4.2.1) (SRC 2)
@@ -7849,10 +8366,11 @@ def test_sch_c4_sch_c4_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_c3_sch_c3_v():
+def test_sch_c3_sch_c3_v(save_xml):
     """
     TEST :schema collection and schema location : XSD A include XSD B, A's
     ns="", B's ns="", test the namespace of include (4.2.1) (SRC 2)
@@ -7864,10 +8382,11 @@ def test_sch_c3_sch_c3_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a8_sch_a8_i():
+def test_sch_a8_sch_a8_i(save_xml):
     """
     TEST :schema collection and schema location : Schema
     Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's
@@ -7882,10 +8401,11 @@ def test_sch_a8_sch_a8_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a7_sch_a7_i():
+def test_sch_a7_sch_a7_i(save_xml):
     """
     TEST :schema collection and schema location : Schema
     Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd),
@@ -7899,10 +8419,11 @@ def test_sch_a7_sch_a7_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a5_sch_a5_i():
+def test_sch_a5_sch_a5_i(save_xml):
     """
     TEST :schema collection and schema location : Schema
     Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd),
@@ -7917,10 +8438,11 @@ def test_sch_a5_sch_a5_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a4_sch_a4_v():
+def test_sch_a4_sch_a4_v(save_xml):
     """
     TEST :schema collection and schema location : Schema Collection:,
     SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,
@@ -7932,10 +8454,11 @@ def test_sch_a4_sch_a4_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a3_sch_a3_v():
+def test_sch_a3_sch_a3_v(save_xml):
     """
     TEST :schema collection and schema location : Schema
     Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,
@@ -7947,10 +8470,11 @@ def test_sch_a3_sch_a3_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a2_sch_a2_i():
+def test_sch_a2_sch_a2_i(save_xml):
     """
     TEST :schema collection and schema location : Schema
     Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:,
@@ -7965,10 +8489,11 @@ def test_sch_a2_sch_a2_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_sch_a1_sch_a1_v():
+def test_sch_a1_sch_a1_v(save_xml):
     """
     TEST :schema collection and schema location : Schema Collection:
     (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd
@@ -7980,10 +8505,11 @@ def test_sch_a1_sch_a1_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z075_st_z075_v():
+def test_st_z075_st_z075_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : XSD: xs:NOTATION
     type on elements
@@ -7995,10 +8521,11 @@ def test_st_z075_st_z075_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z074_st_z074_v():
+def test_st_z074_st_z074_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : chameleon lists and
     union of lists
@@ -8010,10 +8537,11 @@ def test_st_z074_st_z074_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z073ba_st_z073b_i():
+def test_st_z073ba_st_z073b_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type
     on a union type(2) Instance test awaiting disposition of 5784, which
@@ -8026,10 +8554,11 @@ def test_st_z073ba_st_z073b_i():
         instance_is_valid=False,
         class_name="Test",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z073b_st_z073b_i():
+def test_st_z073b_st_z073b_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type
     on a union type(2) Instance test awaiting disposition of 5784, which
@@ -8042,10 +8571,11 @@ def test_st_z073b_st_z073b_i():
         instance_is_valid=False,
         class_name="Test",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z072_st_z072_v():
+def test_st_z072_st_z072_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : XSD: valid default
     value of a list of union with enumeration facet
@@ -8057,10 +8587,11 @@ def test_st_z072_st_z072_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z071_st_z071_v():
+def test_st_z071_st_z071_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : adding chameleon
     schemas that have unions without memberTypes
@@ -8072,10 +8603,11 @@ def test_st_z071_st_z071_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z066_st_z066_i():
+def test_st_z066_st_z066_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8087,10 +8619,11 @@ def test_st_z066_st_z066_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z064_st_z064_i():
+def test_st_z064_st_z064_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8102,10 +8635,11 @@ def test_st_z064_st_z064_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z063_st_z063_v():
+def test_st_z063_st_z063_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8117,10 +8651,11 @@ def test_st_z063_st_z063_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z062_st_z062_v():
+def test_st_z062_st_z062_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8132,10 +8667,11 @@ def test_st_z062_st_z062_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z061_st_z061_i():
+def test_st_z061_st_z061_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8147,10 +8683,11 @@ def test_st_z061_st_z061_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z060_st_z060_i():
+def test_st_z060_st_z060_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8162,10 +8699,11 @@ def test_st_z060_st_z060_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z059_st_z059_i():
+def test_st_z059_st_z059_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8177,10 +8715,11 @@ def test_st_z059_st_z059_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z058_st_z058_v():
+def test_st_z058_st_z058_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Facet and value
     constraint validation in lists
@@ -8192,10 +8731,11 @@ def test_st_z058_st_z058_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z057_st_z057_v():
+def test_st_z057_st_z057_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anyType as a valid data type for the head element of a substitution
@@ -8208,10 +8748,11 @@ def test_st_z057_st_z057_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z056_st_z056_i():
+def test_st_z056_st_z056_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8224,10 +8765,11 @@ def test_st_z056_st_z056_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z055_st_z055_v():
+def test_st_z055_st_z055_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8240,11 +8782,12 @@ def test_st_z055_st_z055_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.xfail
-def test_st_z054_st_z054_v():
+def test_st_z054_st_z054_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8257,10 +8800,11 @@ def test_st_z054_st_z054_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z053_st_z053_v():
+def test_st_z053_st_z053_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8273,10 +8817,11 @@ def test_st_z053_st_z053_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z052_st_z052_v():
+def test_st_z052_st_z052_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8289,10 +8834,11 @@ def test_st_z052_st_z052_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z051_st_z051_i():
+def test_st_z051_st_z051_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8305,10 +8851,11 @@ def test_st_z051_st_z051_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z050_st_z050_v():
+def test_st_z050_st_z050_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8321,10 +8868,11 @@ def test_st_z050_st_z050_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z047_st_z047_v():
+def test_st_z047_st_z047_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8337,10 +8885,11 @@ def test_st_z047_st_z047_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z046_st_z046_v():
+def test_st_z046_st_z046_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8353,11 +8902,12 @@ def test_st_z046_st_z046_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
 @pytest.mark.xfail
-def test_st_z045_st_z045_v():
+def test_st_z045_st_z045_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8370,10 +8920,11 @@ def test_st_z045_st_z045_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z044_st_z044_i():
+def test_st_z044_st_z044_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8386,10 +8937,11 @@ def test_st_z044_st_z044_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z043_st_z043_v():
+def test_st_z043_st_z043_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
     anySimpleType as a valid data type for the head element of a
@@ -8402,10 +8954,11 @@ def test_st_z043_st_z043_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z040_st_z040_v():
+def test_st_z040_st_z040_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Using an xsd union
     in the definition of another
@@ -8417,10 +8970,11 @@ def test_st_z040_st_z040_v():
         instance_is_valid=True,
         class_name="Info2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z039_st_z039_i():
+def test_st_z039_st_z039_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Defining a
     simpleType by restricting another simpleType
@@ -8432,10 +8986,11 @@ def test_st_z039_st_z039_i():
         instance_is_valid=False,
         class_name="AlphaTestValue",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z037_st_z037_i():
+def test_st_z037_st_z037_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: simpleType
     restriction with pattern should be the intersaction of the base type
@@ -8448,10 +9003,11 @@ def test_st_z037_st_z037_i():
         instance_is_valid=False,
         class_name="A",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z036_st_z036_v():
+def test_st_z036_st_z036_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: simpleType
     restriction with pattern should be the intersaction of the base type
@@ -8464,10 +9020,11 @@ def test_st_z036_st_z036_v():
         instance_is_valid=True,
         class_name="A",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z035_st_z035_i():
+def test_st_z035_st_z035_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: simpleType
     restriction with pattern should be the intersaction of the base type
@@ -8480,10 +9037,11 @@ def test_st_z035_st_z035_i():
         instance_is_valid=False,
         class_name="A",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z034_st_z034_i():
+def test_st_z034_st_z034_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine
     should persist the last redefine in multiple document or multiple
@@ -8496,10 +9054,11 @@ def test_st_z034_st_z034_i():
         instance_is_valid=False,
         class_name="B1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z033_st_z033_i():
+def test_st_z033_st_z033_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine
     should persist the last redefine in multiple document or multiple
@@ -8512,10 +9071,11 @@ def test_st_z033_st_z033_i():
         instance_is_valid=False,
         class_name="B2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z032_st_z032_i():
+def test_st_z032_st_z032_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: redefine
     should persist the last redefine in multiple document or multiple
@@ -8528,10 +9088,11 @@ def test_st_z032_st_z032_i():
         instance_is_valid=False,
         class_name="A",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z031_st_z031_v():
+def test_st_z031_st_z031_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: we should not
     parser Name as QName.
@@ -8543,10 +9104,11 @@ def test_st_z031_st_z031_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z030_st_z030_v():
+def test_st_z030_st_z030_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd: facet
     minExclusive in restricted type while minInclusive is in base type
@@ -8558,10 +9120,11 @@ def test_st_z030_st_z030_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z015_st_z015_v():
+def test_st_z015_st_z015_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : The value of
     totalDigits facet on a base simple type carrying forward to the
@@ -8574,10 +9137,11 @@ def test_st_z015_st_z015_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z008_st_z008_v():
+def test_st_z008_st_z008_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : rename a
     complexType to anySimpleType using extension, and extend it to another
@@ -8590,10 +9154,11 @@ def test_st_z008_st_z008_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z007_st_z007_v():
+def test_st_z007_st_z007_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : rename a
     complexType to anySimpleType using extension, and restrict it to
@@ -8606,10 +9171,11 @@ def test_st_z007_st_z007_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_z004_st_z004_v():
+def test_st_z004_st_z004_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : xsd:can not specify
     HalfWidth-KANA to Instance documents when schema has pattern facet
@@ -8622,10 +9188,11 @@ def test_st_z004_st_z004_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h008_st_h008_i():
+def test_st_h008_st_h008_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : union derived from
     list of states with restriction facet 'enumeration' with a value of
@@ -8638,10 +9205,11 @@ def test_st_h008_st_h008_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h007_st_h007_v():
+def test_st_h007_st_h007_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : union derived from
     list of states with restriction facet 'enumeration' with a value of
@@ -8654,10 +9222,11 @@ def test_st_h007_st_h007_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h006_st_h006_i():
+def test_st_h006_st_h006_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : union derived from
     list of zip codes with restriction facet 'pattern' with a value of
@@ -8670,10 +9239,11 @@ def test_st_h006_st_h006_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h005_st_h005_v():
+def test_st_h005_st_h005_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : union derived from
     list of zip codes with restriction facet 'pattern' with a value of
@@ -8686,10 +9256,11 @@ def test_st_h005_st_h005_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h004_st_h004_i():
+def test_st_h004_st_h004_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema defines a
     union with memberTypes of a list of states(restricted strings) and a
@@ -8703,10 +9274,11 @@ def test_st_h004_st_h004_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h003_st_h003_v():
+def test_st_h003_st_h003_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema defines a
     union with memberTypes of a list of states(restricted strings) and a
@@ -8720,10 +9292,11 @@ def test_st_h003_st_h003_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h002_st_h002_i():
+def test_st_h002_st_h002_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema defines a
     union of positiveInteger with minInclusive and maxInclusive
@@ -8737,10 +9310,11 @@ def test_st_h002_st_h002_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_h001_st_h001_v():
+def test_st_h001_st_h001_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema defines a
     union of positiveInteger with minInclusive and maxInclusive
@@ -8754,10 +9328,11 @@ def test_st_h001_st_h001_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g013_st_g013_i():
+def test_st_g013_st_g013_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of string type
     with facet of 'pattern' value = '[A-C]{0,2}' instance document has
@@ -8770,10 +9345,11 @@ def test_st_g013_st_g013_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g012_st_g012_v():
+def test_st_g012_st_g012_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of string type
     with facet of 'pattern' value = '[A-C]{0,2}' instance document has
@@ -8786,10 +9362,11 @@ def test_st_g012_st_g012_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g011_st_g011_i():
+def test_st_g011_st_g011_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of NMTOKEN
     type with facet of 'enumeration' value = 'CA' instance document has
@@ -8802,10 +9379,11 @@ def test_st_g011_st_g011_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g010_st_g010_v():
+def test_st_g010_st_g010_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of NMTOKEN
     type with facet of 'enumeration' value = 'CA' instance document has
@@ -8818,10 +9396,11 @@ def test_st_g010_st_g010_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g009_st_g009_i():
+def test_st_g009_st_g009_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'minLength' value = '2' instance document has 1 item
@@ -8833,10 +9412,11 @@ def test_st_g009_st_g009_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g008_st_g008_v():
+def test_st_g008_st_g008_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'minLength' value = '2' instance document has 3 items
@@ -8848,10 +9428,11 @@ def test_st_g008_st_g008_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g007_st_g007_i():
+def test_st_g007_st_g007_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'length' value = '2' instance document has 1 item
@@ -8863,10 +9444,11 @@ def test_st_g007_st_g007_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g006_st_g006_v():
+def test_st_g006_st_g006_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'length' value = '2' instance document has 2 items
@@ -8878,10 +9460,11 @@ def test_st_g006_st_g006_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g005_st_g005_i():
+def test_st_g005_st_g005_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema is a list
     derived from a union of integer and NMTOKEN instance document contains
@@ -8894,10 +9477,11 @@ def test_st_g005_st_g005_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g004_st_g004_v():
+def test_st_g004_st_g004_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : schema is a list
     derived from a union of integer and NMTOKEN instance document contains
@@ -8910,10 +9494,11 @@ def test_st_g004_st_g004_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g003_st_g003_i():
+def test_st_g003_st_g003_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'maxLength' value = '3' instance document has 4 items
@@ -8925,10 +9510,11 @@ def test_st_g003_st_g003_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g002_st_g002_v():
+def test_st_g002_st_g002_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     with facet of 'maxLength' value = '3' instance document has 3 items
@@ -8940,10 +9526,11 @@ def test_st_g002_st_g002_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_g001_st_g001_v():
+def test_st_g001_st_g001_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : list of atomic type
     instance document contains items of the same atomic type
@@ -8955,10 +9542,11 @@ def test_st_g001_st_g001_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_ste110_ste110_i():
+def test_ste110_ste110_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : test circular union
     """
@@ -8969,10 +9557,11 @@ def test_ste110_ste110_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_ste100_ste100_i():
+def test_ste100_ste100_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (46)
@@ -8984,10 +9573,11 @@ def test_ste100_ste100_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_ste099_ste099_v():
+def test_ste099_ste099_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (45)
@@ -8999,10 +9589,11 @@ def test_ste099_ste099_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_ste098_ste098_i():
+def test_ste098_ste098_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (44)
@@ -9014,10 +9605,11 @@ def test_ste098_ste098_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e097_st_e097_i():
+def test_st_e097_st_e097_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (43)
@@ -9029,10 +9621,11 @@ def test_st_e097_st_e097_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e096_st_e096_v():
+def test_st_e096_st_e096_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (42)
@@ -9044,10 +9637,11 @@ def test_st_e096_st_e096_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e095_st_e095_i():
+def test_st_e095_st_e095_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (41)
@@ -9059,10 +9653,11 @@ def test_st_e095_st_e095_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e094_st_e094_v():
+def test_st_e094_st_e094_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (40)
@@ -9074,10 +9669,11 @@ def test_st_e094_st_e094_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e093_st_e093_v():
+def test_st_e093_st_e093_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (39)
@@ -9089,10 +9685,11 @@ def test_st_e093_st_e093_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e092_st_e092_v():
+def test_st_e092_st_e092_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (38)
@@ -9104,10 +9701,12 @@ def test_st_e092_st_e092_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e091_st_e091_v():
+@pytest.mark.xfail
+def test_st_e091_st_e091_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (37)
@@ -9119,10 +9718,11 @@ def test_st_e091_st_e091_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e090_st_e090_v():
+def test_st_e090_st_e090_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (36)
@@ -9134,10 +9734,11 @@ def test_st_e090_st_e090_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e082_st_e082_i():
+def test_st_e082_st_e082_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (35)
@@ -9149,10 +9750,11 @@ def test_st_e082_st_e082_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e081_st_e081_v():
+def test_st_e081_st_e081_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (34)
@@ -9164,10 +9766,11 @@ def test_st_e081_st_e081_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e080_st_e080_v():
+def test_st_e080_st_e080_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (33)
@@ -9179,10 +9782,11 @@ def test_st_e080_st_e080_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e079_st_e079_v():
+def test_st_e079_st_e079_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (32)
@@ -9194,10 +9798,11 @@ def test_st_e079_st_e079_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e078_st_e078_i():
+def test_st_e078_st_e078_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (31)
@@ -9209,10 +9814,11 @@ def test_st_e078_st_e078_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e077_st_e077_v():
+def test_st_e077_st_e077_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (30)
@@ -9224,10 +9830,11 @@ def test_st_e077_st_e077_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e076_st_e076_i():
+def test_st_e076_st_e076_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (29)
@@ -9239,10 +9846,11 @@ def test_st_e076_st_e076_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e075_st_e075_i():
+def test_st_e075_st_e075_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (28)
@@ -9254,10 +9862,11 @@ def test_st_e075_st_e075_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_ste074v_ste074v_v():
+def test_ste074v_ste074v_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (27)
@@ -9269,10 +9878,11 @@ def test_ste074v_ste074v_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e074_st_e074_i():
+def test_st_e074_st_e074_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (26)
@@ -9284,10 +9894,11 @@ def test_st_e074_st_e074_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e073v_st_e073v_v():
+def test_st_e073v_st_e073v_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (25)
@@ -9299,10 +9910,11 @@ def test_st_e073v_st_e073v_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e073_st_e073_i():
+def test_st_e073_st_e073_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (24)
@@ -9314,10 +9926,11 @@ def test_st_e073_st_e073_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e072_st_e072_v():
+def test_st_e072_st_e072_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (23) Changed to add a wrapper element to avoid problems with
@@ -9331,10 +9944,11 @@ def test_st_e072_st_e072_v():
         instance_is_valid=True,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e071_st_e071_i():
+def test_st_e071_st_e071_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (22)
@@ -9346,10 +9960,11 @@ def test_st_e071_st_e071_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e070_st_e070_i():
+def test_st_e070_st_e070_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (21)
@@ -9361,10 +9976,11 @@ def test_st_e070_st_e070_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e069_st_e069_v():
+def test_st_e069_st_e069_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (20)
@@ -9376,10 +9992,11 @@ def test_st_e069_st_e069_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e068_st_e068_v():
+def test_st_e068_st_e068_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (19)
@@ -9391,10 +10008,11 @@ def test_st_e068_st_e068_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e067_st_e067_v():
+def test_st_e067_st_e067_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (18)
@@ -9406,10 +10024,11 @@ def test_st_e067_st_e067_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e066_st_e066_v():
+def test_st_e066_st_e066_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (17)
@@ -9421,10 +10040,11 @@ def test_st_e066_st_e066_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e065_st_e065_v():
+def test_st_e065_st_e065_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (16)
@@ -9436,10 +10056,11 @@ def test_st_e065_st_e065_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e064_st_e064_v():
+def test_st_e064_st_e064_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (15)
@@ -9451,10 +10072,11 @@ def test_st_e064_st_e064_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e063_st_e063_i():
+def test_st_e063_st_e063_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (14)
@@ -9466,10 +10088,11 @@ def test_st_e063_st_e063_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e062_st_e062_v():
+def test_st_e062_st_e062_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (13)
@@ -9481,10 +10104,11 @@ def test_st_e062_st_e062_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e061_st_e061_v():
+def test_st_e061_st_e061_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (12)
@@ -9496,10 +10120,11 @@ def test_st_e061_st_e061_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e060_st_e060_v():
+def test_st_e060_st_e060_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (11)
@@ -9511,10 +10136,11 @@ def test_st_e060_st_e060_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e059_st_e059_v():
+def test_st_e059_st_e059_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (10)
@@ -9526,10 +10152,11 @@ def test_st_e059_st_e059_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e058_st_e058_v():
+def test_st_e058_st_e058_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (9)
@@ -9541,10 +10168,11 @@ def test_st_e058_st_e058_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e057_st_e057_v():
+def test_st_e057_st_e057_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (8)
@@ -9556,10 +10184,11 @@ def test_st_e057_st_e057_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e056_st_e056_i():
+def test_st_e056_st_e056_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (7)
@@ -9571,10 +10200,11 @@ def test_st_e056_st_e056_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e055_st_e055_v():
+def test_st_e055_st_e055_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (6)
@@ -9586,10 +10216,11 @@ def test_st_e055_st_e055_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e054_st_e054_i():
+def test_st_e054_st_e054_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (5)
@@ -9601,10 +10232,11 @@ def test_st_e054_st_e054_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e053_st_e053_i():
+def test_st_e053_st_e053_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (4) In XSD 1.1, xs:simpleType is not allowed as a member type of
@@ -9617,10 +10249,11 @@ def test_st_e053_st_e053_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e052_st_e052_v():
+def test_st_e052_st_e052_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (3)
@@ -9632,10 +10265,11 @@ def test_st_e052_st_e052_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e051_st_e051_i():
+def test_st_e051_st_e051_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (2)
@@ -9647,10 +10281,11 @@ def test_st_e051_st_e051_i():
         instance_is_valid=False,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_e050_st_e050_v():
+def test_st_e050_st_e050_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed
     Value (1)
@@ -9662,10 +10297,11 @@ def test_st_e050_st_e050_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_st_c034_st_c034_i():
+def test_st_c034_st_c034_i(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : error for duration
     value that is not conformed to the duration format.
@@ -9677,10 +10313,11 @@ def test_st_c034_st_c034_i():
         instance_is_valid=False,
         class_name="A",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013f_wild_z013f_i():
+def test_wild_z013f_wild_z013f_i(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9692,10 +10329,11 @@ def test_wild_z013f_wild_z013f_i():
         instance_is_valid=False,
         class_name="Sub6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013e_wild_z013e_i():
+def test_wild_z013e_wild_z013e_i(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9707,10 +10345,11 @@ def test_wild_z013e_wild_z013e_i():
         instance_is_valid=False,
         class_name="Sub5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013d_wild_z013d_i():
+def test_wild_z013d_wild_z013d_i(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9722,10 +10361,11 @@ def test_wild_z013d_wild_z013d_i():
         instance_is_valid=False,
         class_name="Sub4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013c_wild_z013c_v():
+def test_wild_z013c_wild_z013c_v(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9737,10 +10377,11 @@ def test_wild_z013c_wild_z013c_v():
         instance_is_valid=True,
         class_name="Sub3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013b_wild_z013b_v():
+def test_wild_z013b_wild_z013b_v(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9752,10 +10393,11 @@ def test_wild_z013b_wild_z013b_v():
         instance_is_valid=True,
         class_name="Sub2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z013a_wild_z013a_i():
+def test_wild_z013a_wild_z013a_i(save_xml):
     """
     TEST :Syntax Validation - any : 328873: Attribute Wildcard
     Intersection and Union rules according to Errata E1-10 in schema set
@@ -9767,10 +10409,11 @@ def test_wild_z013a_wild_z013a_i():
         instance_is_valid=False,
         class_name="Sub",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z011_wild_z011_i():
+def test_wild_z011_wild_z011_i(save_xml):
     """
     TEST :Syntax Validation - any : XSD: process Contents for the complete
     wildcard component
@@ -9782,10 +10425,11 @@ def test_wild_z011_wild_z011_i():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z010_wild_z010_v():
+def test_wild_z010_wild_z010_v(save_xml):
     """
     TEST :Syntax Validation - any : xsd: namespace='' on wildcard any
     should match against ##any TSTF ruled the instance invalid -- no
@@ -9798,10 +10442,11 @@ def test_wild_z010_wild_z010_v():
         instance_is_valid=False,
         class_name="Doc",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z007_wild_z007_v():
+def test_wild_z007_wild_z007_v(save_xml):
     """
     TEST :Syntax Validation - any : XSD: When processContents=lax, xsd:any
     doesn't allow attributes from target namespace
@@ -9813,10 +10458,11 @@ def test_wild_z007_wild_z007_v():
         instance_is_valid=True,
         class_name="Stylesheet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z006_wild_z006_i():
+def test_wild_z006_wild_z006_i(save_xml):
     """
     TEST :Syntax Validation - any : any with namespace ##other should not
     allow local element
@@ -9828,10 +10474,11 @@ def test_wild_z006_wild_z006_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z005_wild_z005_i():
+def test_wild_z005_wild_z005_i(save_xml):
     """
     TEST :Syntax Validation - any : any with namespace ##other should not
     allow targetNamespace's element
@@ -9843,10 +10490,11 @@ def test_wild_z005_wild_z005_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z004_wild_z004_v():
+def test_wild_z004_wild_z004_v(save_xml):
     """
     TEST :Syntax Validation - any : xsd: un-declared element when content
     is xsd:anyType.
@@ -9858,10 +10506,11 @@ def test_wild_z004_wild_z004_v():
         instance_is_valid=True,
         class_name="RootElem",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z003_wild_z003_v():
+def test_wild_z003_wild_z003_v(save_xml):
     """
     TEST :Syntax Validation - any : xsd: test valid instance with elements
     from a different namespace where xsd defint 'any' with ##other
@@ -9873,10 +10522,11 @@ def test_wild_z003_wild_z003_v():
         instance_is_valid=True,
         class_name="Elt1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z002_wild_z002_v():
+def test_wild_z002_wild_z002_v(save_xml):
     """
     TEST :Syntax Validation - any : attribute on xsd:any
     processContents="skip"
@@ -9888,10 +10538,11 @@ def test_wild_z002_wild_z002_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_z001_wild_z001_i():
+def test_wild_z001_wild_z001_i(save_xml):
     """
     TEST :Syntax Validation - any : validate namespace set to a valid
     namespace URI and instance document has correct elements
@@ -9903,10 +10554,11 @@ def test_wild_z001_wild_z001_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p006_wild_p006_v():
+def test_wild_p006_wild_p006_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip
     and namespace=##targetNamespace) with schema
@@ -9920,10 +10572,11 @@ def test_wild_p006_wild_p006_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p005_wild_p005_v():
+def test_wild_p005_wild_p005_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ processContents=skip
     and namespace=##targetNamespace) with schema
@@ -9937,10 +10590,11 @@ def test_wild_p005_wild_p005_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p004_wild_p004_v():
+def test_wild_p004_wild_p004_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax
     and namespace=##targetNamespace) with schema
@@ -9954,10 +10608,11 @@ def test_wild_p004_wild_p004_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p003_wild_p003_v():
+def test_wild_p003_wild_p003_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ processContents=lax
     and namespace=##targetNamespace) with schema
@@ -9971,10 +10626,11 @@ def test_wild_p003_wild_p003_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p002_wild_p002_i():
+def test_wild_p002_wild_p002_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     processContents=strict and namespace=##targetNamespace) with schema
@@ -9988,10 +10644,11 @@ def test_wild_p002_wild_p002_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_p001_wild_p001_v():
+def test_wild_p001_wild_p001_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     processContents=strict and namespace=##targetNamespace) with schema
@@ -10005,10 +10662,11 @@ def test_wild_p001_wild_p001_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o040_wild_o040_v():
+def test_wild_o040_wild_o040_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema
@@ -10022,10 +10680,11 @@ def test_wild_o040_wild_o040_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o039_wild_o039_i():
+def test_wild_o039_wild_o039_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema
@@ -10039,10 +10698,11 @@ def test_wild_o039_wild_o039_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o038_wild_o038_v():
+def test_wild_o038_wild_o038_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) with schema
@@ -10056,10 +10716,11 @@ def test_wild_o038_wild_o038_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o037_wild_o037_v():
+def test_wild_o037_wild_o037_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://www.w3.org/1999/xhtml) with schema
@@ -10073,10 +10734,11 @@ def test_wild_o037_wild_o037_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o035_wild_o035_i():
+def test_wild_o035_wild_o035_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://www.w3.org/1999/xhtml) with schema
@@ -10090,10 +10752,11 @@ def test_wild_o035_wild_o035_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o034_wild_o034_i():
+def test_wild_o034_wild_o034_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://foobar) with schema targetNamespace=http://foobar and instance
@@ -10106,10 +10769,11 @@ def test_wild_o034_wild_o034_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o033_wild_o033_v():
+def test_wild_o033_wild_o033_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://foobar) with schema targetNamespace=http://foobar and instance
@@ -10122,10 +10786,11 @@ def test_wild_o033_wild_o033_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o032_wild_o032_i():
+def test_wild_o032_wild_o032_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with
     schema targetNamespace=http://foobar and instance document has
@@ -10138,10 +10803,11 @@ def test_wild_o032_wild_o032_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o031_wild_o031_v():
+def test_wild_o031_wild_o031_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with
     schema targetNamespace=http://foobar and instance document has
@@ -10154,10 +10820,11 @@ def test_wild_o031_wild_o031_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o030_wild_o030_i():
+def test_wild_o030_wild_o030_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has attributes
@@ -10170,10 +10837,11 @@ def test_wild_o030_wild_o030_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o029_wild_o029_v():
+def test_wild_o029_wild_o029_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has attributes
@@ -10186,10 +10854,11 @@ def test_wild_o029_wild_o029_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o028_wild_o028_i():
+def test_wild_o028_wild_o028_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -10202,10 +10871,11 @@ def test_wild_o028_wild_o028_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o027_wild_o027_v():
+def test_wild_o027_wild_o027_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -10218,10 +10888,11 @@ def test_wild_o027_wild_o027_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o026_wild_o026_v():
+def test_wild_o026_wild_o026_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has attributes
@@ -10234,10 +10905,11 @@ def test_wild_o026_wild_o026_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o025_wild_o025_i():
+def test_wild_o025_wild_o025_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has attributes
@@ -10250,10 +10922,11 @@ def test_wild_o025_wild_o025_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o024_wild_o024_i():
+def test_wild_o024_wild_o024_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=http://foobar) with schema targetNamespace=http://foobar and
@@ -10266,10 +10939,11 @@ def test_wild_o024_wild_o024_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o023_wild_o023_v():
+def test_wild_o023_wild_o023_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=http://foobar) with schema targetNamespace=http://foobar and
@@ -10282,10 +10956,11 @@ def test_wild_o023_wild_o023_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o022_wild_o022_i():
+def test_wild_o022_wild_o022_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10299,10 +10974,11 @@ def test_wild_o022_wild_o022_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o021_wild_o021_v():
+def test_wild_o021_wild_o021_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10315,10 +10991,11 @@ def test_wild_o021_wild_o021_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o020_wild_o020_i():
+def test_wild_o020_wild_o020_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local)
     with schema targetNamespace=http://foobar and instance document has
@@ -10331,10 +11008,11 @@ def test_wild_o020_wild_o020_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o019_wild_o019_v():
+def test_wild_o019_wild_o019_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local)
     with schema targetNamespace=http://foobar and instance document has
@@ -10347,10 +11025,11 @@ def test_wild_o019_wild_o019_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o018_wild_o018_v():
+def test_wild_o018_wild_o018_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
     with schema targetNamespace=http://foobar and instance document has
@@ -10363,10 +11042,11 @@ def test_wild_o018_wild_o018_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o017_wild_o017_i():
+def test_wild_o017_wild_o017_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
     with schema targetNamespace=http://foobar and instance document has
@@ -10379,10 +11059,11 @@ def test_wild_o017_wild_o017_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o016_wild_o016_v():
+def test_wild_o016_wild_o016_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with
     schema targetNamespace=http://foobar and instance document has
@@ -10395,10 +11076,11 @@ def test_wild_o016_wild_o016_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o015_wild_o015_v():
+def test_wild_o015_wild_o015_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) with
     schema targetNamespace=http://foobar and instance document has
@@ -10411,10 +11093,11 @@ def test_wild_o015_wild_o015_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o014_wild_o014_i():
+def test_wild_o014_wild_o014_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance
@@ -10427,10 +11110,11 @@ def test_wild_o014_wild_o014_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o013_wild_o013_v():
+def test_wild_o013_wild_o013_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance
@@ -10443,10 +11127,11 @@ def test_wild_o013_wild_o013_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o012_wild_o012_v():
+def test_wild_o012_wild_o012_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace http://www.w3.org/1999/xhtml) and instance
@@ -10459,10 +11144,11 @@ def test_wild_o012_wild_o012_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o011_wild_o011_i():
+def test_wild_o011_wild_o011_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has attributes
@@ -10475,10 +11161,11 @@ def test_wild_o011_wild_o011_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o010_wild_o010_v():
+def test_wild_o010_wild_o010_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has attributes
@@ -10491,10 +11178,11 @@ def test_wild_o010_wild_o010_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o009_wild_o009_i():
+def test_wild_o009_wild_o009_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has attributes
@@ -10507,10 +11195,11 @@ def test_wild_o009_wild_o009_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o008_wild_o008_i():
+def test_wild_o008_wild_o008_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace) and instance document has attributes from
@@ -10523,10 +11212,11 @@ def test_wild_o008_wild_o008_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o007_wild_o007_v():
+def test_wild_o007_wild_o007_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/
     namespace=##targetNamespace) and instance document has attributes from
@@ -10539,10 +11229,11 @@ def test_wild_o007_wild_o007_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o006_wild_o006_i():
+def test_wild_o006_wild_o006_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local)
     and instance document has attributes from other namespaces besides
@@ -10555,10 +11246,11 @@ def test_wild_o006_wild_o006_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o005_wild_o005_v():
+def test_wild_o005_wild_o005_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##local)
     and instance document has attributes from local Namespace
@@ -10570,10 +11262,11 @@ def test_wild_o005_wild_o005_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o004_wild_o004_v():
+def test_wild_o004_wild_o004_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
     and instance document has attributes from other namespaces besides
@@ -10586,10 +11279,11 @@ def test_wild_o004_wild_o004_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o003_wild_o003_i():
+def test_wild_o003_wild_o003_i(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##other)
     and instance document has attributes from targetNamespace
@@ -10601,10 +11295,11 @@ def test_wild_o003_wild_o003_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o002_wild_o002_v():
+def test_wild_o002_wild_o002_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and
     instance document has attributes from other namespaces besides target
@@ -10616,10 +11311,11 @@ def test_wild_o002_wild_o002_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_o001_wild_o001_v():
+def test_wild_o001_wild_o001_v(save_xml):
     """
     TEST :Syntax Validation - any : ANYAttribute (w/ namespace=##any) and
     instance document has attributes from targetNamespace
@@ -10631,10 +11327,11 @@ def test_wild_o001_wild_o001_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i012_wild_i012_v():
+def test_wild_i012_wild_i012_v(save_xml):
     """
     TEST :Syntax Validation - any : multiple any in sequence with
     namespaces (##other{1}, A{2}), non-deterministic declaration
@@ -10646,10 +11343,11 @@ def test_wild_i012_wild_i012_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i011_wild_i011_v():
+def test_wild_i011_wild_i011_v(save_xml):
     """
     TEST :Syntax Validation - any : multiple any in sequence with
     namespaces (##other{1}, A{1}), non-deterministic declaration
@@ -10661,10 +11359,11 @@ def test_wild_i011_wild_i011_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i007_wild_i007_v():
+def test_wild_i007_wild_i007_v(save_xml):
     """
     TEST :Syntax Validation - any : multiple any in choice with namespaces
     (##other, ##targetNamespace), and valid instance xml
@@ -10676,10 +11375,11 @@ def test_wild_i007_wild_i007_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i006_wild_i006_v():
+def test_wild_i006_wild_i006_v(save_xml):
     """
     TEST :Syntax Validation - any : multiple any in choice with different
     namespaces (a, b, ##targetNamespace, ##local), and valid instance xml
@@ -10691,10 +11391,11 @@ def test_wild_i006_wild_i006_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i005_wild_i005_v():
+def test_wild_i005_wild_i005_v(save_xml):
     """
     TEST :Syntax Validation - any : multiple any in sequence with
     different namespaces and valid instance xml
@@ -10706,10 +11407,11 @@ def test_wild_i005_wild_i005_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i004i_wild_i004i_i():
+def test_wild_i004i_wild_i004i_i(save_xml):
     """
     TEST :Syntax Validation - any : 67191 - ensuring that processContents
     of lax will validate
@@ -10721,10 +11423,11 @@ def test_wild_i004i_wild_i004i_i():
         instance_is_valid=False,
         class_name="Alpha",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_i004_wild_i004_v():
+def test_wild_i004_wild_i004_v(save_xml):
     """
     TEST :Syntax Validation - any : 67191 - ensuring that processContents
     of lax will validate
@@ -10736,10 +11439,11 @@ def test_wild_i004_wild_i004_v():
         instance_is_valid=True,
         class_name="Root",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h012_wild_h012_v():
+def test_wild_h012_wild_h012_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and undeclared element,
@@ -10752,10 +11456,11 @@ def test_wild_h012_wild_h012_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h011_wild_h011_v():
+def test_wild_h011_wild_h011_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and declared element,
@@ -10768,10 +11473,11 @@ def test_wild_h011_wild_h011_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h010_wild_h010_v():
+def test_wild_h010_wild_h010_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and undeclared element,
@@ -10784,10 +11490,11 @@ def test_wild_h010_wild_h010_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h009_wild_h009_v():
+def test_wild_h009_wild_h009_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and declared element,
@@ -10800,10 +11507,11 @@ def test_wild_h009_wild_h009_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h008_wild_h008_i():
+def test_wild_h008_wild_h008_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and undeclared element,
@@ -10816,10 +11524,11 @@ def test_wild_h008_wild_h008_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h007_wild_h007_v():
+def test_wild_h007_wild_h007_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/
     namespace=http://www.w3.org/1999/xhtml and declared element,
@@ -10832,10 +11541,11 @@ def test_wild_h007_wild_h007_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h006_wild_h006_i():
+def test_wild_h006_wild_h006_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=skip and
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10848,10 +11558,11 @@ def test_wild_h006_wild_h006_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h005_wild_h005_v():
+def test_wild_h005_wild_h005_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=skip and
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10864,10 +11575,11 @@ def test_wild_h005_wild_h005_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h004_wild_h004_v():
+def test_wild_h004_wild_h004_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=lax and
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10880,10 +11592,11 @@ def test_wild_h004_wild_h004_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h003_wild_h003_v():
+def test_wild_h003_wild_h003_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=lax and
     namespace=##targetNamespace) with schema targetNamespace=http://foobar
@@ -10896,10 +11609,11 @@ def test_wild_h003_wild_h003_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h002_wild_h002_i():
+def test_wild_h002_wild_h002_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=strict and
     namespace=##targetNamespace) with schema
@@ -10913,10 +11627,11 @@ def test_wild_h002_wild_h002_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_h001_wild_h001_i():
+def test_wild_h001_wild_h001_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ processContents=strict and
     namespace=##targetNamespace) with schema
@@ -10930,10 +11645,11 @@ def test_wild_h001_wild_h001_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g040_wild_g040_v():
+def test_wild_g040_wild_g040_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) with schema
@@ -10947,10 +11663,11 @@ def test_wild_g040_wild_g040_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g039_wild_g039_i():
+def test_wild_g039_wild_g039_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) with schema
@@ -10964,10 +11681,11 @@ def test_wild_g039_wild_g039_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g038_wild_g038_v():
+def test_wild_g038_wild_g038_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) with schema
@@ -10981,10 +11699,11 @@ def test_wild_g038_wild_g038_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g037_wild_g037_v():
+def test_wild_g037_wild_g037_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) with schema
@@ -10998,10 +11717,11 @@ def test_wild_g037_wild_g037_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g036_wild_g036_i():
+def test_wild_g036_wild_g036_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) with schema
@@ -11015,10 +11735,11 @@ def test_wild_g036_wild_g036_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g035_wild_g035_v():
+def test_wild_g035_wild_g035_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) with schema
@@ -11032,10 +11753,11 @@ def test_wild_g035_wild_g035_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g034_wild_g034_i():
+def test_wild_g034_wild_g034_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://foobar) with schema targetNamespace=http://foobar and instance
@@ -11048,10 +11770,11 @@ def test_wild_g034_wild_g034_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g033_wild_g033_v():
+def test_wild_g033_wild_g033_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://foobar) with schema targetNamespace=http://foobar and instance
@@ -11064,10 +11787,11 @@ def test_wild_g033_wild_g033_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g032_wild_g032_i():
+def test_wild_g032_wild_g032_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local
     ##targetNamespace) with schema targetNamespace=http://foobar and
@@ -11080,10 +11804,11 @@ def test_wild_g032_wild_g032_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g031_wild_g031_v():
+def test_wild_g031_wild_g031_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=A B C D E ##local
     ##targetNamespace) with schema targetNamespace=http://foobar and
@@ -11096,10 +11821,11 @@ def test_wild_g031_wild_g031_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g030_wild_g030_i():
+def test_wild_g030_wild_g030_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11112,10 +11838,11 @@ def test_wild_g030_wild_g030_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g029_wild_g029_i():
+def test_wild_g029_wild_g029_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11128,10 +11855,11 @@ def test_wild_g029_wild_g029_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g028_wild_g028_i():
+def test_wild_g028_wild_g028_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -11144,10 +11872,11 @@ def test_wild_g028_wild_g028_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g027_wild_g027_v():
+def test_wild_g027_wild_g027_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -11160,10 +11889,11 @@ def test_wild_g027_wild_g027_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g026_wild_g026_v():
+def test_wild_g026_wild_g026_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11176,10 +11906,11 @@ def test_wild_g026_wild_g026_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g025_wild_g025_i():
+def test_wild_g025_wild_g025_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11192,10 +11923,11 @@ def test_wild_g025_wild_g025_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g024_wild_g024_i():
+def test_wild_g024_wild_g024_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with
     schema targetNamespace=http://foobar and instance document has
@@ -11208,10 +11940,11 @@ def test_wild_g024_wild_g024_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g023_wild_g023_v():
+def test_wild_g023_wild_g023_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=http://foobar) with
     schema targetNamespace=http://foobar and instance document has
@@ -11224,10 +11957,11 @@ def test_wild_g023_wild_g023_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g022_wild_g022_i():
+def test_wild_g022_wild_g022_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -11240,10 +11974,11 @@ def test_wild_g022_wild_g022_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g021_wild_g021_v():
+def test_wild_g021_wild_g021_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     with schema targetNamespace=http://foobar and instance document has
@@ -11256,10 +11991,11 @@ def test_wild_g021_wild_g021_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g020_wild_g020_i():
+def test_wild_g020_wild_g020_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11272,10 +12008,11 @@ def test_wild_g020_wild_g020_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g019_wild_g019_i():
+def test_wild_g019_wild_g019_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11288,10 +12025,11 @@ def test_wild_g019_wild_g019_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g018_wild_g018_v():
+def test_wild_g018_wild_g018_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11304,10 +12042,11 @@ def test_wild_g018_wild_g018_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g017_wild_g017_i():
+def test_wild_g017_wild_g017_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11320,10 +12059,11 @@ def test_wild_g017_wild_g017_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g016_wild_g016_v():
+def test_wild_g016_wild_g016_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11336,10 +12076,11 @@ def test_wild_g016_wild_g016_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g015_wild_g015_v():
+def test_wild_g015_wild_g015_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) with schema
     targetNamespace=http://foobar and instance document has elements from
@@ -11352,10 +12093,11 @@ def test_wild_g015_wild_g015_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g014_wild_g014_i():
+def test_wild_g014_wild_g014_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11368,10 +12110,11 @@ def test_wild_g014_wild_g014_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g013_wild_g013_v():
+def test_wild_g013_wild_g013_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11384,10 +12127,11 @@ def test_wild_g013_wild_g013_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g012_wild_g012_v():
+def test_wild_g012_wild_g012_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11400,10 +12144,11 @@ def test_wild_g012_wild_g012_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g011_wild_g011_i():
+def test_wild_g011_wild_g011_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11416,10 +12161,11 @@ def test_wild_g011_wild_g011_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g010_wild_g010_v():
+def test_wild_g010_wild_g010_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11432,10 +12178,11 @@ def test_wild_g010_wild_g010_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g009_wild_g009_i():
+def test_wild_g009_wild_g009_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local
     http://www.w3.org/1999/xhtml) and instance document has elements from
@@ -11448,10 +12195,11 @@ def test_wild_g009_wild_g009_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g008_wild_g008_i():
+def test_wild_g008_wild_g008_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     and instance document has elements from other namespaces besides
@@ -11464,10 +12212,11 @@ def test_wild_g008_wild_g008_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g007_wild_g007_v():
+def test_wild_g007_wild_g007_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##targetNamespace)
     and instance document has elements from targetNamespace
@@ -11479,10 +12228,11 @@ def test_wild_g007_wild_g007_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g006_wild_g006_v():
+def test_wild_g006_wild_g006_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) and
     instance document has elements from no namespace
@@ -11494,10 +12244,11 @@ def test_wild_g006_wild_g006_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g005_wild_g005_i():
+def test_wild_g005_wild_g005_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##local) and
     instance document has elements from targetNamespace
@@ -11509,10 +12260,11 @@ def test_wild_g005_wild_g005_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g004_wild_g004_v():
+def test_wild_g004_wild_g004_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) and
     instance document has elements from other namespaces besides target
@@ -11524,10 +12276,11 @@ def test_wild_g004_wild_g004_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g003_wild_g003_i():
+def test_wild_g003_wild_g003_i(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##other) and
     instance document has elements from targetNamespace
@@ -11539,10 +12292,11 @@ def test_wild_g003_wild_g003_i():
         instance_is_valid=False,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g002_wild_g002_v():
+def test_wild_g002_wild_g002_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance
     document has elements from other namespaces besides target
@@ -11554,10 +12308,11 @@ def test_wild_g002_wild_g002_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_wild_g001_wild_g001_v():
+def test_wild_g001_wild_g001_v(save_xml):
     """
     TEST :Syntax Validation - any : ANY (w/ namespace=##any) and instance
     document has elements from targetNamespace
@@ -11569,4 +12324,5 @@ def test_wild_g001_wild_g001_v():
         instance_is_valid=True,
         class_name="Foo",
         version="1.0",
+        save_xml=save_xml,
     )

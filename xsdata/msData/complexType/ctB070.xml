@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attrTest="attribute1" attrTest2="attribute2" attrTest3="attribute3" attrTest4="attribute4">
+  <myElement>all field</myElement>
+</root>

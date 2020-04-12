@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_27_v04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elyMDMinInclusive_MinInclusive>P2D</elyMDMinInclusive_MinInclusive>
+  <elyMDMinInclusive_MinInclusive>P1DT535.4S</elyMDMinInclusive_MinInclusive>
+  <elyMDMinInclusive_MinExclusive>P3D</elyMDMinInclusive_MinExclusive>
+  <elyMDMinInclusive_MinExclusive>P2DT1S</elyMDMinInclusive_MinExclusive>
+  <elyMDMinInclusive_MaxInclusive>P3452DT2H</elyMDMinInclusive_MaxInclusive>
+  <elyMDMinInclusive_MaxInclusive>P1D</elyMDMinInclusive_MaxInclusive>
+  <elyMDMinInclusive_MaxExclusive>P43DT42M10.1S</elyMDMinInclusive_MaxExclusive>
+  <elyMDMinInclusive_MaxExclusive>P1D</elyMDMinInclusive_MaxExclusive>
+</dv:root>

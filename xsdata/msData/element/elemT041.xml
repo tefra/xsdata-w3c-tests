@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <test2 xsi:type="Union-AB">1</test2>
+</root>

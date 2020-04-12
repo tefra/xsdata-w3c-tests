@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<computer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CPU>Intel</CPU>
+  <memory>4Gb</memory>
+  <monitor>17inch</monitor>
+  <disk>Seagate</disk>
+  <mouse>USB</mouse>
+</computer>

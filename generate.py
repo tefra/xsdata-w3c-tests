@@ -30,7 +30,7 @@ test_module_tpl = """import pytest
 from tests.utils import assert_bindings\n\n{}"""
 
 test_case_tpl = """{decorators}
-def test_{name}():
+def test_{name}(save_xml):
 {documentation}
     assert_bindings(
         schema="{schema_path}",
@@ -39,6 +39,7 @@ def test_{name}():
         instance_is_valid={instance_is_valid},
         class_name="{class_name}",
         version="{version}",
+        save_xml=save_xml,
     )
 """
 

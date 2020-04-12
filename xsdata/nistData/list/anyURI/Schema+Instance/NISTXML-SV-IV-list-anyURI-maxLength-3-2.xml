@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<ns0:NISTSchema-SV-IV-list-anyURI-maxLength-3 xmlns:ns0="NISTSchema-SV-IV-list-anyURI-maxLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">news://i.gov ftp://hasne.OASISinfo.org news://mo.andgo.net telnet://indust.com gopher://nothea.com</ns0:NISTSchema-SV-IV-list-anyURI-maxLength-3>

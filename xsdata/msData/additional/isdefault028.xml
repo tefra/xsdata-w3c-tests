@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<root>
+  <str>blah</str>
+  <number>456</number>
+  <bool>false</bool>
+</root>

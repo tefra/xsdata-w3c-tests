@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_introspection_introspect_test_set_introspection_1():
+def test_introspection_introspect_test_set_introspection_1(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -10,10 +10,11 @@ def test_introspection_introspect_test_set_introspection_1():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_nist2004_01_14_2():
+def test_introspection_introspect_test_set_nist2004_01_14_2(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -22,10 +23,11 @@ def test_introspection_introspect_test_set_nist2004_01_14_2():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_suntest_3():
+def test_introspection_introspect_test_set_suntest_3(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -34,10 +36,11 @@ def test_introspection_introspect_test_set_suntest_3():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_agroup_def_4():
+def test_introspection_introspect_test_set_agroup_def_4(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -46,10 +49,11 @@ def test_introspection_introspect_test_set_agroup_def_4():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_attr_decl_5():
+def test_introspection_introspect_test_set_attr_decl_5(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -58,10 +62,11 @@ def test_introspection_introspect_test_set_attr_decl_5():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_attr_use_6():
+def test_introspection_introspect_test_set_attr_use_6(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -70,10 +75,11 @@ def test_introspection_introspect_test_set_attr_use_6():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ctype_7():
+def test_introspection_introspect_test_set_ctype_7(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -82,10 +88,11 @@ def test_introspection_introspect_test_set_ctype_7():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_elem_decl_8():
+def test_introspection_introspect_test_set_elem_decl_8(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -94,10 +101,11 @@ def test_introspection_introspect_test_set_elem_decl_8():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_id_constr_defs_9():
+def test_introspection_introspect_test_set_id_constr_defs_9(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -106,10 +114,11 @@ def test_introspection_introspect_test_set_id_constr_defs_9():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_mgroup_10():
+def test_introspection_introspect_test_set_mgroup_10(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -118,10 +127,11 @@ def test_introspection_introspect_test_set_mgroup_10():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_mgroup_def_11():
+def test_introspection_introspect_test_set_mgroup_def_11(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -130,10 +140,11 @@ def test_introspection_introspect_test_set_mgroup_def_11():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_notation_12():
+def test_introspection_introspect_test_set_notation_12(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -142,10 +153,11 @@ def test_introspection_introspect_test_set_notation_12():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_stype_13():
+def test_introspection_introspect_test_set_stype_13(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -154,10 +166,11 @@ def test_introspection_introspect_test_set_stype_13():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_schema_14():
+def test_introspection_introspect_test_set_schema_14(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -166,10 +179,11 @@ def test_introspection_introspect_test_set_schema_14():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_wildcard_15():
+def test_introspection_introspect_test_set_wildcard_15(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -178,10 +192,11 @@ def test_introspection_introspect_test_set_wildcard_15():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_additional2006_07_15_16():
+def test_introspection_introspect_test_set_ms_additional2006_07_15_16(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -190,10 +205,11 @@ def test_introspection_introspect_test_set_ms_additional2006_07_15_16():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_annotations2006_07_15_17():
+def test_introspection_introspect_test_set_ms_annotations2006_07_15_17(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -202,10 +218,11 @@ def test_introspection_introspect_test_set_ms_annotations2006_07_15_17():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18():
+def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -214,10 +231,11 @@ def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_attribute2006_07_15_19():
+def test_introspection_introspect_test_set_ms_attribute2006_07_15_19(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -226,10 +244,11 @@ def test_introspection_introspect_test_set_ms_attribute2006_07_15_19():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20():
+def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -238,10 +257,11 @@ def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_data_types2006_07_15_21():
+def test_introspection_introspect_test_set_ms_data_types2006_07_15_21(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -250,10 +270,11 @@ def test_introspection_introspect_test_set_ms_data_types2006_07_15_21():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_element2006_07_15_22():
+def test_introspection_introspect_test_set_ms_element2006_07_15_22(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -262,10 +283,11 @@ def test_introspection_introspect_test_set_ms_element2006_07_15_22():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_errata102006_07_15_23():
+def test_introspection_introspect_test_set_ms_errata102006_07_15_23(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -274,10 +296,11 @@ def test_introspection_introspect_test_set_ms_errata102006_07_15_23():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_group2006_07_15_24():
+def test_introspection_introspect_test_set_ms_group2006_07_15_24(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -286,10 +309,11 @@ def test_introspection_introspect_test_set_ms_group2006_07_15_24():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25():
+def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -298,10 +322,11 @@ def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25()
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26():
+def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -310,10 +335,11 @@ def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_notations2006_07_15_27():
+def test_introspection_introspect_test_set_ms_notations2006_07_15_27(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -322,10 +348,11 @@ def test_introspection_introspect_test_set_ms_notations2006_07_15_27():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_particles2006_07_15_28():
+def test_introspection_introspect_test_set_ms_particles2006_07_15_28(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -334,10 +361,11 @@ def test_introspection_introspect_test_set_ms_particles2006_07_15_28():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_regex2006_07_15_29():
+def test_introspection_introspect_test_set_ms_regex2006_07_15_29(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -346,10 +374,11 @@ def test_introspection_introspect_test_set_ms_regex2006_07_15_29():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_schema2006_07_15_30():
+def test_introspection_introspect_test_set_ms_schema2006_07_15_30(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -358,10 +387,11 @@ def test_introspection_introspect_test_set_ms_schema2006_07_15_30():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31():
+def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -370,10 +400,11 @@ def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32():
+def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -382,10 +413,11 @@ def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_boeing_xsdtest_cases_33():
+def test_introspection_introspect_test_set_boeing_xsdtest_cases_33(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -394,10 +426,11 @@ def test_introspection_introspect_test_set_boeing_xsdtest_cases_33():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_all_34():
+def test_introspection_introspect_test_set_all_34(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -406,10 +439,11 @@ def test_introspection_introspect_test_set_all_34():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_assert_35():
+def test_introspection_introspect_test_set_assert_35(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -418,10 +452,11 @@ def test_introspection_introspect_test_set_assert_35():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_complex_36():
+def test_introspection_introspect_test_set_complex_36(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -430,10 +465,11 @@ def test_introspection_introspect_test_set_complex_36():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_cta_37():
+def test_introspection_introspect_test_set_cta_37(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -442,10 +478,11 @@ def test_introspection_introspect_test_set_cta_37():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_id_38():
+def test_introspection_introspect_test_set_id_38(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -454,10 +491,11 @@ def test_introspection_introspect_test_set_id_38():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_open_39():
+def test_introspection_introspect_test_set_open_39(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -466,10 +504,11 @@ def test_introspection_introspect_test_set_open_39():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_override_40():
+def test_introspection_introspect_test_set_override_40(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -478,10 +517,11 @@ def test_introspection_introspect_test_set_override_40():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_simple_41():
+def test_introspection_introspect_test_set_simple_41(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -490,10 +530,11 @@ def test_introspection_introspect_test_set_simple_41():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_subsgroup_42():
+def test_introspection_introspect_test_set_subsgroup_42(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -502,10 +543,11 @@ def test_introspection_introspect_test_set_subsgroup_42():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_target_ns_43():
+def test_introspection_introspect_test_set_target_ns_43(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -514,10 +556,11 @@ def test_introspection_introspect_test_set_target_ns_43():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_vc_44():
+def test_introspection_introspect_test_set_vc_44(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -526,10 +569,11 @@ def test_introspection_introspect_test_set_vc_44():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_wild_45():
+def test_introspection_introspect_test_set_wild_45(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -538,10 +582,11 @@ def test_introspection_introspect_test_set_wild_45():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_xml_versions_46():
+def test_introspection_introspect_test_set_xml_versions_46(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -550,10 +595,11 @@ def test_introspection_introspect_test_set_xml_versions_46():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_zone_47():
+def test_introspection_introspect_test_set_zone_47(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -562,10 +608,11 @@ def test_introspection_introspect_test_set_zone_47():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_zone_48():
+def test_introspection_introspect_test_set_zone_48(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -574,10 +621,11 @@ def test_introspection_introspect_test_set_zone_48():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_substitution_groups_49():
+def test_introspection_introspect_test_set_substitution_groups_49(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -586,10 +634,11 @@ def test_introspection_introspect_test_set_substitution_groups_49():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_all_group_50():
+def test_introspection_introspect_test_set_all_group_50(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -598,10 +647,11 @@ def test_introspection_introspect_test_set_all_group_50():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_any_attribute_51():
+def test_introspection_introspect_test_set_any_attribute_51(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -610,10 +660,11 @@ def test_introspection_introspect_test_set_any_attribute_51():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_assert_52():
+def test_introspection_introspect_test_set_assert_52(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -622,10 +673,11 @@ def test_introspection_introspect_test_set_assert_52():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_assertion_53():
+def test_introspection_introspect_test_set_assertion_53(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -634,10 +686,11 @@ def test_introspection_introspect_test_set_assertion_53():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_conditional_inclusion_54():
+def test_introspection_introspect_test_set_conditional_inclusion_54(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -646,10 +699,11 @@ def test_introspection_introspect_test_set_conditional_inclusion_54():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_constraints_on_attribute_55():
+def test_introspection_introspect_test_set_constraints_on_attribute_55(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -658,10 +712,11 @@ def test_introspection_introspect_test_set_constraints_on_attribute_55():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_import_override_56():
+def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_import_override_56(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -670,10 +725,11 @@ def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_date_57():
+def test_introspection_introspect_test_set_date_57(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -682,10 +738,11 @@ def test_introspection_introspect_test_set_date_57():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_date_time_stamp_58():
+def test_introspection_introspect_test_set_date_time_stamp_58(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -694,10 +751,11 @@ def test_introspection_introspect_test_set_date_time_stamp_58():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_day_time_duration_59():
+def test_introspection_introspect_test_set_day_time_duration_59(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -706,10 +764,11 @@ def test_introspection_introspect_test_set_day_time_duration_59():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_default_attributes_apply_60():
+def test_introspection_introspect_test_set_default_attributes_apply_60(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -718,10 +777,11 @@ def test_introspection_introspect_test_set_default_attributes_apply_60():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_default_fixed_61():
+def test_introspection_introspect_test_set_default_fixed_61(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -730,10 +790,11 @@ def test_introspection_introspect_test_set_default_fixed_61():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_double_62():
+def test_introspection_introspect_test_set_double_62(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -742,10 +803,11 @@ def test_introspection_introspect_test_set_double_62():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_edcwildcard_63():
+def test_introspection_introspect_test_set_edcwildcard_63(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -754,10 +816,11 @@ def test_introspection_introspect_test_set_edcwildcard_63():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_explicit_timezone_64():
+def test_introspection_introspect_test_set_explicit_timezone_64(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -766,10 +829,11 @@ def test_introspection_introspect_test_set_explicit_timezone_64():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_float_65():
+def test_introspection_introspect_test_set_float_65(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -778,10 +842,11 @@ def test_introspection_introspect_test_set_float_65():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_g_year_month_66():
+def test_introspection_introspect_test_set_g_year_month_66(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -790,10 +855,11 @@ def test_introspection_introspect_test_set_g_year_month_66():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_g_year_67():
+def test_introspection_introspect_test_set_g_year_67(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -802,10 +868,11 @@ def test_introspection_introspect_test_set_g_year_67():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_g_month_day_68():
+def test_introspection_introspect_test_set_g_month_day_68(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -814,10 +881,11 @@ def test_introspection_introspect_test_set_g_month_day_68():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_g_day_69():
+def test_introspection_introspect_test_set_g_day_69(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -826,10 +894,11 @@ def test_introspection_introspect_test_set_g_day_69():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_g_month_70():
+def test_introspection_introspect_test_set_g_month_70(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -838,10 +907,11 @@ def test_introspection_introspect_test_set_g_month_70():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_id_idref_71():
+def test_introspection_introspect_test_set_id_idref_71(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -850,10 +920,11 @@ def test_introspection_introspect_test_set_id_idref_71():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_identity_constraint_72():
+def test_introspection_introspect_test_set_identity_constraint_72(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -862,10 +933,11 @@ def test_introspection_introspect_test_set_identity_constraint_72():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_list_73():
+def test_introspection_introspect_test_set_list_73(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -874,10 +946,11 @@ def test_introspection_introspect_test_set_list_73():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_popen_content_74():
+def test_introspection_introspect_test_set_popen_content_74(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -886,10 +959,11 @@ def test_introspection_introspect_test_set_popen_content_74():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_regular_expression_75():
+def test_introspection_introspect_test_set_regular_expression_75(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -898,10 +972,11 @@ def test_introspection_introspect_test_set_regular_expression_75():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_restriction_of_complex_types_76():
+def test_introspection_introspect_test_set_restriction_of_complex_types_76(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -910,10 +985,11 @@ def test_introspection_introspect_test_set_restriction_of_complex_types_76():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_rf_white_space_77():
+def test_introspection_introspect_test_set_rf_white_space_77(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -922,10 +998,11 @@ def test_introspection_introspect_test_set_rf_white_space_77():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_substitution_group_78():
+def test_introspection_introspect_test_set_substitution_group_78(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -934,10 +1011,11 @@ def test_introspection_introspect_test_set_substitution_group_78():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_target_ns_79():
+def test_introspection_introspect_test_set_target_ns_79(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -946,10 +1024,11 @@ def test_introspection_introspect_test_set_target_ns_79():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_time_80():
+def test_introspection_introspect_test_set_time_80(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -958,10 +1037,11 @@ def test_introspection_introspect_test_set_time_80():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_type_alternative_tests_81():
+def test_introspection_introspect_test_set_type_alternative_tests_81(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -970,10 +1050,11 @@ def test_introspection_introspect_test_set_type_alternative_tests_81():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_cta_82():
+def test_introspection_introspect_test_set_cta_82(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -982,10 +1063,11 @@ def test_introspection_introspect_test_set_cta_82():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_union_83():
+def test_introspection_introspect_test_set_union_83(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -994,10 +1076,11 @@ def test_introspection_introspect_test_set_union_83():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_units_length_84():
+def test_introspection_introspect_test_set_units_length_84(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1006,10 +1089,11 @@ def test_introspection_introspect_test_set_units_length_84():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_unsigned_integers_85():
+def test_introspection_introspect_test_set_unsigned_integers_85(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1018,10 +1102,11 @@ def test_introspection_introspect_test_set_unsigned_integers_85():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_vc_86():
+def test_introspection_introspect_test_set_vc_86(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1030,10 +1115,11 @@ def test_introspection_introspect_test_set_vc_86():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_wildcard_87():
+def test_introspection_introspect_test_set_wildcard_87(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1042,10 +1128,11 @@ def test_introspection_introspect_test_set_wildcard_87():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_xml11_support_88():
+def test_introspection_introspect_test_set_xml11_support_88(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1054,10 +1141,11 @@ def test_introspection_introspect_test_set_xml11_support_88():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique_89():
+def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique_89(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1066,10 +1154,11 @@ def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_xsimport_reference_90():
+def test_introspection_introspect_test_set_xsimport_reference_90(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1078,10 +1167,11 @@ def test_introspection_introspect_test_set_xsimport_reference_90():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_introspection_introspect_test_set_year_month_duration_91():
+def test_introspection_introspect_test_set_year_month_duration_91(save_xml):
 
     assert_bindings(
         schema="common/xsts.xsd",
@@ -1090,4 +1180,5 @@ def test_introspection_introspect_test_set_year_month_duration_91():
         instance_is_valid=True,
         class_name="TestSet",
         version="1.0",
+        save_xml=save_xml,
     )

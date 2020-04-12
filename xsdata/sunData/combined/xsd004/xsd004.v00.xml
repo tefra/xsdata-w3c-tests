@@ -1,0 +1,42 @@
+<!-- xsdata instance -->
+<foo:root xmlns:foo="foo" xmlns:bar="bar" xmlns:ns0="bob" xmlns:ns1="nowhere" xmlns:ns2="other1" xmlns:zot="zot">
+  <foo:skipAny>
+    <foo:root><foo:child/><bar:nocheck><zot:nocheck/></bar:nocheck>mixed is also allowed?</foo:root>
+  </foo:skipAny>
+  <foo:laxAny>
+    <foo:undeclared>
+      <bar:a/>
+      <undefined/>
+    </foo:undeclared>
+  </foo:laxAny>
+  <foo:strictAny>
+    <bar:c/>
+    <zot:b/>
+    <zot:c/>
+  </foo:strictAny>
+  <foo:skipOther>
+    <ns0:undeclared/>
+    <ns1:anyThing/>
+    <ns2:asLongAsInOtherNS/>
+    <zot:a>
+      <zot:a/>
+    </zot:a>
+  </foo:skipOther>
+  <foo:laxLocal>
+    <undeclaredOnly/>
+    <butLaxlyValidated/>
+  </foo:laxLocal>
+  <foo:strictTarget>
+    <foo:root/>
+    <foo:root/>
+    <foo:root/>
+  </foo:strictTarget>
+  <foo:skipBar>
+    <bar:everything/>
+    <bar:in/>
+    <bar:bar/>
+    <bar:a>
+      <bar:ignore/>
+    </bar:a>
+  </foo:skipBar>
+</foo:root>

@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<a:doc xmlns:a="http://xsdtesting" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elem>
+    <e1/>
+    <e2>foo</e2>
+  </elem>
+</a:doc>

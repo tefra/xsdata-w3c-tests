@@ -1,0 +1,10 @@
+<!-- xsdata instance -->
+<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_27_v03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elyMDUnionA>Computer</elyMDUnionA>
+  <elyMDUnionA>P4DT4H</elyMDUnionA>
+  <elyMDUnionB>-PT32H4M3.4S</elyMDUnionB>
+  <elyMDUnionB>7</elyMDUnionB>
+  <elyMDUnionC>PT34.3S</elyMDUnionC>
+  <elyMDUnionC>1</elyMDUnionC>
+  <elyMDUnionC>once</elyMDUnionC>
+</dv:root>

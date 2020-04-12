@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_1():
+def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_1(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 7.
     """
@@ -12,10 +12,11 @@ def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_2():
+def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_2(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 7.
     """
@@ -26,10 +27,11 @@ def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_3():
+def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_3(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 7.
     """
@@ -40,10 +42,11 @@ def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_4():
+def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_4(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 7.
     """
@@ -54,10 +57,11 @@ def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_5():
+def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_length_3_5(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 7.
     """
@@ -68,10 +72,11 @@ def test_list_unsigned_short_max_length_2_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_1():
+def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_1(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 6.
     """
@@ -82,10 +87,11 @@ def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_2():
+def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_2(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 6.
     """
@@ -96,10 +102,11 @@ def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_3():
+def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_3(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 6.
     """
@@ -110,10 +117,11 @@ def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_4():
+def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_4(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 6.
     """
@@ -124,10 +132,11 @@ def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_5():
+def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_length_2_5(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 6.
     """
@@ -138,10 +147,11 @@ def test_list_unsigned_short_max_length_1_nistxml_sv_iv_list_unsigned_short_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_1():
+def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_1(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 5.
     """
@@ -152,10 +162,11 @@ def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_2():
+def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_2(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 5.
     """
@@ -166,10 +177,11 @@ def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_3():
+def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_3(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 5.
     """
@@ -180,10 +192,11 @@ def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_4():
+def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_4(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 5.
     """
@@ -194,10 +207,11 @@ def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_5():
+def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_length_1_5(save_xml):
     """
     Type list/unsignedShort is restricted by facet maxLength with value 5.
     """
@@ -208,10 +222,11 @@ def test_list_unsigned_short_max_length_nistxml_sv_iv_list_unsigned_short_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_1():
+def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet whiteSpace with value
     collapse.
@@ -223,10 +238,11 @@ def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_2():
+def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet whiteSpace with value
     collapse.
@@ -238,10 +254,11 @@ def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_3():
+def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet whiteSpace with value
     collapse.
@@ -253,10 +270,11 @@ def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_4():
+def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet whiteSpace with value
     collapse.
@@ -268,10 +286,11 @@ def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_5():
+def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_space_1_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet whiteSpace with value
     collapse.
@@ -283,10 +302,11 @@ def test_list_unsigned_int_white_space_nistxml_sv_iv_list_unsigned_int_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_1():
+def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -297,10 +317,11 @@ def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_2():
+def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -311,10 +332,11 @@ def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_3():
+def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -325,10 +347,11 @@ def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_4():
+def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -339,10 +362,11 @@ def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_5():
+def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumeration_5_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -353,10 +377,11 @@ def test_list_unsigned_int_enumeration_4_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_1():
+def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -367,10 +392,11 @@ def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_2():
+def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -381,10 +407,11 @@ def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_3():
+def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -395,10 +422,11 @@ def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_4():
+def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -409,10 +437,11 @@ def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_5():
+def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumeration_4_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -423,10 +452,11 @@ def test_list_unsigned_int_enumeration_3_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_1():
+def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -437,10 +467,11 @@ def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_2():
+def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -451,10 +482,11 @@ def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_3():
+def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -465,10 +497,11 @@ def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_4():
+def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -479,10 +512,11 @@ def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_5():
+def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumeration_3_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -493,10 +527,11 @@ def test_list_unsigned_int_enumeration_2_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_1():
+def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -507,10 +542,11 @@ def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_2():
+def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -521,10 +557,11 @@ def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_3():
+def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -535,10 +572,11 @@ def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_4():
+def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -549,10 +587,11 @@ def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_5():
+def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumeration_2_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -563,10 +602,11 @@ def test_list_unsigned_int_enumeration_1_nistxml_sv_iv_list_unsigned_int_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_1():
+def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -577,10 +617,11 @@ def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_2():
+def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -591,10 +632,11 @@ def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_3():
+def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -605,10 +647,11 @@ def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_4():
+def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -619,10 +662,11 @@ def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_5():
+def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumeration_1_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet enumeration.
     """
@@ -633,10 +677,11 @@ def test_list_unsigned_int_enumeration_nistxml_sv_iv_list_unsigned_int_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_1():
+def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_1(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -648,10 +693,11 @@ def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_2():
+def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_2(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -663,10 +709,11 @@ def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_3():
+def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_3(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -678,10 +725,11 @@ def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_4():
+def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_4(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -693,10 +741,11 @@ def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_5():
+def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_5(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -708,10 +757,11 @@ def test_list_unsigned_int_pattern_4_nistxml_sv_iv_list_unsigned_int_pattern_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_1():
+def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_1(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{10}.
@@ -723,10 +773,11 @@ def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_2():
+def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_2(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{10}.
@@ -738,10 +789,11 @@ def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_3():
+def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_3(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{10}.
@@ -753,10 +805,11 @@ def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_4():
+def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_4(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{10}.
@@ -768,10 +821,11 @@ def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_5():
+def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_5(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{10}.
@@ -783,10 +837,11 @@ def test_list_unsigned_int_pattern_3_nistxml_sv_iv_list_unsigned_int_pattern_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_1():
+def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_1(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -798,10 +853,11 @@ def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_2():
+def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_2(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -813,10 +869,11 @@ def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_3():
+def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_3(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -828,10 +885,11 @@ def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_4():
+def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_4(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -843,10 +901,11 @@ def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_5():
+def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_5(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{10}.
@@ -858,10 +917,11 @@ def test_list_unsigned_int_pattern_2_nistxml_sv_iv_list_unsigned_int_pattern_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_1():
+def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_1(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{10}.
@@ -873,10 +933,11 @@ def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_2():
+def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_2(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{10}.
@@ -888,10 +949,11 @@ def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_3():
+def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_3(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{10}.
@@ -903,10 +965,11 @@ def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_4():
+def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_4(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{10}.
@@ -918,10 +981,11 @@ def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_5():
+def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_5(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{10}.
@@ -933,10 +997,11 @@ def test_list_unsigned_int_pattern_1_nistxml_sv_iv_list_unsigned_int_pattern_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_1():
+def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_1(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{10}.
@@ -948,10 +1013,11 @@ def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_2():
+def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_2(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{10}.
@@ -963,10 +1029,11 @@ def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_3():
+def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_3(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{10}.
@@ -978,10 +1045,11 @@ def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_4():
+def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_4(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{10}.
@@ -993,10 +1061,11 @@ def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_5():
+def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_5(save_xml):
     r"""
     Type list/unsignedInt is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{4} \d{5} \d{10}.
@@ -1008,10 +1077,11 @@ def test_list_unsigned_int_pattern_nistxml_sv_iv_list_unsigned_int_pattern_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_1():
+def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 10.
     """
@@ -1022,10 +1092,11 @@ def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_2():
+def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 10.
     """
@@ -1036,10 +1107,11 @@ def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_3():
+def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 10.
     """
@@ -1050,10 +1122,11 @@ def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_4():
+def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 10.
     """
@@ -1064,10 +1137,11 @@ def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_5():
+def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 10.
     """
@@ -1078,10 +1152,11 @@ def test_list_unsigned_int_length_4_nistxml_sv_iv_list_unsigned_int_length_5_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_1():
+def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 8.
     """
@@ -1092,10 +1167,11 @@ def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_2():
+def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 8.
     """
@@ -1106,10 +1182,11 @@ def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_3():
+def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 8.
     """
@@ -1120,10 +1197,11 @@ def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_4():
+def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 8.
     """
@@ -1134,10 +1212,11 @@ def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_5():
+def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 8.
     """
@@ -1148,10 +1227,11 @@ def test_list_unsigned_int_length_3_nistxml_sv_iv_list_unsigned_int_length_4_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_1():
+def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 7.
     """
@@ -1162,10 +1242,11 @@ def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_2():
+def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 7.
     """
@@ -1176,10 +1257,11 @@ def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_3():
+def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 7.
     """
@@ -1190,10 +1272,11 @@ def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_4():
+def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 7.
     """
@@ -1204,10 +1287,11 @@ def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_5():
+def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 7.
     """
@@ -1218,10 +1302,11 @@ def test_list_unsigned_int_length_2_nistxml_sv_iv_list_unsigned_int_length_3_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_1():
+def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 6.
     """
@@ -1232,10 +1317,11 @@ def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_2():
+def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 6.
     """
@@ -1246,10 +1332,11 @@ def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_3():
+def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 6.
     """
@@ -1260,10 +1347,11 @@ def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_4():
+def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 6.
     """
@@ -1274,10 +1362,11 @@ def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_5():
+def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 6.
     """
@@ -1288,10 +1377,11 @@ def test_list_unsigned_int_length_1_nistxml_sv_iv_list_unsigned_int_length_2_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_1():
+def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 5.
     """
@@ -1302,10 +1392,11 @@ def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_2():
+def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 5.
     """
@@ -1316,10 +1407,11 @@ def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_3():
+def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 5.
     """
@@ -1330,10 +1422,11 @@ def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_4():
+def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 5.
     """
@@ -1344,10 +1437,11 @@ def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_5():
+def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet length with value 5.
     """
@@ -1358,10 +1452,11 @@ def test_list_unsigned_int_length_nistxml_sv_iv_list_unsigned_int_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_1():
+def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 10.
     """
@@ -1372,10 +1467,11 @@ def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_2():
+def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 10.
     """
@@ -1386,10 +1482,11 @@ def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_3():
+def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 10.
     """
@@ -1400,10 +1497,11 @@ def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_4():
+def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 10.
     """
@@ -1414,10 +1512,11 @@ def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_5():
+def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_length_5_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 10.
     """
@@ -1428,10 +1527,11 @@ def test_list_unsigned_int_min_length_4_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_1():
+def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 8.
     """
@@ -1442,10 +1542,11 @@ def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_2():
+def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 8.
     """
@@ -1456,10 +1557,11 @@ def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_3():
+def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 8.
     """
@@ -1470,10 +1572,11 @@ def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_4():
+def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 8.
     """
@@ -1484,10 +1587,11 @@ def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_5():
+def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_length_4_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 8.
     """
@@ -1498,10 +1602,11 @@ def test_list_unsigned_int_min_length_3_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_1():
+def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 7.
     """
@@ -1512,10 +1617,11 @@ def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_2():
+def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 7.
     """
@@ -1526,10 +1632,11 @@ def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_3():
+def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 7.
     """
@@ -1540,10 +1647,11 @@ def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_4():
+def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 7.
     """
@@ -1554,10 +1662,11 @@ def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_5():
+def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_length_3_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 7.
     """
@@ -1568,10 +1677,11 @@ def test_list_unsigned_int_min_length_2_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_1():
+def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 6.
     """
@@ -1582,10 +1692,11 @@ def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_2():
+def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 6.
     """
@@ -1596,10 +1707,11 @@ def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_3():
+def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 6.
     """
@@ -1610,10 +1722,11 @@ def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_4():
+def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 6.
     """
@@ -1624,10 +1737,11 @@ def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_5():
+def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_length_2_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 6.
     """
@@ -1638,10 +1752,11 @@ def test_list_unsigned_int_min_length_1_nistxml_sv_iv_list_unsigned_int_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_1():
+def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 5.
     """
@@ -1652,10 +1767,11 @@ def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_2():
+def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 5.
     """
@@ -1666,10 +1782,11 @@ def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_3():
+def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 5.
     """
@@ -1680,10 +1797,11 @@ def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_4():
+def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 5.
     """
@@ -1694,10 +1812,11 @@ def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_5():
+def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length_1_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet minLength with value 5.
     """
@@ -1708,10 +1827,11 @@ def test_list_unsigned_int_min_length_nistxml_sv_iv_list_unsigned_int_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_1():
+def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 10.
     """
@@ -1722,10 +1842,11 @@ def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_2():
+def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 10.
     """
@@ -1736,10 +1857,11 @@ def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_3():
+def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 10.
     """
@@ -1750,10 +1872,11 @@ def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_4():
+def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 10.
     """
@@ -1764,10 +1887,11 @@ def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_5():
+def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_length_5_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 10.
     """
@@ -1778,10 +1902,11 @@ def test_list_unsigned_int_max_length_4_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_1():
+def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 8.
     """
@@ -1792,10 +1917,11 @@ def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_2():
+def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 8.
     """
@@ -1806,10 +1932,11 @@ def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_3():
+def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 8.
     """
@@ -1820,10 +1947,11 @@ def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_4():
+def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 8.
     """
@@ -1834,10 +1962,11 @@ def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_5():
+def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_length_4_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 8.
     """
@@ -1848,10 +1977,11 @@ def test_list_unsigned_int_max_length_3_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_1():
+def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 7.
     """
@@ -1862,10 +1992,11 @@ def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_2():
+def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 7.
     """
@@ -1876,10 +2007,11 @@ def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_3():
+def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 7.
     """
@@ -1890,10 +2022,11 @@ def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_4():
+def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 7.
     """
@@ -1904,10 +2037,11 @@ def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_5():
+def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_length_3_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 7.
     """
@@ -1918,10 +2052,11 @@ def test_list_unsigned_int_max_length_2_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_1():
+def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 6.
     """
@@ -1932,10 +2067,11 @@ def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_2():
+def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 6.
     """
@@ -1946,10 +2082,11 @@ def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_3():
+def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 6.
     """
@@ -1960,10 +2097,11 @@ def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_4():
+def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 6.
     """
@@ -1974,10 +2112,11 @@ def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_5():
+def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_length_2_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 6.
     """
@@ -1988,10 +2127,11 @@ def test_list_unsigned_int_max_length_1_nistxml_sv_iv_list_unsigned_int_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_1():
+def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_1(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 5.
     """
@@ -2002,10 +2142,11 @@ def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_2():
+def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_2(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 5.
     """
@@ -2016,10 +2157,11 @@ def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_3():
+def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_3(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 5.
     """
@@ -2030,10 +2172,11 @@ def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_4():
+def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_4(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 5.
     """
@@ -2044,10 +2187,11 @@ def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_5():
+def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length_1_5(save_xml):
     """
     Type list/unsignedInt is restricted by facet maxLength with value 5.
     """
@@ -2058,10 +2202,11 @@ def test_list_unsigned_int_max_length_nistxml_sv_iv_list_unsigned_int_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_1():
+def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet whiteSpace with value
     collapse.
@@ -2073,10 +2218,11 @@ def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_s
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_2():
+def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet whiteSpace with value
     collapse.
@@ -2088,10 +2234,11 @@ def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_s
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_3():
+def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet whiteSpace with value
     collapse.
@@ -2103,10 +2250,11 @@ def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_s
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_4():
+def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet whiteSpace with value
     collapse.
@@ -2118,10 +2266,11 @@ def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_s
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_5():
+def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_space_1_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet whiteSpace with value
     collapse.
@@ -2133,10 +2282,11 @@ def test_list_unsigned_long_white_space_nistxml_sv_iv_list_unsigned_long_white_s
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_1():
+def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2147,10 +2297,11 @@ def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_2():
+def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2161,10 +2312,11 @@ def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_3():
+def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2175,10 +2327,11 @@ def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_4():
+def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2189,10 +2342,11 @@ def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_5():
+def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enumeration_5_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2203,10 +2357,11 @@ def test_list_unsigned_long_enumeration_4_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_1():
+def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2217,10 +2372,11 @@ def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_2():
+def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2231,10 +2387,11 @@ def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_3():
+def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2245,10 +2402,11 @@ def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_4():
+def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2259,10 +2417,11 @@ def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_5():
+def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enumeration_4_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2273,10 +2432,11 @@ def test_list_unsigned_long_enumeration_3_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_1():
+def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2287,10 +2447,11 @@ def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_2():
+def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2301,10 +2462,11 @@ def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_3():
+def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2315,10 +2477,11 @@ def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_4():
+def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2329,10 +2492,11 @@ def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_5():
+def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enumeration_3_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2343,10 +2507,11 @@ def test_list_unsigned_long_enumeration_2_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_1():
+def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2357,10 +2522,11 @@ def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_2():
+def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2371,10 +2537,11 @@ def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_3():
+def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2385,10 +2552,11 @@ def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_4():
+def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2399,10 +2567,11 @@ def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_5():
+def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enumeration_2_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2413,10 +2582,11 @@ def test_list_unsigned_long_enumeration_1_nistxml_sv_iv_list_unsigned_long_enume
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_1():
+def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2427,10 +2597,11 @@ def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_2():
+def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2441,10 +2612,11 @@ def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_3():
+def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2455,10 +2627,11 @@ def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_4():
+def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2469,10 +2642,11 @@ def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_5():
+def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumeration_1_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet enumeration.
     """
@@ -2483,10 +2657,11 @@ def test_list_unsigned_long_enumeration_nistxml_sv_iv_list_unsigned_long_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_1():
+def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_1(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2498,10 +2673,11 @@ def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_2():
+def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_2(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2513,10 +2689,11 @@ def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_3():
+def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_3(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2528,10 +2705,11 @@ def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_4():
+def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_4(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2543,10 +2721,11 @@ def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_5():
+def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5_5(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2558,10 +2737,11 @@ def test_list_unsigned_long_pattern_4_nistxml_sv_iv_list_unsigned_long_pattern_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_1():
+def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_1(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2573,10 +2753,11 @@ def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_2():
+def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_2(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2588,10 +2769,11 @@ def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_3():
+def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_3(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2603,10 +2785,11 @@ def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_4():
+def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_4(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2618,10 +2801,11 @@ def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_5():
+def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4_5(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{4} \d{7} \d{10} \d{13} \d{18}.
@@ -2633,10 +2817,11 @@ def test_list_unsigned_long_pattern_3_nistxml_sv_iv_list_unsigned_long_pattern_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_1():
+def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_1(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2648,10 +2833,11 @@ def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_2():
+def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_2(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2663,10 +2849,11 @@ def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_3():
+def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_3(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2678,10 +2865,11 @@ def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_4():
+def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_4(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2693,10 +2881,11 @@ def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_5():
+def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3_5(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2708,10 +2897,11 @@ def test_list_unsigned_long_pattern_2_nistxml_sv_iv_list_unsigned_long_pattern_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_1():
+def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_1(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2723,10 +2913,11 @@ def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_2():
+def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_2(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2738,10 +2929,11 @@ def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_3():
+def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_3(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2753,10 +2945,11 @@ def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_4():
+def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_4(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2768,10 +2961,11 @@ def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_5():
+def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2_5(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2783,10 +2977,11 @@ def test_list_unsigned_long_pattern_1_nistxml_sv_iv_list_unsigned_long_pattern_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_1():
+def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_1(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2798,10 +2993,11 @@ def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_2():
+def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_2(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2813,10 +3009,11 @@ def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_3():
+def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_3(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2828,10 +3025,11 @@ def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_4():
+def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_4(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2843,10 +3041,11 @@ def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_5():
+def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_5(save_xml):
     r"""
     Type list/unsignedLong is restricted by facet pattern with value \d{1}
     \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -2858,10 +3057,11 @@ def test_list_unsigned_long_pattern_nistxml_sv_iv_list_unsigned_long_pattern_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_1():
+def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 10.
     """
@@ -2872,10 +3072,11 @@ def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_2():
+def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 10.
     """
@@ -2886,10 +3087,11 @@ def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_3():
+def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 10.
     """
@@ -2900,10 +3102,11 @@ def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_4():
+def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 10.
     """
@@ -2914,10 +3117,11 @@ def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_5():
+def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 10.
     """
@@ -2928,10 +3132,11 @@ def test_list_unsigned_long_length_4_nistxml_sv_iv_list_unsigned_long_length_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_1():
+def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 8.
     """
@@ -2942,10 +3147,11 @@ def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_2():
+def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 8.
     """
@@ -2956,10 +3162,11 @@ def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_3():
+def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 8.
     """
@@ -2970,10 +3177,11 @@ def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_4():
+def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 8.
     """
@@ -2984,10 +3192,11 @@ def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_5():
+def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 8.
     """
@@ -2998,10 +3207,11 @@ def test_list_unsigned_long_length_3_nistxml_sv_iv_list_unsigned_long_length_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_1():
+def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 7.
     """
@@ -3012,10 +3222,11 @@ def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_2():
+def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 7.
     """
@@ -3026,10 +3237,11 @@ def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_3():
+def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 7.
     """
@@ -3040,10 +3252,11 @@ def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_4():
+def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 7.
     """
@@ -3054,10 +3267,11 @@ def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_5():
+def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 7.
     """
@@ -3068,10 +3282,11 @@ def test_list_unsigned_long_length_2_nistxml_sv_iv_list_unsigned_long_length_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_1():
+def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 6.
     """
@@ -3082,10 +3297,11 @@ def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_2():
+def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 6.
     """
@@ -3096,10 +3312,11 @@ def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_3():
+def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 6.
     """
@@ -3110,10 +3327,11 @@ def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_4():
+def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 6.
     """
@@ -3124,10 +3342,11 @@ def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_5():
+def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 6.
     """
@@ -3138,10 +3357,11 @@ def test_list_unsigned_long_length_1_nistxml_sv_iv_list_unsigned_long_length_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_1():
+def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 5.
     """
@@ -3152,10 +3372,11 @@ def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_2():
+def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 5.
     """
@@ -3166,10 +3387,11 @@ def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_3():
+def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 5.
     """
@@ -3180,10 +3402,11 @@ def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_4():
+def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 5.
     """
@@ -3194,10 +3417,11 @@ def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_5():
+def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet length with value 5.
     """
@@ -3208,10 +3432,11 @@ def test_list_unsigned_long_length_nistxml_sv_iv_list_unsigned_long_length_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_1():
+def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 10.
     """
@@ -3222,10 +3447,11 @@ def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_2():
+def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 10.
     """
@@ -3236,10 +3462,11 @@ def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_3():
+def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 10.
     """
@@ -3250,10 +3477,11 @@ def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_4():
+def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 10.
     """
@@ -3264,10 +3492,11 @@ def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_5():
+def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_length_5_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 10.
     """
@@ -3278,10 +3507,11 @@ def test_list_unsigned_long_min_length_4_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_1():
+def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 8.
     """
@@ -3292,10 +3522,11 @@ def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_2():
+def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 8.
     """
@@ -3306,10 +3537,11 @@ def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_3():
+def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 8.
     """
@@ -3320,10 +3552,11 @@ def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_4():
+def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 8.
     """
@@ -3334,10 +3567,11 @@ def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_5():
+def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_length_4_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 8.
     """
@@ -3348,10 +3582,11 @@ def test_list_unsigned_long_min_length_3_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_1():
+def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 7.
     """
@@ -3362,10 +3597,11 @@ def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_2():
+def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 7.
     """
@@ -3376,10 +3612,11 @@ def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_3():
+def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 7.
     """
@@ -3390,10 +3627,11 @@ def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_4():
+def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 7.
     """
@@ -3404,10 +3642,11 @@ def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_5():
+def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_length_3_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 7.
     """
@@ -3418,10 +3657,11 @@ def test_list_unsigned_long_min_length_2_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_1():
+def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 6.
     """
@@ -3432,10 +3672,11 @@ def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_2():
+def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 6.
     """
@@ -3446,10 +3687,11 @@ def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_3():
+def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 6.
     """
@@ -3460,10 +3702,11 @@ def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_4():
+def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 6.
     """
@@ -3474,10 +3717,11 @@ def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_5():
+def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_length_2_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 6.
     """
@@ -3488,10 +3732,11 @@ def test_list_unsigned_long_min_length_1_nistxml_sv_iv_list_unsigned_long_min_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_1():
+def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 5.
     """
@@ -3502,10 +3747,11 @@ def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_2():
+def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 5.
     """
@@ -3516,10 +3762,11 @@ def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_3():
+def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 5.
     """
@@ -3530,10 +3777,11 @@ def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_4():
+def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 5.
     """
@@ -3544,10 +3792,11 @@ def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_5():
+def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_length_1_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet minLength with value 5.
     """
@@ -3558,10 +3807,11 @@ def test_list_unsigned_long_min_length_nistxml_sv_iv_list_unsigned_long_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_1():
+def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 10.
     """
@@ -3572,10 +3822,11 @@ def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_2():
+def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 10.
     """
@@ -3586,10 +3837,11 @@ def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_3():
+def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 10.
     """
@@ -3600,10 +3852,11 @@ def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_4():
+def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 10.
     """
@@ -3614,10 +3867,11 @@ def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_5():
+def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_length_5_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 10.
     """
@@ -3628,10 +3882,11 @@ def test_list_unsigned_long_max_length_4_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_1():
+def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 8.
     """
@@ -3642,10 +3897,11 @@ def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_2():
+def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 8.
     """
@@ -3656,10 +3912,11 @@ def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_3():
+def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 8.
     """
@@ -3670,10 +3927,11 @@ def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_4():
+def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 8.
     """
@@ -3684,10 +3942,11 @@ def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_5():
+def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_length_4_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 8.
     """
@@ -3698,10 +3957,11 @@ def test_list_unsigned_long_max_length_3_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_1():
+def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 7.
     """
@@ -3712,10 +3972,11 @@ def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_2():
+def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 7.
     """
@@ -3726,10 +3987,11 @@ def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_3():
+def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 7.
     """
@@ -3740,10 +4002,11 @@ def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_4():
+def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 7.
     """
@@ -3754,10 +4017,11 @@ def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_5():
+def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_length_3_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 7.
     """
@@ -3768,10 +4032,11 @@ def test_list_unsigned_long_max_length_2_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_1():
+def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 6.
     """
@@ -3782,10 +4047,11 @@ def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_2():
+def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 6.
     """
@@ -3796,10 +4062,11 @@ def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_3():
+def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 6.
     """
@@ -3810,10 +4077,11 @@ def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_4():
+def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 6.
     """
@@ -3824,10 +4092,11 @@ def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_5():
+def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_length_2_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 6.
     """
@@ -3838,10 +4107,11 @@ def test_list_unsigned_long_max_length_1_nistxml_sv_iv_list_unsigned_long_max_le
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_1():
+def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_1(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 5.
     """
@@ -3852,10 +4122,11 @@ def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_2():
+def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_2(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 5.
     """
@@ -3866,10 +4137,11 @@ def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_3():
+def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_3(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 5.
     """
@@ -3880,10 +4152,11 @@ def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_4():
+def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_4(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 5.
     """
@@ -3894,10 +4167,11 @@ def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_5():
+def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_length_1_5(save_xml):
     """
     Type list/unsignedLong is restricted by facet maxLength with value 5.
     """
@@ -3908,10 +4182,11 @@ def test_list_unsigned_long_max_length_nistxml_sv_iv_list_unsigned_long_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListUnsignedLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_1():
+def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet whiteSpace with
     value collapse.
@@ -3923,10 +4198,11 @@ def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_2():
+def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet whiteSpace with
     value collapse.
@@ -3938,10 +4214,11 @@ def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_3():
+def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet whiteSpace with
     value collapse.
@@ -3953,10 +4230,11 @@ def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_4():
+def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet whiteSpace with
     value collapse.
@@ -3968,10 +4246,11 @@ def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_5():
+def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_integer_white_space_1_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet whiteSpace with
     value collapse.
@@ -3983,10 +4262,11 @@ def test_list_non_negative_integer_white_space_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_1():
+def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -3997,10 +4277,11 @@ def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_2():
+def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4011,10 +4292,11 @@ def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_3():
+def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4025,10 +4307,11 @@ def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_4():
+def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4039,10 +4322,11 @@ def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_5():
+def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative_integer_enumeration_5_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4053,10 +4337,11 @@ def test_list_non_negative_integer_enumeration_4_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_1():
+def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4067,10 +4352,11 @@ def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_2():
+def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4081,10 +4367,11 @@ def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_3():
+def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4095,10 +4382,11 @@ def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_4():
+def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4109,10 +4397,11 @@ def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_5():
+def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative_integer_enumeration_4_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4123,10 +4412,11 @@ def test_list_non_negative_integer_enumeration_3_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_1():
+def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4137,10 +4427,11 @@ def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_2():
+def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4151,10 +4442,11 @@ def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_3():
+def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4165,10 +4457,11 @@ def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_4():
+def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4179,10 +4472,11 @@ def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_5():
+def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative_integer_enumeration_3_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4193,10 +4487,11 @@ def test_list_non_negative_integer_enumeration_2_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_1():
+def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4207,10 +4502,11 @@ def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_2():
+def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4221,10 +4517,11 @@ def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_3():
+def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4235,10 +4532,11 @@ def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_4():
+def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4249,10 +4547,11 @@ def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_5():
+def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative_integer_enumeration_2_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4263,10 +4562,11 @@ def test_list_non_negative_integer_enumeration_1_nistxml_sv_iv_list_non_negative
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_1():
+def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4277,10 +4577,11 @@ def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_2():
+def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4291,10 +4592,11 @@ def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_3():
+def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4305,10 +4607,11 @@ def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_4():
+def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4319,10 +4622,11 @@ def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_5():
+def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_integer_enumeration_1_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet enumeration.
     """
@@ -4333,10 +4637,11 @@ def test_list_non_negative_integer_enumeration_nistxml_sv_iv_list_non_negative_i
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_1():
+def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_1(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4348,10 +4653,11 @@ def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_2():
+def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_2(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4363,10 +4669,11 @@ def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_3():
+def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_3(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4378,10 +4685,11 @@ def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_4():
+def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_4(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4393,10 +4701,11 @@ def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_5():
+def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_integer_pattern_5_5(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4408,10 +4717,11 @@ def test_list_non_negative_integer_pattern_4_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_1():
+def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_1(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4423,10 +4733,11 @@ def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_2():
+def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_2(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4438,10 +4749,11 @@ def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_3():
+def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_3(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4453,10 +4765,11 @@ def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_4():
+def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_4(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4468,10 +4781,11 @@ def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_5():
+def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_integer_pattern_4_5(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4483,10 +4797,11 @@ def test_list_non_negative_integer_pattern_3_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_1():
+def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_1(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4498,10 +4813,11 @@ def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_2():
+def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_2(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4513,10 +4829,11 @@ def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_3():
+def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_3(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4528,10 +4845,11 @@ def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_4():
+def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_4(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4543,10 +4861,11 @@ def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_5():
+def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_integer_pattern_3_5(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -4558,10 +4877,11 @@ def test_list_non_negative_integer_pattern_2_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_1():
+def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_1(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4573,10 +4893,11 @@ def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_2():
+def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_2(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4588,10 +4909,11 @@ def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_3():
+def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_3(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4603,10 +4925,11 @@ def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_4():
+def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_4(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4618,10 +4941,11 @@ def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_5():
+def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_integer_pattern_2_5(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4633,10 +4957,11 @@ def test_list_non_negative_integer_pattern_1_nistxml_sv_iv_list_non_negative_int
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_1():
+def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_1(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4648,10 +4973,11 @@ def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integ
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_2():
+def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_2(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4663,10 +4989,11 @@ def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integ
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_3():
+def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_3(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4678,10 +5005,11 @@ def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integ
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_4():
+def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_4(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4693,10 +5021,11 @@ def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integ
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_5():
+def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integer_pattern_1_5(save_xml):
     r"""
     Type list/nonNegativeInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -4708,10 +5037,11 @@ def test_list_non_negative_integer_pattern_nistxml_sv_iv_list_non_negative_integ
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_1():
+def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     10.
@@ -4723,10 +5053,11 @@ def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_2():
+def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     10.
@@ -4738,10 +5069,11 @@ def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_3():
+def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     10.
@@ -4753,10 +5085,11 @@ def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_4():
+def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     10.
@@ -4768,10 +5101,11 @@ def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_5():
+def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_integer_length_5_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     10.
@@ -4783,10 +5117,11 @@ def test_list_non_negative_integer_length_4_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_1():
+def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     8.
@@ -4798,10 +5133,11 @@ def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_2():
+def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     8.
@@ -4813,10 +5149,11 @@ def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_3():
+def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     8.
@@ -4828,10 +5165,11 @@ def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_4():
+def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     8.
@@ -4843,10 +5181,11 @@ def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_5():
+def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_integer_length_4_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     8.
@@ -4858,10 +5197,11 @@ def test_list_non_negative_integer_length_3_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_1():
+def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     7.
@@ -4873,10 +5213,11 @@ def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_2():
+def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     7.
@@ -4888,10 +5229,11 @@ def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_3():
+def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     7.
@@ -4903,10 +5245,11 @@ def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_4():
+def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     7.
@@ -4918,10 +5261,11 @@ def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_5():
+def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_integer_length_3_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     7.
@@ -4933,10 +5277,11 @@ def test_list_non_negative_integer_length_2_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_1():
+def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     6.
@@ -4948,10 +5293,11 @@ def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_2():
+def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     6.
@@ -4963,10 +5309,11 @@ def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_3():
+def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     6.
@@ -4978,10 +5325,11 @@ def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_4():
+def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     6.
@@ -4993,10 +5341,11 @@ def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_5():
+def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_integer_length_2_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     6.
@@ -5008,10 +5357,11 @@ def test_list_non_negative_integer_length_1_nistxml_sv_iv_list_non_negative_inte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_1():
+def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     5.
@@ -5023,10 +5373,11 @@ def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_intege
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_2():
+def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     5.
@@ -5038,10 +5389,11 @@ def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_intege
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_3():
+def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     5.
@@ -5053,10 +5405,11 @@ def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_intege
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_4():
+def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     5.
@@ -5068,10 +5421,11 @@ def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_intege
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_5():
+def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_integer_length_1_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet length with value
     5.
@@ -5083,10 +5437,11 @@ def test_list_non_negative_integer_length_nistxml_sv_iv_list_non_negative_intege
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_1():
+def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 10.
@@ -5098,10 +5453,11 @@ def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_2():
+def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 10.
@@ -5113,10 +5469,11 @@ def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_3():
+def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 10.
@@ -5128,10 +5485,11 @@ def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_4():
+def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 10.
@@ -5143,10 +5501,11 @@ def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_5():
+def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_integer_min_length_5_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 10.
@@ -5158,10 +5517,11 @@ def test_list_non_negative_integer_min_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_1():
+def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 8.
@@ -5173,10 +5533,11 @@ def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_2():
+def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 8.
@@ -5188,10 +5549,11 @@ def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_3():
+def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 8.
@@ -5203,10 +5565,11 @@ def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_4():
+def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 8.
@@ -5218,10 +5581,11 @@ def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_5():
+def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_integer_min_length_4_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 8.
@@ -5233,10 +5597,11 @@ def test_list_non_negative_integer_min_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_1():
+def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 7.
@@ -5248,10 +5613,11 @@ def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_2():
+def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 7.
@@ -5263,10 +5629,11 @@ def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_3():
+def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 7.
@@ -5278,10 +5645,11 @@ def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_4():
+def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 7.
@@ -5293,10 +5661,11 @@ def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_5():
+def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_integer_min_length_3_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 7.
@@ -5308,10 +5677,11 @@ def test_list_non_negative_integer_min_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_1():
+def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 6.
@@ -5323,10 +5693,11 @@ def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_2():
+def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 6.
@@ -5338,10 +5709,11 @@ def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_3():
+def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 6.
@@ -5353,10 +5725,11 @@ def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_4():
+def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 6.
@@ -5368,10 +5741,11 @@ def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_5():
+def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_integer_min_length_2_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 6.
@@ -5383,10 +5757,11 @@ def test_list_non_negative_integer_min_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_1():
+def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 5.
@@ -5398,10 +5773,11 @@ def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_2():
+def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 5.
@@ -5413,10 +5789,11 @@ def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_3():
+def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 5.
@@ -5428,10 +5805,11 @@ def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_4():
+def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 5.
@@ -5443,10 +5821,11 @@ def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_5():
+def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_integer_min_length_1_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet minLength with
     value 5.
@@ -5458,10 +5837,11 @@ def test_list_non_negative_integer_min_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_1():
+def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 10.
@@ -5473,10 +5853,11 @@ def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_2():
+def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 10.
@@ -5488,10 +5869,11 @@ def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_3():
+def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 10.
@@ -5503,10 +5885,11 @@ def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_4():
+def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 10.
@@ -5518,10 +5901,11 @@ def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_5():
+def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_integer_max_length_5_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 10.
@@ -5533,10 +5917,11 @@ def test_list_non_negative_integer_max_length_4_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_1():
+def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 8.
@@ -5548,10 +5933,11 @@ def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_2():
+def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 8.
@@ -5563,10 +5949,11 @@ def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_3():
+def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 8.
@@ -5578,10 +5965,11 @@ def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_4():
+def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 8.
@@ -5593,10 +5981,11 @@ def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_5():
+def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_integer_max_length_4_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 8.
@@ -5608,10 +5997,11 @@ def test_list_non_negative_integer_max_length_3_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_1():
+def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 7.
@@ -5623,10 +6013,11 @@ def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_2():
+def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 7.
@@ -5638,10 +6029,11 @@ def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_3():
+def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 7.
@@ -5653,10 +6045,11 @@ def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_4():
+def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 7.
@@ -5668,10 +6061,11 @@ def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_5():
+def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_integer_max_length_3_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 7.
@@ -5683,10 +6077,11 @@ def test_list_non_negative_integer_max_length_2_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_1():
+def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 6.
@@ -5698,10 +6093,11 @@ def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_2():
+def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 6.
@@ -5713,10 +6109,11 @@ def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_3():
+def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 6.
@@ -5728,10 +6125,11 @@ def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_4():
+def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 6.
@@ -5743,10 +6141,11 @@ def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_5():
+def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_integer_max_length_2_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 6.
@@ -5758,10 +6157,11 @@ def test_list_non_negative_integer_max_length_1_nistxml_sv_iv_list_non_negative_
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_1():
+def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_1(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 5.
@@ -5773,10 +6173,11 @@ def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_2():
+def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_2(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 5.
@@ -5788,10 +6189,11 @@ def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_3():
+def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_3(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 5.
@@ -5803,10 +6205,11 @@ def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_4():
+def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_4(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 5.
@@ -5818,10 +6221,11 @@ def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_5():
+def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_integer_max_length_1_5(save_xml):
     """
     Type list/nonNegativeInteger is restricted by facet maxLength with
     value 5.
@@ -5833,10 +6237,11 @@ def test_list_non_negative_integer_max_length_nistxml_sv_iv_list_non_negative_in
         instance_is_valid=True,
         class_name="NistschemaSvIvListNonNegativeIntegerMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_1():
+def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_1(save_xml):
     """
     Type list/byte is restricted by facet whiteSpace with value collapse.
     """
@@ -5847,10 +6252,11 @@ def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_2():
+def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_2(save_xml):
     """
     Type list/byte is restricted by facet whiteSpace with value collapse.
     """
@@ -5861,10 +6267,11 @@ def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_3():
+def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_3(save_xml):
     """
     Type list/byte is restricted by facet whiteSpace with value collapse.
     """
@@ -5875,10 +6282,11 @@ def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_4():
+def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_4(save_xml):
     """
     Type list/byte is restricted by facet whiteSpace with value collapse.
     """
@@ -5889,10 +6297,11 @@ def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_5():
+def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_5(save_xml):
     """
     Type list/byte is restricted by facet whiteSpace with value collapse.
     """
@@ -5903,10 +6312,11 @@ def test_list_byte_white_space_nistxml_sv_iv_list_byte_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_1():
+def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_1(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5917,10 +6327,11 @@ def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_2():
+def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_2(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5931,10 +6342,11 @@ def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_3():
+def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_3(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5945,10 +6357,11 @@ def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_4():
+def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_4(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5959,10 +6372,11 @@ def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_5():
+def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_5(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5973,10 +6387,11 @@ def test_list_byte_enumeration_4_nistxml_sv_iv_list_byte_enumeration_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_1():
+def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_1(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -5987,10 +6402,11 @@ def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_2():
+def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_2(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6001,10 +6417,11 @@ def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_3():
+def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_3(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6015,10 +6432,11 @@ def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_4():
+def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_4(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6029,10 +6447,11 @@ def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_5():
+def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_5(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6043,10 +6462,11 @@ def test_list_byte_enumeration_3_nistxml_sv_iv_list_byte_enumeration_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_1():
+def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_1(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6057,10 +6477,11 @@ def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_2():
+def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_2(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6071,10 +6492,11 @@ def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_3():
+def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_3(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6085,10 +6507,11 @@ def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_4():
+def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_4(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6099,10 +6522,11 @@ def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_5():
+def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_5(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6113,10 +6537,11 @@ def test_list_byte_enumeration_2_nistxml_sv_iv_list_byte_enumeration_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_1():
+def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_1(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6127,10 +6552,11 @@ def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_2():
+def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_2(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6141,10 +6567,11 @@ def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_3():
+def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_3(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6155,10 +6582,11 @@ def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_4():
+def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_4(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6169,10 +6597,11 @@ def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_5():
+def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_5(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6183,10 +6612,11 @@ def test_list_byte_enumeration_1_nistxml_sv_iv_list_byte_enumeration_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_1():
+def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_1(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6197,10 +6627,11 @@ def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_2():
+def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_2(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6211,10 +6642,11 @@ def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_3():
+def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_3(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6225,10 +6657,11 @@ def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_4():
+def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_4(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6239,10 +6672,11 @@ def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_5():
+def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_5(save_xml):
     """
     Type list/byte is restricted by facet enumeration.
     """
@@ -6253,10 +6687,11 @@ def test_list_byte_enumeration_nistxml_sv_iv_list_byte_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_1():
+def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_1(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6268,10 +6703,11 @@ def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_2():
+def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_2(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6283,10 +6719,11 @@ def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_3():
+def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_3(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6298,10 +6735,11 @@ def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_4():
+def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_4(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6313,10 +6751,11 @@ def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_5():
+def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_5(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6328,10 +6767,11 @@ def test_list_byte_pattern_4_nistxml_sv_iv_list_byte_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_1():
+def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_1(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6343,10 +6783,11 @@ def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_2():
+def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_2(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6358,10 +6799,11 @@ def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_3():
+def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_3(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6373,10 +6815,11 @@ def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_4():
+def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_4(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6388,10 +6831,11 @@ def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_5():
+def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_5(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6403,10 +6847,11 @@ def test_list_byte_pattern_3_nistxml_sv_iv_list_byte_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_1():
+def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_1(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6418,10 +6863,11 @@ def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_2():
+def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_2(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6433,10 +6879,11 @@ def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_3():
+def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_3(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6448,10 +6895,11 @@ def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_4():
+def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_4(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6463,10 +6911,11 @@ def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_5():
+def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_5(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}.
@@ -6478,10 +6927,11 @@ def test_list_byte_pattern_2_nistxml_sv_iv_list_byte_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_1():
+def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_1(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2}.
@@ -6493,10 +6943,11 @@ def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_2():
+def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_2(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2}.
@@ -6508,10 +6959,11 @@ def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_3():
+def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_3(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2}.
@@ -6523,10 +6975,11 @@ def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_4():
+def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_4(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2}.
@@ -6538,10 +6991,11 @@ def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_5():
+def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_5(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2}.
@@ -6553,10 +7007,11 @@ def test_list_byte_pattern_1_nistxml_sv_iv_list_byte_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_1():
+def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_1(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6568,10 +7023,11 @@ def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_2():
+def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_2(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6583,10 +7039,11 @@ def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_3():
+def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_3(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6598,10 +7055,11 @@ def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_4():
+def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_4(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6613,10 +7071,11 @@ def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_5():
+def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_5(save_xml):
     r"""
     Type list/byte is restricted by facet pattern with value \-\d{3}
     \-\d{2} \-\d{1} \d{1} \d{2} \d{3}.
@@ -6628,10 +7087,11 @@ def test_list_byte_pattern_nistxml_sv_iv_list_byte_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListBytePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_1():
+def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_1(save_xml):
     """
     Type list/byte is restricted by facet length with value 10.
     """
@@ -6642,10 +7102,11 @@ def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_2():
+def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_2(save_xml):
     """
     Type list/byte is restricted by facet length with value 10.
     """
@@ -6656,10 +7117,11 @@ def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_3():
+def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_3(save_xml):
     """
     Type list/byte is restricted by facet length with value 10.
     """
@@ -6670,10 +7132,11 @@ def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_4():
+def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_4(save_xml):
     """
     Type list/byte is restricted by facet length with value 10.
     """
@@ -6684,10 +7147,11 @@ def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_5():
+def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_5(save_xml):
     """
     Type list/byte is restricted by facet length with value 10.
     """
@@ -6698,10 +7162,11 @@ def test_list_byte_length_4_nistxml_sv_iv_list_byte_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_1():
+def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_1(save_xml):
     """
     Type list/byte is restricted by facet length with value 8.
     """
@@ -6712,10 +7177,11 @@ def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_2():
+def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_2(save_xml):
     """
     Type list/byte is restricted by facet length with value 8.
     """
@@ -6726,10 +7192,11 @@ def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_3():
+def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_3(save_xml):
     """
     Type list/byte is restricted by facet length with value 8.
     """
@@ -6740,10 +7207,11 @@ def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_4():
+def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_4(save_xml):
     """
     Type list/byte is restricted by facet length with value 8.
     """
@@ -6754,10 +7222,11 @@ def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_5():
+def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_5(save_xml):
     """
     Type list/byte is restricted by facet length with value 8.
     """
@@ -6768,10 +7237,11 @@ def test_list_byte_length_3_nistxml_sv_iv_list_byte_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_1():
+def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_1(save_xml):
     """
     Type list/byte is restricted by facet length with value 7.
     """
@@ -6782,10 +7252,11 @@ def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_2():
+def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_2(save_xml):
     """
     Type list/byte is restricted by facet length with value 7.
     """
@@ -6796,10 +7267,11 @@ def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_3():
+def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_3(save_xml):
     """
     Type list/byte is restricted by facet length with value 7.
     """
@@ -6810,10 +7282,11 @@ def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_4():
+def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_4(save_xml):
     """
     Type list/byte is restricted by facet length with value 7.
     """
@@ -6824,10 +7297,11 @@ def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_5():
+def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_5(save_xml):
     """
     Type list/byte is restricted by facet length with value 7.
     """
@@ -6838,10 +7312,11 @@ def test_list_byte_length_2_nistxml_sv_iv_list_byte_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_1():
+def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_1(save_xml):
     """
     Type list/byte is restricted by facet length with value 6.
     """
@@ -6852,10 +7327,11 @@ def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_2():
+def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_2(save_xml):
     """
     Type list/byte is restricted by facet length with value 6.
     """
@@ -6866,10 +7342,11 @@ def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_3():
+def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_3(save_xml):
     """
     Type list/byte is restricted by facet length with value 6.
     """
@@ -6880,10 +7357,11 @@ def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_4():
+def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_4(save_xml):
     """
     Type list/byte is restricted by facet length with value 6.
     """
@@ -6894,10 +7372,11 @@ def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_5():
+def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_5(save_xml):
     """
     Type list/byte is restricted by facet length with value 6.
     """
@@ -6908,10 +7387,11 @@ def test_list_byte_length_1_nistxml_sv_iv_list_byte_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_1():
+def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_1(save_xml):
     """
     Type list/byte is restricted by facet length with value 5.
     """
@@ -6922,10 +7402,11 @@ def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_2():
+def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_2(save_xml):
     """
     Type list/byte is restricted by facet length with value 5.
     """
@@ -6936,10 +7417,11 @@ def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_3():
+def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_3(save_xml):
     """
     Type list/byte is restricted by facet length with value 5.
     """
@@ -6950,10 +7432,11 @@ def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_4():
+def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_4(save_xml):
     """
     Type list/byte is restricted by facet length with value 5.
     """
@@ -6964,10 +7447,11 @@ def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_5():
+def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_5(save_xml):
     """
     Type list/byte is restricted by facet length with value 5.
     """
@@ -6978,10 +7462,11 @@ def test_list_byte_length_nistxml_sv_iv_list_byte_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_1():
+def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_1(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 10.
     """
@@ -6992,10 +7477,11 @@ def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_2():
+def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_2(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 10.
     """
@@ -7006,10 +7492,11 @@ def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_3():
+def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_3(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 10.
     """
@@ -7020,10 +7507,11 @@ def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_4():
+def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_4(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 10.
     """
@@ -7034,10 +7522,11 @@ def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_5():
+def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_5(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 10.
     """
@@ -7048,10 +7537,11 @@ def test_list_byte_min_length_4_nistxml_sv_iv_list_byte_min_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_1():
+def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_1(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 8.
     """
@@ -7062,10 +7552,11 @@ def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_2():
+def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_2(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 8.
     """
@@ -7076,10 +7567,11 @@ def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_3():
+def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_3(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 8.
     """
@@ -7090,10 +7582,11 @@ def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_4():
+def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_4(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 8.
     """
@@ -7104,10 +7597,11 @@ def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_5():
+def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_5(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 8.
     """
@@ -7118,10 +7612,11 @@ def test_list_byte_min_length_3_nistxml_sv_iv_list_byte_min_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_1():
+def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_1(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 7.
     """
@@ -7132,10 +7627,11 @@ def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_2():
+def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_2(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 7.
     """
@@ -7146,10 +7642,11 @@ def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_3():
+def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_3(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 7.
     """
@@ -7160,10 +7657,11 @@ def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_4():
+def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_4(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 7.
     """
@@ -7174,10 +7672,11 @@ def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_5():
+def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_5(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 7.
     """
@@ -7188,10 +7687,11 @@ def test_list_byte_min_length_2_nistxml_sv_iv_list_byte_min_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_1():
+def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_1(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 6.
     """
@@ -7202,10 +7702,11 @@ def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_2():
+def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_2(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 6.
     """
@@ -7216,10 +7717,11 @@ def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_3():
+def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_3(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 6.
     """
@@ -7230,10 +7732,11 @@ def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_4():
+def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_4(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 6.
     """
@@ -7244,10 +7747,11 @@ def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_5():
+def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_5(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 6.
     """
@@ -7258,10 +7762,11 @@ def test_list_byte_min_length_1_nistxml_sv_iv_list_byte_min_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_1():
+def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_1(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 5.
     """
@@ -7272,10 +7777,11 @@ def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_2():
+def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_2(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 5.
     """
@@ -7286,10 +7792,11 @@ def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_3():
+def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_3(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 5.
     """
@@ -7300,10 +7807,11 @@ def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_4():
+def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_4(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 5.
     """
@@ -7314,10 +7822,11 @@ def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_5():
+def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_5(save_xml):
     """
     Type list/byte is restricted by facet minLength with value 5.
     """
@@ -7328,10 +7837,11 @@ def test_list_byte_min_length_nistxml_sv_iv_list_byte_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_1():
+def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_1(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 10.
     """
@@ -7342,10 +7852,11 @@ def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_2():
+def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_2(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 10.
     """
@@ -7356,10 +7867,11 @@ def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_3():
+def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_3(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 10.
     """
@@ -7370,10 +7882,11 @@ def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_4():
+def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_4(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 10.
     """
@@ -7384,10 +7897,11 @@ def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_5():
+def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_5(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 10.
     """
@@ -7398,10 +7912,11 @@ def test_list_byte_max_length_4_nistxml_sv_iv_list_byte_max_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_1():
+def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_1(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 8.
     """
@@ -7412,10 +7927,11 @@ def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_2():
+def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_2(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 8.
     """
@@ -7426,10 +7942,11 @@ def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_3():
+def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_3(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 8.
     """
@@ -7440,10 +7957,11 @@ def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_4():
+def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_4(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 8.
     """
@@ -7454,10 +7972,11 @@ def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_5():
+def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_5(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 8.
     """
@@ -7468,10 +7987,11 @@ def test_list_byte_max_length_3_nistxml_sv_iv_list_byte_max_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_1():
+def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_1(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 7.
     """
@@ -7482,10 +8002,11 @@ def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_2():
+def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_2(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 7.
     """
@@ -7496,10 +8017,11 @@ def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_3():
+def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_3(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 7.
     """
@@ -7510,10 +8032,11 @@ def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_4():
+def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_4(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 7.
     """
@@ -7524,10 +8047,11 @@ def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_5():
+def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_5(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 7.
     """
@@ -7538,10 +8062,11 @@ def test_list_byte_max_length_2_nistxml_sv_iv_list_byte_max_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_1():
+def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_1(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 6.
     """
@@ -7552,10 +8077,11 @@ def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_2():
+def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_2(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 6.
     """
@@ -7566,10 +8092,11 @@ def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_3():
+def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_3(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 6.
     """
@@ -7580,10 +8107,11 @@ def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_4():
+def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_4(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 6.
     """
@@ -7594,10 +8122,11 @@ def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_5():
+def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_5(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 6.
     """
@@ -7608,10 +8137,11 @@ def test_list_byte_max_length_1_nistxml_sv_iv_list_byte_max_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_1():
+def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_1(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 5.
     """
@@ -7622,10 +8152,11 @@ def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_2():
+def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_2(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 5.
     """
@@ -7636,10 +8167,11 @@ def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_3():
+def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_3(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 5.
     """
@@ -7650,10 +8182,11 @@ def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_4():
+def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_4(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 5.
     """
@@ -7664,10 +8197,11 @@ def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_5():
+def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_5(save_xml):
     """
     Type list/byte is restricted by facet maxLength with value 5.
     """
@@ -7678,10 +8212,11 @@ def test_list_byte_max_length_nistxml_sv_iv_list_byte_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListByteMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_1():
+def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_1(save_xml):
     """
     Type list/short is restricted by facet whiteSpace with value collapse.
     """
@@ -7692,10 +8227,11 @@ def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_2():
+def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_2(save_xml):
     """
     Type list/short is restricted by facet whiteSpace with value collapse.
     """
@@ -7706,10 +8242,11 @@ def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_3():
+def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_3(save_xml):
     """
     Type list/short is restricted by facet whiteSpace with value collapse.
     """
@@ -7720,10 +8257,11 @@ def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_4():
+def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_4(save_xml):
     """
     Type list/short is restricted by facet whiteSpace with value collapse.
     """
@@ -7734,10 +8272,11 @@ def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_5():
+def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_5(save_xml):
     """
     Type list/short is restricted by facet whiteSpace with value collapse.
     """
@@ -7748,10 +8287,11 @@ def test_list_short_white_space_nistxml_sv_iv_list_short_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_1():
+def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_1(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7762,10 +8302,11 @@ def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_2():
+def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_2(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7776,10 +8317,11 @@ def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_3():
+def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_3(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7790,10 +8332,11 @@ def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_4():
+def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_4(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7804,10 +8347,11 @@ def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_5():
+def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_5(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7818,10 +8362,11 @@ def test_list_short_enumeration_4_nistxml_sv_iv_list_short_enumeration_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_1():
+def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_1(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7832,10 +8377,11 @@ def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_2():
+def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_2(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7846,10 +8392,11 @@ def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_3():
+def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_3(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7860,10 +8407,11 @@ def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_4():
+def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_4(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7874,10 +8422,11 @@ def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_5():
+def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_5(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7888,10 +8437,11 @@ def test_list_short_enumeration_3_nistxml_sv_iv_list_short_enumeration_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_1():
+def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_1(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7902,10 +8452,11 @@ def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_2():
+def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_2(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7916,10 +8467,11 @@ def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_3():
+def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_3(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7930,10 +8482,11 @@ def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_4():
+def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_4(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7944,10 +8497,11 @@ def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_5():
+def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_5(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7958,10 +8512,11 @@ def test_list_short_enumeration_2_nistxml_sv_iv_list_short_enumeration_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_1():
+def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_1(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7972,10 +8527,11 @@ def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_2():
+def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_2(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -7986,10 +8542,11 @@ def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_3():
+def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_3(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8000,10 +8557,11 @@ def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_4():
+def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_4(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8014,10 +8572,11 @@ def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_5():
+def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_5(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8028,10 +8587,11 @@ def test_list_short_enumeration_1_nistxml_sv_iv_list_short_enumeration_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_1():
+def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_1(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8042,10 +8602,11 @@ def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_2():
+def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_2(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8056,10 +8617,11 @@ def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_3():
+def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_3(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8070,10 +8632,11 @@ def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_4():
+def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_4(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8084,10 +8647,11 @@ def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_5():
+def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_5(save_xml):
     """
     Type list/short is restricted by facet enumeration.
     """
@@ -8098,10 +8662,11 @@ def test_list_short_enumeration_nistxml_sv_iv_list_short_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_1():
+def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_1(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{5}.
@@ -8113,10 +8678,11 @@ def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_2():
+def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_2(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{5}.
@@ -8128,10 +8694,11 @@ def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_3():
+def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_3(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{5}.
@@ -8143,10 +8710,11 @@ def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_4():
+def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_4(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{5}.
@@ -8158,10 +8726,11 @@ def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_5():
+def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_5(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{5}.
@@ -8173,10 +8742,11 @@ def test_list_short_pattern_4_nistxml_sv_iv_list_short_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_1():
+def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_1(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -8188,10 +8758,11 @@ def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_2():
+def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_2(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -8203,10 +8774,11 @@ def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_3():
+def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_3(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -8218,10 +8790,11 @@ def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_4():
+def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_4(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -8233,10 +8806,11 @@ def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_5():
+def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_5(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -8248,10 +8822,11 @@ def test_list_short_pattern_3_nistxml_sv_iv_list_short_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_1():
+def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_1(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{5}.
@@ -8263,10 +8838,11 @@ def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_2():
+def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_2(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{5}.
@@ -8278,10 +8854,11 @@ def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_3():
+def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_3(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{5}.
@@ -8293,10 +8870,11 @@ def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_4():
+def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_4(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{5}.
@@ -8308,10 +8886,11 @@ def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_5():
+def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_5(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{5}.
@@ -8323,10 +8902,11 @@ def test_list_short_pattern_2_nistxml_sv_iv_list_short_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_1():
+def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_1(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{5}.
@@ -8338,10 +8918,11 @@ def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_2():
+def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_2(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{5}.
@@ -8353,10 +8934,11 @@ def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_3():
+def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_3(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{5}.
@@ -8368,10 +8950,11 @@ def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_4():
+def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_4(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{5}.
@@ -8383,10 +8966,11 @@ def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_5():
+def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_5(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \d{5}.
@@ -8398,10 +8982,11 @@ def test_list_short_pattern_1_nistxml_sv_iv_list_short_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_1():
+def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_1(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{5}.
@@ -8413,10 +8998,11 @@ def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_2():
+def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_2(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{5}.
@@ -8428,10 +9014,11 @@ def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_3():
+def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_3(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{5}.
@@ -8443,10 +9030,11 @@ def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_4():
+def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_4(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{5}.
@@ -8458,10 +9046,11 @@ def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_5():
+def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_5(save_xml):
     r"""
     Type list/short is restricted by facet pattern with value \-\d{5}
     \-\d{4} \-\d{3} \-\d{2} \-\d{1} \d{5}.
@@ -8473,10 +9062,11 @@ def test_list_short_pattern_nistxml_sv_iv_list_short_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_1():
+def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_1(save_xml):
     """
     Type list/short is restricted by facet length with value 10.
     """
@@ -8487,10 +9077,11 @@ def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_2():
+def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_2(save_xml):
     """
     Type list/short is restricted by facet length with value 10.
     """
@@ -8501,10 +9092,11 @@ def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_3():
+def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_3(save_xml):
     """
     Type list/short is restricted by facet length with value 10.
     """
@@ -8515,10 +9107,11 @@ def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_4():
+def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_4(save_xml):
     """
     Type list/short is restricted by facet length with value 10.
     """
@@ -8529,10 +9122,11 @@ def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_5():
+def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_5(save_xml):
     """
     Type list/short is restricted by facet length with value 10.
     """
@@ -8543,10 +9137,11 @@ def test_list_short_length_4_nistxml_sv_iv_list_short_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_1():
+def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_1(save_xml):
     """
     Type list/short is restricted by facet length with value 8.
     """
@@ -8557,10 +9152,11 @@ def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_2():
+def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_2(save_xml):
     """
     Type list/short is restricted by facet length with value 8.
     """
@@ -8571,10 +9167,11 @@ def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_3():
+def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_3(save_xml):
     """
     Type list/short is restricted by facet length with value 8.
     """
@@ -8585,10 +9182,11 @@ def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_4():
+def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_4(save_xml):
     """
     Type list/short is restricted by facet length with value 8.
     """
@@ -8599,10 +9197,11 @@ def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_5():
+def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_5(save_xml):
     """
     Type list/short is restricted by facet length with value 8.
     """
@@ -8613,10 +9212,11 @@ def test_list_short_length_3_nistxml_sv_iv_list_short_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_1():
+def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_1(save_xml):
     """
     Type list/short is restricted by facet length with value 7.
     """
@@ -8627,10 +9227,11 @@ def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_2():
+def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_2(save_xml):
     """
     Type list/short is restricted by facet length with value 7.
     """
@@ -8641,10 +9242,11 @@ def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_3():
+def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_3(save_xml):
     """
     Type list/short is restricted by facet length with value 7.
     """
@@ -8655,10 +9257,11 @@ def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_4():
+def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_4(save_xml):
     """
     Type list/short is restricted by facet length with value 7.
     """
@@ -8669,10 +9272,11 @@ def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_5():
+def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_5(save_xml):
     """
     Type list/short is restricted by facet length with value 7.
     """
@@ -8683,10 +9287,11 @@ def test_list_short_length_2_nistxml_sv_iv_list_short_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_1():
+def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_1(save_xml):
     """
     Type list/short is restricted by facet length with value 6.
     """
@@ -8697,10 +9302,11 @@ def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_2():
+def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_2(save_xml):
     """
     Type list/short is restricted by facet length with value 6.
     """
@@ -8711,10 +9317,11 @@ def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_3():
+def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_3(save_xml):
     """
     Type list/short is restricted by facet length with value 6.
     """
@@ -8725,10 +9332,11 @@ def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_4():
+def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_4(save_xml):
     """
     Type list/short is restricted by facet length with value 6.
     """
@@ -8739,10 +9347,11 @@ def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_5():
+def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_5(save_xml):
     """
     Type list/short is restricted by facet length with value 6.
     """
@@ -8753,10 +9362,11 @@ def test_list_short_length_1_nistxml_sv_iv_list_short_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_nistxml_sv_iv_list_short_length_1_1():
+def test_list_short_length_nistxml_sv_iv_list_short_length_1_1(save_xml):
     """
     Type list/short is restricted by facet length with value 5.
     """
@@ -8767,10 +9377,11 @@ def test_list_short_length_nistxml_sv_iv_list_short_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_nistxml_sv_iv_list_short_length_1_2():
+def test_list_short_length_nistxml_sv_iv_list_short_length_1_2(save_xml):
     """
     Type list/short is restricted by facet length with value 5.
     """
@@ -8781,10 +9392,11 @@ def test_list_short_length_nistxml_sv_iv_list_short_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_nistxml_sv_iv_list_short_length_1_3():
+def test_list_short_length_nistxml_sv_iv_list_short_length_1_3(save_xml):
     """
     Type list/short is restricted by facet length with value 5.
     """
@@ -8795,10 +9407,11 @@ def test_list_short_length_nistxml_sv_iv_list_short_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_nistxml_sv_iv_list_short_length_1_4():
+def test_list_short_length_nistxml_sv_iv_list_short_length_1_4(save_xml):
     """
     Type list/short is restricted by facet length with value 5.
     """
@@ -8809,10 +9422,11 @@ def test_list_short_length_nistxml_sv_iv_list_short_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_length_nistxml_sv_iv_list_short_length_1_5():
+def test_list_short_length_nistxml_sv_iv_list_short_length_1_5(save_xml):
     """
     Type list/short is restricted by facet length with value 5.
     """
@@ -8823,10 +9437,11 @@ def test_list_short_length_nistxml_sv_iv_list_short_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_1():
+def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_1(save_xml):
     """
     Type list/short is restricted by facet minLength with value 10.
     """
@@ -8837,10 +9452,11 @@ def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_2():
+def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_2(save_xml):
     """
     Type list/short is restricted by facet minLength with value 10.
     """
@@ -8851,10 +9467,11 @@ def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_3():
+def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_3(save_xml):
     """
     Type list/short is restricted by facet minLength with value 10.
     """
@@ -8865,10 +9482,11 @@ def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_4():
+def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_4(save_xml):
     """
     Type list/short is restricted by facet minLength with value 10.
     """
@@ -8879,10 +9497,11 @@ def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_5():
+def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_5(save_xml):
     """
     Type list/short is restricted by facet minLength with value 10.
     """
@@ -8893,10 +9512,11 @@ def test_list_short_min_length_4_nistxml_sv_iv_list_short_min_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_1():
+def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_1(save_xml):
     """
     Type list/short is restricted by facet minLength with value 8.
     """
@@ -8907,10 +9527,11 @@ def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_2():
+def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_2(save_xml):
     """
     Type list/short is restricted by facet minLength with value 8.
     """
@@ -8921,10 +9542,11 @@ def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_3():
+def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_3(save_xml):
     """
     Type list/short is restricted by facet minLength with value 8.
     """
@@ -8935,10 +9557,11 @@ def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_4():
+def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_4(save_xml):
     """
     Type list/short is restricted by facet minLength with value 8.
     """
@@ -8949,10 +9572,11 @@ def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_5():
+def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_5(save_xml):
     """
     Type list/short is restricted by facet minLength with value 8.
     """
@@ -8963,10 +9587,11 @@ def test_list_short_min_length_3_nistxml_sv_iv_list_short_min_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_1():
+def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_1(save_xml):
     """
     Type list/short is restricted by facet minLength with value 7.
     """
@@ -8977,10 +9602,11 @@ def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_2():
+def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_2(save_xml):
     """
     Type list/short is restricted by facet minLength with value 7.
     """
@@ -8991,10 +9617,11 @@ def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_3():
+def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_3(save_xml):
     """
     Type list/short is restricted by facet minLength with value 7.
     """
@@ -9005,10 +9632,11 @@ def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_4():
+def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_4(save_xml):
     """
     Type list/short is restricted by facet minLength with value 7.
     """
@@ -9019,10 +9647,11 @@ def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_5():
+def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_5(save_xml):
     """
     Type list/short is restricted by facet minLength with value 7.
     """
@@ -9033,10 +9662,11 @@ def test_list_short_min_length_2_nistxml_sv_iv_list_short_min_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_1():
+def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_1(save_xml):
     """
     Type list/short is restricted by facet minLength with value 6.
     """
@@ -9047,10 +9677,11 @@ def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_2():
+def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_2(save_xml):
     """
     Type list/short is restricted by facet minLength with value 6.
     """
@@ -9061,10 +9692,11 @@ def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_3():
+def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_3(save_xml):
     """
     Type list/short is restricted by facet minLength with value 6.
     """
@@ -9075,10 +9707,11 @@ def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_4():
+def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_4(save_xml):
     """
     Type list/short is restricted by facet minLength with value 6.
     """
@@ -9089,10 +9722,11 @@ def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_5():
+def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_5(save_xml):
     """
     Type list/short is restricted by facet minLength with value 6.
     """
@@ -9103,10 +9737,11 @@ def test_list_short_min_length_1_nistxml_sv_iv_list_short_min_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_1():
+def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_1(save_xml):
     """
     Type list/short is restricted by facet minLength with value 5.
     """
@@ -9117,10 +9752,11 @@ def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_2():
+def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_2(save_xml):
     """
     Type list/short is restricted by facet minLength with value 5.
     """
@@ -9131,10 +9767,11 @@ def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_3():
+def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_3(save_xml):
     """
     Type list/short is restricted by facet minLength with value 5.
     """
@@ -9145,10 +9782,11 @@ def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_4():
+def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_4(save_xml):
     """
     Type list/short is restricted by facet minLength with value 5.
     """
@@ -9159,10 +9797,11 @@ def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_5():
+def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_5(save_xml):
     """
     Type list/short is restricted by facet minLength with value 5.
     """
@@ -9173,10 +9812,11 @@ def test_list_short_min_length_nistxml_sv_iv_list_short_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_1():
+def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_1(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 10.
     """
@@ -9187,10 +9827,11 @@ def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_2():
+def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_2(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 10.
     """
@@ -9201,10 +9842,11 @@ def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_3():
+def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_3(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 10.
     """
@@ -9215,10 +9857,11 @@ def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_4():
+def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_4(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 10.
     """
@@ -9229,10 +9872,11 @@ def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_5():
+def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_5(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 10.
     """
@@ -9243,10 +9887,11 @@ def test_list_short_max_length_4_nistxml_sv_iv_list_short_max_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_1():
+def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_1(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 8.
     """
@@ -9257,10 +9902,11 @@ def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_2():
+def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_2(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 8.
     """
@@ -9271,10 +9917,11 @@ def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_3():
+def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_3(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 8.
     """
@@ -9285,10 +9932,11 @@ def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_4():
+def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_4(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 8.
     """
@@ -9299,10 +9947,11 @@ def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_5():
+def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_5(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 8.
     """
@@ -9313,10 +9962,11 @@ def test_list_short_max_length_3_nistxml_sv_iv_list_short_max_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_1():
+def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_1(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 7.
     """
@@ -9327,10 +9977,11 @@ def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_2():
+def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_2(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 7.
     """
@@ -9341,10 +9992,11 @@ def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_3():
+def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_3(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 7.
     """
@@ -9355,10 +10007,11 @@ def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_4():
+def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_4(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 7.
     """
@@ -9369,10 +10022,11 @@ def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_5():
+def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_5(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 7.
     """
@@ -9383,10 +10037,11 @@ def test_list_short_max_length_2_nistxml_sv_iv_list_short_max_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_1():
+def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_1(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 6.
     """
@@ -9397,10 +10052,11 @@ def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_2():
+def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_2(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 6.
     """
@@ -9411,10 +10067,11 @@ def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_3():
+def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_3(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 6.
     """
@@ -9425,10 +10082,11 @@ def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_4():
+def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_4(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 6.
     """
@@ -9439,10 +10097,11 @@ def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_5():
+def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_5(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 6.
     """
@@ -9453,10 +10112,11 @@ def test_list_short_max_length_1_nistxml_sv_iv_list_short_max_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_1():
+def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_1(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 5.
     """
@@ -9467,10 +10127,11 @@ def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_2():
+def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_2(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 5.
     """
@@ -9481,10 +10142,11 @@ def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_3():
+def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_3(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 5.
     """
@@ -9495,10 +10157,11 @@ def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_4():
+def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_4(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 5.
     """
@@ -9509,10 +10172,11 @@ def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_5():
+def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_5(save_xml):
     """
     Type list/short is restricted by facet maxLength with value 5.
     """
@@ -9523,10 +10187,11 @@ def test_list_short_max_length_nistxml_sv_iv_list_short_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListShortMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_1():
+def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_1(save_xml):
     """
     Type list/int is restricted by facet whiteSpace with value collapse.
     """
@@ -9537,10 +10202,11 @@ def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_2():
+def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_2(save_xml):
     """
     Type list/int is restricted by facet whiteSpace with value collapse.
     """
@@ -9551,10 +10217,11 @@ def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_3():
+def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_3(save_xml):
     """
     Type list/int is restricted by facet whiteSpace with value collapse.
     """
@@ -9565,10 +10232,11 @@ def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_4():
+def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_4(save_xml):
     """
     Type list/int is restricted by facet whiteSpace with value collapse.
     """
@@ -9579,10 +10247,11 @@ def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_5():
+def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_5(save_xml):
     """
     Type list/int is restricted by facet whiteSpace with value collapse.
     """
@@ -9593,10 +10262,11 @@ def test_list_int_white_space_nistxml_sv_iv_list_int_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_1():
+def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_1(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9607,10 +10277,11 @@ def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_2():
+def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_2(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9621,10 +10292,11 @@ def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_3():
+def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_3(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9635,10 +10307,11 @@ def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_4():
+def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_4(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9649,10 +10322,11 @@ def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_5():
+def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_5(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9663,10 +10337,11 @@ def test_list_int_enumeration_4_nistxml_sv_iv_list_int_enumeration_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_1():
+def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_1(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9677,10 +10352,11 @@ def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_2():
+def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_2(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9691,10 +10367,11 @@ def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_3():
+def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_3(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9705,10 +10382,11 @@ def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_4():
+def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_4(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9719,10 +10397,11 @@ def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_5():
+def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_5(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9733,10 +10412,11 @@ def test_list_int_enumeration_3_nistxml_sv_iv_list_int_enumeration_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_1():
+def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_1(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9747,10 +10427,11 @@ def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_2():
+def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_2(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9761,10 +10442,11 @@ def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_3():
+def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_3(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9775,10 +10457,11 @@ def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_4():
+def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_4(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9789,10 +10472,11 @@ def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_5():
+def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_5(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9803,10 +10487,11 @@ def test_list_int_enumeration_2_nistxml_sv_iv_list_int_enumeration_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_1():
+def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_1(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9817,10 +10502,11 @@ def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_2():
+def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_2(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9831,10 +10517,11 @@ def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_3():
+def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_3(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9845,10 +10532,11 @@ def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_4():
+def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_4(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9859,10 +10547,11 @@ def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_5():
+def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_5(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9873,10 +10562,11 @@ def test_list_int_enumeration_1_nistxml_sv_iv_list_int_enumeration_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_1():
+def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_1(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9887,10 +10577,11 @@ def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_2():
+def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_2(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9901,10 +10592,11 @@ def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_3():
+def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_3(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9915,10 +10607,11 @@ def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_4():
+def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_4(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9929,10 +10622,11 @@ def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_5():
+def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_5(save_xml):
     """
     Type list/int is restricted by facet enumeration.
     """
@@ -9943,10 +10637,11 @@ def test_list_int_enumeration_nistxml_sv_iv_list_int_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_1():
+def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_1(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -9958,10 +10653,11 @@ def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_2():
+def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_2(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -9973,10 +10669,11 @@ def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_3():
+def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_3(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -9988,10 +10685,11 @@ def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_4():
+def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_4(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10003,10 +10701,11 @@ def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_5():
+def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_5(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10018,10 +10717,11 @@ def test_list_int_pattern_4_nistxml_sv_iv_list_int_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_1():
+def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_1(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10033,10 +10733,11 @@ def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_2():
+def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_2(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10048,10 +10749,11 @@ def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_3():
+def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_3(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10063,10 +10765,11 @@ def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_4():
+def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_4(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10078,10 +10781,11 @@ def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_5():
+def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_5(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{7} \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{6} \d{10}.
@@ -10093,10 +10797,11 @@ def test_list_int_pattern_3_nistxml_sv_iv_list_int_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_1():
+def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_1(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{10}.
@@ -10108,10 +10813,11 @@ def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_2():
+def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_2(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{10}.
@@ -10123,10 +10829,11 @@ def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_3():
+def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_3(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{10}.
@@ -10138,10 +10845,11 @@ def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_4():
+def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_4(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{10}.
@@ -10153,10 +10861,11 @@ def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_5():
+def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_5(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{5} \-\d{3} \-\d{1} \d{2} \d{4} \d{10}.
@@ -10168,10 +10877,11 @@ def test_list_int_pattern_2_nistxml_sv_iv_list_int_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_1():
+def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_1(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{6} \-\d{4} \-\d{2} \d{1} \d{3} \d{5} \d{10}.
@@ -10183,10 +10893,11 @@ def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_2():
+def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_2(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{6} \-\d{4} \-\d{2} \d{1} \d{3} \d{5} \d{10}.
@@ -10198,10 +10909,11 @@ def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_3():
+def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_3(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{6} \-\d{4} \-\d{2} \d{1} \d{3} \d{5} \d{10}.
@@ -10213,10 +10925,11 @@ def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_4():
+def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_4(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{6} \-\d{4} \-\d{2} \d{1} \d{3} \d{5} \d{10}.
@@ -10228,10 +10941,11 @@ def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_5():
+def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_5(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{6} \-\d{4} \-\d{2} \d{1} \d{3} \d{5} \d{10}.
@@ -10243,10 +10957,11 @@ def test_list_int_pattern_1_nistxml_sv_iv_list_int_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_1():
+def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_1(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{4} \-\d{2} \d{1} \d{3} \d{10}.
@@ -10258,10 +10973,11 @@ def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_2():
+def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_2(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{4} \-\d{2} \d{1} \d{3} \d{10}.
@@ -10273,10 +10989,11 @@ def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_3():
+def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_3(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{4} \-\d{2} \d{1} \d{3} \d{10}.
@@ -10288,10 +11005,11 @@ def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_4():
+def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_4(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{4} \-\d{2} \d{1} \d{3} \d{10}.
@@ -10303,10 +11021,11 @@ def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_5():
+def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_5(save_xml):
     r"""
     Type list/int is restricted by facet pattern with value \-\d{10}
     \-\d{4} \-\d{2} \d{1} \d{3} \d{10}.
@@ -10318,10 +11037,11 @@ def test_list_int_pattern_nistxml_sv_iv_list_int_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_1():
+def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_1(save_xml):
     """
     Type list/int is restricted by facet length with value 10.
     """
@@ -10332,10 +11052,11 @@ def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_2():
+def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_2(save_xml):
     """
     Type list/int is restricted by facet length with value 10.
     """
@@ -10346,10 +11067,11 @@ def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_3():
+def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_3(save_xml):
     """
     Type list/int is restricted by facet length with value 10.
     """
@@ -10360,10 +11082,11 @@ def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_4():
+def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_4(save_xml):
     """
     Type list/int is restricted by facet length with value 10.
     """
@@ -10374,10 +11097,11 @@ def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_5():
+def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_5(save_xml):
     """
     Type list/int is restricted by facet length with value 10.
     """
@@ -10388,10 +11112,11 @@ def test_list_int_length_4_nistxml_sv_iv_list_int_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_1():
+def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_1(save_xml):
     """
     Type list/int is restricted by facet length with value 8.
     """
@@ -10402,10 +11127,11 @@ def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_2():
+def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_2(save_xml):
     """
     Type list/int is restricted by facet length with value 8.
     """
@@ -10416,10 +11142,11 @@ def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_3():
+def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_3(save_xml):
     """
     Type list/int is restricted by facet length with value 8.
     """
@@ -10430,10 +11157,11 @@ def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_4():
+def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_4(save_xml):
     """
     Type list/int is restricted by facet length with value 8.
     """
@@ -10444,10 +11172,11 @@ def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_5():
+def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_5(save_xml):
     """
     Type list/int is restricted by facet length with value 8.
     """
@@ -10458,10 +11187,11 @@ def test_list_int_length_3_nistxml_sv_iv_list_int_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_1():
+def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_1(save_xml):
     """
     Type list/int is restricted by facet length with value 7.
     """
@@ -10472,10 +11202,11 @@ def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_2():
+def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_2(save_xml):
     """
     Type list/int is restricted by facet length with value 7.
     """
@@ -10486,10 +11217,11 @@ def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_3():
+def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_3(save_xml):
     """
     Type list/int is restricted by facet length with value 7.
     """
@@ -10500,10 +11232,11 @@ def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_4():
+def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_4(save_xml):
     """
     Type list/int is restricted by facet length with value 7.
     """
@@ -10514,10 +11247,11 @@ def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_5():
+def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_5(save_xml):
     """
     Type list/int is restricted by facet length with value 7.
     """
@@ -10528,10 +11262,11 @@ def test_list_int_length_2_nistxml_sv_iv_list_int_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_1():
+def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_1(save_xml):
     """
     Type list/int is restricted by facet length with value 6.
     """
@@ -10542,10 +11277,11 @@ def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_2():
+def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_2(save_xml):
     """
     Type list/int is restricted by facet length with value 6.
     """
@@ -10556,10 +11292,11 @@ def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_3():
+def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_3(save_xml):
     """
     Type list/int is restricted by facet length with value 6.
     """
@@ -10570,10 +11307,11 @@ def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_4():
+def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_4(save_xml):
     """
     Type list/int is restricted by facet length with value 6.
     """
@@ -10584,10 +11322,11 @@ def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_5():
+def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_5(save_xml):
     """
     Type list/int is restricted by facet length with value 6.
     """
@@ -10598,10 +11337,11 @@ def test_list_int_length_1_nistxml_sv_iv_list_int_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_nistxml_sv_iv_list_int_length_1_1():
+def test_list_int_length_nistxml_sv_iv_list_int_length_1_1(save_xml):
     """
     Type list/int is restricted by facet length with value 5.
     """
@@ -10612,10 +11352,11 @@ def test_list_int_length_nistxml_sv_iv_list_int_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_nistxml_sv_iv_list_int_length_1_2():
+def test_list_int_length_nistxml_sv_iv_list_int_length_1_2(save_xml):
     """
     Type list/int is restricted by facet length with value 5.
     """
@@ -10626,10 +11367,11 @@ def test_list_int_length_nistxml_sv_iv_list_int_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_nistxml_sv_iv_list_int_length_1_3():
+def test_list_int_length_nistxml_sv_iv_list_int_length_1_3(save_xml):
     """
     Type list/int is restricted by facet length with value 5.
     """
@@ -10640,10 +11382,11 @@ def test_list_int_length_nistxml_sv_iv_list_int_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_nistxml_sv_iv_list_int_length_1_4():
+def test_list_int_length_nistxml_sv_iv_list_int_length_1_4(save_xml):
     """
     Type list/int is restricted by facet length with value 5.
     """
@@ -10654,10 +11397,11 @@ def test_list_int_length_nistxml_sv_iv_list_int_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_length_nistxml_sv_iv_list_int_length_1_5():
+def test_list_int_length_nistxml_sv_iv_list_int_length_1_5(save_xml):
     """
     Type list/int is restricted by facet length with value 5.
     """
@@ -10668,10 +11412,11 @@ def test_list_int_length_nistxml_sv_iv_list_int_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_1():
+def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_1(save_xml):
     """
     Type list/int is restricted by facet minLength with value 10.
     """
@@ -10682,10 +11427,11 @@ def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_2():
+def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_2(save_xml):
     """
     Type list/int is restricted by facet minLength with value 10.
     """
@@ -10696,10 +11442,11 @@ def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_3():
+def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_3(save_xml):
     """
     Type list/int is restricted by facet minLength with value 10.
     """
@@ -10710,10 +11457,11 @@ def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_4():
+def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_4(save_xml):
     """
     Type list/int is restricted by facet minLength with value 10.
     """
@@ -10724,10 +11472,11 @@ def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_5():
+def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_5(save_xml):
     """
     Type list/int is restricted by facet minLength with value 10.
     """
@@ -10738,10 +11487,11 @@ def test_list_int_min_length_4_nistxml_sv_iv_list_int_min_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_1():
+def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_1(save_xml):
     """
     Type list/int is restricted by facet minLength with value 8.
     """
@@ -10752,10 +11502,11 @@ def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_2():
+def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_2(save_xml):
     """
     Type list/int is restricted by facet minLength with value 8.
     """
@@ -10766,10 +11517,11 @@ def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_3():
+def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_3(save_xml):
     """
     Type list/int is restricted by facet minLength with value 8.
     """
@@ -10780,10 +11532,11 @@ def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_4():
+def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_4(save_xml):
     """
     Type list/int is restricted by facet minLength with value 8.
     """
@@ -10794,10 +11547,11 @@ def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_5():
+def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_5(save_xml):
     """
     Type list/int is restricted by facet minLength with value 8.
     """
@@ -10808,10 +11562,11 @@ def test_list_int_min_length_3_nistxml_sv_iv_list_int_min_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_1():
+def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_1(save_xml):
     """
     Type list/int is restricted by facet minLength with value 7.
     """
@@ -10822,10 +11577,11 @@ def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_2():
+def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_2(save_xml):
     """
     Type list/int is restricted by facet minLength with value 7.
     """
@@ -10836,10 +11592,11 @@ def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_3():
+def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_3(save_xml):
     """
     Type list/int is restricted by facet minLength with value 7.
     """
@@ -10850,10 +11607,11 @@ def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_4():
+def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_4(save_xml):
     """
     Type list/int is restricted by facet minLength with value 7.
     """
@@ -10864,10 +11622,11 @@ def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_5():
+def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_5(save_xml):
     """
     Type list/int is restricted by facet minLength with value 7.
     """
@@ -10878,10 +11637,11 @@ def test_list_int_min_length_2_nistxml_sv_iv_list_int_min_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_1():
+def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_1(save_xml):
     """
     Type list/int is restricted by facet minLength with value 6.
     """
@@ -10892,10 +11652,11 @@ def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_2():
+def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_2(save_xml):
     """
     Type list/int is restricted by facet minLength with value 6.
     """
@@ -10906,10 +11667,11 @@ def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_3():
+def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_3(save_xml):
     """
     Type list/int is restricted by facet minLength with value 6.
     """
@@ -10920,10 +11682,11 @@ def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_4():
+def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_4(save_xml):
     """
     Type list/int is restricted by facet minLength with value 6.
     """
@@ -10934,10 +11697,11 @@ def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_5():
+def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_5(save_xml):
     """
     Type list/int is restricted by facet minLength with value 6.
     """
@@ -10948,10 +11712,11 @@ def test_list_int_min_length_1_nistxml_sv_iv_list_int_min_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_1():
+def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_1(save_xml):
     """
     Type list/int is restricted by facet minLength with value 5.
     """
@@ -10962,10 +11727,11 @@ def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_2():
+def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_2(save_xml):
     """
     Type list/int is restricted by facet minLength with value 5.
     """
@@ -10976,10 +11742,11 @@ def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_3():
+def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_3(save_xml):
     """
     Type list/int is restricted by facet minLength with value 5.
     """
@@ -10990,10 +11757,11 @@ def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_4():
+def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_4(save_xml):
     """
     Type list/int is restricted by facet minLength with value 5.
     """
@@ -11004,10 +11772,11 @@ def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_5():
+def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_5(save_xml):
     """
     Type list/int is restricted by facet minLength with value 5.
     """
@@ -11018,10 +11787,11 @@ def test_list_int_min_length_nistxml_sv_iv_list_int_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_1():
+def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_1(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 10.
     """
@@ -11032,10 +11802,11 @@ def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_2():
+def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_2(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 10.
     """
@@ -11046,10 +11817,11 @@ def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_3():
+def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_3(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 10.
     """
@@ -11060,10 +11832,11 @@ def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_4():
+def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_4(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 10.
     """
@@ -11074,10 +11847,11 @@ def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_5():
+def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_5(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 10.
     """
@@ -11088,10 +11862,11 @@ def test_list_int_max_length_4_nistxml_sv_iv_list_int_max_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_1():
+def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_1(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 8.
     """
@@ -11102,10 +11877,11 @@ def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_2():
+def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_2(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 8.
     """
@@ -11116,10 +11892,11 @@ def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_3():
+def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_3(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 8.
     """
@@ -11130,10 +11907,11 @@ def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_4():
+def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_4(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 8.
     """
@@ -11144,10 +11922,11 @@ def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_5():
+def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_5(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 8.
     """
@@ -11158,10 +11937,11 @@ def test_list_int_max_length_3_nistxml_sv_iv_list_int_max_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_1():
+def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_1(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 7.
     """
@@ -11172,10 +11952,11 @@ def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_2():
+def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_2(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 7.
     """
@@ -11186,10 +11967,11 @@ def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_3():
+def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_3(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 7.
     """
@@ -11200,10 +11982,11 @@ def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_4():
+def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_4(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 7.
     """
@@ -11214,10 +11997,11 @@ def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_5():
+def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_5(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 7.
     """
@@ -11228,10 +12012,11 @@ def test_list_int_max_length_2_nistxml_sv_iv_list_int_max_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_1():
+def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_1(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 6.
     """
@@ -11242,10 +12027,11 @@ def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_2():
+def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_2(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 6.
     """
@@ -11256,10 +12042,11 @@ def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_3():
+def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_3(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 6.
     """
@@ -11270,10 +12057,11 @@ def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_4():
+def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_4(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 6.
     """
@@ -11284,10 +12072,11 @@ def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_5():
+def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_5(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 6.
     """
@@ -11298,10 +12087,11 @@ def test_list_int_max_length_1_nistxml_sv_iv_list_int_max_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_1():
+def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_1(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 5.
     """
@@ -11312,10 +12102,11 @@ def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_2():
+def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_2(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 5.
     """
@@ -11326,10 +12117,11 @@ def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_3():
+def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_3(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 5.
     """
@@ -11340,10 +12132,11 @@ def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_4():
+def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_4(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 5.
     """
@@ -11354,10 +12147,11 @@ def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_5():
+def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_5(save_xml):
     """
     Type list/int is restricted by facet maxLength with value 5.
     """
@@ -11368,10 +12162,11 @@ def test_list_int_max_length_nistxml_sv_iv_list_int_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListIntMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_1():
+def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_1(save_xml):
     """
     Type list/long is restricted by facet whiteSpace with value collapse.
     """
@@ -11382,10 +12177,11 @@ def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_2():
+def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_2(save_xml):
     """
     Type list/long is restricted by facet whiteSpace with value collapse.
     """
@@ -11396,10 +12192,11 @@ def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_3():
+def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_3(save_xml):
     """
     Type list/long is restricted by facet whiteSpace with value collapse.
     """
@@ -11410,10 +12207,11 @@ def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_4():
+def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_4(save_xml):
     """
     Type list/long is restricted by facet whiteSpace with value collapse.
     """
@@ -11424,10 +12222,11 @@ def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_5():
+def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_5(save_xml):
     """
     Type list/long is restricted by facet whiteSpace with value collapse.
     """
@@ -11438,10 +12237,11 @@ def test_list_long_white_space_nistxml_sv_iv_list_long_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_1():
+def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_1(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11452,10 +12252,11 @@ def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_2():
+def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_2(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11466,10 +12267,11 @@ def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_3():
+def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_3(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11480,10 +12282,11 @@ def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_4():
+def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_4(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11494,10 +12297,11 @@ def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_5():
+def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_5(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11508,10 +12312,11 @@ def test_list_long_enumeration_4_nistxml_sv_iv_list_long_enumeration_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_1():
+def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_1(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11522,10 +12327,11 @@ def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_2():
+def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_2(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11536,10 +12342,11 @@ def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_3():
+def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_3(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11550,10 +12357,11 @@ def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_4():
+def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_4(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11564,10 +12372,11 @@ def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_5():
+def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_5(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11578,10 +12387,11 @@ def test_list_long_enumeration_3_nistxml_sv_iv_list_long_enumeration_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_1():
+def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_1(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11592,10 +12402,11 @@ def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_2():
+def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_2(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11606,10 +12417,11 @@ def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_3():
+def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_3(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11620,10 +12432,11 @@ def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_4():
+def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_4(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11634,10 +12447,11 @@ def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_5():
+def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_5(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11648,10 +12462,11 @@ def test_list_long_enumeration_2_nistxml_sv_iv_list_long_enumeration_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_1():
+def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_1(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11662,10 +12477,11 @@ def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_2():
+def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_2(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11676,10 +12492,11 @@ def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_3():
+def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_3(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11690,10 +12507,11 @@ def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_4():
+def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_4(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11704,10 +12522,11 @@ def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_5():
+def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_5(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11718,10 +12537,11 @@ def test_list_long_enumeration_1_nistxml_sv_iv_list_long_enumeration_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_1():
+def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_1(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11732,10 +12552,11 @@ def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_2():
+def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_2(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11746,10 +12567,11 @@ def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_3():
+def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_3(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11760,10 +12582,11 @@ def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_4():
+def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_4(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11774,10 +12597,11 @@ def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_5():
+def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_5(save_xml):
     """
     Type list/long is restricted by facet enumeration.
     """
@@ -11788,10 +12612,11 @@ def test_list_long_enumeration_nistxml_sv_iv_list_long_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_1():
+def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_1(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}.
@@ -11803,10 +12628,11 @@ def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_2():
+def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_2(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}.
@@ -11818,10 +12644,11 @@ def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_3():
+def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_3(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}.
@@ -11833,10 +12660,11 @@ def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_4():
+def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_4(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}.
@@ -11848,10 +12676,11 @@ def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_5():
+def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_5(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}.
@@ -11863,10 +12692,11 @@ def test_list_long_pattern_4_nistxml_sv_iv_list_long_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_1():
+def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_1(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -11878,10 +12708,11 @@ def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_2():
+def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_2(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -11893,10 +12724,11 @@ def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_3():
+def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_3(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -11908,10 +12740,11 @@ def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_4():
+def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_4(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -11923,10 +12756,11 @@ def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_5():
+def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_5(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -11938,10 +12772,11 @@ def test_list_long_pattern_3_nistxml_sv_iv_list_long_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_1():
+def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_1(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{1} \d{5} \d{18}.
@@ -11953,10 +12788,11 @@ def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_2():
+def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_2(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{1} \d{5} \d{18}.
@@ -11968,10 +12804,11 @@ def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_3():
+def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_3(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{1} \d{5} \d{18}.
@@ -11983,10 +12820,11 @@ def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_4():
+def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_4(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{1} \d{5} \d{18}.
@@ -11998,10 +12836,11 @@ def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_5():
+def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_5(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{9} \-\d{1} \d{5} \d{18}.
@@ -12013,10 +12852,11 @@ def test_list_long_pattern_2_nistxml_sv_iv_list_long_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_1():
+def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_1(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -12028,10 +12868,11 @@ def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_2():
+def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_2(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -12043,10 +12884,11 @@ def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_3():
+def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_3(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -12058,10 +12900,11 @@ def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_4():
+def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_4(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -12073,10 +12916,11 @@ def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_5():
+def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_5(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}.
@@ -12088,10 +12932,11 @@ def test_list_long_pattern_1_nistxml_sv_iv_list_long_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_1():
+def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_1(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{11} \-\d{7} \-\d{3} \d{1} \d{5} \d{9} \d{18}.
@@ -12103,10 +12948,11 @@ def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_2():
+def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_2(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{11} \-\d{7} \-\d{3} \d{1} \d{5} \d{9} \d{18}.
@@ -12118,10 +12964,11 @@ def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_3():
+def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_3(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{11} \-\d{7} \-\d{3} \d{1} \d{5} \d{9} \d{18}.
@@ -12133,10 +12980,11 @@ def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_4():
+def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_4(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{11} \-\d{7} \-\d{3} \d{1} \d{5} \d{9} \d{18}.
@@ -12148,10 +12996,11 @@ def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_5():
+def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_5(save_xml):
     r"""
     Type list/long is restricted by facet pattern with value \-\d{18}
     \-\d{11} \-\d{7} \-\d{3} \d{1} \d{5} \d{9} \d{18}.
@@ -12163,10 +13012,11 @@ def test_list_long_pattern_nistxml_sv_iv_list_long_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_1():
+def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_1(save_xml):
     """
     Type list/long is restricted by facet length with value 10.
     """
@@ -12177,10 +13027,11 @@ def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_2():
+def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_2(save_xml):
     """
     Type list/long is restricted by facet length with value 10.
     """
@@ -12191,10 +13042,11 @@ def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_3():
+def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_3(save_xml):
     """
     Type list/long is restricted by facet length with value 10.
     """
@@ -12205,10 +13057,11 @@ def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_4():
+def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_4(save_xml):
     """
     Type list/long is restricted by facet length with value 10.
     """
@@ -12219,10 +13072,11 @@ def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_5():
+def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_5(save_xml):
     """
     Type list/long is restricted by facet length with value 10.
     """
@@ -12233,10 +13087,11 @@ def test_list_long_length_4_nistxml_sv_iv_list_long_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_1():
+def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_1(save_xml):
     """
     Type list/long is restricted by facet length with value 8.
     """
@@ -12247,10 +13102,11 @@ def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_2():
+def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_2(save_xml):
     """
     Type list/long is restricted by facet length with value 8.
     """
@@ -12261,10 +13117,11 @@ def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_3():
+def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_3(save_xml):
     """
     Type list/long is restricted by facet length with value 8.
     """
@@ -12275,10 +13132,11 @@ def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_4():
+def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_4(save_xml):
     """
     Type list/long is restricted by facet length with value 8.
     """
@@ -12289,10 +13147,11 @@ def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_5():
+def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_5(save_xml):
     """
     Type list/long is restricted by facet length with value 8.
     """
@@ -12303,10 +13162,11 @@ def test_list_long_length_3_nistxml_sv_iv_list_long_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_1():
+def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_1(save_xml):
     """
     Type list/long is restricted by facet length with value 7.
     """
@@ -12317,10 +13177,11 @@ def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_2():
+def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_2(save_xml):
     """
     Type list/long is restricted by facet length with value 7.
     """
@@ -12331,10 +13192,11 @@ def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_3():
+def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_3(save_xml):
     """
     Type list/long is restricted by facet length with value 7.
     """
@@ -12345,10 +13207,11 @@ def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_4():
+def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_4(save_xml):
     """
     Type list/long is restricted by facet length with value 7.
     """
@@ -12359,10 +13222,11 @@ def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_5():
+def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_5(save_xml):
     """
     Type list/long is restricted by facet length with value 7.
     """
@@ -12373,10 +13237,11 @@ def test_list_long_length_2_nistxml_sv_iv_list_long_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_1():
+def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_1(save_xml):
     """
     Type list/long is restricted by facet length with value 6.
     """
@@ -12387,10 +13252,11 @@ def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_2():
+def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_2(save_xml):
     """
     Type list/long is restricted by facet length with value 6.
     """
@@ -12401,10 +13267,11 @@ def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_3():
+def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_3(save_xml):
     """
     Type list/long is restricted by facet length with value 6.
     """
@@ -12415,10 +13282,11 @@ def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_4():
+def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_4(save_xml):
     """
     Type list/long is restricted by facet length with value 6.
     """
@@ -12429,10 +13297,11 @@ def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_5():
+def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_5(save_xml):
     """
     Type list/long is restricted by facet length with value 6.
     """
@@ -12443,10 +13312,11 @@ def test_list_long_length_1_nistxml_sv_iv_list_long_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_nistxml_sv_iv_list_long_length_1_1():
+def test_list_long_length_nistxml_sv_iv_list_long_length_1_1(save_xml):
     """
     Type list/long is restricted by facet length with value 5.
     """
@@ -12457,10 +13327,11 @@ def test_list_long_length_nistxml_sv_iv_list_long_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_nistxml_sv_iv_list_long_length_1_2():
+def test_list_long_length_nistxml_sv_iv_list_long_length_1_2(save_xml):
     """
     Type list/long is restricted by facet length with value 5.
     """
@@ -12471,10 +13342,11 @@ def test_list_long_length_nistxml_sv_iv_list_long_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_nistxml_sv_iv_list_long_length_1_3():
+def test_list_long_length_nistxml_sv_iv_list_long_length_1_3(save_xml):
     """
     Type list/long is restricted by facet length with value 5.
     """
@@ -12485,10 +13357,11 @@ def test_list_long_length_nistxml_sv_iv_list_long_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_nistxml_sv_iv_list_long_length_1_4():
+def test_list_long_length_nistxml_sv_iv_list_long_length_1_4(save_xml):
     """
     Type list/long is restricted by facet length with value 5.
     """
@@ -12499,10 +13372,11 @@ def test_list_long_length_nistxml_sv_iv_list_long_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_length_nistxml_sv_iv_list_long_length_1_5():
+def test_list_long_length_nistxml_sv_iv_list_long_length_1_5(save_xml):
     """
     Type list/long is restricted by facet length with value 5.
     """
@@ -12513,10 +13387,11 @@ def test_list_long_length_nistxml_sv_iv_list_long_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_1():
+def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_1(save_xml):
     """
     Type list/long is restricted by facet minLength with value 10.
     """
@@ -12527,10 +13402,11 @@ def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_2():
+def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_2(save_xml):
     """
     Type list/long is restricted by facet minLength with value 10.
     """
@@ -12541,10 +13417,11 @@ def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_3():
+def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_3(save_xml):
     """
     Type list/long is restricted by facet minLength with value 10.
     """
@@ -12555,10 +13432,11 @@ def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_4():
+def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_4(save_xml):
     """
     Type list/long is restricted by facet minLength with value 10.
     """
@@ -12569,10 +13447,11 @@ def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_5():
+def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_5(save_xml):
     """
     Type list/long is restricted by facet minLength with value 10.
     """
@@ -12583,10 +13462,11 @@ def test_list_long_min_length_4_nistxml_sv_iv_list_long_min_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_1():
+def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_1(save_xml):
     """
     Type list/long is restricted by facet minLength with value 8.
     """
@@ -12597,10 +13477,11 @@ def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_2():
+def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_2(save_xml):
     """
     Type list/long is restricted by facet minLength with value 8.
     """
@@ -12611,10 +13492,11 @@ def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_3():
+def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_3(save_xml):
     """
     Type list/long is restricted by facet minLength with value 8.
     """
@@ -12625,10 +13507,11 @@ def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_4():
+def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_4(save_xml):
     """
     Type list/long is restricted by facet minLength with value 8.
     """
@@ -12639,10 +13522,11 @@ def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_5():
+def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_5(save_xml):
     """
     Type list/long is restricted by facet minLength with value 8.
     """
@@ -12653,10 +13537,11 @@ def test_list_long_min_length_3_nistxml_sv_iv_list_long_min_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_1():
+def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_1(save_xml):
     """
     Type list/long is restricted by facet minLength with value 7.
     """
@@ -12667,10 +13552,11 @@ def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_2():
+def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_2(save_xml):
     """
     Type list/long is restricted by facet minLength with value 7.
     """
@@ -12681,10 +13567,11 @@ def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_3():
+def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_3(save_xml):
     """
     Type list/long is restricted by facet minLength with value 7.
     """
@@ -12695,10 +13582,11 @@ def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_4():
+def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_4(save_xml):
     """
     Type list/long is restricted by facet minLength with value 7.
     """
@@ -12709,10 +13597,11 @@ def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_5():
+def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_5(save_xml):
     """
     Type list/long is restricted by facet minLength with value 7.
     """
@@ -12723,10 +13612,11 @@ def test_list_long_min_length_2_nistxml_sv_iv_list_long_min_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_1():
+def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_1(save_xml):
     """
     Type list/long is restricted by facet minLength with value 6.
     """
@@ -12737,10 +13627,11 @@ def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_2():
+def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_2(save_xml):
     """
     Type list/long is restricted by facet minLength with value 6.
     """
@@ -12751,10 +13642,11 @@ def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_3():
+def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_3(save_xml):
     """
     Type list/long is restricted by facet minLength with value 6.
     """
@@ -12765,10 +13657,11 @@ def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_4():
+def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_4(save_xml):
     """
     Type list/long is restricted by facet minLength with value 6.
     """
@@ -12779,10 +13672,11 @@ def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_5():
+def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_5(save_xml):
     """
     Type list/long is restricted by facet minLength with value 6.
     """
@@ -12793,10 +13687,11 @@ def test_list_long_min_length_1_nistxml_sv_iv_list_long_min_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_1():
+def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_1(save_xml):
     """
     Type list/long is restricted by facet minLength with value 5.
     """
@@ -12807,10 +13702,11 @@ def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_2():
+def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_2(save_xml):
     """
     Type list/long is restricted by facet minLength with value 5.
     """
@@ -12821,10 +13717,11 @@ def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_3():
+def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_3(save_xml):
     """
     Type list/long is restricted by facet minLength with value 5.
     """
@@ -12835,10 +13732,11 @@ def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_4():
+def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_4(save_xml):
     """
     Type list/long is restricted by facet minLength with value 5.
     """
@@ -12849,10 +13747,11 @@ def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_5():
+def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_5(save_xml):
     """
     Type list/long is restricted by facet minLength with value 5.
     """
@@ -12863,10 +13762,11 @@ def test_list_long_min_length_nistxml_sv_iv_list_long_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_1():
+def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_1(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 10.
     """
@@ -12877,10 +13777,11 @@ def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_2():
+def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_2(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 10.
     """
@@ -12891,10 +13792,11 @@ def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_3():
+def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_3(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 10.
     """
@@ -12905,10 +13807,11 @@ def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_4():
+def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_4(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 10.
     """
@@ -12919,10 +13822,11 @@ def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_5():
+def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_5(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 10.
     """
@@ -12933,10 +13837,11 @@ def test_list_long_max_length_4_nistxml_sv_iv_list_long_max_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_1():
+def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_1(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 8.
     """
@@ -12947,10 +13852,11 @@ def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_2():
+def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_2(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 8.
     """
@@ -12961,10 +13867,11 @@ def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_3():
+def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_3(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 8.
     """
@@ -12975,10 +13882,11 @@ def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_4():
+def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_4(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 8.
     """
@@ -12989,10 +13897,11 @@ def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_5():
+def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_5(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 8.
     """
@@ -13003,10 +13912,11 @@ def test_list_long_max_length_3_nistxml_sv_iv_list_long_max_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_1():
+def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_1(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 7.
     """
@@ -13017,10 +13927,11 @@ def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_2():
+def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_2(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 7.
     """
@@ -13031,10 +13942,11 @@ def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_3():
+def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_3(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 7.
     """
@@ -13045,10 +13957,11 @@ def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_4():
+def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_4(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 7.
     """
@@ -13059,10 +13972,11 @@ def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_5():
+def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_5(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 7.
     """
@@ -13073,10 +13987,11 @@ def test_list_long_max_length_2_nistxml_sv_iv_list_long_max_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_1():
+def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_1(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 6.
     """
@@ -13087,10 +14002,11 @@ def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_2():
+def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_2(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 6.
     """
@@ -13101,10 +14017,11 @@ def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_3():
+def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_3(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 6.
     """
@@ -13115,10 +14032,11 @@ def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_4():
+def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_4(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 6.
     """
@@ -13129,10 +14047,11 @@ def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_5():
+def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_5(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 6.
     """
@@ -13143,10 +14062,11 @@ def test_list_long_max_length_1_nistxml_sv_iv_list_long_max_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_1():
+def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_1(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 5.
     """
@@ -13157,10 +14077,11 @@ def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_2():
+def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_2(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 5.
     """
@@ -13171,10 +14092,11 @@ def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_3():
+def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_3(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 5.
     """
@@ -13185,10 +14107,11 @@ def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_4():
+def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_4(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 5.
     """
@@ -13199,10 +14122,11 @@ def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_5():
+def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_5(save_xml):
     """
     Type list/long is restricted by facet maxLength with value 5.
     """
@@ -13213,10 +14137,11 @@ def test_list_long_max_length_nistxml_sv_iv_list_long_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvListLongMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_1():
+def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet whiteSpace with value
     collapse.
@@ -13228,10 +14153,11 @@ def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_w
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_2():
+def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet whiteSpace with value
     collapse.
@@ -13243,10 +14169,11 @@ def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_w
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_3():
+def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet whiteSpace with value
     collapse.
@@ -13258,10 +14185,11 @@ def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_w
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_4():
+def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet whiteSpace with value
     collapse.
@@ -13273,10 +14201,11 @@ def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_w
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_5():
+def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_white_space_1_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet whiteSpace with value
     collapse.
@@ -13288,10 +14217,11 @@ def test_list_negative_integer_white_space_nistxml_sv_iv_list_negative_integer_w
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_1():
+def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13302,10 +14232,11 @@ def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_2():
+def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13316,10 +14247,11 @@ def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_3():
+def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13330,10 +14262,11 @@ def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_4():
+def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13344,10 +14277,11 @@ def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_5():
+def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer_enumeration_5_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13358,10 +14292,11 @@ def test_list_negative_integer_enumeration_4_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_1():
+def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13372,10 +14307,11 @@ def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_2():
+def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13386,10 +14322,11 @@ def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_3():
+def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13400,10 +14337,11 @@ def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_4():
+def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13414,10 +14352,11 @@ def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_5():
+def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer_enumeration_4_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13428,10 +14367,11 @@ def test_list_negative_integer_enumeration_3_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_1():
+def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13442,10 +14382,11 @@ def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_2():
+def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13456,10 +14397,11 @@ def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_3():
+def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13470,10 +14412,11 @@ def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_4():
+def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13484,10 +14427,11 @@ def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_5():
+def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer_enumeration_3_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13498,10 +14442,11 @@ def test_list_negative_integer_enumeration_2_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_1():
+def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13512,10 +14457,11 @@ def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_2():
+def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13526,10 +14472,11 @@ def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_3():
+def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13540,10 +14487,11 @@ def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_4():
+def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13554,10 +14502,11 @@ def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_5():
+def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer_enumeration_2_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13568,10 +14517,11 @@ def test_list_negative_integer_enumeration_1_nistxml_sv_iv_list_negative_integer
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_1():
+def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13582,10 +14532,11 @@ def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_e
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_2():
+def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13596,10 +14547,11 @@ def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_e
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_3():
+def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13610,10 +14562,11 @@ def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_e
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_4():
+def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13624,10 +14577,11 @@ def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_e
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_5():
+def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_enumeration_1_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet enumeration.
     """
@@ -13638,10 +14592,11 @@ def test_list_negative_integer_enumeration_nistxml_sv_iv_list_negative_integer_e
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_1():
+def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_1(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13653,10 +14608,11 @@ def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_2():
+def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_2(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13668,10 +14624,11 @@ def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_3():
+def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_3(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13683,10 +14640,11 @@ def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_4():
+def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_4(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13698,10 +14656,11 @@ def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_5():
+def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pattern_5_5(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13713,10 +14672,11 @@ def test_list_negative_integer_pattern_4_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_1():
+def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_1(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{4} \-\d{7} \-\d{10} \-\d{13} \-\d{18}.
@@ -13728,10 +14688,11 @@ def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_2():
+def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_2(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{4} \-\d{7} \-\d{10} \-\d{13} \-\d{18}.
@@ -13743,10 +14704,11 @@ def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_3():
+def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_3(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{4} \-\d{7} \-\d{10} \-\d{13} \-\d{18}.
@@ -13758,10 +14720,11 @@ def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_4():
+def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_4(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{4} \-\d{7} \-\d{10} \-\d{13} \-\d{18}.
@@ -13773,10 +14736,11 @@ def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_5():
+def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pattern_4_5(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{4} \-\d{7} \-\d{10} \-\d{13} \-\d{18}.
@@ -13788,10 +14752,11 @@ def test_list_negative_integer_pattern_3_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_1():
+def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_1(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13803,10 +14768,11 @@ def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_2():
+def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_2(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13818,10 +14784,11 @@ def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_3():
+def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_3(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13833,10 +14800,11 @@ def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_4():
+def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_4(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13848,10 +14816,11 @@ def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_5():
+def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pattern_3_5(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{13} \-\d{18}.
@@ -13863,10 +14832,11 @@ def test_list_negative_integer_pattern_2_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_1():
+def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_1(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{2} \-\d{3} \-\d{4} \-\d{5} \-\d{6} \-\d{7} \-\d{8}
@@ -13879,10 +14849,11 @@ def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_2():
+def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_2(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{2} \-\d{3} \-\d{4} \-\d{5} \-\d{6} \-\d{7} \-\d{8}
@@ -13895,10 +14866,11 @@ def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_3():
+def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_3(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{2} \-\d{3} \-\d{4} \-\d{5} \-\d{6} \-\d{7} \-\d{8}
@@ -13911,10 +14883,11 @@ def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_4():
+def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_4(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{2} \-\d{3} \-\d{4} \-\d{5} \-\d{6} \-\d{7} \-\d{8}
@@ -13927,10 +14900,11 @@ def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_5():
+def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pattern_2_5(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{2} \-\d{3} \-\d{4} \-\d{5} \-\d{6} \-\d{7} \-\d{8}
@@ -13943,10 +14917,11 @@ def test_list_negative_integer_pattern_1_nistxml_sv_iv_list_negative_integer_pat
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_1():
+def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_1(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{18}.
@@ -13958,10 +14933,11 @@ def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_2():
+def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_2(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{18}.
@@ -13973,10 +14949,11 @@ def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_3():
+def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_3(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{18}.
@@ -13988,10 +14965,11 @@ def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_4():
+def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_4(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{18}.
@@ -14003,10 +14981,11 @@ def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_5():
+def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_pattern_1_5(save_xml):
     r"""
     Type list/negativeInteger is restricted by facet pattern with value
     \-\d{1} \-\d{3} \-\d{5} \-\d{7} \-\d{9} \-\d{11} \-\d{18}.
@@ -14018,10 +14997,11 @@ def test_list_negative_integer_pattern_nistxml_sv_iv_list_negative_integer_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_1():
+def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 10.
     """
@@ -14032,10 +15012,11 @@ def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_2():
+def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 10.
     """
@@ -14046,10 +15027,11 @@ def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_3():
+def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 10.
     """
@@ -14060,10 +15042,11 @@ def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_4():
+def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 10.
     """
@@ -14074,10 +15057,11 @@ def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_5():
+def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_length_5_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 10.
     """
@@ -14088,10 +15072,11 @@ def test_list_negative_integer_length_4_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_1():
+def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 8.
     """
@@ -14102,10 +15087,11 @@ def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_2():
+def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 8.
     """
@@ -14116,10 +15102,11 @@ def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_3():
+def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 8.
     """
@@ -14130,10 +15117,11 @@ def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_4():
+def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 8.
     """
@@ -14144,10 +15132,11 @@ def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_5():
+def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_length_4_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 8.
     """
@@ -14158,10 +15147,11 @@ def test_list_negative_integer_length_3_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_1():
+def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 7.
     """
@@ -14172,10 +15162,11 @@ def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_2():
+def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 7.
     """
@@ -14186,10 +15177,11 @@ def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_3():
+def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 7.
     """
@@ -14200,10 +15192,11 @@ def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_4():
+def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 7.
     """
@@ -14214,10 +15207,11 @@ def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_5():
+def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_length_3_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 7.
     """
@@ -14228,10 +15222,11 @@ def test_list_negative_integer_length_2_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_1():
+def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_1(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 6.
     """
@@ -14242,10 +15237,11 @@ def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_2():
+def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_2(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 6.
     """
@@ -14256,10 +15252,11 @@ def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_3():
+def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_3(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 6.
     """
@@ -14270,10 +15267,11 @@ def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_4():
+def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_4(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 6.
     """
@@ -14284,10 +15282,11 @@ def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_5():
+def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_length_2_5(save_xml):
     """
     Type list/negativeInteger is restricted by facet length with value 6.
     """
@@ -14298,4 +15297,5 @@ def test_list_negative_integer_length_1_nistxml_sv_iv_list_negative_integer_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvListNegativeIntegerLength2",
         version="1.0",
+        save_xml=save_xml,
     )

@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <myEle1>string data</myEle1>
+  <myEle2>132456</myEle2>
+</root>

@@ -1,9 +1,7 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
-def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_3():
+def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14,10 +12,11 @@ def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_4():
+def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -28,10 +27,11 @@ def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_5():
+def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -42,10 +42,11 @@ def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_1():
+def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -56,10 +57,11 @@ def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_2():
+def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -70,10 +72,11 @@ def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_3():
+def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -84,10 +87,11 @@ def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_4():
+def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -98,10 +102,11 @@ def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_5():
+def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_enumeration_2_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -112,10 +117,11 @@ def test_atomic_base64_binary_enumeration_1_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_1():
+def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -126,10 +132,11 @@ def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enu
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_2():
+def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -140,10 +147,11 @@ def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enu
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_3():
+def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -154,10 +162,11 @@ def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enu
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_4():
+def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -168,10 +177,11 @@ def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enu
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_5():
+def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enumeration_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -182,10 +192,11 @@ def test_atomic_base64_binary_enumeration_nistxml_sv_iv_atomic_base64_binary_enu
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_1():
+def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{60}.
@@ -197,10 +208,11 @@ def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_2():
+def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{60}.
@@ -212,10 +224,11 @@ def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_3():
+def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{60}.
@@ -227,10 +240,11 @@ def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_4():
+def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{60}.
@@ -242,10 +256,11 @@ def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_5():
+def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_pattern_5_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{60}.
@@ -257,10 +272,11 @@ def test_atomic_base64_binary_pattern_4_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_1():
+def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{24}.
@@ -272,10 +288,11 @@ def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_2():
+def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{24}.
@@ -287,10 +304,11 @@ def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_3():
+def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{24}.
@@ -302,10 +320,11 @@ def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_4():
+def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{24}.
@@ -317,10 +336,11 @@ def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_5():
+def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_pattern_4_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{24}.
@@ -332,10 +352,11 @@ def test_atomic_base64_binary_pattern_3_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_1():
+def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{64}.
@@ -347,10 +368,11 @@ def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_2():
+def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{64}.
@@ -362,10 +384,11 @@ def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_3():
+def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{64}.
@@ -377,10 +400,11 @@ def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_4():
+def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{64}.
@@ -392,10 +416,11 @@ def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_5():
+def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_pattern_3_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{64}.
@@ -407,10 +432,11 @@ def test_atomic_base64_binary_pattern_2_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_1():
+def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{68}.
@@ -422,10 +448,11 @@ def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_2():
+def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{68}.
@@ -437,10 +464,11 @@ def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_3():
+def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{68}.
@@ -452,10 +480,11 @@ def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_4():
+def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{68}.
@@ -467,10 +496,11 @@ def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_5():
+def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_pattern_2_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{68}.
@@ -482,10 +512,11 @@ def test_atomic_base64_binary_pattern_1_nistxml_sv_iv_atomic_base64_binary_patte
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_1():
+def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{20}.
@@ -497,10 +528,11 @@ def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_2():
+def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{20}.
@@ -512,10 +544,11 @@ def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_3():
+def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{20}.
@@ -527,10 +560,11 @@ def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_4():
+def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{20}.
@@ -542,10 +576,11 @@ def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_5():
+def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet pattern with value
     [a-zA-Z0-9+/]{20}.
@@ -557,10 +592,11 @@ def test_atomic_base64_binary_pattern_nistxml_sv_iv_atomic_base64_binary_pattern
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_1():
+def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 74.
     """
@@ -571,10 +607,11 @@ def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_2():
+def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 74.
     """
@@ -585,10 +622,11 @@ def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_3():
+def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 74.
     """
@@ -599,10 +637,11 @@ def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_4():
+def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 74.
     """
@@ -613,10 +652,11 @@ def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_5():
+def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length_5_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 74.
     """
@@ -627,10 +667,11 @@ def test_atomic_base64_binary_length_4_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_1():
+def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 47.
     """
@@ -641,10 +682,11 @@ def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_2():
+def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 47.
     """
@@ -655,10 +697,11 @@ def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_3():
+def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 47.
     """
@@ -669,10 +712,11 @@ def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_4():
+def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 47.
     """
@@ -683,10 +727,11 @@ def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_5():
+def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length_4_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 47.
     """
@@ -697,10 +742,11 @@ def test_atomic_base64_binary_length_3_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_1():
+def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 31.
     """
@@ -711,10 +757,11 @@ def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_2():
+def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 31.
     """
@@ -725,10 +772,11 @@ def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_3():
+def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 31.
     """
@@ -739,10 +787,11 @@ def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_4():
+def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 31.
     """
@@ -753,10 +802,11 @@ def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_5():
+def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length_3_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 31.
     """
@@ -767,10 +817,11 @@ def test_atomic_base64_binary_length_2_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_1():
+def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -781,10 +832,11 @@ def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_2():
+def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -795,10 +847,11 @@ def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_3():
+def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -809,10 +862,11 @@ def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_4():
+def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -823,10 +877,11 @@ def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_5():
+def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length_2_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -837,10 +892,11 @@ def test_atomic_base64_binary_length_1_nistxml_sv_iv_atomic_base64_binary_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_1():
+def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -851,10 +907,11 @@ def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_2():
+def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -865,10 +922,11 @@ def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_3():
+def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -879,10 +937,11 @@ def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_4():
+def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -893,10 +952,11 @@ def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_5():
+def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet length with value 1.
     """
@@ -907,10 +967,11 @@ def test_atomic_base64_binary_length_nistxml_sv_iv_atomic_base64_binary_length_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_1():
+def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     74.
@@ -922,10 +983,11 @@ def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_2():
+def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     74.
@@ -937,10 +999,11 @@ def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_3():
+def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     74.
@@ -952,10 +1015,11 @@ def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_4():
+def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     74.
@@ -967,10 +1031,11 @@ def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_5():
+def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_min_length_5_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     74.
@@ -982,10 +1047,11 @@ def test_atomic_base64_binary_min_length_4_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_1():
+def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     11.
@@ -997,10 +1063,11 @@ def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_2():
+def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     11.
@@ -1012,10 +1079,11 @@ def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_3():
+def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     11.
@@ -1027,10 +1095,11 @@ def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_4():
+def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     11.
@@ -1042,10 +1111,11 @@ def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_5():
+def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_min_length_4_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     11.
@@ -1057,10 +1127,11 @@ def test_atomic_base64_binary_min_length_3_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_1():
+def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     14.
@@ -1072,10 +1143,11 @@ def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_2():
+def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     14.
@@ -1087,10 +1159,11 @@ def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_3():
+def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     14.
@@ -1102,10 +1175,11 @@ def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_4():
+def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     14.
@@ -1117,10 +1191,11 @@ def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_5():
+def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_min_length_3_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     14.
@@ -1132,10 +1207,11 @@ def test_atomic_base64_binary_min_length_2_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_1():
+def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     27.
@@ -1147,10 +1223,11 @@ def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_2():
+def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     27.
@@ -1162,10 +1239,11 @@ def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_3():
+def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     27.
@@ -1177,10 +1255,11 @@ def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_4():
+def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     27.
@@ -1192,10 +1271,11 @@ def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_5():
+def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_min_length_2_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     27.
@@ -1207,10 +1287,11 @@ def test_atomic_base64_binary_min_length_1_nistxml_sv_iv_atomic_base64_binary_mi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_1():
+def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     1.
@@ -1222,10 +1303,11 @@ def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_2():
+def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     1.
@@ -1237,10 +1319,11 @@ def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_3():
+def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     1.
@@ -1252,10 +1335,11 @@ def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_4():
+def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     1.
@@ -1267,10 +1351,11 @@ def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_5():
+def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_length_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet minLength with value
     1.
@@ -1282,10 +1367,11 @@ def test_atomic_base64_binary_min_length_nistxml_sv_iv_atomic_base64_binary_min_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_1():
+def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     74.
@@ -1297,10 +1383,11 @@ def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_2():
+def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     74.
@@ -1312,10 +1399,11 @@ def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_3():
+def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     74.
@@ -1327,10 +1415,11 @@ def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_4():
+def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     74.
@@ -1342,10 +1431,11 @@ def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_5():
+def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_max_length_5_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     74.
@@ -1357,10 +1447,11 @@ def test_atomic_base64_binary_max_length_4_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_1():
+def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     61.
@@ -1372,10 +1463,11 @@ def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_2():
+def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     61.
@@ -1387,10 +1479,11 @@ def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_3():
+def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     61.
@@ -1402,10 +1495,11 @@ def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_4():
+def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     61.
@@ -1417,10 +1511,11 @@ def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_5():
+def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_max_length_4_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     61.
@@ -1432,10 +1527,11 @@ def test_atomic_base64_binary_max_length_3_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_1():
+def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     54.
@@ -1447,10 +1543,11 @@ def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_2():
+def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     54.
@@ -1462,10 +1559,11 @@ def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_3():
+def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     54.
@@ -1477,10 +1575,11 @@ def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_4():
+def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     54.
@@ -1492,10 +1591,11 @@ def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_5():
+def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_max_length_3_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     54.
@@ -1507,10 +1607,11 @@ def test_atomic_base64_binary_max_length_2_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_1():
+def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     45.
@@ -1522,10 +1623,11 @@ def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_2():
+def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     45.
@@ -1537,10 +1639,11 @@ def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_3():
+def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     45.
@@ -1552,10 +1655,11 @@ def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_4():
+def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     45.
@@ -1567,10 +1671,11 @@ def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_5():
+def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_max_length_2_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     45.
@@ -1582,10 +1687,11 @@ def test_atomic_base64_binary_max_length_1_nistxml_sv_iv_atomic_base64_binary_ma
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_1():
+def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     1.
@@ -1597,10 +1703,11 @@ def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_2():
+def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     1.
@@ -1612,10 +1719,11 @@ def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_3():
+def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     1.
@@ -1627,10 +1735,11 @@ def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_4():
+def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     1.
@@ -1642,10 +1751,11 @@ def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_5():
+def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_length_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet maxLength with value
     1.
@@ -1657,10 +1767,11 @@ def test_atomic_base64_binary_max_length_nistxml_sv_iv_atomic_base64_binary_max_
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_1():
+def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_1(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1672,10 +1783,11 @@ def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_2():
+def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_2(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1687,10 +1799,11 @@ def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_3():
+def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_3(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1702,10 +1815,11 @@ def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_4():
+def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_4(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1717,10 +1831,11 @@ def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_5():
+def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5_5(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1732,10 +1847,11 @@ def test_atomic_boolean_white_space_4_nistxml_sv_iv_atomic_boolean_white_space_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_1():
+def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_1(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1747,10 +1863,11 @@ def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_2():
+def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_2(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1762,10 +1879,11 @@ def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_3():
+def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_3(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1777,10 +1895,11 @@ def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_4():
+def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_4(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1792,10 +1911,11 @@ def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_5():
+def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4_5(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1807,10 +1927,11 @@ def test_atomic_boolean_white_space_3_nistxml_sv_iv_atomic_boolean_white_space_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_1():
+def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_1(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1822,10 +1943,11 @@ def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_2():
+def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_2(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1837,10 +1959,11 @@ def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_3():
+def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_3(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1852,10 +1975,11 @@ def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_4():
+def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_4(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1867,10 +1991,11 @@ def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_5():
+def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3_5(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1882,10 +2007,11 @@ def test_atomic_boolean_white_space_2_nistxml_sv_iv_atomic_boolean_white_space_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_1():
+def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_1(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1897,10 +2023,11 @@ def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_2():
+def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_2(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1912,10 +2039,11 @@ def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_3():
+def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_3(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1927,10 +2055,11 @@ def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_4():
+def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_4(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1942,10 +2071,11 @@ def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_5():
+def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2_5(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1957,10 +2087,11 @@ def test_atomic_boolean_white_space_1_nistxml_sv_iv_atomic_boolean_white_space_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_1():
+def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_1(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1972,10 +2103,11 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_2():
+def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_2(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -1987,10 +2119,11 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_3():
+def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_3(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -2002,10 +2135,11 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_4():
+def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_4(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -2017,10 +2151,11 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_5():
+def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_5(save_xml):
     """
     Type atomic/boolean is restricted by facet whiteSpace with value
     collapse.
@@ -2032,11 +2167,11 @@ def test_atomic_boolean_white_space_nistxml_sv_iv_atomic_boolean_white_space_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_1():
+def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2047,11 +2182,11 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_2():
+def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2062,11 +2197,11 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_3():
+def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2077,11 +2212,11 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_4():
+def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2092,11 +2227,11 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_5():
+def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2107,10 +2242,11 @@ def test_atomic_boolean_pattern_4_nistxml_sv_iv_atomic_boolean_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_1():
+def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2121,10 +2257,11 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_2():
+def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2135,10 +2272,11 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_3():
+def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2149,10 +2287,11 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_4():
+def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2163,10 +2302,11 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_5():
+def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2177,11 +2317,11 @@ def test_atomic_boolean_pattern_3_nistxml_sv_iv_atomic_boolean_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_1():
+def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2192,11 +2332,11 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_2():
+def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2207,11 +2347,11 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_3():
+def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2222,11 +2362,11 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_4():
+def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2237,11 +2377,11 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_5():
+def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2252,10 +2392,11 @@ def test_atomic_boolean_pattern_2_nistxml_sv_iv_atomic_boolean_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_1():
+def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2266,10 +2407,11 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_2():
+def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2280,10 +2422,11 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_3():
+def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2294,10 +2437,11 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_4():
+def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2308,10 +2452,11 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_5():
+def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value false.
     """
@@ -2322,11 +2467,11 @@ def test_atomic_boolean_pattern_1_nistxml_sv_iv_atomic_boolean_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_1():
+def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_1(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2337,11 +2482,11 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_2():
+def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_2(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2352,11 +2497,11 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_3():
+def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_3(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2367,11 +2512,11 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_4():
+def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_4(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2382,11 +2527,11 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-@pytest.mark.xfail
-def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_5():
+def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_5(save_xml):
     """
     Type atomic/boolean is restricted by facet pattern with value [1]{1}.
     """
@@ -2397,10 +2542,11 @@ def test_atomic_boolean_pattern_nistxml_sv_iv_atomic_boolean_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBooleanPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_1():
+def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet whiteSpace with value
     collapse.
@@ -2412,10 +2558,11 @@ def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_2():
+def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet whiteSpace with value
     collapse.
@@ -2427,10 +2574,11 @@ def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_3():
+def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet whiteSpace with value
     collapse.
@@ -2442,10 +2590,11 @@ def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_4():
+def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet whiteSpace with value
     collapse.
@@ -2457,10 +2606,11 @@ def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_5():
+def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet whiteSpace with value
     collapse.
@@ -2472,10 +2622,11 @@ def test_atomic_qname_white_space_nistxml_sv_iv_atomic_qname_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_1():
+def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2486,10 +2637,11 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_2():
+def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2500,10 +2652,11 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_3():
+def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2514,10 +2667,11 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_4():
+def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2528,10 +2682,11 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_5():
+def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2542,10 +2697,11 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_1():
+def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2556,10 +2712,11 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_2():
+def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2570,10 +2727,11 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_3():
+def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2584,10 +2742,11 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_4():
+def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2598,10 +2757,11 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_5():
+def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2612,10 +2772,11 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_1():
+def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2626,10 +2787,11 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_2():
+def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2640,10 +2802,11 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_3():
+def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2654,10 +2817,11 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_4():
+def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2668,10 +2832,11 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_5():
+def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2682,10 +2847,11 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_1():
+def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2696,10 +2862,11 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_2():
+def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2710,10 +2877,11 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_3():
+def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2724,10 +2892,11 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_4():
+def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2738,10 +2907,11 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_5():
+def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2752,10 +2922,11 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_1():
+def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2766,10 +2937,11 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_2():
+def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2780,10 +2952,11 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_3():
+def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2794,10 +2967,11 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_4():
+def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2808,10 +2982,11 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_5():
+def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
     """
@@ -2822,10 +2997,11 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_1():
+def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_1(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{58}.
@@ -2837,10 +3013,11 @@ def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_2():
+def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_2(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{58}.
@@ -2852,10 +3029,11 @@ def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_3():
+def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_3(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{58}.
@@ -2867,10 +3045,11 @@ def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_4():
+def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_4(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{58}.
@@ -2882,10 +3061,11 @@ def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_5():
+def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_5(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{58}.
@@ -2897,10 +3077,11 @@ def test_atomic_qname_pattern_4_nistxml_sv_iv_atomic_qname_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_1():
+def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_1(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{27}.
@@ -2912,10 +3093,11 @@ def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_2():
+def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_2(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{27}.
@@ -2927,10 +3109,11 @@ def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_3():
+def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_3(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{27}.
@@ -2942,10 +3125,11 @@ def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_4():
+def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_4(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{27}.
@@ -2957,10 +3141,11 @@ def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_5():
+def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_5(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{27}.
@@ -2972,10 +3157,11 @@ def test_atomic_qname_pattern_3_nistxml_sv_iv_atomic_qname_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_1():
+def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_1(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}.
@@ -2987,10 +3173,11 @@ def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_2():
+def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_2(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}.
@@ -3002,10 +3189,11 @@ def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_3():
+def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_3(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}.
@@ -3017,10 +3205,11 @@ def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_4():
+def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_4(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}.
@@ -3032,10 +3221,11 @@ def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_5():
+def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_5(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{33}.
@@ -3047,10 +3237,11 @@ def test_atomic_qname_pattern_2_nistxml_sv_iv_atomic_qname_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_1():
+def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_1(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}.
@@ -3062,10 +3253,11 @@ def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_2():
+def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_2(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}.
@@ -3077,10 +3269,11 @@ def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_3():
+def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_3(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}.
@@ -3092,10 +3285,11 @@ def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_4():
+def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_4(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}.
@@ -3107,10 +3301,11 @@ def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_5():
+def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_5(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{20}.
@@ -3122,10 +3317,11 @@ def test_atomic_qname_pattern_1_nistxml_sv_iv_atomic_qname_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_1():
+def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_1(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}.
@@ -3137,10 +3333,11 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_2():
+def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_2(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}.
@@ -3152,10 +3349,11 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_3():
+def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_3(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}.
@@ -3167,10 +3365,11 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_4():
+def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_4(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}.
@@ -3182,10 +3381,11 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_5():
+def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_5(save_xml):
     r"""
     Type atomic/QName is restricted by facet pattern with value
     ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{40}.
@@ -3197,10 +3397,11 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_1():
+def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3213,10 +3414,11 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_2():
+def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3229,10 +3431,11 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_3():
+def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3245,10 +3448,11 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_4():
+def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3261,10 +3465,11 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_5():
+def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3277,10 +3482,11 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_1():
+def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3293,10 +3499,11 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_2():
+def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3309,10 +3516,11 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_3():
+def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3325,10 +3533,11 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_4():
+def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3341,10 +3550,11 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_5():
+def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3357,10 +3567,11 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_1():
+def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3373,10 +3584,11 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_2():
+def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3389,10 +3601,11 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_3():
+def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3405,10 +3618,11 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_4():
+def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3421,10 +3635,11 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_5():
+def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3437,10 +3652,11 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_1():
+def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3453,10 +3669,11 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_2():
+def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3469,10 +3686,11 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_3():
+def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3485,10 +3703,11 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_4():
+def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3501,10 +3720,11 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_5():
+def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3517,10 +3737,11 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_1():
+def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3533,10 +3754,11 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_2():
+def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3549,10 +3771,11 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_3():
+def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3565,10 +3788,11 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_4():
+def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3581,10 +3805,11 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_5():
+def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3597,10 +3822,11 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_1():
+def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3613,10 +3839,11 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_2():
+def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3629,10 +3856,11 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_3():
+def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3645,10 +3873,11 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_4():
+def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3661,10 +3890,11 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_5():
+def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3677,10 +3907,11 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_1():
+def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3693,10 +3924,11 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_2():
+def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3709,10 +3941,11 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_3():
+def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3725,10 +3958,11 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_4():
+def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3741,10 +3975,11 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_5():
+def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3757,10 +3992,11 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_1():
+def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3773,10 +4009,11 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_2():
+def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3789,10 +4026,11 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_3():
+def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3805,10 +4043,11 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_4():
+def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3821,10 +4060,11 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_5():
+def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3837,10 +4077,11 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_1():
+def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3853,10 +4094,11 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_2():
+def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3869,10 +4111,11 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_3():
+def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3885,10 +4128,11 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_4():
+def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3901,10 +4145,11 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_5():
+def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3917,10 +4162,11 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_1():
+def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3933,10 +4179,11 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_2():
+def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3949,10 +4196,11 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_3():
+def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3965,10 +4213,11 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_4():
+def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3981,10 +4230,11 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_5():
+def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -3997,10 +4247,11 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_1():
+def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4013,10 +4264,11 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_2():
+def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4029,10 +4281,11 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_3():
+def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4045,10 +4298,11 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_4():
+def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4061,10 +4315,11 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_5():
+def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4077,10 +4332,11 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_1():
+def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4093,10 +4349,11 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_2():
+def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4109,10 +4366,11 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_3():
+def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4125,10 +4383,11 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_4():
+def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4141,10 +4400,11 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_5():
+def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4157,10 +4417,11 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_1():
+def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4173,10 +4434,11 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_2():
+def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4189,10 +4451,11 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_3():
+def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4205,10 +4468,11 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_4():
+def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4221,10 +4485,11 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_5():
+def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4237,10 +4502,11 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_1():
+def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4253,10 +4519,11 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_2():
+def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4269,10 +4536,11 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_3():
+def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4285,10 +4553,11 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_4():
+def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4301,10 +4570,11 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_5():
+def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4317,10 +4587,11 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_1():
+def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4333,10 +4604,11 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_2():
+def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4349,10 +4621,11 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_3():
+def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4365,10 +4638,11 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_4():
+def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4381,10 +4655,11 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_5():
+def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
     original commenter agreed that 1.0 does in fact make clear that
@@ -4397,10 +4672,11 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicQnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_1():
+def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet whiteSpace with value
     collapse.
@@ -4412,10 +4688,11 @@ def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_2():
+def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet whiteSpace with value
     collapse.
@@ -4427,10 +4704,11 @@ def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_3():
+def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet whiteSpace with value
     collapse.
@@ -4442,10 +4720,11 @@ def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_4():
+def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet whiteSpace with value
     collapse.
@@ -4457,10 +4736,11 @@ def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_5():
+def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet whiteSpace with value
     collapse.
@@ -4472,10 +4752,11 @@ def test_atomic_any_uri_white_space_nistxml_sv_iv_atomic_any_uri_white_space_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_1():
+def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4486,10 +4767,11 @@ def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_2():
+def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4500,10 +4782,11 @@ def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_3():
+def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4514,10 +4797,11 @@ def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_4():
+def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4528,10 +4812,11 @@ def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_5():
+def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4542,10 +4827,11 @@ def test_atomic_any_uri_enumeration_4_nistxml_sv_iv_atomic_any_uri_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_1():
+def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4556,10 +4842,11 @@ def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_2():
+def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4570,10 +4857,11 @@ def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_3():
+def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4584,10 +4872,11 @@ def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_4():
+def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4598,10 +4887,11 @@ def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_5():
+def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4612,10 +4902,11 @@ def test_atomic_any_uri_enumeration_3_nistxml_sv_iv_atomic_any_uri_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_1():
+def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4626,10 +4917,11 @@ def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_2():
+def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4640,10 +4932,11 @@ def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_3():
+def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4654,10 +4947,11 @@ def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_4():
+def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4668,10 +4962,11 @@ def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_5():
+def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4682,10 +4977,11 @@ def test_atomic_any_uri_enumeration_2_nistxml_sv_iv_atomic_any_uri_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_1():
+def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4696,10 +4992,11 @@ def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_2():
+def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4710,10 +5007,11 @@ def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_3():
+def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4724,10 +5022,11 @@ def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_4():
+def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4738,10 +5037,11 @@ def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_5():
+def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4752,10 +5052,11 @@ def test_atomic_any_uri_enumeration_1_nistxml_sv_iv_atomic_any_uri_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_1():
+def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4766,10 +5067,11 @@ def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_2():
+def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4780,10 +5082,11 @@ def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_3():
+def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4794,10 +5097,11 @@ def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_4():
+def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4808,10 +5112,11 @@ def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_5():
+def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet enumeration.
     """
@@ -4822,10 +5127,11 @@ def test_atomic_any_uri_enumeration_nistxml_sv_iv_atomic_any_uri_enumeration_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_1():
+def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_1(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,10}\.){1,5}\c{3}.
@@ -4837,10 +5143,11 @@ def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_2():
+def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_2(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,10}\.){1,5}\c{3}.
@@ -4852,10 +5159,11 @@ def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_3():
+def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_3(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,10}\.){1,5}\c{3}.
@@ -4867,10 +5175,11 @@ def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_4():
+def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_4(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,10}\.){1,5}\c{3}.
@@ -4882,10 +5191,11 @@ def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_5():
+def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_5(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,10}\.){1,5}\c{3}.
@@ -4897,10 +5207,11 @@ def test_atomic_any_uri_pattern_4_nistxml_sv_iv_atomic_any_uri_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_1():
+def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_1(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,6}\.){1,2}\c{3}.
@@ -4912,10 +5223,11 @@ def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_2():
+def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_2(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,6}\.){1,2}\c{3}.
@@ -4927,10 +5239,11 @@ def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_3():
+def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_3(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,6}\.){1,2}\c{3}.
@@ -4942,10 +5255,11 @@ def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_4():
+def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_4(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,6}\.){1,2}\c{3}.
@@ -4957,10 +5271,11 @@ def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_5():
+def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_5(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,6}\.){1,2}\c{3}.
@@ -4972,10 +5287,11 @@ def test_atomic_any_uri_pattern_3_nistxml_sv_iv_atomic_any_uri_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_1():
+def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_1(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,4}\c{3}.
@@ -4987,10 +5303,11 @@ def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_2():
+def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_2(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,4}\c{3}.
@@ -5002,10 +5319,11 @@ def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_3():
+def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_3(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,4}\c{3}.
@@ -5017,10 +5335,11 @@ def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_4():
+def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_4(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,4}\c{3}.
@@ -5032,10 +5351,11 @@ def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_5():
+def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_5(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,4}\c{3}.
@@ -5047,10 +5367,11 @@ def test_atomic_any_uri_pattern_2_nistxml_sv_iv_atomic_any_uri_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_1():
+def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_1(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,3}\.){1,4}\c{3}.
@@ -5062,10 +5383,11 @@ def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_2():
+def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_2(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,3}\.){1,4}\c{3}.
@@ -5077,10 +5399,11 @@ def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_3():
+def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_3(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,3}\.){1,4}\c{3}.
@@ -5092,10 +5415,11 @@ def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_4():
+def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_4(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,3}\.){1,4}\c{3}.
@@ -5107,10 +5431,11 @@ def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_5():
+def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_5(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,3}\.){1,4}\c{3}.
@@ -5122,10 +5447,11 @@ def test_atomic_any_uri_pattern_1_nistxml_sv_iv_atomic_any_uri_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_1():
+def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_1(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,2}\c{3}.
@@ -5137,10 +5463,11 @@ def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_2():
+def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_2(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,2}\c{3}.
@@ -5152,10 +5479,11 @@ def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_3():
+def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_3(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,2}\c{3}.
@@ -5167,10 +5495,11 @@ def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_4():
+def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_4(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,2}\c{3}.
@@ -5182,10 +5511,11 @@ def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_5():
+def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_5(save_xml):
     r"""
     Type atomic/anyURI is restricted by facet pattern with value
     \c{3,6}://(\c{1,7}\.){1,2}\c{3}.
@@ -5197,10 +5527,11 @@ def test_atomic_any_uri_pattern_nistxml_sv_iv_atomic_any_uri_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_1():
+def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 63.
     """
@@ -5211,10 +5542,11 @@ def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_2():
+def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 63.
     """
@@ -5225,10 +5557,11 @@ def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_3():
+def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 63.
     """
@@ -5239,10 +5572,11 @@ def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_4():
+def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 63.
     """
@@ -5253,10 +5587,11 @@ def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_5():
+def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 63.
     """
@@ -5267,10 +5602,11 @@ def test_atomic_any_uri_length_4_nistxml_sv_iv_atomic_any_uri_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_1():
+def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 12.
     """
@@ -5281,10 +5617,11 @@ def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_2():
+def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 12.
     """
@@ -5295,10 +5632,11 @@ def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_3():
+def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 12.
     """
@@ -5309,10 +5647,11 @@ def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_4():
+def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 12.
     """
@@ -5323,10 +5662,11 @@ def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_5():
+def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 12.
     """
@@ -5337,10 +5677,11 @@ def test_atomic_any_uri_length_3_nistxml_sv_iv_atomic_any_uri_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_1():
+def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 34.
     """
@@ -5351,10 +5692,11 @@ def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_2():
+def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 34.
     """
@@ -5365,10 +5707,11 @@ def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_3():
+def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 34.
     """
@@ -5379,10 +5722,11 @@ def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_4():
+def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 34.
     """
@@ -5393,10 +5737,11 @@ def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_5():
+def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 34.
     """
@@ -5407,10 +5752,11 @@ def test_atomic_any_uri_length_2_nistxml_sv_iv_atomic_any_uri_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_1():
+def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5421,10 +5767,11 @@ def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_2():
+def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5435,10 +5782,11 @@ def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_3():
+def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5449,10 +5797,11 @@ def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_4():
+def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5463,10 +5812,11 @@ def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_5():
+def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5477,10 +5827,11 @@ def test_atomic_any_uri_length_1_nistxml_sv_iv_atomic_any_uri_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_1():
+def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5491,10 +5842,11 @@ def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_2():
+def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5505,10 +5857,11 @@ def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_3():
+def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5519,10 +5872,11 @@ def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_4():
+def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5533,10 +5887,11 @@ def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_5():
+def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet length with value 11.
     """
@@ -5547,10 +5902,11 @@ def test_atomic_any_uri_length_nistxml_sv_iv_atomic_any_uri_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_1():
+def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 63.
     """
@@ -5561,10 +5917,11 @@ def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_2():
+def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 63.
     """
@@ -5575,10 +5932,11 @@ def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_3():
+def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 63.
     """
@@ -5589,10 +5947,11 @@ def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_4():
+def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 63.
     """
@@ -5603,10 +5962,11 @@ def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_5():
+def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 63.
     """
@@ -5617,10 +5977,11 @@ def test_atomic_any_uri_min_length_4_nistxml_sv_iv_atomic_any_uri_min_length_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_1():
+def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 50.
     """
@@ -5631,10 +5992,11 @@ def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_2():
+def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 50.
     """
@@ -5645,10 +6007,11 @@ def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_3():
+def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 50.
     """
@@ -5659,10 +6022,11 @@ def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_4():
+def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 50.
     """
@@ -5673,10 +6037,11 @@ def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_5():
+def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 50.
     """
@@ -5687,10 +6052,11 @@ def test_atomic_any_uri_min_length_3_nistxml_sv_iv_atomic_any_uri_min_length_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_1():
+def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 36.
     """
@@ -5701,10 +6067,11 @@ def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_2():
+def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 36.
     """
@@ -5715,10 +6082,11 @@ def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_3():
+def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 36.
     """
@@ -5729,10 +6097,11 @@ def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_4():
+def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 36.
     """
@@ -5743,10 +6112,11 @@ def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_5():
+def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 36.
     """
@@ -5757,10 +6127,11 @@ def test_atomic_any_uri_min_length_2_nistxml_sv_iv_atomic_any_uri_min_length_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_1():
+def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 41.
     """
@@ -5771,10 +6142,11 @@ def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_2():
+def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 41.
     """
@@ -5785,10 +6157,11 @@ def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_3():
+def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 41.
     """
@@ -5799,10 +6172,11 @@ def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_4():
+def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 41.
     """
@@ -5813,10 +6187,11 @@ def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_5():
+def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 41.
     """
@@ -5827,10 +6202,11 @@ def test_atomic_any_uri_min_length_1_nistxml_sv_iv_atomic_any_uri_min_length_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_1():
+def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 11.
     """
@@ -5841,10 +6217,11 @@ def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_2():
+def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 11.
     """
@@ -5855,10 +6232,11 @@ def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_3():
+def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 11.
     """
@@ -5869,10 +6247,11 @@ def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_4():
+def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 11.
     """
@@ -5883,10 +6262,11 @@ def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_5():
+def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet minLength with value 11.
     """
@@ -5897,10 +6277,11 @@ def test_atomic_any_uri_min_length_nistxml_sv_iv_atomic_any_uri_min_length_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_1():
+def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 63.
     """
@@ -5911,10 +6292,11 @@ def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_2():
+def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 63.
     """
@@ -5925,10 +6307,11 @@ def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_3():
+def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 63.
     """
@@ -5939,10 +6322,11 @@ def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_4():
+def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 63.
     """
@@ -5953,10 +6337,11 @@ def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_5():
+def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 63.
     """
@@ -5967,10 +6352,11 @@ def test_atomic_any_uri_max_length_4_nistxml_sv_iv_atomic_any_uri_max_length_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_1():
+def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 31.
     """
@@ -5981,10 +6367,11 @@ def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_2():
+def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 31.
     """
@@ -5995,10 +6382,11 @@ def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_3():
+def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 31.
     """
@@ -6009,10 +6397,11 @@ def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_4():
+def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 31.
     """
@@ -6023,10 +6412,11 @@ def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_5():
+def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 31.
     """
@@ -6037,10 +6427,11 @@ def test_atomic_any_uri_max_length_3_nistxml_sv_iv_atomic_any_uri_max_length_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_1():
+def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 26.
     """
@@ -6051,10 +6442,11 @@ def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_2():
+def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 26.
     """
@@ -6065,10 +6457,11 @@ def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_3():
+def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 26.
     """
@@ -6079,10 +6472,11 @@ def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_4():
+def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 26.
     """
@@ -6093,10 +6487,11 @@ def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_5():
+def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 26.
     """
@@ -6107,10 +6502,11 @@ def test_atomic_any_uri_max_length_2_nistxml_sv_iv_atomic_any_uri_max_length_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_1():
+def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 40.
     """
@@ -6121,10 +6517,11 @@ def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_2():
+def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 40.
     """
@@ -6135,10 +6532,11 @@ def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_3():
+def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 40.
     """
@@ -6149,10 +6547,11 @@ def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_4():
+def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 40.
     """
@@ -6163,10 +6562,11 @@ def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_5():
+def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 40.
     """
@@ -6177,10 +6577,11 @@ def test_atomic_any_uri_max_length_1_nistxml_sv_iv_atomic_any_uri_max_length_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_1():
+def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_1(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 11.
     """
@@ -6191,10 +6592,11 @@ def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_2():
+def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_2(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 11.
     """
@@ -6205,10 +6607,11 @@ def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_3():
+def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_3(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 11.
     """
@@ -6219,10 +6622,11 @@ def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_4():
+def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_4(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 11.
     """
@@ -6233,10 +6637,11 @@ def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_5():
+def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_5(save_xml):
     """
     Type atomic/anyURI is restricted by facet maxLength with value 11.
     """
@@ -6247,10 +6652,11 @@ def test_atomic_any_uri_max_length_nistxml_sv_iv_atomic_any_uri_max_length_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicAnyUriMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_1():
+def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_1(save_xml):
     """
     Type atomic/language is restricted by facet whiteSpace with value
     collapse.
@@ -6262,10 +6668,11 @@ def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_2():
+def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_2(save_xml):
     """
     Type atomic/language is restricted by facet whiteSpace with value
     collapse.
@@ -6277,10 +6684,11 @@ def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_3():
+def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_3(save_xml):
     """
     Type atomic/language is restricted by facet whiteSpace with value
     collapse.
@@ -6292,10 +6700,11 @@ def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_4():
+def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_4(save_xml):
     """
     Type atomic/language is restricted by facet whiteSpace with value
     collapse.
@@ -6307,10 +6716,11 @@ def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_5():
+def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1_5(save_xml):
     """
     Type atomic/language is restricted by facet whiteSpace with value
     collapse.
@@ -6322,10 +6732,11 @@ def test_atomic_language_white_space_nistxml_sv_iv_atomic_language_white_space_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_1():
+def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_1(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6336,10 +6747,11 @@ def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_2():
+def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_2(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6350,10 +6762,11 @@ def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_3():
+def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_3(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6364,10 +6777,11 @@ def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_4():
+def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_4(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6378,10 +6792,11 @@ def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_5():
+def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration_5_5(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6392,10 +6807,11 @@ def test_atomic_language_enumeration_4_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_1():
+def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_1(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6406,10 +6822,11 @@ def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_2():
+def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_2(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6420,10 +6837,11 @@ def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_3():
+def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_3(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6434,10 +6852,11 @@ def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_4():
+def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_4(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6448,10 +6867,11 @@ def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_5():
+def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration_4_5(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6462,10 +6882,11 @@ def test_atomic_language_enumeration_3_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_1():
+def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_1(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6476,10 +6897,11 @@ def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_2():
+def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_2(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6490,10 +6912,11 @@ def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_3():
+def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_3(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6504,10 +6927,11 @@ def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_4():
+def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_4(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6518,10 +6942,11 @@ def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_5():
+def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration_3_5(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6532,10 +6957,11 @@ def test_atomic_language_enumeration_2_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_1():
+def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_1(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6546,10 +6972,11 @@ def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_2():
+def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_2(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6560,10 +6987,11 @@ def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_3():
+def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_3(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6574,10 +7002,11 @@ def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_4():
+def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_4(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6588,10 +7017,11 @@ def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_5():
+def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration_2_5(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6602,10 +7032,11 @@ def test_atomic_language_enumeration_1_nistxml_sv_iv_atomic_language_enumeration
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_1():
+def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_1(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6616,10 +7047,11 @@ def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_2():
+def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_2(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6630,10 +7062,11 @@ def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_3():
+def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_3(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6644,10 +7077,11 @@ def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_4():
+def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_4(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6658,10 +7092,11 @@ def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_5():
+def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1_5(save_xml):
     """
     Type atomic/language is restricted by facet enumeration.
     """
@@ -6672,10 +7107,11 @@ def test_atomic_language_enumeration_nistxml_sv_iv_atomic_language_enumeration_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_1():
+def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_1(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6687,10 +7123,11 @@ def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_2():
+def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_2(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6702,10 +7139,11 @@ def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_3():
+def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_3(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6717,10 +7155,11 @@ def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_4():
+def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_4(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6732,10 +7171,11 @@ def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_5():
+def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_5(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6747,10 +7187,11 @@ def test_atomic_language_pattern_4_nistxml_sv_iv_atomic_language_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_1():
+def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_1(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6762,10 +7203,11 @@ def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_2():
+def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_2(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6777,10 +7219,11 @@ def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_3():
+def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_3(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6792,10 +7235,11 @@ def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_4():
+def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_4(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6807,10 +7251,11 @@ def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_5():
+def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_5(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6822,10 +7267,11 @@ def test_atomic_language_pattern_3_nistxml_sv_iv_atomic_language_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_1():
+def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_1(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6837,10 +7283,11 @@ def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_2():
+def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_2(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6852,10 +7299,11 @@ def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_3():
+def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_3(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6867,10 +7315,11 @@ def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_4():
+def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_4(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6882,10 +7331,11 @@ def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_5():
+def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_5(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6897,10 +7347,11 @@ def test_atomic_language_pattern_2_nistxml_sv_iv_atomic_language_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_1():
+def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_1(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6912,10 +7363,11 @@ def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_2():
+def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_2(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6927,10 +7379,11 @@ def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_3():
+def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_3(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6942,10 +7395,11 @@ def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_4():
+def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_4(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6957,10 +7411,11 @@ def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_5():
+def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_5(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6972,10 +7427,11 @@ def test_atomic_language_pattern_1_nistxml_sv_iv_atomic_language_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_1():
+def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_1(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -6987,10 +7443,11 @@ def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_2():
+def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_2(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -7002,10 +7459,11 @@ def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_3():
+def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_3(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -7017,10 +7475,11 @@ def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_4():
+def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_4(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -7032,10 +7491,11 @@ def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_5():
+def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_5(save_xml):
     """
     Type atomic/language is restricted by facet pattern with value
     ([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{3})*.
@@ -7047,10 +7507,11 @@ def test_atomic_language_pattern_nistxml_sv_iv_atomic_language_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguagePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_1():
+def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_1(save_xml):
     """
     Type atomic/language is restricted by facet length with value 11.
     """
@@ -7061,10 +7522,11 @@ def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_2():
+def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_2(save_xml):
     """
     Type atomic/language is restricted by facet length with value 11.
     """
@@ -7075,10 +7537,11 @@ def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_3():
+def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_3(save_xml):
     """
     Type atomic/language is restricted by facet length with value 11.
     """
@@ -7089,10 +7552,11 @@ def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_4():
+def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_4(save_xml):
     """
     Type atomic/language is restricted by facet length with value 11.
     """
@@ -7103,10 +7567,11 @@ def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_5():
+def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_5(save_xml):
     """
     Type atomic/language is restricted by facet length with value 11.
     """
@@ -7117,10 +7582,11 @@ def test_atomic_language_length_4_nistxml_sv_iv_atomic_language_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_1():
+def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_1(save_xml):
     """
     Type atomic/language is restricted by facet length with value 5.
     """
@@ -7131,10 +7597,11 @@ def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_2():
+def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_2(save_xml):
     """
     Type atomic/language is restricted by facet length with value 5.
     """
@@ -7145,10 +7612,11 @@ def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_3():
+def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_3(save_xml):
     """
     Type atomic/language is restricted by facet length with value 5.
     """
@@ -7159,10 +7627,11 @@ def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_4():
+def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_4(save_xml):
     """
     Type atomic/language is restricted by facet length with value 5.
     """
@@ -7173,10 +7642,11 @@ def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_5():
+def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_5(save_xml):
     """
     Type atomic/language is restricted by facet length with value 5.
     """
@@ -7187,10 +7657,11 @@ def test_atomic_language_length_3_nistxml_sv_iv_atomic_language_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_1():
+def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_1(save_xml):
     """
     Type atomic/language is restricted by facet length with value 10.
     """
@@ -7201,10 +7672,11 @@ def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_2():
+def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_2(save_xml):
     """
     Type atomic/language is restricted by facet length with value 10.
     """
@@ -7215,10 +7687,11 @@ def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_3():
+def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_3(save_xml):
     """
     Type atomic/language is restricted by facet length with value 10.
     """
@@ -7229,10 +7702,11 @@ def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_4():
+def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_4(save_xml):
     """
     Type atomic/language is restricted by facet length with value 10.
     """
@@ -7243,10 +7717,11 @@ def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_5():
+def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_5(save_xml):
     """
     Type atomic/language is restricted by facet length with value 10.
     """
@@ -7257,10 +7732,11 @@ def test_atomic_language_length_2_nistxml_sv_iv_atomic_language_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_1():
+def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_1(save_xml):
     """
     Type atomic/language is restricted by facet length with value 7.
     """
@@ -7271,10 +7747,11 @@ def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_2():
+def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_2(save_xml):
     """
     Type atomic/language is restricted by facet length with value 7.
     """
@@ -7285,10 +7762,11 @@ def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_3():
+def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_3(save_xml):
     """
     Type atomic/language is restricted by facet length with value 7.
     """
@@ -7299,10 +7777,11 @@ def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_4():
+def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_4(save_xml):
     """
     Type atomic/language is restricted by facet length with value 7.
     """
@@ -7313,10 +7792,11 @@ def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_5():
+def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_5(save_xml):
     """
     Type atomic/language is restricted by facet length with value 7.
     """
@@ -7327,10 +7807,11 @@ def test_atomic_language_length_1_nistxml_sv_iv_atomic_language_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_1():
+def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_1(save_xml):
     """
     Type atomic/language is restricted by facet length with value 2.
     """
@@ -7341,10 +7822,11 @@ def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_2():
+def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_2(save_xml):
     """
     Type atomic/language is restricted by facet length with value 2.
     """
@@ -7355,10 +7837,11 @@ def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_3():
+def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_3(save_xml):
     """
     Type atomic/language is restricted by facet length with value 2.
     """
@@ -7369,10 +7852,11 @@ def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_4():
+def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_4(save_xml):
     """
     Type atomic/language is restricted by facet length with value 2.
     """
@@ -7383,10 +7867,11 @@ def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_5():
+def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_5(save_xml):
     """
     Type atomic/language is restricted by facet length with value 2.
     """
@@ -7397,10 +7882,11 @@ def test_atomic_language_length_nistxml_sv_iv_atomic_language_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_1():
+def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_1(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 11.
     """
@@ -7411,10 +7897,11 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_2():
+def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_2(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 11.
     """
@@ -7425,10 +7912,11 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_3():
+def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_3(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 11.
     """
@@ -7439,10 +7927,11 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_4():
+def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_4(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 11.
     """
@@ -7453,10 +7942,11 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_5():
+def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5_5(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 11.
     """
@@ -7467,10 +7957,11 @@ def test_atomic_language_min_length_4_nistxml_sv_iv_atomic_language_min_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_1():
+def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_1(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 4.
     """
@@ -7481,10 +7972,11 @@ def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_2():
+def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_2(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 4.
     """
@@ -7495,10 +7987,11 @@ def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_3():
+def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_3(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 4.
     """
@@ -7509,10 +8002,11 @@ def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_4():
+def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_4(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 4.
     """
@@ -7523,10 +8017,11 @@ def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_5():
+def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4_5(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 4.
     """
@@ -7537,10 +8032,11 @@ def test_atomic_language_min_length_3_nistxml_sv_iv_atomic_language_min_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_1():
+def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_1(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 9.
     """
@@ -7551,10 +8047,11 @@ def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_2():
+def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_2(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 9.
     """
@@ -7565,10 +8062,11 @@ def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_3():
+def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_3(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 9.
     """
@@ -7579,10 +8077,11 @@ def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_4():
+def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_4(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 9.
     """
@@ -7593,10 +8092,11 @@ def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_5():
+def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3_5(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 9.
     """
@@ -7607,10 +8107,11 @@ def test_atomic_language_min_length_2_nistxml_sv_iv_atomic_language_min_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_1():
+def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_1(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 5.
     """
@@ -7621,10 +8122,11 @@ def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_2():
+def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_2(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 5.
     """
@@ -7635,10 +8137,11 @@ def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_3():
+def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_3(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 5.
     """
@@ -7649,10 +8152,11 @@ def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_4():
+def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_4(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 5.
     """
@@ -7663,10 +8167,11 @@ def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_5():
+def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2_5(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 5.
     """
@@ -7677,10 +8182,11 @@ def test_atomic_language_min_length_1_nistxml_sv_iv_atomic_language_min_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_1():
+def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_1(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 2.
     """
@@ -7691,10 +8197,11 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_2():
+def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_2(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 2.
     """
@@ -7705,10 +8212,11 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_3():
+def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_3(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 2.
     """
@@ -7719,10 +8227,11 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_4():
+def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_4(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 2.
     """
@@ -7733,10 +8242,11 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_5():
+def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_5(save_xml):
     """
     Type atomic/language is restricted by facet minLength with value 2.
     """
@@ -7747,10 +8257,11 @@ def test_atomic_language_min_length_nistxml_sv_iv_atomic_language_min_length_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_1():
+def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_1(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 11.
     """
@@ -7761,10 +8272,11 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_2():
+def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_2(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 11.
     """
@@ -7775,10 +8287,11 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_3():
+def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_3(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 11.
     """
@@ -7789,10 +8302,11 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_4():
+def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_4(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 11.
     """
@@ -7803,10 +8317,11 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_5():
+def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5_5(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 11.
     """
@@ -7817,10 +8332,11 @@ def test_atomic_language_max_length_4_nistxml_sv_iv_atomic_language_max_length_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_1():
+def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_1(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 9.
     """
@@ -7831,10 +8347,11 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_2():
+def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_2(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 9.
     """
@@ -7845,10 +8362,11 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_3():
+def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_3(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 9.
     """
@@ -7859,10 +8377,11 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_4():
+def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_4(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 9.
     """
@@ -7873,10 +8392,11 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_5():
+def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4_5(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 9.
     """
@@ -7887,10 +8407,11 @@ def test_atomic_language_max_length_3_nistxml_sv_iv_atomic_language_max_length_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_1():
+def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_1(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7901,10 +8422,11 @@ def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_2():
+def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_2(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7915,10 +8437,11 @@ def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_3():
+def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_3(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7929,10 +8452,11 @@ def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_4():
+def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_4(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7943,10 +8467,11 @@ def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_5():
+def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3_5(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7957,10 +8482,11 @@ def test_atomic_language_max_length_2_nistxml_sv_iv_atomic_language_max_length_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_1():
+def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_1(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7971,10 +8497,11 @@ def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_2():
+def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_2(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7985,10 +8512,11 @@ def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_3():
+def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_3(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -7999,10 +8527,11 @@ def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_4():
+def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_4(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8013,10 +8542,11 @@ def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_5():
+def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2_5(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8027,10 +8557,11 @@ def test_atomic_language_max_length_1_nistxml_sv_iv_atomic_language_max_length_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_1():
+def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_1(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8041,10 +8572,11 @@ def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_2():
+def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_2(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8055,10 +8587,11 @@ def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_3():
+def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_3(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8069,10 +8602,11 @@ def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_4():
+def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_4(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8083,10 +8617,11 @@ def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_5():
+def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_5(save_xml):
     """
     Type atomic/language is restricted by facet maxLength with value 2.
     """
@@ -8097,10 +8632,11 @@ def test_atomic_language_max_length_nistxml_sv_iv_atomic_language_max_length_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicLanguageMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_1():
+def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_1(save_xml):
     """
     Type atomic/ID is restricted by facet whiteSpace with value collapse.
     """
@@ -8111,10 +8647,11 @@ def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_2():
+def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_2(save_xml):
     """
     Type atomic/ID is restricted by facet whiteSpace with value collapse.
     """
@@ -8125,10 +8662,11 @@ def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_3():
+def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_3(save_xml):
     """
     Type atomic/ID is restricted by facet whiteSpace with value collapse.
     """
@@ -8139,10 +8677,11 @@ def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_4():
+def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_4(save_xml):
     """
     Type atomic/ID is restricted by facet whiteSpace with value collapse.
     """
@@ -8153,10 +8692,11 @@ def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_5():
+def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_5(save_xml):
     """
     Type atomic/ID is restricted by facet whiteSpace with value collapse.
     """
@@ -8167,10 +8707,11 @@ def test_atomic_id_white_space_nistxml_sv_iv_atomic_id_white_space_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_1():
+def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_1(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8181,10 +8722,11 @@ def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_2():
+def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_2(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8195,10 +8737,11 @@ def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_3():
+def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_3(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8209,10 +8752,11 @@ def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_4():
+def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_4(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8223,10 +8767,11 @@ def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_5():
+def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_5(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8237,10 +8782,11 @@ def test_atomic_id_enumeration_4_nistxml_sv_iv_atomic_id_enumeration_5_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_1():
+def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_1(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8251,10 +8797,11 @@ def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_2():
+def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_2(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8265,10 +8812,11 @@ def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_3():
+def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_3(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8279,10 +8827,11 @@ def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_4():
+def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_4(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8293,10 +8842,11 @@ def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_5():
+def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_5(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8307,10 +8857,11 @@ def test_atomic_id_enumeration_3_nistxml_sv_iv_atomic_id_enumeration_4_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_1():
+def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_1(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8321,10 +8872,11 @@ def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_2():
+def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_2(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8335,10 +8887,11 @@ def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_3():
+def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_3(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8349,10 +8902,11 @@ def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_4():
+def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_4(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8363,10 +8917,11 @@ def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_5():
+def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_5(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8377,10 +8932,11 @@ def test_atomic_id_enumeration_2_nistxml_sv_iv_atomic_id_enumeration_3_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_1():
+def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_1(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8391,10 +8947,11 @@ def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_2():
+def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_2(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8405,10 +8962,11 @@ def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_3():
+def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_3(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8419,10 +8977,11 @@ def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_4():
+def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_4(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8433,10 +8992,11 @@ def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_5():
+def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_5(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8447,10 +9007,11 @@ def test_atomic_id_enumeration_1_nistxml_sv_iv_atomic_id_enumeration_2_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_1():
+def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_1(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8461,10 +9022,11 @@ def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_2():
+def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_2(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8475,10 +9037,11 @@ def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_3():
+def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_3(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8489,10 +9052,11 @@ def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_4():
+def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_4(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8503,10 +9067,11 @@ def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_5():
+def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_5(save_xml):
     """
     Type atomic/ID is restricted by facet enumeration.
     """
@@ -8517,10 +9082,11 @@ def test_atomic_id_enumeration_nistxml_sv_iv_atomic_id_enumeration_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_1():
+def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_1(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{36}.
@@ -8532,10 +9098,11 @@ def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_2():
+def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_2(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{36}.
@@ -8547,10 +9114,11 @@ def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_3():
+def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_3(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{36}.
@@ -8562,10 +9130,11 @@ def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_4():
+def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_4(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{36}.
@@ -8577,10 +9146,11 @@ def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_5():
+def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_5(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{36}.
@@ -8592,10 +9162,11 @@ def test_atomic_id_pattern_4_nistxml_sv_iv_atomic_id_pattern_5_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_1():
+def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_1(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{15}.
@@ -8607,10 +9178,11 @@ def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_2():
+def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_2(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{15}.
@@ -8622,10 +9194,11 @@ def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_3():
+def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_3(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{15}.
@@ -8637,10 +9210,11 @@ def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_4():
+def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_4(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{15}.
@@ -8652,10 +9226,11 @@ def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_5():
+def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_5(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{15}.
@@ -8667,10 +9242,11 @@ def test_atomic_id_pattern_3_nistxml_sv_iv_atomic_id_pattern_4_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_1():
+def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_1(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{18}.
@@ -8682,10 +9258,11 @@ def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_2():
+def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_2(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{18}.
@@ -8697,10 +9274,11 @@ def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_3():
+def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_3(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{18}.
@@ -8712,10 +9290,11 @@ def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_4():
+def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_4(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{18}.
@@ -8727,10 +9306,11 @@ def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_5():
+def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_5(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{18}.
@@ -8742,10 +9322,11 @@ def test_atomic_id_pattern_2_nistxml_sv_iv_atomic_id_pattern_3_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_1():
+def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_1(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{55}.
@@ -8757,10 +9338,11 @@ def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_2():
+def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_2(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{55}.
@@ -8772,10 +9354,11 @@ def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_3():
+def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_3(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{55}.
@@ -8787,10 +9370,11 @@ def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_4():
+def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_4(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{55}.
@@ -8802,10 +9386,11 @@ def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_5():
+def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_5(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{55}.
@@ -8817,10 +9402,11 @@ def test_atomic_id_pattern_1_nistxml_sv_iv_atomic_id_pattern_2_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_1():
+def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_1(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{11}.
@@ -8832,10 +9418,11 @@ def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_2():
+def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_2(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{11}.
@@ -8847,10 +9434,11 @@ def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_3():
+def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_3(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{11}.
@@ -8862,10 +9450,11 @@ def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_4():
+def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_4(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{11}.
@@ -8877,10 +9466,11 @@ def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_5():
+def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_5(save_xml):
     r"""
     Type atomic/ID is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{11}.
@@ -8892,10 +9482,11 @@ def test_atomic_id_pattern_nistxml_sv_iv_atomic_id_pattern_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1():
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -8906,10 +9497,11 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2():
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -8920,10 +9512,11 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3():
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -8934,10 +9527,11 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4():
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -8948,10 +9542,11 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5():
+def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 64.
     """
@@ -8962,10 +9557,11 @@ def test_atomic_id_length_4_nistxml_sv_iv_atomic_id_length_5_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1():
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -8976,10 +9572,11 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2():
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -8990,10 +9587,11 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3():
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -9004,10 +9602,11 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4():
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -9018,10 +9617,11 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5():
+def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 8.
     """
@@ -9032,10 +9632,11 @@ def test_atomic_id_length_3_nistxml_sv_iv_atomic_id_length_4_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1():
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -9046,10 +9647,11 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2():
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -9060,10 +9662,11 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3():
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -9074,10 +9677,11 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4():
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -9088,10 +9692,11 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5():
+def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 24.
     """
@@ -9102,10 +9707,11 @@ def test_atomic_id_length_2_nistxml_sv_iv_atomic_id_length_3_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1():
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -9116,10 +9722,11 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2():
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -9130,10 +9737,11 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3():
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -9144,10 +9752,11 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4():
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -9158,10 +9767,11 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5():
+def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 57.
     """
@@ -9172,10 +9782,11 @@ def test_atomic_id_length_1_nistxml_sv_iv_atomic_id_length_2_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1():
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -9186,10 +9797,11 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2():
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -9200,10 +9812,11 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3():
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -9214,10 +9827,11 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4():
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -9228,10 +9842,11 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5():
+def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5(save_xml):
     """
     Type atomic/ID is restricted by facet length with value 1.
     """
@@ -9242,10 +9857,11 @@ def test_atomic_id_length_nistxml_sv_iv_atomic_id_length_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1():
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -9256,10 +9872,11 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2():
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -9270,10 +9887,11 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3():
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -9284,10 +9902,11 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4():
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -9298,10 +9917,11 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5():
+def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 64.
     """
@@ -9312,10 +9932,11 @@ def test_atomic_id_min_length_4_nistxml_sv_iv_atomic_id_min_length_5_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1():
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -9326,10 +9947,11 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2():
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -9340,10 +9962,11 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3():
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -9354,10 +9977,11 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4():
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -9368,10 +9992,11 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5():
+def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 6.
     """
@@ -9382,10 +10007,11 @@ def test_atomic_id_min_length_3_nistxml_sv_iv_atomic_id_min_length_4_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1():
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -9396,10 +10022,11 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2():
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -9410,10 +10037,11 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3():
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -9424,10 +10052,11 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4():
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -9438,10 +10067,11 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5():
+def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 58.
     """
@@ -9452,10 +10082,11 @@ def test_atomic_id_min_length_2_nistxml_sv_iv_atomic_id_min_length_3_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1():
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -9466,10 +10097,11 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2():
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -9480,10 +10112,11 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3():
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -9494,10 +10127,11 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4():
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -9508,10 +10142,11 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5():
+def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 45.
     """
@@ -9522,10 +10157,11 @@ def test_atomic_id_min_length_1_nistxml_sv_iv_atomic_id_min_length_2_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1():
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -9536,10 +10172,11 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2():
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -9550,10 +10187,11 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3():
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -9564,10 +10202,11 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4():
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -9578,10 +10217,11 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5():
+def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5(save_xml):
     """
     Type atomic/ID is restricted by facet minLength with value 1.
     """
@@ -9592,10 +10232,11 @@ def test_atomic_id_min_length_nistxml_sv_iv_atomic_id_min_length_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1():
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -9606,10 +10247,11 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2():
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -9620,10 +10262,11 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3():
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -9634,10 +10277,11 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4():
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -9648,10 +10292,11 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5():
+def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 64.
     """
@@ -9662,10 +10307,11 @@ def test_atomic_id_max_length_4_nistxml_sv_iv_atomic_id_max_length_5_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1():
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -9676,10 +10322,11 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2():
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -9690,10 +10337,11 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3():
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -9704,10 +10352,11 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4():
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -9718,10 +10367,11 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5():
+def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 22.
     """
@@ -9732,10 +10382,11 @@ def test_atomic_id_max_length_3_nistxml_sv_iv_atomic_id_max_length_4_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1():
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -9746,10 +10397,11 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2():
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -9760,10 +10412,11 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3():
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -9774,10 +10427,11 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4():
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -9788,10 +10442,11 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5():
+def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 58.
     """
@@ -9802,10 +10457,11 @@ def test_atomic_id_max_length_2_nistxml_sv_iv_atomic_id_max_length_3_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1():
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -9816,10 +10472,11 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2():
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -9830,10 +10487,11 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3():
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -9844,10 +10502,11 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4():
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -9858,10 +10517,11 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5():
+def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 62.
     """
@@ -9872,10 +10532,11 @@ def test_atomic_id_max_length_1_nistxml_sv_iv_atomic_id_max_length_2_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1():
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -9886,10 +10547,11 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_1():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2():
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -9900,10 +10562,11 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_2():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3():
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -9914,10 +10577,11 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_3():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4():
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -9928,10 +10592,11 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_4():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5():
+def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5(save_xml):
     """
     Type atomic/ID is restricted by facet maxLength with value 1.
     """
@@ -9942,10 +10607,11 @@ def test_atomic_id_max_length_nistxml_sv_iv_atomic_id_max_length_1_5():
         instance_is_valid=True,
         class_name="Out",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1():
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1(save_xml):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -9957,10 +10623,11 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2():
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2(save_xml):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -9972,10 +10639,11 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3():
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3(save_xml):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -9987,10 +10655,11 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4():
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4(save_xml):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -10002,10 +10671,11 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5():
+def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5(save_xml):
     """
     Type atomic/NCName is restricted by facet whiteSpace with value
     collapse.
@@ -10017,10 +10687,11 @@ def test_atomic_ncname_white_space_nistxml_sv_iv_atomic_ncname_white_space_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1():
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10031,10 +10702,11 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2():
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10045,10 +10717,11 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3():
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10059,10 +10732,11 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4():
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10073,10 +10747,11 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5():
+def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10087,10 +10762,11 @@ def test_atomic_ncname_enumeration_4_nistxml_sv_iv_atomic_ncname_enumeration_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1():
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10101,10 +10777,11 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2():
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10115,10 +10792,11 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3():
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10129,10 +10807,11 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4():
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10143,10 +10822,11 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5():
+def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10157,10 +10837,11 @@ def test_atomic_ncname_enumeration_3_nistxml_sv_iv_atomic_ncname_enumeration_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1():
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10171,10 +10852,11 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2():
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10185,10 +10867,11 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3():
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10199,10 +10882,11 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4():
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10213,10 +10897,11 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5():
+def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10227,10 +10912,11 @@ def test_atomic_ncname_enumeration_2_nistxml_sv_iv_atomic_ncname_enumeration_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1():
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10241,10 +10927,11 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2():
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10255,10 +10942,11 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3():
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10269,10 +10957,11 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4():
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10283,10 +10972,11 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5():
+def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10297,10 +10987,11 @@ def test_atomic_ncname_enumeration_1_nistxml_sv_iv_atomic_ncname_enumeration_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1():
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10311,10 +11002,11 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2():
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10325,10 +11017,11 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3():
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10339,10 +11032,11 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4():
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10353,10 +11047,11 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5():
+def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5(save_xml):
     """
     Type atomic/NCName is restricted by facet enumeration.
     """
@@ -10367,10 +11062,11 @@ def test_atomic_ncname_enumeration_nistxml_sv_iv_atomic_ncname_enumeration_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1():
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -10382,10 +11078,11 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2():
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -10397,10 +11094,11 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3():
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -10412,10 +11110,11 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4():
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -10427,10 +11126,11 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5():
+def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{63}.
@@ -10442,10 +11142,11 @@ def test_atomic_ncname_pattern_4_nistxml_sv_iv_atomic_ncname_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1():
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -10457,10 +11158,11 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2():
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -10472,10 +11174,11 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3():
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -10487,10 +11190,11 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4():
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -10502,10 +11206,11 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5():
+def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{12}.
@@ -10517,10 +11222,11 @@ def test_atomic_ncname_pattern_3_nistxml_sv_iv_atomic_ncname_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1():
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -10532,10 +11238,11 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2():
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -10547,10 +11254,11 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3():
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -10562,10 +11270,11 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4():
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -10577,10 +11286,11 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5():
+def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{27}.
@@ -10592,10 +11302,11 @@ def test_atomic_ncname_pattern_2_nistxml_sv_iv_atomic_ncname_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1():
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -10607,10 +11318,11 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2():
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -10622,10 +11334,11 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3():
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -10637,10 +11350,11 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4():
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -10652,10 +11366,11 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5():
+def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{40}.
@@ -10667,10 +11382,11 @@ def test_atomic_ncname_pattern_1_nistxml_sv_iv_atomic_ncname_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1():
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -10682,10 +11398,11 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2():
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -10697,10 +11414,11 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3():
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -10712,10 +11430,11 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4():
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -10727,10 +11446,11 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5():
+def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5(save_xml):
     r"""
     Type atomic/NCName is restricted by facet pattern with value
     [\i-[:]][\c-[:]]{16}.
@@ -10742,10 +11462,11 @@ def test_atomic_ncname_pattern_nistxml_sv_iv_atomic_ncname_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1():
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -10756,10 +11477,11 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2():
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -10770,10 +11492,11 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3():
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -10784,10 +11507,11 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4():
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -10798,10 +11522,11 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5():
+def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 64.
     """
@@ -10812,10 +11537,11 @@ def test_atomic_ncname_length_4_nistxml_sv_iv_atomic_ncname_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1():
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10826,10 +11552,11 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2():
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10840,10 +11567,11 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3():
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10854,10 +11582,11 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4():
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10868,10 +11597,11 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5():
+def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10882,10 +11612,11 @@ def test_atomic_ncname_length_3_nistxml_sv_iv_atomic_ncname_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1():
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -10896,10 +11627,11 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2():
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -10910,10 +11642,11 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3():
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -10924,10 +11657,11 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4():
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -10938,10 +11672,11 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5():
+def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 53.
     """
@@ -10952,10 +11687,11 @@ def test_atomic_ncname_length_2_nistxml_sv_iv_atomic_ncname_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1():
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10966,10 +11702,11 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2():
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10980,10 +11717,11 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3():
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -10994,10 +11732,11 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4():
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -11008,10 +11747,11 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5():
+def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 61.
     """
@@ -11022,10 +11762,11 @@ def test_atomic_ncname_length_1_nistxml_sv_iv_atomic_ncname_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1():
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -11036,10 +11777,11 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2():
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -11050,10 +11792,11 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3():
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -11064,10 +11807,11 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4():
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -11078,10 +11822,11 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5():
+def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5(save_xml):
     """
     Type atomic/NCName is restricted by facet length with value 1.
     """
@@ -11092,10 +11837,11 @@ def test_atomic_ncname_length_nistxml_sv_iv_atomic_ncname_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1():
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -11106,10 +11852,11 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2():
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -11120,10 +11867,11 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3():
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -11134,10 +11882,11 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4():
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -11148,10 +11897,11 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5():
+def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 64.
     """
@@ -11162,10 +11912,11 @@ def test_atomic_ncname_min_length_4_nistxml_sv_iv_atomic_ncname_min_length_5_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1():
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -11176,10 +11927,11 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2():
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -11190,10 +11942,11 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3():
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -11204,10 +11957,11 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4():
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -11218,10 +11972,11 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5():
+def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 60.
     """
@@ -11232,10 +11987,11 @@ def test_atomic_ncname_min_length_3_nistxml_sv_iv_atomic_ncname_min_length_4_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1():
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -11246,10 +12002,11 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2():
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -11260,10 +12017,11 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3():
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -11274,10 +12032,11 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4():
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -11288,10 +12047,11 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5():
+def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 32.
     """
@@ -11302,10 +12062,11 @@ def test_atomic_ncname_min_length_2_nistxml_sv_iv_atomic_ncname_min_length_3_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1():
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -11316,10 +12077,11 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2():
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -11330,10 +12092,11 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3():
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -11344,10 +12107,11 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4():
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -11358,10 +12122,11 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5():
+def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 47.
     """
@@ -11372,10 +12137,11 @@ def test_atomic_ncname_min_length_1_nistxml_sv_iv_atomic_ncname_min_length_2_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1():
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -11386,10 +12152,11 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2():
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -11400,10 +12167,11 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3():
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -11414,10 +12182,11 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4():
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -11428,10 +12197,11 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5():
+def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5(save_xml):
     """
     Type atomic/NCName is restricted by facet minLength with value 1.
     """
@@ -11442,10 +12212,11 @@ def test_atomic_ncname_min_length_nistxml_sv_iv_atomic_ncname_min_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1():
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -11456,10 +12227,11 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2():
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -11470,10 +12242,11 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3():
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -11484,10 +12257,11 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4():
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -11498,10 +12272,11 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5():
+def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 64.
     """
@@ -11512,10 +12287,11 @@ def test_atomic_ncname_max_length_4_nistxml_sv_iv_atomic_ncname_max_length_5_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1():
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -11526,10 +12302,11 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2():
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -11540,10 +12317,11 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3():
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -11554,10 +12332,11 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4():
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -11568,10 +12347,11 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5():
+def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 37.
     """
@@ -11582,10 +12362,11 @@ def test_atomic_ncname_max_length_3_nistxml_sv_iv_atomic_ncname_max_length_4_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1():
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -11596,10 +12377,11 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2():
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -11610,10 +12392,11 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3():
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -11624,10 +12407,11 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4():
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -11638,10 +12422,11 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5():
+def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 12.
     """
@@ -11652,10 +12437,11 @@ def test_atomic_ncname_max_length_2_nistxml_sv_iv_atomic_ncname_max_length_3_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1():
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -11666,10 +12452,11 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2():
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -11680,10 +12467,11 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3():
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -11694,10 +12482,11 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4():
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -11708,10 +12497,11 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5():
+def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 48.
     """
@@ -11722,10 +12512,11 @@ def test_atomic_ncname_max_length_1_nistxml_sv_iv_atomic_ncname_max_length_2_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1():
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -11736,10 +12527,11 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2():
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -11750,10 +12542,11 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3():
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -11764,10 +12557,11 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4():
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -11778,10 +12572,11 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5():
+def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5(save_xml):
     """
     Type atomic/NCName is restricted by facet maxLength with value 1.
     """
@@ -11792,10 +12587,11 @@ def test_atomic_ncname_max_length_nistxml_sv_iv_atomic_ncname_max_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNcnameMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1():
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -11807,10 +12603,11 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2():
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -11822,10 +12619,11 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3():
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -11837,10 +12635,11 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4():
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -11852,10 +12651,11 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5():
+def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet whiteSpace with value
     collapse.
@@ -11867,10 +12667,11 @@ def test_atomic_nmtoken_white_space_nistxml_sv_iv_atomic_nmtoken_white_space_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_1():
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11881,10 +12682,11 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_2():
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11895,10 +12697,11 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_3():
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11909,10 +12712,11 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_4():
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11923,10 +12727,11 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_5():
+def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11937,10 +12742,11 @@ def test_atomic_nmtoken_enumeration_4_nistxml_sv_iv_atomic_nmtoken_enumeration_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_1():
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11951,10 +12757,11 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_2():
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11965,10 +12772,11 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_3():
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11979,10 +12787,11 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_4():
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -11993,10 +12802,11 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_5():
+def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12007,10 +12817,11 @@ def test_atomic_nmtoken_enumeration_3_nistxml_sv_iv_atomic_nmtoken_enumeration_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_1():
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12021,10 +12832,11 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_2():
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12035,10 +12847,11 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_3():
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12049,10 +12862,11 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_4():
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12063,10 +12877,11 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_5():
+def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12077,10 +12892,11 @@ def test_atomic_nmtoken_enumeration_2_nistxml_sv_iv_atomic_nmtoken_enumeration_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_1():
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12091,10 +12907,11 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_2():
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12105,10 +12922,11 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_3():
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12119,10 +12937,11 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_4():
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12133,10 +12952,11 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_5():
+def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12147,10 +12967,11 @@ def test_atomic_nmtoken_enumeration_1_nistxml_sv_iv_atomic_nmtoken_enumeration_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1():
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12161,10 +12982,11 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2():
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12175,10 +12997,11 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3():
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12189,10 +13012,11 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4():
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12203,10 +13027,11 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5():
+def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet enumeration.
     """
@@ -12217,10 +13042,11 @@ def test_atomic_nmtoken_enumeration_nistxml_sv_iv_atomic_nmtoken_enumeration_1_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1():
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12231,10 +13057,11 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2():
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12245,10 +13072,11 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3():
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12259,10 +13087,11 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4():
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12273,10 +13102,11 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5():
+def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12287,10 +13117,11 @@ def test_atomic_nmtoken_pattern_4_nistxml_sv_iv_atomic_nmtoken_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1():
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -12301,10 +13132,11 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2():
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -12315,10 +13147,11 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3():
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -12329,10 +13162,11 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4():
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -12343,10 +13177,11 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5():
+def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{33}.
     """
@@ -12357,10 +13192,11 @@ def test_atomic_nmtoken_pattern_3_nistxml_sv_iv_atomic_nmtoken_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1():
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -12371,10 +13207,11 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2():
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -12385,10 +13222,11 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3():
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -12399,10 +13237,11 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4():
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -12413,10 +13252,11 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5():
+def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{6}.
     """
@@ -12427,10 +13267,11 @@ def test_atomic_nmtoken_pattern_2_nistxml_sv_iv_atomic_nmtoken_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1():
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12441,10 +13282,11 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2():
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12455,10 +13297,11 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3():
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12469,10 +13312,11 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4():
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12483,10 +13327,11 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5():
+def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{18}.
     """
@@ -12497,10 +13342,11 @@ def test_atomic_nmtoken_pattern_1_nistxml_sv_iv_atomic_nmtoken_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1():
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -12511,10 +13357,11 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2():
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -12525,10 +13372,11 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3():
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -12539,10 +13387,11 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4():
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -12553,10 +13402,11 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5():
+def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5(save_xml):
     r"""
     Type atomic/NMTOKEN is restricted by facet pattern with value \c{40}.
     """
@@ -12567,10 +13417,11 @@ def test_atomic_nmtoken_pattern_nistxml_sv_iv_atomic_nmtoken_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1():
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -12581,10 +13432,11 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2():
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -12595,10 +13447,11 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3():
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -12609,10 +13462,11 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4():
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -12623,10 +13477,11 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5():
+def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 64.
     """
@@ -12637,10 +13492,11 @@ def test_atomic_nmtoken_length_4_nistxml_sv_iv_atomic_nmtoken_length_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1():
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -12651,10 +13507,11 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2():
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -12665,10 +13522,11 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3():
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -12679,10 +13537,11 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4():
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -12693,10 +13552,11 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5():
+def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 60.
     """
@@ -12707,10 +13567,11 @@ def test_atomic_nmtoken_length_3_nistxml_sv_iv_atomic_nmtoken_length_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1():
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -12721,10 +13582,11 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2():
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -12735,10 +13597,11 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3():
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -12749,10 +13612,11 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4():
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -12763,10 +13627,11 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5():
+def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 57.
     """
@@ -12777,10 +13642,11 @@ def test_atomic_nmtoken_length_2_nistxml_sv_iv_atomic_nmtoken_length_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1():
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -12791,10 +13657,11 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2():
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -12805,10 +13672,11 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3():
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -12819,10 +13687,11 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4():
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -12833,10 +13702,11 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5():
+def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 38.
     """
@@ -12847,10 +13717,11 @@ def test_atomic_nmtoken_length_1_nistxml_sv_iv_atomic_nmtoken_length_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1():
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -12861,10 +13732,11 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2():
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -12875,10 +13747,11 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3():
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -12889,10 +13762,11 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4():
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -12903,10 +13777,11 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5():
+def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet length with value 1.
     """
@@ -12917,10 +13792,11 @@ def test_atomic_nmtoken_length_nistxml_sv_iv_atomic_nmtoken_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1():
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -12931,10 +13807,11 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2():
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -12945,10 +13822,11 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3():
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -12959,10 +13837,11 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4():
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -12973,10 +13852,11 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5():
+def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 64.
     """
@@ -12987,10 +13867,11 @@ def test_atomic_nmtoken_min_length_4_nistxml_sv_iv_atomic_nmtoken_min_length_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1():
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -13001,10 +13882,11 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2():
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -13015,10 +13897,11 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3():
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -13029,10 +13912,11 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4():
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -13043,10 +13927,11 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5():
+def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 33.
     """
@@ -13057,10 +13942,11 @@ def test_atomic_nmtoken_min_length_3_nistxml_sv_iv_atomic_nmtoken_min_length_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1():
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -13071,10 +13957,11 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2():
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -13085,10 +13972,11 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3():
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -13099,10 +13987,11 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4():
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -13113,10 +14002,11 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5():
+def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 35.
     """
@@ -13127,10 +14017,11 @@ def test_atomic_nmtoken_min_length_2_nistxml_sv_iv_atomic_nmtoken_min_length_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1():
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -13141,10 +14032,11 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2():
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -13155,10 +14047,11 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3():
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -13169,10 +14062,11 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4():
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -13183,10 +14077,11 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5():
+def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 45.
     """
@@ -13197,10 +14092,11 @@ def test_atomic_nmtoken_min_length_1_nistxml_sv_iv_atomic_nmtoken_min_length_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1():
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -13211,10 +14107,11 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2():
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -13225,10 +14122,11 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3():
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -13239,10 +14137,11 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4():
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -13253,10 +14152,11 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5():
+def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet minLength with value 1.
     """
@@ -13267,10 +14167,11 @@ def test_atomic_nmtoken_min_length_nistxml_sv_iv_atomic_nmtoken_min_length_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1():
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -13281,10 +14182,11 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2():
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -13295,10 +14197,11 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3():
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -13309,10 +14212,11 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4():
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -13323,10 +14227,11 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5():
+def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 64.
     """
@@ -13337,10 +14242,11 @@ def test_atomic_nmtoken_max_length_4_nistxml_sv_iv_atomic_nmtoken_max_length_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1():
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -13351,10 +14257,11 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2():
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -13365,10 +14272,11 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3():
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -13379,10 +14287,11 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4():
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -13393,10 +14302,11 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5():
+def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 54.
     """
@@ -13407,10 +14317,11 @@ def test_atomic_nmtoken_max_length_3_nistxml_sv_iv_atomic_nmtoken_max_length_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1():
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -13421,10 +14332,11 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2():
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -13435,10 +14347,11 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3():
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -13449,10 +14362,11 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4():
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -13463,10 +14377,11 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5():
+def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 42.
     """
@@ -13477,10 +14392,11 @@ def test_atomic_nmtoken_max_length_2_nistxml_sv_iv_atomic_nmtoken_max_length_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1():
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -13491,10 +14407,11 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2():
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -13505,10 +14422,11 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3():
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -13519,10 +14437,11 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4():
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -13533,10 +14452,11 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5():
+def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 41.
     """
@@ -13547,10 +14467,11 @@ def test_atomic_nmtoken_max_length_1_nistxml_sv_iv_atomic_nmtoken_max_length_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1():
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -13561,10 +14482,11 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2():
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -13575,10 +14497,11 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3():
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -13589,10 +14512,11 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4():
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -13603,10 +14527,11 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5():
+def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5(save_xml):
     """
     Type atomic/NMTOKEN is restricted by facet maxLength with value 1.
     """
@@ -13617,10 +14542,11 @@ def test_atomic_nmtoken_max_length_nistxml_sv_iv_atomic_nmtoken_max_length_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNmtokenMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1():
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1(save_xml):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -13632,10 +14558,11 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2():
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2(save_xml):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -13647,10 +14574,11 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3():
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3(save_xml):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -13662,10 +14590,11 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4():
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4(save_xml):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -13677,10 +14606,11 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5():
+def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5(save_xml):
     """
     Type atomic/Name is restricted by facet whiteSpace with value
     collapse.
@@ -13692,10 +14622,11 @@ def test_atomic_name_white_space_nistxml_sv_iv_atomic_name_white_space_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1():
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13706,10 +14637,11 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2():
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13720,10 +14652,11 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3():
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13734,10 +14667,11 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4():
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13748,10 +14682,11 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5():
+def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13762,10 +14697,11 @@ def test_atomic_name_enumeration_4_nistxml_sv_iv_atomic_name_enumeration_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1():
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13776,10 +14712,11 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2():
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13790,10 +14727,11 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3():
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13804,10 +14742,11 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4():
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13818,10 +14757,11 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5():
+def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13832,10 +14772,11 @@ def test_atomic_name_enumeration_3_nistxml_sv_iv_atomic_name_enumeration_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1():
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13846,10 +14787,11 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2():
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13860,10 +14802,11 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3():
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13874,10 +14817,11 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4():
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13888,10 +14832,11 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5():
+def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13902,10 +14847,11 @@ def test_atomic_name_enumeration_2_nistxml_sv_iv_atomic_name_enumeration_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1():
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13916,10 +14862,11 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2():
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13930,10 +14877,11 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3():
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13944,10 +14892,11 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4():
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13958,10 +14907,11 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5():
+def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13972,10 +14922,11 @@ def test_atomic_name_enumeration_1_nistxml_sv_iv_atomic_name_enumeration_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1():
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -13986,10 +14937,11 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2():
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -14000,10 +14952,11 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3():
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -14014,10 +14967,11 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4():
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -14028,10 +14982,11 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5():
+def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5(save_xml):
     """
     Type atomic/Name is restricted by facet enumeration.
     """
@@ -14042,10 +14997,11 @@ def test_atomic_name_enumeration_nistxml_sv_iv_atomic_name_enumeration_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1():
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -14056,10 +15012,11 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2():
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -14070,10 +15027,11 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3():
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -14084,10 +15042,11 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4():
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -14098,10 +15057,11 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5():
+def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{31}.
     """
@@ -14112,10 +15072,11 @@ def test_atomic_name_pattern_4_nistxml_sv_iv_atomic_name_pattern_5_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1():
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -14126,10 +15087,11 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2():
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -14140,10 +15102,11 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3():
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -14154,10 +15117,11 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4():
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -14168,10 +15132,11 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5():
+def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{14}.
     """
@@ -14182,10 +15147,11 @@ def test_atomic_name_pattern_3_nistxml_sv_iv_atomic_name_pattern_4_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1():
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -14196,10 +15162,11 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2():
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -14210,10 +15177,11 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3():
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -14224,10 +15192,11 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4():
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -14238,10 +15207,11 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5():
+def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{32}.
     """
@@ -14252,10 +15222,11 @@ def test_atomic_name_pattern_2_nistxml_sv_iv_atomic_name_pattern_3_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1():
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -14266,10 +15237,11 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2():
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -14280,10 +15252,11 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3():
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -14294,10 +15267,11 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4():
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -14308,10 +15282,11 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5():
+def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{52}.
     """
@@ -14322,10 +15297,11 @@ def test_atomic_name_pattern_1_nistxml_sv_iv_atomic_name_pattern_2_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1():
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -14336,10 +15312,11 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2():
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -14350,10 +15327,11 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3():
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -14364,10 +15342,11 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4():
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -14378,10 +15357,11 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5():
+def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5(save_xml):
     r"""
     Type atomic/Name is restricted by facet pattern with value \i\c{45}.
     """
@@ -14392,10 +15372,11 @@ def test_atomic_name_pattern_nistxml_sv_iv_atomic_name_pattern_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNamePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1():
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -14406,10 +15387,11 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2():
+def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 64.
     """
@@ -14420,4 +15402,5 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicNameLength5",
         version="1.0",
+        save_xml=save_xml,
     )

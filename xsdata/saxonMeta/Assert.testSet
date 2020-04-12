@@ -1,0 +1,1075 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Saxonica" name="Assert" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="assert001" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Simple assertion on an attribute value</ns0:Title>
+        <ns0:Description>Simple assertion on an attribute value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert001.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert001.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert001.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert001.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert001.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert002" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Cross validation between two attributes</ns0:Title>
+        <ns0:Description>Cross validation between two attributes</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert002.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert002.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert002.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert002.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert002.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert003" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Cross validation between elements and attributes</ns0:Title>
+        <ns0:Description>Asserts that existence of an attribute and a descendant element
+                          are mutually exclusive</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert003.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert003.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, only the attribute exists.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert003.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, only the element exists.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert003.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, both nodes exist.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert003.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, neither node exists.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert004" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Constraints at more than one level</ns0:Title>
+        <ns0:Description>Imposes constraints at two levels of the same tree; also tests that
+                constraints at the inner level are rooted at the node being validated.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert004.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert004.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert004.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert004.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, outer constraint not satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert004.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, inner constraint not satisfied on second inner element.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert005" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Multiple constraints on an inner level, no constraint at outer level</ns0:Title>
+        <ns0:Description>Tests the ability to construct multiple subtrees for validation,
+                             including use of preceding axis designed to stress the Saxon implementation.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <ns0:schemaTest name="assert005.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert005.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert005.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.v2.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert005.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, first constraint not satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert005.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, second constraint not satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert006" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Inheritance of constraints in a type derived by restriction</ns0:Title>
+        <ns0:Description>Tests inheritance of constraints; also imposes a constraint on a text
+                        node in a type with simple content.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <ns0:schemaTest name="assert006.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert006.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert006.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, base constraint not satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert006.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, derived constraint not satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert007" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Inheritance of constraints in a type derived by extension</ns0:Title>
+        <ns0:Description>Tests inheritance of constraints; also imposes a constraint on a text
+                        node in a type with complex content; also uses namespaces</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"/>
+    <ns0:schemaTest name="assert007.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert007.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert007.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, two moves by same player in succession.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert007.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, white castles twice.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert007.n3.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unrecognized result.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert008" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Use xpathDefaultNamespace on xs:assert</ns0:Title>
+        <ns0:Description>Variant of assert007 written with xpathDefaultNamespace. Same instance documents.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"/>
+    <ns0:schemaTest name="assert008.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-11-19"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert008.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-11-19"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, two moves by same player in succession.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-11-19"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, white castles twice.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008.n3.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unrecognized result.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-03-05"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert008a" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Use xpathDefaultNamespace on xs:schema element</ns0:Title>
+        <ns0:Description>Variant of assert007 written with xpathDefaultNamespace. Same instance documents.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <ns0:schemaTest name="assert008a.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert008a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert008a.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, both constraints satisfied.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008a.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, two moves by same player in succession.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008a.n2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, white castles twice.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert008a.n3.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unrecognized result.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert009" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assert that a node-set is empty - error diagnostics handled specially by Saxon</ns0:Title>
+        <ns0:Description>Simple assertion on an attribute value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert009.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-14"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert009.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert009.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-02-14"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert009.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert009.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-02-14"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert010" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a complex type with simple content</ns0:Title>
+        <ns0:Description>Co-occurrence constraint between the text content and an attribute.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:schemaTest name="assert010.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert010.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert010.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert010.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert010.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert011" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion involving a call to the doc() function</ns0:Title>
+        <ns0:Description>Uses an external document as a lookup table.
+                Had this working at one stage. But the current state of play (Saxon 9.2) is that doc() in an assertion is disallowed
+                both in the spec and in Saxon</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
+    <ns0:schemaTest name="assert011.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-12-15"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert011.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, satisfies the assertion. (calls to doc() don't work)</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert011.v1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-12-15"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert011.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert011.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-12-15"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert012" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion involving dynamic error in XPath expression</ns0:Title>
+        <ns0:Description>Divide by zero in assertion, same as returning false</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <ns0:schemaTest name="assert012.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert012.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion, because the assertion throws an error</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert012.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert013" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Attribute within subtree is typed</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert013.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert013.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, the attribute has the required type</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert014" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Element root of subtree is anyType</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert014.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert014.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, the element is anyType so atomizing it does not produce a date</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert015" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>$value is typed (complex type with simple content)</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert015.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert015.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, $value is a date</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert016" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Atomizing the element succeeds (it has type xs:anyType, not a type with element-only content)</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert015.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert016.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, atomization succeeds</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert017" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Atomizing the element succeeds, and the result is untypedAtomic</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert017.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert017.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, atomization succeeds</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert018" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Elements below the assertion root are properly typed</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert018.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert018.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, atomization succeeds</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert019" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Elements below the assertion root are properly typed</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert019.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-09-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert019.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, with a complex type, $value is the empty sequence</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert020" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion combined with chameleon include</ns0:Title>
+        <ns0:Description>Effect of xpathDefaultNamespace="##targetNamespace"</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"/>
+    <ns0:schemaTest name="assert020.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert020.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert020.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert020.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert020.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unsatisfies the assertion, nested too deep</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert020.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert021" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion combined with chameleon include</ns0:Title>
+        <ns0:Description>Effect of xpathDefaultNamespace="##targetNamespace"</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"/>
+    <ns0:schemaTest name="assert021.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert021.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert021.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert021.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, unsatisfies the assertion, nested too deep</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert021.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert022" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion testing type of data</ns0:Title>
+        <ns0:Description>Elements below the assertion root are properly typed</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert022.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert022.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert022.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, with a complex type, $value is the empty sequence</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert022.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2010-11-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert023" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Check that comments are by default not visible in assertions</ns0:Title>
+        <ns0:Description>Schema asserts that comments are not allowed. Result depends on configuration
+                  setting (see resolution of spec bug 13935</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"/>
+    <ns0:schemaTest name="assert023.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert023.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-05-20"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert023.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert023.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-05-20"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert023.v2.xml">
+      <ns0:annotation>
+        <ns0:documentation>Result depends on processor settings.
+		                By default it is valid, that is it satisfies the assertion, 
+		                because although there is a comment present, it is not visible
+		                to the assertion in the absence of a user option to make it so.
+		                If a processor option is set to make comments and processing instructions
+		                visible, then the instance becomes invalid.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert023.n1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2011-11-29" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"/>
+      <ns0:prior status="accepted" date="2011-05-20"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert024" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Namespace-aware assertions</ns0:Title>
+        <ns0:Description>The subtree being validated must include copies of in-scope namespaces</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"/>
+    <ns0:schemaTest name="assert024.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert024.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2012-10-17"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert024.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert024.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2012-10-17"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple001" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type</ns0:Title>
+        <ns0:Description>Assertion on a simple type: date must be in the past</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:schemaTest name="assert-simple001.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-12-08"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple001.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple001.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2007-12-08"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert-simple001.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple001.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2007-12-08"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple003" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type using xpathDefaultNamespace</ns0:Title>
+        <ns0:Description>Assertion on a simple type: value must be castable to xs:double</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <ns0:schemaTest name="assert-simple003.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple003.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert-simple003.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple004" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type using xpathDefaultNamespace on xs:schema element</ns0:Title>
+        <ns0:Description>Assertion on a simple type: value must be castable to xs:double</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <ns0:schemaTest name="assert-simple004.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple004.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert-simple004.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-05-29"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple005" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type with variety list</ns0:Title>
+        <ns0:Description>Assertion on a simple type: $value contains the typed value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert-simple005.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple005.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple005.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert-simple005.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple005.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple006" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type with variety union</ns0:Title>
+        <ns0:Description>Assertion on a simple type: $value contains the typed value</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"/>
+    <ns0:schemaTest name="assert-simple006.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple006.v1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple006.v1.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="assert-simple006.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple006.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple007" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type fails with dynamic XPath error</ns0:Title>
+        <ns0:Description>Assertion tries to construct a date from a string that isn't a lexical date</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <ns0:schemaTest name="assert-simple007.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple007.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple008" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type fails with dynamic XPath error</ns0:Title>
+        <ns0:Description>Assertion references context item which is undefined</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <ns0:schemaTest name="assert-simple008.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple007.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple009" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type fails with dynamic XPath error</ns0:Title>
+        <ns0:Description>Assertion references context position which is undefined</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <ns0:schemaTest name="assert-simple009.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple007.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="assert-simple010" version="1.1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>Assertion on a simple type fails with dynamic XPath error</ns0:Title>
+        <ns0:Description>Assertion references context size which is undefined</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <ns0:schemaTest name="assert-simple010.xsd">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="assert-simple007.n1.xml">
+      <ns0:annotation>
+        <ns0:documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2008-06-11"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+</ns0:testSet>

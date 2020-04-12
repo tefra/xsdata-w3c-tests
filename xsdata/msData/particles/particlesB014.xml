@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<doc xmlns:ns1="bar" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elem>
+    <ns0:a/>
+    <ns1:d/>
+  </elem>
+</doc>

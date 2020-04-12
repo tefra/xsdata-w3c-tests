@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<myNS:root xmlns:myNS="myNS.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <myNS:t>1</myNS:t>
+  <myNS:t>11</myNS:t>
+  <myNS:u>1</myNS:u>
+</myNS:root>

@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ctH066.xsd" myAttr1="extension group attribute" myAttr2="extension group second attribute" myAttr="extension attribute">
+  <myElement2>test data</myElement2>
+</root>

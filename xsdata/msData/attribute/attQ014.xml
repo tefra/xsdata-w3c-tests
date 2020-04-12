@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<x:doc xmlns:x="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <x:internationalPrice x:currency="EUR">423.46</x:internationalPrice>
+</x:doc>

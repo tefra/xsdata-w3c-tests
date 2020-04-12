@@ -1,0 +1,32 @@
+<!-- xsdata instance -->
+<foo:purchaseOrder xmlns:foo="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-10-20">
+  <foo:shipTo country="US">
+    <foo:name>Alice Smith</foo:name>
+    <foo:street>123 Maple Street</foo:street>
+    <foo:city>Mill Valley</foo:city>
+    <foo:state>CA</foo:state>
+    <foo:zip>90952</foo:zip>
+  </foo:shipTo>
+  <foo:billTo country="US">
+    <foo:name>Robert Smith</foo:name>
+    <foo:street>8 Oak Avenue</foo:street>
+    <foo:city>Old Town</foo:city>
+    <foo:state>PA</foo:state>
+    <foo:zip>95819</foo:zip>
+  </foo:billTo>
+  <foo:comment>Hurry, my lawn is going wild!</foo:comment>
+  <foo:items>
+    <foo:item partNum="872-AA">
+      <foo:productName>Lawnmower</foo:productName>
+      <foo:quantity>1</foo:quantity>
+      <foo:USPrice>148.95</foo:USPrice>
+      <foo:comment>Confirm this is electric</foo:comment>
+    </foo:item>
+    <foo:item partNum="926-AA">
+      <foo:productName>Baby Monitor</foo:productName>
+      <foo:quantity>1</foo:quantity>
+      <foo:USPrice>39.98</foo:USPrice>
+      <foo:shipDate>1999-05-21</foo:shipDate>
+    </foo:item>
+  </foo:items>
+</foo:purchaseOrder>

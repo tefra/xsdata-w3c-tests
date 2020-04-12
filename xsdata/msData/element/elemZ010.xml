@@ -1,0 +1,9 @@
+<!-- xsdata instance -->
+<m:root xmlns:m="main" xmlns:a="a" xmlns:b="b" xmlns:c="c" xmlns:d="d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <m:a>
+    <d:d/>
+    <c:c/>
+    <b:b/>
+    <a:a/>
+  </m:a>
+</m:root>

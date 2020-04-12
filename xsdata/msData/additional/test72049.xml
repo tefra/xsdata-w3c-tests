@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<a:root xmlns:a="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a:a/>
+</a:root>

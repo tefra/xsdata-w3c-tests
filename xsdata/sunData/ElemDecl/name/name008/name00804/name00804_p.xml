@@ -1,0 +1,47 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="ElemDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:aaaa>0</ns0:aaaa>
+  <ns0:bbbB>1</ns0:bbbB>
+  <ns0:ccCc>2</ns0:ccCc>
+  <ns0:ddDD>3</ns0:ddDD>
+  <ns0:eEee>4</ns0:eEee>
+  <ns0:fFfF>5</ns0:fFfF>
+  <ns0:pPPp>6</ns0:pPPp>
+  <ns0:gGGG>7</ns0:gGGG>
+  <ns0:Hhhh>8</ns0:Hhhh>
+  <ns0:IiiI>9</ns0:IiiI>
+  <ns0:JjJj>10</ns0:JjJj>
+  <ns0:KkKK>11</ns0:KkKK>
+  <ns0:LLll>12</ns0:LLll>
+  <ns0:MMmM>13</ns0:MMmM>
+  <ns0:NNNn>14</ns0:NNNn>
+  <ns0:OOOO>15</ns0:OOOO>
+  <ns0:bbb0>20</ns0:bbb0>
+  <ns0:cc0c>21</ns0:cc0c>
+  <ns0:dd00>22</ns0:dd00>
+  <ns0:e0ee>23</ns0:e0ee>
+  <ns0:f0f0>24</ns0:f0f0>
+  <ns0:p00p>25</ns0:p00p>
+  <ns0:g000>26</ns0:g000>
+  <ns0:bbb_>40</ns0:bbb_>
+  <ns0:cc_c>41</ns0:cc_c>
+  <ns0:dd__>42</ns0:dd__>
+  <ns0:e_ee>43</ns0:e_ee>
+  <ns0:f_f_>44</ns0:f_f_>
+  <ns0:p__p>45</ns0:p__p>
+  <ns0:g___>46</ns0:g___>
+  <ns0:H111>60</ns0:H111>
+  <ns0:I11I>61</ns0:I11I>
+  <ns0:J1J1>62</ns0:J1J1>
+  <ns0:K1KK>63</ns0:K1KK>
+  <ns0:LL11>64</ns0:LL11>
+  <ns0:MM1M>65</ns0:MM1M>
+  <ns0:NNN1>66</ns0:NNN1>
+  <ns0:H--->80</ns0:H--->
+  <ns0:I--I>81</ns0:I--I>
+  <ns0:J-J->82</ns0:J-J->
+  <ns0:K-KK>83</ns0:K-KK>
+  <ns0:LL-->84</ns0:LL-->
+  <ns0:MM-M>85</ns0:MM-M>
+  <ns0:NNN->86</ns0:NNN->
+</ns0:root>

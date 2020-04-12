@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<test:a xmlns:test="particles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <id>12345678900987654321</id>
+  <name>J. Abc</name>
+</test:a>

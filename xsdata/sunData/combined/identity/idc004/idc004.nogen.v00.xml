@@ -1,0 +1,16 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="http://www.vehicle.org">
+  <ns0:state>
+    <ns0:code>CA</ns0:code>
+    <ns0:vehicle plateNumber="123" state="CA"/>
+    <ns0:vehicle plateNumber="456" state="CA"/>
+    <ns0:person>
+      <ns0:car regState="CA" regPlate="123"/>
+      <ns0:car regState="NY" regPlate="123"/>
+    </ns0:person>
+  </ns0:state>
+  <ns0:state>
+    <ns0:code>NY</ns0:code>
+    <ns0:vehicle plateNumber="123" state="NY"/>
+  </ns0:state>
+</ns0:root>

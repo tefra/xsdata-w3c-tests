@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <test complexAtt1="123" complexAtt2="123" globalAtt1="123" item1="123" item2="123" globalAtt2="123" foo1="123" foo2="123" globalAtt3="123" foo3="123" item3="123" complexAtt3="123"/>
+</doc>

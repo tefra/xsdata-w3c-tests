@@ -1,0 +1,3034 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Microsoft" name="MS-Group2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="groupA001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: group with an id</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: group without an id</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two global groups with same id</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA004.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id:, id=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id:, id='1'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id:, id='xmlns'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupA012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test id:, id='a:b'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupA012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupA012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is schema, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB003v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB003.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is choice, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB006v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB006.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is redefine, ref='global group'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global attributeGroup'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from imported xsd"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from included xsd"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupB010v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupB010.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global complexType'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is sequence, ref='the root parent group's name'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is choice, ref='the root parent group's name'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is extension, ref='the root parent group's name'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB014.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, ref='the root parent group's name'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB015.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, reference a global group 'A', which has a choice that reference another globle group 'B', which as a sequence that reference 'A'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB016.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB017">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB017">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupB018">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupB018">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupB018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: two global groups with same name</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: group without an name</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC004.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name:, name=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name:, name='1'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name:, name='xmlns'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupC012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test name:, name='a:b'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupC012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupC012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupD001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have minOccurs, minOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupD001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupD001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupD002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have minOccurs, minOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupD002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupD002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupD003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have maxOccurs, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupD003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupD003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupD004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have maxOccurs, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupD004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupD004.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupE002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupE002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupE002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupE003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupE003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupE003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupE003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupE003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupE004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupE004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupE004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupE004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupE004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupE005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupE005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupE005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupE005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupE005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF006v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF007v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF007v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF007v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF007.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF008v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF008.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF010v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF010.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF011v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF011v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF011v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF011.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF012v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF012v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF012v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF012.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF013v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF013v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF013v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF013.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF014v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF014v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF014v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF014.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF015v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF015v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF015v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF015.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF016v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF016v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF016v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF016.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF017v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF017v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF017v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF017.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF018v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF018v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF018v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF019v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF019v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF019v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF019.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF021v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF021v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupF021v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupF021.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupF025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupF025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupF025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupG002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupG002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupG002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupG003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupG003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupG003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupG003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupG003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupG004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupG004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupG004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupG004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupG004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupG005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupG005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupG005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupG005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupG005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH006v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH007v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH007v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH008v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH008.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH010v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH010.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH011v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH011v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH011v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH011.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH012v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH012v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH012v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH012.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH013v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH013v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH013v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH013.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH014v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH014v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH014v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH014.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH015v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH015v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH015v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH015.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH016v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH016v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH016v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH016.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH017v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH017v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH017v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH017.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH018v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH018v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH018v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH019v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH019v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupH019v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupH019.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH021v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded</ns0:documentation>
+      <ns0:documentation>Invalid restriction, which becomes valid with XSD 1.1 - MHK</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"/>
+    <ns0:schemaTest name="groupH021v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH021.xsd"/>
+      <ns0:expected validity="invalid" version="1.0"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupH025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupH025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupH025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupI002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupI002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupI002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupI003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupI003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupI003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupI003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupI003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupI004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupI004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupI004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupI004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupI004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupI005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupI005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupI005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupI005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupI005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ006v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ007v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ007v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ007v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ007.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ008v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ008.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ010v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ010.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ011v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ011v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ011v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ011.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ012v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ012v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ012v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ012.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ013v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ013v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ013v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ013.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ014v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ014v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ014v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ014.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ015v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ015v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ015v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ015.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ016v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ016v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ016v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ016.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ017v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ017v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ017v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ017.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ018v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ018v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ018v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ019v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ019v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ019v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ019.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ021v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ021v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupJ021v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupJ021.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupJ025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupJ025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupJ025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupK002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupK002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupK002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupK003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupK003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupK003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupK003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupK003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupK004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupK004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupK004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupK004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupK004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupK005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupK005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupK005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupK005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupK005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL006v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL007.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL007.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL008v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL008.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL010v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL010.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL011v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL011v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL011v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL011.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL012v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL012v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL012v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL012.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL013v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL013v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL013v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL013.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL014v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL014v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL014v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL014.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL015v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL015v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL015v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL015.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL016v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL016v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL016v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL016.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL017v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL017v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL017v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL017.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL018v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL018v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL018v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL019v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL019v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL019v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL019.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL021v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL021v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupL021v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupL021.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupL025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupL025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupL025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupM002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupM002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupM002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupM003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupM003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupM003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupM003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupM003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupM004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupM004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupM004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupM004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupM004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupM005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupM005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupM005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupM005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupM005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN002v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN002.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN003v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN003v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN003v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN005v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN006v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN007v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN007v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN007v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN007.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN008v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN008.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN009v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN009.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN010v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN010v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN010v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN010.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN011v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN011v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN011.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN011v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN011.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN012v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN012v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN012v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN012.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN013v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN013v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN013v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN013.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN014v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN014v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN014v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN014.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN015v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN015v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN015v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN015.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN016v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN016v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN016v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN016.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN017v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN017v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN017v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN017.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN018v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN018v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN018v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN019v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN019v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN019.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN019v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN019.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN021v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN021v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupN021v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupN021.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupN025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupN025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupN025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO004v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by all</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO004v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO004v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO005v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO005v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO005v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO005.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO006v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO006v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO006v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO006.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO007v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO007v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO007v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO007.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO008v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO008v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO008v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO008.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO009v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO009v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="groupO009v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/group/groupO009.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by element</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO015.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO016.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO017">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO017">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO017.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO018">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO018">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO018.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO019">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO019">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO019.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO021">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO021">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO021.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test parent: parent is element</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO026">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test parent: parent is any</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO026">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO026.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="groupO027">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking (id, ref) : Test parent: parent is group</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"/>
+    <ns0:schemaTest name="groupO027">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/group/groupO027.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+</ns0:testSet>

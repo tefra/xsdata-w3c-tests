@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="ElemDecl/substGroupAffilation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:SuperElement/>
+  <ns0:SuperSuperElement/>
+  <ns0:Separator/>
+  <ns0:Element/>
+  <ns0:Element/>
+</ns0:root>

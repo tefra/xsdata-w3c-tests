@@ -1,0 +1,1294 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Saxonica" name="CTA" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:testGroup name="cta0001">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional simple type: example based on spec</ts:Title>
+        <ts:Description>Simple type of message depends on enumerated kind attribute</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta0001">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0001.v01">
+      <ts:annotation>
+        <ts:documentation>Valid, message with kind="date".</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0001.v02">
+      <ts:annotation>
+        <ts:documentation>Valid, message with kind="time".</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0001.v03">
+      <ts:annotation>
+        <ts:documentation>Valid, multiple messages at inner level.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v03.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0001.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with kind="date" but content is a time</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0001.n02">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with kind="date" at inner level</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0002">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional complex type with namespaces</ts:Title>
+        <ts:Description>Complex type of message depends on enumerated min attribute</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta0002">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0002.v01">
+      <ts:annotation>
+        <ts:documentation>Valid, various messages.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0002.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0002.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with min=1 but no child elements</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0002.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0003" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional complex type with namespaces</ts:Title>
+        <ts:Description>Trivial reference to the name of the element</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta0003">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0003.v01">
+      <ts:annotation>
+        <ts:documentation>Valid, various messages.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0003.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with min=1 but no child elements</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0004" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional complex type with namespaces</ts:Title>
+        <ts:Description>Variant of cta0003 (same instance documents) using xpathDefaultNamespace</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"/>
+    <ts:schemaTest name="cta0004">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0004.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0004.v01">
+      <ts:annotation>
+        <ts:documentation>Valid, various messages.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0004.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with min=1 but no child elements</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0005" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional complex type with namespaces</ts:Title>
+        <ts:Description>Variant of cta0003 (same instance documents) using xpathDefaultNamespace
+                         at the schema level</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"/>
+    <ts:schemaTest name="cta0005">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0005.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0005.v01">
+      <ts:annotation>
+        <ts:documentation>Valid, various messages.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0005.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid, message with min=1 but no child elements</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0006" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional simple type: selecting a branch of a union</ts:Title>
+        <ts:Description>Simple type of message depends on enumerated kind attribute, value is
+                 a QName identifying the branch of a union (xsi:type simulation)</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta0006">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0006.v01">
+      <ts:annotation>
+        <ts:documentation>Valid messages</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0006.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message with kind="xs:int"</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0006.n02">
+      <ts:annotation>
+        <ts:documentation>Invalid message with kind="xs:QName (namespace not declared"</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0007" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Variant of cta0006 using xs:error</ts:Title>
+        <ts:Description>Chosen alternative has a type of xs:error</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"/>
+    <ts:schemaTest name="cta0007">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0007.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2008-07-30"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0007.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message with kind="xs:anyURI" leading to selection of type xs:error</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0007.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2008-07-30"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0008" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Inline type alternative</ts:Title>
+        <ts:Description>Type alternative is an anonymous type defined as child of xs:alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta0008">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0008.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-10-17">
+        <ts:annotation>
+          <ts:documentation>Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.
+                  Bug 13455.</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2009-05-05"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0008.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0008.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2008-05-05"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0008.n01">
+      <ts:annotation>
+        <ts:documentation>inalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0008.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2008-05-05"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0009" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Type alternative is an anonymous type defined as child of xs:alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta0009">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0009.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0009.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0009.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0009.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0010" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Type alternative is an anonymous type defined as child of xs:alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"/>
+    <ts:schemaTest name="cta0010">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0010.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0010.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0010.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0010.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0011" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Inheritability differs between attribute declaration and use: attribute use wins</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta0011">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0011.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0011.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0011.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0011.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0011.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0012" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Inheritability differs between attribute declaration and use: attribute use wins</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta0012">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0012.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0012.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0012.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0012.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0012.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0013" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>A non-inheritable attribute does not mask an inheritable attribute on an ancestor</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"/>
+    <ts:schemaTest name="cta0013">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0013.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0013.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0013.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0013.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0014" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Explicit default alternative as last alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"/>
+    <ts:schemaTest name="cta0014">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0014.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0014.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0014.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0014.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0015" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Implicit default alternative as last alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"/>
+    <ts:schemaTest name="cta0015">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0015.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0015.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0015.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0015.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0015.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0016" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Error in XPath evaluation treated as false</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval"/>
+    <ts:schemaTest name="cta0016">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0016.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0016.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0016.v02">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0016.n01">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0016.n02">
+      <ts:annotation>
+        <ts:documentation>invalid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0017" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>XPath expression can only access attributes</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"/>
+    <ts:schemaTest name="cta0017">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0017.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0018" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>XPath expression sees untyped data</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"/>
+    <ts:schemaTest name="cta0018">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0018.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0018.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0019" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>XPath expression sees untyped data</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"/>
+    <ts:schemaTest name="cta0019">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0019.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0019.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0020" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>XPath expression sees name of element node</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"/>
+    <ts:schemaTest name="cta0020">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0020.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0020.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0021" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>XPath expression sees base URI of element node</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"/>
+    <ts:schemaTest name="cta0021">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0021.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0021.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0021.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0021.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message: base URI does not match the test, so the error alternative is chosen</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0021.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0022" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Dynamic context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0022">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0022.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0022.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0023" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0023">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0023.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0024" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0024">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0024.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0024.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0025" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0025">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0025.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0025.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0026" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0026">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0026.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0026.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0027" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0027">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0027.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0027.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0028" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using a simple type</ts:Title>
+        <ts:Description>Static context of XPath expression</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"/>
+    <ts:schemaTest name="cta0028">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0028.xsd"/>
+      <ts:expected validity="valid" version="full-xpath-in-CTA"/>
+      <ts:expected validity="invalid" version="restricted-xpath-in-CTA"/>
+      <ts:current status="accepted" date="2011-07-29">
+        <ts:annotation>
+          <ts:documentation>Added conditional results (bug 13455)</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0028.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0040" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative - substitutability</ts:Title>
+        <ts:Description>Valid substitution in a substitution group</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"/>
+    <ts:schemaTest name="cta0040">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0040.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0040.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0040.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0040.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message - appendix dateTime has no timezone</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0040.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0041" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative - substitutability</ts:Title>
+        <ts:Description>Invalid substitution in a substitution group - detected only at validation time, by particular instances</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"/>
+    <ts:schemaTest name="cta0041">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0041.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0041.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0041.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0041.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message - appendix dateTime has no timezone, which is OK for an appendix
+		                but not for a chap, making it an invalid substitution.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0041.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0042" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Element Declarations Consistent</ts:Title>
+        <ts:Description>Two particles in a content model have the same name; permitted because they have the same type table</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"/>
+    <ts:schemaTest name="cta0042">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0042.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0042.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0042.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0043" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative - substitutability</ts:Title>
+        <ts:Description>Invalid substitution in a restricted type - detected only at validation time, by particular instances</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"/>
+    <ts:schemaTest name="cta0043">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0043.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-10-08">
+        <ts:annotation>
+          <ts:documentation>Changed status to invalid (and dropped instance tests);
+                  reflects resolution of spec bug 12185 requiring
+                  the type tables of the elements in base type and
+                  derived type content models to be equivalent.</ts:documentation>
+        </ts:annotation>
+      </ts:current>
+      <ts:prior status="accepted" date="2011-02-08"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0044" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternatives - restricting attributes</ts:Title>
+        <ts:Description>Attribute allowed in one alternative but not allowed in another</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"/>
+    <ts:schemaTest name="cta0044">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0044.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2012-04-14"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="cta0044.v01">
+      <ts:annotation>
+        <ts:documentation>Valid message</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0044.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2012-04-14"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="cta0044.n01">
+      <ts:annotation>
+        <ts:documentation>Invalid message - attribute is prohibited in this type alternative</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0044.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2012-04-14"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta0045" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Element Declarations Consistent</ts:Title>
+        <ts:Description>Two particles in a content model have the same type table; one of the type alternatives has no condition</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"/>
+    <ts:schemaTest name="cta0042">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0045.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2013-09-22"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9001err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional simple type: example based on spec</ts:Title>
+        <ts:Description>Test attribute missing on non-final alternative</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
+    <ts:schemaTest name="cta9001err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9001err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-12"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9002err" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Conditional simple type: example based on spec</ts:Title>
+        <ts:Description>Invalid XPath expression - reference to undeclared variable (also uses XPath syntax outside the CTA subset)</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"/>
+    <ts:schemaTest name="cta9002err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9002err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9003err" version="full-xpath-in-CTA">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Error case - reference to user-defined type</ts:Title>
+        <ts:Description>User-defined types are not part of the static context</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"/>
+    <ts:schemaTest name="cta9003err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9003err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2007-11-19"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9004err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Invalid complex type description: inheritability varies between base type and restricted type</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-content-act-restrict"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta9004err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9004err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9005err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Invalid complex type description: inheritability varies between base type and restricted type</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta9005err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9005err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9006err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Non-boolean value for "inheritable"</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta9006err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9006err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9007err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type alternative using an inherited attribute</ts:Title>
+        <ts:Description>Non-boolean value for "inheritable"</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
+    <ts:schemaTest name="cta9007err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9007err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9008err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Error, alternative is not substitutable for the declared type</ts:Title>
+        <ts:Description>Each alternative must be substitutable for declared type</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"/>
+    <ts:schemaTest name="cta9008err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9008err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9009err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Element Declarations Consistent</ts:Title>
+        <ts:Description>Two particles in a content model have the same name; disallowed because they have different type tables</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"/>
+    <ts:schemaTest name="cta9009err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9009err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="cta9010err" version="1.1">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Element Declarations Consistent</ts:Title>
+        <ts:Description>Two particles in a content model have the same name; disallowed because they have different type tables</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"/>
+    <ts:schemaTest name="cta9010err">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta9010err.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-15"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+</ts:testSet>

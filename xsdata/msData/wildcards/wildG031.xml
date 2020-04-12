@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<a:foo xmlns:a="http://foobar" xmlns:A="B" xmlns:ns0="C" xmlns:D="D" xmlns:e="E" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a:bar>foo bar</a:bar>
+  <bar>foo bar</bar>
+  <foo/>
+  <ns0:foo xmlns:ns0="A"/>
+  <A:foo/>
+  <ns0:foo/>
+  <D:foo/>
+  <e:foo/>
+</a:foo>

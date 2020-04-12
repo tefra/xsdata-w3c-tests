@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<tns:root xmlns:tns="http://xstest-tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <person numberOfChildren="2">
+    <child name="C1" DOB="2007-10-10"/>
+    <child name="C2" DOB="2003-01-02"/>
+  </person>
+  <person numberOfChildren="6">
+    <child name="C1" DOB="01/01/2000"/>
+  </person>
+  <person numberOfChildren="0"/>
+</tns:root>

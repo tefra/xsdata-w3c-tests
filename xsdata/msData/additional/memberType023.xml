@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<ns0:root xmlns:ns0="foo">
+  <ns0:e att="true"/>
+  <ns0:e att="5"/>
+  <ns0:e att="abc"/>
+</ns0:root>

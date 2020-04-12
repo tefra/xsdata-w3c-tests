@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<test:a xmlns:test="nsConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test1="ns_test1" xmlns:test2="ns_test2" xsi:schemaLocation="nsConstraint nsConstraint00302m1.xsd" test1:date="2002-04-29" test2:time="15:15:00"/>

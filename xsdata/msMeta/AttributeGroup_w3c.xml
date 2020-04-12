@@ -1,0 +1,1467 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Microsoft" name="MS-AttributeGroup2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="attgA001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='0'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute id=':a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA004.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 global attributeGroups with same ID</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroups, one is global and one is from 'redefine', with same ID</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from complexType and one is inside another attributeGroup of some extension, with same ID</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from imported xsd, and one is from included xsd, with same ID</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgA009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: redefine an attributeGroup and give it an existing ID</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgA009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgA009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is attributeGroup, name='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is complexType, name='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is extension, name='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB004.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global (redefining global is ok), parent is redefine, name='a'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='0'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='msxml'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB008.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name but different targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 global attributeGroups with same name</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different redefine, with same namespac.</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different import, with different namespac.</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name and same targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name but different targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgB015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name and same targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgB015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgB015.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have ref attribute on global, parent is schema, ref='name of a global attribute group '</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group declared at the beginning of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from imported xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from included xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of global attribute group declared at the end of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value different what is defined as fixed in the redefined attributeGroup.</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC006.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC006.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value same as what is defined as fixed in the redefined attributeGroup.</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC007.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC007.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (not a valid reference to an attributeGroup)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name="test", has child attributeGroup that also has, parent is attributeGroup, ref='test'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC010.xsd"/>
+      <ns0:expected validity="invalid" version="1.0"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24">
+        <ns0:annotation>
+          <ns0:documentation>See bug 15795. XSD 1.1 allows circular attribute group definitions.</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC010a" version="1.1">
+      <ns0:annotation>
+        <ns0:documentation>Valid instance, showing validation against a circular attribute group in XSD 1.1</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC010a.xml"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24"/>
+    </ns0:instanceTest>
+    <ns0:instanceTest name="attgC010b" version="1.1">
+      <ns0:annotation>
+        <ns0:documentation>Invalid instance, showing validation against a circular attribute group in XSD 1.1</ns0:documentation>
+      </ns0:annotation>
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC010b.xml"/>
+      <ns0:expected validity="invalid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (a name of a global attribute)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='very very log string ( more than 9999 chars)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC012.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group declared at the beginning of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC013.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from imported xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from included xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of global attribute group declared at the end of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC017">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of attribute group declared inside a redefine'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC017">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC017.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC018">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (not a valid reference to an attributeGroup)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC018">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC018.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC019">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC019">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC019.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name="test", has child attributeGroup that also has, parent is complexType, ref='test'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC020.xsd"/>
+      <ns0:expected validity="invalid" version="1.0"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24">
+        <ns0:annotation>
+          <ns0:documentation>See bug 15795. XSD 1.1 allows circular attribute group definitions.</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC021">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (a name of a global attribute)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC021">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC021.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='very very log string ( more than 9999 chars)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC022.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group declared at the beginning of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC023.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from imported xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC024.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC024.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC024.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC025.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC025.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC025.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC026">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC026">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC026.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC026.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC026.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC027">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of global attribute group declared at the end of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC027">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC027.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC028">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of attribute group declared inside a redefine'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC028">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC028.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC029">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (not a valid reference to an attributeGroup)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC029">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC029.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC030">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC030">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC030.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC031">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name="test", has child attributeGroup that also has, parent is extension, ref='test'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC031">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC031.xsd"/>
+      <ns0:expected validity="invalid" version="1.0"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24">
+        <ns0:annotation>
+          <ns0:documentation>See bug 15795. XSD 1.1 allows circular attribute group definitions.</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC032">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (a name of a global attribute)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC032">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC032.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC033">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='very very log string ( more than 9999 chars)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC033">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC033.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC034">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group declared at the beginning of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC034">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC034.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC035">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from imported xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC035">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC035.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC035.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC035.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC036">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from included xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC036">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC036.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC036.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC036.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC037">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of global attribute group declared at the end of xsd'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC037">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC037.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC037.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC037.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC038">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of attribute group declared inside a redefine'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC038">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC038.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgC038.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC038.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC039">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (not a valid reference to an attributeGroup)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC039">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC039.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC040">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref=''</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC040">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC040.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC041">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: circular Ref is allow if parent is redefine, name="test", has child attributeGroup that also has, parent is redefine, ref='test'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC041">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC041.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC042">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (a name of a global attribute)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC042">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC042.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC043">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='very very log string ( more than 9999 chars)'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC043">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC043.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC044">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attributeGroup as children, both has ref="foo"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC044">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC044.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgC045">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with name="foo", complexType with name='foo'</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgC045">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgC045.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with annotation</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two annotation</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with 2000 attribute decl as child, the xml has the 2000 attributes</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD003.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD003.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with just another attributeGroup, the xml has the attributes</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD004.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD004.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child in the sequence of ( att, attg, att, attg, att), the xml has the attributes</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD005.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD005.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same namespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attribute group with two attribute, where the name of one att is same as the ref value of the other</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same type</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, different type</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attribute and attributeGroup which intern reference to different attributeGroup containing attributes and attributeGroup</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD010.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to an element</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child element declaration</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to a simpleType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to complexType</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD014.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup ( w/ name = foo and containing an attributeGroup with ref = foobar) and attributeGroup (w/ name=foobar and containing an attributeGroup with ref=foo)</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD015.xsd"/>
+      <ns0:expected validity="invalid" version="1.0"/>
+      <ns0:expected validity="valid" version="1.1"/>
+      <ns0:current status="accepted" date="2012-02-24">
+        <ns0:annotation>
+          <ns0:documentation>See bug 15795. XSD 1.1 allows circular attribute group definitions.</ns0:documentation>
+        </ns0:annotation>
+      </ns0:current>
+      <ns0:prior status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, which reference to two different attributeGroups that reference the same attribute</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD016.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD017">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, parent is redefined, attG1 reference a global attributeGroup which define an attribute 'foo', attG2 reference the redefining xsd's attributeGroup 'foo' with same namespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD017">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD017.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD018">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ id)</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD018">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD018.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD018.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD018.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD019">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ annotation)</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD019">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD019.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD019a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD019.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD019.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with no namespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD020.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD020a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD020.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD020.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD021">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with "foo" as its namespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD021">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD021.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD021a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD021.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD021.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace different from the targetNamdspace of the xsd</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD022.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD022a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD022.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD022.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace same as the targetNamdspace of the xsd</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD023.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD023.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD023.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance which fall under targetNS, but not defiled in the schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD024.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD024.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD024.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace UNqualified</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD025.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD025a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD025.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD025.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD026">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace qualified</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD026">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD026.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD026.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD026.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD027">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the attribute instance which is of namespace "foo"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD027">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD027.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD027.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD027.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD028">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the attribute instance which is of namespace "bar"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD028">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD028.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD028.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD028.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD029">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD029">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD029.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD029.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD029.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD030">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace other than targetNamespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD030">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD030.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD030.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD030.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD031">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##skip), the xml has the attribute instance which conatins attribute not declared in any schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD031">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD031.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD031.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD031.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD032">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins valid elements and attribute against schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD032">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD032.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD032.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD032.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD033">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins invalid attribute against schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD033">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD033.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD033.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD033.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD034">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins valid elements and attribute against schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD034">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD034.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD034.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD034.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD035">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value="37", the xml has the attribute instance which "36"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD035">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD035.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD035.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD035.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD036">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value="37", the xml has the attribute instance which "37"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD036">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD036.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD036.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD036.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD037">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has attribute decl as child</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD037">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD037.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD038">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has attributeGroup decl as child</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD038">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD038.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD039">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has AnyAattribute decl as child</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD039">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD039.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD040">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has annotation as child</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD040">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD040.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD041">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : circular reference, attG A ref to B which ref C which ref back to A</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD041">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD041.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgD042">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins invalid attribute against schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgD042">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD042.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgD042.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgD042.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgZ001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global attribute reference in attributeGroup should be invalid if not qualified in the instance. (attributeFormDefault is qualified).</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgZ001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgZ001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="attgZ001.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgZ001.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgZ002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,required</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgZ002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgZ002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="attgZ003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,prohibited</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"/>
+    <ns0:schemaTest name="attgZ003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/attributeGroup/attgZ003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+</ns0:testSet>

@@ -1,0 +1,122 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="CTA" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:testGroup name="typeAlternatives_001" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_001_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test1.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_001_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test1.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="typeAlternatives_002" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_002_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test2.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_002_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test2.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="typeAlternatives_003" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided
+			as children of xs:alternative instructions.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_003_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test2_1.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_003_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test2.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="typeAlternatives_004" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along
+			with type-alternatives.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_004_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test3.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_004_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test3_1.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="typeAlternatives_004_3">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test3_2.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="typeAlternatives_005" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_005_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test4.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_005_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test4_1.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="typeAlternatives_005_3">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test4_2.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="typeAlternatives_006" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Demonstrates XML Schema 1.1 type-alternatives.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
+    <ts:schemaTest name="typeAlternatives_006_1">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test5.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="typeAlternatives_006_2">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test5_1.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="typeAlternatives_006_3">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/type-alternatives/test5_2.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-12"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+</ts:testSet>

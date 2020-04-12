@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_3():
+def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     13.
@@ -13,10 +13,11 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_4():
+def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     13.
@@ -28,10 +29,11 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_5():
+def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     13.
@@ -43,10 +45,11 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_1():
+def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     10.
@@ -58,10 +61,11 @@ def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_2():
+def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     10.
@@ -73,10 +77,11 @@ def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_3():
+def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     10.
@@ -88,10 +93,11 @@ def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_4():
+def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     10.
@@ -103,10 +109,11 @@ def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_5():
+def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_total_digits_4_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     10.
@@ -118,10 +125,11 @@ def test_atomic_unsigned_long_total_digits_8_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_1():
+def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     7.
@@ -133,10 +141,11 @@ def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_2():
+def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     7.
@@ -148,10 +157,11 @@ def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_3():
+def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     7.
@@ -163,10 +173,11 @@ def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_4():
+def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     7.
@@ -178,10 +189,11 @@ def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_5():
+def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_total_digits_3_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     7.
@@ -193,10 +205,11 @@ def test_atomic_unsigned_long_total_digits_7_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_1():
+def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     4.
@@ -208,10 +221,11 @@ def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_2():
+def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     4.
@@ -223,10 +237,11 @@ def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_3():
+def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     4.
@@ -238,10 +253,11 @@ def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_4():
+def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     4.
@@ -253,10 +269,11 @@ def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_5():
+def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_total_digits_2_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     4.
@@ -268,10 +285,11 @@ def test_atomic_unsigned_long_total_digits_6_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_1():
+def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     1.
@@ -283,10 +301,11 @@ def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_2():
+def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     1.
@@ -298,10 +317,11 @@ def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_3():
+def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     1.
@@ -313,10 +333,11 @@ def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_4():
+def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     1.
@@ -328,10 +349,11 @@ def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_5():
+def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_total_digits_1_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet totalDigits with value
     1.
@@ -343,10 +365,11 @@ def test_atomic_unsigned_long_total_digits_5_nistxml_sv_ii_atomic_unsigned_long_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_1():
+def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 988150031519812287.
@@ -358,10 +381,11 @@ def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_2():
+def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 988150031519812287.
@@ -373,10 +397,11 @@ def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_3():
+def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 988150031519812287.
@@ -388,10 +413,11 @@ def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_4():
+def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 988150031519812287.
@@ -403,10 +429,11 @@ def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_5():
+def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 988150031519812287.
@@ -418,10 +445,11 @@ def test_atomic_unsigned_long_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_1():
+def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 456868453150915620.
@@ -433,10 +461,11 @@ def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_2():
+def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 456868453150915620.
@@ -448,10 +477,11 @@ def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_3():
+def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 456868453150915620.
@@ -463,10 +493,11 @@ def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_4():
+def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 456868453150915620.
@@ -478,10 +509,11 @@ def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_5():
+def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 456868453150915620.
@@ -493,10 +525,11 @@ def test_atomic_unsigned_long_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_1():
+def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 716865919719541721.
@@ -508,10 +541,11 @@ def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_2():
+def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 716865919719541721.
@@ -523,10 +557,11 @@ def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_3():
+def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 716865919719541721.
@@ -538,10 +573,11 @@ def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_4():
+def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 716865919719541721.
@@ -553,10 +589,11 @@ def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_5():
+def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 716865919719541721.
@@ -568,10 +605,11 @@ def test_atomic_unsigned_long_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_1():
+def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 658823762719767058.
@@ -583,10 +621,11 @@ def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_2():
+def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 658823762719767058.
@@ -598,10 +637,11 @@ def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_3():
+def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 658823762719767058.
@@ -613,10 +653,11 @@ def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_4():
+def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 658823762719767058.
@@ -628,10 +669,11 @@ def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_5():
+def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 658823762719767058.
@@ -643,10 +685,11 @@ def test_atomic_unsigned_long_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_1():
+def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 0.
@@ -658,10 +701,11 @@ def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_2():
+def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 0.
@@ -673,10 +717,11 @@ def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_3():
+def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 0.
@@ -688,10 +733,11 @@ def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_4():
+def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 0.
@@ -703,10 +749,11 @@ def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_5():
+def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_max_inclusive_1_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet maxInclusive with
     value 0.
@@ -718,10 +765,11 @@ def test_atomic_unsigned_long_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_1():
+def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 999999999999999999.
@@ -733,10 +781,11 @@ def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_2():
+def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 999999999999999999.
@@ -748,10 +797,11 @@ def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_3():
+def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 999999999999999999.
@@ -763,10 +813,11 @@ def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_4():
+def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 999999999999999999.
@@ -778,10 +829,11 @@ def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_5():
+def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_6_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 999999999999999999.
@@ -793,10 +845,11 @@ def test_atomic_unsigned_long_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_1():
+def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 227623669414460438.
@@ -808,10 +861,11 @@ def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_2():
+def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 227623669414460438.
@@ -823,10 +877,11 @@ def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_3():
+def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 227623669414460438.
@@ -838,10 +893,11 @@ def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_4():
+def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 227623669414460438.
@@ -853,10 +909,11 @@ def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_5():
+def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_5_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 227623669414460438.
@@ -868,10 +925,11 @@ def test_atomic_unsigned_long_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_1():
+def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 78231575228674965.
@@ -883,10 +941,11 @@ def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_2():
+def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 78231575228674965.
@@ -898,10 +957,11 @@ def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_3():
+def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 78231575228674965.
@@ -913,10 +973,11 @@ def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_4():
+def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 78231575228674965.
@@ -928,10 +989,11 @@ def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_5():
+def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_4_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 78231575228674965.
@@ -943,10 +1005,11 @@ def test_atomic_unsigned_long_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_1():
+def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 475565976977797121.
@@ -958,10 +1021,11 @@ def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_2():
+def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 475565976977797121.
@@ -973,10 +1037,11 @@ def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_3():
+def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 475565976977797121.
@@ -988,10 +1053,11 @@ def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_4():
+def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 475565976977797121.
@@ -1003,10 +1069,11 @@ def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_5():
+def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_3_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 475565976977797121.
@@ -1018,10 +1085,11 @@ def test_atomic_unsigned_long_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_1():
+def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_1(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 607303985250778221.
@@ -1033,10 +1101,11 @@ def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_2():
+def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_2(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 607303985250778221.
@@ -1048,10 +1117,11 @@ def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_3():
+def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_3(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 607303985250778221.
@@ -1063,10 +1133,11 @@ def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_4():
+def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_4(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 607303985250778221.
@@ -1078,10 +1149,11 @@ def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_5():
+def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long_min_inclusive_2_5(save_xml):
     """
     Type atomic/unsignedLong is restricted by facet minInclusive with
     value 607303985250778221.
@@ -1093,10 +1165,11 @@ def test_atomic_unsigned_long_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_long
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicUnsignedLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_1():
+def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 13.
@@ -1108,10 +1181,11 @@ def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_2():
+def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 13.
@@ -1123,10 +1197,11 @@ def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_3():
+def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 13.
@@ -1138,10 +1213,11 @@ def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_4():
+def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 13.
@@ -1153,10 +1229,11 @@ def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_5():
+def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_negative_integer_total_digits_5_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 13.
@@ -1168,10 +1245,11 @@ def test_atomic_non_negative_integer_total_digits_9_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_1():
+def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 10.
@@ -1183,10 +1261,11 @@ def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_2():
+def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 10.
@@ -1198,10 +1277,11 @@ def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_3():
+def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 10.
@@ -1213,10 +1293,11 @@ def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_4():
+def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 10.
@@ -1228,10 +1309,11 @@ def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_5():
+def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_negative_integer_total_digits_4_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 10.
@@ -1243,10 +1325,11 @@ def test_atomic_non_negative_integer_total_digits_8_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_1():
+def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 7.
@@ -1258,10 +1341,11 @@ def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_2():
+def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 7.
@@ -1273,10 +1357,11 @@ def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_3():
+def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 7.
@@ -1288,10 +1373,11 @@ def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_4():
+def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 7.
@@ -1303,10 +1389,11 @@ def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_5():
+def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_negative_integer_total_digits_3_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 7.
@@ -1318,10 +1405,11 @@ def test_atomic_non_negative_integer_total_digits_7_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_1():
+def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 4.
@@ -1333,10 +1421,11 @@ def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_2():
+def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 4.
@@ -1348,10 +1437,11 @@ def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_3():
+def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 4.
@@ -1363,10 +1453,11 @@ def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_4():
+def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 4.
@@ -1378,10 +1469,11 @@ def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_5():
+def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_negative_integer_total_digits_2_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 4.
@@ -1393,10 +1485,11 @@ def test_atomic_non_negative_integer_total_digits_6_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_1():
+def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 1.
@@ -1408,10 +1501,11 @@ def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_2():
+def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 1.
@@ -1423,10 +1517,11 @@ def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_3():
+def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 1.
@@ -1438,10 +1533,11 @@ def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_4():
+def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 1.
@@ -1453,10 +1549,11 @@ def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_5():
+def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_negative_integer_total_digits_1_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet totalDigits with
     value 1.
@@ -1468,10 +1565,11 @@ def test_atomic_non_negative_integer_total_digits_5_nistxml_sv_ii_atomic_non_neg
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_1():
+def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 5840324392176410.
@@ -1483,10 +1581,11 @@ def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_2():
+def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 5840324392176410.
@@ -1498,10 +1597,11 @@ def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_3():
+def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 5840324392176410.
@@ -1513,10 +1613,11 @@ def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_4():
+def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 5840324392176410.
@@ -1528,10 +1629,11 @@ def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_5():
+def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_5_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 5840324392176410.
@@ -1543,10 +1645,11 @@ def test_atomic_non_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_1():
+def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 378879032113847990.
@@ -1558,10 +1661,11 @@ def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_2():
+def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 378879032113847990.
@@ -1573,10 +1677,11 @@ def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_3():
+def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 378879032113847990.
@@ -1588,10 +1693,11 @@ def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_4():
+def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 378879032113847990.
@@ -1603,10 +1709,11 @@ def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_5():
+def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_4_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 378879032113847990.
@@ -1618,10 +1725,11 @@ def test_atomic_non_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_1():
+def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 303742718992286664.
@@ -1633,10 +1741,11 @@ def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_2():
+def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 303742718992286664.
@@ -1648,10 +1757,11 @@ def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_3():
+def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 303742718992286664.
@@ -1663,10 +1773,11 @@ def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_4():
+def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 303742718992286664.
@@ -1678,10 +1789,11 @@ def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_5():
+def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_3_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 303742718992286664.
@@ -1693,10 +1805,11 @@ def test_atomic_non_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_1():
+def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 297689380360350197.
@@ -1708,10 +1821,11 @@ def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_2():
+def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 297689380360350197.
@@ -1723,10 +1837,11 @@ def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_3():
+def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 297689380360350197.
@@ -1738,10 +1853,11 @@ def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_4():
+def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 297689380360350197.
@@ -1753,10 +1869,11 @@ def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_5():
+def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_2_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 297689380360350197.
@@ -1768,10 +1885,11 @@ def test_atomic_non_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_1():
+def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 0.
@@ -1783,10 +1901,11 @@ def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_2():
+def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 0.
@@ -1798,10 +1917,11 @@ def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_3():
+def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 0.
@@ -1813,10 +1933,11 @@ def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_4():
+def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 0.
@@ -1828,10 +1949,11 @@ def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_5():
+def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_max_inclusive_1_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet maxInclusive
     with value 0.
@@ -1843,10 +1965,11 @@ def test_atomic_non_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_1():
+def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 999999999999999999.
@@ -1858,10 +1981,11 @@ def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_2():
+def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 999999999999999999.
@@ -1873,10 +1997,11 @@ def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_3():
+def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 999999999999999999.
@@ -1888,10 +2013,11 @@ def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_4():
+def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 999999999999999999.
@@ -1903,10 +2029,11 @@ def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_5():
+def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_6_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 999999999999999999.
@@ -1918,10 +2045,11 @@ def test_atomic_non_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_1():
+def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 586989978554113389.
@@ -1933,10 +2061,11 @@ def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_2():
+def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 586989978554113389.
@@ -1948,10 +2077,11 @@ def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_3():
+def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 586989978554113389.
@@ -1963,10 +2093,11 @@ def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_4():
+def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 586989978554113389.
@@ -1978,10 +2109,11 @@ def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_5():
+def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_5_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 586989978554113389.
@@ -1993,10 +2125,11 @@ def test_atomic_non_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_1():
+def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 705386240938976837.
@@ -2008,10 +2141,11 @@ def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_2():
+def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 705386240938976837.
@@ -2023,10 +2157,11 @@ def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_3():
+def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 705386240938976837.
@@ -2038,10 +2173,11 @@ def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_4():
+def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 705386240938976837.
@@ -2053,10 +2189,11 @@ def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_5():
+def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_4_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 705386240938976837.
@@ -2068,10 +2205,11 @@ def test_atomic_non_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_1():
+def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 414683870939169918.
@@ -2083,10 +2221,11 @@ def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_2():
+def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 414683870939169918.
@@ -2098,10 +2237,11 @@ def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_3():
+def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 414683870939169918.
@@ -2113,10 +2253,11 @@ def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_4():
+def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 414683870939169918.
@@ -2128,10 +2269,11 @@ def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_5():
+def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_3_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 414683870939169918.
@@ -2143,10 +2285,11 @@ def test_atomic_non_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_1():
+def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_1(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 68621188090916995.
@@ -2158,10 +2301,11 @@ def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_2():
+def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_2(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 68621188090916995.
@@ -2173,10 +2317,11 @@ def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_3():
+def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_3(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 68621188090916995.
@@ -2188,10 +2333,11 @@ def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_4():
+def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_4(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 68621188090916995.
@@ -2203,10 +2349,11 @@ def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_5():
+def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_negative_integer_min_inclusive_2_5(save_xml):
     """
     Type atomic/nonNegativeInteger is restricted by facet minInclusive
     with value 68621188090916995.
@@ -2218,10 +2365,11 @@ def test_atomic_non_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_ne
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_1():
+def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_1(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 2.
     """
@@ -2232,10 +2380,11 @@ def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_2():
+def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_2(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 2.
     """
@@ -2246,10 +2395,11 @@ def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_3():
+def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_3(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 2.
     """
@@ -2260,10 +2410,11 @@ def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_4():
+def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_4(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 2.
     """
@@ -2274,10 +2425,11 @@ def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_5():
+def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_5(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 2.
     """
@@ -2288,10 +2440,11 @@ def test_atomic_byte_total_digits_4_nistxml_sv_ii_atomic_byte_total_digits_2_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_1():
+def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_1(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 1.
     """
@@ -2302,10 +2455,11 @@ def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_2():
+def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_2(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 1.
     """
@@ -2316,10 +2470,11 @@ def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_3():
+def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_3(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 1.
     """
@@ -2330,10 +2485,11 @@ def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_4():
+def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_4(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 1.
     """
@@ -2344,10 +2500,11 @@ def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_5():
+def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_5(save_xml):
     """
     Type atomic/byte is restricted by facet totalDigits with value 1.
     """
@@ -2358,10 +2515,11 @@ def test_atomic_byte_total_digits_3_nistxml_sv_ii_atomic_byte_total_digits_1_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_1():
+def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_1(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -100.
     """
@@ -2372,10 +2530,11 @@ def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_2():
+def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_2(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -100.
     """
@@ -2386,10 +2545,11 @@ def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_3():
+def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_3(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -100.
     """
@@ -2400,10 +2560,11 @@ def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_4():
+def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_4(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -100.
     """
@@ -2414,10 +2575,11 @@ def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_5():
+def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_5(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -100.
     """
@@ -2428,10 +2590,11 @@ def test_atomic_byte_max_inclusive_9_nistxml_sv_ii_atomic_byte_max_inclusive_5_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_1():
+def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_1(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -91.
     """
@@ -2442,10 +2605,11 @@ def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_2():
+def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_2(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -91.
     """
@@ -2456,10 +2620,11 @@ def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_3():
+def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_3(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -91.
     """
@@ -2470,10 +2635,11 @@ def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_4():
+def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_4(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -91.
     """
@@ -2484,10 +2650,11 @@ def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_5():
+def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_5(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -91.
     """
@@ -2498,10 +2665,11 @@ def test_atomic_byte_max_inclusive_8_nistxml_sv_ii_atomic_byte_max_inclusive_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_1():
+def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_1(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -93.
     """
@@ -2512,10 +2680,11 @@ def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_2():
+def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_2(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -93.
     """
@@ -2526,10 +2695,11 @@ def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_3():
+def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_3(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -93.
     """
@@ -2540,10 +2710,11 @@ def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_4():
+def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_4(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -93.
     """
@@ -2554,10 +2725,11 @@ def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_5():
+def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_5(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -93.
     """
@@ -2568,10 +2740,11 @@ def test_atomic_byte_max_inclusive_7_nistxml_sv_ii_atomic_byte_max_inclusive_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_1():
+def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_1(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value 122.
     """
@@ -2582,10 +2755,11 @@ def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_2():
+def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_2(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value 122.
     """
@@ -2596,10 +2770,11 @@ def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_3():
+def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_3(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value 122.
     """
@@ -2610,10 +2785,11 @@ def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_4():
+def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_4(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value 122.
     """
@@ -2624,10 +2800,11 @@ def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_5():
+def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_5(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value 122.
     """
@@ -2638,10 +2815,11 @@ def test_atomic_byte_max_inclusive_6_nistxml_sv_ii_atomic_byte_max_inclusive_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_1():
+def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_1(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -128.
     """
@@ -2652,10 +2830,11 @@ def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_2():
+def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_2(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -128.
     """
@@ -2666,10 +2845,11 @@ def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_3():
+def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_3(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -128.
     """
@@ -2680,10 +2860,11 @@ def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_4():
+def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_4(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -128.
     """
@@ -2694,10 +2875,11 @@ def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_5():
+def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_5(save_xml):
     """
     Type atomic/byte is restricted by facet maxInclusive with value -128.
     """
@@ -2708,10 +2890,11 @@ def test_atomic_byte_max_inclusive_5_nistxml_sv_ii_atomic_byte_max_inclusive_1_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_1():
+def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_1(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 127.
     """
@@ -2722,10 +2905,11 @@ def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_2():
+def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_2(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 127.
     """
@@ -2736,10 +2920,11 @@ def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_3():
+def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_3(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 127.
     """
@@ -2750,10 +2935,11 @@ def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_4():
+def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_4(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 127.
     """
@@ -2764,10 +2950,11 @@ def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_5():
+def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_5(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 127.
     """
@@ -2778,10 +2965,11 @@ def test_atomic_byte_min_inclusive_9_nistxml_sv_ii_atomic_byte_min_inclusive_6_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_1():
+def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_1(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 19.
     """
@@ -2792,10 +2980,11 @@ def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_2():
+def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_2(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 19.
     """
@@ -2806,10 +2995,11 @@ def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_3():
+def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_3(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 19.
     """
@@ -2820,10 +3010,11 @@ def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_4():
+def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_4(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 19.
     """
@@ -2834,10 +3025,11 @@ def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_5():
+def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_5(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 19.
     """
@@ -2848,10 +3040,11 @@ def test_atomic_byte_min_inclusive_8_nistxml_sv_ii_atomic_byte_min_inclusive_5_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_1():
+def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_1(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -107.
     """
@@ -2862,10 +3055,11 @@ def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_2():
+def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_2(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -107.
     """
@@ -2876,10 +3070,11 @@ def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_3():
+def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_3(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -107.
     """
@@ -2890,10 +3085,11 @@ def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_4():
+def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_4(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -107.
     """
@@ -2904,10 +3100,11 @@ def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_5():
+def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_5(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -107.
     """
@@ -2918,10 +3115,11 @@ def test_atomic_byte_min_inclusive_7_nistxml_sv_ii_atomic_byte_min_inclusive_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_1():
+def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_1(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 0.
     """
@@ -2932,10 +3130,11 @@ def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_2():
+def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_2(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 0.
     """
@@ -2946,10 +3145,11 @@ def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_3():
+def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_3(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 0.
     """
@@ -2960,10 +3160,11 @@ def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_4():
+def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_4(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 0.
     """
@@ -2974,10 +3175,11 @@ def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_5():
+def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_5(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value 0.
     """
@@ -2988,10 +3190,11 @@ def test_atomic_byte_min_inclusive_6_nistxml_sv_ii_atomic_byte_min_inclusive_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_1():
+def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_1(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -17.
     """
@@ -3002,10 +3205,11 @@ def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_2():
+def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_2(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -17.
     """
@@ -3016,10 +3220,11 @@ def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_3():
+def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_3(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -17.
     """
@@ -3030,10 +3235,11 @@ def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_4():
+def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_4(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -17.
     """
@@ -3044,10 +3250,11 @@ def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_5():
+def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_5(save_xml):
     """
     Type atomic/byte is restricted by facet minInclusive with value -17.
     """
@@ -3058,10 +3265,11 @@ def test_atomic_byte_min_inclusive_5_nistxml_sv_ii_atomic_byte_min_inclusive_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicByteMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_1():
+def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_1(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 4.
     """
@@ -3072,10 +3280,11 @@ def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_2():
+def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_2(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 4.
     """
@@ -3086,10 +3295,11 @@ def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_3():
+def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_3(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 4.
     """
@@ -3100,10 +3310,11 @@ def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_4():
+def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_4(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 4.
     """
@@ -3114,10 +3325,11 @@ def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_5():
+def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_5(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 4.
     """
@@ -3128,10 +3340,11 @@ def test_atomic_short_total_digits_8_nistxml_sv_ii_atomic_short_total_digits_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_1():
+def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_1(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 3.
     """
@@ -3142,10 +3355,11 @@ def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_2():
+def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_2(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 3.
     """
@@ -3156,10 +3370,11 @@ def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_3():
+def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_3(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 3.
     """
@@ -3170,10 +3385,11 @@ def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_4():
+def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_4(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 3.
     """
@@ -3184,10 +3400,11 @@ def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_5():
+def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_5(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 3.
     """
@@ -3198,10 +3415,11 @@ def test_atomic_short_total_digits_7_nistxml_sv_ii_atomic_short_total_digits_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_1():
+def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_1(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 2.
     """
@@ -3212,10 +3430,11 @@ def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_2():
+def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_2(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 2.
     """
@@ -3226,10 +3445,11 @@ def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_3():
+def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_3(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 2.
     """
@@ -3240,10 +3460,11 @@ def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_4():
+def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_4(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 2.
     """
@@ -3254,10 +3475,11 @@ def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_5():
+def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_5(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 2.
     """
@@ -3268,10 +3490,11 @@ def test_atomic_short_total_digits_6_nistxml_sv_ii_atomic_short_total_digits_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_1():
+def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_1(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 1.
     """
@@ -3282,10 +3505,11 @@ def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_2():
+def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_2(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 1.
     """
@@ -3296,10 +3520,11 @@ def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_3():
+def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_3(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 1.
     """
@@ -3310,10 +3535,11 @@ def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_4():
+def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_4(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 1.
     """
@@ -3324,10 +3550,11 @@ def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_5():
+def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_5(save_xml):
     """
     Type atomic/short is restricted by facet totalDigits with value 1.
     """
@@ -3338,10 +3565,11 @@ def test_atomic_short_total_digits_5_nistxml_sv_ii_atomic_short_total_digits_1_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_1():
+def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_1(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value 2651.
     """
@@ -3352,10 +3580,11 @@ def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_2():
+def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_2(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value 2651.
     """
@@ -3366,10 +3595,11 @@ def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_3():
+def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_3(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value 2651.
     """
@@ -3380,10 +3610,11 @@ def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_4():
+def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_4(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value 2651.
     """
@@ -3394,10 +3625,11 @@ def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_5():
+def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5_5(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value 2651.
     """
@@ -3408,10 +3640,11 @@ def test_atomic_short_max_inclusive_9_nistxml_sv_ii_atomic_short_max_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_1():
+def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_1(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     24888.
@@ -3423,10 +3656,11 @@ def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_2():
+def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_2(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     24888.
@@ -3438,10 +3672,11 @@ def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_3():
+def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_3(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     24888.
@@ -3453,10 +3688,11 @@ def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_4():
+def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_4(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     24888.
@@ -3468,10 +3704,11 @@ def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_5():
+def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4_5(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     24888.
@@ -3483,10 +3720,11 @@ def test_atomic_short_max_inclusive_8_nistxml_sv_ii_atomic_short_max_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_1():
+def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_1(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -24936.
@@ -3498,10 +3736,11 @@ def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_2():
+def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_2(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -24936.
@@ -3513,10 +3752,11 @@ def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_3():
+def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_3(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -24936.
@@ -3528,10 +3768,11 @@ def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_4():
+def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_4(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -24936.
@@ -3543,10 +3784,11 @@ def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_5():
+def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3_5(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -24936.
@@ -3558,10 +3800,11 @@ def test_atomic_short_max_inclusive_7_nistxml_sv_ii_atomic_short_max_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_1():
+def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_1(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -6204.
@@ -3573,10 +3816,11 @@ def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_2():
+def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_2(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -6204.
@@ -3588,10 +3832,11 @@ def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_3():
+def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_3(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -6204.
@@ -3603,10 +3848,11 @@ def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_4():
+def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_4(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -6204.
@@ -3618,10 +3864,11 @@ def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_5():
+def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2_5(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -6204.
@@ -3633,10 +3880,11 @@ def test_atomic_short_max_inclusive_6_nistxml_sv_ii_atomic_short_max_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_1():
+def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_1(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -32768.
@@ -3648,10 +3896,11 @@ def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_2():
+def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_2(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -32768.
@@ -3663,10 +3912,11 @@ def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_3():
+def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_3(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -32768.
@@ -3678,10 +3928,11 @@ def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_4():
+def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_4(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -32768.
@@ -3693,10 +3944,11 @@ def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_5():
+def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1_5(save_xml):
     """
     Type atomic/short is restricted by facet maxInclusive with value
     -32768.
@@ -3708,10 +3960,11 @@ def test_atomic_short_max_inclusive_5_nistxml_sv_ii_atomic_short_max_inclusive_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_1():
+def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_1(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     32767.
@@ -3723,10 +3976,11 @@ def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_2():
+def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_2(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     32767.
@@ -3738,10 +3992,11 @@ def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_3():
+def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_3(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     32767.
@@ -3753,10 +4008,11 @@ def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_4():
+def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_4(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     32767.
@@ -3768,10 +4024,11 @@ def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_5():
+def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6_5(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     32767.
@@ -3783,10 +4040,11 @@ def test_atomic_short_min_inclusive_9_nistxml_sv_ii_atomic_short_min_inclusive_6
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_1():
+def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_1(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     14671.
@@ -3798,10 +4056,11 @@ def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_2():
+def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_2(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     14671.
@@ -3813,10 +4072,11 @@ def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_3():
+def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_3(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     14671.
@@ -3828,10 +4088,11 @@ def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_4():
+def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_4(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     14671.
@@ -3843,10 +4104,11 @@ def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_5():
+def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5_5(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     14671.
@@ -3858,10 +4120,11 @@ def test_atomic_short_min_inclusive_8_nistxml_sv_ii_atomic_short_min_inclusive_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_1():
+def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_1(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     26269.
@@ -3873,10 +4136,11 @@ def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_2():
+def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_2(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     26269.
@@ -3888,10 +4152,11 @@ def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_3():
+def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_3(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     26269.
@@ -3903,10 +4168,11 @@ def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_4():
+def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_4(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     26269.
@@ -3918,10 +4184,11 @@ def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_5():
+def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4_5(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     26269.
@@ -3933,10 +4200,11 @@ def test_atomic_short_min_inclusive_7_nistxml_sv_ii_atomic_short_min_inclusive_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_1():
+def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_1(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     -5120.
@@ -3948,10 +4216,11 @@ def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_2():
+def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_2(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     -5120.
@@ -3963,10 +4232,11 @@ def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_3():
+def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_3(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     -5120.
@@ -3978,10 +4248,11 @@ def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_4():
+def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_4(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     -5120.
@@ -3993,10 +4264,11 @@ def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_5():
+def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3_5(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     -5120.
@@ -4008,10 +4280,11 @@ def test_atomic_short_min_inclusive_6_nistxml_sv_ii_atomic_short_min_inclusive_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_1():
+def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_1(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     19101.
@@ -4023,10 +4296,11 @@ def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_2():
+def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_2(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     19101.
@@ -4038,10 +4312,11 @@ def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_3():
+def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_3(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     19101.
@@ -4053,10 +4328,11 @@ def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_4():
+def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_4(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     19101.
@@ -4068,10 +4344,11 @@ def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_5():
+def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2_5(save_xml):
     """
     Type atomic/short is restricted by facet minInclusive with value
     19101.
@@ -4083,10 +4360,11 @@ def test_atomic_short_min_inclusive_5_nistxml_sv_ii_atomic_short_min_inclusive_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicShortMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_1():
+def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_1(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 5.
     """
@@ -4097,10 +4375,11 @@ def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_2():
+def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_2(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 5.
     """
@@ -4111,10 +4390,11 @@ def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_3():
+def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_3(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 5.
     """
@@ -4125,10 +4405,11 @@ def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_4():
+def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_4(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 5.
     """
@@ -4139,10 +4420,11 @@ def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_5():
+def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_5(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 5.
     """
@@ -4153,10 +4435,11 @@ def test_atomic_int_total_digits_9_nistxml_sv_ii_atomic_int_total_digits_5_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_1():
+def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_1(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 4.
     """
@@ -4167,10 +4450,11 @@ def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_2():
+def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_2(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 4.
     """
@@ -4181,10 +4465,11 @@ def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_3():
+def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_3(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 4.
     """
@@ -4195,10 +4480,11 @@ def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_4():
+def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_4(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 4.
     """
@@ -4209,10 +4495,11 @@ def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_5():
+def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_5(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 4.
     """
@@ -4223,10 +4510,11 @@ def test_atomic_int_total_digits_8_nistxml_sv_ii_atomic_int_total_digits_4_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_1():
+def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_1(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 3.
     """
@@ -4237,10 +4525,11 @@ def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_2():
+def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_2(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 3.
     """
@@ -4251,10 +4540,11 @@ def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_3():
+def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_3(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 3.
     """
@@ -4265,10 +4555,11 @@ def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_4():
+def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_4(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 3.
     """
@@ -4279,10 +4570,11 @@ def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_5():
+def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_5(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 3.
     """
@@ -4293,10 +4585,11 @@ def test_atomic_int_total_digits_7_nistxml_sv_ii_atomic_int_total_digits_3_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_1():
+def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_1(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 2.
     """
@@ -4307,10 +4600,11 @@ def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_2():
+def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_2(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 2.
     """
@@ -4321,10 +4615,11 @@ def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_3():
+def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_3(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 2.
     """
@@ -4335,10 +4630,11 @@ def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_4():
+def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_4(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 2.
     """
@@ -4349,10 +4645,11 @@ def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_5():
+def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_5(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 2.
     """
@@ -4363,10 +4660,11 @@ def test_atomic_int_total_digits_6_nistxml_sv_ii_atomic_int_total_digits_2_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_1():
+def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_1(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 1.
     """
@@ -4377,10 +4675,11 @@ def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_2():
+def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_2(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 1.
     """
@@ -4391,10 +4690,11 @@ def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_3():
+def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_3(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 1.
     """
@@ -4405,10 +4705,11 @@ def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_4():
+def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_4(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 1.
     """
@@ -4419,10 +4720,11 @@ def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_5():
+def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_5(save_xml):
     """
     Type atomic/int is restricted by facet totalDigits with value 1.
     """
@@ -4433,10 +4735,11 @@ def test_atomic_int_total_digits_5_nistxml_sv_ii_atomic_int_total_digits_1_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_1():
+def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_1(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     1617521685.
@@ -4448,10 +4751,11 @@ def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_2():
+def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_2(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     1617521685.
@@ -4463,10 +4767,11 @@ def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_3():
+def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_3(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     1617521685.
@@ -4478,10 +4783,11 @@ def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_4():
+def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_4(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     1617521685.
@@ -4493,10 +4799,11 @@ def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_5():
+def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_5(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     1617521685.
@@ -4508,10 +4815,11 @@ def test_atomic_int_max_inclusive_9_nistxml_sv_ii_atomic_int_max_inclusive_5_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_1():
+def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_1(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -396617149.
@@ -4523,10 +4831,11 @@ def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_2():
+def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_2(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -396617149.
@@ -4538,10 +4847,11 @@ def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_3():
+def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_3(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -396617149.
@@ -4553,10 +4863,11 @@ def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_4():
+def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_4(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -396617149.
@@ -4568,10 +4879,11 @@ def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_5():
+def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_5(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -396617149.
@@ -4583,10 +4895,11 @@ def test_atomic_int_max_inclusive_8_nistxml_sv_ii_atomic_int_max_inclusive_4_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_1():
+def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_1(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -1631590701.
@@ -4598,10 +4911,11 @@ def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_2():
+def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_2(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -1631590701.
@@ -4613,10 +4927,11 @@ def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_3():
+def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_3(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -1631590701.
@@ -4628,10 +4943,11 @@ def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_4():
+def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_4(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -1631590701.
@@ -4643,10 +4959,11 @@ def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_5():
+def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_5(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -1631590701.
@@ -4658,10 +4975,11 @@ def test_atomic_int_max_inclusive_7_nistxml_sv_ii_atomic_int_max_inclusive_3_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_1():
+def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_1(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     107981828.
@@ -4673,10 +4991,11 @@ def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_2():
+def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_2(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     107981828.
@@ -4688,10 +5007,11 @@ def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_3():
+def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_3(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     107981828.
@@ -4703,10 +5023,11 @@ def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_4():
+def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_4(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     107981828.
@@ -4718,10 +5039,11 @@ def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_5():
+def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_5(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     107981828.
@@ -4733,10 +5055,11 @@ def test_atomic_int_max_inclusive_6_nistxml_sv_ii_atomic_int_max_inclusive_2_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_1():
+def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_1(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -2147483648.
@@ -4748,10 +5071,11 @@ def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_2():
+def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_2(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -2147483648.
@@ -4763,10 +5087,11 @@ def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_3():
+def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_3(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -2147483648.
@@ -4778,10 +5103,11 @@ def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_4():
+def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_4(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -2147483648.
@@ -4793,10 +5119,11 @@ def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_5():
+def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_5(save_xml):
     """
     Type atomic/int is restricted by facet maxInclusive with value
     -2147483648.
@@ -4808,10 +5135,11 @@ def test_atomic_int_max_inclusive_5_nistxml_sv_ii_atomic_int_max_inclusive_1_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_1():
+def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_1(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     2147483647.
@@ -4823,10 +5151,11 @@ def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_2():
+def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_2(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     2147483647.
@@ -4838,10 +5167,11 @@ def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_3():
+def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_3(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     2147483647.
@@ -4853,10 +5183,11 @@ def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_4():
+def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_4(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     2147483647.
@@ -4868,10 +5199,11 @@ def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_5():
+def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_5(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     2147483647.
@@ -4883,10 +5215,11 @@ def test_atomic_int_min_inclusive_9_nistxml_sv_ii_atomic_int_min_inclusive_6_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_1():
+def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_1(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     990570194.
@@ -4898,10 +5231,11 @@ def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_2():
+def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_2(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     990570194.
@@ -4913,10 +5247,11 @@ def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_3():
+def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_3(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     990570194.
@@ -4928,10 +5263,11 @@ def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_4():
+def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_4(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     990570194.
@@ -4943,10 +5279,11 @@ def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_5():
+def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_5(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     990570194.
@@ -4958,10 +5295,11 @@ def test_atomic_int_min_inclusive_8_nistxml_sv_ii_atomic_int_min_inclusive_5_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_1():
+def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_1(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -978972026.
@@ -4973,10 +5311,11 @@ def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_2():
+def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_2(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -978972026.
@@ -4988,10 +5327,11 @@ def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_3():
+def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_3(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -978972026.
@@ -5003,10 +5343,11 @@ def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_4():
+def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_4(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -978972026.
@@ -5018,10 +5359,11 @@ def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_5():
+def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_5(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -978972026.
@@ -5033,10 +5375,11 @@ def test_atomic_int_min_inclusive_7_nistxml_sv_ii_atomic_int_min_inclusive_4_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_1():
+def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_1(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     314385179.
@@ -5048,10 +5391,11 @@ def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_2():
+def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_2(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     314385179.
@@ -5063,10 +5407,11 @@ def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_3():
+def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_3(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     314385179.
@@ -5078,10 +5423,11 @@ def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_4():
+def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_4(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     314385179.
@@ -5093,10 +5439,11 @@ def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_5():
+def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_5(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     314385179.
@@ -5108,10 +5455,11 @@ def test_atomic_int_min_inclusive_6_nistxml_sv_ii_atomic_int_min_inclusive_3_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_1():
+def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_1(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -1105723757.
@@ -5123,10 +5471,11 @@ def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_2():
+def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_2(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -1105723757.
@@ -5138,10 +5487,11 @@ def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_3():
+def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_3(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -1105723757.
@@ -5153,10 +5503,11 @@ def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_4():
+def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_4(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -1105723757.
@@ -5168,10 +5519,11 @@ def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_5():
+def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_5(save_xml):
     """
     Type atomic/int is restricted by facet minInclusive with value
     -1105723757.
@@ -5183,10 +5535,11 @@ def test_atomic_int_min_inclusive_5_nistxml_sv_ii_atomic_int_min_inclusive_2_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_1():
+def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_1(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 13.
     """
@@ -5197,10 +5550,11 @@ def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_2():
+def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_2(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 13.
     """
@@ -5211,10 +5565,11 @@ def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_3():
+def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_3(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 13.
     """
@@ -5225,10 +5580,11 @@ def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_4():
+def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_4(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 13.
     """
@@ -5239,10 +5595,11 @@ def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_5():
+def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_5(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 13.
     """
@@ -5253,10 +5610,11 @@ def test_atomic_long_total_digits_9_nistxml_sv_ii_atomic_long_total_digits_5_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_1():
+def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_1(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 10.
     """
@@ -5267,10 +5625,11 @@ def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_2():
+def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_2(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 10.
     """
@@ -5281,10 +5640,11 @@ def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_3():
+def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_3(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 10.
     """
@@ -5295,10 +5655,11 @@ def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_4():
+def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_4(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 10.
     """
@@ -5309,10 +5670,11 @@ def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_5():
+def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_5(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 10.
     """
@@ -5323,10 +5685,11 @@ def test_atomic_long_total_digits_8_nistxml_sv_ii_atomic_long_total_digits_4_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_1():
+def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_1(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 7.
     """
@@ -5337,10 +5700,11 @@ def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_2():
+def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_2(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 7.
     """
@@ -5351,10 +5715,11 @@ def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_3():
+def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_3(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 7.
     """
@@ -5365,10 +5730,11 @@ def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_4():
+def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_4(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 7.
     """
@@ -5379,10 +5745,11 @@ def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_5():
+def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_5(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 7.
     """
@@ -5393,10 +5760,11 @@ def test_atomic_long_total_digits_7_nistxml_sv_ii_atomic_long_total_digits_3_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_1():
+def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_1(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 4.
     """
@@ -5407,10 +5775,11 @@ def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_2():
+def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_2(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 4.
     """
@@ -5421,10 +5790,11 @@ def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_3():
+def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_3(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 4.
     """
@@ -5435,10 +5805,11 @@ def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_4():
+def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_4(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 4.
     """
@@ -5449,10 +5820,11 @@ def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_5():
+def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_5(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 4.
     """
@@ -5463,10 +5835,11 @@ def test_atomic_long_total_digits_6_nistxml_sv_ii_atomic_long_total_digits_2_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_1():
+def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_1(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 1.
     """
@@ -5477,10 +5850,11 @@ def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_2():
+def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_2(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 1.
     """
@@ -5491,10 +5865,11 @@ def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_3():
+def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_3(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 1.
     """
@@ -5505,10 +5880,11 @@ def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_4():
+def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_4(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 1.
     """
@@ -5519,10 +5895,11 @@ def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_5():
+def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_5(save_xml):
     """
     Type atomic/long is restricted by facet totalDigits with value 1.
     """
@@ -5533,10 +5910,11 @@ def test_atomic_long_total_digits_5_nistxml_sv_ii_atomic_long_total_digits_1_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_1():
+def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_1(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -716385737637535546.
@@ -5548,10 +5926,11 @@ def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_2():
+def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_2(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -716385737637535546.
@@ -5563,10 +5942,11 @@ def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_3():
+def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_3(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -716385737637535546.
@@ -5578,10 +5958,11 @@ def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_4():
+def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_4(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -716385737637535546.
@@ -5593,10 +5974,11 @@ def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_5():
+def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_5(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -716385737637535546.
@@ -5608,10 +5990,11 @@ def test_atomic_long_max_inclusive_9_nistxml_sv_ii_atomic_long_max_inclusive_5_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_1():
+def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_1(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -231112914202378227.
@@ -5623,10 +6006,11 @@ def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_2():
+def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_2(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -231112914202378227.
@@ -5638,10 +6022,11 @@ def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_3():
+def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_3(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -231112914202378227.
@@ -5653,10 +6038,11 @@ def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_4():
+def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_4(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -231112914202378227.
@@ -5668,10 +6054,11 @@ def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_5():
+def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_5(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -231112914202378227.
@@ -5683,10 +6070,11 @@ def test_atomic_long_max_inclusive_8_nistxml_sv_ii_atomic_long_max_inclusive_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_1():
+def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_1(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     837276573179478677.
@@ -5698,10 +6086,11 @@ def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_2():
+def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_2(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     837276573179478677.
@@ -5713,10 +6102,11 @@ def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_3():
+def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_3(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     837276573179478677.
@@ -5728,10 +6118,11 @@ def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_4():
+def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_4(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     837276573179478677.
@@ -5743,10 +6134,11 @@ def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_5():
+def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_5(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     837276573179478677.
@@ -5758,10 +6150,11 @@ def test_atomic_long_max_inclusive_7_nistxml_sv_ii_atomic_long_max_inclusive_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_1():
+def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_1(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     648840685860569087.
@@ -5773,10 +6166,11 @@ def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_2():
+def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_2(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     648840685860569087.
@@ -5788,10 +6182,11 @@ def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_3():
+def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_3(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     648840685860569087.
@@ -5803,10 +6198,11 @@ def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_4():
+def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_4(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     648840685860569087.
@@ -5818,10 +6214,11 @@ def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_5():
+def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_5(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     648840685860569087.
@@ -5833,10 +6230,11 @@ def test_atomic_long_max_inclusive_6_nistxml_sv_ii_atomic_long_max_inclusive_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_1():
+def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_1(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5848,10 +6246,11 @@ def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_2():
+def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_2(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5863,10 +6262,11 @@ def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_3():
+def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_3(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5878,10 +6278,11 @@ def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_4():
+def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_4(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5893,10 +6294,11 @@ def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_5():
+def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_5(save_xml):
     """
     Type atomic/long is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -5908,10 +6310,11 @@ def test_atomic_long_max_inclusive_5_nistxml_sv_ii_atomic_long_max_inclusive_1_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_1():
+def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_1(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     999999999999999999.
@@ -5923,10 +6326,11 @@ def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_2():
+def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_2(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     999999999999999999.
@@ -5938,10 +6342,11 @@ def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_3():
+def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_3(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     999999999999999999.
@@ -5953,10 +6358,11 @@ def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_4():
+def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_4(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     999999999999999999.
@@ -5968,10 +6374,11 @@ def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_5():
+def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_5(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     999999999999999999.
@@ -5983,10 +6390,11 @@ def test_atomic_long_min_inclusive_9_nistxml_sv_ii_atomic_long_min_inclusive_6_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_1():
+def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_1(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -217274055791231379.
@@ -5998,10 +6406,11 @@ def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_2():
+def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_2(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -217274055791231379.
@@ -6013,10 +6422,11 @@ def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_3():
+def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_3(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -217274055791231379.
@@ -6028,10 +6438,11 @@ def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_4():
+def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_4(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -217274055791231379.
@@ -6043,10 +6454,11 @@ def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_5():
+def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_5(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -217274055791231379.
@@ -6058,10 +6470,11 @@ def test_atomic_long_min_inclusive_8_nistxml_sv_ii_atomic_long_min_inclusive_5_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_1():
+def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_1(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -635039562549570168.
@@ -6073,10 +6486,11 @@ def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_2():
+def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_2(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -635039562549570168.
@@ -6088,10 +6502,11 @@ def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_3():
+def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_3(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -635039562549570168.
@@ -6103,10 +6518,11 @@ def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_4():
+def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_4(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -635039562549570168.
@@ -6118,10 +6534,11 @@ def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_5():
+def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_5(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -635039562549570168.
@@ -6133,10 +6550,11 @@ def test_atomic_long_min_inclusive_7_nistxml_sv_ii_atomic_long_min_inclusive_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_1():
+def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_1(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -689877964040234158.
@@ -6148,10 +6566,11 @@ def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_2():
+def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_2(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -689877964040234158.
@@ -6163,10 +6582,11 @@ def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_3():
+def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_3(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -689877964040234158.
@@ -6178,10 +6598,11 @@ def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_4():
+def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_4(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -689877964040234158.
@@ -6193,10 +6614,11 @@ def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_5():
+def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_5(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     -689877964040234158.
@@ -6208,10 +6630,11 @@ def test_atomic_long_min_inclusive_6_nistxml_sv_ii_atomic_long_min_inclusive_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_1():
+def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_1(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     583792148562175316.
@@ -6223,10 +6646,11 @@ def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_2():
+def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_2(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     583792148562175316.
@@ -6238,10 +6662,11 @@ def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_3():
+def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_3(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     583792148562175316.
@@ -6253,10 +6678,11 @@ def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_4():
+def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_4(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     583792148562175316.
@@ -6268,10 +6694,11 @@ def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_5():
+def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_5(save_xml):
     """
     Type atomic/long is restricted by facet minInclusive with value
     583792148562175316.
@@ -6283,10 +6710,11 @@ def test_atomic_long_min_inclusive_5_nistxml_sv_ii_atomic_long_min_inclusive_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicLongMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_1():
+def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 13.
@@ -6298,10 +6726,11 @@ def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_2():
+def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 13.
@@ -6313,10 +6742,11 @@ def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_3():
+def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 13.
@@ -6328,10 +6758,11 @@ def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_4():
+def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 13.
@@ -6343,10 +6774,11 @@ def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_5():
+def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_integer_total_digits_5_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 13.
@@ -6358,10 +6790,11 @@ def test_atomic_negative_integer_total_digits_9_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_1():
+def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 10.
@@ -6373,10 +6806,11 @@ def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_2():
+def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 10.
@@ -6388,10 +6822,11 @@ def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_3():
+def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 10.
@@ -6403,10 +6838,11 @@ def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_4():
+def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 10.
@@ -6418,10 +6854,11 @@ def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_5():
+def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_integer_total_digits_4_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 10.
@@ -6433,10 +6870,11 @@ def test_atomic_negative_integer_total_digits_8_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_1():
+def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 7.
@@ -6448,10 +6886,11 @@ def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_2():
+def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 7.
@@ -6463,10 +6902,11 @@ def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_3():
+def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 7.
@@ -6478,10 +6918,11 @@ def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_4():
+def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 7.
@@ -6493,10 +6934,11 @@ def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_5():
+def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_integer_total_digits_3_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 7.
@@ -6508,10 +6950,11 @@ def test_atomic_negative_integer_total_digits_7_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_1():
+def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 4.
@@ -6523,10 +6966,11 @@ def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_2():
+def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 4.
@@ -6538,10 +6982,11 @@ def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_3():
+def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 4.
@@ -6553,10 +6998,11 @@ def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_4():
+def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 4.
@@ -6568,10 +7014,11 @@ def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_5():
+def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_integer_total_digits_2_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 4.
@@ -6583,10 +7030,11 @@ def test_atomic_negative_integer_total_digits_6_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_1():
+def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 1.
@@ -6598,10 +7046,11 @@ def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_2():
+def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 1.
@@ -6613,10 +7062,11 @@ def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_3():
+def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 1.
@@ -6628,10 +7078,11 @@ def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_4():
+def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 1.
@@ -6643,10 +7094,11 @@ def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_5():
+def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_integer_total_digits_1_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet totalDigits with
     value 1.
@@ -6658,10 +7110,11 @@ def test_atomic_negative_integer_total_digits_5_nistxml_sv_ii_atomic_negative_in
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_1():
+def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -135951110411760890.
@@ -6673,10 +7126,11 @@ def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_2():
+def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -135951110411760890.
@@ -6688,10 +7142,11 @@ def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_3():
+def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -135951110411760890.
@@ -6703,10 +7158,11 @@ def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_4():
+def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -135951110411760890.
@@ -6718,10 +7174,11 @@ def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_5():
+def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_integer_max_inclusive_5_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -135951110411760890.
@@ -6733,10 +7190,11 @@ def test_atomic_negative_integer_max_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_1():
+def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -411412970005971434.
@@ -6748,10 +7206,11 @@ def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_2():
+def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -411412970005971434.
@@ -6763,10 +7222,11 @@ def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_3():
+def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -411412970005971434.
@@ -6778,10 +7238,11 @@ def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_4():
+def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -411412970005971434.
@@ -6793,10 +7254,11 @@ def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_5():
+def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_integer_max_inclusive_4_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -411412970005971434.
@@ -6808,10 +7270,11 @@ def test_atomic_negative_integer_max_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_1():
+def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -177604717942529411.
@@ -6823,10 +7286,11 @@ def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_2():
+def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -177604717942529411.
@@ -6838,10 +7302,11 @@ def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_3():
+def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -177604717942529411.
@@ -6853,10 +7318,11 @@ def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_4():
+def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -177604717942529411.
@@ -6868,10 +7334,11 @@ def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_5():
+def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_integer_max_inclusive_3_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -177604717942529411.
@@ -6883,10 +7350,11 @@ def test_atomic_negative_integer_max_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_1():
+def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -369278887790841392.
@@ -6898,10 +7366,11 @@ def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_2():
+def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -369278887790841392.
@@ -6913,10 +7382,11 @@ def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_3():
+def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -369278887790841392.
@@ -6928,10 +7398,11 @@ def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_4():
+def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -369278887790841392.
@@ -6943,10 +7414,11 @@ def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_5():
+def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_integer_max_inclusive_2_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -369278887790841392.
@@ -6958,10 +7430,11 @@ def test_atomic_negative_integer_max_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_1():
+def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -6973,10 +7446,11 @@ def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_2():
+def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -6988,10 +7462,11 @@ def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_3():
+def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -7003,10 +7478,11 @@ def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_4():
+def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -7018,10 +7494,11 @@ def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_5():
+def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_integer_max_inclusive_1_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet maxInclusive with
     value -999999999999999999.
@@ -7033,10 +7510,11 @@ def test_atomic_negative_integer_max_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_1():
+def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -7048,10 +7526,11 @@ def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_2():
+def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -7063,10 +7542,11 @@ def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_3():
+def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -7078,10 +7558,11 @@ def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_4():
+def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -7093,10 +7574,11 @@ def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_5():
+def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_integer_min_inclusive_6_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -1.
@@ -7108,10 +7590,11 @@ def test_atomic_negative_integer_min_inclusive_9_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_1():
+def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -176155984517072817.
@@ -7123,10 +7606,11 @@ def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_2():
+def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -176155984517072817.
@@ -7138,10 +7622,11 @@ def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_3():
+def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -176155984517072817.
@@ -7153,10 +7638,11 @@ def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_4():
+def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -176155984517072817.
@@ -7168,10 +7654,11 @@ def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_5():
+def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_integer_min_inclusive_5_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -176155984517072817.
@@ -7183,10 +7670,11 @@ def test_atomic_negative_integer_min_inclusive_8_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_1():
+def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -13084299575343628.
@@ -7198,10 +7686,11 @@ def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_2():
+def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -13084299575343628.
@@ -7213,10 +7702,11 @@ def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_3():
+def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -13084299575343628.
@@ -7228,10 +7718,11 @@ def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_4():
+def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -13084299575343628.
@@ -7243,10 +7734,11 @@ def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_5():
+def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_integer_min_inclusive_4_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -13084299575343628.
@@ -7258,10 +7750,11 @@ def test_atomic_negative_integer_min_inclusive_7_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_1():
+def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -349070581849158068.
@@ -7273,10 +7766,11 @@ def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_2():
+def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -349070581849158068.
@@ -7288,10 +7782,11 @@ def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_3():
+def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -349070581849158068.
@@ -7303,10 +7798,11 @@ def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_4():
+def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -349070581849158068.
@@ -7318,10 +7814,11 @@ def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_5():
+def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_integer_min_inclusive_3_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -349070581849158068.
@@ -7333,10 +7830,11 @@ def test_atomic_negative_integer_min_inclusive_6_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_1():
+def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_1(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -383278836725871707.
@@ -7348,10 +7846,11 @@ def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_2():
+def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_2(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -383278836725871707.
@@ -7363,10 +7862,11 @@ def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_3():
+def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_3(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -383278836725871707.
@@ -7378,10 +7878,11 @@ def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_4():
+def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_4(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -383278836725871707.
@@ -7393,10 +7894,11 @@ def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_5():
+def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_integer_min_inclusive_2_5(save_xml):
     """
     Type atomic/negativeInteger is restricted by facet minInclusive with
     value -383278836725871707.
@@ -7408,10 +7910,11 @@ def test_atomic_negative_integer_min_inclusive_5_nistxml_sv_ii_atomic_negative_i
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNegativeIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_1():
+def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -7423,10 +7926,11 @@ def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_2():
+def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -7438,10 +7942,11 @@ def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_3():
+def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -7453,10 +7958,11 @@ def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_4():
+def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -7468,10 +7974,11 @@ def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_5():
+def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_positive_integer_total_digits_5_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 13.
@@ -7483,10 +7990,11 @@ def test_atomic_non_positive_integer_total_digits_9_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_1():
+def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 10.
@@ -7498,10 +8006,11 @@ def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_2():
+def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 10.
@@ -7513,10 +8022,11 @@ def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_3():
+def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 10.
@@ -7528,10 +8038,11 @@ def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_4():
+def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 10.
@@ -7543,10 +8054,11 @@ def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_5():
+def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_positive_integer_total_digits_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 10.
@@ -7558,10 +8070,11 @@ def test_atomic_non_positive_integer_total_digits_8_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_1():
+def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 7.
@@ -7573,10 +8086,11 @@ def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_2():
+def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 7.
@@ -7588,10 +8102,11 @@ def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_3():
+def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 7.
@@ -7603,10 +8118,11 @@ def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_4():
+def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 7.
@@ -7618,10 +8134,11 @@ def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_5():
+def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_positive_integer_total_digits_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 7.
@@ -7633,10 +8150,11 @@ def test_atomic_non_positive_integer_total_digits_7_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_1():
+def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 4.
@@ -7648,10 +8166,11 @@ def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_2():
+def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 4.
@@ -7663,10 +8182,11 @@ def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_3():
+def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 4.
@@ -7678,10 +8198,11 @@ def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_4():
+def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 4.
@@ -7693,10 +8214,11 @@ def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_5():
+def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_positive_integer_total_digits_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 4.
@@ -7708,10 +8230,11 @@ def test_atomic_non_positive_integer_total_digits_6_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_1():
+def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -7723,10 +8246,11 @@ def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_2():
+def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -7738,10 +8262,11 @@ def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_3():
+def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -7753,10 +8278,11 @@ def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_4():
+def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -7768,10 +8294,11 @@ def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_5():
+def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_positive_integer_total_digits_1_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet totalDigits with
     value 1.
@@ -7783,10 +8310,11 @@ def test_atomic_non_positive_integer_total_digits_5_nistxml_sv_ii_atomic_non_pos
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_1():
+def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -196913225599862462.
@@ -7798,10 +8326,11 @@ def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_2():
+def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -196913225599862462.
@@ -7813,10 +8342,11 @@ def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_3():
+def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -196913225599862462.
@@ -7828,10 +8358,11 @@ def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_4():
+def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -196913225599862462.
@@ -7843,10 +8374,11 @@ def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_5():
+def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_5_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -196913225599862462.
@@ -7858,10 +8390,11 @@ def test_atomic_non_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_1():
+def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -850796917225226100.
@@ -7873,10 +8406,11 @@ def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_2():
+def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -850796917225226100.
@@ -7888,10 +8422,11 @@ def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_3():
+def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -850796917225226100.
@@ -7903,10 +8438,11 @@ def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_4():
+def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -850796917225226100.
@@ -7918,10 +8454,11 @@ def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_5():
+def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -850796917225226100.
@@ -7933,10 +8470,11 @@ def test_atomic_non_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_1():
+def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -923171155172606060.
@@ -7948,10 +8486,11 @@ def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_2():
+def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -923171155172606060.
@@ -7963,10 +8502,11 @@ def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_3():
+def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -923171155172606060.
@@ -7978,10 +8518,11 @@ def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_4():
+def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -923171155172606060.
@@ -7993,10 +8534,11 @@ def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_5():
+def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -923171155172606060.
@@ -8008,10 +8550,11 @@ def test_atomic_non_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_1():
+def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -593437050761786099.
@@ -8023,10 +8566,11 @@ def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_2():
+def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -593437050761786099.
@@ -8038,10 +8582,11 @@ def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_3():
+def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -593437050761786099.
@@ -8053,10 +8598,11 @@ def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_4():
+def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -593437050761786099.
@@ -8068,10 +8614,11 @@ def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_5():
+def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -593437050761786099.
@@ -8083,10 +8630,11 @@ def test_atomic_non_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_1():
+def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -8098,10 +8646,11 @@ def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_2():
+def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -8113,10 +8662,11 @@ def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_3():
+def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -8128,10 +8678,11 @@ def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_4():
+def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -8143,10 +8694,11 @@ def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_5():
+def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_inclusive_1_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet maxInclusive
     with value -999999999999999999.
@@ -8158,10 +8710,11 @@ def test_atomic_non_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_1():
+def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -8173,10 +8726,11 @@ def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_2():
+def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -8188,10 +8742,11 @@ def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_3():
+def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -8203,10 +8758,11 @@ def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_4():
+def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -8218,10 +8774,11 @@ def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_5():
+def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_6_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value 0.
@@ -8233,10 +8790,11 @@ def test_atomic_non_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_1():
+def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -228784597763440178.
@@ -8248,10 +8806,11 @@ def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_2():
+def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -228784597763440178.
@@ -8263,10 +8822,11 @@ def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_3():
+def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -228784597763440178.
@@ -8278,10 +8838,11 @@ def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_4():
+def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -228784597763440178.
@@ -8293,10 +8854,11 @@ def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_5():
+def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_5_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -228784597763440178.
@@ -8308,10 +8870,11 @@ def test_atomic_non_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_1():
+def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -203590473966627882.
@@ -8323,10 +8886,11 @@ def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_2():
+def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -203590473966627882.
@@ -8338,10 +8902,11 @@ def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_3():
+def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -203590473966627882.
@@ -8353,10 +8918,11 @@ def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_4():
+def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -203590473966627882.
@@ -8368,10 +8934,11 @@ def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_5():
+def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_4_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -203590473966627882.
@@ -8383,10 +8950,11 @@ def test_atomic_non_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_1():
+def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -890254333493681659.
@@ -8398,10 +8966,11 @@ def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_2():
+def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -890254333493681659.
@@ -8413,10 +8982,11 @@ def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_3():
+def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -890254333493681659.
@@ -8428,10 +8998,11 @@ def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_4():
+def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -890254333493681659.
@@ -8443,10 +9014,11 @@ def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_5():
+def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_3_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -890254333493681659.
@@ -8458,10 +9030,11 @@ def test_atomic_non_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_1():
+def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_1(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -269608150885451202.
@@ -8473,10 +9046,11 @@ def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_2():
+def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_2(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -269608150885451202.
@@ -8488,10 +9062,11 @@ def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_3():
+def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_3(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -269608150885451202.
@@ -8503,10 +9078,11 @@ def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_4():
+def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_4(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -269608150885451202.
@@ -8518,10 +9094,11 @@ def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_5():
+def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_inclusive_2_5(save_xml):
     """
     Type atomic/nonPositiveInteger is restricted by facet minInclusive
     with value -269608150885451202.
@@ -8533,10 +9110,11 @@ def test_atomic_non_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_non_po
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicNonPositiveIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_1():
+def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -8547,10 +9125,11 @@ def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_2():
+def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_2(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -8561,10 +9140,11 @@ def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_3():
+def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_3(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -8575,10 +9155,11 @@ def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_4():
+def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_4(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -8589,10 +9170,11 @@ def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_5():
+def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits_5_5(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 13.
     """
@@ -8603,10 +9185,11 @@ def test_atomic_integer_total_digits_9_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_1():
+def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 10.
     """
@@ -8617,10 +9200,11 @@ def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_2():
+def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 10.
     """
@@ -8631,10 +9215,11 @@ def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_3():
+def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 10.
     """
@@ -8645,10 +9230,11 @@ def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_4():
+def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 10.
     """
@@ -8659,10 +9245,11 @@ def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_5():
+def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 10.
     """
@@ -8673,10 +9260,11 @@ def test_atomic_integer_total_digits_8_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_1():
+def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 7.
     """
@@ -8687,10 +9275,11 @@ def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_2():
+def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 7.
     """
@@ -8701,10 +9290,11 @@ def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_3():
+def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 7.
     """
@@ -8715,10 +9305,11 @@ def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_4():
+def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 7.
     """
@@ -8729,10 +9320,11 @@ def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_5():
+def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 7.
     """
@@ -8743,10 +9335,11 @@ def test_atomic_integer_total_digits_7_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_1():
+def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 4.
     """
@@ -8757,10 +9350,11 @@ def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_2():
+def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 4.
     """
@@ -8771,10 +9365,11 @@ def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_3():
+def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 4.
     """
@@ -8785,10 +9380,11 @@ def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_4():
+def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 4.
     """
@@ -8799,10 +9395,11 @@ def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_5():
+def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 4.
     """
@@ -8813,10 +9410,11 @@ def test_atomic_integer_total_digits_6_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_1():
+def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_1(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -8827,10 +9425,11 @@ def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_2():
+def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_2(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -8841,10 +9440,11 @@ def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_3():
+def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_3(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -8855,10 +9455,11 @@ def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_4():
+def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_4(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -8869,10 +9470,11 @@ def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_5():
+def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits_1_5(save_xml):
     """
     Type atomic/integer is restricted by facet totalDigits with value 1.
     """
@@ -8883,10 +9485,11 @@ def test_atomic_integer_total_digits_5_nistxml_sv_ii_atomic_integer_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_1():
+def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     987717400733315819.
@@ -8898,10 +9501,11 @@ def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_2():
+def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     987717400733315819.
@@ -8913,10 +9517,11 @@ def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_3():
+def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     987717400733315819.
@@ -8928,10 +9533,11 @@ def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_4():
+def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     987717400733315819.
@@ -8943,10 +9549,11 @@ def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_5():
+def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusive_5_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     987717400733315819.
@@ -8958,10 +9565,11 @@ def test_atomic_integer_max_inclusive_9_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_1():
+def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     514914181641328960.
@@ -8973,10 +9581,11 @@ def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_2():
+def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     514914181641328960.
@@ -8988,10 +9597,11 @@ def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_3():
+def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     514914181641328960.
@@ -9003,10 +9613,11 @@ def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_4():
+def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     514914181641328960.
@@ -9018,10 +9629,11 @@ def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_5():
+def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusive_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     514914181641328960.
@@ -9033,10 +9645,11 @@ def test_atomic_integer_max_inclusive_8_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_1():
+def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     879158057178991646.
@@ -9048,10 +9661,11 @@ def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_2():
+def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     879158057178991646.
@@ -9063,10 +9677,11 @@ def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_3():
+def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     879158057178991646.
@@ -9078,10 +9693,11 @@ def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_4():
+def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     879158057178991646.
@@ -9093,10 +9709,11 @@ def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_5():
+def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusive_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     879158057178991646.
@@ -9108,10 +9725,11 @@ def test_atomic_integer_max_inclusive_7_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_1():
+def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     579644983036442961.
@@ -9123,10 +9741,11 @@ def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_2():
+def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     579644983036442961.
@@ -9138,10 +9757,11 @@ def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_3():
+def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     579644983036442961.
@@ -9153,10 +9773,11 @@ def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_4():
+def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     579644983036442961.
@@ -9168,10 +9789,11 @@ def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_5():
+def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusive_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     579644983036442961.
@@ -9183,10 +9805,11 @@ def test_atomic_integer_max_inclusive_6_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_1():
+def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_1(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -9198,10 +9821,11 @@ def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_2():
+def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_2(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -9213,10 +9837,11 @@ def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_3():
+def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_3(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -9228,10 +9853,11 @@ def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_4():
+def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_4(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -9243,10 +9869,11 @@ def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_5():
+def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusive_1_5(save_xml):
     """
     Type atomic/integer is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -9258,10 +9885,11 @@ def test_atomic_integer_max_inclusive_5_nistxml_sv_ii_atomic_integer_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_1():
+def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_1(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -9273,10 +9901,11 @@ def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_2():
+def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_2(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -9288,10 +9917,11 @@ def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_3():
+def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_3(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -9303,10 +9933,11 @@ def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_4():
+def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_4(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -9318,10 +9949,11 @@ def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_5():
+def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusive_6_5(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     999999999999999999.
@@ -9333,10 +9965,11 @@ def test_atomic_integer_min_inclusive_9_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_1():
+def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_1(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     283850128955389857.
@@ -9348,10 +9981,11 @@ def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_2():
+def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_2(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     283850128955389857.
@@ -9363,10 +9997,11 @@ def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_3():
+def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_3(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     283850128955389857.
@@ -9378,10 +10013,11 @@ def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_4():
+def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_4(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     283850128955389857.
@@ -9393,10 +10029,11 @@ def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_5():
+def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusive_5_5(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     283850128955389857.
@@ -9408,10 +10045,11 @@ def test_atomic_integer_min_inclusive_8_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_1():
+def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_1(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     903027701396896364.
@@ -9423,10 +10061,11 @@ def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_2():
+def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_2(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     903027701396896364.
@@ -9438,10 +10077,11 @@ def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_3():
+def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_3(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     903027701396896364.
@@ -9453,10 +10093,11 @@ def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_4():
+def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_4(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     903027701396896364.
@@ -9468,10 +10109,11 @@ def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_5():
+def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusive_4_5(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     903027701396896364.
@@ -9483,10 +10125,11 @@ def test_atomic_integer_min_inclusive_7_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_1():
+def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_1(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     885701465961149291.
@@ -9498,10 +10141,11 @@ def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_2():
+def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_2(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     885701465961149291.
@@ -9513,10 +10157,11 @@ def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_3():
+def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_3(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     885701465961149291.
@@ -9528,10 +10173,11 @@ def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_4():
+def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_4(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     885701465961149291.
@@ -9543,10 +10189,11 @@ def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_5():
+def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusive_3_5(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     885701465961149291.
@@ -9558,10 +10205,11 @@ def test_atomic_integer_min_inclusive_6_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_1():
+def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_1(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     555633833307218160.
@@ -9573,10 +10221,11 @@ def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_2():
+def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_2(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     555633833307218160.
@@ -9588,10 +10237,11 @@ def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_3():
+def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_3(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     555633833307218160.
@@ -9603,10 +10253,11 @@ def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_4():
+def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_4(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     555633833307218160.
@@ -9618,10 +10269,11 @@ def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_5():
+def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusive_2_5(save_xml):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     555633833307218160.
@@ -9633,10 +10285,11 @@ def test_atomic_integer_min_inclusive_5_nistxml_sv_ii_atomic_integer_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicIntegerMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_1():
+def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -9647,10 +10300,11 @@ def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_2():
+def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -9661,10 +10315,11 @@ def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_3():
+def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -9675,10 +10330,11 @@ def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_4():
+def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -9689,10 +10345,11 @@ def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_5():
+def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -9703,10 +10360,11 @@ def test_atomic_decimal_total_digits_9_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_1():
+def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 10.
     """
@@ -9717,10 +10375,11 @@ def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_2():
+def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 10.
     """
@@ -9731,10 +10390,11 @@ def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_3():
+def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 10.
     """
@@ -9745,10 +10405,11 @@ def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_4():
+def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 10.
     """
@@ -9759,10 +10420,11 @@ def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_5():
+def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 10.
     """
@@ -9773,10 +10435,11 @@ def test_atomic_decimal_total_digits_8_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_1():
+def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 7.
     """
@@ -9787,10 +10450,11 @@ def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_2():
+def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 7.
     """
@@ -9801,10 +10465,11 @@ def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_3():
+def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 7.
     """
@@ -9815,10 +10480,11 @@ def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_4():
+def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 7.
     """
@@ -9829,10 +10495,11 @@ def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_5():
+def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 7.
     """
@@ -9843,10 +10510,11 @@ def test_atomic_decimal_total_digits_7_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_1():
+def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 4.
     """
@@ -9857,10 +10525,11 @@ def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_2():
+def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 4.
     """
@@ -9871,10 +10540,11 @@ def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_3():
+def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 4.
     """
@@ -9885,10 +10555,11 @@ def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_4():
+def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 4.
     """
@@ -9899,10 +10570,11 @@ def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_5():
+def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 4.
     """
@@ -9913,10 +10585,11 @@ def test_atomic_decimal_total_digits_6_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_1():
+def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -9927,10 +10600,11 @@ def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_2():
+def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_2(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -9941,10 +10615,11 @@ def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_3():
+def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_3(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -9955,10 +10630,11 @@ def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_4():
+def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_4(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -9969,10 +10645,11 @@ def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_5():
+def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits_1_5(save_xml):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -9983,10 +10660,11 @@ def test_atomic_decimal_total_digits_5_nistxml_sv_ii_atomic_decimal_total_digits
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalTotalDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_1():
+def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -9998,10 +10676,11 @@ def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_2():
+def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -10013,10 +10692,11 @@ def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_3():
+def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -10028,10 +10708,11 @@ def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_4():
+def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -10043,10 +10724,11 @@ def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_5():
+def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_digits_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -10058,10 +10740,11 @@ def test_atomic_decimal_fraction_digits_9_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_1():
+def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     9.
@@ -10073,10 +10756,11 @@ def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_2():
+def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     9.
@@ -10088,10 +10772,11 @@ def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_3():
+def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     9.
@@ -10103,10 +10788,11 @@ def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_4():
+def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     9.
@@ -10118,10 +10804,11 @@ def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_5():
+def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_digits_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     9.
@@ -10133,10 +10820,11 @@ def test_atomic_decimal_fraction_digits_8_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_1():
+def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     6.
@@ -10148,10 +10836,11 @@ def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_2():
+def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     6.
@@ -10163,10 +10852,11 @@ def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_3():
+def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     6.
@@ -10178,10 +10868,11 @@ def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_4():
+def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     6.
@@ -10193,10 +10884,11 @@ def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_5():
+def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_digits_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     6.
@@ -10208,10 +10900,11 @@ def test_atomic_decimal_fraction_digits_7_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_1():
+def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     3.
@@ -10223,10 +10916,11 @@ def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_2():
+def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     3.
@@ -10238,10 +10932,11 @@ def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_3():
+def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     3.
@@ -10253,10 +10948,11 @@ def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_4():
+def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     3.
@@ -10268,10 +10964,11 @@ def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_5():
+def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_digits_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     3.
@@ -10283,10 +10980,11 @@ def test_atomic_decimal_fraction_digits_6_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_1():
+def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -10298,10 +10996,11 @@ def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_2():
+def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_2(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -10313,10 +11012,11 @@ def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_3():
+def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_3(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -10328,10 +11028,11 @@ def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_4():
+def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_4(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -10343,10 +11044,11 @@ def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_5():
+def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_digits_1_5(save_xml):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -10358,10 +11060,11 @@ def test_atomic_decimal_fraction_digits_5_nistxml_sv_ii_atomic_decimal_fraction_
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalFractionDigits1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_1():
+def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     187840545667389724.
@@ -10373,10 +11076,11 @@ def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_2():
+def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     187840545667389724.
@@ -10388,10 +11092,11 @@ def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_3():
+def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     187840545667389724.
@@ -10403,10 +11108,11 @@ def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_4():
+def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     187840545667389724.
@@ -10418,10 +11124,11 @@ def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_5():
+def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusive_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     187840545667389724.
@@ -10433,10 +11140,11 @@ def test_atomic_decimal_max_inclusive_9_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_1():
+def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -276828978495828214.
@@ -10448,10 +11156,11 @@ def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_2():
+def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -276828978495828214.
@@ -10463,10 +11172,11 @@ def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_3():
+def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -276828978495828214.
@@ -10478,10 +11188,11 @@ def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_4():
+def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -276828978495828214.
@@ -10493,10 +11204,11 @@ def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_5():
+def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusive_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -276828978495828214.
@@ -10508,10 +11220,11 @@ def test_atomic_decimal_max_inclusive_8_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_1():
+def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -873150926158042127.
@@ -10523,10 +11236,11 @@ def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_2():
+def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -873150926158042127.
@@ -10538,10 +11252,11 @@ def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_3():
+def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -873150926158042127.
@@ -10553,10 +11268,11 @@ def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_4():
+def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -873150926158042127.
@@ -10568,10 +11284,11 @@ def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_5():
+def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusive_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -873150926158042127.
@@ -10583,10 +11300,11 @@ def test_atomic_decimal_max_inclusive_7_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_1():
+def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     334974685437745555.
@@ -10598,10 +11316,11 @@ def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_2():
+def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     334974685437745555.
@@ -10613,10 +11332,11 @@ def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_3():
+def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     334974685437745555.
@@ -10628,10 +11348,11 @@ def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_4():
+def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     334974685437745555.
@@ -10643,10 +11364,11 @@ def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_5():
+def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusive_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     334974685437745555.
@@ -10658,10 +11380,11 @@ def test_atomic_decimal_max_inclusive_6_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_1():
+def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_1(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -10673,10 +11396,11 @@ def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_2():
+def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_2(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -10688,10 +11412,11 @@ def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_3():
+def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_3(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -10703,10 +11428,11 @@ def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_4():
+def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_4(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -10718,10 +11444,11 @@ def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_5():
+def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusive_1_5(save_xml):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -10733,10 +11460,11 @@ def test_atomic_decimal_max_inclusive_5_nistxml_sv_ii_atomic_decimal_max_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMaxInclusive1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_1():
+def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -10748,10 +11476,11 @@ def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_2():
+def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -10763,10 +11492,11 @@ def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_3():
+def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -10778,10 +11508,11 @@ def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_4():
+def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -10793,10 +11524,11 @@ def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_5():
+def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusive_6_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -10808,10 +11540,11 @@ def test_atomic_decimal_min_inclusive_9_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive6",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_1():
+def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     913110463857996767.
@@ -10823,10 +11556,11 @@ def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_2():
+def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     913110463857996767.
@@ -10838,10 +11572,11 @@ def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_3():
+def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     913110463857996767.
@@ -10853,10 +11588,11 @@ def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_4():
+def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     913110463857996767.
@@ -10868,10 +11604,11 @@ def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_5():
+def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusive_5_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     913110463857996767.
@@ -10883,10 +11620,11 @@ def test_atomic_decimal_min_inclusive_8_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_1():
+def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -484062845034851418.
@@ -10898,10 +11636,11 @@ def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_2():
+def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -484062845034851418.
@@ -10913,10 +11652,11 @@ def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_3():
+def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -484062845034851418.
@@ -10928,10 +11668,11 @@ def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_4():
+def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -484062845034851418.
@@ -10943,10 +11684,11 @@ def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_5():
+def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusive_4_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -484062845034851418.
@@ -10958,10 +11700,11 @@ def test_atomic_decimal_min_inclusive_7_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_1():
+def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     217527397529179155.
@@ -10973,10 +11716,11 @@ def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_2():
+def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     217527397529179155.
@@ -10988,10 +11732,11 @@ def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_3():
+def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     217527397529179155.
@@ -11003,10 +11748,11 @@ def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_4():
+def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     217527397529179155.
@@ -11018,10 +11764,11 @@ def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_5():
+def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusive_3_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     217527397529179155.
@@ -11033,10 +11780,11 @@ def test_atomic_decimal_min_inclusive_6_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_1():
+def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_1(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     46766021207033325.
@@ -11048,10 +11796,11 @@ def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_2():
+def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_2(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     46766021207033325.
@@ -11063,10 +11812,11 @@ def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_3():
+def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_3(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     46766021207033325.
@@ -11078,10 +11828,11 @@ def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_4():
+def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_4(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     46766021207033325.
@@ -11093,10 +11844,11 @@ def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_5():
+def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusive_2_5(save_xml):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     46766021207033325.
@@ -11108,10 +11860,11 @@ def test_atomic_decimal_min_inclusive_5_nistxml_sv_ii_atomic_decimal_min_inclusi
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDecimalMinInclusive2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_1():
+def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_1(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11122,10 +11875,11 @@ def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_2():
+def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_2(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11136,10 +11890,11 @@ def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_3():
+def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_3(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11150,10 +11905,11 @@ def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_4():
+def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_4(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11164,10 +11920,11 @@ def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_5():
+def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_5(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11178,10 +11935,11 @@ def test_atomic_float_enumeration_9_nistxml_sv_ii_atomic_float_enumeration_5_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_1():
+def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_1(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11192,10 +11950,11 @@ def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_2():
+def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_2(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11206,10 +11965,11 @@ def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_3():
+def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_3(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11220,10 +11980,11 @@ def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_4():
+def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_4(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11234,10 +11995,11 @@ def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_5():
+def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_5(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11248,10 +12010,11 @@ def test_atomic_float_enumeration_8_nistxml_sv_ii_atomic_float_enumeration_4_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_1():
+def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_1(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11262,10 +12025,11 @@ def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_2():
+def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_2(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11276,10 +12040,11 @@ def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_3():
+def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_3(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11290,10 +12055,11 @@ def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_4():
+def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_4(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11304,10 +12070,11 @@ def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_5():
+def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_5(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11318,10 +12085,11 @@ def test_atomic_float_enumeration_7_nistxml_sv_ii_atomic_float_enumeration_3_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_1():
+def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_1(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11332,10 +12100,11 @@ def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_2():
+def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_2(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11346,10 +12115,11 @@ def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_3():
+def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_3(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11360,10 +12130,11 @@ def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_4():
+def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_4(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11374,10 +12145,11 @@ def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_5():
+def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_5(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11388,10 +12160,11 @@ def test_atomic_float_enumeration_6_nistxml_sv_ii_atomic_float_enumeration_2_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_1():
+def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_1(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11402,10 +12175,11 @@ def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_1()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_2():
+def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_2(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11416,10 +12190,11 @@ def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_2()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_3():
+def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_3(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11430,10 +12205,11 @@ def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_3()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_4():
+def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_4(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11444,10 +12220,11 @@ def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_4()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_5():
+def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_5(save_xml):
     """
     Type atomic/float is restricted by facet enumeration.
     """
@@ -11458,10 +12235,11 @@ def test_atomic_float_enumeration_5_nistxml_sv_ii_atomic_float_enumeration_1_5()
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_1():
+def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_1(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{7}E\-\d{2}.
@@ -11473,10 +12251,11 @@ def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_2():
+def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_2(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{7}E\-\d{2}.
@@ -11488,10 +12267,11 @@ def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_3():
+def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_3(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{7}E\-\d{2}.
@@ -11503,10 +12283,11 @@ def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_4():
+def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_4(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{7}E\-\d{2}.
@@ -11518,10 +12299,11 @@ def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_5():
+def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_5(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{7}E\-\d{2}.
@@ -11533,10 +12315,11 @@ def test_atomic_float_pattern_9_nistxml_sv_ii_atomic_float_pattern_5_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_1():
+def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_1(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{3}E\d{2}.
@@ -11548,10 +12331,11 @@ def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_2():
+def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_2(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{3}E\d{2}.
@@ -11563,10 +12347,11 @@ def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_3():
+def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_3(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{3}E\d{2}.
@@ -11578,10 +12363,11 @@ def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_4():
+def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_4(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{3}E\d{2}.
@@ -11593,10 +12379,11 @@ def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_5():
+def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_5(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{3}E\d{2}.
@@ -11608,10 +12395,11 @@ def test_atomic_float_pattern_8_nistxml_sv_ii_atomic_float_pattern_4_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_1():
+def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_1(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{2}E\d{1}.
@@ -11623,10 +12411,11 @@ def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_2():
+def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_2(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{2}E\d{1}.
@@ -11638,10 +12427,11 @@ def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_3():
+def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_3(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{2}E\d{1}.
@@ -11653,10 +12443,11 @@ def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_4():
+def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_4(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{2}E\d{1}.
@@ -11668,10 +12459,11 @@ def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_5():
+def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_5(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}\.\d{2}E\d{1}.
@@ -11683,10 +12475,11 @@ def test_atomic_float_pattern_7_nistxml_sv_ii_atomic_float_pattern_3_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_1():
+def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_1(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{2}E\-\d{1}.
@@ -11698,10 +12491,11 @@ def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_2():
+def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_2(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{2}E\-\d{1}.
@@ -11713,10 +12507,11 @@ def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_3():
+def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_3(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{2}E\-\d{1}.
@@ -11728,10 +12523,11 @@ def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_4():
+def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_4(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{2}E\-\d{1}.
@@ -11743,10 +12539,11 @@ def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_5():
+def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_5(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{2}E\-\d{1}.
@@ -11758,10 +12555,11 @@ def test_atomic_float_pattern_6_nistxml_sv_ii_atomic_float_pattern_2_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_1():
+def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_1(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}E\-\d{2}.
@@ -11773,10 +12571,11 @@ def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_2():
+def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_2(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}E\-\d{2}.
@@ -11788,10 +12587,11 @@ def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_3():
+def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_3(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}E\-\d{2}.
@@ -11803,10 +12603,11 @@ def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_4():
+def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_4(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}E\-\d{2}.
@@ -11818,10 +12619,11 @@ def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_5():
+def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_5(save_xml):
     r"""
     Type atomic/float is restricted by facet pattern with value
     \d{1}E\-\d{2}.
@@ -11833,10 +12635,11 @@ def test_atomic_float_pattern_5_nistxml_sv_ii_atomic_float_pattern_1_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicFloatPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_1():
+def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_1(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11847,10 +12650,11 @@ def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_2():
+def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_2(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11861,10 +12665,11 @@ def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_3():
+def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_3(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11875,10 +12680,11 @@ def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_4():
+def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_4(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11889,10 +12695,11 @@ def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_5():
+def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_5(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11903,10 +12710,11 @@ def test_atomic_double_enumeration_9_nistxml_sv_ii_atomic_double_enumeration_5_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_1():
+def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_1(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11917,10 +12725,11 @@ def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_2():
+def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_2(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11931,10 +12740,11 @@ def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_3():
+def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_3(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11945,10 +12755,11 @@ def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_4():
+def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_4(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11959,10 +12770,11 @@ def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_5():
+def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_5(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11973,10 +12785,11 @@ def test_atomic_double_enumeration_8_nistxml_sv_ii_atomic_double_enumeration_4_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_1():
+def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_1(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -11987,10 +12800,11 @@ def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_2():
+def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_2(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12001,10 +12815,11 @@ def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_3():
+def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_3(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12015,10 +12830,11 @@ def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_4():
+def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_4(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12029,10 +12845,11 @@ def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_5():
+def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_5(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12043,10 +12860,11 @@ def test_atomic_double_enumeration_7_nistxml_sv_ii_atomic_double_enumeration_3_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_1():
+def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_1(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12057,10 +12875,11 @@ def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_2():
+def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_2(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12071,10 +12890,11 @@ def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_3():
+def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_3(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12085,10 +12905,11 @@ def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_4():
+def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_4(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12099,10 +12920,11 @@ def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_5():
+def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_5(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12113,10 +12935,11 @@ def test_atomic_double_enumeration_6_nistxml_sv_ii_atomic_double_enumeration_2_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_1():
+def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_1(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12127,10 +12950,11 @@ def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_1
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_2():
+def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_2(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12141,10 +12965,11 @@ def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_2
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_3():
+def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_3(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12155,10 +12980,11 @@ def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_3
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_4():
+def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_4(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12169,10 +12995,11 @@ def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_4
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_5():
+def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_5(save_xml):
     """
     Type atomic/double is restricted by facet enumeration.
     """
@@ -12183,10 +13010,11 @@ def test_atomic_double_enumeration_5_nistxml_sv_ii_atomic_double_enumeration_1_5
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoubleEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_1():
+def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_1(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{16}E\d{3}.
@@ -12198,10 +13026,11 @@ def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_2():
+def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_2(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{16}E\d{3}.
@@ -12213,10 +13042,11 @@ def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_3():
+def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_3(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{16}E\d{3}.
@@ -12228,10 +13058,11 @@ def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_4():
+def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_4(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{16}E\d{3}.
@@ -12243,10 +13074,11 @@ def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_5():
+def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_5(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{16}E\d{3}.
@@ -12258,10 +13090,11 @@ def test_atomic_double_pattern_9_nistxml_sv_ii_atomic_double_pattern_5_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_1():
+def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_1(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{12}E\d{1}.
@@ -12273,10 +13106,11 @@ def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_2():
+def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_2(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{12}E\d{1}.
@@ -12288,10 +13122,11 @@ def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_3():
+def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_3(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{12}E\d{1}.
@@ -12303,10 +13138,11 @@ def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_4():
+def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_4(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{12}E\d{1}.
@@ -12318,10 +13154,11 @@ def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_5():
+def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_5(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{12}E\d{1}.
@@ -12333,10 +13170,11 @@ def test_atomic_double_pattern_8_nistxml_sv_ii_atomic_double_pattern_4_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_1():
+def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_1(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{8}E\-\d{1}.
@@ -12348,10 +13186,11 @@ def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_2():
+def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_2(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{8}E\-\d{1}.
@@ -12363,10 +13202,11 @@ def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_3():
+def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_3(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{8}E\-\d{1}.
@@ -12378,10 +13218,11 @@ def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_4():
+def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_4(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{8}E\-\d{1}.
@@ -12393,10 +13234,11 @@ def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_5():
+def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_5(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{8}E\-\d{1}.
@@ -12408,10 +13250,11 @@ def test_atomic_double_pattern_7_nistxml_sv_ii_atomic_double_pattern_3_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_1():
+def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_1(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{4}E\-\d{2}.
@@ -12423,10 +13266,11 @@ def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_2():
+def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_2(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{4}E\-\d{2}.
@@ -12438,10 +13282,11 @@ def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_3():
+def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_3(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{4}E\-\d{2}.
@@ -12453,10 +13298,11 @@ def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_4():
+def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_4(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{4}E\-\d{2}.
@@ -12468,10 +13314,11 @@ def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_5():
+def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_5(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}\.\d{4}E\-\d{2}.
@@ -12483,10 +13330,11 @@ def test_atomic_double_pattern_6_nistxml_sv_ii_atomic_double_pattern_2_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_1():
+def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_1(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}E\-\d{3}.
@@ -12498,10 +13346,11 @@ def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_1():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_2():
+def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_2(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}E\-\d{3}.
@@ -12513,10 +13362,11 @@ def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_2():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_3():
+def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_3(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}E\-\d{3}.
@@ -12528,10 +13378,11 @@ def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_3():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_4():
+def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_4(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}E\-\d{3}.
@@ -12543,10 +13394,11 @@ def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_4():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_5():
+def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_5(save_xml):
     r"""
     Type atomic/double is restricted by facet pattern with value
     \d{1}E\-\d{3}.
@@ -12558,10 +13410,11 @@ def test_atomic_double_pattern_5_nistxml_sv_ii_atomic_double_pattern_1_5():
         instance_is_valid=False,
         class_name="NistschemaSvIiAtomicDoublePattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_1():
+def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet whiteSpace with value
     collapse.
@@ -12573,10 +13426,11 @@ def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_2():
+def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet whiteSpace with value
     collapse.
@@ -12588,10 +13442,11 @@ def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_3():
+def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet whiteSpace with value
     collapse.
@@ -12603,10 +13458,11 @@ def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_4():
+def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet whiteSpace with value
     collapse.
@@ -12618,10 +13474,11 @@ def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_5():
+def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_space_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet whiteSpace with value
     collapse.
@@ -12633,10 +13490,11 @@ def test_atomic_hex_binary_white_space_nistxml_sv_iv_atomic_hex_binary_white_spa
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_1():
+def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12647,10 +13505,11 @@ def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_2():
+def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12661,10 +13520,11 @@ def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_3():
+def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12675,10 +13535,11 @@ def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_4():
+def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12689,10 +13550,11 @@ def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_5():
+def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumeration_5_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12703,10 +13565,11 @@ def test_atomic_hex_binary_enumeration_4_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_1():
+def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12717,10 +13580,11 @@ def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_2():
+def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12731,10 +13595,11 @@ def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_3():
+def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12745,10 +13610,11 @@ def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_4():
+def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12759,10 +13625,11 @@ def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_5():
+def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumeration_4_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12773,10 +13640,11 @@ def test_atomic_hex_binary_enumeration_3_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_1():
+def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12787,10 +13655,11 @@ def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_2():
+def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12801,10 +13670,11 @@ def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_3():
+def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12815,10 +13685,11 @@ def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_4():
+def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12829,10 +13700,11 @@ def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_5():
+def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumeration_3_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12843,10 +13715,11 @@ def test_atomic_hex_binary_enumeration_2_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_1():
+def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12857,10 +13730,11 @@ def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_2():
+def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12871,10 +13745,11 @@ def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_3():
+def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12885,10 +13760,11 @@ def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_4():
+def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12899,10 +13775,11 @@ def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_5():
+def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumeration_2_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12913,10 +13790,11 @@ def test_atomic_hex_binary_enumeration_1_nistxml_sv_iv_atomic_hex_binary_enumera
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_1():
+def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12927,10 +13805,11 @@ def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_2():
+def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12941,10 +13820,11 @@ def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_3():
+def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12955,10 +13835,11 @@ def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_4():
+def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12969,10 +13850,11 @@ def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_5():
+def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumeration_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet enumeration.
     """
@@ -12983,10 +13865,11 @@ def test_atomic_hex_binary_enumeration_nistxml_sv_iv_atomic_hex_binary_enumerati
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryEnumeration1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_1():
+def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{60}.
@@ -12998,10 +13881,11 @@ def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_2():
+def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{60}.
@@ -13013,10 +13897,11 @@ def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_3():
+def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{60}.
@@ -13028,10 +13913,11 @@ def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_4():
+def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{60}.
@@ -13043,10 +13929,11 @@ def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_5():
+def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{60}.
@@ -13058,10 +13945,11 @@ def test_atomic_hex_binary_pattern_4_nistxml_sv_iv_atomic_hex_binary_pattern_5_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_1():
+def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{46}.
@@ -13073,10 +13961,11 @@ def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_2():
+def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{46}.
@@ -13088,10 +13977,11 @@ def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_3():
+def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{46}.
@@ -13103,10 +13993,11 @@ def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_4():
+def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{46}.
@@ -13118,10 +14009,11 @@ def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_5():
+def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{46}.
@@ -13133,10 +14025,11 @@ def test_atomic_hex_binary_pattern_3_nistxml_sv_iv_atomic_hex_binary_pattern_4_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_1():
+def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{18}.
@@ -13148,10 +14041,11 @@ def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_2():
+def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{18}.
@@ -13163,10 +14057,11 @@ def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_3():
+def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{18}.
@@ -13178,10 +14073,11 @@ def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_4():
+def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{18}.
@@ -13193,10 +14089,11 @@ def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_5():
+def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{18}.
@@ -13208,10 +14105,11 @@ def test_atomic_hex_binary_pattern_2_nistxml_sv_iv_atomic_hex_binary_pattern_3_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_1():
+def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{66}.
@@ -13223,10 +14121,11 @@ def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_1
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_2():
+def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{66}.
@@ -13238,10 +14137,11 @@ def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_2
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_3():
+def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{66}.
@@ -13253,10 +14153,11 @@ def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_3
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_4():
+def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{66}.
@@ -13268,10 +14169,11 @@ def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_4
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_5():
+def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{66}.
@@ -13283,10 +14185,11 @@ def test_atomic_hex_binary_pattern_1_nistxml_sv_iv_atomic_hex_binary_pattern_2_5
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_1():
+def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{56}.
@@ -13298,10 +14201,11 @@ def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_2():
+def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{56}.
@@ -13313,10 +14217,11 @@ def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_3():
+def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{56}.
@@ -13328,10 +14233,11 @@ def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_4():
+def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{56}.
@@ -13343,10 +14249,11 @@ def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_5():
+def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet pattern with value
     [0-9A-F]{56}.
@@ -13358,10 +14265,11 @@ def test_atomic_hex_binary_pattern_nistxml_sv_iv_atomic_hex_binary_pattern_1_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryPattern1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_1():
+def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 74.
     """
@@ -13372,10 +14280,11 @@ def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_2():
+def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 74.
     """
@@ -13386,10 +14295,11 @@ def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_3():
+def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 74.
     """
@@ -13400,10 +14310,11 @@ def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_4():
+def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 74.
     """
@@ -13414,10 +14325,11 @@ def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_5():
+def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 74.
     """
@@ -13428,10 +14340,11 @@ def test_atomic_hex_binary_length_4_nistxml_sv_iv_atomic_hex_binary_length_5_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_1():
+def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 68.
     """
@@ -13442,10 +14355,11 @@ def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_2():
+def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 68.
     """
@@ -13456,10 +14370,11 @@ def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_3():
+def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 68.
     """
@@ -13470,10 +14385,11 @@ def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_4():
+def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 68.
     """
@@ -13484,10 +14400,11 @@ def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_5():
+def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 68.
     """
@@ -13498,10 +14415,11 @@ def test_atomic_hex_binary_length_3_nistxml_sv_iv_atomic_hex_binary_length_4_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_1():
+def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 41.
     """
@@ -13512,10 +14430,11 @@ def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_2():
+def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 41.
     """
@@ -13526,10 +14445,11 @@ def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_3():
+def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 41.
     """
@@ -13540,10 +14460,11 @@ def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_4():
+def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 41.
     """
@@ -13554,10 +14475,11 @@ def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_5():
+def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 41.
     """
@@ -13568,10 +14490,11 @@ def test_atomic_hex_binary_length_2_nistxml_sv_iv_atomic_hex_binary_length_3_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_1():
+def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 16.
     """
@@ -13582,10 +14505,11 @@ def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_1()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_2():
+def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 16.
     """
@@ -13596,10 +14520,11 @@ def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_2()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_3():
+def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 16.
     """
@@ -13610,10 +14535,11 @@ def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_3()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_4():
+def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 16.
     """
@@ -13624,10 +14550,11 @@ def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_4()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_5():
+def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 16.
     """
@@ -13638,10 +14565,11 @@ def test_atomic_hex_binary_length_1_nistxml_sv_iv_atomic_hex_binary_length_2_5()
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_1():
+def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 1.
     """
@@ -13652,10 +14580,11 @@ def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_1():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_2():
+def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 1.
     """
@@ -13666,10 +14595,11 @@ def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_2():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_3():
+def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 1.
     """
@@ -13680,10 +14610,11 @@ def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_3():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_4():
+def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 1.
     """
@@ -13694,10 +14625,11 @@ def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_4():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_5():
+def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet length with value 1.
     """
@@ -13708,10 +14640,11 @@ def test_atomic_hex_binary_length_nistxml_sv_iv_atomic_hex_binary_length_1_5():
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_1():
+def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 74.
     """
@@ -13722,10 +14655,11 @@ def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_2():
+def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 74.
     """
@@ -13736,10 +14670,11 @@ def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_3():
+def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 74.
     """
@@ -13750,10 +14685,11 @@ def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_4():
+def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 74.
     """
@@ -13764,10 +14700,11 @@ def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_5():
+def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_length_5_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 74.
     """
@@ -13778,10 +14715,11 @@ def test_atomic_hex_binary_min_length_4_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_1():
+def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 48.
     """
@@ -13792,10 +14730,11 @@ def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_2():
+def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 48.
     """
@@ -13806,10 +14745,11 @@ def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_3():
+def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 48.
     """
@@ -13820,10 +14760,11 @@ def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_4():
+def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 48.
     """
@@ -13834,10 +14775,11 @@ def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_5():
+def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_length_4_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 48.
     """
@@ -13848,10 +14790,11 @@ def test_atomic_hex_binary_min_length_3_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_1():
+def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 2.
     """
@@ -13862,10 +14805,11 @@ def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_2():
+def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 2.
     """
@@ -13876,10 +14820,11 @@ def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_3():
+def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 2.
     """
@@ -13890,10 +14835,11 @@ def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_4():
+def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 2.
     """
@@ -13904,10 +14850,11 @@ def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_5():
+def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_length_3_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 2.
     """
@@ -13918,10 +14865,11 @@ def test_atomic_hex_binary_min_length_2_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_1():
+def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 28.
     """
@@ -13932,10 +14880,11 @@ def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_2():
+def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 28.
     """
@@ -13946,10 +14895,11 @@ def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_3():
+def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 28.
     """
@@ -13960,10 +14910,11 @@ def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_4():
+def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 28.
     """
@@ -13974,10 +14925,11 @@ def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_5():
+def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_length_2_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 28.
     """
@@ -13988,10 +14940,11 @@ def test_atomic_hex_binary_min_length_1_nistxml_sv_iv_atomic_hex_binary_min_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_1():
+def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 1.
     """
@@ -14002,10 +14955,11 @@ def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_2():
+def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 1.
     """
@@ -14016,10 +14970,11 @@ def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_3():
+def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 1.
     """
@@ -14030,10 +14985,11 @@ def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_4():
+def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 1.
     """
@@ -14044,10 +15000,11 @@ def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_5():
+def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet minLength with value 1.
     """
@@ -14058,10 +15015,11 @@ def test_atomic_hex_binary_min_length_nistxml_sv_iv_atomic_hex_binary_min_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMinLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_1():
+def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 74.
     """
@@ -14072,10 +15030,11 @@ def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_2():
+def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 74.
     """
@@ -14086,10 +15045,11 @@ def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_3():
+def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 74.
     """
@@ -14100,10 +15060,11 @@ def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_4():
+def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 74.
     """
@@ -14114,10 +15075,11 @@ def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_5():
+def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_length_5_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 74.
     """
@@ -14128,10 +15090,11 @@ def test_atomic_hex_binary_max_length_4_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_1():
+def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 6.
     """
@@ -14142,10 +15105,11 @@ def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_2():
+def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 6.
     """
@@ -14156,10 +15120,11 @@ def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_3():
+def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 6.
     """
@@ -14170,10 +15135,11 @@ def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_4():
+def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 6.
     """
@@ -14184,10 +15150,11 @@ def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_5():
+def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_length_4_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 6.
     """
@@ -14198,10 +15165,11 @@ def test_atomic_hex_binary_max_length_3_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_1():
+def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 7.
     """
@@ -14212,10 +15180,11 @@ def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_2():
+def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 7.
     """
@@ -14226,10 +15195,11 @@ def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_3():
+def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 7.
     """
@@ -14240,10 +15210,11 @@ def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_4():
+def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 7.
     """
@@ -14254,10 +15225,11 @@ def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_5():
+def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_length_3_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 7.
     """
@@ -14268,10 +15240,11 @@ def test_atomic_hex_binary_max_length_2_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_1():
+def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 29.
     """
@@ -14282,10 +15255,11 @@ def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_2():
+def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 29.
     """
@@ -14296,10 +15270,11 @@ def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_3():
+def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 29.
     """
@@ -14310,10 +15285,11 @@ def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_4():
+def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 29.
     """
@@ -14324,10 +15300,11 @@ def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_5():
+def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_length_2_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 29.
     """
@@ -14338,10 +15315,11 @@ def test_atomic_hex_binary_max_length_1_nistxml_sv_iv_atomic_hex_binary_max_leng
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength2",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_1():
+def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_1(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 1.
     """
@@ -14352,10 +15330,11 @@ def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_2():
+def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_2(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 1.
     """
@@ -14366,10 +15345,11 @@ def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_3():
+def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_3(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 1.
     """
@@ -14380,10 +15360,11 @@ def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_4():
+def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_4(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 1.
     """
@@ -14394,10 +15375,11 @@ def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_5():
+def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length_1_5(save_xml):
     """
     Type atomic/hexBinary is restricted by facet maxLength with value 1.
     """
@@ -14408,10 +15390,11 @@ def test_atomic_hex_binary_max_length_nistxml_sv_iv_atomic_hex_binary_max_length
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicHexBinaryMaxLength1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_1():
+def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet whiteSpace with value
     collapse.
@@ -14423,10 +15406,11 @@ def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_whi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_2():
+def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet whiteSpace with value
     collapse.
@@ -14438,10 +15422,11 @@ def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_whi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_3():
+def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet whiteSpace with value
     collapse.
@@ -14453,10 +15438,11 @@ def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_whi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_4():
+def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet whiteSpace with value
     collapse.
@@ -14468,10 +15454,11 @@ def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_whi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_5():
+def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_white_space_1_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet whiteSpace with value
     collapse.
@@ -14483,10 +15470,11 @@ def test_atomic_base64_binary_white_space_nistxml_sv_iv_atomic_base64_binary_whi
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryWhiteSpace1",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_1():
+def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14497,10 +15485,11 @@ def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_2():
+def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14511,10 +15500,11 @@ def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_3():
+def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14525,10 +15515,11 @@ def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_4():
+def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14539,10 +15530,11 @@ def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_5():
+def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_enumeration_5_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14553,10 +15545,11 @@ def test_atomic_base64_binary_enumeration_4_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration5",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_1():
+def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14567,10 +15560,11 @@ def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_2():
+def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14581,10 +15575,11 @@ def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_3():
+def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_3(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14595,10 +15590,11 @@ def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_4():
+def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_4(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14609,10 +15605,11 @@ def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_5():
+def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_enumeration_4_5(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14623,10 +15620,11 @@ def test_atomic_base64_binary_enumeration_3_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration4",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_1():
+def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_1(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14637,10 +15635,11 @@ def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )
 
 
-def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_2():
+def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_enumeration_3_2(save_xml):
     """
     Type atomic/base64Binary is restricted by facet enumeration.
     """
@@ -14651,4 +15650,5 @@ def test_atomic_base64_binary_enumeration_2_nistxml_sv_iv_atomic_base64_binary_e
         instance_is_valid=True,
         class_name="NistschemaSvIvAtomicBase64BinaryEnumeration3",
         version="1.0",
+        save_xml=save_xml,
     )

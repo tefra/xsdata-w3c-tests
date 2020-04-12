@@ -1,0 +1,25 @@
+<!-- xsdata instance -->
+<b:root xmlns:b="a" xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <b:dept>
+    <b:Deptno>10</b:Deptno>
+    <b:Dname>Accounting</b:Dname>
+    <b:Loc>Dallas</b:Loc>
+  </b:dept>
+  <b:dept>
+    <b:Deptno>20</b:Deptno>
+    <b:Dname>Production</b:Dname>
+    <b:Loc>New York</b:Loc>
+  </b:dept>
+  <b:Employee>
+    <b:Empno>1001</b:Empno>
+    <b:Ename>Jag</b:Ename>
+    <b:Sal>2500.0</b:Sal>
+    <b:Deptno>10</b:Deptno>
+  </b:Employee>
+  <b:Employee>
+    <b:Empno>1002</b:Empno>
+    <b:Ename>Win</b:Ename>
+    <b:Sal>2600.0</b:Sal>
+    <b:Deptno>20</b:Deptno>
+  </b:Employee>
+</b:root>

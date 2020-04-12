@@ -1,0 +1,17 @@
+<!-- xsdata instance -->
+<a:root xmlns:a="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <p>
+    <qwe>s</qwe>
+    <x>1</x>
+  </p>
+  <q>
+    <wer>
+      <g>123</g>
+    </wer>
+    <z>2</z>
+  </q>
+  <r>
+    <lj>we</lj>
+    <y>1</y>
+  </r>
+</a:root>

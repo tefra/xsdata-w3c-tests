@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:other="http://tempuri.org/xmlschema" xsi:noNamespaceSchemaLocation="ctH047.xsd" other:myAttr="extension attribute">
+  <myElement2>test data</myElement2>
+  <myElement4>test data</myElement4>
+</root>

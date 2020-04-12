@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<doc>
+  <node>
+    <node/>
+    <node>
+      <idrefs>aaa 97 ddd</idrefs>
+    </node>
+    <id>ccc ddd</id>
+    <id>12</id>
+  </node>
+</doc>

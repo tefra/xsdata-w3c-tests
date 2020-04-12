@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<foo:extension xmlns:foo="urn:foo" xmlns:b="urn:b" xmlns:a="urn:a" xmlns:c="urn:c" b:xxx="xxx"/>

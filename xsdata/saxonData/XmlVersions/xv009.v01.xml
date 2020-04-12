@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<doc>
+  <item>ABC DEF</item>
+  <item>ABC
+DEF</item>
+  <item>ABC&#13;DEF</item>
+  <item>ABC	DEF</item>
+</doc>

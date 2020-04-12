@@ -1,0 +1,6 @@
+<!-- xsdata instance -->
+<x:root_elem xmlns:x="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <x:myelem xsi:type="x:ctype_foo">
+    <a>hello</a>
+  </x:myelem>
+</x:root_elem>

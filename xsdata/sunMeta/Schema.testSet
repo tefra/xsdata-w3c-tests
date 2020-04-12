@@ -1,0 +1,139 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="SUN" name="Schema" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="annotations00101m1">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted  annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for the schema itself.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m1">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m1.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m1_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotations00101m2">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted double annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for the schema itself.
+                             The annotation is specified twice.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m2">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m2.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m2_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotations00101m3">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>human-targeted placed at the end annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the human-targeted annotation 
+                             is provided for the schema itself.
+                             The annotation is placed at the end.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m3">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m3.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m3_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotations00101m4">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted  annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for the schema itself.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m4">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m4.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m4_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotations00101m5">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted double annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for the schema itself.
+                             The annotation is specified twice.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m5">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m5.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m5_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="annotations00101m6">
+    <ns0:annotation>
+      <ns0:documentation>
+        <ns0:Title>machine-targeted placed at the end annotation for the schema itself (valid schema)</ns0:Title>
+        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             annotations of schema components.
+                              In the test the machine-targeted annotation 
+                             is provided for the schema itself.
+                             The annotation is placed at the end.</ns0:Description>
+      </ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"/>
+    <ns0:schemaTest name="annotations00101m6">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m6.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="Positive">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Schema/annotations/annotations00101m/annotations00101m6_p.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2005-06-21"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+</ns0:testSet>

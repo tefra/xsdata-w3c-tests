@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<doc>
+  <elem att="a"/>
+  <elem att="&amp;"/>
+  <elem att="&#769;"/>
+  <elem att="&#65536;"/>
+</doc>

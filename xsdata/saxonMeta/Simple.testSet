@@ -1,0 +1,1331 @@
+<!-- xsdata instance -->
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Saxonica" name="Simple" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:testGroup name="simple001">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>+INF allowed in xs:double lexical space</ts:Title>
+        <ts:Description>+INF allowed in xs:double lexical space in XSD 1.1</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"/>
+    <ts:schemaTest name="simple001.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple001.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, +INF used legitimately.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple001.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, -INF conflicts with fixed value.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple001.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, NaN conflicts with fixed value.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple002">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>+INF allowed in xs:float lexical space</ts:Title>
+        <ts:Description>+INF allowed in xs:float lexical space in XSD 1.1</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"/>
+    <ts:schemaTest name="simple002.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple002.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple002.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, +INF used legitimately.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple002.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, -INF conflicts with fixed value.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple002.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, NaN conflicts with fixed value.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple003">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Test that simpleType/@final = extension is allowed</ts:Title>
+        <ts:Description>Depends on resolution of spec bug 2074</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"/>
+    <ts:schemaTest name="simple003.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple003.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2012-04-25"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple003.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, the simpleType that prohibits extension is not extended.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple003.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2012-04-25"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple004">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Test that simpleType/@final = extension is allowed, and works</ts:Title>
+        <ts:Description>Depends on resolution of spec bug 2074</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"/>
+    <ts:schemaTest name="simple004.xsd">
+      <ts:annotation>
+        <ts:documentation>Invalid, the simpleType that prohibits extension gets extended.</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple004.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2012-04-25"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple005">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Test simpleType/@final = extension defaulted from finalDefault, and works</ts:Title>
+        <ts:Description>Depends on resolution of spec bug 2074</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"/>
+    <ts:schemaTest name="simple005.xsd">
+      <ts:annotation>
+        <ts:documentation>Invalid, the simpleType that prohibits extension gets extended.</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple005.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2012-04-25"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple006">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>List type with a missing item type</ts:Title>
+        <ts:Description>Marked invalid here, though one could argue for "valid" under
+                section 5.3, missing components</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:schemaTest name="simple006.xsd">
+      <ts:annotation>
+        <ts:documentation>Invalid, the list type refers to a non-existent item type.</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple006.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2012-04-25"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple010">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type X is substitutable for union(X,Y)</ts:Title>
+        <ts:Description>Union is substitutable by one of the member types</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple010.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple010.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple010.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple010.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple011">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Union(X,Y) is not validly derived from Union(X,Y,Z)</ts:Title>
+        <ts:Description>Doesn't make much sense, but that's what the spec says.</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple011.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple011.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple012">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type X is substitutable for union(X,Y) when X is itself a union type</ts:Title>
+        <ts:Description>Union is substitutable by one of the member types when that member type is a union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple012.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple012.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple012.v02.xml">
+      <ts:annotation>
+        <ts:documentation>Valid use of xsi:type here</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple012.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple012.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple013">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Type D is substitutable for union(X,DT) when DT is union (D,T)</ts:Title>
+        <ts:Description>Tests substitutability of transitive membership of the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple013.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple013.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple013.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple013.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple014">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Member of a union is not substitutable if the union is derived by restriction</ts:Title>
+        <ts:Description>Tests substitutability of transitive membership of the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple014.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple014.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple015">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Member of a union is not substitutable if the union is derived by restriction</ts:Title>
+        <ts:Description>Tests substitutability of transitive membership of the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
+    <ts:schemaTest name="simple015.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple015.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple016">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>xsi:type OK to select a member of a union only if there are no restriction facets</ts:Title>
+        <ts:Description>xsi:type OK to select a member of a union only if there are no restriction facets</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"/>
+    <ts:schemaTest name="simple016.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple016.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple016.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, xsi:type is OK here as the union is unrestricted</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple016.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple016.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, xsi:type cannot be used here as the union is restricted.</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple016.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple017">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>The transitive membership of a union type must not contain the union itself</ts:Title>
+        <ts:Description>The transitive membership of a union type must not contain the union itself</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
+    <ts:schemaTest name="simple017.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple017.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple018">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>The transitive membership of a union type must not contain a type derived from the union</ts:Title>
+        <ts:Description>The transitive membership of a union type must not contain a type derived from the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
+    <ts:schemaTest name="simple018.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple018.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple019">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>The transitive membership of a union type must not contain a type constructed from the union</ts:Title>
+        <ts:Description>The transitive membership of a union type must not contain a type constructed from the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
+    <ts:schemaTest name="simple019.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple019.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple020">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>The transitive membership of a union type must not contain a type constructed from the union</ts:Title>
+        <ts:Description>The transitive membership of a union type must not contain a type constructed from the union</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
+    <ts:schemaTest name="simple020.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple020.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple021">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>The string "[^]" is not a valid regex</ts:Title>
+        <ts:Description>The string "[^]" is not a valid regex</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#charcter-classes"/>
+    <ts:schemaTest name="simple021.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid regular expression in pattern facet</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple021.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-01-25"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple022">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196</ts:Title>
+        <ts:Description>Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-IdentityAndEquality"/>
+    <ts:schemaTest name="simple022.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-02-06"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple022.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, Enumeration value OK if "equal or identical"</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-02-06"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple022.v02.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, Enumeration value OK if "equal or identical"</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-02-06"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple022.v03.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, Enumeration value OK if "equal or identical"</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v03.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-02-06"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple016.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, Enumeration value OK only if "equal or identical".</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-06"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple040">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple040.xsd">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple040.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple040.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple040.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-08"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple041">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple041.bad.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple041.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple042">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple042.bad.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid, cyclic union definition</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple042.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple043">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple043.xsd">
+      <ts:annotation>
+        <ts:documentation>this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple043.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2011-10-07"/>
+      <ts:prior status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple044">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple044.xsd">
+      <ts:annotation>
+        <ts:documentation>valid regex</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple044.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple044.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple045">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple045.xsd">
+      <ts:annotation>
+        <ts:documentation>valid regex</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple045.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple045.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple046">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Hyphens in regular expressions</ts:Title>
+        <ts:Description>Tests use of hyphens in regular expressions</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
+    <ts:schemaTest name="simple046.xsd">
+      <ts:annotation>
+        <ts:documentation>valid regex</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple046.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple046.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid,</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple050">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Use of xs:anyAtomicType</ts:Title>
+        <ts:Description>Tests use of xs:anyAtomicType as the type of an element declaration</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
+    <ts:schemaTest name="simple050.xsd">
+      <ts:annotation>
+        <ts:documentation>valid schema using anyAtomicType</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple050.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid, anyAtomicType allows anything</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple050.v02.xml">
+      <ts:annotation>
+        <ts:documentation>Valid xsi:type restricting to a date</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.v02.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple050.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, if restricting to a date the date must be valid</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple050.n02.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, restricting to an unknown type</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n02.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+    <ts:instanceTest name="simple050.n03.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, restricting to untypedAtomic</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n03.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple051">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Use of xs:anyAtomicType</ts:Title>
+        <ts:Description>Cannot use xs:anyAtomicType as the base type of a restriction</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
+    <ts:schemaTest name="simple050.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema using anyAtomicType</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple051.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-10-11"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple052">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Use of xs:anyAtomicType</ts:Title>
+        <ts:Description>Tests use of xs:anyAtomicType as the item type of a list.
+                This has been disallowed in consequence of the resolution of bug 11103</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
+    <ts:schemaTest name="simple052.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema using anyAtomicType as the item type of a list</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple052.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-07"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple053">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Use of xs:anyAtomicType</ts:Title>
+        <ts:Description>Tests use of xs:anyAtomicType as the member type of a union.
+                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
+    <ts:schemaTest name="simple053.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema using anyAtomicType as a member type in a union</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple053.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-07"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple054">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>xsi:type must resolve</ts:Title>
+        <ts:Description>xsi:type isn't one of the member type of a union, in fact it doesn't exist</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
+    <ts:schemaTest name="simple054.xsd">
+      <ts:annotation>
+        <ts:documentation>valid schema using a union</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple054.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-11-17"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple053.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, unknown xsi:type</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple054.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-11-17"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple055">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Selector in identity constraint mistakenly identifies an element with a simple type</ts:Title>
+        <ts:Description>Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid.</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:schemaTest name="simple055.xsd">
+      <ts:annotation>
+        <ts:documentation>schema is valid though not useful</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple055.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2012-04-27"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple055.n01.xml">
+      <ts:annotation>
+        <ts:documentation>Invalid, field of selector selects nothing</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple055.n01.xml"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2012-04-28"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple060">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple060.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple060.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple061">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple061.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple061.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple062">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple062.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple062.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple063">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple063.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple063.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple064">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple064.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple064.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple065">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple065.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple065.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple066">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple066.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple066.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple067">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple067.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple067.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple068">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple068.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple068.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple069">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple069.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple069.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple070">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple070.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple070.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple071">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple071.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple071.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple072">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple072.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple072.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple073">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple073.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple073.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple074">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple074.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple074.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple075">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple075.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple075.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple076">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple076.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple076.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple077">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple077.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple077.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple078">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple078.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple078.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple079">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple079.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple079.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple080">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple080.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple080.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple081">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple081.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple081.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple082">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple082.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple082.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple083">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple083.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple083.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple084">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Facet must not appear more than once</ts:Title>
+        <ts:Description>Facet must not appear more than once</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
+    <ts:schemaTest name="simple084.xsd">
+      <ts:annotation>
+        <ts:documentation>invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple084.bad.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2011-02-21"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+  <ts:testGroup name="simple085">
+    <ts:annotation>
+      <ts:documentation>
+        <ts:Title>Union derived by restriction with a pattern facet</ts:Title>
+        <ts:Description>Pattern facet applies after doing whitespace processing defined
+                             in the member type against which validation succeeded</ts:Description>
+      </ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
+    <ts:schemaTest name="simple085.xsd">
+      <ts:annotation>
+        <ts:documentation>schema is valid</ts:documentation>
+      </ts:annotation>
+      <ts:schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple085.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2014-12-05"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="simple085.v01.xml">
+      <ts:annotation>
+        <ts:documentation>Valid; pattern matches the input after whitespace normalization</ts:documentation>
+      </ts:annotation>
+      <ts:instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple085.v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2014-12-05"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+</ts:testSet>

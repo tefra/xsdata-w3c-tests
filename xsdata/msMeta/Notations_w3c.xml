@@ -1,0 +1,1295 @@
+<!-- xsdata instance -->
+<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Microsoft" name="MS-Notations2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ns0:testGroup name="notatA001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Basic Case on Notation</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Empty notation under schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with ID="foo25"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with ID="_foo-2.5"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with ID="25"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with ID=""</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatA007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Duplicate ID="foo25" where foo25 is already exists</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatA007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatA007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="foo"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="_foo"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="name"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="_foo-2.5??"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Declare a dupe Notation with the same name</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Name the Notation with an existing non-Notation name</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="foo:bar"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=":bar"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB009.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="foo:"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=""</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=" "</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="-2.5foo"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="xml"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB014.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="xmlns"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB015.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatB016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name="xsd"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatB016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatB016.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatC001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with system=""</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatC001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatC001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatC003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with system="http://www.w3.org/TR/Schema-0/"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatC003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatC003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatC004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with system = file://c/foo</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatC004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatC004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatC005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with system = mailto:someone@microsoft.com</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatC005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatC005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatC006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with system = foo?123</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatC006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatC006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatD001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with public=""</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatD001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatD001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatD004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with public="~`^&amp;{}[]|\&lt;&gt;"</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatD004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatD004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatD005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=jpeg public=image/jpeg and system=viewer.exe</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatD005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatD005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatD006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=gif public=image/gif and sytem=foobar.exe</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatD006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatD006.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatD007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with name=xml public=text/xml and system=iexplorer.exe</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatD007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatD007.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatE001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with an attribute that has a non-schema namespace, a:b="c" where xmlns:a="foo" in xsd:schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatE001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatE001.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatE002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with an attribute a:b="c" where a doesn't have a non-schema namespace</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatE002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatE002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatE003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with an attribute foo="bar" where foo is a random attribute</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatE003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatE003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatE004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation appearing more than once under schema</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatE004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatE004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with all as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with all as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with annotation as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF004">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with annotation as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF004">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF004.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with any as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF005.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with any as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF007">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with anyAttribute as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF007">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF007.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF008">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with anyAttribute as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF008">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF008.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF009">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with appInfo as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF009">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF009.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF010">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with appInfo as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF010">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF010.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF011">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with attribute as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF011">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF011.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF012">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with attribute as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF012">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF012.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF013">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with attributeGroup as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF013">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF013.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF014">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with attributeGroup as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF014">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF014.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF015">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with choice as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF015">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF015.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF016">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with choice as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF016">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF016.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF017">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with complexContent as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF017">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF017.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF018">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with complexContent as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF018">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF018.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF019">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with complexType as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF019">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF019.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF020">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with complexType as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF020">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF020.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF021">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with documentation as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF021">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF021.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF022">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with documentation as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF022">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF022.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF023">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with element as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF023">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF023.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF024">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with element as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF024">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF024.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF025">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with enumeration as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF025">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF025.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF026">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with enumeration as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF026">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF026.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF027">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with extension as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF027">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF027.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF028">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with extension as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF028">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF028.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF029">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with field as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF029">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF029.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF030">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with field as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF030">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF030.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF031">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with group as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF031">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF031.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF032">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with group as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF032">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF032.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF033">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with import as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF033">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF033.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF034">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with import as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF034">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF034.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF035">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with include as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF035">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF035.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF036">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with include as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF036">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF036.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF037">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with key as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF037">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF037.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF038">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with key as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF038">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF038.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF039">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with keyRef as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF039">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF039.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF040">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with keyRef as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF040">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF040.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF041">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with length as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF041">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF041.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF042">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with length as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF042">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF042.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF043">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with list as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF043">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF043.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF044">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with list as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF044">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF044.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF045">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with maxInclusive as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF045">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF045.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF046">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with maxInclusive as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF046">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF046.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF047">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with maxLength as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF047">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF047.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF048">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with maxLength as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF048">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF048.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF049">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with minInclusive as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF049">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF049.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF050">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with minInclusive as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF050">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF050.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF051">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with minLength as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF051">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF051.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF052">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with minLength as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF052">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF052.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF053">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with pattern as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF053">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF053.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF054">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with pattern as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF054">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF054.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF055">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with redefine as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF055">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF055.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF056">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with redefine as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF056">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF056.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF057">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with restriction as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF057">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF057.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF058">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with restriction as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF058">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF058.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF059">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with schema as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF059">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF059.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF060">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with schema as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF060">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF060.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF061">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with selector as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF061">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF061.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF062">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with selector as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF062">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF062.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF063">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with sequence as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF063">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF063.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF064">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with sequence as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF064">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF064.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF065">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with simpleContent as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF065">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF065.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF066">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with simpleContent as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF066">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF066.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF067">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with simpleType as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF067">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF067.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF068">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with simpleType as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF068">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF068.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF069">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with union as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF069">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF069.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF070">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with union as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF070">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF070.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF071">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with unique as its parent</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF071">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF071.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatF072">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with unique as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatF072">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatF072.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatG001">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with some text as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatG001">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatG001.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatG002">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with some well formed XML</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatG002">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatG002.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatG003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with known entities &amp; " '</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatG003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatG003.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatG005">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Notation with comment nodes as its content</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatG005">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatG005.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatG006">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Schema with 3 three Notations and an attribute with type=NOTATION</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatG006">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatG006.xsd"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatH001v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Instance document declares a notation type</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatH001v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatH001.xsd"/>
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatH001a.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="notatH001v.v">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/notations/notatH001.xml"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatH002v">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Instance document doesn't declare a notation type</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatH002v">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatH002.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="notatH002v.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/notations/notatH002.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+  <ns0:testGroup name="notatH003">
+    <ns0:annotation>
+      <ns0:documentation>TEST :Notations : Instance document with (Schema with 3 Notations and an attribute with type=NOTATION) and attribute contains two notation names</ns0:documentation>
+    </ns0:annotation>
+    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"/>
+    <ns0:schemaTest name="notatH003">
+      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/notations/notatH003.xsd"/>
+      <ns0:expected validity="valid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:schemaTest>
+    <ns0:instanceTest name="notatH003.i">
+      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/notations/notatH003.xml"/>
+      <ns0:expected validity="invalid"/>
+      <ns0:current status="accepted" date="2006-07-16"/>
+    </ns0:instanceTest>
+  </ns0:testGroup>
+</ns0:testSet>

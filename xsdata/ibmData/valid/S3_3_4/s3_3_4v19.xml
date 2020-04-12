@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idref_attr="abc">
+  <union_of_ids_element>123</union_of_ids_element>
+  <union_of_ids_element>true</union_of_ids_element>
+  <union_of_ids_element>abc</union_of_ids_element>
+  <union_of_ids_element>false</union_of_ids_element>
+</root>

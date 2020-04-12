@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<regvaluemodopset>
+  <regvalueop>reg_value_delete</regvalueop>
+  <regvalueop>reg_value_write</regvalueop>
+</regvaluemodopset>

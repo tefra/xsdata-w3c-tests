@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<doc xmlns:foo="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elem>
+    <foo:any>testing</foo:any>
+    <foo:foo>really testing</foo:foo>
+    <foo:foo>really testing</foo:foo>
+  </elem>
+</doc>

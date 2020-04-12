@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<insi:root xmlns:insi="http://xstest-tns/schema11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ele>123456</ele>
+</insi:root>

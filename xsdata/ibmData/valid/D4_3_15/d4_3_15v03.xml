@@ -1,0 +1,11 @@
+<!-- xsdata instance -->
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <timer time="30"/>
+  <timer iterations="15"/>
+  <parent>
+    <grandchild name="abc" dob="2007-01-01"/>
+  </parent>
+  <parent>
+    <child name="abc" dob="1997-01-01"/>
+  </parent>
+</data>

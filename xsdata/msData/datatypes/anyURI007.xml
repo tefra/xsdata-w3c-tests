@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <complexTest>
+    <comp_foo>news:comp.infosystems.www.servers.unix</comp_foo>
+  </complexTest>
+  <simpleTest>news:comp.infosystems.www.servers.unix</simpleTest>
+</root>

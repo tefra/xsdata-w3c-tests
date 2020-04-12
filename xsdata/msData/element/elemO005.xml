@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fooTest myAttr="AA">
+    <myElem_1>string test</myElem_1>
+    <myElem_2>1234567890123456789</myElem_2>
+  </fooTest>
+</root>

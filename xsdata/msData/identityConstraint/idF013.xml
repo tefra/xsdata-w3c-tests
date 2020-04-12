@@ -1,0 +1,5 @@
+<!-- xsdata instance -->
+<root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <uid xsi:type="xs:float">1</uid>
+  <uid xsi:type="xs:decimal">1</uid>
+</root>

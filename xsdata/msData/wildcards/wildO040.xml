@@ -1,0 +1,2 @@
+<!-- xsdata instance -->
+<ns0:foo xmlns:ns0="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:att="http://www.w3.org/1999/xhtml" xsi:schemaLocation="http://foobar wildO040.xsd http://www.w3.org/1999/xhtml wildO040a.xsd" att:href="bar"/>

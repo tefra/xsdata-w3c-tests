@@ -1,0 +1,4 @@
+<!-- xsdata instance -->
+<test:a xmlns:test="targetNS1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <date>2002-04-16</date>
+</test:a>

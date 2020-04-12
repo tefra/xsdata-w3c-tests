@@ -9705,7 +9705,6 @@ def test_st_e092_st_e092_v(save_xml):
     )
 
 
-@pytest.mark.xfail
 def test_st_e091_st_e091_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Union with Fixed

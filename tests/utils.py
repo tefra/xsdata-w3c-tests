@@ -8,6 +8,7 @@ import pytest
 import xmlschema
 from click.testing import CliRunner
 from lxml import etree
+
 from xsdata import cli
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
@@ -81,10 +82,7 @@ def assert_bindings(
 
 def assert_valid(validator, tree):
     __tracebackhide__ = True
-    if isinstance(validator, xmlschema.XMLSchema11):
-        validator.validate(tree)
-    else:
-        validator.assertValid(tree)
+    validator.validate(tree)
 
 
 @functools.lru_cache(maxsize=5)
@@ -104,12 +102,12 @@ def initialize_validator(path: Path, version: str):
         if version == "1.1":
             return xmlschema.XMLSchema11(str(path))
         else:
-            xmlschema_doc = etree.parse(str(path))
-            return etree.XMLSchema(xmlschema_doc)
+            return xmlschema.XMLSchema10(str(path))
     except Exception:
         if version == "1.1":
-            return None
-        return initialize_validator(path, "1.1")
+            return xmlschema.XMLSchema10(str(path))
+        else:
+            return xmlschema.XMLSchema11(str(path))
 
 
 def load_class(output, clazz_name):

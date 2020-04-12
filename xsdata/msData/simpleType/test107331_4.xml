@@ -1,0 +1,7 @@
+<!-- xsdata instance -->
+<root>
+  <c name="name" type="1" state="1">this is a string</c>
+  <b>1.2 3.4 0.9</b>
+  <a>123456</a>
+  <a>abcdefgh</a>
+</root>

@@ -1,3 +1,5 @@
+import pytest
+
 from tests.utils import assert_bindings
 
 
@@ -2641,6 +2643,7 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_1(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2671,6 +2674,7 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_3(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2701,6 +2705,7 @@ def test_atomic_qname_enumeration_4_nistxml_sv_iv_atomic_qname_enumeration_5_5(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2761,6 +2766,7 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_4(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2776,6 +2782,7 @@ def test_atomic_qname_enumeration_3_nistxml_sv_iv_atomic_qname_enumeration_4_5(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2806,6 +2813,7 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_2(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2836,6 +2844,7 @@ def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_4(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_2_nistxml_sv_iv_atomic_qname_enumeration_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2911,6 +2920,7 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_4(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2926,6 +2936,7 @@ def test_atomic_qname_enumeration_1_nistxml_sv_iv_atomic_qname_enumeration_2_5(s
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2941,6 +2952,7 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_1(sav
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2956,6 +2968,7 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_2(sav
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.
@@ -2971,6 +2984,7 @@ def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_3(sav
     )
 
 
+@pytest.mark.xfail
 def test_atomic_qname_enumeration_nistxml_sv_iv_atomic_qname_enumeration_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet enumeration.

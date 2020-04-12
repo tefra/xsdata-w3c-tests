@@ -1,5 +1,3 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
@@ -11908,7 +11906,6 @@ def test_list_qname_white_space_nistxml_sv_iv_list_qname_white_space_1_5(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_1(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -11924,7 +11921,6 @@ def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_2(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -11940,7 +11936,6 @@ def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_3(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -11956,7 +11951,6 @@ def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_4(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -11972,7 +11966,6 @@ def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_5(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -11988,7 +11981,6 @@ def test_list_qname_enumeration_4_nistxml_sv_iv_list_qname_enumeration_5_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_1(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12004,7 +11996,6 @@ def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_2(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12020,7 +12011,6 @@ def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_3(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12036,7 +12026,6 @@ def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_4(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12052,7 +12041,6 @@ def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_5(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12068,7 +12056,6 @@ def test_list_qname_enumeration_3_nistxml_sv_iv_list_qname_enumeration_4_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_1(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12084,7 +12071,6 @@ def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_2(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12100,7 +12086,6 @@ def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_3(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12116,7 +12101,6 @@ def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_4(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12132,7 +12116,6 @@ def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_5(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12148,7 +12131,6 @@ def test_list_qname_enumeration_2_nistxml_sv_iv_list_qname_enumeration_3_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_1(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12164,7 +12146,6 @@ def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_1(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_2(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12180,7 +12161,6 @@ def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_2(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_3(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12196,7 +12176,6 @@ def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_3(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_4(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12212,7 +12191,6 @@ def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_4(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_5(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12228,7 +12206,6 @@ def test_list_qname_enumeration_1_nistxml_sv_iv_list_qname_enumeration_2_5(save_
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_1(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12244,7 +12221,6 @@ def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_1(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_2(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12260,7 +12236,6 @@ def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_2(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_3(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12276,7 +12251,6 @@ def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_3(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_4(save_xml):
     """
     Type list/QName is restricted by facet enumeration.
@@ -12292,7 +12266,6 @@ def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_4(save_xm
     )
 
 
-@pytest.mark.xfail
 def test_list_qname_enumeration_nistxml_sv_iv_list_qname_enumeration_1_5(save_xml):
     """
     Type list/QName is restricted by facet enumeration.

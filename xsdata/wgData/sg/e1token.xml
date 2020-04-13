@@ -1,4 +1,0 @@
-<!-- xsdata instance -->
-<sg:test xmlns:sg="http://www.w3.org/XML/2008/xsdl-exx/ns1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <sg:e1 xsi:type="xs:token">Test</sg:e1>
-</sg:test>

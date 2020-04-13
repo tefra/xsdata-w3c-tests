@@ -171,6 +171,7 @@ def test_sg_abstract_edc_e1ie1i_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa2_e1_xml(save_xml):
 
     assert_bindings(
@@ -179,11 +180,12 @@ def test_sg_abstract_upa2_e1_xml(save_xml):
         instance="wgData/sg/e1.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa2_e1bis_xml(save_xml):
 
     assert_bindings(
@@ -192,11 +194,12 @@ def test_sg_abstract_upa2_e1bis_xml(save_xml):
         instance="wgData/sg/e1.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa2_e1token_xml(save_xml):
 
     assert_bindings(
@@ -205,11 +208,12 @@ def test_sg_abstract_upa2_e1token_xml(save_xml):
         instance="wgData/sg/e1token.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa2_e1short_xml(save_xml):
 
     assert_bindings(
@@ -218,11 +222,12 @@ def test_sg_abstract_upa2_e1short_xml(save_xml):
         instance="wgData/sg/e1short.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa_e1_xml(save_xml):
 
     assert_bindings(
@@ -231,11 +236,12 @@ def test_sg_abstract_upa_e1_xml(save_xml):
         instance="wgData/sg/e1.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa_e1token_xml(save_xml):
 
     assert_bindings(
@@ -244,11 +250,12 @@ def test_sg_abstract_upa_e1token_xml(save_xml):
         instance="wgData/sg/e1token.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_abstract_upa_e1short_xml(save_xml):
 
     assert_bindings(
@@ -257,11 +264,12 @@ def test_sg_abstract_upa_e1short_xml(save_xml):
         instance="wgData/sg/e1short.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_sns1a(save_xml):
 
     assert_bindings(
@@ -270,11 +278,12 @@ def test_sg_and_defined_sibling_3_sns1a(save_xml):
         instance="wgData/sg/sns1a.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_sg_and_defined_sibling_3_sns1b(save_xml):
 
@@ -284,11 +293,12 @@ def test_sg_and_defined_sibling_3_sns1b(save_xml):
         instance="wgData/sg/sns1b.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_sns1c(save_xml):
 
     assert_bindings(
@@ -297,11 +307,12 @@ def test_sg_and_defined_sibling_3_sns1c(save_xml):
         instance="wgData/sg/sns1c.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_snn1a(save_xml):
 
     assert_bindings(
@@ -310,11 +321,12 @@ def test_sg_and_defined_sibling_3_snn1a(save_xml):
         instance="wgData/sg/snn1a.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_snn1b(save_xml):
 
     assert_bindings(
@@ -323,11 +335,12 @@ def test_sg_and_defined_sibling_3_snn1b(save_xml):
         instance="wgData/sg/snn1b.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_snn1c(save_xml):
 
     assert_bindings(
@@ -336,11 +349,12 @@ def test_sg_and_defined_sibling_3_snn1c(save_xml):
         instance="wgData/sg/snn1c.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_snea(save_xml):
 
     assert_bindings(
@@ -349,11 +363,12 @@ def test_sg_and_defined_sibling_3_snea(save_xml):
         instance="wgData/sg/snea.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_sneb(save_xml):
 
     assert_bindings(
@@ -362,11 +377,12 @@ def test_sg_and_defined_sibling_3_sneb(save_xml):
         instance="wgData/sg/sneb.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_3_snec(save_xml):
 
     assert_bindings(
@@ -375,11 +391,12 @@ def test_sg_and_defined_sibling_3_snec(save_xml):
         instance="wgData/sg/snec.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_2_esn(save_xml):
 
     assert_bindings(
@@ -388,11 +405,12 @@ def test_sg_and_defined_sibling_2_esn(save_xml):
         instance="wgData/sg/esn.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_2_nsn(save_xml):
 
     assert_bindings(
@@ -401,11 +419,12 @@ def test_sg_and_defined_sibling_2_nsn(save_xml):
         instance="wgData/sg/nsn.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_2_ssn(save_xml):
 
     assert_bindings(
@@ -414,11 +433,12 @@ def test_sg_and_defined_sibling_2_ssn(save_xml):
         instance="wgData/sg/ssn.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_2_n1sn(save_xml):
 
     assert_bindings(
@@ -427,11 +447,12 @@ def test_sg_and_defined_sibling_2_n1sn(save_xml):
         instance="wgData/sg/n1sn.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_2_s1sn(save_xml):
 
     assert_bindings(
@@ -440,11 +461,12 @@ def test_sg_and_defined_sibling_2_s1sn(save_xml):
         instance="wgData/sg/s1sn.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_sn(save_xml):
 
     assert_bindings(
@@ -453,11 +475,12 @@ def test_sg_and_defined_sibling_1_sn(save_xml):
         instance="wgData/sg/sn.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_s1n(save_xml):
 
     assert_bindings(
@@ -466,11 +489,12 @@ def test_sg_and_defined_sibling_1_s1n(save_xml):
         instance="wgData/sg/s1n.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_sn1(save_xml):
 
     assert_bindings(
@@ -479,11 +503,12 @@ def test_sg_and_defined_sibling_1_sn1(save_xml):
         instance="wgData/sg/sn1.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_sne(save_xml):
 
     assert_bindings(
@@ -492,11 +517,12 @@ def test_sg_and_defined_sibling_1_sne(save_xml):
         instance="wgData/sg/sne.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_snn(save_xml):
 
     assert_bindings(
@@ -505,11 +531,12 @@ def test_sg_and_defined_sibling_1_snn(save_xml):
         instance="wgData/sg/snn.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_sns(save_xml):
 
     assert_bindings(
@@ -518,11 +545,12 @@ def test_sg_and_defined_sibling_1_sns(save_xml):
         instance="wgData/sg/sns.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_snn1(save_xml):
 
     assert_bindings(
@@ -531,11 +559,12 @@ def test_sg_and_defined_sibling_1_snn1(save_xml):
         instance="wgData/sg/snn1.xml",
         instance_is_valid=True,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_sg_and_defined_sibling_1_sns1(save_xml):
 
     assert_bindings(
@@ -544,11 +573,12 @@ def test_sg_and_defined_sibling_1_sns1(save_xml):
         instance="wgData/sg/sns1.xml",
         instance_is_valid=False,
         class_name="Test",
-        version="1.0 1.1",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_valid_001(save_xml):
 
     assert_bindings(
@@ -557,11 +587,12 @@ def test_iri_001_uri_3986_valid_001(save_xml):
         instance="wgData/iri/URI-3986-valid-001.xml",
         instance_is_valid=True,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_valid_002(save_xml):
 
     assert_bindings(
@@ -570,11 +601,12 @@ def test_iri_001_uri_3986_valid_002(save_xml):
         instance="wgData/iri/URI-3986-valid-002.xml",
         instance_is_valid=True,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_valid_003(save_xml):
 
     assert_bindings(
@@ -583,11 +615,12 @@ def test_iri_001_uri_3986_valid_003(save_xml):
         instance="wgData/iri/URI-3986-valid-003.xml",
         instance_is_valid=True,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_invalid_001(save_xml):
 
     assert_bindings(
@@ -596,11 +629,12 @@ def test_iri_001_uri_3986_invalid_001(save_xml):
         instance="wgData/iri/URI-3986-invalid-001.xml",
         instance_is_valid=False,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_invalid_002(save_xml):
 
     assert_bindings(
@@ -609,11 +643,12 @@ def test_iri_001_uri_3986_invalid_002(save_xml):
         instance="wgData/iri/URI-3986-invalid-002.xml",
         instance_is_valid=False,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_uri_3986_invalid_003(save_xml):
 
     assert_bindings(
@@ -622,11 +657,12 @@ def test_iri_001_uri_3986_invalid_003(save_xml):
         instance="wgData/iri/URI-3986-invalid-003.xml",
         instance_is_valid=False,
         class_name="Uri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_valid_001(save_xml):
 
     assert_bindings(
@@ -635,11 +671,12 @@ def test_iri_001_absolute_uri_3986_valid_001(save_xml):
         instance="wgData/iri/absolute-URI-3986-valid-001.xml",
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_valid_002(save_xml):
 
     assert_bindings(
@@ -648,11 +685,12 @@ def test_iri_001_absolute_uri_3986_valid_002(save_xml):
         instance="wgData/iri/absolute-URI-3986-valid-002.xml",
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_valid_003(save_xml):
 
     assert_bindings(
@@ -661,11 +699,12 @@ def test_iri_001_absolute_uri_3986_valid_003(save_xml):
         instance="wgData/iri/absolute-URI-3986-valid-003.xml",
         instance_is_valid=True,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_invalid_001(save_xml):
 
     assert_bindings(
@@ -674,11 +713,12 @@ def test_iri_001_absolute_uri_3986_invalid_001(save_xml):
         instance="wgData/iri/absolute-URI-3986-invalid-001.xml",
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_invalid_002(save_xml):
 
     assert_bindings(
@@ -687,11 +727,12 @@ def test_iri_001_absolute_uri_3986_invalid_002(save_xml):
         instance="wgData/iri/absolute-URI-3986-invalid-002.xml",
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_iri_001_absolute_uri_3986_invalid_003(save_xml):
 
     assert_bindings(
@@ -700,6 +741,6 @@ def test_iri_001_absolute_uri_3986_invalid_003(save_xml):
         instance="wgData/iri/absolute-URI-3986-invalid-003.xml",
         instance_is_valid=False,
         class_name="AbsoluteUri3986",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )

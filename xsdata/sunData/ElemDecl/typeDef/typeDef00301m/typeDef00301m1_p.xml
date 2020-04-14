@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<test:root xmlns:test="ElemDecl/typeDef" xmlns:ns0="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <test:Local>true</test:Local>
-</test:root>
+<ns0:root xmlns:ns0="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:Local>true</ns0:Local>
+</ns0:root>

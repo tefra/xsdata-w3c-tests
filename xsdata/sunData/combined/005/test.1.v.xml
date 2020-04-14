@@ -9,7 +9,7 @@
   <ns0:item1>
     <ns0:foo/>
   </ns0:item1>
-  <ns0:item1>
+  <ns0:item1 xsi:type="ns0:De">
     <ns0:foo/>
   </ns0:item1>
   <ns0:item1>

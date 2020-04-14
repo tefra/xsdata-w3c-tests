@@ -49,6 +49,7 @@ def assert_bindings(
         instance_path = w3c.joinpath(instance)
         clazz = load_class(result.output, class_name)
         parser = XmlParser()
+        namespaces = parser.namespaces
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:
         if instance_is_valid:
@@ -63,6 +64,7 @@ def assert_bindings(
 
     try:
         tree = XmlSerializer().render_tree(obj, parser.namespaces)
+        namespaces.unregister()
         if save_xml:
             xsdata_instance = output.joinpath(instance)
             xsdata_instance.parent.mkdir(parents=True, exist_ok=True)
@@ -119,4 +121,4 @@ def load_class(output, clazz_name):
         except (ModuleNotFoundError, AttributeError):
             pass
 
-    return ModuleNotFoundError(f"Class `{clazz_name}` not found.")
+    raise ModuleNotFoundError(f"Class `{clazz_name}` not found.")

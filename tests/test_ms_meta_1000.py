@@ -6974,7 +6974,6 @@ def test_ct_i048_ct_i048_i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i047_ct_i047_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7047,7 +7046,6 @@ def test_ct_i044_ct_i044_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i043_ct_i043_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7084,7 +7082,6 @@ def test_ct_i042_ct_i042_i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i041_ct_i041_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7157,7 +7154,6 @@ def test_ct_i038_ct_i038_i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i037_ct_i037_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7230,7 +7226,6 @@ def test_ct_i034_ct_i034_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i033_ct_i033_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7303,7 +7298,6 @@ def test_ct_i030_ct_i030_i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i029_ct_i029_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :

@@ -1,10 +1,10 @@
 <!-- xsdata instance -->
-<f:root xmlns:f="foo" xmlns:ns0="foo">
-  <f:mixed>abcdef</f:mixed>
-  <f:mixed><f:a/>mi<f:b/>xed<f:c/>content</f:mixed>
-  <f:elementOnly>
-    <f:a/>
-    <f:a/>
-    <f:b/>
-  </f:elementOnly>
-</f:root>
+<ns0:root xmlns:ns0="foo">
+  <ns0:mixed>abcdef</ns0:mixed>
+  <ns0:mixed><ns0:a/>mi<ns0:b/>xed<ns0:c/>content</ns0:mixed>
+  <ns0:elementOnly>
+    <ns0:a/>
+    <ns0:a/>
+    <ns0:b/>
+  </ns0:elementOnly>
+</ns0:root>

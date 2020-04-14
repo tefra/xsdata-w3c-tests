@@ -1,17 +1,17 @@
 <!-- xsdata instance -->
-<f:root xmlns:f="foo" xmlns:ns0="foo">
-  <f:generic>
-    <f:int value="52"/>
-    <f:int value="-55555"/>
-    <f:long value="52"/>
-    <f:long value="-55555"/>
-    <f:yesNo value="true"/>
-    <f:yesNo value="false"/>
-  </f:generic>
-  <f:restricted>
-    <f:int value="52"/>
-    <f:int value="-55555"/>
-    <f:long value="52"/>
-    <f:long value="-55555"/>
-  </f:restricted>
-</f:root>
+<ns0:root xmlns:ns0="foo">
+  <ns0:generic>
+    <ns0:int value="52"/>
+    <ns0:int value="-55555"/>
+    <ns0:long value="52"/>
+    <ns0:long value="-55555"/>
+    <ns0:yesNo value="true"/>
+    <ns0:yesNo value="false"/>
+  </ns0:generic>
+  <ns0:restricted>
+    <ns0:int value="52"/>
+    <ns0:int value="-55555"/>
+    <ns0:long value="52"/>
+    <ns0:long value="-55555"/>
+  </ns0:restricted>
+</ns0:root>

@@ -1,24 +1,24 @@
 <!-- xsdata instance -->
-<tn:root xmlns:tn="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <tn:eDee>
-    <tn:foo/>
-  </tn:eDee>
-  <tn:eDer>
-    <tn:foo/>
-  </tn:eDer>
-  <tn:eDe>
-    <tn:foo/>
-  </tn:eDe>
-  <tn:eDre>
-    <tn:foo/>
-  </tn:eDre>
-  <tn:eDrr>
-    <tn:foo/>
-  </tn:eDrr>
-  <tn:eDr>
-    <tn:foo/>
-  </tn:eDr>
-  <tn:eB>
-    <tn:foo/>
-  </tn:eB>
-</tn:root>
+<ns0:root xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:eDee>
+    <ns0:foo/>
+  </ns0:eDee>
+  <ns0:eDer>
+    <ns0:foo/>
+  </ns0:eDer>
+  <ns0:eDe>
+    <ns0:foo/>
+  </ns0:eDe>
+  <ns0:eDre>
+    <ns0:foo/>
+  </ns0:eDre>
+  <ns0:eDrr>
+    <ns0:foo/>
+  </ns0:eDrr>
+  <ns0:eDr>
+    <ns0:foo/>
+  </ns0:eDr>
+  <ns0:eB>
+    <ns0:foo/>
+  </ns0:eB>
+</ns0:root>

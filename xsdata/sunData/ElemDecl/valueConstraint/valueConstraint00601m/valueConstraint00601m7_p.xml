@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:root xmlns:test="ElemDecl/valueConstraint" xmlns:ns0="ElemDecl/valueConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<ns0:root xmlns:ns0="ElemDecl/valueConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

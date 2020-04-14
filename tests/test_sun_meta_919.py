@@ -772,7 +772,6 @@ def test_xsd005_xsd005_n06(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_xsd005_xsd005_v00(save_xml):
     """
     xsd005 Complex type derivation. Missing content model.

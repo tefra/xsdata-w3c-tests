@@ -1,0 +1,8 @@
+<!-- xsdata instance -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <test2 xsi:type="E-CA">
+    <x/>
+    <y/>
+    <z/>
+  </test2>
+</root>

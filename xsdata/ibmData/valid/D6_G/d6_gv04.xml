@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
-<a:root xmlns:a="a" xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <a:string>c</a:string>
-  <a:string>b</a:string>
-  <a:string>c</a:string>
-  <a:string>b</a:string>
-</a:root>
+<ns0:root xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:string>c</ns0:string>
+  <ns0:string>b</ns0:string>
+  <ns0:string>c</ns0:string>
+  <ns0:string>b</ns0:string>
+</ns0:root>

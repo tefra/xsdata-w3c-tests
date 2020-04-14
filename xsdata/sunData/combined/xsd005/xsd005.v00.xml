@@ -1,0 +1,33 @@
+<!-- xsdata instance -->
+<prefix:root xmlns:prefix="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prefix:item>
+    <prefix:a/>
+    <prefix:b/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item xsi:type="ns0:ext">
+    <prefix:a/>
+    <prefix:b/>
+    <prefix:c/>
+    <prefix:d/>
+    <prefix:e/>
+  </prefix:item>
+  <prefix:item xsi:type="ns0:ext">
+    <prefix:a/>
+    <prefix:c/>
+    <prefix:d/>
+    <prefix:e/>
+  </prefix:item>
+</prefix:root>

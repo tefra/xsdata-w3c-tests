@@ -4,8 +4,8 @@
   <ns1:b xmlns:ns1="foo">test</ns1:b>
   <ns2:b xmlns:ns2="a">test</ns2:b>
   <ns3:b xmlns:ns3="a">test</ns3:b>
-  <b:b xmlns:b="b">test</b:b>
-  <b:b xmlns:b="b">test</b:b>
+  <ns4:b xmlns:ns4="b">test</ns4:b>
+  <ns5:b xmlns:ns5="b">test</ns5:b>
   <bar/>
   <bar/>
   <a:foo>test</a:foo>

@@ -1,0 +1,24 @@
+<!-- xsdata instance -->
+<ns0:purchaseOrder xmlns:ns0="http://www.example.com/IPO" xmlns:add="http://www.example.com/add" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="2002-10-20">
+  <ns0:singleAddress exportCode="1" xsi:type="ns0:UKAddress">
+    <add:name>Helen Zoe</add:name>
+    <add:street>47 Eden Street</add:street>
+    <add:city>Cambridge</add:city>
+    <ns0:postcode>CB1 1JR</ns0:postcode>
+  </ns0:singleAddress>
+  <ns0:customerComment>I love Boeing too!</ns0:customerComment>
+  <ns0:items>
+    <ns0:item partNum="777-BA" weightKg="4.5" shipBy="air">
+      <ns0:productName>777 Model</ns0:productName>
+      <ns0:quantity>1</ns0:quantity>
+      <ns0:USPrice>99.95</ns0:USPrice>
+      <ns0:shipDate>1999-12-05</ns0:shipDate>
+    </ns0:item>
+    <ns0:item partNum="833-AA">
+      <ns0:productName>833 Model</ns0:productName>
+      <ns0:quantity>1</ns0:quantity>
+      <ns0:USPrice>199.95</ns0:USPrice>
+      <ns0:shipDate>2000-02-28</ns0:shipDate>
+    </ns0:item>
+  </ns0:items>
+</ns0:purchaseOrder>

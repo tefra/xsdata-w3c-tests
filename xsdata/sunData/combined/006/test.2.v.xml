@@ -3,61 +3,61 @@
   <ns0:eDee>
     <ns0:foo/>
   </ns0:eDee>
-  <ns0:eDee>
+  <ns0:eDee xsi:type="ns0:Dee">
     <ns0:foo/>
   </ns0:eDee>
   <ns0:eDer>
     <ns0:foo/>
   </ns0:eDer>
-  <ns0:eDer>
+  <ns0:eDer xsi:type="ns0:Der">
     <ns0:foo/>
   </ns0:eDer>
   <ns0:eDe>
     <ns0:foo/>
   </ns0:eDe>
-  <ns0:eDe>
+  <ns0:eDe xsi:type="ns0:De">
     <ns0:foo/>
   </ns0:eDe>
   <ns0:eDe>
     <ns0:foo/>
   </ns0:eDe>
-  <ns0:eDe>
+  <ns0:eDe xsi:type="ns0:Dee">
     <ns0:foo/>
   </ns0:eDe>
   <ns0:eDre>
     <ns0:foo/>
   </ns0:eDre>
-  <ns0:eDre>
+  <ns0:eDre xsi:type="ns0:Dre">
     <ns0:foo/>
   </ns0:eDre>
   <ns0:eDrr>
     <ns0:foo/>
   </ns0:eDrr>
-  <ns0:eDrr>
+  <ns0:eDrr xsi:type="ns0:Drr">
     <ns0:foo/>
   </ns0:eDrr>
   <ns0:eDr>
     <ns0:foo/>
   </ns0:eDr>
-  <ns0:eDr>
+  <ns0:eDr xsi:type="ns0:Dr">
     <ns0:foo/>
   </ns0:eDr>
   <ns0:eDr>
     <ns0:foo/>
   </ns0:eDr>
-  <ns0:eDr>
+  <ns0:eDr xsi:type="ns0:Dre">
     <ns0:foo/>
   </ns0:eDr>
   <ns0:eB>
     <ns0:foo/>
   </ns0:eB>
-  <ns0:eB>
+  <ns0:eB xsi:type="ns0:B">
     <ns0:foo/>
   </ns0:eB>
   <ns0:eB>
     <ns0:foo/>
   </ns0:eB>
-  <ns0:eB>
+  <ns0:eB xsi:type="ns0:De">
     <ns0:foo/>
   </ns0:eB>
   <ns0:eB>

@@ -4,7 +4,6 @@ from tests.utils import assert_bindings
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ipo6_ipo_1(save_xml):
     """
     International Purchase Order 6
@@ -21,7 +20,6 @@ def test_ipo6_ipo_1(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ipo6_ipo_2(save_xml):
     """
     International Purchase Order 6
@@ -38,7 +36,6 @@ def test_ipo6_ipo_2(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ipo5_ipo_1(save_xml):
     """
     International Purchase Order 5
@@ -55,7 +52,6 @@ def test_ipo5_ipo_1(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ipo5_ipo_2(save_xml):
     """
     International Purchase Order 5

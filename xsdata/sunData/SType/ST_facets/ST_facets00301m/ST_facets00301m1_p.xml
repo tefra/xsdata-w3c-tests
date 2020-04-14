@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:test xmlns:test="SType/ST_facets" xmlns:ns0="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.14</test:test>
+<ns0:test xmlns:ns0="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.14</ns0:test>

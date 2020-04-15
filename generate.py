@@ -3,6 +3,7 @@ import textwrap
 from collections import defaultdict
 from dataclasses import asdict
 from dataclasses import dataclass
+from enum import Enum
 from pathlib import Path
 from typing import Dict
 from typing import Iterator
@@ -220,7 +221,10 @@ def pick_version(*args):
     choices = set()
     for arg in args:
         if arg:
-            choices.update(arg.split(" "))
+            if isinstance(arg, Enum):
+                choices.update(arg.value)
+            else:
+                choices.update(arg.split(" "))
 
     if "1.1" in choices:
         return "1.1"

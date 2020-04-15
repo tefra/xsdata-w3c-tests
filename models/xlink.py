@@ -2,6 +2,8 @@ from enum import Enum
 from dataclasses import dataclass, field
 from typing import List, Optional
 
+__NAMESPACE__ = "http://www.w3.org/1999/xlink"
+
 
 class ActuateType(Enum):
     """

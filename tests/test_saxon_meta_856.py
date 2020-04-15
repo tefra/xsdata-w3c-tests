@@ -5738,6 +5738,7 @@ def test_id001_id001_n02_xml(save_xml):
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing006_missing006_v1_xml(save_xml):
     """
@@ -5750,11 +5751,12 @@ def test_missing006_missing006_v1_xml(save_xml):
         instance="saxonData/Missing/missing001.v1.xml",
         instance_is_valid=True,
         class_name="Good",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing006_missing006_n1_xml(save_xml):
     """
@@ -5767,11 +5769,12 @@ def test_missing006_missing006_n1_xml(save_xml):
         instance="saxonData/Missing/missing001.n1.xml",
         instance_is_valid=False,
         class_name="Bad",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing003_missing003_v1_xml(save_xml):
     """
@@ -5784,11 +5787,12 @@ def test_missing003_missing003_v1_xml(save_xml):
         instance="saxonData/Missing/missing001.v1.xml",
         instance_is_valid=True,
         class_name="Good",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing003_missing003_n1_xml(save_xml):
     """
@@ -5801,11 +5805,12 @@ def test_missing003_missing003_n1_xml(save_xml):
         instance="saxonData/Missing/missing001.n1.xml",
         instance_is_valid=False,
         class_name="Bad",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_missing002_missing001_v1_xml(save_xml):
     """
     Element declaration with missing substitution group head Error only if
@@ -5817,11 +5822,12 @@ def test_missing002_missing001_v1_xml(save_xml):
         instance="saxonData/Missing/missing001.v1.xml",
         instance_is_valid=True,
         class_name="Good",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 def test_missing002_missing001_n1_xml(save_xml):
     """
     Element declaration with missing substitution group head Error only if
@@ -5833,11 +5839,12 @@ def test_missing002_missing001_n1_xml(save_xml):
         instance="saxonData/Missing/missing001.n1.xml",
         instance_is_valid=True,
         class_name="Bad",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing001_missing001_v1_xml(save_xml):
     """
@@ -5850,11 +5857,12 @@ def test_missing001_missing001_v1_xml(save_xml):
         instance="saxonData/Missing/missing001.v1.xml",
         instance_is_valid=True,
         class_name="Good",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 
 
+@pytest.mark.schema11
 @pytest.mark.xfail
 def test_missing001_missing001_n1_xml(save_xml):
     """
@@ -5867,7 +5875,7 @@ def test_missing001_missing001_n1_xml(save_xml):
         instance="saxonData/Missing/missing001.n1.xml",
         instance_is_valid=False,
         class_name="Bad",
-        version="1.0",
+        version="1.1",
         save_xml=save_xml,
     )
 

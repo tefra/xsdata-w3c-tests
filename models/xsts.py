@@ -7,6 +7,8 @@ from models.xlink import (
     TypeType,
 )
 
+__NAMESPACE__ = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+
 
 class XdmFiltering(Enum):
     """<ns0:div>
@@ -520,11 +522,13 @@ class Expected:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(
@@ -1106,11 +1110,13 @@ class InstanceTest:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(
@@ -1262,11 +1268,13 @@ class SchemaTest:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(
@@ -1388,11 +1396,13 @@ class TestSuite:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(
@@ -1541,11 +1551,13 @@ class TestGroup:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(
@@ -1656,11 +1668,13 @@ class TestSet:
             required=True
         )
     )
-    version: Optional[str] = field(
-        default=None,
+    version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
+        default_factory=list,
         metadata=dict(
             name="version",
-            type="Attribute"
+            type="Attribute",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     other_attributes: Dict[QName, str] = field(

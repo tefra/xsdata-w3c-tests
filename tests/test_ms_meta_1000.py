@@ -984,7 +984,6 @@ def test_is_default001_is_default001_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_add_d004a_add_d004a_v(save_xml):
     """
     TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a
@@ -7582,7 +7581,6 @@ def test_ct_i004_ct_i004_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_i003_ct_i003_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :

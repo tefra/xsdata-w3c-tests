@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
 <test:root xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Element value="false"/>
+  <Element value="false" value1="true" xsi:type="test:derivedType"/>
 </test:root>

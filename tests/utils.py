@@ -39,7 +39,8 @@ def assert_bindings(
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
 
-    package = f"tests.output.{'.'.join(map(text.snake_case, schema_path.parent.parts))}"
+    pck_arr = list(map(text.snake_case, schema_path.parts))
+    package = f"tests.output.{'.'.join(pck_arr)}"
     result = generate_models(str(w3c.joinpath(schema)), package)
 
     if is_valid and result.exception:

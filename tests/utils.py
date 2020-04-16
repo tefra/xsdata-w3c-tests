@@ -3,6 +3,7 @@ import importlib
 import logging
 import os
 from pathlib import Path
+from threading import RLock
 
 import pytest
 import xmlschema
@@ -39,7 +40,8 @@ def assert_bindings(
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
 
-    package = f"tests.output.{'.'.join(map(text.snake_case, schema_path.parent.parts))}"
+    pck_arr = list(map(text.snake_case, schema_path.parent.parts))
+    package = f"tests.output.{'.'.join(pck_arr)}"
     result = generate_models(str(w3c.joinpath(schema)), package)
 
     if is_valid and result.exception:
@@ -87,10 +89,14 @@ def assert_valid(validator, tree):
     validator.validate(tree)
 
 
+lock = RLock()
+
+
 @functools.lru_cache(maxsize=5)
 def generate_models(xsd: str, package: str):
-    runner = CliRunner()
-    return runner.invoke(cli, [xsd, f"--package={package}"])
+    with lock:
+        runner = CliRunner()
+        return runner.invoke(cli, [xsd, f"--package={package}"])
 
 
 @functools.lru_cache(maxsize=5)

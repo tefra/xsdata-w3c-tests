@@ -1,4 +1,6 @@
 language: python
+cache: false
+
 python:
   - "3.7"
 before_install:
@@ -7,3 +9,7 @@ install:
   - pip install tox
 script:
   - tox
+
+branches:
+  only:
+    - master

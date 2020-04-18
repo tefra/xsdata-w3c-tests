@@ -22,19 +22,9 @@ os.chdir(w3c.parent)
 
 
 def assert_bindings(
-    schema: str,
-    is_valid: bool,
-    instance: str,
-    instance_is_valid: bool,
-    class_name: str,
-    version: str,
-    save_xml: bool,
+    schema: str, instance: str, class_name: str, version: str, save_xml: bool,
 ):
     __tracebackhide__ = True
-    if not schema:
-        pytest.skip("No schema for code generator")
-    if not is_valid:
-        pytest.skip("Invalid schema")
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
@@ -43,7 +33,7 @@ def assert_bindings(
     package = f"tests.output.{'.'.join(pck_arr)}"
     result = generate_models(str(w3c.joinpath(schema)), package)
 
-    if is_valid and result.exception:
+    if result.exception:
         raise result.exception
 
     try:
@@ -53,14 +43,10 @@ def assert_bindings(
         namespaces = parser.namespaces
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:
-        if instance_is_valid:
-            raise e
-
-    if not instance_is_valid:
-        return
+        raise e
 
     schema_validator = get_validator(schema_path_absolute, version)
-    if schema_validator is None and is_valid:
+    if schema_validator is None:
         pytest.skip("Schema validator failed on parsing definition")
 
     try:

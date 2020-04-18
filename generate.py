@@ -35,9 +35,7 @@ def test_{name}(save_xml):
 {documentation}
     assert_bindings(
         schema="{schema_path}",
-        is_valid={schema_is_valid},
         instance="{instance_path}",
-        instance_is_valid={instance_is_valid},
         class_name="{class_name}",
         version="{version}",
         save_xml=save_xml,
@@ -94,7 +92,7 @@ def write_test_file(group: str, cases: List[TestCase]):
         if output.find("pytest.mark") == -1:
             output = "\n".join(output.split("\n")[2:])
 
-        print(f"Generating: {str(test_file)}")
+        print(f"Generating: {test_file.relative_to(root)}")
         test_file.write_text(output)
 
 
@@ -118,6 +116,13 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
             markers.append("@pytest.mark.schema11")
         if xfails.get(f"{test_file}::test_{name}"):
             markers.append("@pytest.mark.xfail")
+        if not case.schema_path:
+            markers.append('@pytest.mark.skip(reason="No schema")')
+        elif not case.schema_is_valid:
+            markers.append('@pytest.mark.skip(reason="Invalid schema")')
+        elif not case.instance_is_valid:
+            markers.append('@pytest.mark.skip(reason="Invalid instance")')
+
         if markers:
             markers.insert(0, "")
 
@@ -146,7 +151,6 @@ def fetch_test_cases() -> Iterator[TestCase]:
 def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
-    doc_index = 0
     schema_version = None
 
     if (
@@ -154,17 +158,16 @@ def make_test_cases(path: Path, group: TestGroup):
         and group.schema_test.schema_document
         and group.schema_test.schema_document[0].href
     ):
+        schema_doc = group.schema_test.schema_document[0].href
         schema_validity = validity(group.schema_test.expected)
-        if group.name in ("wildZ003", "ctZ007"):
-            doc_index = 1
+        if (
+            group.name in ("wildZ003", "ctZ007")
+            and len(group.schema_test.schema_document) > 0
+            and group.schema_test.schema_document[1].href
+        ):
+            schema_doc = group.schema_test.schema_document[1].href
 
-        assert group.schema_test.schema_document[doc_index].href is not None
-
-        schema_href = (
-            path.joinpath(group.schema_test.schema_document[doc_index].href)
-            .resolve()
-            .relative_to(w3c)
-        )
+        schema_href = path.joinpath(schema_doc).resolve().relative_to(w3c)
 
         schema_is_valid = schema_validity.validity == TestOutcome.VALID
 

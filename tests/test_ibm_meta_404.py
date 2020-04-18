@@ -4398,7 +4398,6 @@ def test_d3_3_9v01_d3_3_9v01ci(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii05_s3_12ii05i(save_xml):
     """

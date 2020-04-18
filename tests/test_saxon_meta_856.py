@@ -5268,7 +5268,6 @@ def test_missing006_missing006_v1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 @pytest.mark.skip(reason="Invalid instance")
 def test_missing006_missing006_n1_xml(save_xml):
     """
@@ -5301,7 +5300,6 @@ def test_missing003_missing003_v1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 @pytest.mark.skip(reason="Invalid instance")
 def test_missing003_missing003_n1_xml(save_xml):
     """
@@ -5364,7 +5362,6 @@ def test_missing001_missing001_v1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 @pytest.mark.skip(reason="Invalid instance")
 def test_missing001_missing001_n1_xml(save_xml):
     """
@@ -8958,7 +8955,6 @@ def test_vc014_vc014_v1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc014_vc014_n1_xml(save_xml):
     """

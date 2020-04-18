@@ -7,24 +7,25 @@ suite.
 
 # Report
 
-60 failed, 26102 passed, 162 skipped
+55 failed, 14517 passed, 103 skipped
 
 # Methodology
 
-- Invalid schema tests cases are skipped.
+- Invalid schema tests or no schema tests are ignored (~12k tests)
 - Generate dataclasses for given schema.
   - **Fail** when cli raises exception or expected module::class is not found.
 - Parse the given xml instance.
-  - **Fail** when parser raises exception and xml instance is valid.
+  - **Fail** when parser raises exception.
 - Serialize to xml and validate against the schema.
-  - **Fail** if xml instance is valid and final output is invalid.
+  - **Fail** if final output is invalid.
+  - **Skip** if original instance or schema also fail validation.
 
 # Test runner info
 
 - Generate tests instead of using pytest parametrizing.
 - Use pytest cache to generate the xfail decorators for ci.
 - Cache code generation runs.
-- Cache xml validator instances.
+- Cache validator instances.
 - Output directory remains after each build.
 
 ```terminal

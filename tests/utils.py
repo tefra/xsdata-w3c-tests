@@ -31,14 +31,13 @@ def assert_bindings(
 
     pck_arr = list(map(text.snake_case, schema_path.parts))
     package = f"tests.output.{'.'.join(pck_arr)}"
-    result = generate_models(str(w3c.joinpath(schema)), package)
+    clazz = generate_models(str(w3c.joinpath(schema)), package, class_name)
 
-    if result.exception:
-        raise result.exception
+    if isinstance(clazz, Exception):
+        raise clazz
 
     try:
         instance_path = w3c.joinpath(instance)
-        clazz = load_class(result.output, class_name)
         parser = XmlParser()
         namespaces = parser.namespaces
         obj = parser.from_path(instance_path, clazz)
@@ -75,9 +74,14 @@ def assert_valid(validator, tree):
 
 
 @functools.lru_cache(maxsize=5)
-def generate_models(xsd: str, package: str):
+def generate_models(xsd: str, package: str, class_name: str):
     runner = CliRunner()
-    return runner.invoke(cli, [xsd, f"--package={package}"])
+    result = runner.invoke(cli, [xsd, "--package", package])
+
+    if result.exception:
+        return result.exception
+
+    return load_class(result.output, class_name)
 
 
 @functools.lru_cache(maxsize=5)
@@ -108,4 +112,4 @@ def load_class(output, clazz_name):
         except (ModuleNotFoundError, AttributeError):
             pass
 
-    raise ModuleNotFoundError(f"Class `{clazz_name}` not found.")
+    return ModuleNotFoundError(f"Class `{clazz_name}` not found.")

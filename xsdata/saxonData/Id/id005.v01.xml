@@ -1,8 +1,8 @@
 <!-- xsdata instance -->
 <doc>
-  <node>
-    <node/>
-    <node>
+  <node id="aaa bbb">
+    <node idrefs="bbb ccc ggg"/>
+    <node id="ggg">
       <idrefs>aaa ddd</idrefs>
     </node>
     <id>ccc ddd</id>

@@ -5013,7 +5013,6 @@ def test_id006_id006_n02_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_id005_id005_v01_xml(save_xml):
     """
     Element with list-of-IDREF attributes and list-of-IDREF children

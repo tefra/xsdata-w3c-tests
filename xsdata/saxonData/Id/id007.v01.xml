@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
 <doc>
-  <node/>
-  <node/>
+  <node mixedA="A001 B001"/>
+  <node mixedB="A001 B001"/>
   <node>
     <mixedA>A002 B002</mixedA>
   </node>

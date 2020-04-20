@@ -4,15 +4,14 @@ from tests.utils import assert_bindings
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii03_s3_3_6ii03i(save_xml):
     """
     Tests notQName in allgroup
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -20,15 +19,14 @@ def test_s3_3_6ii03_s3_3_6ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii02_s3_3_6ii02i(save_xml):
     """
     Tests notNamespace in all group
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -36,15 +34,14 @@ def test_s3_3_6ii02_s3_3_6ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii01_s3_3_6ii01i(save_xml):
     """
     maxOccurs may now be >1 in all group
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -58,9 +55,7 @@ def test_s3_3_6v05_s3_3_6v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_6/s3_3_6v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_6/s3_3_6v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -74,9 +69,7 @@ def test_s3_3_6v04_s3_3_6v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_6/s3_3_6v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_6/s3_3_6v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -90,9 +83,7 @@ def test_s3_3_6v01_s3_3_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_6/s3_3_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_6/s3_3_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -100,15 +91,14 @@ def test_s3_3_6v01_s3_3_6v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii04_s3_10_6v04i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_6/s3_10_6ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -116,15 +106,14 @@ def test_s3_10_6ii04_s3_10_6v04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii03_s3_10_6v03i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_6/s3_10_6ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -132,15 +121,14 @@ def test_s3_10_6ii03_s3_10_6v03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii02_s3_10_6v02i(save_xml):
     """
     Tests notQName and notNamespace list in xs:anyAttribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_6/s3_10_6ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -148,15 +136,14 @@ def test_s3_10_6ii02_s3_10_6v02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii01_s3_10_6v01i(save_xml):
     """
     Tests notQName on xs:anyAttribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_6/s3_10_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_6/s3_10_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -170,9 +157,7 @@ def test_s3_10_6v03_s3_10_6v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_6/s3_10_6v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_6/s3_10_6v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -186,9 +171,7 @@ def test_s3_10_6v02_s3_10_6v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_6/s3_10_6v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_6/s3_10_6v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -202,9 +185,7 @@ def test_s3_10_6v01_s3_10_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_6/s3_10_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_6/s3_10_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -220,9 +201,7 @@ def test_assert_035_assert_035_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion6.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion6_1.xml",
-        instance_is_valid=True,
         class_name="ListType",
         version="1.1",
         save_xml=save_xml,
@@ -230,6 +209,7 @@ def test_assert_035_assert_035_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_035_assert_035_3(save_xml):
     """
     An example demonstrating constraining the cardinality of schema
@@ -238,9 +218,7 @@ def test_assert_035_assert_035_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion6.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion6_2.xml",
-        instance_is_valid=False,
         class_name="ListType",
         version="1.1",
         save_xml=save_xml,
@@ -248,6 +226,7 @@ def test_assert_035_assert_035_3(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_034_assert_034_3(save_xml):
     """
     An example demonstrating assertion defined in simple schema type,
@@ -256,9 +235,7 @@ def test_assert_034_assert_034_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion5_2.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -272,9 +249,7 @@ def test_assert_033_assert_033_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion3_1.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -289,9 +264,7 @@ def test_assert_032_assert_032_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion3_1.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -299,6 +272,7 @@ def test_assert_032_assert_032_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_032_assert_032_3(save_xml):
     """
     This is similar to example "assert_031", but here both of memberTypes
@@ -306,9 +280,7 @@ def test_assert_032_assert_032_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion3_2.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -324,9 +296,7 @@ def test_assert_031_assert_031_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion2_1.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -334,6 +304,7 @@ def test_assert_031_assert_031_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_031_assert_031_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -342,9 +313,7 @@ def test_assert_031_assert_031_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion2_2.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -360,9 +329,7 @@ def test_assert_031_assert_031_4(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion2_3.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -370,6 +337,7 @@ def test_assert_031_assert_031_4(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_031_assert_031_5(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -378,9 +346,7 @@ def test_assert_031_assert_031_5(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion2_4.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -398,9 +364,7 @@ def test_assert_030_assert_030_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion1_1.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -408,6 +372,7 @@ def test_assert_030_assert_030_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_030_assert_030_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
@@ -418,9 +383,7 @@ def test_assert_030_assert_030_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/list_union/listunion1_2.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -441,9 +404,7 @@ def test_assert_029_assert_029_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns5_1.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -451,6 +412,7 @@ def test_assert_029_assert_029_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_029_assert_029_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
@@ -464,9 +426,7 @@ def test_assert_029_assert_029_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns5_2.xml",
-        instance_is_valid=False,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -482,9 +442,7 @@ def test_assert_028_assert_028_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns4.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -500,9 +458,7 @@ def test_assert_027_assert_027_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns3.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -519,9 +475,7 @@ def test_assert_026_assert_026_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns2.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -537,9 +491,7 @@ def test_assert_025_assert_025_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/namespace/ns1.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -557,9 +509,7 @@ def test_assert_024_assert_024_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/whitespace/test3.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -567,6 +517,7 @@ def test_assert_024_assert_024_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_023_assert_023_2(save_xml):
     """
     An example demonstrating assertions evaluation, with xs:string schema
@@ -579,9 +530,7 @@ def test_assert_023_assert_023_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/whitespace/test3.xml",
-        instance_is_valid=False,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -599,9 +548,7 @@ def test_assert_022_assert_022_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/whitespace/test3.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -609,6 +556,7 @@ def test_assert_022_assert_022_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_021_assert_021_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a xs:string
@@ -617,9 +565,7 @@ def test_assert_021_assert_021_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/whitespace/test1.xml",
-        instance_is_valid=False,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -635,9 +581,7 @@ def test_assert_020_assert_020_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/whitespace/test1.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -653,9 +597,7 @@ def test_assert_019_assert_019_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/po_sample/po.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/po_sample/po.xml",
-        instance_is_valid=True,
         class_name="Order",
         version="1.1",
         save_xml=save_xml,
@@ -671,9 +613,7 @@ def test_assert_018_assert_018_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test18.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test18_1.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -681,6 +621,7 @@ def test_assert_018_assert_018_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_018_assert_018_3(save_xml):
     """
     This is similar to test 'assert_017', but element a's schema type in
@@ -689,9 +630,7 @@ def test_assert_018_assert_018_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test18.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test18_2.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -708,9 +647,7 @@ def test_assert_017_assert_017_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test17.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test17.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -725,9 +662,7 @@ def test_assert_016_assert_016_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test16.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test16.xml",
-        instance_is_valid=True,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -743,9 +678,7 @@ def test_assert_015_assert_015_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test15.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test15.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -760,9 +693,7 @@ def test_assert_014_assert_014_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test14.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test14.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -776,9 +707,7 @@ def test_assert_013_assert_013_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test13.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test13.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -793,9 +722,7 @@ def test_assert_012_assert_012_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test12.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test12.xml",
-        instance_is_valid=True,
         class_name="Shape",
         version="1.1",
         save_xml=save_xml,
@@ -810,9 +737,7 @@ def test_assert_011_assert_011_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test11.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test11.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -826,9 +751,7 @@ def test_assert_010_assert_010_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test10.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test10.xml",
-        instance_is_valid=True,
         class_name="Message",
         version="1.1",
         save_xml=save_xml,
@@ -843,9 +766,7 @@ def test_assert_009_assert_009_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test9.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test9.xml",
-        instance_is_valid=True,
         class_name="Message",
         version="1.1",
         save_xml=save_xml,
@@ -860,9 +781,7 @@ def test_assert_008_assert_008_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test8.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test8.xml",
-        instance_is_valid=True,
         class_name="Shoesize",
         version="1.1",
         save_xml=save_xml,
@@ -877,9 +796,7 @@ def test_assert_007_assert_007_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test7.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test7.xml",
-        instance_is_valid=True,
         class_name="Message",
         version="1.1",
         save_xml=save_xml,
@@ -894,9 +811,7 @@ def test_assert_006_assert_006_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test6.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test6.xml",
-        instance_is_valid=True,
         class_name="Message",
         version="1.1",
         save_xml=save_xml,
@@ -910,9 +825,7 @@ def test_assert_005_assert_005_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test5.xml",
-        instance_is_valid=True,
         class_name="Value",
         version="1.1",
         save_xml=save_xml,
@@ -927,9 +840,7 @@ def test_assert_004_assert_004_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test4.xml",
-        instance_is_valid=True,
         class_name="Phonebill",
         version="1.1",
         save_xml=save_xml,
@@ -943,9 +854,7 @@ def test_assert_003_assert_003_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test3.xml",
-        instance_is_valid=True,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -960,9 +869,7 @@ def test_assert_002_assert_002_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test2_1.xml",
-        instance_is_valid=True,
         class_name="Xlist",
         version="1.1",
         save_xml=save_xml,
@@ -970,6 +877,7 @@ def test_assert_002_assert_002_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_assert_002_assert_002_3(save_xml):
     """
     Assertions demonstrating co-occurence constraints (constraints between
@@ -977,9 +885,7 @@ def test_assert_002_assert_002_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test2_2.xml",
-        instance_is_valid=False,
         class_name="Xlist",
         version="1.1",
         save_xml=save_xml,
@@ -995,9 +901,7 @@ def test_assert_001_assert_001_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/assertions/test1.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -1005,15 +909,14 @@ def test_assert_001_assert_001_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii32_d4_3_15ii32i(save_xml):
     """
     "//" returns empty sequence
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1021,15 +924,14 @@ def test_d4_3_15ii32_d4_3_15ii32i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii31_d4_3_15ii31i(save_xml):
     """
     "//" returns empty sequence
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1037,6 +939,7 @@ def test_d4_3_15ii31_d4_3_15ii31i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii30_d4_3_15ii30i(save_xml):
     """
     assertion on different namespace test case in simpleType/complexType
@@ -1044,9 +947,7 @@ def test_d4_3_15ii30_d4_3_15ii30i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xml",
-        instance_is_valid=False,
         class_name="RootInA",
         version="1.1",
         save_xml=save_xml,
@@ -1054,6 +955,7 @@ def test_d4_3_15ii30_d4_3_15ii30i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii29_d4_3_15ii29i(save_xml):
     """
     xpathDefaultNamespace, assertion on different namespace test case in
@@ -1061,9 +963,7 @@ def test_d4_3_15ii29_d4_3_15ii29i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xml",
-        instance_is_valid=False,
         class_name="RootInA",
         version="1.1",
         save_xml=save_xml,
@@ -1071,6 +971,7 @@ def test_d4_3_15ii29_d4_3_15ii29i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii27_d4_3_15ii27i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -1078,9 +979,7 @@ def test_d4_3_15ii27_d4_3_15ii27i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1088,6 +987,7 @@ def test_d4_3_15ii27_d4_3_15ii27i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii25_d4_3_15ii25i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -1095,9 +995,7 @@ def test_d4_3_15ii25_d4_3_15ii25i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1105,6 +1003,7 @@ def test_d4_3_15ii25_d4_3_15ii25i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii24_d4_3_15ii24i(save_xml):
     """
     naive xpathDefaultNamespace(exact uri of targetNamespace) test case in
@@ -1112,9 +1011,7 @@ def test_d4_3_15ii24_d4_3_15ii24i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1122,6 +1019,7 @@ def test_d4_3_15ii24_d4_3_15ii24i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii23_d4_3_15ii23i(save_xml):
     """
     naive xpathDefaultNamespace (exact uri of targetNamespace) test case
@@ -1129,9 +1027,7 @@ def test_d4_3_15ii23_d4_3_15ii23i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1139,6 +1035,7 @@ def test_d4_3_15ii23_d4_3_15ii23i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii22_d4_3_15ii22i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1146,9 +1043,7 @@ def test_d4_3_15ii22_d4_3_15ii22i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1156,6 +1051,7 @@ def test_d4_3_15ii22_d4_3_15ii22i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii21_d4_3_15ii21i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1163,9 +1059,7 @@ def test_d4_3_15ii21_d4_3_15ii21i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1173,15 +1067,14 @@ def test_d4_3_15ii21_d4_3_15ii21i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii20_d4_3_15ii20i(save_xml):
     """
     assertions on a simple type definition.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1189,6 +1082,7 @@ def test_d4_3_15ii20_d4_3_15ii20i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
     """
     assertions on a complex type definition,           having
@@ -1196,9 +1090,7 @@ def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1206,6 +1098,7 @@ def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
     """
     assertions on a complex type definition,         having
@@ -1213,9 +1106,7 @@ def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1223,6 +1114,7 @@ def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii17_d4_3_15ii17i(save_xml):
     """
     inability to navigate outside the subtree, assertion on elements with
@@ -1230,9 +1122,7 @@ def test_d4_3_15ii17_d4_3_15ii17i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1240,15 +1130,14 @@ def test_d4_3_15ii17_d4_3_15ii17i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii15_d4_3_15ii15i(save_xml):
     """
     inability to navigate outside the subtree, assertion on attributes
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1256,15 +1145,14 @@ def test_d4_3_15ii15_d4_3_15ii15i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii14_d4_3_15ii14i(save_xml):
     """
     inability to navigate outside the subtree, assertion on elements
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1272,15 +1160,14 @@ def test_d4_3_15ii14_d4_3_15ii14i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii13_d4_3_15ii13i(save_xml):
     """
     dynamic context of the XPath expression, assertion on element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1288,6 +1175,7 @@ def test_d4_3_15ii13_d4_3_15ii13i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii12_d4_3_15ii12i(save_xml):
     """
     inability to navigate outside the subtree, assertion on elements with
@@ -1295,9 +1183,7 @@ def test_d4_3_15ii12_d4_3_15ii12i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1305,15 +1191,14 @@ def test_d4_3_15ii12_d4_3_15ii12i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii11_d4_3_15ii11i(save_xml):
     """
     dynamic context of the XPath expression, assertion on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1321,15 +1206,14 @@ def test_d4_3_15ii11_d4_3_15ii11i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii10_d4_3_15ii10i(save_xml):
     """
     ssertions on derived complex type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1337,15 +1221,14 @@ def test_d4_3_15ii10_d4_3_15ii10i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii08_d4_3_15ii08i(save_xml):
     """
     assertions on a complex type definition having simpleContent
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1353,6 +1236,7 @@ def test_d4_3_15ii08_d4_3_15ii08i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii06_d4_3_15ii06i(save_xml):
     """
     assertions on a complex type definition,having complexContent,
@@ -1360,9 +1244,7 @@ def test_d4_3_15ii06_d4_3_15ii06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1370,15 +1252,14 @@ def test_d4_3_15ii06_d4_3_15ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii04_d4_3_15ii04i(save_xml):
     """
     assertions on a complex type definition. uses multiple asserts
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1386,6 +1267,7 @@ def test_d4_3_15ii04_d4_3_15ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii03_d4_3_15ii03i(save_xml):
     """
     assertions on a complex type definition. this schema has a bigger
@@ -1393,9 +1275,7 @@ def test_d4_3_15ii03_d4_3_15ii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -1403,15 +1283,14 @@ def test_d4_3_15ii03_d4_3_15ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii02_d4_3_15ii02i(save_xml):
     """
     Assertions on a complex type definition
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1419,15 +1298,14 @@ def test_d4_3_15ii02_d4_3_15ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii01_d4_3_15ii01i(save_xml):
     """
     Assertions on a complex type definition
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1442,9 +1320,7 @@ def test_d4_3_15v28_d4_3_15v28i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v28.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v28.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1459,9 +1335,7 @@ def test_d4_3_15v27_d4_3_15v27i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v27.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v27.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1476,9 +1350,7 @@ def test_d4_3_15v26_d4_3_15v26i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v26.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v26.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1493,9 +1365,7 @@ def test_d4_3_15v25_d4_3_15v25i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v25.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v25.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1510,9 +1380,7 @@ def test_d4_3_15v24_d4_3_15v24i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v24.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v24.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1527,9 +1395,7 @@ def test_d4_3_15v23_d4_3_15v23i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v23.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v23.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1544,9 +1410,7 @@ def test_d4_3_15v22_d4_3_15v22i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v22.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v22.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1561,9 +1425,7 @@ def test_d4_3_15v21_d4_3_15v21i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v21.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v21.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1578,9 +1440,7 @@ def test_d4_3_15v19_d4_3_15v19i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v19.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v19.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1595,9 +1455,7 @@ def test_d4_3_15v18_d4_3_15v18i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v18.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v18.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1611,9 +1469,7 @@ def test_d4_3_15v15_d4_3_15v15i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v15.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v15.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1627,9 +1483,7 @@ def test_d4_3_15v14_d4_3_15v14i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v14.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v14.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1643,9 +1497,7 @@ def test_d4_3_15v13_d4_3_15v13i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v13.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v13.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1659,9 +1511,7 @@ def test_d4_3_15v11_d4_3_15v11i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v11.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v11.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1675,9 +1525,7 @@ def test_d4_3_15v10_d4_3_15v10i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v10.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v10.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1691,9 +1539,7 @@ def test_d4_3_15v09_d4_3_15v09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v09.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v09.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1707,9 +1553,7 @@ def test_d4_3_15v08_d4_3_15v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1724,9 +1568,7 @@ def test_d4_3_15v07_d4_3_15v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1741,9 +1583,7 @@ def test_d4_3_15v06_d4_3_15v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1757,9 +1597,7 @@ def test_d4_3_15v05_d4_3_15v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1773,9 +1611,7 @@ def test_d4_3_15v04_d4_3_15v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1789,9 +1625,7 @@ def test_d4_3_15v03_d4_3_15v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v03.xml",
-        instance_is_valid=True,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -1805,9 +1639,7 @@ def test_d4_3_15v02_d4_3_15v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1821,9 +1653,7 @@ def test_d4_3_15v01_d4_3_15v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_15/d4_3_15v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1831,15 +1661,14 @@ def test_d4_3_15v01_d4_3_15v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s4_2_2ii01_s4_2_2ii01i(save_xml):
     """
     invalid instance vc: conditional inclusion Testing version
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1853,9 +1682,7 @@ def test_s4_2_2v01_s4_2_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S4_2_2/s4_2_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S4_2_2/s4_2_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1863,15 +1690,14 @@ def test_s4_2_2v01_s4_2_2v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii05_s3_2_3ii05i(save_xml):
     """
     Named identity constraints on local element declarations
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1879,6 +1705,7 @@ def test_s3_2_3ii05_s3_2_3ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii04_s3_2_3ii04i(save_xml):
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1886,9 +1713,7 @@ def test_s3_2_3ii04_s3_2_3ii04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1896,6 +1721,7 @@ def test_s3_2_3ii04_s3_2_3ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii02_s3_2_3ii02i(save_xml):
     """
     Tests for valid derivation of restriction of complexType in other
@@ -1903,9 +1729,7 @@ def test_s3_2_3ii02_s3_2_3ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1913,6 +1737,7 @@ def test_s3_2_3ii02_s3_2_3ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii01_s3_2_3ii01i(save_xml):
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1920,9 +1745,7 @@ def test_s3_2_3ii01_s3_2_3ii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1937,9 +1760,7 @@ def test_s3_2_3v04_s3_2_3v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_2_3/s3_2_3v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_2_3/s3_2_3v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1954,9 +1775,7 @@ def test_s3_2_3v01_s3_2_3v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_2_3/s3_2_3v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_2_3/s3_2_3v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1971,9 +1790,7 @@ def test_d3_3_10v01_d3_3_10v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_10/d3_3_10v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_10/d3_3_10v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1981,15 +1798,14 @@ def test_d3_3_10v01_d3_3_10v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii01i(save_xml):
     """
     invalid dateTimeStamp values;Invalid enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1997,15 +1813,14 @@ def test_d3_4_28ii01_d3_4_28ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii02i(save_xml):
     """
     invalid dateTimeStamp values;Invalid enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_28/d3_4_28ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2013,15 +1828,14 @@ def test_d3_4_28ii01_d3_4_28ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii03i(save_xml):
     """
     invalid dateTimeStamp values;Invalid enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_28/d3_4_28ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2029,15 +1843,14 @@ def test_d3_4_28ii01_d3_4_28ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii04i(save_xml):
     """
     invalid dateTimeStamp values;Invalid enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_28/d3_4_28ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2045,15 +1858,14 @@ def test_d3_4_28ii01_d3_4_28ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii05i(save_xml):
     """
     invalid dateTimeStamp values;Invalid enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_28/d3_4_28ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_28/d3_4_28ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2067,9 +1879,7 @@ def test_d3_4_28v10_d3_4_28v10i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v10.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v10.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2084,9 +1894,7 @@ def test_d3_4_28v09_d3_4_28v09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v09.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v09.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2101,9 +1909,7 @@ def test_d3_4_28v08_d3_4_28v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2118,9 +1924,7 @@ def test_d3_4_28v07_d3_4_28v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2135,9 +1939,7 @@ def test_d3_4_28v06_d3_4_28v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2151,9 +1953,7 @@ def test_d3_4_28v05_d3_4_28v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2167,9 +1967,7 @@ def test_d3_4_28v04_d3_4_28v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2184,9 +1982,7 @@ def test_d3_4_28v03_d3_4_28v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2200,9 +1996,7 @@ def test_d3_4_28v02_d3_4_28v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2217,9 +2011,7 @@ def test_d3_4_28v01_d3_4_28v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_28/d3_4_28v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_28/d3_4_28v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2227,6 +2019,7 @@ def test_d3_4_28v01_d3_4_28v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii07_d3_4_27ii07i(save_xml):
     """
     Invalid dayTimeDuration values used with (min|max)
@@ -2234,9 +2027,7 @@ def test_d3_4_27ii07_d3_4_27ii07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2244,15 +2035,14 @@ def test_d3_4_27ii07_d3_4_27ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii06_d3_4_27ii06i(save_xml):
     """
     Invalid dayTimeDuration values used in unions
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2260,6 +2050,7 @@ def test_d3_4_27ii06_d3_4_27ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii05_d3_4_27ii05i(save_xml):
     """
     Invalid values of dayTimeDuration and invalid instance of its facets
@@ -2267,9 +2058,7 @@ def test_d3_4_27ii05_d3_4_27ii05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2277,15 +2066,14 @@ def test_d3_4_27ii05_d3_4_27ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii04_d3_4_27ii04i(save_xml):
     """
     Invalid dayTimeDuration Min/Max Exclusive
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2293,15 +2081,14 @@ def test_d3_4_27ii04_d3_4_27ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii03_d3_4_27ii03i(save_xml):
     """
     Invalid dayTimeDuration Min/Max Inclusive
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2309,15 +2096,14 @@ def test_d3_4_27ii03_d3_4_27ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii02_d3_4_27ii02i(save_xml):
     """
     Invalid dayTimeDuration enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2325,15 +2111,14 @@ def test_d3_4_27ii02_d3_4_27ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii01_d3_4_27ii01i(save_xml):
     """
     Invalid dayTimeDuration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_27/d3_4_27ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_27/d3_4_27ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2348,9 +2133,7 @@ def test_d3_4_27v05_d3_4_27v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_27/d3_4_27v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_27/d3_4_27v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2365,9 +2148,7 @@ def test_d3_4_27v04_d3_4_27v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_27/d3_4_27v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_27/d3_4_27v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2381,9 +2162,7 @@ def test_d3_4_27v03_d3_4_27v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_27/d3_4_27v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_27/d3_4_27v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2398,9 +2177,7 @@ def test_d3_4_27v02_d3_4_27v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_27/d3_4_27v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_27/d3_4_27v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2414,9 +2191,7 @@ def test_d3_4_27v01_d3_4_27v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_27/d3_4_27v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_27/d3_4_27v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2424,6 +2199,7 @@ def test_d3_4_27v01_d3_4_27v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii11_s3_4_2_4ii11i(save_xml):
     """
     test defaultAttributesApply is absent, and ref attribute in
@@ -2431,9 +2207,7 @@ def test_s3_4_2_4ii11_s3_4_2_4ii11i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2441,15 +2215,14 @@ def test_s3_4_2_4ii11_s3_4_2_4ii11i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii10_s3_4_2_4ii10i(save_xml):
     """
     test defaultAttributesApply = false and override as false
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2457,6 +2230,7 @@ def test_s3_4_2_4ii10_s3_4_2_4ii10i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii09_s3_4_2_4ii09i(save_xml):
     """
     test defaultAttributesApply = false/true/absent across multiple schema
@@ -2464,9 +2238,7 @@ def test_s3_4_2_4ii09_s3_4_2_4ii09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xml",
-        instance_is_valid=False,
         class_name="RootInA",
         version="1.1",
         save_xml=save_xml,
@@ -2474,15 +2246,14 @@ def test_s3_4_2_4ii09_s3_4_2_4ii09i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii08_s3_4_2_4ii08i(save_xml):
     """
     test defaultAttributesApply = false and override as absent
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2490,15 +2261,14 @@ def test_s3_4_2_4ii08_s3_4_2_4ii08i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii07_s3_4_2_4ii07i(save_xml):
     """
     test defaultAttributesApply = false and redefined as absent
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2512,9 +2282,7 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2522,15 +2290,14 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii05_s3_4_2_4ii05i(save_xml):
     """
     test defaultAttributesApply = false and redefined as true
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2538,15 +2305,14 @@ def test_s3_4_2_4ii05_s3_4_2_4ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii03_s3_4_2_4ii03i(save_xml):
     """
     test defaultAttributesApply = false and redefined as absent
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2554,15 +2320,14 @@ def test_s3_4_2_4ii03_s3_4_2_4ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii02_s3_4_2_4ii02i(save_xml):
     """
     test defaultAttributesApply = false
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2570,15 +2335,14 @@ def test_s3_4_2_4ii02_s3_4_2_4ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii01_s3_4_2_4ii01i(save_xml):
     """
     test defaultAttributesApply = false, across multiple schema documents
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2593,9 +2357,7 @@ def test_s3_4_2_4v13_s3_4_2_4v13i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_2_4/s3_4_2_4v13.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_2_4/s3_4_2_4v13.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2609,9 +2371,7 @@ def test_s3_4_2_4v03_s3_4_2_4v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_2_4/s3_4_2_4v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_2_4/s3_4_2_4v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2625,9 +2385,7 @@ def test_s3_4_2_4v02_s3_4_2_4v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_2_4/s3_4_2_4v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_2_4/s3_4_2_4v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2641,9 +2399,7 @@ def test_s3_4_2_4v01_s3_4_2_4v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_2_4/s3_4_2_4v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_2_4/s3_4_2_4v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2651,15 +2407,14 @@ def test_s3_4_2_4v01_s3_4_2_4v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_2ii01_s2_7_2ii01i(save_xml):
     """
     default values for xsi:nil
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_7_2/s2_7_2ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2680,9 +2435,7 @@ def test_s2_7_2v01_s2_7_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_7_2/s2_7_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_7_2/s2_7_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2690,6 +2443,7 @@ def test_s2_7_2v01_s2_7_2v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
     """
     When an xsi:type attribute appears on an element, and has a QName as
@@ -2700,9 +2454,7 @@ def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2710,15 +2462,14 @@ def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_1ii01_s2_7_1ii01i(save_xml):
     """
     xsi:type must resolve to a type definition
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_7_1/s2_7_1ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2732,9 +2483,7 @@ def test_s2_7_1v01_s2_7_1v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_7_1/s2_7_1v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_7_1/s2_7_1v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2748,9 +2497,7 @@ def test_d3_3_6v02_d3_3_6v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_6/d3_3_6v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_6/d3_3_6v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2764,9 +2511,7 @@ def test_d3_3_6v01_d3_3_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_6/d3_3_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_6/d3_3_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2774,6 +2519,7 @@ def test_d3_3_6v01_d3_3_6v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_8_6ii01_s3_8_6ii01i(save_xml):
     """
     tighter rule for EDC as regards the type of an element that matches a
@@ -2781,9 +2527,7 @@ def test_s3_8_6ii01_s3_8_6ii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2791,6 +2535,7 @@ def test_s3_8_6ii01_s3_8_6ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_8_6v01_s3_8_6v01i(save_xml):
     """
     tighter rule for EDC as regards the type of an element that matches a
@@ -2798,9 +2543,7 @@ def test_s3_8_6v01_s3_8_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_8_6/s3_8_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_8_6/s3_8_6v01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2808,6 +2551,7 @@ def test_s3_8_6v01_s3_8_6v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii07_d4_3_16ii07i(save_xml):
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2815,9 +2559,7 @@ def test_d4_3_16ii07_d4_3_16ii07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2825,6 +2567,7 @@ def test_d4_3_16ii07_d4_3_16ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii06_d4_3_16ii06i(save_xml):
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2832,9 +2575,7 @@ def test_d4_3_16ii06_d4_3_16ii06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2842,15 +2583,14 @@ def test_d4_3_16ii06_d4_3_16ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii05_d4_3_16ii05i(save_xml):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2858,6 +2598,7 @@ def test_d4_3_16ii05_d4_3_16ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii04_d4_3_16ii04i(save_xml):
     """
     Tests the simpleType dateTime and its facets explicitionTimezone, used
@@ -2865,9 +2606,7 @@ def test_d4_3_16ii04_d4_3_16ii04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2875,6 +2614,7 @@ def test_d4_3_16ii04_d4_3_16ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii03_d4_3_16ii03i(save_xml):
     """
     Tests the simpleType dateTime and its facets explicitTimezone, used in
@@ -2882,9 +2622,7 @@ def test_d4_3_16ii03_d4_3_16ii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2892,6 +2630,7 @@ def test_d4_3_16ii03_d4_3_16ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii02_d4_3_16ii02i(save_xml):
     """
     Tests the simpleType dateTime and its explicitTimezone facets and its
@@ -2899,9 +2638,7 @@ def test_d4_3_16ii02_d4_3_16ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2909,15 +2646,14 @@ def test_d4_3_16ii02_d4_3_16ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii01_d4_3_16ii01i(save_xml):
     """
     invalid dateTime values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_16/d4_3_16ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2932,9 +2668,7 @@ def test_d4_3_16v07_d4_3_16v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2949,9 +2683,7 @@ def test_d4_3_16v06_d4_3_16v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2965,9 +2697,7 @@ def test_d4_3_16v05_d4_3_16v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2982,9 +2712,7 @@ def test_d4_3_16v04_d4_3_16v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2999,9 +2727,7 @@ def test_d4_3_16v03_d4_3_16v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3016,9 +2742,7 @@ def test_d4_3_16v02_d4_3_16v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3033,9 +2757,7 @@ def test_d4_3_16v01_d4_3_16v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_16/d4_3_16v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_16/d4_3_16v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3049,9 +2771,7 @@ def test_d3_3_5v02_d3_3_5v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_5/d3_3_5v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_5/d3_3_5v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3065,9 +2785,7 @@ def test_d3_3_5v01_d3_3_5v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_5/d3_3_5v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_5/d3_3_5v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3082,9 +2800,7 @@ def test_d3_3_11v01_d3_3_11v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_11/d3_3_11v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_11/d3_3_11v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3099,9 +2815,7 @@ def test_d3_3_12v01_d3_3_12v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_12/d3_3_12v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_12/d3_3_12v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3116,9 +2830,7 @@ def test_d3_3_13v01_d3_3_13v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_13/d3_3_13v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_13/d3_3_13v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3133,9 +2845,7 @@ def test_d3_3_14v01_d3_3_14v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_14/d3_3_14v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_14/d3_3_14v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3143,15 +2853,14 @@ def test_d3_3_14v01_d3_3_14v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii27_s3_3_4ii27i(save_xml):
     """
     ID on root does not denote any element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii27.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3159,15 +2868,14 @@ def test_s3_3_4ii27_s3_3_4ii27i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii26_s3_3_4ii26i(save_xml):
     """
     ID on root does not denote any element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii26.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3175,15 +2883,14 @@ def test_s3_3_4ii26_s3_3_4ii26i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii25_s3_3_4ii25i(save_xml):
     """
     Multiple attributes of type ID with default value
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii25.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3191,15 +2898,14 @@ def test_s3_3_4ii25_s3_3_4ii25i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii24_s3_3_4ii24i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii24.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3207,6 +2913,7 @@ def test_s3_3_4ii24_s3_3_4ii24i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii23_s3_3_4ii23i(save_xml):
     """
     xs:ID with default value on attribute, and xs:IDREF on element with
@@ -3214,9 +2921,7 @@ def test_s3_3_4ii23_s3_3_4ii23i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii23.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3224,15 +2929,14 @@ def test_s3_3_4ii23_s3_3_4ii23i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii22_s3_3_4ii22i(save_xml):
     """
     Multiple attributes of type ID
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii22.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3240,15 +2944,14 @@ def test_s3_3_4ii22_s3_3_4ii22i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii21_s3_3_4ii21i(save_xml):
     """
     Multiple attributes of type ID
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii21.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3256,15 +2959,14 @@ def test_s3_3_4ii21_s3_3_4ii21i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii20_s3_3_4ii20i(save_xml):
     """
     Multiple attributes of type ID, invalid idref value on element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii20.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3272,6 +2974,7 @@ def test_s3_3_4ii20_s3_3_4ii20i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii19_s3_3_4ii19i(save_xml):
     """
     Multiple attributes of type ID, complexContent, with invalid idref
@@ -3279,9 +2982,7 @@ def test_s3_3_4ii19_s3_3_4ii19i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii19.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3289,15 +2990,14 @@ def test_s3_3_4ii19_s3_3_4ii19i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii18_s3_3_4ii18i(save_xml):
     """
     Unions involving ID in elements, invalid idref value on element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii18.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3305,15 +3005,14 @@ def test_s3_3_4ii18_s3_3_4ii18i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii17_s3_3_4ii17i(save_xml):
     """
     Unions involving ID in elements, invalid idref value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii17.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3321,15 +3020,14 @@ def test_s3_3_4ii17_s3_3_4ii17i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii16_s3_3_4ii16i(save_xml):
     """
     Unions involving ID in attributes, invalid idref value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii16.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3337,15 +3035,14 @@ def test_s3_3_4ii16_s3_3_4ii16i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii15_s3_3_4ii15i(save_xml):
     """
     Unions involving ID in elements, invalid idref value on element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii15.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3353,15 +3050,14 @@ def test_s3_3_4ii15_s3_3_4ii15i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii14_s3_3_4ii14i(save_xml):
     """
     lists of ID, simpleContent, invalid idref value on element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii14.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3369,15 +3065,14 @@ def test_s3_3_4ii14_s3_3_4ii14i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii13_s3_3_4ii13i(save_xml):
     """
     lists of ID, simpleContent, invalid idref value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii13.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3385,15 +3080,14 @@ def test_s3_3_4ii13_s3_3_4ii13i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii12_s3_3_4ii12i(save_xml):
     """
     lists of ID, invalid idref value on attribute and element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii12.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3401,15 +3095,14 @@ def test_s3_3_4ii12_s3_3_4ii12i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii11_s3_3_4ii11i(save_xml):
     """
     lists of ID on attributes, invalid idref value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii11.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3417,15 +3110,14 @@ def test_s3_3_4ii11_s3_3_4ii11i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii10_s3_3_4ii10i(save_xml):
     """
     Unions involving ID
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii10.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3433,15 +3125,14 @@ def test_s3_3_4ii10_s3_3_4ii10i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii09_s3_3_4ii09i(save_xml):
     """
     lists of ID, invalid value on idref element
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii09.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3449,15 +3140,14 @@ def test_s3_3_4ii09_s3_3_4ii09i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii08_s3_3_4ii08i(save_xml):
     """
     lists of ID, invalid ID value on list of ids
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii08.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3465,15 +3155,14 @@ def test_s3_3_4ii08_s3_3_4ii08i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii07_s3_3_4ii07i(save_xml):
     """
     lists of ID, naive test case on elements
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3481,15 +3170,14 @@ def test_s3_3_4ii07_s3_3_4ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii06_s3_3_4ii06i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3497,6 +3185,7 @@ def test_s3_3_4ii06_s3_3_4ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii05_s3_3_4ii05i(save_xml):
     """
     xs:ID/IDREF with default value on attribute, invalid id value override
@@ -3504,9 +3193,7 @@ def test_s3_3_4ii05_s3_3_4ii05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3514,15 +3201,14 @@ def test_s3_3_4ii05_s3_3_4ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii04_s3_3_4ii04i(save_xml):
     """
     xs:ID/IDREF with fixed value on attribute
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3530,15 +3216,14 @@ def test_s3_3_4ii04_s3_3_4ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii03_s3_3_4ii03i(save_xml):
     """
     Multiple attributes of type ID, invalid id value
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3546,15 +3231,14 @@ def test_s3_3_4ii03_s3_3_4ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii02_s3_3_4ii02i(save_xml):
     """
     Multiple attributes of type ID
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3562,15 +3246,14 @@ def test_s3_3_4ii02_s3_3_4ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii01_s3_3_4ii01i(save_xml):
     """
     Multiple attributes of type ID, with restriction on enum
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_3_4/s3_3_4ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3584,9 +3267,7 @@ def test_s3_3_4v30_s3_3_4v30i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v30.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v30.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3600,9 +3281,7 @@ def test_s3_3_4v29_s3_3_4v29i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v29.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v29.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3616,9 +3295,7 @@ def test_s3_3_4v28_s3_3_4v28i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v28.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v28.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3632,9 +3309,7 @@ def test_s3_3_4v27_s3_3_4v27i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v27.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v27.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3648,9 +3323,7 @@ def test_s3_3_4v26_s3_3_4v26i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v26.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v26.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3664,9 +3337,7 @@ def test_s3_3_4v25_s3_3_4v25i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v25.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v25.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3680,9 +3351,7 @@ def test_s3_3_4v24_s3_3_4v24i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v24.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v24.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3696,9 +3365,7 @@ def test_s3_3_4v23_s3_3_4v23i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v23.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v23.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3712,9 +3379,7 @@ def test_s3_3_4v22_s3_3_4v22i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v22.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v22.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3728,9 +3393,7 @@ def test_s3_3_4v21_s3_3_4v21i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v21.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v21.xml",
-        instance_is_valid=True,
         class_name="Wrapper",
         version="1.1",
         save_xml=save_xml,
@@ -3744,9 +3407,7 @@ def test_s3_3_4v20_s3_3_4v20i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v20.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v20.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3760,9 +3421,7 @@ def test_s3_3_4v19_s3_3_4v19i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v19.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v19.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3776,9 +3435,7 @@ def test_s3_3_4v18_s3_3_4v18i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v18.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v18.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3792,9 +3449,7 @@ def test_s3_3_4v17_s3_3_4v17i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v17.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v17.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3808,9 +3463,7 @@ def test_s3_3_4v16_s3_3_4v16i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v16.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v16.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3824,9 +3477,7 @@ def test_s3_3_4v15_s3_3_4v15i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v15.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v15.xml",
-        instance_is_valid=True,
         class_name="Wrapper",
         version="1.1",
         save_xml=save_xml,
@@ -3840,9 +3491,7 @@ def test_s3_3_4v14_s3_3_4v14i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v14.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v14.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3856,9 +3505,7 @@ def test_s3_3_4v13_s3_3_4v13i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v13.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v13.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3872,9 +3519,7 @@ def test_s3_3_4v12_s3_3_4v12i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v12.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v12.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3888,9 +3533,7 @@ def test_s3_3_4v11_s3_3_4v11i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v11.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v11.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3904,9 +3547,7 @@ def test_s3_3_4v10_s3_3_4v10i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v10.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v10.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3920,9 +3561,7 @@ def test_s3_3_4v09_s3_3_4v09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v09.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v09.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3936,9 +3575,7 @@ def test_s3_3_4v08_s3_3_4v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3952,9 +3589,7 @@ def test_s3_3_4v07_s3_3_4v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3968,9 +3603,7 @@ def test_s3_3_4v06_s3_3_4v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3984,9 +3617,7 @@ def test_s3_3_4v05_s3_3_4v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4000,9 +3631,7 @@ def test_s3_3_4v04_s3_3_4v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4016,9 +3645,7 @@ def test_s3_3_4v03_s3_3_4v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4032,9 +3659,7 @@ def test_s3_3_4v02_s3_3_4v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4048,9 +3673,7 @@ def test_s3_3_4v01_s3_3_4v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_3_4/s3_3_4v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_3_4/s3_3_4v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4058,15 +3681,14 @@ def test_s3_3_4v01_s3_3_4v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii03_s2_2_4ii03i(save_xml):
     """
     Tests for duplication on components with keys and uniques
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4074,6 +3696,7 @@ def test_s2_2_4ii03_s2_2_4ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii02_s2_2_4ii02i(save_xml):
     """
     Tests for duplication on components with identity constraints Checks
@@ -4081,9 +3704,7 @@ def test_s2_2_4ii02_s2_2_4ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4091,15 +3712,14 @@ def test_s2_2_4ii02_s2_2_4ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii01_s2_2_4ii01i(save_xml):
     """
     test attribute which is required as declared in key is abscent
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4113,9 +3733,7 @@ def test_s2_2_4v03_s2_2_4v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_4/s2_2_4v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_4/s2_2_4v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4129,9 +3747,7 @@ def test_s2_2_4v02_s2_2_4v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_4/s2_2_4v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_4/s2_2_4v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4145,9 +3761,7 @@ def test_s2_2_4v01_s2_2_4v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_4/s2_2_4v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_4/s2_2_4v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4161,9 +3775,7 @@ def test_d2_4_1_2v01_d2_4_1_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D2_4_1_2/d2_4_1_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D2_4_1_2/d2_4_1_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4171,6 +3783,7 @@ def test_d2_4_1_2v01_d2_4_1_2v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii05_s3_4_1ii05i(save_xml):
     """
     Tests derivation by restriction with openContent mode suffix in base
@@ -4178,9 +3791,7 @@ def test_s3_4_1ii05_s3_4_1ii05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4188,15 +3799,14 @@ def test_s3_4_1ii05_s3_4_1ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii04_s3_4_1ii04i(save_xml):
     """
     Tests wildcard in opencontent with restrictions (notQName)
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4204,6 +3814,7 @@ def test_s3_4_1ii04_s3_4_1ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii03_s3_4_1ii03i(save_xml):
     """
     Tests defaultOpenContent: when openContent is present in CT,
@@ -4211,9 +3822,7 @@ def test_s3_4_1ii03_s3_4_1ii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4221,15 +3830,14 @@ def test_s3_4_1ii03_s3_4_1ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii02_s3_4_1ii02i(save_xml):
     """
     Tests defaultOpenContent: appliesToEmpty="false"
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4237,6 +3845,7 @@ def test_s3_4_1ii02_s3_4_1ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii01_s3_4_1ii01i(save_xml):
     """
     3.4.4.3 Element Sequence Locally valid (Complex Content) Validation
@@ -4245,9 +3854,7 @@ def test_s3_4_1ii01_s3_4_1ii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4261,9 +3868,7 @@ def test_s3_4_1v11_s3_4_1v11i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v11.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v11.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4278,9 +3883,7 @@ def test_s3_4_1v10_s3_4_1v10i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v10.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v10.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4295,9 +3898,7 @@ def test_s3_4_1v09_s3_4_1v09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v09.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v09.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4312,9 +3913,7 @@ def test_s3_4_1v08_s3_4_1v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4329,9 +3928,7 @@ def test_s3_4_1v07_s3_4_1v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4345,9 +3942,7 @@ def test_s3_4_1v06_s3_4_1v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4361,9 +3956,7 @@ def test_s3_4_1v05_s3_4_1v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4377,9 +3970,7 @@ def test_s3_4_1v04_s3_4_1v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4393,9 +3984,7 @@ def test_s3_4_1v03_s3_4_1v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4409,9 +3998,7 @@ def test_s3_4_1v02_s3_4_1v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4425,9 +4012,7 @@ def test_s3_4_1v01_s3_4_1v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_1/s3_4_1v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_1/s3_4_1v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4435,6 +4020,7 @@ def test_s3_4_1v01_s3_4_1v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii04_d6_gii04i(save_xml):
     """
     invalid instance use of hyphens within square brackets in regular
@@ -4442,9 +4028,7 @@ def test_d6_gii04_d6_gii04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D6_G/d6_gii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D6_G/d6_gii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4452,6 +4036,7 @@ def test_d6_gii04_d6_gii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii03_d6_gii03i(save_xml):
     """
     invalid instance use of hyphens within square brackets in regular
@@ -4459,9 +4044,7 @@ def test_d6_gii03_d6_gii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D6_G/d6_gii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D6_G/d6_gii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4469,6 +4052,7 @@ def test_d6_gii03_d6_gii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii02_d6_gii02i(save_xml):
     """
     invalid instance use of hyphens within square brackets in regular
@@ -4476,9 +4060,7 @@ def test_d6_gii02_d6_gii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D6_G/d6_gii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D6_G/d6_gii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4486,6 +4068,7 @@ def test_d6_gii02_d6_gii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii01_d6_gii01i(save_xml):
     """
     invalid instance use of hyphens within square brackets in regular
@@ -4493,9 +4076,7 @@ def test_d6_gii01_d6_gii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D6_G/d6_gii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D6_G/d6_gii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4509,9 +4090,7 @@ def test_d6_gv04_d6_gv04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D6_G/d6_gv04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D6_G/d6_gv04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4525,9 +4104,7 @@ def test_d6_gv03_d6_gv03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D6_G/d6_gv03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D6_G/d6_gv03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4541,9 +4118,7 @@ def test_d6_gv02_d6_gv02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D6_G/d6_gv02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D6_G/d6_gv02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4557,9 +4132,7 @@ def test_d6_gv01_d6_gv01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D6_G/d6_gv01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D6_G/d6_gv01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4567,15 +4140,14 @@ def test_d6_gv01_d6_gv01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_6ii03_s3_4_6ii03i(save_xml):
     """
     Tests notQName
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_6/s3_4_6ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_6/s3_4_6ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4583,15 +4155,14 @@ def test_s3_4_6ii03_s3_4_6ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_6ii01_s3_4_6ii01i(save_xml):
     """
     Instance document element has higher occurences than schema allows
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_6/s3_4_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_4_6/s3_4_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4605,9 +4176,7 @@ def test_s3_4_6v08_s3_4_6v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_6/s3_4_6v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_6/s3_4_6v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4621,9 +4190,7 @@ def test_s3_4_6v05_s3_4_6v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_6/s3_4_6v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_6/s3_4_6v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4637,9 +4204,7 @@ def test_s3_4_6v04_s3_4_6v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_6/s3_4_6v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_6/s3_4_6v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4653,9 +4218,7 @@ def test_s3_4_6v01_s3_4_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_4_6/s3_4_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_4_6/s3_4_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4663,6 +4226,7 @@ def test_s3_4_6v01_s3_4_6v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_6ii01_d4_3_6ii01i(save_xml):
     """
     when the value is collapse, literals consisting solely of whitespace
@@ -4670,9 +4234,7 @@ def test_d4_3_6ii01_d4_3_6ii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_6/d4_3_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D4_3_6/d4_3_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4687,9 +4249,7 @@ def test_d4_3_6v01_d4_3_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_6/d4_3_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D4_3_6/d4_3_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4703,9 +4263,7 @@ def test_s2_2_2v03_s2_2_2v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_2/s2_2_2v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_2/s2_2_2v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4719,9 +4277,7 @@ def test_s2_2_2v02_s2_2_2v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_2/s2_2_2v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_2/s2_2_2v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4735,9 +4291,7 @@ def test_s2_2_2v01_s2_2_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S2_2_2/s2_2_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S2_2_2/s2_2_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4752,9 +4306,7 @@ def test_target_namespace_005_target_namespace_005_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/targetNamespace/tns5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/targetNamespace/tns5.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -4770,9 +4322,7 @@ def test_target_namespace_004_target_namespace_004_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/targetNamespace/tns4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/targetNamespace/tns4.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -4789,9 +4339,7 @@ def test_d3_3_9v01_d3_3_9v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_9/d3_3_9v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4808,9 +4356,7 @@ def test_d3_3_9v01_d3_3_9v01ai(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_9/d3_3_9v01a.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4827,9 +4373,7 @@ def test_d3_3_9v01_d3_3_9v01bi(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_9/d3_3_9v01b.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4846,9 +4390,7 @@ def test_d3_3_9v01_d3_3_9v01ci(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_9/d3_3_9v01c.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4856,16 +4398,14 @@ def test_d3_3_9v01_d3_3_9v01ci(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii05_s3_12ii05i(save_xml):
     """
     test xs:error as conditionally assigned type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_12/s3_12ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_12/s3_12ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4873,15 +4413,14 @@ def test_s3_12ii05_s3_12ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii04_s3_12ii04i(save_xml):
     """
     Basic type alternatives selecting invalid content.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_12/s3_12ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_12/s3_12ii04.xml",
-        instance_is_valid=False,
         class_name="Invoice",
         version="1.1",
         save_xml=save_xml,
@@ -4889,6 +4428,7 @@ def test_s3_12ii04_s3_12ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii03_s3_12ii03i(save_xml):
     """
     The type alternative is selects an invalid element using constructor
@@ -4896,9 +4436,7 @@ def test_s3_12ii03_s3_12ii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_12/s3_12ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_12/s3_12ii03.xml",
-        instance_is_valid=False,
         class_name="Shape",
         version="1.1",
         save_xml=save_xml,
@@ -4906,6 +4444,7 @@ def test_s3_12ii03_s3_12ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii02_s3_12ii02i(save_xml):
     """
     The type alternative is selects an invalid element using comparator
@@ -4913,9 +4452,7 @@ def test_s3_12ii02_s3_12ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_12/s3_12ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_12/s3_12ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4923,15 +4460,14 @@ def test_s3_12ii02_s3_12ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii01_s3_12ii01i(save_xml):
     """
     The alternative type's value is an invalid float
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_12/s3_12ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_12/s3_12ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4945,9 +4481,7 @@ def test_s3_12v11_s3_12v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v11.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v11.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4963,9 +4497,7 @@ def test_s3_12v10_s3_12v11i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v10.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v10.xml",
-        instance_is_valid=True,
         class_name="Shape",
         version="1.1",
         save_xml=save_xml,
@@ -4979,9 +4511,7 @@ def test_s3_12v09_s3_12v09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v09.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v09.xml",
-        instance_is_valid=True,
         class_name="Invoice",
         version="1.1",
         save_xml=save_xml,
@@ -4997,9 +4527,7 @@ def test_s3_12v08_s3_12v08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v08.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v08.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5015,9 +4543,7 @@ def test_s3_12v07_s3_12v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v07.xml",
-        instance_is_valid=True,
         class_name="Shape",
         version="1.1",
         save_xml=save_xml,
@@ -5033,9 +4559,7 @@ def test_s3_12v06_s3_12v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5051,9 +4575,7 @@ def test_s3_12v05_s3_12v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5075,9 +4597,7 @@ def test_s3_12v04_s3_12v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5094,9 +4614,7 @@ def test_s3_12v03_s3_12v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5113,9 +4631,7 @@ def test_s3_12v02_s3_12v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5131,9 +4647,7 @@ def test_s3_12v01_s3_12v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_12/s3_12v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5147,9 +4661,7 @@ def test_type_alternatives_006_type_alternatives_006_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test5_1.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5163,9 +4675,7 @@ def test_type_alternatives_006_type_alternatives_006_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test5.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test5_2.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5180,9 +4690,7 @@ def test_type_alternatives_005_type_alternatives_005_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test4_1.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5190,6 +4698,7 @@ def test_type_alternatives_005_type_alternatives_005_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_type_alternatives_005_type_alternatives_005_3(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -5197,9 +4706,7 @@ def test_type_alternatives_005_type_alternatives_005_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test4_2.xml",
-        instance_is_valid=False,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5215,9 +4722,7 @@ def test_type_alternatives_004_type_alternatives_004_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test3_1.xml",
-        instance_is_valid=True,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -5225,6 +4730,7 @@ def test_type_alternatives_004_type_alternatives_004_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_type_alternatives_004_type_alternatives_004_3(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -5233,9 +4739,7 @@ def test_type_alternatives_004_type_alternatives_004_3(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test3_2.xml",
-        instance_is_valid=False,
         class_name="X",
         version="1.1",
         save_xml=save_xml,
@@ -5252,9 +4756,7 @@ def test_type_alternatives_003_type_alternatives_003_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test2_1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test2.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5269,9 +4771,7 @@ def test_type_alternatives_002_type_alternatives_002_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test2.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5285,9 +4785,7 @@ def test_type_alternatives_001_type_alternatives_001_2(save_xml):
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/type-alternatives/test1.xml",
-        instance_is_valid=True,
         class_name="Shapes",
         version="1.1",
         save_xml=save_xml,
@@ -5295,15 +4793,14 @@ def test_type_alternatives_001_type_alternatives_001_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii07_s3_16_2ii07i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5311,15 +4808,14 @@ def test_s3_16_2ii07_s3_16_2ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii06_s3_16_2ii06i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5327,15 +4823,14 @@ def test_s3_16_2ii06_s3_16_2ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii05_s3_16_2ii05i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5343,15 +4838,14 @@ def test_s3_16_2ii05_s3_16_2ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii04_s3_16_2ii04i(save_xml):
     """
     Types derived by restriction from a union type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5359,15 +4853,14 @@ def test_s3_16_2ii04_s3_16_2ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii03_s3_16_2ii03i(save_xml):
     """
     tests restriction facet in intervening union
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5375,15 +4868,14 @@ def test_s3_16_2ii03_s3_16_2ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii02_s3_16_2ii02i(save_xml):
     """
     tests restriction facet in intervening union
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5391,15 +4883,14 @@ def test_s3_16_2ii02_s3_16_2ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii01_s3_16_2ii01i(save_xml):
     """
     tests restriction facet in intervening union
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_16_2/s3_16_2ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5413,9 +4904,7 @@ def test_s3_16_2v07_s3_16_2v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5429,9 +4918,7 @@ def test_s3_16_2v06_s3_16_2v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5445,9 +4932,7 @@ def test_s3_16_2v05_s3_16_2v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5461,9 +4946,7 @@ def test_s3_16_2v04_s3_16_2v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5477,9 +4960,7 @@ def test_s3_16_2v03_s3_16_2v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5493,9 +4974,7 @@ def test_s3_16_2v02_s3_16_2v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5509,9 +4988,7 @@ def test_s3_16_2v01_s3_16_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_16_2/s3_16_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_16_2/s3_16_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5519,15 +4996,14 @@ def test_s3_16_2v01_s3_16_2v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d2_4_1_2ii01_d2_4_1_2ii01i(save_xml):
     """
     test Units of length for list datatype
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D2_4_1_2/d2_4_1_2ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D2_4_1_2/d2_4_1_2ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5535,15 +5011,14 @@ def test_d2_4_1_2ii01_d2_4_1_2ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_17ii01_d3_3_17ii01i(save_xml):
     """
     test base64Binary datatype
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_3_17/d3_3_17ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_3_17/d3_3_17ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5557,9 +5032,7 @@ def test_d3_3_17v01_d3_3_17v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_17/d3_3_17v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_17/d3_3_17v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5567,15 +5040,14 @@ def test_d3_3_17v01_d3_3_17v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_16ii02_d3_3_16ii02i(save_xml):
     """
     test Units of length for hexBinary datatype
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_3_16/d3_3_16ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_3_16/d3_3_16ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5583,15 +5055,14 @@ def test_d3_3_16ii02_d3_3_16ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_16ii01_d3_3_16ii01i(save_xml):
     """
     test hexBinary datatype
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_3_16/d3_3_16ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_3_16/d3_3_16ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5605,9 +5076,7 @@ def test_d3_3_16v01_d3_3_16v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_16/d3_3_16v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_3_16/d3_3_16v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5615,15 +5084,14 @@ def test_d3_3_16v01_d3_3_16v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_24ii01_d3_4_24ii01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedByte.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5631,15 +5099,14 @@ def test_d3_4_24ii01_d3_4_24ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_23ii01_d3_4_23ii01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedShort.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5647,15 +5114,14 @@ def test_d3_4_23ii01_d3_4_23ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_22ii01_d3_4_22ii01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedInt.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5663,15 +5129,14 @@ def test_d3_4_22ii01_d3_4_22ii01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_21ii01_d3_4_21ii01i(save_xml):
     """
     test unsignedLong invalid instance
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5685,9 +5150,7 @@ def test_d3_4_24v01_d3_4_24v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_24/d3_4_24v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_24/d3_4_24v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5701,9 +5164,7 @@ def test_d3_4_23v01_d3_4_23v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_23/d3_4_23v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_23/d3_4_23v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5717,9 +5178,7 @@ def test_d3_4_22v01_d3_4_22v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_22/d3_4_22v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_22/d3_4_22v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5733,9 +5192,7 @@ def test_d3_4_21v01_d3_4_21v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_21/d3_4_21v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_21/d3_4_21v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5748,9 +5205,7 @@ def test_vc_009_vc_009_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test6.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test6.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5763,9 +5218,7 @@ def test_vc_008_vc_008_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test5_1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test5.xml",
-        instance_is_valid=True,
         class_name="Example",
         version="1.1",
         save_xml=save_xml,
@@ -5773,13 +5226,12 @@ def test_vc_008_vc_008_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_vc_007_vc_007_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test4_1.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5792,9 +5244,7 @@ def test_vc_007_vc_007_3(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test4.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test4_2.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5802,13 +5252,12 @@ def test_vc_007_vc_007_3(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_vc_005_vc_005_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test3.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test3.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5816,13 +5265,12 @@ def test_vc_005_vc_005_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_vc_003_vc_003_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test2.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test2.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5834,9 +5282,7 @@ def test_vc_001_vc_001_2(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test1_1.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5844,13 +5290,12 @@ def test_vc_001_vc_001_2(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_vc_001_vc_001_3(save_xml):
 
     assert_bindings(
         schema="ibmData/mixed/VC/test1.xsd",
-        is_valid=True,
         instance="ibmData/mixed/VC/test1_2.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5858,6 +5303,7 @@ def test_vc_001_vc_001_3(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5866,9 +5312,7 @@ def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5876,6 +5320,7 @@ def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5883,9 +5328,7 @@ def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5893,15 +5336,14 @@ def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
     """
     Tests namespace attribute in wildcard
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5909,6 +5351,7 @@ def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
     """
     invalid element in instance document as it matches the namespace in
@@ -5916,9 +5359,7 @@ def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5926,6 +5367,7 @@ def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5933,9 +5375,7 @@ def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5943,6 +5383,7 @@ def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5950,9 +5391,7 @@ def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5960,6 +5399,7 @@ def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5967,9 +5407,7 @@ def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5977,6 +5415,7 @@ def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
     """
     invalid element in instance document as it does not match ns of
@@ -5984,9 +5423,7 @@ def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6000,9 +5437,7 @@ def test_s3_10_1v07_s3_10_1v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6018,9 +5453,7 @@ def test_s3_10_1v06_s3_10_1v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6035,9 +5468,7 @@ def test_s3_10_1v05_s3_10_1v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6052,9 +5483,7 @@ def test_s3_10_1v04_s3_10_1v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6068,9 +5497,7 @@ def test_s3_10_1v03_s3_10_1v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6084,9 +5511,7 @@ def test_s3_10_1v02_s3_10_1v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6100,9 +5525,7 @@ def test_s3_10_1v01_s3_10_1v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_10_1/s3_10_1v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_10_1/s3_10_1v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6110,15 +5533,14 @@ def test_s3_10_1v01_s3_10_1v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
     r"""
     invalid instance for effect of \c in regular expressions
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6126,15 +5548,14 @@ def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
     r"""
     invalid instance for effect of \i in regular expressions
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6142,15 +5563,14 @@ def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
     """
     invalid instance for value space of xs:NCName
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6158,15 +5578,14 @@ def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii01_d3_4_6ii01i(save_xml):
     """
     invalid instance for value space of xs:Name
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6181,9 +5600,7 @@ def test_d3_4_6v07_d3_4_6v07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v07.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v07.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6198,9 +5615,7 @@ def test_d3_4_6v06_d3_4_6v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6215,9 +5630,7 @@ def test_d3_4_6v05_d3_4_6v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6231,9 +5644,7 @@ def test_d3_4_6v04_d3_4_6v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6247,9 +5658,7 @@ def test_d3_4_6v03_d3_4_6v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6263,9 +5672,7 @@ def test_d3_4_6v02_d3_4_6v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6279,9 +5686,7 @@ def test_d3_4_6v01_d3_4_6v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_6/d3_4_6v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_6/d3_4_6v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6289,15 +5694,14 @@ def test_d3_4_6v01_d3_4_6v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii07_s3_11_2ii07i(save_xml):
     """
     invalid instance key/keyref selection expressions_2
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6305,15 +5709,14 @@ def test_s3_11_2ii07_s3_11_2ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii06_s3_11_2ii06i(save_xml):
     """
     invalid instance key/keyref selection expressions_1
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6321,15 +5724,14 @@ def test_s3_11_2ii06_s3_11_2ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii05_s3_11_2ii05i(save_xml):
     """
     invalid instance key selection expressions_2
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6337,15 +5739,14 @@ def test_s3_11_2ii05_s3_11_2ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii04_s3_11_2ii04i(save_xml):
     """
     invalid instance key selection expressions_1
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6353,15 +5754,14 @@ def test_s3_11_2ii04_s3_11_2ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii03_s3_11_2ii03i(save_xml):
     """
     invalid instance unique selection expressions_3
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6369,15 +5769,14 @@ def test_s3_11_2ii03_s3_11_2ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii02_s3_11_2ii02i(save_xml):
     """
     invalid instance unique selection expressions_2
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6385,15 +5784,14 @@ def test_s3_11_2ii02_s3_11_2ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii01_s3_11_2ii01i(save_xml):
     """
     invalid instance unique selection expressions_1
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/S3_11_2/s3_11_2ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6407,9 +5805,7 @@ def test_s3_11_2v06_s3_11_2v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6423,9 +5819,7 @@ def test_s3_11_2v05_s3_11_2v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6439,9 +5833,7 @@ def test_s3_11_2v04_s3_11_2v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6455,9 +5847,7 @@ def test_s3_11_2v03_s3_11_2v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6471,9 +5861,7 @@ def test_s3_11_2v02_s3_11_2v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6487,9 +5875,7 @@ def test_s3_11_2v01_s3_11_2v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/S3_11_2/s3_11_2v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/S3_11_2/s3_11_2v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6497,6 +5883,7 @@ def test_s3_11_2v01_s3_11_2v01i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii07_d3_4_26ii07i(save_xml):
     """
     Tests the simpleType yearMonthDuration and its facets with (min|max)
@@ -6504,9 +5891,7 @@ def test_d3_4_26ii07_d3_4_26ii07i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6514,15 +5899,14 @@ def test_d3_4_26ii07_d3_4_26ii07i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii06_d3_4_26ii06i(save_xml):
     """
     Tests yearMonthDuration used in unions
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6530,6 +5914,7 @@ def test_d3_4_26ii06_d3_4_26ii06i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii05_d3_4_26ii05i(save_xml):
     """
     Invalid values of yearMonthDuration and invalid instance of its facets
@@ -6537,9 +5922,7 @@ def test_d3_4_26ii05_d3_4_26ii05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6547,15 +5930,14 @@ def test_d3_4_26ii05_d3_4_26ii05i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii04_d3_4_26ii04i(save_xml):
     """
     Invalid yearMonthDuration Min/Max Exclusive
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6563,15 +5945,14 @@ def test_d3_4_26ii04_d3_4_26ii04i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii03_d3_4_26ii03i(save_xml):
     """
     Invalid yearMonthDuration Min/Max Inclusive
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6579,15 +5960,14 @@ def test_d3_4_26ii03_d3_4_26ii03i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii02_d3_4_26ii02i(save_xml):
     """
     Invalid yearMonthDuration enumeration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6595,15 +5975,14 @@ def test_d3_4_26ii02_d3_4_26ii02i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii01_d3_4_26ii01i(save_xml):
     """
     Invalid yearMonthDuration values
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd",
-        is_valid=True,
         instance="ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6617,9 +5996,7 @@ def test_d3_4_26v06_d3_4_26v06i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v06.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v06.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6634,9 +6011,7 @@ def test_d3_4_26v05_d3_4_26v05i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v05.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v05.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6651,9 +6026,7 @@ def test_d3_4_26v04_d3_4_26v04i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v04.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v04.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6667,9 +6040,7 @@ def test_d3_4_26v03_d3_4_26v03i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v03.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v03.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6683,9 +6054,7 @@ def test_d3_4_26v02_d3_4_26v02i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v02.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v02.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6700,9 +6069,7 @@ def test_d3_4_26v01_d3_4_26v01i(save_xml):
     """
     assert_bindings(
         schema="ibmData/valid/D3_4_26/d3_4_26v01.xsd",
-        is_valid=True,
         instance="ibmData/valid/D3_4_26/d3_4_26v01.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,

@@ -11,9 +11,7 @@ def test_member_type024_member_type024_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType024.xsd",
-        is_valid=True,
         instance="msData/additional/memberType024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -28,9 +26,7 @@ def test_member_type023_member_type023_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType023.xsd",
-        is_valid=True,
         instance="msData/additional/memberType023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -45,9 +41,7 @@ def test_member_type022_member_type022_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType022.xsd",
-        is_valid=True,
         instance="msData/additional/memberType022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -62,9 +56,7 @@ def test_member_type021_member_type021_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType021.xsd",
-        is_valid=True,
         instance="msData/additional/memberType021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -79,9 +71,7 @@ def test_member_type008_member_type008_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType003.xsd",
-        is_valid=True,
         instance="msData/additional/memberType008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -96,9 +86,7 @@ def test_member_type007_member_type007_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType001.xsd",
-        is_valid=True,
         instance="msData/additional/memberType007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -113,9 +101,7 @@ def test_member_type006_member_type006_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType001.xsd",
-        is_valid=True,
         instance="msData/additional/memberType006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -130,9 +116,7 @@ def test_member_type005_member_type005_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType004.xsd",
-        is_valid=True,
         instance="msData/additional/memberType005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -147,9 +131,7 @@ def test_member_type004_member_type004_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType003.xsd",
-        is_valid=True,
         instance="msData/additional/memberType004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -163,9 +145,7 @@ def test_member_type003_member_type003_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType002.xsd",
-        is_valid=True,
         instance="msData/additional/memberType003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -179,9 +159,7 @@ def test_member_type002_member_type002_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType001.xsd",
-        is_valid=True,
         instance="msData/additional/memberType002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -195,9 +173,7 @@ def test_member_type001_member_type001_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/memberType001.xsd",
-        is_valid=True,
         instance="msData/additional/memberType001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -211,9 +187,7 @@ def test_is_default079_is_default079_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault079.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault079.xml",
-        instance_is_valid=True,
         class_name="Regvaluemodopset",
         version="1.1",
         save_xml=save_xml,
@@ -228,9 +202,7 @@ def test_is_default078_is_default078_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault078.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault078.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -238,6 +210,7 @@ def test_is_default078_is_default078_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default077_is_default077_i(save_xml):
     """
     TEST :Adhoc XSD: : fixed value on mixed content with invalid value in
@@ -245,9 +218,7 @@ def test_is_default077_is_default077_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault076.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault076.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -261,9 +232,7 @@ def test_is_default076_is_default076_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault076.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault075.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -277,9 +246,7 @@ def test_is_default075_is_default075_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault075.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault075.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -294,9 +261,7 @@ def test_is_default074_is_default074_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault074.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault074.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -311,9 +276,7 @@ def test_is_default073_is_default073_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault073.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault073.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -328,9 +291,7 @@ def test_is_default072_is_default072_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault072.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault072.xml",
-        instance_is_valid=True,
         class_name="Array",
         version="1.1",
         save_xml=save_xml,
@@ -345,9 +306,7 @@ def test_is_default071_is_default071_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault070.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault071.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -355,6 +314,7 @@ def test_is_default071_is_default071_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default070_is_default070_i(save_xml):
     """
     TEST :Adhoc XSD: : element of type xs:anyType with value not matching
@@ -362,9 +322,7 @@ def test_is_default070_is_default070_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault070.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault070.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -379,9 +337,7 @@ def test_is_default060_1_is_default060_1_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test95960_1.xsd",
-        is_valid=True,
         instance="msData/additional/test95960_1.xml",
-        instance_is_valid=True,
         class_name="Employees",
         version="1.1",
         save_xml=save_xml,
@@ -396,9 +352,7 @@ def test_is_default068_is_default068_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault062.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault068.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -413,9 +367,7 @@ def test_is_default067_is_default067_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault062.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault067.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -430,9 +382,7 @@ def test_is_default066_is_default066_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault066.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -447,9 +397,7 @@ def test_is_default065_is_default065_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault065.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -457,6 +405,7 @@ def test_is_default065_is_default065_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default064_is_default064_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -464,9 +413,7 @@ def test_is_default064_is_default064_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault064.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -474,6 +421,7 @@ def test_is_default064_is_default064_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default063_is_default063_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -481,9 +429,7 @@ def test_is_default063_is_default063_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault063.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -491,6 +437,7 @@ def test_is_default063_is_default063_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default062_is_default062_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -498,9 +445,7 @@ def test_is_default062_is_default062_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault062.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -515,9 +460,7 @@ def test_is_default061_is_default061_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault061.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault061.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -532,9 +475,7 @@ def test_is_default058_is_default058_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault052.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault058.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -549,9 +490,7 @@ def test_is_default057_is_default057_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault052.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault057.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -566,9 +505,7 @@ def test_is_default056_is_default056_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault056.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -583,9 +520,7 @@ def test_is_default055_is_default055_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault055.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -593,6 +528,7 @@ def test_is_default055_is_default055_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default054_is_default054_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -600,9 +536,7 @@ def test_is_default054_is_default054_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault054.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -610,6 +544,7 @@ def test_is_default054_is_default054_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default053_is_default053_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -617,9 +552,7 @@ def test_is_default053_is_default053_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault053.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -627,6 +560,7 @@ def test_is_default053_is_default053_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default052_is_default052_i(save_xml):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -634,9 +568,7 @@ def test_is_default052_is_default052_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault052.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -651,9 +583,7 @@ def test_is_default051_is_default051_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault051.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -668,9 +598,7 @@ def test_is_default028_is_default028_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault004.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -685,9 +613,7 @@ def test_is_default027_is_default027_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault004.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -702,9 +628,7 @@ def test_is_default026_is_default026_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault004.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -719,9 +643,7 @@ def test_is_default025_is_default025_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault004.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -736,9 +658,7 @@ def test_is_default024_is_default024_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault003.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -753,9 +673,7 @@ def test_is_default023_is_default023_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault003.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -770,9 +688,7 @@ def test_is_default022_is_default022_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault003.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -787,9 +703,7 @@ def test_is_default021_is_default021_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault003.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -797,6 +711,7 @@ def test_is_default021_is_default021_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default011_is_default011_i(save_xml):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -804,9 +719,7 @@ def test_is_default011_is_default011_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -814,6 +727,7 @@ def test_is_default011_is_default011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default010_is_default010_i(save_xml):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -821,9 +735,7 @@ def test_is_default010_is_default010_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -831,6 +743,7 @@ def test_is_default010_is_default010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default009_is_default009_i(save_xml):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -838,9 +751,7 @@ def test_is_default009_is_default009_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -848,6 +759,7 @@ def test_is_default009_is_default009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default008_is_default008_i(save_xml):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -855,9 +767,7 @@ def test_is_default008_is_default008_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -872,9 +782,7 @@ def test_is_default007_is_default007_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -889,9 +797,7 @@ def test_is_default006_is_default006_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -906,9 +812,7 @@ def test_is_default005_is_default005_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -916,6 +820,7 @@ def test_is_default005_is_default005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_is_default004_is_default004_i(save_xml):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) for Element with invalid
@@ -923,9 +828,7 @@ def test_is_default004_is_default004_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault001.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -940,9 +843,7 @@ def test_is_default003_is_default003_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault001.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -957,9 +858,7 @@ def test_is_default002_is_default002_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault001.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -974,9 +873,7 @@ def test_is_default001_is_default001_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/isdefault001.xsd",
-        is_valid=True,
         instance="msData/additional/isdefault001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -991,9 +888,7 @@ def test_add_d004a_add_d004a_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/ipo.xsd",
-        is_valid=True,
         instance="msData/additional/ipo.xml",
-        instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.1",
         save_xml=save_xml,
@@ -1008,9 +903,7 @@ def test_add_d004_add_d004_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/ipo_s1.xsd",
-        is_valid=True,
         instance="msData/additional/ipo_s1.xml",
-        instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.1",
         save_xml=save_xml,
@@ -1025,9 +918,7 @@ def test_add_d002_add_d002_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/po.xsd",
-        is_valid=True,
         instance="msData/additional/po.xml",
-        instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.1",
         save_xml=save_xml,
@@ -1042,9 +933,7 @@ def test_add_d001_add_d001_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/po1.xsd",
-        is_valid=True,
         instance="msData/additional/po1.xml",
-        instance_is_valid=True,
         class_name="PurchaseOrder",
         version="1.1",
         save_xml=save_xml,
@@ -1052,6 +941,7 @@ def test_add_d001_add_d001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b202b_add_b202b_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing
@@ -1059,9 +949,7 @@ def test_add_b202b_add_b202b_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/datetime.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -1069,6 +957,7 @@ def test_add_b202b_add_b202b_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b202a_add_b202a_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing
@@ -1076,9 +965,7 @@ def test_add_b202a_add_b202a_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/hexbin.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -1086,15 +973,14 @@ def test_add_b202a_add_b202a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b201_add_b201_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test namespace decl
     """
     assert_bindings(
         schema="msData/additional/ns.xsd",
-        is_valid=True,
         instance="msData/additional/ns.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1102,6 +988,7 @@ def test_add_b201_add_b201_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b200c_add_b200c_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test identity
@@ -1109,9 +996,7 @@ def test_add_b200c_add_b200c_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/idc.xsd",
-        is_valid=True,
         instance="msData/additional/idc3.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1119,6 +1004,7 @@ def test_add_b200c_add_b200c_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b200b_add_b200b_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test identity
@@ -1126,9 +1012,7 @@ def test_add_b200b_add_b200b_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/idc.xsd",
-        is_valid=True,
         instance="msData/additional/idc2.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1136,6 +1020,7 @@ def test_add_b200b_add_b200b_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b200a_add_b200a_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test identity
@@ -1143,9 +1028,7 @@ def test_add_b200a_add_b200a_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/idc.xsd",
-        is_valid=True,
         instance="msData/additional/idc1.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1153,15 +1036,14 @@ def test_add_b200a_add_b200a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b199_add_b199_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with xsi type
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/xsiType.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -1176,9 +1058,7 @@ def test_add_b198d_add_b198d_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/minLength.xsd",
-        is_valid=True,
         instance="msData/additional/minLength2.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1193,9 +1073,7 @@ def test_add_b198c_add_b198c_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/minLength.xsd",
-        is_valid=True,
         instance="msData/additional/minLength1.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1203,6 +1081,7 @@ def test_add_b198c_add_b198c_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b198b_add_b198b_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with maxLength
@@ -1210,9 +1089,7 @@ def test_add_b198b_add_b198b_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/maxLength.xsd",
-        is_valid=True,
         instance="msData/additional/maxLength2.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1220,6 +1097,7 @@ def test_add_b198b_add_b198b_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b198a_add_b198a_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with maxLength
@@ -1227,9 +1105,7 @@ def test_add_b198a_add_b198a_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/maxLength.xsd",
-        is_valid=True,
         instance="msData/additional/maxLength1.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1237,6 +1113,7 @@ def test_add_b198a_add_b198a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b197f_add_b197f_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
@@ -1244,9 +1121,7 @@ def test_add_b197f_add_b197f_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum2.xsd",
-        is_valid=True,
         instance="msData/additional/enum1c.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1254,6 +1129,7 @@ def test_add_b197f_add_b197f_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b197e_add_b197e_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
@@ -1261,9 +1137,7 @@ def test_add_b197e_add_b197e_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum2.xsd",
-        is_valid=True,
         instance="msData/additional/enum1a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1271,6 +1145,7 @@ def test_add_b197e_add_b197e_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b197d_add_b197d_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
@@ -1278,9 +1153,7 @@ def test_add_b197d_add_b197d_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum1.xsd",
-        is_valid=True,
         instance="msData/additional/enum1d.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1295,9 +1168,7 @@ def test_add_b197c_add_b197c_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum1.xsd",
-        is_valid=True,
         instance="msData/additional/enum1c.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1305,6 +1176,7 @@ def test_add_b197c_add_b197c_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b197b_add_b197b_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
@@ -1312,9 +1184,7 @@ def test_add_b197b_add_b197b_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum1.xsd",
-        is_valid=True,
         instance="msData/additional/enum1b.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1329,9 +1199,7 @@ def test_add_b197a_add_b197a_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/enum1.xsd",
-        is_valid=True,
         instance="msData/additional/enum1a.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1339,6 +1207,7 @@ def test_add_b197a_add_b197a_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196l_add_b196l_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1346,9 +1215,7 @@ def test_add_b196l_add_b196l_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed3b.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1356,6 +1223,7 @@ def test_add_b196l_add_b196l_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196k_add_b196k_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1363,9 +1231,7 @@ def test_add_b196k_add_b196k_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed3a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1373,6 +1239,7 @@ def test_add_b196k_add_b196k_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196j_add_b196j_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1380,9 +1247,7 @@ def test_add_b196j_add_b196j_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed2b.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1390,6 +1255,7 @@ def test_add_b196j_add_b196j_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196i_add_b196i_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1397,9 +1263,7 @@ def test_add_b196i_add_b196i_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed2a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1414,9 +1278,7 @@ def test_add_b196h_add_b196h_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1d.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1424,6 +1286,7 @@ def test_add_b196h_add_b196h_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196g_add_b196g_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1431,9 +1294,7 @@ def test_add_b196g_add_b196g_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1c.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1448,9 +1309,7 @@ def test_add_b196f_add_b196f_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1b.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1458,6 +1317,7 @@ def test_add_b196f_add_b196f_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196e_add_b196e_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1465,9 +1325,7 @@ def test_add_b196e_add_b196e_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1475,6 +1333,7 @@ def test_add_b196e_add_b196e_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196d_add_b196d_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1482,9 +1341,7 @@ def test_add_b196d_add_b196d_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed1.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1d.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1499,9 +1356,7 @@ def test_add_b196c_add_b196c_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed1.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1c.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1509,6 +1364,7 @@ def test_add_b196c_add_b196c_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b196b_add_b196b_i(save_xml):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1516,9 +1372,7 @@ def test_add_b196b_add_b196b_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed1.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1b.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1533,9 +1387,7 @@ def test_add_b196a_add_b196a_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/fixed1.xsd",
-        is_valid=True,
         instance="msData/additional/fixed1a.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1543,6 +1395,7 @@ def test_add_b196a_add_b196a_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b191_add_b191_v(save_xml):
     """
     TEST :Adhoc XSD: : XSD: During validation of an element schemas in
@@ -1552,9 +1405,7 @@ def test_add_b191_add_b191_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/addB191.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1562,6 +1413,7 @@ def test_add_b191_add_b191_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b188_add_b188_i(save_xml):
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for
@@ -1569,9 +1421,7 @@ def test_add_b188_add_b188_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test264908_1.xsd",
-        is_valid=True,
         instance="msData/additional/test264908_1i.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1587,9 +1437,7 @@ def test_add_b187_add_b187_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test264908_1.xsd",
-        is_valid=True,
         instance="msData/additional/test264908_1.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1604,9 +1452,7 @@ def test_add_b182_add_b182_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test111871.xsd",
-        is_valid=True,
         instance="msData/additional/test111871.xml",
-        instance_is_valid=True,
         class_name="Title",
         version="1.1",
         save_xml=save_xml,
@@ -1614,15 +1460,14 @@ def test_add_b182_add_b182_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b181_add_b181_i(save_xml):
     """
     TEST :Adhoc XSD: : id="validating an invalid xsd type"
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test109017.xml",
-        instance_is_valid=False,
         class_name="Assembly",
         version="1.1",
         save_xml=save_xml,
@@ -1636,9 +1481,7 @@ def test_add_b176_add_b176_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102850_1.xsd",
-        is_valid=True,
         instance="msData/additional/test102850_1.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1646,6 +1489,7 @@ def test_add_b176_add_b176_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b175_add_b175_i(save_xml):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1653,9 +1497,7 @@ def test_add_b175_add_b175_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_6.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -1670,9 +1512,7 @@ def test_add_b174_add_b174_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_5.xml",
-        instance_is_valid=True,
         class_name="Bar",
         version="1.1",
         save_xml=save_xml,
@@ -1680,6 +1520,7 @@ def test_add_b174_add_b174_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b173_add_b173_i(save_xml):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1687,9 +1528,7 @@ def test_add_b173_add_b173_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_4.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -1697,6 +1536,7 @@ def test_add_b173_add_b173_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b172_add_b172_i(save_xml):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1704,9 +1544,7 @@ def test_add_b172_add_b172_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_3.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1714,6 +1552,7 @@ def test_add_b172_add_b172_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b171_add_b171_i(save_xml):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1721,9 +1560,7 @@ def test_add_b171_add_b171_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_2.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1731,6 +1568,7 @@ def test_add_b171_add_b171_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b170_add_b170_i(save_xml):
     """
     TEST :Adhoc XSD: : id="102433" description="Validation of xml
@@ -1738,9 +1576,7 @@ def test_add_b170_add_b170_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test102433.xsd",
-        is_valid=True,
         instance="msData/additional/test102433_1.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1755,9 +1591,7 @@ def test_add_b169_1_add_b169_1_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test93490_16.xsd",
-        is_valid=True,
         instance="msData/additional/test93490_16.xml",
-        instance_is_valid=True,
         class_name="MapInfo",
         version="1.1",
         save_xml=save_xml,
@@ -1765,6 +1599,7 @@ def test_add_b169_1_add_b169_1_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b169_add_b169_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1772,9 +1607,7 @@ def test_add_b169_add_b169_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_15.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1782,6 +1615,7 @@ def test_add_b169_add_b169_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b168_add_b168_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1789,9 +1623,7 @@ def test_add_b168_add_b168_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_14.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1799,6 +1631,7 @@ def test_add_b168_add_b168_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b167_add_b167_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1807,9 +1640,7 @@ def test_add_b167_add_b167_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_13.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1817,6 +1648,7 @@ def test_add_b167_add_b167_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b166_add_b166_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1824,9 +1656,7 @@ def test_add_b166_add_b166_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_12.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1834,6 +1664,7 @@ def test_add_b166_add_b166_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b165_add_b165_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1841,9 +1672,7 @@ def test_add_b165_add_b165_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_11.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1851,6 +1680,7 @@ def test_add_b165_add_b165_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b164_add_b164_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1858,9 +1688,7 @@ def test_add_b164_add_b164_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_10.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1868,6 +1696,7 @@ def test_add_b164_add_b164_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b163_add_b163_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1875,9 +1704,7 @@ def test_add_b163_add_b163_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_9.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1885,6 +1712,7 @@ def test_add_b163_add_b163_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b162_add_b162_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1892,9 +1720,7 @@ def test_add_b162_add_b162_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_8.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1902,6 +1728,7 @@ def test_add_b162_add_b162_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b161_add_b161_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1909,9 +1736,7 @@ def test_add_b161_add_b161_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_7.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1919,6 +1744,7 @@ def test_add_b161_add_b161_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b160_add_b160_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1926,9 +1752,7 @@ def test_add_b160_add_b160_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_6.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1936,6 +1760,7 @@ def test_add_b160_add_b160_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b159_add_b159_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1943,9 +1768,7 @@ def test_add_b159_add_b159_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_5.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1953,6 +1776,7 @@ def test_add_b159_add_b159_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b158_add_b158_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1961,9 +1785,7 @@ def test_add_b158_add_b158_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_4.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1971,6 +1793,7 @@ def test_add_b158_add_b158_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b157_add_b157_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1978,9 +1801,7 @@ def test_add_b157_add_b157_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_3.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1988,6 +1809,7 @@ def test_add_b157_add_b157_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b156_add_b156_i(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -1996,9 +1818,7 @@ def test_add_b156_add_b156_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_2.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2006,6 +1826,7 @@ def test_add_b156_add_b156_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b155_add_b155_v(save_xml):
     """
     TEST :Adhoc XSD: : id="93490" description="test schema location or
@@ -2013,9 +1834,7 @@ def test_add_b155_add_b155_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test93490_1.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2023,6 +1842,7 @@ def test_add_b155_add_b155_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b149_add_b149_i(save_xml):
     """
     TEST :Adhoc XSD: : id="97822" description="complexContent element with
@@ -2031,9 +1851,7 @@ def test_add_b149_add_b149_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test97822.xsd",
-        is_valid=True,
         instance="msData/additional/test97822.xml",
-        instance_is_valid=False,
         class_name="Root1",
         version="1.1",
         save_xml=save_xml,
@@ -2049,9 +1867,7 @@ def test_add_b148_add_b148_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test93276.xsd",
-        is_valid=True,
         instance="msData/additional/test93276.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2059,6 +1875,7 @@ def test_add_b148_add_b148_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_test93160_test93160_i(save_xml):
     """
     TEST :Adhoc XSD: : Whitespace is collapsed for element with type
@@ -2066,9 +1883,7 @@ def test_test93160_test93160_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test93160.xsd",
-        is_valid=True,
         instance="msData/additional/test93160.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2085,9 +1900,7 @@ def test_add_b145_add_b145_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test87395.xsd",
-        is_valid=True,
         instance="msData/additional/test87395.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2095,6 +1908,7 @@ def test_add_b145_add_b145_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b143_add_b143_i(save_xml):
     """
     TEST :Adhoc XSD: : id="83452" description="Invalid lexical hexBinary
@@ -2103,9 +1917,7 @@ def test_add_b143_add_b143_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test83452.xsd",
-        is_valid=True,
         instance="msData/additional/test83452.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -2113,6 +1925,7 @@ def test_add_b143_add_b143_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b142_add_b142_i(save_xml):
     """
     TEST :Adhoc XSD: : id="84613" description="validation xml with inline
@@ -2120,9 +1933,7 @@ def test_add_b142_add_b142_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test84613.xml",
-        instance_is_valid=False,
         class_name="Envelope",
         version="1.1",
         save_xml=save_xml,
@@ -2137,9 +1948,7 @@ def test_add_b140_add_b140_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test78000a.xsd",
-        is_valid=True,
         instance="msData/additional/test78000.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2147,6 +1956,7 @@ def test_add_b140_add_b140_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b139_add_b139_i(save_xml):
     """
     TEST :Adhoc XSD: : id="84002" description="validating an XSD with
@@ -2154,9 +1964,7 @@ def test_add_b139_add_b139_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test84002_b.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -2164,6 +1972,7 @@ def test_add_b139_add_b139_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b138_add_b138_i(save_xml):
     """
     TEST :Adhoc XSD: : id="84002" description="validating an XSD with
@@ -2171,9 +1980,7 @@ def test_add_b138_add_b138_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test84002_a.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -2188,9 +1995,7 @@ def test_add_b136_add_b136_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test84188.xsd",
-        is_valid=True,
         instance="msData/additional/test84188.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2205,9 +2010,7 @@ def test_add_b135_add_b135_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test81662.xsd",
-        is_valid=True,
         instance="msData/additional/test81662.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -2215,6 +2018,7 @@ def test_add_b135_add_b135_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b134_add_b134_v(save_xml):
     """
     TEST :Adhoc XSD: : id="72131" description="XSD: test xml includes xsd
@@ -2222,9 +2026,7 @@ def test_add_b134_add_b134_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test72131.xml",
-        instance_is_valid=True,
         class_name="OrdersByCustomer",
         version="1.1",
         save_xml=save_xml,
@@ -2239,9 +2041,7 @@ def test_add_b132_add_b132_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test66745_a.xsd",
-        is_valid=True,
         instance="msData/additional/test66745.xml",
-        instance_is_valid=True,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -2256,9 +2056,7 @@ def test_add_b131_add_b131_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test76423.xsd",
-        is_valid=True,
         instance="msData/additional/test76423.xml",
-        instance_is_valid=True,
         class_name="Jsml",
         version="1.1",
         save_xml=save_xml,
@@ -2273,9 +2071,7 @@ def test_add_b130_add_b130_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test78126.xsd",
-        is_valid=True,
         instance="msData/additional/test78126.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2290,9 +2086,7 @@ def test_add_b129_add_b129_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test74834.xsd",
-        is_valid=True,
         instance="msData/additional/test74834.xml",
-        instance_is_valid=True,
         class_name="Datafile",
         version="1.1",
         save_xml=save_xml,
@@ -2307,9 +2101,7 @@ def test_add_b125_add_b125_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test78898.xsd",
-        is_valid=True,
         instance="msData/additional/test78898.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2317,6 +2109,7 @@ def test_add_b125_add_b125_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b124_add_b124_i(save_xml):
     """
     TEST :Adhoc XSD: : id="79253" description="XSD: validating an XML with
@@ -2324,9 +2117,7 @@ def test_add_b124_add_b124_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test79253.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2334,6 +2125,7 @@ def test_add_b124_add_b124_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b123_add_b123_i(save_xml):
     """
     TEST :Adhoc XSD: : id="79416" description="xsd: test violation of
@@ -2341,9 +2133,7 @@ def test_add_b123_add_b123_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test79416.xsd",
-        is_valid=True,
         instance="msData/additional/test79416.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -2358,9 +2148,7 @@ def test_add_b122_add_b122_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB122.xsd",
-        is_valid=True,
         instance="msData/additional/addB122.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2368,6 +2156,7 @@ def test_add_b122_add_b122_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b120_add_b120_i(save_xml):
     """
     TEST :Adhoc XSD: : id="73456" description="xsd: test validating an XML
@@ -2375,9 +2164,7 @@ def test_add_b120_add_b120_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test73456.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -2393,9 +2180,7 @@ def test_add_b116_add_b116_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test75092.xsd",
-        is_valid=True,
         instance="msData/additional/test75092.xml",
-        instance_is_valid=True,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -2403,6 +2188,7 @@ def test_add_b116_add_b116_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b115_add_b115_i(save_xml):
     """
     TEST :Adhoc XSD: : id="75564" description="xsd: absolute string in
@@ -2411,9 +2197,7 @@ def test_add_b115_add_b115_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB115.xsd",
-        is_valid=True,
         instance="msData/additional/addB115.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2421,15 +2205,14 @@ def test_add_b115_add_b115_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b114_add_b114_i(save_xml):
     """
     TEST :Adhoc XSD: : id="75808" description="xsd testing"
     """
     assert_bindings(
         schema="msData/additional/addB114.xsd",
-        is_valid=True,
         instance="msData/additional/addB114.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2437,6 +2220,7 @@ def test_add_b114_add_b114_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b109_add_b109_i(save_xml):
     """
     TEST :Adhoc XSD: : check that the local fixed value must be the same
@@ -2444,9 +2228,7 @@ def test_add_b109_add_b109_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB109.xsd",
-        is_valid=True,
         instance="msData/additional/addB109.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2454,15 +2236,14 @@ def test_add_b109_add_b109_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b105_add_b105_i(save_xml):
     """
     TEST :Adhoc XSD: : test element's fixed value is not normalized
     """
     assert_bindings(
         schema="msData/additional/addB105.xsd",
-        is_valid=True,
         instance="msData/additional/addB105.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2477,9 +2258,7 @@ def test_add_b104_add_b104_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB104.xsd",
-        is_valid=True,
         instance="msData/additional/addB104.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2487,6 +2266,7 @@ def test_add_b104_add_b104_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b102_add_b102_i(save_xml):
     """
     TEST :Adhoc XSD: : id="60941" description="xsd: particle validation
@@ -2495,9 +2275,7 @@ def test_add_b102_add_b102_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB102.xsd",
-        is_valid=True,
         instance="msData/additional/addB102.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2505,6 +2283,7 @@ def test_add_b102_add_b102_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b098_add_b098_i(save_xml):
     """
     TEST :Adhoc XSD: : id="61115" description="test when the content is
@@ -2512,9 +2291,7 @@ def test_add_b098_add_b098_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB098.xsd",
-        is_valid=True,
         instance="msData/additional/addB098.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2529,9 +2306,7 @@ def test_add_b096_add_b096_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB096.xsd",
-        is_valid=True,
         instance="msData/additional/addB096.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2539,6 +2314,7 @@ def test_add_b096_add_b096_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b092_add_b092_i(save_xml):
     """
     TEST :Adhoc XSD: : id="62136" description="xsd: in an 'all' group,
@@ -2547,9 +2323,7 @@ def test_add_b092_add_b092_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB092.xsd",
-        is_valid=True,
         instance="msData/additional/addB092.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2565,9 +2339,7 @@ def test_add_b090_add_b090_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB090.xsd",
-        is_valid=True,
         instance="msData/additional/addB090.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2583,9 +2355,7 @@ def test_add_b088_add_b088_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB088.xsd",
-        is_valid=True,
         instance="msData/additional/addB088.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2593,6 +2363,7 @@ def test_add_b088_add_b088_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b087_add_b087_i(save_xml):
     """
     TEST :Adhoc XSD: : id="61692" description="xsd:
@@ -2601,9 +2372,7 @@ def test_add_b087_add_b087_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB087.xsd",
-        is_valid=True,
         instance="msData/additional/addB087.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2619,9 +2388,7 @@ def test_add_b084_add_b084_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB084.xsd",
-        is_valid=True,
         instance="msData/additional/addB084.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2629,6 +2396,7 @@ def test_add_b084_add_b084_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b080_add_b080_i(save_xml):
     """
     TEST :Adhoc XSD: : id="72554" description="XSD: should disallow
@@ -2636,9 +2404,7 @@ def test_add_b080_add_b080_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB080.xsd",
-        is_valid=True,
         instance="msData/additional/addB080.xml",
-        instance_is_valid=False,
         class_name="Orders",
         version="1.1",
         save_xml=save_xml,
@@ -2652,9 +2418,7 @@ def test_add_b076_add_b076_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/addB076.xsd",
-        is_valid=True,
         instance="msData/additional/addB076.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2662,6 +2426,7 @@ def test_add_b076_add_b076_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b075_add_b075_i(save_xml):
     """
     TEST :Adhoc XSD: : id="75564" description="xsd: we do not check for
@@ -2670,9 +2435,7 @@ def test_add_b075_add_b075_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test75564.xsd",
-        is_valid=True,
         instance="msData/additional/test75564.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2680,6 +2443,7 @@ def test_add_b075_add_b075_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b069_add_b069_i(save_xml):
     """
     TEST :Adhoc XSD: : id="63950" description="Validating instance
@@ -2687,9 +2451,7 @@ def test_add_b069_add_b069_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test63950.xsd",
-        is_valid=True,
         instance="msData/additional/test63950.xml",
-        instance_is_valid=False,
         class_name="Zip",
         version="1.1",
         save_xml=save_xml,
@@ -2704,9 +2466,7 @@ def test_add_b068_add_b068_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73986.xsd",
-        is_valid=True,
         instance="msData/additional/test73986_2.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2720,9 +2480,7 @@ def test_add_b067_add_b067_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73986.xsd",
-        is_valid=True,
         instance="msData/additional/test73986.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2730,6 +2488,7 @@ def test_add_b067_add_b067_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b066_add_b066_i(save_xml):
     """
     TEST :Adhoc XSD: : id="73850" description="xsd: test duplicated ID
@@ -2737,9 +2496,7 @@ def test_add_b066_add_b066_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73850.xsd",
-        is_valid=True,
         instance="msData/additional/test73850.xml",
-        instance_is_valid=False,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -2747,6 +2504,7 @@ def test_add_b066_add_b066_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b065_add_b065_i(save_xml):
     """
     TEST :Adhoc XSD: : id="73826" description="xsd: element, when nillable
@@ -2754,9 +2512,7 @@ def test_add_b065_add_b065_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73826.xsd",
-        is_valid=True,
         instance="msData/additional/test73826.xml",
-        instance_is_valid=False,
         class_name="R",
         version="1.1",
         save_xml=save_xml,
@@ -2764,6 +2520,7 @@ def test_add_b065_add_b065_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_b063_add_b063_i(save_xml):
     """
     TEST :Adhoc XSD: : 72702 - test using or validating a not-wellformed
@@ -2771,9 +2528,7 @@ def test_add_b063_add_b063_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/test72702.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2788,9 +2543,7 @@ def test_add_b059_add_b059_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73666.xsd",
-        is_valid=True,
         instance="msData/additional/test73666.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2805,9 +2558,7 @@ def test_add_b058_add_b058_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73665.xsd",
-        is_valid=True,
         instance="msData/additional/test73665.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2815,6 +2566,7 @@ def test_add_b058_add_b058_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b057_add_b057_i(save_xml):
     r"""
     TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression:
@@ -2822,9 +2574,7 @@ def test_add_b057_add_b057_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73715.xsd",
-        is_valid=True,
         instance="msData/additional/test73715i.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2839,9 +2589,7 @@ def test_add_b056_add_b056_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test73715.xsd",
-        is_valid=True,
         instance="msData/additional/test73715v.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -2856,9 +2604,7 @@ def test_add_b054_add_b054_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test70948.xsd",
-        is_valid=True,
         instance="msData/additional/test70948.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2866,6 +2612,7 @@ def test_add_b054_add_b054_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b050_add_b050_i(save_xml):
     """
     TEST :Adhoc XSD: : id="72232" description="xsd: keyref should be able
@@ -2873,9 +2620,7 @@ def test_add_b050_add_b050_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test72232_2.xsd",
-        is_valid=True,
         instance="msData/additional/test72232_2.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2883,6 +2628,7 @@ def test_add_b050_add_b050_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b049_add_b049_v(save_xml):
     """
     TEST :Adhoc XSD: : id="72232" description="xsd: keyref should be able
@@ -2893,9 +2639,7 @@ def test_add_b049_add_b049_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test72232_1.xsd",
-        is_valid=True,
         instance="msData/additional/test72232_1.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2909,9 +2653,7 @@ def test_add_b047_add_b047_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test72597.xsd",
-        is_valid=True,
         instance="msData/additional/test72597.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2927,9 +2669,7 @@ def test_add_b046_add_b046_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test72097.xsd",
-        is_valid=True,
         instance="msData/additional/test72097.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2944,9 +2684,7 @@ def test_add_b040_add_b040_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test72049_a.xsd",
-        is_valid=True,
         instance="msData/additional/test72049.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2954,6 +2692,7 @@ def test_add_b040_add_b040_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b037_add_b037_i(save_xml):
     """
     TEST :Adhoc XSD: : id="70130" description="XSD:text is not allowed
@@ -2961,9 +2700,7 @@ def test_add_b037_add_b037_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test70130.xsd",
-        is_valid=True,
         instance="msData/additional/test70130.xml",
-        instance_is_valid=False,
         class_name="Type",
         version="1.1",
         save_xml=save_xml,
@@ -2979,9 +2716,7 @@ def test_add_b034_add_b034_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test71818.xsd",
-        is_valid=True,
         instance="msData/additional/test71818.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2995,9 +2730,7 @@ def test_add_b31_add_b31_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test69277.xsd",
-        is_valid=True,
         instance="msData/additional/test69277.xml",
-        instance_is_valid=True,
         class_name="Elt1",
         version="1.1",
         save_xml=save_xml,
@@ -3011,9 +2744,7 @@ def test_add_b028_add_b028_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test69846.xsd",
-        is_valid=True,
         instance="msData/additional/test69846.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3028,9 +2759,7 @@ def test_add_b019_add_b019_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test68938.xsd",
-        is_valid=True,
         instance="msData/additional/test68938.xml",
-        instance_is_valid=True,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -3038,6 +2767,7 @@ def test_add_b019_add_b019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b013_add_b013_i(save_xml):
     """
     TEST :Adhoc XSD: : id="67514" title="xsd: when processContents is
@@ -3045,9 +2775,7 @@ def test_add_b013_add_b013_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test67514.xsd",
-        is_valid=True,
         instance="msData/additional/test67514.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3062,9 +2790,7 @@ def test_add_b012_add_b012_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test67500.xsd",
-        is_valid=True,
         instance="msData/additional/test67500.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3072,15 +2798,14 @@ def test_add_b012_add_b012_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b011_add_b011_i(save_xml):
     """
     TEST :Adhoc XSD: : id="66541" title="xsd: Regular Expression"
     """
     assert_bindings(
         schema="msData/additional/test66541.xsd",
-        is_valid=True,
         instance="msData/additional/test66541.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3088,6 +2813,7 @@ def test_add_b011_add_b011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b003_add_b003_i(save_xml):
     """
     TEST :Adhoc XSD: : id="63389" title="loading invalid XML with empty
@@ -3095,9 +2821,7 @@ def test_add_b003_add_b003_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test63389.xsd",
-        is_valid=True,
         instance="msData/additional/test63389.xml",
-        instance_is_valid=False,
         class_name="PurchaseOrder",
         version="1.1",
         save_xml=save_xml,
@@ -3105,6 +2829,7 @@ def test_add_b003_add_b003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_add_b002_add_b002_i(save_xml):
     """
     TEST :Adhoc XSD: : id="63569" title="test restrictions of simple
@@ -3112,9 +2837,7 @@ def test_add_b002_add_b002_i(save_xml):
     """
     assert_bindings(
         schema="msData/additional/test63569.xsd",
-        is_valid=True,
         instance="msData/additional/test63569.xml",
-        instance_is_valid=False,
         class_name="Zip",
         version="1.1",
         save_xml=save_xml,
@@ -3128,9 +2851,7 @@ def test_add_c001_add_c001_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/adhocAddC001.xsd",
-        is_valid=True,
         instance="msData/additional/adhocAddC001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3138,15 +2859,14 @@ def test_add_c001_add_c001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_a008_add_a008_v(save_xml):
     """
     TEST :Adhoc XSD: : uses substitution Element from the importing XSD(2)
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/adhocAddB004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3154,15 +2874,14 @@ def test_add_a008_add_a008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_adda007_adda007_v(save_xml):
     """
     TEST :Adhoc XSD: : uses substitution Element from the importing XSD
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/adhocAddB003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3170,6 +2889,7 @@ def test_adda007_adda007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_add_a006_add_a006_v(save_xml):
     """
     TEST :Adhoc XSD: : xsd: when both the imported and importing XSDs are
@@ -3178,9 +2898,7 @@ def test_add_a006_add_a006_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/additional/adhocAddB002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3195,9 +2913,7 @@ def test_add_a005_add_a005_v(save_xml):
     """
     assert_bindings(
         schema="msData/additional/adhocAddB001.xsd",
-        is_valid=True,
         instance="msData/additional/adhocAddB001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3205,6 +2921,7 @@ def test_add_a005_add_a005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_z001_attg_z001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global
@@ -3213,9 +2930,7 @@ def test_attg_z001_attg_z001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgZ001.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgZ001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3223,6 +2938,7 @@ def test_attg_z001_attg_z001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d042_attg_d042_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
@@ -3231,9 +2947,7 @@ def test_attg_d042_attg_d042_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD042.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD042.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3250,9 +2964,7 @@ def test_attg_d036_attg_d036_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD036.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD036.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3260,6 +2972,7 @@ def test_attg_d036_attg_d036_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d035_attg_d035_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -3269,9 +2982,7 @@ def test_attg_d035_attg_d035_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD035.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD035.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3288,9 +2999,7 @@ def test_attg_d034_attg_d034_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD034.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD034.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3306,9 +3015,7 @@ def test_attg_d033_attg_d033_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD033.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD033.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3324,9 +3031,7 @@ def test_attg_d032_attg_d032_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD032.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD032.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3342,9 +3047,7 @@ def test_attg_d031_attg_d031_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD031.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD031.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3352,6 +3055,7 @@ def test_attg_d031_attg_d031_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d030_attg_d030_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3361,9 +3065,7 @@ def test_attg_d030_attg_d030_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD030.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD030.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3379,9 +3081,7 @@ def test_attg_d029_attg_d029_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD029.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3389,6 +3089,7 @@ def test_attg_d029_attg_d029_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d028_attg_d028_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3397,9 +3098,7 @@ def test_attg_d028_attg_d028_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD028.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD028.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3415,9 +3114,7 @@ def test_attg_d027_attg_d027_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD027.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD027.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3425,6 +3122,7 @@ def test_attg_d027_attg_d027_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d026_attg_d026_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3433,9 +3131,7 @@ def test_attg_d026_attg_d026_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD026.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD026.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3451,9 +3147,7 @@ def test_attg_d025_attg_d025_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD025.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD025.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3461,6 +3155,7 @@ def test_attg_d025_attg_d025_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d024_attg_d024_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3470,9 +3165,7 @@ def test_attg_d024_attg_d024_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD024.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD024.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3480,6 +3173,7 @@ def test_attg_d024_attg_d024_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_d023_attg_d023_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3489,9 +3183,7 @@ def test_attg_d023_attg_d023_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD023.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD023.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3508,9 +3200,7 @@ def test_attg_d022_attg_d022_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD022.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3526,9 +3216,7 @@ def test_attg_d021_attg_d021_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD021.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3544,9 +3232,7 @@ def test_attg_d020_attg_d020_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD020.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD020.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3561,9 +3247,7 @@ def test_attg_d019_attg_d019_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD019.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3578,9 +3262,7 @@ def test_attg_d018_attg_d018_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD018.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3596,9 +3278,7 @@ def test_attg_d005_attg_d005_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD005.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3613,9 +3293,7 @@ def test_attg_d004_attg_d004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD004.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3630,9 +3308,7 @@ def test_attg_d003_attg_d003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgD003.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgD003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3649,9 +3325,7 @@ def test_attg_c038_attg_c038_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC038.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC038.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3668,9 +3342,7 @@ def test_attg_c037_attg_c037_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC037.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC037.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3686,9 +3358,7 @@ def test_attg_c036_attg_c036_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC036.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC036.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3704,9 +3374,7 @@ def test_attg_c035_attg_c035_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC035.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC035.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3722,9 +3390,7 @@ def test_attg_c026_attg_c026_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC026.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3732,6 +3398,7 @@ def test_attg_c026_attg_c026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_c025_attg_c025_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3740,9 +3407,7 @@ def test_attg_c025_attg_c025_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC025.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC025.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3758,9 +3423,7 @@ def test_attg_c024_attg_c024_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC024.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC024.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3776,9 +3439,7 @@ def test_attg_c010_attg_c010a(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC010.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC010a.xml",
-        instance_is_valid=True,
         class_name="T",
         version="1.1",
         save_xml=save_xml,
@@ -3786,6 +3447,7 @@ def test_attg_c010_attg_c010a(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_c010_attg_c010b(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3794,9 +3456,7 @@ def test_attg_c010_attg_c010b(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC010.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC010b.xml",
-        instance_is_valid=False,
         class_name="T",
         version="1.1",
         save_xml=save_xml,
@@ -3814,9 +3474,7 @@ def test_attg_c007_attg_c007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC007.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3824,6 +3482,7 @@ def test_attg_c007_attg_c007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_attg_c006_attg_c006_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3834,9 +3493,7 @@ def test_attg_c006_attg_c006_i(save_xml):
     """
     assert_bindings(
         schema="msData/attributeGroup/attgC006.xsd",
-        is_valid=True,
         instance="msData/attributeGroup/attgC006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3852,9 +3509,7 @@ def test_att_z015_att_z015_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ015.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3870,9 +3525,7 @@ def test_att_z014b_att_z014b_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ014b.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ014b.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3888,9 +3541,7 @@ def test_att_z014a_att_z014a_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ014a.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ014a.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3898,6 +3549,7 @@ def test_att_z014a_att_z014a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_z009_att_z009_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : when more
@@ -3905,9 +3557,7 @@ def test_att_z009_att_z009_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ009.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ009.xml",
-        instance_is_valid=False,
         class_name="MyFields",
         version="1.1",
         save_xml=save_xml,
@@ -3915,6 +3565,7 @@ def test_att_z009_att_z009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_z007i_att_z007i_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD:
@@ -3922,9 +3573,7 @@ def test_att_z007i_att_z007i_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ007.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ007i.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3939,9 +3588,7 @@ def test_att_z007v_att_z007v_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ007.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ007v.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3956,9 +3603,7 @@ def test_att_z005_att_z005_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ005.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -3973,9 +3618,7 @@ def test_att_z002_att_z002_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ002.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3983,6 +3626,7 @@ def test_att_z002_att_z002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_z001_att_z001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Redefine and
@@ -3990,9 +3634,7 @@ def test_att_z001_att_z001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attZ001.xsd",
-        is_valid=True,
         instance="msData/attribute/attZ001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4007,9 +3649,7 @@ def test_att_q019_att_q019_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attQ019.xsd",
-        is_valid=True,
         instance="msData/attribute/attQ019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4024,9 +3664,7 @@ def test_att_q014_att_q014_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attQ014.xsd",
-        is_valid=True,
         instance="msData/attribute/attQ014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4041,9 +3679,7 @@ def test_att_q003_att_q003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attQ003.xsd",
-        is_valid=True,
         instance="msData/attribute/attQ003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4059,9 +3695,7 @@ def test_att_p032_att_p032_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP032.xsd",
-        is_valid=True,
         instance="msData/attribute/attP032.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4077,9 +3711,7 @@ def test_att_p031_att_p031_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP031.xsd",
-        is_valid=True,
         instance="msData/attribute/attP031.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4096,9 +3728,7 @@ def test_att_p029_att_p029_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP029.xsd",
-        is_valid=True,
         instance="msData/attribute/attP029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4115,9 +3745,7 @@ def test_att_p028_att_p028_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP028.xsd",
-        is_valid=True,
         instance="msData/attribute/attP028.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4125,6 +3753,7 @@ def test_att_p028_att_p028_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p027_att_p027_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : name='foo'
@@ -4133,9 +3762,7 @@ def test_att_p027_att_p027_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP027.xsd",
-        is_valid=True,
         instance="msData/attribute/attP027.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4151,9 +3778,7 @@ def test_att_p026_att_p026_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP026.xsd",
-        is_valid=True,
         instance="msData/attribute/attP026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4169,9 +3794,7 @@ def test_att_p025_att_p025_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP025.xsd",
-        is_valid=True,
         instance="msData/attribute/attP025.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4187,9 +3810,7 @@ def test_att_p024_att_p024_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP024.xsd",
-        is_valid=True,
         instance="msData/attribute/attP024.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4205,9 +3826,7 @@ def test_att_p023_att_p023_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP023.xsd",
-        is_valid=True,
         instance="msData/attribute/attP023.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4223,9 +3842,7 @@ def test_att_p022_att_p022_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP022.xsd",
-        is_valid=True,
         instance="msData/attribute/attP022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4241,9 +3858,7 @@ def test_att_p021_att_p021_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP021.xsd",
-        is_valid=True,
         instance="msData/attribute/attP021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4251,6 +3866,7 @@ def test_att_p021_att_p021_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p020_att_p020_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
@@ -4259,9 +3875,7 @@ def test_att_p020_att_p020_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP020.xsd",
-        is_valid=True,
         instance="msData/attribute/attP020.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4277,9 +3891,7 @@ def test_att_p019_att_p019_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP019.xsd",
-        is_valid=True,
         instance="msData/attribute/attP019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4287,6 +3899,7 @@ def test_att_p019_att_p019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p018_att_p018_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
@@ -4295,9 +3908,7 @@ def test_att_p018_att_p018_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP018.xsd",
-        is_valid=True,
         instance="msData/attribute/attP018.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4313,9 +3924,7 @@ def test_att_p017_att_p017_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP017.xsd",
-        is_valid=True,
         instance="msData/attribute/attP017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4323,6 +3932,7 @@ def test_att_p017_att_p017_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p016_att_p016_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
@@ -4331,9 +3941,7 @@ def test_att_p016_att_p016_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP016.xsd",
-        is_valid=True,
         instance="msData/attribute/attP016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4349,9 +3957,7 @@ def test_att_p015_att_p015_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP015.xsd",
-        is_valid=True,
         instance="msData/attribute/attP015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4359,6 +3965,7 @@ def test_att_p015_att_p015_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p014_att_p014_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
@@ -4367,9 +3974,7 @@ def test_att_p014_att_p014_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP014.xsd",
-        is_valid=True,
         instance="msData/attribute/attP014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4385,9 +3990,7 @@ def test_att_p013_att_p013_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP013.xsd",
-        is_valid=True,
         instance="msData/attribute/attP013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4395,6 +3998,7 @@ def test_att_p013_att_p013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p012_att_p012_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
@@ -4403,9 +4007,7 @@ def test_att_p012_att_p012_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP012.xsd",
-        is_valid=True,
         instance="msData/attribute/attP012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4421,9 +4023,7 @@ def test_att_p011_att_p011_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP011.xsd",
-        is_valid=True,
         instance="msData/attribute/attP011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4431,6 +4031,7 @@ def test_att_p011_att_p011_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p010_att_p010_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
@@ -4439,9 +4040,7 @@ def test_att_p010_att_p010_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP010.xsd",
-        is_valid=True,
         instance="msData/attribute/attP010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4449,6 +4048,7 @@ def test_att_p010_att_p010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p009_att_p009_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
@@ -4457,9 +4057,7 @@ def test_att_p009_att_p009_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP009.xsd",
-        is_valid=True,
         instance="msData/attribute/attP009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4467,6 +4065,7 @@ def test_att_p009_att_p009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p008_att_p008_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
@@ -4475,9 +4074,7 @@ def test_att_p008_att_p008_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP008.xsd",
-        is_valid=True,
         instance="msData/attribute/attP008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4493,9 +4090,7 @@ def test_att_p007_att_p007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP007.xsd",
-        is_valid=True,
         instance="msData/attribute/attP007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4503,6 +4098,7 @@ def test_att_p007_att_p007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_p005_att_p005_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : type="my
@@ -4511,9 +4107,7 @@ def test_att_p005_att_p005_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP005.xsd",
-        is_valid=True,
         instance="msData/attribute/attP005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4529,9 +4123,7 @@ def test_att_p004_att_p004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attP004.xsd",
-        is_valid=True,
         instance="msData/attribute/attP004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4539,6 +4131,7 @@ def test_att_p004_att_p004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md011_att_md011_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4546,9 +4139,7 @@ def test_att_md011_att_md011_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_11.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4556,6 +4147,7 @@ def test_att_md011_att_md011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md010_att_md010_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4563,9 +4155,7 @@ def test_att_md010_att_md010_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_10.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4573,6 +4163,7 @@ def test_att_md010_att_md010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md009_att_md009_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4580,9 +4171,7 @@ def test_att_md009_att_md009_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_9.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4590,6 +4179,7 @@ def test_att_md009_att_md009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md008_att_md008_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4597,9 +4187,7 @@ def test_att_md008_att_md008_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_8.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4607,6 +4195,7 @@ def test_att_md008_att_md008_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md007_att_md007_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4614,9 +4203,7 @@ def test_att_md007_att_md007_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_7.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4624,6 +4211,7 @@ def test_att_md007_att_md007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md006_att_md006_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4631,9 +4219,7 @@ def test_att_md006_att_md006_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_6.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4641,6 +4227,7 @@ def test_att_md006_att_md006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md005_att_md005_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4648,9 +4235,7 @@ def test_att_md005_att_md005_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_5.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4658,6 +4243,7 @@ def test_att_md005_att_md005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md004_att_md004_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4665,9 +4251,7 @@ def test_att_md004_att_md004_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_4.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4675,6 +4259,7 @@ def test_att_md004_att_md004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md003_att_md003_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4682,9 +4267,7 @@ def test_att_md003_att_md003_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_3.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4692,6 +4275,7 @@ def test_att_md003_att_md003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md002_att_md002_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4699,9 +4283,7 @@ def test_att_md002_att_md002_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_2.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4709,6 +4291,7 @@ def test_att_md002_att_md002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_att_md001_att_md001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Attributes
@@ -4716,9 +4299,7 @@ def test_att_md001_att_md001_i(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/attribute/test108565_1.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4726,6 +4307,7 @@ def test_att_md001_att_md001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc012_att_mc012_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4734,9 +4316,7 @@ def test_att_mc012_att_mc012_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc012.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4744,6 +4324,7 @@ def test_att_mc012_att_mc012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc011_att_mc011_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4752,9 +4333,7 @@ def test_att_mc011_att_mc011_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc011.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4762,6 +4341,7 @@ def test_att_mc011_att_mc011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc010_att_mc010_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4770,9 +4350,7 @@ def test_att_mc010_att_mc010_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc010.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4789,9 +4367,7 @@ def test_att_mc009_att_mc009_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc009.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4808,9 +4384,7 @@ def test_att_mc008_att_mc008_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc008.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4827,9 +4401,7 @@ def test_att_mc007_att_mc007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc007.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4845,9 +4417,7 @@ def test_att_mc006_att_mc006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc006.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4863,9 +4433,7 @@ def test_att_mc005_att_mc005_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc005.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4881,9 +4449,7 @@ def test_att_mc004_att_mc004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc004.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4891,6 +4457,7 @@ def test_att_mc004_att_mc004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc003_att_mc003_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4900,9 +4467,7 @@ def test_att_mc003_att_mc003_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc003.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4910,6 +4475,7 @@ def test_att_mc003_att_mc003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc002_att_mc002_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4919,9 +4485,7 @@ def test_att_mc002_att_mc002_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc002.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4929,6 +4493,7 @@ def test_att_mc002_att_mc002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mc001_att_mc001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4938,9 +4503,7 @@ def test_att_mc001_att_mc001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMc001.xsd",
-        is_valid=True,
         instance="msData/attribute/attMc001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4948,6 +4511,7 @@ def test_att_mc001_att_mc001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb012_att_mb012_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4956,9 +4520,7 @@ def test_att_mb012_att_mb012_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb012.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4966,6 +4528,7 @@ def test_att_mb012_att_mb012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb011_att_mb011_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4974,9 +4537,7 @@ def test_att_mb011_att_mb011_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb011.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -4984,6 +4545,7 @@ def test_att_mb011_att_mb011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb010_att_mb010_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4992,9 +4554,7 @@ def test_att_mb010_att_mb010_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb010.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5010,9 +4570,7 @@ def test_att_mb009_att_mb009_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb009.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5029,9 +4587,7 @@ def test_att_mb008_att_mb008_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb008.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5048,9 +4604,7 @@ def test_att_mb007_att_mb007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb007.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5066,9 +4620,7 @@ def test_att_mb006_att_mb006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb006.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5084,9 +4636,7 @@ def test_att_mb005_att_mb005_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb005.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5102,9 +4652,7 @@ def test_att_mb004_att_mb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb004.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5112,6 +4660,7 @@ def test_att_mb004_att_mb004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb003_att_mb003_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5121,9 +4670,7 @@ def test_att_mb003_att_mb003_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb003.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5131,6 +4678,7 @@ def test_att_mb003_att_mb003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb002_att_mb002_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5140,9 +4688,7 @@ def test_att_mb002_att_mb002_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb002.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5150,6 +4696,7 @@ def test_att_mb002_att_mb002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_mb001_att_mb001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5159,9 +4706,7 @@ def test_att_mb001_att_mb001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMb001.xsd",
-        is_valid=True,
         instance="msData/attribute/attMb001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5178,9 +4723,7 @@ def test_att_ma004_att_ma004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMa004.xsd",
-        is_valid=True,
         instance="msData/attribute/attMa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5197,9 +4740,7 @@ def test_att_ma003_att_ma003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMa003.xsd",
-        is_valid=True,
         instance="msData/attribute/attMa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5207,6 +4748,7 @@ def test_att_ma003_att_ma003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_ma002_att_ma002_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5216,9 +4758,7 @@ def test_att_ma002_att_ma002_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMa002.xsd",
-        is_valid=True,
         instance="msData/attribute/attMa002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5226,6 +4766,7 @@ def test_att_ma002_att_ma002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_ma001_att_ma001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5235,9 +4776,7 @@ def test_att_ma001_att_ma001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attMa001.xsd",
-        is_valid=True,
         instance="msData/attribute/attMa001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5245,6 +4784,7 @@ def test_att_ma001_att_ma001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_o012_att_o012_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5253,9 +4793,7 @@ def test_att_o012_att_o012_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO012.xsd",
-        is_valid=True,
         instance="msData/attribute/attO012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5272,9 +4810,7 @@ def test_att_o011_att_o011_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO011.xsd",
-        is_valid=True,
         instance="msData/attribute/attO011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5291,9 +4827,7 @@ def test_att_o010_att_o010_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO010.xsd",
-        is_valid=True,
         instance="msData/attribute/attO010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5310,9 +4844,7 @@ def test_att_o009_att_o009_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO009.xsd",
-        is_valid=True,
         instance="msData/attribute/attO009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5320,6 +4852,7 @@ def test_att_o009_att_o009_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_o008_att_o008_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5328,9 +4861,7 @@ def test_att_o008_att_o008_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO008.xsd",
-        is_valid=True,
         instance="msData/attribute/attO008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5346,9 +4877,7 @@ def test_att_o007_att_o007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO007.xsd",
-        is_valid=True,
         instance="msData/attribute/attO007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5364,9 +4893,7 @@ def test_att_o006_att_o006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO006.xsd",
-        is_valid=True,
         instance="msData/attribute/attO006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5374,6 +4901,7 @@ def test_att_o006_att_o006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_o004_att_o004_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5382,9 +4910,7 @@ def test_att_o004_att_o004_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO004.xsd",
-        is_valid=True,
         instance="msData/attribute/attO004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5392,6 +4918,7 @@ def test_att_o004_att_o004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_o001_att_o001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5399,9 +4926,7 @@ def test_att_o001_att_o001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attO001.xsd",
-        is_valid=True,
         instance="msData/attribute/attO001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5417,9 +4942,7 @@ def test_att_lc006_att_lc006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc006.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5427,6 +4950,7 @@ def test_att_lc006_att_lc006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_lc005_att_lc005_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5435,9 +4959,7 @@ def test_att_lc005_att_lc005_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc005.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5453,9 +4975,7 @@ def test_att_lc004_att_lc004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc004.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5471,9 +4991,7 @@ def test_att_lc003_att_lc003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc003.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5489,9 +5007,7 @@ def test_att_lc002_att_lc002_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc002.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5507,9 +5023,7 @@ def test_att_lc001_att_lc001_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLc001.xsd",
-        is_valid=True,
         instance="msData/attribute/attLc001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5525,9 +5039,7 @@ def test_att_lb006_att_lb006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb006.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5535,6 +5047,7 @@ def test_att_lb006_att_lb006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_lb005_att_lb005_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5543,9 +5056,7 @@ def test_att_lb005_att_lb005_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb005.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5561,9 +5072,7 @@ def test_att_lb004_att_lb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb004.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5579,9 +5088,7 @@ def test_att_lb003_att_lb003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb003.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5597,9 +5104,7 @@ def test_att_lb002_att_lb002_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb002.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5615,9 +5120,7 @@ def test_att_lb001_att_lb001_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLb001.xsd",
-        is_valid=True,
         instance="msData/attribute/attLb001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5633,9 +5136,7 @@ def test_att_la006_att_la006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa006.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5643,6 +5144,7 @@ def test_att_la006_att_la006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_la005_att_la005_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5651,9 +5153,7 @@ def test_att_la005_att_la005_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa005.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5669,9 +5169,7 @@ def test_att_la004_att_la004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa004.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5687,9 +5185,7 @@ def test_att_la003_att_la003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa003.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5705,9 +5201,7 @@ def test_att_la002_att_la002_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa002.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5723,9 +5217,7 @@ def test_att_la001_att_la001_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attLa001.xsd",
-        is_valid=True,
         instance="msData/attribute/attLa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5740,9 +5232,7 @@ def test_att_i003_att_i003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attI003.xsd",
-        is_valid=True,
         instance="msData/attribute/attI003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5758,9 +5248,7 @@ def test_att_j018_att_j018_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ018.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5768,6 +5256,7 @@ def test_att_j018_att_j018_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_j010_att_j010_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
@@ -5776,9 +5265,7 @@ def test_att_j010_att_j010_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ010.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5786,6 +5273,7 @@ def test_att_j010_att_j010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_j009_att_j009_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
@@ -5794,9 +5282,7 @@ def test_att_j009_att_j009_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ009.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5804,6 +5290,7 @@ def test_att_j009_att_j009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_j008_att_j008_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
@@ -5812,9 +5299,7 @@ def test_att_j008_att_j008_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ008.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5830,9 +5315,7 @@ def test_att_j007_att_j007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ007.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5847,9 +5330,7 @@ def test_att_j006_att_j006_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ006.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ006.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5864,9 +5345,7 @@ def test_att_j005_att_j005_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ005.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ005.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5882,9 +5361,7 @@ def test_att_j004_att_j004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ004.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ004.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5892,6 +5369,7 @@ def test_att_j004_att_j004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_j003_att_j003_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc
@@ -5900,9 +5378,7 @@ def test_att_j003_att_j003_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ003.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ003.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5910,6 +5386,7 @@ def test_att_j003_att_j003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_j002_att_j002_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc
@@ -5917,9 +5394,7 @@ def test_att_j002_att_j002_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ002.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ002.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5935,9 +5410,7 @@ def test_att_j001_att_j001_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attJ001.xsd",
-        is_valid=True,
         instance="msData/attribute/attJ001.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -5952,9 +5425,7 @@ def test_att_f003_att_f003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attF003.xsd",
-        is_valid=True,
         instance="msData/attribute/attF003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5969,9 +5440,7 @@ def test_att_f002_att_f002_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attF002.xsd",
-        is_valid=True,
         instance="msData/attribute/attF002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5979,6 +5448,7 @@ def test_att_f002_att_f002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_att_f001_att_f001_i(save_xml):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Test
@@ -5986,9 +5456,7 @@ def test_att_f001_att_f001_i(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attF001.xsd",
-        is_valid=True,
         instance="msData/attribute/attF001.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -6003,9 +5471,7 @@ def test_att_e001_att_e001_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attE001.xsd",
-        is_valid=True,
         instance="msData/attribute/attE001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6021,9 +5487,7 @@ def test_att_d007_att_d007_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attD007.xsd",
-        is_valid=True,
         instance="msData/attribute/attD007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6038,9 +5502,7 @@ def test_att_d004_att_d004_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attD004.xsd",
-        is_valid=True,
         instance="msData/attribute/attD004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6056,9 +5518,7 @@ def test_att_d003_att_d003_v(save_xml):
     """
     assert_bindings(
         schema="msData/attribute/attD003.xsd",
-        is_valid=True,
         instance="msData/attribute/attD003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6066,6 +5526,7 @@ def test_att_d003_att_d003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_z013e_ct_z013e_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
@@ -6073,9 +5534,7 @@ def test_ct_z013e_ct_z013e_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ013e.xml",
-        instance_is_valid=False,
         class_name="E",
         version="1.1",
         save_xml=save_xml,
@@ -6083,6 +5542,7 @@ def test_ct_z013e_ct_z013e_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_z013d_ct_z013d_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
@@ -6090,9 +5550,7 @@ def test_ct_z013d_ct_z013d_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ013d.xml",
-        instance_is_valid=False,
         class_name="E",
         version="1.1",
         save_xml=save_xml,
@@ -6100,6 +5558,7 @@ def test_ct_z013d_ct_z013d_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_z013c_ct_z013c_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
@@ -6107,9 +5566,7 @@ def test_ct_z013c_ct_z013c_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ013c.xml",
-        instance_is_valid=False,
         class_name="E",
         version="1.1",
         save_xml=save_xml,
@@ -6124,9 +5581,7 @@ def test_ct_z013b_ct_z013b_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ013b.xml",
-        instance_is_valid=True,
         class_name="E",
         version="1.1",
         save_xml=save_xml,
@@ -6141,9 +5596,7 @@ def test_ct_z013a_ct_z013a_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ013a.xml",
-        instance_is_valid=True,
         class_name="E",
         version="1.1",
         save_xml=save_xml,
@@ -6158,9 +5611,7 @@ def test_ct_z011_b_ct_z011_b_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ011.xml",
-        instance_is_valid=True,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -6168,6 +5619,7 @@ def test_ct_z011_b_ct_z011_b_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_ct_z011_a_ct_z011_a_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6175,9 +5627,7 @@ def test_ct_z011_a_ct_z011_a_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/complexType/ctZ011.xml",
-        instance_is_valid=True,
         class_name="A",
         version="1.1",
         save_xml=save_xml,
@@ -6192,9 +5642,7 @@ def test_ct_z009_d_ct_z009_d_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ009_d.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ009_d.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6202,6 +5650,7 @@ def test_ct_z009_d_ct_z009_d_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_z009_c_ct_z009_c_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6209,9 +5658,7 @@ def test_ct_z009_c_ct_z009_c_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ009_c.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ009_c.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6226,9 +5673,7 @@ def test_ct_z009_b_ct_z009_b_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ009_a.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ009_b.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6243,9 +5688,7 @@ def test_ct_z009_a_ct_z009_a_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ009_a.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ009_a.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6260,9 +5703,7 @@ def test_ct_z009_ct_z009_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6277,9 +5718,7 @@ def test_ct_z008_ct_z008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6295,9 +5734,7 @@ def test_ct_z007_ct_z007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ007_a.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ007.xml",
-        instance_is_valid=True,
         class_name="Customers",
         version="1.1",
         save_xml=save_xml,
@@ -6312,9 +5749,7 @@ def test_ct_z006_ct_z006_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6322,6 +5757,7 @@ def test_ct_z006_ct_z006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_z005_ct_z005_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6330,9 +5766,7 @@ def test_ct_z005_ct_z005_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ005.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ005.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -6348,9 +5782,7 @@ def test_ct_z003_ct_z003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctZ003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctZ003.xml",
-        instance_is_valid=True,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -6365,9 +5797,7 @@ def test_ct_z001_ct_z001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/75039.xsd",
-        is_valid=True,
         instance="msData/complexType/75039.xml",
-        instance_is_valid=True,
         class_name="BagOfHeads",
         version="1.1",
         save_xml=save_xml,
@@ -6383,9 +5813,7 @@ def test_ct_o006_ct_o006_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctO006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctO006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6401,9 +5829,7 @@ def test_ct_o003_ct_o003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctO003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctO003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6418,9 +5844,7 @@ def test_ct_o001_ct_o001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctO001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctO001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6436,9 +5860,7 @@ def test_ct_n004_ct_n004_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctN004.xsd",
-        is_valid=True,
         instance="msData/complexType/ctN004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6454,9 +5876,7 @@ def test_ct_n003_ct_n003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctN003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctN003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6471,9 +5891,7 @@ def test_ct_n001_ct_n001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctN001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctN001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6488,9 +5906,7 @@ def test_ct_m002_ct_m002_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctM002.xsd",
-        is_valid=True,
         instance="msData/complexType/ctM002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6506,9 +5922,7 @@ def test_ct_l022_ct_l022_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/test67200.xsd",
-        is_valid=True,
         instance="msData/complexType/test67200.xml",
-        instance_is_valid=True,
         class_name="Elt1",
         version="1.1",
         save_xml=save_xml,
@@ -6524,9 +5938,7 @@ def test_ct_l021_ct_l021_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL021.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6534,6 +5946,7 @@ def test_ct_l021_ct_l021_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l020_ct_l020_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6542,9 +5955,7 @@ def test_ct_l020_ct_l020_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL020.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL020.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6560,9 +5971,7 @@ def test_ct_l019_ct_l019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL019.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6578,9 +5987,7 @@ def test_ct_l018_ct_l018_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL018.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6596,9 +6003,7 @@ def test_ct_l017_ct_l017_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL017.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6614,9 +6019,7 @@ def test_ct_l016_ct_l016_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL016.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6632,9 +6035,7 @@ def test_ct_l015_ct_l015_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL015.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6649,9 +6050,7 @@ def test_ct_l014_ct_l014_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL014.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6659,6 +6058,7 @@ def test_ct_l014_ct_l014_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l013_ct_l013_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6666,9 +6066,7 @@ def test_ct_l013_ct_l013_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL013.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6676,6 +6074,7 @@ def test_ct_l013_ct_l013_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l012_ct_l012_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6684,9 +6083,7 @@ def test_ct_l012_ct_l012_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL012.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6701,9 +6098,7 @@ def test_ct_l011_ct_l011_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6711,6 +6106,7 @@ def test_ct_l011_ct_l011_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l010_ct_l010_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6719,9 +6115,7 @@ def test_ct_l010_ct_l010_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6729,6 +6123,7 @@ def test_ct_l010_ct_l010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l009_ct_l009_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6737,9 +6132,7 @@ def test_ct_l009_ct_l009_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6755,9 +6148,7 @@ def test_ct_l008_ct_l008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6772,9 +6163,7 @@ def test_ct_l007_ct_l007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6782,6 +6171,7 @@ def test_ct_l007_ct_l007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l006_ct_l006_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6789,9 +6179,7 @@ def test_ct_l006_ct_l006_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6806,9 +6194,7 @@ def test_ct_l005_ct_l005_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL005.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6816,6 +6202,7 @@ def test_ct_l005_ct_l005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l004_ct_l004_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6823,9 +6210,7 @@ def test_ct_l004_ct_l004_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL004.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6840,9 +6225,7 @@ def test_ct_l003_ct_l003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6850,6 +6233,7 @@ def test_ct_l003_ct_l003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l002_ct_l002_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6857,9 +6241,7 @@ def test_ct_l002_ct_l002_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL002.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6867,6 +6249,7 @@ def test_ct_l002_ct_l002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_l001_ct_l001_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6874,9 +6257,7 @@ def test_ct_l001_ct_l001_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctL001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctL001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6892,9 +6273,7 @@ def test_ct_k001_ct_k001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctK001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctK001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6909,9 +6288,7 @@ def test_ct_j001_ct_j001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctJ001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctJ001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6927,9 +6304,7 @@ def test_ct_i050_ct_i050_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI050.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI050.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6937,6 +6312,7 @@ def test_ct_i050_ct_i050_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i049_ct_i049_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6945,9 +6321,7 @@ def test_ct_i049_ct_i049_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI049.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI049.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6955,6 +6329,7 @@ def test_ct_i049_ct_i049_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i048_ct_i048_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6963,9 +6338,7 @@ def test_ct_i048_ct_i048_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI048.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI048.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6981,9 +6354,7 @@ def test_ct_i047_ct_i047_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI047.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI047.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -6999,9 +6370,7 @@ def test_ct_i046_ct_i046_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI046.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI046.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7009,6 +6378,7 @@ def test_ct_i046_ct_i046_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i045_ct_i045_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7017,9 +6387,7 @@ def test_ct_i045_ct_i045_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI045.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI045.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7035,9 +6403,7 @@ def test_ct_i044_ct_i044_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI044.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI044.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7053,9 +6419,7 @@ def test_ct_i043_ct_i043_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI043.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI043.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7063,6 +6427,7 @@ def test_ct_i043_ct_i043_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i042_ct_i042_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7071,9 +6436,7 @@ def test_ct_i042_ct_i042_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI042.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI042.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7089,9 +6452,7 @@ def test_ct_i041_ct_i041_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI041.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI041.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7107,9 +6468,7 @@ def test_ct_i040_ct_i040_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI040.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI040.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7117,6 +6476,7 @@ def test_ct_i040_ct_i040_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i039_ct_i039_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7125,9 +6485,7 @@ def test_ct_i039_ct_i039_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI039.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI039.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7135,6 +6493,7 @@ def test_ct_i039_ct_i039_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i038_ct_i038_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -7143,9 +6502,7 @@ def test_ct_i038_ct_i038_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI038.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI038.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7161,9 +6518,7 @@ def test_ct_i037_ct_i037_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI037.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI037.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7179,9 +6534,7 @@ def test_ct_i036_ct_i036_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI036.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI036.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7189,6 +6542,7 @@ def test_ct_i036_ct_i036_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i035_ct_i035_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7197,9 +6551,7 @@ def test_ct_i035_ct_i035_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI035.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI035.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7215,9 +6567,7 @@ def test_ct_i034_ct_i034_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI034.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7233,9 +6583,7 @@ def test_ct_i033_ct_i033_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI033.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7243,6 +6591,7 @@ def test_ct_i033_ct_i033_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i032_ct_i032_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7251,9 +6600,7 @@ def test_ct_i032_ct_i032_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI032.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI032.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7261,6 +6608,7 @@ def test_ct_i032_ct_i032_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i031_ct_i031_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7269,9 +6617,7 @@ def test_ct_i031_ct_i031_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI031.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI031.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7279,6 +6625,7 @@ def test_ct_i031_ct_i031_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ct_i030_ct_i030_i(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -7287,9 +6634,7 @@ def test_ct_i030_ct_i030_i(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI030.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI030.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7305,9 +6650,7 @@ def test_ct_i029_ct_i029_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI029.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7323,9 +6666,7 @@ def test_ct_i028_ct_i028_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI028.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7341,9 +6682,7 @@ def test_ct_i027_ct_i027_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI027.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7359,9 +6698,7 @@ def test_ct_i026_ct_i026_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI026.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7377,9 +6714,7 @@ def test_ct_i025_ct_i025_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI025.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7394,9 +6729,7 @@ def test_ct_i023_ct_i023_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI023.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7412,9 +6745,7 @@ def test_ct_i022_ct_i022_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI022.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7429,9 +6760,7 @@ def test_ct_i021_ct_i021_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI021.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7447,9 +6776,7 @@ def test_ct_i019_ct_i019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI019.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7465,9 +6792,7 @@ def test_ct_i018_ct_i018_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI018.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7482,9 +6807,7 @@ def test_ct_i015_ct_i015_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI015.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7499,9 +6822,7 @@ def test_ct_i014_ct_i014_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI014.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7517,9 +6838,7 @@ def test_ct_i010_ct_i010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7535,9 +6854,7 @@ def test_ct_i009_ct_i009_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7553,9 +6870,7 @@ def test_ct_i005_ct_i005_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI005.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7571,9 +6886,7 @@ def test_ct_i004_ct_i004_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI004.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7589,9 +6902,7 @@ def test_ct_i003_ct_i003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctI003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctI003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7607,9 +6918,7 @@ def test_ct_h082_ct_h082_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH082.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH082.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7624,9 +6933,7 @@ def test_ct_h071_ct_h071_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH071.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH071.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7642,9 +6949,7 @@ def test_ct_h069_ct_h069_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH069.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH069.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7660,9 +6965,7 @@ def test_ct_h068_ct_h068_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH068.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH068.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7678,9 +6981,7 @@ def test_ct_h067_ct_h067_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH067.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH067.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7696,9 +6997,7 @@ def test_ct_h066_ct_h066_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH066.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH066.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7713,9 +7012,7 @@ def test_ct_h060_ct_h060_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH060.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH060.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7731,9 +7028,7 @@ def test_ct_h058_ct_h058_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH058.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH058.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7749,9 +7044,7 @@ def test_ct_h057_ct_h057_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH057.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH057.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7767,9 +7060,7 @@ def test_ct_h056_ct_h056_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH056.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH056.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7785,9 +7076,7 @@ def test_ct_h055_ct_h055_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH055.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH055.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7802,9 +7091,7 @@ def test_ct_h049_ct_h049_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH049.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH049.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7820,9 +7107,7 @@ def test_ct_h047_ct_h047_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH047.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH047.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7838,9 +7123,7 @@ def test_ct_h046_ct_h046_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH046.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH046.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7856,9 +7139,7 @@ def test_ct_h045_ct_h045_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH045.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH045.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7874,9 +7155,7 @@ def test_ct_h044_ct_h044_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH044.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH044.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7892,9 +7171,7 @@ def test_ct_h043_ct_h043_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH043.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH043.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7909,9 +7186,7 @@ def test_ct_h037_ct_h037_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH037.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH037.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7927,9 +7202,7 @@ def test_ct_h035_ct_h035_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH035.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7945,9 +7218,7 @@ def test_ct_h034_ct_h034_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH034.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7963,9 +7234,7 @@ def test_ct_h033_ct_h033_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH033.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7981,9 +7250,7 @@ def test_ct_h032_ct_h032_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH032.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7999,9 +7266,7 @@ def test_ct_h031_ct_h031_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH031.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8016,9 +7281,7 @@ def test_ct_h025_ct_h025_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH025.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8034,9 +7297,7 @@ def test_ct_h011_ct_h011_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8052,9 +7313,7 @@ def test_ct_h010_ct_h010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8070,9 +7329,7 @@ def test_ct_h009_ct_h009_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8088,9 +7345,7 @@ def test_ct_h008_ct_h008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8106,9 +7361,7 @@ def test_ct_h007_ct_h007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8123,9 +7376,7 @@ def test_ct_h001_ct_h001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctH001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctH001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8140,9 +7391,7 @@ def test_ct_g071_ct_g071_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG071.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG071.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8158,9 +7407,7 @@ def test_ct_g069_ct_g069_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG069.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG069.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8176,9 +7423,7 @@ def test_ct_g068_ct_g068_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG068.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG068.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8194,9 +7439,7 @@ def test_ct_g067_ct_g067_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG067.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG067.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8212,9 +7455,7 @@ def test_ct_g066_ct_g066_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG066.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG066.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8229,9 +7470,7 @@ def test_ct_g060_ct_g060_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG060.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG060.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8247,9 +7486,7 @@ def test_ct_g058_ct_g058_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG058.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG058.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8265,9 +7502,7 @@ def test_ct_g057_ct_g057_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG057.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG057.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8283,9 +7518,7 @@ def test_ct_g056_ct_g056_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG056.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG056.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8301,9 +7534,7 @@ def test_ct_g055_ct_g055_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG055.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG055.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8318,9 +7549,7 @@ def test_ct_g049_ct_g049_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG049.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG049.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8336,9 +7565,7 @@ def test_ct_g047_ct_g047_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG047.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG047.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8354,9 +7581,7 @@ def test_ct_g046_ct_g046_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG046.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG046.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8372,9 +7597,7 @@ def test_ct_g045_ct_g045_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG045.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG045.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8390,9 +7613,7 @@ def test_ct_g044_ct_g044_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG044.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG044.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8408,9 +7629,7 @@ def test_ct_g043_ct_g043_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG043.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG043.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8425,9 +7644,7 @@ def test_ct_g037_ct_g037_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG037.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG037.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8443,9 +7660,7 @@ def test_ct_g035_ct_g035_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG035.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8461,9 +7676,7 @@ def test_ct_g034_ct_g034_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG034.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8479,9 +7692,7 @@ def test_ct_g033_ct_g033_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG033.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8497,9 +7708,7 @@ def test_ct_g032_ct_g032_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG032.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8515,9 +7724,7 @@ def test_ct_g031_ct_g031_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG031.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8532,9 +7739,7 @@ def test_ct_g025_ct_g025_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG025.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8550,9 +7755,7 @@ def test_ct_g023_ct_g023_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG023.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8568,9 +7771,7 @@ def test_ct_g022_ct_g022_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG022.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8586,9 +7787,7 @@ def test_ct_g021_ct_g021_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG021.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8604,9 +7803,7 @@ def test_ct_g020_ct_g020_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG020.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8622,9 +7819,7 @@ def test_ct_g019_ct_g019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG019.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8639,9 +7834,7 @@ def test_ct_g013_ct_g013_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8658,9 +7851,7 @@ def test_ct_g011_ct_g011_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8677,9 +7868,7 @@ def test_ct_g010_ct_g010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8696,9 +7885,7 @@ def test_ct_g009_ct_g009_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8715,9 +7902,7 @@ def test_ct_g008_ct_g008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8734,9 +7919,7 @@ def test_ct_g007_ct_g007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8752,9 +7935,7 @@ def test_ct_g001_ct_g001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctG001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctG001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8769,9 +7950,7 @@ def test_ct_f014_ct_f014_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF014.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8786,9 +7965,7 @@ def test_ct_f013_ct_f013_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8804,9 +7981,7 @@ def test_ct_f011_ct_f011_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8822,9 +7997,7 @@ def test_ct_f010_ct_f010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8840,9 +8013,7 @@ def test_ct_f007_ct_f007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8857,9 +8028,7 @@ def test_ct_f001_ct_f001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctF001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctF001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8874,9 +8043,7 @@ def test_ct_e019_ct_e019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE019_a.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8891,9 +8058,7 @@ def test_ct_e018_ct_e018_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE018_a.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8909,9 +8074,7 @@ def test_ct_e017_ct_e017_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE017.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8927,9 +8090,7 @@ def test_ct_e010_ct_e010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8945,9 +8106,7 @@ def test_ct_e008_ct_e008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8963,9 +8122,7 @@ def test_ct_e007_ct_e007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8981,9 +8138,7 @@ def test_ct_e006_ct_e006_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8999,9 +8154,7 @@ def test_ct_e002_ct_e002_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE002.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9016,9 +8169,7 @@ def test_ct_e001_ct_e001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctE001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctE001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9034,9 +8185,7 @@ def test_ct_d035_ct_d035_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD035.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9051,9 +8200,7 @@ def test_ct_d033_ct_d033_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD033.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9069,9 +8216,7 @@ def test_ct_d032_ct_d032_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD032.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9086,9 +8231,7 @@ def test_ct_d031_ct_d031_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD031.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9103,9 +8246,7 @@ def test_ct_d030_ct_d030_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD030.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9120,9 +8261,7 @@ def test_ct_d029_ct_d029_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD029.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9137,9 +8276,7 @@ def test_ct_d028_ct_d028_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD028.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9154,9 +8291,7 @@ def test_ct_d027_ct_d027_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD027.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9171,9 +8306,7 @@ def test_ct_d026_ct_d026_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD026.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9188,9 +8321,7 @@ def test_ct_d025_ct_d025_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD025.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9205,9 +8336,7 @@ def test_ct_d023_ct_d023_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD023.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9222,9 +8351,7 @@ def test_ct_d022_ct_d022_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD022.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9239,9 +8366,7 @@ def test_ct_d021_ct_d021_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD021.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9256,9 +8381,7 @@ def test_ct_d020_ct_d020_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD020.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9273,9 +8396,7 @@ def test_ct_d019_ct_d019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD019.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9290,9 +8411,7 @@ def test_ct_d018_ct_d018_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD018.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9307,9 +8426,7 @@ def test_ct_d017_ct_d017_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD017.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9324,9 +8441,7 @@ def test_ct_d016_ct_d016_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD016.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9341,9 +8456,7 @@ def test_ct_d015_ct_d015_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD015.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9359,9 +8472,7 @@ def test_ct_d012_ct_d012_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD012.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9377,9 +8488,7 @@ def test_ct_d010_ct_d010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9394,9 +8503,7 @@ def test_ct_d008_ct_d008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9411,9 +8518,7 @@ def test_ct_d006_ct_d006_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9428,9 +8533,7 @@ def test_ct_d005_ct_d005_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD005.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9445,9 +8548,7 @@ def test_ct_d002_ct_d002_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctD002.xsd",
-        is_valid=True,
         instance="msData/complexType/ctD002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9462,9 +8563,7 @@ def test_ct_c012_ct_c012_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctC012.xsd",
-        is_valid=True,
         instance="msData/complexType/ctC012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9479,9 +8578,7 @@ def test_ct_c008_ct_c008_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctC008.xsd",
-        is_valid=True,
         instance="msData/complexType/ctC008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9496,9 +8593,7 @@ def test_ct_c007_ct_c007_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctC007.xsd",
-        is_valid=True,
         instance="msData/complexType/ctC007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9513,9 +8608,7 @@ def test_ct_c006_ct_c006_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctC006.xsd",
-        is_valid=True,
         instance="msData/complexType/ctC006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9530,9 +8623,7 @@ def test_ct_c001_ct_c001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctC001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctC001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9547,9 +8638,7 @@ def test_ct_b113_ct_b113_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB113.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB113.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9564,9 +8653,7 @@ def test_ct_b111_ct_b111_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB111.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB111.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9581,9 +8668,7 @@ def test_ct_b110_ct_b110_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB110.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB110.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9598,9 +8683,7 @@ def test_ct_b109_ct_b109_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB109.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB109.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9615,9 +8698,7 @@ def test_ct_b108_ct_b108_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB108.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB108.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9632,9 +8713,7 @@ def test_ct_b100_ct_b100_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB100.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB100.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9649,9 +8728,7 @@ def test_ct_b098_ct_b098_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB098.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB098.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9666,9 +8743,7 @@ def test_ct_b097_ct_b097_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB097.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB097.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9683,9 +8758,7 @@ def test_ct_b096_ct_b096_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB096.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB096.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9700,9 +8773,7 @@ def test_ct_b095_ct_b095_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB095.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB095.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9717,9 +8788,7 @@ def test_ct_b087_ct_b087_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB087.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB087.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9734,9 +8803,7 @@ def test_ct_b085_ct_b085_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB085.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB085.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9751,9 +8818,7 @@ def test_ct_b084_ct_b084_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB084.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB084.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9768,9 +8833,7 @@ def test_ct_b083_ct_b083_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB083.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB083.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9785,9 +8848,7 @@ def test_ct_b082_ct_b082_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB082.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB082.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9802,9 +8863,7 @@ def test_ct_b081_ct_b081_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB081.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB081.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9819,9 +8878,7 @@ def test_ct_b073_ct_b073_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB073.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB073.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9836,9 +8893,7 @@ def test_ct_b071_ct_b071_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB071.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB071.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9853,9 +8908,7 @@ def test_ct_b070_ct_b070_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB070.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB070.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9870,9 +8923,7 @@ def test_ct_b069_ct_b069_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB069.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB069.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9887,9 +8938,7 @@ def test_ct_b068_ct_b068_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB068.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB068.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9904,9 +8953,7 @@ def test_ct_b067_ct_b067_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB067.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB067.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9921,9 +8968,7 @@ def test_ct_b059_ct_b059_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB059.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB059.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9938,9 +8983,7 @@ def test_ct_b057_ct_b057_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB057.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB057.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9955,9 +8998,7 @@ def test_ct_b056_ct_b056_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB056.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB056.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9972,9 +9013,7 @@ def test_ct_b055_ct_b055_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB055.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB055.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9989,9 +9028,7 @@ def test_ct_b054_ct_b054_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB054.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB054.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10006,9 +9043,7 @@ def test_ct_b053_ct_b053_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB053.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB053.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10023,9 +9058,7 @@ def test_ct_b045_ct_b045_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB045.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB045.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10040,9 +9073,7 @@ def test_ct_b043_ct_b043_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB043.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB043.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10057,9 +9088,7 @@ def test_ct_b042_ct_b042_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB042.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB042.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10074,9 +9103,7 @@ def test_ct_b041_ct_b041_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB041.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB041.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10091,9 +9118,7 @@ def test_ct_b040_ct_b040_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB040.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB040.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10108,9 +9133,7 @@ def test_ct_b039_ct_b039_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB039.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB039.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10125,9 +9148,7 @@ def test_ct_b031_ct_b031_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB031.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10142,9 +9163,7 @@ def test_ct_b017_ct_b017_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB017.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10159,9 +9178,7 @@ def test_ct_b003_ct_b003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10176,9 +9193,7 @@ def test_ct_b001_ct_b001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctB001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctB001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10193,9 +9208,7 @@ def test_ct_a049_ct_a049_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA049.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA049.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10210,9 +9223,7 @@ def test_ct_a048_ct_a048_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA048.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA048.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10227,9 +9238,7 @@ def test_ct_a047_ct_a047_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA047.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA047.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10244,9 +9253,7 @@ def test_ct_a045_ct_a045_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA045.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA045.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10261,9 +9268,7 @@ def test_ct_a041_ct_a041_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA041.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA041.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10278,9 +9283,7 @@ def test_ct_a037_ct_a037_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA037.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA037.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10295,9 +9298,7 @@ def test_ct_a035_ct_a035_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA035.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10312,9 +9313,7 @@ def test_ct_a034_ct_a034_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA034.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10329,9 +9328,7 @@ def test_ct_a033_ct_a033_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA033.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10347,9 +9344,7 @@ def test_ct_a032_ct_a032_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA032.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10364,9 +9359,7 @@ def test_ct_a027_ct_a027_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA027.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10381,9 +9374,7 @@ def test_ct_a026_ct_a026_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA026.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10398,9 +9389,7 @@ def test_ct_a022_ct_a022_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA022.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10415,9 +9404,7 @@ def test_ct_a021_ct_a021_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA021.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10432,9 +9419,7 @@ def test_ct_a020_ct_a020_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA020.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10449,9 +9434,7 @@ def test_ct_a019_ct_a019_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA019.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10466,9 +9449,7 @@ def test_ct_a018_ct_a018_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA018.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10483,9 +9464,7 @@ def test_ct_a017_ct_a017_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA017.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10500,9 +9479,7 @@ def test_ct_a013_ct_a013_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA013.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10517,9 +9494,7 @@ def test_ct_a012_ct_a012_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA012.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10534,9 +9509,7 @@ def test_ct_a011_ct_a011_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA011.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10551,9 +9524,7 @@ def test_ct_a010_ct_a010_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA010.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10568,9 +9539,7 @@ def test_ct_a009_ct_a009_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA009.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10585,9 +9554,7 @@ def test_ct_a005_ct_a005_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA005.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10603,9 +9570,7 @@ def test_ct_a003_ct_a003_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA003.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10621,9 +9586,7 @@ def test_ct_a002_ct_a002_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA002.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10638,9 +9601,7 @@ def test_ct_a001_ct_a001_v(save_xml):
     """
     assert_bindings(
         schema="msData/complexType/ctA001.xsd",
-        is_valid=True,
         instance="msData/complexType/ctA001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10648,6 +9609,7 @@ def test_ct_a001_ct_a001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_dt_z86723_2246_dt_z86723_2246_i(save_xml):
     """
     TEST :Facet Schemas for string : Validation: xsi:type with built-in
@@ -10655,9 +9617,7 @@ def test_dt_z86723_2246_dt_z86723_2246_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/test86723.xsd",
-        is_valid=True,
         instance="msData/datatypes/test86723.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10674,9 +9634,7 @@ def test_dt_z107447_a_2245_dt_z107447_a_2245_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/test107447_a.xsd",
-        is_valid=True,
         instance="msData/datatypes/test107447.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10691,9 +9649,7 @@ def test_dt_z107447_1_2244_dt_z107447_1_2244_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/test107447.xsd",
-        is_valid=True,
         instance="msData/datatypes/test107447_1.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10708,9 +9664,7 @@ def test_dt_z107447_2243_dt_z107447_2243_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/test107447.xsd",
-        is_valid=True,
         instance="msData/datatypes/test107447.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10718,6 +9672,7 @@ def test_dt_z107447_2243_dt_z107447_2243_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_dt_z100507_2242_dt_z100507_2242_i(save_xml):
     """
     TEST :Facet Schemas for string : xs:ENTITY is not derived from
@@ -10725,9 +9680,7 @@ def test_dt_z100507_2242_dt_z100507_2242_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/test100507.xsd",
-        is_valid=True,
         instance="msData/datatypes/test100507.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10742,9 +9695,7 @@ def test_id_test70681_2241_id_test70681_2241_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/ID_test70681.xml",
-        instance_is_valid=True,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -10758,9 +9709,7 @@ def test_id_test64335_2240_id_test64335_2240_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/ID_test64335.xsd",
-        is_valid=True,
         instance="msData/datatypes/ID_test64335.xml",
-        instance_is_valid=True,
         class_name="Products",
         version="1.1",
         save_xml=save_xml,
@@ -10774,9 +9723,7 @@ def test_positive_integer005_2239_positive_integer005_2239_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/positiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/positiveInteger005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10790,9 +9737,7 @@ def test_positive_integer004_2238_positive_integer004_2238_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/positiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/positiveInteger004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10800,15 +9745,14 @@ def test_positive_integer004_2238_positive_integer004_2238_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_positive_integer003_2237_positive_integer003_2237_i(save_xml):
     """
     TEST :Facet Schemas for string : value=0
     """
     assert_bindings(
         schema="msData/datatypes/positiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/positiveInteger003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10816,15 +9760,14 @@ def test_positive_integer003_2237_positive_integer003_2237_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_positive_integer002_2236_positive_integer002_2236_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/positiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/positiveInteger002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10832,15 +9775,14 @@ def test_positive_integer002_2236_positive_integer002_2236_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_positive_integer001_2235_positive_integer001_2235_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/positiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/positiveInteger001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10855,9 +9797,7 @@ def test_unsigned_byte007_2234_unsigned_byte007_2234_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte007.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10865,15 +9805,14 @@ def test_unsigned_byte007_2234_unsigned_byte007_2234_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_byte006_2233_unsigned_byte006_2233_i(save_xml):
     """
     TEST :Facet Schemas for string : value=256
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10887,9 +9826,7 @@ def test_unsigned_byte005_2232_unsigned_byte005_2232_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10903,9 +9840,7 @@ def test_unsigned_byte004_2231_unsigned_byte004_2231_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10919,9 +9854,7 @@ def test_unsigned_byte003_2230_unsigned_byte003_2230_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10929,15 +9862,14 @@ def test_unsigned_byte003_2230_unsigned_byte003_2230_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_byte002_2229_unsigned_byte002_2229_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10945,15 +9877,14 @@ def test_unsigned_byte002_2229_unsigned_byte002_2229_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_byte001_2228_unsigned_byte001_2228_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/unsignedByte.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedByte001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10968,9 +9899,7 @@ def test_unsigned_short007_2227_unsigned_short007_2227_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort007.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -10978,15 +9907,14 @@ def test_unsigned_short007_2227_unsigned_short007_2227_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_short006_2226_unsigned_short006_2226_i(save_xml):
     """
     TEST :Facet Schemas for string : value=65536
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11000,9 +9928,7 @@ def test_unsigned_short005_2225_unsigned_short005_2225_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11016,9 +9942,7 @@ def test_unsigned_short004_2224_unsigned_short004_2224_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11032,9 +9956,7 @@ def test_unsigned_short003_2223_unsigned_short003_2223_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11042,15 +9964,14 @@ def test_unsigned_short003_2223_unsigned_short003_2223_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_short002_2222_unsigned_short002_2222_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11058,15 +9979,14 @@ def test_unsigned_short002_2222_unsigned_short002_2222_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_short001_2221_unsigned_short001_2221_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/unsignedShort.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedShort001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11081,9 +10001,7 @@ def test_unsigned_int007_2220_unsigned_int007_2220_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt007.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11091,15 +10009,14 @@ def test_unsigned_int007_2220_unsigned_int007_2220_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_int006_2219_unsigned_int006_2219_i(save_xml):
     """
     TEST :Facet Schemas for string : value=4294967296
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11113,9 +10030,7 @@ def test_unsigned_int005_2218_unsigned_int005_2218_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11129,9 +10044,7 @@ def test_unsigned_int004_2217_unsigned_int004_2217_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11145,9 +10058,7 @@ def test_unsigned_int003_2216_unsigned_int003_2216_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11155,15 +10066,14 @@ def test_unsigned_int003_2216_unsigned_int003_2216_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_int002_2215_unsigned_int002_2215_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11171,15 +10081,14 @@ def test_unsigned_int002_2215_unsigned_int002_2215_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_int001_2214_unsigned_int001_2214_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/unsignedInt.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedInt001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11194,9 +10103,7 @@ def test_unsigned_long007_2213_unsigned_long007_2213_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong007.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11204,15 +10111,14 @@ def test_unsigned_long007_2213_unsigned_long007_2213_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_long006_2212_unsigned_long006_2212_i(save_xml):
     """
     TEST :Facet Schemas for string : value=18446744073709551616
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11226,9 +10132,7 @@ def test_unsigned_long005_2211_unsigned_long005_2211_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11242,9 +10146,7 @@ def test_unsigned_long004_2210_unsigned_long004_2210_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11258,9 +10160,7 @@ def test_unsigned_long003_2209_unsigned_long003_2209_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11268,15 +10168,14 @@ def test_unsigned_long003_2209_unsigned_long003_2209_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_long002_2208_unsigned_long002_2208_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11284,15 +10183,14 @@ def test_unsigned_long002_2208_unsigned_long002_2208_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_unsigned_long001_2207_unsigned_long001_2207_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/unsignedLong.xsd",
-        is_valid=True,
         instance="msData/datatypes/unsignedLong001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11306,9 +10204,7 @@ def test_non_negative_integer005_2206_non_negative_integer005_2206_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonNegativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonNegativeInteger005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11322,9 +10218,7 @@ def test_non_negative_integer004_2205_non_negative_integer004_2205_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonNegativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonNegativeInteger004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11338,9 +10232,7 @@ def test_non_negative_integer003_2204_non_negative_integer003_2204_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonNegativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonNegativeInteger003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11348,15 +10240,14 @@ def test_non_negative_integer003_2204_non_negative_integer003_2204_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_non_negative_integer002_2203_non_negative_integer002_2203_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/nonNegativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonNegativeInteger002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11364,15 +10255,14 @@ def test_non_negative_integer002_2203_non_negative_integer002_2203_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_non_negative_integer001_2202_non_negative_integer001_2202_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/nonNegativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonNegativeInteger001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11386,9 +10276,7 @@ def test_byte009_2201_byte009_2201_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte009.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11396,15 +10284,14 @@ def test_byte009_2201_byte009_2201_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_byte008_2200_byte008_2200_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-129
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11418,9 +10305,7 @@ def test_byte007_2199_byte007_2199_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11428,15 +10313,14 @@ def test_byte007_2199_byte007_2199_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_byte006_2198_byte006_2198_i(save_xml):
     """
     TEST :Facet Schemas for string : value=128
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11450,9 +10334,7 @@ def test_byte005_2197_byte005_2197_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11466,9 +10348,7 @@ def test_byte004_2196_byte004_2196_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11482,9 +10362,7 @@ def test_byte003_2195_byte003_2195_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11498,9 +10376,7 @@ def test_byte002_2194_byte002_2194_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11508,15 +10384,14 @@ def test_byte002_2194_byte002_2194_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_byte001_2193_byte001_2193_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
-        is_valid=True,
         instance="msData/datatypes/byte001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11530,9 +10405,7 @@ def test_short009_2192_short009_2192_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short009.xsd",
-        is_valid=True,
         instance="msData/datatypes/short009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11540,15 +10413,14 @@ def test_short009_2192_short009_2192_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_short008_2191_short008_2191_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-32769
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11562,9 +10434,7 @@ def test_short007_2190_short007_2190_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11572,15 +10442,14 @@ def test_short007_2190_short007_2190_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_short006_2189_short006_2189_i(save_xml):
     """
     TEST :Facet Schemas for string : value=32768
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11594,9 +10463,7 @@ def test_short005_2188_short005_2188_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11610,9 +10477,7 @@ def test_short004_2187_short004_2187_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11626,9 +10491,7 @@ def test_short003_2186_short003_2186_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11642,9 +10505,7 @@ def test_short002_2185_short002_2185_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11652,15 +10513,14 @@ def test_short002_2185_short002_2185_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_short001_2184_short001_2184_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/short.xsd",
-        is_valid=True,
         instance="msData/datatypes/short001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11668,15 +10528,14 @@ def test_short001_2184_short001_2184_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_int008_2183_int008_2183_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-2147483649
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11690,9 +10549,7 @@ def test_int007_2182_int007_2182_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11700,15 +10557,14 @@ def test_int007_2182_int007_2182_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_int006_2181_int006_2181_i(save_xml):
     """
     TEST :Facet Schemas for string : value=2147483648
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11722,9 +10578,7 @@ def test_int005_2180_int005_2180_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11738,9 +10592,7 @@ def test_int004_2179_int004_2179_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11754,9 +10606,7 @@ def test_int003_2178_int003_2178_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11770,9 +10620,7 @@ def test_int002_2177_int002_2177_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11780,15 +10628,14 @@ def test_int002_2177_int002_2177_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_int001_2176_int001_2176_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/int.xsd",
-        is_valid=True,
         instance="msData/datatypes/int001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11802,9 +10649,7 @@ def test_long009_2175_long009_2175_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long009.xsd",
-        is_valid=True,
         instance="msData/datatypes/long009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11812,15 +10657,14 @@ def test_long009_2175_long009_2175_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_long008_2174_long008_2174_i(save_xml):
     """
     TEST :Facet Schemas for string : value=9223372036854775808
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11834,9 +10678,7 @@ def test_long007_2173_long007_2173_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11844,15 +10686,14 @@ def test_long007_2173_long007_2173_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_long006_2172_long006_2172_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-9223372036854775809
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11866,9 +10707,7 @@ def test_long005_2171_long005_2171_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11882,9 +10721,7 @@ def test_long004_2170_long004_2170_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11898,9 +10735,7 @@ def test_long003_2169_long003_2169_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11914,9 +10749,7 @@ def test_long002_2168_long002_2168_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11924,15 +10757,14 @@ def test_long002_2168_long002_2168_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_long001_2167_long001_2167_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/long.xsd",
-        is_valid=True,
         instance="msData/datatypes/long001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11946,9 +10778,7 @@ def test_negative_integer005_2166_negative_integer005_2166_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/negativeInteger005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11956,15 +10786,14 @@ def test_negative_integer005_2166_negative_integer005_2166_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_negative_integer004_2165_negative_integer004_2165_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1
     """
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/negativeInteger004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11972,15 +10801,14 @@ def test_negative_integer004_2165_negative_integer004_2165_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_negative_integer003_2164_negative_integer003_2164_i(save_xml):
     """
     TEST :Facet Schemas for string : value=0
     """
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/negativeInteger003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -11994,9 +10822,7 @@ def test_negative_integer002_2163_negative_integer002_2163_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/negativeInteger002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12004,15 +10830,14 @@ def test_negative_integer002_2163_negative_integer002_2163_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_negative_integer001_2162_negative_integer001_2162_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/negativeInteger001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12026,9 +10851,7 @@ def test_non_positive_integer005_2161_non_positive_integer005_2161_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonPositiveInteger005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12036,15 +10859,14 @@ def test_non_positive_integer005_2161_non_positive_integer005_2161_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_non_positive_integer004_2160_non_positive_integer004_2160_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1
     """
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonPositiveInteger004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12058,9 +10880,7 @@ def test_non_positive_integer003_2159_non_positive_integer003_2159_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonPositiveInteger003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12074,9 +10894,7 @@ def test_non_positive_integer002_2158_non_positive_integer002_2158_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonPositiveInteger002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12084,15 +10902,14 @@ def test_non_positive_integer002_2158_non_positive_integer002_2158_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_non_positive_integer001_2157_non_positive_integer001_2157_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
-        is_valid=True,
         instance="msData/datatypes/nonPositiveInteger001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12100,15 +10917,14 @@ def test_non_positive_integer001_2157_non_positive_integer001_2157_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer016_2156_integer016_2156_i(save_xml):
     """
     TEST :Facet Schemas for string : value=ABCDEF
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12116,15 +10932,14 @@ def test_integer016_2156_integer016_2156_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer015_2155_integer015_2155_i(save_xml):
     """
     TEST :Facet Schemas for string : value=NaN
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12132,15 +10947,14 @@ def test_integer015_2155_integer015_2155_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer014_2154_integer014_2154_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-INF
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer014.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12148,15 +10962,14 @@ def test_integer014_2154_integer014_2154_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer013_2153_integer013_2153_i(save_xml):
     """
     TEST :Facet Schemas for string : value=INF
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer013.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12164,15 +10977,14 @@ def test_integer013_2153_integer013_2153_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer012_2152_integer012_2152_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1E4
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12186,9 +10998,7 @@ def test_integer011_2151_integer011_2151_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12202,9 +11012,7 @@ def test_integer010_2150_integer010_2150_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12218,9 +11026,7 @@ def test_integer009_2149_integer009_2149_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12234,9 +11040,7 @@ def test_integer008_2148_integer008_2148_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12250,9 +11054,7 @@ def test_integer007_2147_integer007_2147_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12260,15 +11062,14 @@ def test_integer007_2147_integer007_2147_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer006_2146_integer006_2146_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+0.0
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12282,9 +11083,7 @@ def test_integer005_2145_integer005_2145_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12298,9 +11097,7 @@ def test_integer004_2144_integer004_2144_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12308,15 +11105,14 @@ def test_integer004_2144_integer004_2144_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer003_2143_integer003_2143_i(save_xml):
     """
     TEST :Facet Schemas for string : value=3.14159
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12324,15 +11120,14 @@ def test_integer003_2143_integer003_2143_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer002_2142_integer002_2142_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-3.14159
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12340,15 +11135,14 @@ def test_integer002_2142_integer002_2142_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_integer001_2141_integer001_2141_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/integer.xsd",
-        is_valid=True,
         instance="msData/datatypes/integer001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12356,15 +11150,14 @@ def test_integer001_2141_integer001_2141_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname011_2140_ncname011_2140_i(save_xml):
     """
     TEST :Facet Schemas for string : value=//foo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12372,15 +11165,14 @@ def test_ncname011_2140_ncname011_2140_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname010_2139_ncname010_2139_i(save_xml):
     """
     TEST :Facet Schemas for string : value=@test
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12388,15 +11180,14 @@ def test_ncname010_2139_ncname010_2139_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname009_2138_ncname009_2138_i(save_xml):
     """
     TEST :Facet Schemas for string : value=:foo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12404,15 +11195,14 @@ def test_ncname009_2138_ncname009_2138_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname008_2137_ncname008_2137_i(save_xml):
     """
     TEST :Facet Schemas for string : value=fo:foo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12426,9 +11216,7 @@ def test_ncname007_2136_ncname007_2136_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12436,15 +11224,14 @@ def test_ncname007_2136_ncname007_2136_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname006_2135_ncname006_2135_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-foo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12452,15 +11239,14 @@ def test_ncname006_2135_ncname006_2135_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname005_2134_ncname005_2134_i(save_xml):
     """
     TEST :Facet Schemas for string : value=.foo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12468,15 +11254,14 @@ def test_ncname005_2134_ncname005_2134_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname004_2133_ncname004_2133_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1fo
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12490,9 +11275,7 @@ def test_ncname003_2132_ncname003_2132_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12506,9 +11289,7 @@ def test_ncname002_2131_ncname002_2131_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12516,15 +11297,14 @@ def test_ncname002_2131_ncname002_2131_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_ncname001_2130_ncname001_2130_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
-        is_valid=True,
         instance="msData/datatypes/NCName001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12532,15 +11312,14 @@ def test_ncname001_2130_ncname001_2130_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name018_2129_name018_2129_i(save_xml):
     """
     TEST :Facet Schemas for string : value=//foo
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name018.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12548,15 +11327,14 @@ def test_name018_2129_name018_2129_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name017_2128_name017_2128_i(save_xml):
     """
     TEST :Facet Schemas for string : value=@test
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name017.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12570,9 +11348,7 @@ def test_name016_2127_name016_2127_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12586,9 +11362,7 @@ def test_name015_2126_name015_2126_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12596,15 +11370,14 @@ def test_name015_2126_name015_2126_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name014_2125_name014_2125_i(save_xml):
     """
     TEST :Facet Schemas for string : value=fo:'-foo
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name014.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12618,9 +11391,7 @@ def test_name013_2124_name013_2124_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12634,9 +11405,7 @@ def test_name012_2123_name012_2123_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12650,9 +11419,7 @@ def test_name011_2122_name011_2122_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12666,9 +11433,7 @@ def test_name010_2121_name010_2121_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12682,9 +11447,7 @@ def test_name009_2120_name009_2120_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12698,9 +11461,7 @@ def test_name008_2119_name008_2119_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12714,9 +11475,7 @@ def test_name007_2118_name007_2118_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12724,15 +11483,14 @@ def test_name007_2118_name007_2118_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name006_2117_name006_2117_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-foo
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12740,15 +11498,14 @@ def test_name006_2117_name006_2117_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name005_2116_name005_2116_i(save_xml):
     """
     TEST :Facet Schemas for string : value=.foo
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12756,15 +11513,14 @@ def test_name005_2116_name005_2116_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name004_2115_name004_2115_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1fo
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12778,9 +11534,7 @@ def test_name003_2114_name003_2114_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12794,9 +11548,7 @@ def test_name002_2113_name002_2113_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12804,15 +11556,14 @@ def test_name002_2113_name002_2113_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_name001_2112_name001_2112_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
-        is_valid=True,
         instance="msData/datatypes/Name001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12820,6 +11571,7 @@ def test_name001_2112_name001_2112_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_language010_2111_language010_2111_i(save_xml):
     """
     TEST :Facet Schemas for string : xsd:language doesn't quite follow the
@@ -12827,9 +11579,7 @@ def test_language010_2111_language010_2111_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12843,9 +11593,7 @@ def test_language009_2110_language009_2110_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12853,15 +11601,14 @@ def test_language009_2110_language009_2110_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_language008_2109_language008_2109_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1ko
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12875,9 +11622,7 @@ def test_language007_2108_language007_2108_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12891,9 +11636,7 @@ def test_language006_2107_language006_2107_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12907,9 +11650,7 @@ def test_language005_2106_language005_2106_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12923,9 +11664,7 @@ def test_language004_2105_language004_2105_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12939,9 +11678,7 @@ def test_language003_2104_language003_2104_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12955,9 +11692,7 @@ def test_language002_2103_language002_2103_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12965,15 +11700,14 @@ def test_language002_2103_language002_2103_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_language001_2102_language001_2102_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/language.xsd",
-        is_valid=True,
         instance="msData/datatypes/language001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -12987,9 +11721,7 @@ def test_token004_2101_token004_2101_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/token.xsd",
-        is_valid=True,
         instance="msData/datatypes/token004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13003,9 +11735,7 @@ def test_token003_2100_token003_2100_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/token.xsd",
-        is_valid=True,
         instance="msData/datatypes/token003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13019,9 +11749,7 @@ def test_token002_2099_token002_2099_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/token.xsd",
-        is_valid=True,
         instance="msData/datatypes/token002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13035,9 +11763,7 @@ def test_token001_2098_token001_2098_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/token.xsd",
-        is_valid=True,
         instance="msData/datatypes/token001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13051,9 +11777,7 @@ def test_normalized_string003_2097_normalized_string003_2097_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/normalizedString.xsd",
-        is_valid=True,
         instance="msData/datatypes/normalizedString003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13067,9 +11791,7 @@ def test_normalized_string002_2096_normalized_string002_2096_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/normalizedString.xsd",
-        is_valid=True,
         instance="msData/datatypes/normalizedString002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13083,9 +11805,7 @@ def test_normalized_string001_2095_normalized_string001_2095_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/normalizedString.xsd",
-        is_valid=True,
         instance="msData/datatypes/normalizedString001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13093,15 +11813,14 @@ def test_normalized_string001_2095_normalized_string001_2095_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname011_2094_qname011_2094_i(save_xml):
     """
     TEST :Facet Schemas for string : value=//foo
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13109,15 +11828,14 @@ def test_qname011_2094_qname011_2094_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname010_2093_qname010_2093_i(save_xml):
     """
     TEST :Facet Schemas for string : value=@test
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13125,6 +11843,7 @@ def test_qname010_2093_qname010_2093_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname009_2092_qname009_2092_v(save_xml):
     """
     TEST :Facet Schemas for string : value=xmlns:xsi WG decided on
@@ -13133,9 +11852,7 @@ def test_qname009_2092_qname009_2092_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13143,15 +11860,14 @@ def test_qname009_2092_qname009_2092_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname008_2091_qname008_2091_i(save_xml):
     """
     TEST :Facet Schemas for string : value=fo:1fo
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13159,15 +11875,14 @@ def test_qname008_2091_qname008_2091_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname007_2090_qname007_2090_i(save_xml):
     """
     TEST :Facet Schemas for string : value=:foo
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName007.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13181,9 +11896,7 @@ def test_qname006_2089_qname006_2089_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13191,15 +11904,14 @@ def test_qname006_2089_qname006_2089_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname005_2088_qname005_2088_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-foo
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13207,15 +11919,14 @@ def test_qname005_2088_qname005_2088_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname004_2087_qname004_2087_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1fo
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13229,9 +11940,7 @@ def test_qname003_2086_qname003_2086_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13245,9 +11954,7 @@ def test_qname002_2085_qname002_2085_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13255,15 +11962,14 @@ def test_qname002_2085_qname002_2085_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_qname001_2084_qname001_2084_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
-        is_valid=True,
         instance="msData/datatypes/QName001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13277,9 +11983,7 @@ def test_any_uri011_2083_any_uri011_2083_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI011.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13294,9 +11998,7 @@ def test_any_uri010_2082_any_uri010_2082_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13312,9 +12014,7 @@ def test_any_uri009_2081_any_uri009_2081_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13328,9 +12028,7 @@ def test_any_uri008_2080_any_uri008_2080_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13345,9 +12043,7 @@ def test_any_uri007_2079_any_uri007_2079_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13362,9 +12058,7 @@ def test_any_uri006_2078_any_uri006_2078_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13379,9 +12073,7 @@ def test_any_uri005_2077_any_uri005_2077_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13397,9 +12089,7 @@ def test_any_uri004_2076_any_uri004_2076_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13414,9 +12104,7 @@ def test_any_uri003_2075_any_uri003_2075_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13430,9 +12118,7 @@ def test_any_uri002_2074_any_uri002_2074_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13446,9 +12132,7 @@ def test_any_uri001_2073_any_uri001_2073_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/anyURI.xsd",
-        is_valid=True,
         instance="msData/datatypes/anyURI001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13463,9 +12147,7 @@ def test_base64_binary002_2072_base64_binary002_2072_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/base64Binary002.xsd",
-        is_valid=True,
         instance="msData/datatypes/base64Binary002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13479,9 +12161,7 @@ def test_base64_binary001_2071_base64_binary001_2071_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/base64Binary.xsd",
-        is_valid=True,
         instance="msData/datatypes/base64Binary001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13489,6 +12169,7 @@ def test_base64_binary001_2071_base64_binary001_2071_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_hex_binary004_2070_hex_binary004_2070_i(save_xml):
     """
     TEST :Facet Schemas for string : Test for HexBinary value with
@@ -13496,9 +12177,7 @@ def test_hex_binary004_2070_hex_binary004_2070_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/hexBinary.xsd",
-        is_valid=True,
         instance="msData/datatypes/hexBinary004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13506,6 +12185,7 @@ def test_hex_binary004_2070_hex_binary004_2070_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_hex_binary003_2069_hex_binary003_2069_v(save_xml):
     """
     TEST :Facet Schemas for string : Test for HexBinary value with
@@ -13513,9 +12193,7 @@ def test_hex_binary003_2069_hex_binary003_2069_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/hexBinary.xsd",
-        is_valid=True,
         instance="msData/datatypes/hexBinary003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13529,9 +12207,7 @@ def test_hex_binary002_2068_hex_binary002_2068_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/hexBinary002.xsd",
-        is_valid=True,
         instance="msData/datatypes/hexBinary002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13545,9 +12221,7 @@ def test_hex_binary001_2067_hex_binary001_2067_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/hexBinary.xsd",
-        is_valid=True,
         instance="msData/datatypes/hexBinary001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13555,15 +12229,14 @@ def test_hex_binary001_2067_hex_binary001_2067_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month007_2066_g_month007_2066_i(save_xml):
     """
     TEST :Facet Schemas for string : value=- -15- -
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth007.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13571,15 +12244,14 @@ def test_g_month007_2066_g_month007_2066_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month006_2065_g_month006_2065_i(save_xml):
     """
     TEST :Facet Schemas for string : value=- -3- -
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13587,15 +12259,14 @@ def test_g_month006_2065_g_month006_2065_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month005_2064_g_month005_2064_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-05-10
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13609,9 +12280,7 @@ def test_g_month004_2063_g_month004_2063_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13619,15 +12288,14 @@ def test_g_month004_2063_g_month004_2063_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month003_2062_g_month003_2062_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-05- -
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13641,9 +12309,7 @@ def test_g_month002_2061_g_month002_2061_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13651,15 +12317,14 @@ def test_g_month002_2061_g_month002_2061_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month001_2060_g_month001_2060_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonth001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13667,15 +12332,14 @@ def test_g_month001_2060_g_month001_2060_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_day005_2059_g_day005_2059_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/gDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gDay005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13683,15 +12347,14 @@ def test_g_day005_2059_g_day005_2059_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_day004_2058_g_day004_2058_i(save_xml):
     """
     TEST :Facet Schemas for string : value=- -15
     """
     assert_bindings(
         schema="msData/datatypes/gDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gDay004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13705,9 +12368,7 @@ def test_g_day003_2057_g_day003_2057_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gDay003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13721,9 +12382,7 @@ def test_g_day002_2056_g_day002_2056_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gDay002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13737,9 +12396,7 @@ def test_g_day001_2055_g_day001_2055_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gDay001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13747,6 +12404,7 @@ def test_g_day001_2055_g_day001_2055_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month_day006_2054_g_month_day006_2054_i(save_xml):
     """
     TEST :Facet Schemas for string : gMonthDay should disallow "--02-30"
@@ -13754,9 +12412,7 @@ def test_g_month_day006_2054_g_month_day006_2054_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay006.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -13764,15 +12420,14 @@ def test_g_month_day006_2054_g_month_day006_2054_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month_day005_2053_g_month_day005_2053_i(save_xml):
     """
     TEST :Facet Schemas for string : value=- - -03-15
     """
     assert_bindings(
         schema="msData/datatypes/gMonthDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13786,9 +12441,7 @@ def test_g_month_day004_2052_g_month_day004_2052_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gMonthDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13802,9 +12455,7 @@ def test_g_month_day003_2051_g_month_day003_2051_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gMonthDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13818,9 +12469,7 @@ def test_g_month_day002_2050_g_month_day002_2050_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gMonthDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13828,15 +12477,14 @@ def test_g_month_day002_2050_g_month_day002_2050_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_month_day001_2049_g_month_day001_2049_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/gMonthDay.xsd",
-        is_valid=True,
         instance="msData/datatypes/gMonthDay001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13850,9 +12498,7 @@ def test_g_year006_2048_g_year006_2048_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gYear.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYear006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13860,15 +12506,14 @@ def test_g_year006_2048_g_year006_2048_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_year005_2047_g_year005_2047_i(save_xml):
     """
     TEST :Facet Schemas for string : value=2000-00
     """
     assert_bindings(
         schema="msData/datatypes/gYear.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYear005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13882,9 +12527,7 @@ def test_g_year002_2046_g_year002_2046_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gYear.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYear002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13892,15 +12535,14 @@ def test_g_year002_2046_g_year002_2046_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_year001_2045_g_year001_2045_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/gYear.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYear001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13908,15 +12550,14 @@ def test_g_year001_2045_g_year001_2045_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_year_month006_2044_g_year_month006_2044_i(save_xml):
     """
     TEST :Facet Schemas for string : value=99-10
     """
     assert_bindings(
         schema="msData/datatypes/gYearMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYearMonth006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13924,15 +12565,14 @@ def test_g_year_month006_2044_g_year_month006_2044_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_year_month004_2043_g_year_month004_2043_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-15
     """
     assert_bindings(
         schema="msData/datatypes/gYearMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYearMonth004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13946,9 +12586,7 @@ def test_g_year_month003_2042_g_year_month003_2042_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gYearMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYearMonth003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13962,9 +12600,7 @@ def test_g_year_month002_2041_g_year_month002_2041_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/gYearMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYearMonth002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13972,15 +12608,14 @@ def test_g_year_month002_2041_g_year_month002_2041_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_g_year_month001_2040_g_year_month001_2040_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/gYearMonth.xsd",
-        is_valid=True,
         instance="msData/datatypes/gYearMonth001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -13988,15 +12623,14 @@ def test_g_year_month001_2040_g_year_month001_2040_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date011_2039_date011_2039_i(save_xml):
     """
     TEST :Facet Schemas for string : value=123456
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14010,9 +12644,7 @@ def test_date010_2038_date010_2038_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14020,15 +12652,14 @@ def test_date010_2038_date010_2038_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date009_2037_date009_2037_i(save_xml):
     """
     TEST :Facet Schemas for string : value=2000-13-14
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14036,15 +12667,14 @@ def test_date009_2037_date009_2037_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date006_2036_date006_2036_i(save_xml):
     """
     TEST :Facet Schemas for string : value=01-01-01
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14058,9 +12688,7 @@ def test_date005_2035_date005_2035_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14068,15 +12696,14 @@ def test_date005_2035_date005_2035_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date004_2034_date004_2034_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-02-29
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14084,15 +12711,14 @@ def test_date004_2034_date004_2034_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date003_2033_date003_2033_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-05-32
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14106,9 +12732,7 @@ def test_date002_2032_date002_2032_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14116,15 +12740,14 @@ def test_date002_2032_date002_2032_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date001_2031_date001_2031_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/date.xsd",
-        is_valid=True,
         instance="msData/datatypes/date001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14132,15 +12755,14 @@ def test_date001_2031_date001_2031_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time022_2030_time022_2030_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+13:20:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time022.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14148,15 +12770,14 @@ def test_time022_2030_time022_2030_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time021_2029_time021_2029_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-13:20:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time021.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14164,15 +12785,14 @@ def test_time021_2029_time021_2029_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time020_2028_time020_2028_i(save_xml):
     """
     TEST :Facet Schemas for string : value=0:0:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time020.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14180,15 +12800,14 @@ def test_time020_2028_time020_2028_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time019_2027_time019_2027_i(save_xml):
     """
     TEST :Facet Schemas for string : value=0:20:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time019.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14196,15 +12815,14 @@ def test_time019_2027_time019_2027_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time018_2026_time018_2026_i(save_xml):
     """
     TEST :Facet Schemas for string : value=25:20:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time018.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14212,15 +12830,14 @@ def test_time018_2026_time018_2026_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time017_2025_time017_2025_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13:60:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time017.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14228,15 +12845,14 @@ def test_time017_2025_time017_2025_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time016_2024_time016_2024_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13:20:60
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14244,15 +12860,14 @@ def test_time016_2024_time016_2024_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time015_2023_time015_2023_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13.4:20:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14260,15 +12875,14 @@ def test_time015_2023_time015_2023_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time014_2022_time014_2022_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13:20.4:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time014.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14282,9 +12896,7 @@ def test_time013_2021_time013_2021_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14298,9 +12910,7 @@ def test_time012_2020_time012_2020_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14314,9 +12924,7 @@ def test_time011_2019_time011_2019_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14330,9 +12938,7 @@ def test_time009_2018_time009_2018_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14346,9 +12952,7 @@ def test_time008_2017_time008_2017_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14362,9 +12966,7 @@ def test_time007_2016_time007_2016_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14378,9 +12980,7 @@ def test_time006_2015_time006_2015_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14394,9 +12994,7 @@ def test_time005_2014_time005_2014_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14410,9 +13008,7 @@ def test_time004_2013_time004_2013_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14420,15 +13016,14 @@ def test_time004_2013_time004_2013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time003_2012_time003_2012_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1985-04-12T10:30
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14436,15 +13031,14 @@ def test_time003_2012_time003_2012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time002_2011_time002_2011_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1999-05-31T13:20:00-05:00
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14452,15 +13046,14 @@ def test_time002_2011_time002_2011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_time001_2010_time001_2010_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/time.xsd",
-        is_valid=True,
         instance="msData/datatypes/time001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14468,6 +13061,7 @@ def test_time001_2010_time001_2010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date_time013_2009_date_time013_2009_i(save_xml):
     """
     TEST :Facet Schemas for string : should we allow '+'(plus sign)
@@ -14475,9 +13069,7 @@ def test_date_time013_2009_date_time013_2009_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime013.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -14492,9 +13084,7 @@ def test_date_time011_2008_date_time011_2008_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14508,9 +13098,7 @@ def test_date_time010_2007_date_time010_2007_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14524,9 +13112,7 @@ def test_date_time008_2006_date_time008_2006_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14540,9 +13126,7 @@ def test_date_time007_2005_date_time007_2005_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14556,9 +13140,7 @@ def test_date_time006_2004_date_time006_2004_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14572,9 +13154,7 @@ def test_date_time005_2003_date_time005_2003_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14582,15 +13162,14 @@ def test_date_time005_2003_date_time005_2003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date_time004_2002_date_time004_2002_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1985-102T23:50:30
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14604,9 +13183,7 @@ def test_date_time003_2001_date_time003_2001_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14620,9 +13197,7 @@ def test_date_time002_2000_date_time002_2000_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14630,15 +13205,14 @@ def test_date_time002_2000_date_time002_2000_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_date_time001_1999_date_time001_1999_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/dateTime.xsd",
-        is_valid=True,
         instance="msData/datatypes/dateTime001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14646,6 +13220,7 @@ def test_date_time001_1999_date_time001_1999_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration030_1998_duration030_1998_i(save_xml):
     """
     TEST :Facet Schemas for string : For duration, the number and its
@@ -14653,9 +13228,7 @@ def test_duration030_1998_duration030_1998_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration030.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -14663,6 +13236,7 @@ def test_duration030_1998_duration030_1998_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration029_1997_duration029_1997_i(save_xml):
     """
     TEST :Facet Schemas for string : For duration, the designator 'T'
@@ -14670,9 +13244,7 @@ def test_duration029_1997_duration029_1997_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration029.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -14680,6 +13252,7 @@ def test_duration029_1997_duration029_1997_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration028_1996_duration028_1996_i(save_xml):
     """
     TEST :Facet Schemas for string : string 'P' for duration should raise
@@ -14687,9 +13260,7 @@ def test_duration028_1996_duration028_1996_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/datatypes.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration028.xml",
-        instance_is_valid=False,
         class_name="Data",
         version="1.1",
         save_xml=save_xml,
@@ -14703,9 +13274,7 @@ def test_duration027_1995_duration027_1995_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration027.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14719,9 +13288,7 @@ def test_duration026_1994_duration026_1994_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14735,9 +13302,7 @@ def test_duration025_1993_duration025_1993_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14751,9 +13316,7 @@ def test_duration024_1992_duration024_1992_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14767,9 +13330,7 @@ def test_duration023_1991_duration023_1991_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14783,9 +13344,7 @@ def test_duration022_1990_duration022_1990_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14793,15 +13352,14 @@ def test_duration022_1990_duration022_1990_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration021_1989_duration021_1989_i(save_xml):
     """
     TEST :Facet Schemas for string : value=P0Y0M0DT0H-0M0.0001S
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration021.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14815,9 +13373,7 @@ def test_duration020_1988_duration020_1988_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14831,9 +13387,7 @@ def test_duration019_1987_duration019_1987_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14847,9 +13401,7 @@ def test_duration018_1986_duration018_1986_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14863,9 +13415,7 @@ def test_duration017_1985_duration017_1985_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14879,9 +13429,7 @@ def test_duration016_1984_duration016_1984_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14889,15 +13437,14 @@ def test_duration016_1984_duration016_1984_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration015_1983_duration015_1983_i(save_xml):
     """
     TEST :Facet Schemas for string : value=T312H
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14911,9 +13458,7 @@ def test_duration014_1982_duration014_1982_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14921,15 +13466,14 @@ def test_duration014_1982_duration014_1982_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration013_1981_duration013_1981_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1234Y
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration013.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14943,9 +13487,7 @@ def test_duration012_1980_duration012_1980_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14953,15 +13495,14 @@ def test_duration012_1980_duration012_1980_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration011_1979_duration011_1979_i(save_xml):
     """
     TEST :Facet Schemas for string : value=P200.5Y
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14969,15 +13510,14 @@ def test_duration011_1979_duration011_1979_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration010_1978_duration010_1978_i(save_xml):
     """
     TEST :Facet Schemas for string : value=P1Y2MT
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -14991,9 +13531,7 @@ def test_duration009_1977_duration009_1977_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15001,15 +13539,14 @@ def test_duration009_1977_duration009_1977_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration008_1976_duration008_1976_i(save_xml):
     """
     TEST :Facet Schemas for string : value=P-1347M
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15023,9 +13560,7 @@ def test_duration007_1975_duration007_1975_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15039,9 +13574,7 @@ def test_duration006_1974_duration006_1974_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15055,9 +13588,7 @@ def test_duration005_1973_duration005_1973_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15071,9 +13602,7 @@ def test_duration004_1972_duration004_1972_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15087,9 +13616,7 @@ def test_duration003_1971_duration003_1971_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15103,9 +13630,7 @@ def test_duration002_1970_duration002_1970_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15113,15 +13638,14 @@ def test_duration002_1970_duration002_1970_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_duration001_1969_duration001_1969_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
-        is_valid=True,
         instance="msData/datatypes/duration001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15135,9 +13659,7 @@ def test_double030_1968_double030_1968_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double030.xsd",
-        is_valid=True,
         instance="msData/datatypes/double030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15145,15 +13667,14 @@ def test_double030_1968_double030_1968_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double029_1967_double029_1967_i(save_xml):
     """
     TEST :Facet Schemas for string : value=ABCDEF
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double029.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15167,9 +13688,7 @@ def test_double028_1966_double028_1966_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15183,9 +13702,7 @@ def test_double027_1965_double027_1965_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15193,15 +13710,14 @@ def test_double027_1965_double027_1965_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double026_1964_double026_1964_i(save_xml):
     """
     TEST :Facet Schemas for string : value=NAN
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double026.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15209,15 +13725,14 @@ def test_double026_1964_double026_1964_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double025_1963_double025_1963_i(save_xml):
     """
     TEST :Facet Schemas for string : value=nan
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double025.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15225,15 +13740,14 @@ def test_double025_1963_double025_1963_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double024_1962_double024_1962_i(save_xml):
     """
     TEST :Facet Schemas for string : value=inf
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double024.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15241,15 +13755,14 @@ def test_double024_1962_double024_1962_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double023_1961_double023_1961_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-NaN
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double023.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15257,15 +13770,14 @@ def test_double023_1961_double023_1961_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double022_1960_double022_1960_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+NaN
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double022.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15279,9 +13791,7 @@ def test_double021_1959_double021_1959_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15295,9 +13805,7 @@ def test_double020_1958_double020_1958_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15311,9 +13819,7 @@ def test_double019_1957_double019_1957_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15328,9 +13834,7 @@ def test_double018_1956_double018_1956_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15344,9 +13848,7 @@ def test_double017_1955_double017_1955_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15354,15 +13856,14 @@ def test_double017_1955_double017_1955_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double016_1954_double016_1954_i(save_xml):
     """
     TEST :Facet Schemas for string : value=E
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15370,15 +13871,14 @@ def test_double016_1954_double016_1954_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double015_1953_double015_1953_i(save_xml):
     """
     TEST :Facet Schemas for string : value=e
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15392,9 +13892,7 @@ def test_double014_1952_double014_1952_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15408,9 +13906,7 @@ def test_double013_1951_double013_1951_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15424,9 +13920,7 @@ def test_double012_1950_double012_1950_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15440,9 +13934,7 @@ def test_double011_1949_double011_1949_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15456,9 +13948,7 @@ def test_double010_1948_double010_1948_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15472,9 +13962,7 @@ def test_double009_1947_double009_1947_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15488,9 +13976,7 @@ def test_double008_1946_double008_1946_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15504,9 +13990,7 @@ def test_double007_1945_double007_1945_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15520,9 +14004,7 @@ def test_double006_1944_double006_1944_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15536,9 +14018,7 @@ def test_double005_1943_double005_1943_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15552,9 +14032,7 @@ def test_double004_1942_double004_1942_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15568,9 +14046,7 @@ def test_double003_1941_double003_1941_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15584,9 +14060,7 @@ def test_double002_1940_double002_1940_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15594,15 +14068,14 @@ def test_double002_1940_double002_1940_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_double001_1939_double001_1939_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/double.xsd",
-        is_valid=True,
         instance="msData/datatypes/double001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15616,9 +14089,7 @@ def test_float039_1938_float039_1938_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float039.xsd",
-        is_valid=True,
         instance="msData/datatypes/float039.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15632,9 +14103,7 @@ def test_float038_1937_float038_1937_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float038.xsd",
-        is_valid=True,
         instance="msData/datatypes/float038.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15642,15 +14111,14 @@ def test_float038_1937_float038_1937_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float037_1936_float037_1936_i(save_xml):
     """
     TEST :Facet Schemas for string : value=ABCDEF
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float037.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15658,15 +14126,14 @@ def test_float037_1936_float037_1936_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float036_1935_float036_1935_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13.1513.561
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float036.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15674,15 +14141,14 @@ def test_float036_1935_float036_1935_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float035_1934_float035_1934_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1E4.4
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float035.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15696,9 +14162,7 @@ def test_float034_1933_float034_1933_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15712,9 +14176,7 @@ def test_float033_1932_float033_1932_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15728,9 +14190,7 @@ def test_float032_1931_float032_1931_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15744,9 +14204,7 @@ def test_float031_1930_float031_1930_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15760,9 +14218,7 @@ def test_float030_1929_float030_1929_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15776,9 +14232,7 @@ def test_float029_1928_float029_1928_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15792,9 +14246,7 @@ def test_float028_1927_float028_1927_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15802,15 +14254,14 @@ def test_float028_1927_float028_1927_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float027_1926_float027_1926_i(save_xml):
     """
     TEST :Facet Schemas for string : value=1267.432x10
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float027.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15818,15 +14269,14 @@ def test_float027_1926_float027_1926_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float026_1925_float026_1925_i(save_xml):
     """
     TEST :Facet Schemas for string : value=NAN
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float026.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15834,15 +14284,14 @@ def test_float026_1925_float026_1925_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float025_1924_float025_1924_i(save_xml):
     """
     TEST :Facet Schemas for string : value=nan
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float025.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15850,15 +14299,14 @@ def test_float025_1924_float025_1924_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float024_1923_float024_1923_i(save_xml):
     """
     TEST :Facet Schemas for string : value=inf
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float024.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15866,15 +14314,14 @@ def test_float024_1923_float024_1923_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float023_1922_float023_1922_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-NaN
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float023.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15882,15 +14329,14 @@ def test_float023_1922_float023_1922_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float022_1921_float022_1921_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+NaN
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float022.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15904,9 +14350,7 @@ def test_float021_1920_float021_1920_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15920,9 +14364,7 @@ def test_float020_1919_float020_1919_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15936,9 +14378,7 @@ def test_float019_1918_float019_1918_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15953,9 +14393,7 @@ def test_float018_1917_float018_1917_i(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15969,9 +14407,7 @@ def test_float017_1916_float017_1916_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15979,15 +14415,14 @@ def test_float017_1916_float017_1916_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float016_1915_float016_1915_i(save_xml):
     """
     TEST :Facet Schemas for string : value=E
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -15995,15 +14430,14 @@ def test_float016_1915_float016_1915_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float015_1914_float015_1914_i(save_xml):
     """
     TEST :Facet Schemas for string : value=e
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16017,9 +14451,7 @@ def test_float014_1913_float014_1913_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16033,9 +14465,7 @@ def test_float013_1912_float013_1912_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16049,9 +14479,7 @@ def test_float012_1911_float012_1911_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16065,9 +14493,7 @@ def test_float011_1910_float011_1910_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16081,9 +14507,7 @@ def test_float010_1909_float010_1909_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16097,9 +14521,7 @@ def test_float009_1908_float009_1908_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16113,9 +14535,7 @@ def test_float008_1907_float008_1907_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16129,9 +14549,7 @@ def test_float007_1906_float007_1906_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16145,9 +14563,7 @@ def test_float006_1905_float006_1905_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16161,9 +14577,7 @@ def test_float005_1904_float005_1904_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16177,9 +14591,7 @@ def test_float004_1903_float004_1903_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16193,9 +14605,7 @@ def test_float003_1902_float003_1902_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16209,9 +14619,7 @@ def test_float002_1901_float002_1901_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16219,15 +14627,14 @@ def test_float002_1901_float002_1901_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_float001_1900_float001_1900_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/float.xsd",
-        is_valid=True,
         instance="msData/datatypes/float001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16235,15 +14642,14 @@ def test_float001_1900_float001_1900_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal025_1899_decimal025_1899_i(save_xml):
     """
     TEST :Facet Schemas for string : value=123.456E4
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal025.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16251,15 +14657,14 @@ def test_decimal025_1899_decimal025_1899_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal024_1898_decimal024_1898_i(save_xml):
     """
     TEST :Facet Schemas for string : value=ABCDEF
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal024.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16267,15 +14672,14 @@ def test_decimal024_1898_decimal024_1898_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal023_1897_decimal023_1897_i(save_xml):
     """
     TEST :Facet Schemas for string : value=13.1513.561
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal023.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16283,15 +14687,14 @@ def test_decimal023_1897_decimal023_1897_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal022_1896_decimal022_1896_i(save_xml):
     """
     TEST :Facet Schemas for string : value=NaN
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal022.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16299,15 +14702,14 @@ def test_decimal022_1896_decimal022_1896_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal021_1895_decimal021_1895_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-INF
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal021.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16315,15 +14717,14 @@ def test_decimal021_1895_decimal021_1895_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal020_1894_decimal020_1894_i(save_xml):
     """
     TEST :Facet Schemas for string : value=INF
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal020.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16331,15 +14732,14 @@ def test_decimal020_1894_decimal020_1894_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal019_1893_decimal019_1893_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1E4
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal019.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16347,15 +14747,14 @@ def test_decimal019_1893_decimal019_1893_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal018_1892_decimal018_1892_i(save_xml):
     """
     TEST :Facet Schemas for string : value=E
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal018.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16363,15 +14762,14 @@ def test_decimal018_1892_decimal018_1892_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal017_1891_decimal017_1891_i(save_xml):
     """
     TEST :Facet Schemas for string : value=e
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal017.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16385,9 +14783,7 @@ def test_decimal016_1890_decimal016_1890_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16401,9 +14797,7 @@ def test_decimal015_1889_decimal015_1889_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16417,9 +14811,7 @@ def test_decimal014_1888_decimal014_1888_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16433,9 +14825,7 @@ def test_decimal013_1887_decimal013_1887_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16449,9 +14839,7 @@ def test_decimal012_1886_decimal012_1886_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16465,9 +14853,7 @@ def test_decimal011_1885_decimal011_1885_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16481,9 +14867,7 @@ def test_decimal010_1884_decimal010_1884_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16497,9 +14881,7 @@ def test_decimal009_1883_decimal009_1883_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16513,9 +14895,7 @@ def test_decimal008_1882_decimal008_1882_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16529,9 +14909,7 @@ def test_decimal007_1881_decimal007_1881_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16545,9 +14923,7 @@ def test_decimal006_1880_decimal006_1880_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16561,9 +14937,7 @@ def test_decimal005_1879_decimal005_1879_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16577,9 +14951,7 @@ def test_decimal004_1878_decimal004_1878_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16593,9 +14965,7 @@ def test_decimal003_1877_decimal003_1877_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16609,9 +14979,7 @@ def test_decimal002_1876_decimal002_1876_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16619,15 +14987,14 @@ def test_decimal002_1876_decimal002_1876_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_decimal001_1875_decimal001_1875_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/decimal.xsd",
-        is_valid=True,
         instance="msData/datatypes/decimal001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16641,9 +15008,7 @@ def test_boolean018_1874_boolean018_1874_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/boolean018.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16651,15 +15016,14 @@ def test_boolean018_1874_boolean018_1874_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean017_1873_boolean017_1873_i(save_xml):
     """
     TEST :Facet Schemas for string : value=F
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean017.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16667,15 +15031,14 @@ def test_boolean017_1873_boolean017_1873_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean016_1872_boolean016_1872_i(save_xml):
     """
     TEST :Facet Schemas for string : value=T
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16683,15 +15046,14 @@ def test_boolean016_1872_boolean016_1872_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean015_1871_boolean015_1871_i(save_xml):
     """
     TEST :Facet Schemas for string : value=f
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16699,15 +15061,14 @@ def test_boolean015_1871_boolean015_1871_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean014_1870_boolean014_1870_i(save_xml):
     """
     TEST :Facet Schemas for string : value=t
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean014.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16715,15 +15076,14 @@ def test_boolean014_1870_boolean014_1870_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean013_1869_boolean013_1869_i(save_xml):
     """
     TEST :Facet Schemas for string : value=FALSE
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean013.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16731,15 +15091,14 @@ def test_boolean013_1869_boolean013_1869_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean012_1868_boolean012_1868_i(save_xml):
     """
     TEST :Facet Schemas for string : value=TRUE
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16747,15 +15106,14 @@ def test_boolean012_1868_boolean012_1868_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean011_1867_boolean011_1867_i(save_xml):
     """
     TEST :Facet Schemas for string : value=True
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16763,15 +15121,14 @@ def test_boolean011_1867_boolean011_1867_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean010_1866_boolean010_1866_i(save_xml):
     """
     TEST :Facet Schemas for string : value=False
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16779,15 +15136,14 @@ def test_boolean010_1866_boolean010_1866_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean009_1865_boolean009_1865_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+0
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16795,15 +15151,14 @@ def test_boolean009_1865_boolean009_1865_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean008_1864_boolean008_1864_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-0
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16811,15 +15166,14 @@ def test_boolean008_1864_boolean008_1864_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean007_1863_boolean007_1863_i(save_xml):
     """
     TEST :Facet Schemas for string : value=-1
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean007.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16827,15 +15181,14 @@ def test_boolean007_1863_boolean007_1863_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean006_1862_boolean006_1862_i(save_xml):
     """
     TEST :Facet Schemas for string : value=+1
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16849,9 +15202,7 @@ def test_boolean005_1861_boolean005_1861_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16865,9 +15216,7 @@ def test_boolean004_1860_boolean004_1860_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16881,9 +15230,7 @@ def test_boolean003_1859_boolean003_1859_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16897,9 +15244,7 @@ def test_boolean002_1858_boolean002_1858_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16907,15 +15252,14 @@ def test_boolean002_1858_boolean002_1858_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_boolean001_1857_boolean001_1857_i(save_xml):
     """
     TEST :Facet Schemas for string : value=
     """
     assert_bindings(
         schema="msData/datatypes/boolean.xsd",
-        is_valid=True,
         instance="msData/datatypes/boolean001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16945,9 +15289,7 @@ def test_string006_1856_string006_1856_v(save_xml):
     """
     assert_bindings(
         schema="msData/datatypes/string.xsd",
-        is_valid=True,
         instance="msData/datatypes/string006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,

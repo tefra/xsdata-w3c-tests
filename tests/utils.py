@@ -22,45 +22,30 @@ os.chdir(w3c.parent)
 
 
 def assert_bindings(
-    schema: str,
-    is_valid: bool,
-    instance: str,
-    instance_is_valid: bool,
-    class_name: str,
-    version: str,
-    save_xml: bool,
+    schema: str, instance: str, class_name: str, version: str, save_xml: bool,
 ):
     __tracebackhide__ = True
-    if not schema:
-        pytest.skip("No schema for code generator")
-    if not is_valid:
-        pytest.skip("Invalid schema")
 
     schema_path = Path(schema)
     schema_path_absolute = w3c.joinpath(schema)
 
     pck_arr = list(map(text.snake_case, schema_path.parts))
     package = f"tests.output.{'.'.join(pck_arr)}"
-    result = generate_models(str(w3c.joinpath(schema)), package)
+    clazz = generate_models(str(w3c.joinpath(schema)), package, class_name)
 
-    if is_valid and result.exception:
-        raise result.exception
+    if isinstance(clazz, Exception):
+        raise clazz
 
     try:
         instance_path = w3c.joinpath(instance)
-        clazz = load_class(result.output, class_name)
         parser = XmlParser()
         namespaces = parser.namespaces
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:
-        if instance_is_valid:
-            raise e
-
-    if not instance_is_valid:
-        return
+        raise e
 
     schema_validator = get_validator(schema_path_absolute, version)
-    if schema_validator is None and is_valid:
+    if schema_validator is None:
         pytest.skip("Schema validator failed on parsing definition")
 
     try:
@@ -89,9 +74,14 @@ def assert_valid(validator, tree):
 
 
 @functools.lru_cache(maxsize=5)
-def generate_models(xsd: str, package: str):
+def generate_models(xsd: str, package: str, class_name: str):
     runner = CliRunner()
-    return runner.invoke(cli, [xsd, f"--package={package}"])
+    result = runner.invoke(cli, [xsd, "--package", package])
+
+    if result.exception:
+        return result.exception
+
+    return load_class(result.output, class_name)
 
 
 @functools.lru_cache(maxsize=5)
@@ -122,4 +112,4 @@ def load_class(output, clazz_name):
         except (ModuleNotFoundError, AttributeError):
             pass
 
-    raise ModuleNotFoundError(f"Class `{clazz_name}` not found.")
+    return ModuleNotFoundError(f"Class `{clazz_name}` not found.")

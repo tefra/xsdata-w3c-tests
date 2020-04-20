@@ -11,9 +11,7 @@ def test_group_n005v_group_n005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupN005.xsd",
-        is_valid=True,
         instance="msData/group/groupN005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -28,9 +26,7 @@ def test_group_n004v_group_n004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupN004.xsd",
-        is_valid=True,
         instance="msData/group/groupN004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -38,6 +34,7 @@ def test_group_n004v_group_n004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_n003v_group_n003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
@@ -45,9 +42,7 @@ def test_group_n003v_group_n003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupN003.xsd",
-        is_valid=True,
         instance="msData/group/groupN003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -62,9 +57,7 @@ def test_group_n002v_group_n002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupN002.xsd",
-        is_valid=True,
         instance="msData/group/groupN002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -79,9 +72,7 @@ def test_group_n001v_group_n001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupN001.xsd",
-        is_valid=True,
         instance="msData/group/groupN001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -89,6 +80,7 @@ def test_group_n001v_group_n001v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_m005v_group_m005v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
@@ -97,9 +89,7 @@ def test_group_m005v_group_m005v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupM005.xsd",
-        is_valid=True,
         instance="msData/group/groupM005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -115,9 +105,7 @@ def test_group_m004v_group_m004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupM004.xsd",
-        is_valid=True,
         instance="msData/group/groupM004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -125,6 +113,7 @@ def test_group_m004v_group_m004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_m003v_group_m003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
@@ -133,9 +122,7 @@ def test_group_m003v_group_m003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupM003.xsd",
-        is_valid=True,
         instance="msData/group/groupM003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -150,9 +137,7 @@ def test_group_l021v_group_l021v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL021.xsd",
-        is_valid=True,
         instance="msData/group/groupL021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -160,6 +145,7 @@ def test_group_l021v_group_l021v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l019v_group_l019v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -167,9 +153,7 @@ def test_group_l019v_group_l019v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL019.xsd",
-        is_valid=True,
         instance="msData/group/groupL019.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -184,9 +168,7 @@ def test_group_l018v_group_l018v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL018.xsd",
-        is_valid=True,
         instance="msData/group/groupL018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -201,9 +183,7 @@ def test_group_l017v_group_l017v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL017.xsd",
-        is_valid=True,
         instance="msData/group/groupL017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -211,6 +191,7 @@ def test_group_l017v_group_l017v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l016v_group_l016v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -218,9 +199,7 @@ def test_group_l016v_group_l016v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL016.xsd",
-        is_valid=True,
         instance="msData/group/groupL016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -228,6 +207,7 @@ def test_group_l016v_group_l016v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l015v_group_l015v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -235,9 +215,7 @@ def test_group_l015v_group_l015v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL015.xsd",
-        is_valid=True,
         instance="msData/group/groupL015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -252,9 +230,7 @@ def test_group_l014v_group_l014v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL014.xsd",
-        is_valid=True,
         instance="msData/group/groupL014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -262,6 +238,7 @@ def test_group_l014v_group_l014v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l013v_group_l013v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -269,9 +246,7 @@ def test_group_l013v_group_l013v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL013.xsd",
-        is_valid=True,
         instance="msData/group/groupL013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -279,6 +254,7 @@ def test_group_l013v_group_l013v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l012v_group_l012v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -286,9 +262,7 @@ def test_group_l012v_group_l012v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL012.xsd",
-        is_valid=True,
         instance="msData/group/groupL012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -303,9 +277,7 @@ def test_group_l011v_group_l011v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL011.xsd",
-        is_valid=True,
         instance="msData/group/groupL011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -313,6 +285,7 @@ def test_group_l011v_group_l011v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l010v_group_l010v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -320,9 +293,7 @@ def test_group_l010v_group_l010v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL010.xsd",
-        is_valid=True,
         instance="msData/group/groupL010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -337,9 +308,7 @@ def test_group_l009v_group_l009v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL009.xsd",
-        is_valid=True,
         instance="msData/group/groupL009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -347,6 +316,7 @@ def test_group_l009v_group_l009v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l008v_group_l008v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -354,9 +324,7 @@ def test_group_l008v_group_l008v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL008.xsd",
-        is_valid=True,
         instance="msData/group/groupL008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -371,9 +339,7 @@ def test_group_l007_group_l007_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL007.xsd",
-        is_valid=True,
         instance="msData/group/groupL007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -381,6 +347,7 @@ def test_group_l007_group_l007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l006v_group_l006v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -388,9 +355,7 @@ def test_group_l006v_group_l006v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL006.xsd",
-        is_valid=True,
         instance="msData/group/groupL006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -405,9 +370,7 @@ def test_group_l005v_group_l005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL005.xsd",
-        is_valid=True,
         instance="msData/group/groupL005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -422,9 +385,7 @@ def test_group_l004v_group_l004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL004.xsd",
-        is_valid=True,
         instance="msData/group/groupL004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -432,6 +393,7 @@ def test_group_l004v_group_l004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_l003v_group_l003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
@@ -439,9 +401,7 @@ def test_group_l003v_group_l003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL003.xsd",
-        is_valid=True,
         instance="msData/group/groupL003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -456,9 +416,7 @@ def test_group_l002v_group_l002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL002.xsd",
-        is_valid=True,
         instance="msData/group/groupL002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -473,9 +431,7 @@ def test_group_l001v_group_l001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupL001.xsd",
-        is_valid=True,
         instance="msData/group/groupL001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -483,6 +439,7 @@ def test_group_l001v_group_l001v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_k005v_group_k005v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
@@ -491,9 +448,7 @@ def test_group_k005v_group_k005v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupK005.xsd",
-        is_valid=True,
         instance="msData/group/groupK005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -509,9 +464,7 @@ def test_group_k004v_group_k004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupK004.xsd",
-        is_valid=True,
         instance="msData/group/groupK004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -519,6 +472,7 @@ def test_group_k004v_group_k004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_k003v_group_k003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
@@ -527,9 +481,7 @@ def test_group_k003v_group_k003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupK003.xsd",
-        is_valid=True,
         instance="msData/group/groupK003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -544,9 +496,7 @@ def test_group_j021v_group_j021v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ021.xsd",
-        is_valid=True,
         instance="msData/group/groupJ021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -554,6 +504,7 @@ def test_group_j021v_group_j021v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j019v_group_j019v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -561,9 +512,7 @@ def test_group_j019v_group_j019v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ019.xsd",
-        is_valid=True,
         instance="msData/group/groupJ019.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -578,9 +527,7 @@ def test_group_j018v_group_j018v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ018.xsd",
-        is_valid=True,
         instance="msData/group/groupJ018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -595,9 +542,7 @@ def test_group_j017v_group_j017v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ017.xsd",
-        is_valid=True,
         instance="msData/group/groupJ017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -605,6 +550,7 @@ def test_group_j017v_group_j017v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j016v_group_j016v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -612,9 +558,7 @@ def test_group_j016v_group_j016v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ016.xsd",
-        is_valid=True,
         instance="msData/group/groupJ016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -622,6 +566,7 @@ def test_group_j016v_group_j016v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j015v_group_j015v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -629,9 +574,7 @@ def test_group_j015v_group_j015v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ015.xsd",
-        is_valid=True,
         instance="msData/group/groupJ015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -646,9 +589,7 @@ def test_group_j014v_group_j014v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ014.xsd",
-        is_valid=True,
         instance="msData/group/groupJ014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -656,6 +597,7 @@ def test_group_j014v_group_j014v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j013v_group_j013v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -663,9 +605,7 @@ def test_group_j013v_group_j013v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ013.xsd",
-        is_valid=True,
         instance="msData/group/groupJ013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -673,6 +613,7 @@ def test_group_j013v_group_j013v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j012v_group_j012v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -680,9 +621,7 @@ def test_group_j012v_group_j012v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ012.xsd",
-        is_valid=True,
         instance="msData/group/groupJ012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -697,9 +636,7 @@ def test_group_j011v_group_j011v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ011.xsd",
-        is_valid=True,
         instance="msData/group/groupJ011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -707,6 +644,7 @@ def test_group_j011v_group_j011v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j010v_group_j010v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -714,9 +652,7 @@ def test_group_j010v_group_j010v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ010.xsd",
-        is_valid=True,
         instance="msData/group/groupJ010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -731,9 +667,7 @@ def test_group_j009v_group_j009v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ009.xsd",
-        is_valid=True,
         instance="msData/group/groupJ009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -741,6 +675,7 @@ def test_group_j009v_group_j009v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j008v_group_j008v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -748,9 +683,7 @@ def test_group_j008v_group_j008v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ008.xsd",
-        is_valid=True,
         instance="msData/group/groupJ008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -765,9 +698,7 @@ def test_group_j007v_group_j007v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ007.xsd",
-        is_valid=True,
         instance="msData/group/groupJ007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -775,6 +706,7 @@ def test_group_j007v_group_j007v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j006v_group_j006v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -782,9 +714,7 @@ def test_group_j006v_group_j006v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ006.xsd",
-        is_valid=True,
         instance="msData/group/groupJ006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -799,9 +729,7 @@ def test_group_j005v_group_j005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ005.xsd",
-        is_valid=True,
         instance="msData/group/groupJ005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -816,9 +744,7 @@ def test_group_j004v_group_j004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ004.xsd",
-        is_valid=True,
         instance="msData/group/groupJ004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -826,6 +752,7 @@ def test_group_j004v_group_j004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_j003v_group_j003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
@@ -833,9 +760,7 @@ def test_group_j003v_group_j003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ003.xsd",
-        is_valid=True,
         instance="msData/group/groupJ003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -850,9 +775,7 @@ def test_group_j002v_group_j002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ002.xsd",
-        is_valid=True,
         instance="msData/group/groupJ002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -867,9 +790,7 @@ def test_group_j001v_group_j001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupJ001.xsd",
-        is_valid=True,
         instance="msData/group/groupJ001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -877,6 +798,7 @@ def test_group_j001v_group_j001v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_i005v_group_i005v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
@@ -885,9 +807,7 @@ def test_group_i005v_group_i005v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupI005.xsd",
-        is_valid=True,
         instance="msData/group/groupI005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -903,9 +823,7 @@ def test_group_i004v_group_i004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupI004.xsd",
-        is_valid=True,
         instance="msData/group/groupI004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -913,6 +831,7 @@ def test_group_i004v_group_i004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_i003v_group_i003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
@@ -921,9 +840,7 @@ def test_group_i003v_group_i003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupI003.xsd",
-        is_valid=True,
         instance="msData/group/groupI003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -931,6 +848,7 @@ def test_group_i003v_group_i003v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h019v_group_h019v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -938,9 +856,7 @@ def test_group_h019v_group_h019v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH019.xsd",
-        is_valid=True,
         instance="msData/group/groupH019.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -955,9 +871,7 @@ def test_group_h018v_group_h018v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH018.xsd",
-        is_valid=True,
         instance="msData/group/groupH018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -972,9 +886,7 @@ def test_group_h017v_group_h017v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH017.xsd",
-        is_valid=True,
         instance="msData/group/groupH017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -982,6 +894,7 @@ def test_group_h017v_group_h017v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h016v_group_h016v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -989,9 +902,7 @@ def test_group_h016v_group_h016v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH016.xsd",
-        is_valid=True,
         instance="msData/group/groupH016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -999,6 +910,7 @@ def test_group_h016v_group_h016v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h015v_group_h015v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1006,9 +918,7 @@ def test_group_h015v_group_h015v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH015.xsd",
-        is_valid=True,
         instance="msData/group/groupH015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1023,9 +933,7 @@ def test_group_h014v_group_h014v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH014.xsd",
-        is_valid=True,
         instance="msData/group/groupH014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1033,6 +941,7 @@ def test_group_h014v_group_h014v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h013v_group_h013v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1040,9 +949,7 @@ def test_group_h013v_group_h013v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH013.xsd",
-        is_valid=True,
         instance="msData/group/groupH013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1050,6 +957,7 @@ def test_group_h013v_group_h013v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h012v_group_h012v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1057,9 +965,7 @@ def test_group_h012v_group_h012v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH012.xsd",
-        is_valid=True,
         instance="msData/group/groupH012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1074,9 +980,7 @@ def test_group_h011v_group_h011v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH011.xsd",
-        is_valid=True,
         instance="msData/group/groupH011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1084,6 +988,7 @@ def test_group_h011v_group_h011v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h010v_group_h010v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1091,9 +996,7 @@ def test_group_h010v_group_h010v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH010.xsd",
-        is_valid=True,
         instance="msData/group/groupH010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1108,9 +1011,7 @@ def test_group_h009v_group_h009v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH009.xsd",
-        is_valid=True,
         instance="msData/group/groupH009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1118,6 +1019,7 @@ def test_group_h009v_group_h009v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h008v_group_h008v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1125,9 +1027,7 @@ def test_group_h008v_group_h008v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH008.xsd",
-        is_valid=True,
         instance="msData/group/groupH008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1135,6 +1035,7 @@ def test_group_h008v_group_h008v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h006v_group_h006v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1142,9 +1043,7 @@ def test_group_h006v_group_h006v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH006.xsd",
-        is_valid=True,
         instance="msData/group/groupH006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1159,9 +1058,7 @@ def test_group_h005v_group_h005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH005.xsd",
-        is_valid=True,
         instance="msData/group/groupH005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1176,9 +1073,7 @@ def test_group_h004v_group_h004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH004.xsd",
-        is_valid=True,
         instance="msData/group/groupH004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1186,6 +1081,7 @@ def test_group_h004v_group_h004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_h003v_group_h003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
@@ -1193,9 +1089,7 @@ def test_group_h003v_group_h003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH003.xsd",
-        is_valid=True,
         instance="msData/group/groupH003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1210,9 +1104,7 @@ def test_group_h002v_group_h002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH002.xsd",
-        is_valid=True,
         instance="msData/group/groupH002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1227,9 +1119,7 @@ def test_group_h001v_group_h001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupH001.xsd",
-        is_valid=True,
         instance="msData/group/groupH001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1237,6 +1127,7 @@ def test_group_h001v_group_h001v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_g005v_group_g005v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
@@ -1245,9 +1136,7 @@ def test_group_g005v_group_g005v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupG005.xsd",
-        is_valid=True,
         instance="msData/group/groupG005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1263,9 +1152,7 @@ def test_group_g004v_group_g004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupG004.xsd",
-        is_valid=True,
         instance="msData/group/groupG004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1273,6 +1160,7 @@ def test_group_g004v_group_g004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_g003v_group_g003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
@@ -1281,9 +1169,7 @@ def test_group_g003v_group_g003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupG003.xsd",
-        is_valid=True,
         instance="msData/group/groupG003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1298,9 +1184,7 @@ def test_group_f021v_group_f021v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF021.xsd",
-        is_valid=True,
         instance="msData/group/groupF021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1308,6 +1192,7 @@ def test_group_f021v_group_f021v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f019v_group_f019v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1315,9 +1200,7 @@ def test_group_f019v_group_f019v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF019.xsd",
-        is_valid=True,
         instance="msData/group/groupF019.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1332,9 +1215,7 @@ def test_group_f018v_group_f018v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF018.xsd",
-        is_valid=True,
         instance="msData/group/groupF018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1349,9 +1230,7 @@ def test_group_f017v_group_f017v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF017.xsd",
-        is_valid=True,
         instance="msData/group/groupF017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1359,6 +1238,7 @@ def test_group_f017v_group_f017v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f016v_group_f016v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1366,9 +1246,7 @@ def test_group_f016v_group_f016v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF016.xsd",
-        is_valid=True,
         instance="msData/group/groupF016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1376,6 +1254,7 @@ def test_group_f016v_group_f016v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f015v_group_f015v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1383,9 +1262,7 @@ def test_group_f015v_group_f015v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF015.xsd",
-        is_valid=True,
         instance="msData/group/groupF015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1400,9 +1277,7 @@ def test_group_f014v_group_f014v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF014.xsd",
-        is_valid=True,
         instance="msData/group/groupF014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1410,6 +1285,7 @@ def test_group_f014v_group_f014v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f013v_group_f013v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1417,9 +1293,7 @@ def test_group_f013v_group_f013v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF013.xsd",
-        is_valid=True,
         instance="msData/group/groupF013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1427,6 +1301,7 @@ def test_group_f013v_group_f013v_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f012v_group_f012v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1434,9 +1309,7 @@ def test_group_f012v_group_f012v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF012.xsd",
-        is_valid=True,
         instance="msData/group/groupF012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1451,9 +1324,7 @@ def test_group_f011v_group_f011v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF011.xsd",
-        is_valid=True,
         instance="msData/group/groupF011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1461,6 +1332,7 @@ def test_group_f011v_group_f011v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f010v_group_f010v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1468,9 +1340,7 @@ def test_group_f010v_group_f010v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF010.xsd",
-        is_valid=True,
         instance="msData/group/groupF010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1485,9 +1355,7 @@ def test_group_f009v_group_f009v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF009.xsd",
-        is_valid=True,
         instance="msData/group/groupF009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1495,6 +1363,7 @@ def test_group_f009v_group_f009v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f008v_group_f008v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1502,9 +1371,7 @@ def test_group_f008v_group_f008v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF008.xsd",
-        is_valid=True,
         instance="msData/group/groupF008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1519,9 +1386,7 @@ def test_group_f007v_group_f007v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF007.xsd",
-        is_valid=True,
         instance="msData/group/groupF007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1529,6 +1394,7 @@ def test_group_f007v_group_f007v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f006v_group_f006v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1536,9 +1402,7 @@ def test_group_f006v_group_f006v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF006.xsd",
-        is_valid=True,
         instance="msData/group/groupF006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1553,9 +1417,7 @@ def test_group_f005v_group_f005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF005.xsd",
-        is_valid=True,
         instance="msData/group/groupF005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1570,9 +1432,7 @@ def test_group_f004v_group_f004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF004.xsd",
-        is_valid=True,
         instance="msData/group/groupF004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1580,6 +1440,7 @@ def test_group_f004v_group_f004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_f003v_group_f003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
@@ -1587,9 +1448,7 @@ def test_group_f003v_group_f003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF003.xsd",
-        is_valid=True,
         instance="msData/group/groupF003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1604,9 +1463,7 @@ def test_group_f002v_group_f002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF002.xsd",
-        is_valid=True,
         instance="msData/group/groupF002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1621,9 +1478,7 @@ def test_group_f001v_group_f001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupF001.xsd",
-        is_valid=True,
         instance="msData/group/groupF001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1631,6 +1486,7 @@ def test_group_f001v_group_f001v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_e005v_group_e005v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
@@ -1639,9 +1495,7 @@ def test_group_e005v_group_e005v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupE005.xsd",
-        is_valid=True,
         instance="msData/group/groupE005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1657,9 +1511,7 @@ def test_group_e004v_group_e004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupE004.xsd",
-        is_valid=True,
         instance="msData/group/groupE004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1667,6 +1519,7 @@ def test_group_e004v_group_e004v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_group_e003v_group_e003v_i(save_xml):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
@@ -1675,9 +1528,7 @@ def test_group_e003v_group_e003v_i(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupE003.xsd",
-        is_valid=True,
         instance="msData/group/groupE003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1692,9 +1543,7 @@ def test_group_b010v_group_b010v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB010.xsd",
-        is_valid=True,
         instance="msData/group/groupB010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1709,9 +1558,7 @@ def test_group_b009v_group_b009v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB009.xsd",
-        is_valid=True,
         instance="msData/group/groupB009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1726,9 +1573,7 @@ def test_group_b006v_group_b006v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB006.xsd",
-        is_valid=True,
         instance="msData/group/groupB006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1743,9 +1588,7 @@ def test_group_b005v_group_b005v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB005.xsd",
-        is_valid=True,
         instance="msData/group/groupB005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1760,9 +1603,7 @@ def test_group_b004v_group_b004v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB004.xsd",
-        is_valid=True,
         instance="msData/group/groupB004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1777,9 +1618,7 @@ def test_group_b003v_group_b003v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB003.xsd",
-        is_valid=True,
         instance="msData/group/groupB003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1794,9 +1633,7 @@ def test_group_b002v_group_b002v_v(save_xml):
     """
     assert_bindings(
         schema="msData/group/groupB002.xsd",
-        is_valid=True,
         instance="msData/group/groupB002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -1804,6 +1641,7 @@ def test_group_b002v_group_b002v_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z015_id_z015_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : XSD: test
@@ -1813,9 +1651,7 @@ def test_id_z015_id_z015_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ015.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -1823,6 +1659,7 @@ def test_id_z015_id_z015_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z012_id_z012_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : processing
@@ -1831,9 +1668,7 @@ def test_id_z012_id_z012_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1841,6 +1676,7 @@ def test_id_z012_id_z012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z011_a_id_z011_a_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
@@ -1849,9 +1685,7 @@ def test_id_z011_a_id_z011_a_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ011_a.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ011_a.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1859,6 +1693,7 @@ def test_id_z011_a_id_z011_a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z011_id_z011_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
@@ -1868,9 +1703,7 @@ def test_id_z011_id_z011_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1878,6 +1711,7 @@ def test_id_z011_id_z011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z010_id_z010_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : xsd idendity
@@ -1886,9 +1720,7 @@ def test_id_z010_id_z010_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ010.xml",
-        instance_is_valid=False,
         class_name="Root1",
         version="1.1",
         save_xml=save_xml,
@@ -1896,6 +1728,7 @@ def test_id_z010_id_z010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z008_id_z008_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: test
@@ -1903,9 +1736,7 @@ def test_id_z008_id_z008_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1920,9 +1751,7 @@ def test_id_z007_id_z007_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ007.xml",
-        instance_is_valid=True,
         class_name="NewDataSet",
         version="1.1",
         save_xml=save_xml,
@@ -1937,9 +1766,7 @@ def test_id_z006_id_z006_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1954,9 +1781,7 @@ def test_id_z005_id_z005_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1964,6 +1789,7 @@ def test_id_z005_id_z005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z004_id_z004_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : 71477 - XSD
@@ -1972,9 +1798,7 @@ def test_id_z004_id_z004_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ004.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1982,6 +1806,7 @@ def test_id_z004_id_z004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z002_id_z002_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : 70981 -
@@ -1989,9 +1814,7 @@ def test_id_z002_id_z002_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ002.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -1999,6 +1822,7 @@ def test_id_z002_id_z002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_z001_id_z001_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : 70955 -
@@ -2006,9 +1830,7 @@ def test_id_z001_id_z001_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idZ001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2016,6 +1838,7 @@ def test_id_z001_id_z001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l103_id_l103_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2024,9 +1847,7 @@ def test_id_l103_id_l103_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL103.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL103.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2042,9 +1863,7 @@ def test_id_l102_id_l102_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL102.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL102.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2052,6 +1871,7 @@ def test_id_l102_id_l102_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l101_id_l101_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2059,9 +1879,7 @@ def test_id_l101_id_l101_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL101.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL101.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2069,6 +1887,7 @@ def test_id_l101_id_l101_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l100_id_l100_v(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2077,9 +1896,7 @@ def test_id_l100_id_l100_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL100.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL100.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2087,6 +1904,7 @@ def test_id_l100_id_l100_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l099_id_l099_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2095,9 +1913,7 @@ def test_id_l099_id_l099_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL099.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL099.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2113,9 +1929,7 @@ def test_id_l098_id_l098_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL098.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL098.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2123,6 +1937,7 @@ def test_id_l098_id_l098_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l097_id_l097_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2131,9 +1946,7 @@ def test_id_l097_id_l097_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL097.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL097.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2149,9 +1962,7 @@ def test_id_l096_id_l096_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL096.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL096.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2159,6 +1970,7 @@ def test_id_l096_id_l096_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l095_id_l095_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2166,9 +1978,7 @@ def test_id_l095_id_l095_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL095.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL095.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2183,9 +1993,7 @@ def test_id_l094_id_l094_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL094.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL094.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2193,6 +2001,7 @@ def test_id_l094_id_l094_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l093_id_l093_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2201,9 +2010,7 @@ def test_id_l093_id_l093_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL093.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL093.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2219,9 +2026,7 @@ def test_id_l092_id_l092_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL092.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL092.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2229,6 +2034,7 @@ def test_id_l092_id_l092_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l091_id_l091_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
@@ -2236,9 +2042,7 @@ def test_id_l091_id_l091_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL091.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL091.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2253,9 +2057,7 @@ def test_id_l090_id_l090_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL090.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL090.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2263,6 +2065,7 @@ def test_id_l090_id_l090_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l089_id_l089_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2270,9 +2073,7 @@ def test_id_l089_id_l089_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL089.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL089.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2287,9 +2088,7 @@ def test_id_l088_id_l088_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL088.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL088.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2297,6 +2096,7 @@ def test_id_l088_id_l088_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l087_id_l087_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2304,9 +2104,7 @@ def test_id_l087_id_l087_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL087.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL087.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2321,9 +2119,7 @@ def test_id_l086_id_l086_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL086.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL086.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2331,6 +2127,7 @@ def test_id_l086_id_l086_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l085_id_l085_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2338,9 +2135,7 @@ def test_id_l085_id_l085_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL085.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL085.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2355,9 +2150,7 @@ def test_id_l084_id_l084_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL084.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL084.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2365,6 +2158,7 @@ def test_id_l084_id_l084_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l083_id_l083_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2372,9 +2166,7 @@ def test_id_l083_id_l083_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL083.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL083.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2389,9 +2181,7 @@ def test_id_l082_id_l082_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL082.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL082.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2399,6 +2189,7 @@ def test_id_l082_id_l082_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l081_id_l081_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2406,9 +2197,7 @@ def test_id_l081_id_l081_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL081.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL081.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2416,6 +2205,7 @@ def test_id_l081_id_l081_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l080_id_l080_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2424,9 +2214,7 @@ def test_id_l080_id_l080_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL080.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL080.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2434,6 +2222,7 @@ def test_id_l080_id_l080_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l079_id_l079_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
@@ -2441,9 +2230,7 @@ def test_id_l079_id_l079_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL079.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL079.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2458,9 +2245,7 @@ def test_id_l078_id_l078_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL078.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL078.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2476,9 +2261,7 @@ def test_id_l077a_id_l077_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL077.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL077.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2494,9 +2277,7 @@ def test_id_l077_id_l077_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL077.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL077.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2512,9 +2293,7 @@ def test_id_l076a_id_l076_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL076.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL076.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2530,9 +2309,7 @@ def test_id_l076_id_l076_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL076.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL076.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2540,6 +2317,7 @@ def test_id_l076_id_l076_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l075_id_l075_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2548,9 +2326,7 @@ def test_id_l075_id_l075_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL075.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL075.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2566,9 +2342,7 @@ def test_id_l074_id_l074_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL074.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL074.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2583,9 +2357,7 @@ def test_id_l073_id_l073_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL073.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL073.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2593,6 +2365,7 @@ def test_id_l073_id_l073_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l072_id_l072_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2600,9 +2373,7 @@ def test_id_l072_id_l072_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL072.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL072.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2618,9 +2389,7 @@ def test_id_l071_id_l071_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL071.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL071.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2635,9 +2404,7 @@ def test_id_l070_id_l070_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL070.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL070.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2645,6 +2412,7 @@ def test_id_l070_id_l070_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l069_id_l069_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2652,9 +2420,7 @@ def test_id_l069_id_l069_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL069.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL069.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2670,9 +2436,7 @@ def test_id_l068_id_l068_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL068.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL068.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2688,9 +2452,7 @@ def test_id_l067_id_l067_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL067.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL067.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2705,9 +2467,7 @@ def test_id_l066_id_l066_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL066.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL066.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2715,6 +2475,7 @@ def test_id_l066_id_l066_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l065_id_l065_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2723,9 +2484,7 @@ def test_id_l065_id_l065_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL065.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL065.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2741,9 +2500,7 @@ def test_id_l064_id_l064_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL064.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL064.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2758,9 +2515,7 @@ def test_id_l063_id_l063_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL063.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL063.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2768,6 +2523,7 @@ def test_id_l063_id_l063_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l062_id_l062_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2776,9 +2532,7 @@ def test_id_l062_id_l062_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL062.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL062.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2786,6 +2540,7 @@ def test_id_l062_id_l062_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l061_id_l061_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2793,9 +2548,7 @@ def test_id_l061_id_l061_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL061.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL061.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2810,9 +2563,7 @@ def test_id_l060_id_l060_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL060.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL060.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2827,9 +2578,7 @@ def test_id_l059_id_l059_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL059.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL059.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2844,9 +2593,7 @@ def test_id_l058_id_l058_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL058.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL058.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2854,6 +2601,7 @@ def test_id_l058_id_l058_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l057_id_l057_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2862,9 +2610,7 @@ def test_id_l057_id_l057_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL057.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL057.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2872,6 +2618,7 @@ def test_id_l057_id_l057_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l056_id_l056_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2879,9 +2626,7 @@ def test_id_l056_id_l056_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL056.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL056.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2897,9 +2642,7 @@ def test_id_l055_id_l055_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL055.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL055.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2915,9 +2658,7 @@ def test_id_l054_id_l054_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL054.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL054.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2932,9 +2673,7 @@ def test_id_l053_id_l053_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL053.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL053.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2942,6 +2681,7 @@ def test_id_l053_id_l053_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l052_id_l052_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2949,9 +2689,7 @@ def test_id_l052_id_l052_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL052.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL052.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2966,9 +2704,7 @@ def test_id_l051_id_l051_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL051.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL051.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -2976,6 +2712,7 @@ def test_id_l051_id_l051_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l050_id_l050_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -2983,9 +2720,7 @@ def test_id_l050_id_l050_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL050.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL050.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3001,9 +2736,7 @@ def test_id_l049_id_l049_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL049.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL049.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3018,9 +2751,7 @@ def test_id_l048_id_l048_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL048.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL048.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3028,6 +2759,7 @@ def test_id_l048_id_l048_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l047_id_l047_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3035,9 +2767,7 @@ def test_id_l047_id_l047_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL047.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL047.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3052,9 +2782,7 @@ def test_id_l046_id_l046_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL046.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL046.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3069,9 +2797,7 @@ def test_id_l045_id_l045_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL045.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL045.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3079,6 +2805,7 @@ def test_id_l045_id_l045_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l044_id_l044_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3086,9 +2813,7 @@ def test_id_l044_id_l044_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL044.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL044.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3104,9 +2829,7 @@ def test_id_l043_id_l043_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL043.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL043.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3122,9 +2845,7 @@ def test_id_l042_id_l042_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL042.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL042.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3139,9 +2860,7 @@ def test_id_l041_id_l041_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL041.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL041.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3149,6 +2868,7 @@ def test_id_l041_id_l041_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l040_id_l040_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3156,9 +2876,7 @@ def test_id_l040_id_l040_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL040.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL040.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3174,9 +2892,7 @@ def test_id_l039_id_l039_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL039.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL039.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3191,9 +2907,7 @@ def test_id_l038_id_l038_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL038.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL038.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3201,6 +2915,7 @@ def test_id_l038_id_l038_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l037_id_l037_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3208,9 +2923,7 @@ def test_id_l037_id_l037_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL037.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL037.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3218,6 +2931,7 @@ def test_id_l037_id_l037_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l036_id_l036_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3225,9 +2939,7 @@ def test_id_l036_id_l036_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL036.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL036.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3242,9 +2954,7 @@ def test_id_l035_id_l035_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL035.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3259,9 +2969,7 @@ def test_id_l034_id_l034_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL034.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3276,9 +2984,7 @@ def test_id_l033_id_l033_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL033.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3286,6 +2992,7 @@ def test_id_l033_id_l033_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l032_id_l032_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3294,9 +3001,7 @@ def test_id_l032_id_l032_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL032.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL032.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3304,6 +3009,7 @@ def test_id_l032_id_l032_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l031_id_l031_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3311,9 +3017,7 @@ def test_id_l031_id_l031_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL031.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL031.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3328,9 +3032,7 @@ def test_id_l030_id_l030_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL030.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3345,9 +3047,7 @@ def test_id_l029_id_l029_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL029.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3362,9 +3062,7 @@ def test_id_l028_id_l028_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL028.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3372,6 +3070,7 @@ def test_id_l028_id_l028_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l027_id_l027_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3379,9 +3078,7 @@ def test_id_l027_id_l027_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL027.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL027.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3396,9 +3093,7 @@ def test_id_l026_id_l026_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL026.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3406,6 +3101,7 @@ def test_id_l026_id_l026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l025_id_l025_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3414,9 +3110,7 @@ def test_id_l025_id_l025_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL025.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL025.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3432,9 +3126,7 @@ def test_id_l024_id_l024_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL024.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3449,9 +3141,7 @@ def test_id_l023_id_l023_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL023.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3459,6 +3149,7 @@ def test_id_l023_id_l023_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l022_id_l022_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3466,9 +3157,7 @@ def test_id_l022_id_l022_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL022.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL022.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3484,9 +3173,7 @@ def test_id_l021_id_l021_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL021.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3501,9 +3188,7 @@ def test_id_l020_id_l020_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL020.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3511,6 +3196,7 @@ def test_id_l020_id_l020_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l019_id_l019_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3518,9 +3204,7 @@ def test_id_l019_id_l019_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL019.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL019.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3536,9 +3220,7 @@ def test_id_l018_id_l018_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL018.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3554,9 +3236,7 @@ def test_id_l017_id_l017_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL017.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3571,9 +3251,7 @@ def test_id_l016_id_l016_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL016.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3581,6 +3259,7 @@ def test_id_l016_id_l016_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l015_id_l015_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3589,9 +3268,7 @@ def test_id_l015_id_l015_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3607,9 +3284,7 @@ def test_id_l014_id_l014_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL014.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3624,9 +3299,7 @@ def test_id_l013_id_l013_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL013.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3634,6 +3307,7 @@ def test_id_l013_id_l013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l012_id_l012_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3642,9 +3316,7 @@ def test_id_l012_id_l012_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3652,6 +3324,7 @@ def test_id_l012_id_l012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l011_id_l011_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3659,9 +3332,7 @@ def test_id_l011_id_l011_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3676,9 +3347,7 @@ def test_id_l010_id_l010_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3693,9 +3362,7 @@ def test_id_l009_id_l009_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL009.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3710,9 +3377,7 @@ def test_id_l008_id_l008_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3720,6 +3385,7 @@ def test_id_l008_id_l008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l007_id_l007_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3728,9 +3394,7 @@ def test_id_l007_id_l007_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL007.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3738,6 +3402,7 @@ def test_id_l007_id_l007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l006_id_l006_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3745,9 +3410,7 @@ def test_id_l006_id_l006_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3763,9 +3426,7 @@ def test_id_l005_id_l005_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3781,9 +3442,7 @@ def test_id_l004_id_l004_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3798,9 +3457,7 @@ def test_id_l003_id_l003_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL003.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3808,6 +3465,7 @@ def test_id_l003_id_l003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_l002_id_l002_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
@@ -3815,9 +3473,7 @@ def test_id_l002_id_l002_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL002.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL002.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3832,9 +3488,7 @@ def test_id_l001_id_l001_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idL001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idL001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3849,9 +3503,7 @@ def test_id_k017_id_k017_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK017.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3866,9 +3518,7 @@ def test_id_k015_id_k015_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3883,9 +3533,7 @@ def test_id_k014_id_k014_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK014.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3900,9 +3548,7 @@ def test_id_k013_id_k013_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK013.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3910,6 +3556,7 @@ def test_id_k013_id_k013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_k012_id_k012_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
@@ -3917,9 +3564,7 @@ def test_id_k012_id_k012_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3935,9 +3580,7 @@ def test_id_k011a_id_k011_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3953,9 +3596,7 @@ def test_id_k011_id_k011_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3970,9 +3611,7 @@ def test_id_k010_id_k010_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK010.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -3987,9 +3626,7 @@ def test_id_k009_id_k009_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK009.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4004,9 +3641,7 @@ def test_id_k008_id_k008_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4021,9 +3656,7 @@ def test_id_k007_id_k007_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4038,9 +3671,7 @@ def test_id_k006_id_k006_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4055,9 +3686,7 @@ def test_id_k005_id_k005_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4074,9 +3703,7 @@ def test_id_k004_id_k004_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4084,6 +3711,7 @@ def test_id_k004_id_k004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_k003_id_k003_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
@@ -4093,9 +3721,7 @@ def test_id_k003_id_k003_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK003.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4110,9 +3736,7 @@ def test_id_k002_id_k002_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK002.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4127,9 +3751,7 @@ def test_id_k001_id_k001_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idK001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idK001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4145,9 +3767,7 @@ def test_id_h034_id_h034_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH034.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4162,9 +3782,7 @@ def test_id_h032_id_h032_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH032.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4180,9 +3798,7 @@ def test_id_h031a_id_h031_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH031.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4198,9 +3814,7 @@ def test_id_h031_id_h031_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH031.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4215,9 +3829,7 @@ def test_id_h030_id_h030_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH030.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4233,9 +3845,7 @@ def test_id_h029_id_h029_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH029.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4250,9 +3860,7 @@ def test_id_h028_id_h028_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH028.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4267,9 +3875,7 @@ def test_id_h027_id_h027_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH027.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4285,9 +3891,7 @@ def test_id_h026_id_h026_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH026.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4302,9 +3906,7 @@ def test_id_h025_id_h025_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH025.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4320,9 +3922,7 @@ def test_id_h024_id_h024_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH024.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4337,9 +3937,7 @@ def test_id_h023_id_h023_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH023.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4354,9 +3952,7 @@ def test_id_h022_id_h022_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH022.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4372,9 +3968,7 @@ def test_id_h021_id_h021_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH021.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4389,9 +3983,7 @@ def test_id_h020_id_h020_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH020.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4407,9 +3999,7 @@ def test_id_h019_id_h019_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH019.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4425,9 +4015,7 @@ def test_id_h018_id_h018_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH018.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4443,9 +4031,7 @@ def test_id_h017_id_h017_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH017.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4461,9 +4047,7 @@ def test_id_h016_id_h016_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH016.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4479,9 +4063,7 @@ def test_id_h015_id_h015_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4489,6 +4071,7 @@ def test_id_h015_id_h015_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_h012_id_h012_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -4497,9 +4080,7 @@ def test_id_h012_id_h012_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4507,6 +4088,7 @@ def test_id_h012_id_h012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_h010_id_h010_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -4514,9 +4096,7 @@ def test_id_h010_id_h010_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4531,9 +4111,7 @@ def test_id_h009_id_h009_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH009.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4548,9 +4126,7 @@ def test_id_h008_id_h008_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4566,9 +4142,7 @@ def test_id_h007_id_h007_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4576,6 +4150,7 @@ def test_id_h007_id_h007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_h006_id_h006_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -4584,9 +4159,7 @@ def test_id_h006_id_h006_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4594,6 +4167,7 @@ def test_id_h006_id_h006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_h005_id_h005_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
@@ -4602,9 +4176,7 @@ def test_id_h005_id_h005_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4619,9 +4191,7 @@ def test_id_h004_id_h004_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4636,9 +4206,7 @@ def test_id_h003_id_h003_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH003.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4653,9 +4221,7 @@ def test_id_h001_id_h001_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idH001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idH001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4670,9 +4236,7 @@ def test_id_g030_id_g030_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG030.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4688,9 +4252,7 @@ def test_id_g029_id_g029_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG029.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4705,9 +4267,7 @@ def test_id_g028_id_g028_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG028.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4722,9 +4282,7 @@ def test_id_g027_id_g027_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG027.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4739,9 +4297,7 @@ def test_id_g026_id_g026_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG026.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4749,6 +4305,7 @@ def test_id_g026_id_g026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g025_id_g025_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -4756,9 +4313,7 @@ def test_id_g025_id_g025_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG025.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG025.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4773,9 +4328,7 @@ def test_id_g024_id_g024_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG024.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4790,9 +4343,7 @@ def test_id_g023_id_g023_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG023.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4807,9 +4358,7 @@ def test_id_g022_id_g022_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG022.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4824,9 +4373,7 @@ def test_id_g021_id_g021_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG021.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4834,6 +4381,7 @@ def test_id_g021_id_g021_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g020_id_g020_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -4841,9 +4389,7 @@ def test_id_g020_id_g020_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG020.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG020.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4858,9 +4404,7 @@ def test_id_g019_id_g019_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG019.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4875,9 +4419,7 @@ def test_id_g018_id_g018_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG018.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG018.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4893,9 +4435,7 @@ def test_id_g017_id_g017_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG017.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG017.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4910,9 +4450,7 @@ def test_id_g016_id_g016_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG016.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG016.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4928,9 +4466,7 @@ def test_id_g015_id_g015_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4946,9 +4482,7 @@ def test_id_g014_id_g014_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG014.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4964,9 +4498,7 @@ def test_id_g013_id_g013_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG013.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4974,6 +4506,7 @@ def test_id_g013_id_g013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g012_id_g012_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -4982,9 +4515,7 @@ def test_id_g012_id_g012_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG012.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -4992,6 +4523,7 @@ def test_id_g012_id_g012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g011_id_g011_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5000,9 +4532,7 @@ def test_id_g011_id_g011_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG011.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5010,6 +4540,7 @@ def test_id_g011_id_g011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g010_id_g010_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5017,9 +4548,7 @@ def test_id_g010_id_g010_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5027,6 +4556,7 @@ def test_id_g010_id_g010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g009_id_g009_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5035,9 +4565,7 @@ def test_id_g009_id_g009_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG009.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG009.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5045,6 +4573,7 @@ def test_id_g009_id_g009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g008_id_g008_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5052,9 +4581,7 @@ def test_id_g008_id_g008_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5069,9 +4596,7 @@ def test_id_g007_id_g007_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5079,6 +4604,7 @@ def test_id_g007_id_g007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g006_id_g006_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5087,9 +4613,7 @@ def test_id_g006_id_g006_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5097,6 +4621,7 @@ def test_id_g006_id_g006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g005_id_g005_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5104,9 +4629,7 @@ def test_id_g005_id_g005_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5121,9 +4644,7 @@ def test_id_g004_id_g004_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5131,6 +4652,7 @@ def test_id_g004_id_g004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_g003_id_g003_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
@@ -5138,9 +4660,7 @@ def test_id_g003_id_g003_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG003.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG003.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5155,9 +4675,7 @@ def test_id_g001_id_g001_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idG001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idG001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5173,9 +4691,7 @@ def test_id_f036_id_f036_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF036.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF036.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5191,9 +4707,7 @@ def test_id_f035_id_f035_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF035.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF035.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5208,9 +4722,7 @@ def test_id_f034_id_f034_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF034.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF034.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5225,9 +4737,7 @@ def test_id_f033_id_f033_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF033.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF033.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5242,9 +4752,7 @@ def test_id_f032_id_f032_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF032.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF032.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5260,9 +4768,7 @@ def test_id_f031_id_f031_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF031.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF031.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5277,9 +4783,7 @@ def test_id_f030_id_f030_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF030.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF030.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5294,9 +4798,7 @@ def test_id_f029_id_f029_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF029.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF029.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5312,9 +4814,7 @@ def test_id_f028_id_f028_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF028.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF028.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5329,9 +4829,7 @@ def test_id_f027_id_f027_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF027.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF027.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5347,9 +4845,7 @@ def test_id_f026_id_f026_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF026.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF026.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5364,9 +4860,7 @@ def test_id_f025_id_f025_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF025.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5381,9 +4875,7 @@ def test_id_f024_id_f024_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF024.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF024.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5399,9 +4891,7 @@ def test_id_f023_id_f023_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF023.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF023.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5416,9 +4906,7 @@ def test_id_f022_id_f022_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF022.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF022.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5434,9 +4922,7 @@ def test_id_f021_id_f021_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF021.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF021.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5452,9 +4938,7 @@ def test_id_f020_id_f020_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF020.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF020.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5470,9 +4954,7 @@ def test_id_f019_id_f019_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF019.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF019.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5480,6 +4962,7 @@ def test_id_f019_id_f019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f018_id_f018_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5487,9 +4970,7 @@ def test_id_f018_id_f018_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF018.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF018.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5497,6 +4978,7 @@ def test_id_f018_id_f018_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f017_id_f017_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5505,9 +4987,7 @@ def test_id_f017_id_f017_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF017.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF017.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5515,6 +4995,7 @@ def test_id_f017_id_f017_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f016_id_f016_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5523,9 +5004,7 @@ def test_id_f016_id_f016_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF016.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5533,6 +5012,7 @@ def test_id_f016_id_f016_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f015_id_f015_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5541,9 +5021,7 @@ def test_id_f015_id_f015_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF015.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5559,9 +5037,7 @@ def test_id_f014_id_f014_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF014.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5576,9 +5052,7 @@ def test_id_f013_id_f013_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF013.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5594,9 +5068,7 @@ def test_id_f012_id_f012_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF012.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5612,9 +5084,7 @@ def test_id_f011_id_f011_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF011.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF011.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5622,6 +5092,7 @@ def test_id_f011_id_f011_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f010_id_f010_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5630,9 +5101,7 @@ def test_id_f010_id_f010_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF010.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF010.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5648,9 +5117,7 @@ def test_id_f009_id_f009_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF009.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5658,6 +5125,7 @@ def test_id_f009_id_f009_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f008_id_f008_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5665,9 +5133,7 @@ def test_id_f008_id_f008_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF008.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF008.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5682,9 +5148,7 @@ def test_id_f007_id_f007_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF007.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF007.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5692,6 +5156,7 @@ def test_id_f007_id_f007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f006_id_f006_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5700,9 +5165,7 @@ def test_id_f006_id_f006_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF006.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF006.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5710,6 +5173,7 @@ def test_id_f006_id_f006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_id_f005_id_f005_i(save_xml):
     """
     TEST :Identity-constraint Definition Schema Component : unique
@@ -5718,9 +5182,7 @@ def test_id_f005_id_f005_i(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF005.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF005.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5735,9 +5197,7 @@ def test_id_f004_id_f004_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF004.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5752,9 +5212,7 @@ def test_id_f003_id_f003_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF003.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF003.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5769,9 +5227,7 @@ def test_id_f001_id_f001_v(save_xml):
     """
     assert_bindings(
         schema="msData/identityConstraint/idF001.xsd",
-        is_valid=True,
         instance="msData/identityConstraint/idF001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5785,9 +5241,7 @@ def test_mg_z004_mg_z004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgZ004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgZ004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5802,9 +5256,7 @@ def test_mg_z003_mg_z003_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgZ003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgZ003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5812,6 +5264,7 @@ def test_mg_z003_mg_z003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_z001_mg_z001_i(save_xml):
     """
     TEST :model groups (ALL) : XSD: handling of ALL schema element when
@@ -5819,9 +5272,7 @@ def test_mg_z001_mg_z001_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgZ001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgZ001.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -5837,9 +5288,7 @@ def test_mg_q020_mg_q020_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ020.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ020.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5855,9 +5304,7 @@ def test_mg_q019_mg_q019_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ019.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5873,9 +5320,7 @@ def test_mg_q018_mg_q018_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5891,9 +5336,7 @@ def test_mg_q017_mg_q017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5909,9 +5352,7 @@ def test_mg_q016_mg_q016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5927,9 +5368,7 @@ def test_mg_q015_mg_q015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5945,9 +5384,7 @@ def test_mg_q014_mg_q014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5963,9 +5400,7 @@ def test_mg_q009_mg_q009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5981,9 +5416,7 @@ def test_mg_q008_mg_q008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -5999,9 +5432,7 @@ def test_mg_q007_mg_q007_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6017,9 +5448,7 @@ def test_mg_q006_mg_q006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6034,9 +5463,7 @@ def test_mg_q003_mg_q003_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6051,9 +5478,7 @@ def test_mg_q002_mg_q002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgQ002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgQ002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6068,9 +5493,7 @@ def test_mg_o038_mg_o038_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO038.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO038.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6085,9 +5508,7 @@ def test_mg_o037_mg_o037_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO037.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO037.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6102,9 +5523,7 @@ def test_mg_o036_mg_o036_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO036.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO036.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6119,9 +5538,7 @@ def test_mg_o034_mg_o034_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO034.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO034.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6137,9 +5554,7 @@ def test_mg_o031_mg_o031_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO031.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO031.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6153,9 +5568,7 @@ def test_mg_o030_mg_o030_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO030.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO030.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6170,9 +5583,7 @@ def test_mg_o029_mg_o029_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO029.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6188,9 +5599,7 @@ def test_mg_o017_mg_o017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6206,9 +5615,7 @@ def test_mg_o016_mg_o016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6224,9 +5631,7 @@ def test_mg_o015_mg_o015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6242,9 +5647,7 @@ def test_mg_o011_mg_o011_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6259,9 +5662,7 @@ def test_mg_o010_mg_o010_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6276,9 +5677,7 @@ def test_mg_o009_mg_o009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6293,9 +5692,7 @@ def test_mg_o008_mg_o008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6310,9 +5707,7 @@ def test_mg_o006_mg_o006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6327,9 +5722,7 @@ def test_mg_o005_mg_o005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6345,9 +5738,7 @@ def test_mg_o004_mg_o004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6362,9 +5753,7 @@ def test_mg_o002_mg_o002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgO002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgO002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6372,6 +5761,7 @@ def test_mg_o002_mg_o002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n016_mg_n016_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
@@ -6380,9 +5770,7 @@ def test_mg_n016_mg_n016_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6390,6 +5778,7 @@ def test_mg_n016_mg_n016_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n015_mg_n015_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
@@ -6398,9 +5787,7 @@ def test_mg_n015_mg_n015_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6408,6 +5795,7 @@ def test_mg_n015_mg_n015_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n014_mg_n014_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
@@ -6416,9 +5804,7 @@ def test_mg_n014_mg_n014_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6426,6 +5812,7 @@ def test_mg_n014_mg_n014_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n013_mg_n013_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
@@ -6434,9 +5821,7 @@ def test_mg_n013_mg_n013_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6452,9 +5837,7 @@ def test_mg_n012_mg_n012_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6462,6 +5845,7 @@ def test_mg_n012_mg_n012_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n011_mg_n011_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
@@ -6470,9 +5854,7 @@ def test_mg_n011_mg_n011_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6480,6 +5862,7 @@ def test_mg_n011_mg_n011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n010_mg_n010_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6488,9 +5871,7 @@ def test_mg_n010_mg_n010_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6498,6 +5879,7 @@ def test_mg_n010_mg_n010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n009_mg_n009_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6506,9 +5888,7 @@ def test_mg_n009_mg_n009_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6516,6 +5896,7 @@ def test_mg_n009_mg_n009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n008_mg_n008_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6524,9 +5905,7 @@ def test_mg_n008_mg_n008_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6534,6 +5913,7 @@ def test_mg_n008_mg_n008_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n007_mg_n007_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6542,9 +5922,7 @@ def test_mg_n007_mg_n007_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6552,6 +5930,7 @@ def test_mg_n007_mg_n007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n006_mg_n006_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6560,9 +5939,7 @@ def test_mg_n006_mg_n006_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6578,9 +5955,7 @@ def test_mg_n005_mg_n005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6588,6 +5963,7 @@ def test_mg_n005_mg_n005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n004_mg_n004_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
@@ -6596,9 +5972,7 @@ def test_mg_n004_mg_n004_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6606,6 +5980,7 @@ def test_mg_n004_mg_n004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n003_mg_n003_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, the instant XML has
@@ -6614,9 +5989,7 @@ def test_mg_n003_mg_n003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6624,6 +5997,7 @@ def test_mg_n003_mg_n003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_n002_mg_n002_i(save_xml):
     """
     TEST :model groups (ALL) : parent is sequence, more than one child
@@ -6632,9 +6006,7 @@ def test_mg_n002_mg_n002_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6650,9 +6022,7 @@ def test_mg_n001_mg_n001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgN001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgN001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6660,6 +6030,7 @@ def test_mg_n001_mg_n001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m014_mg_m014_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has the
@@ -6667,9 +6038,7 @@ def test_mg_m014_mg_m014_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6684,9 +6053,7 @@ def test_mg_m013_mg_m013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6694,6 +6061,7 @@ def test_mg_m013_mg_m013_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m012_mg_m012_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has an
@@ -6701,9 +6069,7 @@ def test_mg_m012_mg_m012_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6718,9 +6084,7 @@ def test_mg_m011_mg_m011_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6728,6 +6092,7 @@ def test_mg_m011_mg_m011_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m010_mg_m010_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has all
@@ -6735,9 +6100,7 @@ def test_mg_m010_mg_m010_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6752,9 +6115,7 @@ def test_mg_m009_mg_m009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6769,9 +6130,7 @@ def test_mg_m008_mg_m008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6779,6 +6138,7 @@ def test_mg_m008_mg_m008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m007_mg_m007_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 2 elements 1 element is in the
@@ -6786,9 +6146,7 @@ def test_mg_m007_mg_m007_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6796,6 +6154,7 @@ def test_mg_m007_mg_m007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m006_mg_m006_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 2 elements 0 element is in the
@@ -6803,9 +6162,7 @@ def test_mg_m006_mg_m006_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6813,6 +6170,7 @@ def test_mg_m006_mg_m006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m005_mg_m005_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 1 elements 2 element is in the
@@ -6820,9 +6178,7 @@ def test_mg_m005_mg_m005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6837,9 +6193,7 @@ def test_mg_m004_mg_m004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6847,6 +6201,7 @@ def test_mg_m004_mg_m004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m003_mg_m003_i(save_xml):
     """
     TEST :model groups (ALL) : all: with 1 elements 0 element is in the
@@ -6854,9 +6209,7 @@ def test_mg_m003_mg_m003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6864,6 +6217,7 @@ def test_mg_m003_mg_m003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_m002_mg_m002_i(save_xml):
     """
     TEST :model groups (ALL) : all: with no elements 1 element is in the
@@ -6871,9 +6225,7 @@ def test_mg_m002_mg_m002_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgM002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgM002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6881,6 +6233,7 @@ def test_mg_m002_mg_m002_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_l010_mg_l010_i(save_xml):
     """
     TEST :model groups (ALL) : choice: with 5 elements, an undefined
@@ -6888,9 +6241,7 @@ def test_mg_l010_mg_l010_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6905,9 +6256,7 @@ def test_mg_l009_mg_l009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6922,9 +6271,7 @@ def test_mg_l008_mg_l008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6932,6 +6279,7 @@ def test_mg_l008_mg_l008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_l007_mg_l007_i(save_xml):
     """
     TEST :model groups (ALL) : choice: with 2 elements, 2 element in the
@@ -6939,9 +6287,7 @@ def test_mg_l007_mg_l007_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6956,9 +6302,7 @@ def test_mg_l006_mg_l006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6966,6 +6310,7 @@ def test_mg_l006_mg_l006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_l005_mg_l005_i(save_xml):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 2 element is in
@@ -6973,9 +6318,7 @@ def test_mg_l005_mg_l005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -6990,9 +6333,7 @@ def test_mg_l004_mg_l004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7000,6 +6341,7 @@ def test_mg_l004_mg_l004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_l003_mg_l003_i(save_xml):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 0 element is in
@@ -7007,9 +6349,7 @@ def test_mg_l003_mg_l003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7017,6 +6357,7 @@ def test_mg_l003_mg_l003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_l002_mg_l002_i(save_xml):
     """
     TEST :model groups (ALL) : choice: with NO elements, 1 element is in
@@ -7024,9 +6365,7 @@ def test_mg_l002_mg_l002_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7041,9 +6380,7 @@ def test_mg_l001_mg_l001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgL001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgL001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7051,6 +6388,7 @@ def test_mg_l001_mg_l001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k010_mg_k010_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 5 elements, the last 2
@@ -7058,9 +6396,7 @@ def test_mg_k010_mg_k010_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7075,9 +6411,7 @@ def test_mg_k009_mg_k009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7085,6 +6419,7 @@ def test_mg_k009_mg_k009_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k008_mg_k008_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, 3 elements is
@@ -7092,9 +6427,7 @@ def test_mg_k008_mg_k008_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7102,6 +6435,7 @@ def test_mg_k008_mg_k008_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k007_mg_k007_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, the elements are
@@ -7109,9 +6443,7 @@ def test_mg_k007_mg_k007_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7119,6 +6451,7 @@ def test_mg_k007_mg_k007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k006_mg_k006_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, only the 1st
@@ -7126,9 +6459,7 @@ def test_mg_k006_mg_k006_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7136,6 +6467,7 @@ def test_mg_k006_mg_k006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k005_mg_k005_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 2 element is in
@@ -7143,9 +6475,7 @@ def test_mg_k005_mg_k005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7160,9 +6490,7 @@ def test_mg_k004_mg_k004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7170,6 +6498,7 @@ def test_mg_k004_mg_k004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k003_mg_k003_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 0 element is in
@@ -7177,9 +6506,7 @@ def test_mg_k003_mg_k003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7187,6 +6514,7 @@ def test_mg_k003_mg_k003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_k002_mg_k002_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: with NO elements, 1 element is in
@@ -7194,9 +6522,7 @@ def test_mg_k002_mg_k002_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7211,9 +6537,7 @@ def test_mg_k001_mg_k001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgK001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgK001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7228,9 +6552,7 @@ def test_mg_j026_mg_j026_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ026.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7238,6 +6560,7 @@ def test_mg_j026_mg_j026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j024_mg_j024_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=3,
@@ -7245,9 +6568,7 @@ def test_mg_j024_mg_j024_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ024.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ024.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7262,9 +6583,7 @@ def test_mg_j023_mg_j023_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ023.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ023.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7279,9 +6598,7 @@ def test_mg_j022_mg_j022_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ022.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7289,6 +6606,7 @@ def test_mg_j022_mg_j022_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j021_mg_j021_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
@@ -7296,9 +6614,7 @@ def test_mg_j021_mg_j021_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ021.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ021.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7306,6 +6622,7 @@ def test_mg_j021_mg_j021_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j020_mg_j020_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
@@ -7313,9 +6630,7 @@ def test_mg_j020_mg_j020_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ020.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ020.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7330,9 +6645,7 @@ def test_mg_j019_mg_j019_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ019.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7340,6 +6653,7 @@ def test_mg_j019_mg_j019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j018_mg_j018_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
@@ -7347,9 +6661,7 @@ def test_mg_j018_mg_j018_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ018.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7357,6 +6669,7 @@ def test_mg_j018_mg_j018_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j017_mg_j017_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
@@ -7364,9 +6677,7 @@ def test_mg_j017_mg_j017_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ017.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7381,9 +6692,7 @@ def test_mg_j016_mg_j016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7391,6 +6700,7 @@ def test_mg_j016_mg_j016_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j015_mg_j015_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
@@ -7398,9 +6708,7 @@ def test_mg_j015_mg_j015_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7415,9 +6723,7 @@ def test_mg_j014_mg_j014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7425,6 +6731,7 @@ def test_mg_j014_mg_j014_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j013_mg_j013_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
@@ -7432,9 +6739,7 @@ def test_mg_j013_mg_j013_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7449,9 +6754,7 @@ def test_mg_j012_mg_j012_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7459,6 +6762,7 @@ def test_mg_j012_mg_j012_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j011_mg_j011_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
@@ -7466,9 +6770,7 @@ def test_mg_j011_mg_j011_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7483,9 +6785,7 @@ def test_mg_j010_mg_j010_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7500,9 +6800,7 @@ def test_mg_j009_mg_j009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7510,6 +6808,7 @@ def test_mg_j009_mg_j009_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j008_mg_j008_i(save_xml):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
@@ -7517,9 +6816,7 @@ def test_mg_j008_mg_j008_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7534,9 +6831,7 @@ def test_mg_j007_mg_j007_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7551,9 +6846,7 @@ def test_mg_j006_mg_j006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7561,6 +6854,7 @@ def test_mg_j006_mg_j006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j005_mg_j005_i(save_xml):
     """
     TEST :model groups (ALL) : choice: check that maxOccurs default is 1,
@@ -7568,9 +6862,7 @@ def test_mg_j005_mg_j005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7585,9 +6877,7 @@ def test_mg_j004_mg_j004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7595,6 +6885,7 @@ def test_mg_j004_mg_j004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_j003_mg_j003_i(save_xml):
     """
     TEST :model groups (ALL) : choice: check that minOccurs default is 1,
@@ -7602,9 +6893,7 @@ def test_mg_j003_mg_j003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgJ003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgJ003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7618,9 +6907,7 @@ def test_mg_i019_mg_i019_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI019.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7634,9 +6921,7 @@ def test_mg_i018_mg_i018_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7650,9 +6935,7 @@ def test_mg_i017_mg_i017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7666,9 +6949,7 @@ def test_mg_i016_mg_i016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7682,9 +6963,7 @@ def test_mg_i015_mg_i015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7699,9 +6978,7 @@ def test_mg_i014_mg_i014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7716,9 +6993,7 @@ def test_mg_i013_mg_i013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7733,9 +7008,7 @@ def test_mg_i012_mg_i012_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7750,9 +7023,7 @@ def test_mg_i011_mg_i011_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7767,9 +7038,7 @@ def test_mg_i010_mg_i010_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7784,9 +7053,7 @@ def test_mg_i009_mg_i009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7800,9 +7067,7 @@ def test_mg_i008_mg_i008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7816,9 +7081,7 @@ def test_mg_i007_mg_i007_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7832,9 +7095,7 @@ def test_mg_i006_mg_i006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7848,9 +7109,7 @@ def test_mg_i005_mg_i005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7864,9 +7123,7 @@ def test_mg_i004_mg_i004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7880,9 +7137,7 @@ def test_mg_i002_mg_i002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7896,9 +7151,7 @@ def test_mg_i001_mg_i001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgI001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgI001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7912,9 +7165,7 @@ def test_mg_hb005_mg_hb005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgHb005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgHb005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7928,9 +7179,7 @@ def test_mg_hb004_mg_hb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgHb004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgHb004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -7944,9 +7193,7 @@ def test_mg_h018_mg_h018_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7960,9 +7207,7 @@ def test_mg_h017_mg_h017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7976,9 +7221,7 @@ def test_mg_h016_mg_h016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -7992,9 +7235,7 @@ def test_mg_h015_mg_h015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8008,9 +7249,7 @@ def test_mg_h014_mg_h014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8024,9 +7263,7 @@ def test_mg_h013_mg_h013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8040,9 +7277,7 @@ def test_mg_h001_mg_h001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgH001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgH001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8057,9 +7292,7 @@ def test_mg_g026_mg_g026_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG026.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8067,6 +7300,7 @@ def test_mg_g026_mg_g026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g024_mg_g024_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=3,
@@ -8074,9 +7308,7 @@ def test_mg_g024_mg_g024_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG024.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG024.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8091,9 +7323,7 @@ def test_mg_g023_mg_g023_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG023.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG023.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8108,9 +7338,7 @@ def test_mg_g022_mg_g022_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG022.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8118,6 +7346,7 @@ def test_mg_g022_mg_g022_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g021_mg_g021_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
@@ -8125,9 +7354,7 @@ def test_mg_g021_mg_g021_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG021.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG021.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8135,6 +7362,7 @@ def test_mg_g021_mg_g021_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g020_mg_g020_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
@@ -8142,9 +7370,7 @@ def test_mg_g020_mg_g020_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG020.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG020.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8159,9 +7385,7 @@ def test_mg_g019_mg_g019_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG019.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8169,6 +7393,7 @@ def test_mg_g019_mg_g019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g018_mg_g018_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
@@ -8176,9 +7401,7 @@ def test_mg_g018_mg_g018_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG018.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8186,6 +7409,7 @@ def test_mg_g018_mg_g018_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g017_mg_g017_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
@@ -8193,9 +7417,7 @@ def test_mg_g017_mg_g017_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG017.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8210,9 +7432,7 @@ def test_mg_g016_mg_g016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8220,6 +7440,7 @@ def test_mg_g016_mg_g016_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g015_mg_g015_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
@@ -8227,9 +7448,7 @@ def test_mg_g015_mg_g015_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8244,9 +7463,7 @@ def test_mg_g014_mg_g014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8254,6 +7471,7 @@ def test_mg_g014_mg_g014_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g013_mg_g013_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
@@ -8261,9 +7479,7 @@ def test_mg_g013_mg_g013_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8278,9 +7494,7 @@ def test_mg_g012_mg_g012_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8288,6 +7502,7 @@ def test_mg_g012_mg_g012_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g011_mg_g011_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
@@ -8295,9 +7510,7 @@ def test_mg_g011_mg_g011_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8312,9 +7525,7 @@ def test_mg_g010_mg_g010_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8329,9 +7540,7 @@ def test_mg_g009_mg_g009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8339,6 +7548,7 @@ def test_mg_g009_mg_g009_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g008_mg_g008_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
@@ -8346,9 +7556,7 @@ def test_mg_g008_mg_g008_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8363,9 +7571,7 @@ def test_mg_g007_mg_g007_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8380,9 +7586,7 @@ def test_mg_g006_mg_g006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8390,6 +7594,7 @@ def test_mg_g006_mg_g006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g005_mg_g005_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: check that maxOccurs default is
@@ -8397,9 +7602,7 @@ def test_mg_g005_mg_g005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8414,9 +7617,7 @@ def test_mg_g004_mg_g004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8424,6 +7625,7 @@ def test_mg_g004_mg_g004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_g003_mg_g003_i(save_xml):
     """
     TEST :model groups (ALL) : sequence: check that minOccurs default is
@@ -8431,9 +7633,7 @@ def test_mg_g003_mg_g003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgG003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgG003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8447,9 +7647,7 @@ def test_mg_f019_mg_f019_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF019.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8463,9 +7661,7 @@ def test_mg_f018_mg_f018_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8480,9 +7676,7 @@ def test_mg_f017_mg_f017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8496,9 +7690,7 @@ def test_mg_f016_mg_f016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8513,9 +7705,7 @@ def test_mg_f015_mg_f015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8530,9 +7720,7 @@ def test_mg_f014_mg_f014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8547,9 +7735,7 @@ def test_mg_f013_mg_f013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8564,9 +7750,7 @@ def test_mg_f012_mg_f012_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8581,9 +7765,7 @@ def test_mg_f011_mg_f011_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8598,9 +7780,7 @@ def test_mg_f010_mg_f010_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8615,9 +7795,7 @@ def test_mg_f009_mg_f009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8631,9 +7809,7 @@ def test_mg_f008_mg_f008_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF008.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8648,9 +7824,7 @@ def test_mg_f007_mg_f007_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8664,9 +7838,7 @@ def test_mg_f006_mg_f006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8680,9 +7852,7 @@ def test_mg_f005_mg_f005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8696,9 +7866,7 @@ def test_mg_f004_mg_f004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8712,9 +7880,7 @@ def test_mg_f002_mg_f002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8728,9 +7894,7 @@ def test_mg_f001_mg_f001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgF001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgF001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8744,9 +7908,7 @@ def test_mg_eb005_mg_eb005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgEb005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgEb005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8760,9 +7922,7 @@ def test_mg_eb004_mg_eb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgEb004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgEb004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8776,9 +7936,7 @@ def test_mg_e018_mg_e018_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE018.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8792,9 +7950,7 @@ def test_mg_e017_mg_e017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8808,9 +7964,7 @@ def test_mg_e016_mg_e016_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE016.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -8824,9 +7978,7 @@ def test_mg_e015_mg_e015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE015.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8840,9 +7992,7 @@ def test_mg_e014_mg_e014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE014.xml",
-        instance_is_valid=True,
         class_name="Who",
         version="1.1",
         save_xml=save_xml,
@@ -8856,9 +8006,7 @@ def test_mg_e013_mg_e013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8872,9 +8020,7 @@ def test_mg_e001_mg_e001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgE001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgE001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8889,9 +8035,7 @@ def test_mg_d013_mg_d013_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgD013.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgD013.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8906,9 +8050,7 @@ def test_mg_d009_mg_d009_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgD009.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgD009.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8923,9 +8065,7 @@ def test_mg_d005_mg_d005_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgD005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgD005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8940,9 +8080,7 @@ def test_mg_d001_mg_d001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgD001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgD001.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -8957,9 +8095,7 @@ def test_mg_c014_mg_c014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -8967,6 +8103,7 @@ def test_mg_c014_mg_c014_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c012_mg_c012_i(save_xml):
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
@@ -8974,9 +8111,7 @@ def test_mg_c012_mg_c012_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC012.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC012.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -8991,9 +8126,7 @@ def test_mg_c011_mg_c011_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC011.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC011.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9001,6 +8134,7 @@ def test_mg_c011_mg_c011_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c010_mg_c010_i(save_xml):
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
@@ -9008,9 +8142,7 @@ def test_mg_c010_mg_c010_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC010.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC010.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9018,6 +8150,7 @@ def test_mg_c010_mg_c010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c007_mg_c007_i(save_xml):
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
@@ -9025,9 +8158,7 @@ def test_mg_c007_mg_c007_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC007.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC007.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9042,9 +8173,7 @@ def test_mg_c006_mg_c006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC006.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9052,6 +8181,7 @@ def test_mg_c006_mg_c006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c005_mg_c005_i(save_xml):
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
@@ -9059,9 +8189,7 @@ def test_mg_c005_mg_c005_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC005.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC005.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9076,9 +8204,7 @@ def test_mg_c004_mg_c004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9086,6 +8212,7 @@ def test_mg_c004_mg_c004_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c003_mg_c003_i(save_xml):
     """
     TEST :model groups (ALL) : all: check that maxOccurs default is 1,
@@ -9093,9 +8220,7 @@ def test_mg_c003_mg_c003_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC003.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9110,9 +8235,7 @@ def test_mg_c002_mg_c002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC002.xml",
-        instance_is_valid=True,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9120,6 +8243,7 @@ def test_mg_c002_mg_c002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_mg_c001_mg_c001_i(save_xml):
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,
@@ -9127,9 +8251,7 @@ def test_mg_c001_mg_c001_i(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgC001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgC001.xml",
-        instance_is_valid=False,
         class_name="Test",
         version="1.1",
         save_xml=save_xml,
@@ -9143,9 +8265,7 @@ def test_mg_b006_mg_b006_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgB006.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgB006.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9159,9 +8279,7 @@ def test_mg_b004_mg_b004_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgB004.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgB004.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9175,9 +8293,7 @@ def test_mg_b002_mg_b002_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgB002.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgB002.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9191,9 +8307,7 @@ def test_mg_b001_mg_b001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgB001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgB001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9207,9 +8321,7 @@ def test_mg_aa003_mg_aa003_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgAa003.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgAa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9223,9 +8335,7 @@ def test_mg_a017_mg_a017_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgA017.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgA017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9239,9 +8349,7 @@ def test_mg_a015_mg_a015_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgA015.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgA015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9255,9 +8363,7 @@ def test_mg_a014_mg_a014_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgA014.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgA014.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9271,9 +8377,7 @@ def test_mg_a001_mg_a001_v(save_xml):
     """
     assert_bindings(
         schema="msData/modelGroups/mgA001.xsd",
-        is_valid=True,
         instance="msData/modelGroups/mgA001.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9281,6 +8385,7 @@ def test_mg_a001_mg_a001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_notat_h003_notat_h003_i(save_xml):
     """
     TEST :Notations : Instance document with (Schema with 3 Notations and
@@ -9289,9 +8394,7 @@ def test_notat_h003_notat_h003_i(save_xml):
     """
     assert_bindings(
         schema="msData/notations/notatH003.xsd",
-        is_valid=True,
         instance="msData/notations/notatH003.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -9299,15 +8402,14 @@ def test_notat_h003_notat_h003_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_notat_h002v_notat_h002v_i(save_xml):
     """
     TEST :Notations : Instance document doesn't declare a notation type
     """
     assert_bindings(
         schema="msData/notations/notatH002.xsd",
-        is_valid=True,
         instance="msData/notations/notatH002.xml",
-        instance_is_valid=False,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -9321,9 +8423,7 @@ def test_notat_h001v_notat_h001v_v(save_xml):
     """
     assert_bindings(
         schema="msData/notations/notatH001.xsd",
-        is_valid=True,
         instance="msData/notations/notatH001.xml",
-        instance_is_valid=True,
         class_name="Foo",
         version="1.1",
         save_xml=save_xml,
@@ -9339,9 +8439,7 @@ def test_particles_z040_particles_z040_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ040.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ040.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9359,9 +8457,7 @@ def test_particles_z036_c_particles_z036_c_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ036_c.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ036_c.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9379,9 +8475,7 @@ def test_particles_z036_b2_particles_z036_b2_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ036_b.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ036_b2.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9399,9 +8493,7 @@ def test_particles_z036_b1_particles_z036_b1_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ036_b.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ036_b1.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9409,6 +8501,7 @@ def test_particles_z036_b1_particles_z036_b1_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z036_a_particles_z036_a_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9419,9 +8512,7 @@ def test_particles_z036_a_particles_z036_a_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ036_a.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ036_a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9429,6 +8520,7 @@ def test_particles_z036_a_particles_z036_a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z035_a_particles_z035_a_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9437,9 +8529,7 @@ def test_particles_z035_a_particles_z035_a_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ035_a.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ035_a.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9447,6 +8537,7 @@ def test_particles_z035_a_particles_z035_a_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z034_b_particles_z034_b_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9455,9 +8546,7 @@ def test_particles_z034_b_particles_z034_b_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ034_b.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ034_b1.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9465,6 +8554,7 @@ def test_particles_z034_b_particles_z034_b_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z034_a3_particles_z034_a3_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9473,9 +8563,7 @@ def test_particles_z034_a3_particles_z034_a3_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ034_a.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ034_a3.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9483,6 +8571,7 @@ def test_particles_z034_a3_particles_z034_a3_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z034_a2_particles_z034_a2_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9491,9 +8580,7 @@ def test_particles_z034_a2_particles_z034_a2_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ034_a.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ034_a2.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9510,9 +8597,7 @@ def test_particles_z034_a1_particles_z034_a1_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ034_a.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ034_a1.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9520,6 +8605,7 @@ def test_particles_z034_a1_particles_z034_a1_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid schema")
 def test_particles_z026_particles_z026_v(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9529,9 +8615,7 @@ def test_particles_z026_particles_z026_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ026a.xsd",
-        is_valid=False,
         instance="msData/particles/particlesZ026.xml",
-        instance_is_valid=False,
         class_name="Sequence",
         version="1.1",
         save_xml=save_xml,
@@ -9539,6 +8623,7 @@ def test_particles_z026_particles_z026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="No schema")
 def test_particles_z025_particles_z025_v(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9546,9 +8631,7 @@ def test_particles_z025_particles_z025_v(save_xml):
     """
     assert_bindings(
         schema="",
-        is_valid=False,
         instance="msData/particles/particlesZ025.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9556,6 +8639,7 @@ def test_particles_z025_particles_z025_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z016_particles_z016_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9564,9 +8648,7 @@ def test_particles_z016_particles_z016_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ016.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9574,6 +8656,7 @@ def test_particles_z016_particles_z016_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z015_particles_z015_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9582,9 +8665,7 @@ def test_particles_z015_particles_z015_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ015.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9600,9 +8681,7 @@ def test_particles_z012_particles_z012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ012.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9618,9 +8697,7 @@ def test_particles_z008_particles_z008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ008.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9628,6 +8705,7 @@ def test_particles_z008_particles_z008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_z007_particles_z007_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -9636,9 +8714,7 @@ def test_particles_z007_particles_z007_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ007.xml",
-        instance_is_valid=False,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9654,9 +8730,7 @@ def test_particles_z005_particles_z005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ005.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -9672,9 +8746,7 @@ def test_particles_z003_particles_z003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9690,9 +8762,7 @@ def test_particles_z002_particles_z002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9709,9 +8779,7 @@ def test_particles_z001_particles_z001_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesZ001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesZ001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9728,9 +8796,7 @@ def test_particles_w016_particles_w016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesW016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesW016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9747,9 +8813,7 @@ def test_particles_w011_particles_w011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesW011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesW011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9766,9 +8830,7 @@ def test_particles_w008_particles_w008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesW008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesW008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9785,9 +8847,7 @@ def test_particles_w003_particles_w003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesW003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesW003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9804,9 +8864,7 @@ def test_particles_w001_particles_w001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesW001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesW001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9823,9 +8881,7 @@ def test_particles_v015_particles_v015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9842,9 +8898,7 @@ def test_particles_v014_particles_v014_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9861,9 +8915,7 @@ def test_particles_v013_particles_v013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9880,9 +8932,7 @@ def test_particles_v012_particles_v012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9899,9 +8949,7 @@ def test_particles_v011_particles_v011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9918,9 +8966,7 @@ def test_particles_v010_particles_v010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9937,9 +8983,7 @@ def test_particles_v009_particles_v009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9956,9 +9000,7 @@ def test_particles_v008_particles_v008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9975,9 +9017,7 @@ def test_particles_v007_particles_v007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -9994,9 +9034,7 @@ def test_particles_v006_particles_v006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10013,9 +9051,7 @@ def test_particles_v004_particles_v004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10032,9 +9068,7 @@ def test_particles_v003_particles_v003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesV003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesV003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10051,9 +9085,7 @@ def test_particles_u007_particles_u007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesU007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesU007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10070,9 +9102,7 @@ def test_particles_u005_particles_u005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesU005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesU005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10089,9 +9119,7 @@ def test_particles_u004_particles_u004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesU004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesU004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10108,9 +9136,7 @@ def test_particles_u003_particles_u003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesU003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesU003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10129,9 +9155,7 @@ def test_particles_q032_particles_q032_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ032.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ032.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10148,9 +9172,7 @@ def test_particles_q030_particles_q030_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ030.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ030.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10167,9 +9189,7 @@ def test_particles_q029_particles_q029_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ029.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10187,9 +9207,7 @@ def test_particles_q024_particles_q024_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ024.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ024.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10206,9 +9224,7 @@ def test_particles_q022_particles_q022_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ022.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10225,9 +9241,7 @@ def test_particles_q020_particles_q020_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ020.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ020.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10244,9 +9258,7 @@ def test_particles_q017_particles_q017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10263,9 +9275,7 @@ def test_particles_q016_particles_q016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10284,9 +9294,7 @@ def test_particles_q013_particles_q013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10304,9 +9312,7 @@ def test_particles_q011_particles_q011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10324,9 +9330,7 @@ def test_particles_q007_particles_q007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10344,9 +9348,7 @@ def test_particles_q005_particles_q005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10364,9 +9366,7 @@ def test_particles_q004_particles_q004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10384,9 +9384,7 @@ def test_particles_q003_particles_q003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10404,9 +9402,7 @@ def test_particles_q002_particles_q002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10424,9 +9420,7 @@ def test_particles_q001_particles_q001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesQ001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesQ001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10444,9 +9438,7 @@ def test_particles_t014_particles_t014_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10463,9 +9455,7 @@ def test_particles_t013_particles_t013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10483,9 +9473,7 @@ def test_particles_t012_particles_t012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10502,9 +9490,7 @@ def test_particles_t007_particles_t007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10521,9 +9507,7 @@ def test_particles_t006_particles_t006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10540,9 +9524,7 @@ def test_particles_t005_particles_t005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10559,9 +9541,7 @@ def test_particles_t004_particles_t004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10578,9 +9558,7 @@ def test_particles_t003_particles_t003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10597,9 +9575,7 @@ def test_particles_t001_particles_t001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesT001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesT001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10616,9 +9592,7 @@ def test_particles_r030_particles_r030_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR030.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR030.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10635,9 +9609,7 @@ def test_particles_r029_particles_r029_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR029.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10655,9 +9627,7 @@ def test_particles_r024_particles_r024_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR024.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR024.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10674,9 +9644,7 @@ def test_particles_r022_particles_r022_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR022.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10693,9 +9661,7 @@ def test_particles_r020_particles_r020_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR020.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR020.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10712,9 +9678,7 @@ def test_particles_r017_particles_r017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10731,9 +9695,7 @@ def test_particles_r016_particles_r016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10750,9 +9712,7 @@ def test_particles_r015_particles_r015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10770,9 +9730,7 @@ def test_particles_r013_particles_r013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10790,9 +9748,7 @@ def test_particles_r012_particles_r012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10810,9 +9766,7 @@ def test_particles_r011_particles_r011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10830,9 +9784,7 @@ def test_particles_r009_particles_r009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10850,9 +9802,7 @@ def test_particles_r008_particles_r008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10870,9 +9820,7 @@ def test_particles_r007_particles_r007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10890,9 +9838,7 @@ def test_particles_r005_particles_r005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10910,9 +9856,7 @@ def test_particles_r004_particles_r004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10930,9 +9874,7 @@ def test_particles_r003_particles_r003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10950,9 +9892,7 @@ def test_particles_r002_particles_r002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10970,9 +9910,7 @@ def test_particles_r001_particles_r001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesR001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesR001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -10989,9 +9927,7 @@ def test_particles_s011_particles_s011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesS011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesS011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11008,9 +9944,7 @@ def test_particles_s007_particles_s007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesS007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesS007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11027,9 +9961,7 @@ def test_particles_s004_particles_s004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesS004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesS004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11046,9 +9978,7 @@ def test_particles_s003_particles_s003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesS003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesS003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11064,9 +9994,7 @@ def test_particles_s001_particles_s001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesS001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesS001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11083,9 +10011,7 @@ def test_particles_p002_particles_p002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesP002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesP002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11103,9 +10029,7 @@ def test_particles_ob060_particles_ob060_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb060.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb060.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11123,9 +10047,7 @@ def test_particles_ob059_particles_ob059_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb059.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb059.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11143,9 +10065,7 @@ def test_particles_ob057_particles_ob057_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb057.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb057.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11162,9 +10082,7 @@ def test_particles_ob056_particles_ob056_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb056.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb056.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11182,9 +10100,7 @@ def test_particles_ob055_particles_ob055_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb055.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb055.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11202,9 +10118,7 @@ def test_particles_ob054_particles_ob054_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb054.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb054.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11221,9 +10135,7 @@ def test_particles_ob053_particles_ob053_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb053.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb053.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11241,9 +10153,7 @@ def test_particles_ob052_particles_ob052_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb052.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb052.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11261,9 +10171,7 @@ def test_particles_ob048_particles_ob048_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb048.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb048.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11281,9 +10189,7 @@ def test_particles_ob047_particles_ob047_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb047.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb047.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11301,9 +10207,7 @@ def test_particles_ob042_particles_ob042_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb042.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb042.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11320,9 +10224,7 @@ def test_particles_ob032_particles_ob032_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb032.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb032.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11340,9 +10242,7 @@ def test_particles_ob022_particles_ob022_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb022.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb022.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11360,9 +10260,7 @@ def test_particles_ob015_particles_ob015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11380,9 +10278,7 @@ def test_particles_ob012_particles_ob012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11400,9 +10296,7 @@ def test_particles_ob007_particles_ob007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11420,9 +10314,7 @@ def test_particles_ob006_particles_ob006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11439,9 +10331,7 @@ def test_particles_ob005_particles_ob005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11459,9 +10349,7 @@ def test_particles_ob003_particles_ob003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOb003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOb003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11478,9 +10366,7 @@ def test_particles_oa014_particles_oa014_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11497,9 +10383,7 @@ def test_particles_oa013_particles_oa013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11516,9 +10400,7 @@ def test_particles_oa012_particles_oa012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11535,9 +10417,7 @@ def test_particles_oa011_particles_oa011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11554,9 +10434,7 @@ def test_particles_oa006_particles_oa006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11573,9 +10451,7 @@ def test_particles_oa003_particles_oa003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11592,9 +10468,7 @@ def test_particles_oa001_particles_oa001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesOa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesOa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11611,9 +10485,7 @@ def test_particles_m035_particles_m035_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesM035.xsd",
-        is_valid=True,
         instance="msData/particles/particlesM035.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11630,9 +10502,7 @@ def test_particles_m003_particles_m003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesM003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesM003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11649,9 +10519,7 @@ def test_particles_m002_particles_m002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesM002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesM002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11669,9 +10537,7 @@ def test_particles_l029_particles_l029_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL029.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11689,9 +10555,7 @@ def test_particles_l028_particles_l028_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL028.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL028.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11709,9 +10573,7 @@ def test_particles_l025_particles_l025_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL025.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL025.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11729,9 +10591,7 @@ def test_particles_l023_particles_l023_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL023.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL023.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11749,9 +10609,7 @@ def test_particles_l021_particles_l021_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL021.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11769,9 +10627,7 @@ def test_particles_l018_particles_l018_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL018.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11789,9 +10645,7 @@ def test_particles_l017_particles_l017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11809,9 +10663,7 @@ def test_particles_l013_particles_l013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11829,9 +10681,7 @@ def test_particles_l012_particles_l012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11849,9 +10699,7 @@ def test_particles_l007_particles_l007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11869,9 +10717,7 @@ def test_particles_l006_particles_l006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11888,9 +10734,7 @@ def test_particles_l003_particles_l003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesL003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesL003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11908,9 +10752,7 @@ def test_particles_k008_particles_k008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesK008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesK008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11927,9 +10769,7 @@ def test_particles_k005_particles_k005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesK005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesK005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11947,9 +10787,7 @@ def test_particles_k003_particles_k003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesK003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesK003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11967,9 +10805,7 @@ def test_particles_k002_particles_k002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesK002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesK002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -11986,9 +10822,7 @@ def test_particles_k001_particles_k001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesK001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesK001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12007,9 +10841,7 @@ def test_particles_ju003_particles_ju003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJu003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJu003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12027,9 +10859,7 @@ def test_particles_ju002_particles_ju002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJu002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJu002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12048,9 +10878,7 @@ def test_particles_ju001_particles_ju001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJu001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJu001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12067,9 +10895,7 @@ def test_particles_js001_particles_js001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJs001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJs001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12087,9 +10913,7 @@ def test_particles_jq010_particles_jq010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJq010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJq010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12107,9 +10931,7 @@ def test_particles_jq008_particles_jq008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJq008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJq008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12127,9 +10949,7 @@ def test_particles_jq007_particles_jq007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJq007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJq007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12147,9 +10967,7 @@ def test_particles_jp005_particles_jp005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJp005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJp005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12167,9 +10985,7 @@ def test_particles_jp004_particles_jp004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJp004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJp004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12187,9 +11003,7 @@ def test_particles_jn010_particles_jn010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJn010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJn010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12207,9 +11021,7 @@ def test_particles_jn008_particles_jn008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJn008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJn008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12227,9 +11039,7 @@ def test_particles_jn007_particles_jn007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJn007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJn007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12247,9 +11057,7 @@ def test_particles_jm005_particles_jm005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJm005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJm005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12267,9 +11075,7 @@ def test_particles_jm004_particles_jm004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJm004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJm004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12286,9 +11092,7 @@ def test_particles_jl001_particles_jl001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJl001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJl001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12305,9 +11109,7 @@ def test_particles_jk016_particles_jk016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12325,9 +11127,7 @@ def test_particles_jk015_particles_jk015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12345,9 +11145,7 @@ def test_particles_jk013_particles_jk013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12365,9 +11163,7 @@ def test_particles_jk011_particles_jk011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12385,9 +11181,7 @@ def test_particles_jk010_particles_jk010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12405,9 +11199,7 @@ def test_particles_jk008_particles_jk008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12425,9 +11217,7 @@ def test_particles_jk007_particles_jk007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12445,9 +11235,7 @@ def test_particles_jk005_particles_jk005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12465,9 +11253,7 @@ def test_particles_jk004_particles_jk004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12485,9 +11271,7 @@ def test_particles_jk003_particles_jk003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12505,9 +11289,7 @@ def test_particles_jk002_particles_jk002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12525,9 +11307,7 @@ def test_particles_jk001_particles_jk001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJk001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJk001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12545,9 +11325,7 @@ def test_particles_jj011_particles_jj011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12565,9 +11343,7 @@ def test_particles_jj010_particles_jj010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12585,9 +11361,7 @@ def test_particles_jj009_particles_jj009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12605,9 +11379,7 @@ def test_particles_jj008_particles_jj008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12625,9 +11397,7 @@ def test_particles_jj007_particles_jj007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12645,9 +11415,7 @@ def test_particles_jj005_particles_jj005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12665,9 +11433,7 @@ def test_particles_jj004_particles_jj004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12685,9 +11451,7 @@ def test_particles_jj002_particles_jj002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12705,9 +11469,7 @@ def test_particles_jj001_particles_jj001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJj001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJj001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12725,9 +11487,7 @@ def test_particles_jf016_particles_jf016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12745,9 +11505,7 @@ def test_particles_jf015_particles_jf015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12765,9 +11523,7 @@ def test_particles_jf013_particles_jf013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12785,9 +11541,7 @@ def test_particles_jf011_particles_jf011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12805,9 +11559,7 @@ def test_particles_jf010_particles_jf010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12825,9 +11577,7 @@ def test_particles_jf008_particles_jf008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12845,9 +11595,7 @@ def test_particles_jf007_particles_jf007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12865,9 +11613,7 @@ def test_particles_jf005_particles_jf005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12885,9 +11631,7 @@ def test_particles_jf004_particles_jf004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12905,9 +11649,7 @@ def test_particles_jf003_particles_jf003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12925,9 +11667,7 @@ def test_particles_jf002_particles_jf002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12945,9 +11685,7 @@ def test_particles_jf001_particles_jf001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJf001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJf001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12965,9 +11703,7 @@ def test_particles_je011_particles_je011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -12985,9 +11721,7 @@ def test_particles_je010_particles_je010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13005,9 +11739,7 @@ def test_particles_je009_particles_je009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13025,9 +11757,7 @@ def test_particles_je008_particles_je008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13045,9 +11775,7 @@ def test_particles_je007_particles_je007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13065,9 +11793,7 @@ def test_particles_je005_particles_je005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13085,9 +11811,7 @@ def test_particles_je004_particles_je004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13105,9 +11829,7 @@ def test_particles_je002_particles_je002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13125,9 +11847,7 @@ def test_particles_je001_particles_je001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJe001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJe001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13144,9 +11864,7 @@ def test_particles_jd016_particles_jd016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13163,9 +11881,7 @@ def test_particles_jd015_particles_jd015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13182,9 +11898,7 @@ def test_particles_jd013_particles_jd013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13201,9 +11915,7 @@ def test_particles_jd011_particles_jd011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13220,9 +11932,7 @@ def test_particles_jd010_particles_jd010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13239,9 +11949,7 @@ def test_particles_jd008_particles_jd008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13258,9 +11966,7 @@ def test_particles_jd007_particles_jd007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13277,9 +11983,7 @@ def test_particles_jd005_particles_jd005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13296,9 +12000,7 @@ def test_particles_jd004_particles_jd004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13315,9 +12017,7 @@ def test_particles_jd003_particles_jd003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13334,9 +12034,7 @@ def test_particles_jd002_particles_jd002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13353,9 +12051,7 @@ def test_particles_jd001_particles_jd001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJd001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJd001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13372,9 +12068,7 @@ def test_particles_jc011_particles_jc011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13391,9 +12085,7 @@ def test_particles_jc010_particles_jc010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13410,9 +12102,7 @@ def test_particles_jc009_particles_jc009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13429,9 +12119,7 @@ def test_particles_jc008_particles_jc008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13448,9 +12136,7 @@ def test_particles_jc007_particles_jc007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13467,9 +12153,7 @@ def test_particles_jc005_particles_jc005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13486,9 +12170,7 @@ def test_particles_jc004_particles_jc004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13505,9 +12187,7 @@ def test_particles_jc002_particles_jc002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13524,9 +12204,7 @@ def test_particles_jc001_particles_jc001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJc001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJc001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13543,9 +12221,7 @@ def test_particles_jb016_particles_jb016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13562,9 +12238,7 @@ def test_particles_jb015_particles_jb015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13581,9 +12255,7 @@ def test_particles_jb013_particles_jb013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13600,9 +12272,7 @@ def test_particles_jb011_particles_jb011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13619,9 +12289,7 @@ def test_particles_jb010_particles_jb010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13638,9 +12306,7 @@ def test_particles_jb008_particles_jb008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13657,9 +12323,7 @@ def test_particles_jb007_particles_jb007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13676,9 +12340,7 @@ def test_particles_jb005_particles_jb005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13695,9 +12357,7 @@ def test_particles_jb004_particles_jb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13714,9 +12374,7 @@ def test_particles_jb003_particles_jb003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13733,9 +12391,7 @@ def test_particles_jb002_particles_jb002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13752,9 +12408,7 @@ def test_particles_jb001_particles_jb001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJb001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJb001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13771,9 +12425,7 @@ def test_particles_ja011_particles_ja011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13790,9 +12442,7 @@ def test_particles_ja010_particles_ja010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13809,9 +12459,7 @@ def test_particles_ja009_particles_ja009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13828,9 +12476,7 @@ def test_particles_ja008_particles_ja008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13847,9 +12493,7 @@ def test_particles_ja007_particles_ja007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13866,9 +12510,7 @@ def test_particles_ja005_particles_ja005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13885,9 +12527,7 @@ def test_particles_ja004_particles_ja004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13904,9 +12544,7 @@ def test_particles_ja002_particles_ja002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13923,9 +12561,7 @@ def test_particles_ja001_particles_ja001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesJa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesJa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13942,9 +12578,7 @@ def test_particles_ik026_particles_ik026_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIk026.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIk026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13961,9 +12595,7 @@ def test_particles_ik012_particles_ik012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIk012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIk012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13980,9 +12612,7 @@ def test_particles_ik004_particles_ik004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIk004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIk004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -13999,9 +12629,7 @@ def test_particles_ik001_particles_ik001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIk001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIk001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14019,9 +12647,7 @@ def test_particles_ij006_particles_ij006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIj006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIj006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14038,9 +12664,7 @@ def test_particles_ij005_particles_ij005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIj005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIj005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14057,9 +12681,7 @@ def test_particles_ij002_particles_ij002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIj002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIj002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14075,9 +12697,7 @@ def test_particles_ij001_particles_ij001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIj001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIj001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14094,9 +12714,7 @@ def test_particles_ig015_particles_ig015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14113,9 +12731,7 @@ def test_particles_ig014_particles_ig014_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14132,9 +12748,7 @@ def test_particles_ig012_particles_ig012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14151,9 +12765,7 @@ def test_particles_ig011_particles_ig011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14170,9 +12782,7 @@ def test_particles_ig005_particles_ig005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14180,6 +12790,7 @@ def test_particles_ig005_particles_ig005_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ig003_particles_ig003_v(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -14189,9 +12800,7 @@ def test_particles_ig003_particles_ig003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14208,9 +12817,7 @@ def test_particles_ig002_particles_ig002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14227,9 +12834,7 @@ def test_particles_ig001_particles_ig001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIg001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIg001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14245,9 +12850,7 @@ def test_particles_if006_particles_if006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14263,9 +12866,7 @@ def test_particles_if005_particles_if005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14281,9 +12882,7 @@ def test_particles_if004_particles_if004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14299,9 +12898,7 @@ def test_particles_if003_particles_if003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14317,9 +12914,7 @@ def test_particles_if002_particles_if002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14335,9 +12930,7 @@ def test_particles_if001_particles_if001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIf001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIf001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14353,9 +12946,7 @@ def test_particles_ie016_particles_ie016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14371,9 +12962,7 @@ def test_particles_ie015_particles_ie015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14389,9 +12978,7 @@ def test_particles_ie013_particles_ie013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14407,9 +12994,7 @@ def test_particles_ie011_particles_ie011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14425,9 +13010,7 @@ def test_particles_ie010_particles_ie010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14443,9 +13026,7 @@ def test_particles_ie008_particles_ie008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14461,9 +13042,7 @@ def test_particles_ie007_particles_ie007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14479,9 +13058,7 @@ def test_particles_ie005_particles_ie005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14497,9 +13074,7 @@ def test_particles_ie004_particles_ie004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14515,9 +13090,7 @@ def test_particles_ie003_particles_ie003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14533,9 +13106,7 @@ def test_particles_ie002_particles_ie002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14551,9 +13122,7 @@ def test_particles_ie001_particles_ie001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIe001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIe001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14569,9 +13138,7 @@ def test_particles_id011_particles_id011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14587,9 +13154,7 @@ def test_particles_id010_particles_id010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14605,9 +13170,7 @@ def test_particles_id009_particles_id009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14623,9 +13186,7 @@ def test_particles_id008_particles_id008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14641,9 +13202,7 @@ def test_particles_id007_particles_id007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14659,9 +13218,7 @@ def test_particles_id005_particles_id005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14677,9 +13234,7 @@ def test_particles_id004_particles_id004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14695,9 +13250,7 @@ def test_particles_id002_particles_id002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14713,9 +13266,7 @@ def test_particles_id001_particles_id001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesId001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesId001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14732,9 +13283,7 @@ def test_particles_ic007_particles_ic007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIc007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIc007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14751,9 +13300,7 @@ def test_particles_ic006_particles_ic006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIc006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIc006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14770,9 +13317,7 @@ def test_particles_ic005_particles_ic005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIc005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIc005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14789,9 +13334,7 @@ def test_particles_ic001_particles_ic001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIc001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIc001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14808,9 +13351,7 @@ def test_particles_ib005_particles_ib005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIb005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIb005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14826,9 +13367,7 @@ def test_particles_ib003_particles_ib003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIb003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIb003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14844,9 +13383,7 @@ def test_particles_ib001_particles_ib001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIb001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIb001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14862,9 +13399,7 @@ def test_particles_ia005_particles_ia005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIa005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14880,9 +13415,7 @@ def test_particles_ia004_particles_ia004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14898,9 +13431,7 @@ def test_particles_ia003_particles_ia003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14916,9 +13447,7 @@ def test_particles_ia002_particles_ia002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14934,9 +13463,7 @@ def test_particles_ia001_particles_ia001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesIa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesIa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14952,9 +13479,7 @@ def test_particles_ha018_particles_ha018_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa018.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14970,9 +13495,7 @@ def test_particles_ha017_particles_ha017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -14989,9 +13512,7 @@ def test_particles_ha016_particles_ha016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15008,9 +13529,7 @@ def test_particles_ha015_particles_ha015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15027,9 +13546,7 @@ def test_particles_ha014_particles_ha014_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa014.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15046,9 +13563,7 @@ def test_particles_ha013_particles_ha013_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa013.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15065,9 +13580,7 @@ def test_particles_ha012_particles_ha012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15084,9 +13597,7 @@ def test_particles_ha011_particles_ha011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15103,9 +13614,7 @@ def test_particles_ha010_particles_ha010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15122,9 +13631,7 @@ def test_particles_ha009_particles_ha009_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa009.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15142,9 +13649,7 @@ def test_particles_ha007_particles_ha007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15161,9 +13666,7 @@ def test_particles_ha006_particles_ha006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15181,9 +13684,7 @@ def test_particles_ha005_particles_ha005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15200,9 +13701,7 @@ def test_particles_ha004_particles_ha004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15219,9 +13718,7 @@ def test_particles_ha003_particles_ha003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15238,9 +13735,7 @@ def test_particles_ha002_particles_ha002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15256,9 +13751,7 @@ def test_particles_ha001_particles_ha001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesHa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesHa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15274,9 +13767,7 @@ def test_particles_fb004_particles_fb004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFb004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFb004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15292,9 +13783,7 @@ def test_particles_fb001_particles_fb001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFb001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFb001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15310,9 +13799,7 @@ def test_particles_fa005_particles_fa005_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFa005.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15328,9 +13815,7 @@ def test_particles_fa004_particles_fa004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15346,9 +13831,7 @@ def test_particles_fa003_particles_fa003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15364,9 +13847,7 @@ def test_particles_fa002_particles_fa002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesFa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesFa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15374,6 +13855,7 @@ def test_particles_fa002_particles_fa002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec041_particles_ec041_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15382,9 +13864,7 @@ def test_particles_ec041_particles_ec041_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc041.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc041.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15392,6 +13872,7 @@ def test_particles_ec041_particles_ec041_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec040_particles_ec040_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15400,9 +13881,7 @@ def test_particles_ec040_particles_ec040_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc040.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc040.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15410,6 +13889,7 @@ def test_particles_ec040_particles_ec040_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec039_particles_ec039_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15418,9 +13898,7 @@ def test_particles_ec039_particles_ec039_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc039.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc039.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15428,6 +13906,7 @@ def test_particles_ec039_particles_ec039_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec038_particles_ec038_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15436,9 +13915,7 @@ def test_particles_ec038_particles_ec038_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc038.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc038.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15454,9 +13931,7 @@ def test_particles_ec037_particles_ec037_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc037.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc037.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15472,9 +13947,7 @@ def test_particles_ec036_particles_ec036_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc036.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc036.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15490,9 +13963,7 @@ def test_particles_ec035_particles_ec035_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc035.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc035.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15508,9 +13979,7 @@ def test_particles_ec034_particles_ec034_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc034.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc034.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15526,9 +13995,7 @@ def test_particles_ec033_particles_ec033_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc033.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc033.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15544,9 +14011,7 @@ def test_particles_ec032_particles_ec032_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc032.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc032.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15562,9 +14027,7 @@ def test_particles_ec031_particles_ec031_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc031.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc031.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15580,9 +14043,7 @@ def test_particles_ec030_particles_ec030_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc030.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc030.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15598,9 +14059,7 @@ def test_particles_ec029_particles_ec029_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc029.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc029.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15608,6 +14067,7 @@ def test_particles_ec029_particles_ec029_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec028_particles_ec028_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15616,9 +14076,7 @@ def test_particles_ec028_particles_ec028_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc028.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc028.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15626,6 +14084,7 @@ def test_particles_ec028_particles_ec028_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec027_particles_ec027_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15634,9 +14093,7 @@ def test_particles_ec027_particles_ec027_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc027.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc027.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15644,6 +14101,7 @@ def test_particles_ec027_particles_ec027_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec026_particles_ec026_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15652,9 +14110,7 @@ def test_particles_ec026_particles_ec026_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc026.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc026.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15662,6 +14118,7 @@ def test_particles_ec026_particles_ec026_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec025_particles_ec025_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15671,9 +14128,7 @@ def test_particles_ec025_particles_ec025_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc025.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc025.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15681,6 +14136,7 @@ def test_particles_ec025_particles_ec025_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec024_particles_ec024_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15690,9 +14146,7 @@ def test_particles_ec024_particles_ec024_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc024.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc024.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15700,6 +14154,7 @@ def test_particles_ec024_particles_ec024_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec023_particles_ec023_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15709,9 +14164,7 @@ def test_particles_ec023_particles_ec023_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc023.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc023.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15719,6 +14172,7 @@ def test_particles_ec023_particles_ec023_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec022_particles_ec022_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15728,9 +14182,7 @@ def test_particles_ec022_particles_ec022_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc022.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc022.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15747,9 +14199,7 @@ def test_particles_ec021_particles_ec021_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc021.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc021.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15766,9 +14216,7 @@ def test_particles_ec020_particles_ec020_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc020.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc020.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15785,9 +14233,7 @@ def test_particles_ec019_particles_ec019_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc019.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15804,9 +14250,7 @@ def test_particles_ec018_particles_ec018_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc018.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15823,9 +14267,7 @@ def test_particles_ec017_particles_ec017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15842,9 +14284,7 @@ def test_particles_ec016_particles_ec016_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc016.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15852,6 +14292,7 @@ def test_particles_ec016_particles_ec016_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec015_particles_ec015_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15861,9 +14302,7 @@ def test_particles_ec015_particles_ec015_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc015.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15871,6 +14310,7 @@ def test_particles_ec015_particles_ec015_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec014_particles_ec014_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15880,9 +14320,7 @@ def test_particles_ec014_particles_ec014_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15890,6 +14328,7 @@ def test_particles_ec014_particles_ec014_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec013_particles_ec013_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15899,9 +14338,7 @@ def test_particles_ec013_particles_ec013_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15918,9 +14355,7 @@ def test_particles_ec012_particles_ec012_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc012.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15928,6 +14363,7 @@ def test_particles_ec012_particles_ec012_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec011_particles_ec011_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15937,9 +14373,7 @@ def test_particles_ec011_particles_ec011_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15947,6 +14381,7 @@ def test_particles_ec011_particles_ec011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec008_particles_ec008_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15955,9 +14390,7 @@ def test_particles_ec008_particles_ec008_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15965,6 +14398,7 @@ def test_particles_ec008_particles_ec008_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec007_particles_ec007_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -15973,9 +14407,7 @@ def test_particles_ec007_particles_ec007_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -15991,9 +14423,7 @@ def test_particles_ec006_particles_ec006_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc006.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16001,6 +14431,7 @@ def test_particles_ec006_particles_ec006_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec005_particles_ec005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16010,9 +14441,7 @@ def test_particles_ec005_particles_ec005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16020,6 +14449,7 @@ def test_particles_ec005_particles_ec005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec004_particles_ec004_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16028,9 +14458,7 @@ def test_particles_ec004_particles_ec004_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16038,6 +14466,7 @@ def test_particles_ec004_particles_ec004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ec003_particles_ec003_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16046,9 +14475,7 @@ def test_particles_ec003_particles_ec003_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16064,9 +14491,7 @@ def test_particles_ec002_particles_ec002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16083,9 +14508,7 @@ def test_particles_ec001_particles_ec001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEc001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEc001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16102,9 +14525,7 @@ def test_particles_eb041_particles_eb041_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb041.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb041.xml",
-        instance_is_valid=True,
         class_name="Root",
         version="1.1",
         save_xml=save_xml,
@@ -16112,6 +14533,7 @@ def test_particles_eb041_particles_eb041_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb039_particles_eb039_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16120,9 +14542,7 @@ def test_particles_eb039_particles_eb039_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb039.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb039.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16139,9 +14559,7 @@ def test_particles_eb038_particles_eb038_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb038.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb038.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16149,6 +14567,7 @@ def test_particles_eb038_particles_eb038_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb037_particles_eb037_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16158,9 +14577,7 @@ def test_particles_eb037_particles_eb037_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb037.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb037.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16176,9 +14593,7 @@ def test_particles_eb036_particles_eb036_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb036.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb036.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16186,6 +14601,7 @@ def test_particles_eb036_particles_eb036_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb035_particles_eb035_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16194,9 +14610,7 @@ def test_particles_eb035_particles_eb035_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb035.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb035.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16204,6 +14618,7 @@ def test_particles_eb035_particles_eb035_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb034_particles_eb034_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16212,9 +14627,7 @@ def test_particles_eb034_particles_eb034_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb034.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb034.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16222,6 +14635,7 @@ def test_particles_eb034_particles_eb034_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb033_particles_eb033_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16230,9 +14644,7 @@ def test_particles_eb033_particles_eb033_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb033.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb033.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16240,6 +14652,7 @@ def test_particles_eb033_particles_eb033_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb032_particles_eb032_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16249,9 +14662,7 @@ def test_particles_eb032_particles_eb032_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb032.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb032.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16259,6 +14670,7 @@ def test_particles_eb032_particles_eb032_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb031_particles_eb031_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16268,9 +14680,7 @@ def test_particles_eb031_particles_eb031_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb031.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb031.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16278,6 +14688,7 @@ def test_particles_eb031_particles_eb031_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb030_particles_eb030_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16287,9 +14698,7 @@ def test_particles_eb030_particles_eb030_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb030.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb030.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16297,6 +14706,7 @@ def test_particles_eb030_particles_eb030_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb029_particles_eb029_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16306,9 +14716,7 @@ def test_particles_eb029_particles_eb029_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb029.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb029.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16316,6 +14724,7 @@ def test_particles_eb029_particles_eb029_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb028_particles_eb028_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16325,9 +14734,7 @@ def test_particles_eb028_particles_eb028_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb028.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb028.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16344,9 +14751,7 @@ def test_particles_eb027_particles_eb027_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb027.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb027.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16363,9 +14768,7 @@ def test_particles_eb026_particles_eb026_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb026.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb026.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16373,6 +14776,7 @@ def test_particles_eb026_particles_eb026_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb025_particles_eb025_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16382,9 +14786,7 @@ def test_particles_eb025_particles_eb025_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb025.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb025.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16392,6 +14794,7 @@ def test_particles_eb025_particles_eb025_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb024_particles_eb024_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16401,9 +14804,7 @@ def test_particles_eb024_particles_eb024_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb024.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb024.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16411,6 +14812,7 @@ def test_particles_eb024_particles_eb024_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb023_particles_eb023_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16420,9 +14822,7 @@ def test_particles_eb023_particles_eb023_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb023.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb023.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16430,6 +14830,7 @@ def test_particles_eb023_particles_eb023_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb022_particles_eb022_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16439,9 +14840,7 @@ def test_particles_eb022_particles_eb022_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb022.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb022.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16449,6 +14848,7 @@ def test_particles_eb022_particles_eb022_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb021_particles_eb021_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16458,9 +14858,7 @@ def test_particles_eb021_particles_eb021_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb021.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb021.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16468,6 +14866,7 @@ def test_particles_eb021_particles_eb021_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb020_particles_eb020_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16477,9 +14876,7 @@ def test_particles_eb020_particles_eb020_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb020.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb020.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16496,9 +14893,7 @@ def test_particles_eb019_particles_eb019_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb019.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb019.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16506,6 +14901,7 @@ def test_particles_eb019_particles_eb019_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb018_particles_eb018_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16515,9 +14911,7 @@ def test_particles_eb018_particles_eb018_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb018.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb018.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16525,6 +14919,7 @@ def test_particles_eb018_particles_eb018_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb017_particles_eb017_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16534,9 +14929,7 @@ def test_particles_eb017_particles_eb017_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb017.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16544,6 +14937,7 @@ def test_particles_eb017_particles_eb017_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb014_particles_eb014_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16553,9 +14947,7 @@ def test_particles_eb014_particles_eb014_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16563,6 +14955,7 @@ def test_particles_eb014_particles_eb014_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb013_particles_eb013_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16572,9 +14965,7 @@ def test_particles_eb013_particles_eb013_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16582,6 +14973,7 @@ def test_particles_eb013_particles_eb013_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb012_particles_eb012_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16591,9 +14983,7 @@ def test_particles_eb012_particles_eb012_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16601,6 +14991,7 @@ def test_particles_eb012_particles_eb012_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb011_particles_eb011_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16610,9 +15001,7 @@ def test_particles_eb011_particles_eb011_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16629,9 +15018,7 @@ def test_particles_eb010_particles_eb010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16639,6 +15026,7 @@ def test_particles_eb010_particles_eb010_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb009_particles_eb009_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16647,9 +15035,7 @@ def test_particles_eb009_particles_eb009_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16657,6 +15043,7 @@ def test_particles_eb009_particles_eb009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb008_particles_eb008_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16666,9 +15053,7 @@ def test_particles_eb008_particles_eb008_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16676,6 +15061,7 @@ def test_particles_eb008_particles_eb008_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb007_particles_eb007_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16684,9 +15070,7 @@ def test_particles_eb007_particles_eb007_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16694,6 +15078,7 @@ def test_particles_eb007_particles_eb007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb006_particles_eb006_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16703,9 +15088,7 @@ def test_particles_eb006_particles_eb006_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16713,6 +15096,7 @@ def test_particles_eb006_particles_eb006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb005_particles_eb005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16722,9 +15106,7 @@ def test_particles_eb005_particles_eb005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16732,6 +15114,7 @@ def test_particles_eb005_particles_eb005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb004_particles_eb004_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16741,9 +15124,7 @@ def test_particles_eb004_particles_eb004_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16760,9 +15141,7 @@ def test_particles_eb003_particles_eb003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16770,6 +15149,7 @@ def test_particles_eb003_particles_eb003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_eb002_particles_eb002_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16778,9 +15158,7 @@ def test_particles_eb002_particles_eb002_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16797,9 +15175,7 @@ def test_particles_eb001_particles_eb001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEb001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEb001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16807,6 +15183,7 @@ def test_particles_eb001_particles_eb001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea021_particles_ea021_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16816,9 +15193,7 @@ def test_particles_ea021_particles_ea021_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa021.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa021.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16826,6 +15201,7 @@ def test_particles_ea021_particles_ea021_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea020_particles_ea020_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16835,9 +15211,7 @@ def test_particles_ea020_particles_ea020_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa020.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa020.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16845,6 +15219,7 @@ def test_particles_ea020_particles_ea020_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea019_particles_ea019_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16854,9 +15229,7 @@ def test_particles_ea019_particles_ea019_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa019.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa019.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16873,9 +15246,7 @@ def test_particles_ea018_particles_ea018_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa018.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa018.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16892,9 +15263,7 @@ def test_particles_ea017_particles_ea017_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa017.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa017.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16902,6 +15271,7 @@ def test_particles_ea017_particles_ea017_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea016_particles_ea016_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16911,9 +15281,7 @@ def test_particles_ea016_particles_ea016_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa016.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa016.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16930,9 +15298,7 @@ def test_particles_ea015_particles_ea015_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa015.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa015.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16940,6 +15306,7 @@ def test_particles_ea015_particles_ea015_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea014_particles_ea014_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16948,9 +15315,7 @@ def test_particles_ea014_particles_ea014_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa014.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa014.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16958,6 +15323,7 @@ def test_particles_ea014_particles_ea014_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea013_particles_ea013_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16966,9 +15332,7 @@ def test_particles_ea013_particles_ea013_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa013.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa013.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -16976,6 +15340,7 @@ def test_particles_ea013_particles_ea013_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea012_particles_ea012_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -16984,9 +15349,7 @@ def test_particles_ea012_particles_ea012_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa012.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa012.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17002,9 +15365,7 @@ def test_particles_ea011_particles_ea011_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa011.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17020,9 +15381,7 @@ def test_particles_ea010_particles_ea010_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa010.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17030,6 +15389,7 @@ def test_particles_ea010_particles_ea010_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea009_particles_ea009_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17038,9 +15398,7 @@ def test_particles_ea009_particles_ea009_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17057,9 +15415,7 @@ def test_particles_ea008_particles_ea008_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa008.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17067,6 +15423,7 @@ def test_particles_ea008_particles_ea008_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea007_particles_ea007_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17076,9 +15433,7 @@ def test_particles_ea007_particles_ea007_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa007.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17086,6 +15441,7 @@ def test_particles_ea007_particles_ea007_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea006_particles_ea006_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17095,9 +15451,7 @@ def test_particles_ea006_particles_ea006_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17105,6 +15459,7 @@ def test_particles_ea006_particles_ea006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea005_particles_ea005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17114,9 +15469,7 @@ def test_particles_ea005_particles_ea005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17133,9 +15486,7 @@ def test_particles_ea004_particles_ea004_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa004.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17152,9 +15503,7 @@ def test_particles_ea003_particles_ea003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17162,6 +15511,7 @@ def test_particles_ea003_particles_ea003_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_ea002_particles_ea002_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17171,9 +15521,7 @@ def test_particles_ea002_particles_ea002_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa002.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17190,9 +15538,7 @@ def test_particles_ea001_particles_ea001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesEa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesEa001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17200,6 +15546,7 @@ def test_particles_ea001_particles_ea001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_dc009_particles_dc009_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17210,9 +15557,7 @@ def test_particles_dc009_particles_dc009_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17220,6 +15565,7 @@ def test_particles_dc009_particles_dc009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_dc008_particles_dc008_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17229,9 +15575,7 @@ def test_particles_dc008_particles_dc008_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17248,9 +15592,7 @@ def test_particles_dc007_particles_dc007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17258,6 +15600,7 @@ def test_particles_dc007_particles_dc007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_dc006_particles_dc006_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17267,9 +15610,7 @@ def test_particles_dc006_particles_dc006_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17277,6 +15618,7 @@ def test_particles_dc006_particles_dc006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_dc005_particles_dc005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17286,9 +15628,7 @@ def test_particles_dc005_particles_dc005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17296,6 +15636,7 @@ def test_particles_dc005_particles_dc005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_dc004_particles_dc004_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17305,9 +15646,7 @@ def test_particles_dc004_particles_dc004_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17324,9 +15663,7 @@ def test_particles_dc003_particles_dc003_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc003.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17343,9 +15680,7 @@ def test_particles_dc002_particles_dc002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17362,9 +15697,7 @@ def test_particles_dc001_particles_dc001_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDc001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDc001.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17372,6 +15705,7 @@ def test_particles_dc001_particles_dc001_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db011_particles_db011_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17380,9 +15714,7 @@ def test_particles_db011_particles_db011_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb011.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb011.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17390,6 +15722,7 @@ def test_particles_db011_particles_db011_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db010_particles_db010_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17399,9 +15732,7 @@ def test_particles_db010_particles_db010_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb010.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb010.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17409,6 +15740,7 @@ def test_particles_db010_particles_db010_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db009_particles_db009_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17417,9 +15749,7 @@ def test_particles_db009_particles_db009_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb009.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb009.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17427,6 +15757,7 @@ def test_particles_db009_particles_db009_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db008_particles_db008_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17435,9 +15766,7 @@ def test_particles_db008_particles_db008_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb008.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb008.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17453,9 +15782,7 @@ def test_particles_db007_particles_db007_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb007.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb007.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17463,6 +15790,7 @@ def test_particles_db007_particles_db007_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db006_particles_db006_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17472,9 +15800,7 @@ def test_particles_db006_particles_db006_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb006.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb006.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17482,6 +15808,7 @@ def test_particles_db006_particles_db006_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db005_particles_db005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17490,9 +15817,7 @@ def test_particles_db005_particles_db005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17500,6 +15825,7 @@ def test_particles_db005_particles_db005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db004_particles_db004_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17508,9 +15834,7 @@ def test_particles_db004_particles_db004_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17518,6 +15842,7 @@ def test_particles_db004_particles_db004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db003_particles_db003_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17526,9 +15851,7 @@ def test_particles_db003_particles_db003_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17544,9 +15867,7 @@ def test_particles_db002_particles_db002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17554,6 +15875,7 @@ def test_particles_db002_particles_db002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_db001_particles_db001_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17563,9 +15885,7 @@ def test_particles_db001_particles_db001_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDb001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDb001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17573,6 +15893,7 @@ def test_particles_db001_particles_db001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_da005_particles_da005_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17582,9 +15903,7 @@ def test_particles_da005_particles_da005_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDa005.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDa005.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17592,6 +15911,7 @@ def test_particles_da005_particles_da005_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_da004_particles_da004_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17600,9 +15920,7 @@ def test_particles_da004_particles_da004_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDa004.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDa004.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17610,6 +15928,7 @@ def test_particles_da004_particles_da004_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_da003_particles_da003_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17618,9 +15937,7 @@ def test_particles_da003_particles_da003_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDa003.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDa003.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17636,9 +15953,7 @@ def test_particles_da002_particles_da002_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDa002.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDa002.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17646,6 +15961,7 @@ def test_particles_da002_particles_da002_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_da001_particles_da001_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17655,9 +15971,7 @@ def test_particles_da001_particles_da001_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesDa001.xsd",
-        is_valid=True,
         instance="msData/particles/particlesDa001.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17665,6 +15979,7 @@ def test_particles_da001_particles_da001_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c048_particles_c048_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17673,9 +15988,7 @@ def test_particles_c048_particles_c048_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC048.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC048.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17683,6 +15996,7 @@ def test_particles_c048_particles_c048_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c047_particles_c047_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17693,9 +16007,7 @@ def test_particles_c047_particles_c047_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC047.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC047.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17712,9 +16024,7 @@ def test_particles_c046_particles_c046_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC046.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC046.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17731,9 +16041,7 @@ def test_particles_c045_particles_c045_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC045.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC045.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17749,9 +16057,7 @@ def test_particles_c044_particles_c044_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC044.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC044.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17767,9 +16073,7 @@ def test_particles_c043_particles_c043_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC043.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC043.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17777,6 +16081,7 @@ def test_particles_c043_particles_c043_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c042_particles_c042_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17787,9 +16092,7 @@ def test_particles_c042_particles_c042_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC042.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC042.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17806,9 +16109,7 @@ def test_particles_c041_particles_c041_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC041.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC041.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17825,9 +16126,7 @@ def test_particles_c040_particles_c040_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC040.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC040.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17835,6 +16134,7 @@ def test_particles_c040_particles_c040_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c039_particles_c039_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17843,9 +16143,7 @@ def test_particles_c039_particles_c039_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC039.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC039.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17853,6 +16151,7 @@ def test_particles_c039_particles_c039_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c038_particles_c038_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17862,9 +16161,7 @@ def test_particles_c038_particles_c038_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC038.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC038.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17880,9 +16177,7 @@ def test_particles_c037_particles_c037_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC037.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC037.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17890,6 +16185,7 @@ def test_particles_c037_particles_c037_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c036_particles_c036_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17898,9 +16194,7 @@ def test_particles_c036_particles_c036_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC036.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC036.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17908,6 +16202,7 @@ def test_particles_c036_particles_c036_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c035_particles_c035_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17916,9 +16211,7 @@ def test_particles_c035_particles_c035_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC035.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC035.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17934,9 +16227,7 @@ def test_particles_c034_particles_c034_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC034.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC034.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17944,6 +16235,7 @@ def test_particles_c034_particles_c034_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c033_particles_c033_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17953,9 +16245,7 @@ def test_particles_c033_particles_c033_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC033.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC033.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17963,6 +16253,7 @@ def test_particles_c033_particles_c033_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c032_particles_c032_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17971,9 +16262,7 @@ def test_particles_c032_particles_c032_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC032.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC032.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -17981,6 +16270,7 @@ def test_particles_c032_particles_c032_i(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.skip(reason="Invalid instance")
 def test_particles_c031_particles_c031_i(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
@@ -17989,9 +16279,7 @@ def test_particles_c031_particles_c031_i(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC031.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC031.xml",
-        instance_is_valid=False,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,
@@ -18007,9 +16295,7 @@ def test_particles_c030_particles_c030_v(save_xml):
     """
     assert_bindings(
         schema="msData/particles/particlesC030.xsd",
-        is_valid=True,
         instance="msData/particles/particlesC030.xml",
-        instance_is_valid=True,
         class_name="Doc",
         version="1.1",
         save_xml=save_xml,

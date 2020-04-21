@@ -10,7 +10,6 @@ class Empty:
         name = "empty"
 
 
-
 @dataclass
 class B:
     """

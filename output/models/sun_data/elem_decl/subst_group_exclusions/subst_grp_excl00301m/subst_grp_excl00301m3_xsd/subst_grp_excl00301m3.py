@@ -36,12 +36,10 @@ class Head(HeadType):
         namespace = "ElemDecl/substGroupExclusions"
 
 
-
 @dataclass
 class Member1(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
-
 
 
 @dataclass

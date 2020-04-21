@@ -29,7 +29,6 @@ class T(Ttype):
         namespace = "myNS.tempuri.org"
 
 
-
 @dataclass
 class Root:
     """

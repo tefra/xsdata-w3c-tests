@@ -117,12 +117,10 @@ class E2(Att1):
         name = "e2"
 
 
-
 @dataclass
 class E3(M3):
     class Meta:
         name = "e3"
-
 
 
 @dataclass
@@ -131,19 +129,16 @@ class E6(M6):
         name = "e6"
 
 
-
 @dataclass
 class E7(Att1):
     class Meta:
         name = "e7"
 
 
-
 @dataclass
 class E8(Att1):
     class Meta:
         name = "e8"
-
 
 
 @dataclass
@@ -187,7 +182,6 @@ class M4:
 class E4(M4):
     class Meta:
         name = "e4"
-
 
 
 @dataclass
@@ -237,7 +231,6 @@ class M5:
 class E5(M5):
     class Meta:
         name = "e5"
-
 
 
 @dataclass

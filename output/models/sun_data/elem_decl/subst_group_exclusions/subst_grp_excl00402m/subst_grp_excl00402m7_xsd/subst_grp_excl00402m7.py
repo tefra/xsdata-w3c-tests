@@ -36,12 +36,10 @@ class Element0(HeadType):
         namespace = "ElemDecl/substGroupExclusions"
 
 
-
 @dataclass
 class Element1(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
-
 
 
 @dataclass
@@ -50,12 +48,10 @@ class Element2(HeadType):
         namespace = "ElemDecl/substGroupExclusions"
 
 
-
 @dataclass
 class Element3(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
-
 
 
 @dataclass
@@ -64,19 +60,16 @@ class Element4(HeadType):
         namespace = "ElemDecl/substGroupExclusions"
 
 
-
 @dataclass
 class Element5(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
 
 
-
 @dataclass
 class Head(HeadType):
     class Meta:
         namespace = "ElemDecl/substGroupExclusions"
-
 
 
 @dataclass

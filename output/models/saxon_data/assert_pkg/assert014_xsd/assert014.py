@@ -29,7 +29,6 @@ class Temp(DatedEvent):
         name = "temp"
 
 
-
 @dataclass
 class Doc:
     """

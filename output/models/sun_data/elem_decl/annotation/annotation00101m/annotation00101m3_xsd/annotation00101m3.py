@@ -10,7 +10,6 @@ class Test:
         namespace = "ElemDecl/annotation"
 
 
-
 @dataclass
 class Root:
     """

@@ -8,7 +8,6 @@ class A:
         name = "a"
 
 
-
 @dataclass
 class Zing:
     """

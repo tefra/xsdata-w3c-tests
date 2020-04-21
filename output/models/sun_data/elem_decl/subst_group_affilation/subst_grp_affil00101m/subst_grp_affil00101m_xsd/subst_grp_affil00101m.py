@@ -26,7 +26,6 @@ class Article(PublicationType):
         namespace = "ElemDecl/substGroupAffilation"
 
 
-
 @dataclass
 class BookType(PublicationType):
     """
@@ -66,12 +65,10 @@ class Book(BookType):
         namespace = "ElemDecl/substGroupAffilation"
 
 
-
 @dataclass
 class Magazine(MagazineType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
-
 
 
 @dataclass

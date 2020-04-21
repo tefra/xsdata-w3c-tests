@@ -768,7 +768,6 @@ class Current(StatusEntry):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class DocumentationReference(Ref):
     """<ns0:div>
@@ -782,13 +781,11 @@ class DocumentationReference(Ref):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class InstanceDocument(Ref):
     class Meta:
         name = "instanceDocument"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
 
 
 @dataclass
@@ -814,7 +811,6 @@ class Prior(StatusEntry):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class SchemaDocument(Ref):
     class Meta:
@@ -822,13 +818,11 @@ class SchemaDocument(Ref):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class TestSetRef(Ref):
     class Meta:
         name = "testSetRef"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
 
 
 @dataclass

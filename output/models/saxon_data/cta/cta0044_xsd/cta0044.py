@@ -130,7 +130,6 @@ class A(AType):
         namespace = "abc"
 
 
-
 @dataclass
 class Top:
     """

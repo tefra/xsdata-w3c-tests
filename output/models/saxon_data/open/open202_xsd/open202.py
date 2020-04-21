@@ -9,7 +9,6 @@ class AType:
         name = "aType"
 
 
-
 @dataclass
 class Doc:
     """

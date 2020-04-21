@@ -57,7 +57,6 @@ class Elem(R):
         namespace = "http://xsdtesting"
 
 
-
 @dataclass
 class Doc:
     """

@@ -69,13 +69,11 @@ class FrValid(Cs):
         namespace = "http://xsdtesting"
 
 
-
 @dataclass
 class Fr1Valid(Cc):
     class Meta:
         name = "fr1_valid"
         namespace = "http://xsdtesting"
-
 
 
 @dataclass

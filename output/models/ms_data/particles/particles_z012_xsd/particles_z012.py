@@ -93,7 +93,6 @@ class E3(Ct2):
         namespace = "http://xsdtesting"
 
 
-
 @dataclass
 class Root:
     """

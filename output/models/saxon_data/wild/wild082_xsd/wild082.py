@@ -28,19 +28,16 @@ class A(Zz):
         name = "a"
 
 
-
 @dataclass
 class ZzDouble(Zz):
     class Meta:
         name = "zz-double"
 
 
-
 @dataclass
 class ZzInteger(Zz):
     class Meta:
         name = "zz-integer"
-
 
 
 @dataclass

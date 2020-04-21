@@ -11,7 +11,6 @@ class Beta:
         name = "beta"
 
 
-
 @dataclass
 class Doc:
     """

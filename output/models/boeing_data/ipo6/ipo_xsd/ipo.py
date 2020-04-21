@@ -292,7 +292,6 @@ class Address(AddressType):
         namespace = "http://www.example.com/IPO"
 
 
-
 @dataclass
 class PurchaseOrderType:
     """

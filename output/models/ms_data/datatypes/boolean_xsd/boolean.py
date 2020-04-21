@@ -42,7 +42,6 @@ class ComplexTest(ComplexfooType):
         name = "complexTest"
 
 
-
 @dataclass
 class Root:
     """

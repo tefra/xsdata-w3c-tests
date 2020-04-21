@@ -24,7 +24,6 @@ class Derived(Base):
         name = "derived"
 
 
-
 @dataclass
 class Doc(Derived):
     class Meta:

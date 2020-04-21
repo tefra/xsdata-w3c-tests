@@ -10,12 +10,10 @@ class Global1:
         namespace = "ElemDecl/name"
 
 
-
 @dataclass
 class Global2:
     class Meta:
         namespace = "ElemDecl/name"
-
 
 
 @dataclass

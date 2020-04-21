@@ -219,19 +219,16 @@ class Test4(Ca):
         name = "test4"
 
 
-
 @dataclass
 class Test5(Ca):
     class Meta:
         name = "test5"
 
 
-
 @dataclass
 class Sa2(EA):
     class Meta:
         name = "sa2"
-
 
 
 @dataclass

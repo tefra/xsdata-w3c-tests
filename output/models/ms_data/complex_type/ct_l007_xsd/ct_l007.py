@@ -33,7 +33,6 @@ class FooTest(FooType):
         name = "fooTest"
 
 
-
 @dataclass
 class Root:
     """

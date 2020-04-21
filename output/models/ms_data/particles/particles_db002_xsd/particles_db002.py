@@ -71,7 +71,6 @@ class Elem2(A):
         namespace = "http://xsdtesting"
 
 
-
 @dataclass
 class Doc:
     """

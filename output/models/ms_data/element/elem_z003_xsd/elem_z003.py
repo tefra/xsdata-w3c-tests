@@ -10,12 +10,10 @@ class AType:
         name = "A_TYPE"
 
 
-
 @dataclass
 class BType(AType):
     class Meta:
         name = "B_TYPE"
-
 
 
 @dataclass
@@ -25,12 +23,10 @@ class A(AType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class CType(BType):
     class Meta:
         name = "C_TYPE"
-
 
 
 @dataclass
@@ -40,12 +36,10 @@ class B(BType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class DType(CType):
     class Meta:
         name = "D_TYPE"
-
 
 
 @dataclass
@@ -55,12 +49,10 @@ class C(CType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class EType(DType):
     class Meta:
         name = "E_TYPE"
-
 
 
 @dataclass
@@ -70,12 +62,10 @@ class D(DType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class FType(EType):
     class Meta:
         name = "F_TYPE"
-
 
 
 @dataclass
@@ -85,12 +75,10 @@ class E(EType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class GType(FType):
     class Meta:
         name = "G_TYPE"
-
 
 
 @dataclass
@@ -100,13 +88,11 @@ class F(FType):
         namespace = "http://www.microsoft.com/schema/1"
 
 
-
 @dataclass
 class G(FType):
     class Meta:
         name = "g"
         namespace = "http://www.microsoft.com/schema/1"
-
 
 
 @dataclass

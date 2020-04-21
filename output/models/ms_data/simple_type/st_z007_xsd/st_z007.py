@@ -21,7 +21,6 @@ class T2(T1):
         name = "t2"
 
 
-
 @dataclass
 class Root:
     """

@@ -65,7 +65,6 @@ class Abc(MyType):
         namespace = "ns-a"
 
 
-
 @dataclass
 class Foo:
     """

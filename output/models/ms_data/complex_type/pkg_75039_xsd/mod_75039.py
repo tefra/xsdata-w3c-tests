@@ -25,7 +25,6 @@ class Complex2:
         name = "COMPLEX2"
 
 
-
 @dataclass
 class SubstHead:
     """This is defined to be of type 'xsd:anyType'.
@@ -51,12 +50,10 @@ class Complex1(Complex1):
         name = "complex1"
 
 
-
 @dataclass
 class Complex2(Complex2):
     class Meta:
         name = "complex2"
-
 
 
 @dataclass

@@ -10,7 +10,6 @@ class Empty:
         name = "empty"
 
 
-
 @dataclass
 class B:
     """
@@ -88,13 +87,11 @@ class EB(B):
         namespace = "foo"
 
 
-
 @dataclass
 class EDer(Der):
     class Meta:
         name = "eDer"
         namespace = "foo"
-
 
 
 @dataclass
@@ -104,13 +101,11 @@ class EDr(Dr):
         namespace = "foo"
 
 
-
 @dataclass
 class EDrr(Drr):
     class Meta:
         name = "eDrr"
         namespace = "foo"
-
 
 
 @dataclass
@@ -125,7 +120,6 @@ class EDe(De):
         namespace = "foo"
 
 
-
 @dataclass
 class EDre(Dre):
     class Meta:
@@ -133,13 +127,11 @@ class EDre(Dre):
         namespace = "foo"
 
 
-
 @dataclass
 class EDee(Dee):
     class Meta:
         name = "eDee"
         namespace = "foo"
-
 
 
 @dataclass

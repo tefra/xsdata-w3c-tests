@@ -10,7 +10,6 @@ class ParentType:
         name = "parentType"
 
 
-
 @dataclass
 class Ttype:
     """
@@ -37,7 +36,6 @@ class T(Ttype):
     class Meta:
         name = "t"
         namespace = "myNS.tempuri.org"
-
 
 
 @dataclass

@@ -8,7 +8,6 @@ class Elt1:
         name = "elt1"
 
 
-
 @dataclass
 class TypeA:
     """

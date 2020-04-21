@@ -55,19 +55,16 @@ class LaxContainer(LaxContainerType):
         namespace = "a"
 
 
-
 @dataclass
 class SkipContainer(SkipContainerType):
     class Meta:
         namespace = "a"
 
 
-
 @dataclass
 class StrictContainer(StrictContainerType):
     class Meta:
         namespace = "a"
-
 
 
 @dataclass
@@ -107,7 +104,6 @@ class RootContainerType:
 class RootContainer(RootContainerType):
     class Meta:
         namespace = "a"
-
 
 
 @dataclass

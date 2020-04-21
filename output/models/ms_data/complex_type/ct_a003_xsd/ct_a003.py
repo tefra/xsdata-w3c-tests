@@ -7,7 +7,6 @@ class FixedType:
         name = "fixedType"
 
 
-
 @dataclass
 class Root:
     class Meta:

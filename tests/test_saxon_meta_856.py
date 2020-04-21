@@ -7188,7 +7188,6 @@ def test_open001_open001_n4_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over030_over030_v01_xml(save_xml):
     """
     Override a schema document with top-level annotation See W3C bug

@@ -90,7 +90,8 @@ class BookStore:
             name="Magazine",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )
     book: List[Book] = field(
@@ -99,7 +100,8 @@ class BookStore:
             name="Book",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )
     publication: List[str] = field(
@@ -108,6 +110,7 @@ class BookStore:
             name="Publication",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )

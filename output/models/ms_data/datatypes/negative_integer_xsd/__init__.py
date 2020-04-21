@@ -1,0 +1,4 @@
+from output.models.ms_data.datatypes.negative_integer_xsd.negative_integer import ComplexTest
+from output.models.ms_data.datatypes.negative_integer_xsd.negative_integer import ComplexfooType
+from output.models.ms_data.datatypes.negative_integer_xsd.negative_integer import Root
+from output.models.ms_data.datatypes.negative_integer_xsd.negative_integer import SimpleTest

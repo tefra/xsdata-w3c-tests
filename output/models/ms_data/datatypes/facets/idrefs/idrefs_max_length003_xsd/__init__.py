@@ -1,0 +1,3 @@
+from output.models.ms_data.datatypes.facets.idrefs.idrefs_max_length003_xsd.idrefs_max_length003 import Foo
+from output.models.ms_data.datatypes.facets.idrefs.idrefs_max_length003_xsd.idrefs_max_length003 import FooType
+from output.models.ms_data.datatypes.facets.idrefs.idrefs_max_length003_xsd.idrefs_max_length003 import Test

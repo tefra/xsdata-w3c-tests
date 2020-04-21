@@ -1,0 +1,1 @@
+from output.models.nist_data.atomic.integer.schema_instance.nistschema_sv_iv_atomic_integer_total_digits_1_xsd.nistschema_sv_iv_atomic_integer_total_digits_1 import NistschemaSvIvAtomicIntegerTotalDigits1

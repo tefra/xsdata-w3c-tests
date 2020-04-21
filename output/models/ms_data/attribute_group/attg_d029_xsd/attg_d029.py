@@ -1,0 +1,47 @@
+from dataclasses import dataclass, field
+from lxml.etree import QName
+from typing import Dict, Optional
+
+__NAMESPACE__ = "http://xsdtesting"
+
+
+@dataclass
+class AttRef:
+    """
+    :ivar foo:
+    :ivar target_namespace_attributes:
+    """
+    class Meta:
+        name = "attRef"
+
+    foo: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute",
+            namespace="http://xsdtesting"
+        )
+    )
+    target_namespace_attributes: Dict[QName, str] = field(
+        default_factory=dict,
+        metadata=dict(
+            type="Attributes",
+            namespace="##targetNamespace"
+        )
+    )
+
+
+@dataclass
+class Doc:
+    """
+    :ivar elem:
+    """
+    class Meta:
+        name = "doc"
+        namespace = "http://xsdtesting"
+
+    elem: Optional[AttRef] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )

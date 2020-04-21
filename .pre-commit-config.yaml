@@ -1,4 +1,4 @@
-exclude: tests/test_*|models/|xsdata/
+exclude: tests/test_*|models/|output/
 
 repos:
   - repo: https://github.com/asottile/reorder_python_imports

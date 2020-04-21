@@ -8,7 +8,6 @@ import pytest
 import xmlschema
 from click.testing import CliRunner
 from lxml import etree
-
 from xsdata import cli
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
@@ -17,7 +16,7 @@ from xsdata.utils import text
 log = logging.getLogger()
 
 w3c = Path(__file__).absolute().parent.parent.joinpath("w3c")
-output = Path(__file__).absolute().parent.parent.joinpath("xsdata")
+output = Path(__file__).absolute().parent.parent.joinpath("output/instances")
 os.chdir(w3c.parent)
 
 
@@ -30,7 +29,7 @@ def assert_bindings(
     schema_path_absolute = w3c.joinpath(schema)
 
     pck_arr = list(map(text.snake_case, schema_path.parts))
-    package = f"tests.output.{'.'.join(pck_arr)}"
+    package = f"output.models.{'.'.join(pck_arr)}"
     clazz = generate_models(str(w3c.joinpath(schema)), package, class_name)
 
     if isinstance(clazz, Exception):

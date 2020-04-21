@@ -1,0 +1,23 @@
+from dataclasses import dataclass, field
+from typing import List
+
+__NAMESPACE__ = "NISTSchema-SV-IV-list-NMTOKEN-pattern-4-NS"
+
+
+@dataclass
+class NistschemaSvIvListNmtokenPattern4:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "NISTSchema-SV-IV-list-NMTOKEN-pattern-4"
+        namespace = "NISTSchema-SV-IV-list-NMTOKEN-pattern-4-NS"
+
+    value: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            min_occurs=0,
+            max_occurs=9223372036854775807,
+            pattern=r"\c{35} \c{8} \c{43} \c{19} \c{53} \c{18} \c{33} \c{59} \c{10} \c{41}"
+        )
+    )

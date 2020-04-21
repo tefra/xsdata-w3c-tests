@@ -21,7 +21,6 @@ class Derived(Base):
         name = "derived"
 
 
-
 @dataclass
 class Outer:
     """

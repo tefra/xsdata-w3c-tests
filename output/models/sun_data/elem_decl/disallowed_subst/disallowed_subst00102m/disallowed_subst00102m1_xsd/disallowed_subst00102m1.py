@@ -36,12 +36,10 @@ class Head(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Member1(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass

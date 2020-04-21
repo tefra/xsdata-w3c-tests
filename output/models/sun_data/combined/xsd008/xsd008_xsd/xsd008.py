@@ -111,7 +111,6 @@ class Long(LongType):
         namespace = "foo"
 
 
-
 @dataclass
 class Generic:
     """

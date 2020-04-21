@@ -64,13 +64,11 @@ class AE2(CtB):
         namespace = "ns-a"
 
 
-
 @dataclass
 class AE3(CtC):
     class Meta:
         name = "a-e3"
         namespace = "ns-a"
-
 
 
 @dataclass

@@ -169,7 +169,6 @@ class Test3(Ca):
         name = "test3"
 
 
-
 @dataclass
 class Root:
     """

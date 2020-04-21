@@ -36,7 +36,6 @@ class Head(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Member3(HeadType):
     """

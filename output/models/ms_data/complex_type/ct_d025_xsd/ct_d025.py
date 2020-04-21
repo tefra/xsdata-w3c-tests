@@ -22,7 +22,6 @@ class FooType(MyType):
         name = "fooType"
 
 
-
 @dataclass
 class Root(FooType):
     class Meta:

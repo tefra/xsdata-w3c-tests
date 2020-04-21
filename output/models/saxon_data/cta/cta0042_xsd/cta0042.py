@@ -28,12 +28,10 @@ class ZzDouble(Zz):
         name = "zz-double"
 
 
-
 @dataclass
 class ZzInteger(Zz):
     class Meta:
         name = "zz-integer"
-
 
 
 @dataclass

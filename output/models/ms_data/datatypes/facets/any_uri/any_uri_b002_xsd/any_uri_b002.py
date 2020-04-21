@@ -40,7 +40,6 @@ class Bar(Ct):
         name = "bar"
 
 
-
 @dataclass
 class Root:
     """

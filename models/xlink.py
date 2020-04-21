@@ -79,7 +79,6 @@ class ArcType:
         init=False,
         default="arc",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -88,7 +87,6 @@ class ArcType:
     arcrole: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="arcrole",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -97,7 +95,6 @@ class ArcType:
     title: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -105,7 +102,6 @@ class ArcType:
     show: Optional[ShowType] = field(
         default=None,
         metadata=dict(
-            name="show",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -113,7 +109,6 @@ class ArcType:
     actuate: Optional[ActuateType] = field(
         default=None,
         metadata=dict(
-            name="actuate",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -129,7 +124,6 @@ class ArcType:
     to: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="to",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -167,7 +161,6 @@ class Extended:
     resource: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="resource",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -177,7 +170,6 @@ class Extended:
     locator: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="locator",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -187,7 +179,6 @@ class Extended:
     arc: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="arc",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -198,7 +189,6 @@ class Extended:
         init=False,
         default="extended",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -207,7 +197,6 @@ class Extended:
     role: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="role",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -216,7 +205,6 @@ class Extended:
     title: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -251,7 +239,6 @@ class LocatorType:
         init=False,
         default="locator",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -260,7 +247,6 @@ class LocatorType:
     href: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="href",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -269,7 +255,6 @@ class LocatorType:
     role: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="role",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -278,7 +263,6 @@ class LocatorType:
     title: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -286,7 +270,6 @@ class LocatorType:
     label: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="label",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -318,7 +301,6 @@ class ResourceType:
         init=False,
         default="resource",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -327,7 +309,6 @@ class ResourceType:
     role: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="role",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -336,7 +317,6 @@ class ResourceType:
     title: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -344,7 +324,6 @@ class ResourceType:
     label: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="label",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -381,7 +360,6 @@ class Simple:
         init=False,
         default="simple",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -389,7 +367,6 @@ class Simple:
     href: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="href",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -397,7 +374,6 @@ class Simple:
     role: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="role",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -406,7 +382,6 @@ class Simple:
     arcrole: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="arcrole",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             min_length=1.0
@@ -415,7 +390,6 @@ class Simple:
     title: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -423,7 +397,6 @@ class Simple:
     show: Optional[ShowType] = field(
         default=None,
         metadata=dict(
-            name="show",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -431,7 +404,6 @@ class Simple:
     actuate: Optional[ActuateType] = field(
         default=None,
         metadata=dict(
-            name="actuate",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -463,7 +435,6 @@ class TitleEltType:
         init=False,
         default="title",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
             required=True
@@ -472,7 +443,6 @@ class TitleEltType:
     lang: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="lang",
             type="Attribute",
             namespace="http://www.w3.org/XML/1998/namespace"
         )

@@ -102,12 +102,10 @@ class A(Ct1):
         name = "a"
 
 
-
 @dataclass
 class C(Ct4):
     class Meta:
         name = "c"
-
 
 
 @dataclass
@@ -116,12 +114,10 @@ class Ct2(Ct1):
         name = "ct2"
 
 
-
 @dataclass
 class B(Ct2):
     class Meta:
         name = "b"
-
 
 
 @dataclass

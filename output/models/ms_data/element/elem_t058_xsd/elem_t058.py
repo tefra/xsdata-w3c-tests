@@ -203,12 +203,10 @@ class Test4(Ca):
         name = "test4"
 
 
-
 @dataclass
 class Test5(Ca):
     class Meta:
         name = "test5"
-
 
 
 @dataclass

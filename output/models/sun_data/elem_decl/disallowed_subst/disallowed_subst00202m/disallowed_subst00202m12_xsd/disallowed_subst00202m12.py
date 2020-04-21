@@ -36,12 +36,10 @@ class Element0(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Element1(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass
@@ -50,12 +48,10 @@ class Element10(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Element2(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass
@@ -64,12 +60,10 @@ class Element3(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Element4(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass
@@ -78,12 +72,10 @@ class Element5(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Element6(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass
@@ -92,12 +84,10 @@ class Element7(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Element8(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass
@@ -106,12 +96,10 @@ class Element9(HeadType):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Head(HeadType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass

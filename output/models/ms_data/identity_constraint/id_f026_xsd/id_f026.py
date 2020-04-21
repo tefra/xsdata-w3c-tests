@@ -28,12 +28,10 @@ class R(Rtype):
         name = "r"
 
 
-
 @dataclass
 class R2(Rtype):
     class Meta:
         name = "r2"
-
 
 
 @dataclass

@@ -124,7 +124,6 @@ class PoBusinessRules:
         name = "PO_BUSINESS_RULES"
 
 
-
 @dataclass
 class Order:
     """

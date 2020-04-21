@@ -44,13 +44,11 @@ class CE1(CtA):
         namespace = "ns-a"
 
 
-
 @dataclass
 class CE2(CtB):
     class Meta:
         name = "c-e2"
         namespace = "ns-a"
-
 
 
 @dataclass

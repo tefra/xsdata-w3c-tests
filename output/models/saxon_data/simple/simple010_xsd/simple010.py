@@ -49,13 +49,11 @@ class Doc(DocType):
         namespace = "http://simple010.ly/"
 
 
-
 @dataclass
 class Subdoc(SubDocType):
     class Meta:
         name = "subdoc"
         namespace = "http://simple010.ly/"
-
 
 
 @dataclass

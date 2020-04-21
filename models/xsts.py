@@ -65,7 +65,6 @@ class Appinfo:
     source: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="source",
             type="Attribute"
         )
     )
@@ -102,14 +101,12 @@ class Documentation:
     source: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="source",
             type="Attribute"
         )
     )
     lang: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="lang",
             type="Attribute",
             namespace="http://www.w3.org/XML/1998/namespace"
         )
@@ -424,7 +421,6 @@ class Annotation:
     appinfo: List[Appinfo] = field(
         default_factory=list,
         metadata=dict(
-            name="appinfo",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -433,7 +429,6 @@ class Annotation:
     documentation: List[Documentation] = field(
         default_factory=list,
         metadata=dict(
-            name="documentation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -517,7 +512,6 @@ class Expected:
     validity: Optional[Union[TestOutcome, "Expected.Value"]] = field(
         default=None,
         metadata=dict(
-            name="validity",
             type="Attribute",
             required=True
         )
@@ -525,7 +519,6 @@ class Expected:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -566,7 +559,6 @@ class Ref:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             namespace="http://www.w3.org/XML/2004/xml-schema-test-suite/",
             min_occurs=0,
@@ -576,7 +568,6 @@ class Ref:
     type: TypeType = field(
         default="locator",
         metadata=dict(
-            name="type",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -584,7 +575,6 @@ class Ref:
     href: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="href",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -613,7 +603,6 @@ class StatusEntry:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             namespace="http://www.w3.org/XML/2004/xml-schema-test-suite/",
             min_occurs=0,
@@ -623,7 +612,6 @@ class StatusEntry:
     status: Optional[Status] = field(
         default=None,
         metadata=dict(
-            name="status",
             type="Attribute",
             required=True
         )
@@ -631,7 +619,6 @@ class StatusEntry:
     date: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="date",
             type="Attribute",
             required=True
         )
@@ -639,7 +626,6 @@ class StatusEntry:
     bugzilla: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="bugzilla",
             type="Attribute",
             pattern=r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*"
         )
@@ -710,7 +696,6 @@ class TestResult:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -719,7 +704,6 @@ class TestResult:
     validity: Optional[TestOutcome] = field(
         default=None,
         metadata=dict(
-            name="validity",
             type="Attribute",
             required=True
         )
@@ -727,7 +711,6 @@ class TestResult:
     set: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="set",
             type="Attribute",
             required=True
         )
@@ -735,7 +718,6 @@ class TestResult:
     group: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="group",
             type="Attribute",
             required=True
         )
@@ -743,7 +725,6 @@ class TestResult:
     test: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="test",
             type="Attribute",
             required=True
         )
@@ -787,7 +768,6 @@ class Current(StatusEntry):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class DocumentationReference(Ref):
     """<ns0:div>
@@ -801,13 +781,11 @@ class DocumentationReference(Ref):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class InstanceDocument(Ref):
     class Meta:
         name = "instanceDocument"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
 
 
 @dataclass
@@ -833,7 +811,6 @@ class Prior(StatusEntry):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class SchemaDocument(Ref):
     class Meta:
@@ -841,13 +818,11 @@ class SchemaDocument(Ref):
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
-
 @dataclass
 class TestSetRef(Ref):
     class Meta:
         name = "testSetRef"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
 
 
 @dataclass
@@ -907,7 +882,6 @@ class TestSuiteResults:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -925,7 +899,6 @@ class TestSuiteResults:
     suite: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="suite",
             type="Attribute",
             required=True
         )
@@ -933,7 +906,6 @@ class TestSuiteResults:
     processor: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="processor",
             type="Attribute",
             required=True
         )
@@ -1063,7 +1035,6 @@ class InstanceTest:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1080,7 +1051,6 @@ class InstanceTest:
     expected: List[Expected] = field(
         default_factory=list,
         metadata=dict(
-            name="expected",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1089,14 +1059,12 @@ class InstanceTest:
     current: Optional[Current] = field(
         default=None,
         metadata=dict(
-            name="current",
             type="Element"
         )
     )
     prior: List[Prior] = field(
         default_factory=list,
         metadata=dict(
-            name="prior",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1105,7 +1073,6 @@ class InstanceTest:
     name: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="name",
             type="Attribute",
             required=True
         )
@@ -1113,7 +1080,6 @@ class InstanceTest:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1220,7 +1186,6 @@ class SchemaTest:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1238,7 +1203,6 @@ class SchemaTest:
     expected: List[Expected] = field(
         default_factory=list,
         metadata=dict(
-            name="expected",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1247,14 +1211,12 @@ class SchemaTest:
     current: Optional[Current] = field(
         default=None,
         metadata=dict(
-            name="current",
             type="Element"
         )
     )
     prior: List[Prior] = field(
         default_factory=list,
         metadata=dict(
-            name="prior",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1263,7 +1225,6 @@ class SchemaTest:
     name: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="name",
             type="Attribute",
             required=True
         )
@@ -1271,7 +1232,6 @@ class SchemaTest:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1357,7 +1317,6 @@ class TestSuite:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1375,7 +1334,6 @@ class TestSuite:
     name: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="name",
             type="Attribute",
             required=True
         )
@@ -1399,7 +1357,6 @@ class TestSuite:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1512,7 +1469,6 @@ class TestGroup:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1546,7 +1502,6 @@ class TestGroup:
     name: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="name",
             type="Attribute",
             required=True
         )
@@ -1554,7 +1509,6 @@ class TestGroup:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1637,7 +1591,6 @@ class TestSet:
     annotation: List[Annotation] = field(
         default_factory=list,
         metadata=dict(
-            name="annotation",
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807
@@ -1655,7 +1608,6 @@ class TestSet:
     contributor: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="contributor",
             type="Attribute",
             required=True
         )
@@ -1663,7 +1615,6 @@ class TestSet:
     name: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="name",
             type="Attribute",
             required=True
         )
@@ -1671,7 +1622,6 @@ class TestSet:
     version: List[Union[KnownXsdVersion, Xsd10Editions, XmlSubstrate, UnicodeVersions, RuntimeSchemaError, XpathInCta, XdmFiltering, Decimal, str]] = field(
         default_factory=list,
         metadata=dict(
-            name="version",
             type="Attribute",
             min_occurs=0,
             max_occurs=9223372036854775807

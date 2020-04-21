@@ -40,12 +40,10 @@ class Uid(UidType):
         name = "uid"
 
 
-
 @dataclass
 class Uid2(UidType):
     class Meta:
         name = "uid2"
-
 
 
 @dataclass

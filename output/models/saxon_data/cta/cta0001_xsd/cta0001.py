@@ -76,7 +76,6 @@ class Message(MessageType):
         name = "message"
 
 
-
 @dataclass
 class MessageTypeBase64(MessageType):
     """

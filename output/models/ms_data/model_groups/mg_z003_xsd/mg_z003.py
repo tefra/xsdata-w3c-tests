@@ -8,7 +8,6 @@ class Bar:
         name = "bar"
 
 
-
 @dataclass
 class Foo:
     """

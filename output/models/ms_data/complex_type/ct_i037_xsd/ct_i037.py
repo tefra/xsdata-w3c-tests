@@ -37,7 +37,6 @@ class FooTest(FooType):
         name = "fooTest"
 
 
-
 @dataclass
 class MyType(FooType):
     """

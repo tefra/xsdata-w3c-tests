@@ -47,7 +47,6 @@ class FooTest(MyType):
         name = "fooTest"
 
 
-
 @dataclass
 class Root:
     """

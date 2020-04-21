@@ -7,7 +7,6 @@ class FooType:
         name = "fooType"
 
 
-
 @dataclass
 class Root(FooType):
     class Meta:

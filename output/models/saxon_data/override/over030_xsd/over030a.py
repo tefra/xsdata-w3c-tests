@@ -92,13 +92,11 @@ class Abbrev(InlineType):
         namespace = "http://example.org/ns/document"
 
 
-
 @dataclass
 class Emphasis(InlineType):
     class Meta:
         name = "emphasis"
         namespace = "http://example.org/ns/document"
-
 
 
 @dataclass
@@ -108,13 +106,11 @@ class Phrase(InlineType):
         namespace = "http://example.org/ns/document"
 
 
-
 @dataclass
 class Property(InlineType):
     class Meta:
         name = "property"
         namespace = "http://example.org/ns/document"
-
 
 
 @dataclass
@@ -124,7 +120,6 @@ class Subscript(InlineType):
         namespace = "http://example.org/ns/document"
 
 
-
 @dataclass
 class Superscript(InlineType):
     class Meta:
@@ -132,13 +127,11 @@ class Superscript(InlineType):
         namespace = "http://example.org/ns/document"
 
 
-
 @dataclass
 class Title(InlineType):
     class Meta:
         name = "title"
         namespace = "http://example.org/ns/document"
-
 
 
 @dataclass
@@ -290,7 +283,6 @@ class P(ParaType):
     class Meta:
         name = "p"
         namespace = "http://example.org/ns/document"
-
 
 
 @dataclass

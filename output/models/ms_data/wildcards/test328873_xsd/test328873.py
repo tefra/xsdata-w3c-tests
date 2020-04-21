@@ -173,13 +173,11 @@ class Sub5(Intersection1):
         namespace = "a"
 
 
-
 @dataclass
 class Sub6(Intersection2):
     class Meta:
         name = "sub6"
         namespace = "a"
-
 
 
 @dataclass
@@ -254,13 +252,11 @@ class Sub(Derived2):
         namespace = "a"
 
 
-
 @dataclass
 class Sub2(Derived3):
     class Meta:
         name = "sub2"
         namespace = "a"
-
 
 
 @dataclass
@@ -270,13 +266,11 @@ class Sub3(Derived4):
         namespace = "a"
 
 
-
 @dataclass
 class Sub4(Derived5):
     class Meta:
         name = "sub4"
         namespace = "a"
-
 
 
 @dataclass

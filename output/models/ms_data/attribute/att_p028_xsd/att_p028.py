@@ -10,7 +10,6 @@ class AttRef:
         name = "attRef"
 
 
-
 @dataclass
 class Doc:
     """

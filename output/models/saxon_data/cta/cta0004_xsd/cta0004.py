@@ -83,7 +83,6 @@ class Message(T):
         namespace = "http://cta0002/"
 
 
-
 @dataclass
 class Messages:
     """

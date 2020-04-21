@@ -31,12 +31,10 @@ class Head(Type):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class Member1(DerivedFromType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass

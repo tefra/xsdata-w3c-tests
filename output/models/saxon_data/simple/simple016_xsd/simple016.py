@@ -30,7 +30,6 @@ class Doc(DocType):
         namespace = "http://simple016.ly/"
 
 
-
 @dataclass
 class Book:
     """

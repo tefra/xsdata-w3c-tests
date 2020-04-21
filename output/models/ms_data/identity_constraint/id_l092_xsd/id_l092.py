@@ -61,13 +61,11 @@ class T(Ttype):
         namespace = "myNS.tempuri.org"
 
 
-
 @dataclass
 class U(Utype):
     class Meta:
         name = "u"
         namespace = "myNS.tempuri.org"
-
 
 
 @dataclass

@@ -61,7 +61,6 @@ class AE3(CtC):
         namespace = "ns-a"
 
 
-
 @dataclass
 class E1(CtA):
     class Meta:

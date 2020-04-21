@@ -15,19 +15,16 @@ class Head(Type):
         namespace = "ElemDecl/disallowedSubst"
 
 
-
 @dataclass
 class DerivedFromType(Type):
     class Meta:
         name = "derivedFromType"
 
 
-
 @dataclass
 class Member1(DerivedFromType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
-
 
 
 @dataclass

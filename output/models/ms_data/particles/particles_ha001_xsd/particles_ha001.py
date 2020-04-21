@@ -58,7 +58,6 @@ class Doc(Base):
         namespace = "http://xsdtesting"
 
 
-
 @dataclass
 class Test(B):
     class Meta:

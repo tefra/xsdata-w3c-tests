@@ -29,7 +29,6 @@ class Alias(Base):
         namespace = "urn:foo"
 
 
-
 @dataclass
 class Extension(Base):
     """

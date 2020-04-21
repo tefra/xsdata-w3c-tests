@@ -36,7 +36,6 @@ class Member1(HeadType):
         namespace = "ElemDecl/abstract"
 
 
-
 @dataclass
 class Root:
     """

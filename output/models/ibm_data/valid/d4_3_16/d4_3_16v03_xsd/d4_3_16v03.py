@@ -7,7 +7,7 @@ __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v03"
 @dataclass
 class ElDtimeListOptional:
     """
-    :ivar value: Optional - Tests the dateTime with explicitTimezone used in a lists
+    :ivar value:
     """
     class Meta:
         name = "elDTimeListOptional"
@@ -26,7 +26,7 @@ class ElDtimeListOptional:
 @dataclass
 class ElDtimeListProhibited:
     """
-    :ivar value: Prohibited - Tests the dateTime with explicitTimezone used in a lists
+    :ivar value:
     """
     class Meta:
         name = "elDTimeListProhibited"
@@ -45,7 +45,7 @@ class ElDtimeListProhibited:
 @dataclass
 class ElDtimeListRequired:
     """
-    :ivar value: Required - Tests the dateTime with explicitTimezone used in a lists
+    :ivar value:
     """
     class Meta:
         name = "elDTimeListRequired"

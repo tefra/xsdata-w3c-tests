@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 
 @dataclass
@@ -27,7 +27,7 @@ class X:
     :ivar a:
     :ivar a_attribute:
     """
-    a: Optional[MinimalA] = field(
+    a: Optional[Union[MinimalA, "X.ACastAsXsBoolean"]] = field(
         default=None,
         metadata=dict(
             name="A",
@@ -43,3 +43,7 @@ class X:
             type="Attribute"
         )
     )
+
+    @dataclass
+    class ACastAsXsBoolean(MinimalA):
+        pass

@@ -1,5 +1,6 @@
+from enum import Enum
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -10,13 +11,23 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: List[str] = field(
+    value: List[Union["FooTest.Value", str]] = field(
         default_factory=list,
         metadata=dict(
             min_occurs=0,
             max_occurs=9223372036854775807
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar CA:
+        :cvar OR_VALUE:
+        :cvar WA:
+        """
+        CA = "CA"
+        OR_VALUE = "OR"
+        WA = "WA"
 
 
 @dataclass

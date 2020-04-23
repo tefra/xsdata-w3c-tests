@@ -14,11 +14,11 @@ class Test:
         name = "test"
         namespace = "SType/ST_facets"
 
-    value: Optional["Test.Type"] = field(
+    value: Optional["Test.Value"] = field(
         default=None,
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar VALUE_3_14:
         :cvar INT_VALUE:

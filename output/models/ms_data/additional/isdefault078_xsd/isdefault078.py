@@ -11,7 +11,7 @@ class Root:
     class Meta:
         name = "root"
 
-    space: Optional["Root.Type"] = field(
+    space: Optional["Root.Value"] = field(
         default=None,
         metadata=dict(
             type="Attribute",
@@ -19,7 +19,7 @@ class Root:
         )
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar DEFAULT:
         :cvar PRESERVE:

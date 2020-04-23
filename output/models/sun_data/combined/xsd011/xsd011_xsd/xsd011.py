@@ -33,11 +33,10 @@ class Nillable2:
         nillable = True
         namespace = "foo"
 
-    value: List[int] = field(
-        default_factory=list,
+    value: Optional[int] = field(
+        default=None,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            min_length=2.0
         )
     )
 

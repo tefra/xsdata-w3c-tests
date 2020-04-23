@@ -14,11 +14,11 @@ class ElEnumerationA:
         name = "elEnumerationA"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional["ElEnumerationA.Type"] = field(
+    value: Optional["ElEnumerationA.Value"] = field(
         default=None,
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar VALUE_2000_02_02_T02_00_00_123_Z:
         :cvar VALUE_2002_02_02_T02_00_00_09_00:
@@ -36,11 +36,11 @@ class ElEnumerationB:
         name = "elEnumerationB"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional["ElEnumerationB.Type"] = field(
+    value: Optional["ElEnumerationB.Value"] = field(
         default=None,
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar VALUE_2006_02_02_T01_00_00_123_09_00:
         :cvar VALUE_2007_02_02_T01_00_00_123_Z:

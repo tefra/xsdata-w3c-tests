@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -48,7 +48,7 @@ class Example:
     """
     :ivar publication:
     """
-    publication: List[PublicationType] = field(
+    publication: List[Union[PublicationType, "Example.KindBook"]] = field(
         default_factory=list,
         metadata=dict(
             name="Publication",
@@ -57,3 +57,26 @@ class Example:
             max_occurs=9223372036854775807
         )
     )
+
+    @dataclass
+    class KindBook(PublicationType):
+        """
+        :ivar isbn:
+        :ivar publisher:
+        """
+        isbn: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                name="ISBN",
+                type="Element",
+                required=True
+            )
+        )
+        publisher: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                name="Publisher",
+                type="Element",
+                required=True
+            )
+        )

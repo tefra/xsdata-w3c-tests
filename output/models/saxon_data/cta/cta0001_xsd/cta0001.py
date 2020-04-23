@@ -1,3 +1,4 @@
+from enum import Enum
 from dataclasses import dataclass, field
 from lxml.etree import QName
 from typing import Dict, List, Optional
@@ -22,7 +23,7 @@ class MessageType:
             max_occurs=9223372036854775807
         )
     )
-    kind: Optional[str] = field(
+    kind: Optional["MessageType.Value"] = field(
         default=None,
         metadata=dict(
             type="Attribute"
@@ -35,6 +36,24 @@ class MessageType:
             namespace="##any"
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar ILH_NTCI:
+        :cvar IM_JHC2_U2_NCI:
+        :cvar IM_JPBM_FYE_SI:
+        :cvar IM_RHD_GUI:
+        :cvar IN_N0CMLU_ZY_I:
+        :cvar IN_RPB_WUI:
+        :cvar INHTB_CI:
+        """
+        ILH_NTCI = "XML"
+        IM_JHC2_U2_NCI = "base64"
+        IM_JPBM_FYE_SI = "binary"
+        IM_RHD_GUI = "date"
+        IN_N0CMLU_ZY_I = "string"
+        IN_RPB_WUI = "time"
+        INHTB_CI = "xml"
 
 
 @dataclass
@@ -55,7 +74,7 @@ class MessageTypeXml:
             required=True
         )
     )
-    kind: Optional[str] = field(
+    kind: Optional["MessageTypeXml.Value"] = field(
         default=None,
         metadata=dict(
             type="Attribute"
@@ -68,6 +87,24 @@ class MessageTypeXml:
             namespace="##any"
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar ILH_NTCI:
+        :cvar IM_JHC2_U2_NCI:
+        :cvar IM_JPBM_FYE_SI:
+        :cvar IM_RHD_GUI:
+        :cvar IN_N0CMLU_ZY_I:
+        :cvar IN_RPB_WUI:
+        :cvar INHTB_CI:
+        """
+        ILH_NTCI = "XML"
+        IM_JHC2_U2_NCI = "base64"
+        IM_JPBM_FYE_SI = "binary"
+        IM_RHD_GUI = "date"
+        IN_N0CMLU_ZY_I = "string"
+        IN_RPB_WUI = "time"
+        INHTB_CI = "xml"
 
 
 @dataclass

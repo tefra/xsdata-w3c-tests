@@ -7,7 +7,7 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v03"
 @dataclass
 class EldTimeStampListC:
     """
-    :ivar value: Tests the simpleType dateTimeStamp used in a lists
+    :ivar value:
     """
     class Meta:
         name = "eldTimeStampListC"

@@ -14,11 +14,11 @@ class Price:
         name = "price"
         namespace = "http://simple022.ly/"
 
-    value: Optional["Price.Type"] = field(
+    value: Optional["Price.Value"] = field(
         default=None,
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar VALUE_9_99:
         :cvar NA_N:

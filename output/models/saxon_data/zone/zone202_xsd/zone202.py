@@ -11,11 +11,14 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional["Doc.Type"] = field(
+    value: Optional["Doc.Value"] = field(
         default=None,
+        metadata=dict(
+            explicit_timezone="optional"
+        )
     )
 
-    class Type(Enum):
+    class Value(Enum):
         """
         :cvar VALUE_0000_12:
         :cvar VALUE_0000_01:

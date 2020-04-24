@@ -13,7 +13,7 @@ class Id:
         name = "ID"
         namespace = "ElemDecl/valueConstraint"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True

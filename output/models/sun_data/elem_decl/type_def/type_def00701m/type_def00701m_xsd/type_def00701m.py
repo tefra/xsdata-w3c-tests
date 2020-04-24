@@ -12,7 +12,7 @@ class Boolean:
     class Meta:
         name = "boolean"
 
-    value: Optional["bool"] = field(
+    value: Optional[bool] = field(
         default=None,
         metadata=dict(
             type="Attribute"

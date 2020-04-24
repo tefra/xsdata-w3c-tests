@@ -10,7 +10,7 @@ class Id:
     class Meta:
         name = "ID"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True
@@ -26,7 +26,7 @@ class Idref:
     class Meta:
         name = "IDREF"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True
@@ -42,7 +42,7 @@ class Idrefs:
     class Meta:
         name = "IDREFS"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True

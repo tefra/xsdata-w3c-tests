@@ -10,7 +10,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
     )
 

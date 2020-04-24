@@ -43,7 +43,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True
@@ -91,7 +91,7 @@ class Decimal:
     class Meta:
         name = "decimal"
 
-    value: Optional["Decimal"] = field(
+    value: Optional[Decimal] = field(
         default=None,
         metadata=dict(
             required=True
@@ -107,7 +107,7 @@ class Double:
     class Meta:
         name = "double"
 
-    value: Optional["Decimal"] = field(
+    value: Optional[Decimal] = field(
         default=None,
         metadata=dict(
             required=True
@@ -123,7 +123,7 @@ class Duration:
     class Meta:
         name = "duration"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True
@@ -155,7 +155,7 @@ class FloatType:
     class Meta:
         name = "float"
 
-    value: Optional["float"] = field(
+    value: Optional[float] = field(
         default=None,
         metadata=dict(
             required=True
@@ -187,7 +187,7 @@ class IntType:
     class Meta:
         name = "int"
 
-    value: Optional["int"] = field(
+    value: Optional[int] = field(
         default=None,
         metadata=dict(
             required=True
@@ -253,7 +253,7 @@ class String:
     class Meta:
         name = "string"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True
@@ -269,7 +269,7 @@ class Time:
     class Meta:
         name = "time"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True

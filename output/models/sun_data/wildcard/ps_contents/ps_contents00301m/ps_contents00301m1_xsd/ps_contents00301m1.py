@@ -32,7 +32,7 @@ class Date:
         name = "date"
         namespace = "psContents"
 
-    value: Optional["str"] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True

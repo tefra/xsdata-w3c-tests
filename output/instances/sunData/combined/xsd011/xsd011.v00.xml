@@ -7,8 +7,6 @@
     <ns0:x/>
   </ns0:nillable1>
   <ns0:nillable1 xsi:nil="true"/>
-  <ns0:nillable2>
-		51 32 59
-	</ns0:nillable2>
+  <ns0:nillable2>51 32 59</ns0:nillable2>
   <ns0:nillable2 xsi:nil="true"/>
 </ns0:root>

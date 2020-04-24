@@ -45,7 +45,7 @@ class IntType:
             type="Element"
         )
     )
-    value: Optional["int"] = field(
+    value: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Attribute",
@@ -70,7 +70,7 @@ class LongType:
             namespace="foo"
         )
     )
-    value: Optional["int"] = field(
+    value: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Attribute",

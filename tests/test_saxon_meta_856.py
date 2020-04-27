@@ -5251,7 +5251,6 @@ def test_id001_id001_n02_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_missing006_missing006_v1_xml(save_xml):
     """
     List type with missing item type Error only if the list type is needed
@@ -5283,7 +5282,6 @@ def test_missing006_missing006_n1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_missing003_missing003_v1_xml(save_xml):
     """
     Element declaration with missing substitution group head Error only if
@@ -5345,7 +5343,6 @@ def test_missing002_missing001_n1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_missing001_missing001_v1_xml(save_xml):
     """
     Element declaration with missing type Error only if the element
@@ -8937,7 +8934,6 @@ def test_vc020_vc020_v1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc014_vc014_v1_xml(save_xml):
     """
     Conditional use of xs:error controlled by vc:typeAvailable Conditional

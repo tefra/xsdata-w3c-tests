@@ -76,7 +76,7 @@ class Root:
                 namespace="##any"
             )
         )
-        type: Optional[str] = field(
+        type: Optional[object] = field(
             default=None,
             metadata=dict(
                 type="Attribute"
@@ -100,7 +100,7 @@ class TitleType:
             namespace="##any"
         )
     )
-    type: Optional[str] = field(
+    type: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Attribute"

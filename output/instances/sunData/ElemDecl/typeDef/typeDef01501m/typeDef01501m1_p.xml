@@ -2,4 +2,6 @@
 <test:root xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ElemDecl/typeDef typeDef01501m1.xsd" ID="a1">XML Schema: Structures specifies the XML Schema definition language, 
 which offers facilities for describing the structure and constraining 
 the contents of XML 1.0 documents, including those which exploit the 
-XML Namespace facility<dot/></test:root>
+XML Namespace facility<dot/>The schema language, which is itself represented in XML 1.0 and uses 
+namespaces, substantially reconstructs and considerably extends the 
+capabilities found in XML 1.0 document type definitions (DTDs) ...</test:root>

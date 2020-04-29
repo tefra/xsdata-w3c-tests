@@ -13,7 +13,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
         metadata=dict(
             required=True

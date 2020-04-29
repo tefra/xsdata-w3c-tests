@@ -10436,7 +10436,6 @@ def test_fields00202m4_positive(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_fields00202m3_positive(save_xml):
     """
     values of the fields are checked for equality:  string(3.0) compares

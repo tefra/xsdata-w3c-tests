@@ -18,13 +18,13 @@ class DimType:
     value: Optional[str] = field(
         default=None,
     )
-    length: Optional[str] = field(
+    length: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Attribute"
         )
     )
-    width: Optional[str] = field(
+    width: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Attribute"

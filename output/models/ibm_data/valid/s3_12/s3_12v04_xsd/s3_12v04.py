@@ -14,7 +14,7 @@ class AnySimpleType:
     class Meta:
         name = "anySimpleType"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
     )
     type: Optional[str] = field(

@@ -65,7 +65,8 @@ class TestCase:
 
 def generate():
     for test_file in tests.glob("test_*.py"):
-        test_file.unlink()
+        if test_file.stem != "test_performance":
+            test_file.unlink()
 
     prev = None
     test_cases = []

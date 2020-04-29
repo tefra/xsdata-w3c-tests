@@ -10,7 +10,7 @@ class T1:
     class Meta:
         name = "t1"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
     )
 

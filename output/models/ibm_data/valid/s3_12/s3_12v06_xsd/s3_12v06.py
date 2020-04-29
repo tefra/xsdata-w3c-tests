@@ -19,7 +19,7 @@ class ChildTypeBase:
             type="Attribute"
         )
     )
-    dob: Optional[str] = field(
+    dob: Optional[object] = field(
         default=None,
         metadata=dict(
             name="DOB",

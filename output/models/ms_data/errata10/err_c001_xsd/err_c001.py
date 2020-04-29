@@ -12,7 +12,7 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    test_attr: str = field(
+    test_attr: object = field(
         init=False,
         default="This   is   a    fixed value",
         metadata=dict(

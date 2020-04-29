@@ -10,7 +10,7 @@ class T1:
     class Meta:
         name = "t1"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
     )
 
@@ -23,7 +23,7 @@ class T2(T1):
     class Meta:
         name = "t2"
 
-    att: Optional[str] = field(
+    att: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Attribute"

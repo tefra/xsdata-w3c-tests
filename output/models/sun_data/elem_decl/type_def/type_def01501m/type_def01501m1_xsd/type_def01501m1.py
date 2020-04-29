@@ -21,7 +21,7 @@ class Text:
             namespace="##any"
         )
     )
-    dot: List[str] = field(
+    dot: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

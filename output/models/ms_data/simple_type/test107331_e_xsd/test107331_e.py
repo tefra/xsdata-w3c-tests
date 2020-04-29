@@ -11,7 +11,7 @@ class Ct1:
     class Meta:
         name = "ct1"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
     )
 
@@ -88,7 +88,7 @@ class Item:
     class Meta:
         name = "item"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
         metadata=dict(
             required=True

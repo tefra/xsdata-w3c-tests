@@ -13,7 +13,7 @@ class Root:
         name = "root"
         namespace = "IdConstrDefs/fields"
 
-    number: List[str] = field(
+    number: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

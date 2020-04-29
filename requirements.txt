@@ -1,5 +1,6 @@
 pytest
 pytest-xdist
+pytest-benchmark
 xmlschema
 git+https://github.com/tefra/xsdata@master
 pre-commit

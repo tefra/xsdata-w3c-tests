@@ -11,7 +11,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
     )
     attr: Optional[str] = field(

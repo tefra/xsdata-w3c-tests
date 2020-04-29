@@ -13,7 +13,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    value: Optional[str] = field(
+    value: Optional[object] = field(
         default=None,
         metadata=dict(
             required=True

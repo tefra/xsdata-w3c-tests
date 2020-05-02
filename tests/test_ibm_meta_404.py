@@ -5200,7 +5200,6 @@ def test_d3_4_21v01_d3_4_21v01i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc_009_vc_009_2(save_xml):
 
     assert_bindings(
@@ -5213,7 +5212,6 @@ def test_vc_009_vc_009_2(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_vc_008_vc_008_2(save_xml):
 
     assert_bindings(

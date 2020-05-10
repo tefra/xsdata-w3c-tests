@@ -14516,7 +14516,6 @@ def test_particles_ec001_particles_ec001_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_particles_eb041_particles_eb041_v(save_xml):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element

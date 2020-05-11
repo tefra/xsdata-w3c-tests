@@ -23,11 +23,11 @@ class Member2:
 @dataclass
 class ContainMember2Type:
     """
-    :ivar my_namespace_member2:
     :ivar member2:
+    :ivar my_namespace_member2:
     :ivar head2:
     """
-    my_namespace_member2: Optional[Member2] = field(
+    member2: Optional[Member2] = field(
         default=None,
         metadata=dict(
             name="Member2",
@@ -36,7 +36,7 @@ class ContainMember2Type:
             required=True
         )
     )
-    member2: Optional[Member2] = field(
+    my_namespace_member2: Optional[Member2] = field(
         default=None,
         metadata=dict(
             name="Member2",

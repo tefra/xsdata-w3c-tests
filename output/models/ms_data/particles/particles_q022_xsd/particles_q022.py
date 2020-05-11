@@ -35,14 +35,13 @@ class B:
 @dataclass
 class R:
     """
-    :ivar xsdtesting_foo:
-    :ivar local_element:
     :ivar foo:
+    :ivar local_element:
+    :ivar xsdtesting_foo:
     """
-    xsdtesting_foo: Optional[object] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata=dict(
-            name="foo",
             type="Element",
             namespace="http://xsdtesting",
             required=True
@@ -57,9 +56,10 @@ class R:
             max_occurs=4
         )
     )
-    foo: List[Foo] = field(
+    xsdtesting_foo: List[Foo] = field(
         default_factory=list,
         metadata=dict(
+            name="foo",
             type="Element",
             namespace="http://xsdtesting",
             min_occurs=0,

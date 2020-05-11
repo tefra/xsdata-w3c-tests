@@ -40,8 +40,8 @@ class R:
     """
     :ivar foo:
     :ivar foo_bar_element:
-    :ivar foo_e2:
     :ivar e2:
+    :ivar bar_e2:
     """
     foo: Optional[object] = field(
         default=None,
@@ -60,10 +60,9 @@ class R:
             max_occurs=4
         )
     )
-    foo_e2: List[E2] = field(
+    e2: List[E2] = field(
         default_factory=list,
         metadata=dict(
-            name="e2",
             type="Element",
             namespace="foo",
             min_occurs=0,
@@ -71,9 +70,10 @@ class R:
             sequential=True
         )
     )
-    e2: List[E2] = field(
+    bar_e2: List[E2] = field(
         default_factory=list,
         metadata=dict(
+            name="e2",
             type="Element",
             namespace="bar",
             min_occurs=0,

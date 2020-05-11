@@ -53,10 +53,10 @@ class TypeType(Enum):
 @dataclass
 class ArcType:
     """
-    :ivar www_w3_org_1999_xlink_title:
+    :ivar title:
     :ivar type:
     :ivar arcrole:
-    :ivar title:
+    :ivar title_attribute:
     :ivar show:
     :ivar actuate:
     :ivar from_value:
@@ -65,10 +65,9 @@ class ArcType:
     class Meta:
         name = "arcType"
 
-    www_w3_org_1999_xlink_title: List[str] = field(
+    title: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="title",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -92,9 +91,10 @@ class ArcType:
             min_length=1.0
         )
     )
-    title: Optional[str] = field(
+    title_attribute: Optional[str] = field(
         default=None,
         metadata=dict(
+            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -137,21 +137,20 @@ class Extended:
     The intention is that by simply declaring elements with these as their
     substitutionGroup, all the right things will happen.
 
-    :ivar www_w3_org_1999_xlink_title:
+    :ivar title:
     :ivar resource:
     :ivar locator:
     :ivar arc:
     :ivar type:
     :ivar role:
-    :ivar title:
+    :ivar title_attribute:
     """
     class Meta:
         name = "extended"
 
-    www_w3_org_1999_xlink_title: List[str] = field(
+    title: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="title",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -202,9 +201,10 @@ class Extended:
             min_length=1.0
         )
     )
-    title: Optional[str] = field(
+    title_attribute: Optional[str] = field(
         default=None,
         metadata=dict(
+            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )
@@ -214,21 +214,20 @@ class Extended:
 @dataclass
 class LocatorType:
     """
-    :ivar www_w3_org_1999_xlink_title:
+    :ivar title:
     :ivar type:
     :ivar href:
     :ivar role:
-    :ivar title:
+    :ivar title_attribute:
     :ivar label: label is not required, but locators have no particular
          XLink function if they are not labeled.
     """
     class Meta:
         name = "locatorType"
 
-    www_w3_org_1999_xlink_title: List[str] = field(
+    title: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="title",
             type="Element",
             namespace="http://www.w3.org/1999/xlink",
             min_occurs=0,
@@ -260,9 +259,10 @@ class LocatorType:
             min_length=1.0
         )
     )
-    title: Optional[str] = field(
+    title_attribute: Optional[str] = field(
         default=None,
         metadata=dict(
+            name="title",
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
         )

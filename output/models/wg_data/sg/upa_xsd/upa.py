@@ -43,14 +43,13 @@ class E1:
 @dataclass
 class T:
     """
-    :ivar www_w3_org_xml_2008_xsdl_exx_ns1_e1:
-    :ivar e:
     :ivar e1:
+    :ivar e:
+    :ivar www_w3_org_xml_2008_xsdl_exx_ns1_e1:
     """
-    www_w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[E1] = field(
+    e1: Optional[E1] = field(
         default=None,
         metadata=dict(
-            name="e1",
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
@@ -62,9 +61,10 @@ class T:
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
-    e1: Optional[str] = field(
+    www_w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[str] = field(
         default=None,
         metadata=dict(
+            name="e1",
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )

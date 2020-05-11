@@ -20,9 +20,9 @@ class B:
 @dataclass
 class E(B):
     """
-    :ivar adam_com_attributes:
+    :ivar abel_com_http_adam_com_attributes:
     """
-    adam_com_attributes: Dict[QName, str] = field(
+    abel_com_http_adam_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

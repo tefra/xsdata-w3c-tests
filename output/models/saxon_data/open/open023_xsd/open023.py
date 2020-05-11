@@ -8,7 +8,7 @@ class B:
     :ivar a:
     :ivar b:
     :ivar c:
-    :ivar other_com_element:
+    :ivar open_com_http_other_com_element:
     """
     a: List[object] = field(
         default_factory=list,
@@ -33,7 +33,7 @@ class B:
             namespace=""
         )
     )
-    other_com_element: Optional[object] = field(
+    open_com_http_other_com_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",
@@ -50,7 +50,7 @@ class R:
     :ivar b:
     :ivar c:
     :ivar open_com_element:
-    :ivar other_com_element:
+    :ivar open_com_http_other_com_element:
     """
     a: Optional[object] = field(
         default=None,
@@ -82,7 +82,7 @@ class R:
             required=True
         )
     )
-    other_com_element: Optional[object] = field(
+    open_com_http_other_com_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

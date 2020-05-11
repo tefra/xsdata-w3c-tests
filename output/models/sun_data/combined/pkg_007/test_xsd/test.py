@@ -35,7 +35,7 @@ class Emptywc:
 class JustA:
     """
     :ivar a_attributes:
-    :ivar b_urn_c_attributes:
+    :ivar a_urn_b_urn_c_attributes:
     """
     class Meta:
         name = "justA"
@@ -48,7 +48,7 @@ class JustA:
             namespace="urn:a"
         )
     )
-    b_urn_c_attributes: Dict[QName, str] = field(
+    a_urn_b_urn_c_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

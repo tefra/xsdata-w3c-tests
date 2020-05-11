@@ -7,40 +7,40 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class AttRef:
     """
-    :ivar xsdtesting_aga1:
-    :ivar xsdtesting_aga2:
     :ivar aga1:
     :ivar aga2:
+    :ivar imported_xsd_aga1:
+    :ivar imported_xsd_aga2:
     """
     class Meta:
         name = "attRef"
 
-    xsdtesting_aga1: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="aga1",
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
-    )
-    xsdtesting_aga2: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="aga2",
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
-    )
     aga1: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Attribute",
-            namespace="http://importedXSD"
+            namespace="http://xsdtesting"
         )
     )
     aga2: Optional[str] = field(
         default=None,
         metadata=dict(
+            type="Attribute",
+            namespace="http://xsdtesting"
+        )
+    )
+    imported_xsd_aga1: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="aga1",
+            type="Attribute",
+            namespace="http://importedXSD"
+        )
+    )
+    imported_xsd_aga2: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="aga2",
             type="Attribute",
             namespace="http://importedXSD"
         )

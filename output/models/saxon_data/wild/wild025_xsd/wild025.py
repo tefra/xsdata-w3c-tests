@@ -6,14 +6,14 @@ from typing import Dict
 @dataclass
 class T:
     """
-    :ivar eve_com_http_eve_com_attributes:
+    :ivar eve_com_attributes:
     :ivar any_attributes:
     """
-    eve_com_http_eve_com_attributes: Dict[QName, str] = field(
+    eve_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
-            namespace="http://adam.com/ http://eve.com/ http://eve.com/"
+            namespace="http://adam.com/ http://eve.com/"
         )
     )
     any_attributes: Dict[QName, str] = field(

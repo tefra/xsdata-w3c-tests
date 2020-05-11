@@ -7,7 +7,7 @@ from typing import Dict
 class T:
     """
     :ivar any_attributes:
-    :ivar eve_com_http_eve_com_attributes:
+    :ivar eve_com_attributes:
     """
     any_attributes: Dict[QName, str] = field(
         default_factory=dict,
@@ -16,11 +16,11 @@ class T:
             namespace="##any"
         )
     )
-    eve_com_http_eve_com_attributes: Dict[QName, str] = field(
+    eve_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
-            namespace="http://adam.com/ http://eve.com/ http://eve.com/"
+            namespace="http://adam.com/ http://eve.com/"
         )
     )
 

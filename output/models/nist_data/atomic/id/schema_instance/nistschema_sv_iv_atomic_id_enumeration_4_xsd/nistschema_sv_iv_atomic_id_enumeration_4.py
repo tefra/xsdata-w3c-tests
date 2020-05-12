@@ -8,22 +8,22 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-4-NS"
 class NistschemaSvIvAtomicIdEnumeration4Type(Enum):
     """
     :cvar FOR_NEWCOMERS_FOR_RESOURCES_FORUM_AND_THAN_MAINTAINED_SERIES:
-    :cvar HI:
     :cvar IIMPACT_THE_DEVICES_TEMPLATES_SY:
-    :cvar LPROVIDES_DISCOVER_OVER_CLEAN_REL:
     :cvar NSOFTWARE_THE_FROM_COMMERCE_USING:
+    :cvar HI:
+    :cvar LPROVIDES_DISCOVER_OVER_CLEAN_REL:
     :cvar QBAN:
-    :cvar STESTING_ADDRESSING_TH:
     :cvar WREGISTRIES_RESULT_MADE_KEY_THE_OF_WITHOUT_THE_CAN_ORGANIZATIO:
+    :cvar STESTING_ADDRESSING_TH:
     """
     FOR_NEWCOMERS_FOR_RESOURCES_FORUM_AND_THAN_MAINTAINED_SERIES = "_for.newcomers_for-resources.forum_and-than.maintained-series-"
-    HI = "hi"
     IIMPACT_THE_DEVICES_TEMPLATES_SY = "iimpact-the.devices_templates_sy"
-    LPROVIDES_DISCOVER_OVER_CLEAN_REL = "lprovides.discover.over.clean.rel"
     NSOFTWARE_THE_FROM_COMMERCE_USING = "nsoftware.the.from_commerce_using-"
+    HI = "hi"
+    LPROVIDES_DISCOVER_OVER_CLEAN_REL = "lprovides.discover.over.clean.rel"
     QBAN = "qban"
-    STESTING_ADDRESSING_TH = "stesting-addressing_th"
     WREGISTRIES_RESULT_MADE_KEY_THE_OF_WITHOUT_THE_CAN_ORGANIZATIO = "wregistries_result_made_key.the.of_without_the.can.organizatio"
+    STESTING_ADDRESSING_TH = "stesting-addressing_th"
 
 
 @dataclass

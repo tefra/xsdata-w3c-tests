@@ -5,13 +5,13 @@ from typing import List
 
 class U3(Enum):
     """
-    :cvar VALUE_1:
     :cvar X:
     :cvar Y:
+    :cvar VALUE_1:
     """
-    VALUE_1 = "1"
     X = "x"
     Y = "y"
+    VALUE_1 = "1"
 
 
 @dataclass

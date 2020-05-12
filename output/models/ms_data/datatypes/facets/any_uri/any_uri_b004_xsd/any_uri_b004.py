@@ -27,8 +27,20 @@ class St(Enum):
     :cvar T:
     :cvar U:
     :cvar V:
-    :cvar VALUE:
+    :cvar W:
+    :cvar X:
+    :cvar Y:
+    :cvar Z:
     :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar VALUE_5:
+    :cvar VALUE_6:
+    :cvar VALUE_7:
+    :cvar VALUE_8:
+    :cvar VALUE_9:
+    :cvar VALUE:
     :cvar VALUE_10:
     :cvar VALUE_11:
     :cvar VALUE_12:
@@ -39,21 +51,9 @@ class St(Enum):
     :cvar VALUE_17:
     :cvar VALUE_18:
     :cvar VALUE_19:
-    :cvar VALUE_2:
     :cvar VALUE_20:
     :cvar VALUE_21:
     :cvar VALUE_22:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar VALUE_5:
-    :cvar VALUE_6:
-    :cvar VALUE_7:
-    :cvar VALUE_8:
-    :cvar VALUE_9:
-    :cvar W:
-    :cvar X:
-    :cvar Y:
-    :cvar Z:
     """
     A = "a"
     B = "b"
@@ -77,8 +77,20 @@ class St(Enum):
     T = "t"
     U = "u"
     V = "v"
-    VALUE = "@"
+    W = "w"
+    X = "x"
+    Y = "y"
+    Z = "z"
     VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+    VALUE_5 = "5"
+    VALUE_6 = "6"
+    VALUE_7 = "7"
+    VALUE_8 = "8"
+    VALUE_9 = "9"
+    VALUE = "@"
     VALUE_10 = "$"
     VALUE_11 = "%"
     VALUE_12 = "^"
@@ -89,21 +101,9 @@ class St(Enum):
     VALUE_17 = "-"
     VALUE_18 = "+"
     VALUE_19 = ".."
-    VALUE_2 = "2"
     VALUE_20 = "."
     VALUE_21 = "~"
     VALUE_22 = "!"
-    VALUE_3 = "3"
-    VALUE_4 = "4"
-    VALUE_5 = "5"
-    VALUE_6 = "6"
-    VALUE_7 = "7"
-    VALUE_8 = "8"
-    VALUE_9 = "9"
-    W = "w"
-    X = "x"
-    Y = "y"
-    Z = "z"
 
 
 @dataclass

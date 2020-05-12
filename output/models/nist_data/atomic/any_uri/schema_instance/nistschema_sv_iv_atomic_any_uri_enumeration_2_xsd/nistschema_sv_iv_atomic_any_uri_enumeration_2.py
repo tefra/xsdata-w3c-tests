@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
 class NistschemaSvIvAtomicAnyUriEnumeration2Type(Enum):
     """
-    :cvar FTP_FOR_INVESTIG_ORG:
     :cvar FTP_FTP_RELATEDTOOL_AANDOFINVE_TICALOFEFF_RTHAVE_EC_EDU:
-    :cvar HTTP_WWW_SIGNATURESR_ACHT_ORG:
+    :cvar NEWS_TH_GOV:
     :cvar HTTP_WWW_WITHOUTTHE_R_COMMENDATI_NSMEASUREME_GOV:
     :cvar MAILTO_METHODS_ITTECH_LIBRARIESWITHBET_NET:
-    :cvar NEWS_TH_GOV:
+    :cvar FTP_FOR_INVESTIG_ORG:
+    :cvar HTTP_WWW_SIGNATURESR_ACHT_ORG:
     """
-    FTP_FOR_INVESTIG_ORG = "ftp://forInvestig.org"
     FTP_FTP_RELATEDTOOL_AANDOFINVE_TICALOFEFF_RTHAVE_EC_EDU = "ftp://ftp.relatedtool.aandofinve.ticalofeff.rthaveEC.edu"
-    HTTP_WWW_SIGNATURESR_ACHT_ORG = "http://www.signaturesr.acht.org"
+    NEWS_TH_GOV = "news://th.gov"
     HTTP_WWW_WITHOUTTHE_R_COMMENDATI_NSMEASUREME_GOV = "http://www.withouttheR.commendati.nsmeasureme.gov"
     MAILTO_METHODS_ITTECH_LIBRARIESWITHBET_NET = "mailto:methodsIttech@librarieswithbet.net"
-    NEWS_TH_GOV = "news://th.gov"
+    FTP_FOR_INVESTIG_ORG = "ftp://forInvestig.org"
+    HTTP_WWW_SIGNATURESR_ACHT_ORG = "http://www.signaturesr.acht.org"
 
 
 @dataclass

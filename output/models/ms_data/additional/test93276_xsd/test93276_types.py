@@ -14,11 +14,11 @@ class GlobalAddressTypeValues(Enum):
 
 class GlobalNameTypeValues(Enum):
     """
-    :cvar DB:
     :cvar LG:
+    :cvar DB:
     """
-    DB = "DB"
     LG = "LG"
+    DB = "DB"
 
 
 class GlobalSimpleStatusType(Enum):
@@ -32,8 +32,8 @@ class GlobalSimpleStatusType(Enum):
 
 class GlobalYesNoType(Enum):
     """
-    :cvar N:
     :cvar Y:
+    :cvar N:
     """
-    N = "N"
     Y = "Y"
+    N = "N"

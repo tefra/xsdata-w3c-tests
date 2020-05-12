@@ -7,17 +7,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-5-NS"
 
 class NistschemaSvIvAtomicTokenEnumeration5Type(Enum):
     """
-    :cvar AND_VALUE:
+    :cvar THROUGH:
     :cvar MANUFACTURERS:
     :cvar THESE:
     :cvar THIS:
-    :cvar THROUGH:
+    :cvar AND_VALUE:
     """
-    AND_VALUE = "and"
+    THROUGH = "through"
     MANUFACTURERS = "manufacturers"
     THESE = "these"
     THIS = "this"
-    THROUGH = "through"
+    AND_VALUE = "and"
 
 
 @dataclass

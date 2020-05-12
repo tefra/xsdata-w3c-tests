@@ -7,16 +7,16 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYear-enumeration-3-NS"
 
 class NistschemaSvIvAtomicGYearEnumeration3Type(Enum):
     """
-    :cvar VALUE_1991:
-    :cvar VALUE_2001:
     :cvar VALUE_2004:
     :cvar VALUE_2014:
+    :cvar VALUE_1991:
+    :cvar VALUE_2001:
     :cvar VALUE_2021:
     """
-    VALUE_1991 = "1991"
-    VALUE_2001 = "2001"
     VALUE_2004 = "2004"
     VALUE_2014 = "2014"
+    VALUE_1991 = "1991"
+    VALUE_2001 = "2001"
     VALUE_2021 = "2021"
 
 

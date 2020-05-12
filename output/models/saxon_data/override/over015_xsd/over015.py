@@ -8,13 +8,13 @@ from output.models.saxon_data.override.over015_xsd.over015a import (
 
 class NotaFooBar(Enum):
     """
+    :cvar FOO:
     :cvar BAR:
     :cvar BEZ:
-    :cvar FOO:
     """
+    FOO = "foo"
     BAR = "bar"
     BEZ = "bez"
-    FOO = "foo"
 
 
 @dataclass

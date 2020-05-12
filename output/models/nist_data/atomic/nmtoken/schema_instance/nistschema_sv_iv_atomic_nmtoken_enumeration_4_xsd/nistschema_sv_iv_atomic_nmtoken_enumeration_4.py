@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-4-NS"
 
 class NistschemaSvIvAtomicNmtokenEnumeration4Type(Enum):
     """
-    :cvar MUST_INVESTIGATORS_SIGNATURES_TOOLS_SOFTWARE_TO_THAT_AS_RO:
-    :cvar OBJEC:
-    :cvar RELATED_IMPLEMENTATION_SECURITY_CAPABILITIES_THAT:
-    :cvar THAT_PROFILES_DEFI:
-    :cvar THE_OF_FILES_FOR_RECOMMENDATION_APPROPRIATE_DISCO:
     :cvar TRANS:
+    :cvar OBJEC:
+    :cvar MUST_INVESTIGATORS_SIGNATURES_TOOLS_SOFTWARE_TO_THAT_AS_RO:
+    :cvar THAT_PROFILES_DEFI:
+    :cvar RELATED_IMPLEMENTATION_SECURITY_CAPABILITIES_THAT:
+    :cvar THE_OF_FILES_FOR_RECOMMENDATION_APPROPRIATE_DISCO:
     """
-    MUST_INVESTIGATORS_SIGNATURES_TOOLS_SOFTWARE_TO_THAT_AS_RO = "must_Investigators_signatures:tools_software-to.that-as:ro"
-    OBJEC = "Objec"
-    RELATED_IMPLEMENTATION_SECURITY_CAPABILITIES_THAT = "related_implementation-security.capabilities:that"
-    THAT_PROFILES_DEFI = "that_profiles:defi"
-    THE_OF_FILES_FOR_RECOMMENDATION_APPROPRIATE_DISCO = "The-of_files.for.Recommendation-appropriate-disco"
     TRANS = "trans"
+    OBJEC = "Objec"
+    MUST_INVESTIGATORS_SIGNATURES_TOOLS_SOFTWARE_TO_THAT_AS_RO = "must_Investigators_signatures:tools_software-to.that-as:ro"
+    THAT_PROFILES_DEFI = "that_profiles:defi"
+    RELATED_IMPLEMENTATION_SECURITY_CAPABILITIES_THAT = "related_implementation-security.capabilities:that"
+    THE_OF_FILES_FOR_RECOMMENDATION_APPROPRIATE_DISCO = "The-of_files.for.Recommendation-appropriate-disco"
 
 
 @dataclass

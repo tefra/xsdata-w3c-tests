@@ -7,23 +7,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-2-NS"
 
 class NistschemaSvIvAtomicStringEnumeration2Type(Enum):
     """
+    :cvar VOICE_ENABLED:
+    :cvar LAUNCHING:
+    :cvar TREMENDOUS:
+    :cvar ROBUST:
+    :cvar IS_VALUE:
+    :cvar NIST_ITL:
     :cvar AS_VALUE:
     :cvar BUSINESS:
-    :cvar IS_VALUE:
-    :cvar LAUNCHING:
-    :cvar NIST_ITL:
-    :cvar ROBUST:
-    :cvar TREMENDOUS:
-    :cvar VOICE_ENABLED:
     """
+    VOICE_ENABLED = "voice-enabled"
+    LAUNCHING = "launching"
+    TREMENDOUS = "tremendous"
+    ROBUST = "robust"
+    IS_VALUE = "is"
+    NIST_ITL = "NIST/ITL"
     AS_VALUE = "as"
     BUSINESS = "Business"
-    IS_VALUE = "is"
-    LAUNCHING = "launching"
-    NIST_ITL = "NIST/ITL"
-    ROBUST = "robust"
-    TREMENDOUS = "tremendous"
-    VOICE_ENABLED = "voice-enabled"
 
 
 @dataclass

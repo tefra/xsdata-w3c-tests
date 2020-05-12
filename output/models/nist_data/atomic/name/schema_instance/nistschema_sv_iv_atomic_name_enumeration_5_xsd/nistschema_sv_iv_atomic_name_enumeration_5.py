@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-5-NS"
 
 class NistschemaSvIvAtomicNameEnumeration5Type(Enum):
     """
-    :cvar DAND_APPLICA:
+    :cvar TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T:
     :cvar FI:
-    :cvar PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN:
     :cvar RAND_TO_AND_THE_C:
     :cvar THESE_KNOWN_QUALITY_APPLICATION_AVAILABLE_THE:
-    :cvar TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T:
+    :cvar PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN:
+    :cvar DAND_APPLICA:
     """
-    DAND_APPLICA = "dand_applica"
+    TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T = ":to.environments-define.it.issues.t"
     FI = ":fi"
-    PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN = "papplication_the-object.object_computing_can"
     RAND_TO_AND_THE_C = "rand_to.and-the.c"
     THESE_KNOWN_QUALITY_APPLICATION_AVAILABLE_THE = "_these-known.quality.application_available.the."
-    TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T = ":to.environments-define.it.issues.t"
+    PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN = "papplication_the-object.object_computing_can"
+    DAND_APPLICA = "dand_applica"
 
 
 @dataclass

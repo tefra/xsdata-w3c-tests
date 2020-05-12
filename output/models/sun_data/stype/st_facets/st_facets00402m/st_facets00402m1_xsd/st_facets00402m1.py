@@ -7,21 +7,21 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar A0:
-    :cvar A2:
-    :cvar VALUE_0:
     :cvar VALUE_00:
+    :cvar VALUE_0:
+    :cvar A0:
     :cvar VALUE_01:
     :cvar VALUE_02:
     :cvar VALUE_2:
+    :cvar A2:
     """
-    A0 = "龥a0"
-    A2 = "〩a2"
-    VALUE_0 = "盒-0"
     VALUE_00 = "一00"
+    VALUE_0 = "盒-0"
+    A0 = "龥a0"
     VALUE_01 = "〇01"
     VALUE_02 = "〡02"
     VALUE_2 = "〥-2"
+    A2 = "〩a2"
 
 
 @dataclass

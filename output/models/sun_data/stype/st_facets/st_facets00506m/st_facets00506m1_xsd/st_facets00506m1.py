@@ -15,11 +15,11 @@ class S(Enum):
     :cvar A50:
     :cvar A60:
     :cvar A70:
-    :cvar A8:
     :cvar A80:
+    :cvar A8:
     :cvar A8_A:
-    :cvar A9:
     :cvar A90:
+    :cvar A9:
     :cvar A9_A:
     """
     A00 = "a00·"
@@ -30,11 +30,11 @@ class S(Enum):
     A50 = "a50ๆ"
     A60 = "a60ໆ"
     A70 = "a70々"
-    A8 = "a8-〳"
     A80 = "a80〱"
+    A8 = "a8-〳"
     A8_A = "a8A〵"
-    A9 = "a9-ゝ"
     A90 = "a90ゝ"
+    A9 = "a9-ゝ"
     A9_A = "a9Aゞ"
 
 

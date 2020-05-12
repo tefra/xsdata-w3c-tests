@@ -189,27 +189,27 @@ class RuntimeSchemaError(Enum):
               or has it been overtaken by the change made to resolve<ns0:a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12185">bug 12185 Conditional Type Assignment and substitutability</ns0:a>(or other late changes)?</ns0:p>
       </ns0:div>
     :cvar CTR_ALL_COMPILE:
-    :cvar CTR_ALL_IDEP:
     :cvar CTR_ALL_RUNTIME:
+    :cvar CTR_ALL_IDEP:
     """
     CTR_ALL_COMPILE = "CTR-all-compile"
-    CTR_ALL_IDEP = "CTR-all-idep"
     CTR_ALL_RUNTIME = "CTR-all-runtime"
+    CTR_ALL_IDEP = "CTR-all-idep"
 
 
 class Status(Enum):
     """
     :cvar ACCEPTED:
-    :cvar DISPUTED_SPEC:
-    :cvar DISPUTED_TEST:
-    :cvar QUERIED:
     :cvar STABLE:
+    :cvar QUERIED:
+    :cvar DISPUTED_TEST:
+    :cvar DISPUTED_SPEC:
     """
     ACCEPTED = "accepted"
-    DISPUTED_SPEC = "disputed-spec"
-    DISPUTED_TEST = "disputed-test"
-    QUERIED = "queried"
     STABLE = "stable"
+    QUERIED = "queried"
+    DISPUTED_TEST = "disputed-test"
+    DISPUTED_SPEC = "disputed-spec"
 
 
 class TestOutcome(Enum):
@@ -270,15 +270,15 @@ class TestOutcome(Enum):
           </ns0:dd>
         </ns0:dl>
       </ns0:div>
+    :cvar VALID:
     :cvar INVALID:
     :cvar NOT_KNOWN:
     :cvar RUNTIME_SCHEMA_ERROR:
-    :cvar VALID:
     """
+    VALID = "valid"
     INVALID = "invalid"
     NOT_KNOWN = "notKnown"
     RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
-    VALID = "valid"
 
 
 class UnicodeVersions(Enum):
@@ -374,11 +374,11 @@ class XpathInCta(Enum):
         <ns0:p>(These token values were added 29 July 2011 to address bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13455">13455
                 XPath subset causes problem</ns0:a>.)</ns0:p>
       </ns0:div>
-    :cvar FULL_XPATH_IN_CTA:
     :cvar RESTRICTED_XPATH_IN_CTA:
+    :cvar FULL_XPATH_IN_CTA:
     """
-    FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
     RESTRICTED_XPATH_IN_CTA = "restricted-xpath-in-CTA"
+    FULL_XPATH_IN_CTA = "full-xpath-in-CTA"
 
 
 class Xsd10Editions(Enum):
@@ -566,7 +566,7 @@ class Ref:
         )
     )
     type: TypeType = field(
-        default="locator",
+        default=TypeType.LOCATOR,
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink"
@@ -935,11 +935,11 @@ class TestSuiteResults:
 
     class PublicationPermission(Enum):
         """
-        :cvar PUBLIC:
         :cvar W3_C_MEMBERS:
+        :cvar PUBLIC:
         """
-        PUBLIC = "public"
         W3_C_MEMBERS = "W3C members"
+        PUBLIC = "public"
 
 
 @dataclass

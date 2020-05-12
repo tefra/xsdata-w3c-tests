@@ -8,24 +8,24 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-1-NS"
 class NistschemaSvIvAtomicTokenEnumeration1Type(Enum):
     """
     :cvar BE:
-    :cvar COMMERCE:
-    :cvar DISCOVER:
+    :cvar KEY:
     :cvar HAS:
     :cvar INFORMATION:
-    :cvar KEY:
-    :cvar PROVIDE:
     :cvar SHIFT:
+    :cvar DISCOVER:
+    :cvar PROVIDE:
     :cvar USER:
+    :cvar COMMERCE:
     """
     BE = "be"
-    COMMERCE = "commerce"
-    DISCOVER = "discover"
+    KEY = "key"
     HAS = "has"
     INFORMATION = "information"
-    KEY = "key"
-    PROVIDE = "provide"
     SHIFT = "shift"
+    DISCOVER = "discover"
+    PROVIDE = "provide"
     USER = "user"
+    COMMERCE = "commerce"
 
 
 @dataclass

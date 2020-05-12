@@ -18,7 +18,7 @@ class Root:
         name = "root"
 
     e1: Entities = field(
-        default="asd qwe",
+        default=Entities.ASD_QWE,
         metadata=dict(
             type="Attribute"
         )

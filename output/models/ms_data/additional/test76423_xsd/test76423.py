@@ -14,11 +14,11 @@ class ScopeType(Enum):
 
 class YesNoType(Enum):
     """
-    :cvar NO:
     :cvar YES:
+    :cvar NO:
     """
-    NO = "no"
     YES = "yes"
+    NO = "no"
 
 
 @dataclass

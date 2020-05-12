@@ -39,7 +39,7 @@ class Doc:
         """
         att: MySimpleType = field(
             init=False,
-            default="1",
+            default=MySimpleType.VALUE_1,
             metadata=dict(
                 type="Attribute",
                 namespace="http://xsdtesting"

@@ -31,11 +31,11 @@ class ComplexfooType:
 
 class SimplefooType(Enum):
     """
-    :cvar FALSE_VALUE:
     :cvar TRUE_VALUE:
+    :cvar FALSE_VALUE:
     """
-    FALSE_VALUE = "false"
     TRUE_VALUE = "true"
+    FALSE_VALUE = "false"
 
 
 @dataclass

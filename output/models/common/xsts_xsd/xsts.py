@@ -935,11 +935,11 @@ class TestSuiteResults:
 
     class PublicationPermission(Enum):
         """
-        :cvar W3_C_MEMBERS:
         :cvar PUBLIC:
+        :cvar W3_C_MEMBERS:
         """
-        W3_C_MEMBERS = "W3C members"
         PUBLIC = "public"
+        W3_C_MEMBERS = "W3C members"
 
 
 @dataclass

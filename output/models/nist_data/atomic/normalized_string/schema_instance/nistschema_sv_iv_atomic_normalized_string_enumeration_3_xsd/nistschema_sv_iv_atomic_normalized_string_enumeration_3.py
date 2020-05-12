@@ -7,23 +7,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3-NS"
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration3Type(Enum):
     """
-    :cvar NIST:
     :cvar AND_VALUE:
     :cvar DATABASE:
     :cvar EB_XML:
     :cvar ENABLING:
     :cvar INCLUDING:
     :cvar MANUFACTURERS:
+    :cvar NIST:
     :cvar PICO_CELLULAR:
     :cvar THE:
     """
-    NIST = "NIST"
     AND_VALUE = "and"
     DATABASE = "database"
     EB_XML = "ebXML"
     ENABLING = "enabling"
     INCLUDING = "including"
     MANUFACTURERS = "manufacturers"
+    NIST = "NIST"
     PICO_CELLULAR = "pico-cellular"
     THE = "the"
 

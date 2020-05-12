@@ -7,15 +7,15 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar A0_M:
     :cvar A00_A:
     :cvar A0_AZ:
-    :cvar A1_D:
+    :cvar A0_M:
     :cvar A10A:
     :cvar A1_AH:
-    :cvar A2_R:
+    :cvar A1_D:
     :cvar A20J:
     :cvar A2_AZ:
+    :cvar A2_R:
     :cvar A3:
     :cvar A30:
     :cvar A3_A:
@@ -38,15 +38,15 @@ class S(Enum):
     :cvar A90:
     :cvar A9_A:
     """
-    A0_M = "a0-M"
     A00_A = "a00A"
     A0_AZ = "a0AZ"
-    A1_D = "a1-d"
+    A0_M = "a0-M"
     A10A = "a10a"
     A1_AH = "a1Ah"
-    A2_R = "a2-r"
+    A1_D = "a1-d"
     A20J = "a20j"
     A2_AZ = "a2Az"
+    A2_R = "a2-r"
     A3 = "a3-Ë"
     A30 = "a30À"
     A3_A = "a3AÖ"

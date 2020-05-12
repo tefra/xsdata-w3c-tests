@@ -9,13 +9,13 @@ __NAMESPACE__ = "あ"
 @dataclass
 class Foo:
     """
-    :ivar value_attributes:
+    :ivar attributes:
     """
     class Meta:
         name = "foo"
         namespace = "あ"
 
-    value_attributes: Dict[QName, str] = field(
+    attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

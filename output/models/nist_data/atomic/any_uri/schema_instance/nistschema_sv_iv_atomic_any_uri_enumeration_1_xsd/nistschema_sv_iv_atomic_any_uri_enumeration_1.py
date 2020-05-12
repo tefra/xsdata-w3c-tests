@@ -13,8 +13,8 @@ class NistschemaSvIvAtomicAnyUriEnumeration1Type(Enum):
     :cvar HTTP_THEISTE_COM:
     :cvar HTTP_WWW_ASSERIES_GOV:
     :cvar HTTP_WWW_SYSTEMSWEBI_TEROPERABI_ITYBEANDOF_HIC_EDU:
-    :cvar MAILTO_PROV_ORG:
     :cvar MAILTO_DEVIC_MANIPULATIONANDABILITYSPECIFICA_GOV:
+    :cvar MAILTO_PROV_ORG:
     :cvar TELNET_F_ORG:
     :cvar TELNET_WIT_EDU:
     """
@@ -24,8 +24,8 @@ class NistschemaSvIvAtomicAnyUriEnumeration1Type(Enum):
     HTTP_THEISTE_COM = "http://Theiste.com"
     HTTP_WWW_ASSERIES_GOV = "http://www.asseries.gov"
     HTTP_WWW_SYSTEMSWEBI_TEROPERABI_ITYBEANDOF_HIC_EDU = "http://www.systemswebi.teroperabi.itybeandof.hic.edu"
-    MAILTO_PROV_ORG = "mailto:@prov.org"
     MAILTO_DEVIC_MANIPULATIONANDABILITYSPECIFICA_GOV = "mailto:devic@manipulationandabilityspecifica.gov"
+    MAILTO_PROV_ORG = "mailto:@prov.org"
     TELNET_F_ORG = "telnet://f.org"
     TELNET_WIT_EDU = "telnet://wit.edu"
 

@@ -20,8 +20,8 @@ class Test:
 
     class Value(Enum):
         """
-        :cvar VALUE_3_14:
         :cvar INT_VALUE:
+        :cvar VALUE_3_14:
         """
-        VALUE_3_14 = "3.14"
         INT_VALUE = "int"
+        VALUE_3_14 = "3.14"

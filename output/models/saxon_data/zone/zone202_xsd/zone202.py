@@ -20,7 +20,6 @@ class Doc:
 
     class Value(Enum):
         """
-        :cvar VALUE_0000_12:
         :cvar VALUE_0000_01:
         :cvar VALUE_0000_02:
         :cvar VALUE_0000_03:
@@ -32,8 +31,8 @@ class Doc:
         :cvar VALUE_0000_09:
         :cvar VALUE_0000_10:
         :cvar VALUE_0000_11:
+        :cvar VALUE_0000_12:
         """
-        VALUE_0000_12 = "-0000-12"
         VALUE_0000_01 = "0000-01"
         VALUE_0000_02 = "0000-02"
         VALUE_0000_03 = "0000-03"
@@ -45,3 +44,4 @@ class Doc:
         VALUE_0000_09 = "0000-09"
         VALUE_0000_10 = "0000-10"
         VALUE_0000_11 = "0000-11"
+        VALUE_0000_12 = "-0000-12"

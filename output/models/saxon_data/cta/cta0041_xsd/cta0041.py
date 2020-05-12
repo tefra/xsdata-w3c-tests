@@ -5,27 +5,26 @@ from typing import List, Optional
 @dataclass
 class Appendix:
     """
-    :ivar dm_fsd_wu:
-    :ivar dm_fsd_wu:
-    :ivar dm_fsd_wu:
-    :ivar d_hlw_zq:
+    :ivar value:
+    :ivar value_1:
+    :ivar value_2:
+    :ivar type:
     """
     class Meta:
         name = "appendix"
 
-    dm_fsd_wu: Optional[str] = field(
+    value: Optional[str] = field(
         default=None,
     )
-    dm_fsd_wu: Optional[str] = field(
+    value_1: Optional[str] = field(
         default=None,
     )
-    dm_fsd_wu: Optional[str] = field(
+    value_2: Optional[str] = field(
         default=None,
     )
-    d_hlw_zq: Optional[str] = field(
+    type: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="type",
             type="Attribute"
         )
     )
@@ -34,27 +33,26 @@ class Appendix:
 @dataclass
 class Chap:
     """
-    :ivar dm_fsd_wu:
-    :ivar dm_fsd_wu:
-    :ivar dm_fsd_wu:
-    :ivar d_hlw_zq:
+    :ivar value:
+    :ivar value_1:
+    :ivar value_2:
+    :ivar type:
     """
     class Meta:
         name = "chap"
 
-    dm_fsd_wu: Optional[str] = field(
+    value: Optional[str] = field(
         default=None,
     )
-    dm_fsd_wu: Optional[str] = field(
+    value_1: Optional[str] = field(
         default=None,
     )
-    dm_fsd_wu: Optional[str] = field(
+    value_2: Optional[str] = field(
         default=None,
     )
-    d_hlw_zq: Optional[str] = field(
+    type: Optional[str] = field(
         default=None,
         metadata=dict(
-            name="type",
             type="Attribute"
         )
     )

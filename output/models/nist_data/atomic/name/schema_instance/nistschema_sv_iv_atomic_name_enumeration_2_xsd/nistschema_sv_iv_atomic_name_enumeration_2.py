@@ -7,8 +7,8 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-2-NS"
 
 class NistschemaSvIvAtomicNameEnumeration2Type(Enum):
     """
-    :cvar VALUE_DISCOVERY_DESIGNED_GRAPHICS_PERV:
-    :cvar VALUE_GREAT_DESK:
+    :cvar DISCOVERY_DESIGNED_GRAPHICS_PERV:
+    :cvar GREAT_DESK:
     :cvar JREGISTRY_INTEROPERABILITY_HAMPERED_O:
     :cvar PIS_KNOWN_OVER_ALLOW:
     :cvar PNEXT_CREAT:
@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicNameEnumeration2Type(Enum):
     :cvar UOF_RETRIEVE_THE_PROVIDED_SPECIFIC_IN_SYSTEMS_ON_A_CHI:
     :cvar YR:
     """
-    VALUE_DISCOVERY_DESIGNED_GRAPHICS_PERV = "_discovery:designed_graphics_perv"
-    VALUE_GREAT_DESK = "_great-desk"
+    DISCOVERY_DESIGNED_GRAPHICS_PERV = "_discovery:designed_graphics_perv"
+    GREAT_DESK = "_great-desk"
     JREGISTRY_INTEROPERABILITY_HAMPERED_O = "jregistry.interoperability_hampered-o"
     PIS_KNOWN_OVER_ALLOW = "pis_known:over.allow."
     PNEXT_CREAT = "pnext:creat"

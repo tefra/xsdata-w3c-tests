@@ -5,105 +5,105 @@ from typing import List, Optional
 
 class St(Enum):
     """
-    :cvar II_EI:
-    :cvar II_QI:
-    :cvar II_UI:
-    :cvar IIGI:
-    :cvar IIKI:
-    :cvar IIOI:
-    :cvar IISI:
-    :cvar II0I:
-    :cvar II4I:
-    :cvar II4U_IG:
-    :cvar IJ_EI:
-    :cvar IJ_II:
-    :cvar IJ_MI:
-    :cvar IJ_QI:
-    :cvar IJ_UI:
-    :cvar IJ_YI:
-    :cvar IJCI:
-    :cvar IJGI:
-    :cvar IJKI:
-    :cvar IK_AI:
-    :cvar IL4I:
-    :cvar IL8I:
-    :cvar IM_EI:
-    :cvar IM_II:
-    :cvar IM_MI:
-    :cvar IM_QI:
-    :cvar IM_UI:
-    :cvar IM_YI:
-    :cvar IMCI:
-    :cvar IMGI:
-    :cvar IMKI:
-    :cvar IMOI:
-    :cvar IMSI:
-    :cvar IMWI:
-    :cvar IM0I:
-    :cvar IM4I:
-    :cvar IM8I:
-    :cvar IN_AI:
-    :cvar IN_EI:
-    :cvar IN_II:
-    :cvar IN_MI:
-    :cvar IN_QI:
-    :cvar IN_UI:
-    :cvar IN_YI:
-    :cvar INCI:
-    :cvar INGI:
-    :cvar INKI:
-    :cvar INOI:
-    :cvar IN4I:
+    :cvar A:
+    :cvar B:
+    :cvar C:
+    :cvar D:
+    :cvar E:
+    :cvar F:
+    :cvar G:
+    :cvar H:
+    :cvar I:
+    :cvar J:
+    :cvar K:
+    :cvar L:
+    :cvar M:
+    :cvar N:
+    :cvar O:
+    :cvar P:
+    :cvar Q:
+    :cvar R:
+    :cvar S:
+    :cvar T:
+    :cvar U:
+    :cvar V:
+    :cvar VALUE:
+    :cvar VALUE_1:
+    :cvar VALUE_10:
+    :cvar VALUE_11:
+    :cvar VALUE_12:
+    :cvar VALUE_13:
+    :cvar VALUE_14:
+    :cvar VALUE_15:
+    :cvar VALUE_16:
+    :cvar VALUE_17:
+    :cvar VALUE_18:
+    :cvar VALUE_19:
+    :cvar VALUE_2:
+    :cvar VALUE_20:
+    :cvar VALUE_21:
+    :cvar VALUE_22:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar VALUE_5:
+    :cvar VALUE_6:
+    :cvar VALUE_7:
+    :cvar VALUE_8:
+    :cvar VALUE_9:
+    :cvar W:
+    :cvar X:
+    :cvar Y:
+    :cvar Z:
     """
-    II_EI = "!"
-    II_QI = "$"
-    II_UI = "%"
-    IIGI = "("
-    IIKI = ")"
-    IIOI = "*"
-    IISI = "+"
-    II0I = "-"
-    II4I = "."
-    II4U_IG = ".."
-    IJ_EI = "1"
-    IJ_II = "2"
-    IJ_MI = "3"
-    IJ_QI = "4"
-    IJ_UI = "5"
-    IJ_YI = "6"
-    IJCI = "7"
-    IJGI = "8"
-    IJKI = "9"
-    IK_AI = "@"
-    IL4I = "^"
-    IL8I = "_"
-    IM_EI = "a"
-    IM_II = "b"
-    IM_MI = "c"
-    IM_QI = "d"
-    IM_UI = "e"
-    IM_YI = "f"
-    IMCI = "g"
-    IMGI = "h"
-    IMKI = "i"
-    IMOI = "j"
-    IMSI = "k"
-    IMWI = "l"
-    IM0I = "m"
-    IM4I = "n"
-    IM8I = "o"
-    IN_AI = "p"
-    IN_EI = "q"
-    IN_II = "r"
-    IN_MI = "s"
-    IN_QI = "t"
-    IN_UI = "u"
-    IN_YI = "v"
-    INCI = "w"
-    INGI = "x"
-    INKI = "y"
-    INOI = "z"
-    IN4I = "~"
+    A = "a"
+    B = "b"
+    C = "c"
+    D = "d"
+    E = "e"
+    F = "f"
+    G = "g"
+    H = "h"
+    I = "i"
+    J = "j"
+    K = "k"
+    L = "l"
+    M = "m"
+    N = "n"
+    O = "o"
+    P = "p"
+    Q = "q"
+    R = "r"
+    S = "s"
+    T = "t"
+    U = "u"
+    V = "v"
+    VALUE = "@"
+    VALUE_1 = "1"
+    VALUE_10 = "$"
+    VALUE_11 = "%"
+    VALUE_12 = "^"
+    VALUE_13 = "*"
+    VALUE_14 = "("
+    VALUE_15 = ")"
+    VALUE_16 = "_"
+    VALUE_17 = "-"
+    VALUE_18 = "+"
+    VALUE_19 = ".."
+    VALUE_2 = "2"
+    VALUE_20 = "."
+    VALUE_21 = "~"
+    VALUE_22 = "!"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+    VALUE_5 = "5"
+    VALUE_6 = "6"
+    VALUE_7 = "7"
+    VALUE_8 = "8"
+    VALUE_9 = "9"
+    W = "w"
+    X = "x"
+    Y = "y"
+    Z = "z"
 
 
 @dataclass

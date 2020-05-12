@@ -36,8 +36,8 @@ class A:
 @dataclass
 class Zing:
     """
-    :ivar a:
     :ivar a_element:
+    :ivar a:
     :ivar b:
     :ivar c:
     :ivar any_element:
@@ -45,17 +45,16 @@ class Zing:
     class Meta:
         name = "zing"
 
-    a: Optional[A] = field(
+    a_element: Optional[A] = field(
         default=None,
         metadata=dict(
             name="A",
             type="Element"
         )
     )
-    a_element: Optional[A] = field(
+    a: Optional[A] = field(
         default=None,
         metadata=dict(
-            name="a",
             type="Element"
         )
     )

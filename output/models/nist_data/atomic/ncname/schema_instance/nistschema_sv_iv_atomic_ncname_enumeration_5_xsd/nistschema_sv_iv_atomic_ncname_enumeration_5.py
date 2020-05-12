@@ -7,9 +7,9 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-5-NS"
 
 class NistschemaSvIvAtomicNcnameEnumeration5Type(Enum):
     """
-    :cvar VALUE_AND_TO_WE_FRAMEWORKS_PERVASIVE_THE_REGI:
-    :cvar VALUE_DIVISIONS_YEARS_FOR_PARTNERSHIP_FED:
+    :cvar AND_TO_WE_FRAMEWORKS_PERVASIVE_THE_REGI:
     :cvar ANEUTRAL_HETEROGENEOUS_REPRODUCED_WILL:
+    :cvar DIVISIONS_YEARS_FOR_PARTNERSHIP_FED:
     :cvar DOF_SET_WIRELESS_BUILDIN:
     :cvar KOBJECT_TRANSACT_CONSTITUENT_OF_FILE_IS_WITHOUT_ABOUT_ARE_A_BE:
     :cvar OCONTRIBU:
@@ -17,9 +17,9 @@ class NistschemaSvIvAtomicNcnameEnumeration5Type(Enum):
     :cvar UAND_MANIPULATION_GOOD_INFORMATION_AMBIGUITIES:
     :cvar UIN_AND_ENSURE:
     """
-    VALUE_AND_TO_WE_FRAMEWORKS_PERVASIVE_THE_REGI = "_and.to-we_frameworks-pervasive_the-regi"
-    VALUE_DIVISIONS_YEARS_FOR_PARTNERSHIP_FED = "_divisions.years_for_partnership-fed-"
+    AND_TO_WE_FRAMEWORKS_PERVASIVE_THE_REGI = "_and.to-we_frameworks-pervasive_the-regi"
     ANEUTRAL_HETEROGENEOUS_REPRODUCED_WILL = "aneutral_heterogeneous.reproduced-will_"
+    DIVISIONS_YEARS_FOR_PARTNERSHIP_FED = "_divisions.years_for_partnership-fed-"
     DOF_SET_WIRELESS_BUILDIN = "dof_set.wireless-buildin"
     KOBJECT_TRANSACT_CONSTITUENT_OF_FILE_IS_WITHOUT_ABOUT_ARE_A_BE = "kobject-transact-constituent_of_file.is_without_about_are_a.be"
     OCONTRIBU = "ocontribu"

@@ -7,10 +7,10 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-3-NS"
 
 class NistschemaSvIvAtomicNmtokenEnumeration3Type(Enum):
     """
-    :cvar GROUPS_IN:
     :cvar BROWSERS_DOM_BOTH_CHAIN_THE_RECOMMENDING_C:
     :cvar CRITERIA_MUST_TAR:
     :cvar DISCOVER_OASIS_VERSIONS_HAS_COMPATIBILITY_EMBEDDED:
+    :cvar GROUPS_IN:
     :cvar INDUSTRY_ADVANCEMENT_PERMITTING_CONFORMANCE_AND_WILL_PARTICI:
     :cvar MANUAL_THAT_TOOLS_STANDARD:
     :cvar METHODS_PROFILES_ENSURE_MANIPULATE_B:
@@ -18,10 +18,10 @@ class NistschemaSvIvAtomicNmtokenEnumeration3Type(Enum):
     :cvar THAN_BUSINESS_EB_XML_OF_FOR_OF_ELECTRONIC_DIAGNOSTI:
     :cvar THE_UNITED_DEVELOPMENT_AND_EACH_DISCO:
     """
-    GROUPS_IN = "Groups_in_"
     BROWSERS_DOM_BOTH_CHAIN_THE_RECOMMENDING_C = "browsers:DOM:both.chain:the:recommending.C"
     CRITERIA_MUST_TAR = "criteria:-must-tar"
     DISCOVER_OASIS_VERSIONS_HAS_COMPATIBILITY_EMBEDDED = "discover.OASIS-versions.has.compatibility-embedded"
+    GROUPS_IN = "Groups_in_"
     INDUSTRY_ADVANCEMENT_PERMITTING_CONFORMANCE_AND_WILL_PARTICI = "industry:Advancement.permitting_conformance.and_will-partici"
     MANUAL_THAT_TOOLS_STANDARD = "manual.that.tools.standard"
     METHODS_PROFILES_ENSURE_MANIPULATE_B = "methods.profiles.ensure_manipulate.b"

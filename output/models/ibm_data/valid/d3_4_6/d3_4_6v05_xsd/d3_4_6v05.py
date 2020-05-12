@@ -7,16 +7,16 @@ __NAMESPACE__ = "a"
 @dataclass
 class Nametest:
     """
-    :ivar x2_vs_zq:
-    :ivar xy0:
-    :ivar xy4:
-    :ivar xzk:
-    :ivar x19f:
-    :ivar yv9h:
-    :ivar ys5h:
-    :ivar zwxl:
+    :ivar ele:
+    :ivar value:
+    :ivar value_1:
+    :ivar value_9:
+    :ivar value_2:
+    :ivar a_a:
+    :ivar a_a_a:
+    :ivar a_ele:
     """
-    x2_vs_zq: List[str] = field(
+    ele: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="_ele",
@@ -26,7 +26,7 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    xy0: List[str] = field(
+    value: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="_-",
@@ -36,7 +36,7 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    xy4: List[str] = field(
+    value_1: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="_.",
@@ -46,7 +46,7 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    xzk: List[str] = field(
+    value_9: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="_9",
@@ -56,7 +56,7 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    x19f: List[str] = field(
+    value_2: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="___",
@@ -66,17 +66,16 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    yv9h: List[str] = field(
+    a_a: List[str] = field(
         default_factory=list,
         metadata=dict(
-            name="a_a",
             type="Element",
             namespace="a",
             min_occurs=1,
             max_occurs=9223372036854775807
         )
     )
-    ys5h: List[str] = field(
+    a_a_a: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="a.a",
@@ -86,7 +85,7 @@ class Nametest:
             max_occurs=9223372036854775807
         )
     )
-    zwxl: List[str] = field(
+    a_ele: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="ele",

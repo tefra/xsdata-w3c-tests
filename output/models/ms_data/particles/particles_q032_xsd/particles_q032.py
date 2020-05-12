@@ -59,9 +59,9 @@ class R:
     """
     :ivar foo:
     :ivar target_namespace_foo_bar_element:
-    :ivar foo_e2:
-    :ivar xsdtesting_e2:
     :ivar e2:
+    :ivar e2_1:
+    :ivar e2_2:
     """
     foo: Optional[object] = field(
         default=None,
@@ -80,17 +80,16 @@ class R:
             max_occurs=4
         )
     )
-    foo_e2: List[ParticlesQ032ImpE2] = field(
+    e2: List[ParticlesQ032ImpE2] = field(
         default_factory=list,
         metadata=dict(
-            name="e2",
             type="Element",
             namespace="foo",
             min_occurs=0,
             max_occurs=2
         )
     )
-    xsdtesting_e2: Optional[E2] = field(
+    e2_1: Optional[E2] = field(
         default=None,
         metadata=dict(
             name="e2",
@@ -98,9 +97,10 @@ class R:
             namespace="http://xsdtesting"
         )
     )
-    e2: Optional[ParticlesQ032Imp2E2] = field(
+    e2_2: Optional[ParticlesQ032Imp2E2] = field(
         default=None,
         metadata=dict(
+            name="e2",
             type="Element",
             namespace="bar"
         )

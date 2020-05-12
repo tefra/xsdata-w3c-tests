@@ -7,17 +7,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-short-enumeration-3-NS"
 
 class NistschemaSvIvAtomicShortEnumeration3Type(Enum):
     """
+    :cvar VALUE_448:
+    :cvar VALUE_740:
     :cvar VALUE_MINUS_172:
     :cvar VALUE_MINUS_570:
     :cvar VALUE_MINUS_9314:
-    :cvar VALUE_448:
-    :cvar VALUE_740:
     """
+    VALUE_448 = 448
+    VALUE_740 = 740
     VALUE_MINUS_172 = -172
     VALUE_MINUS_570 = -570
     VALUE_MINUS_9314 = -9314
-    VALUE_448 = 448
-    VALUE_740 = 740
 
 
 @dataclass

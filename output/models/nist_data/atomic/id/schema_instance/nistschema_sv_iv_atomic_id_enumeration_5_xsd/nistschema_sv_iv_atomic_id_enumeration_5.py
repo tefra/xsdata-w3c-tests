@@ -7,17 +7,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-5-NS"
 
 class NistschemaSvIvAtomicIdEnumeration5Type(Enum):
     """
-    :cvar VALUE_ITS_INCLUD:
     :cvar BA:
     :cvar CA:
     :cvar EFOR:
     :cvar HREGISTRY_AS_ON_WORK_U:
+    :cvar ITS_INCLUD:
     """
-    VALUE_ITS_INCLUD = "_its-includ"
     BA = "ba"
     CA = "ca"
     EFOR = "efor"
     HREGISTRY_AS_ON_WORK_U = "hregistry.as.on-work.u"
+    ITS_INCLUD = "_its-includ"
 
 
 @dataclass

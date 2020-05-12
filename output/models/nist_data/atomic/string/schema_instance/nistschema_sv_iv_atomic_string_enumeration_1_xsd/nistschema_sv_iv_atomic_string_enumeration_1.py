@@ -7,21 +7,21 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-1-NS"
 
 class NistschemaSvIvAtomicStringEnumeration1Type(Enum):
     """
-    :cvar EC:
     :cvar AND_OR:
     :cvar ASSOCIATED:
     :cvar DESIGN:
     :cvar DEVELOPMENT:
+    :cvar EC:
     :cvar ENTERPRISES:
     :cvar OBVIOUS:
     :cvar STANDARDS:
     :cvar TO:
     """
-    EC = "EC"
     AND_OR = "and/or"
     ASSOCIATED = "associated"
     DESIGN = "design"
     DEVELOPMENT = "development"
+    EC = "EC"
     ENTERPRISES = "enterprises"
     OBVIOUS = "obvious"
     STANDARDS = "standards"

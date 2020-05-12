@@ -23,13 +23,13 @@ class FooType:
 
     class Foo(Enum):
         """
-        :cvar QNAME_MY_NAMESPACE_FO:
-        :cvar QNAME_MY_NAMESPACE_FOO123:
-        :cvar QNAME_MY_NAMESPACE_FU1:
+        :cvar FOO_FO:
+        :cvar FOO_FOO123:
+        :cvar FOO_FU1:
         """
-        QNAME_MY_NAMESPACE_FO = QName("myNamespace", "fo")
-        QNAME_MY_NAMESPACE_FOO123 = QName("myNamespace", "foo123")
-        QNAME_MY_NAMESPACE_FU1 = QName("myNamespace", "fu1")
+        FOO_FO = QName("myNamespace", "fo")
+        FOO_FOO123 = QName("myNamespace", "foo123")
+        FOO_FU1 = QName("myNamespace", "fu1")
 
 
 @dataclass

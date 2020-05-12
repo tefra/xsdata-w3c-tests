@@ -40,13 +40,13 @@ class FooType:
         class AttrTest(Enum):
             """
             :cvar FOO:
-            :cvar FOO_FU1:
             :cvar FOO123:
+            :cvar FOO_FU1:
             :cvar FU1:
             """
             FOO = "foo"
-            FOO_FU1 = "foo fu1"
             FOO123 = "foo123"
+            FOO_FU1 = "foo fu1"
             FU1 = "fu1"
 
 

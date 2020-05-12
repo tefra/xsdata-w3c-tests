@@ -8,17 +8,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-decimal-enumeration-4-NS"
 
 class NistschemaSvIvAtomicDecimalEnumeration4Type(Enum):
     """
-    :cvar VALUE_2_39446916113:
-    :cvar VALUE_5286034_1:
     :cvar VALUE_1906433845_89:
     :cvar VALUE_613_87:
     :cvar VALUE_8838363181_0150:
+    :cvar VALUE_MINUS_2_39446916113:
+    :cvar VALUE_MINUS_5286034_1:
     """
-    VALUE_2_39446916113 = "-2.39446916113"
-    VALUE_5286034_1 = "-5286034.1"
     VALUE_1906433845_89 = "1906433845.89"
     VALUE_613_87 = "613.87"
     VALUE_8838363181_0150 = "8838363181.0150"
+    VALUE_MINUS_2_39446916113 = "-2.39446916113"
+    VALUE_MINUS_5286034_1 = "-5286034.1"
 
 
 @dataclass

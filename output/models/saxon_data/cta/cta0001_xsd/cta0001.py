@@ -39,21 +39,21 @@ class MessageType:
 
     class Value(Enum):
         """
-        :cvar ILH_NTCI:
-        :cvar IM_JHC2_U2_NCI:
-        :cvar IM_JPBM_FYE_SI:
-        :cvar IM_RHD_GUI:
-        :cvar IN_N0CMLU_ZY_I:
-        :cvar IN_RPB_WUI:
-        :cvar INHTB_CI:
+        :cvar BASE64:
+        :cvar BINARY:
+        :cvar DATE:
+        :cvar STRING:
+        :cvar TIME:
+        :cvar XML:
+        :cvar XML_1:
         """
-        ILH_NTCI = "XML"
-        IM_JHC2_U2_NCI = "base64"
-        IM_JPBM_FYE_SI = "binary"
-        IM_RHD_GUI = "date"
-        IN_N0CMLU_ZY_I = "string"
-        IN_RPB_WUI = "time"
-        INHTB_CI = "xml"
+        BASE64 = "base64"
+        BINARY = "binary"
+        DATE = "date"
+        STRING = "string"
+        TIME = "time"
+        XML = "xml"
+        XML_1 = "XML"
 
 
 @dataclass
@@ -90,21 +90,21 @@ class MessageTypeXml:
 
     class Value(Enum):
         """
-        :cvar ILH_NTCI:
-        :cvar IM_JHC2_U2_NCI:
-        :cvar IM_JPBM_FYE_SI:
-        :cvar IM_RHD_GUI:
-        :cvar IN_N0CMLU_ZY_I:
-        :cvar IN_RPB_WUI:
-        :cvar INHTB_CI:
+        :cvar BASE64:
+        :cvar BINARY:
+        :cvar DATE:
+        :cvar STRING:
+        :cvar TIME:
+        :cvar XML:
+        :cvar XML_1:
         """
-        ILH_NTCI = "XML"
-        IM_JHC2_U2_NCI = "base64"
-        IM_JPBM_FYE_SI = "binary"
-        IM_RHD_GUI = "date"
-        IN_N0CMLU_ZY_I = "string"
-        IN_RPB_WUI = "time"
-        INHTB_CI = "xml"
+        BASE64 = "base64"
+        BINARY = "binary"
+        DATE = "date"
+        STRING = "string"
+        TIME = "time"
+        XML = "xml"
+        XML_1 = "XML"
 
 
 @dataclass

@@ -7,18 +7,18 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-5-NS"
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration5Type(Enum):
     """
-    :cvar BY:
-    :cvar PC:
     :cvar BE:
+    :cvar BY:
     :cvar DEVICES:
     :cvar OPERATING:
+    :cvar PC:
     :cvar THE:
     """
-    BY = "By"
-    PC = "PC"
     BE = "be"
+    BY = "By"
     DEVICES = "devices"
     OPERATING = "operating"
+    PC = "PC"
     THE = "the"
 
 

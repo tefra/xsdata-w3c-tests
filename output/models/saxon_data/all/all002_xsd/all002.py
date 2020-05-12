@@ -73,10 +73,10 @@ class Doc:
     """
     :ivar a:
     :ivar b:
-    :ivar c:
     :ivar c_element:
-    :ivar d:
+    :ivar c:
     :ivar d_element:
+    :ivar d:
     """
     class Meta:
         name = "doc"
@@ -97,7 +97,7 @@ class Doc:
             max_occurs=5
         )
     )
-    c: List[C] = field(
+    c_element: List[C] = field(
         default_factory=list,
         metadata=dict(
             name="C",
@@ -106,16 +106,15 @@ class Doc:
             max_occurs=9223372036854775807
         )
     )
-    c_element: List[C] = field(
+    c: List[C] = field(
         default_factory=list,
         metadata=dict(
-            name="c",
             type="Element",
             min_occurs=2,
             max_occurs=9223372036854775807
         )
     )
-    d: Optional[D] = field(
+    d_element: Optional[D] = field(
         default=None,
         metadata=dict(
             name="D",
@@ -123,10 +122,9 @@ class Doc:
             required=True
         )
     )
-    d_element: Optional[D] = field(
+    d: Optional[D] = field(
         default=None,
         metadata=dict(
-            name="d",
             type="Element",
             required=True
         )

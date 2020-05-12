@@ -7,8 +7,8 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar A0_4:
     :cvar A000:
+    :cvar A0_4:
     :cvar A0_A9:
     :cvar A1:
     :cvar A10:
@@ -38,8 +38,8 @@ class S(Enum):
     :cvar A90:
     :cvar A9_A:
     """
-    A0_4 = "a0-4"
     A000 = "a000"
+    A0_4 = "a0-4"
     A0_A9 = "a0A9"
     A1 = "a1-٤"
     A10 = "a10٠"

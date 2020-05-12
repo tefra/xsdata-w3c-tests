@@ -8,23 +8,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
 class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
     """
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_IAND_MUST_EFFECTI:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_VCOMPUTING_OF_AS:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_TTHE_WITH:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_TON_AND_ITS_T:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_XSTANDARD_FILE_USE_EA:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_YINVOLVED_E_EFFOR:
+    :cvar KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES:
+    :cvar LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA:
+    :cvar LAN_IAND_MUST_EFFECTI:
+    :cvar LFINE_D_VCOMPUTING_OF_AS:
+    :cvar Q_TTHE_WITH:
+    :cvar TON_AND_ITS_T:
+    :cvar XSTANDARD_FILE_USE_EA:
+    :cvar YINVOLVED_E_EFFOR:
     """
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_IAND_MUST_EFFECTI = QName("http://www.nist.gov/xsdNS", "iand-must.effecti")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "_languages-and-transforming.technologies.is_impa")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "kdomains-as.automatic-academia_work-ensure_tes")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_VCOMPUTING_OF_AS = QName("http://www.nist.gov/xsdNS", "vcomputing.of-as_")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_TTHE_WITH = QName("http://www.nist.gov/xsdNS", "tthe.with-")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_TON_AND_ITS_T = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "ton.and_its.t")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_XSTANDARD_FILE_USE_EA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "xstandard-file_use-ea")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_3_NS_YINVOLVED_E_EFFOR = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "yinvolved.e-effor")
+    KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "kdomains-as.automatic-academia_work-ensure_tes")
+    LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "_languages-and-transforming.technologies.is_impa")
+    LAN_IAND_MUST_EFFECTI = QName("http://www.nist.gov/xsdNS", "iand-must.effecti")
+    LFINE_D_VCOMPUTING_OF_AS = QName("http://www.nist.gov/xsdNS", "vcomputing.of-as_")
+    Q_TTHE_WITH = QName("http://www.nist.gov/xsdNS", "tthe.with-")
+    TON_AND_ITS_T = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "ton.and_its.t")
+    XSTANDARD_FILE_USE_EA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "xstandard-file_use-ea")
+    YINVOLVED_E_EFFOR = QName("NISTSchema-SV-IV-atomic-QName-enumeration-3-NS", "yinvolved.e-effor")
 
 
 @dataclass

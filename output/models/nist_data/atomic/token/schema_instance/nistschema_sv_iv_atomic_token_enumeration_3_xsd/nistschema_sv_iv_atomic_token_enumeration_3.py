@@ -7,16 +7,16 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-3-NS"
 
 class NistschemaSvIvAtomicTokenEnumeration3Type(Enum):
     """
-    :cvar COMPUTING:
     :cvar AREAS:
     :cvar COMPATIBILITY:
+    :cvar COMPUTING:
     :cvar CONTAINS:
     :cvar ENGINEERING:
     :cvar STANDARDIZATION:
     """
-    COMPUTING = "Computing"
     AREAS = "areas"
     COMPATIBILITY = "compatibility"
+    COMPUTING = "Computing"
     CONTAINS = "contains"
     ENGINEERING = "engineering"
     STANDARDIZATION = "standardization"

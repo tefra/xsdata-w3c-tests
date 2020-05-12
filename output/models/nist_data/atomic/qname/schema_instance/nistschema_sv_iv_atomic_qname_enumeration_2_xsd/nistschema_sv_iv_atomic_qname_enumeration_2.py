@@ -8,21 +8,21 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-2-NS"
 
 class NistschemaSvIvAtomicQnameEnumeration2Type(Enum):
     """
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_VREACH_S:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_PVOCABULARIES_ANY_PROMI:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_CINFORMATION_INFORMATION_LANGUA:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_XSOLUTIONS_FILTER_REVIEWED_LED_ALLOW_BY_INDUSTRY_PR:
-    :cvar QNAME_HTTP_WWW_NIST_GOV_XSD_NS_NDEVELOPMENT_BE:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_2_NS_KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES:
-    :cvar QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_2_NS_NCREATE:
+    :cvar ALSO_TO_T_PVOCABULARIES_ANY_PROMI:
+    :cvar AWITH_AND_AS_AND_BY_WORLD_T_CINFORMATION_INFORMATION_LANGUA:
+    :cvar A_VREACH_S:
+    :cvar C_XSOLUTIONS_FILTER_REVIEWED_LED_ALLOW_BY_INDUSTRY_PR:
+    :cvar DPERVASIVE_NDEVELOPMENT_BE:
+    :cvar KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES:
+    :cvar NCREATE:
     """
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_VREACH_S = QName("http://www.nist.gov/xsdNS", "vreach-s")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_PVOCABULARIES_ANY_PROMI = QName("http://www.nist.gov/xsdNS", "pvocabularies_any-promi")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_CINFORMATION_INFORMATION_LANGUA = QName("http://www.nist.gov/xsdNS", "cinformation-information.langua")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_XSOLUTIONS_FILTER_REVIEWED_LED_ALLOW_BY_INDUSTRY_PR = QName("http://www.nist.gov/xsdNS", "xsolutions.filter_reviewed-led-allow_by_industry_pr")
-    QNAME_HTTP_WWW_NIST_GOV_XSD_NS_NDEVELOPMENT_BE = QName("http://www.nist.gov/xsdNS", "ndevelopment_be")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_2_NS_KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("NISTSchema-SV-IV-atomic-QName-enumeration-2-NS", "kdomains-as.automatic-academia_work-ensure_tes")
-    QNAME_NISTSCHEMA_SV_IV_ATOMIC_QNAME_ENUMERATION_2_NS_NCREATE = QName("NISTSchema-SV-IV-atomic-QName-enumeration-2-NS", "ncreate")
+    ALSO_TO_T_PVOCABULARIES_ANY_PROMI = QName("http://www.nist.gov/xsdNS", "pvocabularies_any-promi")
+    AWITH_AND_AS_AND_BY_WORLD_T_CINFORMATION_INFORMATION_LANGUA = QName("http://www.nist.gov/xsdNS", "cinformation-information.langua")
+    A_VREACH_S = QName("http://www.nist.gov/xsdNS", "vreach-s")
+    C_XSOLUTIONS_FILTER_REVIEWED_LED_ALLOW_BY_INDUSTRY_PR = QName("http://www.nist.gov/xsdNS", "xsolutions.filter_reviewed-led-allow_by_industry_pr")
+    DPERVASIVE_NDEVELOPMENT_BE = QName("http://www.nist.gov/xsdNS", "ndevelopment_be")
+    KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("NISTSchema-SV-IV-atomic-QName-enumeration-2-NS", "kdomains-as.automatic-academia_work-ensure_tes")
+    NCREATE = QName("NISTSchema-SV-IV-atomic-QName-enumeration-2-NS", "ncreate")
 
 
 @dataclass

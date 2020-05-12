@@ -7,23 +7,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-2-NS"
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration2Type(Enum):
     """
-    :cvar SUCH:
-    :cvar XML:
     :cvar AS_VALUE:
     :cvar BE:
     :cvar CREATES:
     :cvar RELATED:
     :cvar SOFTWARE:
+    :cvar SUCH:
     :cvar TOOLS:
+    :cvar XML:
     """
-    SUCH = "Such"
-    XML = "XML"
     AS_VALUE = "as"
     BE = "be"
     CREATES = "creates"
     RELATED = "related"
     SOFTWARE = "software"
+    SUCH = "Such"
     TOOLS = "tools"
+    XML = "XML"
 
 
 @dataclass

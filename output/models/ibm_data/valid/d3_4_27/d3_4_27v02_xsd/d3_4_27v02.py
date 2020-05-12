@@ -7,14 +7,14 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v02"
 
 class YMdenumeration(Enum):
     """
-    :cvar VALUE_P3_DT44_H2_M5783_33_S:
     :cvar P1_D:
     :cvar P3_DT44_H2_M:
+    :cvar P3_DT44_H2_M5783_33_S:
     :cvar P5_DT0_H0_3_S:
     """
-    VALUE_P3_DT44_H2_M5783_33_S = "-P3DT44H2M5783.33S"
     P1_D = "P1D"
     P3_DT44_H2_M = "P3DT44H2M"
+    P3_DT44_H2_M5783_33_S = "-P3DT44H2M5783.33S"
     P5_DT0_H0_3_S = "P5DT0H0.3S"
 
 

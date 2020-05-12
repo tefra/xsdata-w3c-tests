@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-anyURI-float-enumeration-1-NS"
 
 class NistschemaSvIvUnionAnyUriFloatEnumeration1Type(Enum):
     """
-    :cvar VALUE_3_3221344_E9:
     :cvar FTP_THATGUIDEL_ORG:
     :cvar FTP_WILL_PERVASI_EPARTNERSH_PS_ORGANIZA_NET:
     :cvar HTTP_DIVISIONSPA_T_EDU:
     :cvar HTTP_TH_ORG:
     :cvar TELNET_TOINVOLVE_GOV:
+    :cvar VALUE_3_3221344_E9:
     """
-    VALUE_3_3221344_E9 = "3.3221344E9"
     FTP_THATGUIDEL_ORG = "ftp://thatguidel.org"
     FTP_WILL_PERVASI_EPARTNERSH_PS_ORGANIZA_NET = "ftp://willPervasi.epartnersh.psOrganiza.net"
     HTTP_DIVISIONSPA_T_EDU = "http://divisionspa.t.edu"
     HTTP_TH_ORG = "http://th.org"
     TELNET_TOINVOLVE_GOV = "telnet://toinvolve.gov"
+    VALUE_3_3221344_E9 = "3.3221344E9"
 
 
 @dataclass

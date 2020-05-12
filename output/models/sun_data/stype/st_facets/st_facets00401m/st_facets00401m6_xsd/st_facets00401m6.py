@@ -7,59 +7,59 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar VALUE_00:
-    :cvar VALUE_MINUS_0:
     :cvar A0:
-    :cvar VALUE_01:
-    :cvar VALUE_MINUS_1:
     :cvar A1:
-    :cvar VALUE_02:
-    :cvar VALUE_MINUS_2:
     :cvar A2:
-    :cvar VALUE_03:
-    :cvar VALUE_MINUS_3:
     :cvar A3:
-    :cvar VALUE_04:
-    :cvar VALUE_MINUS_5:
-    :cvar VALUE_05:
     :cvar A5:
-    :cvar VALUE_06:
-    :cvar VALUE_MINUS_6:
     :cvar A6:
+    :cvar A8:
+    :cvar A9:
+    :cvar VALUE_0:
+    :cvar VALUE_00:
+    :cvar VALUE_01:
+    :cvar VALUE_02:
+    :cvar VALUE_03:
+    :cvar VALUE_04:
+    :cvar VALUE_05:
+    :cvar VALUE_06:
     :cvar VALUE_07:
     :cvar VALUE_08:
-    :cvar VALUE_MINUS_8:
-    :cvar A8:
     :cvar VALUE_09:
-    :cvar VALUE_MINUS_9:
-    :cvar A9:
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_5:
+    :cvar VALUE_6:
+    :cvar VALUE_8:
+    :cvar VALUE_9:
     """
-    VALUE_00 = "ٱ00"
-    VALUE_MINUS_0 = "ڔ-0"
     A0 = "ڷa0"
-    VALUE_01 = "ں01"
-    VALUE_MINUS_1 = "ڼ-1"
     A1 = "ھa1"
-    VALUE_02 = "ۀ02"
-    VALUE_MINUS_2 = "ۇ-2"
     A2 = "ێa2"
-    VALUE_03 = "ې03"
-    VALUE_MINUS_3 = "ۑ-3"
     A3 = "ۓa3"
-    VALUE_04 = "ە04"
-    VALUE_MINUS_5 = "ۥ-5"
-    VALUE_05 = "ۥ05"
     A5 = "ۦa5"
-    VALUE_06 = "अ06"
-    VALUE_MINUS_6 = "ट-6"
     A6 = "हa6"
+    A8 = "ॡa8"
+    A9 = "ঌa9"
+    VALUE_0 = "ڔ-0"
+    VALUE_00 = "ٱ00"
+    VALUE_01 = "ں01"
+    VALUE_02 = "ۀ02"
+    VALUE_03 = "ې03"
+    VALUE_04 = "ە04"
+    VALUE_05 = "ۥ05"
+    VALUE_06 = "अ06"
     VALUE_07 = "ऽ07"
     VALUE_08 = "क़08"
-    VALUE_MINUS_8 = "ड़-8"
-    A8 = "ॡa8"
     VALUE_09 = "অ09"
-    VALUE_MINUS_9 = "ঈ-9"
-    A9 = "ঌa9"
+    VALUE_1 = "ڼ-1"
+    VALUE_2 = "ۇ-2"
+    VALUE_3 = "ۑ-3"
+    VALUE_5 = "ۥ-5"
+    VALUE_6 = "ट-6"
+    VALUE_8 = "ड़-8"
+    VALUE_9 = "ঈ-9"
 
 
 @dataclass

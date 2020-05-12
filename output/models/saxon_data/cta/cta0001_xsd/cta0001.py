@@ -39,18 +39,18 @@ class MessageType:
 
     class Value(Enum):
         """
+        :cvar STRING:
         :cvar BASE64:
         :cvar BINARY:
         :cvar DATE:
-        :cvar STRING:
         :cvar TIME:
         :cvar XML:
         :cvar XML_1:
         """
+        STRING = "string"
         BASE64 = "base64"
         BINARY = "binary"
         DATE = "date"
-        STRING = "string"
         TIME = "time"
         XML = "xml"
         XML_1 = "XML"
@@ -90,18 +90,18 @@ class MessageTypeXml:
 
     class Value(Enum):
         """
+        :cvar STRING:
         :cvar BASE64:
         :cvar BINARY:
         :cvar DATE:
-        :cvar STRING:
         :cvar TIME:
         :cvar XML:
         :cvar XML_1:
         """
+        STRING = "string"
         BASE64 = "base64"
         BINARY = "binary"
         DATE = "date"
-        STRING = "string"
         TIME = "time"
         XML = "xml"
         XML_1 = "XML"

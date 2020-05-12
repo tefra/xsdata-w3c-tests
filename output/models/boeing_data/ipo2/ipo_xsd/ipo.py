@@ -188,12 +188,12 @@ class ItemsType:
         class ShipBy(Enum):
             """
             :cvar AIR:
-            :cvar ANY:
             :cvar LAND:
+            :cvar ANY:
             """
             AIR = "air"
-            ANY = "any"
             LAND = "land"
+            ANY = "any"
 
 
 @dataclass

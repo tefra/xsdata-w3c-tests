@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-3-NS"
 
 class NistschemaSvIvAtomicNcnameEnumeration3Type(Enum):
     """
-    :cvar COF_ISSUES_INCLUDES_USED_20_THE_E_WE_TO_MANUAL_TO:
+    :cvar UPROFILES_PA:
     :cvar CUSED_DE:
+    :cvar YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I:
+    :cvar COF_ISSUES_INCLUDES_USED_20_THE_E_WE_TO_MANUAL_TO:
     :cvar GTOOLS_THE_THE_ARE_KEY_MECHANISM_THE_I:
     :cvar REPOSITORY_HAVING_BASED_ENTERPRISES_CONTRIBUTE_FILTE:
-    :cvar UPROFILES_PA:
-    :cvar YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I:
     """
-    COF_ISSUES_INCLUDES_USED_20_THE_E_WE_TO_MANUAL_TO = "cof.issues.includes.used-20_the.e-we.to.manual-to-"
+    UPROFILES_PA = "uprofiles.pa"
     CUSED_DE = "cused.de"
+    YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I = "yboth-in-each-the_discuss_electronic_can_i"
+    COF_ISSUES_INCLUDES_USED_20_THE_E_WE_TO_MANUAL_TO = "cof.issues.includes.used-20_the.e-we.to.manual-to-"
     GTOOLS_THE_THE_ARE_KEY_MECHANISM_THE_I = "gtools_the-the-are.key_mechanism_the_i"
     REPOSITORY_HAVING_BASED_ENTERPRISES_CONTRIBUTE_FILTE = "_repository_having-based-enterprises_contribute_filte"
-    UPROFILES_PA = "uprofiles.pa"
-    YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I = "yboth-in-each-the_discuss_electronic_can_i"
 
 
 @dataclass

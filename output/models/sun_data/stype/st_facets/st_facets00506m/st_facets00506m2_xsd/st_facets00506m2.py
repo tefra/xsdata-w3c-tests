@@ -7,12 +7,12 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar A0:
     :cvar A00:
+    :cvar A0:
     :cvar A0_A:
     """
-    A0 = "a0-ヽ"
     A00 = "a00ー"
+    A0 = "a0-ヽ"
     A0_A = "a0Aヾ"
 
 

@@ -7,11 +7,11 @@ __NAMESPACE__ = "tns"
 
 class CountryType(Enum):
     """
-    :cvar CAN:
     :cvar US:
+    :cvar CAN:
     """
-    CAN = "can"
     US = "us"
+    CAN = "can"
 
 
 @dataclass

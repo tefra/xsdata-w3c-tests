@@ -7,23 +7,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gDay-enumeration-1-NS"
 
 class NistschemaSvIvAtomicGDayEnumeration1Type(Enum):
     """
-    :cvar VALUE_07:
-    :cvar VALUE_08:
     :cvar VALUE_15:
-    :cvar VALUE_16:
-    :cvar VALUE_18:
-    :cvar VALUE_26:
     :cvar VALUE_29:
     :cvar VALUE_30:
+    :cvar VALUE_26:
+    :cvar VALUE_16:
+    :cvar VALUE_08:
+    :cvar VALUE_18:
+    :cvar VALUE_07:
     """
-    VALUE_07 = "---07"
-    VALUE_08 = "---08"
     VALUE_15 = "---15"
-    VALUE_16 = "---16"
-    VALUE_18 = "---18"
-    VALUE_26 = "---26"
     VALUE_29 = "---29"
     VALUE_30 = "---30"
+    VALUE_26 = "---26"
+    VALUE_16 = "---16"
+    VALUE_08 = "---08"
+    VALUE_18 = "---18"
+    VALUE_07 = "---07"
 
 
 @dataclass

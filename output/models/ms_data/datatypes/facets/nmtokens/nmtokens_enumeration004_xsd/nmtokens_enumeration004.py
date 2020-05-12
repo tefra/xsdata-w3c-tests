@@ -41,13 +41,13 @@ class FooType:
             """
             :cvar FOO:
             :cvar FOO123:
-            :cvar FOO_FU1:
             :cvar FU1:
+            :cvar FOO_FU1:
             """
             FOO = "foo"
             FOO123 = "foo123"
-            FOO_FU1 = "foo fu1"
             FU1 = "fu1"
+            FOO_FU1 = "foo fu1"
 
 
 @dataclass

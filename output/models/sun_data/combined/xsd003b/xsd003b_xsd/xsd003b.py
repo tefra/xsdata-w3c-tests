@@ -52,8 +52,8 @@ class ComplexType:
 
 class SimpleType(Enum):
     """
-    :cvar NO:
     :cvar YES:
+    :cvar NO:
     """
-    NO = "no"
     YES = "yes"
+    NO = "no"

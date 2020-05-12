@@ -35,7 +35,7 @@ class Idrefs:
         name = "idrefs"
 
     idref: ValueConstraint = field(
-        default="asd",
+        default=ValueConstraint.ASD,
         metadata=dict(
             type="Attribute"
         )

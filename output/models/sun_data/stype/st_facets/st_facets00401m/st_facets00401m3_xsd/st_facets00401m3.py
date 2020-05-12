@@ -7,59 +7,59 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar A0:
-    :cvar A1:
-    :cvar A2:
-    :cvar A4:
-    :cvar A6:
-    :cvar A7:
-    :cvar A8:
-    :cvar A9:
-    :cvar VALUE_0:
     :cvar VALUE_00:
+    :cvar VALUE_0:
+    :cvar A0:
     :cvar VALUE_01:
+    :cvar VALUE_1:
+    :cvar A1:
     :cvar VALUE_02:
+    :cvar VALUE_2:
+    :cvar A2:
     :cvar VALUE_03:
     :cvar VALUE_04:
+    :cvar VALUE_4:
+    :cvar A4:
     :cvar VALUE_05:
     :cvar VALUE_06:
-    :cvar VALUE_07:
-    :cvar VALUE_08:
-    :cvar VALUE_09:
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_4:
     :cvar VALUE_6:
+    :cvar A6:
+    :cvar VALUE_07:
     :cvar VALUE_7:
+    :cvar A7:
+    :cvar VALUE_08:
     :cvar VALUE_8:
+    :cvar A8:
+    :cvar VALUE_09:
     :cvar VALUE_9:
+    :cvar A9:
     """
-    A0 = "ɿa0"
-    A1 = "ʨa1"
-    A2 = "ˁa2"
-    A4 = "Ίa4"
-    A6 = "Ώa6"
-    A7 = "Ρa7"
-    A8 = "ίa8"
-    A9 = "ώa9"
-    VALUE_0 = "ɺ-0"
     VALUE_00 = "ɶ00"
+    VALUE_0 = "ɺ-0"
+    A0 = "ɿa0"
     VALUE_01 = "ʁ01"
+    VALUE_1 = "ʔ-1"
+    A1 = "ʨa1"
     VALUE_02 = "ʻ02"
+    VALUE_2 = "ʾ-2"
+    A2 = "ˁa2"
     VALUE_03 = "Ά03"
     VALUE_04 = "Έ04"
+    VALUE_4 = "Ή-4"
+    A4 = "Ίa4"
     VALUE_05 = "Ό05"
     VALUE_06 = "Ύ06"
-    VALUE_07 = "Α07"
-    VALUE_08 = "Σ08"
-    VALUE_09 = "α09"
-    VALUE_1 = "ʔ-1"
-    VALUE_2 = "ʾ-2"
-    VALUE_4 = "Ή-4"
     VALUE_6 = "Ύ-6"
+    A6 = "Ώa6"
+    VALUE_07 = "Α07"
     VALUE_7 = "Ι-7"
+    A7 = "Ρa7"
+    VALUE_08 = "Σ08"
     VALUE_8 = "Ω-8"
+    A8 = "ίa8"
+    VALUE_09 = "α09"
     VALUE_9 = "ο-9"
+    A9 = "ώa9"
 
 
 @dataclass

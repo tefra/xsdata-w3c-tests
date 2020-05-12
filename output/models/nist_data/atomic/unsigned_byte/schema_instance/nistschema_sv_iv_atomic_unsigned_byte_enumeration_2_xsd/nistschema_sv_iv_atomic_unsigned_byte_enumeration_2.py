@@ -7,17 +7,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-2-NS"
 
 class NistschemaSvIvAtomicUnsignedByteEnumeration2Type(Enum):
     """
+    :cvar VALUE_8:
     :cvar VALUE_40:
-    :cvar VALUE_49:
     :cvar VALUE_6:
     :cvar VALUE_65:
-    :cvar VALUE_8:
+    :cvar VALUE_49:
     """
+    VALUE_8 = 8
     VALUE_40 = 40
-    VALUE_49 = 49
     VALUE_6 = 6
     VALUE_65 = 65
-    VALUE_8 = 8
+    VALUE_49 = 49
 
 
 @dataclass

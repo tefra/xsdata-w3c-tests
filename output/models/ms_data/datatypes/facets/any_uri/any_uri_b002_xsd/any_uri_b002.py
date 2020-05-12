@@ -5,13 +5,13 @@ from typing import List, Optional
 
 class St(Enum):
     """
-    :cvar ANY_URI_C:
-    :cvar A_B:
     :cvar X_Y:
+    :cvar A_B:
+    :cvar ANY_URI_C:
     """
-    ANY_URI_C = "anyURI:c"
-    A_B = "a名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間b"
     X_Y = "xあy"
+    A_B = "a名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間名前空間b"
+    ANY_URI_C = "anyURI:c"
 
 
 @dataclass

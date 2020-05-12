@@ -52,11 +52,11 @@ class SchemaType:
 
 class TruefalseType(Enum):
     """
-    :cvar FALSE_VALUE:
     :cvar TRUE_VALUE:
+    :cvar FALSE_VALUE:
     """
-    FALSE_VALUE = "false"
     TRUE_VALUE = "true"
+    FALSE_VALUE = "false"
 
 
 @dataclass
@@ -77,8 +77,8 @@ class MapInfoType:
             max_occurs=9223372036854775807
         )
     )
-    hide_inactive_list_border: "MapInfoType.HideInactiveListBorder" = field(
-        default="false",
+    hide_inactive_list_border: Optional["MapInfoType.HideInactiveListBorder"] = field(
+        default=None,
         metadata=dict(
             name="HideInactiveListBorder",
             type="Attribute",
@@ -94,7 +94,7 @@ class MapInfoType:
         )
     )
     hide_single_mapped_cell_border: TruefalseType = field(
-        default="true",
+        default=TruefalseType.TRUE_VALUE,
         metadata=dict(
             name="HideSingleMappedCellBorder",
             type="Attribute",
@@ -104,11 +104,11 @@ class MapInfoType:
 
     class HideInactiveListBorder(Enum):
         """
-        :cvar FALSE_VALUE:
         :cvar TRUE_VALUE:
+        :cvar FALSE_VALUE:
         """
-        FALSE_VALUE = "false"
         TRUE_VALUE = "true"
+        FALSE_VALUE = "false"
 
 
 @dataclass

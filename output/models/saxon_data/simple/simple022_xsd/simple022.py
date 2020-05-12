@@ -20,8 +20,8 @@ class Price:
 
     class Value(Enum):
         """
-        :cvar NA_N:
         :cvar VALUE_9_99:
+        :cvar NA_N:
         """
-        NA_N = "NaN"
         VALUE_9_99 = "9.99"
+        NA_N = "NaN"

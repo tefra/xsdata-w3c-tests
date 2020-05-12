@@ -21,13 +21,13 @@ class FooTest:
 
     class Value(Enum):
         """
-        :cvar CA:
-        :cvar OR_VALUE:
         :cvar WA:
+        :cvar OR_VALUE:
+        :cvar CA:
         """
-        CA = "CA"
-        OR_VALUE = "OR"
         WA = "WA"
+        OR_VALUE = "OR"
+        CA = "CA"
 
 
 @dataclass

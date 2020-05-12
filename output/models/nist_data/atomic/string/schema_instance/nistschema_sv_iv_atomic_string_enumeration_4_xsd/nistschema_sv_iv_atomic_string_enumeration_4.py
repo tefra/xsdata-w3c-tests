@@ -7,16 +7,16 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-4-NS"
 
 class NistschemaSvIvAtomicStringEnumeration4Type(Enum):
     """
-    :cvar EB_XML:
-    :cvar MANY:
     :cvar THE:
+    :cvar EB_XML:
     :cvar THE_1:
+    :cvar MANY:
     :cvar VALUE_2000:
     """
-    EB_XML = "ebXML"
-    MANY = "many"
     THE = "the"
+    EB_XML = "ebXML"
     THE_1 = "The"
+    MANY = "many"
     VALUE_2000 = "2000"
 
 

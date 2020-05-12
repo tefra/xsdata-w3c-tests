@@ -7,16 +7,16 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-2-NS"
 
 class NistschemaSvIvAtomicTokenEnumeration2Type(Enum):
     """
-    :cvar DEVELOP:
-    :cvar FILE:
     :cvar MAINTAINED:
+    :cvar DEVELOP:
     :cvar NETWORKS:
+    :cvar FILE:
     :cvar THE:
     """
-    DEVELOP = "Develop"
-    FILE = "file"
     MAINTAINED = "maintained"
+    DEVELOP = "Develop"
     NETWORKS = "networks"
+    FILE = "file"
     THE = "the"
 
 

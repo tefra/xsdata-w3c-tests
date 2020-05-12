@@ -7,23 +7,23 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-1-NS"
 
 class NistschemaSvIvAtomicUnsignedShortEnumeration1Type(Enum):
     """
-    :cvar VALUE_121:
-    :cvar VALUE_272:
-    :cvar VALUE_28:
-    :cvar VALUE_357:
-    :cvar VALUE_51760:
-    :cvar VALUE_570:
     :cvar VALUE_603:
+    :cvar VALUE_121:
+    :cvar VALUE_51760:
     :cvar VALUE_65535:
+    :cvar VALUE_357:
+    :cvar VALUE_272:
+    :cvar VALUE_570:
+    :cvar VALUE_28:
     """
-    VALUE_121 = 121
-    VALUE_272 = 272
-    VALUE_28 = 28
-    VALUE_357 = 357
-    VALUE_51760 = 51760
-    VALUE_570 = 570
     VALUE_603 = 603
+    VALUE_121 = 121
+    VALUE_51760 = 51760
     VALUE_65535 = 65535
+    VALUE_357 = 357
+    VALUE_272 = 272
+    VALUE_570 = 570
+    VALUE_28 = 28
 
 
 @dataclass

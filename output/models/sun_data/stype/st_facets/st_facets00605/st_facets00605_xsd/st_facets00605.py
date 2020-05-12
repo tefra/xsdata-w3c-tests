@@ -7,11 +7,11 @@ __NAMESPACE__ = "SType/ST_facets"
 
 class S(Enum):
     """
-    :cvar VALUE:
     :cvar VALUE_0:
+    :cvar VALUE:
     """
-    VALUE = "_-."
     VALUE_0 = "_-0."
+    VALUE = "_-."
 
 
 @dataclass

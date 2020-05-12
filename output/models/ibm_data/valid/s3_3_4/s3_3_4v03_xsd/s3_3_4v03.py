@@ -21,7 +21,7 @@ class Root:
 
     a: Restrict = field(
         init=False,
-        default="ads",
+        default=Restrict.ADS,
         metadata=dict(
             type="Element",
             namespace="",

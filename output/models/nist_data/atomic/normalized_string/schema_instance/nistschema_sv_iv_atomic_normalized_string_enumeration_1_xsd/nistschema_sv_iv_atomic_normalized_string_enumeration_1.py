@@ -7,21 +7,21 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1-NS"
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration1Type(Enum):
     """
-    :cvar AND_VALUE:
-    :cvar BY:
-    :cvar INTO:
-    :cvar PARTICIPATING:
-    :cvar SUCH:
     :cvar TESTS:
     :cvar THEREFORE:
+    :cvar BY:
+    :cvar SUCH:
+    :cvar PARTICIPATING:
+    :cvar INTO:
+    :cvar AND_VALUE:
     """
-    AND_VALUE = "and"
-    BY = "by"
-    INTO = "into"
-    PARTICIPATING = "participating"
-    SUCH = "Such"
     TESTS = "tests"
     THEREFORE = "Therefore"
+    BY = "by"
+    SUCH = "Such"
+    PARTICIPATING = "participating"
+    INTO = "into"
+    AND_VALUE = "and"
 
 
 @dataclass

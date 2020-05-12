@@ -7,17 +7,17 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-5-NS"
 
 class NistschemaSvIvAtomicStringEnumeration5Type(Enum):
     """
-    :cvar AS_VALUE:
-    :cvar FOR_VALUE:
-    :cvar SUCH:
-    :cvar THESE:
     :cvar WELL:
+    :cvar FOR_VALUE:
+    :cvar THESE:
+    :cvar SUCH:
+    :cvar AS_VALUE:
     """
-    AS_VALUE = "as"
-    FOR_VALUE = "for"
-    SUCH = "such"
-    THESE = "these"
     WELL = "well"
+    FOR_VALUE = "for"
+    THESE = "these"
+    SUCH = "such"
+    AS_VALUE = "as"
 
 
 @dataclass

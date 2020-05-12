@@ -7,22 +7,22 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-4-NS"
 
 class NistschemaSvIvAtomicTokenEnumeration4Type(Enum):
     """
-    :cvar AS_VALUE:
-    :cvar IS_VALUE:
     :cvar PICO_CELLULAR:
-    :cvar SYNTAX:
-    :cvar TECHNIQUES:
     :cvar TO:
+    :cvar TECHNIQUES:
+    :cvar IS_VALUE:
     :cvar VISIBLY:
+    :cvar AS_VALUE:
+    :cvar SYNTAX:
     :cvar WAS:
     """
-    AS_VALUE = "as"
-    IS_VALUE = "is"
     PICO_CELLULAR = "pico-cellular"
-    SYNTAX = "syntax"
-    TECHNIQUES = "techniques"
     TO = "to"
+    TECHNIQUES = "techniques"
+    IS_VALUE = "is"
     VISIBLY = "visibly"
+    AS_VALUE = "as"
+    SYNTAX = "syntax"
     WAS = "was"
 
 

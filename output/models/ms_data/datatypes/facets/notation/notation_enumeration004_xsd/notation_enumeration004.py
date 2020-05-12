@@ -5,13 +5,13 @@ from typing import Optional
 
 class BuildNotation(Enum):
     """
-    :cvar G:
     :cvar JPEG:
     :cvar MPEG:
+    :cvar G:
     """
-    G = "g"
     JPEG = "jpeg"
     MPEG = "mpeg"
+    G = "g"
 
 
 @dataclass
@@ -50,13 +50,13 @@ class FooType:
 
         class AttrTest(Enum):
             """
-            :cvar G:
             :cvar JPEG:
             :cvar MPEG:
+            :cvar G:
             """
-            G = "g"
             JPEG = "jpeg"
             MPEG = "mpeg"
+            G = "g"
 
 
 @dataclass

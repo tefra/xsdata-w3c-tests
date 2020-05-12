@@ -22,13 +22,13 @@ class FooType:
 
     class Foo(Enum):
         """
-        :cvar DE:
         :cvar EN:
         :cvar FR:
+        :cvar DE:
         """
-        DE = "de"
         EN = "en"
         FR = "fr"
+        DE = "de"
 
 
 @dataclass

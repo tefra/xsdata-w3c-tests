@@ -11,16 +11,16 @@ from typing import List
 from typing import Union
 
 from lxml import etree
+from xsdata.formats.dataclass.filters import class_name
+from xsdata.formats.dataclass.models.generics import AnyElement
+from xsdata.formats.dataclass.parsers import XmlParser
+from xsdata.utils import text
 
 from models.xsts import Expected
 from models.xsts import TestGroup
 from models.xsts import TestOutcome
 from models.xsts import TestSet
 from models.xsts import TestSuite
-from xsdata.formats.dataclass.models.generics import AnyElement
-from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.formats.generators import PythonAbstractGenerator
-from xsdata.utils import text
 
 root = Path(__file__).absolute().parent
 w3c = root.joinpath("w3c")
@@ -204,7 +204,7 @@ def read_root_name(path: Path) -> str:
         recovering_parser = etree.XMLParser(recover=True)
         tree = etree.parse(str(path), parser=recovering_parser)
         root = tree.getroot()
-        return PythonAbstractGenerator.class_name(etree.QName(root.tag).localname)
+        return class_name(etree.QName(root.tag).localname)
     except etree.XMLSyntaxError:
         return ""
     except OSError:

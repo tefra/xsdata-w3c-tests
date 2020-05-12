@@ -8,16 +8,16 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonth-enumeration-2-NS"
 class NistschemaSvIvAtomicGMonthEnumeration2Type(Enum):
     """
     :cvar VALUE_02:
-    :cvar VALUE_04:
-    :cvar VALUE_06:
-    :cvar VALUE_11:
     :cvar VALUE_12:
+    :cvar VALUE_06:
+    :cvar VALUE_04:
+    :cvar VALUE_11:
     """
     VALUE_02 = "--02"
-    VALUE_04 = "--04"
-    VALUE_06 = "--06"
-    VALUE_11 = "--11"
     VALUE_12 = "--12"
+    VALUE_06 = "--06"
+    VALUE_04 = "--04"
+    VALUE_11 = "--11"
 
 
 @dataclass

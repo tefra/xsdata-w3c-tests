@@ -8,25 +8,25 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
 class NistschemaSvIvAtomicQnameEnumeration4Type(Enum):
     """
-    :cvar ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA:
-    :cvar FAND_IS_INCLUDE_VOCA_JWORK_TOOLS_AND_WIDELY_ELECTRONIC_MANIPUL:
-    :cvar INTEROPERABILITY_S_LED_ALSO_SPECIFICATIONS_PROVIDE_WITH_IS_THU:
-    :cvar ITO_D_LCOMPUTING_OBJECT_FOR_A_MUST_BE_FROM_DESIGN_RO:
     :cvar Q_TTHE_WITH:
-    :cvar THE_LWHICH:
-    :cvar TMANY_RETRIEVAL_WITH_LANGUAGE_BOTH_BE_RESULTS_IS_OF_B:
-    :cvar UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE:
+    :cvar ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA:
     :cvar YOF_AUTOMATIC_PARTNERSHIPS_AND_SET_SERIES_IS_KEY_E:
+    :cvar FAND_IS_INCLUDE_VOCA_JWORK_TOOLS_AND_WIDELY_ELECTRONIC_MANIPUL:
+    :cvar TMANY_RETRIEVAL_WITH_LANGUAGE_BOTH_BE_RESULTS_IS_OF_B:
+    :cvar ITO_D_LCOMPUTING_OBJECT_FOR_A_MUST_BE_FROM_DESIGN_RO:
+    :cvar INTEROPERABILITY_S_LED_ALSO_SPECIFICATIONS_PROVIDE_WITH_IS_THU:
+    :cvar THE_LWHICH:
+    :cvar UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE:
     """
-    ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "etransforming-specific.emerging_is-developed.act_rela")
-    FAND_IS_INCLUDE_VOCA_JWORK_TOOLS_AND_WIDELY_ELECTRONIC_MANIPUL = QName("http://www.nist.gov/xsdNS", "jwork.tools-and.widely.electronic_manipul")
-    INTEROPERABILITY_S_LED_ALSO_SPECIFICATIONS_PROVIDE_WITH_IS_THU = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "_interoperability.s.led_also-specifications_provide_with.is.thu")
-    ITO_D_LCOMPUTING_OBJECT_FOR_A_MUST_BE_FROM_DESIGN_RO = QName("http://www.nist.gov/xsdNS", "lcomputing-object_for_a_must-be-from-design-ro")
     Q_TTHE_WITH = QName("http://www.nist.gov/xsdNS", "tthe.with-")
-    THE_LWHICH = QName("http://www.nist.gov/xsdNS", "lwhich_")
-    TMANY_RETRIEVAL_WITH_LANGUAGE_BOTH_BE_RESULTS_IS_OF_B = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "tmany-retrieval-with_language.both-be.results-is-of-b")
-    UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "uthe.base_the_ability-into-target_the_testability-discove")
+    ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "etransforming-specific.emerging_is-developed.act_rela")
     YOF_AUTOMATIC_PARTNERSHIPS_AND_SET_SERIES_IS_KEY_E = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "yof_automatic-partnerships.and.set-series_is.key.e")
+    FAND_IS_INCLUDE_VOCA_JWORK_TOOLS_AND_WIDELY_ELECTRONIC_MANIPUL = QName("http://www.nist.gov/xsdNS", "jwork.tools-and.widely.electronic_manipul")
+    TMANY_RETRIEVAL_WITH_LANGUAGE_BOTH_BE_RESULTS_IS_OF_B = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "tmany-retrieval-with_language.both-be.results-is-of-b")
+    ITO_D_LCOMPUTING_OBJECT_FOR_A_MUST_BE_FROM_DESIGN_RO = QName("http://www.nist.gov/xsdNS", "lcomputing-object_for_a_must-be-from-design-ro")
+    INTEROPERABILITY_S_LED_ALSO_SPECIFICATIONS_PROVIDE_WITH_IS_THU = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "_interoperability.s.led_also-specifications_provide_with.is.thu")
+    THE_LWHICH = QName("http://www.nist.gov/xsdNS", "lwhich_")
+    UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE = QName("NISTSchema-SV-IV-atomic-QName-enumeration-4-NS", "uthe.base_the_ability-into-target_the_testability-discove")
 
 
 @dataclass

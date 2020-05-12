@@ -22,12 +22,12 @@ class FooType:
 
     class Foo(Enum):
         """
-        :cvar VALUE_01:
         :cvar VALUE_15:
+        :cvar VALUE_01:
         :cvar VALUE_30:
         """
-        VALUE_01 = "---01"
         VALUE_15 = "---15"
+        VALUE_01 = "---01"
         VALUE_30 = "---30"
 
 

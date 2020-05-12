@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-int-enumeration-1-NS"
 
 class NistschemaSvIvAtomicIntEnumeration1Type(Enum):
     """
+    :cvar VALUE_MINUS_8:
+    :cvar VALUE_MINUS_48251:
+    :cvar VALUE_MINUS_726612373:
     :cvar VALUE_7142:
     :cvar VALUE_MINUS_2212763:
-    :cvar VALUE_MINUS_48251:
     :cvar VALUE_MINUS_532985353:
-    :cvar VALUE_MINUS_726612373:
-    :cvar VALUE_MINUS_8:
     """
+    VALUE_MINUS_8 = -8
+    VALUE_MINUS_48251 = -48251
+    VALUE_MINUS_726612373 = -726612373
     VALUE_7142 = 7142
     VALUE_MINUS_2212763 = -2212763
-    VALUE_MINUS_48251 = -48251
     VALUE_MINUS_532985353 = -532985353
-    VALUE_MINUS_726612373 = -726612373
-    VALUE_MINUS_8 = -8
 
 
 @dataclass

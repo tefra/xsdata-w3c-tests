@@ -7,19 +7,19 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-3-NS"
 
 class NistschemaSvIvAtomicStringEnumeration3Type(Enum):
     """
-    :cvar ANY:
-    :cvar ONLY:
-    :cvar OUR:
     :cvar SYNTAX:
-    :cvar THAT:
     :cvar THROUGH:
+    :cvar ONLY:
+    :cvar ANY:
+    :cvar OUR:
+    :cvar THAT:
     """
-    ANY = "any"
-    ONLY = "only"
-    OUR = "our"
     SYNTAX = "syntax"
-    THAT = "that"
     THROUGH = "through"
+    ONLY = "only"
+    ANY = "any"
+    OUR = "our"
+    THAT = "that"
 
 
 @dataclass

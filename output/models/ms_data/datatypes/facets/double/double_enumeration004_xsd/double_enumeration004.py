@@ -23,12 +23,12 @@ class FooType:
     class Foo(Enum):
         """
         :cvar VALUE_1_1:
-        :cvar VALUE_2_718:
         :cvar VALUE_3_14:
+        :cvar VALUE_2_718:
         """
         VALUE_1_1 = "1.1"
-        VALUE_2_718 = "2.718"
         VALUE_3_14 = "3.14"
+        VALUE_2_718 = "2.718"
 
 
 @dataclass

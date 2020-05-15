@@ -1,3 +1,4 @@
+from enum import Enum
 from dataclasses import dataclass, field
 from typing import Optional
 
@@ -18,6 +19,28 @@ class FooTest:
             required=True
         )
     )
+
+
+class MyList(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+
+
+class MyUnion(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_7:
+    :cvar VALUE_8:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_7 = "7"
+    VALUE_8 = "8"
 
 
 @dataclass

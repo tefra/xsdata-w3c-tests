@@ -7,9 +7,11 @@ from models.xsts import Current
 from models.xsts import Documentation
 from models.xsts import DocumentationReference
 from models.xsts import Expected
+from models.xsts import ExpectedOutcome
 from models.xlink import Extended
 from models.xsts import InstanceDocument
 from models.xsts import InstanceTest
+from models.xsts import KnownToken
 from models.xsts import KnownXsdVersion
 from models.xlink import LocatorType
 from models.xsts import Prior

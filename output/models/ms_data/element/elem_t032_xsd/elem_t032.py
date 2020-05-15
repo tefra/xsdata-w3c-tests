@@ -54,6 +54,38 @@ class Ca:
     )
 
 
+class ListA(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+
+
+class ListAb(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar A:
+    :cvar B:
+    :cvar C123456789:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+    A = "a"
+    B = "b"
+    C123456789 = "c123456789"
+
+
 class RA(Enum):
     """
     :cvar VALUE_1:
@@ -91,6 +123,38 @@ class RCa:
             namespace=""
         )
     )
+
+
+class UnionA(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+
+
+class UnionAb(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar A:
+    :cvar B:
+    :cvar C123456789:
+    """
+    VALUE_1 = "1"
+    VALUE_2 = "2"
+    VALUE_3 = "3"
+    VALUE_4 = "4"
+    A = "a"
+    B = "b"
+    C123456789 = "c123456789"
 
 
 @dataclass

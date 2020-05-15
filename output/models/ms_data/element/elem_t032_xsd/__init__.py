@@ -2,8 +2,12 @@ from output.models.ms_data.element.elem_t032_xsd.elem_t032 import A
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import B
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import Ca
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import ECa
+from output.models.ms_data.element.elem_t032_xsd.elem_t032 import ListA
+from output.models.ms_data.element.elem_t032_xsd.elem_t032 import ListAb
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import RA
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import RCa
+from output.models.ms_data.element.elem_t032_xsd.elem_t032 import UnionA
+from output.models.ms_data.element.elem_t032_xsd.elem_t032 import UnionAb
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import Root
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import SA
 from output.models.ms_data.element.elem_t032_xsd.elem_t032 import Test

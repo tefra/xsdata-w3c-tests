@@ -16,9 +16,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.utils import text
 
-from models.xsts import Expected
+from models.xsts import ExpectedOutcome, Expected
 from models.xsts import TestGroup
-from models.xsts import TestOutcome
 from models.xsts import TestSet
 from models.xsts import TestSuite
 
@@ -170,7 +169,7 @@ def make_test_cases(path: Path, group: TestGroup):
 
         schema_href = path.joinpath(schema_doc).resolve().relative_to(w3c)
 
-        schema_is_valid = schema_validity.validity == TestOutcome.VALID
+        schema_is_valid = schema_validity.validity == ExpectedOutcome.VALID
 
     schema_name = text.snake_case(group.name)
     documentation = make_docstring(group)
@@ -194,7 +193,7 @@ def make_test_cases(path: Path, group: TestGroup):
             schema_is_valid=schema_is_valid,
             instance_name=text.snake_case(instance.name),
             instance_path=instance_href,
-            instance_is_valid=instance_validity.validity == TestOutcome.VALID,
+            instance_is_valid=instance_validity.validity == ExpectedOutcome.VALID,
             class_name=class_name,
         )
 
@@ -215,7 +214,7 @@ def validity(expects: List[Expected]) -> Expected:
     expect = None
     if len(expects) > 1:
         expect = next(
-            (exp for exp in expects if exp.validity == TestOutcome.VALID), None
+            (exp for exp in expects if exp.validity == ExpectedOutcome.VALID), None
         )
 
     return expect if expect else expects[0]

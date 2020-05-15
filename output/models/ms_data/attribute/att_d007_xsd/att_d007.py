@@ -1,11 +1,41 @@
 from enum import Enum
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
+class ThreeNumbers(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar VALUE_5:
+    """
+    VALUE_1 = 1
+    VALUE_2 = 2
+    VALUE_3 = 3
+    VALUE_4 = 4
+    VALUE_5 = 5
+
+
 class Char(Enum):
+    """
+    :cvar A:
+    :cvar B:
+    :cvar C:
+    :cvar D:
+    :cvar E:
+    """
+    A = "a"
+    B = "b"
+    C = "c"
+    D = "d"
+    E = "e"
+
+
+class CharList(Enum):
     """
     :cvar A:
     :cvar B:
@@ -35,6 +65,21 @@ class No(Enum):
     VALUE_5 = 5
 
 
+class NoList(Enum):
+    """
+    :cvar VALUE_1:
+    :cvar VALUE_2:
+    :cvar VALUE_3:
+    :cvar VALUE_4:
+    :cvar VALUE_5:
+    """
+    VALUE_1 = 1
+    VALUE_2 = 2
+    VALUE_3 = 3
+    VALUE_4 = 4
+    VALUE_5 = 5
+
+
 @dataclass
 class AttRef:
     """
@@ -43,13 +88,11 @@ class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: List[Union[No, Char, int]] = field(
-        default_factory=list,
+    att1: Optional[Union[NoList, CharList, int]] = field(
+        default=None,
         metadata=dict(
             type="Attribute",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            namespace="http://xsdtesting"
         )
     )
 

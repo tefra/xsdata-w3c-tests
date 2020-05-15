@@ -7,9 +7,11 @@ from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
 from output.models.common.xsts_xsd.xsts import DocumentationReference
 from output.models.common.xsts_xsd.xsts import Expected
+from output.models.common.xsts_xsd.xsts import ExpectedOutcome
 from output.models.common.xsts_xsd.xlink import Extended
 from output.models.common.xsts_xsd.xsts import InstanceDocument
 from output.models.common.xsts_xsd.xsts import InstanceTest
+from output.models.common.xsts_xsd.xsts import KnownToken
 from output.models.common.xsts_xsd.xsts import KnownXsdVersion
 from output.models.common.xsts_xsd.xlink import LocatorType
 from output.models.common.xsts_xsd.xsts import Prior

@@ -3,6 +3,17 @@ from dataclasses import dataclass, field
 from typing import List, Optional, Union
 
 
+class ListOfStates(Enum):
+    """
+    :cvar WA:
+    :cvar OR_VALUE:
+    :cvar CA:
+    """
+    WA = "WA"
+    OR_VALUE = "OR"
+    CA = "CA"
+
+
 @dataclass
 class FooTest:
     """
@@ -11,23 +22,13 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: List[Union["FooTest.Value", str]] = field(
+    value: List[Union[ListOfStates, str]] = field(
         default_factory=list,
         metadata=dict(
             min_occurs=0,
             max_occurs=9223372036854775807
         )
     )
-
-    class Value(Enum):
-        """
-        :cvar WA:
-        :cvar OR_VALUE:
-        :cvar CA:
-        """
-        WA = "WA"
-        OR_VALUE = "OR"
-        CA = "CA"
 
 
 @dataclass

@@ -3,8 +3,12 @@ from output.models.ms_data.element.elem_t058_xsd.elem_t058 import B
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import Ca
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import EA
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import ECa
+from output.models.ms_data.element.elem_t058_xsd.elem_t058 import ListA
+from output.models.ms_data.element.elem_t058_xsd.elem_t058 import ListAb
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import RA
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import RCa
+from output.models.ms_data.element.elem_t058_xsd.elem_t058 import UnionA
+from output.models.ms_data.element.elem_t058_xsd.elem_t058 import UnionAb
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import Root
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import Sa
 from output.models.ms_data.element.elem_t058_xsd.elem_t058 import Test1

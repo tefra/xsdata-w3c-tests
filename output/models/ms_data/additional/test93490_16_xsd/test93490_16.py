@@ -5,6 +5,15 @@ from typing import List, Optional
 __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
 
+class MapInfoTypeHideInactiveListBorder(Enum):
+    """
+    :cvar TRUE_VALUE:
+    :cvar FALSE_VALUE:
+    """
+    TRUE_VALUE = "true"
+    FALSE_VALUE = "false"
+
+
 @dataclass
 class SchemaType:
     """
@@ -77,8 +86,8 @@ class MapInfoType:
             max_occurs=9223372036854775807
         )
     )
-    hide_inactive_list_border: Optional["MapInfoType.HideInactiveListBorder"] = field(
-        default=None,
+    hide_inactive_list_border: MapInfoTypeHideInactiveListBorder = field(
+        default=MapInfoTypeHideInactiveListBorder.FALSE_VALUE,
         metadata=dict(
             name="HideInactiveListBorder",
             type="Attribute",
@@ -101,14 +110,6 @@ class MapInfoType:
             namespace="http://schemas.microsoft.com/office/excel/2003/xml"
         )
     )
-
-    class HideInactiveListBorder(Enum):
-        """
-        :cvar TRUE_VALUE:
-        :cvar FALSE_VALUE:
-        """
-        TRUE_VALUE = "true"
-        FALSE_VALUE = "false"
 
 
 @dataclass

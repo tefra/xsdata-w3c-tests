@@ -16,7 +16,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.utils import text
 
-from models.xsts import ExpectedOutcome, Expected
+from models.xsts import Expected
+from models.xsts import ExpectedOutcome
 from models.xsts import TestGroup
 from models.xsts import TestSet
 from models.xsts import TestSuite

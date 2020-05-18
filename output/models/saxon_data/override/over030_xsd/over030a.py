@@ -8,9 +8,12 @@ __NAMESPACE__ = "http://example.org/ns/document"
 class InlineType:
     """
     :ivar content:
-    :ivar ubiq_inlines:
-    :ivar general_inlines:
-    :ivar domain_inlines:
+    :ivar phrase:
+    :ivar superscript:
+    :ivar subscript:
+    :ivar abbrev:
+    :ivar emphasis:
+    :ivar property:
     :ivar role:
     :ivar id:
     :ivar base:
@@ -25,23 +28,45 @@ class InlineType:
             namespace="##any"
         )
     )
-    ubiq_inlines: Optional[str] = field(
+    phrase: Optional["Phrase"] = field(
         default=None,
         metadata=dict(
-            namespace="http://example.org/ns/document",
-            required=True
+            type="Element",
+            namespace="http://example.org/ns/document"
         )
     )
-    general_inlines: Optional[str] = field(
+    superscript: Optional["Superscript"] = field(
         default=None,
         metadata=dict(
-            namespace="http://example.org/ns/document",
-            required=True
+            type="Element",
+            namespace="http://example.org/ns/document"
         )
     )
-    domain_inlines: Optional["Property"] = field(
+    subscript: Optional["Subscript"] = field(
         default=None,
         metadata=dict(
+            type="Element",
+            namespace="http://example.org/ns/document"
+        )
+    )
+    abbrev: Optional["Abbrev"] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://example.org/ns/document"
+        )
+    )
+    emphasis: Optional["Emphasis"] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://example.org/ns/document"
+        )
+    )
+    property: Optional["Property"] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
             namespace="http://example.org/ns/document"
         )
     )

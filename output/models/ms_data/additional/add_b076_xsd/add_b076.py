@@ -5,31 +5,6 @@ __NAMESPACE__ = "ns-a"
 
 
 @dataclass
-class Foo:
-    """
-    :ivar a:
-    :ivar aft:
-    """
-    class Meta:
-        name = "foo"
-
-    a: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
-    )
-    aft: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
-    )
-
-
-@dataclass
 class NsAAft:
     """
     :ivar x:
@@ -71,5 +46,30 @@ class Root:
             type="Wildcard",
             namespace="##any",
             required=True
+        )
+    )
+
+
+@dataclass
+class Foo:
+    """
+    :ivar a:
+    :ivar aft:
+    """
+    class Meta:
+        name = "foo"
+
+    a: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace=""
+        )
+    )
+    aft: Optional[NsAAft] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="ns-a"
         )
     )

@@ -5,6 +5,25 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
+class Elem1:
+    """
+    :ivar any_element:
+    """
+    class Meta:
+        name = "elem1"
+        namespace = "http://xsdtesting"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Elem2:
     """
     :ivar any_element:
@@ -59,7 +78,7 @@ class Doc:
             required=True
         )
     )
-    elem1: Optional[object] = field(
+    elem1: Optional[Elem1] = field(
         default=None,
         metadata=dict(
             type="Element",

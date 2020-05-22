@@ -21,15 +21,6 @@ class FooTest:
     )
 
 
-class MyList(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    """
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-
-
 class MyUnion(Enum):
     """
     :cvar VALUE_1:

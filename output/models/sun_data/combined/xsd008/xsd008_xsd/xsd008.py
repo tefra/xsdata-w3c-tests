@@ -149,7 +149,7 @@ class Generic:
             max_occurs=9223372036854775807
         )
     )
-    facet: List[str] = field(
+    facet: List[Facet] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

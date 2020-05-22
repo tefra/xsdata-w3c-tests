@@ -3,6 +3,42 @@ from typing import List, Optional
 
 
 @dataclass
+class AppendixContent:
+    """
+    :ivar any_element:
+    """
+    class Meta:
+        name = "appendixContent"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )
+
+
+@dataclass
+class ChapContent:
+    """
+    :ivar any_element:
+    """
+    class Meta:
+        name = "chapContent"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Para:
     """
     :ivar value:
@@ -35,7 +71,7 @@ class Back:
             max_occurs=9223372036854775807
         )
     )
-    appendix_content: List[object] = field(
+    appendix_content: List[AppendixContent] = field(
         default_factory=list,
         metadata=dict(
             name="appendixContent",
@@ -63,7 +99,7 @@ class Body:
             max_occurs=9223372036854775807
         )
     )
-    chap_content: List[object] = field(
+    chap_content: List[ChapContent] = field(
         default_factory=list,
         metadata=dict(
             name="chapContent",

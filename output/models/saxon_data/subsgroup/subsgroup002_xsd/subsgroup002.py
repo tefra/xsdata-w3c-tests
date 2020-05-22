@@ -35,6 +35,24 @@ class ChapContent:
 
 
 @dataclass
+class Content:
+    """
+    :ivar any_element:
+    """
+    class Meta:
+        name = "content"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Para:
     """
     :ivar value:
@@ -87,7 +105,7 @@ class Back:
             max_occurs=9223372036854775807
         )
     )
-    content: List[object] = field(
+    content: List[Content] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -134,7 +152,7 @@ class Body:
             max_occurs=9223372036854775807
         )
     )
-    content: List[object] = field(
+    content: List[Content] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

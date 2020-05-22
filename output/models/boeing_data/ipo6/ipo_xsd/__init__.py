@@ -6,6 +6,7 @@ from output.models.boeing_data.ipo6.ipo_xsd.ipo import Ukaddress
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import Usaddress
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import Usstate
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import Address
+from output.models.boeing_data.ipo6.ipo_xsd.ipo import Comment
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import CustomerComment
 from output.models.boeing_data.ipo6.ipo_xsd.ipo import PurchaseOrder
 from output.models.boeing_data.ipo6.ipo_xsd.address import Salutation

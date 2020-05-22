@@ -2,8 +2,6 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import ListA
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import ListAb
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import RA
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionA
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionAb

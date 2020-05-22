@@ -89,7 +89,7 @@ class Foo:
             namespace="ns-a"
         )
     )
-    aft: Optional[str] = field(
+    aft: Optional[NsAAft] = field(
         default=None,
         metadata=dict(
             type="Element",

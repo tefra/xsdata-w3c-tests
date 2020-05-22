@@ -55,7 +55,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    head: List[str] = field(
+    head: List[HeadType] = field(
         default_factory=list,
         metadata=dict(
             name="Head",

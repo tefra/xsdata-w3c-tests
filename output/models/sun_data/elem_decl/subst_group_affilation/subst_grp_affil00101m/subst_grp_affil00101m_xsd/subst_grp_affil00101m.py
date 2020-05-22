@@ -87,8 +87,7 @@ class BookStore:
             name="Magazine",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
+            max_occurs=9223372036854775807
         )
     )
     book: List[Book] = field(
@@ -97,17 +96,15 @@ class BookStore:
             name="Book",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
+            max_occurs=9223372036854775807
         )
     )
-    publication: List[str] = field(
+    publication: List[PublicationType] = field(
         default_factory=list,
         metadata=dict(
             name="Publication",
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
+            max_occurs=9223372036854775807
         )
     )

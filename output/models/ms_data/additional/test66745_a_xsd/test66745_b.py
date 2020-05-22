@@ -43,17 +43,15 @@ class Bar:
             type="Element",
             namespace="foo1",
             min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
+            max_occurs=9223372036854775807
         )
     )
-    foo: List[object] = field(
+    foo: List[Foo] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
+            max_occurs=9223372036854775807
         )
     )
     bar: List["Bar"] = field(

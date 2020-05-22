@@ -3,17 +3,6 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 
-class ListOfStates(Enum):
-    """
-    :cvar CA:
-    :cvar OR_VALUE:
-    :cvar WA:
-    """
-    CA = "CA"
-    OR_VALUE = "OR"
-    WA = "WA"
-
-
 class FooType(Enum):
     """
     :cvar CA:

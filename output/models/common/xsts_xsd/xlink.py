@@ -131,87 +131,6 @@ class ArcType:
 
 
 @dataclass
-class Extended:
-    """Intended for use as the type of user-declared elements to make them extended
-    links. Note that the elements referenced in the content model are all abstract.
-    The intention is that by simply declaring elements with these as their
-    substitutionGroup, all the right things will happen.
-
-    :ivar title:
-    :ivar resource:
-    :ivar locator:
-    :ivar arc:
-    :ivar type:
-    :ivar role:
-    :ivar title_attribute:
-    """
-    class Meta:
-        name = "extended"
-
-    title: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
-    resource: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
-    locator: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
-    arc: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
-    type: TypeType = field(
-        init=False,
-        default=TypeType.EXTENDED,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
-        )
-    )
-    title_attribute: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
-    )
-
-
-@dataclass
 class LocatorType:
     """
     :ivar title:
@@ -445,5 +364,86 @@ class TitleEltType:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/XML/1998/namespace"
+        )
+    )
+
+
+@dataclass
+class Extended:
+    """Intended for use as the type of user-declared elements to make them extended
+    links. Note that the elements referenced in the content model are all abstract.
+    The intention is that by simply declaring elements with these as their
+    substitutionGroup, all the right things will happen.
+
+    :ivar title:
+    :ivar resource:
+    :ivar locator:
+    :ivar arc:
+    :ivar type:
+    :ivar role:
+    :ivar title_attribute:
+    """
+    class Meta:
+        name = "extended"
+
+    title: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+    resource: List[ResourceType] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+    locator: List[LocatorType] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+    arc: List[ArcType] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/1999/xlink",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+    type: TypeType = field(
+        init=False,
+        default=TypeType.EXTENDED,
+        metadata=dict(
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            required=True
+        )
+    )
+    role: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink",
+            min_length=1.0
+        )
+    )
+    title_attribute: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="title",
+            type="Attribute",
+            namespace="http://www.w3.org/1999/xlink"
         )
     )

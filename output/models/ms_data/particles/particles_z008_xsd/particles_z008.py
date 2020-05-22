@@ -5,6 +5,22 @@ __NAMESPACE__ = "urn:my-namespace"
 
 
 @dataclass
+class Head2:
+    """
+    :ivar value:
+    """
+    class Meta:
+        namespace = "urn:my-namespace"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
 class Member2:
     """
     :ivar value:
@@ -45,7 +61,7 @@ class ContainMember2Type:
             required=True
         )
     )
-    head2: Optional[str] = field(
+    head2: Optional[Head2] = field(
         default=None,
         metadata=dict(
             name="Head2",

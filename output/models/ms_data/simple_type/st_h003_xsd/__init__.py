@@ -1,3 +1,2 @@
-from output.models.ms_data.simple_type.st_h003_xsd.st_h003 import ListOfStates
 from output.models.ms_data.simple_type.st_h003_xsd.st_h003 import FooTest
 from output.models.ms_data.simple_type.st_h003_xsd.st_h003 import Root

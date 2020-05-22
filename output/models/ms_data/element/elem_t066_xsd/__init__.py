@@ -3,8 +3,6 @@ from output.models.ms_data.element.elem_t066_xsd.elem_t066 import B
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import Ca
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import EA
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import ECa
-from output.models.ms_data.element.elem_t066_xsd.elem_t066 import ListA
-from output.models.ms_data.element.elem_t066_xsd.elem_t066 import ListAb
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import RA
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import RCa
 from output.models.ms_data.element.elem_t066_xsd.elem_t066 import UnionA

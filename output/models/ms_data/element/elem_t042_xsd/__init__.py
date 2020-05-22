@@ -2,8 +2,6 @@ from output.models.ms_data.element.elem_t042_xsd.elem_t042 import A
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import B
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import Ca
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import ECa
-from output.models.ms_data.element.elem_t042_xsd.elem_t042 import ListA
-from output.models.ms_data.element.elem_t042_xsd.elem_t042 import ListAb
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import RA
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import RCa
 from output.models.ms_data.element.elem_t042_xsd.elem_t042 import UnionA

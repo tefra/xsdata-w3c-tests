@@ -61,6 +61,23 @@ class Usstate(Enum):
 
 
 @dataclass
+class Comment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
 class CustomerComment:
     """
     :ivar value:
@@ -178,7 +195,7 @@ class ItemsType:
                 max_occurs=2
             )
         )
-        comment: List[str] = field(
+        comment: List[Comment] = field(
             default_factory=list,
             metadata=dict(
                 type="Element",
@@ -365,7 +382,7 @@ class PurchaseOrderType:
             namespace="http://www.example.com/IPO"
         )
     )
-    comment: Optional[str] = field(
+    comment: Optional[Comment] = field(
         default=None,
         metadata=dict(
             type="Element",

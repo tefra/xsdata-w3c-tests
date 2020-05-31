@@ -7,7 +7,7 @@ suite.
 
 # Report
 
-45 failed, 14521 passed, 110 skipped
+33 failed, 14534 passed, 109 skipped
 
 # Methodology
 

@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<x:doc xmlns:x="http://xsdtesting" xmlns:a="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <x:elem x:foo="123" a:a="b"/>
-</x:doc>
+<doc xmlns:a="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:x="http://xsdtesting">
+  <elem x:foo="123" a:a="b"/>
+</doc>

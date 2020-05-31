@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<tns:root xmlns:tns="http://xstest-tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<tns:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xstest-tns">
   <Meeting end-time="1">
     <beverage>abc</beverage>
   </Meeting>

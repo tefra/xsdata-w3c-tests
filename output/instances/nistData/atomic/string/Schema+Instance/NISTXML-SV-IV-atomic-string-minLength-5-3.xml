@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-5 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">accelerate the adoption of these standards by addressing market needs
+<NISTSchema-SV-IV-atomic-string-minLength-5 xmlns="NISTSchema-SV-IV-atomic-string-minLength-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">accelerate the adoption of these standards by addressing market needs
 and directions  and recommending guidelines for product interoperability
 and conformance 
 
@@ -20,4 +20,4 @@ Work with industry to ensure that these tests are used as
       metrology tools  and that the results of the tests are fed back
       into both the standards process and the development process 
 
-As chair of the OASIS X</ns0:NISTSchema-SV-IV-atomic-string-minLength-5>
+As chair of the OASIS X</NISTSchema-SV-IV-atomic-string-minLength-5>

@@ -1,132 +1,132 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ns0:testGroup name="vc_001" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_001_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_001_2">
-      <ns0:annotation>
-        <ns0:documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc_001_3">
-      <ns0:annotation>
-        <ns0:documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <testGroup name="vc_001" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_001_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_001_2">
+      <annotation>
+        <documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+    <instanceTest name="vc_001_3">
+      <annotation>
+        <documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.
 			      The instance test fails because, assertion in this example is "false" and that been included
-			      in validation episode.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc_003" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_003_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_003_2">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. The validation fails (due to a different element
-				  declaration been selected, whose assertion failure causes validation episode to fail).</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc_005" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_005_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test3.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_005_2">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail
+			      in validation episode.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc_003" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_003_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_003_2">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. The validation fails (due to a different element
+				  declaration been selected, whose assertion failure causes validation episode to fail).</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc_005" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_005_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test3.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_005_2">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail
 				  causing failure of validation episode. The facet "totalDigits" won't be functional since it
-				  only works in XSD 1.0 mode.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc_007" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_007_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_007_2">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
-				  assertion failure occurs causing failure of validation episode.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc_007_3">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
-                  validation episode succeeds, since an assertion is also true.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc_008" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_008_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test5_1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_008_2">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
+				  only works in XSD 1.0 mode.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc_007" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_007_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_007_2">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
+				  assertion failure occurs causing failure of validation episode.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+    <instanceTest name="vc_007_3">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
+                  validation episode succeeds, since an assertion is also true.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc_008" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_008_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test5_1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_008_2">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
                   [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="my:myInt"] doesn't. This test results
-                  in validation success.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test5.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc_009" version="1.1">
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc_009_1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test6.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc_009_2">
-      <ns0:annotation>
-        <ns0:documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
+                  in validation success.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test5.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc_009" version="1.1">
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc_009_1">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test6.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </schemaTest>
+    <instanceTest name="vc_009_2">
+      <annotation>
+        <documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
                   [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="xs:int my:myInt"] doesn't. This test results
-                  in validation success.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test6.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-20"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-</ns0:testSet>
+                  in validation success.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test6.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-20"/>
+    </instanceTest>
+  </testGroup>
+</testSet>

@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<tns:root xmlns:tns="http://xstest-tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<tns:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xstest-tns">
   <title type="text">My News</title>
   <title type="number">122323</title>
   <title type="mixed">D413</title>

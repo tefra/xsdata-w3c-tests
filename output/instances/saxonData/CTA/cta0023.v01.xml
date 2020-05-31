@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="http://cta023.com/ns">
-  <ns0:event type="date">
-    <ns0:when>2010-10-16</ns0:when>
-  </ns0:event>
-</ns0:doc>
+<doc xmlns="http://cta023.com/ns">
+  <event type="date">
+    <when>2010-10-16</when>
+  </event>
+</doc>

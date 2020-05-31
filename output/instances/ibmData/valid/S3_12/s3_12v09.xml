@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:invoice xmlns:ns0="tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
+<ns:invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
   <item>
     <address type="shipping" country="us">
       <state>Texas</state>
@@ -24,4 +24,4 @@
       <postal>M3F2W5</postal>
     </address>
   </item>
-</ns0:invoice>
+</ns:invoice>

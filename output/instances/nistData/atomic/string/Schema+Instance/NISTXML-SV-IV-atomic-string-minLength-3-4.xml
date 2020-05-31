@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-3 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<NISTSchema-SV-IV-atomic-string-minLength-3 xmlns="NISTSchema-SV-IV-atomic-string-minLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 define intuitive methods for creating complex documents  The Document
 Object Model  DOM  defines methods for interacting with XML and HTML 
 permitting the dynamic creation and manipulation of documents  The
@@ -12,4 +12,4 @@ to use XML technologies to define  manipulate  and exchange structured
 information  In addition  XML processors and support for the related
 Schema  DOM and XSL technologies are available in beta versions of
 popular web browsers and application development software  The
-widespread availability of these technologies has made them o</ns0:NISTSchema-SV-IV-atomic-string-minLength-3>
+widespread availability of these technologies has made them o</NISTSchema-SV-IV-atomic-string-minLength-3>

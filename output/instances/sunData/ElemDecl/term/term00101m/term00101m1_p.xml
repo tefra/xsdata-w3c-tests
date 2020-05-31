@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="ElemDecl/term" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:Local>true</ns0:Local>
-</ns0:root>
+<root xmlns="ElemDecl/term" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Local>true</Local>
+</root>

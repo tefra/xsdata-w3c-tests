@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<test:a xmlns:test="modelGroup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="modelGroup">
   <c>100</c>
   <date>2002-04-17</date>
 </test:a>

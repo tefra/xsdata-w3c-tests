@@ -1,28 +1,28 @@
 <!-- xsdata instance -->
-<main:root xmlns:main="main" xmlns:bar="bar" xmlns:foo="foo" xmlns:xx="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <main:a>
+<root xmlns:bar="bar" xmlns:foo="foo" xmlns:xx="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="main" xmlns:main="main">
+  <a>
     <a att="123" att1="123" att2="123"/>
     <foo:foo foo:att="123">
       <bar:bar/>
     </foo:foo>
-  </main:a>
-  <main:b>
-    <main:notDeclared notexist="foo">
+  </a>
+  <b>
+    <notDeclared notexist="foo">
       <foo:foo/>
-    </main:notDeclared>
-  </main:b>
-  <main:c>
+    </notDeclared>
+  </b>
+  <c>
     <foo:x foo:foo="asd"/>
     <bar:x/>
     <foo:x/>
-  </main:c>
-  <main:d>
+  </c>
+  <d>
     <foo:x/>
     <foo:x/>
-    <main:a a="a">
-      <main:b b="b">
-        <main:c b="b" c="b"/>
-      </main:b>
-    </main:a>
-  </main:d>
-</main:root>
+    <a a="a">
+      <b b="b">
+        <c b="b" c="b"/>
+      </b>
+    </a>
+  </d>
+</root>

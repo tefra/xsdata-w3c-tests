@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="http://example.org/ns/document">
-  <ns0:title>Document Title</ns0:title>
-  <ns0:p>This is some<ns0:emphasis>text</ns0:emphasis>.</ns0:p>
-</ns0:doc>
+<doc xmlns="http://example.org/ns/document">
+  <title>Document Title</title>
+  <p>This is some<emphasis>text</emphasis>.</p>
+</doc>

@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:eden xmlns:ns0="http://eden.com/" xmlns:ns1="http://eve.com/">
-  <ns1:eve/>
+<ns0:eden xmlns="http://eve.com/" xmlns:ns0="http://eden.com/">
+  <eve/>
 </ns0:eden>

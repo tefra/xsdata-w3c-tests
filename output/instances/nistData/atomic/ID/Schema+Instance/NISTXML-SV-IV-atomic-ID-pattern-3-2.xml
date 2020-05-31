@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:out xmlns:ns0="NISTSchema-SV-IV-atomic-ID-pattern-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:NISTSchema-SV-IV-atomic-ID-pattern-3>_to_contribute_stim</ns0:NISTSchema-SV-IV-atomic-ID-pattern-3>
-</ns0:out>
+<out xmlns="NISTSchema-SV-IV-atomic-ID-pattern-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NISTSchema-SV-IV-atomic-ID-pattern-3>_to_contribute_stim</NISTSchema-SV-IV-atomic-ID-pattern-3>
+</out>

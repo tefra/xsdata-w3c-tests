@@ -1,12 +1,12 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:non-nillable>
-    <ns0:x/>
-  </ns0:non-nillable>
-  <ns0:nillable1>
-    <ns0:x/>
-  </ns0:nillable1>
-  <ns0:nillable1 xsi:nil="true"/>
-  <ns0:nillable2>51 32 59</ns0:nillable2>
-  <ns0:nillable2 xsi:nil="true"/>
-</ns0:root>
+<root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <non-nillable>
+    <x/>
+  </non-nillable>
+  <nillable1>
+    <x/>
+  </nillable1>
+  <nillable1 xsi:nil="true"/>
+  <nillable2>51 32 59</nillable2>
+  <nillable2 xsi:nil="true"/>
+</root>

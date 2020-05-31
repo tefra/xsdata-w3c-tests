@@ -1,25 +1,25 @@
 <!-- xsdata instance -->
-<ipo:purchaseOrder xmlns:ipo="http://www.example.com/IPO" xmlns:att="http://www.example.com/att" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="2002-10-20">
-  <ipo:singleAddress exportCode="1" xsi:type="ipo:UKAddress">
+<purchaseOrder xmlns="http://www.example.com/IPO" xmlns:ipo="http://www.example.com/IPO" xmlns:att="http://www.example.com/att" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="2002-10-20">
+  <singleAddress exportCode="1" xsi:type="UKAddress">
     <name>Helen Zoe</name>
     <street>47 Eden Street</street>
     <city>Cambridge</city>
-    <ipo:country>United Kingdom</ipo:country>
+    <country>United Kingdom</country>
     <postcode>CB1 1JR</postcode>
-  </ipo:singleAddress>
-  <ipo:customerComment>I love Boeing too!</ipo:customerComment>
-  <ipo:items>
-    <ipo:item att:partNum="777-BA" att:weightKg="4.5" att:shipBy="air">
-      <ipo:productName>777 Model</ipo:productName>
-      <ipo:quantity>1</ipo:quantity>
-      <ipo:USPrice>99.95</ipo:USPrice>
-      <ipo:shipDate>1999-12-05</ipo:shipDate>
-    </ipo:item>
-    <ipo:item att:partNum="833-AA">
-      <ipo:productName>833 Model</ipo:productName>
-      <ipo:quantity>1</ipo:quantity>
-      <ipo:USPrice>199.95</ipo:USPrice>
-      <ipo:shipDate>2000-02-28</ipo:shipDate>
-    </ipo:item>
-  </ipo:items>
-</ipo:purchaseOrder>
+  </singleAddress>
+  <customerComment>I love Boeing too!</customerComment>
+  <items>
+    <item att:partNum="777-BA" att:weightKg="4.5" att:shipBy="air">
+      <productName>777 Model</productName>
+      <quantity>1</quantity>
+      <USPrice>99.95</USPrice>
+      <shipDate>1999-12-05</shipDate>
+    </item>
+    <item att:partNum="833-AA">
+      <productName>833 Model</productName>
+      <quantity>1</quantity>
+      <USPrice>199.95</USPrice>
+      <shipDate>2000-02-28</shipDate>
+    </item>
+  </items>
+</purchaseOrder>

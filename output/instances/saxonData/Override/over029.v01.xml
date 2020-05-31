@@ -1,9 +1,9 @@
 <!-- xsdata instance -->
-<ns0:order xmlns:ns0="http://datypic.com/ord" xmlns:spc="http://datypic.com/spc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:product spc:points="100">
-    <ns0:number>557</ns0:number>
-    <ns0:name>Short-Sleeved Linen Blouse</ns0:name>
-    <ns0:size>10</ns0:size>
+<order xmlns="http://datypic.com/ord" xmlns:spc="http://datypic.com/spc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <product spc:points="100">
+    <number>557</number>
+    <name>Short-Sleeved Linen Blouse</name>
+    <size>10</size>
     <spc:giftWrap>ADULT BDAY</spc:giftWrap>
-  </ns0:product>
-</ns0:order>
+  </product>
+</order>

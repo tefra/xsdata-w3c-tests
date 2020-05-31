@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="foo" add="5.2">
-  <ns0:in/>
-  <ns0:out/>
-  <ns0:tail/>
-</ns0:root>
+<root xmlns="foo" add="5.2">
+  <in/>
+  <out/>
+  <tail/>
+</root>

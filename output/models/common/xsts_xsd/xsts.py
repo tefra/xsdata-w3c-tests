@@ -11,30 +11,30 @@ __NAMESPACE__ = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
 
 class XdmFiltering(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Clause 1.2 of validation rule<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#sec-cvc-assertion">Assertion satisifed</ns0:a>(in Structures sec. 3.13.4.1) says</ns0:p>
-        <ns0:blockquote>
-          <ns0:p>By default, comments and processing instructions are
+        <p>Clause 1.2 of validation rule<a href="http://www.w3.org/TR/xmlschema11-1/#sec-cvc-assertion">Assertion satisifed</a>(in Structures sec. 3.13.4.1) says</p>
+        <blockquote>
+          <p>By default, comments and processing instructions are
                 excluded from the partial post-schema-validation infoset,
                 but at user option processors may retain comments and
-                processing instructions instead of excluding them.</ns0:p>
-        </ns0:blockquote>
-        <ns0:p>The value "<ns0:tt>comments-and-PIs-excluded</ns0:tt>" denotes the default
+                processing instructions instead of excluding them.</p>
+        </blockquote>
+        <p>The value "<tt>comments-and-PIs-excluded</tt>" denotes the default
                 situation:  comments and processing instructions are suppressed
                 before creating the XDM instance and thus cannot be examined
-                by assertions.</ns0:p>
-        <ns0:p>The value "<ns0:tt>comments-and-PIs-included</ns0:tt>" denotes the opposite:
+                by assertions.</p>
+        <p>The value "<tt>comments-and-PIs-included</tt>" denotes the opposite:
                 comments and processing instructions are included in the XDM
                 instance and thus can be examined by assertions.  (Since this is
                 required to be "at user option", any processor that supports this
                 token must also be available in a configuration that supports the
-                other token.)</ns0:p>
-        <ns0:p>(The user option was added in November 2012 to address bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935">13935
-                xsd 1.1 assertions testing comment nodes</ns0:a>.
+                other token.)</p>
+        <p>(The user option was added in November 2012 to address bug<a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935">13935
+                xsd 1.1 assertions testing comment nodes</a>.
                 These token values were added 20 January 2012 to allow both
-                configurations to be tested.)</ns0:p>
-      </ns0:div>
+                configurations to be tested.)</p>
+      </div>
     :cvar COMMENTS_AND_PIS_EXCLUDED:
     :cvar COMMENTS_AND_PIS_INCLUDED:
     """
@@ -121,87 +121,87 @@ class Documentation:
 
 
 class ExpectedOutcome(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Enumerates the possible values for the prescribed outcome
+        <p>Enumerates the possible values for the prescribed outcome
                 of a test.  Values include both (a) the possible values of
-                type<ns0:a href="#type_test-outcome">ts:test-outcome</ns0:a>and
-                the following additional values:</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>implementation-defined</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root
+                type<a href="#type_test-outcome">ts:test-outcome</a>and
+                the following additional values:</p>
+        <dl>
+          <dt>
+            <tt>implementation-defined</tt>
+          </dt>
+          <dd>(For instance tests) The value of the<tt>[validity]</tt>property on the validation root
                   depends upon some property or behavior which is
                   explicitly described in the relevant version of the spec
                   as "implementation-defined", or for which the spec explicitly
                   imposes a requirement that implementations specify their
                   behavior.  (It follows that this
-                  value should never occur for 1.0 tests.)</ns0:dd>
-          <ns0:dd>(For schema tests) The conformance of the schema
+                  value should never occur for 1.0 tests.)</dd>
+          <dd>(For schema tests) The conformance of the schema
                   depends upon some property or behavior explicitly
                   described in the spec as "implementation-defined",
                   or for which the spec explicitly
                   imposes a requirement that implementations specify their
-                  behavior.</ns0:dd>
-        </ns0:dl>
-        <ns0:p>Note: in most cases of implementation-defined behaviors,
+                  behavior.</dd>
+        </dl>
+        <p>Note: in most cases of implementation-defined behaviors,
                 as a matter of test suite design it is better to analyse
                 the set of possible implementation behaviors, define
                 version tokens for the possible behaviors, and specify
-                more informative results based on those tokens.  The value<ns0:tt>implementation-defined</ns0:tt>is provided for situations
-                where this is not feasible for whatever reason.</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>implementation-dependent</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root
+                more informative results based on those tokens.  The value<tt>implementation-defined</tt>is provided for situations
+                where this is not feasible for whatever reason.</p>
+        <dl>
+          <dt>
+            <tt>implementation-dependent</tt>
+          </dt>
+          <dd>(For instance tests) The value of the<tt>[validity]</tt>property on the validation root
                   depends upon some property or behavior which is
                   explicitly described in the relevant version of the spec
                   as "implementation-dependent", or otherwise explicitly
                   described as varying among implementations but not
                   "implementation-defined".  (For XSD 1.0, this will often
-                  take the form of a normative "<ns0:span class="rfc">may</ns0:span>" in the text.)</ns0:dd>
-          <ns0:dd>(For schema tests) The conformance of the schema
+                  take the form of a normative "<span class="rfc">may</span>" in the text.)</dd>
+          <dd>(For schema tests) The conformance of the schema
                   depends upon some property or behavior explicitly
                   described in the spec as "implementation-dependent" or
                   as varying among implementations, but not described as
-                  "implementation-defined".</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>indeterminate</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>The intended result is indeterminate for one of the
-                  following reasons, or for other reasons:<ns0:ul><ns0:li>The result is under-determined (the spec is vague
+                  "implementation-defined".</dd>
+          <dt>
+            <tt>indeterminate</tt>
+          </dt>
+          <dd>The intended result is indeterminate for one of the
+                  following reasons, or for other reasons:<ul><li>The result is under-determined (the spec is vague
                       or underspecified), but not described explicitly as
-                      varying among conforming implementations.</ns0:li><ns0:li>The spec imposed contradictory requirements on the
-                      result. (I.e. the result is<ns0:em>over-determined.)</ns0:em></ns0:li><ns0:li>There is an unresolved dispute within the working
+                      varying among conforming implementations.</li><li>The spec imposed contradictory requirements on the
+                      result. (I.e. the result is<em>over-determined.)</em></li><li>There is an unresolved dispute within the working
                       group as to what the spec requires the result to be.
                       (This includes cases where the working group cannot
                       agree on whether the spec explicitly labels the
                       result as implementation-dependent or
                       implementation-defined or not, as well as cases
                       where the group cannot agree on how to apply the
-                      spec to the case in hand.)</ns0:li></ns0:ul></ns0:dd>
-        </ns0:dl>
-        <ns0:p>N.B. the values<ns0:tt>implementation-dependent</ns0:tt>and<ns0:tt>implementation-defined</ns0:tt>should be used only when
+                      spec to the case in hand.)</li></ul></dd>
+        </dl>
+        <p>N.B. the values<tt>implementation-dependent</tt>and<tt>implementation-defined</tt>should be used only when
                 the spec is explicit about the implementation-dependence
                 of the result and it is thus clear that the
                 implementation-dependence is a design choice consciously
                 made by the working group. They must not be used in cases
                 where the spec simply appeals to some concept which it
-                turns out not to define: such cases are to be marked<ns0:tt>indeterminate</ns0:tt>.</ns0:p>
-        <ns0:p>Note:  in most cases, as a matter of language design
+                turns out not to define: such cases are to be marked<tt>indeterminate</tt>.</p>
+        <p>Note:  in most cases, as a matter of language design
                 it is better for the language specification to prescribe
                 clearly a particular result for a test, or to identify the
                 result explicitly as implementation-defined or
-                implementation-dependent.  The value<ns0:tt>indeterminate</ns0:tt>is provided for situations where
-                this has not been done for whatever reason.</ns0:p>
-        <ns0:p class="note">The value<ns0:tt>invalid-latent</ns0:tt>described
+                implementation-dependent.  The value<tt>indeterminate</tt>is provided for situations where
+                this has not been done for whatever reason.</p>
+        <p class="note">The value<tt>invalid-latent</tt>described
                 in earlier drafts of this schema document is no longer
                 needed; the version keywords for complex-type restriction
                 behaviors can be used to describe the relevant cases
-                more precisely.</ns0:p>
-      </ns0:div>
+                more precisely.</p>
+      </div>
     :cvar VALID:
     :cvar INVALID:
     :cvar NOT_KNOWN:
@@ -222,19 +222,19 @@ class ExpectedOutcome(Enum):
 
 
 class KnownToken(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote well-known (i.e. documented)
+        <p>Tokens to denote well-known (i.e. documented)
                 versions, features, or implementation-defined behaviors,
-                of XSD.</ns0:p>
-        <ns0:p>The<ns0:tt>known-token</ns0:tt>type is a union of several other
+                of XSD.</p>
+        <p>The<tt>known-token</tt>type is a union of several other
                 types, each with an enumeration of values.  Each sub-type
                 defines keywords for a set of mutually exclusive versions,
                 features, or behaviors, such that in any given schema
                 validation episode, at most one keyword in any subtype
                 will apply.  For examples, see the various subtypes
-                defined immediately below.</ns0:p>
-      </ns0:div>
+                defined immediately below.</p>
+      </div>
     :cvar VALUE_1_0:
     :cvar VALUE_1_1:
     :cvar VALUE_1_0_1E:
@@ -273,15 +273,15 @@ class KnownToken(Enum):
 
 
 class KnownXsdVersion(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote specific known versions of XSD.</ns0:p>
-        <ns0:p>Each token denotes the version of the XSD language
-                identified by the<ns0:tt>ts:standard-version-id</ns0:tt>attribute on the<ns0:tt>xsd:enumeration</ns0:tt>element.
-                That is, "<ns0:tt>1.0</ns0:tt>" denotes XSD 1.0 (without reference
-                to a particular edition), and "<ns0:tt>1.1</ns0:tt>" denotes XSD 1.1
-                (without referece to a particular edition).</ns0:p>
-      </ns0:div>
+        <p>Tokens to denote specific known versions of XSD.</p>
+        <p>Each token denotes the version of the XSD language
+                identified by the<tt>ts:standard-version-id</tt>attribute on the<tt>xsd:enumeration</tt>element.
+                That is, "<tt>1.0</tt>" denotes XSD 1.0 (without reference
+                to a particular edition), and "<tt>1.1</tt>" denotes XSD 1.1
+                (without referece to a particular edition).</p>
+      </div>
     :cvar VALUE_1_0:
     :cvar VALUE_1_1:
     """
@@ -290,32 +290,32 @@ class KnownXsdVersion(Enum):
 
 
 class RuntimeSchemaError(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote different implementation-defined
+        <p>Tokens to denote different implementation-defined
                 behavior in the presence of faulty restriction in
-                a complex-type definition.</ns0:p>
-        <ns0:p>A full explanation of this token and its meaning
+                a complex-type definition.</p>
+        <p>A full explanation of this token and its meaning
                 is needed, but not yet available. For the moment let it
-                suffice to say that if an<ns0:tt>all</ns0:tt>-group
+                suffice to say that if an<tt>all</tt>-group
                 in a restriction allows content not allowed by
                 the base type, the processor is not required
                 to detect the problem by inspection of the schema
                 in isolation.  Three behaviors are allowed; the choice
                 among them is implementation-defined.  The values
-                denoting the three behaviors are these.</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>CTR-all-compile</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>Compile-time detection:  the processor always
+                denoting the three behaviors are these.</p>
+        <dl>
+          <dt>
+            <tt>CTR-all-compile</tt>
+          </dt>
+          <dd>Compile-time detection:  the processor always
                   detects the problem by examining the schema in
                   isolation; it warrants that no non-conforming
-                  schema will ever be used in validation.</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>CTR-all-runtime</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>Run-time detection:  the processor never
+                  schema will ever be used in validation.</dd>
+          <dt>
+            <tt>CTR-all-runtime</tt>
+          </dt>
+          <dd>Run-time detection:  the processor never
                   detects the problem by examining the schema in
                   isolation; it detects it always and only when
                   an instance of the type is valid against the
@@ -328,18 +328,18 @@ class RuntimeSchemaError(Enum):
                   (Processors that don't always check the declaration
                   in isolation will need to validate each instance
                   both against its governing type and against the
-                  base type.)</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>CTR-all-idep</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>Implementation-dependent detection:  the processor
+                  base type.)</dd>
+          <dt>
+            <tt>CTR-all-idep</tt>
+          </dt>
+          <dd>Implementation-dependent detection:  the processor
                   sometimes detects the problem by examining the schema in
                   isolation, sometimes when examining an instance.
-                  No guarantees.</ns0:dd>
-        </ns0:dl>
-        <ns0:p>Note, 20 January 2012.  Is this distinction still required,
-              or has it been overtaken by the change made to resolve<ns0:a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12185">bug 12185 Conditional Type Assignment and substitutability</ns0:a>(or other late changes)?</ns0:p>
-      </ns0:div>
+                  No guarantees.</dd>
+        </dl>
+        <p>Note, 20 January 2012.  Is this distinction still required,
+              or has it been overtaken by the change made to resolve<a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12185">bug 12185 Conditional Type Assignment and substitutability</a>(or other late changes)?</p>
+      </div>
     :cvar CTR_ALL_COMPILE:
     :cvar CTR_ALL_RUNTIME:
     :cvar CTR_ALL_IDEP:
@@ -365,63 +365,63 @@ class Status(Enum):
 
 
 class TestOutcome(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Enumerates the possible outcomes of running a test.
-                Usually, these are values of the<ns0:tt>[validity]</ns0:tt>property on the validation root.</ns0:p>
-        <ns0:p>The most common values are:</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>valid</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root is<ns0:tt>valid</ns0:tt>.</ns0:dd>
-          <ns0:dd>(For schema tests) The schema is a conforming schema.</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>invalid</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root is<ns0:tt>invalid</ns0:tt>.</ns0:dd>
-          <ns0:dd>(For schema tests) The schema is<ns0:em>not</ns0:em>a
-                  conforming schema.</ns0:dd>
-          <ns0:dt>
-            <ns0:tt>notKnown</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>(For instance tests) The value of the<ns0:tt>[validity]</ns0:tt>property on the validation root is<ns0:tt>notKnown</ns0:tt>.</ns0:dd>
-          <ns0:dd>(For schema tests, this value is meaningless.)</ns0:dd>
-        </ns0:dl>
-        <ns0:p>Note:  processors built as<ns0:a href="http://www.w3.org/TR/xmlschema11-1/#key-validator">instance validators</ns0:a>are not required by XSD to
+        <p>Enumerates the possible outcomes of running a test.
+                Usually, these are values of the<tt>[validity]</tt>property on the validation root.</p>
+        <p>The most common values are:</p>
+        <dl>
+          <dt>
+            <tt>valid</tt>
+          </dt>
+          <dd>(For instance tests) The value of the<tt>[validity]</tt>property on the validation root is<tt>valid</tt>.</dd>
+          <dd>(For schema tests) The schema is a conforming schema.</dd>
+          <dt>
+            <tt>invalid</tt>
+          </dt>
+          <dd>(For instance tests) The value of the<tt>[validity]</tt>property on the validation root is<tt>invalid</tt>.</dd>
+          <dd>(For schema tests) The schema is<em>not</em>a
+                  conforming schema.</dd>
+          <dt>
+            <tt>notKnown</tt>
+          </dt>
+          <dd>(For instance tests) The value of the<tt>[validity]</tt>property on the validation root is<tt>notKnown</tt>.</dd>
+          <dd>(For schema tests, this value is meaningless.)</dd>
+        </dl>
+        <p>Note:  processors built as<a href="http://www.w3.org/TR/xmlschema11-1/#key-validator">instance validators</a>are not required by XSD to
                 distinguish between invalid documents and documents with
                 unknown validity; it is thus not an absolute requirement
                 (although it is desirable for clarity)
-                that a test result distinguish<ns0:tt>invalid</ns0:tt>from<ns0:tt>notKnown</ns0:tt>outcomes.</ns0:p>
-        <ns0:p>One further value is needed only in fairly specialized
-                circumstances (but is essential there):</ns0:p>
-        <ns0:dl>
-          <ns0:dt>
-            <ns0:tt>runtime-schema-error</ns0:tt>
-          </ns0:dt>
-          <ns0:dd>
-            <ns0:p>(For instance tests) The instance has a schema with
+                that a test result distinguish<tt>invalid</tt>from<tt>notKnown</tt>outcomes.</p>
+        <p>One further value is needed only in fairly specialized
+                circumstances (but is essential there):</p>
+        <dl>
+          <dt>
+            <tt>runtime-schema-error</tt>
+          </dt>
+          <dd>
+            <p>(For instance tests) The instance has a schema with
                     a latent error (see description below in the documentation
-                    for type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>);
+                    for type<a href="#type_expected-outcome">ts:expected-outcome</a>);
                     the processor did not detect the latent error on the
                     corresponding schema test, but the instance document
                     has exposed the error (by including content
                     which is valid against the apparent content model of the
                     governing type, but not valid against the base type)
                     and the processor has detected the schema error in the
-                    course of instance validation.</ns0:p>
-            <ns0:p>Note: processors are encouraged, though not required, to
-                    distinguish this outcome from<ns0:tt>invalid</ns0:tt>, since
-                    on an instance test<ns0:tt>invalid</ns0:tt>normally means that
+                    course of instance validation.</p>
+            <p>Note: processors are encouraged, though not required, to
+                    distinguish this outcome from<tt>invalid</tt>, since
+                    on an instance test<tt>invalid</tt>normally means that
                     the processor has found an invalid instance, not a
-                    non-conforming schema.</ns0:p>
-          </ns0:dd>
-          <ns0:dd>
-            <ns0:p>(For schema tests) The value<ns0:tt>runtime-schema-error</ns0:tt>is meaningless for schema tests and should not be used for
-                    them.  (It would be a contradiction in terms.)</ns0:p>
-          </ns0:dd>
-        </ns0:dl>
-      </ns0:div>
+                    non-conforming schema.</p>
+          </dd>
+          <dd>
+            <p>(For schema tests) The value<tt>runtime-schema-error</tt>is meaningless for schema tests and should not be used for
+                    them.  (It would be a contradiction in terms.)</p>
+          </dd>
+        </dl>
+      </div>
     :cvar VALID:
     :cvar INVALID:
     :cvar NOT_KNOWN:
@@ -434,15 +434,15 @@ class TestOutcome(Enum):
 
 
 class UnicodeVersions(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote specific known versions of Unicode.</ns0:p>
-        <ns0:p>Each token denotes the version of the Unicode specification. The list
+        <p>Tokens to denote specific known versions of Unicode.</p>
+        <p>Each token denotes the version of the Unicode specification. The list
                 is not complete; in the only cases where results are known to vary
                 between Unicode versions, results are published for version 4.0.0
                 and 6.0.0. Implementors wishing to provide reference results for
-                other versions of Unicode are welcome to submit such results.</ns0:p>
-      </ns0:div>
+                other versions of Unicode are welcome to submit such results.</p>
+      </div>
     :cvar UNICODE_4_0_0:
     :cvar UNICODE_6_0_0:
     """
@@ -451,41 +451,41 @@ class UnicodeVersions(Enum):
 
 
 class XmlSubstrate(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote different versions of XML-dependent
+        <p>Tokens to denote different versions of XML-dependent
                 datatypes.  Conforming XSD 1.1 processors may support
                 XML 1.0-based datatypes, XML 1.1-based datatypes,
                 or both.  There is dispute in the working group over
                 whether conforming XSD 1.0 processors are allowed to
-                suport XML 1.1-based datatypes or not.</ns0:p>
-        <ns0:p>The value "<ns0:tt>XML-1.0</ns0:tt>" denotes processor support
+                suport XML 1.1-based datatypes or not.</p>
+        <p>The value "<tt>XML-1.0</tt>" denotes processor support
                 for, or test applicability to, XSD datatypes based on XML
                 1.0, without specifying a particular edition.  (This value
                 is retained for backward compatibility of this schema, but
                 it should be avoided unless there is no difference, for a
                 given test or test result, between editions 1-4 and
                 edition 5 of XML 1.0. Where there is a difference, the
-                values "<ns0:tt>XML-1.0-1e-4e</ns0:tt>" and "<ns0:tt>XML-1.0-5e</ns0:tt>"
+                values "<tt>XML-1.0-1e-4e</tt>" and "<tt>XML-1.0-5e</tt>"
                 should be used in preference.
                 (XSD 1.1 describes XML 1.0 Fifth Edition as the base
                 version in its normative reference, so in theory the
-                distinction between "<ns0:tt>XML-1.0-1e-4e</ns0:tt>" and
-                "<ns0:tt>XML-1.0-5e</ns0:tt>" is only relevant to XSD 1.0
+                distinction between "<tt>XML-1.0-1e-4e</tt>" and
+                "<tt>XML-1.0-5e</tt>" is only relevant to XSD 1.0
                 processors.  In practice, it may also be relevant for some
-                XSD 1.1 processors.</ns0:p>
-        <ns0:p>The value "<ns0:tt>XML-1.0-1e-4e</ns0:tt>" denotes processor support
+                XSD 1.1 processors.</p>
+        <p>The value "<tt>XML-1.0-1e-4e</tt>" denotes processor support
                 for, or test applicability to, XSD datatypes based on XML
-                1.0 First Edition through Fourth Edition.</ns0:p>
-        <ns0:p>The value "<ns0:tt>XML-1.0-5e</ns0:tt>" denotes processor support
+                1.0 First Edition through Fourth Edition.</p>
+        <p>The value "<tt>XML-1.0-5e</tt>" denotes processor support
                 for, or test applicability to, XSD datatypes based on XML
-                1.0 Fifth Edition.</ns0:p>
-        <ns0:p>The value "<ns0:tt>XML-1.1</ns0:tt>" denotes processor support
+                1.0 Fifth Edition.</p>
+        <p>The value "<tt>XML-1.1</tt>" denotes processor support
                 for, or test applicability to, XSD datatypes based on XML
-                1.1 (for which at the moment there is only one edition).</ns0:p>
-        <ns0:p>In most cases, of course, "<ns0:tt>XML-1.0-5e</ns0:tt>" and
-                "<ns0:tt>XML-1.1</ns0:tt>" will describe the same behaviors.</ns0:p>
-      </ns0:div>
+                1.1 (for which at the moment there is only one edition).</p>
+        <p>In most cases, of course, "<tt>XML-1.0-5e</tt>" and
+                "<tt>XML-1.1</tt>" will describe the same behaviors.</p>
+      </div>
     :cvar XML_1_0:
     :cvar XML_1_0_1E_4E:
     :cvar XML_1_0_5E:
@@ -498,34 +498,34 @@ class XmlSubstrate(Enum):
 
 
 class XpathInCta(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to distinguish tests which use only the "required
+        <p>Tokens to distinguish tests which use only the "required
                 subset" of XPath in conditional type assignment
                 from tests which use full XPath (or: any XPath outside
                 the subset) in conditional type assignment.
                 See "3.12.6 Constraints on Type Alternative Schema Components"
-                of the Structures spec, which reads in part</ns0:p>
-        <ns0:blockquote>
-          <ns0:p>A conforming processor must accept and process any XPath
+                of the Structures spec, which reads in part</p>
+        <blockquote>
+          <p>A conforming processor must accept and process any XPath
                 expression conforming to the "required subset" of [XPath 2.0]
-                defined by the following grammar.</ns0:p>
-          <ns0:p style="margin-left: 2em;">Note: Any XPath expression containing no static errors as
+                defined by the following grammar.</p>
+          <p style="margin-left: 2em;">Note: Any XPath expression containing no static errors as
                   defined in [XPath 2.0] may appear in a conforming schema.
                   Conforming processors may but are not required to support
                   XPath expressions not belonging to the required subset of
-                XPath.</ns0:p>
-        </ns0:blockquote>
-        <ns0:p>The value "<ns0:tt>restricted-xpath-in-CTA</ns0:tt>" denotes processor support
+                XPath.</p>
+        </blockquote>
+        <p>The value "<tt>restricted-xpath-in-CTA</tt>" denotes processor support
                 for, or test applicability to, the minimal subset of XPath
                 required of all conforming 1.1 processors.  All 1.1 processors
-                should support this feature and run tests marked with it.</ns0:p>
-        <ns0:p>The value "<ns0:tt>full-xpath-in-CTA</ns0:tt>" denotes processor support
+                should support this feature and run tests marked with it.</p>
+        <p>The value "<tt>full-xpath-in-CTA</tt>" denotes processor support
                 for, or test applicability to, full XPath in conditional type
-                assignment expressions.</ns0:p>
-        <ns0:p>(These token values were added 29 July 2011 to address bug<ns0:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13455">13455
-                XPath subset causes problem</ns0:a>.)</ns0:p>
-      </ns0:div>
+                assignment expressions.</p>
+        <p>(These token values were added 29 July 2011 to address bug<a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13455">13455
+                XPath subset causes problem</a>.)</p>
+      </div>
     :cvar RESTRICTED_XPATH_IN_CTA:
     :cvar FULL_XPATH_IN_CTA:
     """
@@ -534,18 +534,18 @@ class XpathInCta(Enum):
 
 
 class Xsd10Editions(Enum):
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>Tokens to denote specific editions of XSD 1.0.</ns0:p>
-        <ns0:p>Each token denotes the version of the XSD language
-                identified by the<ns0:tt>ts:standard-version-id</ns0:tt>attribute on the<ns0:tt>xsd:enumeration</ns0:tt>element.
+        <p>Tokens to denote specific editions of XSD 1.0.</p>
+        <p>Each token denotes the version of the XSD language
+                identified by the<tt>ts:standard-version-id</tt>attribute on the<tt>xsd:enumeration</tt>element.
                 That is,
-                "<ns0:tt>1.0-1e</ns0:tt>" and "<ns0:tt>1.0-2e</ns0:tt>" represent
+                "<tt>1.0-1e</tt>" and "<tt>1.0-2e</tt>" represent
                 1.0 First Edition and 1.0 Second Edition,
-                respectively.</ns0:p>
-        <ns0:p>Outside the context of XSD 1.0, these edition
-                identifiers have no meaning or applicability.</ns0:p>
-      </ns0:div>
+                respectively.</p>
+        <p>Outside the context of XSD 1.0, these edition
+                identifiers have no meaning or applicability.</p>
+      </div>
     :cvar VALUE_1_0_1E:
     :cvar VALUE_1_0_2E:
     """
@@ -555,13 +555,13 @@ class Xsd10Editions(Enum):
 
 @dataclass
 class Annotation:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>This is an exact copy of the<ns0:tt>annotation</ns0:tt>element defined in the Schema
+        <p>This is an exact copy of the<tt>annotation</tt>element defined in the Schema
                 Recommendation. It is duplicated here in order to replicate the
-                functionality of the<ns0:tt>xsd:annotation</ns0:tt>element and because the Schema for
-                Schemas cannot be imported.</ns0:p>
-      </ns0:div>
+                functionality of the<tt>xsd:annotation</tt>element and because the Schema for
+                Schemas cannot be imported.</p>
+      </div>
     :ivar appinfo:
     :ivar documentation:
     :ivar other_attributes:
@@ -597,62 +597,62 @@ class Annotation:
 
 @dataclass
 class Expected:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>The validation outcome prescribed by the spec
-                for a test in the XSTS.</ns0:p>
-        <ns0:p>This element has one optional attribute:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>version</ns0:tt>- a list of version tokens.
+        <p>The validation outcome prescribed by the spec
+                for a test in the XSTS.</p>
+        <p>This element has one optional attribute:</p>
+        <ul>
+          <li>
+            <p><tt>version</tt>- a list of version tokens.
                     The result specified is applicable to processor
-                    configurations supporting<ns0:em>all</ns0:em>of the
+                    configurations supporting<em>all</em>of the
                     indicated versions or features of XSD.
-                    See the definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
-            <ns0:p>It is an error for more than one<ns0:tt>expected</ns0:tt>element to be applicable to any given processor
+                    See the definition of the<a href="#type_version-info"><tt>version-info</tt></a>type.</p>
+            <p>It is an error for more than one<tt>expected</tt>element to be applicable to any given processor
                     configuration; this is most easily avoided by
-                    making sure that any two sibling<ns0:tt>expected</ns0:tt>elements have<ns0:tt>version</ns0:tt>attributes containing
-                    mutually exclusive tokens.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p class="note">Note: The meaning of the<ns0:tt>version</ns0:tt></ns0:p>
-        <ns0:p>On tests and elements for groups of
-                tests (<ns0:tt>testGroup</ns0:tt>etc.), a<ns0:tt>version</ns0:tt>attribute of the form<ns0:code>version="<ns0:i>x</ns0:i><ns0:i>y</ns0:i><ns0:i>z</ns0:i>"</ns0:code>means "If<ns0:strong>any</ns0:strong>of<ns0:tt>x</ns0:tt>,<ns0:tt>y</ns0:tt>, or<ns0:tt>z</ns0:tt>are supported, tests
-                in this group are applicable."</ns0:p>
-        <ns0:p>On the<ns0:tt>expected</ns0:tt>element, the
+                    making sure that any two sibling<tt>expected</tt>elements have<tt>version</tt>attributes containing
+                    mutually exclusive tokens.</p>
+          </li>
+        </ul>
+        <p class="note">Note: The meaning of the<tt>version</tt></p>
+        <p>On tests and elements for groups of
+                tests (<tt>testGroup</tt>etc.), a<tt>version</tt>attribute of the form<code>version="<i>x</i><i>y</i><i>z</i>"</code>means "If<strong>any</strong>of<tt>x</tt>,<tt>y</tt>, or<tt>z</tt>are supported, tests
+                in this group are applicable."</p>
+        <p>On the<tt>expected</tt>element, the
                 meaning changes in a crucial way: the tokens are connected
-                with an implicit<ns0:tt>and</ns0:tt>, not an<ns0:tt>or</ns0:tt>. So<ns0:code>version="<ns0:i>x</ns0:i><ns0:i>y</ns0:i><ns0:i>z</ns0:i>"</ns0:code>means
-                "If<ns0:strong>all</ns0:strong>of<ns0:tt>x</ns0:tt>,<ns0:tt>y</ns0:tt>, or<ns0:tt>z</ns0:tt>are supported, the prescribed outcome is as
-                described.  So on a test group,<ns0:code>version="1.0
-                  1.1"</ns0:code>means tests for both versions are included.
-                On an<ns0:tt>expected</ns0:tt>element,<ns0:code>version="1.0
-                  1.1"</ns0:code>would mean the expected result holds only if a
+                with an implicit<tt>and</tt>, not an<tt>or</tt>. So<code>version="<i>x</i><i>y</i><i>z</i>"</code>means
+                "If<strong>all</strong>of<tt>x</tt>,<tt>y</tt>, or<tt>z</tt>are supported, the prescribed outcome is as
+                described.  So on a test group,<code>version="1.0
+                  1.1"</code>means tests for both versions are included.
+                On an<tt>expected</tt>element,<code>version="1.0
+                  1.1"</code>would mean the expected result holds only if a
                 given processor is using both version 1.0 and version 1.1
                 in the same validation episode.  Since the two tokens are
                 defined as mutually exclusive, this would be a
-                contradiction.</ns0:p>
-        <ns0:p class="note">As a matter of test suite design, it
-                is a good idea to keep<ns0:tt>version</ns0:tt>attributes
-                on<ns0:tt>expected</ns0:tt>elements to a single token if
-                possible, to minimize opportunities for confusion.</ns0:p>
-        <ns0:p>And one required attribute:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>validity</ns0:tt>- indicates the expected outcome
-                    of the test, using a value of type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>.</ns0:p>
-            <ns0:p>For an instance test, this typically indicates the expected
-                    value of the<ns0:code>[validity]</ns0:code>property on the
+                contradiction.</p>
+        <p class="note">As a matter of test suite design, it
+                is a good idea to keep<tt>version</tt>attributes
+                on<tt>expected</tt>elements to a single token if
+                possible, to minimize opportunities for confusion.</p>
+        <p>And one required attribute:</p>
+        <ul>
+          <li>
+            <p><tt>validity</tt>- indicates the expected outcome
+                    of the test, using a value of type<a href="#type_expected-outcome">ts:expected-outcome</a>.</p>
+            <p>For an instance test, this typically indicates the expected
+                    value of the<code>[validity]</code>property on the
                     root element of the instance document, or indicates
-                    that the value may vary among processors.</ns0:p>
-            <ns0:p>For a schema test, this indicates whether the
+                    that the value may vary among processors.</p>
+            <p>For a schema test, this indicates whether the
                     schema created from the schema documents in the test
-                    is expected to be a conforming schema (<ns0:code>valid</ns0:code>)
-                    or a non-conforming schema (<ns0:code>invalid</ns0:code>).
-                    The value<ns0:code>notKnown</ns0:code>has no meaning
-                    for a schema test.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                    is expected to be a conforming schema (<code>valid</code>)
+                    or a non-conforming schema (<code>invalid</code>).
+                    The value<code>notKnown</code>has no meaning
+                    for a schema test.</p>
+          </li>
+        </ul>
+      </div>
     :ivar validity:
     :ivar version:
     :ivar other_attributes:
@@ -781,46 +781,46 @@ class StatusEntry:
 
 @dataclass
 class TestResult:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>The result of an individual instance test or a schema test.</ns0:p>
-        <ns0:p>This element has four required attributes:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>validity</ns0:tt>- the validition outcome of the test.
-                  A value of type<ns0:a href="#type_expected-outcome">ts:expected-outcome</ns0:a>,
+        <p>The result of an individual instance test or a schema test.</p>
+        <p>This element has four required attributes:</p>
+        <ul>
+          <li><tt>validity</tt>- the validition outcome of the test.
+                  A value of type<a href="#type_expected-outcome">ts:expected-outcome</a>,
                   i.e.
-                  one of "<ns0:tt>valid</ns0:tt>", "<ns0:tt>invalid</ns0:tt>",
-                  "<ns0:tt>notKnown</ns0:tt>", or "<ns0:tt>runtime-schema-error</ns0:tt>".</ns0:li>
-          <ns0:li><ns0:tt>set</ns0:tt>- the value of the "<ns0:tt>name</ns0:tt>"
-                  attribute of the test set to which the test belongs.</ns0:li>
-          <ns0:li><ns0:tt>group</ns0:tt>- the value of the "<ns0:tt>name</ns0:tt>"
-                  attribute of the test group to which the test belongs.</ns0:li>
-          <ns0:li><ns0:tt>test</ns0:tt>- the value of the "<ns0:tt>name</ns0:tt>"
+                  one of "<tt>valid</tt>", "<tt>invalid</tt>",
+                  "<tt>notKnown</tt>", or "<tt>runtime-schema-error</tt>".</li>
+          <li><tt>set</tt>- the value of the "<tt>name</tt>"
+                  attribute of the test set to which the test belongs.</li>
+          <li><tt>group</tt>- the value of the "<tt>name</tt>"
+                  attribute of the test group to which the test belongs.</li>
+          <li><tt>test</tt>- the value of the "<tt>name</tt>"
                   attribute of the schema test or instance test, the
-                  validation outcome of which this result reports.</ns0:li>
-        </ns0:ul>
-        <ns0:p>NOTE: The "<ns0:tt>set</ns0:tt>", "<ns0:tt>group</ns0:tt>" and
-                "<ns0:tt>test</ns0:tt>" attributes are used to uniquely identify
+                  validation outcome of which this result reports.</li>
+        </ul>
+        <p>NOTE: The "<tt>set</tt>", "<tt>group</tt>" and
+                "<tt>test</tt>" attributes are used to uniquely identify
                 the test within the XSTS for which this result reports the
-                validation outcome.  Each matches the "<ns0:tt>name</ns0:tt>"
-                attribute of the respective element in the test suite.</ns0:p>
-        <ns0:p>This element has one optional attribute:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>normalizedLoad</ns0:tt>- a relative load value, intended as an indicator
+                validation outcome.  Each matches the "<tt>name</tt>"
+                attribute of the respective element in the test suite.</p>
+        <p>This element has one optional attribute:</p>
+        <ul>
+          <li><tt>normalizedLoad</tt>- a relative load value, intended as an indicator
                   of the resource requirements of an individual
                   test. Values may be based on processing time,
                   memory usage or a combination of the two.
-                  Values should be in the vicinity of 1.0.</ns0:li>
-        </ns0:ul>
-        <ns0:p>The element has one optional element:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of more detailed
-                  (<ns0:tt>ts:documentation</ns0:tt>) or structured (<ns0:tt>ts:appinfo</ns0:tt>)
+                  Values should be in the vicinity of 1.0.</li>
+        </ul>
+        <p>The element has one optional element:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of more detailed
+                  (<tt>ts:documentation</tt>) or structured (<tt>ts:appinfo</tt>)
                   information or commentary regarding the individual
-                  test result. Reporters are encouraged to use<ns0:tt>annotation/appinfo</ns0:tt>to report more detailed outcome
-                  information, such as error and warning messages.</ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                  test result. Reporters are encouraged to use<tt>annotation/appinfo</tt>to report more detailed outcome
+                  information, such as error and warning messages.</li>
+        </ul>
+      </div>
     :ivar annotation:
     :ivar validity:
     :ivar set:
@@ -887,21 +887,21 @@ class TestResult:
 
 @dataclass
 class Current(StatusEntry):
-    """<ns0:div>
+    """<div>
 
-      <ns0:p>The current status of a test in the XSTS.</ns0:p>
-      <ns0:p>This element has two attributes, both of which are
-              required:</ns0:p>
-      <ns0:ul>
-        <ns0:li><ns0:tt>status</ns0:tt>- the status of the test. One of
-                "<ns0:tt>accepted</ns0:tt>", "<ns0:tt>stable</ns0:tt>",
-                "<ns0:tt>disputed-test</ns0:tt>" or "<ns0:tt>disputed-spec</ns0:tt>"
-                (see the XSTS website for an explanation of these values).</ns0:li>
-        <ns0:li><ns0:tt>date</ns0:tt>- the date on which the test or the
-                metadata (including the value in the<ns0:tt>status</ns0:tt>attribute, but also anything else
-                of importance) was last changed.</ns0:li>
-      </ns0:ul>
-    </ns0:div>
+      <p>The current status of a test in the XSTS.</p>
+      <p>This element has two attributes, both of which are
+              required:</p>
+      <ul>
+        <li><tt>status</tt>- the status of the test. One of
+                "<tt>accepted</tt>", "<tt>stable</tt>",
+                "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
+                (see the XSTS website for an explanation of these values).</li>
+        <li><tt>date</tt>- the date on which the test or the
+                metadata (including the value in the<tt>status</tt>attribute, but also anything else
+                of importance) was last changed.</li>
+      </ul>
+    </div>
     """
     class Meta:
         name = "current"
@@ -910,11 +910,11 @@ class Current(StatusEntry):
 
 @dataclass
 class DocumentationReference(Ref):
-    """<ns0:div>
+    """<div>
 
-    <ns0:p>A link to documentation relevant to a test, such as a link to
-    the           Recommendation, an erratum, an archived email discussion,
-    etc.</ns0:p> </ns0:div>
+    <p>A link to documentation relevant to a test, such as a link to the
+    Recommendation, an erratum, an archived email discussion, etc.</p>
+    </div>
     """
     class Meta:
         name = "documentationReference"
@@ -930,21 +930,21 @@ class InstanceDocument(Ref):
 
 @dataclass
 class Prior(StatusEntry):
-    """<ns0:div>
+    """<div>
 
-      <ns0:p>A former status of a test in the XSTS.</ns0:p>
-      <ns0:p>This element has two attributes, both of which are
-              required:</ns0:p>
-      <ns0:ul>
-        <ns0:li><ns0:tt>status</ns0:tt>- the former status of the test. One of
-                "<ns0:tt>accepted</ns0:tt>", "<ns0:tt>stable</ns0:tt>",
-                "<ns0:tt>disputed-test</ns0:tt>" or "<ns0:tt>disputed-spec</ns0:tt>"
-                (see the XSTS website for an explanation of these values).</ns0:li>
-        <ns0:li><ns0:tt>date</ns0:tt>- the date on which the test or the
-                metadata (including the value in the<ns0:tt>status</ns0:tt>attribute, but also anything else
-                of importance) was last changed.</ns0:li>
-      </ns0:ul>
-    </ns0:div>
+      <p>A former status of a test in the XSTS.</p>
+      <p>This element has two attributes, both of which are
+              required:</p>
+      <ul>
+        <li><tt>status</tt>- the former status of the test. One of
+                "<tt>accepted</tt>", "<tt>stable</tt>",
+                "<tt>disputed-test</tt>" or "<tt>disputed-spec</tt>"
+                (see the XSTS website for an explanation of these values).</li>
+        <li><tt>date</tt>- the date on which the test or the
+                metadata (including the value in the<tt>status</tt>attribute, but also anything else
+                of importance) was last changed.</li>
+      </ul>
+    </div>
     """
     class Meta:
         name = "prior"
@@ -967,46 +967,46 @@ class TestSetRef(Ref):
 
 @dataclass
 class TestSuiteResults:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>This is the root element of a document containing a test
+        <p>This is the root element of a document containing a test
                 result report. The report takes the form of a set of test
                 results returned by a processor/validator when run against
-                the XSTS.</ns0:p>
-        <ns0:p>It has three required attributes:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>suite</ns0:tt>- the name of the test suite to which
+                the XSTS.</p>
+        <p>It has three required attributes:</p>
+        <ul>
+          <li><tt>suite</tt>- the name of the test suite to which
                   these results correspond.  This should be the value of
-                  the<ns0:tt>name</ns0:tt>attribute of the<ns0:tt>testSuite</ns0:tt>element at the root of the test suite document
-                  describing the tests to which these results correspond.</ns0:li>
-          <ns0:li><ns0:tt>processor</ns0:tt>- some identifying information for
+                  the<tt>name</tt>attribute of the<tt>testSuite</tt>element at the root of the test suite document
+                  describing the tests to which these results correspond.</li>
+          <li><tt>processor</tt>- some identifying information for
                   the processor/ validator which produced the reported
                   results. The value of this attribute is left to the
-                  discretion of the reporter.</ns0:li>
-          <ns0:li><ns0:tt>submitDate</ns0:tt>- the date on which these results
-                  were submitted to the XSTS Task Force.</ns0:li>
-        </ns0:ul>
-        <ns0:p>The element also has one optional attribute:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>publicationPermission</ns0:tt>- the degree to which the
+                  discretion of the reporter.</li>
+          <li><tt>submitDate</tt>- the date on which these results
+                  were submitted to the XSTS Task Force.</li>
+        </ul>
+        <p>The element also has one optional attribute:</p>
+        <ul>
+          <li><tt>publicationPermission</tt>- the degree to which the
                   result reporter authorizes the W3C to disseminate the
-                  reported results. One of "<ns0:tt>W3C members</ns0:tt>" or
-                  "<ns0:tt>public</ns0:tt>" (see the XSTS website for an explanation
+                  reported results. One of "<tt>W3C members</tt>" or
+                  "<tt>public</tt>" (see the XSTS website for an explanation
                   of these values). If this attribute is absent, no
-                  permission to publish is granted.</ns0:li>
-        </ns0:ul>
-        <ns0:p>This element has two optional elements:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of more
-                  detailed (<ns0:tt>ts:documentation</ns0:tt>) or structured
-                  (<ns0:tt>ts:appinfo</ns0:tt>) information or commentary
-                  regarding the enclosed test results.</ns0:li>
-          <ns0:li><ns0:tt>testResult</ns0:tt>- any number of reports of the
+                  permission to publish is granted.</li>
+        </ul>
+        <p>This element has two optional elements:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of more
+                  detailed (<tt>ts:documentation</tt>) or structured
+                  (<tt>ts:appinfo</tt>) information or commentary
+                  regarding the enclosed test results.</li>
+          <li><tt>testResult</tt>- any number of reports of the
                   results of individual tests. Any results may be omitted,
                   particularly those for tests of features for which the
-                  processor claims no support.</ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                  processor claims no support.</li>
+        </ul>
+      </div>
     :ivar annotation:
     :ivar test_result:
     :ivar suite:
@@ -1084,81 +1084,81 @@ class TestSuiteResults:
 
 @dataclass
 class InstanceTest:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>This element groups together information about an instance
+        <p>This element groups together information about an instance
                 document which should be validated against the schema
-                referenced in the enclosing<ns0:tt>testGroup</ns0:tt>.</ns0:p>
-        <ns0:p>Note: per section 5.2 "Assessing Schema-Validity" of the
+                referenced in the enclosing<tt>testGroup</tt>.</p>
+        <p>Note: per section 5.2 "Assessing Schema-Validity" of the
                 Recommendation "XML Schema Part 1: Structures", validation
                 may be started in a variety of ways.  For the purposes of
-                the XSTS, only the third method shall be used:</ns0:p>
-        <ns0:blockquote>
-          <ns0:p>The processor starts from Schema-Validity Assessment
+                the XSTS, only the third method shall be used:</p>
+        <blockquote>
+          <p>The processor starts from Schema-Validity Assessment
                   (Element) (3.3.4) with no stipulated declaration or
-                  definition.</ns0:p>
-        </ns0:blockquote>
-        <ns0:p>The validation root is the outermost element in the
-                instance document.</ns0:p>
-        <ns0:p>The<ns0:tt>instanceTest</ns0:tt>element has one required
-                attribute:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>name</ns0:tt>- the name of the instance document, which
-                  must differ from the name of any other<ns0:tt>schemaTest</ns0:tt>or<ns0:tt>instanceTest</ns0:tt>element
-                  within the enclosing<ns0:tt>testGroup</ns0:tt></ns0:li>
-        </ns0:ul>
-        <ns0:p>and one attribute which is optional, for signaling
+                  definition.</p>
+        </blockquote>
+        <p>The validation root is the outermost element in the
+                instance document.</p>
+        <p>The<tt>instanceTest</tt>element has one required
+                attribute:</p>
+        <ul>
+          <li><tt>name</tt>- the name of the instance document, which
+                  must differ from the name of any other<tt>schemaTest</tt>or<tt>instanceTest</tt>element
+                  within the enclosing<tt>testGroup</tt></li>
+        </ul>
+        <p>and one attribute which is optional, for signaling
                 that the test is applicable only to a particular set of
-                versions of XSD:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>version</ns0:tt>- Tests which only apply to certain
-                    versions of XML Schema list those versions in the<ns0:tt>version</ns0:tt>attribute.</ns0:p>
-            <ns0:p>Processors supporting<ns0:em>any</ns0:em>version or feature
+                versions of XSD:</p>
+        <ul>
+          <li>
+            <p><tt>version</tt>- Tests which only apply to certain
+                    versions of XML Schema list those versions in the<tt>version</tt>attribute.</p>
+            <p>Processors supporting<em>any</em>version or feature
                     indicated by a keyword in the attribute should run the
                     test.  (Or, more declaratively: the test is meaningful
                     to any processor which supports any of the features or
                     versions listed.)  If no value is specified, all
                     processors which haven't already skipped the enclosing
                     test group, test set, or test suite should run the
-                    test.</ns0:p>
-            <ns0:p>The value is a list of version tokens.  See the
-                    definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
-            <ns0:p class="note">Note: running instance tests with a
+                    test.</p>
+            <p>The value is a list of version tokens.  See the
+                    definition of the<a href="#type_version-info"><tt>version-info</tt></a>type.</p>
+            <p class="note">Note: running instance tests with a
                     processor for an inapplicable version may produce an
                     failure owing to non-conformant constructs in the
                     schema document; if the processor does not detect the
                     problem or continues anyway, the results are certain
-                    to be meaningless.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p>One child element is required:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>instanceDocument</ns0:tt>- a link to a file containing
-                  the instance document.</ns0:li>
-        </ns0:ul>
-        <ns0:p>Four child elements may optionally be present:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of general
-                  documentation</ns0:li>
-          <ns0:li><ns0:tt>expected</ns0:tt>- the prescribed validation outcome for
+                    to be meaningless.</p>
+          </li>
+        </ul>
+        <p>One child element is required:</p>
+        <ul>
+          <li><tt>instanceDocument</tt>- a link to a file containing
+                  the instance document.</li>
+        </ul>
+        <p>Four child elements may optionally be present:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of general
+                  documentation</li>
+          <li><tt>expected</tt>- the prescribed validation outcome for
                   the instance document.  Optional, and repeatable.
-                  Each<ns0:tt>expected</ns0:tt>element indicates the result
+                  Each<tt>expected</tt>element indicates the result
                   on this test for a particular set of versions of the
-                  language.</ns0:li>
-          <ns0:li><ns0:tt>current</ns0:tt>- the current status of this test in
+                  language.</li>
+          <li><tt>current</tt>- the current status of this test in
                   the XSTS (an indication of the test's accuracy in testing
-                  the feature it is intended to test).</ns0:li>
-          <ns0:li><ns0:tt>prior</ns0:tt>- the history of any changes in the
-                  status of this test.</ns0:li>
-        </ns0:ul>
-        <ns0:p>The elements "<ns0:tt>expected</ns0:tt>" and "<ns0:tt>current</ns0:tt>" may
+                  the feature it is intended to test).</li>
+          <li><tt>prior</tt>- the history of any changes in the
+                  status of this test.</li>
+        </ul>
+        <p>The elements "<tt>expected</tt>" and "<tt>current</tt>" may
                 be absent when tests are contributed, but will always be
-                present for tests included in the XSTS.</ns0:p>
-        <ns0:p>The<ns0:tt>current</ns0:tt>and<ns0:tt>prior</ns0:tt>elements should
+                present for tests included in the XSTS.</p>
+        <p>The<tt>current</tt>and<tt>prior</tt>elements should
                 be used to keep a change history of the test; see
-                discussion under the<ns0:a href="#elem_schemaTest"><ns0:tt>schemaTest</ns0:tt></ns0:a>element.</ns0:p>
-      </ns0:div>
+                discussion under the<a href="#elem_schemaTest"><tt>schemaTest</tt></a>element.</p>
+      </div>
     :ivar annotation:
     :ivar instance_document:
     :ivar expected:
@@ -1236,80 +1236,80 @@ class InstanceTest:
 
 @dataclass
 class SchemaTest:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>This element groups together information about the schema
-                for a particular test group.</ns0:p>
-        <ns0:p>It has one attribute which is required:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>name</ns0:tt>- the name of the schema test, which must be
-                  unique within the enclosing<ns0:tt>testGroup</ns0:tt>(i.e. it must
-                  differ from the name(s) of any associated<ns0:tt>instanceTest</ns0:tt>elements).</ns0:li>
-        </ns0:ul>
-        <ns0:p>and one attribute which is optional, for identifying a subset
-                of versions and/or editions for which the test is valid:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>version</ns0:tt>- Tests which only apply to certain
-                    versions of XML Schema list those versions in the<ns0:tt>version</ns0:tt>attribute.  Processors supporting<ns0:em>any</ns0:em>version or feature indicated by a keyword
+        <p>This element groups together information about the schema
+                for a particular test group.</p>
+        <p>It has one attribute which is required:</p>
+        <ul>
+          <li><tt>name</tt>- the name of the schema test, which must be
+                  unique within the enclosing<tt>testGroup</tt>(i.e. it must
+                  differ from the name(s) of any associated<tt>instanceTest</tt>elements).</li>
+        </ul>
+        <p>and one attribute which is optional, for identifying a subset
+                of versions and/or editions for which the test is valid:</p>
+        <ul>
+          <li>
+            <p><tt>version</tt>- Tests which only apply to certain
+                    versions of XML Schema list those versions in the<tt>version</tt>attribute.  Processors supporting<em>any</em>version or feature indicated by a keyword
                     in the attribute should run the test.  (Or, phrased
                     more declaratively: the test is meaningful to any
                     processor which supports any of the features or
-                    versions listed.)</ns0:p>
-            <ns0:p>If no value is specified, all processors which
+                    versions listed.)</p>
+            <p>If no value is specified, all processors which
                     haven't already skipped the enclosing test group,
-                    test set, or test suite should run the test.</ns0:p>
-            <ns0:p>The value is a list of version tokens.  See the
-                    definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
-            <ns0:p>Note that the omission of a version token on a schema
+                    test set, or test suite should run the test.</p>
+            <p>The value is a list of version tokens.  See the
+                    definition of the<a href="#type_version-info"><tt>version-info</tt></a>type.</p>
+            <p>Note that the omission of a version token on a schema
                     test is in some sense strictly advisory: any schema
                     test is meaningful for any processor in any
                     configuration.  For processor configurations not
                     supporting any of the features or versions named, the
                     expected result is that the schema is not a conforming
-                    schema.  This will<ns0:em>not</ns0:em>be indicated with an
-                    explicit<ns0:tt>expected</ns0:tt>element.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p>One child element is required:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>schemaDocument</ns0:tt>- at least one link to a file
+                    schema.  This will<em>not</em>be indicated with an
+                    explicit<tt>expected</tt>element.</p>
+          </li>
+        </ul>
+        <p>One child element is required:</p>
+        <ul>
+          <li><tt>schemaDocument</tt>- at least one link to a file
                   containing a schema document. The schema for the test is
                   constructed from the set (or from other schemas via
-                  import).</ns0:li>
-        </ns0:ul>
-        <ns0:p>Four child elements may optionally be present:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of general
-                  documentation</ns0:li>
-          <ns0:li><ns0:tt>expected</ns0:tt>- indicates the conformance or
+                  import).</li>
+        </ul>
+        <p>Four child elements may optionally be present:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of general
+                  documentation</li>
+          <li><tt>expected</tt>- indicates the conformance or
                   non-conformance of the schema described by the schema
                   document(s)
-                  (<ns0:tt>valid</ns0:tt>= conformant,<ns0:tt>invalid</ns0:tt>=
-                  non-conformant).</ns0:li>
-          <ns0:li><ns0:tt>current</ns0:tt>- the current status of this test in
+                  (<tt>valid</tt>= conformant,<tt>invalid</tt>=
+                  non-conformant).</li>
+          <li><tt>current</tt>- the current status of this test in
                   the XSTS (an indication of the test's accuracy in testing
-                  the feature it is intended to test).</ns0:li>
-          <ns0:li><ns0:tt>prior</ns0:tt>- the history of any changes in the
-                  status of this test.</ns0:li>
-        </ns0:ul>
-        <ns0:p>The elements "<ns0:tt>expected</ns0:tt>" and "<ns0:tt>current</ns0:tt>"
+                  the feature it is intended to test).</li>
+          <li><tt>prior</tt>- the history of any changes in the
+                  status of this test.</li>
+        </ul>
+        <p>The elements "<tt>expected</tt>" and "<tt>current</tt>"
                 may be absent when tests are contributed, but will always
-                be present for tests included in the XSTS.</ns0:p>
-        <ns0:p>The<ns0:tt>current</ns0:tt>and<ns0:tt>prior</ns0:tt>elements were originally
+                be present for tests included in the XSTS.</p>
+        <p>The<tt>current</tt>and<tt>prior</tt>elements were originally
                 designed for tracking changes of status in tests; they can and
                 should be used to keep a general change history of the test.
                 Whenever anything changes that may be of importance for users
-                of the test suite, it is appropriate to clone the existing<ns0:tt>current</ns0:tt>element into a pair of similar elements, then
-                rename the second one<ns0:tt>prior</ns0:tt>.  In the new<ns0:tt>current</ns0:tt>element, the change made should be described in the<ns0:tt>annotation</ns0:tt>children, and the date of the change
-                should be recorded.</ns0:p>
-        <ns0:p>Examples:  The status of the test changes.  The expected
+                of the test suite, it is appropriate to clone the existing<tt>current</tt>element into a pair of similar elements, then
+                rename the second one<tt>prior</tt>.  In the new<tt>current</tt>element, the change made should be described in the<tt>annotation</tt>children, and the date of the change
+                should be recorded.</p>
+        <p>Examples:  The status of the test changes.  The expected
                 result is questions and reaffirmed.  The expected result is
                 changed, or multiple expected results are given for different
-                processor configurations.</ns0:p>
-        <ns0:p>For status changes involving bug reports, the relevant status
-                entries should have a Bugzilla cross-reference.</ns0:p>
-      </ns0:div>
+                processor configurations.</p>
+        <p>For status changes involving bug reports, the relevant status
+                entries should have a Bugzilla cross-reference.</p>
+      </div>
     :ivar annotation:
     :ivar schema_document:
     :ivar expected:
@@ -1388,60 +1388,60 @@ class SchemaTest:
 
 @dataclass
 class TestSuite:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>The root element of a document describing a set of tests for one
-                or more versions of W3C XML Schema.</ns0:p>
-        <ns0:p>The element has three attributes, each of which is required:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>name</ns0:tt>- the name of this test suite.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>releaseDate</ns0:tt>- the date on which this test
+        <p>The root element of a document describing a set of tests for one
+                or more versions of W3C XML Schema.</p>
+        <p>The element has three attributes, each of which is required:</p>
+        <ul>
+          <li>
+            <p><tt>name</tt>- the name of this test suite.</p>
+          </li>
+          <li>
+            <p><tt>releaseDate</tt>- the date on which this test
                   suite was released. This value serves to identify the
-                  version of the test suite.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>schemaVersion</ns0:tt>- the versions of XSD for which
+                  version of the test suite.</p>
+          </li>
+          <li>
+            <p><tt>schemaVersion</tt>- the versions of XSD for which
                   the tests are designed.  This has documentary function
                   only, and is intended for human readers.  The
                   machine-processable version information is handled by
-                  the<ns0:tt>version</ns0:tt>attribute.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>version</ns0:tt>- a list of version tokens indicating
+                  the<tt>version</tt>attribute.</p>
+          </li>
+          <li>
+            <p><tt>version</tt>- a list of version tokens indicating
                     versions and features for which at least some tests in the
-                    test suite are applicable.</ns0:p>
-            <ns0:p>Any processor or processor configuration which
-                    supports<ns0:em>any</ns0:em>of the tokens given should run
+                    test suite are applicable.</p>
+            <p>Any processor or processor configuration which
+                    supports<em>any</em>of the tokens given should run
                     the tests.  Processors which support none of the named
                     features can skip the entire test suite without loss.
-                    If no<ns0:tt>version</ns0:tt>value is given, or if the value
+                    If no<tt>version</tt>value is given, or if the value
                     is the empty string, all processors should run the
-                    tests.</ns0:p>
-            <ns0:p>For example<ns0:code>version="1.1"</ns0:code>on a test suite
+                    tests.</p>
+            <p>For example<code>version="1.1"</code>on a test suite
                     element indicates that XSD 1.1 processors will find
                     relevant tests, and XSD 1.0 processors will not,
-                    while<ns0:code>version="1.0 1.1"</ns0:code>, or no<ns0:code>version</ns0:code>attribute at all, indicates
-                    that the test suite contains tests relevant to both.</ns0:p>
-            <ns0:p>Logically, the<ns0:tt>version</ns0:tt>attribute on
-                    the<ns0:tt>testSuite</ns0:tt>element, if given explicitly,
-                    should include all the tokens used on any<ns0:tt>testSet</ns0:tt>,<ns0:tt>testGroup</ns0:tt>,<ns0:tt>schemaTest</ns0:tt>, or<ns0:tt>instanceTest</ns0:tt>in the
+                    while<code>version="1.0 1.1"</code>, or no<code>version</code>attribute at all, indicates
+                    that the test suite contains tests relevant to both.</p>
+            <p>Logically, the<tt>version</tt>attribute on
+                    the<tt>testSuite</tt>element, if given explicitly,
+                    should include all the tokens used on any<tt>testSet</tt>,<tt>testGroup</tt>,<tt>schemaTest</tt>, or<tt>instanceTest</tt>in the
                     test suite, and no others.  This is not necessarily
                     enforced, however, by the schema for this
-                    vocabulary.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p>Two child elements may optionally be present:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of
-                  general documentation.</ns0:li>
-          <ns0:li><ns0:tt>testSetRef</ns0:tt>- a set of references to the sets
+                    vocabulary.</p>
+          </li>
+        </ul>
+        <p>Two child elements may optionally be present:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of
+                  general documentation.</li>
+          <li><tt>testSetRef</tt>- a set of references to the sets
                   of tests which make up this test suite. No two test sets
-                  referenced may have the same name.</ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                  referenced may have the same name.</li>
+        </ul>
+      </div>
     :ivar annotation:
     :ivar test_set_ref:
     :ivar name:
@@ -1513,87 +1513,87 @@ class TestSuite:
 
 @dataclass
 class TestGroup:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>This element groups a collection of closely related
+        <p>This element groups a collection of closely related
                 tests. All instance tests in the group are to be
-                validated against the same schema; if a<ns0:tt>schemaTest</ns0:tt>is present, it is the schema produced for that test
-                which should be used for the instance tests; if no<ns0:tt>schemaTest</ns0:tt>is present, the instance tests
+                validated against the same schema; if a<tt>schemaTest</tt>is present, it is the schema produced for that test
+                which should be used for the instance tests; if no<tt>schemaTest</tt>is present, the instance tests
                 should be validated against a schema consisting only
-                of the built-in components.</ns0:p>
-        <ns0:p>The<ns0:tt>testGroup</ns0:tt>element has one attribute which is
-                required:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>name</ns0:tt>- an identifier for the<ns0:tt>testGroup</ns0:tt>which differs from the name of any other<ns0:tt>testGroup</ns0:tt>in the enclosing<ns0:tt>testSet</ns0:tt>.</ns0:li>
-        </ns0:ul>
-        <ns0:p>And one attribute which is optional:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>version</ns0:tt>- a list of version tokens, indicating
+                of the built-in components.</p>
+        <p>The<tt>testGroup</tt>element has one attribute which is
+                required:</p>
+        <ul>
+          <li><tt>name</tt>- an identifier for the<tt>testGroup</tt>which differs from the name of any other<tt>testGroup</tt>in the enclosing<tt>testSet</tt>.</li>
+        </ul>
+        <p>And one attribute which is optional:</p>
+        <ul>
+          <li>
+            <p><tt>version</tt>- a list of version tokens, indicating
                     that the tests in the group are applicable to implementations
-                    supporting<ns0:em>any</ns0:em>of the versions or features
+                    supporting<em>any</em>of the versions or features
                     or behaviors indicated.  Any processor or processor
-                    configuration which supports<ns0:em>any</ns0:em>of the features
-                    indicated should run the tests.  Processors which support<ns0:em>none</ns0:em>of them can skip the entire test set.
-                    See the definition of the<ns0:a href="#type_version-info"><ns0:tt>version-info</ns0:tt></ns0:a>type.</ns0:p>
-            <ns0:p>Logically, all keywords appearing here should also appear
-                    in the<ns0:tt>version</ns0:tt>attribute of the enclosing<ns0:tt>testSet</ns0:tt>, if it has one.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p>Four child elements may optionally be present:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>annotation</ns0:tt>- zero or more instances of
-                    general documentation.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>documentationReference</ns0:tt>- any number of
+                    configuration which supports<em>any</em>of the features
+                    indicated should run the tests.  Processors which support<em>none</em>of them can skip the entire test set.
+                    See the definition of the<a href="#type_version-info"><tt>version-info</tt></a>type.</p>
+            <p>Logically, all keywords appearing here should also appear
+                    in the<tt>version</tt>attribute of the enclosing<tt>testSet</tt>, if it has one.</p>
+          </li>
+        </ul>
+        <p>Four child elements may optionally be present:</p>
+        <ul>
+          <li>
+            <p><tt>annotation</tt>- zero or more instances of
+                    general documentation.</p>
+          </li>
+          <li>
+            <p><tt>documentationReference</tt>- any number of
                     references to external documentation upon which the
                     test is based, e.g. links to relevant sections of the
-                    Recommendation, to the Errata, etc.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>schemaTest</ns0:tt>- at most on<ns0:tt>schemaTest</ns0:tt>element, containing any number of<ns0:tt>schemaDocument</ns0:tt>elements, each of which holds
-                    information on a single schema document.</ns0:p>
-            <ns0:p>When more than one schema document is present, a single
+                    Recommendation, to the Errata, etc.</p>
+          </li>
+          <li>
+            <p><tt>schemaTest</tt>- at most on<tt>schemaTest</tt>element, containing any number of<tt>schemaDocument</tt>elements, each of which holds
+                    information on a single schema document.</p>
+            <p>When more than one schema document is present, a single
                     schema is constructed from the set (or from other
-                    schemas via import).</ns0:p>
-            <ns0:p class="note">Note: XSD's rules for schema composition
+                    schemas via import).</p>
+            <p class="note">Note: XSD's rules for schema composition
                     mean that the order in which schema documents are
                     encountered may be significant.  When more than one
-                    schema document is listed in the<ns0:tt>schemaTest</ns0:tt>element, the test should be run as if the schema
+                    schema document is listed in the<tt>schemaTest</tt>element, the test should be run as if the schema
                     documents given were loaded one by one, in order.  For
                     most processors that will correspond to the result of
                     processing an otherwise empty schema document for an
-                    otherwise unused namespace, containing one<ns0:tt>xsd:import</ns0:tt>element for each schema document
-                    listed in the<ns0:tt>schemaTest</ns0:tt>, with the location
+                    otherwise unused namespace, containing one<tt>xsd:import</tt>element for each schema document
+                    listed in the<tt>schemaTest</tt>, with the location
                     indicated, in a processing mode that involves
                     following the schema-location hints in import
-                    statements.</ns0:p>
-            <ns0:p class="note">Note: the working group has made no
+                    statements.</p>
+            <p class="note">Note: the working group has made no
                     decision on whether the schema should be constructed
-                    solely from the schema documents listed in the<ns0:tt>schemaTest</ns0:tt>element, or from those schema
+                    solely from the schema documents listed in the<tt>schemaTest</tt>element, or from those schema
                     documents plus the transitive closure of their
                     references to other schema documents.  Similarly, the
-                    working group has not decided whether<ns0:tt>schemaLocation</ns0:tt>hints in the instance tests
+                    working group has not decided whether<tt>schemaLocation</tt>hints in the instance tests
                     should be honored or not.  It is therefore advisable
-                    to draft test cases without dependencies on<ns0:tt>schemaLocation</ns0:tt>hints and the like.</ns0:p>
-            <ns0:p class="note">Note: work is pending on these issues of
+                    to draft test cases without dependencies on<tt>schemaLocation</tt>hints and the like.</p>
+            <p class="note">Note: work is pending on these issues of
                     schema composition.  When it's complete, this part o
-                    the test suite schema may be expected to change.</ns0:p>
-            <ns0:p>Schema documents may be omitted, for the purpose of
+                    the test suite schema may be expected to change.</p>
+            <p>Schema documents may be omitted, for the purpose of
                     testing a processor's validation of an instance
                     containing only the built-in datatypes defined in the
-                    Recommendation.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>instanceTest</ns0:tt>- any number of elements, each
+                    Recommendation.</p>
+          </li>
+          <li>
+            <p><tt>instanceTest</tt>- any number of elements, each
                     of which holds information on a single instance
                     document to be validated against the included
-                    schema.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                    schema.</p>
+          </li>
+        </ul>
+      </div>
     :ivar annotation:
     :ivar documentation_reference:
     :ivar schema_test:
@@ -1665,58 +1665,58 @@ class TestGroup:
 
 @dataclass
 class TestSet:
-    """<ns0:div>
+    """<div>
 
-        <ns0:p>The root element of a document describing a set of tests,
+        <p>The root element of a document describing a set of tests,
                 normally from a single contributor.  A contributor may
-                supply any number of<ns0:tt>testSet</ns0:tt>files.</ns0:p>
-        <ns0:p class="note">Note: In order to make it possible to browse the test
+                supply any number of<tt>testSet</tt>files.</p>
+        <p class="note">Note: In order to make it possible to browse the test
                 suite in a browser, it is helpful if large test
-                collections are broken up into several<ns0:tt>testSet</ns0:tt>documents of no more than a megabyte or so each.  If
-                contributions have larger<ns0:tt>testSet</ns0:tt>documents, they
-                may be broken up into smaller ones.</ns0:p>
-        <ns0:p>The element has two attributes:</ns0:p>
-        <ns0:ul>
-          <ns0:li>
-            <ns0:p><ns0:tt>contributor (required)</ns0:tt>- the name of the contributor of
-                    this<ns0:tt>testSet</ns0:tt>.  May contain any string of characters;
-                    intended for human readers.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>name (required)</ns0:tt>- the name of this<ns0:tt>testSet</ns0:tt>,
-                  which must be a name unique among the names of<ns0:tt>testSet</ns0:tt>elements within the enclosing<ns0:tt>testSuite</ns0:tt>.</ns0:p>
-          </ns0:li>
-          <ns0:li>
-            <ns0:p><ns0:tt>version (optional)</ns0:tt>- a list of version tokens indicating
+                collections are broken up into several<tt>testSet</tt>documents of no more than a megabyte or so each.  If
+                contributions have larger<tt>testSet</tt>documents, they
+                may be broken up into smaller ones.</p>
+        <p>The element has two attributes:</p>
+        <ul>
+          <li>
+            <p><tt>contributor (required)</tt>- the name of the contributor of
+                    this<tt>testSet</tt>.  May contain any string of characters;
+                    intended for human readers.</p>
+          </li>
+          <li>
+            <p><tt>name (required)</tt>- the name of this<tt>testSet</tt>,
+                  which must be a name unique among the names of<tt>testSet</tt>elements within the enclosing<tt>testSuite</tt>.</p>
+          </li>
+          <li>
+            <p><tt>version (optional)</tt>- a list of version tokens indicating
                     versions and features for which at least some tests in the
-                    test set are applicable.</ns0:p>
-            <ns0:p>Any processor or processor configuration which
-                    supports<ns0:em>any</ns0:em>of the tokens given should run
+                    test set are applicable.</p>
+            <p>Any processor or processor configuration which
+                    supports<em>any</em>of the tokens given should run
                     the tests.  Processors which support none of the named
                     features can skip the entire test set without loss.
-                    If no<ns0:tt>version</ns0:tt>value is given, or if the value
+                    If no<tt>version</tt>value is given, or if the value
                     is the empty string, all processors should run the
-                    tests.</ns0:p>
-            <ns0:p>Logically, the tokens given in the<ns0:tt>version</ns0:tt>attribute should all also be included in the<ns0:tt>version</ns0:tt>attribute [if any] of any<ns0:tt>testSuite</ns0:tt>including this test set.  And
-                    similarly the<ns0:tt>version</ns0:tt>attribute on a<ns0:tt>testSet</ns0:tt>element should include all the tokens
-                    used on any<ns0:tt>testGroup</ns0:tt>,<ns0:tt>schemaTest</ns0:tt>,
-                    or<ns0:tt>instanceTest</ns0:tt>in the test set, and no
+                    tests.</p>
+            <p>Logically, the tokens given in the<tt>version</tt>attribute should all also be included in the<tt>version</tt>attribute [if any] of any<tt>testSuite</tt>including this test set.  And
+                    similarly the<tt>version</tt>attribute on a<tt>testSet</tt>element should include all the tokens
+                    used on any<tt>testGroup</tt>,<tt>schemaTest</tt>,
+                    or<tt>instanceTest</tt>in the test set, and no
                     others.  Otherwise processors may skip test sets they
                     ought to run.  This logical rule is not necessarily
                     enforced, however, by the schema for this
-                    vocabulary.</ns0:p>
-          </ns0:li>
-        </ns0:ul>
-        <ns0:p>Two child elements may optionally be present:</ns0:p>
-        <ns0:ul>
-          <ns0:li><ns0:tt>annotation</ns0:tt>- zero or more instances of general
-                  documentation.</ns0:li>
-          <ns0:li><ns0:tt>testGroup</ns0:tt>- a set of<ns0:tt>testGroup</ns0:tt>elements, each of which defines a group of closely
+                    vocabulary.</p>
+          </li>
+        </ul>
+        <p>Two child elements may optionally be present:</p>
+        <ul>
+          <li><tt>annotation</tt>- zero or more instances of general
+                  documentation.</li>
+          <li><tt>testGroup</tt>- a set of<tt>testGroup</tt>elements, each of which defines a group of closely
                   related tests.
 
-                  No two<ns0:tt>testGroup</ns0:tt>elements in the same<ns0:tt>testSet</ns0:tt>may have the same name.</ns0:li>
-        </ns0:ul>
-      </ns0:div>
+                  No two<tt>testGroup</tt>elements in the same<tt>testSet</tt>may have the same name.</li>
+        </ul>
+      </div>
     :ivar annotation:
     :ivar test_group:
     :ivar contributor:

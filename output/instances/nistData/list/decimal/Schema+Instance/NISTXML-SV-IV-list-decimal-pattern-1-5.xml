@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-decimal-pattern-1 xmlns:ns0="NISTSchema-SV-IV-list-decimal-pattern-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1 -.676 -776.27 548849.8 -81.5764322 7759457.1775 -9352.295315588 -1883.21820876368340</ns0:NISTSchema-SV-IV-list-decimal-pattern-1>
+<NISTSchema-SV-IV-list-decimal-pattern-1 xmlns="NISTSchema-SV-IV-list-decimal-pattern-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1 -.676 -776.27 548849.8 -81.5764322 7759457.1775 -9352.295315588 -1883.21820876368340</NISTSchema-SV-IV-list-decimal-pattern-1>

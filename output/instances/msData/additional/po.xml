@@ -1,32 +1,32 @@
 <!-- xsdata instance -->
-<ns0:purchaseOrder xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-10-20">
-  <ns0:shipTo country="US">
-    <ns0:name>Alice Smith</ns0:name>
-    <ns0:street>123 Maple Street</ns0:street>
-    <ns0:city>Mill Valley</ns0:city>
-    <ns0:state>CA</ns0:state>
-    <ns0:zip>90952</ns0:zip>
-  </ns0:shipTo>
-  <ns0:billTo country="US">
-    <ns0:name>Robert Smith</ns0:name>
-    <ns0:street>8 Oak Avenue</ns0:street>
-    <ns0:city>Old Town</ns0:city>
-    <ns0:state>PA</ns0:state>
-    <ns0:zip>95819</ns0:zip>
-  </ns0:billTo>
-  <ns0:comment>Hurry, my lawn is going wild!</ns0:comment>
-  <ns0:items>
-    <ns0:item partNum="872-AA">
-      <ns0:productName>Lawnmower</ns0:productName>
-      <ns0:quantity>1</ns0:quantity>
-      <ns0:USPrice>148.95</ns0:USPrice>
-      <ns0:comment>Confirm this is electric</ns0:comment>
-    </ns0:item>
-    <ns0:item partNum="926-AA">
-      <ns0:productName>Baby Monitor</ns0:productName>
-      <ns0:quantity>1</ns0:quantity>
-      <ns0:USPrice>39.98</ns0:USPrice>
-      <ns0:shipDate>1999-05-21</ns0:shipDate>
-    </ns0:item>
-  </ns0:items>
-</ns0:purchaseOrder>
+<purchaseOrder xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-10-20">
+  <shipTo country="US">
+    <name>Alice Smith</name>
+    <street>123 Maple Street</street>
+    <city>Mill Valley</city>
+    <state>CA</state>
+    <zip>90952</zip>
+  </shipTo>
+  <billTo country="US">
+    <name>Robert Smith</name>
+    <street>8 Oak Avenue</street>
+    <city>Old Town</city>
+    <state>PA</state>
+    <zip>95819</zip>
+  </billTo>
+  <comment>Hurry, my lawn is going wild!</comment>
+  <items>
+    <item partNum="872-AA">
+      <productName>Lawnmower</productName>
+      <quantity>1</quantity>
+      <USPrice>148.95</USPrice>
+      <comment>Confirm this is electric</comment>
+    </item>
+    <item partNum="926-AA">
+      <productName>Baby Monitor</productName>
+      <quantity>1</quantity>
+      <USPrice>39.98</USPrice>
+      <shipDate>1999-05-21</shipDate>
+    </item>
+  </items>
+</purchaseOrder>

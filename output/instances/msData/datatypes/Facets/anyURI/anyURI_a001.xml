@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:bar xmlns:ns0="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4</ns0:bar>
+<bar xmlns="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4</bar>

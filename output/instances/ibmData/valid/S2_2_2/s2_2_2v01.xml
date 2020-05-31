@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<v27:root xmlns:v27="http://xstest-tns/ibms3_3_6_v04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <v27:elem3>Tests abstract substitution group</v27:elem3>
-  <v27:elem3>hello</v27:elem3>
-</v27:root>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xstest-tns/ibms3_3_6_v04" xmlns:v27="http://xstest-tns/ibms3_3_6_v04">
+  <elem3>Tests abstract substitution group</elem3>
+  <elem3>hello</elem3>
+</root>

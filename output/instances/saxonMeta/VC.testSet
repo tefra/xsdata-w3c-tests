@@ -1,583 +1,583 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Saxonica" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ns0:testGroup name="vc001">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Simple assertion on an attribute value, ignored under XSD 1.0</ns0:Title>
-        <ns0:Description>Simple assertion on an attribute value, ignored under XSD 1.0</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc001.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc001.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc001.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid under 1.1, does not satisfy the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
-      <ns0:expected validity="valid" version="1.0"/>
-      <ns0:expected validity="invalid" version="1.1"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc002">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1</ns0:Title>
-        <ns0:Description>Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc002.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc002.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, satisfies the assertion and the pattern.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc002.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not satisfy the assertion or the pattern.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc003" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Test a hypothetical 5.0 feature ignored under XSD 1.1</ns0:Title>
-        <ns0:Description>Test a hypothetical 5.0 feature ignored under XSD 1.1</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc003.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc003.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid (the 5.0 restriction is ignored)</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc004" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Use of version conditionals in an included schema document</ns0:Title>
-        <ns0:Description>Use of version conditionals in an included schema document</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc004-11.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc004.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc004.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid (the 5.0 restriction is ignored)</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc005" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Use of version conditionals to ignore an (otherwise invalid) xs:include</ns0:Title>
-        <ns0:Description>Use of version conditionals to ignore an (otherwise invalid) xs:include</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc005.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc005.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc005.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid (the 5.0 restriction is ignored)</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc006" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Use of version conditionals to make a schema document empty</ns0:Title>
-        <ns0:Description>Use of version conditionals to make a schema document empty</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc006.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc006.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc006.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid (no element declaration present)</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc007" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Include a schema document made empty by version control attributes</ns0:Title>
-        <ns0:Description>Include a schema document made empty by version control attributes</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc007.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc007.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc007.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc007.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid (assert not satisfied)</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc008" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Empty vc:xx[un]available attributes have no effect</ns0:Title>
-        <ns0:Description>Empty vc:xx[un]available attributes have no effect</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc008.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc008.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc008.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc008.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc009" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Misspelt vc: attribute has no effect</ns0:Title>
-        <ns0:Description>Misspelt vc: attribute has no effect</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-UnrecognizedAttrInVCNS"/>
-    <ns0:schemaTest name="vc009.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc009.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc009.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc009.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc010" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:typeAvailable with a known type</ns0:Title>
-        <ns0:Description>vc:typeAvailable with a known type</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc010.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc010.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, attribute is allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc011" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:typeUnavailable with a known type</ns0:Title>
-        <ns0:Description>vc:typeUnavailable with a known type</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc011.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc011.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc011.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, attribute is not allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc012" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:typeAvailable with a mix of known and unknown types</ns0:Title>
-        <ns0:Description>vc:typeAvailable with a mix of known and unknown types</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc012.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc012.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc012.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, attribute is not allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc013" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:typeUnavailable with a mix of known and unknown types</ns0:Title>
-        <ns0:Description>vc:typeUnavailable with a mix of known and unknown types</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc013.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc013.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc013.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, attribute is allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc014" version="1.0 1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Conditional use of xs:error controlled by vc:typeAvailable</ns0:Title>
-        <ns0:Description>Conditional use of xs:error controlled by vc:typeAvailable</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
-    <ns0:schemaTest name="vc014.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc014.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, the impossible attribute is absent.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc014.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, the impossible attribute is present</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc020" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:facetAvailable with a known facet</ns0:Title>
-        <ns0:Description>vc:facetAvailable with a known facet</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
-    <ns0:schemaTest name="vc020.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc020.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc020.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, attribute is allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc021" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:facetUnavailable with a known facet</ns0:Title>
-        <ns0:Description>vc:facetUnavailable with a known facet</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
-    <ns0:schemaTest name="vc021.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc021.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc021.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, attribute is not allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc022" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:facetAvailable with a mix of known and unknown facets</ns0:Title>
-        <ns0:Description>vc:facetAvailable with a mix of known and unknown facets</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
-    <ns0:schemaTest name="vc022.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc022.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc022.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Inalid, attribute is not allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc023" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>vc:facetUnavailable with a mix of known and unknown facet</ns0:Title>
-        <ns0:Description>vc:facetUnavailable with a mix of known and unknown facets</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
-    <ns0:schemaTest name="vc023.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc023.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc023.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>valid, attribute is allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc024-11" version="1.0 1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Simple assertion on an attribute value, ignored under XSD 1.0</ns0:Title>
-        <ns0:Description>Simple assertion on an attribute value, ignored under XSD 1.0</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc024-11.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc024.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="vc024.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, satisfies the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="vc024.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not satisfy the assertion.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
-      <ns0:expected validity="invalid" version="1.1"/>
-      <ns0:expected validity="valid" version="1.0"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc901" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Bad schema, invalid vc:minVersion</ns0:Title>
-        <ns0:Description>Bad schema, invalid vc:minVersion</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc901.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc901.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc902" version="1.0">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Invalid vc:maxVersion, not detected in XSD 1.0</ns0:Title>
-        <ns0:Description>Invalid vc:maxVersion, not detected in XSD 1.0</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc902.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc902.bad.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2011-10-07">
-        <ns0:annotation>
-          <ns0:documentation>See bug 13906</ns0:documentation>
-        </ns0:annotation>
-      </ns0:current>
-      <ns0:prior status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc903" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Bad schema, invalid vc:maxVersion</ns0:Title>
-        <ns0:Description>Bad schema, invalid vc:maxVersion</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc902.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc902.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2011-10-07">
-        <ns0:annotation>
-          <ns0:documentation>See bug 13906. This test is a variant of the previous vc902.</ns0:documentation>
-        </ns0:annotation>
-      </ns0:current>
-      <ns0:prior status="accepted" date="2008-07-29"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc904" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Bad schema, invalid QName in vc:typeAvailable</ns0:Title>
-        <ns0:Description>Bad schema, invalid QName in vc:typeAvailable</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc904.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc904.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="vc905" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Bad schema, invalid QName in vc:typeUnavailable</ns0:Title>
-        <ns0:Description>Bad schema, invalid QName in vc:typeUnavailable</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
-    <ns0:schemaTest name="vc905.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc905.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-07-30"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-</ns0:testSet>
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Saxonica" name="VC" version="1.0 1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <testGroup name="vc001">
+    <annotation>
+      <documentation>
+        <Title>Simple assertion on an attribute value, ignored under XSD 1.0</Title>
+        <Description>Simple assertion on an attribute value, ignored under XSD 1.0</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc001.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc001.v1.xml">
+      <annotation>
+        <documentation>Valid, satisfies the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+    <instanceTest name="vc001.n1.xml">
+      <annotation>
+        <documentation>Invalid under 1.1, does not satisfy the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
+      <expected validity="valid" version="1.0"/>
+      <expected validity="invalid" version="1.1"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc002">
+    <annotation>
+      <documentation>
+        <Title>Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1</Title>
+        <Description>Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc002.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc002.v1.xml">
+      <annotation>
+        <documentation>Valid, satisfies the assertion and the pattern.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+    <instanceTest name="vc002.n1.xml">
+      <annotation>
+        <documentation>Invalid, does not satisfy the assertion or the pattern.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc003" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Test a hypothetical 5.0 feature ignored under XSD 1.1</Title>
+        <Description>Test a hypothetical 5.0 feature ignored under XSD 1.1</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc003.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc003.v1.xml">
+      <annotation>
+        <documentation>Valid (the 5.0 restriction is ignored)</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc004" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Use of version conditionals in an included schema document</Title>
+        <Description>Use of version conditionals in an included schema document</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc004-11.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc004.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc004.v1.xml">
+      <annotation>
+        <documentation>Valid (the 5.0 restriction is ignored)</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc005" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Use of version conditionals to ignore an (otherwise invalid) xs:include</Title>
+        <Description>Use of version conditionals to ignore an (otherwise invalid) xs:include</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc005.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc005.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc005.v1.xml">
+      <annotation>
+        <documentation>Valid (the 5.0 restriction is ignored)</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc003.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc006" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Use of version conditionals to make a schema document empty</Title>
+        <Description>Use of version conditionals to make a schema document empty</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc006.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc006.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc006.n1.xml">
+      <annotation>
+        <documentation>Invalid (no element declaration present)</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc007" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Include a schema document made empty by version control attributes</Title>
+        <Description>Include a schema document made empty by version control attributes</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc007.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc007.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc007.v1.xml">
+      <annotation>
+        <documentation>Valid</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+    <instanceTest name="vc007.n1.xml">
+      <annotation>
+        <documentation>Invalid (assert not satisfied)</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc002.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc008" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Empty vc:xx[un]available attributes have no effect</Title>
+        <Description>Empty vc:xx[un]available attributes have no effect</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc008.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc008.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc008.v1.xml">
+      <annotation>
+        <documentation>Valid, satisfies the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+    <instanceTest name="vc008.n1.xml">
+      <annotation>
+        <documentation>Invalid, does not satisfy the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc009" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Misspelt vc: attribute has no effect</Title>
+        <Description>Misspelt vc: attribute has no effect</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-UnrecognizedAttrInVCNS"/>
+    <schemaTest name="vc009.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc009.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc009.v1.xml">
+      <annotation>
+        <documentation>Valid, satisfies the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+    <instanceTest name="vc009.n1.xml">
+      <annotation>
+        <documentation>Invalid, does not satisfy the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc010" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:typeAvailable with a known type</Title>
+        <Description>vc:typeAvailable with a known type</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc010.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc010.v1.xml">
+      <annotation>
+        <documentation>Valid, attribute is allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc011" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:typeUnavailable with a known type</Title>
+        <Description>vc:typeUnavailable with a known type</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc011.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc011.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc011.n1.xml">
+      <annotation>
+        <documentation>Invalid, attribute is not allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc012" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:typeAvailable with a mix of known and unknown types</Title>
+        <Description>vc:typeAvailable with a mix of known and unknown types</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc012.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc012.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc012.n1.xml">
+      <annotation>
+        <documentation>Invalid, attribute is not allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc013" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:typeUnavailable with a mix of known and unknown types</Title>
+        <Description>vc:typeUnavailable with a mix of known and unknown types</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc013.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc013.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+    <instanceTest name="vc013.v1.xml">
+      <annotation>
+        <documentation>Valid, attribute is allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc014" version="1.0 1.1">
+    <annotation>
+      <documentation>
+        <Title>Conditional use of xs:error controlled by vc:typeAvailable</Title>
+        <Description>Conditional use of xs:error controlled by vc:typeAvailable</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedTypes"/>
+    <schemaTest name="vc014.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc014.v1.xml">
+      <annotation>
+        <documentation>Valid, the impossible attribute is absent.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+    <instanceTest name="vc014.n1.xml">
+      <annotation>
+        <documentation>Invalid, the impossible attribute is present</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc014.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc020" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:facetAvailable with a known facet</Title>
+        <Description>vc:facetAvailable with a known facet</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
+    <schemaTest name="vc020.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc020.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc020.v1.xml">
+      <annotation>
+        <documentation>Valid, attribute is allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc021" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:facetUnavailable with a known facet</Title>
+        <Description>vc:facetUnavailable with a known facet</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
+    <schemaTest name="vc021.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc021.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc021.n1.xml">
+      <annotation>
+        <documentation>Invalid, attribute is not allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc022" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:facetAvailable with a mix of known and unknown facets</Title>
+        <Description>vc:facetAvailable with a mix of known and unknown facets</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
+    <schemaTest name="vc022.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc022.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc022.n1.xml">
+      <annotation>
+        <documentation>Inalid, attribute is not allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc023" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>vc:facetUnavailable with a mix of known and unknown facet</Title>
+        <Description>vc:facetUnavailable with a mix of known and unknown facets</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-SupportedFacets"/>
+    <schemaTest name="vc023.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc023.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc023.v1.xml">
+      <annotation>
+        <documentation>valid, attribute is allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc024-11" version="1.0 1.1">
+    <annotation>
+      <documentation>
+        <Title>Simple assertion on an attribute value, ignored under XSD 1.0</Title>
+        <Description>Simple assertion on an attribute value, ignored under XSD 1.0</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc024-11.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc024.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+    <instanceTest name="vc024.v1.xml">
+      <annotation>
+        <documentation>Valid, satisfies the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+    <instanceTest name="vc024.n1.xml">
+      <annotation>
+        <documentation>Invalid, does not satisfy the assertion.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/VC/vc001.n1.xml"/>
+      <expected validity="invalid" version="1.1"/>
+      <expected validity="valid" version="1.0"/>
+      <current status="accepted" date="2008-07-30"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="vc901" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Bad schema, invalid vc:minVersion</Title>
+        <Description>Bad schema, invalid vc:minVersion</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc901.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc901.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-29"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="vc902" version="1.0">
+    <annotation>
+      <documentation>
+        <Title>Invalid vc:maxVersion, not detected in XSD 1.0</Title>
+        <Description>Invalid vc:maxVersion, not detected in XSD 1.0</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc902.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc902.bad.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-10-07">
+        <annotation>
+          <documentation>See bug 13906</documentation>
+        </annotation>
+      </current>
+      <prior status="accepted" date="2008-07-29"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="vc903" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Bad schema, invalid vc:maxVersion</Title>
+        <Description>Bad schema, invalid vc:maxVersion</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc902.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc902.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2011-10-07">
+        <annotation>
+          <documentation>See bug 13906. This test is a variant of the previous vc902.</documentation>
+        </annotation>
+      </current>
+      <prior status="accepted" date="2008-07-29"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="vc904" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Bad schema, invalid QName in vc:typeAvailable</Title>
+        <Description>Bad schema, invalid QName in vc:typeAvailable</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc904.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc904.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="vc905" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Bad schema, invalid QName in vc:typeUnavailable</Title>
+        <Description>Bad schema, invalid QName in vc:typeUnavailable</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
+    <schemaTest name="vc905.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/VC/vc905.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-07-30"/>
+    </schemaTest>
+  </testGroup>
+</testSet>

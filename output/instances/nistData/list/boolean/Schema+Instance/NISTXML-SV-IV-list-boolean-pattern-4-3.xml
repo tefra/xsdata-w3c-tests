@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-boolean-pattern-4 xmlns:ns0="NISTSchema-SV-IV-list-boolean-pattern-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1 false 0 true true 0</ns0:NISTSchema-SV-IV-list-boolean-pattern-4>
+<NISTSchema-SV-IV-list-boolean-pattern-4 xmlns="NISTSchema-SV-IV-list-boolean-pattern-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1 false 0 true true 0</NISTSchema-SV-IV-list-boolean-pattern-4>

@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-anyURI-length-3 xmlns:ns0="NISTSchema-SV-IV-list-anyURI-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">telnet://an.Jin.gov telnet://di.com http://f.fo.th.gov ftp://wi.au.edu http://the.d.net gopher://t.edu http://o.Suc.com</ns0:NISTSchema-SV-IV-list-anyURI-length-3>
+<NISTSchema-SV-IV-list-anyURI-length-3 xmlns="NISTSchema-SV-IV-list-anyURI-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">telnet://an.Jin.gov telnet://di.com http://f.fo.th.gov ftp://wi.au.edu http://the.d.net gopher://t.edu http://o.Suc.com</NISTSchema-SV-IV-list-anyURI-length-3>

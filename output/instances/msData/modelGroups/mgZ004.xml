@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:Root xmlns:ns0="urn:test">
-  <ns0:A/>
-</ns0:Root>
+<Root xmlns="urn:test">
+  <A/>
+</Root>

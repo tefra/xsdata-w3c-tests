@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-length-4 xmlns:ns0="NISTSchema-SV-IV-atomic-string-length-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> to automate certain
+<NISTSchema-SV-IV-atomic-string-length-4 xmlns="NISTSchema-SV-IV-atomic-string-length-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> to automate certain
 processes  A set of related technologies built around this Internet
 language define a rich set of tools that can be used to define 
 manipulate  and display context-rich data  In particular  XML Schemas
-define intuitive met</ns0:NISTSchema-SV-IV-atomic-string-length-4>
+define intuitive met</NISTSchema-SV-IV-atomic-string-length-4>

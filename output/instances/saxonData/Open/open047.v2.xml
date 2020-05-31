@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
-<doc xmlns:ns0="http://closed.com/">
+<doc xmlns="http://closed.com/">
   <a/>
   <b>23</b>
   <d/>
-  <ns0:x/>
+  <x/>
 </doc>

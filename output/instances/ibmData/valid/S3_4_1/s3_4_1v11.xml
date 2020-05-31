@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<b:root xmlns:b="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="a" xsi:schemaLocation="a s3_4_1v11.xsd" version="1.1">123abc12133b<b:element>xk</b:element></b:root>
+<root xmlns="a" xmlns:b="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="a s3_4_1v11.xsd" version="1.1">123abc12133b<element>xk</element></root>

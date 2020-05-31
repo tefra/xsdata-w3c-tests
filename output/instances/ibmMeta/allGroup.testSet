@@ -1,146 +1,146 @@
 <!-- xsdata instance -->
-<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="allGroup" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ts:annotation>
-    <ts:documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited">
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="allGroup" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <annotation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited">
       <Description>Test set for All Group Limited</Description>
-    </ts:documentation>
-  </ts:annotation>
-  <ts:testGroup name="s3_3_6v01" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Wildcards are now allowed in xs:all</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
-    <ts:schemaTest name="s3_3_6v01s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v01.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6v01i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v01.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6v04" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests restriction of all group</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
-    <ts:schemaTest name="s3_3_6v04s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v04.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6v04i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v04.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6v05" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests maxOccurs &gt; 1 for elements within all group</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
-    <ts:schemaTest name="s3_3_6v05s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v05.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6v05i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v05.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6ii01" version="1.1">
-    <ts:annotation>
-      <ts:documentation>maxOccurs may now be &gt;1 in all group</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
-    <ts:schemaTest name="s3_3_6ii01s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6ii01i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6ii02" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests notNamespace in all group</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
-    <ts:schemaTest name="s3_3_6ii02s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6ii02i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6ii03" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests notQName in allgroup</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
-    <ts:schemaTest name="s3_3_6ii03s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="s3_3_6ii03i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6si01" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests occurence validity</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
-    <ts:schemaTest name="s3_3_6si01s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si01.xsd"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6si02" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests restriction of all modelgroup</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
-    <ts:schemaTest name="s3_3_6si02s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si02.xsd"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-  </ts:testGroup>
-  <ts:testGroup name="s3_3_6si03" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Tests restriction of all modelgroup</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
-    <ts:schemaTest name="s3_3_6si03s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si03.xsd"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-  </ts:testGroup>
-</ts:testSet>
+    </documentation>
+  </annotation>
+  <testGroup name="s3_3_6v01" version="1.1">
+    <annotation>
+      <documentation>Wildcards are now allowed in xs:all</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
+    <schemaTest name="s3_3_6v01s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v01.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6v01i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v01.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6v04" version="1.1">
+    <annotation>
+      <documentation>Tests restriction of all group</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
+    <schemaTest name="s3_3_6v04s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v04.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6v04i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v04.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6v05" version="1.1">
+    <annotation>
+      <documentation>Tests maxOccurs &gt; 1 for elements within all group</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
+    <schemaTest name="s3_3_6v05s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v05.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6v05i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/S3_3_6/s3_3_6v05.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6ii01" version="1.1">
+    <annotation>
+      <documentation>maxOccurs may now be &gt;1 in all group</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
+    <schemaTest name="s3_3_6ii01s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6ii01i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii01.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6ii02" version="1.1">
+    <annotation>
+      <documentation>Tests notNamespace in all group</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
+    <schemaTest name="s3_3_6ii02s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6ii02i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii02.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6ii03" version="1.1">
+    <annotation>
+      <documentation>Tests notQName in allgroup</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>
+    <schemaTest name="s3_3_6ii03s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="s3_3_6ii03i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/S3_3_6/s3_3_6ii03.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="s3_3_6si01" version="1.1">
+    <annotation>
+      <documentation>Tests occurence validity</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"/>
+    <schemaTest name="s3_3_6si01s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si01.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="s3_3_6si02" version="1.1">
+    <annotation>
+      <documentation>Tests restriction of all modelgroup</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
+    <schemaTest name="s3_3_6si02s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si02.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="s3_3_6si03" version="1.1">
+    <annotation>
+      <documentation>Tests restriction of all modelgroup</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-element"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
+    <schemaTest name="s3_3_6si03s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/S3_3_6/s3_3_6si03.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+  </testGroup>
+</testSet>

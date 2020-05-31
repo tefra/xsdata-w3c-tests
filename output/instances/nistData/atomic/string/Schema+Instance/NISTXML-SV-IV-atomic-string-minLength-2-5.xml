@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-2 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> with OASIS and W3C  robust testing
+<NISTSchema-SV-IV-atomic-string-minLength-2 xmlns="NISTSchema-SV-IV-atomic-string-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> with OASIS and W3C  robust testing
 resources for related XML technologies  including XML Schemas  DOM  and
 XSL  Developers and users utilize these tools to exercise both the
 appropriate W3C Recommendation and the associated implementations 
@@ -17,4 +17,4 @@ emerging specifications and related  vocabularies  based upon the XML
 syntax 
 
 In the simplest sense  the benefits of XML will only be achieved if
-or</ns0:NISTSchema-SV-IV-atomic-string-minLength-2>
+or</NISTSchema-SV-IV-atomic-string-minLength-2>

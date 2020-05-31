@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:root xmlns:test="http://foo.com" test:att="yes"/>
+<root xmlns="http://foo.com" xmlns:test="http://foo.com" test:att="yes"/>

@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-maxLength-5 xmlns:ns0="NISTSchema-SV-IV-atomic-string-maxLength-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">rs and support for the related
+<NISTSchema-SV-IV-atomic-string-maxLength-5 xmlns="NISTSchema-SV-IV-atomic-string-maxLength-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">rs and support for the related
 Schema  DOM and XSL technologies are available in beta versions of
 popular web browsers and application development software  The
 widespread availability of these technologies has made them obvious
@@ -18,4 +18,4 @@ Provide technical leadership by chairing and/or participating in
       appropriate OASIS and W3C efforts  including OASIS XML and
       XSLT/Xpath Conformance Subcommittees  W3C XSL-FO  DOM  and XML
       Schema Working Groups 
-Provide tes</ns0:NISTSchema-SV-IV-atomic-string-maxLength-5>
+Provide tes</NISTSchema-SV-IV-atomic-string-maxLength-5>

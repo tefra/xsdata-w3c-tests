@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<tns:foo xmlns:tns="http://xsdtesting" xmlns:a="A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<foo xmlns:a="A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:tns="http://xsdtesting">
   <a:b>test</a:b>
   <a:b>test</a:b>
   <a:b>test</a:b>
-</tns:foo>
+</foo>

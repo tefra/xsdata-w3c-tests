@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-4 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">h industries are defining the structure and semantics of
+<NISTSchema-SV-IV-atomic-string-minLength-4 xmlns="NISTSchema-SV-IV-atomic-string-minLength-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">h industries are defining the structure and semantics of
 their information  XML is a base recommendation coupled with a set of
 emerging specifications and related  vocabularies  based upon the XML
 syntax 
@@ -16,4 +16,4 @@ the object resides  A user retrieves an object from a repository
 
  Although XML is a recent newcomer in the
 electronic commerce landscape  supply chains in many industries  as well
-as industry consortiums and standards organizations  are using XML t</ns0:NISTSchema-SV-IV-atomic-string-minLength-4>
+as industry consortiums and standards organizations  are using XML t</NISTSchema-SV-IV-atomic-string-minLength-4>

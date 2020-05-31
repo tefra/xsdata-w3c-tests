@@ -1,1718 +1,1718 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Saxonica" name="Open" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ns0:annotation>
-    <ns0:documentation>
-      <ns0:Title>Tests for XSD 1.1 open content models</ns0:Title>
-      <ns0:Description>A number of tests, both valid and invalid, demonstrating use of the new
-                XSD 1.1 feature for open content models.</ns0:Description>
-    </ns0:documentation>
-  </ns0:annotation>
-  <ns0:testGroup name="open001" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Basic suffixed open content</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace at end of content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"/>
-    <ns0:schemaTest name="open001.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open001.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content must come last.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content comes before mandatory elements.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open001.n4.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open002" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Suffixed open content defined by defaultOpenContent element</ns0:Title>
-        <ns0:Description>Same as open001 except for the schema.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
-    <ns0:schemaTest name="open002.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open002.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open002.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content must come last.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content comes before mandatory elements.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open002.n4.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open003" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Explicit open content takes precedence over default open content</ns0:Title>
-        <ns0:Description>Different namespaces for the local open content and default open content wildcards.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"/>
-    <ns0:schemaTest name="open003.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open003.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses local open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open003.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default open content namespace.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open004" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>mode="none" takes precedence over default open content</ns0:Title>
-        <ns0:Description>Open content not allowed.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"/>
-    <ns0:schemaTest name="open004.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open004.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open004.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default open content namespace.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open005" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Basic interleaved open content</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace anywhere in content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
-    <ns0:schemaTest name="open005.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open005.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.v4.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not match regular content model.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open005.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open006" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Basic interleaved open content using defaultOpenContent definition</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace anywhere in content.
-                Same as open005 except for the schema.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
-    <ns0:schemaTest name="open006.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open006.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open006.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.v4.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, with no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, does not match regular content model.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open006.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, suffixed content does not match wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open007" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Interleaved open content within a counting content model</ns0:Title>
-        <ns0:Description>Designed to test that counting still works correctly.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
-    <ns0:schemaTest name="open007.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open007.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open007.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open007.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, maxOccurs violation.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open007.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, minOccurs violation.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open008" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Interleaved open content in an xs:all group</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace anywhere in xs:all content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
-    <ns0:schemaTest name="open008.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open008.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open008.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open008.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open008.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content in wrong namespace.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open008.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, too many a elements.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open008.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, too few a elements.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open009" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Suffix open content in an xs:all group</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace at end of xs:all content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:schemaTest name="open009.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open009.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open009.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open009.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content in wrong place.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open009.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, too few a elements.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open010" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Open content in an (otherwise) empty content model</ns0:Title>
-        <ns0:Description>Allows any element in specified namespace</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:schemaTest name="open010.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open010.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open010.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open010.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, content does not match open content wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open010.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, text content not allowed</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open011" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Open content in an (otherwise) empty content model</ns0:Title>
-        <ns0:Description>Defined by defaultOpenContent with appliesToEmpty=true. Uses
-                            same instances as open010.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"/>
-    <ns0:schemaTest name="open011.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open011.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open011.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open011.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open011.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, content does not match open content wildcard.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open011.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, text content not allowed</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open012" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Schema defines default open content but not applying to an empty content model</ns0:Title>
-        <ns0:Description>Defined by defaultOpenContent with appliesToEmpty=false.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:schemaTest name="open012.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open012.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open012.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content is not allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open012.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, text content not allowed</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open012.n3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, even whitespace is not allowed</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open013" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Schema defines default open content not applying to an empty content model -
-                       but it does apply to a mixed content model with an empty particle</ns0:Title>
-        <ns0:Description>Defined by defaultOpenContent with appliesToEmpty=false.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"/>
-    <ns0:schemaTest name="open013.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open013.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open013.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open013.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open014" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Base type has open content, restricted type does not</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open014.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open014.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open014.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to use open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open015" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Base type has open content, restricted type has identical open content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open015.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open015.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open015.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to a child not defined in derived type.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open016" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Open content: no effect on complex types with simple content</ns0:Title>
-        <ns0:Description>Default open content ignored on a CT-with-SC</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"/>
-    <ns0:schemaTest name="open016.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open016.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no attempt to use open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open016.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to use an open content child, not allowed with simple content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open016.bad" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid restriction</ns0:Title>
-        <ns0:Description>Restricted type has open content, base does not</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open016.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open017" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid restriction</ns0:Title>
-        <ns0:Description>Restricted type has more permissive wildcard than base</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open017.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open017.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open018" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid restriction</ns0:Title>
-        <ns0:Description>Restricted type has more permissive wildcard processContents than base</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open018.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open018.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open019" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid restriction</ns0:Title>
-        <ns0:Description>Restricted type allows interleaved open content, base only allows suffixed</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open019.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open019.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open020" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Base type has suffixed open content, restricted type has interleaved open content,
-                but it's OK because the restricted type is otherwise empty.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open020.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open020.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open020.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open020.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open021" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Base type has suffixed open content, restricted type has interleaved open content,
-                but it's OK because the restricted type is otherwise empty (well, "mixed empty").</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"/>
-    <ns0:schemaTest name="open021.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open021.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open021.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open021.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open022" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction (though Saxon can't yet handle it)</ns0:Title>
-        <ns0:Description>Base type has an explicit wildcard, restricted type has interleaved open content,
-                all instances of the restricted type are valid against the base type.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open022.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open022.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open022.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open022.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open023" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Open content in base type allows more namespaces than open content in derived type</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open023.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open023.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open024" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid restriction</ns0:Title>
-        <ns0:Description>Open content in base type has weaker processContents than open content in derived type</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
-    <ns0:schemaTest name="open024.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open024.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open024.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open025" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Open content and regular content match the same instances</ns0:Title>
-        <ns0:Description>Show that regular particles take precedence</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"/>
-    <ns0:schemaTest name="open025.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open025.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open025.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, element i must be an integer.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-08-05"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open027" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>Base type has suffix open content, extended type does not</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open027.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open027.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open027.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content after extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open027.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content at end, no extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open027.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to use open content not at the end.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open028" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>Derived type has suffix open content, base type does not</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open028.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open028.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open028.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open028.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content after extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open028.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content at end, no extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open028.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to use open content not at the end.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open030" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>complex type extension: derived type takes openContent from the default open content
-                             of the schema in preference to that of the base type. This makes the extension invalid.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open030.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open030.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open031" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>complex type extension: derived type takes openContent from the base type ignoring
-                      the defaultOpenContent when the type is empty and default open content does not apply to empty</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:schemaTest name="open031.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open031.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open031.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, no open content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open031.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content after extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open031.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content at end, no extension content.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open031.v4.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, tries to use open content not at the end.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open031.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, tries to use open content in the wrong namespace.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open029.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open033" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid extension</ns0:Title>
-        <ns0:Description>Base type has interleaved open content, extension has suffix open content</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open033.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open033.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open034" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Valid content model</ns0:Title>
-        <ns0:Description>Valid open content: it's not an error for open content to 
-                             compete with ordinary wildcards</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"/>
-    <ns0:schemaTest name="open034.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open034.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open035" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Test defaultAttributesApply on an anonymous complex type</ns0:Title>
-        <ns0:Description>Attribute is allowed on both named and unnamed types</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"/>
-    <ns0:schemaTest name="open035.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2009-07-06"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open035.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses default attributes correctly.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2009-07-06"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open035.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, defaultAttributesApply=false disallows id attribute on BookStore.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2009-07-06"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open035.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, defaultAttributes do not apply to simple types.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2009-07-06"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open036" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>An invalid restriction</ns0:Title>
-        <ns0:Description>Spec bug 7069 - openContent mode="none" with a wildcard child</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open036.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open036.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-08-14"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open037" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Two annotation children</ns0:Title>
-        <ns0:Description>You're not allowed two annotation children, for some reason</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"/>
-    <ns0:schemaTest name="open037.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open037.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open038" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Two annotation children</ns0:Title>
-        <ns0:Description>You're not allowed two opencontent elements with the same ID</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
-    <ns0:schemaTest name="open038.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open038.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open039" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Two annotation children</ns0:Title>
-        <ns0:Description>You're not allowed two opencontent elements with the same ID</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
-    <ns0:schemaTest name="open039.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open039.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open040" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>defaultOpenContent is scoped to a schema document</ns0:Title>
-        <ns0:Description>defaultOpenContent does not apply to types included from a different schema document</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"/>
-    <ns0:schemaTest name="open040.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open040.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content only where allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open040.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type beta where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open041" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>defaultOpenContent is scoped to a schema document</ns0:Title>
-        <ns0:Description>defaultOpenContent does not apply to types included from a different schema document</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"/>
-    <ns0:schemaTest name="open041.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open041.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content only where allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open041.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type alpha where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open042" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>defaultOpenContent applies to types defined within xs:redefine</ns0:Title>
-        <ns0:Description>defaultOpenContent applies to types defined within xs:redefine</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"/>
-    <ns0:schemaTest name="open042.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open042.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses open content only where allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open042.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type alpha where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open042.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open043" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document</ns0:Title>
-        <ns0:Description>For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.
-                Test revised 2011-10-10 in response to bug 13458.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride"/>
-    <ns0:schemaTest name="open043.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open043.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses no open content</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open043.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type alpha where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open043.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses open content on type beta where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-09-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open044" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>defaultAttributes applies to types defined within xs:redefine</ns0:Title>
-        <ns0:Description>defaultAttributes applies to types defined within xs:redefine</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"/>
-    <ns0:schemaTest name="open044.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open044.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses default attributes only where allowed.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open044.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes on type alpha where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open044.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open045" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>defaultAttributes does not apply to types defined within xs:override</ns0:Title>
-        <ns0:Description>defaultAttributes does not apply to types defined within xs:override.
+<testSet xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Saxonica" name="Open" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <annotation>
+    <documentation>
+      <Title>Tests for XSD 1.1 open content models</Title>
+      <Description>A number of tests, both valid and invalid, demonstrating use of the new
+                XSD 1.1 feature for open content models.</Description>
+    </documentation>
+  </annotation>
+  <testGroup name="open001" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Basic suffixed open content</Title>
+        <Description>Allows any element in specified namespace at end of content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"/>
+    <schemaTest name="open001.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open001.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.v3.xml">
+      <annotation>
+        <documentation>Valid, with no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content must come last.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.n2.xml">
+      <annotation>
+        <documentation>Invalid, open content comes before mandatory elements.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.n3.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open001.n4.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open002" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Suffixed open content defined by defaultOpenContent element</Title>
+        <Description>Same as open001 except for the schema.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
+    <schemaTest name="open002.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open002.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open002.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.v3.xml">
+      <annotation>
+        <documentation>Valid, with no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content must come last.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.n2.xml">
+      <annotation>
+        <documentation>Invalid, open content comes before mandatory elements.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.n3.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open002.n4.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open003" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Explicit open content takes precedence over default open content</Title>
+        <Description>Different namespaces for the local open content and default open content wildcards.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"/>
+    <schemaTest name="open003.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open003.v1.xml">
+      <annotation>
+        <documentation>Valid, uses local open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open003.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default open content namespace.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open004" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>mode="none" takes precedence over default open content</Title>
+        <Description>Open content not allowed.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"/>
+    <schemaTest name="open004.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open004.v1.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open004.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default open content namespace.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open005" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Basic interleaved open content</Title>
+        <Description>Allows any element in specified namespace anywhere in content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
+    <schemaTest name="open005.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open005.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.v3.xml">
+      <annotation>
+        <documentation>Valid, with open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.v4.xml">
+      <annotation>
+        <documentation>Valid, with no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.n2.xml">
+      <annotation>
+        <documentation>Invalid, does not match regular content model.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open005.n3.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open006" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Basic interleaved open content using defaultOpenContent definition</Title>
+        <Description>Allows any element in specified namespace anywhere in content.
+                Same as open005 except for the schema.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
+    <schemaTest name="open006.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open006.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open006.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.v3.xml">
+      <annotation>
+        <documentation>Valid, with open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.v4.xml">
+      <annotation>
+        <documentation>Valid, with no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.n2.xml">
+      <annotation>
+        <documentation>Invalid, does not match regular content model.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open006.n3.xml">
+      <annotation>
+        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open007" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Interleaved open content within a counting content model</Title>
+        <Description>Designed to test that counting still works correctly.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"/>
+    <schemaTest name="open007.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open007.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open007.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open007.n1.xml">
+      <annotation>
+        <documentation>Invalid, maxOccurs violation.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open007.n2.xml">
+      <annotation>
+        <documentation>Invalid, minOccurs violation.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open008" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Interleaved open content in an xs:all group</Title>
+        <Description>Allows any element in specified namespace anywhere in xs:all content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
+    <schemaTest name="open008.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open008.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open008.v2.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open008.v3.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open008.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content in wrong namespace.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open008.n2.xml">
+      <annotation>
+        <documentation>Invalid, too many a elements.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open008.n3.xml">
+      <annotation>
+        <documentation>Invalid, too few a elements.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open009" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Suffix open content in an xs:all group</Title>
+        <Description>Allows any element in specified namespace at end of xs:all content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <schemaTest name="open009.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open009.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open009.v2.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open009.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content in wrong place.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open009.n2.xml">
+      <annotation>
+        <documentation>Invalid, too few a elements.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open010" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Open content in an (otherwise) empty content model</Title>
+        <Description>Allows any element in specified namespace</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <schemaTest name="open010.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open010.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open010.v2.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open010.n1.xml">
+      <annotation>
+        <documentation>Invalid, content does not match open content wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open010.n2.xml">
+      <annotation>
+        <documentation>Invalid, text content not allowed</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open011" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Open content in an (otherwise) empty content model</Title>
+        <Description>Defined by defaultOpenContent with appliesToEmpty=true. Uses
+                            same instances as open010.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"/>
+    <schemaTest name="open011.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open011.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open011.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open011.v2.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open011.n1.xml">
+      <annotation>
+        <documentation>Invalid, content does not match open content wildcard.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open011.n2.xml">
+      <annotation>
+        <documentation>Invalid, text content not allowed</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open012" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Schema defines default open content but not applying to an empty content model</Title>
+        <Description>Defined by defaultOpenContent with appliesToEmpty=false.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <schemaTest name="open012.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open012.v1.xml">
+      <annotation>
+        <documentation>Valid, uses no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open012.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content is not allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open012.n2.xml">
+      <annotation>
+        <documentation>Invalid, text content not allowed</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open012.n3.xml">
+      <annotation>
+        <documentation>Invalid, even whitespace is not allowed</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open013" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Schema defines default open content not applying to an empty content model -
+                       but it does apply to a mixed content model with an empty particle</Title>
+        <Description>Defined by defaultOpenContent with appliesToEmpty=false.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"/>
+    <schemaTest name="open013.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open013.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open013.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open013.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open014" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Base type has open content, restricted type does not</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open014.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open014.v1.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open014.n1.xml">
+      <annotation>
+        <documentation>Invalid, tries to use open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open015" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Base type has open content, restricted type has identical open content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open015.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open015.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open015.n1.xml">
+      <annotation>
+        <documentation>Invalid, tries to a child not defined in derived type.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open016" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Open content: no effect on complex types with simple content</Title>
+        <Description>Default open content ignored on a CT-with-SC</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"/>
+    <schemaTest name="open016.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+    <instanceTest name="open016.v1.xml">
+      <annotation>
+        <documentation>Valid, no attempt to use open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open016.n1.xml">
+      <annotation>
+        <documentation>Invalid, tries to use an open content child, not allowed with simple content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open016.bad" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid restriction</Title>
+        <Description>Restricted type has open content, base does not</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open016.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open017" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid restriction</Title>
+        <Description>Restricted type has more permissive wildcard than base</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open017.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open017.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open018" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid restriction</Title>
+        <Description>Restricted type has more permissive wildcard processContents than base</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open018.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open018.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open019" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid restriction</Title>
+        <Description>Restricted type allows interleaved open content, base only allows suffixed</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open019.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open019.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open020" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Base type has suffixed open content, restricted type has interleaved open content,
+                but it's OK because the restricted type is otherwise empty.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open020.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open020.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open020.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open020.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open021" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Base type has suffixed open content, restricted type has interleaved open content,
+                but it's OK because the restricted type is otherwise empty (well, "mixed empty").</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"/>
+    <schemaTest name="open021.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open021.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open021.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open021.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open022" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction (though Saxon can't yet handle it)</Title>
+        <Description>Base type has an explicit wildcard, restricted type has interleaved open content,
+                all instances of the restricted type are valid against the base type.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open022.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open022.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open022.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open022.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open023" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Open content in base type allows more namespaces than open content in derived type</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open023.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open023.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open024" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid restriction</Title>
+        <Description>Open content in base type has weaker processContents than open content in derived type</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"/>
+    <schemaTest name="open024.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open024.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open024.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open025" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Open content and regular content match the same instances</Title>
+        <Description>Show that regular particles take precedence</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"/>
+    <schemaTest name="open025.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </schemaTest>
+    <instanceTest name="open025.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+    <instanceTest name="open025.n1.xml">
+      <annotation>
+        <documentation>Invalid, element i must be an integer.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-08-05"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open027" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>Base type has suffix open content, extended type does not</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open027.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open027.v1.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open027.v2.xml">
+      <annotation>
+        <documentation>Valid, open content after extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open027.v3.xml">
+      <annotation>
+        <documentation>Valid, open content at end, no extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open027.n1.xml">
+      <annotation>
+        <documentation>Invalid, tries to use open content not at the end.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open028" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>Derived type has suffix open content, base type does not</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open028.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open028.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open028.v1.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open028.v2.xml">
+      <annotation>
+        <documentation>Valid, open content after extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open028.v3.xml">
+      <annotation>
+        <documentation>Valid, open content at end, no extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open028.n1.xml">
+      <annotation>
+        <documentation>Invalid, tries to use open content not at the end.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open030" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>complex type extension: derived type takes openContent from the default open content
+                             of the schema in preference to that of the base type. This makes the extension invalid.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open030.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open030.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open031" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>complex type extension: derived type takes openContent from the base type ignoring
+                      the defaultOpenContent when the type is empty and default open content does not apply to empty</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <schemaTest name="open031.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open031.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open031.v1.xml">
+      <annotation>
+        <documentation>Valid, no open content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open031.v2.xml">
+      <annotation>
+        <documentation>Valid, open content after extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open031.v3.xml">
+      <annotation>
+        <documentation>Valid, open content at end, no extension content.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open031.v4.xml">
+      <annotation>
+        <documentation>Valid, tries to use open content not at the end.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open031.n2.xml">
+      <annotation>
+        <documentation>Invalid, tries to use open content in the wrong namespace.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open029.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open033" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid extension</Title>
+        <Description>Base type has interleaved open content, extension has suffix open content</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open033.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open033.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open034" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Valid content model</Title>
+        <Description>Valid open content: it's not an error for open content to 
+                             compete with ordinary wildcards</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"/>
+    <schemaTest name="open034.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open034.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open035" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Test defaultAttributesApply on an anonymous complex type</Title>
+        <Description>Attribute is allowed on both named and unnamed types</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"/>
+    <schemaTest name="open035.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2009-07-06"/>
+    </schemaTest>
+    <instanceTest name="open035.v1.xml">
+      <annotation>
+        <documentation>Valid, uses default attributes correctly.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2009-07-06"/>
+    </instanceTest>
+    <instanceTest name="open035.n1.xml">
+      <annotation>
+        <documentation>Invalid, defaultAttributesApply=false disallows id attribute on BookStore.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2009-07-06"/>
+    </instanceTest>
+    <instanceTest name="open035.n2.xml">
+      <annotation>
+        <documentation>Invalid, defaultAttributes do not apply to simple types.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2009-07-06"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open036" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>An invalid restriction</Title>
+        <Description>Spec bug 7069 - openContent mode="none" with a wildcard child</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open036.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open036.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-08-14"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open037" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Two annotation children</Title>
+        <Description>You're not allowed two annotation children, for some reason</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"/>
+    <schemaTest name="open037.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open037.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open038" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Two annotation children</Title>
+        <Description>You're not allowed two opencontent elements with the same ID</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
+    <schemaTest name="open038.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open038.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open039" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Two annotation children</Title>
+        <Description>You're not allowed two opencontent elements with the same ID</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"/>
+    <schemaTest name="open039.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open039.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open040" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>defaultOpenContent is scoped to a schema document</Title>
+        <Description>defaultOpenContent does not apply to types included from a different schema document</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"/>
+    <schemaTest name="open040.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+    <instanceTest name="open040.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content only where allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open040.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type beta where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open041" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>defaultOpenContent is scoped to a schema document</Title>
+        <Description>defaultOpenContent does not apply to types included from a different schema document</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"/>
+    <schemaTest name="open041.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+    <instanceTest name="open041.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content only where allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open041.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open042" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>defaultOpenContent applies to types defined within xs:redefine</Title>
+        <Description>defaultOpenContent applies to types defined within xs:redefine</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"/>
+    <schemaTest name="open042.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+    <instanceTest name="open042.v1.xml">
+      <annotation>
+        <documentation>Valid, uses open content only where allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open042.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open042.n2.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open043" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document</Title>
+        <Description>For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.
+                Test revised 2011-10-10 in response to bug 13458.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride"/>
+    <schemaTest name="open043.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </schemaTest>
+    <instanceTest name="open043.v1.xml">
+      <annotation>
+        <documentation>Valid, uses no open content</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open043.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+    <instanceTest name="open043.n2.xml">
+      <annotation>
+        <documentation>Invalid, uses open content on type beta where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-09-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open044" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>defaultAttributes applies to types defined within xs:redefine</Title>
+        <Description>defaultAttributes applies to types defined within xs:redefine</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"/>
+    <schemaTest name="open044.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </schemaTest>
+    <instanceTest name="open044.v1.xml">
+      <annotation>
+        <documentation>Valid, uses default attributes only where allowed.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+    <instanceTest name="open044.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes on type alpha where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+    <instanceTest name="open044.n2.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open045" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>defaultAttributes does not apply to types defined within xs:override</Title>
+        <Description>defaultAttributes does not apply to types defined within xs:override.
                 Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,
                 the defaultAttributes that apply are those defined within the overridden schema document, not the
-                overriding schema document.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"/>
-    <ns0:schemaTest name="open045.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open045.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses no default attributes.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open045.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes on type alpha where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open045.n2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes on type beta where it is not applicable.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2010-10-12"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open046" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>complex type extension: derived type takes openContent from the base type ignoring
+                overriding schema document.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"/>
+    <schemaTest name="open045.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </schemaTest>
+    <instanceTest name="open045.v1.xml">
+      <annotation>
+        <documentation>Valid, uses no default attributes.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+    <instanceTest name="open045.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes on type alpha where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+    <instanceTest name="open045.n2.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes on type beta where it is not applicable.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-10-12"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open046" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>complex type extension: derived type takes openContent from the base type ignoring
                       the defaultOpenContent when the type is empty and default open content does not apply to empty.
-                      This test was formerly open031 and was believed to be valid; see bug 13459.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
-    <ns0:schemaTest name="open046.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open046.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2011-10-10"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open047" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>A valid extension</ns0:Title>
-        <ns0:Description>complex type extension: derived type's open content allows the union of the wildcards
-                specified for the base type and for the extension.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
-    <ns0:schemaTest name="open047.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2011-10-17"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open047.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content permitted by the base type.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2011-10-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open047.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content permitted by the extension.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2011-10-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open047.v3.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, open content permitted by the extension.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2011-10-17"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open047.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, open content violates dynamic EDC rule</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2011-10-17"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open048" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>maxOccurs not allowed on xs:any within xs:openContent</ns0:Title>
-        <ns0:Description>Was open042, unintended error reported in bug 15618</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"/>
-    <ns0:schemaTest name="open048.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open048.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2012-01-20"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open201" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Valid content model</ns0:Title>
-        <ns0:Description>Basic test of defaultAttributes</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
-    <ns0:schemaTest name="open201.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open201.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses default attributes.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open201.v2.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, omits default attributes.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open202" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Valid content model</ns0:Title>
-        <ns0:Description>Basic test of defaultAttributes with defaultAttributesApply=false</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"/>
-    <ns0:schemaTest name="open202.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open202.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses default attributes as appropriate.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open202.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes where they don't apply.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open203" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Unresolved reference</ns0:Title>
-        <ns0:Description>Unresolved reference to default attribute group</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
-    <ns0:schemaTest name="open203.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open203.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open204" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Unresolved reference</ns0:Title>
-        <ns0:Description>Default attribute group in unimported namespace</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
-    <ns0:schemaTest name="open204.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open204.bad.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="open205" version="1.1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>Valid content model</ns0:Title>
-        <ns0:Description>defaultAttributes in an imported namespace</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
-    <ns0:schemaTest name="open205.xsd">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="open205.v1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Valid, uses default attributes as appropriate.</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.v1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="open205.n1.xml">
-      <ns0:annotation>
-        <ns0:documentation>Invalid, uses default attributes where they don't apply because the type
-		                is defined in a different schema document with no defaultAttributes</ns0:documentation>
-      </ns0:annotation>
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.n1.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2008-10-13"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-</ns0:testSet>
+                      This test was formerly open031 and was believed to be valid; see bug 13459.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"/>
+    <schemaTest name="open046.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open046.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2011-10-10"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open047" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>A valid extension</Title>
+        <Description>complex type extension: derived type's open content allows the union of the wildcards
+                specified for the base type and for the extension.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"/>
+    <schemaTest name="open047.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-10-17"/>
+    </schemaTest>
+    <instanceTest name="open047.v1.xml">
+      <annotation>
+        <documentation>Valid, open content permitted by the base type.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-10-17"/>
+    </instanceTest>
+    <instanceTest name="open047.v2.xml">
+      <annotation>
+        <documentation>Valid, open content permitted by the extension.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-10-17"/>
+    </instanceTest>
+    <instanceTest name="open047.v3.xml">
+      <annotation>
+        <documentation>Valid, open content permitted by the extension.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-10-17"/>
+    </instanceTest>
+    <instanceTest name="open047.n1.xml">
+      <annotation>
+        <documentation>Invalid, open content violates dynamic EDC rule</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2011-10-17"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open048" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>maxOccurs not allowed on xs:any within xs:openContent</Title>
+        <Description>Was open042, unintended error reported in bug 15618</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"/>
+    <schemaTest name="open048.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open048.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2012-01-20"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open201" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Valid content model</Title>
+        <Description>Basic test of defaultAttributes</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
+    <schemaTest name="open201.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open201.v1.xml">
+      <annotation>
+        <documentation>Valid, uses default attributes.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open201.v2.xml">
+      <annotation>
+        <documentation>Valid, omits default attributes.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open202" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Valid content model</Title>
+        <Description>Basic test of defaultAttributes with defaultAttributesApply=false</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"/>
+    <schemaTest name="open202.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open202.v1.xml">
+      <annotation>
+        <documentation>Valid, uses default attributes as appropriate.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open202.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes where they don't apply.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="open203" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Unresolved reference</Title>
+        <Description>Unresolved reference to default attribute group</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
+    <schemaTest name="open203.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open203.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open204" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Unresolved reference</Title>
+        <Description>Default attribute group in unimported namespace</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
+    <schemaTest name="open204.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open204.bad.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="open205" version="1.1">
+    <annotation>
+      <documentation>
+        <Title>Valid content model</Title>
+        <Description>defaultAttributes in an imported namespace</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"/>
+    <schemaTest name="open205.xsd">
+      <schemaDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </schemaTest>
+    <instanceTest name="open205.v1.xml">
+      <annotation>
+        <documentation>Valid, uses default attributes as appropriate.</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.v1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+    <instanceTest name="open205.n1.xml">
+      <annotation>
+        <documentation>Invalid, uses default attributes where they don't apply because the type
+		                is defined in a different schema document with no defaultAttributes</documentation>
+      </annotation>
+      <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.n1.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2008-10-13"/>
+    </instanceTest>
+  </testGroup>
+</testSet>

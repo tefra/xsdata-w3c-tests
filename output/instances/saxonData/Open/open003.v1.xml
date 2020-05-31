@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<doc xmlns:ns0="http://local.com/">
+<doc xmlns="http://local.com/">
   <a/>
   <b/>
-  <ns0:extra>42</ns0:extra>
+  <extra>42</extra>
 </doc>

@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<td:root xmlns:td="AttrUse/valConstr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <td:elementWithAttr td:number="12"/>
-</td:root>
+<root xmlns="AttrUse/valConstr" xmlns:td="AttrUse/valConstr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <elementWithAttr td:number="12"/>
+</root>

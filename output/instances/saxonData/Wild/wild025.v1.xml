@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<eden xmlns:m="http://adam.com/" xmlns:a="http://abel.com/" xmlns:c="http://cain.com/" xmlns:e="http://eve.com/" m:adam="adam"/>
+<eden xmlns:a="http://abel.com/" xmlns:m="http://adam.com/" xmlns:c="http://cain.com/" xmlns:e="http://eve.com/" m:adam="adam"/>

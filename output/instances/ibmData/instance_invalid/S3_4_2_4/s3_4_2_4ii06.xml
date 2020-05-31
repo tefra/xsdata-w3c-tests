@@ -1,6 +1,6 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_S3_4_2_4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://xstest-tns/schema11_S3_4_2_4" dv:defaultAttr="false">
-  <dv:element1/>
-  <dv:element2/>
-  <dv:element_added/>
-</dv:root>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xstest-tns/schema11_S3_4_2_4" xmlns:dv="http://xstest-tns/schema11_S3_4_2_4" dv:defaultAttr="false">
+  <element1/>
+  <element2/>
+  <element_added/>
+</root>

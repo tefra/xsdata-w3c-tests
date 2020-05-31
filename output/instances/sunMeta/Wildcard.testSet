@@ -1,636 +1,636 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="SUN" name="Wildcard" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ns0:testGroup name="annotation00101m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>human-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="SUN" name="Wildcard" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <testGroup name="annotation00101m1">
+    <annotation>
+      <documentation>
+        <Title>human-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the human-targeted annotation 
-                             is provided for a wildcard schema component (anyAttribute).</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>human-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             is provided for a wildcard schema component (anyAttribute).</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="annotation00101m2">
+    <annotation>
+      <documentation>
+        <Title>human-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the human-targeted annotation 
                              is provided for a wildcard schema component (anyAttribute).
-                             The annotation is specified twice.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m2.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m3">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>machine-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             The annotation is specified twice.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m2.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="annotation00101m3">
+    <annotation>
+      <documentation>
+        <Title>machine-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the machine-targeted annotation 
-                             is provided for a wildcard schema component (anyAttribute).</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m4">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>machine-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             is provided for a wildcard schema component (anyAttribute).</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m3">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="annotation00101m4">
+    <annotation>
+      <documentation>
+        <Title>machine-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the machine-targeted annotation 
                              is provided for a wildcard schema component (anyAttribute).
-                             The annotation is specified twice.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m4.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m5">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>human-targeted  annotation for a wildcard schema component (any) (valid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             The annotation is specified twice.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m4">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m4.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="annotation00101m5">
+    <annotation>
+      <documentation>
+        <Title>human-targeted  annotation for a wildcard schema component (any) (valid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the human-targeted annotation 
-                             is provided for a wildcard schema component (any).</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m6">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>human-targeted double annotation for a wildcard schema component (any) (invalid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             is provided for a wildcard schema component (any).</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m5">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="annotation00101m6">
+    <annotation>
+      <documentation>
+        <Title>human-targeted double annotation for a wildcard schema component (any) (invalid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the human-targeted annotation 
                              is provided for a wildcard schema component (any).
-                             The annotation is specified twice.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m6.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m7">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>machine-targeted  annotation for a wildcard schema component (any) (valid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             The annotation is specified twice.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m6">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m6.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="annotation00101m7">
+    <annotation>
+      <documentation>
+        <Title>machine-targeted  annotation for a wildcard schema component (any) (valid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the machine-targeted annotation 
-                             is provided for a wildcard schema component (any).</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m7">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="annotation00101m8">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>machine-targeted double annotation for a wildcard schema component (any) (invalid schema)</ns0:Title>
-        <ns0:Description>Annotations provide for human- and machine-targeted 
+                             is provided for a wildcard schema component (any).</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m7">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="annotation00101m8">
+    <annotation>
+      <documentation>
+        <Title>machine-targeted double annotation for a wildcard schema component (any) (invalid schema)</Title>
+        <Description>Annotations provide for human- and machine-targeted 
                              annotations of schema components.
                               In the test the machine-targeted annotation 
                              is provided for a wildcard schema component (any).
-                             The annotation is specified twice.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="annotation00101m8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m8.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00101m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='##any' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
-                                1. (any) have any namespace or are not namespace qualified;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00101m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00101m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>default value of 'namespace' is '##any' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
-                                1. (any) have any namespace or are not namespace qualified;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00101m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00102m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='##any' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
-                                1. (any) have any namespace or are not namespace qualified;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00102m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00102m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>default value of 'namespace' is '##any' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
-                                1. (any) have any namespace or are not namespace qualified;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00102m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00201m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='##other' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                             The annotation is specified twice.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="annotation00101m8">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m8.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="nsconstraint00101m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='##any' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                1. (any) have any namespace or are not namespace qualified;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00101m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00101m2">
+    <annotation>
+      <documentation>
+        <Title>default value of 'namespace' is '##any' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                1. (any) have any namespace or are not namespace qualified;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00101m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00102m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='##any' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                1. (any) have any namespace or are not namespace qualified;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00102m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00102m2">
+    <annotation>
+      <documentation>
+        <Title>default value of 'namespace' is '##any' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                1. (any) have any namespace or are not namespace qualified;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00102m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00201m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='##other' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
                                 2. (not and a namespace name) have any namespace other than the specified namespace
-                                    name;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00201m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00202m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='##other' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                    name;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00201m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00202m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='##other' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
                                 2. (not and a namespace name) have any namespace other than the specified namespace
-                                    name;</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00202m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00301m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='ns_test1 ns_test2' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                    name;</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00202m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00301m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='ns_test1 ns_test2' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
                              
                                 4. (a set whose members are either namespace names or *absent*) have any of the specified
-                                   namespaces and/or, if *absent* is included in the set, are unqualified.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00301m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="nsconstraint00302m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>namespace='ns_test1 ns_test2' (valid schema)</ns0:Title>
-        <ns0:Description>{namespace constraint} provides for *validation* of attribute and element items that:
+                                   namespaces and/or, if *absent* is included in the set, are unqualified.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00301m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="nsconstraint00302m1">
+    <annotation>
+      <documentation>
+        <Title>namespace='ns_test1 ns_test2' (valid schema)</Title>
+        <Description>{namespace constraint} provides for *validation* of attribute and element items that:
                              
                                 4. (a set whose members are either namespace names or *absent*) have any of the specified
-                                   namespaces and/or, if *absent* is included in the set, are unqualified.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="nsConstraint00302m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00101m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='strict' and the declaration is available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                   namespaces and/or, if *absent* is included in the set, are unqualified.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="nsConstraint00302m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00101m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='strict' and the declaration is available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 strict
                                     There must be a top-level declaration for the item available, or the item
-                                    must have an xsi:type, and the item must be *valid* as appropriate.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00101m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00101m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='strict' and the declaration is not available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    must have an xsi:type, and the item must be *valid* as appropriate.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00101m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00101m2">
+    <annotation>
+      <documentation>
+        <Title>processContents='strict' and the declaration is not available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 strict
                                     There must be a top-level declaration for the item available, or the item
-                                    must have an xsi:type, and the item must be *valid* as appropriate.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00101m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00102m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='strict' and the declaration is available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    must have an xsi:type, and the item must be *valid* as appropriate.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00101m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00102m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='strict' and the declaration is available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 strict
                                     There must be a top-level declaration for the item available, or the item
-                                    must have an xsi:type, and the item must be *valid* as appropriate.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00102m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00102m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='strict' and the declaration is not available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    must have an xsi:type, and the item must be *valid* as appropriate.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00102m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00102m2">
+    <annotation>
+      <documentation>
+        <Title>processContents='strict' and the declaration is not available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 strict
                                     There must be a top-level declaration for the item available, or the item
-                                    must have an xsi:type, and the item must be *valid* as appropriate.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00102m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00201m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='skip' (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    must have an xsi:type, and the item must be *valid* as appropriate.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00102m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00201m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='skip' (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 skip
-                                    No constraints at all: the item must simply be well-formed XML.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00201m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00202m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='skip' (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    No constraints at all: the item must simply be well-formed XML.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00201m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00202m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='skip' (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 skip
-                                    No constraints at all: the item must simply be well-formed XML.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00202m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00301m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='lax' and the declaration is available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    No constraints at all: the item must simply be well-formed XML.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00202m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00301m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='lax' and the declaration is available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 lax
                                     If the item, or any items among its [children] if it's an element information
                                     item, has a uniquely determined declaration available, it must be *valid* with
-                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00301m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00301m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='lax' and the declaration is not available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00301m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00301m2">
+    <annotation>
+      <documentation>
+        <Title>processContents='lax' and the declaration is not available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 lax
                                     If the item, or any items among its [children] if it's an element information
                                     item, has a uniquely determined declaration available, it must be *valid* with
-                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00301m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00302m1">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='lax' and the declaration is available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00301m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00302m1">
+    <annotation>
+      <documentation>
+        <Title>processContents='lax' and the declaration is available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 lax
                                     If the item, or any items among its [children] if it's an element information
                                     item, has a uniquely determined declaration available, it must be *valid* with
-                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00302m1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="pscontents00302m2">
-    <ns0:annotation>
-      <ns0:documentation>
-        <ns0:Title>processContents='lax' and the declaration is not available (valid schema)</ns0:Title>
-        <ns0:Description>{process contents} controls the impact on *assessment* of the information items
+                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00302m1">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="pscontents00302m2">
+    <annotation>
+      <documentation>
+        <Title>processContents='lax' and the declaration is not available (valid schema)</Title>
+        <Description>{process contents} controls the impact on *assessment* of the information items
                               allowed by wildcards, as follows:
                              
                                 lax
                                     If the item, or any items among its [children] if it's an element information
                                     item, has a uniquely determined declaration available, it must be *valid* with
-                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</ns0:Description>
-      </ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
-    <ns0:schemaTest name="psContents00302m2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="Positive">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_p.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-    <ns0:instanceTest name="Negative">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2005-06-21"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-</ns0:testSet>
+                                    respect to that definition, that is, *validate* where you can, don't worry when you can't.</Description>
+      </documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"/>
+    <schemaTest name="psContents00302m2">
+      <schemaDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </schemaTest>
+    <instanceTest name="Positive">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_p.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+    <instanceTest name="Negative">
+      <instanceDocument xlink:type="locator" xlink:href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2005-06-21"/>
+    </instanceTest>
+  </testGroup>
+</testSet>

@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<default:a xmlns:default="foo" xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">b</default:a>
+<a xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">b</a>

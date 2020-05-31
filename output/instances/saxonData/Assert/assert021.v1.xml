@@ -1,8 +1,8 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="http://assert021.ns/">
-  <ns0:temp>
-    <ns0:temp>
-      <ns0:temp/>
-    </ns0:temp>
-  </ns0:temp>
-</ns0:doc>
+<doc xmlns="http://assert021.ns/">
+  <temp>
+    <temp>
+      <temp/>
+    </temp>
+  </temp>
+</doc>

@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:a xmlns:test="compositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<a xmlns="compositor" xmlns:test="compositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

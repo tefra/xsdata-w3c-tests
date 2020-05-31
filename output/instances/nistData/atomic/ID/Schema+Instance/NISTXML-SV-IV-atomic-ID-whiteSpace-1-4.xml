@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:out xmlns:ns0="NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:NISTSchema-SV-IV-atomic-ID-whiteSpace-1>unetworking.technology_of-provide-developed_ways_th</ns0:NISTSchema-SV-IV-atomic-ID-whiteSpace-1>
-</ns0:out>
+<out xmlns="NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NISTSchema-SV-IV-atomic-ID-whiteSpace-1>unetworking.technology_of-provide-developed_ways_th</NISTSchema-SV-IV-atomic-ID-whiteSpace-1>
+</out>

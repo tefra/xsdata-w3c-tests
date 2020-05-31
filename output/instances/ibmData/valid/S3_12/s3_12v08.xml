@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
+<ns:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
   <child type1="true">true</child>
   <child type2="true">1234</child>
   <child>childType</child>
   <child type1="true" type2="false">childType</child>
-</ns0:root>
+</ns:root>

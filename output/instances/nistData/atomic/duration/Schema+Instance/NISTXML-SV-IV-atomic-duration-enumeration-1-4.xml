@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-duration-enumeration-1 xmlns:ns0="NISTSchema-SV-IV-atomic-duration-enumeration-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">P2000Y08M25DT00H50M37S</ns0:NISTSchema-SV-IV-atomic-duration-enumeration-1>
+<NISTSchema-SV-IV-atomic-duration-enumeration-1 xmlns="NISTSchema-SV-IV-atomic-duration-enumeration-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">P2000Y08M25DT00H50M37S</NISTSchema-SV-IV-atomic-duration-enumeration-1>

@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-maxLength-3 xmlns:ns0="NISTSchema-SV-IV-atomic-string-maxLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">on domains are looking
+<NISTSchema-SV-IV-atomic-string-maxLength-3 xmlns="NISTSchema-SV-IV-atomic-string-maxLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">on domains are looking
 to use XML technologies to define  manipulate  and exchange structured
 information  In addition  XML processors and support for the related
 Schema  DOM and XSL technologies are available in beta versions of
@@ -16,4 +16,4 @@ and conformance
 NIST/ITL is collaborating with industry to solve
 these problems using the following related tasks:
 
-Provide technical le</ns0:NISTSchema-SV-IV-atomic-string-maxLength-3>
+Provide technical le</NISTSchema-SV-IV-atomic-string-maxLength-3>

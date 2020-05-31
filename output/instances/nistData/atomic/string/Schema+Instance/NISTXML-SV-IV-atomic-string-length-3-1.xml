@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-length-3 xmlns:ns0="NISTSchema-SV-IV-atomic-string-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The advent of Internet-enabled browsers and a
+<NISTSchema-SV-IV-atomic-string-length-3 xmlns="NISTSchema-SV-IV-atomic-string-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The advent of Internet-enabled browsers and a
 first-generation language for defining data  known as HTML  has led to
 the creation of the world s first digital library  Using the simplicity
 of HTML with more advanced concepts from the publishing community has
@@ -9,4 +9,4 @@ most popular languages in the world  XML is being incorporated into web
 pages and applications alike  particularly in those involved in
 electronic commerce applications  It is a language that describes
 information in a way that allows computers to exchange and automatically
-act on the information  Consequently</ns0:NISTSchema-SV-IV-atomic-string-length-3>
+act on the information  Consequently</NISTSchema-SV-IV-atomic-string-length-3>

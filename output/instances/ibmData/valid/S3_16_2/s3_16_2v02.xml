@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/IBMd3_16v02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/IBMd3_16v02">
   <elfltUnionC>12</elfltUnionC>
 </dv:root>

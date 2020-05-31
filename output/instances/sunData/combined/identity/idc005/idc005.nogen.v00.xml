@@ -1,24 +1,24 @@
 <!-- xsdata instance -->
-<p:BookCatalogue xmlns:p="http://www.publishing.org" xmlns:ns0="http://www.publishing.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <p:Book>
-    <p:Title>My Life and Times</p:Title>
-    <p:Author>Paul McCartney</p:Author>
-    <p:Date>1998</p:Date>
-    <p:ISBN>94303-12021-43892</p:ISBN>
-    <p:Publisher>McMillin Publishing</p:Publisher>
-  </p:Book>
-  <p:Book>
-    <p:Title>Illusions The Adventures of a Reluctant Messiah</p:Title>
-    <p:Author>Richard Bach</p:Author>
-    <p:Date>1977</p:Date>
-    <p:ISBN>0-440-34319-4</p:ISBN>
-    <p:Publisher>Dell Publishing Co.</p:Publisher>
-  </p:Book>
-  <p:Book>
-    <p:Title>The First and Last Freedom</p:Title>
-    <p:Author>J. Krishnamurti</p:Author>
-    <p:Date>1954</p:Date>
-    <p:ISBN>0-06-064831-7</p:ISBN>
-    <p:Publisher>Harper &amp; Row</p:Publisher>
-  </p:Book>
-</p:BookCatalogue>
+<BookCatalogue xmlns="http://www.publishing.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Book>
+    <Title>My Life and Times</Title>
+    <Author>Paul McCartney</Author>
+    <Date>1998</Date>
+    <ISBN>94303-12021-43892</ISBN>
+    <Publisher>McMillin Publishing</Publisher>
+  </Book>
+  <Book>
+    <Title>Illusions The Adventures of a Reluctant Messiah</Title>
+    <Author>Richard Bach</Author>
+    <Date>1977</Date>
+    <ISBN>0-440-34319-4</ISBN>
+    <Publisher>Dell Publishing Co.</Publisher>
+  </Book>
+  <Book>
+    <Title>The First and Last Freedom</Title>
+    <Author>J. Krishnamurti</Author>
+    <Date>1954</Date>
+    <ISBN>0-06-064831-7</ISBN>
+    <Publisher>Harper &amp; Row</Publisher>
+  </Book>
+</BookCatalogue>

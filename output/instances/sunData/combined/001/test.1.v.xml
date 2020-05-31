@@ -1,27 +1,27 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item xsi:type="ns0:De">
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-  <ns0:item>
-    <ns0:foo/>
-  </ns0:item>
-</ns0:root>
+<root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+  <item xsi:type="De">
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+  <item>
+    <foo/>
+  </item>
+</root>

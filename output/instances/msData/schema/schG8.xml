@@ -1,12 +1,12 @@
 <!-- xsdata instance -->
-<a:root xmlns:a="ns-a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="ns-c">
-  <a:e1>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a" xmlns:c="ns-c">
+  <e1>
     <a1>123</a1>
     <a2>true</a2>
-  </a:e1>
+  </e1>
   <c:e1>
     <a1>123</a1>
     <a2>123</a2>
   </c:e1>
   <c:foo/>
-</a:root>
+</root>

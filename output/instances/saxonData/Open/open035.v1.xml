@@ -1,10 +1,10 @@
 <!-- xsdata instance -->
-<ns0:BookStore xmlns:ns0="http://www.books.org">
-  <ns0:Book id="b1">
-    <ns0:Title>T</ns0:Title>
-    <ns0:Author>A</ns0:Author>
-    <ns0:Date>date</ns0:Date>
-    <ns0:ISBN>is</ns0:ISBN>
-    <ns0:Publisher>Pub</ns0:Publisher>
-  </ns0:Book>
-</ns0:BookStore>
+<BookStore xmlns="http://www.books.org">
+  <Book id="b1">
+    <Title>T</Title>
+    <Author>A</Author>
+    <Date>date</Date>
+    <ISBN>is</ISBN>
+    <Publisher>Pub</Publisher>
+  </Book>
+</BookStore>

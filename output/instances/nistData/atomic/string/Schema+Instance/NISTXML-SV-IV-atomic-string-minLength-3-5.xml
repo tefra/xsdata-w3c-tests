@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-3 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">bvious
+<NISTSchema-SV-IV-atomic-string-minLength-3 xmlns="NISTSchema-SV-IV-atomic-string-minLength-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">bvious
 choices as building blocks for electronic commerce  As such  conformance
 of these products to the W3C Recommendations is necessary to build
 interoperable solutions  The Organization for the Advancement of
@@ -19,4 +19,4 @@ Provide test frameworks for XML  DOM  XSL-FO  XSLT/Xpath  and XML
       Schemas 
 Partner with industry participants to build robust test suites for
       XML  DOM  XSL-FO  XSLT/Xpath  and XML Schemas 
-Develop in-house tools to aid in</ns0:NISTSchema-SV-IV-atomic-string-minLength-3>
+Develop in-house tools to aid in</NISTSchema-SV-IV-atomic-string-minLength-3>

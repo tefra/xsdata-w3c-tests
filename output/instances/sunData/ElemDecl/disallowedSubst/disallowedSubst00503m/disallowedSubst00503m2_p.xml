@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="ElemDecl/disallowedSubst" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:Member1/>
-</ns0:root>
+<root xmlns="ElemDecl/disallowedSubst" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Member1/>
+</root>

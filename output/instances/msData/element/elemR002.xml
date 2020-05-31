@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<po:purchaseOrder xmlns:po="testNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<po:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:po="testNS">
   <po:shipTo country="US">
     <name>Alice Smith</name>
     <street>123 Maple Street</street>

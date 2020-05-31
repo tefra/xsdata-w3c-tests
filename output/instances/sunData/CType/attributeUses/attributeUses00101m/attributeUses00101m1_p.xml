@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:a xmlns:test="attributeUses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attr1="abc" attr2="2002-04-09">123</test:a>
+<a xmlns="attributeUses" xmlns:test="attributeUses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attr1="abc" attr2="2002-04-09">123</a>

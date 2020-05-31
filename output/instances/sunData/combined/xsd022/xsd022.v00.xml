@@ -1,12 +1,12 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="http://foo.com">
-  <ns0:child1>
+<root xmlns="http://foo.com">
+  <child1>
 		123456 abcdef xxxxxxxx
-	</ns0:child1>
-  <ns0:child2>true</ns0:child2>
-  <ns0:child2>false</ns0:child2>
-  <ns0:child2>false</ns0:child2>
-  <ns0:child2>true</ns0:child2>
-  <ns0:child2>abcdef</ns0:child2>
-  <ns0:child2>xxxxxxxx</ns0:child2>
-</ns0:root>
+	</child1>
+  <child2>true</child2>
+  <child2>false</child2>
+  <child2>false</child2>
+  <child2>true</child2>
+  <child2>abcdef</child2>
+  <child2>xxxxxxxx</child2>
+</root>

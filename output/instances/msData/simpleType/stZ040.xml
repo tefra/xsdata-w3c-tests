@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:info2 xmlns:ns0="urn:test" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">123456</ns0:info2>
+<info2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:test">123456</info2>

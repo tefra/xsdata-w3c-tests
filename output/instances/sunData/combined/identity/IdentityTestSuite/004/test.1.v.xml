@@ -1,9 +1,9 @@
 <!-- xsdata instance -->
-<tn:root xmlns:tn="foo" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <tn:scope>
-    <tn:key>abc</tn:key>
-  </tn:scope>
-  <tn:scope>
-    <tn:key>abc</tn:key>
-  </tn:scope>
-</tn:root>
+<root xmlns="foo" xmlns:tn="foo" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <scope>
+    <key>abc</key>
+  </scope>
+  <scope>
+    <key>abc</key>
+  </scope>
+</root>

@@ -1,15 +1,15 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="http://id044.ly/">
-  <ns0:chap>
-    <ns0:section nr="1" ref="4"/>
-    <ns0:section nr="2" ref="3"/>
-    <ns0:section nr="3" ref="2"/>
-    <ns0:section nr="4" ref="1"/>
-  </ns0:chap>
-  <ns0:appx>
-    <ns0:section nr="1" ref="1"/>
-    <ns0:section nr="2" ref="2"/>
-    <ns0:section nr="3" ref="3"/>
-    <ns0:section nr="4" ref="4"/>
-  </ns0:appx>
-</ns0:doc>
+<doc xmlns="http://id044.ly/">
+  <chap>
+    <section nr="1" ref="4"/>
+    <section nr="2" ref="3"/>
+    <section nr="3" ref="2"/>
+    <section nr="4" ref="1"/>
+  </chap>
+  <appx>
+    <section nr="1" ref="1"/>
+    <section nr="2" ref="2"/>
+    <section nr="3" ref="3"/>
+    <section nr="4" ref="4"/>
+  </appx>
+</doc>

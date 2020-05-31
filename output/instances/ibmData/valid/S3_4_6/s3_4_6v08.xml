@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_S3_4_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_S3_4_6">
   <element4>4</element4>
   <element3>3</element3>
   <element2>2</element2>

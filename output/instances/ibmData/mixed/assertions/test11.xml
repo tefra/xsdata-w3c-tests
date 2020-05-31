@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:X xmlns:ns0="http://xyz">
-  <ns0:message>hello</ns0:message>
-</ns0:X>
+<X xmlns="http://xyz">
+  <message>hello</message>
+</X>

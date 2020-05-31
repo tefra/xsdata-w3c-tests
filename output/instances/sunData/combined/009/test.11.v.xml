@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<foo:prohibit xmlns:foo="urn:foo" a="xxx" b="xxx"/>
+<prohibit xmlns="urn:foo" xmlns:foo="urn:foo" a="xxx" b="xxx"/>

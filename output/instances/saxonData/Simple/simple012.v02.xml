@@ -1,18 +1,18 @@
 <!-- xsdata instance -->
-<ns0:book xmlns:ns0="http://simple012.ly/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:subdoc>
-    <ns0:chap>2010-10-12</ns0:chap>
-  </ns0:subdoc>
-  <ns0:doc>
-    <ns0:chap>2010-10-12</ns0:chap>
-  </ns0:doc>
-  <ns0:subdoc>
-    <ns0:chap>2010-11-05T12:12:12</ns0:chap>
-  </ns0:subdoc>
-  <ns0:doc>
-    <ns0:chap>2010-10-12T13:13:13</ns0:chap>
-  </ns0:doc>
-  <ns0:doc>
-    <ns0:chap>18:18:18</ns0:chap>
-  </ns0:doc>
-</ns0:book>
+<book xmlns="http://simple012.ly/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <subdoc>
+    <chap>2010-10-12</chap>
+  </subdoc>
+  <doc>
+    <chap>2010-10-12</chap>
+  </doc>
+  <subdoc>
+    <chap>2010-11-05T12:12:12</chap>
+  </subdoc>
+  <doc>
+    <chap>2010-10-12T13:13:13</chap>
+  </doc>
+  <doc>
+    <chap>18:18:18</chap>
+  </doc>
+</book>

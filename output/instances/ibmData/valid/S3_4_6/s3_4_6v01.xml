@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_S3_4_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_S3_4_6">
   <a>1</a>
   <wildcard>1</wildcard>
   <wildcard2>hi.123</wildcard2>

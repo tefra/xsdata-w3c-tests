@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-minLength-2 xmlns:ns0="NISTSchema-SV-IV-atomic-string-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">sing the following related tasks:
+<NISTSchema-SV-IV-atomic-string-minLength-2 xmlns="NISTSchema-SV-IV-atomic-string-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">sing the following related tasks:
 
 Provide technical leadership by chairing and/or participating in
       appropriate OASIS and W3C efforts  including OASIS XML and
@@ -17,4 +17,4 @@ Work with industry to ensure that these tests are used as
 
 As chair of the OASIS XML Conformance Subcommittee  NIST/ITL
 led the development of the widely used XML test suite  NIST/ITL has
-further developed in cooperation</ns0:NISTSchema-SV-IV-atomic-string-minLength-2>
+further developed in cooperation</NISTSchema-SV-IV-atomic-string-minLength-2>

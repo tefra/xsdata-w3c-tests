@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<x2:MapInfo xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ns0="http://www.mydefaultnamespace.com/SAP" xmlns:xs="http://www.w3.org/2001/XMLSchema" x2:HideInactiveListBorder="false" x2:SelectionNamespaces="http://foo" x2:HideSingleMappedCellBorder="true">
+<x2:MapInfo xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:xs="http://www.w3.org/2001/XMLSchema" x2:HideInactiveListBorder="false" x2:SelectionNamespaces="http://foo" x2:HideSingleMappedCellBorder="true">
   <x2:Schema x2:ID="Schema3" x2:Namespace="http://www.mydefaultnamespace.com/SAP">
     <xs:schema targetNamespace="http://www.mydefaultnamespace.com/SAP" elementFormDefault="qualified">
       <xs:import namespace="http://schemas.microsoft.com/office/excel/2003/xml" schemaLocation="test93490_16.xsd"/>

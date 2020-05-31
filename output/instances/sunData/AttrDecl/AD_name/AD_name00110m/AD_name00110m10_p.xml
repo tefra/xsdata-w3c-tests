@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<td:root xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" str00A&#8400;="a" str10-&#8406;="b" str20&#8412;="c" str01A&#8417;="a" str02A&#12330;="a" str12-&#12332;="b" str22&#12335;="c" str03A&#12441;="a" str04A&#12442;="a"/>
+<root xmlns="AttrDecl/name" xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" str00A&#8400;="a" str10-&#8406;="b" str20&#8412;="c" str01A&#8417;="a" str02A&#12330;="a" str12-&#12332;="b" str22&#12335;="c" str03A&#12441;="a" str04A&#12442;="a"/>

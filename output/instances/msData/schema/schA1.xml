@@ -1,9 +1,9 @@
 <!-- xsdata instance -->
-<a:root xmlns:a="ns-a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="ns-b">
-  <a:e1>
-    <a:a1>abc</a:a1>
-    <a:a2>abc</a:a2>
-  </a:e1>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a" xmlns:b="ns-b">
+  <e1>
+    <a1>abc</a1>
+    <a2>abc</a2>
+  </e1>
   <b:e1>
     <a1>0</a1>
     <a2>true</a2>
@@ -12,10 +12,10 @@
     <a1>123</a1>
     <a2>123</a2>
   </e1>
-  <a:e1>
-    <a:a1>abc</a:a1>
-    <a:a2>abc</a:a2>
-  </a:e1>
+  <e1>
+    <a1>abc</a1>
+    <a2>abc</a2>
+  </e1>
   <b:e1>
     <a1>0</a1>
     <a2>true</a2>
@@ -24,4 +24,4 @@
     <a1>123</a1>
     <a2>123</a2>
   </e1>
-</a:root>
+</root>

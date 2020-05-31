@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-float-enumeration-3 xmlns:ns0="NISTSchema-SV-IV-list-float-enumeration-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.4E-45 3.1420954E-32 3.3769693E-19 2.9315644E-6 2.4746801E7 2.8636274E20 3.4028235E38</ns0:NISTSchema-SV-IV-list-float-enumeration-3>
+<NISTSchema-SV-IV-list-float-enumeration-3 xmlns="NISTSchema-SV-IV-list-float-enumeration-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.4E-45 3.1420954E-32 3.3769693E-19 2.9315644E-6 2.4746801E7 2.8636274E20 3.4028235E38</NISTSchema-SV-IV-list-float-enumeration-3>

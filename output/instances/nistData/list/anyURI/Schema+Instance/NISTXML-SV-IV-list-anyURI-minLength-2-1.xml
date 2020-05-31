@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-anyURI-minLength-2 xmlns:ns0="NISTSchema-SV-IV-list-anyURI-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ftp://toolsar.ledto.edu news://doc.inco.edu ftp://forbrow.gov http://Indivi.usedm.cal.gov telnet://cantoen.org news://Uni.Extens.com http://lawr.e.org</ns0:NISTSchema-SV-IV-list-anyURI-minLength-2>
+<NISTSchema-SV-IV-list-anyURI-minLength-2 xmlns="NISTSchema-SV-IV-list-anyURI-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ftp://toolsar.ledto.edu news://doc.inco.edu ftp://forbrow.gov http://Indivi.usedm.cal.gov telnet://cantoen.org news://Uni.Extens.com http://lawr.e.org</NISTSchema-SV-IV-list-anyURI-minLength-2>

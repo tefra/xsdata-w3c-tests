@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-length-3 xmlns:ns0="NISTSchema-SV-IV-atomic-string-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ity
+<NISTSchema-SV-IV-atomic-string-length-3 xmlns="NISTSchema-SV-IV-atomic-string-length-3-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ity
 and conformance 
 
 NIST/ITL is collaborating with industry to solve
@@ -16,4 +16,4 @@ Partner with industry participants to build robust test suites for
 Develop in-house tools to aid in automating test generation for
       XML-based languages 
 Work with industry to ensure that these tests are used as
-      metrolo</ns0:NISTSchema-SV-IV-atomic-string-length-3>
+      metrolo</NISTSchema-SV-IV-atomic-string-length-3>

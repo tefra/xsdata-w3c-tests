@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<insi:root xmlns:insi="http://xstest-tns/schema11_D3_4_26_v06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<insi:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:insi="http://xstest-tns/schema11_D3_4_26_v06">
   <elDuration>P2001Y29M</elDuration>
 </insi:root>

@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<a:root xmlns:a="http://xsdtesting" xmlns:b="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">b:a</a:root>
+<root xmlns:b="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:a="http://xsdtesting">b:a</root>

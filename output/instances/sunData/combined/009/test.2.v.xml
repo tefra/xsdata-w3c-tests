@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<foo:base xmlns:foo="urn:foo"/>
+<base xmlns="urn:foo" xmlns:foo="urn:foo"/>

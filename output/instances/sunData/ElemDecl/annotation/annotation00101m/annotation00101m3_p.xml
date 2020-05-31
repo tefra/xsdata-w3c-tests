@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="ElemDecl/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<root xmlns="ElemDecl/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

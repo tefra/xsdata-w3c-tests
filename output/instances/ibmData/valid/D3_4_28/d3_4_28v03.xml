@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_28_v03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_28_v03">
   <eldTimeStampPattern>2000-01-01T12:00:00.123-09:00</eldTimeStampPattern>
   <eldTimeStampListA>2001-01-01T12:00:00.123-09:00 2002-01-01T12:00:00Z</eldTimeStampListA>
   <eldTimeStampListB>2001-01-01T12:00:00.123-09:00 2004-01-01T12:00:00.123Z 2002-01-01T12:00:00.123+09:00</eldTimeStampListB>

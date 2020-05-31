@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-length-2 xmlns:ns0="NISTSchema-SV-IV-atomic-string-length-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">rs and
+<NISTSchema-SV-IV-atomic-string-length-2 xmlns="NISTSchema-SV-IV-atomic-string-length-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">rs and
 throughout the industry  The eXtensible Markup Language  XML   which is
 already targeted as the enabling technology for EC  is the primary
 standard by which industries are defining the structure and semantics of
@@ -15,4 +15,4 @@ discover and retrieve documents  templates  software  i e   objects
 and resources  over the Internet  A registry is the mechanism used to
 discover the object  The registry provides information about the
 object  including the location of the object  A repository is where
-the object re</ns0:NISTSchema-SV-IV-atomic-string-length-2>
+the object re</NISTSchema-SV-IV-atomic-string-length-2>

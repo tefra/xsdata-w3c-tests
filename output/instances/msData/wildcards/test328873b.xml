@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<a:sub2 xmlns:a="a" xmlns:b="b" xmlns:x="x" a:att1="abc" att2="bc" b:att3="foo" x:att4="val" att="a"/>
+<sub2 xmlns="a" xmlns:a="a" xmlns:b="b" xmlns:x="x" a:att1="abc" att2="bc" b:att3="foo" x:att4="val" att="a"/>

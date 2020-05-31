@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:justA xmlns:ns0="urn:foo" xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" a:foo="local"/>
+<justA xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" xmlns="urn:foo" a:foo="local"/>

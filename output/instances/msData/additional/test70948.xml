@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<myNS:root xmlns:myNS="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">16</myNS:root>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:myNS="http://xsdtesting">16</root>

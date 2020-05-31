@@ -1,874 +1,874 @@
 <!-- xsdata instance -->
-<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="assertion" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ts:annotation>
-    <ts:documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions">assertion</ts:documentation>
-  </ts:annotation>
-  <ts:testGroup name="d4_3_15v01" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Assertions on a complex type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v01s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v01.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v01i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v01.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v02" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Assertions on a complex type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v02s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v02.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v02i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v02.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v03" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v03s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v03.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v03i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v03.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v04" version="1.1">
-    <ts:annotation>
-      <ts:documentation>ssertions on a complex type definition. uses multiple asserts</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v04s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v04.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v04i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v04.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v05" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a simple type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v05s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v05.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v05i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v05.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v06" version="1.1">
-    <ts:annotation>
-      <ts:documentation>having complexContent, assertions from both derived and base type must succeed</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
-    <ts:schemaTest name="d4_3_15v06s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v06.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v06i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v06.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v07" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on derived simple type definitions,
-          all baseType and derivedType must evaluate to be true</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
-    <ts:schemaTest name="d4_3_15v07s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v07.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v07i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v07.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v08" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition having simpleContent</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
-    <ts:schemaTest name="d4_3_15v08s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v08.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v08i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v08.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v09" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on simple type, using variable $value</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
-    <ts:schemaTest name="d4_3_15v09s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v09.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v09i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v09.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v10" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on derived complex type</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
-    <ts:schemaTest name="d4_3_15v10s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v10.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v10i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v10.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v11" version="1.1">
-    <ts:annotation>
-      <ts:documentation>dynamic context of the XPath expression, assertion on attribute</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
-    <ts:schemaTest name="d4_3_15v11s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v11.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v11i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v11.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v13" version="1.1">
-    <ts:annotation>
-      <ts:documentation>dynamic context of the XPath expression, assertion on element</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
-    <ts:schemaTest name="d4_3_15v13s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v13.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v13i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v13.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v14" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on elements</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15v14s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v14.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v14i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v14.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v15" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on attributes</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15v15s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v15.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v15i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v15.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v18" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition,
-          having complexContent, assertions from anySimpleType type.</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v18s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v18.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v18i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v18.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v19" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition,
-          having simpleContent, assertions from anyAtomicType type.</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15v19s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v19.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v19i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v19.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v21" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v21s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v21.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v21i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v21.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v22" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v22s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v22.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v22i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v22.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v23" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v23s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v23.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v23i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v23.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v24" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v24s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v24.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v24i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v24.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v25" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v25s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v25.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v25i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v25.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v26" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v26s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v26.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v26i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v26.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v27" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v27s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v27.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v27i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v27.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15v28" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##local) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15v28s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v28.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15v28i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v28.xml"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii01" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Assertions on a complex type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii01s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii01i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii02" version="1.1">
-    <ts:annotation>
-      <ts:documentation>Assertions on a complex type definition</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii02s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii02i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii03" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels.</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii03s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii03i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii04" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition. uses multiple asserts</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii04s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii04i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii06" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii06s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii06i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii08" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition having simpleContent</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii08s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii08i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii10" version="1.1">
-    <ts:annotation>
-      <ts:documentation>ssertions on derived complex type</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
-    <ts:schemaTest name="d4_3_15ii10s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii10i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii11" version="1.1">
-    <ts:annotation>
-      <ts:documentation>dynamic context of the XPath expression, assertion on attribute</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
-    <ts:schemaTest name="d4_3_15ii11s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii11i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii12" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"/>
-    <ts:schemaTest name="d4_3_15ii12s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii12i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii13" version="1.1">
-    <ts:annotation>
-      <ts:documentation>dynamic context of the XPath expression, assertion on element</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
-    <ts:schemaTest name="d4_3_15ii13s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii13i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii14" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on elements</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15ii14s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii14i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii15" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on attributes</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15ii15s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii15i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii17" version="1.1">
-    <ts:annotation>
-      <ts:documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15ii17s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii17i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii18" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition,         having complexContent, assertions from anySimpleType type</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii18s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii18i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii19" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a complex type definition,
-          having simpleContent, assertions from anyAtomicType type.</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
-    <ts:schemaTest name="d4_3_15ii19s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii19i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii20" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertions on a simple type definition.</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
-    <ts:schemaTest name="d4_3_15ii20s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii20i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii21" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii21s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii21i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii22" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii22s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii22i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii23" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii23s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii23i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii24" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii24s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii24i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii25" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii25s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii25i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii27" version="1.1">
-    <ts:annotation>
-      <ts:documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii27s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii27i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii29" version="1.1">
-    <ts:annotation>
-      <ts:documentation>xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii29s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xsd"/>
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29b.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii29i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii30" version="1.1">
-    <ts:annotation>
-      <ts:documentation>assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
-    <ts:schemaTest name="d4_3_15ii30s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xsd"/>
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30b.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii30i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii31" version="1.1">
-    <ts:annotation>
-      <ts:documentation>"//" returns empty sequence</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15ii31s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2011-08-26"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii31i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15ii32" version="1.1">
-    <ts:annotation>
-      <ts:documentation>"//" returns empty sequence</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
-    <ts:schemaTest name="d4_3_15ii32s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xsd"/>
-      <ts:expected validity="valid"/>
-      <ts:current status="accepted" date="2011-08-26"/>
-    </ts:schemaTest>
-    <ts:instanceTest name="d4_3_15ii32i">
-      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xml"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:instanceTest>
-  </ts:testGroup>
-  <ts:testGroup name="d4_3_15si04" version="1.1">
-    <ts:annotation>
-      <ts:documentation>errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType</ts:documentation>
-    </ts:annotation>
-    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
-    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
-    <ts:schemaTest name="d4_3_15si04s">
-      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/D4_3_15/d4_3_15si04.xsd"/>
-      <ts:expected validity="invalid"/>
-      <ts:current status="accepted" date="2010-12-01"/>
-    </ts:schemaTest>
-  </ts:testGroup>
-</ts:testSet>
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="assertion" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <annotation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions">assertion</documentation>
+  </annotation>
+  <testGroup name="d4_3_15v01" version="1.1">
+    <annotation>
+      <documentation>Assertions on a complex type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v01s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v01.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v01i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v01.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v02" version="1.1">
+    <annotation>
+      <documentation>Assertions on a complex type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v02s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v02.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v02i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v02.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v03" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v03s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v03.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v03i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v03.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v04" version="1.1">
+    <annotation>
+      <documentation>ssertions on a complex type definition. uses multiple asserts</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v04s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v04.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v04i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v04.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v05" version="1.1">
+    <annotation>
+      <documentation>assertions on a simple type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v05s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v05.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v05i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v05.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v06" version="1.1">
+    <annotation>
+      <documentation>having complexContent, assertions from both derived and base type must succeed</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <schemaTest name="d4_3_15v06s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v06.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v06i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v06.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v07" version="1.1">
+    <annotation>
+      <documentation>assertions on derived simple type definitions,
+          all baseType and derivedType must evaluate to be true</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <schemaTest name="d4_3_15v07s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v07.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v07i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v07.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v08" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition having simpleContent</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <schemaTest name="d4_3_15v08s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v08.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v08i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v08.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v09" version="1.1">
+    <annotation>
+      <documentation>assertions on simple type, using variable $value</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <schemaTest name="d4_3_15v09s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v09.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v09i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v09.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v10" version="1.1">
+    <annotation>
+      <documentation>assertions on derived complex type</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <schemaTest name="d4_3_15v10s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v10.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v10i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v10.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v11" version="1.1">
+    <annotation>
+      <documentation>dynamic context of the XPath expression, assertion on attribute</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
+    <schemaTest name="d4_3_15v11s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v11.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v11i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v11.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v13" version="1.1">
+    <annotation>
+      <documentation>dynamic context of the XPath expression, assertion on element</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
+    <schemaTest name="d4_3_15v13s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v13.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v13i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v13.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v14" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on elements</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15v14s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v14.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v14i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v14.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v15" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on attributes</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15v15s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v15.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v15i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v15.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v18" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition,
+          having complexContent, assertions from anySimpleType type.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v18s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v18.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v18i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v18.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v19" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition,
+          having simpleContent, assertions from anyAtomicType type.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15v19s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v19.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v19i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v19.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v21" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v21s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v21.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v21i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v21.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v22" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v22s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v22.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v22i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v22.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v23" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v23s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v23.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v23i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v23.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v24" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v24s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v24.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v24i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v24.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v25" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v25s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v25.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v25i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v25.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v26" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v26s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v26.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v26i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v26.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v27" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v27s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v27.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v27i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v27.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15v28" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15v28s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v28.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15v28i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D4_3_15/d4_3_15v28.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii01" version="1.1">
+    <annotation>
+      <documentation>Assertions on a complex type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii01s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii01i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii02" version="1.1">
+    <annotation>
+      <documentation>Assertions on a complex type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii02s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii02i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii03" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii03s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii03i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii04" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition. uses multiple asserts</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii04s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii04i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii06" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii06s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii06i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii08" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition having simpleContent</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii08s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii08i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii10" version="1.1">
+    <annotation>
+      <documentation>ssertions on derived complex type</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
+    <schemaTest name="d4_3_15ii10s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii10i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii11" version="1.1">
+    <annotation>
+      <documentation>dynamic context of the XPath expression, assertion on attribute</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
+    <schemaTest name="d4_3_15ii11s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii11i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii12" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"/>
+    <schemaTest name="d4_3_15ii12s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii12i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii13" version="1.1">
+    <annotation>
+      <documentation>dynamic context of the XPath expression, assertion on element</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
+    <schemaTest name="d4_3_15ii13s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii13i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii14" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on elements</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15ii14s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii14i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii15" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on attributes</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15ii15s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii15i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii17" version="1.1">
+    <annotation>
+      <documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15ii17s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii17i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii18" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition,         having complexContent, assertions from anySimpleType type</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii18s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii18i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii19" version="1.1">
+    <annotation>
+      <documentation>assertions on a complex type definition,
+          having simpleContent, assertions from anyAtomicType type.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
+    <schemaTest name="d4_3_15ii19s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii19i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii20" version="1.1">
+    <annotation>
+      <documentation>assertions on a simple type definition.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
+    <schemaTest name="d4_3_15ii20s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii20i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii21" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii21s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii21i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii22" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii22s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii22i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii23" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii23s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii23i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii24" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii24s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii24i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii25" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii25s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii25i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii27" version="1.1">
+    <annotation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii27s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii27i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii29" version="1.1">
+    <annotation>
+      <documentation>xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii29s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29b.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii29i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii30" version="1.1">
+    <annotation>
+      <documentation>assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
+    <schemaTest name="d4_3_15ii30s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30b.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii30i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii31" version="1.1">
+    <annotation>
+      <documentation>"//" returns empty sequence</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15ii31s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-08-26"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii31i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15ii32" version="1.1">
+    <annotation>
+      <documentation>"//" returns empty sequence</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
+    <schemaTest name="d4_3_15ii32s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2011-08-26"/>
+    </schemaTest>
+    <instanceTest name="d4_3_15ii32i">
+      <instanceDocument xlink:type="locator" xlink:href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="d4_3_15si04" version="1.1">
+    <annotation>
+      <documentation>errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"/>
+    <schemaTest name="d4_3_15si04s">
+      <schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/D4_3_15/d4_3_15si04.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2010-12-01"/>
+    </schemaTest>
+  </testGroup>
+</testSet>

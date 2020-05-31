@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1 xmlns:ns0="NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">o</ns0:NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1>
+<NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1 xmlns="NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">o</NISTSchema-SV-IV-atomic-NMTOKEN-maxLength-1>

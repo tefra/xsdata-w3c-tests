@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_26_v01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_26_v01">
   <elyMDType>P124Y</elyMDType>
   <elyMDType>-P3Y348M</elyMDType>
   <elyMDType>P1Y2M</elyMDType>

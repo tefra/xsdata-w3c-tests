@@ -1,12 +1,12 @@
 <!-- xsdata instance -->
-<ns0:purchaseOrder xmlns:ns0="testNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:shipTo country="US">
-    <ns0:name>Alice Smith</ns0:name>
-    <ns0:street>123 Maple Street</ns0:street>
-  </ns0:shipTo>
-  <ns0:billTo country="US">
-    <ns0:name>Robert Smith</ns0:name>
-    <ns0:street>8 Oak Avenue</ns0:street>
-  </ns0:billTo>
-  <ns0:comment>Hurry, my lawn is going wild!</ns0:comment>
-</ns0:purchaseOrder>
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="testNS">
+  <shipTo country="US">
+    <name>Alice Smith</name>
+    <street>123 Maple Street</street>
+  </shipTo>
+  <billTo country="US">
+    <name>Robert Smith</name>
+    <street>8 Oak Avenue</street>
+  </billTo>
+  <comment>Hurry, my lawn is going wild!</comment>
+</purchaseOrder>

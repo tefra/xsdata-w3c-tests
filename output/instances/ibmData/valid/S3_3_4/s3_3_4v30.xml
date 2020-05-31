@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<b:root xmlns:b="a" xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <b:list_of_ids_element>u123</b:list_of_ids_element>
-  <b:idref_element>u123</b:idref_element>
-</b:root>
+<root xmlns="a" xmlns:b="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list_of_ids_element>u123</list_of_ids_element>
+  <idref_element>u123</idref_element>
+</root>

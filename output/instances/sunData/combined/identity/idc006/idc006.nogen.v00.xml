@@ -1,14 +1,14 @@
 <!-- xsdata instance -->
-<p:root xmlns:p="http://www.publishing.org">
-  <p:keys>
-    <p:a>
-      <p:a>
-        <p:b id="id1">
-          <p:b id="id2"/>
-        </p:b>
-      </p:a>
-    </p:a>
-  </p:keys>
-  <p:keyref>id1</p:keyref>
-  <p:keyref>id2</p:keyref>
-</p:root>
+<root xmlns="http://www.publishing.org" xmlns:p="http://www.publishing.org">
+  <keys>
+    <a>
+      <a>
+        <b id="id1">
+          <b id="id2"/>
+        </b>
+      </a>
+    </a>
+  </keys>
+  <keyref>id1</keyref>
+  <keyref>id2</keyref>
+</root>

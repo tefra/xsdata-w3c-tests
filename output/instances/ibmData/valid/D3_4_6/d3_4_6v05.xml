@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:_ele>_ele</ns0:_ele>
-  <ns0:_->_-</ns0:_->
-  <ns0:_.>_.</ns0:_.>
-  <ns0:_9>_9</ns0:_9>
-  <ns0:___>___</ns0:___>
-  <ns0:a_a>a_a</ns0:a_a>
-  <ns0:a.a>a.a</ns0:a.a>
-  <ns0:ele>ele</ns0:ele>
-</ns0:root>
+<root xmlns="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <_ele>_ele</_ele>
+  <_->_-</_->
+  <_.>_.</_.>
+  <_9>_9</_9>
+  <___>___</___>
+  <a_a>a_a</a_a>
+  <a.a>a.a</a.a>
+  <ele>ele</ele>
+</root>

@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:emptywc xmlns:ns0="urn:foo" xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c"/>
+<emptywc xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" xmlns="urn:foo"/>

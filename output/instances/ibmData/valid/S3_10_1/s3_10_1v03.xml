@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qq="q">
+<root xmlns="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qq="q">
   <qq:wildcard>1</qq:wildcard>
-</ns0:root>
+</root>

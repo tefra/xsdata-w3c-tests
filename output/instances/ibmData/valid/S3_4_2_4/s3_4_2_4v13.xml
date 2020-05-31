@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_S3_4_2_4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://xstest-tns/schema11_S3_4_2_4" dv:defaultAttr1="true" dv:defaultAttr2="true"/>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xstest-tns/schema11_S3_4_2_4" xmlns:dv="http://xstest-tns/schema11_S3_4_2_4" dv:defaultAttr1="true" dv:defaultAttr2="true"/>

@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:fr1_valid>ab</ns0:fr1_valid>
-</ns0:root>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting">
+  <fr1_valid>ab</fr1_valid>
+</root>

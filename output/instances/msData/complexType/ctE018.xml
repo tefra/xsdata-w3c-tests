@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="a" attrTest1="1" attrTest2="b"/>
+<doc xmlns="a" attrTest1="1" attrTest2="b"/>

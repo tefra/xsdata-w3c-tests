@@ -1,9 +1,9 @@
 <!-- xsdata instance -->
-<doc xmlns:ns0="http://open.com/">
-  <ns0:extra/>
-  <ns0:extra/>
-  <ns0:extra/>
-  <ns0:extra/>
+<doc xmlns="http://open.com/">
+  <extra/>
+  <extra/>
+  <extra/>
+  <extra/>
   <a/>
   <a/>
   <a/>

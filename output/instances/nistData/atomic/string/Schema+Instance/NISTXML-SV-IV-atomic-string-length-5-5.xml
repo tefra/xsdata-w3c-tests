@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-atomic-string-length-5 xmlns:ns0="NISTSchema-SV-IV-atomic-string-length-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ecifications and related  vocabularies  based upon the XML
+<NISTSchema-SV-IV-atomic-string-length-5 xmlns="NISTSchema-SV-IV-atomic-string-length-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ecifications and related  vocabularies  based upon the XML
 syntax 
 
 In the simplest sense  the benefits of XML will only be achieved if
@@ -17,4 +17,4 @@ electronic commerce landscape  supply chains in many industries  as well
 as industry consortiums and standards organizations  are using XML to
 define their own vocabularies for business relationships and
 transactions  The vocabularies  business templates  and business
-processes </ns0:NISTSchema-SV-IV-atomic-string-length-5>
+processes </NISTSchema-SV-IV-atomic-string-length-5>

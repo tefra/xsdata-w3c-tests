@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
-<ns0:BookStore xmlns:ns0="ElemDecl/substGroupAffilation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:Magazine>
-    <ns0:Title>Men's Health</ns0:Title>
-    <ns0:Date>2002</ns0:Date>
-  </ns0:Magazine>
-  <ns0:Book>
-    <ns0:Title>The Old Man and the Sea</ns0:Title>
-    <ns0:Author>Ernest Hemingway</ns0:Author>
-  </ns0:Book>
-</ns0:BookStore>
+<BookStore xmlns="ElemDecl/substGroupAffilation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Magazine>
+    <Title>Men's Health</Title>
+    <Date>2002</Date>
+  </Magazine>
+  <Book>
+    <Title>The Old Man and the Sea</Title>
+    <Author>Ernest Hemingway</Author>
+  </Book>
+</BookStore>

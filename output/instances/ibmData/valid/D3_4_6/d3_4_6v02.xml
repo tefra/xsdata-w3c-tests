@@ -1,13 +1,13 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:ele>abb</ns0:ele>
-  <ns0:ele>abb</ns0:ele>
-  <ns0:ele>_abb</ns0:ele>
-  <ns0:ele>_-</ns0:ele>
-  <ns0:ele>_.</ns0:ele>
-  <ns0:ele>_9-0</ns0:ele>
-  <ns0:ele>_.....</ns0:ele>
-  <ns0:ele>_______</ns0:ele>
-  <ns0:ele>a.a</ns0:ele>
-  <ns0:ele>a_a</ns0:ele>
-</ns0:root>
+<root xmlns="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ele>abb</ele>
+  <ele>abb</ele>
+  <ele>_abb</ele>
+  <ele>_-</ele>
+  <ele>_.</ele>
+  <ele>_9-0</ele>
+  <ele>_.....</ele>
+  <ele>_______</ele>
+  <ele>a.a</ele>
+  <ele>a_a</ele>
+</root>

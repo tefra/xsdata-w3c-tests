@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:test xmlns:ns0="ST_final" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2</ns0:test>
+<test xmlns="ST_final" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2</test>

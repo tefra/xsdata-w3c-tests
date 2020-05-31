@@ -1,75 +1,75 @@
 <!-- xsdata instance -->
-<ns0:root xmlns:ns0="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:eDee>
-    <ns0:foo/>
-  </ns0:eDee>
-  <ns0:eDee xsi:type="ns0:Dee">
-    <ns0:foo/>
-  </ns0:eDee>
-  <ns0:eDer>
-    <ns0:foo/>
-  </ns0:eDer>
-  <ns0:eDer xsi:type="ns0:Der">
-    <ns0:foo/>
-  </ns0:eDer>
-  <ns0:eDe>
-    <ns0:foo/>
-  </ns0:eDe>
-  <ns0:eDe xsi:type="ns0:De">
-    <ns0:foo/>
-  </ns0:eDe>
-  <ns0:eDe>
-    <ns0:foo/>
-  </ns0:eDe>
-  <ns0:eDe xsi:type="ns0:Dee">
-    <ns0:foo/>
-  </ns0:eDe>
-  <ns0:eDre>
-    <ns0:foo/>
-  </ns0:eDre>
-  <ns0:eDre xsi:type="ns0:Dre">
-    <ns0:foo/>
-  </ns0:eDre>
-  <ns0:eDrr>
-    <ns0:foo/>
-  </ns0:eDrr>
-  <ns0:eDrr xsi:type="ns0:Drr">
-    <ns0:foo/>
-  </ns0:eDrr>
-  <ns0:eDr>
-    <ns0:foo/>
-  </ns0:eDr>
-  <ns0:eDr xsi:type="ns0:Dr">
-    <ns0:foo/>
-  </ns0:eDr>
-  <ns0:eDr>
-    <ns0:foo/>
-  </ns0:eDr>
-  <ns0:eDr xsi:type="ns0:Dre">
-    <ns0:foo/>
-  </ns0:eDr>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB xsi:type="ns0:B">
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB xsi:type="ns0:De">
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-  <ns0:eB>
-    <ns0:foo/>
-  </ns0:eB>
-</ns0:root>
+<root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <eDee>
+    <foo/>
+  </eDee>
+  <eDee xsi:type="Dee">
+    <foo/>
+  </eDee>
+  <eDer>
+    <foo/>
+  </eDer>
+  <eDer xsi:type="Der">
+    <foo/>
+  </eDer>
+  <eDe>
+    <foo/>
+  </eDe>
+  <eDe xsi:type="De">
+    <foo/>
+  </eDe>
+  <eDe>
+    <foo/>
+  </eDe>
+  <eDe xsi:type="Dee">
+    <foo/>
+  </eDe>
+  <eDre>
+    <foo/>
+  </eDre>
+  <eDre xsi:type="Dre">
+    <foo/>
+  </eDre>
+  <eDrr>
+    <foo/>
+  </eDrr>
+  <eDrr xsi:type="Drr">
+    <foo/>
+  </eDrr>
+  <eDr>
+    <foo/>
+  </eDr>
+  <eDr xsi:type="Dr">
+    <foo/>
+  </eDr>
+  <eDr>
+    <foo/>
+  </eDr>
+  <eDr xsi:type="Dre">
+    <foo/>
+  </eDr>
+  <eB>
+    <foo/>
+  </eB>
+  <eB xsi:type="B">
+    <foo/>
+  </eB>
+  <eB>
+    <foo/>
+  </eB>
+  <eB xsi:type="De">
+    <foo/>
+  </eB>
+  <eB>
+    <foo/>
+  </eB>
+  <eB>
+    <foo/>
+  </eB>
+  <eB>
+    <foo/>
+  </eB>
+  <eB>
+    <foo/>
+  </eB>
+</root>

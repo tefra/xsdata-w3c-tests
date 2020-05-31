@@ -1,1680 +1,1680 @@
 <!-- xsdata instance -->
-<ns0:testSet xmlns:ns0="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="Microsoft" name="MS-Schema2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <ns0:testGroup name="schA1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schA1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schA1.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored.</ns0:documentation>
-      <ns0:documentation>WG decided this might reasonably vary between implementations</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schA2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schA2.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA2.xml"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schA3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA3_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schA3.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:instanceTest name="schA4.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)</ns0:documentation>
-      <ns0:documentation>WG decided this might reasonably vary between implementations</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schA5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA5_a.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA5_b.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schA5.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA5.xml"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA7">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)</ns0:documentation>
-      <ns0:documentation>WG decided this might reasonably vary between implementations</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schA7">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA7_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schA7.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA7.xml"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schA8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's tns=foo), NoNSSchemaLocation: Since b.xsd exist, this should give error because the targetNS 'B' is not the same as what is in b.xsd 'foo'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:instanceTest name="schA8.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA8.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB1i">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB1i">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB1i.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test the annotation child node of include</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : single include</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB3.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB5_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schB8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schB8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB8.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schC2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="", B's ns="A", test the namespace of include (4.2.1) (SRC 2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schC2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schC3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="", B's ns="", test the namespace of include (4.2.1) (SRC 2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schC3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC3_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schC3.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schC3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schC4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="A", B's ns="A", test the namespace of include (4.2.1) (SRC 2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schC4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC4_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schC4.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schC4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schC5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="A", B's ns="B", test the namespace of include (4.2.1) (SRC 2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schC5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC5_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schD5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A include B and C, A's ns="A", B's ns="A", C's ns="A", type ref from A to B and C, B to A and C, C to A and B</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schD5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD5_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schD5.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD5.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schD7">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schD7">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD7_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schD7.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD7.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schD8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://.</ns0:documentation>
-      <ns0:documentation>WG decided this was OK, but also changed the test to have a
-syntactically valid by guaranteed-to-not-resolve URI</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schD8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD8.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"/>
-      <ns0:prior status="disputed-test" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schD10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : validate instance against 'chameleon' include schema (2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schD10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD10_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schD10.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD10.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schD11">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test union type in a chameleon schema</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schD11">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD11a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE1i">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE1i">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE1i.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test the annotation child node of include</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : single 'import'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE3.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : import namespace="foo"</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE4.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schE4.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schE4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema location resolved to not-wf XML</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE5.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE6.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE9">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : import's Schema location resolved to invalid URL.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE9">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE9.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schE10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : import's Schema location resolved to a valid URL to a bogus XSD.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schE10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE10.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="", test the namespace of import</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schF1.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="", Y's ns="A", test the namespace of import</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schF2.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="", Y's ns="", test the namespace of import</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="A", test the namespace of import</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="B", test the namespace of import</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF5_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schF5.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF5.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schF6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schF6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF6_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="C"</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG1.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="", C's ns="C"</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG2.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="A", (A and C have no confilcting decl)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG3_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG3.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="C"</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG4_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG4.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG4.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="B", (B and C have no confilcting decl)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG5_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG5.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG5.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="B", (B and C have confilcting decl)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG6_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG7">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG7">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG7_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG7.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG7.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG8_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG8.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG8.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG9">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B and D, B import C, A's ns="A", B's ns="B", C's ns="A", D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD</ns0:documentation>
-      <ns0:documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG9">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG9_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, A's ns="A", B's ns="", import ns="B" if namespace present it must be the same as targetNamespace of the imported xsd.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG10_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG11">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="A", (A and C have confilcting decl)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG11">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG11_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG12">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="B", All declaration in B and C should be available to validation</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG12">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG12_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schG12.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG12.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG13">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : A import B, B ihas no target NS but 'import' has NS.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG13">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG13.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG14">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported.</ns0:documentation>
-      <ns0:documentation>WG decided this might reasonably vary between implementations</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG14">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG14a.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG14.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schG15">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test importing schemas that make a circular reference</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schG15">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG15_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test ID in redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test annotation as child of redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : single 'redefine'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH3.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine namespace="foo"</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH5.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH6.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schH9">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schH9">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH9.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schI2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns="", Y's ns="A", test the namespace of redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schI2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schI2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schI5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns="A", Y's ns="B", test the namespace of redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schI5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schI5_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schJ2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schJ2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schJ2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schJ3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schJ3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schJ3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schK2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schK2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schK2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schK3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schK3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schK3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schL1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL1_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice), all, is a superset of their original def by self referencing This violate the content of 'all', because it does not allow 'group' as child.</ns0:documentation>
-      <ns0:documentation>Legal in XSD 1.1: an all group content model can now contain a group reference to another all group.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"/>
-    <ns0:schemaTest name="schL3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL3_a.xsd"/>
-      <ns0:expected validity="invalid" version="1.0"/>
-      <ns0:expected validity="valid" version="1.1"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order</ns0:documentation>
-      <ns0:documentation>Invalid restriction which becomes valid in XSD 1.1 - MHK</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"/>
-    <ns0:schemaTest name="schL5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL5_a.xsd"/>
-      <ns0:expected validity="invalid" version="1.0"/>
-      <ns0:expected validity="valid" version="1.1"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schL6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL6_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schL8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL8_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schL10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schL10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL10_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM5.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM8">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM8">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM8_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM9">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM9">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM9_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schM10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schM10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM10_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), both xsdA and xsdB has redefine of the same item from xsdC</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN4.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN5.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN6.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN7">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN7">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN7.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : duplicate element in a redefine</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN10_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN11">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : chameleon redefine(valid)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN11">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN11_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN12">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : chameleon redefine(invalid)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN12">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN12_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN13v">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN13v">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN13a_v.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schN13i">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schN13i">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN13a_i.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schO2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns="A", Y's ns="A", from example from spec, (SRC 4.1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schO2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schO2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schP1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schP1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP1_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schP2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schP2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schP2.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schP2.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schP3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schP3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schQ1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schQ1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schQ1.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schQ1.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schQ2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schQ2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schQ3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schQ3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ3_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schQ3.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schQ3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schQ4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schQ4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schR2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schR2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schR2.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schR2.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schR3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schR3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR3_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schR4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schR4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR4_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schR5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schR5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR5_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schS1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a group, group's name is not resolved to a model group in redefined xsd, (SRC 6.2.1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schS1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schS1_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's name is not resolved to a model group in redefined xsd, (SRC 7.2.1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT1_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT2_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, (SRC 7.2.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT3_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schT3.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT3.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT6">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a use=optional on redefined attriubte, but have use=required in redefining attribute, and instance xml has no attribute, (SRC 7.2.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT6">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT6_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schT6.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT6.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT9">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default="foo" in redefined attriubte, but redefining attribute has default="bar", the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT9">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT9_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schT9.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT9.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schT10">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed="bar" , (SRC 7.2.2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schT10">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT10_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schT10.v">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT10.xml"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schU1">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Circulcar redefines handeling (1)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schU1">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU1_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="disputed-test" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schU2">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Circulcar redefines handeling (2)</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schU2">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU2_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schU3">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Circulcar redefines handeling (3)</ns0:documentation>
-      <ns0:documentation>The WG decided the spec. is underspecified in this area, so
-implementations may reasonably differ</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schU3">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU3_a.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schU3.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU3.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schU4">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Circulcar redefines handeling (4)</ns0:documentation>
-      <ns0:documentation>The WG decided the spec. is underspecified in this area, so
-implementations may reasonably differ</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schU4">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU4_a.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schU4.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU4.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schU5">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : Circulcar redefines handeling (5)</ns0:documentation>
-      <ns0:documentation>The WG decided the spec. is underspecified in this area, so
-implementations may reasonably differ</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schU5">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU5_a.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-    <ns0:instanceTest name="schU5.i">
-      <ns0:instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU5.xml"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:instanceTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ001_78029-a">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'abstract'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ001_78029-a">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ002_78029-b">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'final'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ002_78029-b">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029b.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ003_78029-c">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'substitutionGroup'</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ003_78029-c">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029c.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ004">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.</ns0:documentation>
-      <ns0:documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ004">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ004.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ005">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.</ns0:documentation>
-      <ns0:documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ005">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ005.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ006">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ006">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ006.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ007">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : multipe redefine elements in a schema.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ007">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ007.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ008">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ008">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ008_a.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ009">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ009">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009a.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009b.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009c.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009d.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ010">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd:import allows import of the targetNamespace.</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ010">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ010.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ011_a">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ011_a">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ011_b">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ011_b">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_b.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ011_c">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ011_c">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_c.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ011_d">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ011_d">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_d.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ012_a">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</ns0:documentation>
-      <ns0:documentation>The WG decided the spec. is underspecified in this area, so
-implementations may reasonably differ</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ012_a">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_a.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"/>
-      <ns0:prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ012_b">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ012_b">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_b.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ012_c">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ012_c">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_c.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ013">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd import : main schema had a redefine statement</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ013">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ013a.xsd"/>
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ013b.xsd"/>
-      <ns0:expected validity="valid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ014_a">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ014_a">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ014_a.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ014_b">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ014_b">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ014_b.xsd"/>
-      <ns0:expected validity="invalid"/>
-      <ns0:current status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-  <ns0:testGroup name="schZ015">
-    <ns0:annotation>
-      <ns0:documentation>TEST :schema collection and schema location : XSD: test schemaLocation=""</ns0:documentation>
-    </ns0:annotation>
-    <ns0:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
-    <ns0:schemaTest name="schZ015">
-      <ns0:schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ015.xsd"/>
-      <ns0:expected validity="indeterminate"/>
-      <ns0:current status="stable" date="2010-07-06" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"/>
-      <ns0:prior status="queried" date="2007-01-16" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"/>
-      <ns0:prior status="accepted" date="2006-07-16"/>
-    </ns0:schemaTest>
-  </ns0:testGroup>
-</ns0:testSet>
+<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="Microsoft" name="MS-Schema2006-07-15" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <testGroup name="schA1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schA1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schA1.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored.</documentation>
+      <documentation>WG decided this might reasonably vary between implementations</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schA2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schA2.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA2.xml"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schA3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA3_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schA3.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <instanceTest name="schA4.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)</documentation>
+      <documentation>WG decided this might reasonably vary between implementations</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schA5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA5_a.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA5_b.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schA5.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA5.xml"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA7">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)</documentation>
+      <documentation>WG decided this might reasonably vary between implementations</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schA7">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schA7_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schA7.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA7.xml"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schA8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's tns=foo), NoNSSchemaLocation: Since b.xsd exist, this should give error because the targetNS 'B' is not the same as what is in b.xsd 'foo'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <instanceTest name="schA8.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schA8.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schB1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB1i">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB1i">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB1i.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test the annotation child node of include</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : single include</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB3.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB5_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schB8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schB8">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schB8.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schC2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="", B's ns="A", test the namespace of include (4.2.1) (SRC 2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schC2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schC3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="", B's ns="", test the namespace of include (4.2.1) (SRC 2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schC3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC3_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schC3.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schC3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schC4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="A", B's ns="A", test the namespace of include (4.2.1) (SRC 2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schC4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC4_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schC4.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schC4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schC5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD A include XSD B, A's ns="A", B's ns="B", test the namespace of include (4.2.1) (SRC 2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schC5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schC5_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schD5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A include B and C, A's ns="A", B's ns="A", C's ns="A", type ref from A to B and C, B to A and C, C to A and B</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schD5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD5_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schD5.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD5.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schD7">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schD7">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD7_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schD7.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD7.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schD8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://.</documentation>
+      <documentation>WG decided this was OK, but also changed the test to have a
+syntactically valid by guaranteed-to-not-resolve URI</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schD8">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD8.xsd"/>
+      <expected validity="valid"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"/>
+      <prior status="disputed-test" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schD10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : validate instance against 'chameleon' include schema (2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schD10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD10_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schD10.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schD10.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schD11">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test union type in a chameleon schema</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schD11">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schD11a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE1i">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE1i">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE1i.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test the annotation child node of include</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : single 'import'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE3.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : import namespace="foo"</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE4.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schE4.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schE4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schE5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema location resolved to not-wf XML</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE5.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE6.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE9">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : import's Schema location resolved to invalid URL.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE9">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE9.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schE10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : import's Schema location resolved to a valid URL to a bogus XSD.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schE10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schE10.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schF1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="", test the namespace of import</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schF1.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schF2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="", Y's ns="A", test the namespace of import</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schF2.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schF3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="", Y's ns="", test the namespace of import</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schF4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="A", test the namespace of import</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schF5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X import XSD Y, X's ns="A", Y's ns="B", test the namespace of import</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF5_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schF5.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schF5.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schF6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schF6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schF6_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="C"</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG1.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="", C's ns="C"</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG2.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="A", (A and C have no confilcting decl)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG3_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG3.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="C"</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG4_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG4.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG4.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="B", (B and C have no confilcting decl)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG5_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG5.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG5.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B and C, A's ns="A", B's ns="B", C's ns="B", (B and C have confilcting decl)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG6_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG7">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG7">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG7_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG7.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG7.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG8">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG8_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG8.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG8.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG9">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B and D, B import C, A's ns="A", B's ns="B", C's ns="A", D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD</documentation>
+      <documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG9">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG9_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, A's ns="A", B's ns="", import ns="B" if namespace present it must be the same as targetNamespace of the imported xsd.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG10_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG11">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="A", (A and C have confilcting decl)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG11">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG11_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG12">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B import C, A's ns="A", B's ns="B", C's ns="B", All declaration in B and C should be available to validation</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG12">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG12_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schG12.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schG12.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schG13">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : A import B, B ihas no target NS but 'import' has NS.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG13">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG13.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG14">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported.</documentation>
+      <documentation>WG decided this might reasonably vary between implementations</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG14">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG14a.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG14.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="queried" date="2007-01-02" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schG15">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test importing schemas that make a circular reference</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schG15">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schG15_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test ID in redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test annotation as child of redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : single 'redefine'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH3.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine namespace="foo"</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH5.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH6.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schH9">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schH9">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schH9.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schI2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns="", Y's ns="A", test the namespace of redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schI2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schI2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schI5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns="A", Y's ns="B", test the namespace of redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schI5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schI5_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schJ2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schJ2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schJ2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schJ3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schJ3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schJ3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schK2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schK2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schK2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schK3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schK3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schK3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schL1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL1_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice), all, is a superset of their original def by self referencing This violate the content of 'all', because it does not allow 'group' as child.</documentation>
+      <documentation>Legal in XSD 1.1: an all group content model can now contain a group reference to another all group.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"/>
+    <schemaTest name="schL3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL3_a.xsd"/>
+      <expected validity="invalid" version="1.0"/>
+      <expected validity="valid" version="1.1"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order</documentation>
+      <documentation>Invalid restriction which becomes valid in XSD 1.1 - MHK</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"/>
+    <schemaTest name="schL5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL5_a.xsd"/>
+      <expected validity="invalid" version="1.0"/>
+      <expected validity="valid" version="1.1"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schL6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL6_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schL8">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL8_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schL10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schL10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schL10_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM5.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM8">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM8">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM8_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM9">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM9">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM9_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schM10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schM10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schM10_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), both xsdA and xsdB has redefine of the same item from xsdC</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN4.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN5.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN6.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN7">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN7">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN7.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : duplicate element in a redefine</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN10_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN11">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : chameleon redefine(valid)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN11">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN11_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN12">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : chameleon redefine(invalid)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN12">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN12_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN13v">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN13v">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN13a_v.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schN13i">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schN13i">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schN13a_i.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schO2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns="A", Y's ns="A", from example from spec, (SRC 4.1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schO2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schO2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schP1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schP1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP1_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schP2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schP2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schP2.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schP2.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schP3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schP3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schP3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schQ1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schQ1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schQ1.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schQ1.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schQ2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schQ2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schQ3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schQ3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ3_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schQ3.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schQ3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schQ4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schQ4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schQ4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schR2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schR2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schR2.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schR2.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schR3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schR3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR3_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schR4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schR4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR4_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schR5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schR5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schR5_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schS1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a group, group's name is not resolved to a model group in redefined xsd, (SRC 6.2.1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schS1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schS1_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schT1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's name is not resolved to a model group in redefined xsd, (SRC 7.2.1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT1_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schT2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT2_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schT3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, (SRC 7.2.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT3_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schT3.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT3.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schT6">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a use=optional on redefined attriubte, but have use=required in redefining attribute, and instance xml has no attribute, (SRC 7.2.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT6">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT6_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schT6.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT6.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schT9">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default="foo" in redefined attriubte, but redefining attribute has default="bar", the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT9">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT9_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schT9.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT9.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schT10">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed="bar" , (SRC 7.2.2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schT10">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schT10_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schT10.v">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schT10.xml"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schU1">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Circulcar redefines handeling (1)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schU1">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU1_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="disputed-test" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schU2">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Circulcar redefines handeling (2)</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schU2">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU2_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schU3">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Circulcar redefines handeling (3)</documentation>
+      <documentation>The WG decided the spec. is underspecified in this area, so
+implementations may reasonably differ</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schU3">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU3_a.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schU3.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU3.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schU4">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Circulcar redefines handeling (4)</documentation>
+      <documentation>The WG decided the spec. is underspecified in this area, so
+implementations may reasonably differ</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schU4">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU4_a.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schU4.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU4.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schU5">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : Circulcar redefines handeling (5)</documentation>
+      <documentation>The WG decided the spec. is underspecified in this area, so
+implementations may reasonably differ</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schU5">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schU5_a.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+    <instanceTest name="schU5.i">
+      <instanceDocument xlink:type="locator" xlink:href="../msData/schema/schU5.xml"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </instanceTest>
+  </testGroup>
+  <testGroup name="schZ001_78029-a">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'abstract'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ001_78029-a">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ002_78029-b">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'final'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ002_78029-b">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029b.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ003_78029-c">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : invalid localElement attributes. Test for 'substitutionGroup'</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ003_78029-c">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/78029c.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ004">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.</documentation>
+      <documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ004">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ004.xsd"/>
+      <expected validity="invalid"/>
+      <current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ005">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.</documentation>
+      <documentation>TSTF agreed that an un-imported NS used in a QName is a schema error</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ005">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ005.xsd"/>
+      <expected validity="invalid"/>
+      <current status="stable" date="2008-11-25" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ006">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ006">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ006.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ007">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : multipe redefine elements in a schema.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ007">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ007.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ008">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ008">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ008_a.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ009">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ009">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009a.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009b.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009c.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ009d.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ010">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd:import allows import of the targetNamespace.</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ010">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ010.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ011_a">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ011_a">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ011_b">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ011_b">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_b.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ011_c">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ011_c">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_c.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ011_d">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ011_d">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ011_d.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ012_a">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</documentation>
+      <documentation>The WG decided the spec. is underspecified in this area, so
+implementations may reasonably differ</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ012_a">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_a.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-05" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"/>
+      <prior status="queried" date="2007-01-03" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ012_b">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ012_b">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_b.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ012_c">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ012_c">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ012_c.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ013">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd import : main schema had a redefine statement</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ013">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ013a.xsd"/>
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ013b.xsd"/>
+      <expected validity="valid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ014_a">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ014_a">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ014_a.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ014_b">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ014_b">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ014_b.xsd"/>
+      <expected validity="invalid"/>
+      <current status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+  <testGroup name="schZ015">
+    <annotation>
+      <documentation>TEST :schema collection and schema location : XSD: test schemaLocation=""</documentation>
+    </annotation>
+    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"/>
+    <schemaTest name="schZ015">
+      <schemaDocument xlink:type="locator" xlink:href="../msData/schema/schZ015.xsd"/>
+      <expected validity="indeterminate"/>
+      <current status="stable" date="2010-07-06" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"/>
+      <prior status="queried" date="2007-01-16" bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"/>
+      <prior status="accepted" date="2006-07-16"/>
+    </schemaTest>
+  </testGroup>
+</testSet>

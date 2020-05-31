@@ -1,15 +1,15 @@
 <!-- xsdata instance -->
-<ns0:doc xmlns:ns0="http://simple001.ly/">
-  <ns0:chap>
-    <ns0:section nr="1" ref="INF"/>
-    <ns0:section nr="2" ref="INF"/>
-    <ns0:section nr="INF" ref="INF"/>
-    <ns0:section nr="INF" ref="INF"/>
-  </ns0:chap>
-  <ns0:appx>
-    <ns0:section nr="1" ref="INF"/>
-    <ns0:section nr="2" ref="INF"/>
-    <ns0:section nr="INF" ref="INF"/>
-    <ns0:section nr="INF" ref="INF"/>
-  </ns0:appx>
-</ns0:doc>
+<doc xmlns="http://simple001.ly/">
+  <chap>
+    <section nr="1" ref="INF"/>
+    <section nr="2" ref="INF"/>
+    <section nr="INF" ref="INF"/>
+    <section nr="INF" ref="INF"/>
+  </chap>
+  <appx>
+    <section nr="1" ref="INF"/>
+    <section nr="2" ref="INF"/>
+    <section nr="INF" ref="INF"/>
+    <section nr="INF" ref="INF"/>
+  </appx>
+</doc>

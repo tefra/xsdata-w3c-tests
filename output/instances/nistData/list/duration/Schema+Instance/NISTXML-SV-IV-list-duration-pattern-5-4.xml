@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-duration-pattern-5 xmlns:ns0="NISTSchema-SV-IV-list-duration-pattern-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">P1705Y04M19DT04H10M18S P2077Y10M01DT08H21M34S P1754Y07M16DT01H52M46S P1790Y07M06DT01H57M53S P1904Y08M23DT14H26M10S P2004Y06M07DT13H05M53S</ns0:NISTSchema-SV-IV-list-duration-pattern-5>
+<NISTSchema-SV-IV-list-duration-pattern-5 xmlns="NISTSchema-SV-IV-list-duration-pattern-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">P1705Y04M19DT04H10M18S P2077Y10M01DT08H21M34S P1754Y07M16DT01H52M46S P1790Y07M06DT01H57M53S P1904Y08M23DT14H26M10S P2004Y06M07DT13H05M53S</NISTSchema-SV-IV-list-duration-pattern-5>

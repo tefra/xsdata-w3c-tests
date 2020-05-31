@@ -1,4 +1,4 @@
 <!-- xsdata instance -->
-<test:a xmlns:test="nsConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="nsConstraint" xmlns:test="nsConstraint">
   <date>2002-04-29</date>
-</test:a>
+</a>

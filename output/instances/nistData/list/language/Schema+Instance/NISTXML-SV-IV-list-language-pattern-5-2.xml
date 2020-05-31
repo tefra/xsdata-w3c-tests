@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<ns0:NISTSchema-SV-IV-list-language-pattern-5 xmlns:ns0="NISTSchema-SV-IV-list-language-pattern-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ET-USA MN-USA TK-USA SM-USA XH-USA BI-USA FI-USA NL-USA</ns0:NISTSchema-SV-IV-list-language-pattern-5>
+<NISTSchema-SV-IV-list-language-pattern-5 xmlns="NISTSchema-SV-IV-list-language-pattern-5-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ET-USA MN-USA TK-USA SM-USA XH-USA BI-USA FI-USA NL-USA</NISTSchema-SV-IV-list-language-pattern-5>

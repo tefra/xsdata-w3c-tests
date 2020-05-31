@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_28_v08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_28_v08">
   <elMaxInclusive_MinInclusive>2002-02-01T00:00:00+09:00</elMaxInclusive_MinInclusive>
   <elMaxInclusive_MinInclusive>2000-02-01T02:00:00+09:00</elMaxInclusive_MinInclusive>
   <elMaxInclusive_MinExclusive>2002-02-01T00:00:00+09:00</elMaxInclusive_MinExclusive>

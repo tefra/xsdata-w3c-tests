@@ -1,5 +1,5 @@
 <!-- xsdata instance -->
-<dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_27_v05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_27_v05">
   <elMaxExclusive_MinInclusive>P27DT23H</elMaxExclusive_MinInclusive>
   <elMaxExclusive_MinInclusive>-P39DT3M</elMaxExclusive_MinInclusive>
   <elMaxExclusive_MinExclusive>P27DT23H</elMaxExclusive_MinExclusive>

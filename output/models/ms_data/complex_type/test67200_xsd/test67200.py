@@ -3,13 +3,19 @@ from typing import Optional
 
 
 @dataclass
-class Elt1:
+class TypeAbstract:
+    class Meta:
+        name = "typeAbstract"
+
+
+@dataclass
+class Elt1(TypeAbstract):
     class Meta:
         name = "elt1"
 
 
 @dataclass
-class TypeA:
+class TypeA(TypeAbstract):
     """
     :ivar elt2:
     """

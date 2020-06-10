@@ -4,10 +4,9 @@ from typing import Dict, Optional
 
 
 @dataclass
-class R:
+class B:
     """
     :ivar www_target003_com_attributes:
-    :ivar att:
     """
     www_target003_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
@@ -16,6 +15,13 @@ class R:
             namespace="http://www.target003.com/"
         )
     )
+
+
+@dataclass
+class R(B):
+    """
+    :ivar att:
+    """
     att: Optional[int] = field(
         default=None,
         metadata=dict(

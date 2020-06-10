@@ -10,6 +10,11 @@ class RealType:
 
 
 @dataclass
+class VirtualType:
+    pass
+
+
+@dataclass
 class Root:
     """
     :ivar any_element:

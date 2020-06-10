@@ -3,14 +3,13 @@ from typing import Optional
 
 
 @dataclass
-class MyType:
+class FooType:
     """
     :ivar foo_ele1:
     :ivar foo_ele2:
-    :ivar foo_ele3:
     """
     class Meta:
-        name = "myType"
+        name = "fooType"
 
     foo_ele1: Optional[str] = field(
         default=None,
@@ -30,6 +29,16 @@ class MyType:
             required=True
         )
     )
+
+
+@dataclass
+class MyType(FooType):
+    """
+    :ivar foo_ele3:
+    """
+    class Meta:
+        name = "myType"
+
     foo_ele3: Optional[bool] = field(
         default=None,
         metadata=dict(

@@ -60,6 +60,12 @@ class MagazineType(PublicationType):
 
 
 @dataclass
+class Publication(PublicationType):
+    class Meta:
+        namespace = "ElemDecl/substGroupAffilation"
+
+
+@dataclass
 class Book(BookType):
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
@@ -99,7 +105,7 @@ class BookStore:
             max_occurs=9223372036854775807
         )
     )
-    publication: List[PublicationType] = field(
+    publication: List[Publication] = field(
         default_factory=list,
         metadata=dict(
             name="Publication",

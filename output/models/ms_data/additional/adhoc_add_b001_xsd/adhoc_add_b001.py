@@ -66,6 +66,13 @@ class Abc(MyType):
 
 
 @dataclass
+class Aft(NsAAft):
+    class Meta:
+        name = "aft"
+        namespace = "ns-a"
+
+
+@dataclass
 class Foo:
     """
     :ivar a:
@@ -89,7 +96,7 @@ class Foo:
             namespace="ns-a"
         )
     )
-    aft: Optional[NsAAft] = field(
+    aft: Optional[Aft] = field(
         default=None,
         metadata=dict(
             type="Element",

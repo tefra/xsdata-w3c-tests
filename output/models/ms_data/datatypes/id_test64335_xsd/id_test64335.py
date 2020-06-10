@@ -6,13 +6,11 @@ __NAMESPACE__ = "urn:products"
 
 
 @dataclass
-class Apparel:
+class Product:
     """
     :ivar price:
     :ivar description:
     :ivar id:
-    :ivar size:
-    :ivar style:
     """
     price: Optional[Decimal] = field(
         default=None,
@@ -36,6 +34,14 @@ class Apparel:
             type="Attribute"
         )
     )
+
+
+@dataclass
+class Apparel(Product):
+    """
+    :ivar size:
+    :ivar style:
+    """
     size: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -55,38 +61,11 @@ class Apparel:
 
 
 @dataclass
-class Book:
+class MediaItem(Product):
     """
-    :ivar price:
-    :ivar description:
-    :ivar id:
     :ivar title:
     :ivar category:
-    :ivar author:
-    :ivar publish_date:
     """
-    price: Optional[Decimal] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    description: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute"
-        )
-    )
     title: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -103,6 +82,14 @@ class Book:
             required=True
         )
     )
+
+
+@dataclass
+class Book(MediaItem):
+    """
+    :ivar author:
+    :ivar publish_date:
+    """
     author: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -122,57 +109,14 @@ class Book:
 
 
 @dataclass
-class Cd:
+class Cd(MediaItem):
     """
-    :ivar price:
-    :ivar description:
-    :ivar id:
-    :ivar title:
-    :ivar category:
     :ivar artist:
     :ivar release_date:
     """
     class Meta:
         name = "CD"
 
-    price: Optional[Decimal] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    description: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute"
-        )
-    )
-    title: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    category: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
     artist: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -192,57 +136,14 @@ class Cd:
 
 
 @dataclass
-class Dvd:
+class Dvd(MediaItem):
     """
-    :ivar price:
-    :ivar description:
-    :ivar id:
-    :ivar title:
-    :ivar category:
     :ivar director:
     :ivar release_date:
     """
     class Meta:
         name = "DVD"
 
-    price: Optional[Decimal] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    description: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute"
-        )
-    )
-    title: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    category: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
     director: Optional[str] = field(
         default=None,
         metadata=dict(

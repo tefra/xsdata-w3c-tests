@@ -12,12 +12,12 @@ class Facet:
     """
     class Meta:
         name = "facet"
+        namespace = "foo"
 
     annotation: Optional[object] = field(
         default=None,
         metadata=dict(
-            type="Element",
-            namespace="foo"
+            type="Element"
         )
     )
     value: Optional[str] = field(

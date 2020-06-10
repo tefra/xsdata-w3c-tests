@@ -3,10 +3,9 @@ from typing import Optional
 
 
 @dataclass
-class R:
+class B:
     """
     :ivar www_target001_com_element:
-    :ivar child:
     """
     www_target001_com_element: Optional[object] = field(
         default=None,
@@ -16,6 +15,13 @@ class R:
             required=True
         )
     )
+
+
+@dataclass
+class R(B):
+    """
+    :ivar child:
+    """
     child: Optional[int] = field(
         default=None,
         metadata=dict(

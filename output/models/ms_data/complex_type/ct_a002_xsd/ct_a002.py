@@ -2,12 +2,18 @@ from dataclasses import dataclass
 
 
 @dataclass
-class FixedType:
+class Foo:
+    class Meta:
+        name = "foo"
+
+
+@dataclass
+class FixedType(Foo):
     class Meta:
         name = "fixedType"
 
 
 @dataclass
-class Root:
+class Root(Foo):
     class Meta:
         name = "root"

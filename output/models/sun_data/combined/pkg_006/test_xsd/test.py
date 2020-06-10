@@ -26,21 +26,6 @@ class B:
 
 
 @dataclass
-class Der:
-    """
-    :ivar foo:
-    """
-    foo: Optional[Empty] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
-    )
-
-
-@dataclass
 class Dr:
     """
     :ivar foo:
@@ -88,13 +73,6 @@ class EB(B):
 
 
 @dataclass
-class EDer(Der):
-    class Meta:
-        name = "eDer"
-        namespace = "foo"
-
-
-@dataclass
 class EDr(Dr):
     class Meta:
         name = "eDr"
@@ -111,6 +89,21 @@ class EDrr(Drr):
 @dataclass
 class Dee(De):
     pass
+
+
+@dataclass
+class Der(De):
+    """
+    :ivar foo:
+    """
+    foo: Optional[Empty] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="foo",
+            required=True
+        )
+    )
 
 
 @dataclass
@@ -131,6 +124,13 @@ class EDre(Dre):
 class EDee(Dee):
     class Meta:
         name = "eDee"
+        namespace = "foo"
+
+
+@dataclass
+class EDer(Der):
+    class Meta:
+        name = "eDer"
         namespace = "foo"
 
 

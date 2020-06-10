@@ -10,7 +10,7 @@ class A:
 
 
 @dataclass
-class B:
+class B(A):
     """
     :ivar q:
     """

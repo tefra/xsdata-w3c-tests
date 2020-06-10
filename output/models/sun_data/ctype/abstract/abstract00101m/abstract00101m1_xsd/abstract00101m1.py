@@ -5,10 +5,9 @@ __NAMESPACE__ = "abstract"
 
 
 @dataclass
-class B:
+class A:
     """
     :ivar c:
-    :ivar d:
     """
     c: Optional[int] = field(
         default=None,
@@ -18,6 +17,13 @@ class B:
             required=True
         )
     )
+
+
+@dataclass
+class B(A):
+    """
+    :ivar d:
+    """
     d: Optional[int] = field(
         default=None,
         metadata=dict(

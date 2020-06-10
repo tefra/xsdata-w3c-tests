@@ -988,6 +988,7 @@ def test_xsd003b_xsd003b_n01(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_v00(save_xml):
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -1004,6 +1005,7 @@ def test_xsd003b_xsd003b_v00(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_xsd003b_xsd003b_v01(save_xml):
     """
     xsd003b Element redefinition. Test with redefinition with self-

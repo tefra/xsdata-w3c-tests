@@ -2,6 +2,7 @@ from output.models.common.xsts_xsd.xsts import XdmFiltering
 from output.models.common.xsts_xsd.xlink import ActuateType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Appinfo
+from output.models.common.xsts_xsd.xlink import Arc
 from output.models.common.xsts_xsd.xlink import ArcType
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -13,9 +14,11 @@ from output.models.common.xsts_xsd.xsts import InstanceDocument
 from output.models.common.xsts_xsd.xsts import InstanceTest
 from output.models.common.xsts_xsd.xsts import KnownToken
 from output.models.common.xsts_xsd.xsts import KnownXsdVersion
+from output.models.common.xsts_xsd.xlink import Locator
 from output.models.common.xsts_xsd.xlink import LocatorType
 from output.models.common.xsts_xsd.xsts import Prior
 from output.models.common.xsts_xsd.xsts import Ref
+from output.models.common.xsts_xsd.xlink import Resource
 from output.models.common.xsts_xsd.xlink import ResourceType
 from output.models.common.xsts_xsd.xsts import RuntimeSchemaError
 from output.models.common.xsts_xsd.xsts import SchemaDocument
@@ -31,6 +34,7 @@ from output.models.common.xsts_xsd.xsts import TestSet
 from output.models.common.xsts_xsd.xsts import TestSetRef
 from output.models.common.xsts_xsd.xsts import TestSuite
 from output.models.common.xsts_xsd.xsts import TestSuiteResults
+from output.models.common.xsts_xsd.xlink import Title
 from output.models.common.xsts_xsd.xlink import TitleEltType
 from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import UnicodeVersions

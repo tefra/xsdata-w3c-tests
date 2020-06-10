@@ -18,7 +18,7 @@
   <eDe xsi:type="De">
     <foo/>
   </eDe>
-  <eDe>
+  <eDe xsi:type="Der">
     <foo/>
   </eDe>
   <eDe xsi:type="Dee">

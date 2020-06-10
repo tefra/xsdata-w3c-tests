@@ -369,6 +369,34 @@ class TitleEltType:
 
 
 @dataclass
+class Arc(ArcType):
+    class Meta:
+        name = "arc"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Locator(LocatorType):
+    class Meta:
+        name = "locator"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Resource(ResourceType):
+    class Meta:
+        name = "resource"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Title(TitleEltType):
+    class Meta:
+        name = "title"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
 class Extended:
     """Intended for use as the type of user-declared elements to make them extended
     links. Note that the elements referenced in the content model are all abstract.
@@ -395,7 +423,7 @@ class Extended:
             max_occurs=9223372036854775807
         )
     )
-    resource: List[ResourceType] = field(
+    resource: List[Resource] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -404,7 +432,7 @@ class Extended:
             max_occurs=9223372036854775807
         )
     )
-    locator: List[LocatorType] = field(
+    locator: List[Locator] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -413,7 +441,7 @@ class Extended:
             max_occurs=9223372036854775807
         )
     )
-    arc: List[ArcType] = field(
+    arc: List[Arc] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

@@ -31,6 +31,12 @@ class HeadType:
 
 
 @dataclass
+class Head(HeadType):
+    class Meta:
+        namespace = "ElemDecl/abstract"
+
+
+@dataclass
 class Member1(HeadType):
     class Meta:
         namespace = "ElemDecl/abstract"
@@ -55,7 +61,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    head: List[HeadType] = field(
+    head: List[Head] = field(
         default_factory=list,
         metadata=dict(
             name="Head",

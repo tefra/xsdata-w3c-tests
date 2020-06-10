@@ -10,7 +10,13 @@ class Type:
 
 
 @dataclass
-class DerivedFromType:
+class Head(Type):
+    class Meta:
+        namespace = "ElemDecl/disallowedSubst"
+
+
+@dataclass
+class DerivedFromType(Type):
     """
     :ivar attr:
     """
@@ -23,12 +29,6 @@ class DerivedFromType:
             type="Attribute"
         )
     )
-
-
-@dataclass
-class Head(Type):
-    class Meta:
-        namespace = "ElemDecl/disallowedSubst"
 
 
 @dataclass

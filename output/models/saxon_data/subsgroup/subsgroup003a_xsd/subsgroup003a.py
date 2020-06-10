@@ -5,20 +5,22 @@ __NAMESPACE__ = "http://www.myexample.com/command"
 
 
 @dataclass
-class Action:
+class ActionType:
     """
     :ivar result:
     """
-    class Meta:
-        namespace = "http://www.myexample.com/command"
-
     result: Optional[str] = field(
         default=None,
         metadata=dict(
-            type="Attribute",
-            required=True
+            type="Attribute"
         )
     )
+
+
+@dataclass
+class Action(ActionType):
+    class Meta:
+        namespace = "http://www.myexample.com/command"
 
 
 @dataclass

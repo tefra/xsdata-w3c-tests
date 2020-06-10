@@ -21,6 +21,9 @@ class Foo:
 @dataclass
 class Test:
     """
+    :ivar att:
+    :ivar att1:
+    :ivar att2:
     :ivar att3:
     :ivar att4:
     :ivar att5:
@@ -28,6 +31,24 @@ class Test:
     class Meta:
         name = "test"
 
+    att: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute"
+        )
+    )
+    att1: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute"
+        )
+    )
+    att2: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute"
+        )
+    )
     att3: Optional[int] = field(
         default=None,
         metadata=dict(

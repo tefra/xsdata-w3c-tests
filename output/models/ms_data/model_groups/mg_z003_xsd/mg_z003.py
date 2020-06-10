@@ -9,7 +9,7 @@ class Bar:
 
 
 @dataclass
-class Foo:
+class Foo(Bar):
     """
     :ivar e1:
     """

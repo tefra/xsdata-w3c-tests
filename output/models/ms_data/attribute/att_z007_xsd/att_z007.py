@@ -37,7 +37,12 @@ class One:
 
 
 @dataclass
-class Three:
+class Two(One):
+    pass
+
+
+@dataclass
+class Three(Two):
     """
     :ivar att1:
     """
@@ -48,11 +53,6 @@ class Three:
             required=True
         )
     )
-
-
-@dataclass
-class Two(One):
-    pass
 
 
 @dataclass

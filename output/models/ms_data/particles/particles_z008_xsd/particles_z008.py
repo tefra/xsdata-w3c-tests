@@ -37,22 +37,12 @@ class Member2:
 
 
 @dataclass
-class ContainMember2Type:
+class ContainHead2Type:
     """
     :ivar member2:
-    :ivar my_namespace_member2:
     :ivar head2:
     """
     member2: Optional[Member2] = field(
-        default=None,
-        metadata=dict(
-            name="Member2",
-            type="Element",
-            namespace="urn:my-namespace",
-            required=True
-        )
-    )
-    my_namespace_member2: Optional[Member2] = field(
         default=None,
         metadata=dict(
             name="Member2",
@@ -65,6 +55,22 @@ class ContainMember2Type:
         default=None,
         metadata=dict(
             name="Head2",
+            type="Element",
+            namespace="urn:my-namespace",
+            required=True
+        )
+    )
+
+
+@dataclass
+class ContainMember2Type(ContainHead2Type):
+    """
+    :ivar member2:
+    """
+    member2: Optional[Member2] = field(
+        default=None,
+        metadata=dict(
+            name="Member2",
             type="Element",
             namespace="urn:my-namespace",
             required=True

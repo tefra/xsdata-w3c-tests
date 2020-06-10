@@ -34,3 +34,21 @@ class Good:
             required=True
         )
     )
+
+
+@dataclass
+class Perfect:
+    """
+    :ivar any_element:
+    """
+    class Meta:
+        name = "perfect"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )

@@ -1,8 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp2 import (
-    E2,
-)
 from output.models.ms_data.particles.particles_q030_xsd.particles_q030_imp import (
     E2,
 )

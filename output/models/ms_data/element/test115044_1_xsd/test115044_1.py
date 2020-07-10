@@ -43,20 +43,12 @@ class E1:
 @dataclass
 class Root:
     """
-    :ivar e1:
     :ivar e:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    e1: Optional[E1] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
-    )
     e: Optional[str] = field(
         default=None,
         metadata=dict(

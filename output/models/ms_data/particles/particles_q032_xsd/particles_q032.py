@@ -1,8 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import (
-    E2 as ParticlesQ032Imp2E2,
-)
 from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import (
     E2 as ParticlesQ032ImpE2,
 )
@@ -97,7 +94,7 @@ class R:
             namespace="http://xsdtesting"
         )
     )
-    e2_2: Optional[ParticlesQ032Imp2E2] = field(
+    e2_2: Optional[E2] = field(
         default=None,
         metadata=dict(
             name="e2",

@@ -38,7 +38,6 @@ class G:
 @dataclass
 class Zing:
     """
-    :ivar g:
     :ivar e:
     :ivar f:
     :ivar local_element:
@@ -46,13 +45,6 @@ class Zing:
     class Meta:
         name = "zing"
 
-    g: Optional[G] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
-    )
     e: Optional[int] = field(
         default=None,
         metadata=dict(

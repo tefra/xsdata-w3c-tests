@@ -26,13 +26,13 @@ class Bar:
 @dataclass
 class Foo:
     """
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar target_namespace_w3_org_1999_xhtml_element:
     """
     class Meta:
         name = "foo"
         namespace = "http://foobar"
 
-    www_w3_org_1999_xhtml_element: Optional[object] = field(
+    target_namespace_w3_org_1999_xhtml_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

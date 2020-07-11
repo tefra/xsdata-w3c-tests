@@ -6,13 +6,13 @@ from typing import Dict
 @dataclass
 class Computer:
     """
-    :ivar apple_com_attributes:
-    :ivar orange_com_attributes:
+    :ivar local_apple_com_attributes:
+    :ivar local_orange_com_attributes:
     """
     class Meta:
         name = "computer"
 
-    apple_com_attributes: Dict[QName, str] = field(
+    local_apple_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -20,7 +20,7 @@ class Computer:
             required=True
         )
     )
-    orange_com_attributes: Dict[QName, str] = field(
+    local_orange_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

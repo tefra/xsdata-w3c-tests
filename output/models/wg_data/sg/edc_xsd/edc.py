@@ -45,7 +45,7 @@ class T:
     """
     :ivar e1:
     :ivar e:
-    :ivar www_w3_org_xml_2008_xsdl_exx_ns1_e1:
+    :ivar w3_org_xml_2008_xsdl_exx_ns1_e1:
     """
     e1: Optional[E1] = field(
         default=None,
@@ -63,7 +63,7 @@ class T:
             required=True
         )
     )
-    www_w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[int] = field(
+    w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[int] = field(
         default=None,
         metadata=dict(
             name="e1",

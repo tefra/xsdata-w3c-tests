@@ -6,12 +6,12 @@ from typing import Dict, List, Optional
 @dataclass
 class Signatures:
     """
-    :ivar www_w3_org_2000_09_xmldsig_element:
+    :ivar w3_org_2000_09_xmldsig_element:
     """
     class Meta:
         name = "signatures"
 
-    www_w3_org_2000_09_xmldsig_element: List[object] = field(
+    w3_org_2000_09_xmldsig_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Wildcard",
@@ -451,7 +451,7 @@ class Aaa:
 class Root:
     """
     :ivar aaa:
-    :ivar www_w3_org_xml_1998_namespace_attributes:
+    :ivar w3_org_xml_1998_namespace_attributes:
     """
     class Meta:
         name = "root"
@@ -463,7 +463,7 @@ class Root:
             required=True
         )
     )
-    www_w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
+    w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

@@ -24,13 +24,13 @@ class Bar:
 @dataclass
 class Foo:
     """
-    :ivar foobar_element:
+    :ivar local_foobar_element:
     """
     class Meta:
         name = "foo"
         namespace = "http://foobar"
 
-    foobar_element: Optional[object] = field(
+    local_foobar_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

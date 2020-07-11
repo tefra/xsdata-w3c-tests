@@ -5,9 +5,9 @@ from typing import Optional
 @dataclass
 class B:
     """
-    :ivar www_target001_com_element:
+    :ivar target001_com_element:
     """
-    www_target001_com_element: Optional[object] = field(
+    target001_com_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

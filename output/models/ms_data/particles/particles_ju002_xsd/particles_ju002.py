@@ -10,9 +10,9 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class B:
     """
-    :ivar imported_xsd_bar_element:
+    :ivar local_foo_target_namespace_imported_xsd_bar_element:
     """
-    imported_xsd_bar_element: List[object] = field(
+    local_foo_target_namespace_imported_xsd_bar_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Wildcard",

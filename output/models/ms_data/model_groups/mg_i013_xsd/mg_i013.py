@@ -10,7 +10,7 @@ class Foo:
     :ivar b2:
     :ivar c:
     :ivar a:
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar w3_org_1999_xhtml_element:
     """
     class Meta:
         name = "foo"
@@ -51,7 +51,7 @@ class Foo:
             namespace=""
         )
     )
-    www_w3_org_1999_xhtml_element: List[object] = field(
+    w3_org_1999_xhtml_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Wildcard",

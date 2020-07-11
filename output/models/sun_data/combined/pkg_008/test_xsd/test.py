@@ -8,12 +8,12 @@ __NAMESPACE__ = "urn:foo"
 @dataclass
 class Base:
     """
-    :ivar a_urn_b_attributes:
+    :ivar a_b_attributes:
     """
     class Meta:
         name = "base"
 
-    a_urn_b_attributes: Dict[QName, str] = field(
+    a_b_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

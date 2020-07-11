@@ -8,13 +8,13 @@ __NAMESPACE__ = "http://foobar"
 @dataclass
 class Foo:
     """
-    :ivar foobar_attributes:
+    :ivar local_foobar_attributes:
     """
     class Meta:
         name = "foo"
         namespace = "http://foobar"
 
-    foobar_attributes: Dict[QName, str] = field(
+    local_foobar_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

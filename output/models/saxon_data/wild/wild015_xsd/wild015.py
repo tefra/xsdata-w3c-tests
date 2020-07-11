@@ -6,9 +6,9 @@ from typing import Dict
 @dataclass
 class B:
     """
-    :ivar abel_com_http_adam_com_attributes:
+    :ivar abel_com_adam_com_attributes:
     """
-    abel_com_http_adam_com_attributes: Dict[QName, str] = field(
+    abel_com_adam_com_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

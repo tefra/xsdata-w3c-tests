@@ -9,7 +9,7 @@ __NAMESPACE__ = "http://foobar"
 class Foo:
     """
     :ivar value:
-    :ivar www_w3_org_1999_xhtml_attributes:
+    :ivar local_w3_org_1999_xhtml_attributes:
     """
     class Meta:
         name = "foo"
@@ -18,7 +18,7 @@ class Foo:
     value: Optional[str] = field(
         default=None,
     )
-    www_w3_org_1999_xhtml_attributes: Dict[QName, str] = field(
+    local_w3_org_1999_xhtml_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

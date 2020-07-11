@@ -7,12 +7,12 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Any:
     """
-    :ivar imported_xsd_element:
+    :ivar target_namespace_imported_xsd_element:
     """
     class Meta:
         name = "any"
 
-    imported_xsd_element: Optional[object] = field(
+    target_namespace_imported_xsd_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

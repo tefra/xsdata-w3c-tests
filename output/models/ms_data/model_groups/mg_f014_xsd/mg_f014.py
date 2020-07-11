@@ -5,7 +5,7 @@ from typing import List, Optional
 @dataclass
 class Foo:
     """
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar w3_org_1999_xhtml_element:
     :ivar d:
     :ivar b:
     :ivar b2:
@@ -15,7 +15,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    www_w3_org_1999_xhtml_element: List[object] = field(
+    w3_org_1999_xhtml_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Wildcard",

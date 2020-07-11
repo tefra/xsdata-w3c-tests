@@ -24,13 +24,13 @@ class B:
 @dataclass
 class Foo:
     """
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar local_w3_org_1999_xhtml_element:
     """
     class Meta:
         name = "foo"
         namespace = "http://xsdtesting"
 
-    www_w3_org_1999_xhtml_element: List[object] = field(
+    local_w3_org_1999_xhtml_element: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Wildcard",

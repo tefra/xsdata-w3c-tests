@@ -5,12 +5,12 @@ from typing import Optional
 @dataclass
 class Foo:
     """
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar w3_org_1999_xhtml_element:
     """
     class Meta:
         name = "foo"
 
-    www_w3_org_1999_xhtml_element: Optional[object] = field(
+    w3_org_1999_xhtml_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

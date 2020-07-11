@@ -9,12 +9,12 @@ from output.models.saxon_data.open.open045_xsd.open045x import (
 @dataclass
 class Beta:
     """
-    :ivar www_w3_org_xml_1998_namespace_attributes:
+    :ivar w3_org_xml_1998_namespace_attributes:
     """
     class Meta:
         name = "beta"
 
-    www_w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
+    w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -26,14 +26,14 @@ class Beta:
 @dataclass
 class Doc:
     """
-    :ivar www_w3_org_xml_1998_namespace_attributes:
+    :ivar w3_org_xml_1998_namespace_attributes:
     :ivar a:
     :ivar b:
     """
     class Meta:
         name = "doc"
 
-    www_w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
+    w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

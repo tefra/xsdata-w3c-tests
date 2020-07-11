@@ -7,13 +7,13 @@ __NAMESPACE__ = "http://www.w3.org/1999/xhtml"
 @dataclass
 class Foo:
     """
-    :ivar www_w3_org_1999_xhtml_element:
+    :ivar local_w3_org_1999_xhtml_element:
     """
     class Meta:
         name = "foo"
         namespace = "http://www.w3.org/1999/xhtml"
 
-    www_w3_org_1999_xhtml_element: Optional[object] = field(
+    local_w3_org_1999_xhtml_element: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Wildcard",

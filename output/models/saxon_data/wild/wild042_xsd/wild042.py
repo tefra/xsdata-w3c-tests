@@ -6,12 +6,12 @@ from typing import Dict
 @dataclass
 class Computer:
     """
-    :ivar www_w3_org_2001_xmlschema_instance_attributes:
+    :ivar w3_org_2001_xmlschema_instance_attributes:
     """
     class Meta:
         name = "computer"
 
-    www_w3_org_2001_xmlschema_instance_attributes: Dict[QName, str] = field(
+    w3_org_2001_xmlschema_instance_attributes: Dict[QName, str] = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

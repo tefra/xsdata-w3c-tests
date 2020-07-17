@@ -1,2 +1,2 @@
 <!-- xsdata instance -->
-<test:a xmlns:test="contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="contentType contentType00401m.xsd">Date:<date>2002-04-12</date></test:a>
+<test:a xmlns:test="contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Date:<date>2002-04-12</date></test:a>

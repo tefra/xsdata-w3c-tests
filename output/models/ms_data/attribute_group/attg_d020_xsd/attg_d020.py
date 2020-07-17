@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from lxml.etree import QName
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -8,6 +8,7 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Doc:
     """
+    :ivar content:
     :ivar att1:
     :ivar abc:
     :ivar any_attributes:
@@ -16,6 +17,16 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
+    content: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
     att1: Optional[str] = field(
         default=None,
         metadata=dict(

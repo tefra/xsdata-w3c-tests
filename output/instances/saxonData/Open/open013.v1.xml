@@ -1,4 +1,2 @@
 <!-- xsdata instance -->
-<doc xmlns="http://open.com/">
-  <extra>(</extra>
-</doc>
+<doc xmlns="http://open.com/">(<extra/>)</doc>

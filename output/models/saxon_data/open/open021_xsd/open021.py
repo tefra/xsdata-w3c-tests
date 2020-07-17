@@ -33,12 +33,14 @@ class B:
             namespace=""
         )
     )
-    open_com_element: Optional[object] = field(
-        default=None,
+    open_com_element: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
             namespace="http://open.com/",
-            required=True
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
 
@@ -74,12 +76,14 @@ class R:
             namespace=""
         )
     )
-    open_com_element: Optional[object] = field(
-        default=None,
+    open_com_element: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
             namespace="http://open.com/",
-            required=True
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
 

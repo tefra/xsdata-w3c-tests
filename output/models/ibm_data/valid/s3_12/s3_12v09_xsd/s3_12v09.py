@@ -29,6 +29,7 @@ class AddressType:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
+            mixed=True,
             min_occurs=0,
             max_occurs=9223372036854775807
         )
@@ -66,11 +67,14 @@ class CanaddressType(AddressType):
     class Meta:
         name = "canaddressType"
 
-    content: Optional[object] = field(
-        default=None,
+    content: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
-            namespace="##any"
+            namespace="##any",
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     province: Optional[str] = field(
@@ -111,11 +115,14 @@ class UsaddressType(AddressType):
     class Meta:
         name = "usaddressType"
 
-    content: Optional[object] = field(
-        default=None,
+    content: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
-            namespace="##any"
+            namespace="##any",
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     state: Optional[str] = field(

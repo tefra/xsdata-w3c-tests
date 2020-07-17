@@ -14,11 +14,14 @@ class Doc:
     class Meta:
         name = "doc"
 
-    content: Optional[object] = field(
-        default=None,
+    content: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
-            namespace="##any"
+            namespace="##any",
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     a: List[object] = field(

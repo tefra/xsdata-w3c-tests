@@ -1,6 +1,4 @@
 <!-- xsdata instance -->
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <fooTest>
-	12345
-</fooTest>
+  <fooTest>12345</fooTest>
 </root>

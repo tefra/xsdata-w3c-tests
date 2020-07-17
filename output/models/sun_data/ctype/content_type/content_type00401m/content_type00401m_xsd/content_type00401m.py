@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 __NAMESPACE__ = "contentType"
 
@@ -10,11 +10,14 @@ class A:
     :ivar content:
     :ivar date:
     """
-    content: Optional[object] = field(
-        default=None,
+    content: List[object] = field(
+        default_factory=list,
         metadata=dict(
             type="Wildcard",
-            namespace="##any"
+            namespace="##any",
+            mixed=True,
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )
     date: Optional[str] = field(

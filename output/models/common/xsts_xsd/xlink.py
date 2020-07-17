@@ -212,6 +212,7 @@ class ResourceType:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
+            mixed=True,
             min_occurs=0,
             max_occurs=9223372036854775807
         )
@@ -271,6 +272,7 @@ class Simple:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
+            mixed=True,
             min_occurs=0,
             max_occurs=9223372036854775807
         )
@@ -346,6 +348,7 @@ class TitleEltType:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
+            mixed=True,
             min_occurs=0,
             max_occurs=9223372036854775807
         )

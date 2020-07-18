@@ -18,8 +18,8 @@ class Doc:
             type="Wildcard",
             namespace="http://a.ns/",
             mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            min_occurs=2,
+            max_occurs=5
         )
     )
     b_ns_element: List[object] = field(

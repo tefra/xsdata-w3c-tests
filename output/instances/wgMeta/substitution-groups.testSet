@@ -1,61 +1,61 @@
 <!-- xsdata instance -->
-<testSet xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" contributor="C. M. Sperberg-McQueen" name="substitution-groups" version="1.1">
+<testSet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="C. M. Sperberg-McQueen" name="substitution-groups" version="1.1">
   <annotation>
     <documentation>
-      <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-        <html:p>A set of tests on changes to substition-group behavior,
+      <xhtml:div>
+        <xhtml:p>A set of tests on changes to substition-group behavior,
      constructed by hand, as a contribution to the XML Schema 1.1
-     test suite.</html:p>
-        <html:p>Revisions:</html:p>
-        <html:ul>
-          <html:li>2010-06-17 : CMSMcQ : add test groups<html:a href="#sg-abstract-upa">sg-abstract-upa</html:a>etc. for
+     test suite.</xhtml:p>
+        <xhtml:p>Revisions:</xhtml:p>
+        <xhtml:ul>
+          <xhtml:li>2010-06-17 : CMSMcQ : add test groups<xhtml:a href="#sg-abstract-upa">sg-abstract-upa</xhtml:a>etc. for
       checking the changes defining abstract elements as members
-      of substitution groups.</html:li>
-          <html:li>2010-06-16 : CMSMcQ : correct error in test of content 
+      of substitution groups.</xhtml:li>
+          <xhtml:li>2010-06-16 : CMSMcQ : correct error in test of content 
       model competition:  the negative wildcard does compete
-      with n, but the element wins (UPA has been weakened in 1.1).</html:li>
-          <html:li>2010-06-16 : CMSMcQ : move this catalog into 
+      with n, but the element wins (UPA has been weakened in 1.1).</xhtml:li>
+          <xhtml:li>2010-06-16 : CMSMcQ : move this catalog into 
       the dev.w3.org directory structure in directory wgMeta.  Change
-      locations of DTD, stylesheet, etc. accordingly.</html:li>
-          <html:li>2010-06-10 : CMSMcQ : create this test catalog,
-                               using XHTML modularization driver.</html:li>
-        </html:ul>
-      </html:div>
+      locations of DTD, stylesheet, etc. accordingly.</xhtml:li>
+          <xhtml:li>2010-06-10 : CMSMcQ : create this test catalog,
+                               using XHTML modularization driver.</xhtml:li>
+        </xhtml:ul>
+      </xhtml:div>
     </documentation>
   </annotation>
   <testGroup name="sg-and-defined-Sibling-1" version="1.0 1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>In section<html:a href="http://www.w3.org/TR/xmlschema11-1/#ch_models">G.1.3 Changes to content models</html:a>, XSD 1.1 says
-      (in list item 3):</html:p>
-          <html:blockquote>
-            <html:p>Finally, the keyword ##definedSibling can be used to exclude
+        <xhtml:div>
+          <xhtml:p>In section<xhtml:a href="http://www.w3.org/TR/xmlschema11-1/#ch_models">G.1.3 Changes to content models</xhtml:a>, XSD 1.1 says
+      (in list item 3):</xhtml:p>
+          <xhtml:blockquote>
+            <xhtml:p>Finally, the keyword ##definedSibling can be used to exclude
        all elements explicitly mentioned in a content model (and all
-       elements substitutable for those elements).</html:p>
-          </html:blockquote>
-          <html:p>So we test the following interactions of definedSibling
+       elements substitutable for those elements).</xhtml:p>
+          </xhtml:blockquote>
+          <xhtml:p>So we test the following interactions of definedSibling
       and substitution groups, in schemas with some subset of
       elements e, s, n, s1, n1, s2, n2, with s1 substitutable 
-      ('s') for s, and s2 for s1, but n1 and n2<html:em>not</html:em>substitutable for n (or anything else).  Elements n and s are
+      ('s') for s, and s2 for s1, but n1 and n2<xhtml:em>not</xhtml:em>substitutable for n (or anything else).  Elements n and s are
       siblings, together with a negative wildcard (no positive 
-      wildcard is possible) which has the keyword #definedSibling.</html:p>
-          <html:ol>
-            <html:li>A negative wildcard excludes s1 but not n1.</html:li>
-            <html:li>A negative wildcard competes with n but not s,
+      wildcard is possible) which has the keyword #definedSibling.</xhtml:p>
+          <xhtml:ol>
+            <xhtml:li>A negative wildcard excludes s1 but not n1.</xhtml:li>
+            <xhtml:li>A negative wildcard competes with n but not s,
        but the result is the same in either case, since
        when elements and wildcards compete, the element
-       wins.</html:li>
-          </html:ol>
-        </html:div>
+       wins.</xhtml:li>
+          </xhtml:ol>
+        </xhtml:div>
       </documentation>
     </annotation>
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>In this test set, we exercise the fact that a
-      negative wildcard excludes s1 but not n1.</html:p>
-        </html:div>
+        <xhtml:div>
+          <xhtml:p>In this test set, we exercise the fact that a
+      negative wildcard excludes s1 but not n1.</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
@@ -100,10 +100,10 @@
   <testGroup name="sg-and-defined-Sibling-2" version="1.0 1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>Negative wildcard excludes s1 but not n1.
-      (Second time around).</html:p>
-        </html:div>
+        <xhtml:div>
+          <xhtml:p>Negative wildcard excludes s1 but not n1.
+      (Second time around).</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
@@ -136,11 +136,11 @@
   <testGroup name="sg-and-defined-Sibling-3" version="1.0 1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>A negative wildcard competes with n, but not s.</html:p>
-          <html:p>But elements outrank wildcards, so there's no conflict 
-      in either case.</html:p>
-          <html:p>This test defines a content model beginning with s, n
+        <xhtml:div>
+          <xhtml:p>A negative wildcard competes with n, but not s.</xhtml:p>
+          <xhtml:p>But elements outrank wildcards, so there's no conflict 
+      in either case.</xhtml:p>
+          <xhtml:p>This test defines a content model beginning with s, n
       and continuing with any of (negative-wildcard, a),
       (s, b), or (n, c).  
       The instance tests have element sequences beginning
@@ -148,8 +148,8 @@
       and ending with one of a, b, c.  
       The sequences with s1 test the processor's handling
       of the competition between s1 and the negative wildcard.
-      The other tests are present primarily for symmetry.</html:p>
-        </html:div>
+      The other tests are present primarily for symmetry.</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"/>
@@ -198,28 +198,28 @@
   <testGroup name="sg-abstract-upa" version="1.0 1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>In section<html:a href="http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl">G.1.9 Element declarations</html:a>, XSD 1.1 says
-      (in list item 3):</html:p>
-          <html:blockquote>
-            <html:p>Abstract elements may now appear in substitution groups.</html:p>
-          </html:blockquote>
-          <html:p>This change was adopted to resolve bug<html:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337">4337 
-       Substitution group and abstract</html:a>, which pointed out some
+        <xhtml:div>
+          <xhtml:p>In section<xhtml:a href="http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl">G.1.9 Element declarations</xhtml:a>, XSD 1.1 says
+      (in list item 3):</xhtml:p>
+          <xhtml:blockquote>
+            <xhtml:p>Abstract elements may now appear in substitution groups.</xhtml:p>
+          </xhtml:blockquote>
+          <xhtml:p>This change was adopted to resolve bug<xhtml:a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337">4337 
+       Substitution group and abstract</xhtml:a>, which pointed out some
       uncertainty about whether particular content models did or did
-      not violate the UPA and EDC constraints.</html:p>
-          <html:p>Because no element in a document instance is locally valid
+      not violate the UPA and EDC constraints.</xhtml:p>
+          <xhtml:p>Because no element in a document instance is locally valid
       against an abstract element declaration, this change does not
       mean that abstract elements can now be instantiated in a valid
       instance document.  Instead, the effect is to make clear that
       abstract element declarations are considered when deciding
       whether a content model violates constraints defined in terms of
-      elements' substitution groups.</html:p>
-          <html:p>This test group illustrates the violation of the Unique
+      elements' substitution groups.</xhtml:p>
+          <xhtml:p>This test group illustrates the violation of the Unique
       Particle Attribution constraint by a competition between a
       local element declaration and an abstract global element
-      declaration which is substitutable for another.</html:p>
-        </html:div>
+      declaration which is substitutable for another.</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
@@ -246,21 +246,21 @@
   <testGroup name="sg-abstract-upa2" version="1.0 1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>For context see test group<html:a href="#sg-abstact-upa">sg-abstract-upa</html:a>above.</html:p>
-          <html:p>Like<html:a href="#sg-abstact-upa">sg-abstract-upa</html:a>,
+        <xhtml:div>
+          <xhtml:p>For context see test group<xhtml:a href="#sg-abstact-upa">sg-abstract-upa</xhtml:a>above.</xhtml:p>
+          <xhtml:p>Like<xhtml:a href="#sg-abstact-upa">sg-abstract-upa</xhtml:a>,
       this test group illustrates the violation of the Unique
       Particle Attribution constraint by a competition between a
       local element declaration and an abstract global element
-      declaration which is substitutable for another.</html:p>
-          <html:p>In this case, however, the top-level<html:tt>e1</html:tt>and the local<html:tt>e1</html:tt>have different types.
-      If a 1.0 processor ignores the global<html:tt>e1</html:tt>on
+      declaration which is substitutable for another.</xhtml:p>
+          <xhtml:p>In this case, however, the top-level<xhtml:tt>e1</xhtml:tt>and the local<xhtml:tt>e1</xhtml:tt>have different types.
+      If a 1.0 processor ignores the global<xhtml:tt>e1</xhtml:tt>on
       the grounds that it's not a member of the actual
-      substitution group of<html:tt>e</html:tt>, then it will accept
+      substitution group of<xhtml:tt>e</xhtml:tt>, then it will accept
       this schema, and validate the instances as shown.
       A 1.1 processor must reject the schema; it violates
-      both UPA and EDC.</html:p>
-        </html:div>
+      both UPA and EDC.</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
@@ -292,15 +292,15 @@
   <testGroup name="sg-abstract-edc" version="1.1">
     <annotation>
       <documentation>
-        <html:div xmlns:html="http://www.w3.org/1999/xhtml">
-          <html:p>For context see test group<html:a href="#sg-abstact-upa">sg-abstract-upa</html:a>above.</html:p>
-          <html:p>The schema in this test group illustrates the violation of
+        <xhtml:div>
+          <xhtml:p>For context see test group<xhtml:a href="#sg-abstact-upa">sg-abstract-upa</xhtml:a>above.</xhtml:p>
+          <xhtml:p>The schema in this test group illustrates the violation of
       the Element Declarations Consistent constraint by an abstract
       top-level element.  XSD 1.0 processors which treat abstract
       elements as not part of any actual substitution group will
-      accept the schema and validate the instances accordingly.</html:p>
-          <html:p>XSD 1.1 processors must reject the schema.</html:p>
-        </html:div>
+      accept the schema and validate the instances accordingly.</xhtml:p>
+          <xhtml:p>XSD 1.1 processors must reject the schema.</xhtml:p>
+        </xhtml:div>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>

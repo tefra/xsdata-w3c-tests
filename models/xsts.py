@@ -512,7 +512,7 @@ class XpathInCta(Enum):
           <p>A conforming processor must accept and process any XPath
                 expression conforming to the "required subset" of [XPath 2.0]
                 defined by the following grammar.</p>
-          <p style="margin-left: 2em;">Note: Any XPath expression containing no static errors as
+          <p>Note: Any XPath expression containing no static errors as
                   defined in [XPath 2.0] may appear in a conforming schema.
                   Conforming processors may but are not required to support
                   XPath expressions not belonging to the required subset of

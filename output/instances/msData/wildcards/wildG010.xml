@@ -1,13 +1,13 @@
 <!-- xsdata instance -->
-<foo xmlns:x="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:a="http://xsdtesting">
+<foo xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:a="http://xsdtesting">
   <bar>test</bar>
-  <x:foo>test</x:foo>
+  <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
-  <x:foo>test</x:foo>
+  <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
-  <x:foo>test</x:foo>
+  <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
-  <x:foo>test</x:foo>
+  <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
-  <x:foo>test</x:foo>
+  <xhtml:foo>test</xhtml:foo>
 </foo>

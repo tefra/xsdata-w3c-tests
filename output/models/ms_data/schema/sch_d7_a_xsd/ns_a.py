@@ -1,11 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.schema.sch_d5_a_xsd.sch_d5_b import (
-    CtB,
-)
-from output.models.ms_data.schema.sch_d5_a_xsd.sch_d5_c import (
-    CtC,
-)
 
 __NAMESPACE__ = "ns-a"
 
@@ -38,6 +32,33 @@ class CtA:
 
 
 @dataclass
+class CtC:
+    """
+    :ivar c1:
+    :ivar c2:
+    """
+    class Meta:
+        name = "ct-C"
+
+    c1: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="",
+            required=True
+        )
+    )
+    c2: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Root:
     """
     :ivar any_element:
@@ -58,13 +79,6 @@ class Root:
 
 
 @dataclass
-class AE2(CtB):
-    class Meta:
-        name = "a-e2"
-        namespace = "ns-a"
-
-
-@dataclass
 class AE3(CtC):
     class Meta:
         name = "a-e3"
@@ -72,7 +86,21 @@ class AE3(CtC):
 
 
 @dataclass
+class CE1(CtA):
+    class Meta:
+        name = "c-e1"
+        namespace = "ns-a"
+
+
+@dataclass
 class E1(CtA):
     class Meta:
         name = "e1"
+        namespace = "ns-a"
+
+
+@dataclass
+class E3(CtC):
+    class Meta:
+        name = "e3"
         namespace = "ns-a"

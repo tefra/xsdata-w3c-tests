@@ -8079,7 +8079,6 @@ def test_sch_d10_sch_d10_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_sch_d7_sch_d7_v(save_xml):
     """
     TEST :schema collection and schema location : A includes B and C, B is
@@ -8091,12 +8090,12 @@ def test_sch_d7_sch_d7_v(save_xml):
         instance="msData/schema/schD7.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_sch_d5_sch_d5_v(save_xml):
     """
     TEST :schema collection and schema location : A include B and C, A's
@@ -8108,6 +8107,7 @@ def test_sch_d5_sch_d5_v(save_xml):
         instance="msData/schema/schD5.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 

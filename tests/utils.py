@@ -21,7 +21,12 @@ os.chdir(w3c.parent)
 
 
 def assert_bindings(
-    schema: str, instance: str, class_name: str, version: str, save_xml: bool,
+    schema: str,
+    instance: str,
+    class_name: str,
+    version: str,
+    save_xml: bool,
+    ns_struct: bool = False,
 ):
     __tracebackhide__ = True
 
@@ -30,7 +35,7 @@ def assert_bindings(
 
     pck_arr = list(map(text.snake_case, schema_path.parts))
     package = f"output.models.{'.'.join(pck_arr)}"
-    clazz = generate_models(str(w3c.joinpath(schema)), package, class_name)
+    clazz = generate_models(str(w3c.joinpath(schema)), package, class_name, ns_struct)
 
     if isinstance(clazz, Exception):
         raise clazz
@@ -73,9 +78,17 @@ def assert_valid(validator, tree):
 
 
 @functools.lru_cache(maxsize=5)
-def generate_models(xsd: str, package: str, class_name: str):
+def generate_models(xsd: str, package: str, class_name: str, ns_struct: bool):
     runner = CliRunner()
-    result = runner.invoke(cli, [xsd, "--package", package])
+    args = [
+        xsd,
+        "--package",
+        package,
+    ]
+    if ns_struct:
+        args.append("--ns-struct")
+
+    result = runner.invoke(cli, args)
 
     if result.exception:
         return result.exception

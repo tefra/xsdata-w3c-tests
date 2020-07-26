@@ -42,6 +42,20 @@ def test_{name}(save_xml):
     )
 """
 
+test_ns_struct_case_tpl = """{decorators}
+def test_{name}(save_xml):
+{documentation}
+    assert_bindings(
+        schema="{schema_path}",
+        instance="{instance_path}",
+        class_name="{class_name}",
+        version="{version}",
+        ns_struct=True,
+        save_xml=save_xml,
+    )
+"""
+
+
 xfails = dict()
 lastfailed = root.joinpath(".pytest_cache/v/cache/lastfailed")
 if lastfailed.exists():
@@ -61,6 +75,7 @@ class TestCase:
     instance_path: Path
     instance_is_valid: bool
     class_name: str
+    ns_struct: bool
 
 
 def generate():
@@ -128,9 +143,8 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
             markers.insert(0, "")
 
         decorators = "\n".join(markers)
-        output.append(
-            test_case_tpl.format(name=name, decorators=decorators, **asdict(case))
-        )
+        template = test_ns_struct_case_tpl if case.ns_struct else test_case_tpl
+        output.append(template.format(name=name, decorators=decorators, **asdict(case)))
 
     return test_module_tpl.format("\n".join(output))
 
@@ -153,6 +167,7 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
     schema_version = None
+    ns_struct = False
 
     if (
         group.schema_test
@@ -175,6 +190,9 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_name = text.snake_case(group.name)
     documentation = make_docstring(group)
 
+    if group.name in ("schD5", "schD7",):
+        ns_struct = True
+
     for instance in group.instance_test:
         if not instance.instance_document or not instance.instance_document.href:
             raise ValueError("Missing instance document!")
@@ -196,6 +214,7 @@ def make_test_cases(path: Path, group: TestGroup):
             instance_path=instance_href,
             instance_is_valid=instance_validity.validity == ExpectedOutcome.VALID,
             class_name=class_name,
+            ns_struct=ns_struct,
         )
 
 

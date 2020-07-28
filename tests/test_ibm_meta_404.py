@@ -589,7 +589,6 @@ def test_assert_020_assert_020_2(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert_019_assert_019_2(save_xml):
     """
     A sample "purchase order" instance validation with an XML schema,
@@ -4747,7 +4746,6 @@ def test_type_alternatives_004_type_alternatives_004_3(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_type_alternatives_003_type_alternatives_003_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. In this example, schema
@@ -4764,7 +4762,6 @@ def test_type_alternatives_003_type_alternatives_003_2(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_type_alternatives_002_type_alternatives_002_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives.

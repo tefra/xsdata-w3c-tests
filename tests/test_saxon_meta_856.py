@@ -3573,7 +3573,6 @@ def test_cta0009_cta0009_n02(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_cta0008_cta0008_v01(save_xml):
     """
     Inline type alternative Type alternative is an anonymous type defined

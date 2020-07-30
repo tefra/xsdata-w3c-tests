@@ -139,7 +139,7 @@ class Entity:
     class Meta:
         name = "entity"
 
-    value: Optional[int] = field(
+    value: Optional[str] = field(
         default=None,
         metadata=dict(
             required=True

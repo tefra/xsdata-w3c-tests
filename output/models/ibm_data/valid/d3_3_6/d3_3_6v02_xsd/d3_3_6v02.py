@@ -11,8 +11,8 @@ class Num1(Enum):
     :cvar INF:
     :cvar VALUE_1_1:
     """
-    INF = "+INF"
-    VALUE_1_1 = "1.1"
+    INF = Decimal('Infinity')
+    VALUE_1_1 = Decimal('1.1')
 
 
 @dataclass

@@ -115,7 +115,7 @@ class ItemsType:
                 type="Element",
                 namespace="http://www.example.com/IPO",
                 required=True,
-                max_exclusive=100.0
+                max_exclusive=100
             )
         )
         usprice: Optional[Decimal] = field(

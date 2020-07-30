@@ -67,7 +67,7 @@ class MyType:
             type="Element",
             namespace="",
             required=True,
-            max_length=4.0
+            max_length=4
         )
     )
     foo_ele2: Optional[int] = field(

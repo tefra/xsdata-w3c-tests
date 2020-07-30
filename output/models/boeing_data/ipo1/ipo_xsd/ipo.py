@@ -160,7 +160,7 @@ class ItemsType:
                 type="Element",
                 namespace="",
                 required=True,
-                max_exclusive=100.0
+                max_exclusive=100
             )
         )
         usprice: Optional[Decimal] = field(

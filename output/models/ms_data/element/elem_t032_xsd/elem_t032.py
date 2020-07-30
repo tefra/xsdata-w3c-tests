@@ -155,8 +155,8 @@ class Test:
         default=None,
         metadata=dict(
             required=True,
-            min_exclusive=0.0,
-            max_inclusive=10.0
+            min_exclusive=0,
+            max_inclusive=10
         )
     )
 

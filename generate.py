@@ -166,7 +166,6 @@ def fetch_test_cases() -> Iterator[TestCase]:
 def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
-    schema_version = None
     ns_struct = False
 
     if (
@@ -201,7 +200,7 @@ def make_test_cases(path: Path, group: TestGroup):
         instance_href = instance_path.relative_to(w3c)
         instance_validity = validity(instance.expected)
         class_name = read_root_name(instance_path)
-        version = pick_version(schema_version, group.version)
+        version = pick_version(group.version)
 
         yield TestCase(
             path=path,
@@ -240,15 +239,8 @@ def validity(expects: List[Expected]) -> Expected:
     return expect if expect else expects[0]
 
 
-def pick_version(*args):
-    choices = set()
-    for arg in args:
-        if arg:
-            if isinstance(arg, Enum):
-                choices.update(arg.value)
-            else:
-                choices.update(arg.split(" "))
-
+def pick_version(versions: List):
+    choices = set(v.value if isinstance(v, Enum) else str(v) for v in versions)
     if "1.1" in choices:
         return "1.1"
     elif "1.0" in choices:

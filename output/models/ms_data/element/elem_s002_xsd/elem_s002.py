@@ -34,8 +34,8 @@ class Cs:
     value: Optional[str] = field(
         default=None,
         metadata=dict(
-            min_length=1.0,
-            max_length=4.0
+            min_length=1,
+            max_length=4
         )
     )
     a: Optional[str] = field(

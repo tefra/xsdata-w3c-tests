@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicGYearMinExclusive2:
         default=None,
         metadata=dict(
             required=True,
-            min_exclusive=2008.0
+            min_exclusive="2008"
         )
     )

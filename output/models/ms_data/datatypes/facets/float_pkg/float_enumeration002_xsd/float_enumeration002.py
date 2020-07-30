@@ -24,7 +24,7 @@ class FooType:
         """
         :cvar VALUE_1_1:
         """
-        VALUE_1_1 = "1.1"
+        VALUE_1_1 = 1.1
 
 
 @dataclass

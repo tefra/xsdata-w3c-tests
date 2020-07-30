@@ -18,6 +18,6 @@ class NistschemaSvIvAtomicQnameMinLength4:
         default=None,
         metadata=dict(
             required=True,
-            min_length=18.0
+            min_length=18
         )
     )

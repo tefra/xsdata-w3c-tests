@@ -33,7 +33,7 @@ class FooType:
             metadata=dict(
                 name="attrTest",
                 type="Attribute",
-                max_length=6.0
+                max_length=6
             )
         )
 

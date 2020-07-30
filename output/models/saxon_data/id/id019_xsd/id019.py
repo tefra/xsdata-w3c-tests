@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -14,7 +14,7 @@ class Para:
     value: Optional[str] = field(
         default=None,
     )
-    entity: int = field(
+    entity: Union[str, int] = field(
         default="entity1",
         metadata=dict(
             type="Attribute"

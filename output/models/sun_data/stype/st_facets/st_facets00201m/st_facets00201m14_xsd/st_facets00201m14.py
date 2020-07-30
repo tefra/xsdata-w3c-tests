@@ -18,6 +18,6 @@ class Test:
         default=None,
         metadata=dict(
             required=True,
-            max_exclusive=11.0
+            max_exclusive=11
         )
     )

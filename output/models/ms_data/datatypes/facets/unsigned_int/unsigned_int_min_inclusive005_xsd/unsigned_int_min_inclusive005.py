@@ -16,8 +16,8 @@ class FooType:
             type="Element",
             namespace="",
             required=True,
-            min_inclusive=1.0,
-            max_exclusive=7.0
+            min_inclusive=1,
+            max_exclusive=7
         )
     )
 

@@ -38,7 +38,7 @@ class NewDataSet:
                 name="Id",
                 type="Element",
                 namespace="",
-                max_length=5.0
+                max_length=5
             )
         )
 
@@ -53,6 +53,6 @@ class NewDataSet:
                 name="Id",
                 type="Element",
                 namespace="",
-                max_length=5.0
+                max_length=5
             )
         )

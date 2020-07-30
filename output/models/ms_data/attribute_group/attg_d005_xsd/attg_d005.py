@@ -47,7 +47,7 @@ class Doc:
         default=None,
         metadata=dict(
             type="Attribute",
-            max_exclusive=100.0
+            max_exclusive=100
         )
     )
     att3: Optional[int] = field(

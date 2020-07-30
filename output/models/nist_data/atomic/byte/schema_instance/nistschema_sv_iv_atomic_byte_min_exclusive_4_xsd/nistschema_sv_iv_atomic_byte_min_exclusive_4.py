@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicByteMinExclusive4:
         default=None,
         metadata=dict(
             required=True,
-            min_exclusive=95.0
+            min_exclusive=95
         )
     )

@@ -9,7 +9,7 @@ class Root:
     class Meta:
         name = "root"
 
-    e1: int = field(
+    e1: str = field(
         default="asd",
         metadata=dict(
             type="Element",

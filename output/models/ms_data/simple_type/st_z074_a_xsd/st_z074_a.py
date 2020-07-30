@@ -21,6 +21,6 @@ class Root:
         metadata=dict(
             min_occurs=0,
             max_occurs=9223372036854775807,
-            max_length=4.0
+            max_length=4
         )
     )

@@ -188,8 +188,8 @@ class Datafile:
                 namespace="",
                 min_occurs=0,
                 max_occurs=9223372036854775807,
-                min_inclusive=-922337203685477.6,
-                max_inclusive=922337203685477.6,
+                min_inclusive=-922337203685477.5808,
+                max_inclusive=922337203685477.5807,
                 total_digits=19,
                 fraction_digits=4
             )
@@ -215,8 +215,8 @@ class Datafile:
                 namespace="",
                 min_occurs=0,
                 max_occurs=9223372036854775807,
-                min_inclusive=-1.79e+308,
-                max_inclusive=1.79e+308
+                min_inclusive=-1.79E+308,
+                max_inclusive=1.79E+308
             )
         )
         real: List[float] = field(
@@ -261,7 +261,7 @@ class Datafile:
                 namespace="",
                 min_occurs=0,
                 max_occurs=9223372036854775807,
-                min_length=1.0,
-                max_length=4000.0
+                min_length=1,
+                max_length=4000
             )
         )

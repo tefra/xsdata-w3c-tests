@@ -1,3 +1,4 @@
+from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from typing import Optional
@@ -24,7 +25,7 @@ class FooType:
         """
         :cvar VALUE_1_1:
         """
-        VALUE_1_1 = "1.1"
+        VALUE_1_1 = Decimal('1.1')
 
 
 @dataclass

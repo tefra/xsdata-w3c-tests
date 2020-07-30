@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicGYearMaxInclusive4:
         default=None,
         metadata=dict(
             required=True,
-            max_inclusive=1998.0
+            max_inclusive="1998"
         )
     )

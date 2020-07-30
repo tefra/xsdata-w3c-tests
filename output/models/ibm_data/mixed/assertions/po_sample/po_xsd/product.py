@@ -22,7 +22,7 @@ class Item:
         default=None,
         metadata=dict(
             type="Attribute",
-            min_inclusive=0.0
+            min_inclusive=0
         )
     )
 

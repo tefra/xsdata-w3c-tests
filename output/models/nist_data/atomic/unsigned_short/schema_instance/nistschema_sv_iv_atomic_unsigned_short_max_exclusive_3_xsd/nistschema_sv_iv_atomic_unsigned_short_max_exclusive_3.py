@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicUnsignedShortMaxExclusive3:
         default=None,
         metadata=dict(
             required=True,
-            max_exclusive=64347.0
+            max_exclusive=64347
         )
     )

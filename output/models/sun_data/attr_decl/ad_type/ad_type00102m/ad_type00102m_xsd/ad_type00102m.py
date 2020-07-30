@@ -20,8 +20,8 @@ class ElementWithAttr:
         metadata=dict(
             type="Attribute",
             namespace="AttrDecl/type",
-            min_exclusive=0.0,
-            max_exclusive=13.0
+            min_exclusive=0,
+            max_exclusive=13
         )
     )
     price: Optional[Decimal] = field(

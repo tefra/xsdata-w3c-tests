@@ -21,8 +21,8 @@ class Root:
             namespace="",
             min_occurs=0,
             max_occurs=9223372036854775807,
-            min_length=2.0,
-            max_length=6.0,
+            min_length=2,
+            max_length=6,
             pattern=r"123 (\d+\s)*456"
         )
     )

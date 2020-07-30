@@ -18,6 +18,6 @@ class NistschemaSvIvAtomicDecimalMaxInclusive4:
         default=None,
         metadata=dict(
             required=True,
-            max_inclusive=-9.577605569367131e+16
+            max_inclusive=-95776055693671313
         )
     )

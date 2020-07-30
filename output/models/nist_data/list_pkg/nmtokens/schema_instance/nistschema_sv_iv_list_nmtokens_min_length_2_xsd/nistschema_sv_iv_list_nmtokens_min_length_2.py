@@ -17,6 +17,6 @@ class NistschemaSvIvListNmtokensMinLength2:
         default=None,
         metadata=dict(
             required=True,
-            min_length=6.0
+            min_length=6
         )
     )

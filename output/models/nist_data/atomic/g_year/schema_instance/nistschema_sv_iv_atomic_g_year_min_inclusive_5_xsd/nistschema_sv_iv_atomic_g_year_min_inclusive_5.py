@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicGYearMinInclusive5:
         default=None,
         metadata=dict(
             required=True,
-            min_inclusive=2030.0
+            min_inclusive="2030"
         )
     )

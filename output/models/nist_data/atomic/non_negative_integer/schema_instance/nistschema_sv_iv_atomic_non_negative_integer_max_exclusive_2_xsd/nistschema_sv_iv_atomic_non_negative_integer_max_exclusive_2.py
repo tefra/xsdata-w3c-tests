@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive2:
         default=None,
         metadata=dict(
             required=True,
-            max_exclusive=6.719454965386469e+17
+            max_exclusive=671945496538646879
         )
     )

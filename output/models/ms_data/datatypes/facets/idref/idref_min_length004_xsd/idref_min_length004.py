@@ -34,8 +34,8 @@ class FooType:
             metadata=dict(
                 name="attrTest",
                 type="Attribute",
-                min_length=4.0,
-                max_length=6.0
+                min_length=4,
+                max_length=6
             )
         )
         id_attr: Optional[str] = field(

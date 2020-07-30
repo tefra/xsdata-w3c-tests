@@ -16,13 +16,13 @@ class Doc:
         metadata=dict(
             type="Element",
             namespace="",
-            min_length=6.0
+            min_length=6
         )
     )
     att: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Attribute",
-            min_length=6.0
+            min_length=6
         )
     )

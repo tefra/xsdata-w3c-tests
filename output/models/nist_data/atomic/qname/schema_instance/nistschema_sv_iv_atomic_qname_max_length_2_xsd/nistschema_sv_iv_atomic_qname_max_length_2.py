@@ -18,6 +18,6 @@ class NistschemaSvIvAtomicQnameMaxLength2:
         default=None,
         metadata=dict(
             required=True,
-            max_length=4.0
+            max_length=4
         )
     )

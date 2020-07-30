@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicStringMinLength2:
         default=None,
         metadata=dict(
             required=True,
-            min_length=657.0
+            min_length=657
         )
     )

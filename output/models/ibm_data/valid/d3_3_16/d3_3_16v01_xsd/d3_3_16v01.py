@@ -20,6 +20,6 @@ class Root:
             namespace="",
             min_occurs=1,
             max_occurs=9223372036854775807,
-            max_length=4.0
+            max_length=4
         )
     )

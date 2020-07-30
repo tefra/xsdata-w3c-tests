@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicUnsignedByteMinInclusive3:
         default=None,
         metadata=dict(
             required=True,
-            min_inclusive=18.0
+            min_inclusive=18
         )
     )

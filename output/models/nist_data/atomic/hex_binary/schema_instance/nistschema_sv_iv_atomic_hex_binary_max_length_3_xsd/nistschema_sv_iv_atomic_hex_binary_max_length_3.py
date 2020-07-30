@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicHexBinaryMaxLength3:
         default=None,
         metadata=dict(
             required=True,
-            max_length=7.0
+            max_length=7
         )
     )

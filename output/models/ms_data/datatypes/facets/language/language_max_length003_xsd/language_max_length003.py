@@ -16,7 +16,7 @@ class FooType:
             type="Element",
             namespace="",
             required=True,
-            max_length=6.0
+            max_length=6
         )
     )
 

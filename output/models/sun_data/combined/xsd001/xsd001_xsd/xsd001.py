@@ -32,15 +32,15 @@ class Root:
         value: Optional[str] = field(
             default=None,
             metadata=dict(
-                min_length=3.0,
-                max_length=10.0
+                min_length=3,
+                max_length=10
             )
         )
         attr: Optional[str] = field(
             default=None,
             metadata=dict(
                 type="Attribute",
-                min_length=5.0,
-                max_length=10.0
+                min_length=5,
+                max_length=10
             )
         )

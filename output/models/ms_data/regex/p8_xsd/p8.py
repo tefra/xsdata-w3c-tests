@@ -11,8 +11,8 @@ class Regex:
         default=None,
         metadata=dict(
             type="Attribute",
-            min_inclusive=-9.0,
-            max_exclusive=10.0,
+            min_inclusive=-9,
+            max_exclusive=10,
             pattern=r"\-[0-9]*"
         )
     )

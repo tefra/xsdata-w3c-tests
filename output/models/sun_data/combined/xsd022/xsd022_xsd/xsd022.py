@@ -20,7 +20,7 @@ class Root:
             type="Element",
             min_occurs=0,
             max_occurs=9223372036854775807,
-            min_length=5.0
+            min_length=5
         )
     )
     child2: List["Root.Child2"] = field(
@@ -40,6 +40,6 @@ class Root:
         value: Optional[Union[bool, str]] = field(
             default=None,
             metadata=dict(
-                min_length=5.0
+                min_length=5
             )
         )

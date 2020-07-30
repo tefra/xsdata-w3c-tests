@@ -15,7 +15,7 @@ class Foo:
         default=None,
         metadata=dict(
             type="Attribute",
-            max_length=2.0
+            max_length=2
         )
     )
     id1_attr: Optional[str] = field(

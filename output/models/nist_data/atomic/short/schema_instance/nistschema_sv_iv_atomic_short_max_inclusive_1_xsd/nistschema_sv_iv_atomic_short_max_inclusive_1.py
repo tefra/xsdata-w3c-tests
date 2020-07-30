@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicShortMaxInclusive1:
         default=None,
         metadata=dict(
             required=True,
-            max_inclusive=-32768.0
+            max_inclusive=-32768
         )
     )

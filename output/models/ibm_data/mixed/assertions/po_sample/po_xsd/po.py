@@ -38,8 +38,8 @@ class Address:
         metadata=dict(
             type="Element",
             namespace="",
-            min_length=3.0,
-            max_length=30.0
+            min_length=3,
+            max_length=30
         )
     )
     zipcode: Optional[str] = field(
@@ -47,8 +47,8 @@ class Address:
         metadata=dict(
             type="Element",
             namespace="",
-            min_length=3.0,
-            max_length=30.0
+            min_length=3,
+            max_length=30
         )
     )
     state: Optional[str] = field(
@@ -56,8 +56,8 @@ class Address:
         metadata=dict(
             type="Element",
             namespace="",
-            min_length=3.0,
-            max_length=30.0
+            min_length=3,
+            max_length=30
         )
     )
     country: Optional[str] = field(
@@ -65,8 +65,8 @@ class Address:
         metadata=dict(
             type="Element",
             namespace="",
-            min_length=3.0,
-            max_length=30.0
+            min_length=3,
+            max_length=30
         )
     )
 
@@ -189,7 +189,7 @@ class Order(PoBusinessRules):
             type="Element",
             namespace="",
             required=True,
-            min_inclusive=0.0
+            min_inclusive=0
         )
     )
     bill_amount: Optional[Decimal] = field(
@@ -199,7 +199,7 @@ class Order(PoBusinessRules):
             type="Element",
             namespace="",
             required=True,
-            min_inclusive=0.0
+            min_inclusive=0
         )
     )
     currency: Optional[str] = field(

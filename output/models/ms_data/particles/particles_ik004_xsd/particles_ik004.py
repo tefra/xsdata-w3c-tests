@@ -37,7 +37,7 @@ class R:
         metadata=dict(
             type="Element",
             namespace="http://xsdtesting",
-            max_length=4.0
+            max_length=4
         )
     )
     c2: Optional[object] = field(

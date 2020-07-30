@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicAnyUriMaxLength3:
         default=None,
         metadata=dict(
             required=True,
-            max_length=26.0
+            max_length=26
         )
     )

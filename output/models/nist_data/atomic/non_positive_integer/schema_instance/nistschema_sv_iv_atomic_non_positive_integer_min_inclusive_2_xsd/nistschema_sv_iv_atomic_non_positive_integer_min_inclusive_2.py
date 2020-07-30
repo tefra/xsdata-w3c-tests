@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicNonPositiveIntegerMinInclusive2:
         default=None,
         metadata=dict(
             required=True,
-            min_inclusive=-9.278208895718029e+17
+            min_inclusive=-927820889571802863
         )
     )

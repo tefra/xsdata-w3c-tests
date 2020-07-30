@@ -17,8 +17,8 @@ class Ct:
             type="Element",
             namespace="",
             required=True,
-            min_exclusive=2.0,
-            min_inclusive=2.0
+            min_exclusive=2,
+            min_inclusive=2
         )
     )
     e2: Optional[int] = field(
@@ -27,8 +27,8 @@ class Ct:
             type="Element",
             namespace="",
             required=True,
-            min_exclusive=2.0,
-            min_inclusive=3.0
+            min_exclusive=2,
+            min_inclusive=3
         )
     )
 

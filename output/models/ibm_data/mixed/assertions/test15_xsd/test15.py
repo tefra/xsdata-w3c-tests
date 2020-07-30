@@ -19,7 +19,7 @@ class XType:
         metadata=dict(
             type="Attribute",
             required=True,
-            max_length=20.0,
+            max_length=20,
             pattern=r"val[1-9][0-9]*"
         )
     )

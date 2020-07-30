@@ -14,8 +14,8 @@ class AttRef:
         default=None,
         metadata=dict(
             type="Attribute",
-            min_length=2.0,
-            max_length=3.0
+            min_length=2,
+            max_length=3
         )
     )
 

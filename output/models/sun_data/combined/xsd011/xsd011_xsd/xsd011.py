@@ -38,7 +38,7 @@ class Nillable2:
         metadata=dict(
             min_occurs=0,
             max_occurs=9223372036854775807,
-            min_length=2.0
+            min_length=2
         )
     )
 

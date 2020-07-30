@@ -17,8 +17,8 @@ class FooType:
             type="Element",
             namespace="",
             required=True,
-            min_length=4.0,
-            max_length=6.0
+            min_length=4,
+            max_length=6
         )
     )
 

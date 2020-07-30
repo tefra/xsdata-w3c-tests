@@ -10,7 +10,7 @@ class Para:
     class Meta:
         name = "para"
 
-    e: int = field(
+    e: str = field(
         default="entity1",
         metadata=dict(
             type="Element",

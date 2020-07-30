@@ -14,6 +14,6 @@ class NewSize:
         default=None,
         metadata=dict(
             required=True,
-            max_inclusive=16.0
+            max_inclusive=16
         )
     )

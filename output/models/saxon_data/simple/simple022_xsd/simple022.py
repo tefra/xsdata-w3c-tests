@@ -1,3 +1,4 @@
+from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from typing import Optional
@@ -23,5 +24,5 @@ class Price:
         :cvar VALUE_9_99:
         :cvar NA_N:
         """
-        VALUE_9_99 = "9.99"
-        NA_N = "NaN"
+        VALUE_9_99 = Decimal('9.99')
+        NA_N = Decimal('NaN')

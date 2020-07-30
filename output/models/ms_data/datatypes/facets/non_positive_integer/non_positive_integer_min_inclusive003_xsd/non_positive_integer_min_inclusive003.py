@@ -16,7 +16,7 @@ class FooType:
             type="Element",
             namespace="",
             required=True,
-            min_inclusive=-7.0
+            min_inclusive=-7
         )
     )
 

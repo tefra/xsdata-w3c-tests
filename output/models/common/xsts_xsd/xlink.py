@@ -88,7 +88,7 @@ class ArcType:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     title_attribute: Optional[str] = field(
@@ -175,7 +175,7 @@ class LocatorType:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     title_attribute: Optional[str] = field(
@@ -231,7 +231,7 @@ class ResourceType:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     title: Optional[str] = field(
@@ -297,7 +297,7 @@ class Simple:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     arcrole: Optional[str] = field(
@@ -305,7 +305,7 @@ class Simple:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     title: Optional[str] = field(
@@ -467,7 +467,7 @@ class Extended:
         metadata=dict(
             type="Attribute",
             namespace="http://www.w3.org/1999/xlink",
-            min_length=1.0
+            min_length=1
         )
     )
     title_attribute: Optional[str] = field(

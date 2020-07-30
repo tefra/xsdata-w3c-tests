@@ -8002,7 +8002,6 @@ def test_targetns00201m_target_ns00201m1_n(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p_469(save_xml):
     """
     Different target namespaces. (valid schema) Define two elements with

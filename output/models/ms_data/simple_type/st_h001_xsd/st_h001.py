@@ -15,8 +15,8 @@ class FooTest:
         default=None,
         metadata=dict(
             required=True,
-            min_inclusive=100.0,
-            max_inclusive=200.0
+            min_inclusive=100,
+            max_inclusive=200
         )
     )
 

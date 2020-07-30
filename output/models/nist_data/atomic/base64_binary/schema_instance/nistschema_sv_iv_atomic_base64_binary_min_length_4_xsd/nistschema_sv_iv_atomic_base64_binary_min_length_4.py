@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicBase64BinaryMinLength4:
         default=None,
         metadata=dict(
             required=True,
-            min_length=11.0
+            min_length=11
         )
     )

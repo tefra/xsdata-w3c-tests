@@ -14,6 +14,6 @@ class Message:
         default=None,
         metadata=dict(
             required=True,
-            max_length=25.0
+            max_length=25
         )
     )

@@ -25,7 +25,7 @@ class Root:
             type="Element",
             namespace="",
             required=True,
-            min_exclusive=100.0,
+            min_exclusive=100,
             total_digits=3
         )
     )

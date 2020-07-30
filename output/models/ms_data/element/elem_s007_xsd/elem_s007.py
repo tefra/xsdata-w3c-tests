@@ -34,8 +34,8 @@ class Cs:
     value: Optional[str] = field(
         default=None,
         metadata=dict(
-            min_length=1.0,
-            max_length=4.0
+            min_length=1,
+            max_length=4
         )
     )
     a: Optional[str] = field(
@@ -59,8 +59,8 @@ class Fe1Valid:
         default=None,
         metadata=dict(
             required=True,
-            min_length=1.0,
-            max_length=4.0
+            min_length=1,
+            max_length=4
         )
     )
 
@@ -78,7 +78,7 @@ class FeValid:
         default=None,
         metadata=dict(
             required=True,
-            max_length=4.0
+            max_length=4
         )
     )
 

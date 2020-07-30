@@ -17,6 +17,6 @@ class Test:
         default=None,
         metadata=dict(
             required=True,
-            max_inclusive=100.0
+            max_inclusive=100
         )
     )

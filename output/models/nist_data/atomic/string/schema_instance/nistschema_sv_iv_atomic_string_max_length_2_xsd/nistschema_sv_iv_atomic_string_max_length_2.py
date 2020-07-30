@@ -17,6 +17,6 @@ class NistschemaSvIvAtomicStringMaxLength2:
         default=None,
         metadata=dict(
             required=True,
-            max_length=969.0
+            max_length=969
         )
     )

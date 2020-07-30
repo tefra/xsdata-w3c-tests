@@ -16,7 +16,7 @@ class FooType:
             type="Element",
             namespace="",
             required=True,
-            max_exclusive=2002.0
+            max_exclusive="2002"
         )
     )
 

@@ -45,7 +45,7 @@ class FooType:
             metadata=dict(
                 name="attrTest",
                 type="Attribute",
-                max_length=4.0
+                max_length=4
             )
         )
 

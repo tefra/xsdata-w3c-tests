@@ -17,6 +17,6 @@ class NistschemaSvIvListNmtokensMaxLength2:
         default=None,
         metadata=dict(
             required=True,
-            max_length=6.0
+            max_length=6
         )
     )

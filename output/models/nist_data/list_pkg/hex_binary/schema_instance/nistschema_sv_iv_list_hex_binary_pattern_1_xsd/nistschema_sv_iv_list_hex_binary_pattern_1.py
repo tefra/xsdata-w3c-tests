@@ -16,8 +16,8 @@ class NistschemaSvIvListHexBinaryPattern1:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"[0-9A-F]{22} [0-9A-F]{70} [0-9A-F]{66} [0-9A-F]{2} [0-9A-F]{30} [0-9A-F]{38}"
+            required=True,
+            pattern=r"[0-9A-F]{22} [0-9A-F]{70} [0-9A-F]{66} [0-9A-F]{2} [0-9A-F]{30} [0-9A-F]{38}",
+            tokens=True
         )
     )

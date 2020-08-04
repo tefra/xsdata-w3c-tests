@@ -16,8 +16,8 @@ class NistschemaSvIvListShortWhiteSpace1:
     value: List[int] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            white_space="collapse"
+            required=True,
+            white_space="collapse",
+            tokens=True
         )
     )

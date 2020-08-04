@@ -16,8 +16,8 @@ class NistschemaSvIvListGMonthPattern5:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"--1\d --0\d --1\d --\d8 --\d8 --\d7 --0\d --\d8"
+            required=True,
+            pattern=r"--1\d --0\d --1\d --\d8 --\d8 --\d7 --0\d --\d8",
+            tokens=True
         )
     )

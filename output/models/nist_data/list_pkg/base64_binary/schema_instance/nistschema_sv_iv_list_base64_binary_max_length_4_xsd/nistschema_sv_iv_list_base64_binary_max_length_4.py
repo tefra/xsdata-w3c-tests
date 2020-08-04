@@ -16,8 +16,8 @@ class NistschemaSvIvListBase64BinaryMaxLength4:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            max_length=8
+            required=True,
+            max_length=8,
+            tokens=True
         )
     )

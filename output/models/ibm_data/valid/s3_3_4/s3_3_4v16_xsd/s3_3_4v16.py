@@ -23,7 +23,6 @@ class Root:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )

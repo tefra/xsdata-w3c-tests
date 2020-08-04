@@ -16,8 +16,8 @@ class NistschemaSvIvListBooleanLength4:
     value: List[bool] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            length=8
+            required=True,
+            length=8,
+            tokens=True
         )
     )

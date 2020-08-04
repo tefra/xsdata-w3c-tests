@@ -673,8 +673,7 @@ class Expected:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(
@@ -1222,8 +1221,7 @@ class InstanceTest:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(
@@ -1374,8 +1372,7 @@ class SchemaTest:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(
@@ -1499,8 +1496,7 @@ class TestSuite:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(
@@ -1651,8 +1647,7 @@ class TestGroup:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(
@@ -1764,8 +1759,7 @@ class TestSet:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     other_attributes: Dict = field(

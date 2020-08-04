@@ -15,8 +15,8 @@ class ComplexfooType:
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
 
@@ -32,8 +32,8 @@ class SimpleTest:
     value: List[float] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
 

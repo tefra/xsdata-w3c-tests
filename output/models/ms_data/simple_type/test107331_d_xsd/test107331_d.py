@@ -46,8 +46,8 @@ class C:
     value: List[Decimal] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
 
@@ -63,8 +63,8 @@ class D:
     value: List[Union[Decimal, int, bool]] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
 

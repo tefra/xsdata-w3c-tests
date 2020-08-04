@@ -41,8 +41,8 @@ class Array:
         metadata=dict(
             name="Dimensions",
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
     lower_bounds: List[int] = field(
@@ -50,7 +50,7 @@ class Array:
         metadata=dict(
             name="LowerBounds",
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )

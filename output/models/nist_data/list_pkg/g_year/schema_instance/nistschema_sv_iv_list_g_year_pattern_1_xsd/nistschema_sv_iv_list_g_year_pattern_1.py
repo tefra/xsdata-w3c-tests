@@ -16,8 +16,8 @@ class NistschemaSvIvListGYearPattern1:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"\d\d81 \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27"
+            required=True,
+            pattern=r"\d\d81 \d\d41 18\d\d \d\d64 19\d\d \d\d72 \d\d38 \d\d27",
+            tokens=True
         )
     )

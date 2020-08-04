@@ -16,8 +16,8 @@ class NistschemaSvIvListBooleanPattern4:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"[1]{1} false [0]{1} true true [0]{1}"
+            required=True,
+            pattern=r"[1]{1} false [0]{1} true true [0]{1}",
+            tokens=True
         )
     )

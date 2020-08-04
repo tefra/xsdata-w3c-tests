@@ -21,12 +21,13 @@ class Node:
             max_occurs=9223372036854775807
         )
     )
-    id: List[str] = field(
+    id: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )
     id_one: List[str] = field(
@@ -34,8 +35,7 @@ class Node:
         metadata=dict(
             name="id-one",
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     any_attributes: Dict = field(

@@ -16,8 +16,8 @@ class NistschemaSvIvListNamePattern2:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"\i\c{33} \i\c{52} \i\c{56} \i\c{6} \i\c{22}"
+            required=True,
+            pattern=r"\i\c{33} \i\c{52} \i\c{56} \i\c{6} \i\c{22}",
+            tokens=True
         )
     )

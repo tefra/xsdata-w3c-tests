@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, Optional
 
 __NAMESPACE__ = "http://foobar"
@@ -18,7 +17,7 @@ class Foo:
     value: Optional[str] = field(
         default=None,
     )
-    target_namespace_w3_org_1999_xhtml_attributes: Dict[QName, str] = field(
+    target_namespace_w3_org_1999_xhtml_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

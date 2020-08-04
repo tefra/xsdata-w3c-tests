@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, Optional
 
 
@@ -29,7 +28,7 @@ class FooType:
             required=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 
@@ -9,14 +8,14 @@ class T:
     :ivar any_attributes:
     :ivar adam_com_eve_com_attributes:
     """
-    any_attributes: Dict[QName, str] = field(
+    any_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
             namespace="##any"
         )
     )
-    adam_com_eve_com_attributes: Dict[QName, str] = field(
+    adam_com_eve_com_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

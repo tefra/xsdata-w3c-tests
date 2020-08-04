@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, Optional
 
 __NAMESPACE__ = "a"
@@ -54,7 +53,7 @@ class T:
         """
         :ivar other_attributes:
         """
-        other_attributes: Dict[QName, str] = field(
+        other_attributes: Dict = field(
             default_factory=dict,
             metadata=dict(
                 type="Attributes",
@@ -67,7 +66,7 @@ class T:
         """
         :ivar target_namespace_attributes:
         """
-        target_namespace_attributes: Dict[QName, str] = field(
+        target_namespace_attributes: Dict = field(
             default_factory=dict,
             metadata=dict(
                 type="Attributes",
@@ -80,7 +79,7 @@ class T:
         """
         :ivar local_attributes:
         """
-        local_attributes: Dict[QName, str] = field(
+        local_attributes: Dict = field(
             default_factory=dict,
             metadata=dict(
                 type="Attributes",
@@ -93,7 +92,7 @@ class T:
         """
         :ivar any_attributes:
         """
-        any_attributes: Dict[QName, str] = field(
+        any_attributes: Dict = field(
             default_factory=dict,
             metadata=dict(
                 type="Attributes",

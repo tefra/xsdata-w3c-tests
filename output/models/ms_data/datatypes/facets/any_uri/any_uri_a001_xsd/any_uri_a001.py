@@ -1,6 +1,5 @@
 from enum import Enum
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, Optional
 
 __NAMESPACE__ = "1"
@@ -15,7 +14,7 @@ class Foo:
         name = "foo"
         namespace = "1"
 
-    value_2_attributes: Dict[QName, str] = field(
+    value_2_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

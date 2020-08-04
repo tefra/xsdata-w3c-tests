@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 
@@ -12,14 +11,14 @@ class ExtendedZing:
     class Meta:
         name = "extendedZing"
 
-    any_attributes: Dict[QName, str] = field(
+    any_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
             namespace="##any"
         )
     )
-    local_attributes: Dict[QName, str] = field(
+    local_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

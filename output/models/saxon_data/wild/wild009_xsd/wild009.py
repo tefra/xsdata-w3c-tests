@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 __NAMESPACE__ = "http://eden.com/"
@@ -14,7 +13,7 @@ class Eden:
         name = "eden"
         namespace = "http://eden.com/"
 
-    any_attributes: Dict[QName, str] = field(
+    any_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

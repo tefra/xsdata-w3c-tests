@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 __NAMESPACE__ = "urn:foo"
@@ -15,14 +14,14 @@ class Emptywc:
         name = "emptywc"
         namespace = "urn:foo"
 
-    a_attributes: Dict[QName, str] = field(
+    a_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
             namespace="urn:a"
         )
     )
-    b_attributes: Dict[QName, str] = field(
+    b_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -41,14 +40,14 @@ class JustA:
         name = "justA"
         namespace = "urn:foo"
 
-    a_attributes: Dict[QName, str] = field(
+    a_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
             namespace="urn:a"
         )
     )
-    a_b_c_attributes: Dict[QName, str] = field(
+    a_b_c_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

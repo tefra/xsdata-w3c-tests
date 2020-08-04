@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, List, Optional
 from output.models.saxon_data.open.open044_xsd.open044x import (
     Alpha,
@@ -15,14 +14,14 @@ class Beta:
     class Meta:
         name = "beta"
 
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
             namespace="##other"
         )
     )
-    w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
+    w3_org_xml_1998_namespace_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -52,7 +51,7 @@ class Doc:
             max_occurs=9223372036854775807
         )
     )
-    w3_org_xml_1998_namespace_attributes: Dict[QName, str] = field(
+    w3_org_xml_1998_namespace_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

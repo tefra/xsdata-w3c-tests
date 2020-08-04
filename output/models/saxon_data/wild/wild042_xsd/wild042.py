@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 
@@ -11,7 +10,7 @@ class Computer:
     class Meta:
         name = "computer"
 
-    w3_org_2001_xmlschema_instance_attributes: Dict[QName, str] = field(
+    w3_org_2001_xmlschema_instance_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

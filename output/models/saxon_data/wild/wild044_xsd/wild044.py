@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict
 
 
@@ -12,7 +11,7 @@ class Computer:
     class Meta:
         name = "computer"
 
-    local_apple_com_attributes: Dict[QName, str] = field(
+    local_apple_com_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -20,7 +19,7 @@ class Computer:
             required=True
         )
     )
-    local_orange_com_attributes: Dict[QName, str] = field(
+    local_orange_com_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

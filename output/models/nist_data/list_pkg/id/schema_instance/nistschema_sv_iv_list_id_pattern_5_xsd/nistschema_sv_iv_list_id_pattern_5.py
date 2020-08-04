@@ -16,9 +16,9 @@ class NistschemaSvIvListIdPattern5:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"[\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{51} [\i-[:]][\c-[:]]{49} [\i-[:]][\c-[:]]{43} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{11} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{15}"
+            required=True,
+            pattern=r"[\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{51} [\i-[:]][\c-[:]]{49} [\i-[:]][\c-[:]]{43} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{11} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{15}",
+            tokens=True
         )
     )
 

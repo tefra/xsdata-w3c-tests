@@ -22,20 +22,22 @@ class Node:
             max_occurs=9223372036854775807
         )
     )
-    id: List[str] = field(
+    id: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )
-    idrefs: List[str] = field(
+    idrefs: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )
     id_attribute: List[str] = field(
@@ -43,8 +45,7 @@ class Node:
         metadata=dict(
             name="id",
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
     idrefs_attribute: List[str] = field(
@@ -52,8 +53,7 @@ class Node:
         metadata=dict(
             name="idrefs",
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
 

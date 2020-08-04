@@ -16,8 +16,8 @@ class NistschemaSvIvListBase64BinaryPattern5:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"[a-zA-Z0-9+/]{36} [a-zA-Z0-9+/]{52} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56}"
+            required=True,
+            pattern=r"[a-zA-Z0-9+/]{36} [a-zA-Z0-9+/]{52} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56}",
+            tokens=True
         )
     )

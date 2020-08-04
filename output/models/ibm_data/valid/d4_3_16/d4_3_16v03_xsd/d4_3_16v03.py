@@ -16,9 +16,8 @@ class ElDtimeListOptional:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="optional"
+            explicit_timezone="optional",
+            tokens=True
         )
     )
 
@@ -35,9 +34,8 @@ class ElDtimeListProhibited:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="prohibited"
+            explicit_timezone="prohibited",
+            tokens=True
         )
     )
 
@@ -54,9 +52,8 @@ class ElDtimeListRequired:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="required"
+            explicit_timezone="required",
+            tokens=True
         )
     )
 

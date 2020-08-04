@@ -16,9 +16,8 @@ class EldTimeStampListC:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*"
+            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+            tokens=True
         )
     )
 
@@ -44,14 +43,15 @@ class DTimeStampRoot:
             pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*"
         )
     )
-    eld_time_stamp_list_a: List[str] = field(
+    eld_time_stamp_list_a: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             name="eldTimeStampListA",
             type="Element",
             namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )
     eld_time_stamp_list_b: List[str] = field(
@@ -60,8 +60,8 @@ class DTimeStampRoot:
             name="eldTimeStampListB",
             type="Element",
             namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            required=True,
+            tokens=True
         )
     )
     eld_time_stamp_list_c: Optional[EldTimeStampListC] = field(

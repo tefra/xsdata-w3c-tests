@@ -1,8 +1,6 @@
 <!-- xsdata instance -->
 <root xmlns="http://foo.com">
-  <child1>
-		123456 abcdef xxxxxxxx
-	</child1>
+  <child1>123456 abcdef xxxxxxxx</child1>
   <child2>true</child2>
   <child2>false</child2>
   <child2>false</child2>

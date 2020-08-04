@@ -16,8 +16,8 @@ class NistschemaSvIvListDatePattern3:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"\d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d \d\d70-\d0-0\d 18\d\d-\d6-0\d \d\d22-0\d-\d1"
+            required=True,
+            pattern=r"\d\d47-0\d-\d2 18\d\d-0\d-\d5 20\d\d-1\d-2\d \d\d79-0\d-1\d \d\d70-\d0-0\d 18\d\d-\d6-0\d \d\d22-0\d-\d1",
+            tokens=True
         )
     )

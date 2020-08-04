@@ -48,8 +48,7 @@ class AttRef:
         metadata=dict(
             type="Attribute",
             namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
 

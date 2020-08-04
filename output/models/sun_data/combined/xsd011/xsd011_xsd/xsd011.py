@@ -36,9 +36,8 @@ class Nillable2:
     value: List[int] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_length=2
+            min_length=2,
+            tokens=True
         )
     )
 

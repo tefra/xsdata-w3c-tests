@@ -16,8 +16,8 @@ class NistschemaSvIvListUnsignedBytePattern4:
     value: List[str] = field(
         default_factory=list,
         metadata=dict(
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            pattern=r"\d{1} \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2} \d{3}"
+            required=True,
+            pattern=r"\d{1} \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2} \d{3}",
+            tokens=True
         )
     )

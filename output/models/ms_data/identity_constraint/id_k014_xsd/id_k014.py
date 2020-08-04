@@ -12,13 +12,14 @@ class Uid:
     class Meta:
         name = "uid"
 
-    pid: List[str] = field(
+    pid: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )
     val: Optional[str] = field(

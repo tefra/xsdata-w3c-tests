@@ -40,9 +40,10 @@ class Root:
                 required=True
             )
         )
-        parents: Optional[str] = field(
-            default=None,
+        parents: List[str] = field(
+            default_factory=list,
             metadata=dict(
-                type="Attribute"
+                type="Attribute",
+                tokens=True
             )
         )

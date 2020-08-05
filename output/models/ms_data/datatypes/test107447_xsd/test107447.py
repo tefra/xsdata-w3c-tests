@@ -60,11 +60,12 @@ class Root:
             required=True
         )
     )
-    idrefs: Optional[str] = field(
-        default=None,
+    idrefs: List[str] = field(
+        default_factory=list,
         metadata=dict(
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )
     nmtoken: Optional[str] = field(

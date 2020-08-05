@@ -45,10 +45,11 @@ class Root:
                 type="Attribute"
             )
         )
-        idrefs: Optional[str] = field(
-            default=None,
+        idrefs: List[str] = field(
+            default_factory=list,
             metadata=dict(
                 name="IDREFS",
-                type="Attribute"
+                type="Attribute",
+                tokens=True
             )
         )

@@ -1,6 +1,6 @@
 from enum import Enum
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -12,10 +12,11 @@ class Foo:
     class Meta:
         name = "foo"
 
-    idrefs_attr: Optional["Foo.IdrefsAttr"] = field(
-        default=None,
+    idrefs_attr: List["Foo.IdrefsAttr"] = field(
+        default_factory=list,
         metadata=dict(
-            type="Attribute"
+            type="Attribute",
+            tokens=True
         )
     )
     id_attr: Optional[str] = field(

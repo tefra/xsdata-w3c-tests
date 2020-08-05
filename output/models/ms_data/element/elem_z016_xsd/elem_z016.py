@@ -42,10 +42,11 @@ class Idrefs:
     class Meta:
         name = "IDREFS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: List[str] = field(
+        default_factory=list,
         metadata=dict(
-            required=True
+            required=True,
+            tokens=True
         )
     )
 

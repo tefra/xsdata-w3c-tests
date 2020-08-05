@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -11,12 +11,13 @@ class Foo:
     class Meta:
         name = "foo"
 
-    idrefs_attr: Optional[str] = field(
-        default=None,
+    idrefs_attr: List[str] = field(
+        default_factory=list,
         metadata=dict(
             type="Attribute",
             min_length=2,
-            max_length=3
+            max_length=3,
+            tokens=True
         )
     )
     id1_attr: Optional[str] = field(

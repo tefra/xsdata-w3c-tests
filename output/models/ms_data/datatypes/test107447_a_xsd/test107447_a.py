@@ -66,12 +66,13 @@ class Root:
             required=True
         )
     )
-    idrefs: str = field(
+    idrefs: List[str] = field(
         init=False,
-        default=" John    ",
+        default_factory=lambda: ["John"],
         metadata=dict(
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )
     nmtoken: str = field(

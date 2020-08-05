@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List
 
 
 @dataclass
@@ -10,10 +10,11 @@ class Foo:
     class Meta:
         name = "foo"
 
-    value: Optional[str] = field(
-        default=None,
+    value: List[str] = field(
+        default_factory=list,
         metadata=dict(
             required=True,
-            pattern=r"[A-C]{0,2}"
+            pattern=r"[A-C]{0,2}",
+            tokens=True
         )
     )

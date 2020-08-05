@@ -1,7 +1,6 @@
 from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Dict, List, Optional, Union
 from models.xlink import (
     TypeType,
@@ -69,7 +68,7 @@ class Appinfo:
             type="Attribute"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -113,7 +112,7 @@ class Documentation:
             namespace="http://www.w3.org/XML/1998/namespace"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -588,7 +587,7 @@ class Annotation:
             max_occurs=9223372036854775807
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -674,11 +673,10 @@ class Expected:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -721,7 +719,7 @@ class Ref:
             namespace="http://www.w3.org/1999/xlink"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -772,7 +770,7 @@ class StatusEntry:
             pattern=r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -878,7 +876,7 @@ class TestResult:
             type="Attribute"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1067,7 +1065,7 @@ class TestSuiteResults:
             type="Attribute"
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1223,11 +1221,10 @@ class InstanceTest:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1375,11 +1372,10 @@ class SchemaTest:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1500,11 +1496,10 @@ class TestSuite:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1652,11 +1647,10 @@ class TestGroup:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",
@@ -1765,11 +1759,10 @@ class TestSet:
         default_factory=list,
         metadata=dict(
             type="Attribute",
-            min_occurs=0,
-            max_occurs=9223372036854775807
+            tokens=True
         )
     )
-    other_attributes: Dict[QName, str] = field(
+    other_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
             type="Attributes",

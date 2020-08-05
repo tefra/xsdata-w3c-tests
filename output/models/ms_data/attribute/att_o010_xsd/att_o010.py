@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -25,11 +25,12 @@ class Doc:
         """
         :ivar att:
         """
-        att: str = field(
+        att: List[str] = field(
             init=False,
-            default="A B",
+            default_factory=lambda: ["A", "B"],
             metadata=dict(
                 type="Attribute",
-                namespace="http://xsdtesting"
+                namespace="http://xsdtesting",
+                tokens=True
             )
         )

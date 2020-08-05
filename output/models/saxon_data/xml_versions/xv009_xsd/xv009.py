@@ -10,11 +10,12 @@ class Doc:
     class Meta:
         name = "doc"
 
-    item: List[str] = field(
+    item: List[List[str]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=1,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            tokens=True
         )
     )

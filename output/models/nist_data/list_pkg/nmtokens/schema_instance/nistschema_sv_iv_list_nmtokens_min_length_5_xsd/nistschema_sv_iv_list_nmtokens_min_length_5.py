@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-NMTOKENS-minLength-5-NS"
 
@@ -13,10 +13,11 @@ class NistschemaSvIvListNmtokensMinLength5:
         name = "NISTSchema-SV-IV-list-NMTOKENS-minLength-5"
         namespace = "NISTSchema-SV-IV-list-NMTOKENS-minLength-5-NS"
 
-    value: Optional[str] = field(
-        default=None,
+    value: List[str] = field(
+        default_factory=list,
         metadata=dict(
             required=True,
-            min_length=10
+            min_length=10,
+            tokens=True
         )
     )

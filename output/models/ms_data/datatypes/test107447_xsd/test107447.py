@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -74,10 +74,11 @@ class Root:
             required=True
         )
     )
-    nmtokens: Optional[str] = field(
-        default=None,
+    nmtokens: List[str] = field(
+        default_factory=list,
         metadata=dict(
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )

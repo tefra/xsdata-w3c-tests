@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from typing import List
 
 
 @dataclass
@@ -81,11 +82,12 @@ class Root:
             required=True
         )
     )
-    nmtokens: str = field(
+    nmtokens: List[str] = field(
         init=False,
-        default="John",
+        default_factory=lambda: ["John"],
         metadata=dict(
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )

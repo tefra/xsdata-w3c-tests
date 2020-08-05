@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -28,12 +28,13 @@ class FooType:
         value: Optional[str] = field(
             default=None,
         )
-        attr_test: Optional[str] = field(
-            default=None,
+        attr_test: List[str] = field(
+            default_factory=list,
             metadata=dict(
                 name="attrTest",
                 type="Attribute",
-                min_length=2
+                min_length=2,
+                tokens=True
             )
         )
 

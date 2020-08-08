@@ -1,4 +1,6 @@
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00201m.subst_grp_affil00201m_xsd.subst_grp_affil00201m import Element
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00201m.subst_grp_affil00201m_xsd.subst_grp_affil00201m import SuperElement
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00201m.subst_grp_affil00201m_xsd.subst_grp_affil00201m import SuperSuperElement
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00201m.subst_grp_affil00201m_xsd.subst_grp_affil00201m import Root
+from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00201m.subst_grp_affil00201m_xsd.subst_grp_affil00201m import (
+    Element,
+    SuperElement,
+    SuperSuperElement,
+    Root,
+)

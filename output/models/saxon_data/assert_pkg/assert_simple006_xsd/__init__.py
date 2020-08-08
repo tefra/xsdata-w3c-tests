@@ -1,2 +1,4 @@
-from output.models.saxon_data.assert_pkg.assert_simple006_xsd.assert_simple006 import Outer
-from output.models.saxon_data.assert_pkg.assert_simple006_xsd.assert_simple006 import Value
+from output.models.saxon_data.assert_pkg.assert_simple006_xsd.assert_simple006 import (
+    Outer,
+    Value,
+)

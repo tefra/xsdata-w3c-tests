@@ -1,19 +1,21 @@
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Anyuri
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import BoolType
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Date
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Datetime
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Day
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Decimal
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Double
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Duration
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Entity
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import FloatType
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Hexbinary
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import IntType
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Item
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Month
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Monthday
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Root
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import String
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Time
-from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import Year
+from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import (
+    Anyuri,
+    BoolType,
+    Date,
+    Datetime,
+    Day,
+    Decimal,
+    Double,
+    Duration,
+    Entity,
+    FloatType,
+    Hexbinary,
+    IntType,
+    Item,
+    Month,
+    Monthday,
+    Root,
+    String,
+    Time,
+    Year,
+)

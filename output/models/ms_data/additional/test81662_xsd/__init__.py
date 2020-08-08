@@ -1,10 +1,12 @@
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct1
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct2
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct3
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct4
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct5
-from output.models.ms_data.additional.test81662_xsd.test81662 import Ct6
-from output.models.ms_data.additional.test81662_xsd.test81662 import Element1
-from output.models.ms_data.additional.test81662_xsd.test81662 import Element2
-from output.models.ms_data.additional.test81662_xsd.test81662 import Element3
-from output.models.ms_data.additional.test81662_xsd.test81662 import Test
+from output.models.ms_data.additional.test81662_xsd.test81662 import (
+    Ct1,
+    Ct2,
+    Ct3,
+    Ct4,
+    Ct5,
+    Ct6,
+    Element1,
+    Element2,
+    Element3,
+    Test,
+)

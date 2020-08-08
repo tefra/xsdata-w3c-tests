@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.g_day.g_day_min_exclusive003_xsd.g_day_min_exclusive003 import FooType
-from output.models.ms_data.datatypes.facets.g_day.g_day_min_exclusive003_xsd.g_day_min_exclusive003 import Test
+from output.models.ms_data.datatypes.facets.g_day.g_day_min_exclusive003_xsd.g_day_min_exclusive003 import (
+    FooType,
+    Test,
+)

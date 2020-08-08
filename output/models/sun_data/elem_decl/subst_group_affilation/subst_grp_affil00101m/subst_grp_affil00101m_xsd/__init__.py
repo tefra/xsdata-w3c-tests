@@ -1,8 +1,10 @@
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import Article
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import Book
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import BookStore
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import BookType
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import Magazine
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import MagazineType
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import Publication
-from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import PublicationType
+from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil00101m.subst_grp_affil00101m_xsd.subst_grp_affil00101m import (
+    Article,
+    Book,
+    BookStore,
+    BookType,
+    Magazine,
+    MagazineType,
+    Publication,
+    PublicationType,
+)

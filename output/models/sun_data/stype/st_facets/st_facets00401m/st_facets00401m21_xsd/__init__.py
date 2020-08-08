@@ -1,2 +1,4 @@
-from output.models.sun_data.stype.st_facets.st_facets00401m.st_facets00401m21_xsd.st_facets00401m21 import S
-from output.models.sun_data.stype.st_facets.st_facets00401m.st_facets00401m21_xsd.st_facets00401m21 import Root
+from output.models.sun_data.stype.st_facets.st_facets00401m.st_facets00401m21_xsd.st_facets00401m21 import (
+    S,
+    Root,
+)

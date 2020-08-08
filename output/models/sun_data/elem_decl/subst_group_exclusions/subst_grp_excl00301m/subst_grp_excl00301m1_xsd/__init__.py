@@ -1,4 +1,6 @@
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00301m.subst_grp_excl00301m1_xsd.subst_grp_excl00301m1 import Head
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00301m.subst_grp_excl00301m1_xsd.subst_grp_excl00301m1 import HeadType
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00301m.subst_grp_excl00301m1_xsd.subst_grp_excl00301m1 import Member1
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00301m.subst_grp_excl00301m1_xsd.subst_grp_excl00301m1 import Root
+from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00301m.subst_grp_excl00301m1_xsd.subst_grp_excl00301m1 import (
+    Head,
+    HeadType,
+    Member1,
+    Root,
+)

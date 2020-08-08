@@ -1,5 +1,7 @@
 from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.st_target_ns00201m import Test
-from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.xsi import Nil
-from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.xsi import NoNamespaceSchemaLocation
-from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.xsi import SchemaLocation
-from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.xsi import Type
+from output.models.sun_data.stype.st_target_ns.st_target_ns00201m.st_target_ns00201m_xsd.xsi import (
+    Nil,
+    NoNamespaceSchemaLocation,
+    SchemaLocation,
+    Type,
+)

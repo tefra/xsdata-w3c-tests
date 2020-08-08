@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q022_xsd.particles_q022_imp import (
-    Foo,
-)
+from output.models.ms_data.particles.particles_q022_xsd.particles_q022_imp import Foo
 
 __NAMESPACE__ = "http://xsdtesting"
 

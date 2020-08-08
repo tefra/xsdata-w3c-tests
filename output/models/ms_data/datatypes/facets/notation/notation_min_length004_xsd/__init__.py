@@ -1,3 +1,5 @@
-from output.models.ms_data.datatypes.facets.notation.notation_min_length004_xsd.notation_min_length004 import BuildNotation
-from output.models.ms_data.datatypes.facets.notation.notation_min_length004_xsd.notation_min_length004 import FooType
-from output.models.ms_data.datatypes.facets.notation.notation_min_length004_xsd.notation_min_length004 import Test
+from output.models.ms_data.datatypes.facets.notation.notation_min_length004_xsd.notation_min_length004 import (
+    BuildNotation,
+    FooType,
+    Test,
+)

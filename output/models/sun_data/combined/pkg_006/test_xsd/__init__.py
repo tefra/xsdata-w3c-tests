@@ -1,16 +1,18 @@
-from output.models.sun_data.combined.pkg_006.test_xsd.test import B
-from output.models.sun_data.combined.pkg_006.test_xsd.test import De
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Dee
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Der
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Dr
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Dre
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Drr
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EB
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDe
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDee
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDer
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDr
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDre
-from output.models.sun_data.combined.pkg_006.test_xsd.test import EDrr
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Empty
-from output.models.sun_data.combined.pkg_006.test_xsd.test import Root
+from output.models.sun_data.combined.pkg_006.test_xsd.test import (
+    B,
+    De,
+    Dee,
+    Der,
+    Dr,
+    Dre,
+    Drr,
+    EB,
+    EDe,
+    EDee,
+    EDer,
+    EDr,
+    EDre,
+    EDrr,
+    Empty,
+    Root,
+)

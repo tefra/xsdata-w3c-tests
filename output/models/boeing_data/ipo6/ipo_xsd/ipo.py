@@ -2,12 +2,8 @@ from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.boeing_data.ipo6.ipo_xsd.extend import (
-    ExternFirstElement,
-)
-from output.models.boeing_data.ipo6.ipo_xsd.address import (
-    Salutation,
-)
+from output.models.boeing_data.ipo6.ipo_xsd.address import Salutation
+from output.models.boeing_data.ipo6.ipo_xsd.extend import ExternFirstElement
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 

@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.nmtokens.nmtokens_enumeration002_xsd.nmtokens_enumeration002 import FooType
-from output.models.ms_data.datatypes.facets.nmtokens.nmtokens_enumeration002_xsd.nmtokens_enumeration002 import Test
+from output.models.ms_data.datatypes.facets.nmtokens.nmtokens_enumeration002_xsd.nmtokens_enumeration002 import (
+    FooType,
+    Test,
+)

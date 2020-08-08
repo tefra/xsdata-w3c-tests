@@ -1,4 +1,6 @@
-from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd.abstract00101m import Head
-from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd.abstract00101m import HeadType
-from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd.abstract00101m import Member1
-from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd.abstract00101m import Root
+from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd.abstract00101m import (
+    Head,
+    HeadType,
+    Member1,
+    Root,
+)

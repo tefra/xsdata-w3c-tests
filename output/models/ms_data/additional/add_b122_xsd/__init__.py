@@ -1,16 +1,18 @@
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import Att1
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import Att2
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import Ct1
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E1
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E2
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E3
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E4
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E5
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E6
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E7
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import E8
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import M3
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import M4
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import M5
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import M6
-from output.models.ms_data.additional.add_b122_xsd.add_b122 import Root
+from output.models.ms_data.additional.add_b122_xsd.add_b122 import (
+    Att1,
+    Att2,
+    Ct1,
+    E1,
+    E2,
+    E3,
+    E4,
+    E5,
+    E6,
+    E7,
+    E8,
+    M3,
+    M4,
+    M5,
+    M6,
+    Root,
+)

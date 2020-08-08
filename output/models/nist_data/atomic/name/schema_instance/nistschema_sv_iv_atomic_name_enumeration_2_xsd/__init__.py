@@ -1,2 +1,4 @@
-from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_2_xsd.nistschema_sv_iv_atomic_name_enumeration_2 import NistschemaSvIvAtomicNameEnumeration2
-from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_2_xsd.nistschema_sv_iv_atomic_name_enumeration_2 import NistschemaSvIvAtomicNameEnumeration2Type
+from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic_name_enumeration_2_xsd.nistschema_sv_iv_atomic_name_enumeration_2 import (
+    NistschemaSvIvAtomicNameEnumeration2,
+    NistschemaSvIvAtomicNameEnumeration2Type,
+)

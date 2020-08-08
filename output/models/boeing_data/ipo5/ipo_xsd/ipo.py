@@ -2,9 +2,7 @@ from decimal import Decimal
 from enum import Enum
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.boeing_data.ipo5.ipo_xsd.address import (
-    AddressType,
-)
+from output.models.boeing_data.ipo5.ipo_xsd.address import AddressType
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 

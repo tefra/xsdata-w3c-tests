@@ -1,2 +1,4 @@
-from output.models.ms_data.additional.isdefault079_xsd.isdefault079 import RegistryValueModOpSetType
-from output.models.ms_data.additional.isdefault079_xsd.isdefault079 import Regvaluemodopset
+from output.models.ms_data.additional.isdefault079_xsd.isdefault079 import (
+    RegistryValueModOpSetType,
+    Regvaluemodopset,
+)

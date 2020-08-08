@@ -1,3 +1,5 @@
-from output.models.sun_data.elem_decl.type_def.type_def00402m.type_def00402m_xsd.type_def00402m import ComplexType
-from output.models.sun_data.elem_decl.type_def.type_def00402m.type_def00402m_xsd.type_def00402m import GlobalType
-from output.models.sun_data.elem_decl.type_def.type_def00402m.type_def00402m_xsd.type_def00402m import Root
+from output.models.sun_data.elem_decl.type_def.type_def00402m.type_def00402m_xsd.type_def00402m import (
+    ComplexType,
+    GlobalType,
+    Root,
+)

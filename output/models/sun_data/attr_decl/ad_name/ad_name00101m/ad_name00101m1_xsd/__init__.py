@@ -1,2 +1,4 @@
-from output.models.sun_data.attr_decl.ad_name.ad_name00101m.ad_name00101m1_xsd.ad_name00101m1 import ElementWithAttr
-from output.models.sun_data.attr_decl.ad_name.ad_name00101m.ad_name00101m1_xsd.ad_name00101m1 import Root
+from output.models.sun_data.attr_decl.ad_name.ad_name00101m.ad_name00101m1_xsd.ad_name00101m1 import (
+    ElementWithAttr,
+    Root,
+)

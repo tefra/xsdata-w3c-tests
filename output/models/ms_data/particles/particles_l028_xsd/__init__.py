@@ -1,3 +1,5 @@
-from output.models.ms_data.particles.particles_l028_xsd.particles_l028 import B
-from output.models.ms_data.particles.particles_l028_xsd.particles_l028 import R
-from output.models.ms_data.particles.particles_l028_xsd.particles_l028 import Doc
+from output.models.ms_data.particles.particles_l028_xsd.particles_l028 import (
+    B,
+    R,
+    Doc,
+)

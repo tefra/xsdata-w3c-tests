@@ -1,2 +1,4 @@
-from output.models.ms_data.model_groups.mg_b006_xsd.mg_b006 import Bar
-from output.models.ms_data.model_groups.mg_b006_xsd.mg_b006 import Root
+from output.models.ms_data.model_groups.mg_b006_xsd.mg_b006 import (
+    Bar,
+    Root,
+)

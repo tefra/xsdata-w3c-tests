@@ -1,4 +1,6 @@
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00101m.disallowed_subst00101m_xsd.disallowed_subst00101m import Head
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00101m.disallowed_subst00101m_xsd.disallowed_subst00101m import HeadType
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00101m.disallowed_subst00101m_xsd.disallowed_subst00101m import Member1
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00101m.disallowed_subst00101m_xsd.disallowed_subst00101m import Root
+from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00101m.disallowed_subst00101m_xsd.disallowed_subst00101m import (
+    Head,
+    HeadType,
+    Member1,
+    Root,
+)

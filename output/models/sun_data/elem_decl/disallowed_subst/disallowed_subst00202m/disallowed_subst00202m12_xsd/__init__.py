@@ -1,14 +1,16 @@
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element0
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element1
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element10
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element2
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element3
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element4
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element5
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element6
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element7
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element8
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Element9
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Head
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import HeadType
-from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import Root
+from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.disallowed_subst00202m12_xsd.disallowed_subst00202m12 import (
+    Element0,
+    Element1,
+    Element10,
+    Element2,
+    Element3,
+    Element4,
+    Element5,
+    Element6,
+    Element7,
+    Element8,
+    Element9,
+    Head,
+    HeadType,
+    Root,
+)

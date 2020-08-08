@@ -1,4 +1,6 @@
-from output.models.sun_data.ctype.p_substitutions.p_substitutions00103m.p_substitutions00103m_xsd.p_substitutions00103m import A
-from output.models.sun_data.ctype.p_substitutions.p_substitutions00103m.p_substitutions00103m_xsd.p_substitutions00103m import B
-from output.models.sun_data.ctype.p_substitutions.p_substitutions00103m.p_substitutions00103m_xsd.p_substitutions00103m import C
-from output.models.sun_data.ctype.p_substitutions.p_substitutions00103m.p_substitutions00103m_xsd.p_substitutions00103m import E
+from output.models.sun_data.ctype.p_substitutions.p_substitutions00103m.p_substitutions00103m_xsd.p_substitutions00103m import (
+    A,
+    B,
+    C,
+    E,
+)

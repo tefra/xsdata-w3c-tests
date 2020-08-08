@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.integer.integer_total_digits003_xsd.integer_total_digits003 import FooType
-from output.models.ms_data.datatypes.facets.integer.integer_total_digits003_xsd.integer_total_digits003 import Test
+from output.models.ms_data.datatypes.facets.integer.integer_total_digits003_xsd.integer_total_digits003 import (
+    FooType,
+    Test,
+)

@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
-from output.models.saxon_data.override.over002_xsd.over002 import (
-    Para,
-)
+from output.models.saxon_data.override.over002_xsd.over002 import Para
 
 
 @dataclass

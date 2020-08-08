@@ -1,2 +1,4 @@
-from output.models.ms_data.particles.particles_a010_xsd.particles_a010 import Doc
-from output.models.ms_data.particles.particles_a010_xsd.particles_a010 import Elem
+from output.models.ms_data.particles.particles_a010_xsd.particles_a010 import (
+    Doc,
+    Elem,
+)

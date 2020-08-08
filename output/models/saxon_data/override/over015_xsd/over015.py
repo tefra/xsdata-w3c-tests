@@ -1,9 +1,7 @@
 from enum import Enum
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.saxon_data.override.over015_xsd.over015a import (
-    StructuredDate,
-)
+from output.models.saxon_data.override.over015_xsd.over015a import StructuredDate
 
 
 class NotaFooBar(Enum):

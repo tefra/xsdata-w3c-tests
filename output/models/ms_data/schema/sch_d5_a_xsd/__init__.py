@@ -1,13 +1,15 @@
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import AE2
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import AE3
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import BE1
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import BE3
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CE1
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CE2
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CtA
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CtB
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CtC
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E1
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E2
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E3
-from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import Root
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import (
+    AE2,
+    AE3,
+    BE1,
+    BE3,
+    CE1,
+    CE2,
+    CtA,
+    CtB,
+    CtC,
+    E1,
+    E2,
+    E3,
+    Root,
+)

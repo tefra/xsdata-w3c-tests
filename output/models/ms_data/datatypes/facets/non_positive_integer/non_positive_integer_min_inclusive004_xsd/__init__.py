@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.non_positive_integer.non_positive_integer_min_inclusive004_xsd.non_positive_integer_min_inclusive004 import FooType
-from output.models.ms_data.datatypes.facets.non_positive_integer.non_positive_integer_min_inclusive004_xsd.non_positive_integer_min_inclusive004 import Test
+from output.models.ms_data.datatypes.facets.non_positive_integer.non_positive_integer_min_inclusive004_xsd.non_positive_integer_min_inclusive004 import (
+    FooType,
+    Test,
+)

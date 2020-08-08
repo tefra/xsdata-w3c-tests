@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.date.date_max_inclusive003_xsd.date_max_inclusive003 import FooType
-from output.models.ms_data.datatypes.facets.date.date_max_inclusive003_xsd.date_max_inclusive003 import Test
+from output.models.ms_data.datatypes.facets.date.date_max_inclusive003_xsd.date_max_inclusive003 import (
+    FooType,
+    Test,
+)

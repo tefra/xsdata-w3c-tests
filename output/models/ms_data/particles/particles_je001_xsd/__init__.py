@@ -1,7 +1,11 @@
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001 import B
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001 import R
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001 import Doc
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001_imp import ExtRefType
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001_imp import ImpBase
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001_imp import ImpElem1
-from output.models.ms_data.particles.particles_je001_xsd.particles_je001_imp import ImpElem2
+from output.models.ms_data.particles.particles_je001_xsd.particles_je001 import (
+    B,
+    R,
+    Doc,
+)
+from output.models.ms_data.particles.particles_je001_xsd.particles_je001_imp import (
+    ExtRefType,
+    ImpBase,
+    ImpElem1,
+    ImpElem2,
+)

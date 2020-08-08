@@ -1,10 +1,12 @@
-from output.models.wg_data.sg.snbranch_xsd.snbranch import T
-from output.models.wg_data.sg.snbranch_xsd.snbranch import A
-from output.models.wg_data.sg.snbranch_xsd.snbranch import B
-from output.models.wg_data.sg.snbranch_xsd.snbranch import C
-from output.models.wg_data.sg.snbranch_xsd.snbranch import E
-from output.models.wg_data.sg.snbranch_xsd.snbranch import N
-from output.models.wg_data.sg.snbranch_xsd.snbranch import N1
-from output.models.wg_data.sg.snbranch_xsd.snbranch import S
-from output.models.wg_data.sg.snbranch_xsd.snbranch import S1
-from output.models.wg_data.sg.snbranch_xsd.snbranch import Test
+from output.models.wg_data.sg.snbranch_xsd.snbranch import (
+    T,
+    A,
+    B,
+    C,
+    E,
+    N,
+    N1,
+    S,
+    S1,
+    Test,
+)

@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.ms_data.element.elem_z009_xsd.elem_z009_a import (
-    A,
-)
+from output.models.ms_data.element.elem_z009_xsd.elem_z009_a import A
 
 __NAMESPACE__ = "main"
 

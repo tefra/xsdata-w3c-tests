@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
-from output.models.ms_data.simple_type.test298668_a_xsd.test298668_b import (
-    TPredefinedLnclassEnum,
-)
+from output.models.ms_data.simple_type.test298668_a_xsd.test298668_b import TPredefinedLnclassEnum
 
 __NAMESPACE__ = "a"
 

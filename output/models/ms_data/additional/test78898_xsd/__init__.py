@@ -1,16 +1,18 @@
-from output.models.ms_data.additional.test78898_xsd.test78898 import Att1
-from output.models.ms_data.additional.test78898_xsd.test78898 import Att2
-from output.models.ms_data.additional.test78898_xsd.test78898 import Ct1
-from output.models.ms_data.additional.test78898_xsd.test78898 import E1
-from output.models.ms_data.additional.test78898_xsd.test78898 import E2
-from output.models.ms_data.additional.test78898_xsd.test78898 import E3
-from output.models.ms_data.additional.test78898_xsd.test78898 import E4
-from output.models.ms_data.additional.test78898_xsd.test78898 import E5
-from output.models.ms_data.additional.test78898_xsd.test78898 import E6
-from output.models.ms_data.additional.test78898_xsd.test78898 import E7
-from output.models.ms_data.additional.test78898_xsd.test78898 import E8
-from output.models.ms_data.additional.test78898_xsd.test78898 import M3
-from output.models.ms_data.additional.test78898_xsd.test78898 import M4
-from output.models.ms_data.additional.test78898_xsd.test78898 import M5
-from output.models.ms_data.additional.test78898_xsd.test78898 import M6
-from output.models.ms_data.additional.test78898_xsd.test78898 import Root
+from output.models.ms_data.additional.test78898_xsd.test78898 import (
+    Att1,
+    Att2,
+    Ct1,
+    E1,
+    E2,
+    E3,
+    E4,
+    E5,
+    E6,
+    E7,
+    E8,
+    M3,
+    M4,
+    M5,
+    M6,
+    Root,
+)

@@ -1,3 +1,5 @@
-from output.models.saxon_data.subsgroup.subsgroup003a_xsd.subsgroup003a import Action
-from output.models.saxon_data.subsgroup.subsgroup003a_xsd.subsgroup003a import ActionType
-from output.models.saxon_data.subsgroup.subsgroup003a_xsd.subsgroup003a import Command
+from output.models.saxon_data.subsgroup.subsgroup003a_xsd.subsgroup003a import (
+    Action,
+    ActionType,
+    Command,
+)

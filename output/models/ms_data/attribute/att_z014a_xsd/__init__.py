@@ -1,2 +1,4 @@
-from output.models.ms_data.attribute.att_z014a_xsd.att_z014a import Base
-from output.models.ms_data.attribute.att_z014a_xsd.att_z014a import Doc
+from output.models.ms_data.attribute.att_z014a_xsd.att_z014a import (
+    Base,
+    Doc,
+)

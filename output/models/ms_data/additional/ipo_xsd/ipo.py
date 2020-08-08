@@ -1,9 +1,7 @@
 from decimal import Decimal
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.additional.ipo_xsd.ipo_address import (
-    Address,
-)
+from output.models.ms_data.additional.ipo_xsd.ipo_address import Address
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 

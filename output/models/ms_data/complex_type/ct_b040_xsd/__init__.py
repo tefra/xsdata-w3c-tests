@@ -1,2 +1,4 @@
-from output.models.ms_data.complex_type.ct_b040_xsd.ct_b040 import FooType
-from output.models.ms_data.complex_type.ct_b040_xsd.ct_b040 import Root
+from output.models.ms_data.complex_type.ct_b040_xsd.ct_b040 import (
+    FooType,
+    Root,
+)

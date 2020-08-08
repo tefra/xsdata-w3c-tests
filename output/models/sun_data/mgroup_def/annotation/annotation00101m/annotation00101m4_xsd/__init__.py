@@ -1,2 +1,4 @@
-from output.models.sun_data.mgroup_def.annotation.annotation00101m.annotation00101m4_xsd.annotation00101m4 import A
-from output.models.sun_data.mgroup_def.annotation.annotation00101m.annotation00101m4_xsd.annotation00101m4 import Root
+from output.models.sun_data.mgroup_def.annotation.annotation00101m.annotation00101m4_xsd.annotation00101m4 import (
+    A,
+    Root,
+)

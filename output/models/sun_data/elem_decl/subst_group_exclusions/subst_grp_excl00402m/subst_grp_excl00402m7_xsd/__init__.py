@@ -1,9 +1,11 @@
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element0
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element1
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element2
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element3
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element4
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Element5
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Head
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import HeadType
-from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import Root
+from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00402m.subst_grp_excl00402m7_xsd.subst_grp_excl00402m7 import (
+    Element0,
+    Element1,
+    Element2,
+    Element3,
+    Element4,
+    Element5,
+    Head,
+    HeadType,
+    Root,
+)

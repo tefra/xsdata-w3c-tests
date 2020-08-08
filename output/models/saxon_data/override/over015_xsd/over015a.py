@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.saxon_data.override.over015_xsd.over015 import (
-    NotaFooBar,
-)
+from output.models.saxon_data.override.over015_xsd.over015 import NotaFooBar
 
 
 @dataclass

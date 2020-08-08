@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.nmtoken.nmtoken_max_length002_xsd.nmtoken_max_length002 import FooType
-from output.models.ms_data.datatypes.facets.nmtoken.nmtoken_max_length002_xsd.nmtoken_max_length002 import Test
+from output.models.ms_data.datatypes.facets.nmtoken.nmtoken_max_length002_xsd.nmtoken_max_length002 import (
+    FooType,
+    Test,
+)

@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.identity_constraint.id_f024_xsd.id_f024a import (
-    R,
-)
+from output.models.ms_data.identity_constraint.id_f024_xsd.id_f024a import R
 
 
 @dataclass

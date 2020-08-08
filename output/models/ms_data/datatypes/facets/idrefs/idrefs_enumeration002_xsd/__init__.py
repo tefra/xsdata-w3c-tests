@@ -1,3 +1,5 @@
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration002_xsd.idrefs_enumeration002 import Foo
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration002_xsd.idrefs_enumeration002 import FooType
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration002_xsd.idrefs_enumeration002 import Test
+from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration002_xsd.idrefs_enumeration002 import (
+    Foo,
+    FooType,
+    Test,
+)

@@ -1,16 +1,18 @@
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import RA
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionA
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionAb
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Item
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import La
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Lab
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Ra
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Root
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Ua
-from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Uab
+from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import (
+    A as A,
+    A as A,
+    B as B,
+    B as B,
+    RA,
+    UnionA,
+    UnionAb,
+    A,
+    B,
+    Item,
+    La,
+    Lab,
+    Ra,
+    Root,
+    Ua,
+    Uab,
+)

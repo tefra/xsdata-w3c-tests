@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import (
-    Y,
-)
+from output.models.ibm_data.mixed.target_namespace.tns4_xsd.tns4_imp import Y
 
 __NAMESPACE__ = "http://test1"
 

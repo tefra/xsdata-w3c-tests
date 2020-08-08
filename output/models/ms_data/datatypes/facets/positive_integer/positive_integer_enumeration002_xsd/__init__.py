@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.positive_integer.positive_integer_enumeration002_xsd.positive_integer_enumeration002 import FooType
-from output.models.ms_data.datatypes.facets.positive_integer.positive_integer_enumeration002_xsd.positive_integer_enumeration002 import Test
+from output.models.ms_data.datatypes.facets.positive_integer.positive_integer_enumeration002_xsd.positive_integer_enumeration002 import (
+    FooType,
+    Test,
+)

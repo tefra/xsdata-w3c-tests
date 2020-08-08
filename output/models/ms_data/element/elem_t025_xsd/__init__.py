@@ -1,12 +1,14 @@
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import A
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import B
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import Ca
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import ECa
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import RA
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import RCa
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import UnionA
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import UnionAb
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import Root
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import SA
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import Test
-from output.models.ms_data.element.elem_t025_xsd.elem_t025 import Test2
+from output.models.ms_data.element.elem_t025_xsd.elem_t025 import (
+    A,
+    B,
+    Ca,
+    ECa,
+    RA,
+    RCa,
+    UnionA,
+    UnionAb,
+    Root,
+    SA,
+    Test,
+    Test2,
+)

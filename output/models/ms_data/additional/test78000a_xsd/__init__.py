@@ -1,9 +1,11 @@
-from output.models.ms_data.additional.test78000a_xsd.test78000a import LaxContainer
-from output.models.ms_data.additional.test78000a_xsd.test78000a import LaxContainerType
-from output.models.ms_data.additional.test78000a_xsd.test78000a import RootContainer
-from output.models.ms_data.additional.test78000a_xsd.test78000a import RootContainerType
-from output.models.ms_data.additional.test78000a_xsd.test78000a import SkipContainer
-from output.models.ms_data.additional.test78000a_xsd.test78000a import SkipContainerType
-from output.models.ms_data.additional.test78000a_xsd.test78000a import StrictContainer
-from output.models.ms_data.additional.test78000a_xsd.test78000a import StrictContainerType
-from output.models.ms_data.additional.test78000a_xsd.test78000a import Doc
+from output.models.ms_data.additional.test78000a_xsd.test78000a import (
+    LaxContainer,
+    LaxContainerType,
+    RootContainer,
+    RootContainerType,
+    SkipContainer,
+    SkipContainerType,
+    StrictContainer,
+    StrictContainerType,
+    Doc,
+)

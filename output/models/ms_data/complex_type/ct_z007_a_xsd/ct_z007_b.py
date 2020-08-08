@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.complex_type.ct_z007_a_xsd.ct_z007_a import (
-    MyCustomer,
-)
+from output.models.ms_data.complex_type.ct_z007_a_xsd.ct_z007_a import MyCustomer
 
 __NAMESPACE__ = "urn:xmlns:25hoursaday-com:customer"
 

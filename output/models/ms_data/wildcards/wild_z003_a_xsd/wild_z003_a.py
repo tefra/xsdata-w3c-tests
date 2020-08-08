@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.wildcards.wild_z003_a_xsd.wild_z003_b import (
-    Elem,
-)
+from output.models.ms_data.wildcards.wild_z003_a_xsd.wild_z003_b import Elem
 
 __NAMESPACE__ = "urn:foo"
 

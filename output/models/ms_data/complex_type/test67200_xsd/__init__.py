@@ -1,3 +1,5 @@
-from output.models.ms_data.complex_type.test67200_xsd.test67200 import Elt1
-from output.models.ms_data.complex_type.test67200_xsd.test67200 import TypeA
-from output.models.ms_data.complex_type.test67200_xsd.test67200 import TypeAbstract
+from output.models.ms_data.complex_type.test67200_xsd.test67200 import (
+    Elt1,
+    TypeA,
+    TypeAbstract,
+)

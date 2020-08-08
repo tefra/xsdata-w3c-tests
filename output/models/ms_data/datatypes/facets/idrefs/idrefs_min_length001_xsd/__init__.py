@@ -1,3 +1,5 @@
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_min_length001_xsd.idrefs_min_length001 import Foo
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_min_length001_xsd.idrefs_min_length001 import FooType
-from output.models.ms_data.datatypes.facets.idrefs.idrefs_min_length001_xsd.idrefs_min_length001 import Test
+from output.models.ms_data.datatypes.facets.idrefs.idrefs_min_length001_xsd.idrefs_min_length001 import (
+    Foo,
+    FooType,
+    Test,
+)

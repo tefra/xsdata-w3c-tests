@@ -1,18 +1,20 @@
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import A
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import B
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Ca
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import EA
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import ECa
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import RA
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import RCa
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import UnionA
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import UnionAb
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Root
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Sa1
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Sa2
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Sa3
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Test1
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Test2
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Test3
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Test4
-from output.models.ms_data.element.elem_t067_xsd.elem_t067 import Test5
+from output.models.ms_data.element.elem_t067_xsd.elem_t067 import (
+    A,
+    B,
+    Ca,
+    EA,
+    ECa,
+    RA,
+    RCa,
+    UnionA,
+    UnionAb,
+    Root,
+    Sa1,
+    Sa2,
+    Sa3,
+    Test1,
+    Test2,
+    Test3,
+    Test4,
+    Test5,
+)

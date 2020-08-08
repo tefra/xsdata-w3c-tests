@@ -1,2 +1,4 @@
-from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_max_exclusive003_xsd.unsigned_int_max_exclusive003 import FooType
-from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_max_exclusive003_xsd.unsigned_int_max_exclusive003 import Test
+from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_max_exclusive003_xsd.unsigned_int_max_exclusive003 import (
+    FooType,
+    Test,
+)

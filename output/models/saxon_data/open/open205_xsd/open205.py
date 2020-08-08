@@ -1,9 +1,7 @@
 from decimal import Decimal
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.saxon_data.open.open205_xsd.open205x import (
-    BType,
-)
+from output.models.saxon_data.open.open205_xsd.open205x import BType
 
 
 @dataclass

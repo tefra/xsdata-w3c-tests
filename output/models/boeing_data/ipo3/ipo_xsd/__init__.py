@@ -1,10 +1,14 @@
-from output.models.boeing_data.ipo3.ipo_xsd.address import AddressType
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import ItemsType
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import PurchaseOrderType
-from output.models.boeing_data.ipo3.ipo_xsd.address import Ukaddress
-from output.models.boeing_data.ipo3.ipo_xsd.address import Usaddress
-from output.models.boeing_data.ipo3.ipo_xsd.address import Usstate
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import Comment
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import CustomerComment
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import PurchaseOrder
-from output.models.boeing_data.ipo3.ipo_xsd.ipo import ShipComment
+from output.models.boeing_data.ipo3.ipo_xsd.address import (
+    AddressType,
+    Ukaddress,
+    Usaddress,
+    Usstate,
+)
+from output.models.boeing_data.ipo3.ipo_xsd.ipo import (
+    ItemsType,
+    PurchaseOrderType,
+    Comment,
+    CustomerComment,
+    PurchaseOrder,
+    ShipComment,
+)

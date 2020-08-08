@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.additional.test66745_a_xsd.test66745_a import (
-    Foo1,
-)
+from output.models.ms_data.additional.test66745_a_xsd.test66745_a import Foo1
 
 __NAMESPACE__ = "foo"
 

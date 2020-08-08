@@ -1,2 +1,4 @@
-from output.models.sun_data.elem_decl.type_def.type_def01501m.type_def01501m1_xsd.type_def01501m1 import Root
-from output.models.sun_data.elem_decl.type_def.type_def01501m.type_def01501m1_xsd.type_def01501m1 import Text
+from output.models.sun_data.elem_decl.type_def.type_def01501m.type_def01501m1_xsd.type_def01501m1 import (
+    Root,
+    Text,
+)

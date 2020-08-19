@@ -1,7 +1,6 @@
 import json
 import textwrap
 from collections import defaultdict
-from dataclasses import asdict
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
@@ -32,24 +31,24 @@ from tests.utils import assert_bindings\n\n{}"""
 
 test_case_tpl = """{decorators}
 def test_{name}(save_xml):
-{documentation}
+{test.documentation}
     assert_bindings(
-        schema="{schema_path}",
-        instance="{instance_path}",
-        class_name="{class_name}",
-        version="{version}",
+        schema="{test.schema_path}",
+        instance="{test.instance_path}",
+        class_name="{test.class_name}",
+        version="{test.version}",
         save_xml=save_xml,
     )
 """
 
 test_ns_struct_case_tpl = """{decorators}
 def test_{name}(save_xml):
-{documentation}
+{test.documentation}
     assert_bindings(
-        schema="{schema_path}",
-        instance="{instance_path}",
-        class_name="{class_name}",
-        version="{version}",
+        schema="{test.schema_path}",
+        instance="{test.instance_path}",
+        class_name="{test.class_name}",
+        version="{test.version}",
         ns_struct=True,
         save_xml=save_xml,
     )
@@ -103,12 +102,13 @@ def write_test_file(group: str, cases: List[TestCase]):
     for chunk_cases in chunks(cases, 1000):
         num += len(chunk_cases)
         test_file = tests.joinpath(f"test_{text.snake_case(group)}_{num}.py")
-        output = render_test_cases(test_file.relative_to(root), chunk_cases)
+        test_file_relative = test_file.relative_to(root)
+        output = render_test_cases(test_file_relative, chunk_cases)
 
         if output.find("pytest.mark") == -1:
             output = "\n".join(output.split("\n")[2:])
 
-        print(f"Generating: {test_file.relative_to(root)}")
+        print(f"Generating: {test_file_relative}")
         test_file.write_text(output)
 
 
@@ -144,7 +144,7 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
 
         decorators = "\n".join(markers)
         template = test_ns_struct_case_tpl if case.ns_struct else test_case_tpl
-        output.append(template.format(name=name, decorators=decorators, **asdict(case)))
+        output.append(template.format(name=name, decorators=decorators, test=case))
 
     return test_module_tpl.format("\n".join(output))
 

@@ -2003,6 +2003,7 @@ def test_add_b136_add_b136_v(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_add_b135_add_b135_v(save_xml):
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching
@@ -11847,7 +11848,7 @@ def test_qname010_2093_qname010_2093_i(save_xml):
 def test_qname009_2092_qname009_2092_v(save_xml):
     """
     TEST :Facet Schemas for string : value=xmlns:xsi WG decided on
-    2010-02-05 telcon that there is no binding for xmlns as a prefix,  so
+    2010-02-05 telcon that there is no binding for xmlns as a prefix, so
     these are not valid QNames.
     """
     assert_bindings(

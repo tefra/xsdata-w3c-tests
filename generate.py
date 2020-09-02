@@ -250,20 +250,15 @@ def pick_version(versions: List):
 
 
 def make_docstring(group: TestGroup) -> str:
-    documentation = "\n".join(
-        textwrap.wrap(
-            "\n".join(
-                [
-                    element.text or "" if isinstance(element, AnyElement) else element
-                    for annotation in group.annotation
-                    for documentation in annotation.documentation
-                    for element in documentation.any_element
-                    if element
-                ]
-            )
-        )
+    raw = "\n".join(
+        element.text or "" if isinstance(element, AnyElement) else element
+        for annotation in group.annotation
+        for documentation in annotation.documentation
+        for element in documentation.any_element
+        if element
     )
 
+    documentation = "\n".join(textwrap.wrap(" ".join(raw.split())))
     if documentation:
         raw = "r" if documentation.find("\\") > -1 else ""
         return textwrap.indent(f'{raw}"""\n{documentation}\n"""', "    ")

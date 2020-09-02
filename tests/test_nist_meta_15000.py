@@ -3189,8 +3189,8 @@ def test_atomic_qname_pattern_nistxml_sv_iv_atomic_qname_pattern_1_5(save_xml):
 def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-5.xsd",
@@ -3205,8 +3205,8 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_1(save_xml):
 def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-5.xsd",
@@ -3221,8 +3221,8 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_2(save_xml):
 def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-5.xsd",
@@ -3237,8 +3237,8 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_3(save_xml):
 def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-5.xsd",
@@ -3253,8 +3253,8 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_4(save_xml):
 def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-5.xsd",
@@ -3269,8 +3269,8 @@ def test_atomic_qname_length_4_nistxml_sv_iv_atomic_qname_length_5_5(save_xml):
 def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-4.xsd",
@@ -3285,8 +3285,8 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_1(save_xml):
 def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-4.xsd",
@@ -3301,8 +3301,8 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_2(save_xml):
 def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-4.xsd",
@@ -3317,8 +3317,8 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_3(save_xml):
 def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-4.xsd",
@@ -3333,8 +3333,8 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_4(save_xml):
 def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 34. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-4.xsd",
@@ -3349,8 +3349,8 @@ def test_atomic_qname_length_3_nistxml_sv_iv_atomic_qname_length_4_5(save_xml):
 def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-3.xsd",
@@ -3365,8 +3365,8 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_1(save_xml):
 def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-3.xsd",
@@ -3381,8 +3381,8 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_2(save_xml):
 def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-3.xsd",
@@ -3397,8 +3397,8 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_3(save_xml):
 def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-3.xsd",
@@ -3413,8 +3413,8 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_4(save_xml):
 def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 33. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-3.xsd",
@@ -3429,8 +3429,8 @@ def test_atomic_qname_length_2_nistxml_sv_iv_atomic_qname_length_3_5(save_xml):
 def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-2.xsd",
@@ -3445,8 +3445,8 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_1(save_xml):
 def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-2.xsd",
@@ -3461,8 +3461,8 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_2(save_xml):
 def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-2.xsd",
@@ -3477,8 +3477,8 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_3(save_xml):
 def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-2.xsd",
@@ -3493,8 +3493,8 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_4(save_xml):
 def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 7. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-2.xsd",
@@ -3509,8 +3509,8 @@ def test_atomic_qname_length_1_nistxml_sv_iv_atomic_qname_length_2_5(save_xml):
 def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-1.xsd",
@@ -3525,8 +3525,8 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_1(save_xml):
 def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-1.xsd",
@@ -3541,8 +3541,8 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_2(save_xml):
 def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-1.xsd",
@@ -3557,8 +3557,8 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_3(save_xml):
 def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-1.xsd",
@@ -3573,8 +3573,8 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_4(save_xml):
 def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet length with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-length-1.xsd",
@@ -3589,8 +3589,8 @@ def test_atomic_qname_length_nistxml_sv_iv_atomic_qname_length_1_5(save_xml):
 def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-5.xsd",
@@ -3605,8 +3605,8 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_1(sav
 def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-5.xsd",
@@ -3621,8 +3621,8 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_2(sav
 def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-5.xsd",
@@ -3637,8 +3637,8 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_3(sav
 def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-5.xsd",
@@ -3653,8 +3653,8 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_4(sav
 def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-5.xsd",
@@ -3669,8 +3669,8 @@ def test_atomic_qname_min_length_4_nistxml_sv_iv_atomic_qname_min_length_5_5(sav
 def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-4.xsd",
@@ -3685,8 +3685,8 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_1(sav
 def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-4.xsd",
@@ -3701,8 +3701,8 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_2(sav
 def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-4.xsd",
@@ -3717,8 +3717,8 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_3(sav
 def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-4.xsd",
@@ -3733,8 +3733,8 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_4(sav
 def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 18. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-4.xsd",
@@ -3749,8 +3749,8 @@ def test_atomic_qname_min_length_3_nistxml_sv_iv_atomic_qname_min_length_4_5(sav
 def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-3.xsd",
@@ -3765,8 +3765,8 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_1(sav
 def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-3.xsd",
@@ -3781,8 +3781,8 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_2(sav
 def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-3.xsd",
@@ -3797,8 +3797,8 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_3(sav
 def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-3.xsd",
@@ -3813,8 +3813,8 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_4(sav
 def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 50. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-3.xsd",
@@ -3829,8 +3829,8 @@ def test_atomic_qname_min_length_2_nistxml_sv_iv_atomic_qname_min_length_3_5(sav
 def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-2.xsd",
@@ -3845,8 +3845,8 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_1(sav
 def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-2.xsd",
@@ -3861,8 +3861,8 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_2(sav
 def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-2.xsd",
@@ -3877,8 +3877,8 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_3(sav
 def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-2.xsd",
@@ -3893,8 +3893,8 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_4(sav
 def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 8. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-2.xsd",
@@ -3909,8 +3909,8 @@ def test_atomic_qname_min_length_1_nistxml_sv_iv_atomic_qname_min_length_2_5(sav
 def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-1.xsd",
@@ -3925,8 +3925,8 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_1(save_
 def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-1.xsd",
@@ -3941,8 +3941,8 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_2(save_
 def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-1.xsd",
@@ -3957,8 +3957,8 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_3(save_
 def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-1.xsd",
@@ -3973,8 +3973,8 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_4(save_
 def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet minLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-minLength-1.xsd",
@@ -3989,8 +3989,8 @@ def test_atomic_qname_min_length_nistxml_sv_iv_atomic_qname_min_length_1_5(save_
 def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-5.xsd",
@@ -4005,8 +4005,8 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_1(sav
 def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-5.xsd",
@@ -4021,8 +4021,8 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_2(sav
 def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-5.xsd",
@@ -4037,8 +4037,8 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_3(sav
 def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-5.xsd",
@@ -4053,8 +4053,8 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_4(sav
 def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 64. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-5.xsd",
@@ -4069,8 +4069,8 @@ def test_atomic_qname_max_length_4_nistxml_sv_iv_atomic_qname_max_length_5_5(sav
 def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-4.xsd",
@@ -4085,8 +4085,8 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_1(sav
 def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-4.xsd",
@@ -4101,8 +4101,8 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_2(sav
 def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-4.xsd",
@@ -4117,8 +4117,8 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_3(sav
 def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-4.xsd",
@@ -4133,8 +4133,8 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_4(sav
 def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 61. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-4.xsd",
@@ -4149,8 +4149,8 @@ def test_atomic_qname_max_length_3_nistxml_sv_iv_atomic_qname_max_length_4_5(sav
 def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-3.xsd",
@@ -4165,8 +4165,8 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_1(sav
 def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-3.xsd",
@@ -4181,8 +4181,8 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_2(sav
 def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-3.xsd",
@@ -4197,8 +4197,8 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_3(sav
 def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-3.xsd",
@@ -4213,8 +4213,8 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_4(sav
 def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 57. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-3.xsd",
@@ -4229,8 +4229,8 @@ def test_atomic_qname_max_length_2_nistxml_sv_iv_atomic_qname_max_length_3_5(sav
 def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-2.xsd",
@@ -4245,8 +4245,8 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_1(sav
 def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-2.xsd",
@@ -4261,8 +4261,8 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_2(sav
 def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-2.xsd",
@@ -4277,8 +4277,8 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_3(sav
 def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-2.xsd",
@@ -4293,8 +4293,8 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_4(sav
 def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 4. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-2.xsd",
@@ -4309,8 +4309,8 @@ def test_atomic_qname_max_length_1_nistxml_sv_iv_atomic_qname_max_length_2_5(sav
 def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_1(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-1.xsd",
@@ -4325,8 +4325,8 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_1(save_
 def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_2(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-1.xsd",
@@ -4341,8 +4341,8 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_2(save_
 def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_3(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-1.xsd",
@@ -4357,8 +4357,8 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_3(save_
 def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_4(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-1.xsd",
@@ -4373,8 +4373,8 @@ def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_4(save_
 def test_atomic_qname_max_length_nistxml_sv_iv_atomic_qname_max_length_1_5(save_xml):
     """
     Type atomic/QName is restricted by facet maxLength with value 1. The
-    original commenter agreed that 1.0 does in fact make clear that
-    all length-related facet tests on QNames are satisfied
+    original commenter agreed that 1.0 does in fact make clear that all
+    length-related facet tests on QNames are satisfied
     """
     assert_bindings(
         schema="nistData/atomic/QName/Schema+Instance/NISTSchema-SV-IV-atomic-QName-maxLength-1.xsd",

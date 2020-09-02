@@ -196,8 +196,7 @@ def test_s3_10_6v01_s3_10_6v01i(save_xml):
 def test_assert_035_assert_035_2(save_xml):
     """
     An example demonstrating constraining the cardinality of schema
-    xs:list, and defining assertion on items                         of
-    the schema xs:list.
+    xs:list, and defining assertion on items of the schema xs:list.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion6.xsd",
@@ -213,8 +212,7 @@ def test_assert_035_assert_035_2(save_xml):
 def test_assert_035_assert_035_3(save_xml):
     """
     An example demonstrating constraining the cardinality of schema
-    xs:list, and defining assertion on items                         of
-    the schema xs:list.
+    xs:list, and defining assertion on items of the schema xs:list.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion6.xsd",
@@ -230,8 +228,8 @@ def test_assert_035_assert_035_3(save_xml):
 def test_assert_034_assert_034_3(save_xml):
     """
     An example demonstrating assertion defined in simple schema type,
-    which is itemType of xs:list schema component.
-    This example defines an schema simpleType for an XML attribute.
+    which is itemType of xs:list schema component. This example defines an
+    schema simpleType for an XML attribute.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion5.xsd",
@@ -291,8 +289,8 @@ def test_assert_032_assert_032_3(save_xml):
 def test_assert_031_assert_031_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
-    type value, when the simpleType is a                          union
-    type, and one of memberTypes of union specifies assertions.
+    type value, when the simpleType is a union type, and one of
+    memberTypes of union specifies assertions.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
@@ -308,8 +306,8 @@ def test_assert_031_assert_031_2(save_xml):
 def test_assert_031_assert_031_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
-    type value, when the simpleType is a                          union
-    type, and one of memberTypes of union specifies assertions.
+    type value, when the simpleType is a union type, and one of
+    memberTypes of union specifies assertions.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
@@ -324,8 +322,8 @@ def test_assert_031_assert_031_3(save_xml):
 def test_assert_031_assert_031_4(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
-    type value, when the simpleType is a                          union
-    type, and one of memberTypes of union specifies assertions.
+    type value, when the simpleType is a union type, and one of
+    memberTypes of union specifies assertions.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
@@ -341,8 +339,8 @@ def test_assert_031_assert_031_4(save_xml):
 def test_assert_031_assert_031_5(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
-    type value, when the simpleType is a                          union
-    type, and one of memberTypes of union specifies assertions.
+    type value, when the simpleType is a union type, and one of
+    memberTypes of union specifies assertions.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion2.xsd",
@@ -357,10 +355,10 @@ def test_assert_031_assert_031_5(save_xml):
 def test_assert_030_assert_030_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
-    definition of xs:list schema component.                         In
-    this scenario assertions must evaluate on all-of list items, and every
-    list item must pass the assertions                         test for
-    assertion to contribute to XML instance validation.
+    definition of xs:list schema component. In this scenario assertions
+    must evaluate on all-of list items, and every list item must pass the
+    assertions test for assertion to contribute to XML instance
+    validation.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion1.xsd",
@@ -376,10 +374,10 @@ def test_assert_030_assert_030_2(save_xml):
 def test_assert_030_assert_030_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
-    definition of xs:list schema component.                         In
-    this scenario assertions must evaluate on all-of list items, and every
-    list item must pass the assertions                         test for
-    assertion to contribute to XML instance validation.
+    definition of xs:list schema component. In this scenario assertions
+    must evaluate on all-of list items, and every list item must pass the
+    assertions test for assertion to contribute to XML instance
+    validation.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/list_union/listunion1.xsd",
@@ -394,13 +392,12 @@ def test_assert_030_assert_030_3(save_xml):
 def test_assert_029_assert_029_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
-    schema document declares an XML attribute in a
-    namespace, using "targetNamespace" attribute on xs:attribute
-    declaration, and an assertion XPath expression makes use
-    of namespace qualified attribute node reference.
-    There are two XML instance tests in this example (one passes and the
-    other fails wrt XSD 1.1 assertions, due to varying
-    data in XML instance documents).
+    schema document declares an XML attribute in a namespace, using
+    "targetNamespace" attribute on xs:attribute declaration, and an
+    assertion XPath expression makes use of namespace qualified attribute
+    node reference. There are two XML instance tests in this example (one
+    passes and the other fails wrt XSD 1.1 assertions, due to varying data
+    in XML instance documents).
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns5.xsd",
@@ -416,13 +413,12 @@ def test_assert_029_assert_029_2(save_xml):
 def test_assert_029_assert_029_3(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
-    schema document declares an XML attribute in a
-    namespace, using "targetNamespace" attribute on xs:attribute
-    declaration, and an assertion XPath expression makes use
-    of namespace qualified attribute node reference.
-    There are two XML instance tests in this example (one passes and the
-    other fails wrt XSD 1.1 assertions, due to varying
-    data in XML instance documents).
+    schema document declares an XML attribute in a namespace, using
+    "targetNamespace" attribute on xs:attribute declaration, and an
+    assertion XPath expression makes use of namespace qualified attribute
+    node reference. There are two XML instance tests in this example (one
+    passes and the other fails wrt XSD 1.1 assertions, due to varying data
+    in XML instance documents).
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns5.xsd",
@@ -437,8 +433,7 @@ def test_assert_029_assert_029_3(save_xml):
 def test_assert_028_assert_028_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where an
-    assertion checks for in-scope namespace prefixes
-    on XML element.
+    assertion checks for in-scope namespace prefixes on XML element.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns4.xsd",
@@ -453,8 +448,8 @@ def test_assert_028_assert_028_2(save_xml):
 def test_assert_027_assert_027_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation when XML
-    document is an namespace, and assertions perform
-    namespace URI comparisons on element nodes.
+    document is an namespace, and assertions perform namespace URI
+    comparisons on element nodes.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns3.xsd",
@@ -469,9 +464,8 @@ def test_assert_027_assert_027_2(save_xml):
 def test_assert_026_assert_026_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation when outermost
-    element in an XML document is in an namespace, while
-    inner ones are not, and there are few assertions defined on the schema
-    type involved.
+    element in an XML document is in an namespace, while inner ones are
+    not, and there are few assertions defined on the schema type involved.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns2.xsd",
@@ -486,8 +480,7 @@ def test_assert_026_assert_026_2(save_xml):
 def test_assert_025_assert_025_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation using xs:assert
-    instruction, when xs:assert has attribute
-    "xpathDefaultNamespace".
+    instruction, when xs:assert has attribute "xpathDefaultNamespace".
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/namespace/ns1.xsd",
@@ -502,10 +495,10 @@ def test_assert_025_assert_025_2(save_xml):
 def test_assert_024_assert_024_2(save_xml):
     """
     An example demonstrating assertions evaluation, with xs:string schema
-    type when white-space normalization must not happen
-    on the data. The validation in this example would succeed, since an
-    assertion normalizes the data value with "normalize-space"
-    XPath function before equality comparison.
+    type when white-space normalization must not happen on the data. The
+    validation in this example would succeed, since an assertion
+    normalizes the data value with "normalize-space" XPath function before
+    equality comparison.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test5.xsd",
@@ -521,12 +514,12 @@ def test_assert_024_assert_024_2(save_xml):
 def test_assert_023_assert_023_2(save_xml):
     """
     An example demonstrating assertions evaluation, with xs:string schema
-    type when white-space normalization must not happen
-    on the data. The example demonstrates ignoring of comments within XML
-    elements (which have simple XML schema values), for
-    findings value of assertions XPath 2.0 context variable $value. This
-    test is similar to test "assert_022" but the validation
-    fails in this case, since the schema type of XML element is xs:string.
+    type when white-space normalization must not happen on the data. The
+    example demonstrates ignoring of comments within XML elements (which
+    have simple XML schema values), for findings value of assertions XPath
+    2.0 context variable $value. This test is similar to test "assert_022"
+    but the validation fails in this case, since the schema type of XML
+    element is xs:string.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test4.xsd",
@@ -541,10 +534,10 @@ def test_assert_023_assert_023_2(save_xml):
 def test_assert_022_assert_022_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a numeric schema
-    type when white-space normalization                         must
-    happen on the data. The example demonstrates ignoring of comments
-    within XML elements (which have simple schema values),
-    for findings value of assertions XPath 2.0 context variable $value.
+    type when white-space normalization must happen on the data. The
+    example demonstrates ignoring of comments within XML elements (which
+    have simple schema values), for findings value of assertions XPath 2.0
+    context variable $value.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test3.xsd",
@@ -560,8 +553,8 @@ def test_assert_022_assert_022_2(save_xml):
 def test_assert_021_assert_021_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a xs:string
-    schema type when white-space normalization
-    must not happen on the data.
+    schema type when white-space normalization must not happen on the
+    data.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test2.xsd",
@@ -576,8 +569,7 @@ def test_assert_021_assert_021_2(save_xml):
 def test_assert_020_assert_020_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a numeric schema
-    type when white-space normalization                         must
-    happen on the data.
+    type when white-space normalization must happen on the data.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/whitespace/test1.xsd",
@@ -607,8 +599,7 @@ def test_assert_019_assert_019_2(save_xml):
 def test_assert_018_assert_018_2(save_xml):
     """
     This is similar to test 'assert_017', but element a's schema type in
-    xs:group definition here has an                         additional
-    assertion.
+    xs:group definition here has an additional assertion.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test18.xsd",
@@ -624,8 +615,7 @@ def test_assert_018_assert_018_2(save_xml):
 def test_assert_018_assert_018_3(save_xml):
     """
     This is similar to test 'assert_017', but element a's schema type in
-    xs:group definition here has an                         additional
-    assertion.
+    xs:group definition here has an additional assertion.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test18.xsd",
@@ -640,9 +630,8 @@ def test_assert_018_assert_018_3(save_xml):
 def test_assert_017_assert_017_2(save_xml):
     """
     An assertions example, where an XML schema xs:group definition is
-    reused in different schema types,                         and
-    cardinality of element particles in different types is controlled via
-    schema assertions.
+    reused in different schema types, and cardinality of element particles
+    in different types is controlled via schema assertions.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test17.xsd",
@@ -672,8 +661,7 @@ def test_assert_016_assert_016_2(save_xml):
 def test_assert_015_assert_015_2(save_xml):
     """
     Describing relatively involved assertions. Assertions are described in
-    the data file                         itself at
-    xs:assert/xs:annotation.
+    the data file itself at xs:assert/xs:annotation.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test15.xsd",
@@ -895,8 +883,7 @@ def test_assert_002_assert_002_3(save_xml):
 def test_assert_001_assert_001_2(save_xml):
     """
     Assertions demonstrating co-occurence constraints, along with an
-    assertion constraining                          element's
-    simpleContent value.
+    assertion constraining element's simpleContent value.
     """
     assert_bindings(
         schema="ibmData/mixed/assertions/test1.xsd",
@@ -1084,8 +1071,8 @@ def test_d4_3_15ii20_d4_3_15ii20i(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
     """
-    assertions on a complex type definition,           having
-    simpleContent, assertions from anyAtomicType type.
+    assertions on a complex type definition, having simpleContent,
+    assertions from anyAtomicType type.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd",
@@ -1100,8 +1087,8 @@ def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
     """
-    assertions on a complex type definition,         having
-    complexContent, assertions from anySimpleType type
+    assertions on a complex type definition, having complexContent,
+    assertions from anySimpleType type
     """
     assert_bindings(
         schema="ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd",
@@ -1434,8 +1421,8 @@ def test_d4_3_15v21_d4_3_15v21i(save_xml):
 @pytest.mark.schema11
 def test_d4_3_15v19_d4_3_15v19i(save_xml):
     """
-    assertions on a complex type definition,           having
-    simpleContent, assertions from anyAtomicType type.
+    assertions on a complex type definition, having simpleContent,
+    assertions from anyAtomicType type.
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v19.xsd",
@@ -1449,8 +1436,8 @@ def test_d4_3_15v19_d4_3_15v19i(save_xml):
 @pytest.mark.schema11
 def test_d4_3_15v18_d4_3_15v18i(save_xml):
     """
-    assertions on a complex type definition,           having
-    complexContent, assertions from anySimpleType type.
+    assertions on a complex type definition, having complexContent,
+    assertions from anySimpleType type.
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v18.xsd",
@@ -1562,8 +1549,8 @@ def test_d4_3_15v08_d4_3_15v08i(save_xml):
 @pytest.mark.schema11
 def test_d4_3_15v07_d4_3_15v07i(save_xml):
     """
-    assertions on derived simple type definitions,           all baseType
-    and derivedType must evaluate to be true
+    assertions on derived simple type definitions, all baseType and
+    derivedType must evaluate to be true
     """
     assert_bindings(
         schema="ibmData/valid/D4_3_15/d4_3_15v07.xsd",
@@ -2423,14 +2410,12 @@ def test_s2_7_2ii01_s2_7_2ii01i(save_xml):
 @pytest.mark.schema11
 def test_s2_7_2v01_s2_7_2v01i(save_xml):
     """
-    Structures introduces a mechanism for signaling that an element
-    must be accepted as 'valid'  when it has no content despite a content
-    type which                  does not require or even necessarily allow
-    empty content. An element can be 'valid'                   without
-    content if it has the attribute xsi:nil  with the value true. An
-    element                  so labeled must  be empty, but can carry
-    attributes if permitted by the corresponding                  complex
-    type.
+    Structures introduces a mechanism for signaling that an element must
+    be accepted as 'valid' when it has no content despite a content type
+    which does not require or even necessarily allow empty content. An
+    element can be 'valid' without content if it has the attribute xsi:nil
+    with the value true. An element so labeled must be empty, but can
+    carry attributes if permitted by the corresponding complex type.
     """
     assert_bindings(
         schema="ibmData/valid/S2_7_2/s2_7_2v01.xsd",
@@ -2446,10 +2431,10 @@ def test_s2_7_2v01_s2_7_2v01i(save_xml):
 def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
     """
     When an xsi:type attribute appears on an element, and has a QName as
-    its value,  but the QName does not resolve to a known type definition,
-    processors are now   required to "fall back" to lax validation, using
-    the declared {type definition}    of the governing element declaration
-    as the governing type definition.
+    its value, but the QName does not resolve to a known type definition,
+    processors are now required to "fall back" to lax validation, using
+    the declared {type definition} of the governing element declaration as
+    the governing type definition.
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S2_7_1/s2_7_1ii02.xsd",
@@ -3848,8 +3833,8 @@ def test_s3_4_1ii02_s3_4_1ii02i(save_xml):
 def test_s3_4_1ii01_s3_4_1ii01i(save_xml):
     """
     3.4.4.3 Element Sequence Locally valid (Complex Content) Validation
-    rule 2. (openContent)             mode = suffix BUT wildcard inserted
-    in front of and in between CT group particles
+    rule 2. (openContent) mode = suffix BUT wildcard inserted in front of
+    and in between CT group particles
     """
     assert_bindings(
         schema="ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd",
@@ -4316,8 +4301,7 @@ def test_target_namespace_005_target_namespace_005_2(save_xml):
 def test_target_namespace_004_target_namespace_004_2(save_xml):
     """
     Composition of XML schemas via xs:import to be able to achive
-    hetrogeneous namespaced elements                         in "one" XML
-    document.
+    hetrogeneous namespaced elements in "one" XML document.
     """
     assert_bindings(
         schema="ibmData/mixed/targetNamespace/tns4.xsd",
@@ -4331,10 +4315,10 @@ def test_target_namespace_004_target_namespace_004_2(save_xml):
 @pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01i(save_xml):
     """
-    1a: chameleon include on unqualified names in XPath expressions
-    1b: A calendar day with a very early timezone may be completely
-    disjoint from a calendar day with a very late timezone.
-    1c: A time in a timezone may convert to a UTC time on a different day.
+    1a: chameleon include on unqualified names in XPath expressions 1b: A
+    calendar day with a very early timezone may be completely disjoint
+    from a calendar day with a very late timezone. 1c: A time in a
+    timezone may convert to a UTC time on a different day.
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
@@ -4348,10 +4332,10 @@ def test_d3_3_9v01_d3_3_9v01i(save_xml):
 @pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ai(save_xml):
     """
-    1a: chameleon include on unqualified names in XPath expressions
-    1b: A calendar day with a very early timezone may be completely
-    disjoint from a calendar day with a very late timezone.
-    1c: A time in a timezone may convert to a UTC time on a different day.
+    1a: chameleon include on unqualified names in XPath expressions 1b: A
+    calendar day with a very early timezone may be completely disjoint
+    from a calendar day with a very late timezone. 1c: A time in a
+    timezone may convert to a UTC time on a different day.
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
@@ -4365,10 +4349,10 @@ def test_d3_3_9v01_d3_3_9v01ai(save_xml):
 @pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01bi(save_xml):
     """
-    1a: chameleon include on unqualified names in XPath expressions
-    1b: A calendar day with a very early timezone may be completely
-    disjoint from a calendar day with a very late timezone.
-    1c: A time in a timezone may convert to a UTC time on a different day.
+    1a: chameleon include on unqualified names in XPath expressions 1b: A
+    calendar day with a very early timezone may be completely disjoint
+    from a calendar day with a very late timezone. 1c: A time in a
+    timezone may convert to a UTC time on a different day.
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
@@ -4382,10 +4366,10 @@ def test_d3_3_9v01_d3_3_9v01bi(save_xml):
 @pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ci(save_xml):
     """
-    1a: chameleon include on unqualified names in XPath expressions
-    1b: A calendar day with a very early timezone may be completely
-    disjoint from a calendar day with a very late timezone.
-    1c: A time in a timezone may convert to a UTC time on a different day.
+    1a: chameleon include on unqualified names in XPath expressions 1b: A
+    calendar day with a very early timezone may be completely disjoint
+    from a calendar day with a very late timezone. 1c: A time in a
+    timezone may convert to a UTC time on a different day.
     """
     assert_bindings(
         schema="ibmData/valid/D3_3_9/d3_3_9v01.xsd",
@@ -4490,9 +4474,9 @@ def test_s3_12v11_s3_12v01i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v10_s3_12v11i(save_xml):
     """
-    Basic type alternatives.             Selection of the alternative type
-    is dertermined by evaluating a Constructor function and a Cast
-    Expression on attribute values
+    Basic type alternatives. Selection of the alternative type is
+    dertermined by evaluating a Constructor function and a Cast Expression
+    on attribute values
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v10.xsd",
@@ -4520,8 +4504,8 @@ def test_s3_12v09_s3_12v09i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v08_s3_12v08i(save_xml):
     """
-    Basic type alternatives.             Selection of the alternative type
-    is dertermined by evaluating an And operation on the presence of
+    Basic type alternatives. Selection of the alternative type is
+    dertermined by evaluating an And operation on the presence of
     attributes in an element
     """
     assert_bindings(
@@ -4536,9 +4520,8 @@ def test_s3_12v08_s3_12v08i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v07_s3_12v07i(save_xml):
     """
-    Basic type alternatives.             Selection of the alternative type
-    is dertermined by evaluating a Constructor function on attribute
-    values
+    Basic type alternatives. Selection of the alternative type is
+    dertermined by evaluating a Constructor function on attribute values
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v07.xsd",
@@ -4552,8 +4535,8 @@ def test_s3_12v07_s3_12v07i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v06_s3_12v06i(save_xml):
     """
-    Basic type alternatives.             Selection of the alternative type
-    is dertermined by evaluating a path And and Or expressions with a
+    Basic type alternatives. Selection of the alternative type is
+    dertermined by evaluating a path And and Or expressions with a
     comparator operator with an attribute's value
     """
     assert_bindings(
@@ -4568,8 +4551,8 @@ def test_s3_12v06_s3_12v06i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v05_s3_12v05i(save_xml):
     """
-    Basic type alternatives.             Selection of the alternative type
-    is dertermined by evaluating a path And expression with a comparator
+    Basic type alternatives. Selection of the alternative type is
+    dertermined by evaluating a path And expression with a comparator
     operator with an attribute's value
     """
     assert_bindings(
@@ -4584,15 +4567,14 @@ def test_s3_12v05_s3_12v05i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v04_s3_12v04i(save_xml):
     """
-    Basic type alternatives.             For the first alternative type,
-    the attribute whose value is to be selected by the alternative type's
-    {test} expression is of type string.             The attribute value
-    in the XML document contains a trailing space and will not normalized
-    and selected by the alternate type.              For the second
-    alternative type, the case of the attribute whose value is to be
-    selected by the {test} expression is in a different case in the XML
-    document.             In both cases, the alternative type should not
-    be selected.
+    Basic type alternatives. For the first alternative type, the attribute
+    whose value is to be selected by the alternative type's {test}
+    expression is of type string. The attribute value in the XML document
+    contains a trailing space and will not normalized and selected by the
+    alternate type. For the second alternative type, the case of the
+    attribute whose value is to be selected by the {test} expression is in
+    a different case in the XML document. In both cases, the alternative
+    type should not be selected.
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v04.xsd",
@@ -4606,10 +4588,9 @@ def test_s3_12v04_s3_12v04i(save_xml):
 @pytest.mark.schema11
 def test_s3_12v03_s3_12v03i(save_xml):
     """
-    Basic type alternatives.                          The alternative type
-    extends the base element's type.                          More that
-    one alternative type is present. One of the alternative types is the
-    default type.
+    Basic type alternatives. The alternative type extends the base
+    element's type. More that one alternative type is present. One of the
+    alternative types is the default type.
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v03.xsd",
@@ -4624,9 +4605,9 @@ def test_s3_12v03_s3_12v03i(save_xml):
 def test_s3_12v02_s3_12v02i(save_xml):
     """
     Basic type alternatives. alternative element with a complexType child
-    that is                          derived from the base element  type
-    and no type attribute More that one alternative
-    type is present. One of the alternative types is the default type.
+    that is derived from the base element type and no type attribute More
+    that one alternative type is present. One of the alternative types is
+    the default type.
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v02.xsd",
@@ -4641,8 +4622,8 @@ def test_s3_12v02_s3_12v02i(save_xml):
 def test_s3_12v01_s3_12v01i(save_xml):
     """
     Basic type alternatives. The alternative type extends the base
-    element's type.              More that one alternative type is
-    present. One of the alternative types is the default type.
+    element's type. More that one alternative type is present. One of the
+    alternative types is the default type.
     """
     assert_bindings(
         schema="ibmData/valid/S3_12/s3_12v01.xsd",
@@ -4716,8 +4697,7 @@ def test_type_alternatives_005_type_alternatives_005_3(save_xml):
 def test_type_alternatives_004_type_alternatives_004_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
-    attributes and assertions along                         with type-
-    alternatives.
+    attributes and assertions along with type-alternatives.
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test3.xsd",
@@ -4733,8 +4713,7 @@ def test_type_alternatives_004_type_alternatives_004_2(save_xml):
 def test_type_alternatives_004_type_alternatives_004_3(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
-    attributes and assertions along                         with type-
-    alternatives.
+    attributes and assertions along with type-alternatives.
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test3.xsd",
@@ -4749,8 +4728,8 @@ def test_type_alternatives_004_type_alternatives_004_3(save_xml):
 def test_type_alternatives_003_type_alternatives_003_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. In this example, schema
-    type definition's are provided                         as children of
-    xs:alternative instructions.
+    type definition's are provided as children of xs:alternative
+    instructions.
     """
     assert_bindings(
         schema="ibmData/mixed/type-alternatives/test2_1.xsd",

@@ -1647,7 +1647,7 @@ def test_id_z015_id_z015_i(save_xml):
     TEST :Identity-constraint Definition Schema Component : XSD: test
     Identity constraint field: evaluate to anyAttribute with lax or skip
     TSTF concludes after some deliberation that for 1.0 this is indeed
-    invalid:  see bugzilla for detailed discussion
+    invalid: see bugzilla for detailed discussion
     """
     assert_bindings(
         schema="msData/identityConstraint/idZ015.xsd",

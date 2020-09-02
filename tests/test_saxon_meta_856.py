@@ -1228,9 +1228,9 @@ def test_assert012_assert012_n1_xml(save_xml):
 def test_assert011_assert011_v1_xml(save_xml):
     """
     Assertion involving a call to the doc() function Uses an external
-    document as a lookup table.                 Had this working at one
-    stage. But the current state of play (Saxon 9.2) is that doc() in an
-    assertion is disallowed                 both in the spec and in Saxon
+    document as a lookup table. Had this working at one stage. But the
+    current state of play (Saxon 9.2) is that doc() in an assertion is
+    disallowed both in the spec and in Saxon
     """
     assert_bindings(
         schema="saxonData/Assert/assert011.xsd",
@@ -1246,9 +1246,9 @@ def test_assert011_assert011_v1_xml(save_xml):
 def test_assert011_assert011_n1_xml(save_xml):
     """
     Assertion involving a call to the doc() function Uses an external
-    document as a lookup table.                 Had this working at one
-    stage. But the current state of play (Saxon 9.2) is that doc() in an
-    assertion is disallowed                 both in the spec and in Saxon
+    document as a lookup table. Had this working at one stage. But the
+    current state of play (Saxon 9.2) is that doc() in an assertion is
+    disallowed both in the spec and in Saxon
     """
     assert_bindings(
         schema="saxonData/Assert/assert011.xsd",
@@ -1451,8 +1451,8 @@ def test_assert008_assert008_n3_xml(save_xml):
 def test_assert007_assert007_v1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by extension Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with complex content; also uses namespaces
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with complex content; also uses namespaces
     """
     assert_bindings(
         schema="saxonData/Assert/assert007.xsd",
@@ -1468,8 +1468,8 @@ def test_assert007_assert007_v1_xml(save_xml):
 def test_assert007_assert007_n1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by extension Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with complex content; also uses namespaces
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with complex content; also uses namespaces
     """
     assert_bindings(
         schema="saxonData/Assert/assert007.xsd",
@@ -1485,8 +1485,8 @@ def test_assert007_assert007_n1_xml(save_xml):
 def test_assert007_assert007_n2_xml(save_xml):
     """
     Inheritance of constraints in a type derived by extension Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with complex content; also uses namespaces
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with complex content; also uses namespaces
     """
     assert_bindings(
         schema="saxonData/Assert/assert007.xsd",
@@ -1502,8 +1502,8 @@ def test_assert007_assert007_n2_xml(save_xml):
 def test_assert007_assert007_n3_xml(save_xml):
     """
     Inheritance of constraints in a type derived by extension Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with complex content; also uses namespaces
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with complex content; also uses namespaces
     """
     assert_bindings(
         schema="saxonData/Assert/assert007.xsd",
@@ -1518,8 +1518,8 @@ def test_assert007_assert007_n3_xml(save_xml):
 def test_assert006_assert006_v1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by restriction Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with simple content.
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with simple content.
     """
     assert_bindings(
         schema="saxonData/Assert/assert006.xsd",
@@ -1535,8 +1535,8 @@ def test_assert006_assert006_v1_xml(save_xml):
 def test_assert006_assert006_n1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by restriction Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with simple content.
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with simple content.
     """
     assert_bindings(
         schema="saxonData/Assert/assert006.xsd",
@@ -1552,8 +1552,8 @@ def test_assert006_assert006_n1_xml(save_xml):
 def test_assert006_assert006_n2_xml(save_xml):
     """
     Inheritance of constraints in a type derived by restriction Tests
-    inheritance of constraints; also imposes a constraint on a text
-    node in a type with simple content.
+    inheritance of constraints; also imposes a constraint on a text node
+    in a type with simple content.
     """
     assert_bindings(
         schema="saxonData/Assert/assert006.xsd",
@@ -1638,8 +1638,8 @@ def test_assert005_assert005_n2_xml(save_xml):
 def test_assert004_assert004_v1_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
-    of the same tree; also tests that                 constraints at the
-    inner level are rooted at the node being validated.
+    of the same tree; also tests that constraints at the inner level are
+    rooted at the node being validated.
     """
     assert_bindings(
         schema="saxonData/Assert/assert004.xsd",
@@ -1654,8 +1654,8 @@ def test_assert004_assert004_v1_xml(save_xml):
 def test_assert004_assert004_v2_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
-    of the same tree; also tests that                 constraints at the
-    inner level are rooted at the node being validated.
+    of the same tree; also tests that constraints at the inner level are
+    rooted at the node being validated.
     """
     assert_bindings(
         schema="saxonData/Assert/assert004.xsd",
@@ -1671,8 +1671,8 @@ def test_assert004_assert004_v2_xml(save_xml):
 def test_assert004_assert004_n1_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
-    of the same tree; also tests that                 constraints at the
-    inner level are rooted at the node being validated.
+    of the same tree; also tests that constraints at the inner level are
+    rooted at the node being validated.
     """
     assert_bindings(
         schema="saxonData/Assert/assert004.xsd",
@@ -1688,8 +1688,8 @@ def test_assert004_assert004_n1_xml(save_xml):
 def test_assert004_assert004_n2_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
-    of the same tree; also tests that                 constraints at the
-    inner level are rooted at the node being validated.
+    of the same tree; also tests that constraints at the inner level are
+    rooted at the node being validated.
     """
     assert_bindings(
         schema="saxonData/Assert/assert004.xsd",
@@ -1704,8 +1704,8 @@ def test_assert004_assert004_n2_xml(save_xml):
 def test_assert003_assert003_v1_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
-    existence of an attribute and a descendant element
-    are mutually exclusive
+    existence of an attribute and a descendant element are mutually
+    exclusive
     """
     assert_bindings(
         schema="saxonData/Assert/assert003.xsd",
@@ -1720,8 +1720,8 @@ def test_assert003_assert003_v1_xml(save_xml):
 def test_assert003_assert003_v2_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
-    existence of an attribute and a descendant element
-    are mutually exclusive
+    existence of an attribute and a descendant element are mutually
+    exclusive
     """
     assert_bindings(
         schema="saxonData/Assert/assert003.xsd",
@@ -1737,8 +1737,8 @@ def test_assert003_assert003_v2_xml(save_xml):
 def test_assert003_assert003_n1_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
-    existence of an attribute and a descendant element
-    are mutually exclusive
+    existence of an attribute and a descendant element are mutually
+    exclusive
     """
     assert_bindings(
         schema="saxonData/Assert/assert003.xsd",
@@ -1754,8 +1754,8 @@ def test_assert003_assert003_n1_xml(save_xml):
 def test_assert003_assert003_n2_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
-    existence of an attribute and a descendant element
-    are mutually exclusive
+    existence of an attribute and a descendant element are mutually
+    exclusive
     """
     assert_bindings(
         schema="saxonData/Assert/assert003.xsd",
@@ -1833,8 +1833,8 @@ def test_unique003_unique003_v1_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
-    equal to NaN.                  (Uniqueness is violated if the values
-    are "identical or equal"). See bug 9196.
+    equal to NaN. (Uniqueness is violated if the values are "identical or
+    equal"). See bug 9196.
     """
     assert_bindings(
         schema="saxonData/Complex/unique003.xsd",
@@ -1850,8 +1850,8 @@ def test_unique003_unique003_v2_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
-    equal to NaN.                  (Uniqueness is violated if the values
-    are "identical or equal"). See bug 9196.
+    equal to NaN. (Uniqueness is violated if the values are "identical or
+    equal"). See bug 9196.
     """
     assert_bindings(
         schema="saxonData/Complex/unique003.xsd",
@@ -1868,8 +1868,8 @@ def test_unique003_unique003_n1_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
-    equal to NaN.                  (Uniqueness is violated if the values
-    are "identical or equal"). See bug 9196.
+    equal to NaN. (Uniqueness is violated if the values are "identical or
+    equal"). See bug 9196.
     """
     assert_bindings(
         schema="saxonData/Complex/unique003.xsd",
@@ -1886,8 +1886,8 @@ def test_unique003_unique003_n2_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
     to NaN For the purposes of uniqueness constraints, NaN is effectively
-    equal to NaN.                  (Uniqueness is violated if the values
-    are "identical or equal"). See bug 9196.
+    equal to NaN. (Uniqueness is violated if the values are "identical or
+    equal"). See bug 9196.
     """
     assert_bindings(
         schema="saxonData/Complex/unique003.xsd",
@@ -1920,8 +1920,8 @@ def test_unique001_unique001_v1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with
     simple content See comment in the schema document, and bug 10236. In
-    the XSD 1.0 spec, see clause 3                 of "Identity Constraint
-    Satisfied" in 3.11.4 Identity-constraint Definition Validation Rules.
+    the XSD 1.0 spec, see clause 3 of "Identity Constraint Satisfied" in
+    3.11.4 Identity-constraint Definition Validation Rules.
     """
     assert_bindings(
         schema="saxonData/Complex/unique001.xsd",
@@ -1938,8 +1938,8 @@ def test_unique001_unique001_n1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with
     simple content See comment in the schema document, and bug 10236. In
-    the XSD 1.0 spec, see clause 3                 of "Identity Constraint
-    Satisfied" in 3.11.4 Identity-constraint Definition Validation Rules.
+    the XSD 1.0 spec, see clause 3 of "Identity Constraint Satisfied" in
+    3.11.4 Identity-constraint Definition Validation Rules.
     """
     assert_bindings(
         schema="saxonData/Complex/unique001.xsd",
@@ -1955,9 +1955,9 @@ def test_unique001_unique001_n1_xml(save_xml):
 def test_complex022_complex022_n1_xml(save_xml):
     """
     Empty choice should accept no instances A content model defined as an
-    empty choice should reject all instances,                 because the
-    instance needs to satisfy at least on branch of the choice, which is
-    not                 possible if there are no branches.
+    empty choice should reject all instances, because the instance needs
+    to satisfy at least on branch of the choice, which is not possible if
+    there are no branches.
     """
     assert_bindings(
         schema="saxonData/Complex/complex022.xsd",
@@ -1973,9 +1973,9 @@ def test_complex022_complex022_n1_xml(save_xml):
 def test_complex022_complex022_n2_xml(save_xml):
     """
     Empty choice should accept no instances A content model defined as an
-    empty choice should reject all instances,                 because the
-    instance needs to satisfy at least on branch of the choice, which is
-    not                 possible if there are no branches.
+    empty choice should reject all instances, because the instance needs
+    to satisfy at least on branch of the choice, which is not possible if
+    there are no branches.
     """
     assert_bindings(
         schema="saxonData/Complex/complex022.xsd",
@@ -2518,8 +2518,8 @@ def test_complex008_complex008_n4_xml(save_xml):
 @pytest.mark.schema11
 def test_complex007_complex007_v1_xml(save_xml):
     """
-    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
-    except if present in the instance it must match and be obeyed
+    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
+    if present in the instance it must match and be obeyed
     """
     assert_bindings(
         schema="saxonData/Complex/complex007.xsd",
@@ -2533,8 +2533,8 @@ def test_complex007_complex007_v1_xml(save_xml):
 @pytest.mark.schema11
 def test_complex007_complex007_v2_xml(save_xml):
     """
-    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
-    except if present in the instance it must match and be obeyed
+    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
+    if present in the instance it must match and be obeyed
     """
     assert_bindings(
         schema="saxonData/Complex/complex007.xsd",
@@ -2549,8 +2549,8 @@ def test_complex007_complex007_v2_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n1_xml(save_xml):
     """
-    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
-    except if present in the instance it must match and be obeyed
+    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
+    if present in the instance it must match and be obeyed
     """
     assert_bindings(
         schema="saxonData/Complex/complex007.xsd",
@@ -2565,8 +2565,8 @@ def test_complex007_complex007_n1_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n2_xml(save_xml):
     """
-    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
-    except if present in the instance it must match and be obeyed
+    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
+    if present in the instance it must match and be obeyed
     """
     assert_bindings(
         schema="saxonData/Complex/complex007.xsd",
@@ -2581,8 +2581,8 @@ def test_complex007_complex007_n2_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n3_xml(save_xml):
     """
-    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored,
-    except if present in the instance it must match and be obeyed
+    xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
+    if present in the instance it must match and be obeyed
     """
     assert_bindings(
         schema="saxonData/Complex/complex007.xsd",
@@ -2669,8 +2669,8 @@ def test_complex006_complex006_n3_xml(save_xml):
 @pytest.mark.schema11
 def test_complex005_complex005_v2_xml(save_xml):
     """
-    xsi:type fixed Fixed value for xsi:type is allowed but ignored,
-    except that the instance must match
+    xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
+    that the instance must match
     """
     assert_bindings(
         schema="saxonData/Complex/complex005.xsd",
@@ -2685,8 +2685,8 @@ def test_complex005_complex005_v2_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n1_xml(save_xml):
     """
-    xsi:type fixed Fixed value for xsi:type is allowed but ignored,
-    except that the instance must match
+    xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
+    that the instance must match
     """
     assert_bindings(
         schema="saxonData/Complex/complex005.xsd",
@@ -2701,8 +2701,8 @@ def test_complex005_complex005_n1_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n2_xml(save_xml):
     """
-    xsi:type fixed Fixed value for xsi:type is allowed but ignored,
-    except that the instance must match
+    xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
+    that the instance must match
     """
     assert_bindings(
         schema="saxonData/Complex/complex005.xsd",
@@ -2717,8 +2717,8 @@ def test_complex005_complex005_n2_xml(save_xml):
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n3_xml(save_xml):
     """
-    xsi:type fixed Fixed value for xsi:type is allowed but ignored,
-    except that the instance must match
+    xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
+    that the instance must match
     """
     assert_bindings(
         schema="saxonData/Complex/complex005.xsd",
@@ -3623,8 +3623,8 @@ def test_cta0007_cta0007_n01(save_xml):
 def test_cta0006_cta0006_v01(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
-    message depends on enumerated kind attribute, value is
-    a QName identifying the branch of a union (xsi:type simulation)
+    message depends on enumerated kind attribute, value is a QName
+    identifying the branch of a union (xsi:type simulation)
     """
     assert_bindings(
         schema="saxonData/CTA/cta0006.xsd",
@@ -3640,8 +3640,8 @@ def test_cta0006_cta0006_v01(save_xml):
 def test_cta0006_cta0006_n01(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
-    message depends on enumerated kind attribute, value is
-    a QName identifying the branch of a union (xsi:type simulation)
+    message depends on enumerated kind attribute, value is a QName
+    identifying the branch of a union (xsi:type simulation)
     """
     assert_bindings(
         schema="saxonData/CTA/cta0006.xsd",
@@ -3657,8 +3657,8 @@ def test_cta0006_cta0006_n01(save_xml):
 def test_cta0006_cta0006_n02(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
-    message depends on enumerated kind attribute, value is
-    a QName identifying the branch of a union (xsi:type simulation)
+    message depends on enumerated kind attribute, value is a QName
+    identifying the branch of a union (xsi:type simulation)
     """
     assert_bindings(
         schema="saxonData/CTA/cta0006.xsd",
@@ -3673,8 +3673,7 @@ def test_cta0006_cta0006_n02(save_xml):
 def test_cta0005_cta0005_v01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
-    instance documents) using xpathDefaultNamespace
-    at the schema level
+    instance documents) using xpathDefaultNamespace at the schema level
     """
     assert_bindings(
         schema="saxonData/CTA/cta0005.xsd",
@@ -3690,8 +3689,7 @@ def test_cta0005_cta0005_v01(save_xml):
 def test_cta0005_cta0005_n01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
-    instance documents) using xpathDefaultNamespace
-    at the schema level
+    instance documents) using xpathDefaultNamespace at the schema level
     """
     assert_bindings(
         schema="saxonData/CTA/cta0005.xsd",
@@ -4865,8 +4863,8 @@ def test_id009_id009_v01_xml(save_xml):
 def test_id008_id008_v01_xml(save_xml):
     """
     A complex type with simple ID/IDREF content A complex type with simple
-    ID/IDREF content at one time imposed                       no
-    uniqueness or referential constraints, but this has been clarified.
+    ID/IDREF content at one time imposed no uniqueness or referential
+    constraints, but this has been clarified.
     """
     assert_bindings(
         schema="saxonData/Id/id008.xsd",
@@ -4882,8 +4880,8 @@ def test_id008_id008_v01_xml(save_xml):
 def test_id008_id008_n02_xml(save_xml):
     """
     A complex type with simple ID/IDREF content A complex type with simple
-    ID/IDREF content at one time imposed                       no
-    uniqueness or referential constraints, but this has been clarified.
+    ID/IDREF content at one time imposed no uniqueness or referential
+    constraints, but this has been clarified.
     """
     assert_bindings(
         schema="saxonData/Id/id008.xsd",
@@ -4899,8 +4897,8 @@ def test_id008_id008_n02_xml(save_xml):
 def test_id008_id008_n03_xml(save_xml):
     """
     A complex type with simple ID/IDREF content A complex type with simple
-    ID/IDREF content at one time imposed                       no
-    uniqueness or referential constraints, but this has been clarified.
+    ID/IDREF content at one time imposed no uniqueness or referential
+    constraints, but this has been clarified.
     """
     assert_bindings(
         schema="saxonData/Id/id008.xsd",
@@ -5456,8 +5454,8 @@ def test_open201_open201_v2_xml(save_xml):
 def test_open047_open047_v1_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
-    allows the union of the wildcards                 specified for the
-    base type and for the extension.
+    allows the union of the wildcards specified for the base type and for
+    the extension.
     """
     assert_bindings(
         schema="saxonData/Open/open047.xsd",
@@ -5472,8 +5470,8 @@ def test_open047_open047_v1_xml(save_xml):
 def test_open047_open047_v2_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
-    allows the union of the wildcards                 specified for the
-    base type and for the extension.
+    allows the union of the wildcards specified for the base type and for
+    the extension.
     """
     assert_bindings(
         schema="saxonData/Open/open047.xsd",
@@ -5488,8 +5486,8 @@ def test_open047_open047_v2_xml(save_xml):
 def test_open047_open047_v3_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
-    allows the union of the wildcards                 specified for the
-    base type and for the extension.
+    allows the union of the wildcards specified for the base type and for
+    the extension.
     """
     assert_bindings(
         schema="saxonData/Open/open047.xsd",
@@ -5505,8 +5503,8 @@ def test_open047_open047_v3_xml(save_xml):
 def test_open047_open047_n1_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
-    allows the union of the wildcards                 specified for the
-    base type and for the extension.
+    allows the union of the wildcards specified for the base type and for
+    the extension.
     """
     assert_bindings(
         schema="saxonData/Open/open047.xsd",
@@ -5523,9 +5521,9 @@ def test_open045_open045_v1_xml(save_xml):
     defaultAttributes does not apply to types defined within xs:override
     defaultAttributes does not apply to types defined within xs:override.
     Test rewritten 2011-10-10 to reflect the fact that for a complexType
-    defined within xs:override,                 the defaultAttributes that
-    apply are those defined within the overridden schema document, not the
-    overriding schema document.
+    defined within xs:override, the defaultAttributes that apply are those
+    defined within the overridden schema document, not the overriding
+    schema document.
     """
     assert_bindings(
         schema="saxonData/Open/open045.xsd",
@@ -5543,9 +5541,9 @@ def test_open045_open045_n1_xml(save_xml):
     defaultAttributes does not apply to types defined within xs:override
     defaultAttributes does not apply to types defined within xs:override.
     Test rewritten 2011-10-10 to reflect the fact that for a complexType
-    defined within xs:override,                 the defaultAttributes that
-    apply are those defined within the overridden schema document, not the
-    overriding schema document.
+    defined within xs:override, the defaultAttributes that apply are those
+    defined within the overridden schema document, not the overriding
+    schema document.
     """
     assert_bindings(
         schema="saxonData/Open/open045.xsd",
@@ -5563,9 +5561,9 @@ def test_open045_open045_n2_xml(save_xml):
     defaultAttributes does not apply to types defined within xs:override
     defaultAttributes does not apply to types defined within xs:override.
     Test rewritten 2011-10-10 to reflect the fact that for a complexType
-    defined within xs:override,                 the defaultAttributes that
-    apply are those defined within the overridden schema document, not the
-    overriding schema document.
+    defined within xs:override, the defaultAttributes that apply are those
+    defined within the overridden schema document, not the overriding
+    schema document.
     """
     assert_bindings(
         schema="saxonData/Open/open045.xsd",
@@ -5629,8 +5627,8 @@ def test_open043_open043_v1_xml(save_xml):
     For types defined within xs:override, the relevant defaultOpenContent
     is the one in the overridden schema document For types defined within
     xs:override, the relevant defaultOpenContent is the one in the
-    overridden schema document.                 Test revised 2011-10-10 in
-    response to bug 13458.
+    overridden schema document. Test revised 2011-10-10 in response to bug
+    13458.
     """
     assert_bindings(
         schema="saxonData/Open/open043.xsd",
@@ -5648,8 +5646,8 @@ def test_open043_open043_n1_xml(save_xml):
     For types defined within xs:override, the relevant defaultOpenContent
     is the one in the overridden schema document For types defined within
     xs:override, the relevant defaultOpenContent is the one in the
-    overridden schema document.                 Test revised 2011-10-10 in
-    response to bug 13458.
+    overridden schema document. Test revised 2011-10-10 in response to bug
+    13458.
     """
     assert_bindings(
         schema="saxonData/Open/open043.xsd",
@@ -5667,8 +5665,8 @@ def test_open043_open043_n2_xml(save_xml):
     For types defined within xs:override, the relevant defaultOpenContent
     is the one in the overridden schema document For types defined within
     xs:override, the relevant defaultOpenContent is the one in the
-    overridden schema document.                 Test revised 2011-10-10 in
-    response to bug 13458.
+    overridden schema document. Test revised 2011-10-10 in response to bug
+    13458.
     """
     assert_bindings(
         schema="saxonData/Open/open043.xsd",
@@ -5839,9 +5837,8 @@ def test_open035_open035_n2_xml(save_xml):
 def test_open031_open031_v1_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
-    openContent from the base type ignoring                       the
-    defaultOpenContent when the type is empty and default open content
-    does not apply to empty
+    openContent from the base type ignoring the defaultOpenContent when
+    the type is empty and default open content does not apply to empty
     """
     assert_bindings(
         schema="saxonData/Open/open031.xsd",
@@ -5856,9 +5853,8 @@ def test_open031_open031_v1_xml(save_xml):
 def test_open031_open031_v2_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
-    openContent from the base type ignoring                       the
-    defaultOpenContent when the type is empty and default open content
-    does not apply to empty
+    openContent from the base type ignoring the defaultOpenContent when
+    the type is empty and default open content does not apply to empty
     """
     assert_bindings(
         schema="saxonData/Open/open031.xsd",
@@ -5873,9 +5869,8 @@ def test_open031_open031_v2_xml(save_xml):
 def test_open031_open031_v3_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
-    openContent from the base type ignoring                       the
-    defaultOpenContent when the type is empty and default open content
-    does not apply to empty
+    openContent from the base type ignoring the defaultOpenContent when
+    the type is empty and default open content does not apply to empty
     """
     assert_bindings(
         schema="saxonData/Open/open031.xsd",
@@ -5890,9 +5885,8 @@ def test_open031_open031_v3_xml(save_xml):
 def test_open031_open031_v4_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
-    openContent from the base type ignoring                       the
-    defaultOpenContent when the type is empty and default open content
-    does not apply to empty
+    openContent from the base type ignoring the defaultOpenContent when
+    the type is empty and default open content does not apply to empty
     """
     assert_bindings(
         schema="saxonData/Open/open031.xsd",
@@ -5908,9 +5902,8 @@ def test_open031_open031_v4_xml(save_xml):
 def test_open031_open031_n2_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
-    openContent from the base type ignoring                       the
-    defaultOpenContent when the type is empty and default open content
-    does not apply to empty
+    openContent from the base type ignoring the defaultOpenContent when
+    the type is empty and default open content does not apply to empty
     """
     assert_bindings(
         schema="saxonData/Open/open031.xsd",
@@ -6124,8 +6117,8 @@ def test_open022_open022_v1_xml(save_xml):
 def test_open021_open021_v1_xml(save_xml):
     """
     A valid restriction Base type has suffixed open content, restricted
-    type has interleaved open content,                 but it's OK because
-    the restricted type is otherwise empty (well, "mixed empty").
+    type has interleaved open content, but it's OK because the restricted
+    type is otherwise empty (well, "mixed empty").
     """
     assert_bindings(
         schema="saxonData/Open/open021.xsd",
@@ -6140,8 +6133,8 @@ def test_open021_open021_v1_xml(save_xml):
 def test_open020_open020_v1_xml(save_xml):
     """
     A valid restriction Base type has suffixed open content, restricted
-    type has interleaved open content,                 but it's OK because
-    the restricted type is otherwise empty.
+    type has interleaved open content, but it's OK because the restricted
+    type is otherwise empty.
     """
     assert_bindings(
         schema="saxonData/Open/open020.xsd",
@@ -6249,9 +6242,8 @@ def test_open014_open014_n1_xml(save_xml):
 def test_open013_open013_v1_xml(save_xml):
     """
     Schema defines default open content not applying to an empty content
-    model -                        but it does apply to a mixed content
-    model with an empty particle Defined by defaultOpenContent with
-    appliesToEmpty=false.
+    model - but it does apply to a mixed content model with an empty
+    particle Defined by defaultOpenContent with appliesToEmpty=false.
     """
     assert_bindings(
         schema="saxonData/Open/open013.xsd",
@@ -6329,8 +6321,8 @@ def test_open012_open012_n3_xml(save_xml):
 def test_open011_open011_v1_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
-    defaultOpenContent with appliesToEmpty=true. Uses
-    same instances as open010.
+    defaultOpenContent with appliesToEmpty=true. Uses same instances as
+    open010.
     """
     assert_bindings(
         schema="saxonData/Open/open011.xsd",
@@ -6345,8 +6337,8 @@ def test_open011_open011_v1_xml(save_xml):
 def test_open011_open011_v2_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
-    defaultOpenContent with appliesToEmpty=true. Uses
-    same instances as open010.
+    defaultOpenContent with appliesToEmpty=true. Uses same instances as
+    open010.
     """
     assert_bindings(
         schema="saxonData/Open/open011.xsd",
@@ -6362,8 +6354,8 @@ def test_open011_open011_v2_xml(save_xml):
 def test_open011_open011_n1_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
-    defaultOpenContent with appliesToEmpty=true. Uses
-    same instances as open010.
+    defaultOpenContent with appliesToEmpty=true. Uses same instances as
+    open010.
     """
     assert_bindings(
         schema="saxonData/Open/open011.xsd",
@@ -6379,8 +6371,8 @@ def test_open011_open011_n1_xml(save_xml):
 def test_open011_open011_n2_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
-    defaultOpenContent with appliesToEmpty=true. Uses
-    same instances as open010.
+    defaultOpenContent with appliesToEmpty=true. Uses same instances as
+    open010.
     """
     assert_bindings(
         schema="saxonData/Open/open011.xsd",
@@ -6674,8 +6666,8 @@ def test_open007_open007_n2_xml(save_xml):
 def test_open006_open006_v1_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6690,8 +6682,8 @@ def test_open006_open006_v1_xml(save_xml):
 def test_open006_open006_v2_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6706,8 +6698,8 @@ def test_open006_open006_v2_xml(save_xml):
 def test_open006_open006_v3_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6722,8 +6714,8 @@ def test_open006_open006_v3_xml(save_xml):
 def test_open006_open006_v4_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6739,8 +6731,8 @@ def test_open006_open006_v4_xml(save_xml):
 def test_open006_open006_n1_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6756,8 +6748,8 @@ def test_open006_open006_n1_xml(save_xml):
 def test_open006_open006_n2_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -6773,8 +6765,8 @@ def test_open006_open006_n2_xml(save_xml):
 def test_open006_open006_n3_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
-    Allows any element in specified namespace anywhere in content.
-    Same as open005 except for the schema.
+    Allows any element in specified namespace anywhere in content. Same as
+    open005 except for the schema.
     """
     assert_bindings(
         schema="saxonData/Open/open006.xsd",
@@ -7196,9 +7188,8 @@ def test_over029_over029_n01_xml(save_xml):
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
     Walmsley The xs:override contains a reference to a type in an imported
-    schema                 document, which is not imported into the
-    overridden schema document. See                 Saxon bug 1505 and W3C
-    bug 17574
+    schema document, which is not imported into the overridden schema
+    document. See Saxon bug 1505 and W3C bug 17574
     """
     assert_bindings(
         schema="saxonData/Override/over029.xsd",
@@ -7214,9 +7205,8 @@ def test_over029_over029_v01_xml(save_xml):
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
     Walmsley The xs:override contains a reference to a type in an imported
-    schema                 document, which is not imported into the
-    overridden schema document. See                 Saxon bug 1505 and W3C
-    bug 17574
+    schema document, which is not imported into the overridden schema
+    document. See Saxon bug 1505 and W3C bug 17574
     """
     assert_bindings(
         schema="saxonData/Override/over029.xsd",
@@ -8039,8 +8029,8 @@ def test_over001_over001_n02_xml(save_xml):
 def test_simple085_simple085_v01_xml(save_xml):
     """
     Union derived by restriction with a pattern facet Pattern facet
-    applies after doing whitespace processing defined
-    in the member type against which validation succeeded
+    applies after doing whitespace processing defined in the member type
+    against which validation succeeded
     """
     assert_bindings(
         schema="saxonData/Simple/simple085.xsd",
@@ -8675,9 +8665,9 @@ def test_subsgroup003_subsgroup003_v1_xml(save_xml):
     """
     Tests to show an a substitution group with declarations in different
     namespaces Substitution group has an abstract owner in one namespace,
-    two concrete                 members in different namespaces. Should
-    work with XSD 1.0 or 1.1. Posted as a problem                 on
-    StackOverflow ref 9495098 on 29 Feb 2012.
+    two concrete members in different namespaces. Should work with XSD 1.0
+    or 1.1. Posted as a problem on StackOverflow ref 9495098 on 29 Feb
+    2012.
     """
     assert_bindings(
         schema="saxonData/Subsgroup/subsgroup003a.xsd",
@@ -9254,11 +9244,10 @@ def test_wild083_wild083_v1_xml(save_xml):
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
     Note: When one of the wildcards has defined in {disallowed names} and
-    the other does not,                  then defined is not included in
-    the union. This may allow QNames that are not allowed by
-    either wildcard. This is to ensure that all unions are expressible. If
-    defined is intended                  to be included, then it is
-    necessary to have it in both wildcards.
+    the other does not, then defined is not included in the union. This
+    may allow QNames that are not allowed by either wildcard. This is to
+    ensure that all unions are expressible. If defined is intended to be
+    included, then it is necessary to have it in both wildcards.
     """
     assert_bindings(
         schema="saxonData/Wild/wild083.xsd",
@@ -9275,11 +9264,10 @@ def test_wild083_wild047_n1_xml(save_xml):
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
     Note: When one of the wildcards has defined in {disallowed names} and
-    the other does not,                  then defined is not included in
-    the union. This may allow QNames that are not allowed by
-    either wildcard. This is to ensure that all unions are expressible. If
-    defined is intended                  to be included, then it is
-    necessary to have it in both wildcards.
+    the other does not, then defined is not included in the union. This
+    may allow QNames that are not allowed by either wildcard. This is to
+    ensure that all unions are expressible. If defined is intended to be
+    included, then it is necessary to have it in both wildcards.
     """
     assert_bindings(
         schema="saxonData/Wild/wild083.xsd",
@@ -9310,7 +9298,7 @@ def test_wild082_wild082_v1_xml(save_xml):
 def test_wild080_wild080_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
-    elements and lax  wildcards in a content model No violation of Element
+    elements and lax wildcards in a content model No violation of Element
     Declarations Consistent with a skip wildcard
     """
     assert_bindings(
@@ -10633,8 +10621,7 @@ def test_wild043_wild043_n3_xml(save_xml):
 def test_wild042_wild042_v1_xml(save_xml):
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
-    standard attributes in the xsi namespace being
-    introduced by wildcard
+    standard attributes in the xsi namespace being introduced by wildcard
     """
     assert_bindings(
         schema="saxonData/Wild/wild042.xsd",
@@ -10650,8 +10637,7 @@ def test_wild042_wild042_v1_xml(save_xml):
 def test_wild042_wild042_n1_xml(save_xml):
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
-    standard attributes in the xsi namespace being
-    introduced by wildcard
+    standard attributes in the xsi namespace being introduced by wildcard
     """
     assert_bindings(
         schema="saxonData/Wild/wild042.xsd",
@@ -11324,8 +11310,8 @@ def test_wild017_wild017_n3_xml(save_xml):
 def test_wild016_wild016_v1_xml(save_xml):
     """
     Union of two wildcards using namespace and notNamespace respectively
-    The union allows adam, eve, and abel but not cain.
-    Inversion of wild015.xsd.
+    The union allows adam, eve, and abel but not cain. Inversion of
+    wild015.xsd.
     """
     assert_bindings(
         schema="saxonData/Wild/wild016.xsd",
@@ -11341,8 +11327,8 @@ def test_wild016_wild016_v1_xml(save_xml):
 def test_wild016_wild016_n1_xml(save_xml):
     """
     Union of two wildcards using namespace and notNamespace respectively
-    The union allows adam, eve, and abel but not cain.
-    Inversion of wild015.xsd.
+    The union allows adam, eve, and abel but not cain. Inversion of
+    wild015.xsd.
     """
     assert_bindings(
         schema="saxonData/Wild/wild016.xsd",

@@ -7590,8 +7590,8 @@ def test_any_uri_b006_1356_any_uri_b006_1356_i(save_xml):
     combinations of \ and / TSTF ruled that strictly speaking, per 1.0,
     the schema contains one or more invalid anyURIs In XSD 1.1, any
     sequence of characters is allowed in xs:anyURI, so the schema becomes
-    valid;             but the instance is invalid because the value \a is
-    not present in the enumeration facet - MHK
+    valid; but the instance is invalid because the value \a is not present
+    in the enumeration facet - MHK
     """
     assert_bindings(
         schema="msData/datatypes/Facets/anyURI/anyURI_b006.xsd",
@@ -7708,7 +7708,7 @@ def test_any_uri_a001_1336_any_uri_a001_1336_v(save_xml):
     TEST :Facet Schemas for string : test that the numbers are allowed as
     anyURI in, any, anyAttribute, notation, appinfo, documentation,
     schema, include, redefine, import TSTF ruled that strictly speaking,
-    per 1.0, the schema contains         one or more invalid anyURIs
+    per 1.0, the schema contains one or more invalid anyURIs
     """
     assert_bindings(
         schema="msData/datatypes/Facets/anyURI/anyURI_a001.xsd",

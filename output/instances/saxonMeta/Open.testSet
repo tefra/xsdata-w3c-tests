@@ -25,7 +25,9 @@
     </schemaTest>
     <instanceTest name="open001.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
       <expected validity="valid"/>
@@ -33,7 +35,9 @@
     </instanceTest>
     <instanceTest name="open001.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
       <expected validity="valid"/>
@@ -41,7 +45,9 @@
     </instanceTest>
     <instanceTest name="open001.v3.xml">
       <annotation>
-        <documentation>Valid, with no open content.</documentation>
+        <documentation>
+		                Valid, with no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
       <expected validity="valid"/>
@@ -49,7 +55,9 @@
     </instanceTest>
     <instanceTest name="open001.n1.xml">
       <annotation>
-        <documentation>Invalid, open content must come last.</documentation>
+        <documentation>
+		                Invalid, open content must come last.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
       <expected validity="invalid"/>
@@ -57,7 +65,9 @@
     </instanceTest>
     <instanceTest name="open001.n2.xml">
       <annotation>
-        <documentation>Invalid, open content comes before mandatory elements.</documentation>
+        <documentation>
+		                Invalid, open content comes before mandatory elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
       <expected validity="invalid"/>
@@ -65,7 +75,9 @@
     </instanceTest>
     <instanceTest name="open001.n3.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
       <expected validity="invalid"/>
@@ -73,7 +85,9 @@
     </instanceTest>
     <instanceTest name="open001.n4.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
       <expected validity="invalid"/>
@@ -97,7 +111,9 @@
     </schemaTest>
     <instanceTest name="open002.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v1.xml"/>
       <expected validity="valid"/>
@@ -105,7 +121,9 @@
     </instanceTest>
     <instanceTest name="open002.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v2.xml"/>
       <expected validity="valid"/>
@@ -113,7 +131,9 @@
     </instanceTest>
     <instanceTest name="open002.v3.xml">
       <annotation>
-        <documentation>Valid, with no open content.</documentation>
+        <documentation>
+		                Valid, with no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.v3.xml"/>
       <expected validity="valid"/>
@@ -121,7 +141,9 @@
     </instanceTest>
     <instanceTest name="open002.n1.xml">
       <annotation>
-        <documentation>Invalid, open content must come last.</documentation>
+        <documentation>
+		                Invalid, open content must come last.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n1.xml"/>
       <expected validity="invalid"/>
@@ -129,7 +151,9 @@
     </instanceTest>
     <instanceTest name="open002.n2.xml">
       <annotation>
-        <documentation>Invalid, open content comes before mandatory elements.</documentation>
+        <documentation>
+		                Invalid, open content comes before mandatory elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n2.xml"/>
       <expected validity="invalid"/>
@@ -137,7 +161,9 @@
     </instanceTest>
     <instanceTest name="open002.n3.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n3.xml"/>
       <expected validity="invalid"/>
@@ -145,7 +171,9 @@
     </instanceTest>
     <instanceTest name="open002.n4.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open001.n4.xml"/>
       <expected validity="invalid"/>
@@ -168,7 +196,9 @@
     </schemaTest>
     <instanceTest name="open003.v1.xml">
       <annotation>
-        <documentation>Valid, uses local open content.</documentation>
+        <documentation>
+		                Valid, uses local open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.v1.xml"/>
       <expected validity="valid"/>
@@ -176,7 +206,9 @@
     </instanceTest>
     <instanceTest name="open003.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default open content namespace.</documentation>
+        <documentation>
+		                Invalid, uses default open content namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open003.n1.xml"/>
       <expected validity="invalid"/>
@@ -199,7 +231,9 @@
     </schemaTest>
     <instanceTest name="open004.v1.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.v1.xml"/>
       <expected validity="valid"/>
@@ -207,7 +241,9 @@
     </instanceTest>
     <instanceTest name="open004.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default open content namespace.</documentation>
+        <documentation>
+		                Invalid, uses default open content namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open004.n1.xml"/>
       <expected validity="invalid"/>
@@ -230,7 +266,9 @@
     </schemaTest>
     <instanceTest name="open005.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
       <expected validity="valid"/>
@@ -238,7 +276,9 @@
     </instanceTest>
     <instanceTest name="open005.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
       <expected validity="valid"/>
@@ -246,7 +286,9 @@
     </instanceTest>
     <instanceTest name="open005.v3.xml">
       <annotation>
-        <documentation>Valid, with open content.</documentation>
+        <documentation>
+		                Valid, with open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
       <expected validity="valid"/>
@@ -254,7 +296,9 @@
     </instanceTest>
     <instanceTest name="open005.v4.xml">
       <annotation>
-        <documentation>Valid, with no open content.</documentation>
+        <documentation>
+		                Valid, with no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
       <expected validity="valid"/>
@@ -262,7 +306,9 @@
     </instanceTest>
     <instanceTest name="open005.n1.xml">
       <annotation>
-        <documentation>Invalid, open content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, open content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
       <expected validity="invalid"/>
@@ -270,7 +316,9 @@
     </instanceTest>
     <instanceTest name="open005.n2.xml">
       <annotation>
-        <documentation>Invalid, does not match regular content model.</documentation>
+        <documentation>
+		                Invalid, does not match regular content model.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
       <expected validity="invalid"/>
@@ -278,7 +326,9 @@
     </instanceTest>
     <instanceTest name="open005.n3.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
       <expected validity="invalid"/>
@@ -302,7 +352,9 @@
     </schemaTest>
     <instanceTest name="open006.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v1.xml"/>
       <expected validity="valid"/>
@@ -310,7 +362,9 @@
     </instanceTest>
     <instanceTest name="open006.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v2.xml"/>
       <expected validity="valid"/>
@@ -318,7 +372,9 @@
     </instanceTest>
     <instanceTest name="open006.v3.xml">
       <annotation>
-        <documentation>Valid, with open content.</documentation>
+        <documentation>
+		                Valid, with open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v3.xml"/>
       <expected validity="valid"/>
@@ -326,7 +382,9 @@
     </instanceTest>
     <instanceTest name="open006.v4.xml">
       <annotation>
-        <documentation>Valid, with no open content.</documentation>
+        <documentation>
+		                Valid, with no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.v4.xml"/>
       <expected validity="valid"/>
@@ -334,7 +392,9 @@
     </instanceTest>
     <instanceTest name="open006.n1.xml">
       <annotation>
-        <documentation>Invalid, open content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, open content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n1.xml"/>
       <expected validity="invalid"/>
@@ -342,7 +402,9 @@
     </instanceTest>
     <instanceTest name="open006.n2.xml">
       <annotation>
-        <documentation>Invalid, does not match regular content model.</documentation>
+        <documentation>
+		                Invalid, does not match regular content model.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n2.xml"/>
       <expected validity="invalid"/>
@@ -350,7 +412,9 @@
     </instanceTest>
     <instanceTest name="open006.n3.xml">
       <annotation>
-        <documentation>Invalid, suffixed content does not match wildcard.</documentation>
+        <documentation>
+		                Invalid, suffixed content does not match wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open005.n3.xml"/>
       <expected validity="invalid"/>
@@ -373,7 +437,9 @@
     </schemaTest>
     <instanceTest name="open007.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v1.xml"/>
       <expected validity="valid"/>
@@ -381,7 +447,9 @@
     </instanceTest>
     <instanceTest name="open007.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.v2.xml"/>
       <expected validity="valid"/>
@@ -389,7 +457,9 @@
     </instanceTest>
     <instanceTest name="open007.n1.xml">
       <annotation>
-        <documentation>Invalid, maxOccurs violation.</documentation>
+        <documentation>
+		                Invalid, maxOccurs violation.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n1.xml"/>
       <expected validity="invalid"/>
@@ -397,7 +467,9 @@
     </instanceTest>
     <instanceTest name="open007.n2.xml">
       <annotation>
-        <documentation>Invalid, minOccurs violation.</documentation>
+        <documentation>
+		                Invalid, minOccurs violation.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open007.n2.xml"/>
       <expected validity="invalid"/>
@@ -420,7 +492,9 @@
     </schemaTest>
     <instanceTest name="open008.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v1.xml"/>
       <expected validity="valid"/>
@@ -428,7 +502,9 @@
     </instanceTest>
     <instanceTest name="open008.v2.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v2.xml"/>
       <expected validity="valid"/>
@@ -436,7 +512,9 @@
     </instanceTest>
     <instanceTest name="open008.v3.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.v3.xml"/>
       <expected validity="valid"/>
@@ -444,7 +522,9 @@
     </instanceTest>
     <instanceTest name="open008.n1.xml">
       <annotation>
-        <documentation>Invalid, open content in wrong namespace.</documentation>
+        <documentation>
+		                Invalid, open content in wrong namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n1.xml"/>
       <expected validity="invalid"/>
@@ -452,7 +532,9 @@
     </instanceTest>
     <instanceTest name="open008.n2.xml">
       <annotation>
-        <documentation>Invalid, too many a elements.</documentation>
+        <documentation>
+		                Invalid, too many a elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n2.xml"/>
       <expected validity="invalid"/>
@@ -460,7 +542,9 @@
     </instanceTest>
     <instanceTest name="open008.n3.xml">
       <annotation>
-        <documentation>Invalid, too few a elements.</documentation>
+        <documentation>
+		                Invalid, too few a elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open008.n3.xml"/>
       <expected validity="invalid"/>
@@ -484,7 +568,9 @@
     </schemaTest>
     <instanceTest name="open009.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v1.xml"/>
       <expected validity="valid"/>
@@ -492,7 +578,9 @@
     </instanceTest>
     <instanceTest name="open009.v2.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.v2.xml"/>
       <expected validity="valid"/>
@@ -500,7 +588,9 @@
     </instanceTest>
     <instanceTest name="open009.n1.xml">
       <annotation>
-        <documentation>Invalid, open content in wrong place.</documentation>
+        <documentation>
+		                Invalid, open content in wrong place.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n1.xml"/>
       <expected validity="invalid"/>
@@ -508,7 +598,9 @@
     </instanceTest>
     <instanceTest name="open009.n2.xml">
       <annotation>
-        <documentation>Invalid, too few a elements.</documentation>
+        <documentation>
+		                Invalid, too few a elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open009.n2.xml"/>
       <expected validity="invalid"/>
@@ -532,7 +624,9 @@
     </schemaTest>
     <instanceTest name="open010.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
       <expected validity="valid"/>
@@ -540,7 +634,9 @@
     </instanceTest>
     <instanceTest name="open010.v2.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
       <expected validity="valid"/>
@@ -548,7 +644,9 @@
     </instanceTest>
     <instanceTest name="open010.n1.xml">
       <annotation>
-        <documentation>Invalid, content does not match open content wildcard.</documentation>
+        <documentation>
+		                Invalid, content does not match open content wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
       <expected validity="invalid"/>
@@ -556,7 +654,9 @@
     </instanceTest>
     <instanceTest name="open010.n2.xml">
       <annotation>
-        <documentation>Invalid, text content not allowed</documentation>
+        <documentation>
+		                Invalid, text content not allowed
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
       <expected validity="invalid"/>
@@ -581,7 +681,9 @@
     </schemaTest>
     <instanceTest name="open011.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v1.xml"/>
       <expected validity="valid"/>
@@ -589,7 +691,9 @@
     </instanceTest>
     <instanceTest name="open011.v2.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.v2.xml"/>
       <expected validity="valid"/>
@@ -597,7 +701,9 @@
     </instanceTest>
     <instanceTest name="open011.n1.xml">
       <annotation>
-        <documentation>Invalid, content does not match open content wildcard.</documentation>
+        <documentation>
+		                Invalid, content does not match open content wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n1.xml"/>
       <expected validity="invalid"/>
@@ -605,7 +711,9 @@
     </instanceTest>
     <instanceTest name="open011.n2.xml">
       <annotation>
-        <documentation>Invalid, text content not allowed</documentation>
+        <documentation>
+		                Invalid, text content not allowed
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open010.n2.xml"/>
       <expected validity="invalid"/>
@@ -616,7 +724,7 @@
     <annotation>
       <documentation>
         <Title>Schema defines default open content but not applying to an empty content model</Title>
-        <Description>Defined by defaultOpenContent with appliesToEmpty=false.</Description>
+        <Description>Defined by defaultOpenContent with appliesToEmpty=false. </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
@@ -629,7 +737,9 @@
     </schemaTest>
     <instanceTest name="open012.v1.xml">
       <annotation>
-        <documentation>Valid, uses no open content.</documentation>
+        <documentation>
+		                Valid, uses no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.v1.xml"/>
       <expected validity="valid"/>
@@ -637,7 +747,9 @@
     </instanceTest>
     <instanceTest name="open012.n1.xml">
       <annotation>
-        <documentation>Invalid, open content is not allowed.</documentation>
+        <documentation>
+		                Invalid, open content is not allowed.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n1.xml"/>
       <expected validity="invalid"/>
@@ -645,7 +757,9 @@
     </instanceTest>
     <instanceTest name="open012.n2.xml">
       <annotation>
-        <documentation>Invalid, text content not allowed</documentation>
+        <documentation>
+		                Invalid, text content not allowed
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n2.xml"/>
       <expected validity="invalid"/>
@@ -653,7 +767,9 @@
     </instanceTest>
     <instanceTest name="open012.n3.xml">
       <annotation>
-        <documentation>Invalid, even whitespace is not allowed</documentation>
+        <documentation>
+		                Invalid, even whitespace is not allowed
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open012.n3.xml"/>
       <expected validity="invalid"/>
@@ -665,7 +781,7 @@
       <documentation>
         <Title>Schema defines default open content not applying to an empty content model -
                        but it does apply to a mixed content model with an empty particle</Title>
-        <Description>Defined by defaultOpenContent with appliesToEmpty=false.</Description>
+        <Description>Defined by defaultOpenContent with appliesToEmpty=false. </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
@@ -679,7 +795,9 @@
     </schemaTest>
     <instanceTest name="open013.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open013.v1.xml"/>
       <expected validity="valid"/>
@@ -702,7 +820,9 @@
     </schemaTest>
     <instanceTest name="open014.v1.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.v1.xml"/>
       <expected validity="valid"/>
@@ -710,7 +830,9 @@
     </instanceTest>
     <instanceTest name="open014.n1.xml">
       <annotation>
-        <documentation>Invalid, tries to use open content.</documentation>
+        <documentation>
+		                Invalid, tries to use open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open014.n1.xml"/>
       <expected validity="invalid"/>
@@ -733,7 +855,9 @@
     </schemaTest>
     <instanceTest name="open015.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.v1.xml"/>
       <expected validity="valid"/>
@@ -741,7 +865,9 @@
     </instanceTest>
     <instanceTest name="open015.n1.xml">
       <annotation>
-        <documentation>Invalid, tries to a child not defined in derived type.</documentation>
+        <documentation>
+		                Invalid, tries to a child not defined in derived type.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open015.n1.xml"/>
       <expected validity="invalid"/>
@@ -764,7 +890,9 @@
     </schemaTest>
     <instanceTest name="open016.v1.xml">
       <annotation>
-        <documentation>Valid, no attempt to use open content.</documentation>
+        <documentation>
+		                Valid, no attempt to use open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.v1.xml"/>
       <expected validity="valid"/>
@@ -772,7 +900,9 @@
     </instanceTest>
     <instanceTest name="open016.n1.xml">
       <annotation>
-        <documentation>Invalid, tries to use an open content child, not allowed with simple content.</documentation>
+        <documentation>
+		                Invalid, tries to use an open content child, not allowed with simple content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open016.n1.xml"/>
       <expected validity="invalid"/>
@@ -856,7 +986,9 @@
     </schemaTest>
     <instanceTest name="open020.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open020.v1.xml"/>
       <expected validity="valid"/>
@@ -881,7 +1013,9 @@
     </schemaTest>
     <instanceTest name="open021.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open021.v1.xml"/>
       <expected validity="valid"/>
@@ -905,7 +1039,9 @@
     </schemaTest>
     <instanceTest name="open022.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open022.v1.xml"/>
       <expected validity="valid"/>
@@ -928,7 +1064,9 @@
     </schemaTest>
     <instanceTest name="open023.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
       <expected validity="valid"/>
@@ -951,7 +1089,9 @@
     </schemaTest>
     <instanceTest name="open024.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open023.v1.xml"/>
       <expected validity="valid"/>
@@ -974,7 +1114,9 @@
     </schemaTest>
     <instanceTest name="open025.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content.</documentation>
+        <documentation>
+		                Valid, uses open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.v1.xml"/>
       <expected validity="valid"/>
@@ -982,7 +1124,9 @@
     </instanceTest>
     <instanceTest name="open025.n1.xml">
       <annotation>
-        <documentation>Invalid, element i must be an integer.</documentation>
+        <documentation>
+		                Invalid, element i must be an integer.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open025.n1.xml"/>
       <expected validity="invalid"/>
@@ -1005,7 +1149,9 @@
     </schemaTest>
     <instanceTest name="open027.v1.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
       <expected validity="valid"/>
@@ -1013,7 +1159,9 @@
     </instanceTest>
     <instanceTest name="open027.v2.xml">
       <annotation>
-        <documentation>Valid, open content after extension content.</documentation>
+        <documentation>
+		                Valid, open content after extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
       <expected validity="valid"/>
@@ -1021,7 +1169,9 @@
     </instanceTest>
     <instanceTest name="open027.v3.xml">
       <annotation>
-        <documentation>Valid, open content at end, no extension content.</documentation>
+        <documentation>
+		                Valid, open content at end, no extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
       <expected validity="valid"/>
@@ -1029,7 +1179,9 @@
     </instanceTest>
     <instanceTest name="open027.n1.xml">
       <annotation>
-        <documentation>Invalid, tries to use open content not at the end.</documentation>
+        <documentation>
+		                Invalid, tries to use open content not at the end.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
       <expected validity="invalid"/>
@@ -1052,7 +1204,9 @@
     </schemaTest>
     <instanceTest name="open028.v1.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
       <expected validity="valid"/>
@@ -1060,7 +1214,9 @@
     </instanceTest>
     <instanceTest name="open028.v2.xml">
       <annotation>
-        <documentation>Valid, open content after extension content.</documentation>
+        <documentation>
+		                Valid, open content after extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
       <expected validity="valid"/>
@@ -1068,7 +1224,9 @@
     </instanceTest>
     <instanceTest name="open028.v3.xml">
       <annotation>
-        <documentation>Valid, open content at end, no extension content.</documentation>
+        <documentation>
+		                Valid, open content at end, no extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
       <expected validity="valid"/>
@@ -1076,7 +1234,9 @@
     </instanceTest>
     <instanceTest name="open028.n1.xml">
       <annotation>
-        <documentation>Invalid, tries to use open content not at the end.</documentation>
+        <documentation>
+		                Invalid, tries to use open content not at the end.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
       <expected validity="invalid"/>
@@ -1104,7 +1264,8 @@
       <documentation>
         <Title>A valid extension</Title>
         <Description>complex type extension: derived type takes openContent from the base type ignoring
-                      the defaultOpenContent when the type is empty and default open content does not apply to empty</Description>
+                      the defaultOpenContent when the type is empty and default open content does not apply to empty
+                </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
@@ -1117,7 +1278,9 @@
     </schemaTest>
     <instanceTest name="open031.v1.xml">
       <annotation>
-        <documentation>Valid, no open content.</documentation>
+        <documentation>
+		                Valid, no open content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v1.xml"/>
       <expected validity="valid"/>
@@ -1125,7 +1288,9 @@
     </instanceTest>
     <instanceTest name="open031.v2.xml">
       <annotation>
-        <documentation>Valid, open content after extension content.</documentation>
+        <documentation>
+		                Valid, open content after extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v2.xml"/>
       <expected validity="valid"/>
@@ -1133,7 +1298,9 @@
     </instanceTest>
     <instanceTest name="open031.v3.xml">
       <annotation>
-        <documentation>Valid, open content at end, no extension content.</documentation>
+        <documentation>
+		                Valid, open content at end, no extension content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.v3.xml"/>
       <expected validity="valid"/>
@@ -1141,7 +1308,9 @@
     </instanceTest>
     <instanceTest name="open031.v4.xml">
       <annotation>
-        <documentation>Valid, tries to use open content not at the end.</documentation>
+        <documentation>
+		                Valid, tries to use open content not at the end.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open027.n1.xml"/>
       <expected validity="valid"/>
@@ -1149,7 +1318,9 @@
     </instanceTest>
     <instanceTest name="open031.n2.xml">
       <annotation>
-        <documentation>Invalid, tries to use open content in the wrong namespace.</documentation>
+        <documentation>
+		                Invalid, tries to use open content in the wrong namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open029.n2.xml"/>
       <expected validity="invalid"/>
@@ -1203,7 +1374,9 @@
     </schemaTest>
     <instanceTest name="open035.v1.xml">
       <annotation>
-        <documentation>Valid, uses default attributes correctly.</documentation>
+        <documentation>
+		                Valid, uses default attributes correctly.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.v1.xml"/>
       <expected validity="valid"/>
@@ -1211,7 +1384,9 @@
     </instanceTest>
     <instanceTest name="open035.n1.xml">
       <annotation>
-        <documentation>Invalid, defaultAttributesApply=false disallows id attribute on BookStore.</documentation>
+        <documentation>
+		                Invalid, defaultAttributesApply=false disallows id attribute on BookStore.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n1.xml"/>
       <expected validity="invalid"/>
@@ -1219,7 +1394,9 @@
     </instanceTest>
     <instanceTest name="open035.n2.xml">
       <annotation>
-        <documentation>Invalid, defaultAttributes do not apply to simple types.</documentation>
+        <documentation>
+		                Invalid, defaultAttributes do not apply to simple types.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open035.n2.xml"/>
       <expected validity="invalid"/>
@@ -1302,7 +1479,9 @@
     </schemaTest>
     <instanceTest name="open040.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content only where allowed.</documentation>
+        <documentation>
+		                Valid, uses open content only where allowed.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.v1.xml"/>
       <expected validity="valid"/>
@@ -1310,7 +1489,9 @@
     </instanceTest>
     <instanceTest name="open040.n1.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type beta where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses open content on type beta where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open040.n1.xml"/>
       <expected validity="invalid"/>
@@ -1333,7 +1514,9 @@
     </schemaTest>
     <instanceTest name="open041.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content only where allowed.</documentation>
+        <documentation>
+		                Valid, uses open content only where allowed.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.v1.xml"/>
       <expected validity="valid"/>
@@ -1341,7 +1524,9 @@
     </instanceTest>
     <instanceTest name="open041.n1.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses open content on type alpha where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open041.n1.xml"/>
       <expected validity="invalid"/>
@@ -1364,7 +1549,9 @@
     </schemaTest>
     <instanceTest name="open042.v1.xml">
       <annotation>
-        <documentation>Valid, uses open content only where allowed.</documentation>
+        <documentation>
+		                Valid, uses open content only where allowed.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.v1.xml"/>
       <expected validity="valid"/>
@@ -1372,7 +1559,9 @@
     </instanceTest>
     <instanceTest name="open042.n1.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses open content on type alpha where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n1.xml"/>
       <expected validity="invalid"/>
@@ -1380,7 +1569,9 @@
     </instanceTest>
     <instanceTest name="open042.n2.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.</documentation>
+        <documentation>
+		                Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open042.n2.xml"/>
       <expected validity="invalid"/>
@@ -1404,7 +1595,9 @@
     </schemaTest>
     <instanceTest name="open043.v1.xml">
       <annotation>
-        <documentation>Valid, uses no open content</documentation>
+        <documentation>
+		                Valid, uses no open content
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.v1.xml"/>
       <expected validity="valid"/>
@@ -1412,7 +1605,9 @@
     </instanceTest>
     <instanceTest name="open043.n1.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type alpha where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses open content on type alpha where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n1.xml"/>
       <expected validity="invalid"/>
@@ -1420,7 +1615,9 @@
     </instanceTest>
     <instanceTest name="open043.n2.xml">
       <annotation>
-        <documentation>Invalid, uses open content on type beta where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses open content on type beta where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open043.n2.xml"/>
       <expected validity="invalid"/>
@@ -1444,7 +1641,9 @@
     </schemaTest>
     <instanceTest name="open044.v1.xml">
       <annotation>
-        <documentation>Valid, uses default attributes only where allowed.</documentation>
+        <documentation>
+		                Valid, uses default attributes only where allowed.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.v1.xml"/>
       <expected validity="valid"/>
@@ -1452,7 +1651,9 @@
     </instanceTest>
     <instanceTest name="open044.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes on type alpha where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses default attributes on type alpha where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n1.xml"/>
       <expected validity="invalid"/>
@@ -1460,7 +1661,9 @@
     </instanceTest>
     <instanceTest name="open044.n2.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses default attributes where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open044.n2.xml"/>
       <expected validity="invalid"/>
@@ -1487,7 +1690,9 @@
     </schemaTest>
     <instanceTest name="open045.v1.xml">
       <annotation>
-        <documentation>Valid, uses no default attributes.</documentation>
+        <documentation>
+		                Valid, uses no default attributes.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.v1.xml"/>
       <expected validity="valid"/>
@@ -1495,7 +1700,9 @@
     </instanceTest>
     <instanceTest name="open045.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes on type alpha where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses default attributes on type alpha where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n1.xml"/>
       <expected validity="invalid"/>
@@ -1503,7 +1710,9 @@
     </instanceTest>
     <instanceTest name="open045.n2.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes on type beta where it is not applicable.</documentation>
+        <documentation>
+		                Invalid, uses default attributes on type beta where it is not applicable.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open045.n2.xml"/>
       <expected validity="invalid"/>
@@ -1516,7 +1725,8 @@
         <Title>A valid extension</Title>
         <Description>complex type extension: derived type takes openContent from the base type ignoring
                       the defaultOpenContent when the type is empty and default open content does not apply to empty.
-                      This test was formerly open031 and was believed to be valid; see bug 13459.</Description>
+                      This test was formerly open031 and was believed to be valid; see bug 13459.
+                </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
@@ -1533,7 +1743,8 @@
       <documentation>
         <Title>A valid extension</Title>
         <Description>complex type extension: derived type's open content allows the union of the wildcards
-                specified for the base type and for the extension.</Description>
+                specified for the base type and for the extension.
+                </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
@@ -1545,7 +1756,9 @@
     </schemaTest>
     <instanceTest name="open047.v1.xml">
       <annotation>
-        <documentation>Valid, open content permitted by the base type.</documentation>
+        <documentation>
+		                Valid, open content permitted by the base type.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v1.xml"/>
       <expected validity="valid"/>
@@ -1553,7 +1766,9 @@
     </instanceTest>
     <instanceTest name="open047.v2.xml">
       <annotation>
-        <documentation>Valid, open content permitted by the extension.</documentation>
+        <documentation>
+		                Valid, open content permitted by the extension.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v2.xml"/>
       <expected validity="valid"/>
@@ -1561,7 +1776,9 @@
     </instanceTest>
     <instanceTest name="open047.v3.xml">
       <annotation>
-        <documentation>Valid, open content permitted by the extension.</documentation>
+        <documentation>
+		                Valid, open content permitted by the extension.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.v3.xml"/>
       <expected validity="valid"/>
@@ -1569,7 +1786,9 @@
     </instanceTest>
     <instanceTest name="open047.n1.xml">
       <annotation>
-        <documentation>Invalid, open content violates dynamic EDC rule</documentation>
+        <documentation>
+		                Invalid, open content violates dynamic EDC rule
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open047.n1.xml"/>
       <expected validity="invalid"/>
@@ -1607,7 +1826,9 @@
     </schemaTest>
     <instanceTest name="open201.v1.xml">
       <annotation>
-        <documentation>Valid, uses default attributes.</documentation>
+        <documentation>
+		                Valid, uses default attributes.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v1.xml"/>
       <expected validity="valid"/>
@@ -1615,7 +1836,9 @@
     </instanceTest>
     <instanceTest name="open201.v2.xml">
       <annotation>
-        <documentation>Valid, omits default attributes.</documentation>
+        <documentation>
+		                Valid, omits default attributes.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open201.v2.xml"/>
       <expected validity="valid"/>
@@ -1638,7 +1861,9 @@
     </schemaTest>
     <instanceTest name="open202.v1.xml">
       <annotation>
-        <documentation>Valid, uses default attributes as appropriate.</documentation>
+        <documentation>
+		                Valid, uses default attributes as appropriate.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.v1.xml"/>
       <expected validity="valid"/>
@@ -1646,7 +1871,9 @@
     </instanceTest>
     <instanceTest name="open202.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes where they don't apply.</documentation>
+        <documentation>
+		                Invalid, uses default attributes where they don't apply.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open202.n1.xml"/>
       <expected validity="invalid"/>
@@ -1699,7 +1926,9 @@
     </schemaTest>
     <instanceTest name="open205.v1.xml">
       <annotation>
-        <documentation>Valid, uses default attributes as appropriate.</documentation>
+        <documentation>
+		                Valid, uses default attributes as appropriate.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.v1.xml"/>
       <expected validity="valid"/>
@@ -1707,8 +1936,10 @@
     </instanceTest>
     <instanceTest name="open205.n1.xml">
       <annotation>
-        <documentation>Invalid, uses default attributes where they don't apply because the type
-		                is defined in a different schema document with no defaultAttributes</documentation>
+        <documentation>
+		                Invalid, uses default attributes where they don't apply because the type
+		                is defined in a different schema document with no defaultAttributes
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Open/open205.n1.xml"/>
       <expected validity="invalid"/>

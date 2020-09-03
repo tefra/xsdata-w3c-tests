@@ -159,7 +159,9 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Changed the status to "valid" in response to bug #12129</documentation>
+          <documentation>
+                        Changed the status to "valid" in response to bug #12129
+                    </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-12-01"/>

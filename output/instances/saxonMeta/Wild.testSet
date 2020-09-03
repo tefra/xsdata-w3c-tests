@@ -23,7 +23,9 @@
     </schemaTest>
     <instanceTest name="wild001.v1.xml">
       <annotation>
-        <documentation>Valid, no attributes present.</documentation>
+        <documentation>
+		                Valid, no attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild001.v1.xml"/>
       <expected validity="valid"/>
@@ -31,7 +33,9 @@
     </instanceTest>
     <instanceTest name="wild001.v2.xml">
       <annotation>
-        <documentation>Valid, permitted attributes present.</documentation>
+        <documentation>
+		                Valid, permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild001.v2.xml"/>
       <expected validity="valid"/>
@@ -39,7 +43,9 @@
     </instanceTest>
     <instanceTest name="wild001.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed attributes present.</documentation>
+        <documentation>
+		                Invalid, disallowed attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild001.n1.xml"/>
       <expected validity="invalid"/>
@@ -47,7 +53,9 @@
     </instanceTest>
     <instanceTest name="wild001.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed attributes present.</documentation>
+        <documentation>
+		                Invalid, disallowed attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild001.n2.xml"/>
       <expected validity="invalid"/>
@@ -70,7 +78,9 @@
     </schemaTest>
     <instanceTest name="wild002.v1.xml">
       <annotation>
-        <documentation>Valid, no children present.</documentation>
+        <documentation>
+		                Valid, no children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild002.v1.xml"/>
       <expected validity="valid"/>
@@ -78,7 +88,9 @@
     </instanceTest>
     <instanceTest name="wild002.v2.xml">
       <annotation>
-        <documentation>Valid, permitted children present.</documentation>
+        <documentation>
+		                Valid, permitted children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild002.v2.xml"/>
       <expected validity="valid"/>
@@ -86,7 +98,9 @@
     </instanceTest>
     <instanceTest name="wild002.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed children present.</documentation>
+        <documentation>
+		                Invalid, disallowed children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild002.n1.xml"/>
       <expected validity="invalid"/>
@@ -94,7 +108,9 @@
     </instanceTest>
     <instanceTest name="wild002.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed atchildrentributes present.</documentation>
+        <documentation>
+		                Invalid, disallowed atchildrentributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild002.n2.xml"/>
       <expected validity="invalid"/>
@@ -117,7 +133,9 @@
     </schemaTest>
     <instanceTest name="wild003.v1.xml">
       <annotation>
-        <documentation>Valid, no attributes present.</documentation>
+        <documentation>
+		                Valid, no attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.v1.xml"/>
       <expected validity="valid"/>
@@ -125,7 +143,9 @@
     </instanceTest>
     <instanceTest name="wild003.v2.xml">
       <annotation>
-        <documentation>Valid, permitted attributes present.</documentation>
+        <documentation>
+		                Valid, permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.v2.xml"/>
       <expected validity="valid"/>
@@ -133,7 +153,9 @@
     </instanceTest>
     <instanceTest name="wild003.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.n1.xml"/>
       <expected validity="invalid"/>
@@ -156,7 +178,9 @@
     </schemaTest>
     <instanceTest name="wild004.v1.xml">
       <annotation>
-        <documentation>Valid, no children present.</documentation>
+        <documentation>
+		                Valid, no children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.v1.xml"/>
       <expected validity="valid"/>
@@ -164,7 +188,9 @@
     </instanceTest>
     <instanceTest name="wild004.v2.xml">
       <annotation>
-        <documentation>Valid, permitted child present.</documentation>
+        <documentation>
+		                Valid, permitted child present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.v2.xml"/>
       <expected validity="valid"/>
@@ -172,7 +198,9 @@
     </instanceTest>
     <instanceTest name="wild004.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed child present.</documentation>
+        <documentation>
+		                Invalid, disallowed child present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.n1.xml"/>
       <expected validity="invalid"/>
@@ -195,7 +223,9 @@
     </schemaTest>
     <instanceTest name="wild005.v1.xml">
       <annotation>
-        <documentation>Valid, no attributes present.</documentation>
+        <documentation>
+		                Valid, no attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.v1.xml"/>
       <expected validity="valid"/>
@@ -203,7 +233,9 @@
     </instanceTest>
     <instanceTest name="wild005.v2.xml">
       <annotation>
-        <documentation>Valid, permitted attributes present.</documentation>
+        <documentation>
+		                Valid, permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.v2.xml"/>
       <expected validity="valid"/>
@@ -211,7 +243,9 @@
     </instanceTest>
     <instanceTest name="wild005.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild003.n1.xml"/>
       <expected validity="invalid"/>
@@ -234,7 +268,9 @@
     </schemaTest>
     <instanceTest name="wild006.v1.xml">
       <annotation>
-        <documentation>Valid, no children present.</documentation>
+        <documentation>
+		                Valid, no children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.v1.xml"/>
       <expected validity="valid"/>
@@ -242,7 +278,9 @@
     </instanceTest>
     <instanceTest name="wild006.v2.xml">
       <annotation>
-        <documentation>Valid, permitted child present.</documentation>
+        <documentation>
+		                Valid, permitted child present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.v2.xml"/>
       <expected validity="valid"/>
@@ -250,7 +288,9 @@
     </instanceTest>
     <instanceTest name="wild006.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed child present.</documentation>
+        <documentation>
+		                Invalid, disallowed child present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild004.n1.xml"/>
       <expected validity="invalid"/>
@@ -303,7 +343,9 @@
     </schemaTest>
     <instanceTest name="wild009.v1.xml">
       <annotation>
-        <documentation>Valid, no attributes present.</documentation>
+        <documentation>
+		                Valid, no attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.v1.xml"/>
       <expected validity="valid"/>
@@ -311,7 +353,9 @@
     </instanceTest>
     <instanceTest name="wild009.v2.xml">
       <annotation>
-        <documentation>Valid, permitted attributes present.</documentation>
+        <documentation>
+		                Valid, permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.v2.xml"/>
       <expected validity="valid"/>
@@ -319,7 +363,9 @@
     </instanceTest>
     <instanceTest name="wild009.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.n1.xml"/>
       <expected validity="invalid"/>
@@ -327,7 +373,9 @@
     </instanceTest>
     <instanceTest name="wild009.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.n2.xml"/>
       <expected validity="invalid"/>
@@ -350,7 +398,9 @@
     </schemaTest>
     <instanceTest name="wild010.v1.xml">
       <annotation>
-        <documentation>Valid, no children present.</documentation>
+        <documentation>
+		                Valid, no children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.v1.xml"/>
       <expected validity="valid"/>
@@ -358,7 +408,9 @@
     </instanceTest>
     <instanceTest name="wild010.v2.xml">
       <annotation>
-        <documentation>Valid, permitted children present.</documentation>
+        <documentation>
+		                Valid, permitted children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.v2.xml"/>
       <expected validity="valid"/>
@@ -366,7 +418,9 @@
     </instanceTest>
     <instanceTest name="wild010.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed children present.</documentation>
+        <documentation>
+		                Invalid, disallowed children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.n1.xml"/>
       <expected validity="invalid"/>
@@ -374,7 +428,9 @@
     </instanceTest>
     <instanceTest name="wild010.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed children present.</documentation>
+        <documentation>
+		                Invalid, disallowed children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.n2.xml"/>
       <expected validity="invalid"/>
@@ -397,7 +453,9 @@
     </schemaTest>
     <instanceTest name="wild011.v1.xml">
       <annotation>
-        <documentation>Valid, no attributes present.</documentation>
+        <documentation>
+		                Valid, no attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.v1.xml"/>
       <expected validity="valid"/>
@@ -405,7 +463,9 @@
     </instanceTest>
     <instanceTest name="wild011.v2.xml">
       <annotation>
-        <documentation>Valid, permitted attributes present.</documentation>
+        <documentation>
+		                Valid, permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.v2.xml"/>
       <expected validity="valid"/>
@@ -413,7 +473,9 @@
     </instanceTest>
     <instanceTest name="wild011.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.n1.xml"/>
       <expected validity="invalid"/>
@@ -421,7 +483,9 @@
     </instanceTest>
     <instanceTest name="wild011.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild009.n2.xml"/>
       <expected validity="invalid"/>
@@ -444,7 +508,9 @@
     </schemaTest>
     <instanceTest name="wild012.v1.xml">
       <annotation>
-        <documentation>Valid, no children present.</documentation>
+        <documentation>
+		                Valid, no children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.v1.xml"/>
       <expected validity="valid"/>
@@ -452,7 +518,9 @@
     </instanceTest>
     <instanceTest name="wild012.v2.xml">
       <annotation>
-        <documentation>Valid, permitted children present.</documentation>
+        <documentation>
+		                Valid, permitted children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.v2.xml"/>
       <expected validity="valid"/>
@@ -460,7 +528,9 @@
     </instanceTest>
     <instanceTest name="wild012.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed children present.</documentation>
+        <documentation>
+		                Invalid, disallowed children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.n1.xml"/>
       <expected validity="invalid"/>
@@ -468,7 +538,9 @@
     </instanceTest>
     <instanceTest name="wild012.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed children present.</documentation>
+        <documentation>
+		                Invalid, disallowed children present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild010.n2.xml"/>
       <expected validity="invalid"/>
@@ -491,7 +563,9 @@
     </schemaTest>
     <instanceTest name="wild013.v1.xml">
       <annotation>
-        <documentation>Valid, all attributes are permitted.</documentation>
+        <documentation>
+		                Valid, all attributes are permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild013.v1.xml"/>
       <expected validity="valid"/>
@@ -514,7 +588,9 @@
     </schemaTest>
     <instanceTest name="wild014.v1.xml">
       <annotation>
-        <documentation>Valid, abel is permitted.</documentation>
+        <documentation>
+		                Valid, abel is permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild014.v1.xml"/>
       <expected validity="valid"/>
@@ -522,7 +598,9 @@
     </instanceTest>
     <instanceTest name="wild014.n1.xml">
       <annotation>
-        <documentation>Invalid, cain is banished.</documentation>
+        <documentation>
+		                Invalid, cain is banished.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild014.n1.xml"/>
       <expected validity="invalid"/>
@@ -545,7 +623,9 @@
     </schemaTest>
     <instanceTest name="wild015.v1.xml">
       <annotation>
-        <documentation>Valid, all three attributes permitted.</documentation>
+        <documentation>
+		                Valid, all three attributes permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild015.v1.xml"/>
       <expected validity="valid"/>
@@ -553,7 +633,9 @@
     </instanceTest>
     <instanceTest name="wild015.n1.xml">
       <annotation>
-        <documentation>Invalid, cain is banished.</documentation>
+        <documentation>
+		                Invalid, cain is banished.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild015.n1.xml"/>
       <expected validity="invalid"/>
@@ -577,7 +659,9 @@
     </schemaTest>
     <instanceTest name="wild016.v1.xml">
       <annotation>
-        <documentation>Valid, all three attributes permitted.</documentation>
+        <documentation>
+		                Valid, all three attributes permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild015.v1.xml"/>
       <expected validity="valid"/>
@@ -585,7 +669,9 @@
     </instanceTest>
     <instanceTest name="wild016.n1.xml">
       <annotation>
-        <documentation>Invalid, cain is banished.</documentation>
+        <documentation>
+		                Invalid, cain is banished.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild015.n1.xml"/>
       <expected validity="invalid"/>
@@ -608,7 +694,9 @@
     </schemaTest>
     <instanceTest name="wild017.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.v1.xml"/>
       <expected validity="valid"/>
@@ -616,7 +704,9 @@
     </instanceTest>
     <instanceTest name="wild017.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n1.xml"/>
       <expected validity="invalid"/>
@@ -624,7 +714,9 @@
     </instanceTest>
     <instanceTest name="wild017.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n2.xml"/>
       <expected validity="invalid"/>
@@ -632,7 +724,9 @@
     </instanceTest>
     <instanceTest name="wild017.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n3.xml"/>
       <expected validity="invalid"/>
@@ -655,7 +749,9 @@
     </schemaTest>
     <instanceTest name="wild018.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.v1.xml"/>
       <expected validity="valid"/>
@@ -663,7 +759,9 @@
     </instanceTest>
     <instanceTest name="wild018.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n1.xml"/>
       <expected validity="invalid"/>
@@ -671,7 +769,9 @@
     </instanceTest>
     <instanceTest name="wild018.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n2.xml"/>
       <expected validity="invalid"/>
@@ -679,7 +779,9 @@
     </instanceTest>
     <instanceTest name="wild018.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n3.xml"/>
       <expected validity="invalid"/>
@@ -702,7 +804,9 @@
     </schemaTest>
     <instanceTest name="wild019.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.v1.xml"/>
       <expected validity="valid"/>
@@ -710,7 +814,9 @@
     </instanceTest>
     <instanceTest name="wild019.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n1.xml"/>
       <expected validity="invalid"/>
@@ -718,7 +824,9 @@
     </instanceTest>
     <instanceTest name="wild019.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n2.xml"/>
       <expected validity="invalid"/>
@@ -726,7 +834,9 @@
     </instanceTest>
     <instanceTest name="wild019.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild017.n3.xml"/>
       <expected validity="invalid"/>
@@ -794,7 +904,9 @@
     </schemaTest>
     <instanceTest name="wild023.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild023.v1.xml"/>
       <expected validity="valid"/>
@@ -802,7 +914,9 @@
     </instanceTest>
     <instanceTest name="wild023.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild023.n1.xml"/>
       <expected validity="invalid"/>
@@ -810,7 +924,9 @@
     </instanceTest>
     <instanceTest name="wild023.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in no namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in no namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild023.n2.xml"/>
       <expected validity="invalid"/>
@@ -833,7 +949,9 @@
     </schemaTest>
     <instanceTest name="wild024.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild023.v1.xml"/>
       <expected validity="valid"/>
@@ -841,7 +959,9 @@
     </instanceTest>
     <instanceTest name="wild024.v2.xml">
       <annotation>
-        <documentation>Valid, attribute in no namespace.</documentation>
+        <documentation>
+		                Valid, attribute in no namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild024.v2.xml"/>
       <expected validity="valid"/>
@@ -849,7 +969,9 @@
     </instanceTest>
     <instanceTest name="wild024.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild023.n1.xml"/>
       <expected validity="invalid"/>
@@ -872,7 +994,9 @@
     </schemaTest>
     <instanceTest name="wild025.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.v1.xml"/>
       <expected validity="valid"/>
@@ -880,7 +1004,9 @@
     </instanceTest>
     <instanceTest name="wild025.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n1.xml"/>
       <expected validity="invalid"/>
@@ -888,7 +1014,9 @@
     </instanceTest>
     <instanceTest name="wild025.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n2.xml"/>
       <expected validity="invalid"/>
@@ -896,7 +1024,9 @@
     </instanceTest>
     <instanceTest name="wild025.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n3.xml"/>
       <expected validity="invalid"/>
@@ -904,7 +1034,9 @@
     </instanceTest>
     <instanceTest name="wild025.n4.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n4.xml"/>
       <expected validity="invalid"/>
@@ -927,7 +1059,9 @@
     </schemaTest>
     <instanceTest name="wild026.v1.xml">
       <annotation>
-        <documentation>Valid, attribute permitted.</documentation>
+        <documentation>
+		                Valid, attribute permitted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.v1.xml"/>
       <expected validity="valid"/>
@@ -935,7 +1069,9 @@
     </instanceTest>
     <instanceTest name="wild026.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n1.xml"/>
       <expected validity="invalid"/>
@@ -943,7 +1079,9 @@
     </instanceTest>
     <instanceTest name="wild026.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n2.xml"/>
       <expected validity="invalid"/>
@@ -951,7 +1089,9 @@
     </instanceTest>
     <instanceTest name="wild026.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n3.xml"/>
       <expected validity="invalid"/>
@@ -959,7 +1099,9 @@
     </instanceTest>
     <instanceTest name="wild026.n4.xml">
       <annotation>
-        <documentation>Invalid, attribute in disallowed namespace.</documentation>
+        <documentation>
+		                Invalid, attribute in disallowed namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild025.n4.xml"/>
       <expected validity="invalid"/>
@@ -982,7 +1124,9 @@
     </schemaTest>
     <instanceTest name="wild027.v1.xml">
       <annotation>
-        <documentation>Valid, only permitted attributes present.</documentation>
+        <documentation>
+		                Valid, only permitted attributes present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild027.v1.xml"/>
       <expected validity="valid"/>
@@ -990,7 +1134,9 @@
     </instanceTest>
     <instanceTest name="wild027.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed xml:space attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed xml:space attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild027.n1.xml"/>
       <expected validity="invalid"/>
@@ -998,7 +1144,9 @@
     </instanceTest>
     <instanceTest name="wild027.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed xml:id attribute present.</documentation>
+        <documentation>
+		                Invalid, disallowed xml:id attribute present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild027.n2.xml"/>
       <expected validity="invalid"/>
@@ -1021,7 +1169,9 @@
     </schemaTest>
     <instanceTest name="wild028.v1.xml">
       <annotation>
-        <documentation>Valid, only permitted elements present.</documentation>
+        <documentation>
+		                Valid, only permitted elements present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild028.v1.xml"/>
       <expected validity="valid"/>
@@ -1029,7 +1179,9 @@
     </instanceTest>
     <instanceTest name="wild028.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed xml:space element present.</documentation>
+        <documentation>
+		                Invalid, disallowed xml:space element present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild028.n1.xml"/>
       <expected validity="invalid"/>
@@ -1037,7 +1189,9 @@
     </instanceTest>
     <instanceTest name="wild028.n2.xml">
       <annotation>
-        <documentation>Invalid, disallowed xml:id element present.</documentation>
+        <documentation>
+		                Invalid, disallowed xml:id element present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild028.n2.xml"/>
       <expected validity="invalid"/>
@@ -1060,7 +1214,9 @@
     </schemaTest>
     <instanceTest name="wild029.v1.xml">
       <annotation>
-        <documentation>Valid, only permitted elements present.</documentation>
+        <documentation>
+		                Valid, only permitted elements present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild029.v1.xml"/>
       <expected validity="valid"/>
@@ -1068,7 +1224,9 @@
     </instanceTest>
     <instanceTest name="wild029.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed element present.</documentation>
+        <documentation>
+		                Invalid, disallowed element present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild029.n1.xml"/>
       <expected validity="invalid"/>
@@ -1076,7 +1234,9 @@
     </instanceTest>
     <instanceTest name="wild029.n2.xml">
       <annotation>
-        <documentation>Invalid, not element present to match the wildcard.</documentation>
+        <documentation>
+		                Invalid, not element present to match the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild029.n2.xml"/>
       <expected validity="invalid"/>
@@ -1099,7 +1259,9 @@
     </schemaTest>
     <instanceTest name="wild030.v1.xml">
       <annotation>
-        <documentation>Valid, only permitted elements present.</documentation>
+        <documentation>
+		                Valid, only permitted elements present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild030.v1.xml"/>
       <expected validity="valid"/>
@@ -1107,7 +1269,9 @@
     </instanceTest>
     <instanceTest name="wild030.v2.xml">
       <annotation>
-        <documentation>Valid, valid instance of the subtype.</documentation>
+        <documentation>
+		                Valid, valid instance of the subtype.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild030.v2.xml"/>
       <expected validity="valid"/>
@@ -1115,7 +1279,9 @@
     </instanceTest>
     <instanceTest name="wild030.n1.xml">
       <annotation>
-        <documentation>Invalid, disallowed element "speaker" is present.</documentation>
+        <documentation>
+		                Invalid, disallowed element "speaker" is present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild030.n1.xml"/>
       <expected validity="invalid"/>
@@ -1273,7 +1439,9 @@
     </schemaTest>
     <instanceTest name="wild040.v1.xml">
       <annotation>
-        <documentation>Valid, xsi:type is permitted despite the wildcard.</documentation>
+        <documentation>
+		                Valid, xsi:type is permitted despite the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild040.v1.xml"/>
       <expected validity="valid"/>
@@ -1281,7 +1449,9 @@
     </instanceTest>
     <instanceTest name="wild040.n1.xml">
       <annotation>
-        <documentation>Invalid, xsi:type has to conform to the standard rules regardless of processContents=skip.</documentation>
+        <documentation>
+		                Invalid, xsi:type has to conform to the standard rules regardless of processContents=skip.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild040.n1.xml"/>
       <expected validity="invalid"/>
@@ -1320,7 +1490,9 @@
     </schemaTest>
     <instanceTest name="wild042.v1.xml">
       <annotation>
-        <documentation>Valid, xsi:banana is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, xsi:banana is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild042.v1.xml"/>
       <expected validity="valid"/>
@@ -1328,7 +1500,9 @@
     </instanceTest>
     <instanceTest name="wild042.n1.xml">
       <annotation>
-        <documentation>Invalid, xsi:nil is governed by the built-in type definition, not the wildcard.</documentation>
+        <documentation>
+		                Invalid, xsi:nil is governed by the built-in type definition, not the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild042.n1.xml"/>
       <expected validity="invalid"/>
@@ -1351,7 +1525,9 @@
     </schemaTest>
     <instanceTest name="wild043.v1.xml">
       <annotation>
-        <documentation>Valid, attribute f is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute f is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild043.v1.xml"/>
       <expected validity="valid"/>
@@ -1359,7 +1535,9 @@
     </instanceTest>
     <instanceTest name="wild043.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild043.n1.xml"/>
       <expected validity="invalid"/>
@@ -1367,7 +1545,9 @@
     </instanceTest>
     <instanceTest name="wild043.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild043.n2.xml"/>
       <expected validity="invalid"/>
@@ -1375,7 +1555,9 @@
     </instanceTest>
     <instanceTest name="wild043.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild043.n3.xml"/>
       <expected validity="invalid"/>
@@ -1398,7 +1580,9 @@
     </schemaTest>
     <instanceTest name="wild044.v1.xml">
       <annotation>
-        <documentation>Valid, attribute f is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute f is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild044.v1.xml"/>
       <expected validity="valid"/>
@@ -1406,7 +1590,9 @@
     </instanceTest>
     <instanceTest name="wild044.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild044.n1.xml"/>
       <expected validity="invalid"/>
@@ -1414,7 +1600,9 @@
     </instanceTest>
     <instanceTest name="wild044.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild044.n2.xml"/>
       <expected validity="invalid"/>
@@ -1437,7 +1625,9 @@
     </schemaTest>
     <instanceTest name="wild045.v1.xml">
       <annotation>
-        <documentation>Valid, attribute a is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute a is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.v1.xml"/>
       <expected validity="valid"/>
@@ -1445,7 +1635,9 @@
     </instanceTest>
     <instanceTest name="wild045.v2.xml">
       <annotation>
-        <documentation>Valid, attribute d is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute d is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.v2.xml"/>
       <expected validity="valid"/>
@@ -1453,7 +1645,9 @@
     </instanceTest>
     <instanceTest name="wild045.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute c is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute c is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.n1.xml"/>
       <expected validity="invalid"/>
@@ -1461,7 +1655,9 @@
     </instanceTest>
     <instanceTest name="wild045.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute xml:space is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute xml:space is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.n2.xml"/>
       <expected validity="invalid"/>
@@ -1484,7 +1680,9 @@
     </schemaTest>
     <instanceTest name="wild046.v1.xml">
       <annotation>
-        <documentation>Valid, attribute a is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute a is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.v1.xml"/>
       <expected validity="valid"/>
@@ -1492,7 +1690,9 @@
     </instanceTest>
     <instanceTest name="wild046.v2.xml">
       <annotation>
-        <documentation>Valid, attribute d is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute d is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.v2.xml"/>
       <expected validity="valid"/>
@@ -1500,7 +1700,9 @@
     </instanceTest>
     <instanceTest name="wild046.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute c is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute c is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.n1.xml"/>
       <expected validity="invalid"/>
@@ -1508,7 +1710,9 @@
     </instanceTest>
     <instanceTest name="wild046.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute xml:lang is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute xml:lang is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild045.n2.xml"/>
       <expected validity="invalid"/>
@@ -1531,7 +1735,9 @@
     </schemaTest>
     <instanceTest name="wild047.v1.xml">
       <annotation>
-        <documentation>Valid, child is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, child is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild047.v1.xml"/>
       <expected validity="valid"/>
@@ -1539,7 +1745,9 @@
     </instanceTest>
     <instanceTest name="wild047.n1.xml">
       <annotation>
-        <documentation>Invalid, child element is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, child element is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild047.n1.xml"/>
       <expected validity="invalid"/>
@@ -1622,7 +1830,9 @@
     </schemaTest>
     <instanceTest name="wild052.v1.xml">
       <annotation>
-        <documentation>Valid, child is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, child is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild052.v1.xml"/>
       <expected validity="valid"/>
@@ -1630,7 +1840,9 @@
     </instanceTest>
     <instanceTest name="wild052.v2.xml">
       <annotation>
-        <documentation>Valid, child is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, child is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild052.v2.xml"/>
       <expected validity="valid"/>
@@ -1638,7 +1850,9 @@
     </instanceTest>
     <instanceTest name="wild052.n1.xml">
       <annotation>
-        <documentation>Invalid, child element is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, child element is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild052.n1.xml"/>
       <expected validity="invalid"/>
@@ -1646,7 +1860,9 @@
     </instanceTest>
     <instanceTest name="wild052.n2.xml">
       <annotation>
-        <documentation>Invalid, child element is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, child element is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild052.n2.xml"/>
       <expected validity="invalid"/>
@@ -1669,7 +1885,9 @@
     </schemaTest>
     <instanceTest name="wild053.v1.xml">
       <annotation>
-        <documentation>Valid, child is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, child is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild053.v1.xml"/>
       <expected validity="valid"/>
@@ -1677,7 +1895,9 @@
     </instanceTest>
     <instanceTest name="wild053.v2.xml">
       <annotation>
-        <documentation>Valid, child is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, child is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild053.v2.xml"/>
       <expected validity="valid"/>
@@ -1685,7 +1905,9 @@
     </instanceTest>
     <instanceTest name="wild053.n1.xml">
       <annotation>
-        <documentation>Invalid, child element is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, child element is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild053.n1.xml"/>
       <expected validity="invalid"/>
@@ -1693,7 +1915,9 @@
     </instanceTest>
     <instanceTest name="wild053.n2.xml">
       <annotation>
-        <documentation>Invalid, child element is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, child element is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild053.n2.xml"/>
       <expected validity="invalid"/>
@@ -1716,7 +1940,9 @@
     </schemaTest>
     <instanceTest name="wild054.v1.xml">
       <annotation>
-        <documentation>Valid, attribute is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild054.v1.xml"/>
       <expected validity="valid"/>
@@ -1724,7 +1950,9 @@
     </instanceTest>
     <instanceTest name="wild054.v2.xml">
       <annotation>
-        <documentation>Valid, attribute is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild054.v2.xml"/>
       <expected validity="valid"/>
@@ -1732,7 +1960,9 @@
     </instanceTest>
     <instanceTest name="wild054.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild054.n1.xml"/>
       <expected validity="invalid"/>
@@ -1740,7 +1970,9 @@
     </instanceTest>
     <instanceTest name="wild054.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild054.n2.xml"/>
       <expected validity="invalid"/>
@@ -1763,7 +1995,9 @@
     </schemaTest>
     <instanceTest name="wild055.v1.xml">
       <annotation>
-        <documentation>Valid, attributes are permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attributes are permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.v1.xml"/>
       <expected validity="valid"/>
@@ -1771,7 +2005,9 @@
     </instanceTest>
     <instanceTest name="wild055.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n1.xml"/>
       <expected validity="invalid"/>
@@ -1779,7 +2015,9 @@
     </instanceTest>
     <instanceTest name="wild055.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n2.xml"/>
       <expected validity="invalid"/>
@@ -1787,7 +2025,9 @@
     </instanceTest>
     <instanceTest name="wild055.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n3.xml"/>
       <expected validity="invalid"/>
@@ -1810,7 +2050,9 @@
     </schemaTest>
     <instanceTest name="wild056.v1.xml">
       <annotation>
-        <documentation>Valid, attributes are permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attributes are permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.v1.xml"/>
       <expected validity="valid"/>
@@ -1818,7 +2060,9 @@
     </instanceTest>
     <instanceTest name="wild056.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n1.xml"/>
       <expected validity="invalid"/>
@@ -1826,7 +2070,9 @@
     </instanceTest>
     <instanceTest name="wild056.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n2.xml"/>
       <expected validity="invalid"/>
@@ -1834,7 +2080,9 @@
     </instanceTest>
     <instanceTest name="wild056.n3.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild055.n3.xml"/>
       <expected validity="invalid"/>
@@ -1872,7 +2120,9 @@
     </schemaTest>
     <instanceTest name="wild058.v1.xml">
       <annotation>
-        <documentation>Valid, attributes are permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attributes are permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.v1.xml"/>
       <expected validity="valid"/>
@@ -1880,7 +2130,9 @@
     </instanceTest>
     <instanceTest name="wild058.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is specifically excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is specifically excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n1.xml"/>
       <expected validity="invalid"/>
@@ -1888,7 +2140,9 @@
     </instanceTest>
     <instanceTest name="wild058.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n2.xml"/>
       <expected validity="invalid"/>
@@ -1911,7 +2165,9 @@
     </schemaTest>
     <instanceTest name="wild059.v1.xml">
       <annotation>
-        <documentation>Valid, attributes are permitted by the wildcard.</documentation>
+        <documentation>
+	                Valid, attributes are permitted by the wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.v1.xml"/>
       <expected validity="valid"/>
@@ -1919,7 +2175,9 @@
     </instanceTest>
     <instanceTest name="wild059.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is specifically excluded by the wildcard.</documentation>
+        <documentation>
+	                Invalid, attribute is specifically excluded by the wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n1.xml"/>
       <expected validity="invalid"/>
@@ -1927,7 +2185,9 @@
     </instanceTest>
     <instanceTest name="wild059.n2.xml">
       <annotation>
-        <documentation>Invalid, zong attribute is not present in the intersection of the attribute groups.</documentation>
+        <documentation>
+	                Invalid, zong attribute is not present in the intersection of the attribute groups.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n2.xml"/>
       <expected validity="invalid"/>
@@ -1950,7 +2210,9 @@
     </schemaTest>
     <instanceTest name="wild060.v1.xml">
       <annotation>
-        <documentation>Valid, attributes are permitted by the wildcard.</documentation>
+        <documentation>
+	                Valid, attributes are permitted by the wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.v1.xml"/>
       <expected validity="valid"/>
@@ -1958,7 +2220,9 @@
     </instanceTest>
     <instanceTest name="wild060.v2.xml">
       <annotation>
-        <documentation>Valid, attribute is allowed in the union wildcard.</documentation>
+        <documentation>
+	                Valid, attribute is allowed in the union wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n1.xml"/>
       <expected validity="valid"/>
@@ -1966,7 +2230,9 @@
     </instanceTest>
     <instanceTest name="wild060.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.</documentation>
+        <documentation>
+	                Invalid, attribute is excluded by the wildcard, it's a global attribute declaration.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild058.n2.xml"/>
       <expected validity="invalid"/>
@@ -1989,7 +2255,9 @@
     </schemaTest>
     <instanceTest name="wild061.n1.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test.</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild061.n1.xml"/>
       <expected validity="invalid"/>
@@ -2012,7 +2280,9 @@
     </schemaTest>
     <instanceTest name="wild062.v1.xml">
       <annotation>
-        <documentation>Valid, g element is skipped.</documentation>
+        <documentation>
+	                Valid, g element is skipped.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild062.v1.xml"/>
       <expected validity="valid"/>
@@ -2020,7 +2290,9 @@
     </instanceTest>
     <instanceTest name="wild062.n1.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test.</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild062.n1.xml"/>
       <expected validity="invalid"/>
@@ -2028,7 +2300,9 @@
     </instanceTest>
     <instanceTest name="wild062.n2.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild062.n2.xml"/>
       <expected validity="invalid"/>
@@ -2036,7 +2310,9 @@
     </instanceTest>
     <instanceTest name="wild062.n3.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second f element fails dynamic EDC test because of xsi:type</documentation>
+        <documentation>
+	                Invalid in 1.1, second f element fails dynamic EDC test because of xsi:type
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild062.n3.xml"/>
       <expected validity="invalid"/>
@@ -2059,7 +2335,9 @@
     </schemaTest>
     <instanceTest name="wild063.v1.xml">
       <annotation>
-        <documentation>Valid, second e element is OK.</documentation>
+        <documentation>
+	                Valid, second e element is OK.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild063.v1.xml"/>
       <expected validity="valid"/>
@@ -2067,7 +2345,9 @@
     </instanceTest>
     <instanceTest name="wild063.v2.xml">
       <annotation>
-        <documentation>Valid, second f element is OK.</documentation>
+        <documentation>
+	                Valid, second f element is OK.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild063.v2.xml"/>
       <expected validity="valid"/>
@@ -2075,7 +2355,9 @@
     </instanceTest>
     <instanceTest name="wild063.n1.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test.</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild063.n1.xml"/>
       <expected validity="invalid"/>
@@ -2083,7 +2365,9 @@
     </instanceTest>
     <instanceTest name="wild063.n2.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test because of xsi:type
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild063.n2.xml"/>
       <expected validity="invalid"/>
@@ -2106,7 +2390,9 @@
     </schemaTest>
     <instanceTest name="wild064.v1.xml">
       <annotation>
-        <documentation>Valid, g element is OK.</documentation>
+        <documentation>
+	                Valid, g element is OK.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild064.v1.xml"/>
       <expected validity="valid"/>
@@ -2114,7 +2400,9 @@
     </instanceTest>
     <instanceTest name="wild064.v2.xml">
       <annotation>
-        <documentation>Valid, second e element is OK because of xsi:type</documentation>
+        <documentation>
+	                Valid, second e element is OK because of xsi:type
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild064.v2.xml"/>
       <expected validity="valid"/>
@@ -2122,7 +2410,9 @@
     </instanceTest>
     <instanceTest name="wild064.n1.xml">
       <annotation>
-        <documentation>Invalid in 1.1, second e element fails dynamic EDC test.</documentation>
+        <documentation>
+	                Invalid in 1.1, second e element fails dynamic EDC test.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild064.n1.xml"/>
       <expected validity="invalid"/>
@@ -2145,7 +2435,9 @@
     </schemaTest>
     <instanceTest name="wild065.v1.xml">
       <annotation>
-        <documentation>Valid, g element is OK because of xsi:type.</documentation>
+        <documentation>
+	                Valid, g element is OK because of xsi:type.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild065.v1.xml"/>
       <expected validity="valid"/>
@@ -2153,7 +2445,9 @@
     </instanceTest>
     <instanceTest name="wild065.n1.xml">
       <annotation>
-        <documentation>Invalid in 1.1, g element fails dynamic EDC test.</documentation>
+        <documentation>
+	                Invalid in 1.1, g element fails dynamic EDC test.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild065.n1.xml"/>
       <expected validity="invalid"/>
@@ -2176,7 +2470,9 @@
     </schemaTest>
     <instanceTest name="wild066.v1.xml">
       <annotation>
-        <documentation>Valid, e element is OK, belongs to a member of the union.</documentation>
+        <documentation>
+	                Valid, e element is OK, belongs to a member of the union.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild066.v1.xml"/>
       <expected validity="valid"/>
@@ -2199,7 +2495,9 @@
     </schemaTest>
     <instanceTest name="wild067.n1.xml">
       <annotation>
-        <documentation>Valid, e element is not OK, belongs not to a member of the union.</documentation>
+        <documentation>
+	                Valid, e element is not OK, belongs not to a member of the union.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild067.n1.xml"/>
       <expected validity="invalid"/>
@@ -2222,7 +2520,9 @@
     </schemaTest>
     <instanceTest name="wild068.n1.xml">
       <annotation>
-        <documentation>Valid, e element is not OK, clashes with element particle e defined in base type.</documentation>
+        <documentation>
+	                Valid, e element is not OK, clashes with element particle e defined in base type.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild068.n1.xml"/>
       <expected validity="invalid"/>
@@ -2260,7 +2560,9 @@
     </schemaTest>
     <instanceTest name="wild070.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild070.v1.xml"/>
       <expected validity="valid"/>
@@ -2268,7 +2570,9 @@
     </instanceTest>
     <instanceTest name="wild070.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild070.n1.xml"/>
       <expected validity="invalid"/>
@@ -2276,7 +2580,9 @@
     </instanceTest>
     <instanceTest name="wild070.n2.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild070.n2.xml"/>
       <expected validity="invalid"/>
@@ -2299,7 +2605,9 @@
     </schemaTest>
     <instanceTest name="wild071.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild071.v1.xml"/>
       <expected validity="valid"/>
@@ -2307,7 +2615,9 @@
     </instanceTest>
     <instanceTest name="wild071.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild071.n1.xml"/>
       <expected validity="invalid"/>
@@ -2315,7 +2625,9 @@
     </instanceTest>
     <instanceTest name="wild071.n2.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild071.n2.xml"/>
       <expected validity="invalid"/>
@@ -2338,7 +2650,9 @@
     </schemaTest>
     <instanceTest name="wild072.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.v1.xml"/>
       <expected validity="valid"/>
@@ -2346,7 +2660,9 @@
     </instanceTest>
     <instanceTest name="wild072.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.n1.xml"/>
       <expected validity="invalid"/>
@@ -2354,7 +2670,9 @@
     </instanceTest>
     <instanceTest name="wild072.n2.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.n2.xml"/>
       <expected validity="invalid"/>
@@ -2377,7 +2695,9 @@
     </schemaTest>
     <instanceTest name="wild073.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.v1.xml"/>
       <expected validity="valid"/>
@@ -2385,7 +2705,9 @@
     </instanceTest>
     <instanceTest name="wild073.v2.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.n1.xml"/>
       <expected validity="valid"/>
@@ -2393,7 +2715,9 @@
     </instanceTest>
     <instanceTest name="wild073.v3.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild072.n2.xml"/>
       <expected validity="valid"/>
@@ -2416,7 +2740,9 @@
     </schemaTest>
     <instanceTest name="wild074.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild074.v1.xml"/>
       <expected validity="valid"/>
@@ -2424,7 +2750,9 @@
     </instanceTest>
     <instanceTest name="wild074.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild074.n1.xml"/>
       <expected validity="invalid"/>
@@ -2432,7 +2760,9 @@
     </instanceTest>
     <instanceTest name="wild074.n2.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with a defined sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with a defined sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild074.n2.xml"/>
       <expected validity="invalid"/>
@@ -2455,7 +2785,9 @@
     </schemaTest>
     <instanceTest name="wild075.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.v1.xml"/>
       <expected validity="valid"/>
@@ -2463,7 +2795,9 @@
     </instanceTest>
     <instanceTest name="wild075.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with type of a sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with type of a sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.n1.xml"/>
       <expected validity="invalid"/>
@@ -2486,7 +2820,9 @@
     </schemaTest>
     <instanceTest name="wild076.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.v1.xml"/>
       <expected validity="valid"/>
@@ -2494,7 +2830,9 @@
     </instanceTest>
     <instanceTest name="wild076.n1.xml">
       <annotation>
-        <documentation>Invalid, a element is not OK, clashes with type of a sibling.</documentation>
+        <documentation>
+	                Invalid, a element is not OK, clashes with type of a sibling.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.n1.xml"/>
       <expected validity="invalid"/>
@@ -2517,7 +2855,9 @@
     </schemaTest>
     <instanceTest name="wild077.v1.xml">
       <annotation>
-        <documentation>Valid.</documentation>
+        <documentation>
+	                Valid.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.v1.xml"/>
       <expected validity="valid"/>
@@ -2525,7 +2865,9 @@
     </instanceTest>
     <instanceTest name="wild077.n1.xml">
       <annotation>
-        <documentation>Valid, element is OK because it's a skip wildcard.</documentation>
+        <documentation>
+	                Valid, element is OK because it's a skip wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild075.n1.xml"/>
       <expected validity="valid"/>
@@ -2578,7 +2920,9 @@
     </schemaTest>
     <instanceTest name="wild080.v1.xml">
       <annotation>
-        <documentation>Valid, element is OK because it's a skip wildcard.</documentation>
+        <documentation>
+	                Valid, element is OK because it's a skip wildcard.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild080.v1.xml"/>
       <expected validity="valid"/>
@@ -2616,7 +2960,9 @@
     </schemaTest>
     <instanceTest name="wild082.v1.xml">
       <annotation>
-        <documentation>Valid, element is OK.</documentation>
+        <documentation>
+	                Valid, element is OK.
+	            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild082.v1.xml"/>
       <expected validity="valid"/>
@@ -2643,7 +2989,9 @@
     </schemaTest>
     <instanceTest name="wild083.v1.xml">
       <annotation>
-        <documentation>Valid, attribute is permitted by the wildcard.</documentation>
+        <documentation>
+		                Valid, attribute is permitted by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild083.v1.xml"/>
       <expected validity="valid"/>
@@ -2651,7 +2999,9 @@
     </instanceTest>
     <instanceTest name="wild047.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild083.n1.xml"/>
       <expected validity="invalid"/>
@@ -2674,7 +3024,9 @@
     </schemaTest>
     <instanceTest name="wild084.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is excluded by the wildcard.</documentation>
+        <documentation>
+		                Invalid, attribute is excluded by the wildcard.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Wild/wild084.n1.xml"/>
       <expected validity="invalid"/>

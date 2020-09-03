@@ -1,7 +1,9 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="ID_IDREF" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute">ID/IDREF tests</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute">
+        ID/IDREF tests 
+        </documentation>
   </annotation>
   <testGroup name="s3_3_4v01" version="1.1">
     <annotation>
@@ -175,7 +177,7 @@
   </testGroup>
   <testGroup name="s3_3_4v11" version="1.1">
     <annotation>
-      <documentation>Unions involving ID</documentation>
+      <documentation>Unions involving ID </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
@@ -257,7 +259,9 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Added new root element to make the ID effective, in response to bug #12143</documentation>
+          <documentation>
+                        Added new root element to make the ID effective, in response to bug #12143
+                    </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-12-01"/>
@@ -282,7 +286,7 @@
   </testGroup>
   <testGroup name="s3_3_4v17" version="1.1">
     <annotation>
-      <documentation>Unions involving ID in elements</documentation>
+      <documentation>Unions involving ID in elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-unionsWithID"/>
@@ -364,7 +368,9 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Added new root element to make the ID effective, in response to bug #12143</documentation>
+          <documentation>
+                        Added new root element to make the ID effective, in response to bug #12143
+                    </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-12-01"/>
@@ -406,7 +412,7 @@
   </testGroup>
   <testGroup name="s3_3_4v24" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID</documentation>
+      <documentation> Multiple attributes of type ID</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -491,7 +497,7 @@
   </testGroup>
   <testGroup name="s3_3_4v29" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID with default value</documentation>
+      <documentation>Multiple attributes of type ID with default value </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
@@ -525,7 +531,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii01" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID, with restriction on enum</documentation>
+      <documentation>Multiple attributes of type ID, with restriction on enum </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -559,7 +565,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii03" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID, invalid id value</documentation>
+      <documentation>Multiple attributes of type ID, invalid id value </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -627,7 +633,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii07" version="1.1">
     <annotation>
-      <documentation>lists of ID, naive test case on elements</documentation>
+      <documentation>lists of ID, naive test case on elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"/>
@@ -678,7 +684,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii10" version="1.1">
     <annotation>
-      <documentation>Unions involving ID</documentation>
+      <documentation>Unions involving ID </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
@@ -712,7 +718,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii12" version="1.1">
     <annotation>
-      <documentation>lists of ID, invalid idref value on attribute and element</documentation>
+      <documentation>lists of ID, invalid idref value on attribute and element </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"/>
@@ -746,7 +752,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii14" version="1.1">
     <annotation>
-      <documentation>lists of ID, simpleContent, invalid idref value on element</documentation>
+      <documentation>lists of ID, simpleContent, invalid idref value on element </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"/>
@@ -780,7 +786,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii16" version="1.1">
     <annotation>
-      <documentation>Unions involving ID in attributes, invalid idref value on attribute</documentation>
+      <documentation> Unions involving ID in attributes, invalid idref value on attribute </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
@@ -797,7 +803,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii17" version="1.1">
     <annotation>
-      <documentation>Unions involving ID in elements, invalid idref value on attribute</documentation>
+      <documentation>Unions involving ID in elements, invalid idref value on attribute </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
@@ -814,7 +820,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii18" version="1.1">
     <annotation>
-      <documentation>Unions involving ID in elements, invalid idref value on element</documentation>
+      <documentation>Unions involving ID in elements, invalid idref value on element </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"/>
@@ -831,7 +837,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii19" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID, complexContent, with invalid idref value on element</documentation>
+      <documentation>Multiple attributes of type ID, complexContent, with invalid idref value on element </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -848,7 +854,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii20" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID, invalid idref value on element</documentation>
+      <documentation>Multiple attributes of type ID, invalid idref value on element </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -865,7 +871,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii21" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID</documentation>
+      <documentation>Multiple attributes of type ID </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -882,7 +888,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii22" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID</documentation>
+      <documentation>Multiple attributes of type ID  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -916,7 +922,7 @@
   </testGroup>
   <testGroup name="s3_3_4ii24" version="1.1">
     <annotation>
-      <documentation>xs:ID/IDREF with default value on attribute</documentation>
+      <documentation>xs:ID/IDREF with default value on attribute </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-attribute"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
@@ -1044,7 +1050,7 @@
   </testGroup>
   <testGroup name="s3_3_4si06" version="1.1">
     <annotation>
-      <documentation>invalid fixed value on an idref type</documentation>
+      <documentation>invalid fixed value on an idref type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>
@@ -1080,7 +1086,7 @@
   </testGroup>
   <testGroup name="s3_3_4si09" version="1.1">
     <annotation>
-      <documentation>Multiple attributes of type ID</documentation>
+      <documentation>Multiple attributes of type ID </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"/>
@@ -1164,7 +1170,7 @@
   </testGroup>
   <testGroup name="s3_3_4si16" version="1.1">
     <annotation>
-      <documentation>invalid fixed value on an idref type</documentation>
+      <documentation>invalid fixed value on an idref type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#eldec_vr"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"/>

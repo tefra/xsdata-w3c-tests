@@ -1,11 +1,13 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="XPathDefaultNSonKeyKeyRefUnique" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key">Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key">
+        Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions 
+	      </documentation>
   </annotation>
   <testGroup name="s3_11_2v01" version="1.1">
     <annotation>
-      <documentation>unique selection expressions</documentation>
+      <documentation>unique selection expressions  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -22,7 +24,7 @@
   </testGroup>
   <testGroup name="s3_11_2v02" version="1.1">
     <annotation>
-      <documentation>unique selection expressions 2</documentation>
+      <documentation>unique selection expressions 2 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -39,7 +41,7 @@
   </testGroup>
   <testGroup name="s3_11_2v03" version="1.1">
     <annotation>
-      <documentation>key selection expressions_1</documentation>
+      <documentation>key selection expressions_1 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -56,7 +58,7 @@
   </testGroup>
   <testGroup name="s3_11_2v04" version="1.1">
     <annotation>
-      <documentation>key selection expressions_2</documentation>
+      <documentation>key selection expressions_2 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -73,7 +75,7 @@
   </testGroup>
   <testGroup name="s3_11_2v05" version="1.1">
     <annotation>
-      <documentation>key/keyref selection expressions_1</documentation>
+      <documentation>key/keyref selection expressions_1 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -90,7 +92,7 @@
   </testGroup>
   <testGroup name="s3_11_2v06" version="1.1">
     <annotation>
-      <documentation>key/keyref selection expressions_2</documentation>
+      <documentation>key/keyref selection expressions_2  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -107,7 +109,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii01" version="1.1">
     <annotation>
-      <documentation>invalid instance unique selection expressions_1</documentation>
+      <documentation>invalid instance unique selection expressions_1 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -124,7 +126,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii02" version="1.1">
     <annotation>
-      <documentation>invalid instance unique selection expressions_2</documentation>
+      <documentation>invalid instance unique selection expressions_2 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -141,7 +143,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii03" version="1.1">
     <annotation>
-      <documentation>invalid instance unique selection expressions_3</documentation>
+      <documentation>invalid instance unique selection expressions_3 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -158,7 +160,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii04" version="1.1">
     <annotation>
-      <documentation>invalid instance key selection expressions_1</documentation>
+      <documentation>invalid instance key selection expressions_1 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -175,7 +177,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii05" version="1.1">
     <annotation>
-      <documentation>invalid instance key selection expressions_2</documentation>
+      <documentation>invalid instance key selection expressions_2 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -192,7 +194,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii06" version="1.1">
     <annotation>
-      <documentation>invalid instance key/keyref selection expressions_1</documentation>
+      <documentation>invalid instance key/keyref selection expressions_1 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>
@@ -209,7 +211,7 @@
   </testGroup>
   <testGroup name="s3_11_2ii07" version="1.1">
     <annotation>
-      <documentation>invalid instance key/keyref selection expressions_2</documentation>
+      <documentation>invalid instance key/keyref selection expressions_2 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-key"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"/>

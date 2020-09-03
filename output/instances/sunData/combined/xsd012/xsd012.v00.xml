@@ -1,7 +1,10 @@
 <!-- xsdata instance -->
 <root xmlns="foo">
-  <mixed>abcdef</mixed>
-  <mixed><a/>mi<b/>xed<c/>content</mixed>
+  <mixed>
+		abcdef
+	</mixed>
+  <mixed><a/> mi <b/> xed <c/> content
+	</mixed>
   <elementOnly>
     <a/>
     <a/>

@@ -1,6 +1,9 @@
 <!-- xsdata instance -->
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="myNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
-  <t myNS:col="a">1<row myNS:x="1">a</row><ref myNS:y="1">a</ref></t>
-  <t myNS:col="a">1<row myNS:x="1">c</row><ref myNS:y="1">b</ref></t>
-  <t myNS:col="a">1<row myNS:x="1">b</row><ref myNS:y="1">c</ref></t>
+  <t myNS:col="a">1
+<row myNS:x="1">a</row><ref myNS:y="1">a</ref></t>
+  <t myNS:col="a">1
+<row myNS:x="1">c</row><ref myNS:y="1">b</ref></t>
+  <t myNS:col="a">1
+<row myNS:x="1">b</row><ref myNS:y="1">c</ref></t>
 </root>

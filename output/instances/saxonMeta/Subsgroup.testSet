@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="subsgroup001.v1.xml">
       <annotation>
-        <documentation>Valid, element subsitutes for both abstract elements.</documentation>
+        <documentation>
+		                Valid, element subsitutes for both abstract elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Subsgroup/subsgroup001.v1.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="subsgroup001.n1.xml">
       <annotation>
-        <documentation>Invalid, abstract element present in instance.</documentation>
+        <documentation>
+		                Invalid, abstract element present in instance.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Subsgroup/subsgroup001.n1.xml"/>
       <expected validity="invalid"/>
@@ -47,7 +51,9 @@
     </schemaTest>
     <instanceTest name="subsgroup002.v1.xml">
       <annotation>
-        <documentation>Valid, element subsitutes for both abstract elements.</documentation>
+        <documentation>
+		                Valid, element subsitutes for both abstract elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Subsgroup/subsgroup001.v1.xml"/>
       <expected validity="valid"/>
@@ -55,7 +61,9 @@
     </instanceTest>
     <instanceTest name="subsgroup002.n1.xml">
       <annotation>
-        <documentation>Invalid, abstract element present in instance.</documentation>
+        <documentation>
+		                Invalid, abstract element present in instance.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Subsgroup/subsgroup001.n1.xml"/>
       <expected validity="invalid"/>
@@ -82,7 +90,9 @@
     </schemaTest>
     <instanceTest name="subsgroup003.v1.xml">
       <annotation>
-        <documentation>Valid, both elements in the content are in the substitution group.</documentation>
+        <documentation>
+		                Valid, both elements in the content are in the substitution group.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Subsgroup/subsgroup003.xml"/>
       <expected validity="valid"/>

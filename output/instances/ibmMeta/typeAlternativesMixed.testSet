@@ -2,7 +2,9 @@
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="CTA" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <testGroup name="typeAlternatives_001" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
@@ -19,7 +21,9 @@
   </testGroup>
   <testGroup name="typeAlternatives_002" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
@@ -36,8 +40,10 @@
   </testGroup>
   <testGroup name="typeAlternatives_003" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided
-			as children of xs:alternative instructions.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided
+			as children of xs:alternative instructions.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
@@ -54,8 +60,10 @@
   </testGroup>
   <testGroup name="typeAlternatives_004" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along
-			with type-alternatives.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along
+			with type-alternatives.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
@@ -77,7 +85,9 @@
   </testGroup>
   <testGroup name="typeAlternatives_005" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>
@@ -99,7 +109,9 @@
   </testGroup>
   <testGroup name="typeAlternatives_006" version="1.1">
     <annotation>
-      <documentation>Demonstrates XML Schema 1.1 type-alternatives.</documentation>
+      <documentation>
+		    Demonstrates XML Schema 1.1 type-alternatives.
+		 </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"/>

@@ -10,7 +10,9 @@
     </schemaTest>
     <instanceTest name="vc_001_2">
       <annotation>
-        <documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.</documentation>
+        <documentation>
+		          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_1.xml"/>
       <expected validity="valid"/>
@@ -18,9 +20,11 @@
     </instanceTest>
     <instanceTest name="vc_001_3">
       <annotation>
-        <documentation>An example of Conditional Inclusion of schema components, using vc:minVersion attribute.
+        <documentation>
+		          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.
 			      The instance test fails because, assertion in this example is "false" and that been included
-			      in validation episode.</documentation>
+			      in validation episode.
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test1_2.xml"/>
       <expected validity="invalid"/>
@@ -37,8 +41,10 @@
     </schemaTest>
     <instanceTest name="vc_003_2">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. The validation fails (due to a different element
-				  declaration been selected, whose assertion failure causes validation episode to fail).</documentation>
+        <documentation>
+		          Run instance test in XSD 1.1 mode. The validation fails (due to a different element
+				  declaration been selected, whose assertion failure causes validation episode to fail).
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test2.xml"/>
       <expected validity="invalid"/>
@@ -55,9 +61,11 @@
     </schemaTest>
     <instanceTest name="vc_005_2">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail
+        <documentation>
+                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail
 				  causing failure of validation episode. The facet "totalDigits" won't be functional since it
-				  only works in XSD 1.0 mode.</documentation>
+				  only works in XSD 1.0 mode.
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test3.xml"/>
       <expected validity="invalid"/>
@@ -74,8 +82,10 @@
     </schemaTest>
     <instanceTest name="vc_007_2">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
-				  assertion failure occurs causing failure of validation episode.</documentation>
+        <documentation>
+                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
+				  assertion failure occurs causing failure of validation episode.				  
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_1.xml"/>
       <expected validity="invalid"/>
@@ -83,8 +93,10 @@
     </instanceTest>
     <instanceTest name="vc_007_3">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
-                  validation episode succeeds, since an assertion is also true.</documentation>
+        <documentation>
+                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and
+                  validation episode succeeds, since an assertion is also true.				  
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test4_2.xml"/>
       <expected validity="valid"/>
@@ -101,9 +113,11 @@
     </schemaTest>
     <instanceTest name="vc_008_2">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
+        <documentation>
+                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
                   [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="my:myInt"] doesn't. This test results
-                  in validation success.</documentation>
+                  in validation success.				  
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test5.xml"/>
       <expected validity="valid"/>
@@ -120,9 +134,11 @@
     </schemaTest>
     <instanceTest name="vc_009_2">
       <annotation>
-        <documentation>Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
+        <documentation>
+                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check
                   [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="xs:int my:myInt"] doesn't. This test results
-                  in validation success.</documentation>
+                  in validation success.  				  
+		       </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../ibmData/mixed/VC/test6.xml"/>
       <expected validity="valid"/>

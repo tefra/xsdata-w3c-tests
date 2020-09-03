@@ -2,8 +2,10 @@
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="TargetNS" version="1.1" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <testGroup name="targetNamespace_004" version="1.1">
     <annotation>
-      <documentation>Composition of XML schemas via xs:import to be able to achive hetrogeneous namespaced elements
-			in "one" XML document.</documentation>
+      <documentation>
+		    Composition of XML schemas via xs:import to be able to achive hetrogeneous namespaced elements
+			in "one" XML document.
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"/>
@@ -20,7 +22,9 @@
   </testGroup>
   <testGroup name="targetNamespace_005" version="1.1">
     <annotation>
-      <documentation>This example demonstrates 'targetNamespace' attribute on xs:attribute schema component.</documentation>
+      <documentation>
+		    This example demonstrates 'targetNamespace' attribute on xs:attribute schema component.
+		    </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>

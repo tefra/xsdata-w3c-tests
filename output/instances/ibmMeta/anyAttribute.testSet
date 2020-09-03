@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="anyAttribute" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-wildcard">anyAttribute</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-wildcard">anyAttribute </documentation>
   </annotation>
   <testGroup name="s3_10_6v01" version="1.1">
     <annotation>
@@ -125,7 +125,7 @@
   </testGroup>
   <testGroup name="s3_10_6si01">
     <annotation>
-      <documentation>namespace and notNamespace attributes are not allowed to be both present in a wildcard</documentation>
+      <documentation>namespace and notNamespace attributes are not allowed to be both present in a wildcard </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-wildcard"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"/>
@@ -137,7 +137,8 @@
   </testGroup>
   <testGroup name="s3_10_6si02">
     <annotation>
-      <documentation>The namespace of each QName in disallowed is allowed by the namespace constraint</documentation>
+      <documentation>The namespace of each QName in disallowed is allowed by the namespace constraint
+		</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-wildcard"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"/>

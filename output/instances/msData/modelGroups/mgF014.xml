@@ -1,7 +1,9 @@
 <!-- xsdata instance -->
 <doc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <xhtml:html>
-    <xhtml:body>Hey this is html</xhtml:body>
+    <xhtml:body>
+Hey this is html
+</xhtml:body>
   </xhtml:html>
   <d/>
   <b>I am a stringy string</b>

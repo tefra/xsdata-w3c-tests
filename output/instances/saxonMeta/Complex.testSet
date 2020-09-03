@@ -42,8 +42,10 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex003.xsd">
       <annotation>
-        <documentation>Supply default value for xsi:type that would be invalid if it were validated
-                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4</documentation>
+        <documentation>
+                    Supply default value for xsi:type that would be invalid if it were validated
+                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex003.xsd"/>
       <expected validity="valid"/>
@@ -51,7 +53,9 @@
     </schemaTest>
     <instanceTest name="complex003.v1.xml">
       <annotation>
-        <documentation>Valid instance that ignores the xsi:type</documentation>
+        <documentation>
+                    Valid instance that ignores the xsi:type
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex003.v1.xml"/>
       <expected validity="valid"/>
@@ -59,7 +63,9 @@
     </instanceTest>
     <instanceTest name="complex003.n1.xml">
       <annotation>
-        <documentation>Invalid instance, satisfies the xsi:type but this should be ignored</documentation>
+        <documentation>
+                    Invalid instance, satisfies the xsi:type but this should be ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex003.n1.xml"/>
       <expected validity="invalid"/>
@@ -78,8 +84,10 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex004.xsd">
       <annotation>
-        <documentation>Supply default value for xsi:type that would be invalid if it were validated
-                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4</documentation>
+        <documentation>
+                    Supply default value for xsi:type that would be invalid if it were validated
+                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex004.xsd"/>
       <expected validity="valid"/>
@@ -87,7 +95,9 @@
     </schemaTest>
     <instanceTest name="complex004.v1.xml">
       <annotation>
-        <documentation>Valid instance that ignores the xsi:type</documentation>
+        <documentation>
+                    Valid instance that ignores the xsi:type
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex004.v1.xml"/>
       <expected validity="valid"/>
@@ -95,7 +105,9 @@
     </instanceTest>
     <instanceTest name="complex004.n1.xml">
       <annotation>
-        <documentation>Invalid instance, satisfies the xsi:type but this should be ignored</documentation>
+        <documentation>
+                    Invalid instance, satisfies the xsi:type but this should be ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex004.n1.xml"/>
       <expected validity="invalid"/>
@@ -103,9 +115,11 @@
     </instanceTest>
     <instanceTest name="complex004.v2.xml">
       <annotation>
-        <documentation>Valid instance, the default value of xsi:type is not valid in the context where it is used
+        <documentation>
+                    Valid instance, the default value of xsi:type is not valid in the context where it is used
                     (undeclared namespace prefix "xs"), but this does not matter because the default value
-                    has no effect. See bug 13457.</documentation>
+                    has no effect. See bug 13457.
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex004.n2.xml"/>
       <expected validity="valid"/>
@@ -126,8 +140,10 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex005.xsd">
       <annotation>
-        <documentation>Supply fixed value for xsi:type 
-                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4</documentation>
+        <documentation>
+                    Supply fixed value for xsi:type 
+                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex005.xsd"/>
       <expected validity="valid"/>
@@ -135,7 +151,9 @@
     </schemaTest>
     <instanceTest name="complex005.v2.xml">
       <annotation>
-        <documentation>Valid instance; xsi:type fixed in schema, absent in instance, has no effect</documentation>
+        <documentation>
+                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect 
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex005.v2.xml"/>
       <expected validity="valid"/>
@@ -143,7 +161,9 @@
     </instanceTest>
     <instanceTest name="complex005.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type must conform to the fixed value if present</documentation>
+        <documentation>
+                    Invalid instance, xsi:type must conform to the fixed value if present
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex005.n1.xml"/>
       <expected validity="invalid"/>
@@ -151,7 +171,9 @@
     </instanceTest>
     <instanceTest name="complex005.n2.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid</documentation>
+        <documentation>
+                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex005.n2.xml"/>
       <expected validity="invalid"/>
@@ -159,8 +181,10 @@
     </instanceTest>
     <instanceTest name="complex005.n3.xml">
       <annotation>
-        <documentation>Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived
-                    from the declared type (the declared type is complex, but the xsi:type is a simple type)</documentation>
+        <documentation>
+                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived
+                    from the declared type (the declared type is complex, but the xsi:type is a simple type)
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex005.v1.xml"/>
       <expected validity="invalid"/>
@@ -179,8 +203,10 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex006.xsd">
       <annotation>
-        <documentation>Supply default value for xsi:nil 
-                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4</documentation>
+        <documentation>
+                    Supply default value for xsi:nil 
+                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.xsd"/>
       <expected validity="valid"/>
@@ -188,7 +214,9 @@
     </schemaTest>
     <instanceTest name="complex006.v1.xml">
       <annotation>
-        <documentation>Valid instance; xsi:nil is ignored</documentation>
+        <documentation>
+                    Valid instance; xsi:nil is ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.v1.xml"/>
       <expected validity="valid"/>
@@ -196,7 +224,9 @@
     </instanceTest>
     <instanceTest name="complex006.v2.xml">
       <annotation>
-        <documentation>Valid instance; xsi:nil is ignored</documentation>
+        <documentation>
+                    Valid instance; xsi:nil is ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.v2.xml"/>
       <expected validity="valid"/>
@@ -204,7 +234,9 @@
     </instanceTest>
     <instanceTest name="complex006.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance is effective</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance is effective
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n1.xml"/>
       <expected validity="invalid"/>
@@ -212,7 +244,9 @@
     </instanceTest>
     <instanceTest name="complex006.n2.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance is effective</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance is effective
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n2.xml"/>
       <expected validity="invalid"/>
@@ -220,7 +254,9 @@
     </instanceTest>
     <instanceTest name="complex006.n3.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance does not default to the value in the schema</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance does not default to the value in the schema
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n3.xml"/>
       <expected validity="invalid"/>
@@ -240,8 +276,10 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex007.xsd">
       <annotation>
-        <documentation>Supply fixed value for xsi:nil 
-                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4</documentation>
+        <documentation>
+                    Supply fixed value for xsi:nil 
+                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex007.xsd"/>
       <expected validity="valid"/>
@@ -249,7 +287,9 @@
     </schemaTest>
     <instanceTest name="complex007.v1.xml">
       <annotation>
-        <documentation>Valid instance; xsi:nil is ignored</documentation>
+        <documentation>
+                    Valid instance; xsi:nil is ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.v1.xml"/>
       <expected validity="valid"/>
@@ -257,7 +297,9 @@
     </instanceTest>
     <instanceTest name="complex007.v2.xml">
       <annotation>
-        <documentation>Valid instance; xsi:nil is ignored</documentation>
+        <documentation>
+                    Valid instance; xsi:nil is ignored
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.v2.xml"/>
       <expected validity="valid"/>
@@ -265,7 +307,9 @@
     </instanceTest>
     <instanceTest name="complex007.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance is effective</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance is effective
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n1.xml"/>
       <expected validity="invalid"/>
@@ -273,7 +317,9 @@
     </instanceTest>
     <instanceTest name="complex007.n2.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance is effective</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance is effective
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n2.xml"/>
       <expected validity="invalid"/>
@@ -281,7 +327,9 @@
     </instanceTest>
     <instanceTest name="complex007.n3.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:nil in the instance does not default to the value in the schema</documentation>
+        <documentation>
+                    Invalid instance, xsi:nil in the instance does not default to the value in the schema
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex006.n3.xml"/>
       <expected validity="invalid"/>
@@ -299,7 +347,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
     <schemaTest name="complex008.xsd">
       <annotation>
-        <documentation>Valid schema, no particular features</documentation>
+        <documentation>
+                    Valid schema, no particular features
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex008.xsd"/>
       <expected validity="valid"/>
@@ -307,7 +357,9 @@
     </schemaTest>
     <instanceTest name="complex008.n1.xml">
       <annotation>
-        <documentation>Invalid instance, unknown type in XSD namespace</documentation>
+        <documentation>
+                    Invalid instance, unknown type in XSD namespace
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex008.n1.xml"/>
       <expected validity="invalid"/>
@@ -315,7 +367,9 @@
     </instanceTest>
     <instanceTest name="complex008.n2.xml">
       <annotation>
-        <documentation>Invalid instance, invalid QName (undeclared prefix)</documentation>
+        <documentation>
+                    Invalid instance, invalid QName (undeclared prefix)
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex008.n2.xml"/>
       <expected validity="invalid"/>
@@ -323,7 +377,9 @@
     </instanceTest>
     <instanceTest name="complex008.n3.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type is an unknown QName</documentation>
+        <documentation>
+                    Invalid instance, xsi:type is an unknown QName
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex008.n3.xml"/>
       <expected validity="invalid"/>
@@ -331,7 +387,9 @@
     </instanceTest>
     <instanceTest name="complex008.n4.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type is not lexically a QName</documentation>
+        <documentation>
+                    Invalid instance, xsi:type is not lexically a QName
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex008.n4.xml"/>
       <expected validity="invalid"/>
@@ -350,7 +408,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex009.xsd">
       <annotation>
-        <documentation>Make xsi:type mandatory</documentation>
+        <documentation>
+                    Make xsi:type mandatory
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex009.xsd"/>
       <expected validity="valid"/>
@@ -358,7 +418,9 @@
     </schemaTest>
     <instanceTest name="complex009.v1.xml">
       <annotation>
-        <documentation>Valid instance; xsi:type is present</documentation>
+        <documentation>
+                    Valid instance; xsi:type is present
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex009.v1.xml"/>
       <expected validity="valid"/>
@@ -366,7 +428,9 @@
     </instanceTest>
     <instanceTest name="complex009.v2.xml">
       <annotation>
-        <documentation>Valid instance; xsi:type is present</documentation>
+        <documentation>
+                    Valid instance; xsi:type is present
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex009.v2.xml"/>
       <expected validity="valid"/>
@@ -374,7 +438,9 @@
     </instanceTest>
     <instanceTest name="complex009.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type is omitted</documentation>
+        <documentation>
+                    Invalid instance, xsi:type is omitted
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex009.n1.xml"/>
       <expected validity="invalid"/>
@@ -382,7 +448,9 @@
     </instanceTest>
     <instanceTest name="complex009.n2.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type is present but instance doesn't conform to it</documentation>
+        <documentation>
+                    Invalid instance, xsi:type is present but instance doesn't conform to it
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex009.n2.xml"/>
       <expected validity="invalid"/>
@@ -401,7 +469,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImportNotXSAndXSI"/>
     <schemaTest name="complex010.xsd">
       <annotation>
-        <documentation>Make xsi:noNamespaceSchemaLocation mandatory</documentation>
+        <documentation>
+                    Make xsi:noNamespaceSchemaLocation mandatory
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex010.xsd"/>
       <expected validity="valid"/>
@@ -409,7 +479,9 @@
     </schemaTest>
     <instanceTest name="complex010.v1.xml">
       <annotation>
-        <documentation>Valid instance; xsi:noNamespaceSchemaLocation is present</documentation>
+        <documentation>
+                    Valid instance; xsi:noNamespaceSchemaLocation is present
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex010.v1.xml"/>
       <expected validity="valid"/>
@@ -417,7 +489,9 @@
     </instanceTest>
     <instanceTest name="complex010.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:noNamespaceSchemaLocation is omitted</documentation>
+        <documentation>
+                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex010.n1.xml"/>
       <expected validity="invalid"/>
@@ -434,7 +508,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="complex011.xsd">
       <annotation>
-        <documentation>Specifies element as nillable</documentation>
+        <documentation>
+                   Specifies element as nillable
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.xsd"/>
       <expected validity="valid"/>
@@ -442,7 +518,9 @@
     </schemaTest>
     <instanceTest name="complex011.v1.xml">
       <annotation>
-        <documentation>Valid instance; not nil</documentation>
+        <documentation>
+                    Valid instance; not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.v1.xml"/>
       <expected validity="valid"/>
@@ -450,7 +528,9 @@
     </instanceTest>
     <instanceTest name="complex011.v2.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.v2.xml"/>
       <expected validity="valid"/>
@@ -458,7 +538,9 @@
     </instanceTest>
     <instanceTest name="complex011.n1.xml">
       <annotation>
-        <documentation>Invalid instance, value missing but not nil</documentation>
+        <documentation>
+                    Invalid instance, value missing but not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.n1.xml"/>
       <expected validity="invalid"/>
@@ -466,7 +548,9 @@
     </instanceTest>
     <instanceTest name="complex011.n2.xml">
       <annotation>
-        <documentation>Invalid instance,value present but nil</documentation>
+        <documentation>
+                    Invalid instance,value present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.n2.xml"/>
       <expected validity="invalid"/>
@@ -474,7 +558,9 @@
     </instanceTest>
     <instanceTest name="complex011.n3.xml">
       <annotation>
-        <documentation>Invalid instance, child present but nil</documentation>
+        <documentation>
+                    Invalid instance, child present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex011.n3.xml"/>
       <expected validity="invalid"/>
@@ -491,7 +577,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="complex012.xsd">
       <annotation>
-        <documentation>Specifies element as nillable with mixed content</documentation>
+        <documentation>
+                   Specifies element as nillable with mixed content
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.xsd"/>
       <expected validity="valid"/>
@@ -499,7 +587,9 @@
     </schemaTest>
     <instanceTest name="complex012.v1.xml">
       <annotation>
-        <documentation>Valid instance; not nil</documentation>
+        <documentation>
+                    Valid instance; not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v1.xml"/>
       <expected validity="valid"/>
@@ -507,7 +597,9 @@
     </instanceTest>
     <instanceTest name="complex012.v2.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v2.xml"/>
       <expected validity="valid"/>
@@ -515,7 +607,9 @@
     </instanceTest>
     <instanceTest name="complex012.v3.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v3.xml"/>
       <expected validity="valid"/>
@@ -523,7 +617,9 @@
     </instanceTest>
     <instanceTest name="complex012.v4.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v4.xml"/>
       <expected validity="valid"/>
@@ -531,7 +627,9 @@
     </instanceTest>
     <instanceTest name="complex012.v5.xml">
       <annotation>
-        <documentation>Valid instance; nil element can contain a comment</documentation>
+        <documentation>
+                    Valid instance; nil element can contain a comment
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v5.xml"/>
       <expected validity="valid"/>
@@ -539,7 +637,9 @@
     </instanceTest>
     <instanceTest name="complex012.v6.xml">
       <annotation>
-        <documentation>Valid instance; nil element can contain a PI</documentation>
+        <documentation>
+                    Valid instance; nil element can contain a PI
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.v6.xml"/>
       <expected validity="valid"/>
@@ -547,7 +647,9 @@
     </instanceTest>
     <instanceTest name="complex012.n1.xml">
       <annotation>
-        <documentation>Invalid instance, value missing but not nil</documentation>
+        <documentation>
+                    Invalid instance, value missing but not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.n1.xml"/>
       <expected validity="invalid"/>
@@ -555,7 +657,9 @@
     </instanceTest>
     <instanceTest name="complex012.n2.xml">
       <annotation>
-        <documentation>Invalid instance,value present but nil</documentation>
+        <documentation>
+                    Invalid instance,value present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.n2.xml"/>
       <expected validity="invalid"/>
@@ -563,7 +667,9 @@
     </instanceTest>
     <instanceTest name="complex012.n3.xml">
       <annotation>
-        <documentation>Invalid instance, child present but nil</documentation>
+        <documentation>
+                    Invalid instance, child present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex012.n3.xml"/>
       <expected validity="invalid"/>
@@ -580,7 +686,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="complex013.xsd">
       <annotation>
-        <documentation>Specifies element as nillable, element-only content, not emptiable</documentation>
+        <documentation>
+                   Specifies element as nillable, element-only content, not emptiable
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.xsd"/>
       <expected validity="valid"/>
@@ -588,7 +696,9 @@
     </schemaTest>
     <instanceTest name="complex013.v1.xml">
       <annotation>
-        <documentation>Valid instance; not nil</documentation>
+        <documentation>
+                    Valid instance; not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.v1.xml"/>
       <expected validity="valid"/>
@@ -596,7 +706,9 @@
     </instanceTest>
     <instanceTest name="complex013.v2.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.v2.xml"/>
       <expected validity="valid"/>
@@ -604,7 +716,9 @@
     </instanceTest>
     <instanceTest name="complex013.n1.xml">
       <annotation>
-        <documentation>Invalid instance, value missing but not nil</documentation>
+        <documentation>
+                    Invalid instance, value missing but not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.n1.xml"/>
       <expected validity="invalid"/>
@@ -612,7 +726,9 @@
     </instanceTest>
     <instanceTest name="complex013.n2.xml">
       <annotation>
-        <documentation>Invalid instance,value present but nil</documentation>
+        <documentation>
+                    Invalid instance,value present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.n2.xml"/>
       <expected validity="invalid"/>
@@ -629,7 +745,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="complex014.xsd">
       <annotation>
-        <documentation>Specifies element as nillable, element-only content, not emptiable</documentation>
+        <documentation>
+                   Specifies element as nillable, element-only content, not emptiable
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex014.xsd"/>
       <expected validity="valid"/>
@@ -637,7 +755,9 @@
     </schemaTest>
     <instanceTest name="complex014.v1.xml">
       <annotation>
-        <documentation>Valid instance; not nil</documentation>
+        <documentation>
+                    Valid instance; not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.v1.xml"/>
       <expected validity="valid"/>
@@ -645,7 +765,9 @@
     </instanceTest>
     <instanceTest name="complex014.v2.xml">
       <annotation>
-        <documentation>Valid instance; nil</documentation>
+        <documentation>
+                    Valid instance; nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.v2.xml"/>
       <expected validity="valid"/>
@@ -653,7 +775,9 @@
     </instanceTest>
     <instanceTest name="complex014.n1.xml">
       <annotation>
-        <documentation>Invalid instance, value missing but not nil</documentation>
+        <documentation>
+                    Invalid instance, value missing but not nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.n1.xml"/>
       <expected validity="invalid"/>
@@ -661,7 +785,9 @@
     </instanceTest>
     <instanceTest name="complex014.n2.xml">
       <annotation>
-        <documentation>Invalid instance,value present but nil</documentation>
+        <documentation>
+                    Invalid instance,value present but nil
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex013.n2.xml"/>
       <expected validity="invalid"/>
@@ -679,7 +805,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
     <schemaTest name="complex015.xsd">
       <annotation>
-        <documentation>Unremarkable schema</documentation>
+        <documentation>
+                   Unremarkable schema
+                </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex015.xsd"/>
       <expected validity="valid"/>
@@ -687,7 +815,9 @@
     </schemaTest>
     <instanceTest name="complex015.n1.xml">
       <annotation>
-        <documentation>Invalid instance, xsi:type doesn't resolve</documentation>
+        <documentation>
+                    Invalid instance, xsi:type doesn't resolve
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex015.n1.xml"/>
       <expected validity="invalid"/>
@@ -779,7 +909,9 @@
     </schemaTest>
     <instanceTest name="complex021.n1.xml">
       <annotation>
-        <documentation>Invalid instance, validation against an abstract type</documentation>
+        <documentation>
+                    Invalid instance, validation against an abstract type
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex021.n1.xml"/>
       <expected validity="invalid"/>
@@ -802,7 +934,9 @@
     </schemaTest>
     <instanceTest name="complex022.n1.xml">
       <annotation>
-        <documentation>Invalid instance, empty content does not satisfy empty choice</documentation>
+        <documentation>
+                    Invalid instance, empty content does not satisfy empty choice
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex022.n1.xml"/>
       <expected validity="invalid"/>
@@ -810,7 +944,9 @@
     </instanceTest>
     <instanceTest name="complex022.n2.xml">
       <annotation>
-        <documentation>Invalid instance, element content does not satisfy empty choice</documentation>
+        <documentation>
+                    Invalid instance, element content does not satisfy empty choice
+                </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/complex022.n2.xml"/>
       <expected validity="invalid"/>
@@ -833,7 +969,9 @@
     </schemaTest>
     <instanceTest name="unique001.v1.xml">
       <annotation>
-        <documentation>Valid (despite the 1.0 spec): the field has a complex type with simple content.</documentation>
+        <documentation>
+		                Valid (despite the 1.0 spec): the field has a complex type with simple content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique001.v1.xml"/>
       <expected validity="valid"/>
@@ -841,7 +979,9 @@
     </instanceTest>
     <instanceTest name="unique001.n1.xml">
       <annotation>
-        <documentation>Invalid: two fields with the same value.</documentation>
+        <documentation>
+		                Invalid: two fields with the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique001.n1.xml"/>
       <expected validity="invalid"/>
@@ -863,7 +1003,9 @@
     </schemaTest>
     <instanceTest name="unique002.n1.xml">
       <annotation>
-        <documentation>Invalid: the field has a complex type with mixed content.</documentation>
+        <documentation>
+		                Invalid: the field has a complex type with mixed content.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique002.n1.xml"/>
       <expected validity="invalid"/>
@@ -885,7 +1027,9 @@
     </schemaTest>
     <instanceTest name="unique003.v1.xml">
       <annotation>
-        <documentation>Value: values are distinct.</documentation>
+        <documentation>
+		                Value: values are distinct.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique003.v1.xml"/>
       <expected validity="valid"/>
@@ -893,7 +1037,9 @@
     </instanceTest>
     <instanceTest name="unique003.v2.xml">
       <annotation>
-        <documentation>Value: values are distinct.</documentation>
+        <documentation>
+		                Value: values are distinct.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique003.v2.xml"/>
       <expected validity="valid"/>
@@ -901,7 +1047,9 @@
     </instanceTest>
     <instanceTest name="unique003.n1.xml">
       <annotation>
-        <documentation>Invalid: values are duplicates.</documentation>
+        <documentation>
+		                Invalid: values are duplicates.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique003.n1.xml"/>
       <expected validity="invalid"/>
@@ -909,7 +1057,9 @@
     </instanceTest>
     <instanceTest name="unique003.n2.xml">
       <annotation>
-        <documentation>Invalid: values NaN and NaN are considered duplicates.</documentation>
+        <documentation>
+		                Invalid: values NaN and NaN are considered duplicates.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Complex/unique003.n2.xml"/>
       <expected validity="invalid"/>

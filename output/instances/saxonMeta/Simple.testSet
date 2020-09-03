@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="simple001.v01.xml">
       <annotation>
-        <documentation>Valid, +INF used legitimately.</documentation>
+        <documentation>
+		                Valid, +INF used legitimately.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.v01.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="simple001.n01.xml">
       <annotation>
-        <documentation>Invalid, -INF conflicts with fixed value.</documentation>
+        <documentation>
+		                Invalid, -INF conflicts with fixed value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n01.xml"/>
       <expected validity="invalid"/>
@@ -32,7 +36,9 @@
     </instanceTest>
     <instanceTest name="simple001.n02.xml">
       <annotation>
-        <documentation>Invalid, NaN conflicts with fixed value.</documentation>
+        <documentation>
+		                Invalid, NaN conflicts with fixed value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n02.xml"/>
       <expected validity="invalid"/>
@@ -55,7 +61,9 @@
     </schemaTest>
     <instanceTest name="simple002.v01.xml">
       <annotation>
-        <documentation>Valid, +INF used legitimately.</documentation>
+        <documentation>
+		                Valid, +INF used legitimately.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.v01.xml"/>
       <expected validity="valid"/>
@@ -63,7 +71,9 @@
     </instanceTest>
     <instanceTest name="simple002.n01.xml">
       <annotation>
-        <documentation>Invalid, -INF conflicts with fixed value.</documentation>
+        <documentation>
+		                Invalid, -INF conflicts with fixed value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n01.xml"/>
       <expected validity="invalid"/>
@@ -71,7 +81,9 @@
     </instanceTest>
     <instanceTest name="simple002.n02.xml">
       <annotation>
-        <documentation>Invalid, NaN conflicts with fixed value.</documentation>
+        <documentation>
+		                Invalid, NaN conflicts with fixed value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple001.n02.xml"/>
       <expected validity="invalid"/>
@@ -94,7 +106,9 @@
     </schemaTest>
     <instanceTest name="simple003.v01.xml">
       <annotation>
-        <documentation>Valid, the simpleType that prohibits extension is not extended.</documentation>
+        <documentation>
+		                Valid, the simpleType that prohibits extension is not extended.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple003.v01.xml"/>
       <expected validity="valid"/>
@@ -112,7 +126,9 @@
     <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"/>
     <schemaTest name="simple004.xsd">
       <annotation>
-        <documentation>Invalid, the simpleType that prohibits extension gets extended.</documentation>
+        <documentation>
+		                Invalid, the simpleType that prohibits extension gets extended.
+		            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple004.bad.xsd"/>
       <expected validity="invalid"/>
@@ -130,7 +146,9 @@
     <documentationReference xlink:type="locator" xlink:href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"/>
     <schemaTest name="simple005.xsd">
       <annotation>
-        <documentation>Invalid, the simpleType that prohibits extension gets extended.</documentation>
+        <documentation>
+		                Invalid, the simpleType that prohibits extension gets extended.
+		            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple005.bad.xsd"/>
       <expected validity="invalid"/>
@@ -148,7 +166,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="simple006.xsd">
       <annotation>
-        <documentation>Invalid, the list type refers to a non-existent item type.</documentation>
+        <documentation>
+		                Invalid, the list type refers to a non-existent item type.
+		            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple006.bad.xsd"/>
       <expected validity="invalid"/>
@@ -171,7 +191,9 @@
     </schemaTest>
     <instanceTest name="simple010.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.v01.xml"/>
       <expected validity="valid"/>
@@ -179,7 +201,9 @@
     </instanceTest>
     <instanceTest name="simple010.n01.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.n01.xml"/>
       <expected validity="invalid"/>
@@ -187,7 +211,9 @@
     </instanceTest>
     <instanceTest name="simple010.n02.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple010.n02.xml"/>
       <expected validity="invalid"/>
@@ -225,7 +251,9 @@
     </schemaTest>
     <instanceTest name="simple012.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.v01.xml"/>
       <expected validity="valid"/>
@@ -233,7 +261,9 @@
     </instanceTest>
     <instanceTest name="simple012.v02.xml">
       <annotation>
-        <documentation>Valid use of xsi:type here</documentation>
+        <documentation>
+		                Valid use of xsi:type here
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.v02.xml"/>
       <expected validity="valid"/>
@@ -241,7 +271,9 @@
     </instanceTest>
     <instanceTest name="simple012.n01.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.n01.xml"/>
       <expected validity="invalid"/>
@@ -249,7 +281,9 @@
     </instanceTest>
     <instanceTest name="simple012.n02.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple012.n02.xml"/>
       <expected validity="invalid"/>
@@ -272,7 +306,9 @@
     </schemaTest>
     <instanceTest name="simple013.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.v01.xml"/>
       <expected validity="valid"/>
@@ -280,7 +316,9 @@
     </instanceTest>
     <instanceTest name="simple013.n01.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.n01.xml"/>
       <expected validity="invalid"/>
@@ -288,7 +326,9 @@
     </instanceTest>
     <instanceTest name="simple013.n02.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple013.n02.xml"/>
       <expected validity="invalid"/>
@@ -341,7 +381,9 @@
     </schemaTest>
     <instanceTest name="simple016.v01.xml">
       <annotation>
-        <documentation>Valid, xsi:type is OK here as the union is unrestricted</documentation>
+        <documentation>
+		                Valid, xsi:type is OK here as the union is unrestricted
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple016.v01.xml"/>
       <expected validity="valid"/>
@@ -349,7 +391,9 @@
     </instanceTest>
     <instanceTest name="simple016.n01.xml">
       <annotation>
-        <documentation>Invalid, xsi:type cannot be used here as the union is restricted.</documentation>
+        <documentation>
+		                Invalid, xsi:type cannot be used here as the union is restricted.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple016.n01.xml"/>
       <expected validity="invalid"/>
@@ -367,7 +411,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
     <schemaTest name="simple017.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple017.bad.xsd"/>
       <expected validity="invalid"/>
@@ -385,7 +431,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
     <schemaTest name="simple018.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple018.bad.xsd"/>
       <expected validity="invalid"/>
@@ -403,7 +451,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
     <schemaTest name="simple019.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple019.bad.xsd"/>
       <expected validity="invalid"/>
@@ -421,7 +471,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
     <schemaTest name="simple020.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple020.bad.xsd"/>
       <expected validity="invalid"/>
@@ -438,7 +490,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#charcter-classes"/>
     <schemaTest name="simple021.xsd">
       <annotation>
-        <documentation>invalid regular expression in pattern facet</documentation>
+        <documentation>
+	                invalid regular expression in pattern facet
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple021.bad.xsd"/>
       <expected validity="invalid"/>
@@ -460,7 +514,9 @@
     </schemaTest>
     <instanceTest name="simple022.v01.xml">
       <annotation>
-        <documentation>Valid, Enumeration value OK if "equal or identical"</documentation>
+        <documentation>
+		                Valid, Enumeration value OK if "equal or identical"
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v01.xml"/>
       <expected validity="valid"/>
@@ -468,7 +524,9 @@
     </instanceTest>
     <instanceTest name="simple022.v02.xml">
       <annotation>
-        <documentation>Valid, Enumeration value OK if "equal or identical"</documentation>
+        <documentation>
+		                Valid, Enumeration value OK if "equal or identical"
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v02.xml"/>
       <expected validity="valid"/>
@@ -476,7 +534,9 @@
     </instanceTest>
     <instanceTest name="simple022.v03.xml">
       <annotation>
-        <documentation>Valid, Enumeration value OK if "equal or identical"</documentation>
+        <documentation>
+		                Valid, Enumeration value OK if "equal or identical"
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.v03.xml"/>
       <expected validity="valid"/>
@@ -484,7 +544,9 @@
     </instanceTest>
     <instanceTest name="simple016.n01.xml">
       <annotation>
-        <documentation>Invalid, Enumeration value OK only if "equal or identical".</documentation>
+        <documentation>
+		                Invalid, Enumeration value OK only if "equal or identical".
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple022.n01.xml"/>
       <expected validity="invalid"/>
@@ -507,7 +569,9 @@
     </schemaTest>
     <instanceTest name="simple040.v01.xml">
       <annotation>
-        <documentation>Valid,</documentation>
+        <documentation>
+		                Valid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.v01.xml"/>
       <expected validity="valid"/>
@@ -515,7 +579,9 @@
     </instanceTest>
     <instanceTest name="simple040.n01.xml">
       <annotation>
-        <documentation>Invalid,</documentation>
+        <documentation>
+		                Invalid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.n01.xml"/>
       <expected validity="invalid"/>
@@ -523,7 +589,9 @@
     </instanceTest>
     <instanceTest name="simple040.n02.xml">
       <annotation>
-        <documentation>Invalid,</documentation>
+        <documentation>
+		                Invalid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple040.n02.xml"/>
       <expected validity="invalid"/>
@@ -541,7 +609,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple041.bad.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple041.bad.xsd"/>
       <expected validity="invalid"/>
@@ -559,7 +629,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple042.bad.xsd">
       <annotation>
-        <documentation>invalid, cyclic union definition</documentation>
+        <documentation>
+	                invalid, cyclic union definition
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple042.bad.xsd"/>
       <expected validity="invalid"/>
@@ -577,7 +649,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple043.xsd">
       <annotation>
-        <documentation>this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.</documentation>
+        <documentation>
+	                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple043.xsd"/>
       <expected validity="valid"/>
@@ -596,7 +670,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple044.xsd">
       <annotation>
-        <documentation>valid regex</documentation>
+        <documentation>
+	                valid regex
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.xsd"/>
       <expected validity="valid"/>
@@ -604,7 +680,9 @@
     </schemaTest>
     <instanceTest name="simple044.v01.xml">
       <annotation>
-        <documentation>Valid,</documentation>
+        <documentation>
+		                Valid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.v01.xml"/>
       <expected validity="valid"/>
@@ -612,7 +690,9 @@
     </instanceTest>
     <instanceTest name="simple044.n01.xml">
       <annotation>
-        <documentation>Invalid,</documentation>
+        <documentation>
+		                Invalid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple044.n01.xml"/>
       <expected validity="invalid"/>
@@ -630,7 +710,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple045.xsd">
       <annotation>
-        <documentation>valid regex</documentation>
+        <documentation>
+	                valid regex
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.xsd"/>
       <expected validity="valid"/>
@@ -638,7 +720,9 @@
     </schemaTest>
     <instanceTest name="simple045.v01.xml">
       <annotation>
-        <documentation>Valid,</documentation>
+        <documentation>
+		                Valid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.v01.xml"/>
       <expected validity="valid"/>
@@ -646,7 +730,9 @@
     </instanceTest>
     <instanceTest name="simple045.n01.xml">
       <annotation>
-        <documentation>Invalid,</documentation>
+        <documentation>
+		                Invalid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple045.n01.xml"/>
       <expected validity="invalid"/>
@@ -664,7 +750,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
     <schemaTest name="simple046.xsd">
       <annotation>
-        <documentation>valid regex</documentation>
+        <documentation>
+	                valid regex
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.xsd"/>
       <expected validity="valid"/>
@@ -672,7 +760,9 @@
     </schemaTest>
     <instanceTest name="simple046.v01.xml">
       <annotation>
-        <documentation>Valid,</documentation>
+        <documentation>
+		                Valid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.v01.xml"/>
       <expected validity="valid"/>
@@ -680,7 +770,9 @@
     </instanceTest>
     <instanceTest name="simple046.n01.xml">
       <annotation>
-        <documentation>Invalid,</documentation>
+        <documentation>
+		                Invalid, 
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple046.n01.xml"/>
       <expected validity="invalid"/>
@@ -698,7 +790,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
     <schemaTest name="simple050.xsd">
       <annotation>
-        <documentation>valid schema using anyAtomicType</documentation>
+        <documentation>
+	                valid schema using anyAtomicType
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.xsd"/>
       <expected validity="valid"/>
@@ -706,7 +800,9 @@
     </schemaTest>
     <instanceTest name="simple050.v01.xml">
       <annotation>
-        <documentation>Valid, anyAtomicType allows anything</documentation>
+        <documentation>
+		                Valid, anyAtomicType allows anything
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.v01.xml"/>
       <expected validity="valid"/>
@@ -714,7 +810,9 @@
     </instanceTest>
     <instanceTest name="simple050.v02.xml">
       <annotation>
-        <documentation>Valid xsi:type restricting to a date</documentation>
+        <documentation>
+		                Valid xsi:type restricting to a date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.v02.xml"/>
       <expected validity="valid"/>
@@ -722,7 +820,9 @@
     </instanceTest>
     <instanceTest name="simple050.n01.xml">
       <annotation>
-        <documentation>Invalid, if restricting to a date the date must be valid</documentation>
+        <documentation>
+		                Invalid, if restricting to a date the date must be valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n01.xml"/>
       <expected validity="invalid"/>
@@ -730,7 +830,9 @@
     </instanceTest>
     <instanceTest name="simple050.n02.xml">
       <annotation>
-        <documentation>Invalid, restricting to an unknown type</documentation>
+        <documentation>
+		                Invalid, restricting to an unknown type
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n02.xml"/>
       <expected validity="invalid"/>
@@ -738,7 +840,9 @@
     </instanceTest>
     <instanceTest name="simple050.n03.xml">
       <annotation>
-        <documentation>Invalid, restricting to untypedAtomic</documentation>
+        <documentation>
+		                Invalid, restricting to untypedAtomic
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple050.n03.xml"/>
       <expected validity="invalid"/>
@@ -756,7 +860,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
     <schemaTest name="simple050.xsd">
       <annotation>
-        <documentation>invalid schema using anyAtomicType</documentation>
+        <documentation>
+	                invalid schema using anyAtomicType
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple051.bad.xsd"/>
       <expected validity="invalid"/>
@@ -775,7 +881,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
     <schemaTest name="simple052.xsd">
       <annotation>
-        <documentation>invalid schema using anyAtomicType as the item type of a list</documentation>
+        <documentation>
+	                invalid schema using anyAtomicType as the item type of a list
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple052.xsd"/>
       <expected validity="invalid"/>
@@ -794,7 +902,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"/>
     <schemaTest name="simple053.xsd">
       <annotation>
-        <documentation>invalid schema using anyAtomicType as a member type in a union</documentation>
+        <documentation>
+	                invalid schema using anyAtomicType as a member type in a union
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple053.xsd"/>
       <expected validity="invalid"/>
@@ -812,7 +922,9 @@
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
     <schemaTest name="simple054.xsd">
       <annotation>
-        <documentation>valid schema using a union</documentation>
+        <documentation>
+	                valid schema using a union
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple054.xsd"/>
       <expected validity="valid"/>
@@ -820,7 +932,9 @@
     </schemaTest>
     <instanceTest name="simple053.n01.xml">
       <annotation>
-        <documentation>Invalid, unknown xsi:type</documentation>
+        <documentation>
+		                Invalid, unknown xsi:type
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple054.n01.xml"/>
       <expected validity="invalid"/>
@@ -837,7 +951,9 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="simple055.xsd">
       <annotation>
-        <documentation>schema is valid though not useful</documentation>
+        <documentation>
+	                schema is valid though not useful
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple055.xsd"/>
       <expected validity="valid"/>
@@ -845,7 +961,9 @@
     </schemaTest>
     <instanceTest name="simple055.n01.xml">
       <annotation>
-        <documentation>Invalid, field of selector selects nothing</documentation>
+        <documentation>
+		                Invalid, field of selector selects nothing
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple055.n01.xml"/>
       <expected validity="invalid"/>
@@ -862,8 +980,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple060.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple060.bad.xsd"/>
       <expected validity="invalid"/>
@@ -880,8 +1000,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple061.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple061.bad.xsd"/>
       <expected validity="invalid"/>
@@ -898,8 +1020,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple062.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple062.bad.xsd"/>
       <expected validity="invalid"/>
@@ -916,8 +1040,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple063.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple063.bad.xsd"/>
       <expected validity="invalid"/>
@@ -934,8 +1060,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple064.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple064.bad.xsd"/>
       <expected validity="invalid"/>
@@ -952,8 +1080,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple065.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple065.bad.xsd"/>
       <expected validity="invalid"/>
@@ -970,8 +1100,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple066.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple066.bad.xsd"/>
       <expected validity="invalid"/>
@@ -988,8 +1120,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple067.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple067.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1006,8 +1140,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple068.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple068.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1024,8 +1160,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple069.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple069.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1042,8 +1180,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple070.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple070.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1060,8 +1200,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple071.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple071.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1078,8 +1220,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple072.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple072.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1096,8 +1240,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple073.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple073.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1114,8 +1260,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple074.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple074.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1132,8 +1280,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple075.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple075.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1150,8 +1300,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple076.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple076.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1168,8 +1320,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple077.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple077.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1186,8 +1340,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple078.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple078.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1204,8 +1360,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple079.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple079.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1222,8 +1380,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple080.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple080.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1240,8 +1400,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple081.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple081.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1258,8 +1420,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple082.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple082.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1276,8 +1440,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple083.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple083.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1294,8 +1460,10 @@
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"/>
     <schemaTest name="simple084.xsd">
       <annotation>
-        <documentation>invalid schema, facet is repeated violating clause 1 of 
-	                Simple Type Definition Representation OK</documentation>
+        <documentation>
+	                invalid schema, facet is repeated violating clause 1 of 
+	                Simple Type Definition Representation OK
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple084.bad.xsd"/>
       <expected validity="invalid"/>
@@ -1307,13 +1475,16 @@
       <documentation>
         <Title>Union derived by restriction with a pattern facet</Title>
         <Description>Pattern facet applies after doing whitespace processing defined
-                             in the member type against which validation succeeded</Description>
+                             in the member type against which validation succeeded
+                </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#d0e13819"/>
     <schemaTest name="simple085.xsd">
       <annotation>
-        <documentation>schema is valid</documentation>
+        <documentation>
+	                schema is valid
+	            </documentation>
       </annotation>
       <schemaDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple085.xsd"/>
       <expected validity="valid"/>
@@ -1321,7 +1492,9 @@
     </schemaTest>
     <instanceTest name="simple085.v01.xml">
       <annotation>
-        <documentation>Valid; pattern matches the input after whitespace normalization</documentation>
+        <documentation>
+		                Valid; pattern matches the input after whitespace normalization
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Simple/simple085.v01.xml"/>
       <expected validity="valid"/>

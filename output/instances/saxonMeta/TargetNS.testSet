@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="target001.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target001.v1.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="target001.n1.xml">
       <annotation>
-        <documentation>Invalid, child element is in wrong namespace.</documentation>
+        <documentation>
+		                Invalid, child element is in wrong namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target001.n1.xml"/>
       <expected validity="invalid"/>
@@ -62,7 +66,9 @@
     </schemaTest>
     <instanceTest name="target003.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.v1.xml"/>
       <expected validity="valid"/>
@@ -70,7 +76,9 @@
     </instanceTest>
     <instanceTest name="target003.n1.xml">
       <annotation>
-        <documentation>Invalid, attribute is in wrong namespace.</documentation>
+        <documentation>
+		                Invalid, attribute is in wrong namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.n1.xml"/>
       <expected validity="invalid"/>
@@ -78,7 +86,9 @@
     </instanceTest>
     <instanceTest name="target003.n2.xml">
       <annotation>
-        <documentation>Invalid, attribute is in wrong namespace.</documentation>
+        <documentation>
+		                Invalid, attribute is in wrong namespace.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/TargetNS/target003.n2.xml"/>
       <expected validity="invalid"/>

@@ -1,7 +1,7 @@
 <!-- xsdata instance -->
 <doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <elem>
-    <e1>text</e1>
-    <e2>text</e2>
+    <e1> text </e1>
+    <e2> text </e2>
   </elem>
 </doc>

@@ -5,7 +5,7 @@
   </annotation>
   <testGroup name="d3_3_11v01" version="1.1">
     <annotation>
-      <documentation>A day is a calendar (or "local time") day in each timezone, including the timezones outside of +12:00 through -11:59 inclusive.</documentation>
+      <documentation>A day is a calendar (or "local time") day in each timezone, including the timezones outside of +12:00 through -11:59 inclusive. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#gYearMonth"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes"/>

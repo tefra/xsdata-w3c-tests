@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="s3_2_3v04" version="1.1">
     <annotation>
-      <documentation>Tests the targetNamespace attribute in locally declared element and attribute.</documentation>
+      <documentation>Tests the targetNamespace attribute in locally declared element and attribute. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>
@@ -91,7 +91,7 @@
   </testGroup>
   <testGroup name="s3_2_3ii05" version="1.1">
     <annotation>
-      <documentation>Named identity constraints on local element declarations</documentation>
+      <documentation>Named identity constraints on local element declarations </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"/>
@@ -156,7 +156,7 @@
   </testGroup>
   <testGroup name="s3_2_3si05">
     <annotation>
-      <documentation>The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]</documentation>
+      <documentation>The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"/>
@@ -216,7 +216,7 @@
   </testGroup>
   <testGroup name="s3_2_3si10" version="1.1">
     <annotation>
-      <documentation>identity constraints on local element declarations</documentation>
+      <documentation>identity constraints on local element declarations </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"/>

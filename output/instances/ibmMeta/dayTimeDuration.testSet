@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="d3_4_27v04" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dayTimeDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Tests the simpleType dayTimeDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -90,7 +90,7 @@
   </testGroup>
   <testGroup name="d3_4_27ii01" version="1.1">
     <annotation>
-      <documentation>Invalid dayTimeDuration values</documentation>
+      <documentation>Invalid dayTimeDuration values </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -158,7 +158,7 @@
   </testGroup>
   <testGroup name="d3_4_27ii05" version="1.1">
     <annotation>
-      <documentation>Invalid values of dayTimeDuration and invalid instance of its facets used in attributes</documentation>
+      <documentation>Invalid values of dayTimeDuration and invalid instance of its facets used in attributes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -233,7 +233,7 @@
   </testGroup>
   <testGroup name="d3_4_27si03" version="1.1">
     <annotation>
-      <documentation>min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive)</documentation>
+      <documentation> min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive)</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -269,7 +269,7 @@
   </testGroup>
   <testGroup name="d3_4_27si06" version="1.1">
     <annotation>
-      <documentation>The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type</documentation>
+      <documentation>The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -281,7 +281,7 @@
   </testGroup>
   <testGroup name="d3_4_27si07" version="1.1">
     <annotation>
-      <documentation>The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type</documentation>
+      <documentation> The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -305,7 +305,7 @@
   </testGroup>
   <testGroup name="d3_4_27si09" version="1.1">
     <annotation>
-      <documentation>Enumeration values are incorrect dayTimeDuration values</documentation>
+      <documentation>Enumeration values are incorrect dayTimeDuration values </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -329,7 +329,7 @@
   </testGroup>
   <testGroup name="d3_4_27si11" version="1.1">
     <annotation>
-      <documentation>Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type</documentation>
+      <documentation>Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>

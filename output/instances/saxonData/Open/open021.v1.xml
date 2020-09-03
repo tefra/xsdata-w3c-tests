@@ -1,2 +1,8 @@
 <!-- xsdata instance -->
-<doc xmlns="http://open.com/">o-O-o<extra>42</extra>o-O-o<extra>97</extra>o-O-o</doc>
+<doc xmlns="http://open.com/">
+  o-O-o
+  <extra>42</extra>
+  o-O-o  
+  <extra>97</extra> 
+  o-O-o   
+</doc>

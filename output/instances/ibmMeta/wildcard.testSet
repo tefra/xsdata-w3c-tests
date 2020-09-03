@@ -1,11 +1,12 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="wildcard" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details">wildcard</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details">wildcard
+	    </documentation>
   </annotation>
   <testGroup name="s3_10_1v01" version="1.1">
     <annotation>
-      <documentation>Tests notQName="##defined"</documentation>
+      <documentation>Tests notQName="##defined" </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"/>
@@ -22,7 +23,7 @@
   </testGroup>
   <testGroup name="s3_10_1v02" version="1.1">
     <annotation>
-      <documentation>Tests notQName and notNamespace list</documentation>
+      <documentation>Tests notQName and notNamespace list </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"/>
@@ -56,7 +57,7 @@
   </testGroup>
   <testGroup name="s3_10_1v04" version="1.1">
     <annotation>
-      <documentation>Tests weakened wildcard (tests whether error occurs on violation of UPA)</documentation>
+      <documentation>Tests weakened wildcard (tests whether error occurs on violation of UPA) </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA"/>
@@ -73,7 +74,7 @@
   </testGroup>
   <testGroup name="s3_10_1v05" version="1.1">
     <annotation>
-      <documentation>the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model</documentation>
+      <documentation>the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"/>
@@ -141,7 +142,7 @@
   </testGroup>
   <testGroup name="s3_10_1ii02" version="1.1">
     <annotation>
-      <documentation>invalid element in instance document as it does not match ns of wildcard</documentation>
+      <documentation>invalid element in instance document as it does not match ns of wildcard </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"/>
@@ -158,7 +159,7 @@
   </testGroup>
   <testGroup name="s3_10_1ii03">
     <annotation>
-      <documentation>invalid element in instance document as it does not match ns of wildcard</documentation>
+      <documentation>invalid element in instance document as it does not match ns of wildcard </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"/>

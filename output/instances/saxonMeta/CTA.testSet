@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="cta0001.v01">
       <annotation>
-        <documentation>Valid, message with kind="date".</documentation>
+        <documentation>
+		                Valid, message with kind="date".
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v01.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="cta0001.v02">
       <annotation>
-        <documentation>Valid, message with kind="time".</documentation>
+        <documentation>
+		                Valid, message with kind="time".
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v02.xml"/>
       <expected validity="valid"/>
@@ -32,7 +36,9 @@
     </instanceTest>
     <instanceTest name="cta0001.v03">
       <annotation>
-        <documentation>Valid, multiple messages at inner level.</documentation>
+        <documentation>
+		                Valid, multiple messages at inner level.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.v03.xml"/>
       <expected validity="valid"/>
@@ -40,7 +46,9 @@
     </instanceTest>
     <instanceTest name="cta0001.n01">
       <annotation>
-        <documentation>Invalid, message with kind="date" but content is a time</documentation>
+        <documentation>
+		                Invalid, message with kind="date" but content is a time
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.n01.xml"/>
       <expected validity="invalid"/>
@@ -48,7 +56,9 @@
     </instanceTest>
     <instanceTest name="cta0001.n02">
       <annotation>
-        <documentation>Invalid, message with kind="date" at inner level</documentation>
+        <documentation>
+		                Invalid, message with kind="date" at inner level
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0001.n02.xml"/>
       <expected validity="invalid"/>
@@ -71,7 +81,9 @@
     </schemaTest>
     <instanceTest name="cta0002.v01">
       <annotation>
-        <documentation>Valid, various messages.</documentation>
+        <documentation>
+		                Valid, various messages.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0002.v01.xml"/>
       <expected validity="valid"/>
@@ -79,7 +91,9 @@
     </instanceTest>
     <instanceTest name="cta0002.n01">
       <annotation>
-        <documentation>Invalid, message with min=1 but no child elements</documentation>
+        <documentation>
+		                Invalid, message with min=1 but no child elements
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0002.n01.xml"/>
       <expected validity="invalid"/>
@@ -102,7 +116,9 @@
     </schemaTest>
     <instanceTest name="cta0003.v01">
       <annotation>
-        <documentation>Valid, various messages.</documentation>
+        <documentation>
+		                Valid, various messages.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
       <expected validity="valid"/>
@@ -110,7 +126,9 @@
     </instanceTest>
     <instanceTest name="cta0003.n01">
       <annotation>
-        <documentation>Invalid, message with min=1 but no child elements</documentation>
+        <documentation>
+		                Invalid, message with min=1 but no child elements
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
       <expected validity="invalid"/>
@@ -133,7 +151,9 @@
     </schemaTest>
     <instanceTest name="cta0004.v01">
       <annotation>
-        <documentation>Valid, various messages.</documentation>
+        <documentation>
+		                Valid, various messages.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
       <expected validity="valid"/>
@@ -141,7 +161,9 @@
     </instanceTest>
     <instanceTest name="cta0004.n01">
       <annotation>
-        <documentation>Invalid, message with min=1 but no child elements</documentation>
+        <documentation>
+		                Invalid, message with min=1 but no child elements
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
       <expected validity="invalid"/>
@@ -165,7 +187,9 @@
     </schemaTest>
     <instanceTest name="cta0005.v01">
       <annotation>
-        <documentation>Valid, various messages.</documentation>
+        <documentation>
+		                Valid, various messages.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.v01.xml"/>
       <expected validity="valid"/>
@@ -173,7 +197,9 @@
     </instanceTest>
     <instanceTest name="cta0005.n01">
       <annotation>
-        <documentation>Invalid, message with min=1 but no child elements</documentation>
+        <documentation>
+		                Invalid, message with min=1 but no child elements
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0003.n01.xml"/>
       <expected validity="invalid"/>
@@ -203,7 +229,9 @@
     </schemaTest>
     <instanceTest name="cta0006.v01">
       <annotation>
-        <documentation>Valid messages</documentation>
+        <documentation>
+		                Valid messages
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.v01.xml"/>
       <expected validity="valid"/>
@@ -211,7 +239,9 @@
     </instanceTest>
     <instanceTest name="cta0006.n01">
       <annotation>
-        <documentation>Invalid message with kind="xs:int"</documentation>
+        <documentation>
+		                Invalid message with kind="xs:int"
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.n01.xml"/>
       <expected validity="invalid"/>
@@ -219,7 +249,9 @@
     </instanceTest>
     <instanceTest name="cta0006.n02">
       <annotation>
-        <documentation>Invalid message with kind="xs:QName (namespace not declared"</documentation>
+        <documentation>
+		                Invalid message with kind="xs:QName (namespace not declared"
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0006.n02.xml"/>
       <expected validity="invalid"/>
@@ -248,7 +280,9 @@
     </schemaTest>
     <instanceTest name="cta0007.n01">
       <annotation>
-        <documentation>Invalid message with kind="xs:anyURI" leading to selection of type xs:error</documentation>
+        <documentation>
+		                Invalid message with kind="xs:anyURI" leading to selection of type xs:error
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0007.n01.xml"/>
       <expected validity="invalid"/>
@@ -269,15 +303,19 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-10-17">
         <annotation>
-          <documentation>Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.
-                  Bug 13455.</documentation>
+          <documentation>
+                  Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.
+                  Bug 13455.
+                </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2009-05-05"/>
     </schemaTest>
     <instanceTest name="cta0008.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0008.v01.xml"/>
       <expected validity="valid"/>
@@ -285,7 +323,9 @@
     </instanceTest>
     <instanceTest name="cta0008.n01">
       <annotation>
-        <documentation>inalid message</documentation>
+        <documentation>
+		                inalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0008.n01.xml"/>
       <expected validity="invalid"/>
@@ -308,7 +348,9 @@
     </schemaTest>
     <instanceTest name="cta0009.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v01.xml"/>
       <expected validity="valid"/>
@@ -316,7 +358,9 @@
     </instanceTest>
     <instanceTest name="cta0009.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v02.xml"/>
       <expected validity="valid"/>
@@ -324,7 +368,9 @@
     </instanceTest>
     <instanceTest name="cta0009.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n01.xml"/>
       <expected validity="invalid"/>
@@ -332,7 +378,9 @@
     </instanceTest>
     <instanceTest name="cta0009.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n02.xml"/>
       <expected validity="invalid"/>
@@ -356,7 +404,9 @@
     </schemaTest>
     <instanceTest name="cta0010.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.v01.xml"/>
       <expected validity="valid"/>
@@ -364,7 +414,9 @@
     </instanceTest>
     <instanceTest name="cta0010.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.v02.xml"/>
       <expected validity="valid"/>
@@ -372,7 +424,9 @@
     </instanceTest>
     <instanceTest name="cta0010.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.n01.xml"/>
       <expected validity="invalid"/>
@@ -380,7 +434,9 @@
     </instanceTest>
     <instanceTest name="cta0010.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0010.n02.xml"/>
       <expected validity="invalid"/>
@@ -403,7 +459,9 @@
     </schemaTest>
     <instanceTest name="cta0011.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v01.xml"/>
       <expected validity="valid"/>
@@ -411,7 +469,9 @@
     </instanceTest>
     <instanceTest name="cta0011.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.v02.xml"/>
       <expected validity="valid"/>
@@ -419,7 +479,9 @@
     </instanceTest>
     <instanceTest name="cta0011.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n01.xml"/>
       <expected validity="invalid"/>
@@ -427,7 +489,9 @@
     </instanceTest>
     <instanceTest name="cta0011.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0009.n02.xml"/>
       <expected validity="invalid"/>
@@ -450,7 +514,9 @@
     </schemaTest>
     <instanceTest name="cta0012.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0012.v01.xml"/>
       <expected validity="valid"/>
@@ -458,7 +524,9 @@
     </instanceTest>
     <instanceTest name="cta0012.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0012.n01.xml"/>
       <expected validity="invalid"/>
@@ -482,7 +550,9 @@
     </schemaTest>
     <instanceTest name="cta0013.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.v01.xml"/>
       <expected validity="valid"/>
@@ -490,7 +560,9 @@
     </instanceTest>
     <instanceTest name="cta0013.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.v02.xml"/>
       <expected validity="valid"/>
@@ -498,7 +570,9 @@
     </instanceTest>
     <instanceTest name="cta0013.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.n01.xml"/>
       <expected validity="invalid"/>
@@ -506,7 +580,9 @@
     </instanceTest>
     <instanceTest name="cta0013.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0013.n02.xml"/>
       <expected validity="invalid"/>
@@ -529,7 +605,9 @@
     </schemaTest>
     <instanceTest name="cta0014.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
       <expected validity="valid"/>
@@ -537,7 +615,9 @@
     </instanceTest>
     <instanceTest name="cta0014.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
       <expected validity="valid"/>
@@ -545,7 +625,9 @@
     </instanceTest>
     <instanceTest name="cta0014.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
       <expected validity="invalid"/>
@@ -553,7 +635,9 @@
     </instanceTest>
     <instanceTest name="cta0014.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
       <expected validity="invalid"/>
@@ -576,7 +660,9 @@
     </schemaTest>
     <instanceTest name="cta0015.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
       <expected validity="valid"/>
@@ -584,7 +670,9 @@
     </instanceTest>
     <instanceTest name="cta0015.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
       <expected validity="valid"/>
@@ -592,7 +680,9 @@
     </instanceTest>
     <instanceTest name="cta0015.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
       <expected validity="invalid"/>
@@ -600,7 +690,9 @@
     </instanceTest>
     <instanceTest name="cta0015.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
       <expected validity="invalid"/>
@@ -623,7 +715,9 @@
     </schemaTest>
     <instanceTest name="cta0016.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v01.xml"/>
       <expected validity="valid"/>
@@ -631,7 +725,9 @@
     </instanceTest>
     <instanceTest name="cta0016.v02">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.v02.xml"/>
       <expected validity="valid"/>
@@ -639,7 +735,9 @@
     </instanceTest>
     <instanceTest name="cta0016.n01">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n01.xml"/>
       <expected validity="invalid"/>
@@ -647,7 +745,9 @@
     </instanceTest>
     <instanceTest name="cta0016.n02">
       <annotation>
-        <documentation>invalid message</documentation>
+        <documentation>
+		                invalid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0014.n02.xml"/>
       <expected validity="invalid"/>
@@ -676,7 +776,9 @@
     </schemaTest>
     <instanceTest name="cta0017.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
       <expected validity="valid"/>
@@ -705,7 +807,9 @@
     </schemaTest>
     <instanceTest name="cta0018.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
       <expected validity="valid"/>
@@ -734,7 +838,9 @@
     </schemaTest>
     <instanceTest name="cta0019.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
       <expected validity="valid"/>
@@ -757,7 +863,9 @@
     </schemaTest>
     <instanceTest name="cta0020.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
       <expected validity="valid"/>
@@ -786,7 +894,9 @@
     </schemaTest>
     <instanceTest name="cta0021.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0021.v01.xml"/>
       <expected validity="valid"/>
@@ -794,7 +904,9 @@
     </instanceTest>
     <instanceTest name="cta0021.n01">
       <annotation>
-        <documentation>Invalid message: base URI does not match the test, so the error alternative is chosen</documentation>
+        <documentation>
+		                Invalid message: base URI does not match the test, so the error alternative is chosen
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0021.n01.xml"/>
       <expected validity="invalid"/>
@@ -823,7 +935,9 @@
     </schemaTest>
     <instanceTest name="cta0022.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0017.v01.xml"/>
       <expected validity="valid"/>
@@ -846,7 +960,9 @@
     </schemaTest>
     <instanceTest name="cta0023.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -875,7 +991,9 @@
     </schemaTest>
     <instanceTest name="cta0024.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -898,7 +1016,9 @@
     </schemaTest>
     <instanceTest name="cta0025.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -921,7 +1041,9 @@
     </schemaTest>
     <instanceTest name="cta0026.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -950,7 +1072,9 @@
     </schemaTest>
     <instanceTest name="cta0027.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -979,7 +1103,9 @@
     </schemaTest>
     <instanceTest name="cta0028.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0023.v01.xml"/>
       <expected validity="valid"/>
@@ -1002,7 +1128,9 @@
     </schemaTest>
     <instanceTest name="cta0040.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0040.v01.xml"/>
       <expected validity="valid"/>
@@ -1010,7 +1138,9 @@
     </instanceTest>
     <instanceTest name="cta0040.n01">
       <annotation>
-        <documentation>Invalid message - appendix dateTime has no timezone</documentation>
+        <documentation>
+		                Invalid message - appendix dateTime has no timezone
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0040.n01.xml"/>
       <expected validity="invalid"/>
@@ -1033,7 +1163,9 @@
     </schemaTest>
     <instanceTest name="cta0041.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0041.v01.xml"/>
       <expected validity="valid"/>
@@ -1041,8 +1173,11 @@
     </instanceTest>
     <instanceTest name="cta0041.n01">
       <annotation>
-        <documentation>Invalid message - appendix dateTime has no timezone, which is OK for an appendix
-		                but not for a chap, making it an invalid substitution.</documentation>
+        <documentation>
+		                Invalid message - appendix dateTime has no timezone, which is OK for an appendix
+		                but not for a chap, making it an invalid substitution.
+		                
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0041.n01.xml"/>
       <expected validity="invalid"/>
@@ -1065,7 +1200,9 @@
     </schemaTest>
     <instanceTest name="cta0042.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0042.v01.xml"/>
       <expected validity="valid"/>
@@ -1086,10 +1223,12 @@
       <expected validity="invalid"/>
       <current status="accepted" date="2011-10-08">
         <annotation>
-          <documentation>Changed status to invalid (and dropped instance tests);
+          <documentation>
+                  Changed status to invalid (and dropped instance tests);
                   reflects resolution of spec bug 12185 requiring
                   the type tables of the elements in base type and
-                  derived type content models to be equivalent.</documentation>
+                  derived type content models to be equivalent.
+                </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2011-02-08"/>
@@ -1111,7 +1250,9 @@
     </schemaTest>
     <instanceTest name="cta0044.v01">
       <annotation>
-        <documentation>Valid message</documentation>
+        <documentation>
+		                Valid message
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0044.v01.xml"/>
       <expected validity="valid"/>
@@ -1119,7 +1260,9 @@
     </instanceTest>
     <instanceTest name="cta0044.n01">
       <annotation>
-        <documentation>Invalid message - attribute is prohibited in this type alternative</documentation>
+        <documentation>
+		                Invalid message - attribute is prohibited in this type alternative
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/CTA/cta0044.n01.xml"/>
       <expected validity="invalid"/>

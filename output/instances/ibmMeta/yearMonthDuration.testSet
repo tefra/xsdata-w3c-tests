@@ -5,7 +5,7 @@
   </annotation>
   <testGroup name="d3_4_26v01" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType yearMonthDuration and its facets and its use in elements</documentation>
+      <documentation>Tests the simpleType yearMonthDuration and its facets and its use in elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="d3_4_26v02" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType decimal and its facets and its use in attributes</documentation>
+      <documentation>Tests the simpleType decimal and its facets and its use in attributes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="d3_4_26v03" version="1.1">
     <annotation>
-      <documentation>Tests yearMonthDuration used in unions</documentation>
+      <documentation>Tests yearMonthDuration used in unions </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="d3_4_26v04" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -73,7 +73,7 @@
   </testGroup>
   <testGroup name="d3_4_26v05" version="1.1">
     <annotation>
-      <documentation>Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -90,7 +90,7 @@
   </testGroup>
   <testGroup name="d3_4_26v06" version="1.1">
     <annotation>
-      <documentation>Pattern is a valid facet for yearMonthDuration</documentation>
+      <documentation>Pattern is a valid facet for yearMonthDuration </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -107,7 +107,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii01" version="1.1">
     <annotation>
-      <documentation>Invalid yearMonthDuration values</documentation>
+      <documentation>Invalid yearMonthDuration values </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -124,7 +124,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii02" version="1.1">
     <annotation>
-      <documentation>Invalid yearMonthDuration enumeration values</documentation>
+      <documentation>Invalid yearMonthDuration enumeration values  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -141,7 +141,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii03" version="1.1">
     <annotation>
-      <documentation>Invalid yearMonthDuration Min/Max Inclusive</documentation>
+      <documentation>Invalid yearMonthDuration Min/Max Inclusive </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -158,7 +158,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii04" version="1.1">
     <annotation>
-      <documentation>Invalid yearMonthDuration Min/Max Exclusive</documentation>
+      <documentation>Invalid yearMonthDuration Min/Max Exclusive </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -175,7 +175,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii05" version="1.1">
     <annotation>
-      <documentation>Invalid values of yearMonthDuration and invalid instance of its facets used in attributes</documentation>
+      <documentation>Invalid values of yearMonthDuration and invalid instance of its facets used in attributes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -192,7 +192,7 @@
   </testGroup>
   <testGroup name="d3_4_26ii06" version="1.1">
     <annotation>
-      <documentation>Tests yearMonthDuration used in unions</documentation>
+      <documentation>Tests yearMonthDuration used in unions </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -226,7 +226,7 @@
   </testGroup>
   <testGroup name="d3_4_26si01" version="1.1">
     <annotation>
-      <documentation>length is an invalid facet for yearMonthDuration</documentation>
+      <documentation>length is an invalid facet for yearMonthDuration </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -238,7 +238,7 @@
   </testGroup>
   <testGroup name="d3_4_26si02" version="1.1">
     <annotation>
-      <documentation>(min|max)? (Inclusive|Exclusive) are not of the base type specification</documentation>
+      <documentation>(min|max)? (Inclusive|Exclusive) are not of the base type specification  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -250,7 +250,7 @@
   </testGroup>
   <testGroup name="d3_4_26si03" version="1.1">
     <annotation>
-      <documentation>min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive)</documentation>
+      <documentation>min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive) </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -262,7 +262,7 @@
   </testGroup>
   <testGroup name="d3_4_26si04" version="1.1">
     <annotation>
-      <documentation>Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType</documentation>
+      <documentation>Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -322,7 +322,7 @@
   </testGroup>
   <testGroup name="d3_4_26si09" version="1.1">
     <annotation>
-      <documentation>Enumeration values are incorrect yearMonthDuration values</documentation>
+      <documentation>Enumeration values are incorrect yearMonthDuration values </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -334,7 +334,7 @@
   </testGroup>
   <testGroup name="d3_4_26si10" version="1.1">
     <annotation>
-      <documentation>The value of whiteSpace facet can only be collapse</documentation>
+      <documentation>The value of whiteSpace facet can only be collapse </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>
@@ -359,7 +359,7 @@
   <testGroup name="d3_4_26si12" version="1.1">
     <annotation>
       <documentation>Tests negative boundary values and equality.
- (min)(Inclusive|Exclusive) &gt; (max)(Inclusive|Exclusive)</documentation>
+ (min)(Inclusive|Exclusive) &gt; (max)(Inclusive|Exclusive) </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"/>

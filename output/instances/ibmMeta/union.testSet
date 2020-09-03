@@ -5,7 +5,7 @@
   </annotation>
   <testGroup name="s3_16_2v01" version="1.1">
     <annotation>
-      <documentation>tests restriction facet in intervening union</documentation>
+      <documentation>tests restriction facet in intervening union </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="s3_16_2v02" version="1.1">
     <annotation>
-      <documentation>Types derived by restriction from a union type</documentation>
+      <documentation>Types derived by restriction from a union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="s3_16_2v03" version="1.1">
     <annotation>
-      <documentation>tests restriction facet in intervening union</documentation>
+      <documentation>tests restriction facet in intervening union </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="s3_16_2v04" version="1.1">
     <annotation>
-      <documentation>Types derived by restriction from a union type</documentation>
+      <documentation>Types derived by restriction from a union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -73,7 +73,7 @@
   </testGroup>
   <testGroup name="s3_16_2v05" version="1.1">
     <annotation>
-      <documentation>xsi:type used to name a member of a restricted union type</documentation>
+      <documentation>xsi:type used to name a member of a restricted union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"/>
@@ -107,7 +107,7 @@
   </testGroup>
   <testGroup name="s3_16_2v07">
     <annotation>
-      <documentation>xsi:type used to name a member of a restricted union type</documentation>
+      <documentation>xsi:type used to name a member of a restricted union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"/>
@@ -124,7 +124,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii01" version="1.1">
     <annotation>
-      <documentation>tests restriction facet in intervening union</documentation>
+      <documentation>tests restriction facet in intervening union </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -141,7 +141,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii02" version="1.1">
     <annotation>
-      <documentation>tests restriction facet in intervening union</documentation>
+      <documentation>tests restriction facet in intervening union </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -158,7 +158,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii03" version="1.1">
     <annotation>
-      <documentation>tests restriction facet in intervening union</documentation>
+      <documentation>tests restriction facet in intervening union </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -175,7 +175,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii04" version="1.1">
     <annotation>
-      <documentation>Types derived by restriction from a union type</documentation>
+      <documentation>Types derived by restriction from a union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="hhttp://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"/>
@@ -192,7 +192,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii05" version="1.1">
     <annotation>
-      <documentation>xsi:type used to name a member of a restricted union type</documentation>
+      <documentation>xsi:type used to name a member of a restricted union type  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"/>
@@ -226,7 +226,7 @@
   </testGroup>
   <testGroup name="s3_16_2ii07" version="1.1">
     <annotation>
-      <documentation>xsi:type used to name a member of a restricted union type</documentation>
+      <documentation>xsi:type used to name a member of a restricted union type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"/>
@@ -243,7 +243,7 @@
   </testGroup>
   <testGroup name="s3_16_2si01" version="1.1">
     <annotation>
-      <documentation>Union type a member of its own transitive membership</documentation>
+      <documentation>Union type a member of its own transitive membership  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
@@ -255,7 +255,7 @@
   </testGroup>
   <testGroup name="s3_16_2si02" version="1.1">
     <annotation>
-      <documentation>Cyclicity of union types</documentation>
+      <documentation>Cyclicity of union types  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
@@ -279,7 +279,7 @@
   </testGroup>
   <testGroup name="s3_16_2si04" version="1.1">
     <annotation>
-      <documentation>Cyclicity of union types</documentation>
+      <documentation>Cyclicity of union types  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>
@@ -291,7 +291,7 @@
   </testGroup>
   <testGroup name="s3_16_2si05" version="1.1">
     <annotation>
-      <documentation>Cyclicity of union types</documentation>
+      <documentation>Cyclicity of union types </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#declare-datatype"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"/>

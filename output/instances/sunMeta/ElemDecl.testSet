@@ -958,7 +958,8 @@
       <annotation>
         <documentation>
           <Description>The test:root element has two element children of type xs:ID. This is invalid in XSD 1.0. 
-                  In XSD 1.1 the instance is valid, because multiple IDs for an element are now permitted.</Description>
+                  In XSD 1.1 the instance is valid, because multiple IDs for an element are now permitted.
+                </Description>
         </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m2_n.xml"/>

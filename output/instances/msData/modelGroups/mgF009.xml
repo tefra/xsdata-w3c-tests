@@ -5,6 +5,8 @@
   <c>true</c>
   <d/>
   <xhtml:html>
-    <xhtml:body>Hey this is html</xhtml:body>
+    <xhtml:body>
+Hey this is html
+</xhtml:body>
   </xhtml:html>
 </doc>

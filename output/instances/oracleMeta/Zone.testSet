@@ -4,7 +4,7 @@
     <annotation>
       <documentation>
         <Title>Equality testing (enumeration) for dateTime values, use YEAR as ZERO</Title>
-        <Description>Use Year as Zero</Description>
+        <Description>Use Year as Zero </Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="zone401.v1.xml">
       <annotation>
-        <documentation>Valid date per enumeration</documentation>
+        <documentation>
+		                Valid date per enumeration
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v1.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="zone401.v2.xml">
       <annotation>
-        <documentation>Valid date per enumeration</documentation>
+        <documentation>
+		                Valid date per enumeration
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v2.xml"/>
       <expected validity="valid"/>
@@ -32,7 +36,9 @@
     </instanceTest>
     <instanceTest name="zone401.v3.xml">
       <annotation>
-        <documentation>Valid date per enumeration</documentation>
+        <documentation>
+		                Valid date per enumeration
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.v3.xml"/>
       <expected validity="valid"/>
@@ -40,7 +46,9 @@
     </instanceTest>
     <instanceTest name="zone401.n1.xml">
       <annotation>
-        <documentation>Invalid date per enumeration</documentation>
+        <documentation>
+		                Invalid date per enumeration
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.n1.xml"/>
       <expected validity="invalid"/>
@@ -48,7 +56,9 @@
     </instanceTest>
     <instanceTest name="zone401.n2.xml">
       <annotation>
-        <documentation>Invalid date per enumeration</documentation>
+        <documentation>
+		                Invalid date per enumeration
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone401.n2.xml"/>
       <expected validity="invalid"/>
@@ -58,8 +68,8 @@
   <testGroup name="zone402" version="1.1">
     <annotation>
       <documentation>
-        <Title>Test year zero allowed for facet maxInclusive for datatype xs:dateTime</Title>
-        <Description>Test year zero allowed for facet maxInclusive for datatype xs:dateTime</Description>
+        <Title> Test year zero allowed for facet maxInclusive for datatype xs:dateTime </Title>
+        <Description> Test year zero allowed for facet maxInclusive for datatype xs:dateTime</Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
@@ -71,7 +81,9 @@
     </schemaTest>
     <instanceTest name="zone402.n1.xml">
       <annotation>
-        <documentation>Invalid date per maxInclusive facet</documentation>
+        <documentation>
+		                Invalid date per maxInclusive facet
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.n1.xml"/>
       <expected validity="invalid"/>
@@ -79,7 +91,9 @@
     </instanceTest>
     <instanceTest name="zone402.n2.xml">
       <annotation>
-        <documentation>Invalid date per maxInclusive facet</documentation>
+        <documentation>
+		                Invalid date per maxInclusive facet
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.n2.xml"/>
       <expected validity="invalid"/>
@@ -87,7 +101,9 @@
     </instanceTest>
     <instanceTest name="zone402.v1.xml">
       <annotation>
-        <documentation>Valid date per maxInclusive facet</documentation>
+        <documentation>
+		                Valid date per maxInclusive facet
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone402.v1.xml"/>
       <expected validity="valid"/>
@@ -110,7 +126,9 @@
     </schemaTest>
     <instanceTest name="zone403.v1.xml">
       <annotation>
-        <documentation>valid, timezone present.</documentation>
+        <documentation>
+		                valid, timezone present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.v1.xml"/>
       <expected validity="valid"/>
@@ -118,7 +136,9 @@
     </instanceTest>
     <instanceTest name="zone403.v2.xml">
       <annotation>
-        <documentation>valid, timezone present.</documentation>
+        <documentation>
+		                valid, timezone present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.v2.xml"/>
       <expected validity="valid"/>
@@ -126,7 +146,9 @@
     </instanceTest>
     <instanceTest name="zone403.n1.xml">
       <annotation>
-        <documentation>Invalid, timezone not present.</documentation>
+        <documentation>
+		                Invalid, timezone not present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone403.n1.xml"/>
       <expected validity="invalid"/>
@@ -149,7 +171,9 @@
     </schemaTest>
     <instanceTest name="zone404.v1.xml">
       <annotation>
-        <documentation>valid, timezone not present as expected</documentation>
+        <documentation>
+		                valid, timezone not present as expected
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.v1.xml"/>
       <expected validity="valid"/>
@@ -157,7 +181,9 @@
     </instanceTest>
     <instanceTest name="zone404.n1.xml">
       <annotation>
-        <documentation>Invalid, timezone present.</documentation>
+        <documentation>
+		                Invalid, timezone present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.n1.xml"/>
       <expected validity="invalid"/>
@@ -165,7 +191,9 @@
     </instanceTest>
     <instanceTest name="zone404.n2.xml">
       <annotation>
-        <documentation>Invalid, timezone present.</documentation>
+        <documentation>
+		                Invalid, timezone present.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone404.n2.xml"/>
       <expected validity="invalid"/>
@@ -186,14 +214,18 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Typo corrected - see bug #12189</documentation>
+          <documentation>
+		                Typo corrected - see bug #12189
+		            </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2011-02-24"/>
     </schemaTest>
     <instanceTest name="zone405.v1.xml">
       <annotation>
-        <documentation>valid date</documentation>
+        <documentation>
+		                valid date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v1.xml"/>
       <expected validity="valid"/>
@@ -201,7 +233,9 @@
     </instanceTest>
     <instanceTest name="zone405.v2.xml">
       <annotation>
-        <documentation>valid date</documentation>
+        <documentation>
+		                valid date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v2.xml"/>
       <expected validity="valid"/>
@@ -209,7 +243,9 @@
     </instanceTest>
     <instanceTest name="zone405.v3.xml">
       <annotation>
-        <documentation>valid date</documentation>
+        <documentation>
+		                valid date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../oracleData/Zone/zone405.v3.xml"/>
       <expected validity="valid"/>
@@ -249,8 +285,8 @@
   <testGroup name="zone408" version="1.1">
     <annotation>
       <documentation>
-        <Title>Test explicitTimezone facet: cannot derive "required" from "prohibited"</Title>
-        <Description>Test explicitTimezone facet: cannot derive "required" from "prohibited"</Description>
+        <Title> Test explicitTimezone facet: cannot derive "required" from "prohibited"</Title>
+        <Description> Test explicitTimezone facet: cannot derive "required" from "prohibited"</Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>
@@ -264,8 +300,8 @@
   <testGroup name="zone409" version="1.1">
     <annotation>
       <documentation>
-        <Title>Test explicitTimezone facet: cannot derive "prohibited" from "required"</Title>
-        <Description>Test explicitTimezone facet: cannot derive "prohibited" from "required"</Description>
+        <Title> Test explicitTimezone facet: cannot derive "prohibited" from "required"</Title>
+        <Description> Test explicitTimezone facet: cannot derive "prohibited" from "required"</Description>
       </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"/>

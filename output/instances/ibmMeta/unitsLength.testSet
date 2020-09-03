@@ -1,11 +1,12 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="UnitsLength" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#dt-list">test Units of length for list datatype</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#dt-list"> test Units of length for list datatype
+	      </documentation>
   </annotation>
   <testGroup name="d3_3_16v01">
     <annotation>
-      <documentation>test Units of length for hexBinary datatype.</documentation>
+      <documentation> test Units of length for hexBinary datatype.  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#hexBinary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -22,7 +23,7 @@
   </testGroup>
   <testGroup name="d3_3_16ii01" version="1.1">
     <annotation>
-      <documentation>test hexBinary datatype</documentation>
+      <documentation> test hexBinary datatype   </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#hexBinary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -39,7 +40,7 @@
   </testGroup>
   <testGroup name="d3_3_16ii02" version="1.1">
     <annotation>
-      <documentation>test Units of length for hexBinary datatype</documentation>
+      <documentation> test Units of length for hexBinary datatype   </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#hexBinary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -56,7 +57,7 @@
   </testGroup>
   <testGroup name="d3_3_17v01" version="1.1">
     <annotation>
-      <documentation>test Units of length for base64Binary datatype.</documentation>
+      <documentation> test Units of length for base64Binary datatype.  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#base64Binary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -73,7 +74,7 @@
   </testGroup>
   <testGroup name="d3_3_17ii01" version="1.1">
     <annotation>
-      <documentation>test base64Binary datatype</documentation>
+      <documentation> test base64Binary datatype </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#base64Binary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -90,7 +91,7 @@
   </testGroup>
   <testGroup name="d2_4_1_2ii01" version="1.1">
     <annotation>
-      <documentation>test Units of length for list datatype</documentation>
+      <documentation> test Units of length for list datatype    </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
@@ -107,7 +108,7 @@
   </testGroup>
   <testGroup name="d2_4_1_3si01">
     <annotation>
-      <documentation>Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.</documentation>
+      <documentation> Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.    </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dt-union"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes"/>
@@ -119,7 +120,7 @@
   </testGroup>
   <testGroup name="d3_1si01" version="1.1">
     <annotation>
-      <documentation>use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.</documentation>
+      <documentation> use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#changes"/>
     <schemaTest name="d3_1si01s">

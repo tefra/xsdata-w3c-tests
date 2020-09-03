@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="substitutionGroup" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class">substitutionGroup</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class">substitutionGroup </documentation>
   </annotation>
   <testGroup name="s2_2_2v01" version="1.1">
     <annotation>
-      <documentation>Tests abstract substitution group</documentation>
+      <documentation>Tests abstract substitution group </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="s2_2_2v02" version="1.1">
     <annotation>
-      <documentation>Tests multiple substitution group heads</documentation>
+      <documentation>Tests multiple substitution group heads </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="s2_2_2v03" version="1.1">
     <annotation>
-      <documentation>Tests for 1 substitution group head</documentation>
+      <documentation>Tests for 1 substitution group head </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"/>
@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="s2_2_2si01" version="1.1">
     <annotation>
-      <documentation>structures 3.3.6.1.5 - there are circular substitution groups</documentation>
+      <documentation>structures 3.3.6.1.5 - there are circular substitution groups </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups"/>
@@ -68,7 +68,7 @@
   </testGroup>
   <testGroup name="s2_2_2si02" version="1.1">
     <annotation>
-      <documentation>structures 3.3.6.1.4 - element's type def is NOT validly substituable for its member's type def</documentation>
+      <documentation>structures 3.3.6.1.4 - element's type def is NOT validly substituable for its member's type def  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"/>

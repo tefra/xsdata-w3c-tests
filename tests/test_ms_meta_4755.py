@@ -10198,7 +10198,6 @@ def test_wild_z004_wild_z004_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_wild_z003_wild_z003_v(save_xml):
     """
     TEST :Syntax Validation - any : xsd: test valid instance with elements

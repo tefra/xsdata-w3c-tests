@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="assert001.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert001.v1.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="assert001.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert001.n1.xml"/>
       <expected validity="invalid"/>
@@ -47,7 +51,9 @@
     </schemaTest>
     <instanceTest name="assert002.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert002.v1.xml"/>
       <expected validity="valid"/>
@@ -55,7 +61,9 @@
     </instanceTest>
     <instanceTest name="assert002.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert002.n1.xml"/>
       <expected validity="invalid"/>
@@ -79,7 +87,9 @@
     </schemaTest>
     <instanceTest name="assert003.v1.xml">
       <annotation>
-        <documentation>Valid, only the attribute exists.</documentation>
+        <documentation>
+		                Valid, only the attribute exists.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.v1.xml"/>
       <expected validity="valid"/>
@@ -87,7 +97,9 @@
     </instanceTest>
     <instanceTest name="assert003.v2.xml">
       <annotation>
-        <documentation>Valid, only the element exists.</documentation>
+        <documentation>
+		                Valid, only the element exists.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.v2.xml"/>
       <expected validity="valid"/>
@@ -95,7 +107,9 @@
     </instanceTest>
     <instanceTest name="assert003.n1.xml">
       <annotation>
-        <documentation>Invalid, both nodes exist.</documentation>
+        <documentation>
+		                Invalid, both nodes exist.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.n1.xml"/>
       <expected validity="invalid"/>
@@ -103,7 +117,9 @@
     </instanceTest>
     <instanceTest name="assert003.n2.xml">
       <annotation>
-        <documentation>Invalid, neither node exists.</documentation>
+        <documentation>
+		                Invalid, neither node exists.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert003.n2.xml"/>
       <expected validity="invalid"/>
@@ -127,7 +143,9 @@
     </schemaTest>
     <instanceTest name="assert004.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.v1.xml"/>
       <expected validity="valid"/>
@@ -135,7 +153,9 @@
     </instanceTest>
     <instanceTest name="assert004.v2.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.v2.xml"/>
       <expected validity="valid"/>
@@ -143,7 +163,9 @@
     </instanceTest>
     <instanceTest name="assert004.n1.xml">
       <annotation>
-        <documentation>Invalid, outer constraint not satisfied.</documentation>
+        <documentation>
+		                Invalid, outer constraint not satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.n1.xml"/>
       <expected validity="invalid"/>
@@ -151,7 +173,9 @@
     </instanceTest>
     <instanceTest name="assert004.n2.xml">
       <annotation>
-        <documentation>Invalid, inner constraint not satisfied on second inner element.</documentation>
+        <documentation>
+		                Invalid, inner constraint not satisfied on second inner element.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert004.n2.xml"/>
       <expected validity="invalid"/>
@@ -176,7 +200,9 @@
     </schemaTest>
     <instanceTest name="assert005.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.v1.xml"/>
       <expected validity="valid"/>
@@ -184,7 +210,9 @@
     </instanceTest>
     <instanceTest name="assert005.v2.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.v2.xml"/>
       <expected validity="valid"/>
@@ -192,7 +220,9 @@
     </instanceTest>
     <instanceTest name="assert005.n1.xml">
       <annotation>
-        <documentation>Invalid, first constraint not satisfied.</documentation>
+        <documentation>
+		                Invalid, first constraint not satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.n1.xml"/>
       <expected validity="invalid"/>
@@ -200,7 +230,9 @@
     </instanceTest>
     <instanceTest name="assert005.n2.xml">
       <annotation>
-        <documentation>Invalid, second constraint not satisfied.</documentation>
+        <documentation>
+		                Invalid, second constraint not satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert005.n2.xml"/>
       <expected validity="invalid"/>
@@ -224,7 +256,9 @@
     </schemaTest>
     <instanceTest name="assert006.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.v1.xml"/>
       <expected validity="valid"/>
@@ -232,7 +266,9 @@
     </instanceTest>
     <instanceTest name="assert006.n1.xml">
       <annotation>
-        <documentation>Invalid, base constraint not satisfied.</documentation>
+        <documentation>
+		                Invalid, base constraint not satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.n1.xml"/>
       <expected validity="invalid"/>
@@ -240,7 +276,9 @@
     </instanceTest>
     <instanceTest name="assert006.n2.xml">
       <annotation>
-        <documentation>Invalid, derived constraint not satisfied.</documentation>
+        <documentation>
+		                Invalid, derived constraint not satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert006.n2.xml"/>
       <expected validity="invalid"/>
@@ -264,7 +302,9 @@
     </schemaTest>
     <instanceTest name="assert007.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
       <expected validity="valid"/>
@@ -272,7 +312,9 @@
     </instanceTest>
     <instanceTest name="assert007.n1.xml">
       <annotation>
-        <documentation>Invalid, two moves by same player in succession.</documentation>
+        <documentation>
+		                Invalid, two moves by same player in succession.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
       <expected validity="invalid"/>
@@ -280,7 +322,9 @@
     </instanceTest>
     <instanceTest name="assert007.n2.xml">
       <annotation>
-        <documentation>Invalid, white castles twice.</documentation>
+        <documentation>
+		                Invalid, white castles twice.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
       <expected validity="invalid"/>
@@ -288,7 +332,9 @@
     </instanceTest>
     <instanceTest name="assert007.n3.xml">
       <annotation>
-        <documentation>Invalid, unrecognized result.</documentation>
+        <documentation>
+		                Invalid, unrecognized result.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
       <expected validity="invalid"/>
@@ -312,7 +358,9 @@
     </schemaTest>
     <instanceTest name="assert008.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
       <expected validity="valid"/>
@@ -320,7 +368,9 @@
     </instanceTest>
     <instanceTest name="assert008.n1.xml">
       <annotation>
-        <documentation>Invalid, two moves by same player in succession.</documentation>
+        <documentation>
+		                Invalid, two moves by same player in succession.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
       <expected validity="invalid"/>
@@ -328,7 +378,9 @@
     </instanceTest>
     <instanceTest name="assert008.n2.xml">
       <annotation>
-        <documentation>Invalid, white castles twice.</documentation>
+        <documentation>
+		                Invalid, white castles twice.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
       <expected validity="invalid"/>
@@ -336,7 +388,9 @@
     </instanceTest>
     <instanceTest name="assert008.n3.xml">
       <annotation>
-        <documentation>Invalid, unrecognized result.</documentation>
+        <documentation>
+		                Invalid, unrecognized result.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
       <expected validity="invalid"/>
@@ -359,7 +413,9 @@
     </schemaTest>
     <instanceTest name="assert008a.v1.xml">
       <annotation>
-        <documentation>Valid, both constraints satisfied.</documentation>
+        <documentation>
+		                Valid, both constraints satisfied.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.v1.xml"/>
       <expected validity="valid"/>
@@ -367,7 +423,9 @@
     </instanceTest>
     <instanceTest name="assert008a.n1.xml">
       <annotation>
-        <documentation>Invalid, two moves by same player in succession.</documentation>
+        <documentation>
+		                Invalid, two moves by same player in succession.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n1.xml"/>
       <expected validity="invalid"/>
@@ -375,7 +433,9 @@
     </instanceTest>
     <instanceTest name="assert008a.n2.xml">
       <annotation>
-        <documentation>Invalid, white castles twice.</documentation>
+        <documentation>
+		                Invalid, white castles twice.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n2.xml"/>
       <expected validity="invalid"/>
@@ -383,7 +443,9 @@
     </instanceTest>
     <instanceTest name="assert008a.n3.xml">
       <annotation>
-        <documentation>Invalid, unrecognized result.</documentation>
+        <documentation>
+		                Invalid, unrecognized result.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert007.n3.xml"/>
       <expected validity="invalid"/>
@@ -406,7 +468,9 @@
     </schemaTest>
     <instanceTest name="assert009.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert009.v1.xml"/>
       <expected validity="valid"/>
@@ -414,7 +478,9 @@
     </instanceTest>
     <instanceTest name="assert009.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert009.n1.xml"/>
       <expected validity="invalid"/>
@@ -437,7 +503,9 @@
     </schemaTest>
     <instanceTest name="assert010.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert010.v1.xml"/>
       <expected validity="valid"/>
@@ -445,7 +513,9 @@
     </instanceTest>
     <instanceTest name="assert010.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert010.n1.xml"/>
       <expected validity="invalid"/>
@@ -470,7 +540,9 @@
     </schemaTest>
     <instanceTest name="assert011.v1.xml">
       <annotation>
-        <documentation>Invalid, satisfies the assertion. (calls to doc() don't work)</documentation>
+        <documentation>
+		                Invalid, satisfies the assertion. (calls to doc() don't work)
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert011.v1.xml"/>
       <expected validity="invalid"/>
@@ -478,7 +550,9 @@
     </instanceTest>
     <instanceTest name="assert011.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert011.n1.xml"/>
       <expected validity="invalid"/>
@@ -501,7 +575,9 @@
     </schemaTest>
     <instanceTest name="assert012.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion, because the assertion throws an error</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion, because the assertion throws an error
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert012.n1.xml"/>
       <expected validity="invalid"/>
@@ -524,7 +600,9 @@
     </schemaTest>
     <instanceTest name="assert013.v1.xml">
       <annotation>
-        <documentation>Valid, the attribute has the required type</documentation>
+        <documentation>
+		                Valid, the attribute has the required type
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
       <expected validity="valid"/>
@@ -547,7 +625,9 @@
     </schemaTest>
     <instanceTest name="assert014.v1.xml">
       <annotation>
-        <documentation>Valid, the element is anyType so atomizing it does not produce a date</documentation>
+        <documentation>
+		                Valid, the element is anyType so atomizing it does not produce a date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
       <expected validity="valid"/>
@@ -570,7 +650,9 @@
     </schemaTest>
     <instanceTest name="assert015.v1.xml">
       <annotation>
-        <documentation>Valid, $value is a date</documentation>
+        <documentation>
+		                Valid, $value is a date
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert013.v1.xml"/>
       <expected validity="valid"/>
@@ -593,7 +675,9 @@
     </schemaTest>
     <instanceTest name="assert016.v1.xml">
       <annotation>
-        <documentation>Valid, atomization succeeds</documentation>
+        <documentation>
+		                Valid, atomization succeeds
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
       <expected validity="valid"/>
@@ -616,7 +700,9 @@
     </schemaTest>
     <instanceTest name="assert017.v1.xml">
       <annotation>
-        <documentation>Valid, atomization succeeds</documentation>
+        <documentation>
+		                Valid, atomization succeeds
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
       <expected validity="valid"/>
@@ -639,7 +725,9 @@
     </schemaTest>
     <instanceTest name="assert018.v1.xml">
       <annotation>
-        <documentation>Valid, atomization succeeds</documentation>
+        <documentation>
+		                Valid, atomization succeeds
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
       <expected validity="valid"/>
@@ -662,7 +750,9 @@
     </schemaTest>
     <instanceTest name="assert019.v1.xml">
       <annotation>
-        <documentation>Valid, with a complex type, $value is the empty sequence</documentation>
+        <documentation>
+		                Valid, with a complex type, $value is the empty sequence
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert016.v1.xml"/>
       <expected validity="valid"/>
@@ -685,7 +775,9 @@
     </schemaTest>
     <instanceTest name="assert020.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion</documentation>
+        <documentation>
+		                Valid, satisfies the assertion
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert020.v1.xml"/>
       <expected validity="valid"/>
@@ -693,7 +785,9 @@
     </instanceTest>
     <instanceTest name="assert020.n1.xml">
       <annotation>
-        <documentation>Invalid, unsatisfies the assertion, nested too deep</documentation>
+        <documentation>
+		                Invalid, unsatisfies the assertion, nested too deep
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert020.n1.xml"/>
       <expected validity="invalid"/>
@@ -716,7 +810,9 @@
     </schemaTest>
     <instanceTest name="assert021.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion</documentation>
+        <documentation>
+		                Valid, satisfies the assertion
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert021.v1.xml"/>
       <expected validity="valid"/>
@@ -724,7 +820,9 @@
     </instanceTest>
     <instanceTest name="assert021.n1.xml">
       <annotation>
-        <documentation>Invalid, unsatisfies the assertion, nested too deep</documentation>
+        <documentation>
+		                Invalid, unsatisfies the assertion, nested too deep
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert021.n1.xml"/>
       <expected validity="invalid"/>
@@ -747,7 +845,9 @@
     </schemaTest>
     <instanceTest name="assert022.v1.xml">
       <annotation>
-        <documentation>Valid, with a complex type, $value is the empty sequence</documentation>
+        <documentation>
+		                Valid, with a complex type, $value is the empty sequence
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert022.v1.xml"/>
       <expected validity="valid"/>
@@ -772,7 +872,9 @@
     </schemaTest>
     <instanceTest name="assert023.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert023.v1.xml"/>
       <expected validity="valid"/>
@@ -780,12 +882,14 @@
     </instanceTest>
     <instanceTest name="assert023.v2.xml">
       <annotation>
-        <documentation>Result depends on processor settings.
+        <documentation>
+		                Result depends on processor settings.
 		                By default it is valid, that is it satisfies the assertion, 
 		                because although there is a comment present, it is not visible
 		                to the assertion in the absence of a user option to make it so.
 		                If a processor option is set to make comments and processing instructions
-		                visible, then the instance becomes invalid.</documentation>
+		                visible, then the instance becomes invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert023.n1.xml"/>
       <expected validity="valid"/>
@@ -810,7 +914,9 @@
     </schemaTest>
     <instanceTest name="assert024.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert024.v1.xml"/>
       <expected validity="valid"/>
@@ -833,7 +939,9 @@
     </schemaTest>
     <instanceTest name="assert-simple001.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple001.v1.xml"/>
       <expected validity="valid"/>
@@ -841,7 +949,9 @@
     </instanceTest>
     <instanceTest name="assert-simple001.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple001.n1.xml"/>
       <expected validity="invalid"/>
@@ -865,7 +975,9 @@
     </schemaTest>
     <instanceTest name="assert-simple003.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.v1.xml"/>
       <expected validity="valid"/>
@@ -873,7 +985,9 @@
     </instanceTest>
     <instanceTest name="assert-simple003.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.n1.xml"/>
       <expected validity="invalid"/>
@@ -897,7 +1011,9 @@
     </schemaTest>
     <instanceTest name="assert-simple004.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.v1.xml"/>
       <expected validity="valid"/>
@@ -905,7 +1021,9 @@
     </instanceTest>
     <instanceTest name="assert-simple004.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple003.n1.xml"/>
       <expected validity="invalid"/>
@@ -929,7 +1047,9 @@
     </schemaTest>
     <instanceTest name="assert-simple005.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple005.v1.xml"/>
       <expected validity="valid"/>
@@ -937,7 +1057,9 @@
     </instanceTest>
     <instanceTest name="assert-simple005.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple005.n1.xml"/>
       <expected validity="invalid"/>
@@ -961,7 +1083,9 @@
     </schemaTest>
     <instanceTest name="assert-simple006.v1.xml">
       <annotation>
-        <documentation>Valid, satisfies the assertion.</documentation>
+        <documentation>
+		                Valid, satisfies the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple006.v1.xml"/>
       <expected validity="valid"/>
@@ -969,7 +1093,9 @@
     </instanceTest>
     <instanceTest name="assert-simple006.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple006.n1.xml"/>
       <expected validity="invalid"/>
@@ -993,7 +1119,9 @@
     </schemaTest>
     <instanceTest name="assert-simple007.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion, dynamic error is treated as false.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
       <expected validity="invalid"/>
@@ -1017,7 +1145,9 @@
     </schemaTest>
     <instanceTest name="assert-simple007.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion, dynamic error is treated as false.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
       <expected validity="invalid"/>
@@ -1041,7 +1171,9 @@
     </schemaTest>
     <instanceTest name="assert-simple007.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion, dynamic error is treated as false.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
       <expected validity="invalid"/>
@@ -1065,7 +1197,9 @@
     </schemaTest>
     <instanceTest name="assert-simple007.n1.xml">
       <annotation>
-        <documentation>Invalid, does not satisfy the assertion, dynamic error is treated as false.</documentation>
+        <documentation>
+		                Invalid, does not satisfy the assertion, dynamic error is treated as false.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Assert/assert-simple007.n1.xml"/>
       <expected validity="invalid"/>

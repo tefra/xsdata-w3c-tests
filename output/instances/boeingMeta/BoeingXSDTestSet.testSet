@@ -1,13 +1,17 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna" name="BoeingXSDTestCases" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation>All the following test cases are derived from examples given in the W3C XML Schema
+    <documentation>
+			All the following test cases are derived from examples given in the W3C XML Schema
 			Part 0: Primer located at http://www.w3.org/TR/xmlschema-0/ with minor variation in the
-			specific features intended for each test.</documentation>
+			specific features intended for each test. 
+		</documentation>
   </annotation>
   <testGroup name="ipo1">
     <annotation>
-      <documentation>International Purchase Order 1</documentation>
+      <documentation>
+				International Purchase Order 1
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
@@ -33,7 +37,9 @@
   </testGroup>
   <testGroup name="ipo2">
     <annotation>
-      <documentation>International Purchase Order 2</documentation>
+      <documentation>
+				International Purchase Order 2
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
@@ -60,7 +66,9 @@
   </testGroup>
   <testGroup name="ipo3">
     <annotation>
-      <documentation>International Purchase Order 3</documentation>
+      <documentation>
+				International Purchase Order 3
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
@@ -88,7 +96,9 @@
   </testGroup>
   <testGroup name="ipo4">
     <annotation>
-      <documentation>International Purchase Order 4</documentation>
+      <documentation>
+				International Purchase Order 4
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
@@ -116,7 +126,9 @@
   </testGroup>
   <testGroup name="ipo5">
     <annotation>
-      <documentation>International Purchase Order 5</documentation>
+      <documentation>
+				International Purchase Order 5
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>
@@ -144,7 +156,9 @@
   </testGroup>
   <testGroup name="ipo6">
     <annotation>
-      <documentation>International Purchase Order 6</documentation>
+      <documentation>
+				International Purchase Order 6
+			</documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="../boeingData/Readme.doc"/>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"/>

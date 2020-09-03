@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="ConditionalInclusion" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip">ConditionalInclusion</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip">ConditionalInclusion </documentation>
   </annotation>
   <testGroup name="s4_2_2v01" version="1.1">
     <annotation>
-      <documentation>vc: conditional inclusion Testing version</documentation>
+      <documentation>vc: conditional inclusion Testing version </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="s4_2_2ii01" version="1.1">
     <annotation>
-      <documentation>invalid instance vc: conditional inclusion Testing version</documentation>
+      <documentation>invalid instance vc: conditional inclusion Testing version </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="s4_2_2si01" version="1.1">
     <annotation>
-      <documentation>invalid schema vc: conditional inclusion Testing version</documentation>
+      <documentation>invalid schema vc: conditional inclusion Testing version </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cip"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"/>

@@ -1,11 +1,12 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="explicitTimezone" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone">explicitTimezone</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"> explicitTimezone
+	 </documentation>
   </annotation>
   <testGroup name="d4_3_16v01" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements</documentation>
+      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -22,7 +23,7 @@
   </testGroup>
   <testGroup name="d4_3_16v02" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements</documentation>
+      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone and its use in elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -56,7 +57,9 @@
   </testGroup>
   <testGroup name="d4_3_16v04" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facet, explicitTimezone used with unions</documentation>
+      <documentation>
+            Tests the simpleType dateTime and its facet, explicitTimezone used with unions 
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -73,7 +76,7 @@
   </testGroup>
   <testGroup name="d4_3_16v05" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone</documentation>
+      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -107,7 +110,7 @@
   </testGroup>
   <testGroup name="d4_3_16v07" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Tests the simpleType dateTime and its facets with explicitTimezone constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -124,7 +127,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii01" version="1.1">
     <annotation>
-      <documentation>invalid dateTime values</documentation>
+      <documentation>invalid dateTime values </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -141,7 +144,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii02" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes</documentation>
+      <documentation>Tests the simpleType dateTime and its explicitTimezone facets and its use in attributes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -175,7 +178,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii04" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets explicitionTimezone, used with unions</documentation>
+      <documentation>Tests the simpleType dateTime and its facets explicitionTimezone, used with unions </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -192,7 +195,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii05" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone</documentation>
+      <documentation>Tests the simpleType dateTime and its facets, explicitTimezone </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -209,7 +212,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii06" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -226,7 +229,7 @@
   </testGroup>
   <testGroup name="d4_3_16ii07" version="1.1">
     <annotation>
-      <documentation>Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes</documentation>
+      <documentation>Tests the simpleType dateTime and its facet with explicitTimezone constraint checks in derivations of simpleTypes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -243,7 +246,7 @@
   </testGroup>
   <testGroup name="d4_3_16si01" version="1.1">
     <annotation>
-      <documentation>explicitTimezone, schema invalid test cases</documentation>
+      <documentation>explicitTimezone, schema invalid test cases </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -255,7 +258,7 @@
   </testGroup>
   <testGroup name="d4_3_16si02" version="1.1">
     <annotation>
-      <documentation>It is an error to specify more than one explicitTimezone for the same type definition</documentation>
+      <documentation>It is an error to specify more than one explicitTimezone for the same type definition </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -268,7 +271,7 @@
   <testGroup name="d4_3_16si03" version="1.1">
     <annotation>
       <documentation>error if base = prohibited and child != prohibited
-          base = required and child != required</documentation>
+          base = required and child != required  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>
@@ -280,7 +283,7 @@
   </testGroup>
   <testGroup name="d4_3_16si04" version="1.1">
     <annotation>
-      <documentation>This test case tests the fixed attribute on facet, explicitTimezone</documentation>
+      <documentation>This test case tests the fixed attribute on facet, explicitTimezone </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-explicitTimezone"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>

@@ -2003,7 +2003,6 @@ def test_add_b136_add_b136_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_add_b135_add_b135_v(save_xml):
     """
     TEST :Adhoc XSD: : id="81662" description="xsd: test element matching

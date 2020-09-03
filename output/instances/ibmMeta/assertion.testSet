@@ -5,7 +5,7 @@
   </annotation>
   <testGroup name="d4_3_15v01" version="1.1">
     <annotation>
-      <documentation>Assertions on a complex type definition</documentation>
+      <documentation>Assertions on a complex type definition </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="d4_3_15v03" version="1.1">
     <annotation>
-      <documentation>assertions on a complex type definition</documentation>
+      <documentation>assertions on a complex type definition </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="d4_3_15v04" version="1.1">
     <annotation>
-      <documentation>ssertions on a complex type definition. uses multiple asserts</documentation>
+      <documentation>ssertions on a complex type definition. uses multiple asserts  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -90,7 +90,7 @@
   </testGroup>
   <testGroup name="d4_3_15v06" version="1.1">
     <annotation>
-      <documentation>having complexContent, assertions from both derived and base type must succeed</documentation>
+      <documentation>having complexContent, assertions from both derived and base type must succeed  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"/>
@@ -142,7 +142,7 @@
   </testGroup>
   <testGroup name="d4_3_15v09" version="1.1">
     <annotation>
-      <documentation>assertions on simple type, using variable $value</documentation>
+      <documentation>assertions on simple type, using variable $value </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"/>
@@ -176,7 +176,7 @@
   </testGroup>
   <testGroup name="d4_3_15v11" version="1.1">
     <annotation>
-      <documentation>dynamic context of the XPath expression, assertion on attribute</documentation>
+      <documentation>dynamic context of the XPath expression, assertion on attribute </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"/>
@@ -210,7 +210,7 @@
   </testGroup>
   <testGroup name="d4_3_15v14" version="1.1">
     <annotation>
-      <documentation>inability to navigate outside the subtree, assertion on elements</documentation>
+      <documentation>inability to navigate outside the subtree, assertion on elements </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
@@ -245,7 +245,7 @@
   <testGroup name="d4_3_15v18" version="1.1">
     <annotation>
       <documentation>assertions on a complex type definition,
-          having complexContent, assertions from anySimpleType type.</documentation>
+          having complexContent, assertions from anySimpleType type. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -297,7 +297,7 @@
   </testGroup>
   <testGroup name="d4_3_15v22" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType</documentation>
+      <documentation>naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
@@ -348,7 +348,7 @@
   </testGroup>
   <testGroup name="d4_3_15v25" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen</documentation>
+      <documentation>naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
@@ -382,7 +382,7 @@
   </testGroup>
   <testGroup name="d4_3_15v27" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</documentation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
@@ -399,7 +399,7 @@
   </testGroup>
   <testGroup name="d4_3_15v28" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace(with value ##local) test case in simpleType</documentation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in simpleType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
@@ -450,7 +450,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii03" version="1.1">
     <annotation>
-      <documentation>assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels.</documentation>
+      <documentation>assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -467,7 +467,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii04" version="1.1">
     <annotation>
-      <documentation>assertions on a complex type definition. uses multiple asserts</documentation>
+      <documentation>assertions on a complex type definition. uses multiple asserts </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -484,7 +484,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii06" version="1.1">
     <annotation>
-      <documentation>assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed</documentation>
+      <documentation>assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -501,7 +501,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii08" version="1.1">
     <annotation>
-      <documentation>assertions on a complex type definition having simpleContent</documentation>
+      <documentation>assertions on a complex type definition having simpleContent </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"/>
@@ -603,7 +603,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii15" version="1.1">
     <annotation>
-      <documentation>inability to navigate outside the subtree, assertion on attributes</documentation>
+      <documentation>inability to navigate outside the subtree, assertion on attributes </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
@@ -620,7 +620,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii17" version="1.1">
     <annotation>
-      <documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension</documentation>
+      <documentation>inability to navigate outside the subtree, assertion on elements with derivation by extension </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"/>
@@ -723,7 +723,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii23" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType</documentation>
+      <documentation>naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>
@@ -774,7 +774,7 @@
   </testGroup>
   <testGroup name="d4_3_15ii27" version="1.1">
     <annotation>
-      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType</documentation>
+      <documentation>naive xpathDefaultNamespace(with value ##local) test case in complexType </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"/>

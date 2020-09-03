@@ -1,43 +1,47 @@
-from models.xsts import XdmFiltering
-from models.xlink import ActuateType
-from models.xsts import Annotation
-from models.xsts import Appinfo
-from models.xlink import Arc
-from models.xlink import ArcType
-from models.xsts import Current
-from models.xsts import Documentation
-from models.xsts import DocumentationReference
-from models.xsts import Expected
-from models.xsts import ExpectedOutcome
-from models.xlink import Extended
-from models.xsts import InstanceDocument
-from models.xsts import InstanceTest
-from models.xsts import KnownToken
-from models.xsts import KnownXsdVersion
-from models.xlink import Locator
-from models.xlink import LocatorType
-from models.xsts import Prior
-from models.xsts import Ref
-from models.xlink import Resource
-from models.xlink import ResourceType
-from models.xsts import RuntimeSchemaError
-from models.xsts import SchemaDocument
-from models.xsts import SchemaTest
-from models.xlink import ShowType
-from models.xlink import Simple
-from models.xsts import Status
-from models.xsts import StatusEntry
-from models.xsts import TestOutcome
-from models.xsts import TestGroup
-from models.xsts import TestResult
-from models.xsts import TestSet
-from models.xsts import TestSetRef
-from models.xsts import TestSuite
-from models.xsts import TestSuiteResults
-from models.xlink import Title
-from models.xlink import TitleEltType
-from models.xlink import TypeType
-from models.xsts import UnicodeVersions
-from models.xsts import XmlSubstrate
-from models.xsts import XpathInCta
-from models.xsts import Xsd10Editions
+from models.xlink import (
+    ActuateType,
+    Arc,
+    ArcType,
+    Extended,
+    Locator,
+    LocatorType,
+    Resource,
+    ResourceType,
+    ShowType,
+    Simple,
+    Title,
+    TitleEltType,
+    TypeType,
+)
+from models.xsts import (
+    XdmFiltering,
+    Annotation,
+    Appinfo,
+    Current,
+    Documentation,
+    DocumentationReference,
+    Expected,
+    ExpectedOutcome,
+    InstanceDocument,
+    InstanceTest,
+    KnownToken,
+    KnownXsdVersion,
+    Prior,
+    Ref,
+    RuntimeSchemaError,
+    SchemaDocument,
+    SchemaTest,
+    Status,
+    StatusEntry,
+    TestOutcome,
+    TestGroup,
+    TestResult,
+    TestSet,
+    TestSetRef,
+    TestSuite,
+    TestSuiteResults,
+    UnicodeVersions,
+    XmlSubstrate,
+    XpathInCta,
+    Xsd10Editions,
+)

@@ -1,13 +1,15 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="XML11Support" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#sec-chother">Value space of xs:Name and related types
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#sec-chother">
+        Value space of xs:Name and related types
         Use of newly allowed name characters in names of schema components
-        Effect of \i and \c in regular expressions</documentation>
+        Effect of \i and \c in regular expressions
+        </documentation>
   </annotation>
   <testGroup name="d3_4_6v01" version="1.1">
     <annotation>
-      <documentation>value space of xs:Name and related types (test Name)</documentation>
+      <documentation>value space of xs:Name and related types (test Name) </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"/>
@@ -24,7 +26,7 @@
   </testGroup>
   <testGroup name="d3_4_6v02" version="1.1">
     <annotation>
-      <documentation>value space of xs:Name and related types (test NCName)</documentation>
+      <documentation>value space of xs:Name and related types (test NCName) </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#NCName"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"/>
@@ -41,7 +43,7 @@
   </testGroup>
   <testGroup name="d3_4_6v03" version="1.1">
     <annotation>
-      <documentation>effect of \i in regular expressions</documentation>
+      <documentation>effect of \i in regular expressions  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dt-regex"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"/>
@@ -58,7 +60,7 @@
   </testGroup>
   <testGroup name="d3_4_6v04" version="1.1">
     <annotation>
-      <documentation>effect of \i in regular expressions</documentation>
+      <documentation>effect of \i in regular expressions  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#dt-regex"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"/>
@@ -75,7 +77,7 @@
   </testGroup>
   <testGroup name="d3_4_6v05" version="1.1">
     <annotation>
-      <documentation>Use of newly allowed name characters in names of schema components "sequence"</documentation>
+      <documentation>Use of newly allowed name characters in names of schema components "sequence" </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"/>
@@ -92,7 +94,7 @@
   </testGroup>
   <testGroup name="d3_4_6v06" version="1.1">
     <annotation>
-      <documentation>Use of newly allowed name characters in names of schema components "choice"</documentation>
+      <documentation>Use of newly allowed name characters in names of schema components "choice" </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"/>
@@ -109,7 +111,7 @@
   </testGroup>
   <testGroup name="d3_4_6v07" version="1.1">
     <annotation>
-      <documentation>Use of newly allowed name characters in names of schema components "all"</documentation>
+      <documentation>Use of newly allowed name characters in names of schema components "all" </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"/>
@@ -126,7 +128,7 @@
   </testGroup>
   <testGroup name="d3_4_6ii01">
     <annotation>
-      <documentation>invalid instance for value space of xs:Name</documentation>
+      <documentation>invalid instance for value space of xs:Name </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"/>
@@ -143,7 +145,7 @@
   </testGroup>
   <testGroup name="d3_4_6ii02">
     <annotation>
-      <documentation>invalid instance for value space of xs:NCName</documentation>
+      <documentation>invalid instance for value space of xs:NCName </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"/>
@@ -160,7 +162,7 @@
   </testGroup>
   <testGroup name="d3_4_6ii03">
     <annotation>
-      <documentation>invalid instance for effect of \i in regular expressions</documentation>
+      <documentation>invalid instance for effect of \i in regular expressions </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"/>
@@ -177,7 +179,7 @@
   </testGroup>
   <testGroup name="d3_4_6ii04">
     <annotation>
-      <documentation>invalid instance for effect of \c in regular expressions</documentation>
+      <documentation>invalid instance for effect of \c in regular expressions </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#Name"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"/>

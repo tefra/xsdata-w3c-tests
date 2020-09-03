@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="s2_7_1ii01" version="1.1">
     <annotation>
-      <documentation>xsi:type must resolve to a type definition</documentation>
+      <documentation>xsi:type must resolve to a type definition </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#xsi_type"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
@@ -42,7 +42,7 @@
       <documentation>When an xsi:type attribute appears on an element, and has a QName as its value,
  but the QName does not resolve to a known type definition, processors are now 
  required to "fall back" to lax validation, using the declared {type definition}  
- of the governing element declaration as the governing type definition.</documentation>
+ of the governing element declaration as the governing type definition. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#xsi_type"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"/>
@@ -64,7 +64,7 @@
 		does not require or even necessarily allow empty content. An element can be 'valid'  
 		without content if it has the attribute xsi:nil  with the value true. An element 
 		so labeled must  be empty, but can carry attributes if permitted by the corresponding 
-		complex type.</documentation>
+		complex type. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#xsi_nil"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSIDefault"/>

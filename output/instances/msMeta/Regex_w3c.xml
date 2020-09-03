@@ -8463,8 +8463,10 @@
       <expected validity="valid" version="1.1"/>
       <current status="accepted" date="2011-10-24">
         <annotation>
-          <documentation>In XSD 1.1, unrecognized block names are allowed, and are treated
-               as matching every character. See test bug 13670.</documentation>
+          <documentation>
+               In XSD 1.1, unrecognized block names are allowed, and are treated
+               as matching every character. See test bug 13670.
+             </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2006-07-16"/>
@@ -19054,7 +19056,7 @@
   </testGroup>
   <testGroup name="p12">
     <annotation>
-      <documentation>TEST :branch :</documentation>
+      <documentation>TEST :branch : </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/datatypes.html#regexs"/>
     <schemaTest name="p12">
@@ -37562,8 +37564,10 @@ testing disabled</documentation>
       <expected validity="valid" version="1.1"/>
       <current status="accepted" date="2011-10-24">
         <annotation>
-          <documentation>See bug 13606. The instance is valid using the name character
-               definitions used in XML 1.1 and XML 1.0 5th edition</documentation>
+          <documentation>
+               See bug 13606. The instance is valid using the name character
+               definitions used in XML 1.1 and XML 1.0 5th edition
+             </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2006-07-16"/>

@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="RegularExpression" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs">substitutionGroup</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs">substitutionGroup </documentation>
   </annotation>
   <testGroup name="d6_gv01" version="1.1">
     <annotation>
-      <documentation>use of hyphens within square brackets in regular expressions [a-c]</documentation>
+      <documentation>use of hyphens within square brackets in regular expressions [a-c] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="d6_gv02" version="1.1">
     <annotation>
-      <documentation>use of hyphens within square brackets in regular expressions [abc-[c]]</documentation>
+      <documentation>use of hyphens within square brackets in regular expressions [abc-[c]] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -39,7 +39,7 @@
   </testGroup>
   <testGroup name="d6_gv03" version="1.1">
     <annotation>
-      <documentation>use of hyphens within square brackets in regular expressions [-abc]</documentation>
+      <documentation>use of hyphens within square brackets in regular expressions [-abc] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -56,7 +56,7 @@
   </testGroup>
   <testGroup name="d6_gv04" version="1.1">
     <annotation>
-      <documentation>use of hyphens within square brackets in regular expressions [bc-]</documentation>
+      <documentation>use of hyphens within square brackets in regular expressions [bc-] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -73,7 +73,7 @@
   </testGroup>
   <testGroup name="d6_gii01" version="1.1">
     <annotation>
-      <documentation>invalid instance use of hyphens within square brackets in regular expressions [a-c]</documentation>
+      <documentation>invalid instance use of hyphens within square brackets in regular expressions [a-c] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -90,7 +90,7 @@
   </testGroup>
   <testGroup name="d6_gii02" version="1.1">
     <annotation>
-      <documentation>invalid instance use of hyphens within square brackets in regular expressions [abc-[c]]</documentation>
+      <documentation>invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -107,7 +107,7 @@
   </testGroup>
   <testGroup name="d6_gii03" version="1.1">
     <annotation>
-      <documentation>invalid instance use of hyphens within square brackets in regular expressions [-abc]</documentation>
+      <documentation> invalid instance use of hyphens within square brackets in regular expressions [-abc] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>
@@ -124,7 +124,7 @@
   </testGroup>
   <testGroup name="d6_gii04" version="1.1">
     <annotation>
-      <documentation>invalid instance use of hyphens within square brackets in regular expressions [bc-]</documentation>
+      <documentation>invalid instance use of hyphens within square brackets in regular expressions [bc-] </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#regexs"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"/>

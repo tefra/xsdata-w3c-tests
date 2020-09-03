@@ -1,11 +1,13 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="EDCWildcard" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent">tighter rule for EDC as regards the type of an element that matches a wildcard</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent">
+        tighter rule for EDC as regards the type of an element that matches a wildcard
+        </documentation>
   </annotation>
   <testGroup name="s3_8_6v01" version="1.1">
     <annotation>
-      <documentation>tighter rule for EDC as regards the type of an element that matches a wildcard</documentation>
+      <documentation>tighter rule for EDC as regards the type of an element that matches a wildcard </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"/>
@@ -19,7 +21,9 @@
       <expected validity="invalid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Changed the status to "invalid" in response to bug #12130</documentation>
+          <documentation>
+                        Changed the status to "invalid" in response to bug #12130
+                    </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-12-01"/>
@@ -27,7 +31,7 @@
   </testGroup>
   <testGroup name="s3_8_6ii01" version="1.1">
     <annotation>
-      <documentation>tighter rule for EDC as regards the type of an element that matches a wildcard</documentation>
+      <documentation>tighter rule for EDC as regards the type of an element that matches a wildcard </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"/>

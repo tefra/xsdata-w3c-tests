@@ -8,5 +8,5 @@
   <ns5:b xmlns:ns5="b">test</ns5:b>
   <bar/>
   <bar/>
-  <a:foo>test</a:foo>
+  <a:foo> test</a:foo>
 </foo>

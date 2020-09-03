@@ -5,8 +5,10 @@
   </annotation>
   <testGroup name="s3_12v01" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives. The alternative type extends the base element's type. 
-            More that one alternative type is present. One of the alternative types is the default type.</documentation>
+      <documentation>
+            Basic type alternatives. The alternative type extends the base element's type. 
+            More that one alternative type is present. One of the alternative types is the default type.  
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -23,9 +25,11 @@
   </testGroup>
   <testGroup name="s3_12v02" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives. alternative element with a complexType child that is 
+      <documentation>
+            Basic type alternatives. alternative element with a complexType child that is 
 		        derived from the base element  type and no type attribute More that one alternative 
-		        type is present. One of the alternative types is the default type.</documentation>
+		        type is present. One of the alternative types is the default type.   
+		        </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"/>
@@ -42,9 +46,11 @@
   </testGroup>
   <testGroup name="s3_12v03" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives. 
+      <documentation>
+            Basic type alternatives. 
 		        The alternative type extends the base element's type. 
-		        More that one alternative type is present. One of the alternative types is the default type.</documentation>
+		        More that one alternative type is present. One of the alternative types is the default type.  
+		        </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"/>
@@ -61,11 +67,13 @@
   </testGroup>
   <testGroup name="s3_12v04" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
+      <documentation>
+            Basic type alternatives.
             For the first alternative type, the attribute whose value is to be selected by the alternative type's {test} expression is of type string.
             The attribute value in the XML document contains a trailing space and will not normalized and selected by the alternate type. 
             For the second alternative type, the case of the attribute whose value is to be selected by the {test} expression is in a different case in the XML document.
-            In both cases, the alternative type should not be selected.</documentation>
+            In both cases, the alternative type should not be selected. 
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -82,8 +90,10 @@
   </testGroup>
   <testGroup name="s3_12v05" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
-            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value</documentation>
+      <documentation>
+            Basic type alternatives.
+            Selection of the alternative type is dertermined by evaluating a path And expression with a comparator operator with an attribute's value
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -100,8 +110,10 @@
   </testGroup>
   <testGroup name="s3_12v06" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
-            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value</documentation>
+      <documentation>
+            Basic type alternatives.
+            Selection of the alternative type is dertermined by evaluating a path And and Or expressions with a comparator operator with an attribute's value  
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -118,8 +130,10 @@
   </testGroup>
   <testGroup name="s3_12v07" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
-            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values</documentation>
+      <documentation>
+            Basic type alternatives.
+            Selection of the alternative type is dertermined by evaluating a Constructor function on attribute values
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -136,8 +150,10 @@
   </testGroup>
   <testGroup name="s3_12v08" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
-            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element</documentation>
+      <documentation>
+            Basic type alternatives.
+            Selection of the alternative type is dertermined by evaluating an And operation on the presence of attributes in an element  
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -171,8 +187,10 @@
   </testGroup>
   <testGroup name="s3_12v10" version="1.1">
     <annotation>
-      <documentation>Basic type alternatives.
-            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values</documentation>
+      <documentation>
+            Basic type alternatives.
+            Selection of the alternative type is dertermined by evaluating a Constructor function and a Cast Expression on attribute values
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"/>
@@ -189,7 +207,7 @@
   </testGroup>
   <testGroup name="s3_12v11" version="1.1">
     <annotation>
-      <documentation>Attribute declarations can now be marked {inheritable}.</documentation>
+      <documentation>Attribute declarations can now be marked {inheritable}. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"/>
@@ -300,7 +318,9 @@
       <expected validity="invalid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Changed the status to "invalid" and removed the instance test, in response to bug #12139</documentation>
+          <documentation>
+                        Changed the status to "invalid" and removed the instance test, in response to bug #12139
+                    </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-12-01"/>
@@ -320,7 +340,7 @@
   </testGroup>
   <testGroup name="s3_12si02" version="1.1">
     <annotation>
-      <documentation>Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type</documentation>
+      <documentation>Tests the selection of type alternative when the element type definition is xs:anyType and alternatives not valid derivation of declared type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"/>
@@ -332,7 +352,7 @@
   </testGroup>
   <testGroup name="s3_12si03" version="1.1">
     <annotation>
-      <documentation>Alternatives not valid derivation of declared type</documentation>
+      <documentation>Alternatives not valid derivation of declared type </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"/>

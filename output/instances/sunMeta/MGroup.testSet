@@ -559,7 +559,9 @@
         <Title>&lt;any&gt; as one of {particles} (invalid schema)</Title>
         <Description>The {particles} of 'all' must be &lt;element&gt;. So &lt;any&gt; is prohibited.</Description>
       </documentation>
-      <documentation>Wildcards in an xs:all group become legal in XSD 1.1 - MHK</documentation>
+      <documentation>
+                Wildcards in an xs:all group become legal in XSD 1.1 - MHK
+            </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"/>

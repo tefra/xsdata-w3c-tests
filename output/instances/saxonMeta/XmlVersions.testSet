@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="xv001.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv001.v01.xml"/>
       <expected validity="valid"/>
@@ -39,7 +41,9 @@
     </schemaTest>
     <instanceTest name="xv002.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv002.v01.xml"/>
       <expected validity="valid"/>
@@ -62,7 +66,9 @@
     </schemaTest>
     <instanceTest name="xv003.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv003.v01.xml"/>
       <expected validity="valid"/>
@@ -85,7 +91,9 @@
     </schemaTest>
     <instanceTest name="xv004.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv004.v01.xml"/>
       <expected validity="valid"/>
@@ -108,7 +116,9 @@
     </schemaTest>
     <instanceTest name="xv005.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv005.v01.xml"/>
       <expected validity="valid"/>
@@ -116,7 +126,9 @@
     </instanceTest>
     <instanceTest name="xv005.n01.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv005.n01.xml"/>
       <expected validity="invalid"/>
@@ -124,7 +136,9 @@
     </instanceTest>
     <instanceTest name="xv005.n02.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv005.n02.xml"/>
       <expected validity="invalid"/>
@@ -147,7 +161,9 @@
     </schemaTest>
     <instanceTest name="xv006.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv006.v01.xml"/>
       <expected validity="valid"/>
@@ -155,7 +171,9 @@
     </instanceTest>
     <instanceTest name="xv006.n01.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv006.n01.xml"/>
       <expected validity="invalid"/>
@@ -163,7 +181,9 @@
     </instanceTest>
     <instanceTest name="xv006.n02.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv006.n02.xml"/>
       <expected validity="invalid"/>
@@ -171,7 +191,9 @@
     </instanceTest>
     <instanceTest name="xv006.n03.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv006.n03.xml"/>
       <expected validity="invalid"/>
@@ -194,7 +216,9 @@
     </schemaTest>
     <instanceTest name="xv007.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv007.v01.xml"/>
       <expected validity="valid"/>
@@ -202,7 +226,9 @@
     </instanceTest>
     <instanceTest name="xv007.n01.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv007.n01.xml"/>
       <expected validity="invalid"/>
@@ -210,7 +236,9 @@
     </instanceTest>
     <instanceTest name="xv007.n02.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv007.n02.xml"/>
       <expected validity="invalid"/>
@@ -233,7 +261,9 @@
     </schemaTest>
     <instanceTest name="xv008.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv008.v01.xml"/>
       <expected validity="valid"/>
@@ -241,7 +271,9 @@
     </instanceTest>
     <instanceTest name="xv008.n01.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv008.n01.xml"/>
       <expected validity="invalid"/>
@@ -249,7 +281,9 @@
     </instanceTest>
     <instanceTest name="xv008.n02.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv008.n02.xml"/>
       <expected validity="invalid"/>
@@ -272,7 +306,9 @@
     </schemaTest>
     <instanceTest name="xv009.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv009.v01.xml"/>
       <expected validity="valid"/>
@@ -280,7 +316,9 @@
     </instanceTest>
     <instanceTest name="xv009.v02.xml">
       <annotation>
-        <documentation>Valid, satisfies the schema.</documentation>
+        <documentation>
+		                Valid, satisfies the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv009.v02.xml"/>
       <expected validity="valid"/>
@@ -288,7 +326,9 @@
     </instanceTest>
     <instanceTest name="xv009.n01.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv009.n01.xml"/>
       <expected validity="invalid"/>
@@ -296,7 +336,9 @@
     </instanceTest>
     <instanceTest name="xv009.n02.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv009.n02.xml"/>
       <expected validity="invalid"/>
@@ -304,7 +346,9 @@
     </instanceTest>
     <instanceTest name="xv009.n03.xml">
       <annotation>
-        <documentation>Invalid against the schema.</documentation>
+        <documentation>
+		                Invalid against the schema.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/XmlVersions/xv009.n03.xml"/>
       <expected validity="invalid"/>

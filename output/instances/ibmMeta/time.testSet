@@ -1,13 +1,15 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="time" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#time">time</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#time">time </documentation>
   </annotation>
   <testGroup name="d3_3_9v01" version="1.1">
     <annotation>
-      <documentation>1a: chameleon include on unqualified names in XPath expressions
+      <documentation>
+				1a: chameleon include on unqualified names in XPath expressions
 		        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.
-		        1c: A time in a timezone may convert to a UTC time on a different day.</documentation>
+		        1c: A time in a timezone may convert to a UTC time on a different day. 
+		        </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#time"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"/>

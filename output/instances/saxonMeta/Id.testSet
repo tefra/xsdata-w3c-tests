@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="id001.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.v01.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="id001.n01.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n01.xml"/>
       <expected validity="invalid"/>
@@ -32,7 +36,9 @@
     </instanceTest>
     <instanceTest name="id001.n02.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n02.xml"/>
       <expected validity="invalid"/>
@@ -55,7 +61,9 @@
     </schemaTest>
     <instanceTest name="id002.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.v01.xml"/>
       <expected validity="valid"/>
@@ -63,7 +71,9 @@
     </instanceTest>
     <instanceTest name="id002.n01.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n01.xml"/>
       <expected validity="invalid"/>
@@ -71,7 +81,9 @@
     </instanceTest>
     <instanceTest name="id002.n02.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id001.n02.xml"/>
       <expected validity="invalid"/>
@@ -94,7 +106,9 @@
     </schemaTest>
     <instanceTest name="id003.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.v01.xml"/>
       <expected validity="valid"/>
@@ -102,7 +116,9 @@
     </instanceTest>
     <instanceTest name="id003.n01.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.n01.xml"/>
       <expected validity="invalid"/>
@@ -110,7 +126,9 @@
     </instanceTest>
     <instanceTest name="id003.n02.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id003.n02.xml"/>
       <expected validity="invalid"/>
@@ -133,7 +151,9 @@
     </schemaTest>
     <instanceTest name="id004.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.v01.xml"/>
       <expected validity="valid"/>
@@ -141,7 +161,9 @@
     </instanceTest>
     <instanceTest name="id004.n01.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.n01.xml"/>
       <expected validity="invalid"/>
@@ -149,7 +171,9 @@
     </instanceTest>
     <instanceTest name="id004.n02.xml">
       <annotation>
-        <documentation>Invalid, same ID on two different elements.</documentation>
+        <documentation>
+		                Invalid, same ID on two different elements.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id004.n02.xml"/>
       <expected validity="invalid"/>
@@ -172,7 +196,9 @@
     </schemaTest>
     <instanceTest name="id005.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.v01.xml"/>
       <expected validity="valid"/>
@@ -180,7 +206,9 @@
     </instanceTest>
     <instanceTest name="id005.n01.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.n01.xml"/>
       <expected validity="invalid"/>
@@ -188,7 +216,9 @@
     </instanceTest>
     <instanceTest name="id005.n02.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id005.n02.xml"/>
       <expected validity="invalid"/>
@@ -211,7 +241,9 @@
     </schemaTest>
     <instanceTest name="id006.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.v01.xml"/>
       <expected validity="valid"/>
@@ -219,7 +251,9 @@
     </instanceTest>
     <instanceTest name="id006.n01.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.n01.xml"/>
       <expected validity="invalid"/>
@@ -227,7 +261,9 @@
     </instanceTest>
     <instanceTest name="id006.n02.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id006.n02.xml"/>
       <expected validity="invalid"/>
@@ -250,7 +286,9 @@
     </schemaTest>
     <instanceTest name="id007.v01.xml">
       <annotation>
-        <documentation>Valid, two IDs on the same element can have the same value.</documentation>
+        <documentation>
+		                Valid, two IDs on the same element can have the same value.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.v01.xml"/>
       <expected validity="valid"/>
@@ -258,7 +296,9 @@
     </instanceTest>
     <instanceTest name="id007.n01.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.n01.xml"/>
       <expected validity="invalid"/>
@@ -266,7 +306,9 @@
     </instanceTest>
     <instanceTest name="id007.n02.xml">
       <annotation>
-        <documentation>Invalid, unresolved IDREF value hhh.</documentation>
+        <documentation>
+		                Invalid, unresolved IDREF value hhh.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id007.n02.xml"/>
       <expected validity="invalid"/>
@@ -290,7 +332,9 @@
     </schemaTest>
     <instanceTest name="id008.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v01.xml"/>
       <expected validity="valid"/>
@@ -298,26 +342,34 @@
     </instanceTest>
     <instanceTest name="id008.n02.xml">
       <annotation>
-        <documentation>Invalid: a complex type with simple content now imposes ID constraints.</documentation>
+        <documentation>
+		                Invalid: a complex type with simple content now imposes ID constraints.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v02.xml"/>
       <expected validity="invalid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Changed the status to "invalid" in response to bug #12014</documentation>
+          <documentation>
+		                Changed the status to "invalid" in response to bug #12014
+		            </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-05-12"/>
     </instanceTest>
     <instanceTest name="id008.n03.xml">
       <annotation>
-        <documentation>Invalid: a complex type with simple content now imposes ID constraints.</documentation>
+        <documentation>
+		               Invalid: a complex type with simple content now imposes ID constraints.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id008.v03.xml"/>
       <expected validity="invalid"/>
       <current status="accepted" date="2011-07-29">
         <annotation>
-          <documentation>Changed the status to "invalid" in response to bug #12014</documentation>
+          <documentation>
+		                Changed the status to "invalid" in response to bug #12014
+		            </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-05-12"/>
@@ -339,7 +391,9 @@
     </schemaTest>
     <instanceTest name="id009.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id009.v01.xml"/>
       <expected validity="valid"/>
@@ -362,7 +416,9 @@
     </schemaTest>
     <instanceTest name="id010.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.v01.xml"/>
       <expected validity="valid"/>
@@ -370,7 +426,9 @@
     </instanceTest>
     <instanceTest name="id010.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n01.xml"/>
       <expected validity="invalid"/>
@@ -378,7 +436,9 @@
     </instanceTest>
     <instanceTest name="id010.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n02.xml"/>
       <expected validity="invalid"/>
@@ -401,7 +461,9 @@
     </schemaTest>
     <instanceTest name="id011.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.v01.xml"/>
       <expected validity="valid"/>
@@ -409,7 +471,9 @@
     </instanceTest>
     <instanceTest name="id011.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n01.xml"/>
       <expected validity="invalid"/>
@@ -417,7 +481,9 @@
     </instanceTest>
     <instanceTest name="id011.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n02.xml"/>
       <expected validity="invalid"/>
@@ -440,7 +506,9 @@
     </schemaTest>
     <instanceTest name="id012.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.v01.xml"/>
       <expected validity="valid"/>
@@ -448,7 +516,9 @@
     </instanceTest>
     <instanceTest name="id012.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n01.xml"/>
       <expected validity="invalid"/>
@@ -456,7 +526,9 @@
     </instanceTest>
     <instanceTest name="id012.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id010.n02.xml"/>
       <expected validity="invalid"/>
@@ -479,7 +551,9 @@
     </schemaTest>
     <instanceTest name="id013.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.v01.xml"/>
       <expected validity="valid"/>
@@ -487,7 +561,9 @@
     </instanceTest>
     <instanceTest name="id013.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n01.xml"/>
       <expected validity="invalid"/>
@@ -495,7 +571,9 @@
     </instanceTest>
     <instanceTest name="id013.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id011.n02.xml"/>
       <expected validity="invalid"/>
@@ -518,7 +596,9 @@
     </schemaTest>
     <instanceTest name="id014.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.v01.xml"/>
       <expected validity="valid"/>
@@ -526,7 +606,9 @@
     </instanceTest>
     <instanceTest name="id014.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.n01.xml"/>
       <expected validity="invalid"/>
@@ -534,7 +616,9 @@
     </instanceTest>
     <instanceTest name="id014.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id014.n02.xml"/>
       <expected validity="invalid"/>
@@ -557,7 +641,9 @@
     </schemaTest>
     <instanceTest name="id015.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.v01.xml"/>
       <expected validity="valid"/>
@@ -565,7 +651,9 @@
     </instanceTest>
     <instanceTest name="id015.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.n01.xml"/>
       <expected validity="invalid"/>
@@ -573,7 +661,9 @@
     </instanceTest>
     <instanceTest name="id015.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id015.n02.xml"/>
       <expected validity="invalid"/>
@@ -596,7 +686,9 @@
     </schemaTest>
     <instanceTest name="id016.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.v01.xml"/>
       <expected validity="valid"/>
@@ -604,7 +696,9 @@
     </instanceTest>
     <instanceTest name="id016.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.v02.xml"/>
       <expected validity="valid"/>
@@ -612,7 +706,9 @@
     </instanceTest>
     <instanceTest name="id016.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.n01.xml"/>
       <expected validity="invalid"/>
@@ -620,7 +716,9 @@
     </instanceTest>
     <instanceTest name="id016.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id016.n02.xml"/>
       <expected validity="invalid"/>
@@ -643,7 +741,9 @@
     </schemaTest>
     <instanceTest name="id017.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.v01.xml"/>
       <expected validity="valid"/>
@@ -651,7 +751,9 @@
     </instanceTest>
     <instanceTest name="id017.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.v02.xml"/>
       <expected validity="valid"/>
@@ -659,7 +761,9 @@
     </instanceTest>
     <instanceTest name="id017.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id017.n01.xml"/>
       <expected validity="invalid"/>
@@ -682,7 +786,9 @@
     </schemaTest>
     <instanceTest name="id018.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v01.xml"/>
       <expected validity="valid"/>
@@ -690,7 +796,9 @@
     </instanceTest>
     <instanceTest name="id018.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v02.xml"/>
       <expected validity="valid"/>
@@ -698,7 +806,9 @@
     </instanceTest>
     <instanceTest name="id018.v03.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.v03.xml"/>
       <expected validity="valid"/>
@@ -706,7 +816,9 @@
     </instanceTest>
     <instanceTest name="id018.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.n01.xml"/>
       <expected validity="invalid"/>
@@ -714,7 +826,9 @@
     </instanceTest>
     <instanceTest name="id018.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id018.n02.xml"/>
       <expected validity="invalid"/>
@@ -737,7 +851,9 @@
     </schemaTest>
     <instanceTest name="id019.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.v01.xml"/>
       <expected validity="valid"/>
@@ -745,7 +861,9 @@
     </instanceTest>
     <instanceTest name="id019.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.v02.xml"/>
       <expected validity="valid"/>
@@ -753,7 +871,9 @@
     </instanceTest>
     <instanceTest name="id019.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.n01.xml"/>
       <expected validity="invalid"/>
@@ -761,7 +881,9 @@
     </instanceTest>
     <instanceTest name="id019.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id019.n02.xml"/>
       <expected validity="invalid"/>
@@ -784,7 +906,9 @@
     </schemaTest>
     <instanceTest name="id020.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v01.xml"/>
       <expected validity="valid"/>
@@ -792,7 +916,9 @@
     </instanceTest>
     <instanceTest name="id020.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v02.xml"/>
       <expected validity="valid"/>
@@ -800,7 +926,9 @@
     </instanceTest>
     <instanceTest name="id020.v03.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.v03.xml"/>
       <expected validity="valid"/>
@@ -808,7 +936,9 @@
     </instanceTest>
     <instanceTest name="id020.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.n01.xml"/>
       <expected validity="invalid"/>
@@ -816,7 +946,9 @@
     </instanceTest>
     <instanceTest name="id020.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id020.n02.xml"/>
       <expected validity="invalid"/>
@@ -839,7 +971,9 @@
     </schemaTest>
     <instanceTest name="id021.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.v01.xml"/>
       <expected validity="valid"/>
@@ -847,7 +981,9 @@
     </instanceTest>
     <instanceTest name="id021.v02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.v02.xml"/>
       <expected validity="valid"/>
@@ -855,7 +991,9 @@
     </instanceTest>
     <instanceTest name="id021.n01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.n01.xml"/>
       <expected validity="invalid"/>
@@ -863,7 +1001,9 @@
     </instanceTest>
     <instanceTest name="id021.n02.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id021.n02.xml"/>
       <expected validity="invalid"/>
@@ -886,7 +1026,9 @@
     </schemaTest>
     <instanceTest name="id022.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id022.v01.xml"/>
       <expected validity="valid"/>
@@ -894,7 +1036,9 @@
     </instanceTest>
     <instanceTest name="id022.n01.xml">
       <annotation>
-        <documentation>Invalid</documentation>
+        <documentation>
+		                Invalid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id022.n01.xml"/>
       <expected validity="invalid"/>
@@ -917,7 +1061,9 @@
     </schemaTest>
     <instanceTest name="id040.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.v01.xml"/>
       <expected validity="valid"/>
@@ -925,7 +1071,9 @@
     </instanceTest>
     <instanceTest name="id040.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.n01.xml"/>
       <expected validity="invalid"/>
@@ -933,7 +1081,9 @@
     </instanceTest>
     <instanceTest name="id040.n02.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id040.n02.xml"/>
       <expected validity="invalid"/>
@@ -986,7 +1136,9 @@
     </schemaTest>
     <instanceTest name="id043.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.v01.xml"/>
       <expected validity="valid"/>
@@ -994,7 +1146,9 @@
     </instanceTest>
     <instanceTest name="id043.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.n01.xml"/>
       <expected validity="invalid"/>
@@ -1002,7 +1156,9 @@
     </instanceTest>
     <instanceTest name="id043.n02.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id043.n02.xml"/>
       <expected validity="invalid"/>
@@ -1025,7 +1181,9 @@
     </schemaTest>
     <instanceTest name="id044.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.v01.xml"/>
       <expected validity="valid"/>
@@ -1033,7 +1191,9 @@
     </instanceTest>
     <instanceTest name="id044.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.n01.xml"/>
       <expected validity="invalid"/>
@@ -1041,7 +1201,9 @@
     </instanceTest>
     <instanceTest name="id044.n02.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id044.n02.xml"/>
       <expected validity="invalid"/>
@@ -1064,7 +1226,9 @@
     </schemaTest>
     <instanceTest name="id050.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
       <expected validity="valid"/>
@@ -1072,7 +1236,9 @@
     </instanceTest>
     <instanceTest name="id050.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
       <expected validity="invalid"/>
@@ -1095,7 +1261,9 @@
     </schemaTest>
     <instanceTest name="id051.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
       <expected validity="valid"/>
@@ -1103,7 +1271,9 @@
     </instanceTest>
     <instanceTest name="id051.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
       <expected validity="invalid"/>
@@ -1126,7 +1296,9 @@
     </schemaTest>
     <instanceTest name="id052.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
       <expected validity="valid"/>
@@ -1134,7 +1306,9 @@
     </instanceTest>
     <instanceTest name="id052.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
       <expected validity="invalid"/>
@@ -1157,7 +1331,9 @@
     </schemaTest>
     <instanceTest name="id053.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.v01.xml"/>
       <expected validity="valid"/>
@@ -1165,7 +1341,9 @@
     </instanceTest>
     <instanceTest name="id053.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id050.n01.xml"/>
       <expected validity="invalid"/>
@@ -1188,7 +1366,9 @@
     </schemaTest>
     <instanceTest name="id054.v01.xml">
       <annotation>
-        <documentation>Valid</documentation>
+        <documentation>
+		                Valid
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id054.v01.xml"/>
       <expected validity="valid"/>
@@ -1196,7 +1376,9 @@
     </instanceTest>
     <instanceTest name="id054.n01.xml">
       <annotation>
-        <documentation>Invalid, contains duplicate numbers</documentation>
+        <documentation>
+		                Invalid, contains duplicate numbers
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Id/id054.n01.xml"/>
       <expected validity="invalid"/>

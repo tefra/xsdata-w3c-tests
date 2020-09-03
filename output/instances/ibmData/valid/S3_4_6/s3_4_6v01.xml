@@ -4,6 +4,8 @@
   <wildcard>1</wildcard>
   <wildcard2>hi.123</wildcard2>
   <wildcard3>
-    <hello>moo</hello>
+    <hello>
+   moo
+  </hello>
   </wildcard3>
 </dv:root>

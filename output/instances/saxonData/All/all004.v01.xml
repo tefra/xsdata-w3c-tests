@@ -1,2 +1,3 @@
 <!-- xsdata instance -->
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><a/><b/><d/><c/><a/>strawberries<c/><c/><a/><a/><b/></doc>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><a/><b/><d/><c/><a/>strawberries
+  <c/><c/><a/><a/><b/></doc>

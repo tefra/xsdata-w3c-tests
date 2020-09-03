@@ -1,7 +1,9 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="RestrictionOfComplexTypes" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct">Restriction of complex types</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct">
+        Restriction of complex types
+	      </documentation>
   </annotation>
   <testGroup name="s3_4_6v01" version="1.1">
     <annotation>
@@ -73,7 +75,7 @@
   </testGroup>
   <testGroup name="s3_4_6ii01" version="1.1">
     <annotation>
-      <documentation>Instance document element has higher occurences than schema allows</documentation>
+      <documentation>Instance document element has higher occurences than schema allows </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
@@ -90,7 +92,7 @@
   </testGroup>
   <testGroup name="s3_4_6ii03" version="1.1">
     <annotation>
-      <documentation>Tests notQName</documentation>
+      <documentation>Tests notQName  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"/>
@@ -107,7 +109,7 @@
   </testGroup>
   <testGroup name="s3_4_6si01" version="1.1">
     <annotation>
-      <documentation>Tests occurence validity</documentation>
+      <documentation>Tests occurence validity </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
@@ -119,7 +121,7 @@
   </testGroup>
   <testGroup name="s3_4_6si02" version="1.1">
     <annotation>
-      <documentation>Tests restriction of all modelgroup</documentation>
+      <documentation>Tests restriction of all modelgroup </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
@@ -131,7 +133,7 @@
   </testGroup>
   <testGroup name="s3_4_6si03" version="1.1">
     <annotation>
-      <documentation>Tests restriction of all modelgroup</documentation>
+      <documentation>Tests restriction of all modelgroup </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
@@ -143,7 +145,7 @@
   </testGroup>
   <testGroup name="s3_4_6si04" version="1.1">
     <annotation>
-      <documentation>Restrict xs:all to xs:sequence</documentation>
+      <documentation>Restrict xs:all to xs:sequence </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"/>
@@ -155,7 +157,7 @@
   </testGroup>
   <testGroup name="s3_4_6si05" version="1.1">
     <annotation>
-      <documentation>Restrict xs:all to xs:choice</documentation>
+      <documentation>Restrict xs:all to xs:choice  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"/>
@@ -167,7 +169,7 @@
   </testGroup>
   <testGroup name="s3_4_6si06" version="1.1">
     <annotation>
-      <documentation>Restrict xs:all to xs:sequence</documentation>
+      <documentation>Restrict xs:all to xs:sequence  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"/>
@@ -179,7 +181,7 @@
   </testGroup>
   <testGroup name="s3_4_6si07" version="1.1">
     <annotation>
-      <documentation>Restrict xs:all to xs:choice</documentation>
+      <documentation>Restrict xs:all to xs:choice  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#coss-ct"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"/>

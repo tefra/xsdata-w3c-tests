@@ -1,11 +1,13 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="IdentityConstraint" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary">Identity-constraint tests</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary">
+        Identity-constraint tests
+	      </documentation>
   </annotation>
   <testGroup name="s2_2_4v01" version="1.1">
     <annotation>
-      <documentation>Valid test for identity constraint referrals with annotation</documentation>
+      <documentation>Valid test for identity constraint referrals with annotation  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
@@ -22,7 +24,7 @@
   </testGroup>
   <testGroup name="s2_2_4v02" version="1.1">
     <annotation>
-      <documentation>Valid test for identity constraint referrals</documentation>
+      <documentation>Valid test for identity constraint referrals  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
@@ -39,7 +41,7 @@
   </testGroup>
   <testGroup name="s2_2_4v03" version="1.1">
     <annotation>
-      <documentation>Tests unresolvable xpath</documentation>
+      <documentation>Tests unresolvable xpath </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
@@ -56,7 +58,7 @@
   </testGroup>
   <testGroup name="s2_2_4ii01" version="1.1">
     <annotation>
-      <documentation>test attribute which is required as declared in key is abscent</documentation>
+      <documentation>test attribute which is required as declared in key is abscent </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
@@ -131,7 +133,7 @@
   </testGroup>
   <testGroup name="s2_2_4si04">
     <annotation>
-      <documentation>identity constraints contains no name and no ref attribute</documentation>
+      <documentation>identity constraints contains no name and no ref attribute </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>
@@ -143,7 +145,7 @@
   </testGroup>
   <testGroup name="s2_2_4si05">
     <annotation>
-      <documentation>key refers to nonexisting key</documentation>
+      <documentation>key refers to nonexisting key </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"/>

@@ -1,11 +1,11 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="float" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#float">float</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#float">float </documentation>
   </annotation>
   <testGroup name="d3_3_5v01" version="1.1">
     <annotation>
-      <documentation>Valid test for +0 and -0 bound checking</documentation>
+      <documentation>Valid test for +0 and -0 bound checking </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#float"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"/>
@@ -22,7 +22,7 @@
   </testGroup>
   <testGroup name="d3_3_5v02" version="1.1">
     <annotation>
-      <documentation>lexical representation +INF for float</documentation>
+      <documentation>lexical representation +INF for float  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#float"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"/>

@@ -16,7 +16,9 @@
     </schemaTest>
     <instanceTest name="over001.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.v01.xml"/>
       <expected validity="valid"/>
@@ -24,7 +26,9 @@
     </instanceTest>
     <instanceTest name="over001.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.n01.xml"/>
       <expected validity="invalid"/>
@@ -32,7 +36,9 @@
     </instanceTest>
     <instanceTest name="over001.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.n02.xml"/>
       <expected validity="invalid"/>
@@ -55,7 +61,9 @@
     </schemaTest>
     <instanceTest name="over002.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over002.v01.xml"/>
       <expected validity="valid"/>
@@ -63,7 +71,9 @@
     </instanceTest>
     <instanceTest name="over002.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over002.n01.xml"/>
       <expected validity="invalid"/>
@@ -71,7 +81,9 @@
     </instanceTest>
     <instanceTest name="over002.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over002.n02.xml"/>
       <expected validity="invalid"/>
@@ -94,7 +106,9 @@
     </schemaTest>
     <instanceTest name="over003.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.v01.xml"/>
       <expected validity="valid"/>
@@ -102,7 +116,9 @@
     </instanceTest>
     <instanceTest name="over003.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.n01.xml"/>
       <expected validity="invalid"/>
@@ -110,7 +126,9 @@
     </instanceTest>
     <instanceTest name="over003.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.n02.xml"/>
       <expected validity="invalid"/>
@@ -133,7 +151,9 @@
     </schemaTest>
     <instanceTest name="over004.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.v01.xml"/>
       <expected validity="valid"/>
@@ -141,7 +161,9 @@
     </instanceTest>
     <instanceTest name="over004.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.n01.xml"/>
       <expected validity="invalid"/>
@@ -149,7 +171,9 @@
     </instanceTest>
     <instanceTest name="over004.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over003.n02.xml"/>
       <expected validity="invalid"/>
@@ -172,7 +196,9 @@
     </schemaTest>
     <instanceTest name="over005.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over005.v01.xml"/>
       <expected validity="valid"/>
@@ -180,7 +206,9 @@
     </instanceTest>
     <instanceTest name="over005.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over005.n01.xml"/>
       <expected validity="invalid"/>
@@ -188,7 +216,9 @@
     </instanceTest>
     <instanceTest name="over005.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over005.n02.xml"/>
       <expected validity="invalid"/>
@@ -211,7 +241,9 @@
     </schemaTest>
     <instanceTest name="over006.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over006.v01.xml"/>
       <expected validity="valid"/>
@@ -219,7 +251,9 @@
     </instanceTest>
     <instanceTest name="over006.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over006.n01.xml"/>
       <expected validity="invalid"/>
@@ -227,7 +261,9 @@
     </instanceTest>
     <instanceTest name="over006.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over006.n02.xml"/>
       <expected validity="invalid"/>
@@ -250,7 +286,9 @@
     </schemaTest>
     <instanceTest name="over007.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over007.v01.xml"/>
       <expected validity="valid"/>
@@ -258,7 +296,9 @@
     </instanceTest>
     <instanceTest name="over007.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over007.n01.xml"/>
       <expected validity="invalid"/>
@@ -266,7 +306,9 @@
     </instanceTest>
     <instanceTest name="over007.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over007.n02.xml"/>
       <expected validity="invalid"/>
@@ -289,7 +331,9 @@
     </schemaTest>
     <instanceTest name="over008.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over008.v01.xml"/>
       <expected validity="valid"/>
@@ -297,7 +341,9 @@
     </instanceTest>
     <instanceTest name="over008.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over008.n01.xml"/>
       <expected validity="invalid"/>
@@ -305,7 +351,9 @@
     </instanceTest>
     <instanceTest name="over008.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over008.n02.xml"/>
       <expected validity="invalid"/>
@@ -328,7 +376,9 @@
     </schemaTest>
     <instanceTest name="over009.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over009.v01.xml"/>
       <expected validity="valid"/>
@@ -336,7 +386,9 @@
     </instanceTest>
     <instanceTest name="over009.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over009.n01.xml"/>
       <expected validity="invalid"/>
@@ -344,7 +396,9 @@
     </instanceTest>
     <instanceTest name="over009.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over009.n02.xml"/>
       <expected validity="invalid"/>
@@ -367,7 +421,9 @@
     </schemaTest>
     <instanceTest name="over010.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over010.v01.xml"/>
       <expected validity="valid"/>
@@ -375,7 +431,9 @@
     </instanceTest>
     <instanceTest name="over010.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over010.n01.xml"/>
       <expected validity="invalid"/>
@@ -383,7 +441,9 @@
     </instanceTest>
     <instanceTest name="over010.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over010.n02.xml"/>
       <expected validity="invalid"/>
@@ -421,7 +481,9 @@
     </schemaTest>
     <instanceTest name="over012.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over012.v01.xml"/>
       <expected validity="valid"/>
@@ -429,7 +491,9 @@
     </instanceTest>
     <instanceTest name="over012.n01.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over012.n01.xml"/>
       <expected validity="invalid"/>
@@ -437,7 +501,9 @@
     </instanceTest>
     <instanceTest name="over012.n02.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over012.n02.xml"/>
       <expected validity="invalid"/>
@@ -459,7 +525,9 @@
       <expected validity="valid"/>
       <current status="accepted" date="2011-11-29">
         <annotation>
-          <documentation>Changed status to valid. See bug 14442.</documentation>
+          <documentation>
+                  Changed status to valid. See bug 14442.
+                </documentation>
         </annotation>
       </current>
       <prior status="accepted" date="2010-05-05"/>
@@ -496,7 +564,9 @@
     </schemaTest>
     <instanceTest name="over015.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over015.v01.xml"/>
       <expected validity="valid"/>
@@ -504,7 +574,9 @@
     </instanceTest>
     <instanceTest name="over015.v02.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding element declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over015.v02.xml"/>
       <expected validity="valid"/>
@@ -512,7 +584,9 @@
     </instanceTest>
     <instanceTest name="over015.n01.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over015.n01.xml"/>
       <expected validity="invalid"/>
@@ -520,7 +594,9 @@
     </instanceTest>
     <instanceTest name="over015.n02.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over015.n02.xml"/>
       <expected validity="invalid"/>
@@ -573,7 +649,9 @@
     </schemaTest>
     <instanceTest name="over018.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over018.v01.xml"/>
       <expected validity="valid"/>
@@ -581,7 +659,9 @@
     </instanceTest>
     <instanceTest name="over018.n01.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over018.n01.xml"/>
       <expected validity="invalid"/>
@@ -589,7 +669,9 @@
     </instanceTest>
     <instanceTest name="over018.n02.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over018.n02.xml"/>
       <expected validity="invalid"/>
@@ -612,7 +694,9 @@
     </schemaTest>
     <instanceTest name="over019.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.v01.xml"/>
       <expected validity="valid"/>
@@ -620,7 +704,9 @@
     </instanceTest>
     <instanceTest name="over019.n01.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.n01.xml"/>
       <expected validity="invalid"/>
@@ -628,7 +714,9 @@
     </instanceTest>
     <instanceTest name="over019.n02.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.n02.xml"/>
       <expected validity="invalid"/>
@@ -651,7 +739,9 @@
     </schemaTest>
     <instanceTest name="over020.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.v01.xml"/>
       <expected validity="valid"/>
@@ -659,7 +749,9 @@
     </instanceTest>
     <instanceTest name="over020.n01.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.n01.xml"/>
       <expected validity="invalid"/>
@@ -667,7 +759,9 @@
     </instanceTest>
     <instanceTest name="over020.n02.xml">
       <annotation>
-        <documentation>Invalid.</documentation>
+        <documentation>
+		                Invalid.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over019.n02.xml"/>
       <expected validity="invalid"/>
@@ -720,7 +814,9 @@
     </schemaTest>
     <instanceTest name="over023.v01.xml">
       <annotation>
-        <documentation>Valid, satisfies the overriding declaration.</documentation>
+        <documentation>
+		                Valid, satisfies the overriding declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.v01.xml"/>
       <expected validity="valid"/>
@@ -728,7 +824,9 @@
     </instanceTest>
     <instanceTest name="over023.n01.xml">
       <annotation>
-        <documentation>Invalid, uses content model before override.</documentation>
+        <documentation>
+		                Invalid, uses content model before override.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.n01.xml"/>
       <expected validity="invalid"/>
@@ -736,7 +834,9 @@
     </instanceTest>
     <instanceTest name="over023.n02.xml">
       <annotation>
-        <documentation>Invalid, unknown element declaration.</documentation>
+        <documentation>
+		                Invalid, unknown element declaration.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over001.n02.xml"/>
       <expected validity="invalid"/>
@@ -806,8 +906,10 @@
     </schemaTest>
     <instanceTest name="over027.n01.xml">
       <annotation>
-        <documentation>Invalid, cannot validate against xs:NOTATION directly, only against a subtype with
-		                an enumeration facet.</documentation>
+        <documentation>
+		                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with
+		                an enumeration facet.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over015.v01.xml"/>
       <expected validity="invalid"/>
@@ -830,7 +932,9 @@
     </schemaTest>
     <instanceTest name="over028.n01.xml">
       <annotation>
-        <documentation>Invalid, value of simple type is out of range.</documentation>
+        <documentation>
+		                Invalid, value of simple type is out of range.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over028.n01.xml"/>
       <expected validity="invalid"/>
@@ -838,7 +942,9 @@
     </instanceTest>
     <instanceTest name="over028.v01.xml">
       <annotation>
-        <documentation>Valid, value of simple type is in range.</documentation>
+        <documentation>
+		                Valid, value of simple type is in range.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over028.v01.xml"/>
       <expected validity="valid"/>
@@ -863,7 +969,9 @@
     </schemaTest>
     <instanceTest name="over029.n01.xml">
       <annotation>
-        <documentation>Invalid, child elements are in the wrong order.</documentation>
+        <documentation>
+		                Invalid, child elements are in the wrong order.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over029.n01.xml"/>
       <expected validity="invalid"/>
@@ -871,7 +979,9 @@
     </instanceTest>
     <instanceTest name="over029.v01.xml">
       <annotation>
-        <documentation>Valid, child elements are in the right order.</documentation>
+        <documentation>
+		                Valid, child elements are in the right order.
+		            </documentation>
       </annotation>
       <instanceDocument xlink:type="locator" xlink:href="../saxonData/Override/over029.v01.xml"/>
       <expected validity="valid"/>

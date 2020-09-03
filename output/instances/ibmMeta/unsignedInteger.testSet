@@ -1,7 +1,9 @@
 <!-- xsdata instance -->
 <testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="unsignedIntegers" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#sec-chdtfacets">The description of the lexical spaces of unsignedLong, unsignedInt, unsignedShort, and unsignedByte has been revised to agree with the schema for schemas by allowing for the possibility of a leading sign.</documentation>
+    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#sec-chdtfacets">
+        The description of the lexical spaces of unsignedLong, unsignedInt, unsignedShort, and unsignedByte has been revised to agree with the schema for schemas by allowing for the possibility of a leading sign.
+        </documentation>
   </annotation>
   <testGroup name="d3_4_21v01" version="1.1">
     <annotation>
@@ -22,7 +24,7 @@
   </testGroup>
   <testGroup name="d3_4_22v01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedInt.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedInt. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedInt"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -39,7 +41,7 @@
   </testGroup>
   <testGroup name="d3_4_23v01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedInt.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedInt. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedShort"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -56,7 +58,7 @@
   </testGroup>
   <testGroup name="d3_4_24v01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedByte.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedByte. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedByte"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -73,7 +75,7 @@
   </testGroup>
   <testGroup name="d3_4_21ii01" version="1.1">
     <annotation>
-      <documentation>test unsignedLong invalid instance</documentation>
+      <documentation>test unsignedLong invalid instance </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedLong"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -90,7 +92,7 @@
   </testGroup>
   <testGroup name="d3_4_22ii01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedInt.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedInt. </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedInt"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -107,7 +109,7 @@
   </testGroup>
   <testGroup name="d3_4_23ii01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedShort.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedShort.  </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedShort"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>
@@ -124,7 +126,7 @@
   </testGroup>
   <testGroup name="d3_4_24ii01" version="1.1">
     <annotation>
-      <documentation>The possibility of a leading sign is allowed for unsignedByte.</documentation>
+      <documentation>The possibility of a leading sign is allowed for unsignedByte.   </documentation>
     </annotation>
     <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#unsignedByte"/>
     <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"/>

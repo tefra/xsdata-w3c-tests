@@ -6,20 +6,12 @@ from typing import List, Optional
 class Appendix:
     """
     :ivar value:
-    :ivar value_1:
-    :ivar value_2:
     :ivar type:
     """
     class Meta:
         name = "appendix"
 
     value: Optional[str] = field(
-        default=None,
-    )
-    value_1: Optional[str] = field(
-        default=None,
-    )
-    value_2: Optional[str] = field(
         default=None,
     )
     type: Optional[str] = field(
@@ -34,20 +26,12 @@ class Appendix:
 class Chap:
     """
     :ivar value:
-    :ivar value_1:
-    :ivar value_2:
     :ivar type:
     """
     class Meta:
         name = "chap"
 
     value: Optional[str] = field(
-        default=None,
-    )
-    value_1: Optional[str] = field(
-        default=None,
-    )
-    value_2: Optional[str] = field(
         default=None,
     )
     type: Optional[str] = field(

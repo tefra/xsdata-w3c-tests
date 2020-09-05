@@ -1,5 +1,5 @@
-from enum import Enum
 from dataclasses import dataclass, field
+from enum import Enum
 from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-enumeration-2-NS"

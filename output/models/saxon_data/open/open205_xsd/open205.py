@@ -1,5 +1,5 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
+from decimal import Decimal
 from typing import Optional
 from output.models.saxon_data.open.open205_xsd.open205x import BType
 

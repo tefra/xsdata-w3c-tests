@@ -1,5 +1,5 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
+from decimal import Decimal
 from typing import Optional
 from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import Poitems
 

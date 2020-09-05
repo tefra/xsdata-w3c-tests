@@ -1,5 +1,5 @@
-from enum import Enum
 from dataclasses import dataclass, field
+from enum import Enum
 from typing import List, Optional
 
 __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"

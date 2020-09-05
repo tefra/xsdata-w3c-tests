@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-pattern-5-NS"

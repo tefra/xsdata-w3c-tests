@@ -1,7 +1,7 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
-from lxml.etree import QName
+from decimal import Decimal
 from typing import List, Optional, Union
+from xml.etree.ElementTree import QName
 
 
 @dataclass

@@ -1,5 +1,5 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
+from decimal import Decimal
 from typing import Dict, Optional
 
 __NAMESPACE__ = "AttrGroup/attrWCard"

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import List
+from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-maxLength-5-NS"
 

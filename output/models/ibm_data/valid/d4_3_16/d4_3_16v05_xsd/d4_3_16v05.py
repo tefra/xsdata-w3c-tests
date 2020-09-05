@@ -1,5 +1,5 @@
-from enum import Enum
 from dataclasses import dataclass, field
+from enum import Enum
 from typing import List, Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v05"

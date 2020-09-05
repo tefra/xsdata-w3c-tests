@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import List
+from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "http://schemas.microsoft.com/2003/10/Serialization/"
 
@@ -28,7 +28,7 @@ class Array:
         )
     )
     item_type: QName = field(
-        default=QName("http://www.w3.org/2001/XMLSchema", "anyType"),
+        default=QName("{http://www.w3.org/2001/XMLSchema}anyType"),
         metadata=dict(
             name="ItemType",
             type="Attribute",

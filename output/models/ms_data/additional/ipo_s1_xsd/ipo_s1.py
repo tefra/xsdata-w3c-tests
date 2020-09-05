@@ -1,5 +1,5 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
+from decimal import Decimal
 from typing import List, Optional
 from output.models.ms_data.additional.ipo_s1_xsd.ipo_s1_address import Address
 

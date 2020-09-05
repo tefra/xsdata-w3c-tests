@@ -1,6 +1,6 @@
+from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
-from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Union
 from output.models.common.xsts_xsd.xlink import TypeType
 

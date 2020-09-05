@@ -1,7 +1,7 @@
-from enum import Enum
 from dataclasses import dataclass, field
-from lxml.etree import QName
+from enum import Enum
 from typing import Optional
+from xml.etree.ElementTree import QName
 
 
 @dataclass
@@ -27,9 +27,9 @@ class FooType:
         :cvar FOO_FOO123:
         :cvar FOO_FU1:
         """
-        FOO_FO = QName("myNamespace", "fo")
-        FOO_FOO123 = QName("myNamespace", "foo123")
-        FOO_FU1 = QName("myNamespace", "fu1")
+        FOO_FO = QName("{myNamespace}fo")
+        FOO_FOO123 = QName("{myNamespace}foo123")
+        FOO_FU1 = QName("{myNamespace}fu1")
 
 
 @dataclass

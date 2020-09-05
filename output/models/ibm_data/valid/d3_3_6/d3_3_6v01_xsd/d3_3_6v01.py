@@ -1,5 +1,5 @@
-from decimal import Decimal
 from dataclasses import dataclass, field
+from decimal import Decimal
 from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_3_6_v01"

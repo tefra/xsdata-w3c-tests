@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from lxml.etree import QName
 from typing import Optional, Union
+from xml.etree.ElementTree import QName
 
 
 @dataclass

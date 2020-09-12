@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <NISTSchema-SV-IV-list-anyURI-minLength-4 xmlns="NISTSchema-SV-IV-list-anyURI-minLength-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">telnet://dat.org http://DOM.we.in.com telnet://for.org news://cos.org gopher://te.DO.gov telnet://OA.all.gov telnet://XMLT.ai.a.net http://re.Su.org</NISTSchema-SV-IV-list-anyURI-minLength-4>

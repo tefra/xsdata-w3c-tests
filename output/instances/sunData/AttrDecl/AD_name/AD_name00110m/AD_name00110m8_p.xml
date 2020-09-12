@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns="AttrDecl/name" xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" str00A&#3633;="a" str01A&#3636;="a" str11-&#3639;="b" str21&#3642;="c" str02A&#3655;="a" str12-&#3658;="b" str22&#3662;="c" str03A&#3761;="a" str04A&#3764;="a" str14-&#3766;="b" str24&#3769;="c" str05A&#3771;="a" str15-&#3771;="b" str25&#3772;="c" str06A&#3784;="a" str16-&#3786;="b" str26&#3789;="c" str07A&#3864;="a" str17-&#3864;="b" str27&#3865;="c" str08A&#3893;="a" str09A&#3895;="a"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<td:root xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" str00Aั="a" str01Aิ="a" str11-ื="b" str21ฺ="c" str02A็="a" str12-๊="b" str22๎="c" str03Aັ="a" str04Aິ="a" str14-ຶ="b" str24ູ="c" str05Aົ="a" str15-ົ="b" str25ຼ="c" str06A່="a" str16-໊="b" str26ໍ="c" str07A༘="a" str17-༘="b" str27༙="c" str08A༵="a" str09A༷="a"/>

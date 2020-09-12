@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<doc xmlns="http://open.com/">
-  (<extra/>)
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns:ns0="http://open.com/">
+  (<ns0:extra/>)
 </doc>

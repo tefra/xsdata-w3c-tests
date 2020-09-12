@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <messages xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <message kind="xs:int" value="12"/>
   <message kind="xs:date" value="2007-12-31"/>

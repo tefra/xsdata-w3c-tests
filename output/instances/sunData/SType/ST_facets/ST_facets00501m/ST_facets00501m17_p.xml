@@ -1,19 +1,19 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>a00&#4447;</value>
-  <value>a0-&#4448;</value>
-  <value>a0A&#4449;</value>
-  <value>a10&#4451;</value>
-  <value>a20&#4453;</value>
-  <value>a30&#4455;</value>
-  <value>a40&#4457;</value>
-  <value>a50&#4461;</value>
-  <value>a5-&#4461;</value>
-  <value>a5A&#4462;</value>
-  <value>a60&#4466;</value>
-  <value>a6-&#4466;</value>
-  <value>a6A&#4467;</value>
-  <value>a70&#4469;</value>
-  <value>a80&#4510;</value>
-  <value>a90&#4520;</value>
+  <value>a00ᅟ</value>
+  <value>a0-ᅠ</value>
+  <value>a0Aᅡ</value>
+  <value>a10ᅣ</value>
+  <value>a20ᅥ</value>
+  <value>a30ᅧ</value>
+  <value>a40ᅩ</value>
+  <value>a50ᅭ</value>
+  <value>a5-ᅭ</value>
+  <value>a5Aᅮ</value>
+  <value>a60ᅲ</value>
+  <value>a6-ᅲ</value>
+  <value>a6Aᅳ</value>
+  <value>a70ᅵ</value>
+  <value>a80ᆞ</value>
+  <value>a90ᆨ</value>
 </test:root>

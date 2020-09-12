@@ -1,21 +1,21 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#4523;00</value>
-  <value>&#4526;01</value>
-  <value>&#4526;-1</value>
-  <value>&#4527;a1</value>
-  <value>&#4535;02</value>
-  <value>&#4535;-2</value>
-  <value>&#4536;a2</value>
-  <value>&#4538;03</value>
-  <value>&#4540;04</value>
-  <value>&#4543;-4</value>
-  <value>&#4546;a4</value>
-  <value>&#4587;05</value>
-  <value>&#4592;06</value>
-  <value>&#4601;07</value>
-  <value>&#7680;08</value>
-  <value>&#7754;-8</value>
-  <value>&#7829;a8</value>
-  <value>&#7835;09</value>
+  <value>ᆫ00</value>
+  <value>ᆮ01</value>
+  <value>ᆮ-1</value>
+  <value>ᆯa1</value>
+  <value>ᆷ02</value>
+  <value>ᆷ-2</value>
+  <value>ᆸa2</value>
+  <value>ᆺ03</value>
+  <value>ᆼ04</value>
+  <value>ᆿ-4</value>
+  <value>ᇂa4</value>
+  <value>ᇫ05</value>
+  <value>ᇰ06</value>
+  <value>ᇹ07</value>
+  <value>Ḁ08</value>
+  <value>Ṋ-8</value>
+  <value>ẕa8</value>
+  <value>ẛ09</value>
 </test:root>

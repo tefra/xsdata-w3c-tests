@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:x="http://xsdtesting" xsi:schemaLocation="http://xsdtesting attgD020.xsd" xsi:noNamespaceSchemaLocation="attgD020a.xsd" foo="bar">
+<?xml version='1.0' encoding='UTF-8'?>
+<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xsi:schemaLocation="http://xsdtesting attgD020.xsd" xsi:noNamespaceSchemaLocation="attgD020a.xsd" foo="bar">
 		
 		testing
 		
-</doc>
+</x:doc>

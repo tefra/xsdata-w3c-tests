@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns="AttrDecl/name" xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" &#19968;00="0" &#30418;01="1" &#40869;02="2" &#12295;10="0" &#12321;20="0" &#12325;21="1" &#12329;22="2"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<td:root xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 一00="0" 盒01="1" 龥02="2" 〇10="0" 〡20="0" 〥21="1" 〩22="2"/>

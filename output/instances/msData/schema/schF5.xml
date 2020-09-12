@@ -1,11 +1,11 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a" xmlns:b="ns-b">
-  <e1>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="ns-a" xmlns:b="ns-b">
+  <a:e1>
     <a1>123</a1>
     <a2>true</a2>
-  </e1>
+  </a:e1>
   <b:e1>
     <a1>true</a1>
     <a2>123</a2>
   </b:e1>
-</root>
+</a:root>

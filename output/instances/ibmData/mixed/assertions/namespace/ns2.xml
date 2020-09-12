@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <example:x xmlns:example="http://www.example.org">
   <y>2</y>
   <y>4</y>

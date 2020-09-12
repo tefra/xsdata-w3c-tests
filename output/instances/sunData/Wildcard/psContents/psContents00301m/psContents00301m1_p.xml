@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="psContents" xmlns:test="psContents">
-  <date>2002-04-29</date>
-</a>
+<?xml version='1.0' encoding='UTF-8'?>
+<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="psContents">
+  <test:date>2002-04-29</test:date>
+</test:a>

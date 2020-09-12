@@ -1,17 +1,17 @@
-<!-- xsdata instance -->
-<root xmlns:b="bar" xmlns="foo" xmlns:f="foo" xmlns:u="undeclared" xmlns:z="zot">
-  <skipAny f:a="bra" f:b="bra" u:something="also allowed"/>
-  <skipAny/>
-  <laxAny f:a="5" f:undeclared="OK" b:b="2" u:something="also allowed"/>
-  <laxAny/>
-  <strictAny f:b="5" b:c="2" z:a="52"/>
-  <strictAny/>
-  <skipOther b:a="brabra" b:undeclared="OK" u:something="OK" u:local="OK"/>
-  <skipOther/>
-  <laxLocal att="whatever"/>
-  <laxLocal/>
-  <strictTarget f:a="1" f:b="2" f:c="3"/>
-  <strictTarget/>
-  <skipBar b:b="invali" b:undeclared="ok"/>
-  <skipBar/>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<f:root xmlns:b="bar" xmlns:f="foo" xmlns:u="undeclared" xmlns:z="zot">
+  <f:skipAny f:a="bra" f:b="bra" u:something="also allowed"/>
+  <f:skipAny/>
+  <f:laxAny f:a="5" f:undeclared="OK" b:b="2" u:something="also allowed"/>
+  <f:laxAny/>
+  <f:strictAny f:b="5" b:c="2" z:a="52"/>
+  <f:strictAny/>
+  <f:skipOther b:a="brabra" b:undeclared="OK" u:something="OK" u:local="OK"/>
+  <f:skipOther/>
+  <f:laxLocal att="whatever"/>
+  <f:laxLocal/>
+  <f:strictTarget f:a="1" f:b="2" f:c="3"/>
+  <f:strictTarget/>
+  <f:skipBar b:b="invali" b:undeclared="ok"/>
+  <f:skipBar/>
+</f:root>

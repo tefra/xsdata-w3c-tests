@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns="ElemDecl/typeDef" xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<test:root xmlns:test="ElemDecl/typeDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

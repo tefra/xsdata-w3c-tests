@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<root xmlns="http://www.tempuri.org" xmlns:a="http://www.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <testElement>0</testElement>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:root xmlns:a="http://www.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a:testElement>0</a:testElement>
+</a:root>

@@ -12567,6 +12567,7 @@ def test_xv002_xv002_v01_xml(save_xml):
 
 
 @pytest.mark.schema11
+@pytest.mark.xfail
 def test_xv001_xv001_v01_xml(save_xml):
     """
     Use newly-allowed name characters in element and attribute name Dutch

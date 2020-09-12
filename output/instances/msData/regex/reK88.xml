@@ -1,7 +1,7 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <doc>
   <elem att="a"/>
   <elem att="&amp;"/>
-  <elem att="&#769;"/>
-  <elem att="&#65536;"/>
+  <elem att="́"/>
+  <elem att="𐀀"/>
 </doc>

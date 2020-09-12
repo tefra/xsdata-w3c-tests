@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <value>a00A</value>
   <value>a0-M</value>
@@ -9,25 +9,25 @@
   <value>a20j</value>
   <value>a2-r</value>
   <value>a2Az</value>
-  <value>a30&#192;</value>
-  <value>a3-&#203;</value>
-  <value>a3A&#214;</value>
-  <value>a40&#216;</value>
-  <value>a4-&#219;</value>
-  <value>a4A&#222;</value>
-  <value>a50&#224;</value>
-  <value>a5-&#235;</value>
-  <value>a5A&#246;</value>
-  <value>a60&#248;</value>
-  <value>a6-&#251;</value>
-  <value>a6A&#255;</value>
-  <value>a70&#256;</value>
-  <value>a7-&#280;</value>
-  <value>a7A&#305;</value>
-  <value>a80&#308;</value>
-  <value>a8-&#313;</value>
-  <value>a8A&#318;</value>
-  <value>a90&#321;</value>
-  <value>a9-&#324;</value>
-  <value>a9A&#328;</value>
+  <value>a30À</value>
+  <value>a3-Ë</value>
+  <value>a3AÖ</value>
+  <value>a40Ø</value>
+  <value>a4-Û</value>
+  <value>a4AÞ</value>
+  <value>a50à</value>
+  <value>a5-ë</value>
+  <value>a5Aö</value>
+  <value>a60ø</value>
+  <value>a6-û</value>
+  <value>a6Aÿ</value>
+  <value>a70Ā</value>
+  <value>a7-Ę</value>
+  <value>a7Aı</value>
+  <value>a80Ĵ</value>
+  <value>a8-Ĺ</value>
+  <value>a8Aľ</value>
+  <value>a90Ł</value>
+  <value>a9-ń</value>
+  <value>a9Aň</value>
 </test:root>

@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:a xmlns:test="attrWildcard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="attrWildcard attrWildcard00101m1.xsd" a1="1" a2="2">
   <b>123</b>
 </test:a>

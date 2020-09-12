@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <ns:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
   <child type1="true">true</child>
   <child type2="true">1234</child>

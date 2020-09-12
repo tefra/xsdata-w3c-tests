@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a">
-  <e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
-  <b-e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
-  <e2>12</e2>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="ns-a">
+  <a:e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
+  <a:b-e1 att1="123" att3="123" att5="123" att6="true" att7="123" att9="123" att11="1" att12="true" att13="fix" att14="true" att15="fix" att16="fix"/>
+  <a:e2>12</a:e2>
+</a:root>

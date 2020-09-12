@@ -1,12 +1,12 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="myNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
-  <t>
+<?xml version='1.0' encoding='UTF-8'?>
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+  <myNS:t>
     <row> 1 </row>
-  </t>
-  <t>
+  </myNS:t>
+  <myNS:t>
     <row> 2 </row>
-  </t>
-  <t>
+  </myNS:t>
+  <myNS:t>
     <row> 11 </row>
-  </t>
-</root>
+  </myNS:t>
+</myNS:root>

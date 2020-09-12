@@ -1,15 +1,15 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="myNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
-  <t>
-    <row> 1 </row>
-  </t>
-  <t>
-    <row> 2 </row>
-  </t>
-  <t>
-    <row> 11 </row>
-  </t>
-  <kid> 1 </kid>
-  <kid> 2 </kid>
-  <kid> 11 </kid>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+  <myNS:t>
+    <myNS:row> 1 </myNS:row>
+  </myNS:t>
+  <myNS:t>
+    <myNS:row> 2 </myNS:row>
+  </myNS:t>
+  <myNS:t>
+    <myNS:row> 11 </myNS:row>
+  </myNS:t>
+  <myNS:kid> 1 </myNS:kid>
+  <myNS:kid> 2 </myNS:kid>
+  <myNS:kid> 11 </myNS:kid>
+</myNS:root>

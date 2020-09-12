@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns="a" xmlns:b="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Number id_1="2" id_2="a">3</Number>
   <Number id_1="2" id_2="c">2</Number>

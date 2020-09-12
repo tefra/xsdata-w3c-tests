@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xstest-tns/schema11_D3_4_26_v02" xmlns:dv="http://xstest-tns/schema11_D3_4_26_v02" ayMDType="-P3Y348M" ayMDEnumeration="-P34Y233M" ayMDMinMaxInclusive="-P24M" ayMDMinMaxExclusive="P23Y23M"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_26_v02" ayMDType="-P3Y348M" ayMDEnumeration="-P34Y233M" ayMDMinMaxInclusive="-P24M" ayMDMinMaxExclusive="P23Y23M"/>

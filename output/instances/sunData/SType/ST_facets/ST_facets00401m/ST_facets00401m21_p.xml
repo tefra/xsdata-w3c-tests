@@ -1,24 +1,24 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#8168;00</value>
-  <value>&#8170;-0</value>
-  <value>&#8172;a0</value>
-  <value>&#8184;01</value>
-  <value>&#8185;-1</value>
-  <value>&#8187;a1</value>
-  <value>&#8576;02</value>
-  <value>&#8577;-2</value>
-  <value>&#8578;a2</value>
-  <value>&#12353;03</value>
-  <value>&#12394;-3</value>
-  <value>&#12436;a3</value>
-  <value>&#12449;04</value>
-  <value>&#12493;-4</value>
-  <value>&#12538;a4</value>
-  <value>&#12549;05</value>
-  <value>&#12568;-5</value>
-  <value>&#12588;a5</value>
-  <value>&#44032;06</value>
-  <value>&#49617;-6</value>
-  <value>&#55203;a6</value>
+  <value>Ῠ00</value>
+  <value>Ὺ-0</value>
+  <value>Ῥa0</value>
+  <value>Ὸ01</value>
+  <value>Ό-1</value>
+  <value>Ώa1</value>
+  <value>ↀ02</value>
+  <value>ↁ-2</value>
+  <value>ↂa2</value>
+  <value>ぁ03</value>
+  <value>な-3</value>
+  <value>ゔa3</value>
+  <value>ァ04</value>
+  <value>ネ-4</value>
+  <value>ヺa4</value>
+  <value>ㄅ05</value>
+  <value>ㄘ-5</value>
+  <value>ㄬa5</value>
+  <value>가06</value>
+  <value>쇑-6</value>
+  <value>힣a6</value>
 </test:root>

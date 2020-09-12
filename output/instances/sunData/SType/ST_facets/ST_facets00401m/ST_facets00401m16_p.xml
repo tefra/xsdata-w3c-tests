@@ -1,19 +1,19 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#4363;00</value>
-  <value>&#4363;-0</value>
-  <value>&#4364;a0</value>
-  <value>&#4366;01</value>
-  <value>&#4368;-1</value>
-  <value>&#4370;a1</value>
-  <value>&#4412;02</value>
-  <value>&#4414;03</value>
-  <value>&#4416;04</value>
-  <value>&#4428;05</value>
-  <value>&#4430;06</value>
-  <value>&#4432;07</value>
-  <value>&#4436;08</value>
-  <value>&#4436;-8</value>
-  <value>&#4437;a8</value>
-  <value>&#4441;09</value>
+  <value>ᄋ00</value>
+  <value>ᄋ-0</value>
+  <value>ᄌa0</value>
+  <value>ᄎ01</value>
+  <value>ᄐ-1</value>
+  <value>ᄒa1</value>
+  <value>ᄼ02</value>
+  <value>ᄾ03</value>
+  <value>ᅀ04</value>
+  <value>ᅌ05</value>
+  <value>ᅎ06</value>
+  <value>ᅐ07</value>
+  <value>ᅔ08</value>
+  <value>ᅔ-8</value>
+  <value>ᅕa8</value>
+  <value>ᅙ09</value>
 </test:root>

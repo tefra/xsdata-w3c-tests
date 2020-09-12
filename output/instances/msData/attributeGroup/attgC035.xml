@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <doc xmlns:imp="http://importedXSD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" att1="123" imp:att4="234"/>

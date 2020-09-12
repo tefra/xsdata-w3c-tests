@@ -1,10 +1,10 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns="ElemDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <a--a>0</a--a>
   <b..b>1</b..b>
   <c__c>2</c__c>
-  <d&#183;&#183;d>3</d&#183;&#183;d>
-  <e&#903;&#903;e>4</e&#903;&#903;e>
-  <f&#1757;&#1757;f>5</f&#1757;&#1757;f>
-  <g&#1758;&#1758;g>6</g&#1758;&#1758;g>
+  <d··d>3</d··d>
+  <e··e>4</e··e>
+  <f۝۝f>5</f۝۝f>
+  <g۞۞g>6</g۞۞g>
 </root>

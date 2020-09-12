@@ -1,7 +1,7 @@
-<!-- xsdata instance -->
-<ns0:x xmlns="http://test2" xmlns:ns0="http://test1">
-  <y>
-    <a>1</a>
-    <a>2</a>
-  </y>
-</ns0:x>
+<?xml version='1.0' encoding='UTF-8'?>
+<x xmlns="http://test1" xmlns:ns1="http://test2">
+  <ns1:y>
+    <ns1:a>1</ns1:a>
+    <ns1:a>2</ns1:a>
+  </ns1:y>
+</x>

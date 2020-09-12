@@ -1,23 +1,23 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#7840;00</value>
-  <value>&#7884;-0</value>
-  <value>&#7929;a0</value>
-  <value>&#7936;01</value>
-  <value>&#7946;-1</value>
-  <value>&#7957;a1</value>
-  <value>&#7960;02</value>
-  <value>&#7962;-2</value>
-  <value>&#7965;a2</value>
-  <value>&#7968;03</value>
-  <value>&#7986;-3</value>
-  <value>&#8005;a3</value>
-  <value>&#8008;04</value>
-  <value>&#8010;-4</value>
-  <value>&#8013;a4</value>
-  <value>&#8017;05</value>
-  <value>&#8019;06</value>
-  <value>&#8021;07</value>
-  <value>&#8023;08</value>
-  <value>&#8025;09</value>
+  <value>Ạ00</value>
+  <value>Ọ-0</value>
+  <value>ỹa0</value>
+  <value>ἀ01</value>
+  <value>Ἂ-1</value>
+  <value>ἕa1</value>
+  <value>Ἐ02</value>
+  <value>Ἒ-2</value>
+  <value>Ἕa2</value>
+  <value>ἠ03</value>
+  <value>ἲ-3</value>
+  <value>ὅa3</value>
+  <value>Ὀ04</value>
+  <value>Ὂ-4</value>
+  <value>Ὅa4</value>
+  <value>ὑ05</value>
+  <value>ὓ06</value>
+  <value>ὕ07</value>
+  <value>ὗ08</value>
+  <value>Ὑ09</value>
 </test:root>

@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:a xmlns:test="compositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <date>2002-04-29</date>
   <time>12:30:00</time>

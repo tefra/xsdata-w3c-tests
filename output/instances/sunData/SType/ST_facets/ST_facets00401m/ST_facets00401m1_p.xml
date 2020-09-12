@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <value>A00</value>
   <value>M-0</value>
@@ -9,25 +9,25 @@
   <value>j02</value>
   <value>r-2</value>
   <value>za2</value>
-  <value>&#192;03</value>
-  <value>&#203;-3</value>
-  <value>&#214;a3</value>
-  <value>&#216;04</value>
-  <value>&#219;-4</value>
-  <value>&#222;a4</value>
-  <value>&#224;05</value>
-  <value>&#235;-5</value>
-  <value>&#246;a5</value>
-  <value>&#248;06</value>
-  <value>&#251;-6</value>
-  <value>&#255;a6</value>
-  <value>&#256;07</value>
-  <value>&#280;-7</value>
-  <value>&#305;a7</value>
-  <value>&#308;08</value>
-  <value>&#313;-8</value>
-  <value>&#318;a8</value>
-  <value>&#321;09</value>
-  <value>&#324;-9</value>
-  <value>&#328;a9</value>
+  <value>À03</value>
+  <value>Ë-3</value>
+  <value>Öa3</value>
+  <value>Ø04</value>
+  <value>Û-4</value>
+  <value>Þa4</value>
+  <value>à05</value>
+  <value>ë-5</value>
+  <value>öa5</value>
+  <value>ø06</value>
+  <value>û-6</value>
+  <value>ÿa6</value>
+  <value>Ā07</value>
+  <value>Ę-7</value>
+  <value>ıa7</value>
+  <value>Ĵ08</value>
+  <value>Ĺ-8</value>
+  <value>ľa8</value>
+  <value>Ł09</value>
+  <value>ń-9</value>
+  <value>ňa9</value>
 </test:root>

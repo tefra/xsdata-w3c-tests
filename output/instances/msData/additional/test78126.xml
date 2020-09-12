@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <any>
     <foo bar="bla" a1="b" a2="b" a3="b" a4="b" a5="b" a6="b" a7="b" a8="b"/>

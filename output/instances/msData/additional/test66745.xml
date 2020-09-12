@@ -1,8 +1,8 @@
-<!-- xsdata instance -->
-<foo xmlns="foo" xmlns:foo="foo" xmlns:foo1="foo1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <bar>
+<?xml version='1.0' encoding='UTF-8'?>
+<foo:foo xmlns:foo="foo" xmlns:foo1="foo1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <foo:bar>
     <foo1:foo1 x="1">
-      <bar/>
+      <foo:bar/>
     </foo1:foo1>
-  </bar>
-</foo>
+  </foo:bar>
+</foo:foo>

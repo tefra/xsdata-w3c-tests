@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_27_v05">
   <elMaxExclusive_MinInclusive>P27DT23H</elMaxExclusive_MinInclusive>
   <elMaxExclusive_MinInclusive>-P39DT3M</elMaxExclusive_MinInclusive>

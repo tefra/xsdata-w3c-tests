@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<doc xmlns="http://example.com/over019" xmlns:o19="http://example.com/over019">2001-01-01</doc>
+<?xml version='1.0' encoding='UTF-8'?>
+<o19:doc xmlns:o19="http://example.com/over019">2001-01-01</o19:doc>

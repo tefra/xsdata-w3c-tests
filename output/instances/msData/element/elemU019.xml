@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <r>	x</r>
   <r> x</r>
@@ -6,5 +6,5 @@
   <r>-x</r>
   <r>$x</r>
   <r>#x</r>
-  <r>&#139;x</r>
+  <r>x</r>
 </root>

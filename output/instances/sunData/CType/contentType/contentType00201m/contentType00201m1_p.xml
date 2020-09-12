@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<a xmlns="contentType" xmlns:test="contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2002-04-12</a>
+<?xml version='1.0' encoding='UTF-8'?>
+<test:a xmlns:test="contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2002-04-12</test:a>

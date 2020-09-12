@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<bar xmlns:ns="ns" xmlns="q" xmlns:q="q">
+<?xml version='1.0' encoding='UTF-8'?>
+<q:bar xmlns:ns="ns" xmlns:q="q">
   <ns:baz/>
-</bar>
+</q:bar>

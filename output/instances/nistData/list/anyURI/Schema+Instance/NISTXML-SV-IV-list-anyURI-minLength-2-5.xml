@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <NISTSchema-SV-IV-list-anyURI-minLength-2 xmlns="NISTSchema-SV-IV-list-anyURI-minLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">gopher://p.com telnet://ame.o.t.i.org http://c.th.N.a.gov ftp://ne.la.th.fo.org http://two.res.the.gov telnet://tr.th.r.ca.edu news://fin.net gopher://so.de.gov ftp://P.the.th.org</NISTSchema-SV-IV-list-anyURI-minLength-2>

@@ -1,7 +1,7 @@
-<!-- xsdata instance -->
-<root xmlns="foo" xmlns:a="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <A>
-    <part number="1" number2="2"/>
-    <part number="2" number2="1"/>
-  </A>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:root xmlns:a="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a:A>
+    <a:part number="1" number2="2"/>
+    <a:part number="2" number2="1"/>
+  </a:A>
+</a:root>

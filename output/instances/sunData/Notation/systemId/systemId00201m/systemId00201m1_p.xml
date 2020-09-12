@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="systemId" xmlns:test="systemId">abc</a>
+<?xml version='1.0' encoding='UTF-8'?>
+<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="systemId">abc</test:a>

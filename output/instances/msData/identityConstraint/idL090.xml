@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="myNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
-  <t>1</t>
-  <t>11</t>
-  <u>1</u>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+  <myNS:t>1</myNS:t>
+  <myNS:t>11</myNS:t>
+  <myNS:u>1</myNS:u>
+</myNS:root>

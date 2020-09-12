@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" list_of_ids_attr="x123 abc ___" idref_attr="___"/>

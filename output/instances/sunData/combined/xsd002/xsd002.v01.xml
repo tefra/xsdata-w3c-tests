@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <f:root xmlns:f="http://foo.com">
   <foo><this/><contents/>
 		should not be

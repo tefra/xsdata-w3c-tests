@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<doc xmlns:imp="http://importedXSD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:x="http://xsdtesting">
-  <elem x:att="37" x:redAtt="37" x:incAtt="37" imp:impAtt="37"/>
-</doc>
+<?xml version='1.0' encoding='UTF-8'?>
+<x:doc xmlns:imp="http://importedXSD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting">
+  <x:elem x:att="37" x:redAtt="37" x:incAtt="37" imp:impAtt="37"/>
+</x:doc>

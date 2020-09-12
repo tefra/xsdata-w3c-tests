@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_F4_3_16_v01">
   <elDTimeType>1999-11-23T12:00:00.123Z</elDTimeType>
   <elDTimeETProhibited>2000-11-23T12:00:00</elDTimeETProhibited>

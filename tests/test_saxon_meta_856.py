@@ -980,7 +980,6 @@ def test_assert_simple001_assert_simple001_n1_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_assert024_assert024_v1_xml(save_xml):
     """
     Namespace-aware assertions The subtree being validated must include

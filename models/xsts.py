@@ -2,7 +2,6 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import Dict, List, Optional, Union
-
 from models.xlink import TypeType
 
 __NAMESPACE__ = "http://www.w3.org/XML/2004/xml-schema-test-suite/"

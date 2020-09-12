@@ -1,9 +1,9 @@
-<!-- xsdata instance -->
-<x:doc xmlns="just_testing_should_pass" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting">
+<?xml version='1.0' encoding='UTF-8'?>
+<x:doc xmlns:ns2="bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns:ns3="just_testing_should_pass">
   <x:elem>
-    <ns0:foo xmlns:ns0="bar">
-      <bar/>
-    </ns0:foo>
-    <ns1:foo xmlns:ns1="bar"/>
+    <ns2:foo>
+      <ns3:bar/>
+    </ns2:foo>
+    <ns2:foo/>
   </x:elem>
 </x:doc>

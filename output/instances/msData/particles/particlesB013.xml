@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<doc xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns:ns1="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <elem>
-    <b/>
+    <ns1:b/>
   </elem>
 </doc>

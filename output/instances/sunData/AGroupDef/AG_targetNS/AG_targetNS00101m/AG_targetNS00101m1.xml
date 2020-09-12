@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<root xmlns="AttrGroup/targetNS" xmlns:td="AttrGroup/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <elementWithAttr number="157"/>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<td:root xmlns:td="AttrGroup/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <td:elementWithAttr number="157"/>
+</td:root>

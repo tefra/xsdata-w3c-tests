@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <NISTSchema-SV-IV-list-anyURI-minLength-4 xmlns="NISTSchema-SV-IV-list-anyURI-minLength-4-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">gopher://in.gra.edu telnet://r.org news://co.isp.org gopher://ha.a.org gopher://an.m.edu news://e.d.com http://ma.th.of.org gopher://O.an.to.gov gopher://pe.net</NISTSchema-SV-IV-list-anyURI-minLength-4>

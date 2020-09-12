@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:a="http://xsdtesting">
-  <elem>
-    <a/>
-  </elem>
-</doc>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="http://xsdtesting">
+  <a:elem>
+    <a:a/>
+  </a:elem>
+</a:doc>

@@ -53,15 +53,13 @@ def assert_bindings(
         pytest.skip("Schema validator failed on parsing definition")
 
     try:
-        tree = XmlSerializer().render_tree(obj, parser.namespaces)
+        xsdata_xml = XmlSerializer(pretty_print=True).render(obj, namespaces)
         namespaces.unregister()
         if save_xml:
             xsdata_instance = output.joinpath(instance)
             xsdata_instance.parent.mkdir(parents=True, exist_ok=True)
-            xsdata_instance.write_bytes(
-                b"<!-- xsdata instance -->\n" + etree.tostring(tree, pretty_print=True)
-            )
-        return assert_valid(schema_validator, tree)
+            xsdata_instance.write_text(xsdata_xml)
+        return assert_valid(schema_validator, xsdata_xml)
     except Exception as e:
         try:
             original_tree = etree.parse(str(w3c.joinpath(instance)))

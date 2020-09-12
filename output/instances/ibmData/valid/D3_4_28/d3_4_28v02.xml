@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xstest-tns/schema11_D3_4_28_v02" xmlns:dv="http://xstest-tns/schema11_D3_4_28_v02" attrdTimeStampType="2000-01-01T12:00:00.123Z" attrdTimeStampEnumeration="2002-01-01T12:00:00.990-08:00" attrdTimeStampPattern="2003-01-01T01:00:00-08:00" attrdTimeStampMinMaxInclusive="2003-01-01T12:00:00.990-08:00" attrdTimeStampMinMaxExclusive="1999-01-01T11:59:59Z"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_4_28_v02" attrdTimeStampType="2000-01-01T12:00:00.123Z" attrdTimeStampEnumeration="2002-01-01T12:00:00.990-08:00" attrdTimeStampPattern="2003-01-01T01:00:00-08:00" attrdTimeStampMinMaxInclusive="2003-01-01T12:00:00.990-08:00" attrdTimeStampMinMaxExclusive="1999-01-01T11:59:59Z"/>

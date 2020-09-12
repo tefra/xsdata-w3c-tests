@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <elem foo="any type here goes b c d e 1 2 3"/>
 </doc>

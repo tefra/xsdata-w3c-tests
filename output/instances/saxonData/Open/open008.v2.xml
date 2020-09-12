@@ -1,8 +1,8 @@
-<!-- xsdata instance -->
-<doc xmlns="http://open.com/">
-  <extra>42</extra>
-  <extra>42</extra>
-  <extra>42</extra>
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns:ns0="http://open.com/">
+  <ns0:extra>42</ns0:extra>
+  <ns0:extra>42</ns0:extra>
+  <ns0:extra>42</ns0:extra>
   <a/>
   <b/>
   <c/>

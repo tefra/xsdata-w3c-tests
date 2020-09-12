@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <NISTSchema-SV-IV-list-anyURI-maxLength-2 xmlns="NISTSchema-SV-IV-list-anyURI-maxLength-2-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">gopher://matc.com ftp://Pr.edu gopher://aut.gov gopher://te.gov ftp://as.com</NISTSchema-SV-IV-list-anyURI-maxLength-2>

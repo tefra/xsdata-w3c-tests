@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<foo xmlns="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <att:bar xmlns:att="http://foo">foo bar</att:bar>
+<?xml version='1.0' encoding='UTF-8'?>
+<foo xmlns:ns2="http://foo" xmlns="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns2:bar>foo bar</ns2:bar>
 </foo>

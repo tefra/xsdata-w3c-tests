@@ -1,5 +1,5 @@
-<!-- xsdata instance -->
-<foo xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting" xmlns:a="http://xsdtesting">
+<?xml version='1.0' encoding='UTF-8'?>
+<a:foo xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="http://xsdtesting">
   <bar>test</bar>
   <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
@@ -10,4 +10,4 @@
   <xhtml:foo>test</xhtml:foo>
   <bar>test</bar>
   <xhtml:foo>test</xhtml:foo>
-</foo>
+</a:foo>

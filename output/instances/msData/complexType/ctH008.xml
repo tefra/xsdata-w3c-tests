@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ctH008.xsd" myAttr="test attribute" myAttr1="another attribute" myAttr2="last attribute">
   <myElement1>test data</myElement1>
   <myElement2>test data</myElement2>

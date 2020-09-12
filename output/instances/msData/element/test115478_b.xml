@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<root xmlns:b="bar" xmlns="foo" xmlns:f="foo">
+<?xml version='1.0' encoding='UTF-8'?>
+<f:root xmlns:b="bar" xmlns:f="foo">
   <e>123</e>
-</root>
+</f:root>

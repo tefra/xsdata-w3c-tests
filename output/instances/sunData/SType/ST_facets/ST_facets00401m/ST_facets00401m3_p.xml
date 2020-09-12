@@ -1,29 +1,29 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#630;00</value>
-  <value>&#634;-0</value>
-  <value>&#639;a0</value>
-  <value>&#641;01</value>
-  <value>&#660;-1</value>
-  <value>&#680;a1</value>
-  <value>&#699;02</value>
-  <value>&#702;-2</value>
-  <value>&#705;a2</value>
-  <value>&#902;03</value>
-  <value>&#904;04</value>
-  <value>&#905;-4</value>
-  <value>&#906;a4</value>
-  <value>&#908;05</value>
-  <value>&#910;06</value>
-  <value>&#910;-6</value>
-  <value>&#911;a6</value>
-  <value>&#913;07</value>
-  <value>&#921;-7</value>
-  <value>&#929;a7</value>
-  <value>&#931;08</value>
-  <value>&#937;-8</value>
-  <value>&#943;a8</value>
-  <value>&#945;09</value>
-  <value>&#959;-9</value>
-  <value>&#974;a9</value>
+  <value>ɶ00</value>
+  <value>ɺ-0</value>
+  <value>ɿa0</value>
+  <value>ʁ01</value>
+  <value>ʔ-1</value>
+  <value>ʨa1</value>
+  <value>ʻ02</value>
+  <value>ʾ-2</value>
+  <value>ˁa2</value>
+  <value>Ά03</value>
+  <value>Έ04</value>
+  <value>Ή-4</value>
+  <value>Ίa4</value>
+  <value>Ό05</value>
+  <value>Ύ06</value>
+  <value>Ύ-6</value>
+  <value>Ώa6</value>
+  <value>Α07</value>
+  <value>Ι-7</value>
+  <value>Ρa7</value>
+  <value>Σ08</value>
+  <value>Ω-8</value>
+  <value>ίa8</value>
+  <value>α09</value>
+  <value>ο-9</value>
+  <value>ώa9</value>
 </test:root>

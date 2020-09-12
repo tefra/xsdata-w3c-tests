@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<root xmlns="AttrDecl/targetNS" xmlns:td="AttrDecl/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <elementWithAttr td:price="12.33"/>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<td:root xmlns:td="AttrDecl/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <td:elementWithAttr td:price="12.33"/>
+</td:root>

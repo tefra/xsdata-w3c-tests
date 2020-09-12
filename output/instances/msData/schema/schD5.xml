@@ -1,51 +1,51 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a">
-  <e1>
-    <a1>123</a1>
-    <a2>true</a2>
-  </e1>
-  <e2>
-    <b1>true</b1>
-    <b2>123</b2>
-  </e2>
-  <e3>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="ns-a">
+  <a:e1>
+    <a:a1>123</a:a1>
+    <a:a2>true</a:a2>
+  </a:e1>
+  <a:e2>
+    <a:b1>true</a:b1>
+    <a:b2>123</a:b2>
+  </a:e2>
+  <a:e3>
     <c1>123</c1>
     <c2>123</c2>
-  </e3>
-  <e1>
-    <a1>123</a1>
-    <a2>true</a2>
-  </e1>
-  <a-e2>
-    <b1>true</b1>
-    <b2>123</b2>
-  </a-e2>
-  <a-e3>
+  </a:e3>
+  <a:e1>
+    <a:a1>123</a:a1>
+    <a:a2>true</a:a2>
+  </a:e1>
+  <a:a-e2>
+    <a:b1>true</a:b1>
+    <a:b2>123</a:b2>
+  </a:a-e2>
+  <a:a-e3>
     <c1>123</c1>
     <c2>123</c2>
-  </a-e3>
-  <b-e1>
-    <a1>123</a1>
-    <a2>true</a2>
-  </b-e1>
-  <a-e2>
-    <b1>true</b1>
-    <b2>123</b2>
-  </a-e2>
-  <b-e3>
+  </a:a-e3>
+  <a:b-e1>
+    <a:a1>123</a:a1>
+    <a:a2>true</a:a2>
+  </a:b-e1>
+  <a:a-e2>
+    <a:b1>true</a:b1>
+    <a:b2>123</a:b2>
+  </a:a-e2>
+  <a:b-e3>
     <c1>123</c1>
     <c2>123</c2>
-  </b-e3>
-  <c-e1>
-    <a1>123</a1>
-    <a2>true</a2>
-  </c-e1>
-  <c-e2>
-    <b1>true</b1>
-    <b2>123</b2>
-  </c-e2>
-  <e3>
+  </a:b-e3>
+  <a:c-e1>
+    <a:a1>123</a:a1>
+    <a:a2>true</a:a2>
+  </a:c-e1>
+  <a:c-e2>
+    <a:b1>true</a:b1>
+    <a:b2>123</a:b2>
+  </a:c-e2>
+  <a:e3>
     <c1>123</c1>
     <c2>123</c2>
-  </e3>
-</root>
+  </a:e3>
+</a:root>

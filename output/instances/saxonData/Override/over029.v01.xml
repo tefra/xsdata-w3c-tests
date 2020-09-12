@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <order xmlns="http://datypic.com/ord" xmlns:spc="http://datypic.com/spc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <product spc:points="100">
     <number>557</number>

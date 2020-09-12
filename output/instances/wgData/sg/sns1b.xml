@@ -1,8 +1,8 @@
-<!-- xsdata instance -->
-<test xmlns="http://www.w3.org/XML/2008/xsdl-exx/ns1" xmlns:sg="http://www.w3.org/XML/2008/xsdl-exx/ns1">
-  <s1/>
-  <s>Test case for interaction of substitution groups and 
-   #definedSibling.</s>
-  <n/>
-  <b/>
-</test>
+<?xml version='1.0' encoding='UTF-8'?>
+<sg:test xmlns:sg="http://www.w3.org/XML/2008/xsdl-exx/ns1">
+  <sg:s1/>
+  <sg:s>Test case for interaction of substitution groups and 
+   #definedSibling.</sg:s>
+  <sg:n/>
+  <sg:b/>
+</sg:test>

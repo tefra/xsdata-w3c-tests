@@ -1,6 +1,6 @@
-<!-- xsdata instance -->
-<root_elem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn-klondike-test" xmlns:x="urn-klondike-test">
-  <myelem xsi:type="ctype_foo">
+<?xml version='1.0' encoding='UTF-8'?>
+<x:root_elem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="urn-klondike-test">
+  <myelem xsi:type="x:ctype_foo">
     <a>hello</a>
   </myelem>
-</root_elem>
+</x:root_elem>

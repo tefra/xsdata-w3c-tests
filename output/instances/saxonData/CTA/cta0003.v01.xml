@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <messages xmlns="http://cta0002/" xmlns:c="http://cta0002/">
   <message c:min="0">
     <e>1</e>

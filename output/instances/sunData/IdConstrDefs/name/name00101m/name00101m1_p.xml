@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="IdConstrDefs/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <person>William Smith</person>
 </test:root>

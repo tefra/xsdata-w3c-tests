@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <Example>
   <x kind="quantity">10</x>
   <x kind="price">10.5</x>

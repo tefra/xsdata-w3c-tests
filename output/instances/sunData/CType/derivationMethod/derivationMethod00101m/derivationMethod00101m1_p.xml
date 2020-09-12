@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<b xmlns="derivationMethod" xmlns:test="derivationMethod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" q="1">123</b>
+<?xml version='1.0' encoding='UTF-8'?>
+<test:b xmlns:test="derivationMethod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" q="1">123</test:b>

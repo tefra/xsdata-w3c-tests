@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <element1 attribute1="&#65393;"/>
+  <element1 attribute1="ｱ"/>
 </root>

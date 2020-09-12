@@ -1,10 +1,10 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>a00&#19968;</value>
-  <value>a0-&#30418;</value>
-  <value>a0A&#40869;</value>
-  <value>a10&#12295;</value>
-  <value>a20&#12321;</value>
-  <value>a2-&#12325;</value>
-  <value>a2A&#12329;</value>
+  <value>a00一</value>
+  <value>a0-盒</value>
+  <value>a0A龥</value>
+  <value>a10〇</value>
+  <value>a20〡</value>
+  <value>a2-〥</value>
+  <value>a2A〩</value>
 </test:root>

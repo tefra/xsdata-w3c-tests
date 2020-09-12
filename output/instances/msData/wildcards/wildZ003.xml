@@ -1,8 +1,8 @@
-<!-- xsdata instance -->
-<elt1 xmlns:bar="urn:bar" xmlns="urn:foo" xmlns:foo="urn:foo" xmlns:Z="urn:foreign-unknown-schema">
-  <elt2/>
+<?xml version='1.0' encoding='UTF-8'?>
+<foo:elt1 xmlns:bar="urn:bar" xmlns:foo="urn:foo" xmlns:Z="urn:foreign-unknown-schema">
+  <foo:elt2/>
   <bar:elem/>
   <bar:elem/>
   <bar:elem/>
   <bar:elem/>
-</elt1>
+</foo:elt1>

@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <x:products xmlns:x="urn:products">
   <book id="bk101">
     <price>44.95</price>

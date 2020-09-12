@@ -1,27 +1,27 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>a00&#1648;</value>
-  <value>a10&#1750;</value>
-  <value>a1-&#1753;</value>
-  <value>a1A&#1756;</value>
-  <value>a20&#1757;</value>
-  <value>a2-&#1758;</value>
-  <value>a2A&#1759;</value>
-  <value>a30&#1760;</value>
-  <value>a3-&#1762;</value>
-  <value>a3A&#1764;</value>
-  <value>a40&#1767;</value>
-  <value>a4-&#1767;</value>
-  <value>a4A&#1768;</value>
-  <value>a50&#1770;</value>
-  <value>a5-&#1771;</value>
-  <value>a5A&#1773;</value>
-  <value>a60&#2305;</value>
-  <value>a6-&#2306;</value>
-  <value>a6A&#2307;</value>
-  <value>a70&#2364;</value>
-  <value>a80&#2366;</value>
-  <value>a8-&#2373;</value>
-  <value>a8A&#2380;</value>
-  <value>a90&#2381;</value>
+  <value>a00ٰ</value>
+  <value>a10ۖ</value>
+  <value>a1-ۙ</value>
+  <value>a1Aۜ</value>
+  <value>a20۝</value>
+  <value>a2-۞</value>
+  <value>a2A۟</value>
+  <value>a30۠</value>
+  <value>a3-ۢ</value>
+  <value>a3Aۤ</value>
+  <value>a40ۧ</value>
+  <value>a4-ۧ</value>
+  <value>a4Aۨ</value>
+  <value>a50۪</value>
+  <value>a5-۫</value>
+  <value>a5Aۭ</value>
+  <value>a60ँ</value>
+  <value>a6-ं</value>
+  <value>a6Aः</value>
+  <value>a70़</value>
+  <value>a80ा</value>
+  <value>a8-ॅ</value>
+  <value>a8Aौ</value>
+  <value>a90्</value>
 </test:root>

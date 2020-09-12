@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns-a" xmlns:a="ns-a"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<a:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="ns-a"/>

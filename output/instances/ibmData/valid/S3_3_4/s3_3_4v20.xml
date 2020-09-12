@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" union_of_ids_attr1="123" union_of_ids_attr2="true" union_of_ids_attr3="abc">
   <idref_element>abc</idref_element>
 </root>

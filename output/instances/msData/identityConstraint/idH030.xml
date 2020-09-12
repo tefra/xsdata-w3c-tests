@@ -1,19 +1,19 @@
-<!-- xsdata instance -->
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="myNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
-  <uid>
-    <iid myNS:val="1"/>
-  </uid>
-  <uid>
-    <iid myNS:val="11"/>
-  </uid>
-  <uid>
-    <iid myNS:val="111"/>
-  </uid>
-  <uid>
-    <iid myNS:val="1.0"/>
-  </uid>
-  <kid myNS:val="1"/>
-  <kid myNS:val="11"/>
-  <kid myNS:val="111"/>
-  <kid myNS:val="1.0"/>
-</root>
+<?xml version='1.0' encoding='UTF-8'?>
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+  <myNS:uid>
+    <myNS:iid myNS:val="1"/>
+  </myNS:uid>
+  <myNS:uid>
+    <myNS:iid myNS:val="11"/>
+  </myNS:uid>
+  <myNS:uid>
+    <myNS:iid myNS:val="111"/>
+  </myNS:uid>
+  <myNS:uid>
+    <myNS:iid myNS:val="1.0"/>
+  </myNS:uid>
+  <myNS:kid myNS:val="1"/>
+  <myNS:kid myNS:val="11"/>
+  <myNS:kid myNS:val="111"/>
+  <myNS:kid myNS:val="1.0"/>
+</myNS:root>

@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNamespace">
   <fooTest myNS:testAttr="Test Attribute">
     <child_1>info</child_1>

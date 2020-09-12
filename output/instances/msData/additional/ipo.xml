@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <ipo:purchaseOrder xmlns:ipo="http://www.example.com/IPO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-12-01">
   <shipTo exportCode="1" xsi:type="ipo:UKAddress">
     <name>Helen Zoe</name>

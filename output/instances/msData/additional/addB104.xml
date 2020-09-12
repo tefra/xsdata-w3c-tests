@@ -1,4 +1,4 @@
-<!-- xsdata instance -->
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ns" xmlns:x="ns">
-  <elem x:att="123"/>
-</doc>
+<?xml version='1.0' encoding='UTF-8'?>
+<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="ns">
+  <x:elem x:att="123"/>
+</x:doc>

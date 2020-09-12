@@ -1,35 +1,35 @@
-<!-- xsdata instance -->
-<testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="list" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
-  <annotation>
-    <documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes">list</documentation>
-  </annotation>
-  <testGroup name="d2_4_1_2v01" version="1.1">
-    <annotation>
-      <documentation>test Units of length for list datatype.</documentation>
-    </annotation>
-    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"/>
-    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
-    <schemaTest name="d2_4_1_2v01s">
-      <schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xsd"/>
-      <expected validity="valid"/>
-      <current status="accepted" date="2010-12-01"/>
-    </schemaTest>
-    <instanceTest name="d2_4_1_2v01i">
-      <instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xml"/>
-      <expected validity="valid"/>
-      <current status="accepted" date="2010-12-01"/>
-    </instanceTest>
-  </testGroup>
-  <testGroup name="d2_4_1_2si01" version="1.1">
-    <annotation>
-      <documentation>Lists cannot be bounded</documentation>
-    </annotation>
-    <documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"/>
-    <documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
-    <schemaTest name="d2_4_1_2si01s">
-      <schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/D2_4_1_2/d2_4_1_2si01.xsd"/>
-      <expected validity="invalid"/>
-      <current status="accepted" date="2010-12-01"/>
-    </schemaTest>
-  </testGroup>
-</testSet>
+<?xml version='1.0' encoding='UTF-8'?>
+<ts:testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="list" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+  <ts:annotation>
+    <ts:documentation xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes">list</ts:documentation>
+  </ts:annotation>
+  <ts:testGroup name="d2_4_1_2v01" version="1.1">
+    <ts:annotation>
+      <ts:documentation>test Units of length for list datatype.</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
+    <ts:schemaTest name="d2_4_1_2v01s">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xsd"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-12-01"/>
+    </ts:schemaTest>
+    <ts:instanceTest name="d2_4_1_2v01i">
+      <ts:instanceDocument xlink:type="locator" xlink:href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xml"/>
+      <ts:expected validity="valid"/>
+      <ts:current status="accepted" date="2010-12-01"/>
+    </ts:instanceTest>
+  </ts:testGroup>
+  <ts:testGroup name="d2_4_1_2si01" version="1.1">
+    <ts:annotation>
+      <ts:documentation>Lists cannot be bounded</ts:documentation>
+    </ts:annotation>
+    <ts:documentationReference xlink:type="locator" xlink:href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"/>
+    <ts:documentationReference xlink:type="locator" xlink:href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"/>
+    <ts:schemaTest name="d2_4_1_2si01s">
+      <ts:schemaDocument xlink:type="locator" xlink:href="../ibmData/schema_invalid/D2_4_1_2/d2_4_1_2si01.xsd"/>
+      <ts:expected validity="invalid"/>
+      <ts:current status="accepted" date="2010-12-01"/>
+    </ts:schemaTest>
+  </ts:testGroup>
+</ts:testSet>

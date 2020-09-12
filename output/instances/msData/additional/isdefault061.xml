@@ -1,2 +1,2 @@
-<!-- xsdata instance -->
-<root xmlns="foo" xmlns:foo="foo" foo:attr1="123" foo:attr2="abc" foo:attr3="true"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<foo:root xmlns:foo="foo" foo:attr1="123" foo:attr2="abc" foo:attr3="true"/>

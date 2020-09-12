@@ -1,29 +1,29 @@
-<!-- xsdata instance -->
+<?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <value>&#2579;00</value>
-  <value>&#2589;-0</value>
-  <value>&#2600;a0</value>
-  <value>&#2602;01</value>
-  <value>&#2605;-1</value>
-  <value>&#2608;a1</value>
-  <value>&#2610;02</value>
-  <value>&#2610;-2</value>
-  <value>&#2611;a2</value>
-  <value>&#2613;03</value>
-  <value>&#2613;-3</value>
-  <value>&#2614;a3</value>
-  <value>&#2616;04</value>
-  <value>&#2616;-4</value>
-  <value>&#2617;a4</value>
-  <value>&#2649;05</value>
-  <value>&#2650;-5</value>
-  <value>&#2652;a5</value>
-  <value>&#2654;06</value>
-  <value>&#2674;07</value>
-  <value>&#2675;-7</value>
-  <value>&#2676;a7</value>
-  <value>&#2693;08</value>
-  <value>&#2696;-8</value>
-  <value>&#2699;a8</value>
-  <value>&#2701;09</value>
+  <value>ਓ00</value>
+  <value>ਝ-0</value>
+  <value>ਨa0</value>
+  <value>ਪ01</value>
+  <value>ਭ-1</value>
+  <value>ਰa1</value>
+  <value>ਲ02</value>
+  <value>ਲ-2</value>
+  <value>ਲ਼a2</value>
+  <value>ਵ03</value>
+  <value>ਵ-3</value>
+  <value>ਸ਼a3</value>
+  <value>ਸ04</value>
+  <value>ਸ-4</value>
+  <value>ਹa4</value>
+  <value>ਖ਼05</value>
+  <value>ਗ਼-5</value>
+  <value>ੜa5</value>
+  <value>ਫ਼06</value>
+  <value>ੲ07</value>
+  <value>ੳ-7</value>
+  <value>ੴa7</value>
+  <value>અ08</value>
+  <value>ઈ-8</value>
+  <value>ઋa8</value>
+  <value>ઍ09</value>
 </test:root>

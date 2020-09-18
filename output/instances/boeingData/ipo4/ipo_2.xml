@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ipo:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipo="http://www.example.com/IPO" xmlns:att="http://www.example.com/att" xmlns="http://www.example.com/IPO" orderDate="2002-10-20">
+<ipo:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipo="http://www.example.com/IPO" xmlns:att="http://www.example.com/att" orderDate="2002-10-20">
   <ipo:singleAddress exportCode="1" xsi:type="ipo:UKAddress">
-    <name xmlns="">Helen Zoe</name>
-    <street xmlns="">47 Eden Street</street>
-    <city xmlns="">Cambridge</city>
+    <name>Helen Zoe</name>
+    <street>47 Eden Street</street>
+    <city>Cambridge</city>
     <ipo:country>United Kingdom</ipo:country>
-    <postcode xmlns="">CB1 1JR</postcode>
+    <postcode>CB1 1JR</postcode>
   </ipo:singleAddress>
   <ipo:customerComment>I love Boeing too!</ipo:customerComment>
   <ipo:items>

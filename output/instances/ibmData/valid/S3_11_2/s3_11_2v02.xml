@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="a" xmlns:b="a">
-  <Number id_1="2" id_2="a">3</Number>
-  <Number id_1="2" id_2="c">2</Number>
-</root>
+<b:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="a">
+  <b:Number id_1="2" id_2="a">3</b:Number>
+  <b:Number id_1="2" id_2="c">2</b:Number>
+</b:root>

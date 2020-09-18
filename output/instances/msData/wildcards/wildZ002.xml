@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<main:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foo="foo" xmlns:bar="bar" xmlns:main="main" xmlns:xx="foo" xmlns="main">
+<main:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foo="foo" xmlns:bar="bar" xmlns:main="main" xmlns:xx="foo">
   <main:a>
-    <a xmlns="" att="123" att1="123" att2="123"/>
+    <a att="123" att1="123" att2="123"/>
     <foo:foo foo:att="123">
       <bar:bar/>
     </foo:foo>

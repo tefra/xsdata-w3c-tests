@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="a" xmlns:b="a">
-  <Number>
-    <Numid>1</Numid>
-    <Numname>a</Numname>
-  </Number>
-  <Number>
-    <Numid>1</Numid>
-    <Numname>ab</Numname>
-  </Number>
-</root>
+<b:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="a">
+  <b:Number>
+    <b:Numid>1</b:Numid>
+    <b:Numname>a</b:Numname>
+  </b:Number>
+  <b:Number>
+    <b:Numid>1</b:Numid>
+    <b:Numname>ab</b:Numname>
+  </b:Number>
+</b:root>

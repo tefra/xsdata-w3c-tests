@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prefix="foo">
-  <item>
-    <a/>
-    <b/>
-    <c/>
-  </item>
-  <item>
-    <a/>
-    <c/>
-  </item>
-  <item>
-    <a/>
-    <c/>
-  </item>
-  <item>
-    <a/>
-    <c/>
-  </item>
-  <item xsi:type="ext">
-    <a/>
-    <b/>
-    <c/>
-    <d/>
-    <e/>
-  </item>
-  <item xsi:type="ext">
-    <a/>
-    <c/>
-    <d/>
-    <e/>
-  </item>
-</root>
+<prefix:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prefix="foo">
+  <prefix:item>
+    <prefix:a/>
+    <prefix:b/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item>
+    <prefix:a/>
+    <prefix:c/>
+  </prefix:item>
+  <prefix:item xsi:type="prefix:ext">
+    <prefix:a/>
+    <prefix:b/>
+    <prefix:c/>
+    <prefix:d/>
+    <prefix:e/>
+  </prefix:item>
+  <prefix:item xsi:type="prefix:ext">
+    <prefix:a/>
+    <prefix:c/>
+    <prefix:d/>
+    <prefix:e/>
+  </prefix:item>
+</prefix:root>

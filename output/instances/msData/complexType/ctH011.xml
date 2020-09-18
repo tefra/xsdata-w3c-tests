@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns:other="http://tempuri.org/xmlschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ctH011.xsd" myAttr="test attribute" other:myAttr1="another attribute">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:other="http://tempuri.org/xmlschema" xsi:noNamespaceSchemaLocation="ctH011.xsd" myAttr="test attribute" other:myAttr1="another attribute">
   <myElement1>test data</myElement1>
   <myElement2>test data</myElement2>
   <myElement3>test data</myElement3>

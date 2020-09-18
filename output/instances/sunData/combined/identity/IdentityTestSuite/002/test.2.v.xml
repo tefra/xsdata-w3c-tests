@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<tn:root xmlns:p="abc" xmlns:q="abc" xmlns:tn="foo" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<tn:root xmlns:tn="foo" xmlns:p="abc" xmlns:q="abc" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <tn:key>p:abc</tn:key>
   <tn:ref>p:abc</tn:ref>
 </tn:root>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo:elt1 xmlns:bar="urn:bar" xmlns:foo="urn:foo" xmlns:Z="urn:foreign-unknown-schema">
+<foo:elt1 xmlns:foo="urn:foo" xmlns:bar="urn:bar" xmlns:Z="urn:foreign-unknown-schema">
   <foo:elt2/>
   <bar:elem/>
   <bar:elem/>

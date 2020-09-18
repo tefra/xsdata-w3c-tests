@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ser:Array xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:d1p1="http://tempuri.org/Suites/Serialization" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ser:ItemType="d1p1:Callbacks.ColorClassHolder" Dimensions="1" LowerBounds="0">
-  <Item ser:Id="2">
+<ser:Array xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:d1p1="http://tempuri.org/Suites/Serialization" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" ser:ItemType="d1p1:Callbacks.ColorClassHolder" Dimensions="1" LowerBounds="0">
+  <Item xmlns="" ser:Id="2">
     <d1p1:color ser:Id="3">
       <d1p1:colorId>1</d1p1:colorId>
     </d1p1:color>

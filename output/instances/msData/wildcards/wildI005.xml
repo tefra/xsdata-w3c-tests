@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo xmlns:a="http://foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns0:b xmlns:ns0="foo">test</ns0:b>
-  <ns1:b xmlns:ns1="foo">test</ns1:b>
+<foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="foo">
+  <a:b>test</a:b>
+  <a:b>test</a:b>
   <ns2:b xmlns:ns2="a">test</ns2:b>
-  <ns3:b xmlns:ns3="a">test</ns3:b>
-  <ns4:b xmlns:ns4="b">test</ns4:b>
-  <ns5:b xmlns:ns5="b">test</ns5:b>
+  <ns2:b xmlns:ns2="a">test</ns2:b>
+  <ns2:b xmlns:ns2="b">test</ns2:b>
+  <ns2:b xmlns:ns2="b">test</ns2:b>
   <bar/>
   <bar/>
-  <a:foo> test</a:foo>
+  <ns2:foo xmlns:ns2="http://foo"> test</ns2:foo>
 </foo>

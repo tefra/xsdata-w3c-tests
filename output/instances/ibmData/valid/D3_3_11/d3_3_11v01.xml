@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_D3_3_11_v01">
+<dv:root xmlns:dv="http://xstest-tns/schema11_D3_3_11_v01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <elDate>2000-12+11:00</elDate>
 </dv:root>

@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo:extension xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" xmlns:foo="urn:foo" c:xxx="xxx"/>
+<foo:extension xmlns:foo="urn:foo" xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" c:xxx="xxx"/>

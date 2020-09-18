@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<foo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <a/>
-  <b xsi:type="xs:string">abc</b>
-  <c xsi:type="xs:int">123</c>
+  <b xsi:type="xsd:string">abc</b>
+  <c xsi:type="xsd:int">123</c>
 </foo>

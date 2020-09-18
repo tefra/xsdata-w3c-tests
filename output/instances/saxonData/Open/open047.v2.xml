@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://closed.com/">
+<doc xmlns="">
   <a/>
   <b>23</b>
   <d/>
-  <ns0:x/>
+  <ns1:x xmlns:ns1="http://closed.com/"/>
 </doc>

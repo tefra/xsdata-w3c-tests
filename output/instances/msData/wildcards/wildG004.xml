@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<xhtml:foo xmlns:ns2="http://foo" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns2:bar>foo bar</ns2:bar>
-</xhtml:foo>
+<foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">
+  <ns2:bar xmlns:ns2="http://foo">foo bar</ns2:bar>
+</foo>

@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<td:root xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" number00一="0" number10盒="1" number20龥="2" number01〇="0" number02〡="0" number12〥="1" number22〩="2"/>
+<td:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:td="AttrDecl/name" number00一="0" number10盒="1" number20龥="2" number01〇="0" number02〡="0" number12〥="1" number22〩="2"/>

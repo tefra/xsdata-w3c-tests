@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="foo" xmlns:prefix="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<root xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prefix="foo">
   <item>
     <a/>
     <b/>

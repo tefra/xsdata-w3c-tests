@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ns:shape xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="tns">
+<ns:shape xmlns:ns="tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <dimension length="1.0" width="1">square</dimension>
   <dimension length="2.0" width="1.1">lrectangle</dimension>
   <dimension length="1" width="2">other</dimension>

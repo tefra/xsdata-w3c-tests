@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://open.com/">
-  <ns0:extra>42</ns0:extra>
-  <ns0:extra>97</ns0:extra>
+<doc xmlns="">
+  <ns1:extra xmlns:ns1="http://open.com/">42</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">97</ns1:extra>
   <a/>
   <b/>
   <c/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://xstest-tns/schema11_F4_3_16_v05">
+<dv:root xmlns:dv="http://xstest-tns/schema11_F4_3_16_v05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <dv:elEnumerationA>1999-01-01T01:01:00Z</dv:elEnumerationA>
   <dv:elEnumerationA>2000-01-01T01:01:00-01:00</dv:elEnumerationA>
   <dv:elEnumerationA>2001-01-01T01:01:00+01:00</dv:elEnumerationA>

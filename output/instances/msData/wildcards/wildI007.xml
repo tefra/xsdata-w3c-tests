@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<a:foo xmlns:a="http://xsdtesting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xsdtesting" xmlns:ns5="other">
-  <ns0:b xmlns:ns0="a">test</ns0:b>
-  <ns1:b xmlns:ns1="b">test</ns1:b>
-  <ns5:local/>
-  <ns2:b xmlns:ns2="a">test</ns2:b>
-  <ns3:b xmlns:ns3="b">test</ns3:b>
-  <ns5:local/>
-  <a:bar>test</a:bar>
-  <a:bar>test</a:bar>
-</a:foo>
+<tns:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xsdtesting" xmlns:a="a" xmlns="other">
+  <a:b>test</a:b>
+  <ns4:b xmlns:ns4="b">test</ns4:b>
+  <local/>
+  <a:b>test</a:b>
+  <ns4:b xmlns:ns4="b">test</ns4:b>
+  <local/>
+  <tns:bar>test</tns:bar>
+  <tns:bar>test</tns:bar>
+</tns:foo>

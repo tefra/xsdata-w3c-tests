@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qq="q">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="a" xmlns:qq="q">
   <qq:wildcard>1</qq:wildcard>
 </root>

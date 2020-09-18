@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://open.com/">
+<doc xmlns="">
   o-O-o
-  <ns0:extra>42</ns0:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">42</ns1:extra>
   o-O-o  
-  <ns0:extra>97</ns0:extra> 
+  <ns1:extra xmlns:ns1="http://open.com/">97</ns1:extra> 
   o-O-o   
 </doc>

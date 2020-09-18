@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<t:test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="name">
+<t:test xmlns:t="name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <abc>1</abc>
 </t:test>

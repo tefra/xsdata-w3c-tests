@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<a:foo xmlns:A="B" xmlns:ns4="C" xmlns:D="D" xmlns:e="E" xmlns:a="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<a:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="http://foobar" xmlns:A="A" xmlns="C" xmlns:D="D" xmlns:e="E">
   <a:bar>foo bar</a:bar>
-  <bar>foo bar</bar>
-  <foo/>
-  <ns0:foo xmlns:ns0="A"/>
+  <bar xmlns="">foo bar</bar>
+  <foo xmlns=""/>
   <A:foo/>
-  <ns4:foo/>
+  <ns6:foo xmlns:ns6="B"/>
+  <foo/>
   <D:foo/>
   <e:foo/>
 </a:foo>

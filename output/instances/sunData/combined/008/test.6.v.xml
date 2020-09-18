@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo:restriction xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" xmlns:foo="urn:foo" a:xxx="xxx"/>
+<foo:restriction xmlns:foo="urn:foo" xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" a:xxx="xxx"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<apo:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apo="testNS">
+<apo:purchaseOrder xmlns:apo="testNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <apo:shipTo country="US">
     <apo:name>Alice Smith</apo:name>
     <apo:street>123 Maple Street</apo:street>

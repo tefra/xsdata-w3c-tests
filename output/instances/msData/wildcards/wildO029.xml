@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo:foo xmlns:foo="http://foobar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://foobar wildO029.xsd" xsi:noNamespaceSchemaLocation="wildO029a.xsd" name="bar"/>
+<foo:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foo="http://foobar" xmlns="" xsi:schemaLocation="http://foobar wildO029.xsd" xsi:noNamespaceSchemaLocation="wildO029a.xsd" name="bar"/>

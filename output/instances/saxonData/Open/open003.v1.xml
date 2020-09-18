@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://local.com/">
+<doc xmlns="">
   <a/>
   <b/>
-  <ns0:extra>42</ns0:extra>
+  <ns1:extra xmlns:ns1="http://local.com/">42</ns1:extra>
 </doc>

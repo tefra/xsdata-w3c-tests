@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="nsConstraint" xmlns:ttt="ns_ttt" xsi:schemaLocation="nsConstraint nsConstraint00102m2.xsd" ttt:date="2002-04-29"/>
+<test:a xmlns:test="nsConstraint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ttt="ns_ttt" xsi:schemaLocation="nsConstraint nsConstraint00102m2.xsd" ttt:date="2002-04-29"/>

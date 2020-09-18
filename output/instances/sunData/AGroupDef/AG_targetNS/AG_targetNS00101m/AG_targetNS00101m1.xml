@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<td:root xmlns:td="AttrGroup/targetNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<td:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:td="AttrGroup/targetNS">
   <td:elementWithAttr number="157"/>
 </td:root>

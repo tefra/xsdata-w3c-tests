@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<td:root xmlns:td="AttrDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" str00AῨ="a" str10-Ὺ="b" str20Ῥ="c" str01AῸ="a" str11-Ό="b" str21Ώ="c" str02Aↀ="a" str12-ↁ="b" str22ↂ="c" str03Aぁ="a" str13-な="b" str23ゔ="c" str04Aァ="a" str14-ネ="b" str24ヺ="c" str05Aㄅ="a" str15-ㄘ="b" str25ㄬ="c" str06A가="a" str16-쇑="b" str26힣="c"/>
+<td:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:td="AttrDecl/name" str00AῨ="a" str10-Ὺ="b" str20Ῥ="c" str01AῸ="a" str11-Ό="b" str21Ώ="c" str02Aↀ="a" str12-ↁ="b" str22ↂ="c" str03Aぁ="a" str13-な="b" str23ゔ="c" str04Aァ="a" str14-ネ="b" str24ヺ="c" str05Aㄅ="a" str15-ㄘ="b" str25ㄬ="c" str06A가="a" str16-쇑="b" str26힣="c"/>

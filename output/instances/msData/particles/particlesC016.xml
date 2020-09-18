@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<x:doc xmlns:ns2="bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns:ns3="just_testing_should_pass">
+<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns="bar">
   <x:elem>
-    <ns2:foo>
-      <ns3:bar/>
-    </ns2:foo>
-    <ns2:foo/>
+    <foo>
+      <ns3:bar xmlns:ns3="just_testing_should_pass"/>
+    </foo>
+    <foo/>
   </x:elem>
 </x:doc>

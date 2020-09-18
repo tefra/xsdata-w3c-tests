@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Test xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <Rule name="xs:element"/>
+<Test xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rule name="xsd:element"/>
 </Test>

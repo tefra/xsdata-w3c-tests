@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<emptywc xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c" xmlns="urn:foo"/>
+<emptywc xmlns="urn:foo" xmlns:a="urn:a" xmlns:b="urn:b" xmlns:c="urn:c"/>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <xhtml:html>
-    <xhtml:body>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://www.w3.org/1999/xhtml">
+  <x:html>
+    <x:body>
 Hey this is html
-</xhtml:body>
-  </xhtml:html>
+</x:body>
+  </x:html>
 </doc>

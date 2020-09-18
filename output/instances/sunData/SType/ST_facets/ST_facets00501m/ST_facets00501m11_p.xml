@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:root xmlns:test="SType/ST_facets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<test:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="SType/ST_facets">
   <value>a00ஜ</value>
   <value>a10ஞ</value>
   <value>a1-ஞ</value>

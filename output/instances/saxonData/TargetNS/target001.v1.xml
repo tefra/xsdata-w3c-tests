@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<parent xmlns:ns0="http://www.target001.com/">
-  <ns0:child>23</ns0:child>
+<parent xmlns="">
+  <ns1:child xmlns:ns1="http://www.target001.com/">23</ns1:child>
 </parent>

@@ -49,8 +49,7 @@ class Foo:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     a: Optional[int] = field(

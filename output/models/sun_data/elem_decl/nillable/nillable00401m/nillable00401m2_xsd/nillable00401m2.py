@@ -19,8 +19,7 @@ class GlobalType:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
-            required=True,
-            nillable=True
+            required=True
         )
     )
 

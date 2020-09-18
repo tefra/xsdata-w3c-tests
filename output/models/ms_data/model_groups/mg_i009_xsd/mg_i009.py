@@ -47,8 +47,7 @@ class Foo:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     w3_org_1999_xhtml_element: List[object] = field(

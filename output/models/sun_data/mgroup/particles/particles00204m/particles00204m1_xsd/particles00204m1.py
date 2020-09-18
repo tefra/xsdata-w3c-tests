@@ -19,23 +19,20 @@ class A:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     marked: Optional[bool] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     num: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )

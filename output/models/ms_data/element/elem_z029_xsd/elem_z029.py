@@ -14,7 +14,6 @@ class Doc:
     value: Optional[str] = field(
         default=None,
         metadata=dict(
-            required=True,
-            nillable=True
+            required=True
         )
     )

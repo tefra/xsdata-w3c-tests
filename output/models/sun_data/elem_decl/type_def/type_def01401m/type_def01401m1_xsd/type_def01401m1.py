@@ -17,7 +17,6 @@ class Root:
     value: Optional[int] = field(
         default=None,
         metadata=dict(
-            required=True,
-            nillable=True
+            required=True
         )
     )

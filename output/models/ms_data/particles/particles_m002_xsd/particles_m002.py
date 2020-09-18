@@ -17,7 +17,7 @@ class B:
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=2,
+            min_occurs=0,
             max_occurs=3,
             sequential=True
         )
@@ -36,8 +36,7 @@ class B:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     d2: Optional[object] = field(
@@ -79,8 +78,7 @@ class R:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     d2: Optional[object] = field(

@@ -17,7 +17,7 @@ class B:
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=2,
+            min_occurs=0,
             max_occurs=100
         )
     )
@@ -32,16 +32,14 @@ class B:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     d2: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
 
@@ -74,16 +72,14 @@ class R:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     d2: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
 

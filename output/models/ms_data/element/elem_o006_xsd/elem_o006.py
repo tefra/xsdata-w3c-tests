@@ -15,8 +15,7 @@ class FooTest:
         default=None,
         metadata=dict(
             required=True,
-            min_length=3,
-            nillable=True
+            min_length=3
         )
     )
 

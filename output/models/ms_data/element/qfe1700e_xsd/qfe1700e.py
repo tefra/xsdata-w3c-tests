@@ -14,8 +14,7 @@ class E1:
     value: Optional[int] = field(
         default=None,
         metadata=dict(
-            required=True,
-            nillable=True
+            required=True
         )
     )
 

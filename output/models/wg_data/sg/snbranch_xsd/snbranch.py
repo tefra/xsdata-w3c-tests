@@ -157,7 +157,7 @@ class T:
         metadata=dict(
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=2,
             sequential=True
         )
@@ -167,7 +167,7 @@ class T:
         metadata=dict(
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=2,
             sequential=True
         )
@@ -177,7 +177,7 @@ class T:
         metadata=dict(
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=2,
             sequential=True
         )
@@ -187,7 +187,7 @@ class T:
         metadata=dict(
             type="Element",
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=2,
             sequential=True
         )
@@ -196,32 +196,28 @@ class T:
         default=None,
         metadata=dict(
             type="Wildcard",
-            namespace="##any",
-            required=True
+            namespace="##any"
         )
     )
     a: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
     b: Optional[B] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
     c: Optional[C] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
 

@@ -59,7 +59,8 @@ class B:
             type="Element",
             namespace="",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )
     c2: List[object] = field(
@@ -68,7 +69,8 @@ class B:
             type="Element",
             namespace="",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )
     c3: List[Bar] = field(
@@ -77,7 +79,8 @@ class B:
             type="Element",
             namespace="",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            sequential=True
         )
     )
     foo: Optional[object] = field(

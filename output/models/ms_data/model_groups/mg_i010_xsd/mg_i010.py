@@ -35,8 +35,7 @@ class Foo:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     c: Optional[bool] = field(

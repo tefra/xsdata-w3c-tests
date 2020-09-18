@@ -43,7 +43,6 @@ def assert_bindings(
     try:
         instance_path = w3c.joinpath(instance)
         parser = XmlParser()
-        namespaces = parser.namespaces
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:
         raise e
@@ -53,8 +52,7 @@ def assert_bindings(
         pytest.skip("Schema validator failed on parsing definition")
 
     try:
-        xsdata_xml = XmlSerializer(pretty_print=True).render(obj, namespaces)
-        namespaces.unregister()
+        xsdata_xml = XmlSerializer(pretty_print=True).render(obj, parser.ns_map)
         if save_xml:
             xsdata_instance = output.joinpath(instance)
             xsdata_instance.parent.mkdir(parents=True, exist_ok=True)

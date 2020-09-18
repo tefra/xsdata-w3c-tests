@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="targetNS0">
+<test:a xmlns:test="targetNS0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <c>1</c>
 </test:a>

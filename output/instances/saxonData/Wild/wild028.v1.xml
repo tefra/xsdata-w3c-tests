@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<eden xmlns:evil="http://devil.com/" xmlns:c="http://genesis.com/">
+<eden xmlns:c="http://genesis.com/" xmlns:evil="http://devil.com/">
   <adam>m</adam>
   <evil:eve>f</evil:eve>
   <c:cain>m</c:cain>

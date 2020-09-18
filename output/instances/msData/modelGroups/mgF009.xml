@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://www.w3.org/1999/xhtml">
   <a>1</a>
   <b>I am a stringy string</b>
   <c>true</c>
   <d/>
-  <xhtml:html>
-    <xhtml:body>
+  <h:html>
+    <h:body>
 Hey this is html
-</xhtml:body>
-  </xhtml:html>
+</h:body>
+  </h:html>
 </doc>

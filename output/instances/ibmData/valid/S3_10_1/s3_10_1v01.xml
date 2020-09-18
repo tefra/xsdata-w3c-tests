@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="a" xmlns:b="b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="a" xmlns:b="b">
   <notDefinedInSchema>hi</notDefinedInSchema>
   <b:a>hihi</b:a>
 </root>

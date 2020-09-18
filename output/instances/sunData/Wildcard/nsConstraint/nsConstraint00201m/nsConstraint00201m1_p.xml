@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="nsConstraint" xmlns:test1="ns_test1">
+<test:a xmlns:test="nsConstraint" xmlns:test1="ns_test1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <test1:date>2002-04-29</test1:date>
 </test:a>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="ElemDecl/name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ElemDecl/name">
   <aa111a2Aa>0</aa111a2Aa>
   <aa22B3c>1</aa22B3c>
   <aa3-4_>2</aa3-4_>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ipo:purchaseOrder xmlns:ipo="http://www.example.com/IPO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-12-01">
+<ipo:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipo="http://www.example.com/IPO" orderDate="1999-12-01">
   <shipTo>
     <name>Helen Zoe</name>
     <street>47 Eden Street</street>

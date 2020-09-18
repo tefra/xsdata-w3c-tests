@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="psContents" xsi:schemaLocation="psContents psContents00302m2.xsd" test:date="2002-04-29"/>
+<test:a xmlns:test="psContents" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="psContents psContents00302m2.xsd" test:date="2002-04-29"/>

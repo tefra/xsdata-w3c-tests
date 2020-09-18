@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <xhtml:bar>foo bar</xhtml:bar>
+<foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+  <xhtml:bar xmlns:xhtml="http://www.w3.org/1999/xhtml">foo bar</xhtml:bar>
 </foo>

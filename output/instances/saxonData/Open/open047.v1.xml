@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://open.com/">
-  <ns0:x/>
+<doc xmlns="">
+  <ns1:x xmlns:ns1="http://open.com/"/>
   <a/>
   <b>23</b>
   <d/>

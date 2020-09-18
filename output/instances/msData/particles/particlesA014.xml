@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns1="bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
   <elem>
-    <ns1:anything/>
-    <ns1:anything/>
+    <ns2:anything xmlns:ns2="bar"/>
+    <ns2:anything xmlns:ns2="bar"/>
   </elem>
 </doc>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <uid xsi:type="xs:float">1</uid>
-  <uid xsi:type="xs:unsignedByte">1</uid>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <uid xsi:type="xsd:float">1</uid>
+  <uid xsi:type="xsd:unsignedByte">1</uid>
 </root>

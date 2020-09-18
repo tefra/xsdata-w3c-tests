@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://open.com/">
-  <ns0:extra>1</ns0:extra>
-  <ns0:extra>1</ns0:extra>
+<doc xmlns="">
+  <ns1:extra xmlns:ns1="http://open.com/">1</ns1:extra>
+  <ns1:extra xmlns:ns1="http://open.com/">1</ns1:extra>
 </doc>

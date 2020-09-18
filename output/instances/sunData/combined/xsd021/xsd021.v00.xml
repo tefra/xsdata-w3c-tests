@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<f:root xmlns:b="bar" xmlns:f="foo" xmlns:u="undeclared" xmlns:z="zot">
+<f:root xmlns:f="foo" xmlns:b="bar" xmlns:z="zot" xmlns:u="undeclared">
   <f:skipAny f:a="bra" f:b="bra" u:something="also allowed"/>
   <f:skipAny/>
   <f:laxAny f:a="5" f:undeclared="OK" b:b="2" u:something="also allowed"/>

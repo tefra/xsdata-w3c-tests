@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<purchaseOrder xmlns="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderDate="1999-10-20">
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="foo" orderDate="1999-10-20">
   <shipTo country="US">
     <name>Alice Smith</name>
     <street>123 Maple Street</street>

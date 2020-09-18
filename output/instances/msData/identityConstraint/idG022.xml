@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<myNS:root xmlns:fooNS="fooNS.tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myNS="myNS.tempuri.org">
+<myNS:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fooNS="fooNS.tempuri.org" xmlns:myNS="myNS.tempuri.org">
   <myNS:t>
     <myNS:row> 1 </myNS:row>
   </myNS:t>

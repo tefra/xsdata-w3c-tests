@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns1="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns1:test/>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+  <ns2:test xmlns:ns2="foo"/>
   <c1/>
 </doc>

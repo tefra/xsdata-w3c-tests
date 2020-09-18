@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns1="foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
   <elem>
-    <ns1:b/>
+    <ns2:b xmlns:ns2="foo"/>
   </elem>
 </doc>

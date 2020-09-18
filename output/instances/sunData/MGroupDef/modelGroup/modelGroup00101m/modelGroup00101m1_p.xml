@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<test:a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test="modelGroup">
+<test:a xmlns:test="modelGroup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <c>1</c>
   <date>2002-04-17</date>
 </test:a>

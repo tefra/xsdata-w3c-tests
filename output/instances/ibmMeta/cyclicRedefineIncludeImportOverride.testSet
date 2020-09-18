@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ts:testSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" contributor="IBM" name="CyclicDependencies_Redefine_Include_Import_Override" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+<ts:testSet xmlns:ts="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="IBM" name="CyclicDependencies_Redefine_Include_Import_Override" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
   <ts:annotation>
     <ts:documentation xlink:href="http://www.w3.org/TR/xmlschema11-1/#modify-schema">CyclicRedefineIncludeImportOverride</ts:documentation>
   </ts:annotation>

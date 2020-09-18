@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <xhtml:html>
-    <xhtml:body>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://www.w3.org/1999/xhtml">
+  <h:html>
+    <h:body>
 Hey this is html
-</xhtml:body>
-  </xhtml:html>
+</h:body>
+  </h:html>
   <d/>
   <b>I am a stringy string</b>
   <a>1</a>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<foo:root xmlns:bar="bar" xmlns:ns3="bob" xmlns:foo="foo" xmlns:ns4="nowhere" xmlns:ns5="other1" xmlns:zot="zot">
+<foo:root xmlns:foo="foo" xmlns:bar="bar" xmlns:zot="zot" xmlns="bob">
   <foo:skipAny>
     <foo:root><foo:child/><bar:nocheck><zot:nocheck/></bar:nocheck>
 			mixed is also allowed?
@@ -8,7 +8,7 @@
   <foo:laxAny>
     <foo:undeclared>
       <bar:a/>
-      <undefined/>
+      <undefined xmlns=""/>
     </foo:undeclared>
   </foo:laxAny>
   <foo:strictAny>
@@ -17,16 +17,16 @@
     <zot:c/>
   </foo:strictAny>
   <foo:skipOther>
-    <ns3:undeclared/>
-    <ns4:anyThing/>
-    <ns5:asLongAsInOtherNS/>
+    <undeclared/>
+    <ns4:anyThing xmlns:ns4="nowhere"/>
+    <ns4:asLongAsInOtherNS xmlns:ns4="other1"/>
     <zot:a>
       <zot:a/>
     </zot:a>
   </foo:skipOther>
   <foo:laxLocal>
-    <undeclaredOnly/>
-    <butLaxlyValidated/>
+    <undeclaredOnly xmlns=""/>
+    <butLaxlyValidated xmlns=""/>
   </foo:laxLocal>
   <foo:strictTarget>
     <foo:root/>

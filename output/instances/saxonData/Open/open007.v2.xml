@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns0="http://open.com/">
-  <ns0:extra/>
-  <ns0:extra/>
-  <ns0:extra/>
-  <ns0:extra/>
+<doc xmlns="">
+  <ns1:extra xmlns:ns1="http://open.com/"/>
+  <ns1:extra xmlns:ns1="http://open.com/"/>
+  <ns1:extra xmlns:ns1="http://open.com/"/>
+  <ns1:extra xmlns:ns1="http://open.com/"/>
   <a/>
   <a/>
   <a/>

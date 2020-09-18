@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<doc xmlns:ns2="bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting">
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xsdtesting">
   <elem>
-    <ns2:a/>
+    <ns2:a xmlns:ns2="bar"/>
   </elem>
 </doc>

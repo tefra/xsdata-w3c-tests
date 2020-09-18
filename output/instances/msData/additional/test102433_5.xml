@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<q:bar xmlns:ns="ns" xmlns:q="q">
+<q:bar xmlns:q="q" xmlns:ns="ns">
   <ns:baz/>
 </q:bar>

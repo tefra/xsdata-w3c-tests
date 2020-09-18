@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<x:doc xmlns:xyz="bar" xmlns:ns2="http://foo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns:ns3="xmlns">
+<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns="http://foo" xmlns:xyz="bar">
   <x:elem>
+    <b xmlns=""/>
     <b/>
-    <ns2:b/>
-    <ns3:b/>
-    <b/>
-    <b/>
+    <ns4:b xmlns:ns4="xmlns"/>
+    <b xmlns=""/>
+    <b xmlns=""/>
   </x:elem>
 </x:doc>

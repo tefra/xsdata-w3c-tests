@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting" xmlns="http://xsdtesting">
+<x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting">
   <x:elem x:ga1="123" x:ga2="123"/>
 </x:doc>

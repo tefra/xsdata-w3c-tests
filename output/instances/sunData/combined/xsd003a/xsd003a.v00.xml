@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root xmlns="foo" xmlns:foo="foo" foo:gAtt="anything">
-  <root/>
-  <root/>
-  <root/>
-  <root/>
-</root>
+<foo:root xmlns:foo="foo" foo:gAtt="anything">
+  <foo:root/>
+  <foo:root/>
+  <foo:root/>
+  <foo:root/>
+</foo:root>

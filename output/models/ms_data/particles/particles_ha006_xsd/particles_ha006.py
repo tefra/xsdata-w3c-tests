@@ -24,8 +24,7 @@ class Base:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="http://xsdtesting",
-            required=True
+            namespace="http://xsdtesting"
         )
     )
 

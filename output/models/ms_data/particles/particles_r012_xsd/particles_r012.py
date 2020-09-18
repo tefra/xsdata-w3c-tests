@@ -60,7 +60,8 @@ class R:
             type="Element",
             namespace="",
             min_occurs=0,
-            max_occurs=2
+            max_occurs=2,
+            sequential=True
         )
     )
     e2: List[object] = field(
@@ -69,7 +70,8 @@ class R:
             type="Element",
             namespace="",
             min_occurs=0,
-            max_occurs=2
+            max_occurs=2,
+            sequential=True
         )
     )
 

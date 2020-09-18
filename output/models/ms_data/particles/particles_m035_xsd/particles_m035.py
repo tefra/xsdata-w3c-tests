@@ -47,7 +47,7 @@ class B:
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=9223372036854775807,
             sequential=True
         )

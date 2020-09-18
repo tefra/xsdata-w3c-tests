@@ -21,32 +21,28 @@ class Foo:
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     s2: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     s3: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     s4: Optional[object] = field(
         default=None,
         metadata=dict(
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     n1_element: Optional[object] = field(

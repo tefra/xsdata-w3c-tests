@@ -95,10 +95,12 @@ class Root:
     """
     :ivar data_types:
     """
-    data_types: Optional[DataTypes] = field(
-        default=None,
+    data_types: List[DataTypes] = field(
+        default_factory=list,
         metadata=dict(
             name="DataTypes",
-            type="Element"
+            type="Element",
+            min_occurs=0,
+            max_occurs=9223372036854775807
         )
     )

@@ -85,8 +85,7 @@ class Buyer:
         metadata=dict(
             name="fName",
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     middl_name: Optional[str] = field(
@@ -102,8 +101,7 @@ class Buyer:
         metadata=dict(
             name="lName",
             type="Element",
-            namespace="",
-            required=True
+            namespace=""
         )
     )
     establishment: Optional[str] = field(

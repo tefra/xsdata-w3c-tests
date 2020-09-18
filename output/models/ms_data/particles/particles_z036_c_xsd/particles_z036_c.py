@@ -16,7 +16,7 @@ class FooType:
         metadata=dict(
             type="Element",
             namespace="",
-            min_occurs=1,
+            min_occurs=0,
             max_occurs=100000000
         )
     )

@@ -19,7 +19,6 @@ class Root:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
-            required=True,
-            nillable=True
+            required=True
         )
     )

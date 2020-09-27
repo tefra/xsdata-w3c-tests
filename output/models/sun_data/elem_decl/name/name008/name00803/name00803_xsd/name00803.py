@@ -5,7 +5,7 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class Aa111a2Aa:
+class Aa111A2Aa:
     """
     :ivar value:
     """
@@ -22,7 +22,7 @@ class Aa111a2Aa:
 
 
 @dataclass
-class Aa22B3c:
+class Aa22B3C:
     """
     :ivar value:
     """
@@ -66,7 +66,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aa111a2_aa: Optional[Aa111a2Aa] = field(
+    aa111a2_aa: Optional[Aa111A2Aa] = field(
         default=None,
         metadata=dict(
             name="aa111a2Aa",
@@ -74,7 +74,7 @@ class Root:
             required=True
         )
     )
-    aa22_b3c: Optional[Aa22B3c] = field(
+    aa22_b3c: Optional[Aa22B3C] = field(
         default=None,
         metadata=dict(
             name="aa22B3c",

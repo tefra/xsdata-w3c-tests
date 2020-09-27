@@ -1,5 +1,4 @@
 import functools
-import importlib
 import logging
 import os
 from pathlib import Path
@@ -8,10 +7,11 @@ import pytest
 import xmlschema
 from click.testing import CliRunner
 from lxml import etree
-from xsdata import cli
+from xsdata.cli import cli
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.utils import text
+from xsdata.utils.testing import load_class
 
 log = logging.getLogger()
 
@@ -106,18 +106,3 @@ def initialize_validator(path: Path, version: str):
             return xmlschema.XMLSchema10(str(path))
     except Exception:
         return None
-
-
-def load_class(output, clazz_name):
-    search = "Generating package: "
-    start = len(search)
-    packages = [line[start:] for line in output.split("\n") if line.startswith(search)]
-
-    for package in reversed(packages):
-        try:
-            module = importlib.import_module(package)
-            return getattr(module, clazz_name)
-        except (ModuleNotFoundError, AttributeError):
-            pass
-
-    return ModuleNotFoundError(f"Class `{clazz_name}` not found.")

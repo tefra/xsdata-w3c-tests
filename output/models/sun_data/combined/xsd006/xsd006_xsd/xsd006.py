@@ -5,7 +5,7 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class Item0to1:
+class Item0To1:
     """
     :ivar x:
     """
@@ -22,7 +22,7 @@ class Item0to1:
 
 
 @dataclass
-class Item0to2:
+class Item0To2:
     """
     :ivar x:
     """
@@ -41,7 +41,7 @@ class Item0to2:
 
 
 @dataclass
-class Item0toX:
+class Item0ToX:
     """
     :ivar x:
     """
@@ -60,7 +60,7 @@ class Item0toX:
 
 
 @dataclass
-class Item1to2:
+class Item1To2:
     """
     :ivar x:
     """
@@ -79,7 +79,7 @@ class Item1to2:
 
 
 @dataclass
-class Item1toX:
+class Item1ToX:
     """
     :ivar x:
     """
@@ -98,7 +98,7 @@ class Item1toX:
 
 
 @dataclass
-class Item2to2:
+class Item2To2:
     """
     :ivar x:
     """
@@ -117,7 +117,7 @@ class Item2to2:
 
 
 @dataclass
-class Item2toX:
+class Item2ToX:
     """
     :ivar x:
     """
@@ -136,7 +136,7 @@ class Item2toX:
 
 
 @dataclass
-class Item3to7:
+class Item3To7:
     """
     :ivar x:
     """
@@ -170,7 +170,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    item0to1: List[Item0to1] = field(
+    item0to1: List[Item0To1] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -178,7 +178,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item0to2: List[Item0to2] = field(
+    item0to2: List[Item0To2] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -186,7 +186,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item0to_x: List[Item0toX] = field(
+    item0to_x: List[Item0ToX] = field(
         default_factory=list,
         metadata=dict(
             name="item0toX",
@@ -195,7 +195,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item1to2: List[Item1to2] = field(
+    item1to2: List[Item1To2] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -203,7 +203,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item1to_x: List[Item1toX] = field(
+    item1to_x: List[Item1ToX] = field(
         default_factory=list,
         metadata=dict(
             name="item1toX",
@@ -212,7 +212,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item2to2: List[Item2to2] = field(
+    item2to2: List[Item2To2] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -220,7 +220,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item2to_x: List[Item2toX] = field(
+    item2to_x: List[Item2ToX] = field(
         default_factory=list,
         metadata=dict(
             name="item2toX",
@@ -229,7 +229,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item3to7: List[Item3to7] = field(
+    item3to7: List[Item3To7] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

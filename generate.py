@@ -9,11 +9,10 @@ from typing import Iterator
 from typing import List
 from typing import Union
 
-from lxml import etree
-from xsdata.formats.dataclass.filters import class_name
 from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.utils import text
+from xsdata.utils.testing import read_root_name
 
 from models.xsts import Expected
 from models.xsts import ExpectedOutcome
@@ -218,18 +217,6 @@ def make_test_cases(path: Path, group: TestGroup):
             class_name=class_name,
             ns_struct=ns_struct,
         )
-
-
-def read_root_name(path: Path) -> str:
-    try:
-        recovering_parser = etree.XMLParser(recover=True)
-        tree = etree.parse(str(path), parser=recovering_parser)
-        root = tree.getroot()
-        return class_name(etree.QName(root.tag).localname)
-    except etree.XMLSyntaxError:
-        return ""
-    except OSError:
-        return ""
 
 
 def validity(expects: List[Expected]) -> Expected:

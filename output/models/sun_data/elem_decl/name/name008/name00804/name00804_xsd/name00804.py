@@ -441,7 +441,7 @@ class Bbb:
 
 
 @dataclass
-class Cc0c:
+class Cc0C:
     """
     :ivar value:
     """
@@ -543,7 +543,7 @@ class Dd:
 
 
 @dataclass
-class E0ee:
+class E0Ee:
     """
     :ivar value:
     """
@@ -594,7 +594,7 @@ class EEe:
 
 
 @dataclass
-class F0f0:
+class F0F0:
     """
     :ivar value:
     """
@@ -696,7 +696,7 @@ class G:
 
 
 @dataclass
-class P00p:
+class P00P:
     """
     :ivar value:
     """
@@ -932,7 +932,7 @@ class Root:
             required=True
         )
     )
-    cc0c: Optional[Cc0c] = field(
+    cc0c: Optional[Cc0C] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -946,21 +946,21 @@ class Root:
             required=True
         )
     )
-    e0ee: Optional[E0ee] = field(
+    e0ee: Optional[E0Ee] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    f0f0: Optional[F0f0] = field(
+    f0f0: Optional[F0F0] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    p00p: Optional[P00p] = field(
+    p00p: Optional[P00P] = field(
         default=None,
         metadata=dict(
             type="Element",

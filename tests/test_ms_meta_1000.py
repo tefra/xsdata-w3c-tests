@@ -5914,7 +5914,6 @@ def test_ct_m002_ct_m002_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_l022_ct_l022_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration : ability
@@ -9562,7 +9561,6 @@ def test_ct_a005_ct_a005_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_a003_ct_a003_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -9578,7 +9576,6 @@ def test_ct_a003_ct_a003_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_ct_a002_ct_a002_v(save_xml):
     """
     TEST :Syntax Checking for top level complexType Declaration :

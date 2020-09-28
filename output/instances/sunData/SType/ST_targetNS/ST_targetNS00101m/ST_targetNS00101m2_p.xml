@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Test xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3</Test>
+<test xmlns="ST_targetNSa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="ST_targetNS" xsi:type="ns2:Test">3</test>

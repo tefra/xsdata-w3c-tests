@@ -5100,7 +5100,6 @@ def test_au_attrdecl00101m1_p_positive(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_targetns00101m_target_ns00101m1_p(save_xml):
     """
     Simple types are identified by their {name} and {target namespace}.
@@ -5204,7 +5203,6 @@ def test_psubstitutions00104m_p_substitutions00104m2_n(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_psubstitutions00103m_p_substitutions00103m1_p(save_xml):
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
@@ -5345,7 +5343,6 @@ def test_psubstitutions00102m_p_substitutions00102m2_n(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_psubstitutions00101m_p_substitutions00101m1_p(save_xml):
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
@@ -11501,7 +11498,6 @@ def test_st_variety00101m1_negative(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_st_targetns00201m_st_target_ns00201m1_p(save_xml):
     """
     reference to type (valid schema) Simple type {name}s and {target
@@ -11517,7 +11513,6 @@ def test_st_targetns00201m_st_target_ns00201m1_p(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_st_targetns00101m_st_target_ns00101m1_p(save_xml):
     """
     Identify the type by their {name} and {target namespace} (valid
@@ -11584,7 +11579,6 @@ def test_st_targetns00101m_st_target_ns00101m2_n(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_st_name00401m_st_name00401m1_p(save_xml):
     """
     Simple type {name}s is provided for reference (valid schema) Simple

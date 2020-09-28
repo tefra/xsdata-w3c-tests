@@ -3,10 +3,13 @@ from typing import Optional
 
 
 @dataclass
-class C:
+class C2:
     """
     :ivar value:
     """
+    class Meta:
+        name = "C"
+
     value: Optional[str] = field(
         default=None,
         metadata=dict(
@@ -48,7 +51,7 @@ class B:
 
 
 @dataclass
-class C:
+class C1:
     """
     :ivar value:
     """

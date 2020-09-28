@@ -3,10 +3,13 @@ from typing import Optional
 
 
 @dataclass
-class A:
+class A2:
     """
     :ivar any_element:
     """
+    class Meta:
+        name = "A"
+
     any_element: Optional[object] = field(
         default=None,
         metadata=dict(
@@ -18,7 +21,7 @@ class A:
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar value:
     """
@@ -53,14 +56,14 @@ class Zing:
             required=True
         )
     )
-    a_element: Optional[A] = field(
+    a_element: Optional[A2] = field(
         default=None,
         metadata=dict(
             name="A",
             type="Element"
         )
     )
-    a: Optional[A] = field(
+    a: Optional[A1] = field(
         default=None,
         metadata=dict(
             type="Element"

@@ -5,11 +5,14 @@ __NAMESPACE__ = "modelGroup"
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar c:
     :ivar date:
     """
+    class Meta:
+        name = "A"
+
     c: Optional[int] = field(
         default=None,
         metadata=dict(
@@ -29,7 +32,7 @@ class A:
 
 
 @dataclass
-class A(A):
+class A(A1):
     class Meta:
         name = "a"
         namespace = "modelGroup"

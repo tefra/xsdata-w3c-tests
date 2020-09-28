@@ -20,10 +20,13 @@ class A:
 
 
 @dataclass
-class B(A):
+class B1(A):
     """
     :ivar d:
     """
+    class Meta:
+        name = "B"
+
     d: Optional[int] = field(
         default=None,
         metadata=dict(
@@ -35,7 +38,7 @@ class B(A):
 
 
 @dataclass
-class B(B):
+class B(B1):
     class Meta:
         name = "b"
         namespace = "abstract"

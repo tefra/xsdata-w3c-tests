@@ -17,10 +17,13 @@ class B:
 
 
 @dataclass
-class E:
+class E1:
     """
     :ivar any_attributes:
     """
+    class Meta:
+        name = "E"
+
     any_attributes: Dict = field(
         default_factory=dict,
         metadata=dict(
@@ -31,6 +34,6 @@ class E:
 
 
 @dataclass
-class E(E):
+class E(E1):
     class Meta:
         name = "e"

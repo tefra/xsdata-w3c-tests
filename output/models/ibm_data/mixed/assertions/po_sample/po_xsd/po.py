@@ -121,7 +121,7 @@ class PoBusinessRules:
 
 
 @dataclass
-class Order(PoBusinessRules):
+class Order1(PoBusinessRules):
     """
     :ivar buyer:
     :ivar billing_address:
@@ -216,6 +216,6 @@ class Order(PoBusinessRules):
 
 
 @dataclass
-class Order(Order):
+class Order(Order1):
     class Meta:
         name = "order"

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <item>abc</item>
+  <item>5</item>
+  <item/>
+  <item>1234567890</item>
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  <item>a</item>
+  <item>c123456789</item>
+  <item>b</item>
+  <item>1</item>
+  <item>4</item>
+  <item>c123456789</item>
+  <item>4</item>
+  <item>1 2 3 4</item>
+  <item>1 c123456789 b 4</item>
+  <item>1</item>
+  <item>2</item>
+</root>

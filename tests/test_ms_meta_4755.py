@@ -8535,7 +8535,6 @@ def test_st_z055_st_z055_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_st_z054_st_z054_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit
@@ -8649,7 +8648,6 @@ def test_st_z046_st_z046_v(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_st_z045_st_z045_v(save_xml):
     """
     TEST :Syntax Checking for simpleType Declaration : Need to permit

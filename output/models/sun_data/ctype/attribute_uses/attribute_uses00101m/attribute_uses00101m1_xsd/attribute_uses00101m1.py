@@ -5,12 +5,15 @@ __NAMESPACE__ = "attributeUses"
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar value:
     :ivar attr1:
     :ivar attr2:
     """
+    class Meta:
+        name = "A"
+
     value: Optional[int] = field(
         default=None,
     )
@@ -30,7 +33,7 @@ class A:
 
 
 @dataclass
-class A(A):
+class A(A1):
     class Meta:
         name = "a"
         namespace = "attributeUses"

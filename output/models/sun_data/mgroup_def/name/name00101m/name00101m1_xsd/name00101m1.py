@@ -5,10 +5,13 @@ __NAMESPACE__ = "name"
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar c:
     """
+    class Meta:
+        name = "A"
+
     c: Optional[int] = field(
         default=None,
         metadata=dict(
@@ -20,7 +23,7 @@ class A:
 
 
 @dataclass
-class A(A):
+class A(A1):
     class Meta:
         name = "a"
         namespace = "name"

@@ -3,7 +3,7 @@ from typing import List, Optional
 
 
 @dataclass
-class Complex1:
+class Complex11:
     """
     :ivar any_element:
     """
@@ -20,7 +20,7 @@ class Complex1:
 
 
 @dataclass
-class Complex2:
+class Complex21:
     class Meta:
         name = "COMPLEX2"
 
@@ -45,13 +45,13 @@ class SubstHead:
 
 
 @dataclass
-class Complex1(Complex1):
+class Complex1(Complex11):
     class Meta:
         name = "complex1"
 
 
 @dataclass
-class Complex2(Complex2):
+class Complex2(Complex21):
     class Meta:
         name = "complex2"
 

@@ -5,11 +5,14 @@ __NAMESPACE__ = "attrWildcard"
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar b:
     :ivar any_attributes:
     """
+    class Meta:
+        name = "A"
+
     b: Optional[int] = field(
         default=None,
         metadata=dict(
@@ -28,7 +31,7 @@ class A:
 
 
 @dataclass
-class A(A):
+class A(A1):
     class Meta:
         name = "a"
         namespace = "attrWildcard"

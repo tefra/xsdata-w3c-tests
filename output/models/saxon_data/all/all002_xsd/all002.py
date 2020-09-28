@@ -3,10 +3,13 @@ from typing import List, Optional
 
 
 @dataclass
-class C:
+class C2:
     """
     :ivar any_element:
     """
+    class Meta:
+        name = "C"
+
     any_element: Optional[object] = field(
         default=None,
         metadata=dict(
@@ -18,10 +21,13 @@ class C:
 
 
 @dataclass
-class D:
+class D2:
     """
     :ivar any_element:
     """
+    class Meta:
+        name = "D"
+
     any_element: Optional[object] = field(
         default=None,
         metadata=dict(
@@ -33,7 +39,7 @@ class D:
 
 
 @dataclass
-class C:
+class C1:
     """
     :ivar any_element:
     """
@@ -51,7 +57,7 @@ class C:
 
 
 @dataclass
-class D:
+class D1:
     """
     :ivar any_element:
     """
@@ -97,7 +103,7 @@ class Doc:
             max_occurs=5
         )
     )
-    c_element: List[C] = field(
+    c_element: List[C2] = field(
         default_factory=list,
         metadata=dict(
             name="C",
@@ -106,7 +112,7 @@ class Doc:
             max_occurs=9223372036854775807
         )
     )
-    c: List[C] = field(
+    c: List[C1] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -114,7 +120,7 @@ class Doc:
             max_occurs=9223372036854775807
         )
     )
-    d_element: Optional[D] = field(
+    d_element: Optional[D2] = field(
         default=None,
         metadata=dict(
             name="D",
@@ -122,7 +128,7 @@ class Doc:
             required=True
         )
     )
-    d: Optional[D] = field(
+    d: Optional[D1] = field(
         default=None,
         metadata=dict(
             type="Element",

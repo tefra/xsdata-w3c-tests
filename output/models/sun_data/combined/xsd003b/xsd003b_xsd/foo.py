@@ -76,3 +76,10 @@ class ComplexType:
             required=True
         )
     )
+
+
+@dataclass
+class Root(ComplexType):
+    class Meta:
+        name = "root"
+        namespace = "foo"

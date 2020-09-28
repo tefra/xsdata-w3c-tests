@@ -965,6 +965,7 @@ def test_xsd003b_xsd003b_n00(save_xml):
         instance="sunData/combined/xsd003b/xsd003b.n00.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
@@ -981,12 +982,12 @@ def test_xsd003b_xsd003b_n01(save_xml):
         instance="sunData/combined/xsd003b/xsd003b.n01.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v00(save_xml):
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -997,12 +998,12 @@ def test_xsd003b_xsd003b_v00(save_xml):
         instance="sunData/combined/xsd003b/xsd003b.v00.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_xsd003b_xsd003b_v01(save_xml):
     """
     xsd003b Element redefinition. Test with redefinition with self-
@@ -1013,6 +1014,7 @@ def test_xsd003b_xsd003b_v01(save_xml):
         instance="sunData/combined/xsd003b/xsd003b.v01.xml",
         class_name="Root",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 

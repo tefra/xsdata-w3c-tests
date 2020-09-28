@@ -188,10 +188,7 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_name = text.snake_case(group.name)
     documentation = make_docstring(group)
 
-    if group.name in (
-        "schD5",
-        "schD7",
-    ):
+    if group.name in ("schD5", "schD7", "xsd003b"):
         ns_struct = True
 
     for instance in group.instance_test:

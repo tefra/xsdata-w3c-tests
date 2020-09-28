@@ -96,7 +96,7 @@ class G(FType):
 
 
 @dataclass
-class Container:
+class Container1:
     """
     :ivar g:
     :ivar f:
@@ -175,7 +175,7 @@ class Container:
 
 
 @dataclass
-class Container(Container):
+class Container(Container1):
     class Meta:
         name = "container"
         namespace = "http://www.microsoft.com/schema/1"

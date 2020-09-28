@@ -5,11 +5,14 @@ __NAMESPACE__ = "derivationMethod"
 
 
 @dataclass
-class A:
+class A1:
     """
     :ivar value:
     :ivar t:
     """
+    class Meta:
+        name = "A"
+
     value: Optional[int] = field(
         default=None,
     )
@@ -22,7 +25,7 @@ class A:
 
 
 @dataclass
-class A(A):
+class A(A1):
     class Meta:
         name = "a"
         namespace = "derivationMethod"

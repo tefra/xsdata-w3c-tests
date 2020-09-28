@@ -3,7 +3,7 @@ from typing import Optional
 
 
 @dataclass
-class Shape:
+class Shape1:
     """
     :ivar a:
     :ivar b:
@@ -11,6 +11,9 @@ class Shape:
     :ivar d:
     :ivar type:
     """
+    class Meta:
+        name = "Shape"
+
     a: Optional[int] = field(
         default=None,
         metadata=dict(
@@ -52,6 +55,6 @@ class Shape:
 
 
 @dataclass
-class Shape(Shape):
+class Shape(Shape1):
     class Meta:
         name = "shape"

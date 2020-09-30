@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "mailto:davebrow@microsoft.com"
+    },
+    "simple_test": {
+        "value": "mailto:davebrow@microsoft.com"
+    }
+}

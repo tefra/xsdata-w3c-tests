@@ -1,0 +1,19 @@
+{
+    "s_a": null,
+    "test": null,
+    "test2": {
+        "any_element": {
+            "qname": null,
+            "text": "1",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {
+                "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB"
+            }
+        }
+    },
+    "test3": null
+}

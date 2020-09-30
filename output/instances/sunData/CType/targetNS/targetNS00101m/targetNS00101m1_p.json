@@ -1,0 +1,6 @@
+{
+    "qname": "{targetNS}test",
+    "value": {
+        "abc": "1"
+    }
+}

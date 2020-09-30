@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "qname": "a",
+            "value": {}
+        },
+        {
+            "qname": "b",
+            "value": {
+                "open_com_element": {
+                    "qname": "{http://open.com/}extra",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "http://open.com/"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            }
+        }
+    ],
+    "a": null,
+    "b": null
+}

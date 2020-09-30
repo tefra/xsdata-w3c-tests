@@ -1,0 +1,25 @@
+{
+    "foo_test": {
+        "content": [
+            "\n\tmixed content\n\t",
+            {
+                "qname": "child_1",
+                "text": "info",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "child_2",
+                "text": 3,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "child_1": null,
+        "child_2": null
+    }
+}

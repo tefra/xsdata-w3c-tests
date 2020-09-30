@@ -1,0 +1,34 @@
+{
+    "e1": null,
+    "e2": null,
+    "e3": [],
+    "e4": [],
+    "e5": [],
+    "e6": [
+        {
+            "any_element": [
+                {
+                    "qname": "e3",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {},
+                    "children": [
+                        {
+                            "qname": "e31",
+                            "text": null,
+                            "tail": null,
+                            "ns_map": {},
+                            "children": [],
+                            "attributes": {}
+                        }
+                    ],
+                    "attributes": {
+                        "att": "123"
+                    }
+                }
+            ]
+        }
+    ],
+    "e7": [],
+    "e8": []
+}

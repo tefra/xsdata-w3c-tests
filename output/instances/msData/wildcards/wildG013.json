@@ -1,0 +1,76 @@
+{
+    "target_namespace_w3_org_1999_xhtml_element": [
+        {
+            "qname": "{http://www.w3.org/1999/xhtml}foo",
+            "text": "foo bar",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://xsdtesting}b",
+            "text": "testing",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://www.w3.org/1999/xhtml}foo",
+            "text": "foo bar",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://www.w3.org/1999/xhtml}foo",
+            "text": "foo bar",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://xsdtesting}b",
+            "text": "testing",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://xsdtesting}b",
+            "text": "testing",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xsdtesting",
+                "a": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

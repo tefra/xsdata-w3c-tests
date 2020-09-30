@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{NISTSchema-SV-IV-atomic-ID-maxLength-5-NS}NISTSchema-SV-IV-atomic-ID-maxLength-5",
+        "text": "drepository.prot",
+        "tail": null,
+        "ns_map": {
+            "null": "NISTSchema-SV-IV-atomic-ID-maxLength-5-NS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

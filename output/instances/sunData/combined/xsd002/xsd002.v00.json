@@ -1,0 +1,69 @@
+{
+    "foo": [
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "bar": [
+        {
+            "qname": "{http://foo.com}bar",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://foo.com}bar",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "x": "http://foo.com",
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "zot": [
+        {
+            "qname": "zot",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "zot",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "http://foo.com"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

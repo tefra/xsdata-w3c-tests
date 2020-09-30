@@ -1,0 +1,37 @@
+{
+    "ship_to": null,
+    "bill_to": null,
+    "single_address": {
+        "name": "Helen Zoe",
+        "street": "47 Eden Street",
+        "city": "Cambridge",
+        "postcode": "CB1 1JR",
+        "export_code": 1
+    },
+    "customer_comment": null,
+    "ship_comment": null,
+    "comment": {
+        "value": "I love Boeing too!"
+    },
+    "items": {
+        "content": [
+            {
+                "qname": "item",
+                "value": {
+                    "product_name": "777 Model",
+                    "quantity": 1,
+                    "usprice": "99.95",
+                    "customer_comment": [],
+                    "ship_comment": [],
+                    "comment": [],
+                    "ship_date": "1999-12-05",
+                    "part_num": "777-AB",
+                    "weight_kg": "4.5",
+                    "ship_by": "air"
+                }
+            }
+        ],
+        "item": []
+    },
+    "order_date": "2002-10-20"
+}

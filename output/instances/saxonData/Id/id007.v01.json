@@ -1,0 +1,48 @@
+{
+    "node": [
+        {
+            "node": [],
+            "mixed_a": [],
+            "mixed_b": [],
+            "mixed_a_attribute": [
+                "A001",
+                "B001"
+            ],
+            "mixed_b_attribute": []
+        },
+        {
+            "node": [],
+            "mixed_a": [],
+            "mixed_b": [],
+            "mixed_a_attribute": [],
+            "mixed_b_attribute": [
+                "A001",
+                "B001"
+            ]
+        },
+        {
+            "node": [],
+            "mixed_a": [
+                [
+                    "A002",
+                    "B002"
+                ]
+            ],
+            "mixed_b": [],
+            "mixed_a_attribute": [],
+            "mixed_b_attribute": []
+        },
+        {
+            "node": [],
+            "mixed_a": [],
+            "mixed_b": [
+                [
+                    "A002",
+                    "B002"
+                ]
+            ],
+            "mixed_a_attribute": [],
+            "mixed_b_attribute": []
+        }
+    ]
+}

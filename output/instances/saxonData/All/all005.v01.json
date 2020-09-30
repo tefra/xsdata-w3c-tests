@@ -1,0 +1,71 @@
+{
+    "a_ns_element": [
+        {
+            "qname": "{http://a.ns/}wasp",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://b.ns/}bee",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://a.ns/}ant",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://b.ns/}beetle",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://a.ns/}earwig",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://b.ns/}maybug",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "a": "http://a.ns/",
+                "b": "http://b.ns/"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b_ns_element": []
+}

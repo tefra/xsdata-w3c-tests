@@ -1,0 +1,102 @@
+{
+    "entity": [],
+    "anyuri": [
+        {
+            "value": "http://tempuri"
+        }
+    ],
+    "hexbinary": [
+        {
+            "value": "abcd"
+        }
+    ],
+    "month": [
+        {
+            "value": "--12"
+        }
+    ],
+    "day": [
+        {
+            "value": "---15"
+        }
+    ],
+    "monthday": [
+        {
+            "value": "--02-13"
+        }
+    ],
+    "year": [
+        {
+            "value": "2004"
+        }
+    ],
+    "date": [
+        {
+            "value": "1999-05-31"
+        }
+    ],
+    "time": [
+        {
+            "value": "13:20:00-05:00"
+        }
+    ],
+    "datetime": [
+        {
+            "value": "1999-05-31T13:20:00-05:00"
+        }
+    ],
+    "duration": [
+        {
+            "value": "P1347Y"
+        }
+    ],
+    "decimal": [
+        {
+            "value": "56"
+        },
+        {
+            "value": "-56"
+        },
+        {
+            "value": "-562135"
+        }
+    ],
+    "double": [],
+    "float_value": [
+        {
+            "value": 1.2
+        },
+        {
+            "value": 5.24276
+        },
+        {
+            "value": 5.24276
+        }
+    ],
+    "bool_value": [
+        {
+            "value": true
+        },
+        {
+            "value": false
+        }
+    ],
+    "int_value": [
+        {
+            "value": 123
+        },
+        {
+            "value": -123
+        }
+    ],
+    "string": [
+        {
+            "value": "this is a string"
+        }
+    ],
+    "item": [
+        {
+            "value": "abc"
+        }
+    ]
+}

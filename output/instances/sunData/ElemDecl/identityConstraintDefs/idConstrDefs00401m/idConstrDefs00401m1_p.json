@@ -1,0 +1,9 @@
+{
+    "person": [
+        {
+            "value": "John Smith",
+            "ssn": "p007",
+            "parent": "p007"
+        }
+    ]
+}

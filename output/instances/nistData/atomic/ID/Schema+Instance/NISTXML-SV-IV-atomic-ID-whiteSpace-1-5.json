@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS}NISTSchema-SV-IV-atomic-ID-whiteSpace-1",
+        "text": "ithe_g.other-improved_asking-metrology-number_e.and",
+        "tail": null,
+        "ns_map": {
+            "null": "NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

@@ -1,0 +1,2067 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "yearMonthDuration."
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests the simpleType yearMonthDuration and its facets and its use in elements "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests the simpleType decimal and its facets and its use in attributes "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v02.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v02i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests yearMonthDuration used in unions "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v04.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v04i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v05.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v05s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v05.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v05i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v05",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Pattern is a valid facet for yearMonthDuration "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v06.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26v06s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D3_4_26/d3_4_26v06.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26v06i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26v06",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Invalid yearMonthDuration values "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Invalid yearMonthDuration enumeration values  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii02i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Invalid yearMonthDuration Min/Max Inclusive "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Invalid yearMonthDuration Min/Max Exclusive "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii04i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Invalid values of yearMonthDuration and invalid instance of its facets used in attributes "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii05s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii05i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii05",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests yearMonthDuration used in unions "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii06s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii06i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii06",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26ii07s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d3_4_26ii07i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d3_4_26ii07",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "length is an invalid facet for yearMonthDuration "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "(min|max)? (Inclusive|Exclusive) are not of the base type specification  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive) "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "The value of minInclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si05.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si05s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si05",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si06.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si06s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si06",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si07.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si07s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si07",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "The value of maxExclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si08.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si08s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si08",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Enumeration values are incorrect yearMonthDuration values "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si09.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si09s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si09",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "The value of whiteSpace facet can only be collapse "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si10.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si10s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si10",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si11.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si11s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si11",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests negative boundary values and equality.\n (min)(Inclusive|Exclusive) > (max)(Inclusive|Exclusive) "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_4_26/d3_4_26si12.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_4_26si12s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_4_26si12",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "yearMonthDuration",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

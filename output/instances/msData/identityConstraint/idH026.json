@@ -1,0 +1,74 @@
+{
+    "uid": [
+        {
+            "any_element": {
+                "qname": "{fooNS.tempuri.org}a",
+                "text": "1",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "myNS": "myNS.tempuri.org",
+                    "fooNS": "fooNS.tempuri.org"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "any_element": {
+                "qname": "{fooNS.tempuri.org}a",
+                "text": "11",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "myNS": "myNS.tempuri.org",
+                    "fooNS": "fooNS.tempuri.org"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "any_element": {
+                "qname": "{fooNS.tempuri.org}a",
+                "text": "111",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "myNS": "myNS.tempuri.org",
+                    "fooNS": "fooNS.tempuri.org"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "any_element": {
+                "qname": "{fooNS.tempuri.org}a",
+                "text": "11.0",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "myNS": "myNS.tempuri.org",
+                    "fooNS": "fooNS.tempuri.org"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "kid": [
+        {
+            "val": "1"
+        },
+        {
+            "val": "11"
+        },
+        {
+            "val": "111"
+        },
+        {
+            "val": "1.0"
+        }
+    ]
+}

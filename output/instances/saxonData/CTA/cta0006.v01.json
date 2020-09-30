@@ -1,0 +1,20 @@
+{
+    "message": [
+        {
+            "kind": "{http://www.w3.org/2001/XMLSchema}int",
+            "value": "12"
+        },
+        {
+            "kind": "{http://www.w3.org/2001/XMLSchema}date",
+            "value": "2007-12-31"
+        },
+        {
+            "kind": "{http://www.w3.org/2001/XMLSchema}decimal",
+            "value": "93.7"
+        },
+        {
+            "kind": "{http://www.w3.org/2001/XMLSchema}QName",
+            "value": "{http://saxon.sf.net/}assign"
+        }
+    ]
+}

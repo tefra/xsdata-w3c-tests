@@ -1,0 +1,20 @@
+{
+    "p": {
+        "x": 1,
+        "y": 2,
+        "any_element": [
+            {
+                "qname": "z",
+                "text": "sdf9873",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "a"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ]
+    },
+    "any_element": null
+}

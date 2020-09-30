@@ -1,0 +1,12 @@
+{
+    "any_element": {
+        "qname": "{http://eden.com/}adam",
+        "text": "eve",
+        "tail": null,
+        "ns_map": {
+            "null": "http://eden.com/"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

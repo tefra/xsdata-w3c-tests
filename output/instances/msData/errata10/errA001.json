@@ -1,0 +1,44 @@
+{
+    "test_byte": [
+        -100
+    ],
+    "test_unsigned_byte": [
+        100
+    ],
+    "test_integer": [
+        -32000
+    ],
+    "test_positive_integer": [
+        50000
+    ],
+    "test_negative_integer": [
+        -50000
+    ],
+    "test_non_negative_integer": [
+        50000
+    ],
+    "test_non_positive_integer": [
+        -50000
+    ],
+    "test_int": [
+        -32000
+    ],
+    "test_unsigned_int": [
+        50000
+    ],
+    "test_long": [
+        -123456789012345
+    ],
+    "test_unsigned_long": [
+        12345789012345
+    ],
+    "test_short": [
+        -12345
+    ],
+    "test_unsigned_short": [
+        12345
+    ],
+    "test_decimal": [
+        "123456789.12345"
+    ]
+}

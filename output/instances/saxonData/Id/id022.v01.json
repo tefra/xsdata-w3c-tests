@@ -1,0 +1,23 @@
+{
+    "para": [
+        {
+            "value": null,
+            "key": "alpha",
+            "ref": []
+        },
+        {
+            "value": null,
+            "key": "beta",
+            "ref": [
+                "alpha"
+            ]
+        },
+        {
+            "value": null,
+            "key": "gamma",
+            "ref": [
+                "beta"
+            ]
+        }
+    ]
+}

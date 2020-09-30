@@ -1,0 +1,71 @@
+{
+    "a": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b": [
+        {
+            "qname": "b",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "b",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "c_element": [
+        {
+            "any_element": null
+        },
+        {
+            "any_element": null
+        }
+    ],
+    "c": [
+        {
+            "any_element": null
+        }
+    ],
+    "d_element": {
+        "any_element": null
+    },
+    "d": null
+}

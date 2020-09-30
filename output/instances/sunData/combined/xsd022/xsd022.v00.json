@@ -1,0 +1,29 @@
+{
+    "child1": [
+        [
+            "123456",
+            "abcdef",
+            "xxxxxxxx"
+        ]
+    ],
+    "child2": [
+        {
+            "value": true
+        },
+        {
+            "value": false
+        },
+        {
+            "value": false
+        },
+        {
+            "value": true
+        },
+        {
+            "value": "abcdef"
+        },
+        {
+            "value": "xxxxxxxx"
+        }
+    ]
+}

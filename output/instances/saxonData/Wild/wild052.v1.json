@@ -1,0 +1,11 @@
+{
+    "name": "",
+    "any_element": {
+        "qname": "nome",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    }
+}

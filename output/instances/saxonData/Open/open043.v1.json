@@ -1,0 +1,14 @@
+{
+    "a": null,
+    "b": null,
+    "open_com_element": [
+        {
+            "qname": "a",
+            "value": {}
+        },
+        {
+            "qname": "b",
+            "value": {}
+        }
+    ]
+}

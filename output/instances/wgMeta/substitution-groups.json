@@ -1,0 +1,2057 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        {
+                            "qname": "{http://www.w3.org/1999/xhtml}div",
+                            "text": null,
+                            "tail": null,
+                            "ns_map": {
+                                "null": "http://www.w3.org/1999/xhtml",
+                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                "xlink": "http://www.w3.org/1999/xlink"
+                            },
+                            "children": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}p",
+                                    "text": "A set of tests on changes to substition-group behavior,\n     constructed by hand, as a contribution to the XML Schema 1.1\n     test suite.\n    ",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}p",
+                                    "text": "Revisions:",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}ul",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}li",
+                                            "text": "2010-06-17 : CMSMcQ : add test groups \n      ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "sg-abstract-upa",
+                                                    "tail": " etc. for\n      checking the changes defining abstract elements as members\n      of substitution groups.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "#sg-abstract-upa"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}li",
+                                            "text": "2010-06-16 : CMSMcQ : correct error in test of content \n      model competition:  the negative wildcard does compete\n      with n, but the element wins (UPA has been weakened in 1.1).\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}li",
+                                            "text": "2010-06-16 : CMSMcQ : move this catalog into \n      the dev.w3.org directory structure in directory wgMeta.  Change\n      locations of DTD, stylesheet, etc. accordingly.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}li",
+                                            "text": "2010-06-10 : CMSMcQ : create this test catalog,\n                               using XHTML modularization driver.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "attributes": {}
+                        }
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {}
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "\n      In section ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "G.1.3 Changes to content models",
+                                                    "tail": ", XSD 1.1 says\n      (in list item 3):\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "http://www.w3.org/TR/xmlschema11-1/#ch_models"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}blockquote",
+                                            "text": null,
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}p",
+                                                    "text": "Finally, the keyword ##definedSibling can be used to exclude\n       all elements explicitly mentioned in a content model (and all\n       elements substitutable for those elements).",
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "   \n      So we test the following interactions of definedSibling\n      and substitution groups, in schemas with some subset of\n      elements e, s, n, s1, n1, s2, n2, with s1 substitutable \n      ('s') for s, and s2 for s1, but n1 and n2 ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}em",
+                                                    "text": "not",
+                                                    "tail": "\n      substitutable for n (or anything else).  Elements n and s are\n      siblings, together with a negative wildcard (no positive \n      wildcard is possible) which has the keyword #definedSibling.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}ol",
+                                            "text": null,
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}li",
+                                                    "text": "A negative wildcard excludes s1 but not n1.",
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                },
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}li",
+                                                    "text": "A negative wildcard competes with n but not s,\n       but the result is the same in either case, since\n       when elements and wildcards compete, the element\n       wins.",
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "\n      In this test set, we exercise the fact that a\n      negative wildcard excludes s1 but not n1.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snneg.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "snneg",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/s1n.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "s1n",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sn1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sn1",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sne.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sne",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sns.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sns",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snn1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snn1",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sns1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sns1",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-and-defined-Sibling-1",
+            "version": [
+                "1.0",
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "\n      Negative wildcard excludes s1 but not n1.\n      (Second time around).\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/negsn.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [
+                            "1.1"
+                        ],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "negsn",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/esn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "esn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/nsn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "nsn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/ssn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "ssn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/n1sn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "n1sn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/s1sn.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "s1sn",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-and-defined-Sibling-2",
+            "version": [
+                "1.0",
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "A negative wildcard competes with n, but not s.",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "But elements outrank wildcards, so there's no conflict \n      in either case.",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "This test defines a content model beginning with s, n\n      and continuing with any of (negative-wildcard, a),\n      (s, b), or (n, c).  \n      The instance tests have element sequences beginning\n      with s and n, continuing with one of s1, n1, e,\n      and ending with one of a, b, c.  \n      The sequences with s1 test the processor's handling\n      of the competition between s1 and the negative wildcard.\n      The other tests are present primarily for symmetry.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snbranch.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [
+                            "1.1"
+                        ],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "snbranch",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sns1a.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sns1a",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sns1b.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sns1b",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sns1c.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sns1c",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snn1a.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snn1a",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snn1b.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snn1b",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snn1c.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snn1c",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snea.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snea",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/sneb.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "sneb",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/snec.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "snec",
+                    "version": [
+                        "1.1"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-and-defined-Sibling-3",
+            "version": [
+                "1.0",
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "\n      In section ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "G.1.9 Element declarations",
+                                                    "tail": ", XSD 1.1 says\n      (in list item 3):\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}blockquote",
+                                            "text": null,
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}p",
+                                                    "text": "Abstract elements may now appear in substitution groups.",
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "This change was adopted to resolve bug \n      ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "4337 \n       Substitution group and abstract",
+                                                    "tail": ", which pointed out some\n      uncertainty about whether particular content models did or did\n      not violate the UPA and EDC constraints.",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "Because no element in a document instance is locally valid\n      against an abstract element declaration, this change does not\n      mean that abstract elements can now be instantiated in a valid\n      instance document.  Instead, the effect is to make clear that\n      abstract element declarations are considered when deciding\n      whether a content model violates constraints defined in terms of\n      elements' substitution groups.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "This test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/upa.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.1"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "schemaTest",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1token.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1token.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1short.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1short.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-abstract-upa",
+            "version": [
+                "1.0",
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "For context see test group\n      ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "sg-abstract-upa",
+                                                    "tail": " above.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "#sg-abstact-upa"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "Like ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "sg-abstract-upa",
+                                                    "tail": ",\n      this test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "#sg-abstact-upa"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "In this case, however, the top-level ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}tt",
+                                                    "text": "e1",
+                                                    "tail": "\n      and the local ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                },
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}tt",
+                                                    "text": "e1",
+                                                    "tail": " have different types.\n      If a 1.0 processor ignores the global ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                },
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}tt",
+                                                    "text": "e1",
+                                                    "tail": " on\n      the grounds that it's not a member of the actual\n      substitution group of ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                },
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}tt",
+                                                    "text": "e",
+                                                    "tail": ", then it will accept\n      this schema, and validate the instances as shown.\n      A 1.1 processor must reject the schema; it violates\n      both UPA and EDC.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {}
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/upa2.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.1"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "schemaTest",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1bis.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1token.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1token.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1short.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1short.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-abstract-upa2",
+            "version": [
+                "1.0",
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/1999/xhtml}div",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/1999/xhtml",
+                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "For context see test group\n      ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/1999/xhtml}a",
+                                                    "text": "sg-abstract-upa",
+                                                    "tail": " above.\n     ",
+                                                    "ns_map": {
+                                                        "null": "http://www.w3.org/1999/xhtml",
+                                                        "xs": "http://www.w3.org/2001/XMLSchema",
+                                                        "xlink": "http://www.w3.org/1999/xlink"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "href": "#sg-abstact-upa"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "The schema in this test group illustrates the violation of\n      the Element Declarations Consistent constraint by an abstract\n      top-level element.  XSD 1.0 processors which treat abstract\n      elements as not part of any actual substitution group will\n      accept the schema and validate the instances accordingly.\n     ",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        },
+                                        {
+                                            "qname": "{http://www.w3.org/1999/xhtml}p",
+                                            "text": "XSD 1.1 processors must reject the schema.",
+                                            "tail": null,
+                                            "ns_map": {
+                                                "null": "http://www.w3.org/1999/xhtml",
+                                                "xs": "http://www.w3.org/2001/XMLSchema",
+                                                "xlink": "http://www.w3.org/1999/xlink"
+                                            },
+                                            "children": [],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/edc.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [
+                            "1.0"
+                        ],
+                        "other_attributes": {}
+                    },
+                    {
+                        "validity": "invalid",
+                        "version": [
+                            "1.1"
+                        ],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": null,
+                "prior": [],
+                "name": "schemaTest",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/ee1s.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "ee1s.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/ee1t.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "ee1t.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/ee1i.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "ee1i.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1se1s.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1se1s.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1se1t.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1se1t.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1se1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1se1i.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ite1s.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ite1s.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ite1t.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ite1t.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ite1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ite1i.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ie1s.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ie1s.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ie1t.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ie1t.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../wgData/sg/e1ie1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": null,
+                    "prior": [],
+                    "name": "e1ie1i.xml",
+                    "version": [
+                        "1.0"
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "sg-abstract-edc",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "C. M. Sperberg-McQueen",
+    "name": "substitution-groups",
+    "version": [
+        "1.1"
+    ],
+    "other_attributes": {}
+}

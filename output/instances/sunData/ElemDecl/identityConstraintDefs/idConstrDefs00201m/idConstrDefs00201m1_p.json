@@ -1,0 +1,14 @@
+{
+    "account": [
+        "johnsm",
+        "annabr"
+    ],
+    "name": [
+        "John Smith",
+        "Anna Brown"
+    ],
+    "manager": [
+        "johnsm",
+        "johnsm"
+    ]
+}

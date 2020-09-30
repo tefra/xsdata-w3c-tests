@@ -1,0 +1,12 @@
+{
+    "a": {
+        "qname": "a",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "b": null,
+    "c": null
+}

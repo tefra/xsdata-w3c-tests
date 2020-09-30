@@ -1,0 +1,13 @@
+{
+    "local": {
+        "qname": "Local",
+        "text": "2",
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/minOccurs",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

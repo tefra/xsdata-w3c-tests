@@ -1,0 +1,19 @@
+{
+    "dimension": [
+        {
+            "value": "square",
+            "length": "1.0",
+            "width": "1"
+        },
+        {
+            "value": "lrectangle",
+            "length": "2.0",
+            "width": "1.1"
+        },
+        {
+            "value": "other",
+            "length": "1",
+            "width": "2"
+        }
+    ]
+}

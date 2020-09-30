@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "http://www.w3.org/1999/XMLSchema"
+    },
+    "simple_test": {
+        "value": "http://www.w3.org/1999/XMLSchema"
+    }
+}

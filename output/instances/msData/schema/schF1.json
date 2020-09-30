@@ -1,0 +1,72 @@
+{
+    "any_element": [
+        {
+            "qname": "{ns-a}e1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a"
+            },
+            "children": [
+                {
+                    "qname": "{ns-a}a1",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "{ns-a}a2",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        },
+        {
+            "qname": "e1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a"
+            },
+            "children": [
+                {
+                    "qname": "a1",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "a2",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        }
+    ]
+}

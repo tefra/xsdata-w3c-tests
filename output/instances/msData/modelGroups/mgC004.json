@@ -1,0 +1,32 @@
+{
+    "a": {
+        "qname": "a",
+        "text": "test1",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "b": {
+        "qname": "b",
+        "text": "test2",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "c": {
+        "qname": "c",
+        "text": "test3",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

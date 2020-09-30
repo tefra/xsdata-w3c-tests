@@ -1,0 +1,27 @@
+{
+    "any_element": {
+        "qname": null,
+        "text": "\n1242\n        ",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xsd": "http://www.w3.org/2001/XMLSchema"
+        },
+        "children": [
+            {
+                "qname": "b",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "xsd": "http://www.w3.org/2001/XMLSchema"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {
+            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType"
+        }
+    }
+}

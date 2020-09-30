@@ -1,0 +1,33 @@
+{
+    "node": [
+        {
+            "node": [
+                {
+                    "node": [],
+                    "id": [],
+                    "id_one": "ccc",
+                    "any_attributes": {
+                        "id-two": "ddd"
+                    }
+                },
+                {
+                    "node": [],
+                    "id": [],
+                    "id_one": "eee",
+                    "any_attributes": {
+                        "id-two": "eee"
+                    }
+                }
+            ],
+            "id": [
+                "zzz",
+                "zzz",
+                "aaa"
+            ],
+            "id_one": "aaa",
+            "any_attributes": {
+                "id-two": "bbb"
+            }
+        }
+    ]
+}

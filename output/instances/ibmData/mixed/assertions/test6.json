@@ -1,0 +1,14 @@
+{
+    "body": [
+        {
+            "qname": "body",
+            "text": "test message..",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "must_understand": "YES",
+    "attr1": "test value.."
+}

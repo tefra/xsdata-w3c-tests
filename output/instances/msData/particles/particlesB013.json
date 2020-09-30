@@ -1,0 +1,17 @@
+{
+    "elem": {
+        "any_element": [
+            {
+                "qname": "{foo}b",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "foo",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ]
+    }
+}

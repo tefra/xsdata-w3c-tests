@@ -1,0 +1,195 @@
+{
+    "e1": [
+        {
+            "any_element": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "element1": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "e2": [
+        {
+            "element1": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "any_element": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "e3": [
+        {
+            "element1": [
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "any_element": null
+        }
+    ],
+    "e4": [
+        {
+            "any_element": [
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "element1": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "e5": [
+        {
+            "element1": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "any_element": [
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
+        }
+    ],
+    "e6": [
+        {
+            "element1": {
+                "qname": "element1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "any_element": [
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
+        }
+    ]
+}

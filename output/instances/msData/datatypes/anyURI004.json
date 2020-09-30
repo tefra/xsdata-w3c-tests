@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "http://www.w3.org/XML/Group/xmlschema-current/datatypes/datatypes.html#uriReference"
+    },
+    "simple_test": {
+        "value": "http://www.w3.org/XML/Group/xmlschema-current/datatypes/datatypes.html#uriReference"
+    }
+}

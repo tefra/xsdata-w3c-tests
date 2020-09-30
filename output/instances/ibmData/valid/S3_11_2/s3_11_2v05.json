@@ -1,0 +1,28 @@
+{
+    "dept": [
+        {
+            "deptno": 10,
+            "dname": "Accounting",
+            "loc": "Dallas"
+        },
+        {
+            "deptno": 20,
+            "dname": "Production",
+            "loc": "New York"
+        }
+    ],
+    "employee": [
+        {
+            "empno": 1001,
+            "ename": "Jag",
+            "sal": 2500.0,
+            "deptno": 10
+        },
+        {
+            "empno": 1002,
+            "ename": "Win",
+            "sal": 2600.0,
+            "deptno": 20
+        }
+    ]
+}

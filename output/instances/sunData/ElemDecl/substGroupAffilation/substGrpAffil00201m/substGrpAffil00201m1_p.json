@@ -1,0 +1,31 @@
+{
+    "super_element": [
+        {
+            "any_element": null
+        }
+    ],
+    "super_super_element": [
+        {
+            "any_element": null
+        }
+    ],
+    "separator": {
+        "qname": "{ElemDecl/substGroupAffilation}Separator",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "null": "ElemDecl/substGroupAffilation",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "element": [
+        {
+            "any_element": null
+        },
+        {
+            "any_element": null
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "any_element": {
+        "qname": "{AttrGroup/name}elementWithAttr",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "td": "AttrGroup/name"
+        },
+        "children": [],
+        "attributes": {
+            "number": "157"
+        }
+    }
+}

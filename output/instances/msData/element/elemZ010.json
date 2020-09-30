@@ -1,0 +1,64 @@
+{
+    "a": {
+        "d": {
+            "qname": "{d}d",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "m": "main",
+                "a": "a",
+                "b": "b",
+                "c": "c",
+                "d": "d"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "c": {
+            "qname": "{c}c",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "m": "main",
+                "a": "a",
+                "b": "b",
+                "c": "c",
+                "d": "d"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "b": {
+            "qname": "{b}b",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "m": "main",
+                "a": "a",
+                "b": "b",
+                "c": "c",
+                "d": "d"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "a": {
+            "qname": "{a}a",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "m": "main",
+                "a": "a",
+                "b": "b",
+                "c": "c",
+                "d": "d"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    }
+}

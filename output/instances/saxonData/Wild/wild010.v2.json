@@ -1,0 +1,12 @@
+{
+    "any_element": {
+        "qname": "{http://eve.com/}eve",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "null": "http://eve.com/"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

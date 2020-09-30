@@ -1,0 +1,6 @@
+{
+    "regvalueop": [
+        "reg_value_delete",
+        "reg_value_write"
+    ]
+}

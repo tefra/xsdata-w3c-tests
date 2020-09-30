@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "date",
+        "text": "2002-04-25",
+        "tail": null,
+        "ns_map": {
+            "test": "particles",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

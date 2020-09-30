@@ -1,0 +1,45 @@
+{
+    "state": [
+        {
+            "code": [
+                "CA"
+            ],
+            "vehicle": [
+                {
+                    "plate_number": 123,
+                    "state": "CA"
+                },
+                {
+                    "plate_number": 456,
+                    "state": "CA"
+                }
+            ],
+            "person": [
+                {
+                    "car": [
+                        {
+                            "reg_state": "CA",
+                            "reg_plate": 123
+                        },
+                        {
+                            "reg_state": "NY",
+                            "reg_plate": 123
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": [
+                "NY"
+            ],
+            "vehicle": [
+                {
+                    "plate_number": 123,
+                    "state": "NY"
+                }
+            ],
+            "person": []
+        }
+    ]
+}

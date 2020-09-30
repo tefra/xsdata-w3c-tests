@@ -1,0 +1,26 @@
+{
+    "a_element": {
+        "any_element": null
+    },
+    "a": null,
+    "b": "",
+    "c": "",
+    "any_element": [
+        {
+            "qname": "d",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "e",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

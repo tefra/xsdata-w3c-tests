@@ -1,0 +1,66 @@
+{
+    "entity": [],
+    "anyuri": [],
+    "hexbinary": [],
+    "month": [],
+    "day": [],
+    "monthday": [],
+    "year": [],
+    "date": [],
+    "time": [],
+    "datetime": [],
+    "duration": [],
+    "decimal": [],
+    "double": [],
+    "float_value": [],
+    "bool_value": [],
+    "int_value": [],
+    "string": [],
+    "item": [
+        {
+            "value": "abc"
+        },
+        {
+            "value": "123"
+        },
+        {
+            "value": "4.56"
+        },
+        {
+            "value": "this is a string"
+        },
+        {
+            "value": "false"
+        },
+        {
+            "value": "45"
+        },
+        {
+            "value": "P1347Y"
+        },
+        {
+            "value": "1999-05-31T13:20:00-05:00"
+        },
+        {
+            "value": "13:20:00-05:00"
+        },
+        {
+            "value": "1999-05-31"
+        },
+        {
+            "value": "1999"
+        },
+        {
+            "value": "--02-13"
+        },
+        {
+            "value": "abcd"
+        },
+        {
+            "value": "http://tempuri"
+        },
+        {
+            "value": "123"
+        }
+    ]
+}

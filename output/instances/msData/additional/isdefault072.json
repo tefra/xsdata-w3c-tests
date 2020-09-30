@@ -1,0 +1,56 @@
+{
+    "item": [
+        {
+            "qname": "Item",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "null": "",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "ser": "http://schemas.microsoft.com/2003/10/Serialization/",
+                "d1p1": "http://tempuri.org/Suites/Serialization"
+            },
+            "children": [
+                {
+                    "qname": "{http://tempuri.org/Suites/Serialization}color",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "ser": "http://schemas.microsoft.com/2003/10/Serialization/",
+                        "d1p1": "http://tempuri.org/Suites/Serialization"
+                    },
+                    "children": [
+                        {
+                            "qname": "{http://tempuri.org/Suites/Serialization}colorId",
+                            "text": "1",
+                            "tail": null,
+                            "ns_map": {
+                                "null": "",
+                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "ser": "http://schemas.microsoft.com/2003/10/Serialization/",
+                                "d1p1": "http://tempuri.org/Suites/Serialization"
+                            },
+                            "children": [],
+                            "attributes": {}
+                        }
+                    ],
+                    "attributes": {
+                        "{http://schemas.microsoft.com/2003/10/Serialization/}Id": "3"
+                    }
+                }
+            ],
+            "attributes": {
+                "{http://schemas.microsoft.com/2003/10/Serialization/}Id": "2"
+            }
+        }
+    ],
+    "item_type": "{http://tempuri.org/Suites/Serialization}Callbacks.ColorClassHolder",
+    "dimensions": [
+        1
+    ],
+    "lower_bounds": [
+        0
+    ]
+}

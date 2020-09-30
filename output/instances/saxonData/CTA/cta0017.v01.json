@@ -1,0 +1,11 @@
+{
+    "event": [
+        {
+            "when": {
+                "value": "2010-10-16"
+            },
+            "type": "date"
+        }
+    ],
+    "type": null
+}

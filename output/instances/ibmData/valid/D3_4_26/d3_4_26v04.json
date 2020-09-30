@@ -1,0 +1,18 @@
+{
+    "ely_mdmin_inclusive_min_inclusive": [
+        "P2M",
+        "P3M"
+    ],
+    "ely_mdmin_inclusive_min_exclusive": [
+        "P3M",
+        "P1Y"
+    ],
+    "ely_mdmin_inclusive_max_inclusive": [
+        "P3452Y2M",
+        "P1M"
+    ],
+    "ely_mdmin_inclusive_max_exclusive": [
+        "P23Y1M",
+        "P1M"
+    ]
+}

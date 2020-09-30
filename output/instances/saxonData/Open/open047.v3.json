@@ -1,0 +1,48 @@
+{
+    "open_com_element": null,
+    "a": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b": 23,
+    "c": null,
+    "d": {
+        "qname": "d",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "any_element": {
+        "qname": null,
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [
+            {
+                "qname": "x",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "b",
+                "text": "not-a-number",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {}
+    }
+}

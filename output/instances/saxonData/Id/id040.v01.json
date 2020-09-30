@@ -1,0 +1,46 @@
+{
+    "chap": [
+        {
+            "section": [
+                {
+                    "value": null,
+                    "nr": "1"
+                },
+                {
+                    "value": null,
+                    "nr": "2"
+                },
+                {
+                    "value": null,
+                    "nr": "3"
+                },
+                {
+                    "value": null,
+                    "nr": "4"
+                }
+            ]
+        }
+    ],
+    "appx": [
+        {
+            "section": [
+                {
+                    "value": null,
+                    "nr": "1"
+                },
+                {
+                    "value": null,
+                    "nr": "2"
+                },
+                {
+                    "value": null,
+                    "nr": "3"
+                },
+                {
+                    "value": null,
+                    "nr": "4"
+                }
+            ]
+        }
+    ]
+}

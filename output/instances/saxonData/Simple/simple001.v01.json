@@ -1,0 +1,54 @@
+{
+    "chap": [
+        {
+            "section": [
+                {
+                    "value": null,
+                    "nr": "1",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "2",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "Infinity",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "Infinity",
+                    "ref": "Infinity"
+                }
+            ]
+        }
+    ],
+    "appx": [
+        {
+            "section": [
+                {
+                    "value": null,
+                    "nr": "1",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "2",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "Infinity",
+                    "ref": "Infinity"
+                },
+                {
+                    "value": null,
+                    "nr": "Infinity",
+                    "ref": "Infinity"
+                }
+            ]
+        }
+    ]
+}

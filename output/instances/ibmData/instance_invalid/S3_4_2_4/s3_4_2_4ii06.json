@@ -1,0 +1,41 @@
+{
+    "default_attr": false,
+    "element1": {
+        "qname": "{http://xstest-tns/schema11_S3_4_2_4}element1",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "null": "http://xstest-tns/schema11_S3_4_2_4",
+            "dv": "http://xstest-tns/schema11_S3_4_2_4"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "element2": [
+        {
+            "qname": "{http://xstest-tns/schema11_S3_4_2_4}element2",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "http://xstest-tns/schema11_S3_4_2_4",
+                "dv": "http://xstest-tns/schema11_S3_4_2_4"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "element_added": {
+        "qname": "{http://xstest-tns/schema11_S3_4_2_4}element_added",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "null": "http://xstest-tns/schema11_S3_4_2_4",
+            "dv": "http://xstest-tns/schema11_S3_4_2_4"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

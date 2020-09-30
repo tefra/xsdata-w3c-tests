@@ -1,0 +1,28 @@
+{
+    "cpu": "Intel",
+    "memory": "4Gb",
+    "monitor": "17inch",
+    "speaker": null,
+    "any_element": [
+        {
+            "qname": "disk",
+            "text": "Seagate",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "mouse",
+            "text": "USB",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

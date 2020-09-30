@@ -1,0 +1,41 @@
+{
+    "any_element": {
+        "qname": null,
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [
+            {
+                "qname": "zizz",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "d",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "e",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {}
+    },
+    "a_element": {
+        "any_element": null
+    },
+    "a": null,
+    "b": "",
+    "c": ""
+}

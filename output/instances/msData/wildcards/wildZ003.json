@@ -1,0 +1,37 @@
+{
+    "elt2": {
+        "qname": "{urn:foo}elt2",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "foo": "urn:foo",
+            "bar": "urn:bar",
+            "Z": "urn:foreign-unknown-schema"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "elem": {
+        "any_element": null
+    },
+    "other_element": [
+        {
+            "qname": "{urn:bar}elem",
+            "value": {
+                "any_element": null
+            }
+        },
+        {
+            "qname": "{urn:bar}elem",
+            "value": {
+                "any_element": null
+            }
+        },
+        {
+            "qname": "{urn:bar}elem",
+            "value": {
+                "any_element": null
+            }
+        }
+    ]
+}

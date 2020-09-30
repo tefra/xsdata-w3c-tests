@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "test\nline"
+    },
+    "simple_test": {
+        "value": "test\nline"
+    }
+}

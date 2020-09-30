@@ -1,0 +1,52 @@
+{
+    "node": [
+        {
+            "node": [
+                {
+                    "node": [],
+                    "id": [],
+                    "idrefs": [],
+                    "id_attribute": [],
+                    "idrefs_attribute": [
+                        "bbb",
+                        "ccc",
+                        29,
+                        "ggg"
+                    ]
+                },
+                {
+                    "node": [],
+                    "id": [],
+                    "idrefs": [
+                        [
+                            "aaa",
+                            97,
+                            "ddd"
+                        ]
+                    ],
+                    "id_attribute": [
+                        "ggg",
+                        23
+                    ],
+                    "idrefs_attribute": []
+                }
+            ],
+            "id": [
+                [
+                    "ccc",
+                    "ddd"
+                ],
+                [
+                    12
+                ]
+            ],
+            "idrefs": [],
+            "id_attribute": [
+                "aaa",
+                23,
+                "bbb"
+            ],
+            "idrefs_attribute": []
+        }
+    ]
+}

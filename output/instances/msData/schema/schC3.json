@@ -1,0 +1,66 @@
+{
+    "any_element": [
+        {
+            "qname": "e1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [
+                {
+                    "qname": "a1",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "a2",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        },
+        {
+            "qname": "e2",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [
+                {
+                    "qname": "b1",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "b2",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        }
+    ]
+}

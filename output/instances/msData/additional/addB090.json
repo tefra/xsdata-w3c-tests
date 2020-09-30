@@ -1,0 +1,26 @@
+{
+    "foo_element": [
+        {
+            "qname": "{foo}test",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "null": "foo",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "c1": {
+        "qname": "c1",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "c2": null
+}

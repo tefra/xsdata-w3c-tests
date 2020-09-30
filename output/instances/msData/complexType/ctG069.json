@@ -1,0 +1,11 @@
+{
+    "my_element1": null,
+    "my_element2": null,
+    "my_element3": null,
+    "any_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG069.xsd",
+        "myAttr": "last attribute"
+    },
+    "my_attr1": "test attribute",
+    "local_attributes": {}
+}

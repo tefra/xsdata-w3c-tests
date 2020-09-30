@@ -1,0 +1,16 @@
+{
+    "person": [
+        {
+            "value": "John Smith",
+            "ssn": "s007"
+        },
+        {
+            "value": "William Smith",
+            "ssn": "s008"
+        },
+        {
+            "value": "John Smith",
+            "ssn": "s009"
+        }
+    ]
+}

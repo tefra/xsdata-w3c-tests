@@ -1,0 +1,56 @@
+{
+    "title": {
+        "content": [
+            "Document Title"
+        ],
+        "phrase": null,
+        "superscript": null,
+        "subscript": null,
+        "abbrev": null,
+        "emphasis": null,
+        "property": null,
+        "role": null,
+        "id": null,
+        "base": null
+    },
+    "xsdextra": null,
+    "p": [
+        {
+            "content": [
+                "This is some ",
+                {
+                    "qname": "{http://example.org/ns/document}emphasis",
+                    "value": {
+                        "content": [
+                            "text",
+                            "."
+                        ],
+                        "phrase": null,
+                        "superscript": null,
+                        "subscript": null,
+                        "abbrev": null,
+                        "emphasis": null,
+                        "property": null,
+                        "role": null,
+                        "id": null,
+                        "base": null
+                    }
+                }
+            ],
+            "phrase": null,
+            "superscript": null,
+            "subscript": null,
+            "abbrev": null,
+            "emphasis": null,
+            "property": null,
+            "blockquote": null,
+            "role": null,
+            "id": null,
+            "base": null
+        }
+    ],
+    "blockquote": [],
+    "role": null,
+    "id": null,
+    "base": null
+}

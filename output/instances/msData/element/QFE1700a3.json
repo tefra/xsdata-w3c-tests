@@ -1,0 +1,28 @@
+{
+    "e1": "abc",
+    "any_element": {
+        "qname": "e2",
+        "text": "abc",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [
+            {
+                "qname": "e3",
+                "text": "1234523057892759275760972ankahf",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {
+                    "{http://www.w3.org/2001/XMLSchema-instance}nil": "true"
+                }
+            }
+        ],
+        "attributes": {
+            "{http://www.w3.org/2001/XMLSchema-instance}nil": "true"
+        }
+    }
+}

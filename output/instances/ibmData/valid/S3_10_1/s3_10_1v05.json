@@ -1,0 +1,22 @@
+{
+    "b": {
+        "value": 1
+    },
+    "any_element": [
+        {
+            "qname": "{a}x",
+            "text": "1",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "a",
+                "b": "b"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "c": {
+        "value": 1
+    }
+}

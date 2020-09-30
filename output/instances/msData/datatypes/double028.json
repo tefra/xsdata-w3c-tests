@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "2.22E-308"
+    },
+    "simple_test": {
+        "value": "2.22E-308"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "p": {
+        "x": 1,
+        "y": 2,
+        "z": 1,
+        "any_element": [
+            {
+                "qname": "as",
+                "text": "km",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "a"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ]
+    },
+    "any_element": null
+}

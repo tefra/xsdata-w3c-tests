@@ -1,0 +1,585 @@
+{
+    "annotation": [],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Simple use of targetNamespace on a local element declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Simple use of targetNamespace on a local element declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target001.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2008-02-18",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "target001.xsd",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [
+                        {
+                            "appinfo": [],
+                            "documentation": [
+                                {
+                                    "any_element": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
+                                }
+                            ],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target001.v1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2008-02-18",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "target001.v1.xml",
+                    "version": [],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [
+                        {
+                            "appinfo": [],
+                            "documentation": [
+                                {
+                                    "any_element": [
+                                        "\n\t\t                Invalid, child element is in wrong namespace.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
+                                }
+                            ],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target001.n1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2008-02-18",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "target001.n1.xml",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "target001",
+            "version": [],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Invalid use of targetNamespace on a local element declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Invalid because not part of an xs:restriction",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target002.n.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2008-02-18",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "target002.xsd",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "target002",
+            "version": [],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Simple use of targetNamespace on a local attribute declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Simple use of targetNamespace on a local attribute declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {
+                                        "{http://www.w3.org/1999/xlink}href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                                    }
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target003.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2008-02-18",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "target003.xsd",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [
+                        {
+                            "appinfo": [],
+                            "documentation": [
+                                {
+                                    "any_element": [
+                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
+                                }
+                            ],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target003.v1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2008-02-18",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "target003.v1.xml",
+                    "version": [],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [
+                        {
+                            "appinfo": [],
+                            "documentation": [
+                                {
+                                    "any_element": [
+                                        "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
+                                }
+                            ],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target003.n1.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2008-02-18",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "target003.n1.xml",
+                    "version": [],
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [
+                        {
+                            "appinfo": [],
+                            "documentation": [
+                                {
+                                    "any_element": [
+                                        "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
+                                }
+                            ],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target003.n2.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2008-02-18",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "target003.n2.xml",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "target003",
+            "version": [],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Invalid use of targetNamespace on a local attribute declaration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Invalid because not part of an xs:restriction",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../saxonData/TargetNS/target004.n.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2008-02-18",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "target004.xsd",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "target004",
+            "version": [],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "Saxonica",
+    "name": "TargetNS",
+    "version": [
+        "1.1"
+    ],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

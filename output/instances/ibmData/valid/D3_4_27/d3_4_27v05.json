@@ -1,0 +1,18 @@
+{
+    "el_max_exclusive_min_inclusive": [
+        "P27DT23H",
+        "-P39DT3M"
+    ],
+    "el_max_exclusive_min_exclusive": [
+        "P27DT23H",
+        "-P39DT1M"
+    ],
+    "el_max_exclusive_max_inclusive": [
+        "-P3323D",
+        "P27DT3M"
+    ],
+    "el_max_exclusive_max_exclusive": [
+        "P26DT23H",
+        "-P342D"
+    ]
+}

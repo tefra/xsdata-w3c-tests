@@ -1,0 +1,13 @@
+{
+    "local": {
+        "qname": "Local",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/targetNS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "{myNamespace}foo"
+    },
+    "simple_test": {
+        "value": "{myNamespace}foo"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "elem": {
+        "att1": "123",
+        "group_elem": {
+            "qname": "groupElem",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "att2": "abc",
+        "att3": "abc"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "child1": {
+        "qname": "child1",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "child2": {
+        "qname": "child2",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    }
+}

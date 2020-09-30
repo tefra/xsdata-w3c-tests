@@ -1,0 +1,25 @@
+{
+    "foo": {
+        "qname": "foo",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "f": "foo"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "bar": {
+        "foo": {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "f": "foo"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "bar": null
+    }
+}

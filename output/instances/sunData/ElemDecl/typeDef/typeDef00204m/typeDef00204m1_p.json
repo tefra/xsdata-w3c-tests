@@ -1,0 +1,15 @@
+{
+    "any_element": {
+        "qname": null,
+        "text": "\n\n    true\n\n",
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/typeDef",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {
+            "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/typeDef typeDef00204m.xsd"
+        }
+    }
+}

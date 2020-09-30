@@ -1,0 +1,90 @@
+{
+    "any_element": [
+        {
+            "qname": "{ns-a}e1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [
+                {
+                    "qname": "a1",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a",
+                        "b": "ns-b"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "a2",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a",
+                        "b": "ns-b"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        },
+        {
+            "qname": "{ns-b}e1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [
+                {
+                    "qname": "a1",
+                    "text": "true",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a",
+                        "b": "ns-b"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "a2",
+                    "text": "123",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "ns-a",
+                        "b": "ns-b"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        },
+        {
+            "qname": "{ns-a}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

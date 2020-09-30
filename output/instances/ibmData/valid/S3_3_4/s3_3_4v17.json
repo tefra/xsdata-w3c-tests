@@ -1,0 +1,11 @@
+{
+    "union_of_ids": [
+        123,
+        true,
+        "abc",
+        false
+    ],
+    "idref": [
+        "abc"
+    ]
+}

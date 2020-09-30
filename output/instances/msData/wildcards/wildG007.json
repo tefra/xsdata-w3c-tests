@@ -1,0 +1,13 @@
+{
+    "target_namespace_element": {
+        "qname": "{http://www.w3.org/1999/xhtml}b",
+        "text": "foo bar",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "null": "http://www.w3.org/1999/xhtml"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

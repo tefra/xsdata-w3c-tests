@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{NISTSchema-SV-IV-atomic-ID-pattern-5-NS}NISTSchema-SV-IV-atomic-ID-pattern-5",
+        "text": "_build_process_transactional.around_w",
+        "tail": null,
+        "ns_map": {
+            "null": "NISTSchema-SV-IV-atomic-ID-pattern-5-NS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

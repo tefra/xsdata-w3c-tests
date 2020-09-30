@@ -1,0 +1,29 @@
+{
+    "e2": [
+        {
+            "value": 1
+        }
+    ],
+    "e1": [
+        {
+            "value": true
+        },
+        {
+            "value": true
+        },
+        {
+            "value": false
+        },
+        {
+            "value": "x"
+        },
+        {
+            "value": "y"
+        }
+    ],
+    "e3": [
+        {
+            "att1": 123
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "elem": {
+        "other_element": {
+            "qname": "{foo}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://xsdtesting",
+                "foo": "foo"
+            },
+            "children": [
+                {
+                    "qname": "{foo}e1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "http://xsdtesting",
+                        "foo": "foo"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        }
+    }
+}

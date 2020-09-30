@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{NISTSchema-SV-IV-atomic-ID-enumeration-5-NS}NISTSchema-SV-IV-atomic-ID-enumeration-5",
+        "text": "ca",
+        "tail": null,
+        "ns_map": {
+            "null": "NISTSchema-SV-IV-atomic-ID-enumeration-5-NS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ship_to": {
+        "name": "Alice Smith",
+        "street": "123 Maple Street",
+        "country": "US"
+    },
+    "bill_to": {
+        "name": "Robert Smith",
+        "street": "8 Oak Avenue",
+        "country": "US"
+    },
+    "comment": {
+        "value": "Hurry, my lawn is going wild!"
+    }
+}

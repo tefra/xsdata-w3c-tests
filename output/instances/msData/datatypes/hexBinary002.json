@@ -1,0 +1,12 @@
+{
+    "complex_test": {
+        "comp_foo": [
+            "12345678ABCDEF"
+        ]
+    },
+    "simple_test": {
+        "value": [
+            "12345678ABCDEF"
+        ]
+    }
+}

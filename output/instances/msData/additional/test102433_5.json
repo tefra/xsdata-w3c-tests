@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{ns}baz",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "q": "q",
+            "ns": "ns"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

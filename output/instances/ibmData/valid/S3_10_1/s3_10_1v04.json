@@ -1,0 +1,11 @@
+{
+    "z": {
+        "value": 1
+    },
+    "any_element": {
+        "qname": "{a}z",
+        "value": {
+            "value": 1
+        }
+    }
+}

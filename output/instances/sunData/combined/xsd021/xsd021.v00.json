@@ -1,0 +1,86 @@
+{
+    "skip_any": [
+        {
+            "any_attributes": {
+                "{foo}a": "bra",
+                "{foo}b": "bra",
+                "{undeclared}something": "also allowed"
+            }
+        },
+        {
+            "any_attributes": {}
+        }
+    ],
+    "lax_any": [
+        {
+            "any_attributes": {
+                "{foo}a": "5",
+                "{foo}undeclared": "OK",
+                "{bar}b": "2",
+                "{undeclared}something": "also allowed"
+            }
+        },
+        {
+            "any_attributes": {}
+        }
+    ],
+    "strict_any": [
+        {
+            "any_attributes": {
+                "{foo}b": "5",
+                "{bar}c": "2",
+                "{zot}a": "52"
+            }
+        },
+        {
+            "any_attributes": {}
+        }
+    ],
+    "skip_other": [
+        {
+            "other_attributes": {
+                "{bar}a": "brabra",
+                "{bar}undeclared": "OK",
+                "{undeclared}something": "OK",
+                "{undeclared}local": "OK"
+            }
+        },
+        {
+            "other_attributes": {}
+        }
+    ],
+    "lax_local": [
+        {
+            "local_attributes": {
+                "att": "whatever"
+            }
+        },
+        {
+            "local_attributes": {}
+        }
+    ],
+    "strict_local": [],
+    "strict_target": [
+        {
+            "target_namespace_attributes": {
+                "{foo}a": "1",
+                "{foo}b": "2",
+                "{foo}c": "3"
+            }
+        },
+        {
+            "target_namespace_attributes": {}
+        }
+    ],
+    "skip_bar": [
+        {
+            "bar_attributes": {
+                "{bar}b": "invali",
+                "{bar}undeclared": "ok"
+            }
+        },
+        {
+            "bar_attributes": {}
+        }
+    ]
+}

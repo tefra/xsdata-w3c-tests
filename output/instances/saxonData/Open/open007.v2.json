@@ -1,0 +1,125 @@
+{
+    "open_com_element": {
+        "qname": null,
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [
+            {
+                "qname": "{http://open.com/}extra",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "http://open.com/"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{http://open.com/}extra",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "http://open.com/"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{http://open.com/}extra",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "http://open.com/"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{http://open.com/}extra",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "http://open.com/"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {}
+    },
+    "a": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b": {
+        "qname": "b",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    }
+}

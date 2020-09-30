@@ -1,0 +1,41 @@
+{
+    "content": [
+        {
+            "qname": "b",
+            "text": null,
+            "tail": "text",
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": "text",
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "d",
+            "text": null,
+            "tail": "text",
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "a": [],
+    "b": [],
+    "c": [],
+    "d": null,
+    "e": []
+}

@@ -1,0 +1,8 @@
+{
+    "any_element": null,
+    "any_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG009.xsd"
+    },
+    "my_element": "test data",
+    "my_attr": "test attribute"
+}

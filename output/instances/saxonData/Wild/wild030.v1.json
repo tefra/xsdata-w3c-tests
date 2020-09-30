@@ -1,0 +1,24 @@
+{
+    "cpu": "Intel",
+    "memory": "4Gb",
+    "monitor": "17inch",
+    "speaker": "loud",
+    "any_element": [
+        {
+            "qname": "disk",
+            "text": "Seagate",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "mouse",
+            "text": "USB",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

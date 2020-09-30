@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{psContents}date",
+        "text": "2002-04-29",
+        "tail": null,
+        "ns_map": {
+            "test": "psContents",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "elem": {
+        "foo": {
+            "any_element": {
+                "qname": null,
+                "text": "1",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "http://xsdtesting",
+                    "xsd": "http://www.w3.org/2001/XMLSchema",
+                    "imp": "http://importedXSD"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        "c2": null,
+        "d1": {
+            "qname": "d1",
+            "text": "testing",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://xsdtesting",
+                "xsd": "http://www.w3.org/2001/XMLSchema",
+                "imp": "http://importedXSD"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "d2": null
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ely_mdunion_a": [
+        "Computer",
+        "P12Y34M"
+    ],
+    "ely_mdunion_b": [
+        "-P45Y23M",
+        7
+    ],
+    "ely_mdunion_c": [
+        "P35Y3M",
+        1,
+        "once"
+    ]
+}

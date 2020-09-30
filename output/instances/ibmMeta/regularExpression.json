@@ -1,0 +1,788 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "substitutionGroup "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#regexs"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "use of hyphens within square brackets in regular expressions [a-c] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gv01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gv01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gv01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "use of hyphens within square brackets in regular expressions [abc-[c]] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gv02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv02.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gv02i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gv02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "use of hyphens within square brackets in regular expressions [-abc] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gv03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gv03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gv03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "use of hyphens within square brackets in regular expressions [bc-] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gv04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/D6_G/d6_gv04.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gv04i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gv04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [a-c] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gii01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gii01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gii01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gii02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii02.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gii02i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gii02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                " invalid instance use of hyphens within square brackets in regular expressions [-abc] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gii03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gii03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gii03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "invalid instance use of hyphens within square brackets in regular expressions [bc-] "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d6_gii04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/D6_G/d6_gii04.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "d6_gii04i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "d6_gii04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "RegularExpression",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

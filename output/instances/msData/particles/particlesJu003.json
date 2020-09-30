@@ -1,0 +1,34 @@
+{
+    "elem": {
+        "local_target_namespace_ns_foo_ns_bar_element": [],
+        "foo": [
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            },
+            {
+                "any_element": null
+            }
+        ]
+    }
+}

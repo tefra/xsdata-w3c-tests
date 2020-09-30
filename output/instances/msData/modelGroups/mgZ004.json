@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "qname": "{urn:test}A",
+            "text": "",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "a": null,
+    "b1": [],
+    "b2": [],
+    "b3": [],
+    "b4": [],
+    "b5": []
+}

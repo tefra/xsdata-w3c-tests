@@ -1,0 +1,7 @@
+{
+    "value": "simpleContent",
+    "any_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctE008.xsd",
+        "attrTest": "some attribute"
+    }
+}

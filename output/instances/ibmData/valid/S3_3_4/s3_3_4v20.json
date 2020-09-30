@@ -1,0 +1,8 @@
+{
+    "idref_element": [
+        "abc"
+    ],
+    "union_of_ids_attr1": 123,
+    "union_of_ids_attr2": true,
+    "union_of_ids_attr3": "abc"
+}

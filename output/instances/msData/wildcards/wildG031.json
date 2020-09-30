@@ -1,0 +1,97 @@
+{
+    "a_b_c_d_e_target_namespace_local_element": [
+        {
+            "qname": "{http://foobar}bar",
+            "text": "foo bar",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "bar",
+            "text": "foo bar",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{A}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "A": "A",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{B}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "A": "B",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{C}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "null": "C",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{D}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "D": "D",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{E}foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "e": "E",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://foobar"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

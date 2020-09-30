@@ -1,0 +1,16 @@
+{
+    "e": [
+        {
+            "value": null,
+            "att": true
+        },
+        {
+            "value": null,
+            "att": 5
+        },
+        {
+            "value": null,
+            "att": "abc"
+        }
+    ]
+}

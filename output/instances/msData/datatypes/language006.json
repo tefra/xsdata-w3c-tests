@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "spanish"
+    },
+    "simple_test": {
+        "value": "spanish"
+    }
+}

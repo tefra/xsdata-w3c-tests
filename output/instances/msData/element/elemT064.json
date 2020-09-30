@@ -1,0 +1,23 @@
+{
+    "sa3": [
+        {
+            "any_element": {
+                "qname": null,
+                "text": "1",
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "sa2": [],
+    "sa1": [],
+    "test1": [],
+    "test2": null,
+    "test3": null,
+    "test4": null,
+    "test5": null
+}

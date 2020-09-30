@@ -1,0 +1,12 @@
+{
+    "complex_test": {
+        "comp_foo": [
+            1.2345
+        ]
+    },
+    "simple_test": {
+        "value": [
+            1.23456
+        ]
+    }
+}

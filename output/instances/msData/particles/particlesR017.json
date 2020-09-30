@@ -1,0 +1,21 @@
+{
+    "elem": {
+        "foo": {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://xsdtesting",
+                "imp": "http://importedXSD"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "any_element": [],
+        "imp_elem1": null,
+        "imp_elem2": {
+            "any_element": null
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "local_foobar_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://foobar wildO033.xsd",
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "wildO033a.xsd",
+        "name": "bar"
+    }
+}

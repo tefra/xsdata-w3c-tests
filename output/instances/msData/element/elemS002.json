@@ -1,0 +1,8 @@
+{
+    "fr1_valid": {
+        "value": "abc",
+        "a": null,
+        "b": "123"
+    },
+    "fr_valid": null
+}

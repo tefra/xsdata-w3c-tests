@@ -1,0 +1,14 @@
+{
+    "any_element": {
+        "qname": "e",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsl": "http://www.w3.org/1999/XSL/Transform"
+        },
+        "children": [],
+        "attributes": {
+            "{http://www.w3.org/1999/XSL/Transform}use-attribute-sets": "foo"
+        }
+    }
+}

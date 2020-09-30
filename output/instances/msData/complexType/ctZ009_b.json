@@ -1,0 +1,53 @@
+{
+    "foo": [
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "foo",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "sg": []
+}

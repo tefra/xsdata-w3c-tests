@@ -1,0 +1,22 @@
+{
+    "ely_mdtype": [
+        "P124Y",
+        "-P3Y348M",
+        "P1Y2M"
+    ],
+    "ely_mdenumeration": [
+        "P1Y3M",
+        "P45M",
+        "-P34Y233M"
+    ],
+    "ely_mdmin_max_inclusive": [
+        "-P1Y",
+        "P23Y23M",
+        "P53M"
+    ],
+    "ely_mdmin_max_exclusive": [
+        "-P21M",
+        "P42M",
+        "P31Y2M"
+    ]
+}

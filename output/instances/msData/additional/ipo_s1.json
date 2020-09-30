@@ -1,0 +1,28 @@
+{
+    "ship_to": {
+        "name": "Helen Zoe",
+        "street": "47 Eden Street",
+        "city": "Cambridge"
+    },
+    "bill_to": {
+        "name": "Robert Smith",
+        "street": "8 Oak Avenue",
+        "city": "Old Town"
+    },
+    "comment": null,
+    "items": {
+        "item": [
+            {
+                "product_name": "Lapis necklace",
+                "quantity": 1,
+                "usprice": "99.95",
+                "comment": {
+                    "value": "Want this for the holidays!"
+                },
+                "ship_date": "1999-12-05",
+                "part_num": "833-AA"
+            }
+        ]
+    },
+    "order_date": "1999-12-01"
+}

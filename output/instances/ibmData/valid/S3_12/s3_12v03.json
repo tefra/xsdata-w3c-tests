@@ -1,0 +1,16 @@
+{
+    "title": [
+        {
+            "content": [
+                "My News"
+            ],
+            "type": "text"
+        },
+        {
+            "content": [
+                "122323"
+            ],
+            "type": "number"
+        }
+    ]
+}

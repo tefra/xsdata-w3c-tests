@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "b",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "d",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "c",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": "strawberries\n  ",
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "c",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "c",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "b",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "a": [],
+    "b": [],
+    "c": [],
+    "d": null
+}

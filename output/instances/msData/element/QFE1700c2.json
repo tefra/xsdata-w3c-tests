@@ -1,0 +1,24 @@
+{
+    "e1": "abc",
+    "any_element": {
+        "qname": "e2",
+        "value": {
+            "content": [],
+            "e3": null
+        }
+    },
+    "e2": {
+        "content": [
+            "abc",
+            {
+                "qname": "e3",
+                "text": "",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "e3": null
+    }
+}

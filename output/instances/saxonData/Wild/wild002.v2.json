@@ -1,0 +1,44 @@
+{
+    "any_element": [
+        {
+            "qname": "adam",
+            "text": "m",
+            "tail": null,
+            "ns_map": {
+                "c": "http://genesis.com/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "eve",
+            "text": "f",
+            "tail": null,
+            "ns_map": {
+                "c": "http://genesis.com/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://genesis.com/}cain",
+            "text": "m",
+            "tail": null,
+            "ns_map": {
+                "c": "http://genesis.com/"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{http://genesis.com/}abel",
+            "text": "m",
+            "tail": null,
+            "ns_map": {
+                "c": "http://genesis.com/"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

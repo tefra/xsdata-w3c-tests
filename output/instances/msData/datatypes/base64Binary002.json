@@ -1,0 +1,12 @@
+{
+    "complex_test": {
+        "comp_foo": [
+            "AQID"
+        ]
+    },
+    "simple_test": {
+        "value": [
+            "AQID"
+        ]
+    }
+}

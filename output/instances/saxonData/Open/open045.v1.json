@@ -1,0 +1,17 @@
+{
+    "content": [
+        {
+            "qname": "a",
+            "value": {}
+        },
+        {
+            "qname": "b",
+            "value": {
+                "w3_org_xml_1998_namespace_attributes": {}
+            }
+        }
+    ],
+    "w3_org_xml_1998_namespace_attributes": {},
+    "a": null,
+    "b": null
+}

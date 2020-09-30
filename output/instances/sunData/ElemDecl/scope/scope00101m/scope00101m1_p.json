@@ -1,0 +1,26 @@
+{
+    "global_value": {
+        "any_element": {
+            "qname": null,
+            "text": "1",
+            "tail": null,
+            "ns_map": {
+                "test": "ElemDecl/scope",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    },
+    "local": {
+        "qname": "Local",
+        "text": "2",
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/scope",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

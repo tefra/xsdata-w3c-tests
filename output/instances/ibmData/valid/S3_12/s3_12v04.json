@@ -1,0 +1,12 @@
+{
+    "elem1": [
+        {
+            "value": "1E104",
+            "type": "float"
+        },
+        {
+            "value": "1E971",
+            "type": "double"
+        }
+    ]
+}

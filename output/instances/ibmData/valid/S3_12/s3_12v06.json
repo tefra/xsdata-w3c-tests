@@ -1,0 +1,30 @@
+{
+    "person": [
+        {
+            "child": [
+                {
+                    "name": "C1",
+                    "dob": "2007-10-10"
+                },
+                {
+                    "name": "C2",
+                    "dob": "2003-01-02"
+                }
+            ],
+            "number_of_children": 2
+        },
+        {
+            "child": [
+                {
+                    "name": "C1",
+                    "dob": "2000-01-01"
+                }
+            ],
+            "number_of_children": 7
+        },
+        {
+            "child": [],
+            "number_of_children": -5
+        }
+    ]
+}

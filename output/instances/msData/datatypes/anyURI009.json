@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "file:///C:/TestSuites/XSD%20Spec/CR-xmlschema-2-20001024.htm#dc-minInclusive"
+    },
+    "simple_test": {
+        "value": "file:///C:/TestSuites/XSD%20Spec/CR-xmlschema-2-20001024.htm#dc-minInclusive"
+    }
+}

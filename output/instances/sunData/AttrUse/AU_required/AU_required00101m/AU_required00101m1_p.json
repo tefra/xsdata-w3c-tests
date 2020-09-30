@@ -1,0 +1,15 @@
+{
+    "any_element": {
+        "qname": "{AttrUse/required}elementWithAttr",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "td": "AttrUse/required"
+        },
+        "children": [],
+        "attributes": {
+            "{AttrUse/required}number": "157"
+        }
+    }
+}

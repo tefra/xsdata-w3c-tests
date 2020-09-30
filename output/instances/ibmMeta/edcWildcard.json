@@ -1,0 +1,241 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_8_6/s3_8_6v01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_8_6v01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_8_6/s3_8_6v01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [
+                            {
+                                "appinfo": [],
+                                "documentation": [
+                                    {
+                                        "any_element": [
+                                            "\n                        Changed the status to \"invalid\" in response to bug #12130\n                    "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
+                                ],
+                                "other_attributes": {}
+                            }
+                        ],
+                        "status": "accepted",
+                        "date": "2011-07-29",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [
+                        {
+                            "annotation": [],
+                            "status": "accepted",
+                            "date": "2010-12-01",
+                            "bugzilla": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "name": "s3_8_6v01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_8_6v01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_8_6ii01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_8_6ii01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_8_6ii01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "EDCWildcard",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

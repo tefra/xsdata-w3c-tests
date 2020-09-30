@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "telnet://melvyl.ucop.edu/"
+    },
+    "simple_test": {
+        "value": "telnet://melvyl.ucop.edu/"
+    }
+}

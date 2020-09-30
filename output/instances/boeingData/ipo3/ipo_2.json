@@ -1,0 +1,52 @@
+{
+    "ship_to": null,
+    "bill_to": null,
+    "single_address": {
+        "name": "Helen Zoe",
+        "street": "47 Eden Street",
+        "city": "Cambridge",
+        "postcode": "CB1 1JR",
+        "export_code": 1
+    },
+    "customer_comment": {
+        "value": "I love Boeing too!"
+    },
+    "ship_comment": null,
+    "comment": null,
+    "items": {
+        "content": [
+            {
+                "qname": "{http://www.example.com/IPO}item",
+                "value": {
+                    "product_name": "777 Model",
+                    "quantity": 1,
+                    "usprice": "99.95",
+                    "customer_comment": [],
+                    "ship_comment": [],
+                    "comment": [],
+                    "ship_date": "1999-12-05",
+                    "part_num": "777-BA",
+                    "weight_kg": "4.5",
+                    "ship_by": "air"
+                }
+            },
+            {
+                "qname": "{http://www.example.com/IPO}item",
+                "value": {
+                    "product_name": "833 Model",
+                    "quantity": 1,
+                    "usprice": "199.95",
+                    "customer_comment": [],
+                    "ship_comment": [],
+                    "comment": [],
+                    "ship_date": "2000-02-28",
+                    "part_num": "833-AA",
+                    "weight_kg": null,
+                    "ship_by": null
+                }
+            }
+        ],
+        "item": []
+    },
+    "order_date": "2002-10-20"
+}

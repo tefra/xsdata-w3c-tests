@@ -1,0 +1,40 @@
+{
+    "any_element": [
+        {
+            "qname": "{ns-a}foo_a",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{ns-b}foo_b",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{ns-b}foo_c",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "ns-a",
+                "b": "ns-b"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "b": 123,
+    "any_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "attrWildcard attrWildcard00101m1.xsd",
+        "a1": "1",
+        "a2": "2"
+    }
+}

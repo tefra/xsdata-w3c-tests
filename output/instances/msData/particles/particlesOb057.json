@@ -1,0 +1,32 @@
+{
+    "elem": {
+        "local_foo_bar_target_namespace_element": [
+            {
+                "qname": "a",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "http://xsdtesting",
+                    "bar": "bar"
+                },
+                "children": [
+                    {
+                        "qname": "e1",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting",
+                            "bar": "bar"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    }
+                ],
+                "attributes": {}
+            }
+        ],
+        "local_bar_element": []
+    }
+}

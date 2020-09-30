@@ -1,0 +1,29 @@
+{
+    "chap": [
+        {
+            "de": null,
+            "fr": null,
+            "en": {
+                "qname": "en",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "de": null,
+            "fr": null,
+            "en": {
+                "qname": "en",
+                "text": null,
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "lang": "de"
+}

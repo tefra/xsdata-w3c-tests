@@ -1,0 +1,22 @@
+{
+    "e1": {
+        "other_attributes": {
+            "{b}b": "1"
+        }
+    },
+    "e2": {
+        "target_namespace_attributes": {
+            "{a}b": "1"
+        }
+    },
+    "e3": {
+        "local_attributes": {
+            "b": "1"
+        }
+    },
+    "e4": {
+        "any_attributes": {
+            "b": "1"
+        }
+    }
+}

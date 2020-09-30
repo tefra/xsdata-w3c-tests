@@ -1,0 +1,55 @@
+{
+    "member3": [],
+    "member1": [
+        {
+            "ear": {
+                "qname": "{ElemDecl/substGroupExclusions}Ear",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/substGroupExclusions",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "eye": {
+                "qname": "{ElemDecl/substGroupExclusions}Eye",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/substGroupExclusions",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "head": [
+        {
+            "ear": {
+                "qname": "{ElemDecl/substGroupExclusions}Ear",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/substGroupExclusions",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "eye": {
+                "qname": "{ElemDecl/substGroupExclusions}Eye",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/substGroupExclusions",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "my_element1": null,
+    "my_element2": "test data",
+    "my_element3": null,
+    "local_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH032.xsd",
+        "local": "local attribute"
+    },
+    "my_element4": "test data",
+    "my_attr2": "added attribute",
+    "my_attr": "next attribute"
+}

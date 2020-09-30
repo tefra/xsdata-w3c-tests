@@ -1,0 +1,1067 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "\n        Restriction of complex types\n\t      "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Wildcards are now allowed in xs:all"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6v01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6v01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6v01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests restriction of all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6v04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v04.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6v04i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6v04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests maxOccurs > 1 for elements within all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v05.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6v05s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v05.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6v05i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6v05",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Restrict xs:all to xs:sequence"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v08.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6v08s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S3_4_6/s3_4_6v08.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6v08i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6v08",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Instance document element has higher occurences than schema allows "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_4_6/s3_4_6ii01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6ii01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_4_6/s3_4_6ii01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6ii01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6ii01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests notQName  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_4_6/s3_4_6ii03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6ii03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/instance_invalid/S3_4_6/s3_4_6ii03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "invalid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s3_4_6ii03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s3_4_6ii03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests occurence validity "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests restriction of all modelgroup "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests restriction of all modelgroup "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Restrict xs:all to xs:sequence "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si04.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si04s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si04",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Restrict xs:all to xs:choice  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si05.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si05s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si05",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Restrict xs:all to xs:sequence  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si06.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si06s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si06",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Restrict xs:all to xs:choice  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#coss-ct",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S3_4_6/s3_4_6si07.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s3_4_6si07s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s3_4_6si07",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "RestrictionOfComplexTypes",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

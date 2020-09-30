@@ -1,0 +1,126 @@
+{
+    "schema": [
+        {
+            "any_element": [
+                {
+                    "qname": "{http://www.w3.org/2001/XMLSchema}schema",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema",
+                        "null": "http://www.mydefaultnamespace.com/SAP",
+                        "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                    },
+                    "children": [
+                        {
+                            "qname": "{http://www.w3.org/2001/XMLSchema}import",
+                            "text": null,
+                            "tail": null,
+                            "ns_map": {
+                                "xsd": "http://www.w3.org/2001/XMLSchema",
+                                "null": "http://www.mydefaultnamespace.com/SAP",
+                                "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                            },
+                            "children": [],
+                            "attributes": {
+                                "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+                                "schemaLocation": "test93490_16.xsd"
+                            }
+                        },
+                        {
+                            "qname": "{http://www.w3.org/2001/XMLSchema}element",
+                            "text": null,
+                            "tail": null,
+                            "ns_map": {
+                                "xsd": "http://www.w3.org/2001/XMLSchema",
+                                "null": "http://www.mydefaultnamespace.com/SAP",
+                                "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                            },
+                            "children": [
+                                {
+                                    "qname": "{http://www.w3.org/2001/XMLSchema}complexType",
+                                    "text": null,
+                                    "tail": null,
+                                    "ns_map": {
+                                        "xsd": "http://www.w3.org/2001/XMLSchema",
+                                        "null": "http://www.mydefaultnamespace.com/SAP",
+                                        "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                                    },
+                                    "children": [
+                                        {
+                                            "qname": "{http://www.w3.org/2001/XMLSchema}all",
+                                            "text": null,
+                                            "tail": null,
+                                            "ns_map": {
+                                                "xsd": "http://www.w3.org/2001/XMLSchema",
+                                                "null": "http://www.mydefaultnamespace.com/SAP",
+                                                "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                                            },
+                                            "children": [
+                                                {
+                                                    "qname": "{http://www.w3.org/2001/XMLSchema}element",
+                                                    "text": null,
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "xsd": "http://www.w3.org/2001/XMLSchema",
+                                                        "null": "http://www.mydefaultnamespace.com/SAP",
+                                                        "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "name": "NS2item1",
+                                                        "type": "{http://www.w3.org/2001/XMLSchema}string"
+                                                    }
+                                                },
+                                                {
+                                                    "qname": "{http://www.w3.org/2001/XMLSchema}element",
+                                                    "text": null,
+                                                    "tail": null,
+                                                    "ns_map": {
+                                                        "xsd": "http://www.w3.org/2001/XMLSchema",
+                                                        "null": "http://www.mydefaultnamespace.com/SAP",
+                                                        "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                                                    },
+                                                    "children": [],
+                                                    "attributes": {
+                                                        "name": "NS2item2",
+                                                        "type": "{http://www.w3.org/2001/XMLSchema}string"
+                                                    }
+                                                }
+                                            ],
+                                            "attributes": {}
+                                        }
+                                    ],
+                                    "attributes": {}
+                                }
+                            ],
+                            "attributes": {
+                                "name": "SAPCodeType"
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "targetNamespace": "http://www.mydefaultnamespace.com/SAP",
+                        "elementFormDefault": "qualified"
+                    }
+                },
+                {
+                    "qname": "a",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "x2": "http://schemas.microsoft.com/office/excel/2003/xml"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "id": "Schema3",
+            "namespace": "http://www.mydefaultnamespace.com/SAP",
+            "schema_ref": null
+        }
+    ],
+    "hide_inactive_list_border": "false",
+    "selection_namespaces": "http://foo",
+    "hide_single_mapped_cell_border": "true"
+}

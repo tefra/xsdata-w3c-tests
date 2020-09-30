@@ -1,0 +1,18 @@
+{
+    "el_max_exclusive_min_inclusive": [
+        "P27Y3M",
+        "-P39Y3M"
+    ],
+    "el_max_exclusive_min_exclusive": [
+        "-P39Y1M",
+        "P27Y4M"
+    ],
+    "el_max_exclusive_max_inclusive": [
+        "-P3323Y",
+        "P27Y3M"
+    ],
+    "el_max_exclusive_max_exclusive": [
+        "-P342Y23M",
+        "P26Y11M"
+    ]
+}

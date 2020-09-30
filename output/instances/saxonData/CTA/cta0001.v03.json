@@ -1,0 +1,39 @@
+{
+    "message": [
+        {
+            "any_element": [
+                "23:59:59"
+            ],
+            "kind": "time",
+            "any_attributes": {}
+        },
+        {
+            "any_element": [
+                "12:00:00"
+            ],
+            "kind": "time",
+            "any_attributes": {}
+        },
+        {
+            "any_element": [
+                "2008-03-01"
+            ],
+            "kind": "date",
+            "any_attributes": {}
+        },
+        {
+            "any_element": [
+                "2008-02-29"
+            ],
+            "kind": "date",
+            "any_attributes": {}
+        },
+        {
+            "any_element": [
+                "bananas and custard"
+            ],
+            "kind": null,
+            "any_attributes": {}
+        }
+    ]
+}

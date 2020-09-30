@@ -1,0 +1,12 @@
+{
+    "person": [
+        {
+            "value": "William Smith",
+            "parent": null
+        },
+        {
+            "value": "John Smith",
+            "parent": "William Smith"
+        }
+    ]
+}

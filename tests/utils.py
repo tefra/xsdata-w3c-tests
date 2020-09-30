@@ -9,6 +9,7 @@ from click.testing import CliRunner
 from lxml import etree
 from xsdata.cli import cli
 from xsdata.formats.dataclass.parsers import XmlParser
+from xsdata.formats.dataclass.serializers import JsonSerializer
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.utils import text
 from xsdata.utils.testing import load_class
@@ -35,7 +36,7 @@ def assert_bindings(
 
     pck_arr = list(map(text.snake_case, schema_path.parts))
     package = f"output.models.{'.'.join(pck_arr)}"
-    clazz = generate_models(str(w3c.joinpath(schema)), package, class_name, ns_struct)
+    clazz = generate_models(str(schema_path_absolute), package, class_name, ns_struct)
 
     if isinstance(clazz, Exception):
         raise clazz
@@ -57,10 +58,12 @@ def assert_bindings(
             xsdata_instance = output.joinpath(instance)
             xsdata_instance.parent.mkdir(parents=True, exist_ok=True)
             xsdata_instance.write_text(xsdata_xml)
+            json_document = JsonSerializer(indent=4).render(obj)
+            xsdata_instance.with_suffix(".json").write_text(json_document)
         return assert_valid(schema_validator, xsdata_xml)
     except Exception as e:
         try:
-            original_tree = etree.parse(str(w3c.joinpath(instance)))
+            original_tree = etree.parse(str(instance_path))
             assert_valid(schema_validator, original_tree)
         except Exception:
             pytest.skip("Original instance failed to validate!")
@@ -76,11 +79,7 @@ def assert_valid(validator, tree):
 @functools.lru_cache(maxsize=5)
 def generate_models(xsd: str, package: str, class_name: str, ns_struct: bool):
     runner = CliRunner()
-    args = [
-        xsd,
-        "--package",
-        package,
-    ]
+    args = [xsd, "--package", package]
     if ns_struct:
         args.append("--ns-struct")
 

@@ -1,0 +1,34 @@
+{
+    "node": [
+        {
+            "node": [],
+            "id": [
+                {
+                    "value": "aaa",
+                    "a": null
+                }
+            ],
+            "idref": [
+                {
+                    "value": "bbb",
+                    "a": null
+                }
+            ]
+        },
+        {
+            "node": [],
+            "id": [
+                {
+                    "value": "bbb",
+                    "a": null
+                }
+            ],
+            "idref": [
+                {
+                    "value": "aaa",
+                    "a": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "number": [
+        {
+            "qname": "number",
+            "text": "3.0",
+            "tail": null,
+            "ns_map": {
+                "test": "IdConstrDefs/fields",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "xsd": "http://www.w3.org/2001/XMLSchema"
+            },
+            "children": [],
+            "attributes": {
+                "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal"
+            }
+        },
+        {
+            "qname": "number",
+            "text": "-3",
+            "tail": null,
+            "ns_map": {
+                "test": "IdConstrDefs/fields",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "xsd": "http://www.w3.org/2001/XMLSchema"
+            },
+            "children": [],
+            "attributes": {
+                "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal"
+            }
+        }
+    ]
+}

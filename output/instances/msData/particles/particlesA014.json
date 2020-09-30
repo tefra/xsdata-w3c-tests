@@ -1,0 +1,28 @@
+{
+    "elem": {
+        "any_element": [
+            {
+                "qname": "{bar}anything",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "bar",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{bar}anything",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "bar",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ]
+    }
+}

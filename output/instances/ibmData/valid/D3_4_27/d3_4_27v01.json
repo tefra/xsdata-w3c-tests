@@ -1,0 +1,22 @@
+{
+    "ely_mdtype": [
+        "P343DT0H",
+        "-PT48M",
+        "P1DT4.00003S"
+    ],
+    "ely_mdenumeration": [
+        "PT54H3M2.3S",
+        "-P5DT3S",
+        "-PT43M4.2S"
+    ],
+    "ely_mdmin_max_inclusive": [
+        "-P1D",
+        "PT47H3M",
+        "-PT46H59M3454.3S"
+    ],
+    "ely_mdmin_max_exclusive": [
+        "-P1D",
+        "PT47H3M",
+        "-PT46H59M3454.3S"
+    ]
+}

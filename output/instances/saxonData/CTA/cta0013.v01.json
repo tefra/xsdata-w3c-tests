@@ -1,0 +1,39 @@
+{
+    "part": [
+        {
+            "chap": [
+                {
+                    "de": {
+                        "qname": "de",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {},
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "lang": null,
+                    "fr": null
+                }
+            ],
+            "lang": "fr"
+        },
+        {
+            "chap": [
+                {
+                    "de": {
+                        "qname": "de",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {},
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "lang": null,
+                    "fr": null
+                }
+            ],
+            "lang": "en"
+        }
+    ],
+    "lang": "de"
+}

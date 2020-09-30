@@ -1,0 +1,10 @@
+{
+    "white": [
+        "e4",
+        "e3"
+    ],
+    "black": [
+        "e5"
+    ],
+    "result": "draw"
+}

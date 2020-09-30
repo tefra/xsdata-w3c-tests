@@ -1,0 +1,10 @@
+{
+    "foo": {
+        "idrefs_attr": [
+            "more",
+            "foofo"
+        ],
+        "id1_attr": "foofo"
+    },
+    "id2_attr": "more"
+}

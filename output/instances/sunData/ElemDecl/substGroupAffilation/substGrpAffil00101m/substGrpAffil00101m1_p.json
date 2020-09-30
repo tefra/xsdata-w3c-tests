@@ -1,0 +1,17 @@
+{
+    "magazine": [
+        {
+            "title": "Men's Health",
+            "date": "2002"
+        }
+    ],
+    "book": [
+        {
+            "title": "The Old Man and the Sea",
+            "author": [
+                "Ernest Hemingway"
+            ]
+        }
+    ],
+    "publication": []
+}

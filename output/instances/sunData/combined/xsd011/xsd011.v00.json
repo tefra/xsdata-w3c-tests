@@ -1,0 +1,47 @@
+{
+    "non_nillable": [
+        {
+            "x": {
+                "qname": "{foo}x",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "foo",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "nillable1": [
+        {
+            "x": {
+                "qname": "{foo}x",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "foo",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "x": null
+        }
+    ],
+    "nillable2": [
+        {
+            "value": [
+                51,
+                32,
+                59
+            ]
+        },
+        {
+            "value": []
+        }
+    ]
+}

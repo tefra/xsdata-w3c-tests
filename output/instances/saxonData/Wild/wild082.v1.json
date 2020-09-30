@@ -1,0 +1,13 @@
+{
+    "a": {
+        "value": "42",
+        "type": 1
+    },
+    "local_element": {
+        "qname": "a",
+        "value": {
+            "value": "93.7",
+            "type": 2
+        }
+    }
+}

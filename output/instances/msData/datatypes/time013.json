@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "13:20:00.34"
+    },
+    "simple_test": {
+        "value": "13:20:00.34"
+    }
+}

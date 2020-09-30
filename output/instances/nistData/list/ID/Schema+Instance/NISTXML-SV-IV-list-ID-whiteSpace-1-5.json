@@ -1,0 +1,13 @@
+{
+    "any_element": {
+        "qname": "{NISTSchema-SV-IV-list-ID-whiteSpace-1-NS}NISTSchema-SV-IV-list-ID-whiteSpace-1",
+        "text": "ddefine.measure.providing. oand_approach_is_software_ gautomatically.the.for_dyn llibrary-digital.adoption- xhelp_throughout-software-",
+        "tail": null,
+        "ns_map": {
+            "null": "NISTSchema-SV-IV-list-ID-whiteSpace-1-NS",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

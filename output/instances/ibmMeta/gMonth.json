@@ -1,0 +1,95 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "gMonth"
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#gMonth"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "A day is a calendar (or \"local time\") day in each timezone, including the timezones outside of +12:00 through -11:59 inclusive."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-2/#gMonth",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/D3_3_15/d3_3_15si01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "d3_3_15si01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "d3_3_15si01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "gMonth",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

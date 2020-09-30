@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "--03-15"
+    },
+    "simple_test": {
+        "value": "--03-15"
+    }
+}

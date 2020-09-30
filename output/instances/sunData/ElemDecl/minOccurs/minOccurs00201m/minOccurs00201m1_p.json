@@ -1,0 +1,15 @@
+{
+    "local": {
+        "any_element": {
+            "qname": null,
+            "text": "2",
+            "tail": null,
+            "ns_map": {
+                "null": "ElemDecl/minOccurs",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    }
+}

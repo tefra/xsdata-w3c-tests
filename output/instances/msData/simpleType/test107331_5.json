@@ -1,0 +1,22 @@
+{
+    "a": [
+        {
+            "value": "123456"
+        },
+        {
+            "value": "abcdefgh"
+        }
+    ],
+    "item": [
+        {
+            "any_element": {
+                "qname": null,
+                "text": " kjhad 254 987 lnfa ",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ]
+}

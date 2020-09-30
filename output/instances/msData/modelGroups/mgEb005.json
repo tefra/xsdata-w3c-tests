@@ -1,0 +1,84 @@
+{
+    "t1": [
+        {
+            "qname": "t1",
+            "text": "instance1",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance2",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance3",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance4",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance5",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance6",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance7",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "t1",
+            "text": "instance8",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

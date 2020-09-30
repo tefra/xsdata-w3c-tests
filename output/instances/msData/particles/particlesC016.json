@@ -1,0 +1,45 @@
+{
+    "elem": [
+        {
+            "foo_bar_element": [
+                {
+                    "qname": "{bar}foo",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "bar",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [
+                        {
+                            "qname": "{just_testing_should_pass}bar",
+                            "text": null,
+                            "tail": null,
+                            "ns_map": {
+                                "null": "just_testing_should_pass",
+                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "x": "http://xsdtesting"
+                            },
+                            "children": [],
+                            "attributes": {}
+                        }
+                    ],
+                    "attributes": {}
+                },
+                {
+                    "qname": "{bar}foo",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "bar",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
+        }
+    ]
+}

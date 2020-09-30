@@ -1,0 +1,24 @@
+{
+    "local_element1": {
+        "qname": "LocalElement1",
+        "text": "1",
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/scope",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "local_element2": {
+        "qname": "LocalElement2",
+        "text": "2",
+        "tail": null,
+        "ns_map": {
+            "test": "ElemDecl/scope",
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

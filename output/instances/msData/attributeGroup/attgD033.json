@@ -1,0 +1,8 @@
+{
+    "elem": {
+        "foo": null,
+        "other_attributes": {
+            "{not-exist}bar": "123"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "content": [
+        {
+            "qname": "a",
+            "value": {}
+        },
+        {
+            "qname": "b",
+            "value": {
+                "other_attributes": {
+                    "{http://www.w3.org/XML/1998/namespace}lang": "jp"
+                },
+                "w3_org_xml_1998_namespace_attributes": {}
+            }
+        }
+    ],
+    "w3_org_xml_1998_namespace_attributes": {},
+    "a": null,
+    "b": null
+}

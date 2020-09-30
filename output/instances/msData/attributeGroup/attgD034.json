@@ -1,0 +1,8 @@
+{
+    "elem": {
+        "foo": null,
+        "other_attributes": {
+            "{http://foo}att": "123"
+        }
+    }
+}

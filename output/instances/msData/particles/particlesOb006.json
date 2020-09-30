@@ -1,0 +1,32 @@
+{
+    "elem": {
+        "any_element": {
+            "qname": "{bar}bar",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://xsdtesting",
+                "foo": "foo",
+                "bar": "bar"
+            },
+            "children": [
+                {
+                    "qname": "{bar}e1",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "a": "http://xsdtesting",
+                        "foo": "foo",
+                        "bar": "bar"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        },
+        "foo_bar_element": null
+    }
+}

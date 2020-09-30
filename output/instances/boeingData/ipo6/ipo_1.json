@@ -1,0 +1,70 @@
+{
+    "salutation": {
+        "value": "Ms."
+    },
+    "extern_first_element": null,
+    "ship_to": {
+        "name": "Alice Smith",
+        "street": "123 Maple Street",
+        "city": "Mill Valley",
+        "state": "CA",
+        "zip": 90952
+    },
+    "bill_to": {
+        "name": "Robert Smith",
+        "street": "8 Oak Avenue",
+        "city": "Old Town",
+        "state": "PA",
+        "zip": 95819
+    },
+    "single_address": null,
+    "customer_comment": null,
+    "ship_comment": {
+        "value": "Hurry, my sister loves Boeing!"
+    },
+    "comment": null,
+    "items": {
+        "content": [
+            {
+                "qname": "{http://www.example.com/IPO}item",
+                "value": {
+                    "product_name": "777 Model",
+                    "quantity": 1,
+                    "usprice": "99.95",
+                    "customer_comment": [
+                        {
+                            "value": " Want this for the holidays! "
+                        }
+                    ],
+                    "ship_comment": [
+                        {
+                            "value": " Use gold wrap if possible "
+                        }
+                    ],
+                    "comment": [],
+                    "ship_date": "1999-12-05",
+                    "part_num": "777-BA",
+                    "weight_kg": "4.5",
+                    "ship_by": "air"
+                }
+            },
+            {
+                "qname": "{http://www.example.com/IPO}item",
+                "value": {
+                    "product_name": "833 Model",
+                    "quantity": 2,
+                    "usprice": "199.95",
+                    "customer_comment": [],
+                    "ship_comment": [],
+                    "comment": [],
+                    "ship_date": "2000-02-28",
+                    "part_num": "833-AA",
+                    "weight_kg": null,
+                    "ship_by": null
+                }
+            }
+        ],
+        "item": []
+    },
+    "order_date": "2002-10-20"
+}

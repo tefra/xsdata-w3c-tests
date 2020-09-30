@@ -1,0 +1,7 @@
+{
+    "foo_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "notatH001.xsd",
+        "{http://foo}name": "bar",
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://foo notatH001a.xsd"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "e1": "abc",
+    "any_element": {
+        "qname": "e2",
+        "text": "abc",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "children": [
+            {
+                "qname": "e3",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {
+            "{http://www.w3.org/2001/XMLSchema-instance}nil": "false"
+        }
+    }
+}

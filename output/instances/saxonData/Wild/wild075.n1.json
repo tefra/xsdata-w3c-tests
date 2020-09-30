@@ -1,0 +1,11 @@
+{
+    "a": 23,
+    "local_element": {
+        "qname": "a",
+        "text": "2010-10-16",
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    }
+}

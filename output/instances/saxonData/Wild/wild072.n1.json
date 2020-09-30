@@ -1,0 +1,16 @@
+{
+    "a_element": null,
+    "a": {
+        "value": null
+    },
+    "b": null,
+    "c": null,
+    "any_element": [
+        {
+            "qname": "a",
+            "value": {
+                "value": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": Infinity
+    },
+    "simple_test": {
+        "value": Infinity
+    }
+}

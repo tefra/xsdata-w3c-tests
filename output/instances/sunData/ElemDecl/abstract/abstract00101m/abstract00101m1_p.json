@@ -1,0 +1,53 @@
+{
+    "member1": [
+        {
+            "ear": {
+                "qname": "{ElemDecl/abstract}Ear",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/abstract",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "eye": {
+                "qname": "{ElemDecl/abstract}Eye",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/abstract",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        },
+        {
+            "ear": {
+                "qname": "{ElemDecl/abstract}Ear",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/abstract",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            "eye": {
+                "qname": "{ElemDecl/abstract}Eye",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "ElemDecl/abstract",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        }
+    ],
+    "head": []
+}

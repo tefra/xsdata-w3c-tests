@@ -1,0 +1,28 @@
+{
+    "any_element": [
+        {
+            "qname": "{a}notDefinedInSchema",
+            "text": "hi",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "a",
+                "b": "b"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "{b}a",
+            "text": "hihi",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "null": "a",
+                "b": "b"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ]
+}

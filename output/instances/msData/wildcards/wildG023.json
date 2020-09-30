@@ -1,0 +1,13 @@
+{
+    "foobar_element": {
+        "qname": "{http://foobar}bar",
+        "text": "foo bar",
+        "tail": null,
+        "ns_map": {
+            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "null": "http://foobar"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

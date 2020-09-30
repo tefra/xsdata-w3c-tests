@@ -1,0 +1,47 @@
+{
+    "open_com_element": {
+        "qname": "{http://open.com/}extra",
+        "text": "42",
+        "tail": null,
+        "ns_map": {
+            "null": "http://open.com/"
+        },
+        "children": [],
+        "attributes": {}
+    },
+    "a": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b": {
+        "qname": "b",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "c": {
+        "qname": "c",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "d": {
+        "qname": "d",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "nonempty_com_element": null
+}

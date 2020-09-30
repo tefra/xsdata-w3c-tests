@@ -1,0 +1,12 @@
+{
+    "e": -12,
+    "f": 42,
+    "local_element": {
+        "qname": "e",
+        "text": 93,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    }
+}

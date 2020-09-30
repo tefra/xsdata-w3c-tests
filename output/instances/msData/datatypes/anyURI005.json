@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
+    },
+    "simple_test": {
+        "value": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
+    }
+}

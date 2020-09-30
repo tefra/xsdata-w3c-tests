@@ -1,0 +1,6 @@
+{
+    "any_attributes": {
+        "{http://abel.com/}abel": "abel",
+        "{http://cain.com/}cain": "cain"
+    }
+}

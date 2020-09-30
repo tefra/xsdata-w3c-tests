@@ -1,0 +1,19 @@
+{
+    "emp": [
+        {
+            "name": "John",
+            "nr": 23,
+            "manager": null
+        },
+        {
+            "name": "Mary",
+            "nr": 29,
+            "manager": null
+        },
+        {
+            "name": "Ahmed",
+            "nr": 42,
+            "manager": 29
+        }
+    ]
+}

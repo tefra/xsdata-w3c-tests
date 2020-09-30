@@ -1,0 +1,36 @@
+{
+    "other_element": {
+        "qname": null,
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [
+            {
+                "qname": "{A}b",
+                "text": "test",
+                "tail": null,
+                "ns_map": {
+                    "a": "A",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "tns": "http://xsdtesting"
+                },
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{A}b",
+                "text": "test",
+                "tail": null,
+                "ns_map": {
+                    "a": "A",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "tns": "http://xsdtesting"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {}
+    },
+    "a_element": null
+}

@@ -1,0 +1,19 @@
+{
+    "elem": [
+        {
+            "foo_target_namespace_bar_local_element": [
+                {
+                    "qname": "{http://xsdtesting}foo",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
+        }
+    ]
+}

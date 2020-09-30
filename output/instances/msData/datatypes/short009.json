@@ -1,0 +1,12 @@
+{
+    "complex_test": {
+        "comp_foo": [
+            -32765
+        ]
+    },
+    "simple_test": {
+        "value": [
+            -32765
+        ]
+    }
+}

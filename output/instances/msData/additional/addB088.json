@@ -1,0 +1,69 @@
+{
+    "elem": [
+        {
+            "target_namespace_imported_xsd_element": {
+                "qname": "{http://importedXSD}doc1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "x": "http://xsdtesting",
+                    "i": "http://importedXSD"
+                },
+                "children": [
+                    {
+                        "qname": "{http://importedXSD}elem1",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "x": "http://xsdtesting",
+                            "i": "http://importedXSD"
+                        },
+                        "children": [
+                            {
+                                "qname": "{http://importedXSD}bbb",
+                                "text": null,
+                                "tail": null,
+                                "ns_map": {
+                                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                    "x": "http://xsdtesting",
+                                    "i": "http://importedXSD"
+                                },
+                                "children": [],
+                                "attributes": {}
+                            }
+                        ],
+                        "attributes": {}
+                    },
+                    {
+                        "qname": "{http://importedXSD}elem2",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "x": "http://xsdtesting",
+                            "i": "http://importedXSD"
+                        },
+                        "children": [
+                            {
+                                "qname": "{http://importedXSD}bbb",
+                                "text": null,
+                                "tail": null,
+                                "ns_map": {
+                                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                    "x": "http://xsdtesting",
+                                    "i": "http://importedXSD"
+                                },
+                                "children": [],
+                                "attributes": {}
+                            }
+                        ],
+                        "attributes": {}
+                    }
+                ],
+                "attributes": {}
+            }
+        }
+    ]
+}

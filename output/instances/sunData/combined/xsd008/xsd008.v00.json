@@ -1,0 +1,57 @@
+{
+    "generic": {
+        "int_value": [
+            {
+                "annotation": null,
+                "value": 52
+            },
+            {
+                "annotation": null,
+                "value": -55555
+            }
+        ],
+        "long": [
+            {
+                "annotation": null,
+                "value": 52
+            },
+            {
+                "annotation": null,
+                "value": -55555
+            }
+        ],
+        "yes_no": [
+            {
+                "annotation": null,
+                "value": true
+            },
+            {
+                "annotation": null,
+                "value": false
+            }
+        ],
+        "facet": []
+    },
+    "restricted": {
+        "int_value": [
+            {
+                "annotation": null,
+                "value": 52
+            },
+            {
+                "annotation": null,
+                "value": -55555
+            }
+        ],
+        "long": [
+            {
+                "annotation": null,
+                "value": 52
+            },
+            {
+                "annotation": null,
+                "value": -55555
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "default_attr": true,
+    "e1": {
+        "default_attr": true
+    },
+    "e2": {
+        "default_attr": false
+    }
+}

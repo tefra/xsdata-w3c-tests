@@ -1,0 +1,447 @@
+{
+    "annotation": [
+        {
+            "appinfo": [],
+            "documentation": [
+                {
+                    "any_element": [
+                        "substitutionGroup "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class"
+                    }
+                }
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "test_group": [
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests abstract substitution group "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-AbstrElemAllowed",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s2_2_2v01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v01.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s2_2_2v01i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s2_2_2v01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests multiple substitution group heads "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s2_2_2v02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v02.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s2_2_2v02i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s2_2_2v02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "Tests for 1 substitution group head "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v03.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "valid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s2_2_2v03s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [
+                {
+                    "annotation": [],
+                    "instance_document": {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/valid/S2_2_2/s2_2_2v03.xml",
+                        "other_attributes": {}
+                    },
+                    "expected": [
+                        {
+                            "validity": "valid",
+                            "version": [],
+                            "other_attributes": {}
+                        }
+                    ],
+                    "current": {
+                        "annotation": [],
+                        "status": "accepted",
+                        "date": "2010-12-01",
+                        "bugzilla": null,
+                        "other_attributes": {}
+                    },
+                    "prior": [],
+                    "name": "s2_2_2v03i",
+                    "version": [],
+                    "other_attributes": {}
+                }
+            ],
+            "name": "s2_2_2v03",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "structures 3.3.6.1.5 - there are circular substitution groups "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S2_2_2/s2_2_2si01.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s2_2_2si01s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s2_2_2si01",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        },
+        {
+            "annotation": [
+                {
+                    "appinfo": [],
+                    "documentation": [
+                        {
+                            "any_element": [
+                                "structures 3.3.6.1.4 - element's type def is NOT validly substituable for its member's type def  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
+                        }
+                    ],
+                    "other_attributes": {}
+                }
+            ],
+            "documentation_reference": [
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "http://www.w3.org/TR/xmlschema11-1/#Element_Equivalence_Class",
+                    "other_attributes": {}
+                },
+                {
+                    "annotation": [],
+                    "type": "locator",
+                    "href": "../common/XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
+                    "other_attributes": {}
+                }
+            ],
+            "schema_test": {
+                "annotation": [],
+                "schema_document": [
+                    {
+                        "annotation": [],
+                        "type": "locator",
+                        "href": "../ibmData/schema_invalid/S2_2_2/s2_2_2si02.xsd",
+                        "other_attributes": {}
+                    }
+                ],
+                "expected": [
+                    {
+                        "validity": "invalid",
+                        "version": [],
+                        "other_attributes": {}
+                    }
+                ],
+                "current": {
+                    "annotation": [],
+                    "status": "accepted",
+                    "date": "2010-12-01",
+                    "bugzilla": null,
+                    "other_attributes": {}
+                },
+                "prior": [],
+                "name": "s2_2_2si02s",
+                "version": [],
+                "other_attributes": {}
+            },
+            "instance_test": [],
+            "name": "s2_2_2si02",
+            "version": [
+                "1.1"
+            ],
+            "other_attributes": {}
+        }
+    ],
+    "contributor": "IBM",
+    "name": "substitutionGroup",
+    "version": [],
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd"
+    }
+}

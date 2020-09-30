@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": -128
+    },
+    "simple_test": {
+        "value": -128
+    }
+}

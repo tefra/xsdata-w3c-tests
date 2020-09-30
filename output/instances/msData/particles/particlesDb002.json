@@ -1,0 +1,19 @@
+{
+    "elem1": {
+        "any_element": null
+    },
+    "elem2": {
+        "a1": {
+            "qname": "{http://xsdtesting}a1",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "x": "http://xsdtesting"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        "a2": null
+    }
+}

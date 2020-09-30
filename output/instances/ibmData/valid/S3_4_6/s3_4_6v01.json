@@ -1,0 +1,50 @@
+{
+    "a": 1,
+    "any_element": [
+        {
+            "qname": "wildcard",
+            "text": "1",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "dv": "http://xstest-tns/schema11_S3_4_6"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "wildcard2",
+            "text": "hi.123",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "dv": "http://xstest-tns/schema11_S3_4_6"
+            },
+            "children": [],
+            "attributes": {}
+        },
+        {
+            "qname": "wildcard3",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "dv": "http://xstest-tns/schema11_S3_4_6"
+            },
+            "children": [
+                {
+                    "qname": "hello",
+                    "text": "\n   moo\n  ",
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "dv": "http://xstest-tns/schema11_S3_4_6"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ],
+            "attributes": {}
+        }
+    ]
+}

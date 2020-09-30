@@ -1,0 +1,9 @@
+{
+    "union_of_ids_element": [
+        123,
+        true,
+        "abc",
+        false
+    ],
+    "idref_attr": "abc"
+}

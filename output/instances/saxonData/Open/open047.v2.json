@@ -1,0 +1,33 @@
+{
+    "open_com_element": null,
+    "a": [
+        {
+            "qname": "a",
+            "text": null,
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
+        }
+    ],
+    "b": 23,
+    "c": null,
+    "d": {
+        "qname": "d",
+        "text": null,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
+    },
+    "any_element": {
+        "qname": "{http://closed.com/}x",
+        "text": null,
+        "tail": null,
+        "ns_map": {
+            "null": "http://closed.com/"
+        },
+        "children": [],
+        "attributes": {}
+    }
+}

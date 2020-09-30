@@ -1,0 +1,66 @@
+{
+    "elem": [
+        {
+            "any_element": [
+                {
+                    "qname": "b",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "{http://foo}b",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "http://foo",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "{xmlns}b",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "xmlns",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "b",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xyz": "bar",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "b",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "x": "http://xsdtesting"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
+        }
+    ]
+}

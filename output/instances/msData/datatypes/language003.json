@@ -1,0 +1,8 @@
+{
+    "complex_test": {
+        "comp_foo": "EN-US"
+    },
+    "simple_test": {
+        "value": "EN-US"
+    }
+}

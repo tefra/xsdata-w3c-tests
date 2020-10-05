@@ -1,6 +1,6 @@
 # xsdata-w3c-tests
 
-[![Build Status](https://travis-ci.com/tefra/xsdata-w3c-tests.svg?branch=master)](https://travis-ci.com/tefra/xsdata-w3c-tests)
+[![Build Status](https://github.com/tefra/xsdata-w3c-tests/workflows/tests/badge.svg)](https://github.com/tefra/xsdata-w3c-tests/actions)
 
 Run xsdata code generator and data binding module against the W3C XML Schema 1.1 test
 suite.

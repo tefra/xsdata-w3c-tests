@@ -30,7 +30,7 @@ class Root:
         :ivar beverage:
         :ivar end_time:
         """
-        beverage: Optional[Union[object, int, str]] = field(
+        beverage: Optional[Union[int, str]] = field(
             default=None,
             metadata=dict(
                 type="Element",

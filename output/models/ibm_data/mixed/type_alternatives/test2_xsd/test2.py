@@ -71,7 +71,7 @@ class Example:
     """
     :ivar x:
     """
-    x: List[Union[XDecimal, XInt, XString, object, str]] = field(
+    x: List[Union[XDecimal, XInt, XString]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

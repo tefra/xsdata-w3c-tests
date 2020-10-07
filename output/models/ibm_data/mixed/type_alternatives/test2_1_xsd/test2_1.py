@@ -8,7 +8,7 @@ class Example:
     """
     :ivar x:
     """
-    x: List[Union[object, str, "Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]] = field(
+    x: List[Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

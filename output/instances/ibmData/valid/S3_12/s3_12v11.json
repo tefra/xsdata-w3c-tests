@@ -5,7 +5,7 @@
             "end_time": 1
         },
         {
-            "beverage": "123",
+            "beverage": 123,
             "end_time": 11
         }
     ]

@@ -798,14 +798,14 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aaaa: Optional[Aaaa] = field(
+    aaaa: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    bbb_b: Optional[BbbB] = field(
+    bbb_b: Optional[int] = field(
         default=None,
         metadata=dict(
             name="bbbB",
@@ -813,7 +813,7 @@ class Root:
             required=True
         )
     )
-    cc_cc: Optional[CcCc] = field(
+    cc_cc: Optional[int] = field(
         default=None,
         metadata=dict(
             name="ccCc",
@@ -821,7 +821,7 @@ class Root:
             required=True
         )
     )
-    dd_dd: Optional[DdDd] = field(
+    dd_dd: Optional[int] = field(
         default=None,
         metadata=dict(
             name="ddDD",
@@ -829,7 +829,7 @@ class Root:
             required=True
         )
     )
-    e_eee: Optional[EEee] = field(
+    e_eee: Optional[int] = field(
         default=None,
         metadata=dict(
             name="eEee",
@@ -837,7 +837,7 @@ class Root:
             required=True
         )
     )
-    f_ff_f: Optional[FFfF] = field(
+    f_ff_f: Optional[int] = field(
         default=None,
         metadata=dict(
             name="fFfF",
@@ -845,7 +845,7 @@ class Root:
             required=True
         )
     )
-    p_ppp: Optional[PPpp] = field(
+    p_ppp: Optional[int] = field(
         default=None,
         metadata=dict(
             name="pPPp",
@@ -853,7 +853,7 @@ class Root:
             required=True
         )
     )
-    g_ggg: Optional[GGgg] = field(
+    g_ggg: Optional[int] = field(
         default=None,
         metadata=dict(
             name="gGGG",
@@ -861,7 +861,7 @@ class Root:
             required=True
         )
     )
-    hhhh: Optional[Hhhh] = field(
+    hhhh: Optional[int] = field(
         default=None,
         metadata=dict(
             name="Hhhh",
@@ -869,7 +869,7 @@ class Root:
             required=True
         )
     )
-    iii_i: Optional[IiiI] = field(
+    iii_i: Optional[int] = field(
         default=None,
         metadata=dict(
             name="IiiI",
@@ -877,7 +877,7 @@ class Root:
             required=True
         )
     )
-    jj_jj: Optional[JjJj] = field(
+    jj_jj: Optional[int] = field(
         default=None,
         metadata=dict(
             name="JjJj",
@@ -885,7 +885,7 @@ class Root:
             required=True
         )
     )
-    kk_kk: Optional[KkKk] = field(
+    kk_kk: Optional[int] = field(
         default=None,
         metadata=dict(
             name="KkKK",
@@ -893,7 +893,7 @@ class Root:
             required=True
         )
     )
-    llll: Optional[Llll] = field(
+    llll: Optional[int] = field(
         default=None,
         metadata=dict(
             name="LLll",
@@ -901,7 +901,7 @@ class Root:
             required=True
         )
     )
-    mmm_m: Optional[MmmM] = field(
+    mmm_m: Optional[int] = field(
         default=None,
         metadata=dict(
             name="MMmM",
@@ -909,7 +909,7 @@ class Root:
             required=True
         )
     )
-    nnnn: Optional[Nnnn] = field(
+    nnnn: Optional[int] = field(
         default=None,
         metadata=dict(
             name="NNNn",
@@ -917,7 +917,7 @@ class Root:
             required=True
         )
     )
-    oooo: Optional[Oooo] = field(
+    oooo: Optional[int] = field(
         default=None,
         metadata=dict(
             name="OOOO",
@@ -925,56 +925,56 @@ class Root:
             required=True
         )
     )
-    bbb0: Optional[Bbb0] = field(
+    bbb0: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    cc0c: Optional[Cc0C] = field(
+    cc0c: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    dd00: Optional[Dd00] = field(
+    dd00: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    e0ee: Optional[E0Ee] = field(
+    e0ee: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    f0f0: Optional[F0F0] = field(
+    f0f0: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    p00p: Optional[P00P] = field(
+    p00p: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    g000: Optional[G000] = field(
+    g000: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    bbb: Optional[Bbb] = field(
+    bbb: Optional[int] = field(
         default=None,
         metadata=dict(
             name="bbb_",
@@ -982,14 +982,14 @@ class Root:
             required=True
         )
     )
-    cc_c: Optional[CcC] = field(
+    cc_c: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    dd: Optional[Dd] = field(
+    dd: Optional[int] = field(
         default=None,
         metadata=dict(
             name="dd__",
@@ -997,14 +997,14 @@ class Root:
             required=True
         )
     )
-    e_ee: Optional[EEe] = field(
+    e_ee: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    f_f: Optional[FF] = field(
+    f_f: Optional[int] = field(
         default=None,
         metadata=dict(
             name="f_f_",
@@ -1012,7 +1012,7 @@ class Root:
             required=True
         )
     )
-    p_p: Optional[PP] = field(
+    p_p: Optional[int] = field(
         default=None,
         metadata=dict(
             name="p__p",
@@ -1020,7 +1020,7 @@ class Root:
             required=True
         )
     )
-    g: Optional[G] = field(
+    g: Optional[int] = field(
         default=None,
         metadata=dict(
             name="g___",
@@ -1028,7 +1028,7 @@ class Root:
             required=True
         )
     )
-    h111: Optional[H111] = field(
+    h111: Optional[int] = field(
         default=None,
         metadata=dict(
             name="H111",
@@ -1036,7 +1036,7 @@ class Root:
             required=True
         )
     )
-    i11_i: Optional[I11I] = field(
+    i11_i: Optional[int] = field(
         default=None,
         metadata=dict(
             name="I11I",
@@ -1044,7 +1044,7 @@ class Root:
             required=True
         )
     )
-    j1_j1: Optional[J1J1] = field(
+    j1_j1: Optional[int] = field(
         default=None,
         metadata=dict(
             name="J1J1",
@@ -1052,7 +1052,7 @@ class Root:
             required=True
         )
     )
-    k1_kk: Optional[K1Kk] = field(
+    k1_kk: Optional[int] = field(
         default=None,
         metadata=dict(
             name="K1KK",
@@ -1060,7 +1060,7 @@ class Root:
             required=True
         )
     )
-    ll11: Optional[Ll11] = field(
+    ll11: Optional[int] = field(
         default=None,
         metadata=dict(
             name="LL11",
@@ -1068,7 +1068,7 @@ class Root:
             required=True
         )
     )
-    mm1_m: Optional[Mm1M] = field(
+    mm1_m: Optional[int] = field(
         default=None,
         metadata=dict(
             name="MM1M",
@@ -1076,7 +1076,7 @@ class Root:
             required=True
         )
     )
-    nnn1: Optional[Nnn1] = field(
+    nnn1: Optional[int] = field(
         default=None,
         metadata=dict(
             name="NNN1",
@@ -1084,7 +1084,7 @@ class Root:
             required=True
         )
     )
-    h: Optional[H] = field(
+    h: Optional[int] = field(
         default=None,
         metadata=dict(
             name="H---",
@@ -1092,7 +1092,7 @@ class Root:
             required=True
         )
     )
-    i_i: Optional[II] = field(
+    i_i: Optional[int] = field(
         default=None,
         metadata=dict(
             name="I--I",
@@ -1100,7 +1100,7 @@ class Root:
             required=True
         )
     )
-    j_j: Optional[JJ] = field(
+    j_j: Optional[int] = field(
         default=None,
         metadata=dict(
             name="J-J-",
@@ -1108,7 +1108,7 @@ class Root:
             required=True
         )
     )
-    k_kk: Optional[KKk] = field(
+    k_kk: Optional[int] = field(
         default=None,
         metadata=dict(
             name="K-KK",
@@ -1116,7 +1116,7 @@ class Root:
             required=True
         )
     )
-    ll: Optional[Ll] = field(
+    ll: Optional[int] = field(
         default=None,
         metadata=dict(
             name="LL--",
@@ -1124,7 +1124,7 @@ class Root:
             required=True
         )
     )
-    mm_m: Optional[MmM] = field(
+    mm_m: Optional[int] = field(
         default=None,
         metadata=dict(
             name="MM-M",
@@ -1132,7 +1132,7 @@ class Root:
             required=True
         )
     )
-    nnn: Optional[Nnn] = field(
+    nnn: Optional[int] = field(
         default=None,
         metadata=dict(
             name="NNN-",

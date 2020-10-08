@@ -5,6 +5,49 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
+class T:
+    """
+    :ivar s1:
+    :ivar s:
+    :ivar n:
+    :ivar any_element:
+    """
+    s1: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+    s: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+    n: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+
+
+@dataclass
 class E:
     """
     :ivar value:
@@ -85,49 +128,6 @@ class S1:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class T:
-    """
-    :ivar s1:
-    :ivar s:
-    :ivar n:
-    :ivar any_element:
-    """
-    s1: Optional[S1] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
-    )
-    s: Optional[S] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
-    )
-    n: Optional[N] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
-    )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
         )
     )
 

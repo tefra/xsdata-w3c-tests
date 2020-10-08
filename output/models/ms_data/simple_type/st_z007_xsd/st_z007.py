@@ -1,24 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
-
-
-@dataclass
-class T1:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "t1"
-
-    value: Optional[object] = field(
-        default=None,
-    )
-
-
-@dataclass
-class T2(T1):
-    class Meta:
-        name = "t2"
+from typing import List
 
 
 @dataclass
@@ -30,7 +11,7 @@ class Root:
     class Meta:
         name = "root"
 
-    e1: List[T1] = field(
+    e1: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -39,7 +20,7 @@ class Root:
             max_occurs=10
         )
     )
-    e2: List[T2] = field(
+    e2: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

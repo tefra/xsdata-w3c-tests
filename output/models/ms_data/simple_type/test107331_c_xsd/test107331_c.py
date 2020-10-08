@@ -207,6 +207,111 @@ class Ra:
 
 
 @dataclass
+class Root:
+    """
+    :ivar ra:
+    :ivar lab:
+    :ivar la:
+    :ivar uab:
+    :ivar ua:
+    :ivar b_element:
+    :ivar a_element:
+    :ivar b:
+    :ivar a:
+    :ivar item:
+    """
+    class Meta:
+        name = "root"
+
+    ra: List[RA] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    lab: List[List[UnionAb]] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
+        )
+    )
+    la: List[List[A1]] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
+        )
+    )
+    uab: List[UnionAb] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    ua: List[UnionA] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    b_element: List[B1] = field(
+        default_factory=list,
+        metadata=dict(
+            name="b",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    a_element: List[A1] = field(
+        default_factory=list,
+        metadata=dict(
+            name="a",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    b: List[B1] = field(
+        default_factory=list,
+        metadata=dict(
+            name="B",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    a: List[A1] = field(
+        default_factory=list,
+        metadata=dict(
+            name="A",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    item: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+
+
+@dataclass
 class Ua:
     """
     :ivar value:
@@ -234,108 +339,5 @@ class Uab:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class Root:
-    """
-    :ivar ra:
-    :ivar lab:
-    :ivar la:
-    :ivar uab:
-    :ivar ua:
-    :ivar b_element:
-    :ivar a_element:
-    :ivar b:
-    :ivar a:
-    :ivar item:
-    """
-    class Meta:
-        name = "root"
-
-    ra: List[Ra] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    lab: List[Lab] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    la: List[La] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    uab: List[Uab] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    ua: List[Ua] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    b_element: List[B3] = field(
-        default_factory=list,
-        metadata=dict(
-            name="b",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    a_element: List[A3] = field(
-        default_factory=list,
-        metadata=dict(
-            name="a",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    b: List[B1] = field(
-        default_factory=list,
-        metadata=dict(
-            name="B",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    a: List[A1] = field(
-        default_factory=list,
-        metadata=dict(
-            name="A",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    item: List[Item] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
         )
     )

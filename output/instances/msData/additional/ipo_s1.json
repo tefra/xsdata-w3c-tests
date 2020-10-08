@@ -16,9 +16,7 @@
                 "product_name": "Lapis necklace",
                 "quantity": 1,
                 "usprice": "99.95",
-                "comment": {
-                    "value": "Want this for the holidays!"
-                },
+                "comment": "Want this for the holidays!",
                 "ship_date": "1999-12-05",
                 "part_num": "833-AA"
             }

@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "--02-29"
     },
-    "simple_test": {
-        "value": "--02-29"
-    }
+    "simple_test": "--02-29"
 }

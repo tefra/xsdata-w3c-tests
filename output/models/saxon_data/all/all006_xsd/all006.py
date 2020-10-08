@@ -84,7 +84,7 @@ class Doc:
             required=True
         )
     )
-    b: Optional[B] = field(
+    b: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

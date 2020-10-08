@@ -4,9 +4,7 @@
             "12345678ABCDEF"
         ]
     },
-    "simple_test": {
-        "value": [
-            "12345678ABCDEF"
-        ]
-    }
+    "simple_test": [
+        "12345678ABCDEF"
+    ]
 }

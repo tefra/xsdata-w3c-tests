@@ -1,24 +1,16 @@
 {
     "s1": [],
     "s": [
-        {
-            "value": "Test case for interaction of substitution groups and \n   #definedSibling."
-        }
+        "Test case for interaction of substitution groups and \n   #definedSibling."
     ],
     "n1": [
-        {
-            "value": null
-        }
+        ""
     ],
     "n": [
-        {
-            "value": null
-        }
+        ""
     ],
     "any_element": null,
     "a": null,
     "b": null,
-    "c": {
-        "value": null
-    }
+    "c": ""
 }

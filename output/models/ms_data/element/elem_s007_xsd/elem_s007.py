@@ -84,6 +84,35 @@ class FeValid:
 
 
 @dataclass
+class Root:
+    """
+    :ivar fe1_valid:
+    :ivar fe_valid:
+    """
+    class Meta:
+        name = "root"
+        namespace = "http://xsdtesting"
+
+    fe1_valid: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            required=True,
+            min_length=1,
+            max_length=4
+        )
+    )
+    fe_valid: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            required=True,
+            max_length=4
+        )
+    )
+
+
+@dataclass
 class Cc(Cs):
     """
     :ivar b:
@@ -95,31 +124,5 @@ class Cc(Cs):
         default=None,
         metadata=dict(
             type="Attribute"
-        )
-    )
-
-
-@dataclass
-class Root:
-    """
-    :ivar fe1_valid:
-    :ivar fe_valid:
-    """
-    class Meta:
-        name = "root"
-        namespace = "http://xsdtesting"
-
-    fe1_valid: Optional[Fe1Valid] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
-    )
-    fe_valid: Optional[FeValid] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
         )
     )

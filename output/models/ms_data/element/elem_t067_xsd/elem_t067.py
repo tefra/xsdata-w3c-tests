@@ -294,7 +294,7 @@ class Root:
             max_occurs=5
         )
     )
-    sa1: List[Sa1] = field(
+    sa1: List[RA] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -302,7 +302,7 @@ class Root:
             max_occurs=5
         )
     )
-    test1: List[Test1] = field(
+    test1: List[A] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -310,13 +310,13 @@ class Root:
             max_occurs=5
         )
     )
-    test2: Optional[Test2] = field(
+    test2: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"
         )
     )
-    test3: Optional[Test3] = field(
+    test3: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"

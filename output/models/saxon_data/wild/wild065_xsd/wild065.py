@@ -46,14 +46,14 @@ class Zing:
     class Meta:
         name = "zing"
 
-    g: Optional[G] = field(
+    g: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    e: Optional[E] = field(
+    e: Optional[Decimal] = field(
         default=None,
         metadata=dict(
             type="Element",

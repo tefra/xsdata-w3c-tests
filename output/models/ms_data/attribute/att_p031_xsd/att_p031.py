@@ -19,7 +19,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[AttRef] = field(
+    elem: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element"

@@ -1,25 +1,13 @@
 {
     "e2": [
-        {
-            "value": 1
-        }
+        1
     ],
     "e1": [
-        {
-            "value": true
-        },
-        {
-            "value": true
-        },
-        {
-            "value": false
-        },
-        {
-            "value": "x"
-        },
-        {
-            "value": "y"
-        }
+        true,
+        true,
+        false,
+        "x",
+        "y"
     ],
     "e3": [
         {

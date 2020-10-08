@@ -49,57 +49,6 @@ class AddressType:
 
 
 @dataclass
-class Comment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class CustomerComment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "customerComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class ShipComment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "shipComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
 class ItemsType:
     """
     :ivar item:
@@ -155,7 +104,7 @@ class ItemsType:
                 required=True
             )
         )
-        customer_comment: List[CustomerComment] = field(
+        customer_comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 name="customerComment",
@@ -165,7 +114,7 @@ class ItemsType:
                 max_occurs=2
             )
         )
-        ship_comment: List[ShipComment] = field(
+        ship_comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 name="shipComment",
@@ -175,7 +124,7 @@ class ItemsType:
                 max_occurs=2
             )
         )
-        comment: List[Comment] = field(
+        comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 type="Element",
@@ -231,6 +180,57 @@ class ItemsType:
 
 
 @dataclass
+class Comment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class CustomerComment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "customerComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class ShipComment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "shipComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
 class PurchaseOrderType:
     """
     :ivar ship_to:
@@ -268,7 +268,7 @@ class PurchaseOrderType:
             namespace="http://www.example.com/IPO"
         )
     )
-    customer_comment: Optional[CustomerComment] = field(
+    customer_comment: Optional[str] = field(
         default=None,
         metadata=dict(
             name="customerComment",
@@ -276,7 +276,7 @@ class PurchaseOrderType:
             namespace="http://www.example.com/IPO"
         )
     )
-    ship_comment: Optional[ShipComment] = field(
+    ship_comment: Optional[str] = field(
         default=None,
         metadata=dict(
             name="shipComment",
@@ -284,7 +284,7 @@ class PurchaseOrderType:
             namespace="http://www.example.com/IPO"
         )
     )
-    comment: Optional[Comment] = field(
+    comment: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

@@ -4,9 +4,7 @@
             "AQID"
         ]
     },
-    "simple_test": {
-        "value": [
-            "AQID"
-        ]
-    }
+    "simple_test": [
+        "AQID"
+    ]
 }

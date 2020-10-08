@@ -6,40 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
-class GlobalType:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "Global"
-        namespace = "ElemDecl/typeDef"
-
-    value: Optional[bool] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class GlobalPreDefinedType:
-    """
-    :ivar value:
-    """
-    class Meta:
-        namespace = "ElemDecl/typeDef"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"1|true"
-        )
-    )
-
-
-@dataclass
 class ComplexType:
     """
     :ivar global_value:
@@ -48,7 +14,7 @@ class ComplexType:
     :ivar local_pre_defined_type:
     :ivar local_inline:
     """
-    global_value: Optional[GlobalType] = field(
+    global_value: Optional[bool] = field(
         default=None,
         metadata=dict(
             name="Global",
@@ -57,13 +23,14 @@ class ComplexType:
             required=True
         )
     )
-    global_pre_defined_type: Optional[GlobalPreDefinedType] = field(
+    global_pre_defined_type: Optional[str] = field(
         default=None,
         metadata=dict(
             name="GlobalPreDefinedType",
             type="Element",
             namespace="ElemDecl/typeDef",
-            required=True
+            required=True,
+            pattern=r"1|true"
         )
     )
     local: Optional[Decimal] = field(
@@ -93,6 +60,40 @@ class ComplexType:
             namespace="",
             required=True,
             pattern=r"0|false"
+        )
+    )
+
+
+@dataclass
+class GlobalType:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "Global"
+        namespace = "ElemDecl/typeDef"
+
+    value: Optional[bool] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class GlobalPreDefinedType:
+    """
+    :ivar value:
+    """
+    class Meta:
+        namespace = "ElemDecl/typeDef"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True,
+            pattern=r"1|true"
         )
     )
 

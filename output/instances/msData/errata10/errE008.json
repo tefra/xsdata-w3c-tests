@@ -1,5 +1,3 @@
 {
-    "test_token": {
-        "value": "test\rdata"
-    }
+    "test_token": "test\rdata"
 }

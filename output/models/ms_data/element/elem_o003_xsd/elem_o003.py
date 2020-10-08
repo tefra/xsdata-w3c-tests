@@ -26,11 +26,12 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
+    foo_test: Optional[str] = field(
         default=None,
         metadata=dict(
             name="fooTest",
             type="Element",
-            required=True
+            required=True,
+            pattern=r"[A-E]{1,2}"
         )
     )

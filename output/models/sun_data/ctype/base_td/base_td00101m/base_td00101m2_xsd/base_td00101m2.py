@@ -5,22 +5,17 @@ __NAMESPACE__ = "baseTD"
 
 
 @dataclass
-class Test2:
+class Root:
     """
     :ivar value:
     """
-    value: Optional[int] = field(
-        default=None,
-    )
-
-
-@dataclass
-class Test(Test2):
-    pass
-
-
-@dataclass
-class Root(Test):
     class Meta:
         name = "root"
         namespace = "baseTD"
+
+    value: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )

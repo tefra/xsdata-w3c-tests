@@ -1,6 +1,4 @@
 {
-    "global_value": {
-        "value": true
-    },
+    "global_value": true,
     "local": "1.1"
 }

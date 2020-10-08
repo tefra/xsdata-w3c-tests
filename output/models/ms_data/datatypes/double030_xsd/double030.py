@@ -62,7 +62,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    simple_test: List[SimpleTest] = field(
+    simple_test: List[Decimal] = field(
         default_factory=list,
         metadata=dict(
             name="simpleTest",

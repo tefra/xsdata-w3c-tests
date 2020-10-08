@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "NaN"
     },
-    "simple_test": {
-        "value": "NaN"
-    }
+    "simple_test": "NaN"
 }

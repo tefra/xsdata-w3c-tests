@@ -30,12 +30,13 @@ class T:
     class Meta:
         name = "t"
 
-    b: Optional[B] = field(
+    b: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
             namespace="a",
-            required=True
+            required=True,
+            nillable=True
         )
     )
 

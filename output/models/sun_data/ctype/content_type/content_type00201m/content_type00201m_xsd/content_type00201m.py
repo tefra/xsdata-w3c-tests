@@ -5,20 +5,17 @@ __NAMESPACE__ = "contentType"
 
 
 @dataclass
-class A1:
+class A:
     """
     :ivar value:
     """
     class Meta:
-        name = "A"
+        name = "a"
+        namespace = "contentType"
 
     value: Optional[str] = field(
         default=None,
+        metadata=dict(
+            required=True
+        )
     )
-
-
-@dataclass
-class A(A1):
-    class Meta:
-        name = "a"
-        namespace = "contentType"

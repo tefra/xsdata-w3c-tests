@@ -5,6 +5,31 @@ __NAMESPACE__ = "http://cta023.com/ns"
 
 
 @dataclass
+class Event:
+    """
+    :ivar when:
+    :ivar type:
+    """
+    class Meta:
+        name = "event"
+        namespace = "http://cta023.com/ns"
+
+    when: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            required=True
+        )
+    )
+    type: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute"
+        )
+    )
+
+
+@dataclass
 class When:
     """
     :ivar value:
@@ -17,31 +42,6 @@ class When:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class Event:
-    """
-    :ivar when:
-    :ivar type:
-    """
-    class Meta:
-        name = "event"
-        namespace = "http://cta023.com/ns"
-
-    when: Optional[When] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
-    )
-    type: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute"
         )
     )
 

@@ -88,11 +88,14 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    nillable2: List[Nillable2] = field(
+    nillable2: List[List[int]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
             min_occurs=0,
-            max_occurs=9223372036854775807
+            max_occurs=9223372036854775807,
+            min_length=2,
+            nillable=True,
+            tokens=True
         )
     )

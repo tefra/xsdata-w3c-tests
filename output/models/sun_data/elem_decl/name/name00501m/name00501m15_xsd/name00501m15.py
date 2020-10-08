@@ -5,6 +5,25 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
+class GlobalType:
+    """
+    :ivar main:
+    """
+    class Meta:
+        name = "Global"
+        namespace = "ElemDecl/name"
+
+    main: Optional[bool] = field(
+        default=None,
+        metadata=dict(
+            name="Main",
+            type="Element",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Main:
     """
     :ivar value:
@@ -34,25 +53,6 @@ class Root:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
-            required=True
-        )
-    )
-
-
-@dataclass
-class GlobalType:
-    """
-    :ivar main:
-    """
-    class Meta:
-        name = "Global"
-        namespace = "ElemDecl/name"
-
-    main: Optional[Main] = field(
-        default=None,
-        metadata=dict(
-            name="Main",
-            type="Element",
             required=True
         )
     )

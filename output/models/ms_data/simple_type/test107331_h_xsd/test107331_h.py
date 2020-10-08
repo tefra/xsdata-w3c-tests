@@ -45,7 +45,7 @@ class Root:
     class Meta:
         name = "root"
 
-    a: List[A] = field(
+    a: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

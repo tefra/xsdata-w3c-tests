@@ -3,19 +3,6 @@ from enum import Enum
 from typing import Optional
 
 
-@dataclass
-class MyType:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "myType"
-
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
 class FooType(Enum):
     """
     :cvar CA:

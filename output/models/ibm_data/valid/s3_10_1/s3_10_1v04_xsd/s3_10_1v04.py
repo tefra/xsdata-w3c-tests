@@ -5,23 +5,6 @@ __NAMESPACE__ = "a"
 
 
 @dataclass
-class Z:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "z"
-        namespace = "a"
-
-    value: Optional[int] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
 class T:
     """
     :ivar z:
@@ -30,7 +13,7 @@ class T:
     class Meta:
         name = "t"
 
-    z: Optional[Z] = field(
+    z: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -42,6 +25,23 @@ class T:
         metadata=dict(
             type="Wildcard",
             namespace="##any",
+            required=True
+        )
+    )
+
+
+@dataclass
+class Z:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "z"
+        namespace = "a"
+
+    value: Optional[int] = field(
+        default=None,
+        metadata=dict(
             required=True
         )
     )

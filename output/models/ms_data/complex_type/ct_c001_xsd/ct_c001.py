@@ -3,19 +3,16 @@ from typing import Optional
 
 
 @dataclass
-class FooType:
+class Root:
     """
     :ivar value:
     """
     class Meta:
-        name = "fooType"
+        name = "root"
 
     value: Optional[str] = field(
         default=None,
+        metadata=dict(
+            required=True
+        )
     )
-
-
-@dataclass
-class Root(FooType):
-    class Meta:
-        name = "root"

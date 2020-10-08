@@ -4,15 +4,34 @@ from typing import List, Optional
 
 
 @dataclass
-class Ct1:
+class A:
     """
     :ivar value:
     """
     class Meta:
-        name = "ct1"
+        name = "a"
 
     value: Optional[object] = field(
         default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class B:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "b"
+
+    value: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
     )
 
 
@@ -97,27 +116,9 @@ class Item:
 
 
 @dataclass
-class A(Ct1):
-    class Meta:
-        name = "a"
-
-
-@dataclass
 class C(Ct4):
     class Meta:
         name = "c"
-
-
-@dataclass
-class Ct2(Ct1):
-    class Meta:
-        name = "ct2"
-
-
-@dataclass
-class B(Ct2):
-    class Meta:
-        name = "b"
 
 
 @dataclass
@@ -139,7 +140,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    b: List[B] = field(
+    b: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -147,7 +148,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    a: List[A] = field(
+    a: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -155,7 +156,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    item: List[Item] = field(
+    item: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

@@ -32,19 +32,6 @@ class TitleType:
 
 
 @dataclass
-class MixedTitleType(TitleType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "mixedTitleType"
-
-    value: Optional[Union[int, str]] = field(
-        default=None,
-    )
-
-
-@dataclass
 class Root:
     """
     :ivar title:
@@ -53,7 +40,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    title: List[Union[MixedTitleType, TitleType, "Root.TypeText", "Root.TypeNumber"]] = field(
+    title: List[Union[int, str, TitleType, "Root.TypeText", "Root.TypeNumber"]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

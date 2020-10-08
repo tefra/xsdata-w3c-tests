@@ -4,9 +4,7 @@
             65530
         ]
     },
-    "simple_test": {
-        "value": [
-            65530
-        ]
-    }
+    "simple_test": [
+        65530
+    ]
 }

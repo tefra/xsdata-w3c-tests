@@ -35,7 +35,7 @@ class Doc:
             type="Attribute"
         )
     )
-    a: Optional[AType] = field(
+    a: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

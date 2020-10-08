@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "P1Y13M15DT12H30M"
     },
-    "simple_test": {
-        "value": "P1Y13M15DT12H30M"
-    }
+    "simple_test": "P1Y13M15DT12H30M"
 }

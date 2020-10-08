@@ -65,7 +65,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2: List[Elem2] = field(
+    elem2: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -74,7 +74,7 @@ class RootType:
             max_occurs=2
         )
     )
-    elem0: Optional[Elem0] = field(
+    elem0: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -82,7 +82,7 @@ class RootType:
             required=True
         )
     )
-    elem1: Optional[Elem1] = field(
+    elem1: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

@@ -10,9 +10,7 @@
     },
     "customer_comment": null,
     "ship_comment": null,
-    "comment": {
-        "value": "I love Boeing too!"
-    },
+    "comment": "I love Boeing too!",
     "items": {
         "content": [
             {

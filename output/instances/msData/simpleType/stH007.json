@@ -1,5 +1,3 @@
 {
-    "foo_test": {
-        "value": "CA"
-    }
+    "foo_test": "CA"
 }

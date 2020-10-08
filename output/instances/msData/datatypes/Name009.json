@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": ":foo"
     },
-    "simple_test": {
-        "value": ":foo"
-    }
+    "simple_test": ":foo"
 }

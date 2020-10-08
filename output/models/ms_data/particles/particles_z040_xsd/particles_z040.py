@@ -35,22 +35,6 @@ class B:
 
 
 @dataclass
-class E:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "e"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
 class Doc:
     """
     :ivar a:
@@ -60,7 +44,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: List[A] = field(
+    a: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -87,5 +71,21 @@ class Doc:
             min_occurs=0,
             max_occurs=3,
             sequential=True
+        )
+    )
+
+
+@dataclass
+class E:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "e"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
         )
     )

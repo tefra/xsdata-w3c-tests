@@ -2,9 +2,7 @@
     "a_element": {
         "any_element": null
     },
-    "a": {
-        "value": null
-    },
+    "a": "",
     "b": null,
     "c": null,
     "any_element": []

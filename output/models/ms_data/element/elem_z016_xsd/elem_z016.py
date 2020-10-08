@@ -3,6 +3,46 @@ from typing import List, Optional
 
 
 @dataclass
+class DataTypes:
+    """
+    :ivar id:
+    :ivar idref:
+    :ivar idrefs:
+    """
+    id: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            name="ID",
+            type="Element",
+            min_occurs=1,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    idref: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            name="IDREF",
+            type="Element",
+            min_occurs=1,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    idrefs: List[List[str]] = field(
+        default_factory=list,
+        metadata=dict(
+            name="IDREFS",
+            type="Element",
+            min_occurs=1,
+            max_occurs=2,
+            sequential=True,
+            tokens=True
+        )
+    )
+
+
+@dataclass
 class Id:
     """
     :ivar value:
@@ -47,45 +87,6 @@ class Idrefs:
         metadata=dict(
             required=True,
             tokens=True
-        )
-    )
-
-
-@dataclass
-class DataTypes:
-    """
-    :ivar id:
-    :ivar idref:
-    :ivar idrefs:
-    """
-    id: List[Id] = field(
-        default_factory=list,
-        metadata=dict(
-            name="ID",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    idref: List[Idref] = field(
-        default_factory=list,
-        metadata=dict(
-            name="IDREF",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    idrefs: List[Idrefs] = field(
-        default_factory=list,
-        metadata=dict(
-            name="IDREFS",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True
         )
     )
 

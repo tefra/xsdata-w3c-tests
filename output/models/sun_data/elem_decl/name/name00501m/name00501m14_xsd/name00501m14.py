@@ -5,6 +5,26 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
+class GlobalType:
+    """
+    :ivar main:
+    """
+    class Meta:
+        name = "Global"
+        namespace = "ElemDecl/name"
+
+    main: List[bool] = field(
+        default_factory=list,
+        metadata=dict(
+            name="Main",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+
+
+@dataclass
 class Main:
     """
     :ivar value:
@@ -35,25 +55,5 @@ class Root:
             type="Wildcard",
             namespace="##any",
             required=True
-        )
-    )
-
-
-@dataclass
-class GlobalType:
-    """
-    :ivar main:
-    """
-    class Meta:
-        name = "Global"
-        namespace = "ElemDecl/name"
-
-    main: List[Main] = field(
-        default_factory=list,
-        metadata=dict(
-            name="Main",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
         )
     )

@@ -1,6 +1,4 @@
 {
-    "fe1_valid": {
-        "value": "ab"
-    },
+    "fe1_valid": "ab",
     "fe_valid": null
 }

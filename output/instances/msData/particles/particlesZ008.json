@@ -1,8 +1,4 @@
 {
-    "member2": [
-        {
-            "value": "string"
-        }
-    ],
+    "member2": "string",
     "head2": null
 }

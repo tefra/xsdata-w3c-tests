@@ -180,6 +180,50 @@ class ECa(Ca):
 
 
 @dataclass
+class Root:
+    """
+    :ivar sa:
+    :ivar test:
+    :ivar test2:
+    :ivar test3:
+    :ivar test4:
+    """
+    class Meta:
+        name = "root"
+
+    sa: Optional[Sa] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )
+    test: Optional[A] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )
+    test2: Optional[A] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )
+    test3: Optional[A] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )
+    test4: Optional[Test4] = field(
+        default=None,
+        metadata=dict(
+            type="Element"
+        )
+    )
+
+
+@dataclass
 class Test:
     """
     :ivar value:
@@ -223,49 +267,5 @@ class Test3:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class Root:
-    """
-    :ivar sa:
-    :ivar test:
-    :ivar test2:
-    :ivar test3:
-    :ivar test4:
-    """
-    class Meta:
-        name = "root"
-
-    sa: Optional[Sa] = field(
-        default=None,
-        metadata=dict(
-            type="Element"
-        )
-    )
-    test: Optional[Test] = field(
-        default=None,
-        metadata=dict(
-            type="Element"
-        )
-    )
-    test2: Optional[Test2] = field(
-        default=None,
-        metadata=dict(
-            type="Element"
-        )
-    )
-    test3: Optional[Test3] = field(
-        default=None,
-        metadata=dict(
-            type="Element"
-        )
-    )
-    test4: Optional[Test4] = field(
-        default=None,
-        metadata=dict(
-            type="Element"
         )
     )

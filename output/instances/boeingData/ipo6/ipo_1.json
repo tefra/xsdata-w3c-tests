@@ -1,7 +1,5 @@
 {
-    "salutation": {
-        "value": "Ms."
-    },
+    "salutation": "Ms.",
     "extern_first_element": null,
     "ship_to": {
         "name": "Alice Smith",
@@ -19,9 +17,7 @@
     },
     "single_address": null,
     "customer_comment": null,
-    "ship_comment": {
-        "value": "Hurry, my sister loves Boeing!"
-    },
+    "ship_comment": "Hurry, my sister loves Boeing!",
     "comment": null,
     "items": {
         "content": [
@@ -32,14 +28,10 @@
                     "quantity": 1,
                     "usprice": "99.95",
                     "customer_comment": [
-                        {
-                            "value": " Want this for the holidays! "
-                        }
+                        " Want this for the holidays! "
                     ],
                     "ship_comment": [
-                        {
-                            "value": " Use gold wrap if possible "
-                        }
+                        " Use gold wrap if possible "
                     ],
                     "comment": [],
                     "ship_date": "1999-12-05",

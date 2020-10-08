@@ -1,5 +1,3 @@
 {
-    "test_element": {
-        "value": "ABCDEFGH-abCD42ef"
-    }
+    "test_element": "ABCDEFGH-abCD42ef"
 }

@@ -1,54 +1,34 @@
 {
     "entity": [],
     "anyuri": [
-        {
-            "value": "http://tempuri"
-        }
+        "http://tempuri"
     ],
     "hexbinary": [
-        {
-            "value": "abcd"
-        }
+        "abcd"
     ],
     "month": [
-        {
-            "value": "--12"
-        }
+        "--12"
     ],
     "day": [
-        {
-            "value": "---15"
-        }
+        "---15"
     ],
     "monthday": [
-        {
-            "value": "--02-13"
-        }
+        "--02-13"
     ],
     "year": [
-        {
-            "value": "2004"
-        }
+        "2004"
     ],
     "date": [
-        {
-            "value": "1999-05-31"
-        }
+        "1999-05-31"
     ],
     "time": [
-        {
-            "value": "13:20:00-05:00"
-        }
+        "13:20:00-05:00"
     ],
     "datetime": [
-        {
-            "value": "1999-05-31T13:20:00-05:00"
-        }
+        "1999-05-31T13:20:00-05:00"
     ],
     "duration": [
-        {
-            "value": "P1347Y"
-        }
+        "P1347Y"
     ],
     "decimal": [
         {
@@ -63,40 +43,29 @@
     ],
     "double": [],
     "float_value": [
-        {
-            "value": 1.2
-        },
-        {
-            "value": 5.24276
-        },
-        {
-            "value": 5.24276
-        }
+        1.2,
+        5.24276,
+        5.24276
     ],
     "bool_value": [
-        {
-            "value": true
-        },
-        {
-            "value": false
-        }
+        true,
+        false
     ],
     "int_value": [
-        {
-            "value": 123
-        },
-        {
-            "value": -123
-        }
+        123,
+        -123
     ],
     "string": [
-        {
-            "value": "this is a string"
-        }
+        "this is a string"
     ],
     "item": [
         {
-            "value": "abc"
+            "qname": "item",
+            "text": "abc",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         }
     ]
 }

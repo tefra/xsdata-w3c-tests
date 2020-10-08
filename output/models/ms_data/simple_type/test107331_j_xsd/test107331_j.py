@@ -318,7 +318,7 @@ class Root:
     class Meta:
         name = "root"
 
-    entity: List[Entity] = field(
+    entity: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -326,7 +326,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    anyuri: List[Anyuri] = field(
+    anyuri: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -334,7 +334,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    hexbinary: List[Hexbinary] = field(
+    hexbinary: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -342,7 +342,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    month: List[Month] = field(
+    month: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -350,7 +350,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    day: List[Day] = field(
+    day: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -358,7 +358,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    monthday: List[Monthday] = field(
+    monthday: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -366,7 +366,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    year: List[Year] = field(
+    year: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -374,7 +374,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    date: List[Date] = field(
+    date: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -382,7 +382,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    time: List[Time] = field(
+    time: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -390,7 +390,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    datetime: List[Datetime] = field(
+    datetime: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -398,7 +398,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    duration: List[Duration] = field(
+    duration: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -414,7 +414,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    double: List[Double] = field(
+    double: List[Decimal] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -422,7 +422,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    float_value: List[FloatType] = field(
+    float_value: List[float] = field(
         default_factory=list,
         metadata=dict(
             name="float",
@@ -431,7 +431,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    bool_value: List[BoolType] = field(
+    bool_value: List[bool] = field(
         default_factory=list,
         metadata=dict(
             name="bool",
@@ -440,7 +440,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    int_value: List[IntType] = field(
+    int_value: List[int] = field(
         default_factory=list,
         metadata=dict(
             name="int",
@@ -449,7 +449,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    string: List[String] = field(
+    string: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

@@ -1,5 +1,1 @@
-from output.models.ms_data.complex_type.ct_d023_xsd.ct_d023 import (
-    FooType,
-    MyType,
-    Root,
-)
+from output.models.ms_data.complex_type.ct_d023_xsd.ct_d023 import Root

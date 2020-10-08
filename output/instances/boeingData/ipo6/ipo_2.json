@@ -1,7 +1,5 @@
 {
-    "salutation": {
-        "value": "Mrs."
-    },
+    "salutation": "Mrs.",
     "extern_first_element": null,
     "ship_to": null,
     "bill_to": null,
@@ -12,9 +10,7 @@
         "postcode": "CB1 1JR",
         "export_code": 1
     },
-    "customer_comment": {
-        "value": "I love Boeing too!"
-    },
+    "customer_comment": "I love Boeing too!",
     "ship_comment": null,
     "comment": null,
     "items": {

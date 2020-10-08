@@ -3,6 +3,30 @@ from typing import List, Optional
 
 
 @dataclass
+class Event:
+    """
+    :ivar when:
+    :ivar type:
+    """
+    class Meta:
+        name = "event"
+
+    when: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            required=True
+        )
+    )
+    type: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Attribute"
+        )
+    )
+
+
+@dataclass
 class When:
     """
     :ivar value:
@@ -14,30 +38,6 @@ class When:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class Event:
-    """
-    :ivar when:
-    :ivar type:
-    """
-    class Meta:
-        name = "event"
-
-    when: Optional[When] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
-    )
-    type: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            type="Attribute"
         )
     )
 

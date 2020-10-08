@@ -47,7 +47,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2: Optional[Elem2] = field(
+    elem2: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -55,7 +55,7 @@ class RootType:
             required=True
         )
     )
-    elem1: Optional[Elem1] = field(
+    elem1: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

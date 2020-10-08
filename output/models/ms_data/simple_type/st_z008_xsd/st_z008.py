@@ -3,26 +3,17 @@ from typing import List, Optional
 
 
 @dataclass
-class T1:
+class T2:
     """
     :ivar value:
-    """
-    class Meta:
-        name = "t1"
-
-    value: Optional[object] = field(
-        default=None,
-    )
-
-
-@dataclass
-class T2(T1):
-    """
     :ivar att:
     """
     class Meta:
         name = "t2"
 
+    value: Optional[object] = field(
+        default=None,
+    )
     att: Optional[object] = field(
         default=None,
         metadata=dict(
@@ -40,7 +31,7 @@ class Root:
     class Meta:
         name = "root"
 
-    e1: List[T1] = field(
+    e1: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

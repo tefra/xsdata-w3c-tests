@@ -1,11 +1,7 @@
 {
     "elem3": [
-        {
-            "value": "Tests abstract substitution group"
-        },
-        {
-            "value": "hello"
-        }
+        "Tests abstract substitution group",
+        "hello"
     ],
     "elem2": [],
     "elem0": null,

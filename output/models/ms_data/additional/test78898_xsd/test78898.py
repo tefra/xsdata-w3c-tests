@@ -248,10 +248,11 @@ class Ct1:
     class Meta:
         name = "ct1"
 
-    e1: Optional[E1] = field(
+    e1: Optional[str] = field(
         default=None,
         metadata=dict(
-            type="Element"
+            type="Element",
+            length=4
         )
     )
     e2: Optional[E2] = field(

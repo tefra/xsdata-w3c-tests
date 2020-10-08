@@ -48,7 +48,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    a_1_2_3_4_5_6: Optional[A123456] = field(
+    a_1_2_3_4_5_6: Optional[int] = field(
         default=None,
         metadata=dict(
             name="a-1.2_3·4·5۝6۞",
@@ -56,7 +56,7 @@ class Root:
             required=True
         )
     )
-    a123456: Optional[A123456] = field(
+    a123456: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",

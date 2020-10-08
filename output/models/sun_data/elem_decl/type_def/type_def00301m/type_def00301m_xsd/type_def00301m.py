@@ -29,7 +29,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    local: Optional[Local] = field(
+    local: Optional[bool] = field(
         default=None,
         metadata=dict(
             name="Local",

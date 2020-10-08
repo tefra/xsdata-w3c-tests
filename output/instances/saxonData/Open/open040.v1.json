@@ -19,7 +19,11 @@
         },
         {
             "qname": "b",
-            "value": {}
+            "text": "",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         }
     ]
 }

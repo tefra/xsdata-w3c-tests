@@ -3,6 +3,24 @@ from typing import List, Optional
 
 
 @dataclass
+class Outer:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "outer"
+
+    value: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+
+
+@dataclass
 class Value:
     """
     :ivar value:
@@ -12,22 +30,4 @@ class Value:
 
     value: Optional[str] = field(
         default=None,
-    )
-
-
-@dataclass
-class Outer:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "outer"
-
-    value: List[Value] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
     )

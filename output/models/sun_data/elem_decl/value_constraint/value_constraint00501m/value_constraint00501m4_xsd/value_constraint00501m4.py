@@ -30,11 +30,12 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    element: Optional[Element] = field(
+    element: Optional[str] = field(
         default=None,
         metadata=dict(
             name="Element",
             type="Element",
-            required=True
+            required=True,
+            pattern=r"...[Ee].."
         )
     )

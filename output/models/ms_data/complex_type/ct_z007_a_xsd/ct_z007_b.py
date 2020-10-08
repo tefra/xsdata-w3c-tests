@@ -6,6 +6,40 @@ __NAMESPACE__ = "urn:xmlns:25hoursaday-com:customer"
 
 
 @dataclass
+class CustomerType:
+    """
+    :ivar first_name:
+    :ivar last_name:
+    :ivar customer_id:
+    """
+    first_name: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="FirstName",
+            type="Element",
+            namespace="urn:xmlns:25hoursaday-com:customer",
+            required=True
+        )
+    )
+    last_name: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="LastName",
+            type="Element",
+            namespace="urn:xmlns:25hoursaday-com:customer",
+            required=True
+        )
+    )
+    customer_id: Optional[int] = field(
+        default=None,
+        metadata=dict(
+            name="customerID",
+            type="Attribute"
+        )
+    )
+
+
+@dataclass
 class FirstName:
     """
     :ivar value:
@@ -49,40 +83,6 @@ class PhoneNumber:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class CustomerType:
-    """
-    :ivar first_name:
-    :ivar last_name:
-    :ivar customer_id:
-    """
-    first_name: Optional[FirstName] = field(
-        default=None,
-        metadata=dict(
-            name="FirstName",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:customer",
-            required=True
-        )
-    )
-    last_name: Optional[LastName] = field(
-        default=None,
-        metadata=dict(
-            name="LastName",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:customer",
-            required=True
-        )
-    )
-    customer_id: Optional[int] = field(
-        default=None,
-        metadata=dict(
-            name="customerID",
-            type="Attribute"
         )
     )
 

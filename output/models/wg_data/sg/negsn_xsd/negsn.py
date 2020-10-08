@@ -5,6 +5,48 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
+class T:
+    """
+    :ivar any_element:
+    :ivar s1:
+    :ivar s:
+    :ivar n:
+    """
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any",
+            required=True
+        )
+    )
+    s1: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+    s: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+    n: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            required=True
+        )
+    )
+
+
+@dataclass
 class E:
     """
     :ivar value:
@@ -84,48 +126,6 @@ class S1:
     value: Optional[str] = field(
         default=None,
         metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class T:
-    """
-    :ivar any_element:
-    :ivar s1:
-    :ivar s:
-    :ivar n:
-    """
-    any_element: Optional[object] = field(
-        default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
-    )
-    s1: Optional[S1] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
-    )
-    s: Optional[S] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
-    )
-    n: Optional[N] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
             required=True
         )
     )

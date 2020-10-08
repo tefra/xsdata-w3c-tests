@@ -4,7 +4,11 @@
     "open_com_element": [
         {
             "qname": "a",
-            "value": {}
+            "text": "",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "b",

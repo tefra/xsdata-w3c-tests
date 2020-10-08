@@ -5,17 +5,11 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class Empty:
-    class Meta:
-        name = "empty"
-
-
-@dataclass
 class B:
     """
     :ivar foo:
     """
-    foo: Optional[Empty] = field(
+    foo: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -30,7 +24,7 @@ class Dr:
     """
     :ivar foo:
     """
-    foo: Optional[Empty] = field(
+    foo: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -45,7 +39,7 @@ class Drr:
     """
     :ivar foo:
     """
-    foo: Optional[Empty] = field(
+    foo: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -53,6 +47,12 @@ class Drr:
             required=True
         )
     )
+
+
+@dataclass
+class Empty:
+    class Meta:
+        name = "empty"
 
 
 @dataclass
@@ -94,7 +94,7 @@ class Der(De):
     """
     :ivar foo:
     """
-    foo: Optional[Empty] = field(
+    foo: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

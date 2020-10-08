@@ -63,7 +63,7 @@ class Back:
     class Meta:
         name = "back"
 
-    para: List[Para] = field(
+    para: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -91,7 +91,7 @@ class Body:
     class Meta:
         name = "body"
 
-    para: List[Para] = field(
+    para: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

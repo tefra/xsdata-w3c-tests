@@ -114,58 +114,6 @@ class Message(MessageType):
 
 
 @dataclass
-class MessageTypeBase64(MessageType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "messageTypeBase64"
-
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
-@dataclass
-class MessageTypeDate(MessageType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "messageTypeDate"
-
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
-@dataclass
-class MessageTypeString(MessageType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "messageTypeString"
-
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
-@dataclass
-class MessageTypeTime(MessageType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "messageTypeTime"
-
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
-@dataclass
 class Messages:
     """
     :ivar message:

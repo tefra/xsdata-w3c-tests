@@ -59,7 +59,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    el_enumeration_a: List[ElEnumerationA] = field(
+    el_enumeration_a: List["Root.Value"] = field(
         default_factory=list,
         metadata=dict(
             name="elEnumerationA",
@@ -68,7 +68,7 @@ class Root:
             max_occurs=3
         )
     )
-    el_enumeration_b: List[ElEnumerationB] = field(
+    el_enumeration_b: List["Root.Value"] = field(
         default_factory=list,
         metadata=dict(
             name="elEnumerationB",
@@ -77,3 +77,11 @@ class Root:
             max_occurs=3
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar VALUE_2000_02_02_T02_00_00_123_Z:
+        :cvar VALUE_2002_02_02_T02_00_00_09_00:
+        """
+        VALUE_2000_02_02_T02_00_00_123_Z = "2000-02-02T02:00:00.123Z"
+        VALUE_2002_02_02_T02_00_00_09_00 = "2002-02-02T02:00:00+09:00"

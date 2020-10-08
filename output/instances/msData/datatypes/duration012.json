@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "PT2153.5S"
     },
-    "simple_test": {
-        "value": "PT2153.5S"
-    }
+    "simple_test": "PT2153.5S"
 }

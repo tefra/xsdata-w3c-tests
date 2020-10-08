@@ -29,7 +29,7 @@ class Doc:
             max_occurs=9223372036854775807
         )
     )
-    a: Optional[Alpha] = field(
+    a: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

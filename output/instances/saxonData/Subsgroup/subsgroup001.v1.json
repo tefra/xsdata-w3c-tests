@@ -1,23 +1,15 @@
 {
     "body": {
         "para": [
-            {
-                "value": "one"
-            },
-            {
-                "value": "two"
-            }
+            "one",
+            "two"
         ],
         "chap_content": []
     },
     "back": {
         "para": [
-            {
-                "value": "one"
-            },
-            {
-                "value": "two"
-            }
+            "one",
+            "two"
         ],
         "appendix_content": []
     }

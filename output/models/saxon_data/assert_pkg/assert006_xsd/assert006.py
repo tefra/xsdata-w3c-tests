@@ -1,24 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
-
-
-@dataclass
-class Base:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "base"
-
-    value: Optional[int] = field(
-        default=None,
-    )
-
-
-@dataclass
-class Derived(Base):
-    class Meta:
-        name = "derived"
+from typing import List
 
 
 @dataclass
@@ -29,7 +10,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    inner: List[Derived] = field(
+    inner: List[int] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

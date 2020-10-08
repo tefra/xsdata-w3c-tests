@@ -5,24 +5,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v03"
 
 
 @dataclass
-class EldTimeStampListC:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "eldTimeStampListC"
-        namespace = "http://xstest-tns/schema11_D3_4_28_v03"
-
-    value: List[str] = field(
-        default_factory=list,
-        metadata=dict(
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
-            tokens=True
-        )
-    )
-
-
-@dataclass
 class DTimeStampRoot:
     """
     :ivar eld_time_stamp_pattern:
@@ -64,13 +46,33 @@ class DTimeStampRoot:
             tokens=True
         )
     )
-    eld_time_stamp_list_c: Optional[EldTimeStampListC] = field(
-        default=None,
+    eld_time_stamp_list_c: List[str] = field(
+        default_factory=list,
         metadata=dict(
             name="eldTimeStampListC",
             type="Element",
             namespace="http://xstest-tns/schema11_D3_4_28_v03",
-            required=True
+            required=True,
+            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+            tokens=True
+        )
+    )
+
+
+@dataclass
+class EldTimeStampListC:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "eldTimeStampListC"
+        namespace = "http://xstest-tns/schema11_D3_4_28_v03"
+
+    value: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+            tokens=True
         )
     )
 

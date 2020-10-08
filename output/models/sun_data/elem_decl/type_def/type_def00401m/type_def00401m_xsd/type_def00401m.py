@@ -32,7 +32,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    global_value: Optional[GlobalType] = field(
+    global_value: Optional[bool] = field(
         default=None,
         metadata=dict(
             name="Global",

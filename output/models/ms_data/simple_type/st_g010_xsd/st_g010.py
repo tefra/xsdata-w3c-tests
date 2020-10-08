@@ -36,7 +36,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
+    foo_test: Optional[FooType] = field(
         default=None,
         metadata=dict(
             name="fooTest",

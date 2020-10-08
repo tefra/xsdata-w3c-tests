@@ -9,7 +9,5 @@
         "street": "8 Oak Avenue",
         "country": "US"
     },
-    "comment": {
-        "value": "Hurry, my lawn is going wild!"
-    }
+    "comment": "Hurry, my lawn is going wild!"
 }

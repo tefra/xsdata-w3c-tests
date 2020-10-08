@@ -77,7 +77,7 @@ class Root:
             required=True
         )
     )
-    simple_test: Optional[SimpleTest] = field(
+    simple_test: Optional[SimplefooType] = field(
         default=None,
         metadata=dict(
             name="simpleTest",

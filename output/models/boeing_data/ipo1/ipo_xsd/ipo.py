@@ -39,72 +39,6 @@ class AddressType:
     )
 
 
-class Usstate(Enum):
-    """
-    :cvar AK:
-    :cvar AL:
-    :cvar AR:
-    :cvar CA:
-    :cvar PA:
-    """
-    AK = "AK"
-    AL = "AL"
-    AR = "AR"
-    CA = "CA"
-    PA = "PA"
-
-
-@dataclass
-class Comment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class CustomerComment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "customerComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
-class ShipComment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "shipComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
 @dataclass
 class ItemsType:
     """
@@ -172,7 +106,7 @@ class ItemsType:
                 required=True
             )
         )
-        customer_comment: List[CustomerComment] = field(
+        customer_comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 name="customerComment",
@@ -182,7 +116,7 @@ class ItemsType:
                 max_occurs=2
             )
         )
-        ship_comment: List[ShipComment] = field(
+        ship_comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 name="shipComment",
@@ -192,7 +126,7 @@ class ItemsType:
                 max_occurs=2
             )
         )
-        comment: List[Comment] = field(
+        comment: List[str] = field(
             default_factory=list,
             metadata=dict(
                 type="Element",
@@ -242,6 +176,150 @@ class ItemsType:
             AIR = "air"
             LAND = "land"
             ANY = "any"
+
+
+class Usstate(Enum):
+    """
+    :cvar AK:
+    :cvar AL:
+    :cvar AR:
+    :cvar CA:
+    :cvar PA:
+    """
+    AK = "AK"
+    AL = "AL"
+    AR = "AR"
+    CA = "CA"
+    PA = "PA"
+
+
+@dataclass
+class Comment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class CustomerComment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "customerComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class ShipComment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "shipComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
+
+
+@dataclass
+class PurchaseOrderType:
+    """
+    :ivar ship_to:
+    :ivar bill_to:
+    :ivar single_address:
+    :ivar customer_comment:
+    :ivar ship_comment:
+    :ivar comment:
+    :ivar items:
+    :ivar order_date:
+    """
+    ship_to: Optional[AddressType] = field(
+        default=None,
+        metadata=dict(
+            name="shipTo",
+            type="Element",
+            namespace="",
+            required=True
+        )
+    )
+    bill_to: Optional[AddressType] = field(
+        default=None,
+        metadata=dict(
+            name="billTo",
+            type="Element",
+            namespace="",
+            required=True
+        )
+    )
+    single_address: Optional[AddressType] = field(
+        default=None,
+        metadata=dict(
+            name="singleAddress",
+            type="Element",
+            namespace=""
+        )
+    )
+    customer_comment: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="customerComment",
+            type="Element",
+            namespace="http://www.example.com/IPO"
+        )
+    )
+    ship_comment: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="shipComment",
+            type="Element",
+            namespace="http://www.example.com/IPO"
+        )
+    )
+    comment: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.example.com/IPO"
+        )
+    )
+    items: Optional[ItemsType] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="",
+            required=True
+        )
+    )
+    order_date: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            name="orderDate",
+            type="Attribute"
+        )
+    )
 
 
 @dataclass
@@ -295,84 +373,6 @@ class Usaddress(AddressType):
             type="Element",
             namespace="",
             required=True
-        )
-    )
-
-
-@dataclass
-class PurchaseOrderType:
-    """
-    :ivar ship_to:
-    :ivar bill_to:
-    :ivar single_address:
-    :ivar customer_comment:
-    :ivar ship_comment:
-    :ivar comment:
-    :ivar items:
-    :ivar order_date:
-    """
-    ship_to: Optional[AddressType] = field(
-        default=None,
-        metadata=dict(
-            name="shipTo",
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    bill_to: Optional[AddressType] = field(
-        default=None,
-        metadata=dict(
-            name="billTo",
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    single_address: Optional[AddressType] = field(
-        default=None,
-        metadata=dict(
-            name="singleAddress",
-            type="Element",
-            namespace=""
-        )
-    )
-    customer_comment: Optional[CustomerComment] = field(
-        default=None,
-        metadata=dict(
-            name="customerComment",
-            type="Element",
-            namespace="http://www.example.com/IPO"
-        )
-    )
-    ship_comment: Optional[ShipComment] = field(
-        default=None,
-        metadata=dict(
-            name="shipComment",
-            type="Element",
-            namespace="http://www.example.com/IPO"
-        )
-    )
-    comment: Optional[Comment] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.example.com/IPO"
-        )
-    )
-    items: Optional[ItemsType] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
-    )
-    order_date: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            name="orderDate",
-            type="Attribute"
         )
     )
 

@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "0000-01-01T00:00:00"
     },
-    "simple_test": {
-        "value": "0000-01-01T00:00:00"
-    }
+    "simple_test": "0000-01-01T00:00:00"
 }

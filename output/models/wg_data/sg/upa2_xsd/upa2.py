@@ -54,7 +54,7 @@ class T:
             namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
-    e: Optional[E] = field(
+    e: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

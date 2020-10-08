@@ -56,7 +56,7 @@ class Zing:
             required=True
         )
     )
-    a: Optional[A1] = field(
+    a: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

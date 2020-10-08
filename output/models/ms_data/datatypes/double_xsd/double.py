@@ -60,7 +60,7 @@ class Root:
             required=True
         )
     )
-    simple_test: Optional[SimpleTest] = field(
+    simple_test: Optional[Decimal] = field(
         default=None,
         metadata=dict(
             name="simpleTest",

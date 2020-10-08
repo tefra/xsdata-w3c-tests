@@ -1,8 +1,6 @@
 {
     "d": null,
-    "b": {
-        "value": 1
-    },
+    "b": 1,
     "any_element": [
         {
             "qname": "{a}x",
@@ -17,7 +15,5 @@
             "attributes": {}
         }
     ],
-    "c": {
-        "value": 1
-    }
+    "c": 1
 }

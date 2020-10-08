@@ -79,7 +79,7 @@ class Back:
     class Meta:
         name = "back"
 
-    appendix_content: List[AppendixContent] = field(
+    appendix_content: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="appendixContent",
@@ -88,7 +88,7 @@ class Back:
             max_occurs=9223372036854775807
         )
     )
-    para: List[Para] = field(
+    para: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -96,7 +96,7 @@ class Back:
             max_occurs=18446744073709551614
         )
     )
-    chap_content: List[ChapContent] = field(
+    chap_content: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="chapContent",
@@ -126,7 +126,7 @@ class Body:
     class Meta:
         name = "body"
 
-    appendix_content: List[AppendixContent] = field(
+    appendix_content: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="appendixContent",
@@ -135,7 +135,7 @@ class Body:
             max_occurs=9223372036854775807
         )
     )
-    para: List[Para] = field(
+    para: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -143,7 +143,7 @@ class Body:
             max_occurs=18446744073709551614
         )
     )
-    chap_content: List[ChapContent] = field(
+    chap_content: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="chapContent",

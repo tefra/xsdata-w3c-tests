@@ -5,6 +5,88 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
+class T:
+    """
+    :ivar s1:
+    :ivar s:
+    :ivar n1:
+    :ivar n:
+    :ivar any_element:
+    :ivar a:
+    :ivar b:
+    :ivar c:
+    """
+    s1: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            min_occurs=0,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    s: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            min_occurs=0,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    n1: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            min_occurs=0,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    n: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            min_occurs=0,
+            max_occurs=2,
+            sequential=True
+        )
+    )
+    any_element: Optional[object] = field(
+        default=None,
+        metadata=dict(
+            type="Wildcard",
+            namespace="##any"
+        )
+    )
+    a: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
+        )
+    )
+    b: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
+        )
+    )
+    c: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
+        )
+    )
+
+
+@dataclass
 class A:
     """
     :ivar value:
@@ -136,88 +218,6 @@ class S1:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class T:
-    """
-    :ivar s1:
-    :ivar s:
-    :ivar n1:
-    :ivar n:
-    :ivar any_element:
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
-    s1: List[S1] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    s: List[S] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    n1: List[N1] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    n: List[N] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
-    )
-    any_element: Optional[object] = field(
-        default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any"
-        )
-    )
-    a: Optional[A] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
-        )
-    )
-    b: Optional[B] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
-        )
-    )
-    c: Optional[C] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1"
         )
     )
 

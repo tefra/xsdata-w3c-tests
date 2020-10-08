@@ -61,11 +61,12 @@ class Root:
             required=True
         )
     )
-    simple_test: Optional[SimpleTest] = field(
-        default=None,
+    simple_test: List[float] = field(
+        default_factory=list,
         metadata=dict(
             name="simpleTest",
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )

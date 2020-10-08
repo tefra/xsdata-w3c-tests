@@ -1,27 +1,19 @@
 {
     "event": [
         {
-            "when": {
-                "value": "2010-10-16"
-            },
+            "when": "2010-10-16",
             "type": "date"
         },
         {
-            "when": {
-                "value": "12:12:12"
-            },
+            "when": "12:12:12",
             "type": "time"
         },
         {
-            "when": {
-                "value": "2010-10-16T13:13:00"
-            },
+            "when": "2010-10-16T13:13:00",
             "type": "dateTime"
         },
         {
-            "when": {
-                "value": "2010-10"
-            },
+            "when": "2010-10",
             "type": "other"
         }
     ],

@@ -1,13 +1,7 @@
 {
     "foo_test": [
-        {
-            "value": "WA"
-        },
-        {
-            "value": "OR"
-        },
-        {
-            "value": "CA"
-        }
+        "WA",
+        "OR",
+        "CA"
     ]
 }

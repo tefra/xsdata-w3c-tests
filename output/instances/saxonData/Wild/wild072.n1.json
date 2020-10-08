@@ -1,16 +1,16 @@
 {
     "a_element": null,
-    "a": {
-        "value": null
-    },
+    "a": "",
     "b": null,
     "c": null,
     "any_element": [
         {
             "qname": "a",
-            "value": {
-                "value": null
-            }
+            "text": "",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         }
     ]
 }

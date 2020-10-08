@@ -23,7 +23,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    date: List[Date] = field(
+    date: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

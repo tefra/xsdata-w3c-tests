@@ -26,7 +26,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: List[FooTest] = field(
+    foo_test: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="fooTest",

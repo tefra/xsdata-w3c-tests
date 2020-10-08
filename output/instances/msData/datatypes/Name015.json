@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "fo:fo_124-.sda3"
     },
-    "simple_test": {
-        "value": "fo:fo_124-.sda3"
-    }
+    "simple_test": "fo:fo_124-.sda3"
 }

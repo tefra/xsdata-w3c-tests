@@ -221,10 +221,12 @@ class Root:
             type="Element"
         )
     )
-    test: Optional[Test] = field(
+    test: Optional[int] = field(
         default=None,
         metadata=dict(
-            type="Element"
+            type="Element",
+            min_exclusive=0,
+            max_inclusive=10
         )
     )
     test2: Optional[Test2] = field(

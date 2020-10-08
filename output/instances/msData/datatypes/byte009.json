@@ -4,9 +4,7 @@
             127
         ]
     },
-    "simple_test": {
-        "value": [
-            127
-        ]
-    }
+    "simple_test": [
+        127
+    ]
 }

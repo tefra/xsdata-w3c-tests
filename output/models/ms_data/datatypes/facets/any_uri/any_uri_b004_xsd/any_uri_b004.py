@@ -130,7 +130,7 @@ class Root:
     class Meta:
         name = "root"
 
-    bar: List[Bar] = field(
+    bar: List[St] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

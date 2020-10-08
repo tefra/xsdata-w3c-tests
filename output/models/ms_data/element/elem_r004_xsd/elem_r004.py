@@ -80,7 +80,7 @@ class PurchaseOrderType:
             required=True
         )
     )
-    comment: Optional[Comment] = field(
+    comment: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

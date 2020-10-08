@@ -3,6 +3,23 @@ from typing import Optional, Union
 
 
 @dataclass
+class Doc:
+    """
+    :ivar root:
+    """
+    class Meta:
+        name = "doc"
+
+    root: Optional[Union[str, int]] = field(
+        default=None,
+        metadata=dict(
+            type="Element",
+            required=True
+        )
+    )
+
+
+@dataclass
 class Root:
     """
     :ivar value:
@@ -12,21 +29,4 @@ class Root:
 
     value: Optional[Union[str, int]] = field(
         default=None,
-    )
-
-
-@dataclass
-class Doc:
-    """
-    :ivar root:
-    """
-    class Meta:
-        name = "doc"
-
-    root: Optional[Root] = field(
-        default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
     )

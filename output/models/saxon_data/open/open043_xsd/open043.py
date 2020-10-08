@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.saxon_data.open.open043_xsd.open043x import Alpha
 
 
 @dataclass
@@ -19,7 +18,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: Optional[Alpha] = field(
+    a: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -27,7 +26,7 @@ class Doc:
             required=True
         )
     )
-    b: Optional[Beta] = field(
+    b: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

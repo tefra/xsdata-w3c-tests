@@ -1,11 +1,11 @@
 {
-    "z": {
-        "value": 1
-    },
+    "z": 1,
     "any_element": {
         "qname": "{a}z",
-        "value": {
-            "value": 1
-        }
+        "text": 1,
+        "tail": null,
+        "ns_map": {},
+        "children": [],
+        "attributes": {}
     }
 }

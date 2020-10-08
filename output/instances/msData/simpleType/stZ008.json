@@ -1,7 +1,14 @@
 {
     "e1": [
         {
-            "value": "123"
+            "qname": "e1",
+            "text": "123",
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "children": [],
+            "attributes": {}
         }
     ],
     "e2": [

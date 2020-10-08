@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List
-from output.models.saxon_data.override.over002_xsd.over002 import Para
 
 
 @dataclass
@@ -11,7 +10,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para: List[Para] = field(
+    para: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

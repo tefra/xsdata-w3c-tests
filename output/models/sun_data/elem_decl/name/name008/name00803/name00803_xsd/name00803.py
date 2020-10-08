@@ -66,7 +66,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    aa111a2_aa: Optional[Aa111A2Aa] = field(
+    aa111a2_aa: Optional[int] = field(
         default=None,
         metadata=dict(
             name="aa111a2Aa",
@@ -74,7 +74,7 @@ class Root:
             required=True
         )
     )
-    aa22_b3c: Optional[Aa22B3C] = field(
+    aa22_b3c: Optional[int] = field(
         default=None,
         metadata=dict(
             name="aa22B3c",
@@ -82,7 +82,7 @@ class Root:
             required=True
         )
     )
-    aa3_4: Optional[Aa34] = field(
+    aa3_4: Optional[int] = field(
         default=None,
         metadata=dict(
             name="aa3-4_",

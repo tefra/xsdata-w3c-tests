@@ -7,23 +7,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 
 @dataclass
-class Comment:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
 class Items:
     """
     :ivar item:
@@ -75,7 +58,7 @@ class Items:
                 required=True
             )
         )
-        comment: Optional[Comment] = field(
+        comment: Optional[str] = field(
             default=None,
             metadata=dict(
                 type="Element",
@@ -99,6 +82,23 @@ class Items:
                 pattern=r"\d{3}-[A-Z]{2}"
             )
         )
+
+
+@dataclass
+class Comment:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata=dict(
+            required=True
+        )
+    )
 
 
 @dataclass
@@ -127,7 +127,7 @@ class PurchaseOrderType:
             namespace=""
         )
     )
-    comment: Optional[Comment] = field(
+    comment: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

@@ -50,7 +50,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    e1: Optional[E1] = field(
+    e1: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",

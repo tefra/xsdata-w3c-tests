@@ -219,7 +219,7 @@ class Root:
             type="Element"
         )
     )
-    test: Optional[Test] = field(
+    test: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"

@@ -1,10 +1,20 @@
 {
     "a": [
         {
-            "value": "123456"
+            "qname": "a",
+            "text": "123456",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         },
         {
-            "value": "abcdefgh"
+            "qname": "a",
+            "text": "abcdefgh",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         }
     ],
     "item": [

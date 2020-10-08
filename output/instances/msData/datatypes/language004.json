@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "en-us"
     },
-    "simple_test": {
-        "value": "en-us"
-    }
+    "simple_test": "en-us"
 }

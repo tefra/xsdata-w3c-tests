@@ -5,23 +5,17 @@ __NAMESPACE__ = "derivationMethod"
 
 
 @dataclass
-class A:
+class B1:
     """
     :ivar value:
-    """
-    value: Optional[str] = field(
-        default=None,
-    )
-
-
-@dataclass
-class B1(A):
-    """
     :ivar q:
     """
     class Meta:
         name = "B"
 
+    value: Optional[str] = field(
+        default=None,
+    )
     q: Optional[int] = field(
         default=None,
         metadata=dict(

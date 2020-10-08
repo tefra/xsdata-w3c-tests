@@ -8,9 +8,7 @@
         "postcode": "CB1 1JR",
         "export_code": 1
     },
-    "customer_comment": {
-        "value": "I love Boeing too!"
-    },
+    "customer_comment": "I love Boeing too!",
     "ship_comment": null,
     "comment": null,
     "items": {

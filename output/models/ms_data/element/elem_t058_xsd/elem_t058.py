@@ -260,19 +260,19 @@ class Root:
             type="Element"
         )
     )
-    test1: Optional[Test1] = field(
+    test1: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"
         )
     )
-    test2: Optional[Test2] = field(
+    test2: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"
         )
     )
-    test3: Optional[Test3] = field(
+    test3: Optional[A] = field(
         default=None,
         metadata=dict(
             type="Element"

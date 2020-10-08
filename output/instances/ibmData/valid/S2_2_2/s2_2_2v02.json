@@ -1,11 +1,7 @@
 {
     "elem2": [
-        {
-            "value": "Tests multiple substitution group heads"
-        },
-        {
-            "value": "hi"
-        }
+        "Tests multiple substitution group heads",
+        "hi"
     ],
     "elem0": null,
     "elem1": null

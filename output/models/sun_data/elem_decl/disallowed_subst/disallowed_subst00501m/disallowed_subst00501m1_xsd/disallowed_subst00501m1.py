@@ -46,7 +46,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member1: List[Member1] = field(
+    member1: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="Member1",
@@ -55,7 +55,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    head: List[Head] = field(
+    head: List[str] = field(
         default_factory=list,
         metadata=dict(
             name="Head",

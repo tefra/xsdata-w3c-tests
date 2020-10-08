@@ -83,7 +83,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem3: List[Elem3] = field(
+    elem3: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -93,7 +93,7 @@ class RootType:
             sequential=True
         )
     )
-    elem2: List[Elem2] = field(
+    elem2: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -103,7 +103,7 @@ class RootType:
             sequential=True
         )
     )
-    elem0: Optional[Elem0] = field(
+    elem0: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -111,7 +111,7 @@ class RootType:
             required=True
         )
     )
-    elem1: Optional[Elem1] = field(
+    elem1: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

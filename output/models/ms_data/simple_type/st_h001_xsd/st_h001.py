@@ -39,11 +39,23 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
+    foo_test: Optional[Union[int, "Root.Value"]] = field(
         default=None,
         metadata=dict(
             name="fooTest",
             type="Element",
-            required=True
+            required=True,
+            min_inclusive=100,
+            max_inclusive=200
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar WA:
+        :cvar OR_VALUE:
+        :cvar CA:
+        """
+        WA = "WA"
+        OR_VALUE = "OR"
+        CA = "CA"

@@ -83,7 +83,7 @@ class T:
     class Meta:
         name = "t"
 
-    d: Optional[D] = field(
+    d: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -91,7 +91,7 @@ class T:
             required=True
         )
     )
-    b: Optional[B] = field(
+    b: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",
@@ -108,7 +108,7 @@ class T:
             max_occurs=9223372036854775807
         )
     )
-    c: Optional[C] = field(
+    c: Optional[int] = field(
         default=None,
         metadata=dict(
             type="Element",

@@ -6,6 +6,84 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
+class Items:
+    """
+    :ivar item:
+    """
+    item: List["Items.Item"] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            namespace="foo",
+            min_occurs=0,
+            max_occurs=9223372036854775807
+        )
+    )
+
+    @dataclass
+    class Item:
+        """
+        :ivar product_name:
+        :ivar quantity:
+        :ivar usprice:
+        :ivar comment:
+        :ivar ship_date:
+        :ivar part_num:
+        """
+        product_name: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                name="productName",
+                type="Element",
+                namespace="foo",
+                required=True
+            )
+        )
+        quantity: Optional[int] = field(
+            default=None,
+            metadata=dict(
+                type="Element",
+                namespace="foo",
+                required=True,
+                max_exclusive=100
+            )
+        )
+        usprice: Optional[Decimal] = field(
+            default=None,
+            metadata=dict(
+                name="USPrice",
+                type="Element",
+                namespace="foo",
+                required=True
+            )
+        )
+        comment: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                type="Element",
+                namespace="foo"
+            )
+        )
+        ship_date: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                name="shipDate",
+                type="Element",
+                namespace="foo"
+            )
+        )
+        part_num: Optional[str] = field(
+            default=None,
+            metadata=dict(
+                name="partNum",
+                type="Attribute",
+                required=True,
+                pattern=r"\d{3}-[A-Z]{2}"
+            )
+        )
+
+
+@dataclass
 class Usaddress:
     """
     :ivar name:
@@ -85,84 +163,6 @@ class Comment:
 
 
 @dataclass
-class Items:
-    """
-    :ivar item:
-    """
-    item: List["Items.Item"] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
-    )
-
-    @dataclass
-    class Item:
-        """
-        :ivar product_name:
-        :ivar quantity:
-        :ivar usprice:
-        :ivar comment:
-        :ivar ship_date:
-        :ivar part_num:
-        """
-        product_name: Optional[str] = field(
-            default=None,
-            metadata=dict(
-                name="productName",
-                type="Element",
-                namespace="foo",
-                required=True
-            )
-        )
-        quantity: Optional[int] = field(
-            default=None,
-            metadata=dict(
-                type="Element",
-                namespace="foo",
-                required=True,
-                max_exclusive=100
-            )
-        )
-        usprice: Optional[Decimal] = field(
-            default=None,
-            metadata=dict(
-                name="USPrice",
-                type="Element",
-                namespace="foo",
-                required=True
-            )
-        )
-        comment: Optional[Comment] = field(
-            default=None,
-            metadata=dict(
-                type="Element",
-                namespace="foo"
-            )
-        )
-        ship_date: Optional[str] = field(
-            default=None,
-            metadata=dict(
-                name="shipDate",
-                type="Element",
-                namespace="foo"
-            )
-        )
-        part_num: Optional[str] = field(
-            default=None,
-            metadata=dict(
-                name="partNum",
-                type="Attribute",
-                required=True,
-                pattern=r"\d{3}-[A-Z]{2}"
-            )
-        )
-
-
-@dataclass
 class PurchaseOrderType:
     """
     :ivar ship_to:
@@ -189,7 +189,7 @@ class PurchaseOrderType:
             required=True
         )
     )
-    comment: Optional[Comment] = field(
+    comment: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

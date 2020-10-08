@@ -1,9 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.ms_data.complex_type.ct_z007_a_xsd.ct_z007_b import (
-    CustomerType,
-    PhoneNumber,
-)
+from output.models.ms_data.complex_type.ct_z007_a_xsd.ct_z007_b import CustomerType
 
 __NAMESPACE__ = "urn:xmlns:25hoursaday-com:address"
 
@@ -81,7 +78,7 @@ class MyCustomerType(CustomerType):
     :ivar state:
     :ivar zip:
     """
-    phone_number: Optional[PhoneNumber] = field(
+    phone_number: Optional[str] = field(
         default=None,
         metadata=dict(
             name="PhoneNumber",
@@ -90,7 +87,7 @@ class MyCustomerType(CustomerType):
             required=True
         )
     )
-    address: Optional[Address] = field(
+    address: Optional[str] = field(
         default=None,
         metadata=dict(
             name="Address",
@@ -99,7 +96,7 @@ class MyCustomerType(CustomerType):
             required=True
         )
     )
-    city: Optional[City] = field(
+    city: Optional[str] = field(
         default=None,
         metadata=dict(
             name="City",
@@ -108,7 +105,7 @@ class MyCustomerType(CustomerType):
             required=True
         )
     )
-    state: Optional[State] = field(
+    state: Optional[str] = field(
         default=None,
         metadata=dict(
             name="State",
@@ -117,13 +114,14 @@ class MyCustomerType(CustomerType):
             required=True
         )
     )
-    zip: Optional[Zip] = field(
+    zip: Optional[str] = field(
         default=None,
         metadata=dict(
             name="Zip",
             type="Element",
             namespace="urn:xmlns:25hoursaday-com:address",
-            required=True
+            required=True,
+            pattern=r"\d{5}(-\d{4})?"
         )
     )
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional, Union
+from typing import List, Union
 
 
 @dataclass
@@ -36,11 +36,20 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[FooTest] = field(
-        default=None,
+    foo_test: List[Union[int, "Root.Value"]] = field(
+        default_factory=list,
         metadata=dict(
             name="fooTest",
             type="Element",
-            required=True
+            required=True,
+            tokens=True
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar WA:
+        :cvar OR_VALUE:
+        """
+        WA = "WA"
+        OR_VALUE = "OR"

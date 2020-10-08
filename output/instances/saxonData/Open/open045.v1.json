@@ -2,7 +2,11 @@
     "content": [
         {
             "qname": "a",
-            "value": {}
+            "text": "",
+            "tail": null,
+            "ns_map": {},
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "b",

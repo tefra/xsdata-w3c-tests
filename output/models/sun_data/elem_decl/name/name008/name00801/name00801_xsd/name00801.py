@@ -138,7 +138,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/name"
 
-    a_a: Optional[AA] = field(
+    a_a: Optional[int] = field(
         default=None,
         metadata=dict(
             name="a--a",
@@ -146,7 +146,7 @@ class Root:
             required=True
         )
     )
-    b_b: Optional[BB] = field(
+    b_b: Optional[int] = field(
         default=None,
         metadata=dict(
             name="b..b",
@@ -154,7 +154,7 @@ class Root:
             required=True
         )
     )
-    c_c: Optional[CC] = field(
+    c_c: Optional[int] = field(
         default=None,
         metadata=dict(
             name="c__c",
@@ -162,7 +162,7 @@ class Root:
             required=True
         )
     )
-    d_d: Optional[DD] = field(
+    d_d: Optional[int] = field(
         default=None,
         metadata=dict(
             name="d··d",
@@ -170,7 +170,7 @@ class Root:
             required=True
         )
     )
-    e_e: Optional[EE] = field(
+    e_e: Optional[int] = field(
         default=None,
         metadata=dict(
             name="e··e",
@@ -178,7 +178,7 @@ class Root:
             required=True
         )
     )
-    f_f: Optional[FF] = field(
+    f_f: Optional[int] = field(
         default=None,
         metadata=dict(
             name="f۝۝f",
@@ -186,7 +186,7 @@ class Root:
             required=True
         )
     )
-    g_g: Optional[GG] = field(
+    g_g: Optional[int] = field(
         default=None,
         metadata=dict(
             name="g۞۞g",

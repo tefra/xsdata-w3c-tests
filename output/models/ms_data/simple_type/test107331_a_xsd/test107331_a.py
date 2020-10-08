@@ -244,6 +244,180 @@ class Monthday:
 
 
 @dataclass
+class Root:
+    """
+    :ivar entity:
+    :ivar anyuri:
+    :ivar hexbinary:
+    :ivar month:
+    :ivar day:
+    :ivar monthday:
+    :ivar year:
+    :ivar date:
+    :ivar time:
+    :ivar datetime:
+    :ivar duration:
+    :ivar decimal:
+    :ivar double:
+    :ivar float_value:
+    :ivar bool_value:
+    :ivar int_value:
+    :ivar string:
+    :ivar item:
+    """
+    class Meta:
+        name = "root"
+
+    entity: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    anyuri: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    hexbinary: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    month: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    day: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    monthday: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    year: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    date: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    time: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    datetime: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    duration: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    decimal: List[Decimal] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    double: List[Decimal] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    float_value: List[float] = field(
+        default_factory=list,
+        metadata=dict(
+            name="float",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    bool_value: List[bool] = field(
+        default_factory=list,
+        metadata=dict(
+            name="bool",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    int_value: List[int] = field(
+        default_factory=list,
+        metadata=dict(
+            name="int",
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    string: List[str] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+    item: List[object] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807
+        )
+    )
+
+
+@dataclass
 class String:
     """
     :ivar value:
@@ -287,179 +461,5 @@ class Year:
         default=None,
         metadata=dict(
             required=True
-        )
-    )
-
-
-@dataclass
-class Root:
-    """
-    :ivar entity:
-    :ivar anyuri:
-    :ivar hexbinary:
-    :ivar month:
-    :ivar day:
-    :ivar monthday:
-    :ivar year:
-    :ivar date:
-    :ivar time:
-    :ivar datetime:
-    :ivar duration:
-    :ivar decimal:
-    :ivar double:
-    :ivar float_value:
-    :ivar bool_value:
-    :ivar int_value:
-    :ivar string:
-    :ivar item:
-    """
-    class Meta:
-        name = "root"
-
-    entity: List[Entity] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    anyuri: List[Anyuri] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    hexbinary: List[Hexbinary] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    month: List[Month] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    day: List[Day] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    monthday: List[Monthday] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    year: List[Year] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    date: List[Date] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    time: List[Time] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    datetime: List[Datetime] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    duration: List[Duration] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    decimal: List[Decimal] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    double: List[Double] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    float_value: List[FloatType] = field(
-        default_factory=list,
-        metadata=dict(
-            name="float",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    bool_value: List[BoolType] = field(
-        default_factory=list,
-        metadata=dict(
-            name="bool",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    int_value: List[IntType] = field(
-        default_factory=list,
-        metadata=dict(
-            name="int",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    string: List[String] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    item: List[Item] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
         )
     )

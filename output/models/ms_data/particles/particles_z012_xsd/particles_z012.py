@@ -104,7 +104,7 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    e2: List[E2] = field(
+    e2: List[int] = field(
         default_factory=list,
         metadata=dict(
             name="E2",
@@ -113,7 +113,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    e1: List[E1] = field(
+    e1: List[Union[bool, float, int, "Root.Value"]] = field(
         default_factory=list,
         metadata=dict(
             name="E1",
@@ -131,3 +131,11 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
+
+    class Value(Enum):
+        """
+        :cvar X:
+        :cvar Y:
+        """
+        X = "x"
+        Y = "y"

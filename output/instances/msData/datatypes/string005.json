@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "#x20 | #xD | #xA | [a-zA-Z0-9] | [-'()+,./:=?;!*#@$_%]"
     },
-    "simple_test": {
-        "value": "#x20 | #xD | #xA | [a-zA-Z0-9] | [-'()+,./:=?;!*#@$_%]"
-    }
+    "simple_test": "#x20 | #xD | #xA | [a-zA-Z0-9] | [-'()+,./:=?;!*#@$_%]"
 }

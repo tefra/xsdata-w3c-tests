@@ -2,32 +2,20 @@
     "data_types": [
         {
             "id": [
-                {
-                    "value": "Address"
-                },
-                {
-                    "value": "Address"
-                }
+                "Address",
+                "Address"
             ],
             "idref": [
-                {
-                    "value": "Address"
-                },
-                {
-                    "value": "Address"
-                }
+                "Address",
+                "Address"
             ],
             "idrefs": [
-                {
-                    "value": [
-                        "Address"
-                    ]
-                },
-                {
-                    "value": [
-                        "Address"
-                    ]
-                }
+                [
+                    "Address"
+                ],
+                [
+                    "Address"
+                ]
             ]
         }
     ]

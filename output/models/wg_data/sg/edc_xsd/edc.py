@@ -55,7 +55,7 @@ class T:
             required=True
         )
     )
-    e: Optional[E] = field(
+    e: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

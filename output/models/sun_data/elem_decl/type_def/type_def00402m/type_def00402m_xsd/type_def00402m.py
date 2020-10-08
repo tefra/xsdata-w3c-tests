@@ -6,29 +6,12 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
-class GlobalType:
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "Global"
-        namespace = "ElemDecl/typeDef"
-
-    value: Optional[bool] = field(
-        default=None,
-        metadata=dict(
-            required=True
-        )
-    )
-
-
-@dataclass
 class ComplexType:
     """
     :ivar global_value:
     :ivar local:
     """
-    global_value: Optional[GlobalType] = field(
+    global_value: Optional[bool] = field(
         default=None,
         metadata=dict(
             name="Global",
@@ -43,6 +26,23 @@ class ComplexType:
             name="Local",
             type="Element",
             namespace="",
+            required=True
+        )
+    )
+
+
+@dataclass
+class GlobalType:
+    """
+    :ivar value:
+    """
+    class Meta:
+        name = "Global"
+        namespace = "ElemDecl/typeDef"
+
+    value: Optional[bool] = field(
+        default=None,
+        metadata=dict(
             required=True
         )
     )

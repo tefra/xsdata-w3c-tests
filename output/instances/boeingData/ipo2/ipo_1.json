@@ -16,9 +16,7 @@
     "single_address": null,
     "customer_comment": null,
     "ship_comment": null,
-    "comment": {
-        "value": "Hurry, my sister loves Boeing!"
-    },
+    "comment": "Hurry, my sister loves Boeing!",
     "items": {
         "content": [
             {
@@ -28,14 +26,10 @@
                     "quantity": 1,
                     "usprice": "99.95",
                     "customer_comment": [
-                        {
-                            "value": " Want this for the holidays! "
-                        }
+                        " Want this for the holidays! "
                     ],
                     "ship_comment": [
-                        {
-                            "value": " Use gold wrap if possible "
-                        }
+                        " Use gold wrap if possible "
                     ],
                     "comment": [],
                     "ship_date": "1999-12-05",
@@ -53,9 +47,7 @@
                     "customer_comment": [],
                     "ship_comment": [],
                     "comment": [
-                        {
-                            "value": "This is a comment..."
-                        }
+                        "This is a comment..."
                     ],
                     "ship_date": "2000-02-28",
                     "part_num": "833-AA",

@@ -2,7 +2,5 @@
     "complex_test": {
         "comp_foo": "news:comp.infosystems.www.servers.unix"
     },
-    "simple_test": {
-        "value": "news:comp.infosystems.www.servers.unix"
-    }
+    "simple_test": "news:comp.infosystems.www.servers.unix"
 }

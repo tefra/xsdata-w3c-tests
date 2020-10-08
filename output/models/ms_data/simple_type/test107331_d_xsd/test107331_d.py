@@ -97,7 +97,25 @@ class Root:
     class Meta:
         name = "root"
 
-    d: List[D] = field(
+    d: List[List[Union[Decimal, int, bool]]] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
+        )
+    )
+    c: List[List[Decimal]] = field(
+        default_factory=list,
+        metadata=dict(
+            type="Element",
+            min_occurs=1,
+            max_occurs=9223372036854775807,
+            tokens=True
+        )
+    )
+    b: List[Decimal] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -105,7 +123,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    c: List[C] = field(
+    a: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -113,23 +131,7 @@ class Root:
             max_occurs=9223372036854775807
         )
     )
-    b: List[B] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    a: List[A] = field(
-        default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
-    )
-    item: List[Item] = field(
+    item: List[object] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

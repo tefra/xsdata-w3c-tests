@@ -39,32 +39,6 @@ class ChildType:
 
 
 @dataclass
-class DerivedType1(ChildType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "derivedType1"
-
-    value: Optional[bool] = field(
-        default=None,
-    )
-
-
-@dataclass
-class DerivedType2(ChildType):
-    """
-    :ivar value:
-    """
-    class Meta:
-        name = "derivedType2"
-
-    value: Optional[int] = field(
-        default=None,
-    )
-
-
-@dataclass
 class Root:
     """
     :ivar child:
@@ -73,7 +47,7 @@ class Root:
         name = "root"
         namespace = "tns"
 
-    child: List[Union[ChildType, DerivedType1, DerivedType2]] = field(
+    child: List[Union[ChildType, bool, int]] = field(
         default_factory=list,
         metadata=dict(
             type="Element",

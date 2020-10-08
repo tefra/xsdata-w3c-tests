@@ -3,25 +3,18 @@ from typing import Optional
 
 
 @dataclass
-class MyType:
+class Root:
     """
     :ivar value:
     """
     class Meta:
-        name = "myType"
+        name = "root"
 
     value: Optional[str] = field(
         default=None,
+        metadata=dict(
+            required=True,
+            length=5,
+            white_space="preserve"
+        )
     )
-
-
-@dataclass
-class FooType(MyType):
-    class Meta:
-        name = "fooType"
-
-
-@dataclass
-class Root(FooType):
-    class Meta:
-        name = "root"

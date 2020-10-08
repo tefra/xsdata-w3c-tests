@@ -63,14 +63,14 @@ class T:
     class Meta:
         name = "t"
 
-    r2: Optional[R2] = field(
+    r2: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",
             required=True
         )
     )
-    r: Optional[R] = field(
+    r: Optional[str] = field(
         default=None,
         metadata=dict(
             type="Element",

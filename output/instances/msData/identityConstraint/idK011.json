@@ -2,9 +2,7 @@
     "uid": [
         {
             "pid": [
-                {
-                    "value": "abc"
-                }
+                "abc"
             ],
             "val": "1",
             "val2": null

@@ -7,23 +7,11 @@
         ]
     ],
     "child2": [
-        {
-            "value": true
-        },
-        {
-            "value": false
-        },
-        {
-            "value": false
-        },
-        {
-            "value": true
-        },
-        {
-            "value": "abcdef"
-        },
-        {
-            "value": "xxxxxxxx"
-        }
+        true,
+        false,
+        false,
+        true,
+        "abcdef",
+        "xxxxxxxx"
     ]
 }

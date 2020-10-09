@@ -12,7 +12,7 @@ class Uid:
     class Meta:
         name = "uid"
 
-    pid: List["Uid.Pid"] = field(
+    pid: List[str] = field(
         default_factory=list,
         metadata=dict(
             type="Element",
@@ -33,15 +33,6 @@ class Uid:
             type="Attribute"
         )
     )
-
-    @dataclass
-    class Pid:
-        """
-        :ivar value:
-        """
-        value: Optional[str] = field(
-            default=None,
-        )
 
 
 @dataclass

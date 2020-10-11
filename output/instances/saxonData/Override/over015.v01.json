@@ -1,0 +1,59 @@
+{
+    "para": [
+        {
+            "year": {
+                "qname": "year",
+                "text": "2010",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "month": {
+                "qname": "month",
+                "text": "05",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "day": {
+                "qname": "day",
+                "text": "11",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "nota": "foo"
+        },
+        {
+            "year": {
+                "qname": "year",
+                "text": "2011",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "month": {
+                "qname": "month",
+                "text": "05",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "day": {
+                "qname": "day",
+                "text": "11",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "nota": "bez"
+        }
+    ],
+    "bezzle": null
+}

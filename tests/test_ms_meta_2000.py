@@ -12472,7 +12472,6 @@ def test_qfe1700d1_qfe1700d1_i(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_qfe1700c2_qfe1700c2_v(save_xml):
     """
     TEST :3.3.2 XML Representation of Element Declaration Schema

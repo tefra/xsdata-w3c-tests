@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tns:root xmlns:tns="http://xstest-tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <elem1 type="float">1E104</elem1>
-  <elem1 type="double">1E971</elem1>
+  <elem1 type="float">1E+104</elem1>
+  <elem1 type="double">1E+971</elem1>
 </tns:root>

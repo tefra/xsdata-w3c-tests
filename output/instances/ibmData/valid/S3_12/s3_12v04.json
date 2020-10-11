@@ -1,11 +1,11 @@
 {
     "elem1": [
         {
-            "value": "1E104",
+            "value": "1E+104",
             "type": "float"
         },
         {
-            "value": "1E971",
+            "value": "1E+971",
             "type": "double"
         }
     ]

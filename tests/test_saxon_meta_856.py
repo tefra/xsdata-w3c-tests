@@ -7448,7 +7448,6 @@ def test_over018_over018_n02_xml(save_xml):
 
 
 @pytest.mark.schema11
-@pytest.mark.xfail
 def test_over015_over015_v01_xml(save_xml):
     """
     Override a notation Override a notation
@@ -7458,6 +7457,7 @@ def test_over015_over015_v01_xml(save_xml):
         instance="saxonData/Override/over015.v01.xml",
         class_name="Doc",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
@@ -7473,6 +7473,7 @@ def test_over015_over015_v02_xml(save_xml):
         instance="saxonData/Override/over015.v02.xml",
         class_name="Doc",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
@@ -7488,6 +7489,7 @@ def test_over015_over015_n01_xml(save_xml):
         instance="saxonData/Override/over015.n01.xml",
         class_name="Doc",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 
@@ -7503,6 +7505,7 @@ def test_over015_over015_n02_xml(save_xml):
         instance="saxonData/Override/over015.n02.xml",
         class_name="Doc",
         version="1.1",
+        ns_struct=True,
         save_xml=save_xml,
     )
 

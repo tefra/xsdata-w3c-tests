@@ -15,34 +15,34 @@ class Foo:
 
     my_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myEle1",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_ele3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     local_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local",
+        }
     )
 
 
@@ -57,19 +57,19 @@ class FooType(Foo):
 
     my_ele4: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myEle4",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myEle4",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 

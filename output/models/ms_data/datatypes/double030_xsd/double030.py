@@ -13,12 +13,11 @@ class ComplexfooType:
 
     comp_foo: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -32,9 +31,9 @@ class SimpleTest:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,19 +54,17 @@ class Root:
 
     complex_test: List[ComplexTest] = field(
         default_factory=list,
-        metadata=dict(
-            name="complexTest",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "complexTest",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     simple_test: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            name="simpleTest",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "simpleTest",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

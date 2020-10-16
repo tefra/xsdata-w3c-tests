@@ -13,21 +13,21 @@ class FooType:
 
     foo_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooEle1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="fooEle2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -41,12 +41,12 @@ class MyType(FooType):
 
     foo_ele3: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="fooEle3",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle3",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -66,9 +66,9 @@ class Root:
 
     foo_test: Optional[FooTest] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -16,10 +16,10 @@ class TestType:
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -33,8 +33,8 @@ class X(TestType):
 
     a: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://test1"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://test1",
+        }
     )

@@ -18,82 +18,74 @@ class Nametest:
     """
     ele: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="_ele",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "_ele",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="_-",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "_-",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     value_1: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="_.",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "_.",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     value_9: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="_9",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "_9",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     value_2: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="___",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "___",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     a_a: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     a_a_a: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="a.a",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "a.a",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     a_ele: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="ele",
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "ele",
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
 
 

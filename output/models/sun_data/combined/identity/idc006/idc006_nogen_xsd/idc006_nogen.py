@@ -16,15 +16,15 @@ class B:
 
     b: Optional["B"] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -40,18 +40,16 @@ class Root:
 
     keys: Optional["Root.Keys"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     keyref: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -61,10 +59,9 @@ class Root:
         """
         any_element: List[object] = field(
             default_factory=list,
-            metadata=dict(
-                type="Wildcard",
-                namespace="##any",
-                min_occurs=1,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Wildcard",
+                "namespace": "##any",
+                "min_occurs": 1,
+            }
         )

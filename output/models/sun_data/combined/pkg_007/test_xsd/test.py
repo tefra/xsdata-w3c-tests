@@ -16,17 +16,17 @@ class Emptywc:
 
     a_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="urn:a"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "urn:a",
+        }
     )
     b_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="urn:b"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "urn:b",
+        }
     )
 
 
@@ -42,15 +42,15 @@ class JustA:
 
     a_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="urn:a"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "urn:a",
+        }
     )
     a_b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="urn:a urn:b urn:c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "urn:a urn:b urn:c",
+        }
     )

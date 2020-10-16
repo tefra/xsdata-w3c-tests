@@ -15,9 +15,9 @@ class NistschemaSvIvListNegativeIntegerWhiteSpace1:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            white_space="collapse",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+            "tokens": True,
+        }
     )

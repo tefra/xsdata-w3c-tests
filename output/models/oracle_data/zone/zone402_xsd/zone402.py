@@ -12,7 +12,7 @@ class Doc:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            max_inclusive="0000-01-01T12:00:00"
-        )
+        metadata={
+            "max_inclusive": "0000-01-01T12:00:00",
+        }
     )

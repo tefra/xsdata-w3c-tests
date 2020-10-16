@@ -13,21 +13,21 @@ class ComplexType:
     """
     global_value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="Global",
-            type="Element",
-            namespace="ElemDecl/typeDef",
-            required=True
-        )
+        metadata={
+            "name": "Global",
+            "type": "Element",
+            "namespace": "ElemDecl/typeDef",
+            "required": True,
+        }
     )
     local: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -42,9 +42,9 @@ class GlobalType:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

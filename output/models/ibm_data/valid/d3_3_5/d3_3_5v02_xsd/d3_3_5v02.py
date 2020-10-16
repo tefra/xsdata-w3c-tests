@@ -26,19 +26,17 @@ class Root:
 
     number1: List[Num1] = field(
         default_factory=list,
-        metadata=dict(
-            name="Number1",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Number1",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     number2: List[float] = field(
         default_factory=list,
-        metadata=dict(
-            name="Number2",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Number2",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

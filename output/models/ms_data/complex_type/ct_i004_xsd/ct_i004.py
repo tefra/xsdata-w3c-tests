@@ -14,27 +14,27 @@ class Foo:
 
     my_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myEle1",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_ele3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -50,29 +50,29 @@ class FooType:
 
     my_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myEle1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myEle1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myEle2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_ele3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myEle3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 

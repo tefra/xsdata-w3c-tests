@@ -15,9 +15,9 @@ class Doc:
 
     elem: Optional["Doc.Elem"] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -28,8 +28,8 @@ class Doc:
         att: str = field(
             init=False,
             default="   1       2          3",
-            metadata=dict(
-                type="Attribute",
-                namespace="http://xsdtesting"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "http://xsdtesting",
+            }
         )

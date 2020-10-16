@@ -16,28 +16,28 @@ class ExtRefType:
 
     imp_e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="impE1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "impE1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     imp_e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="impE2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "impE2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     imp_a1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="impA1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "impA1",
+            "type": "Attribute",
+        }
     )
 
 
@@ -52,11 +52,11 @@ class ImpElem1:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 

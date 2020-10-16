@@ -16,12 +16,12 @@ class XType:
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True,
-            max_length=20,
-            pattern=r"val[1-9][0-9]*"
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+            "max_length": 20,
+            "pattern": r"val[1-9][0-9]*",
+        }
     )
 
 
@@ -33,17 +33,16 @@ class Example:
     """
     x: List[XType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     x_count: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )

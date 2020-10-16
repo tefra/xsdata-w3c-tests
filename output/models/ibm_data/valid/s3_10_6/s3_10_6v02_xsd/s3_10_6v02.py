@@ -17,35 +17,35 @@ class T:
 
     e1: Optional["T.E1"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     e2: Optional["T.E2"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     e3: Optional["T.E3"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     e4: Optional["T.E4"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -55,10 +55,10 @@ class T:
         """
         other_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##other"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##other",
+            }
         )
 
     @dataclass
@@ -68,10 +68,10 @@ class T:
         """
         target_namespace_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##targetNamespace"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##targetNamespace",
+            }
         )
 
     @dataclass
@@ -81,10 +81,10 @@ class T:
         """
         local_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##local"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##local",
+            }
         )
 
     @dataclass
@@ -94,10 +94,10 @@ class T:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
 

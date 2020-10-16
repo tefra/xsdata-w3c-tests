@@ -14,27 +14,27 @@ class FooType:
 
     child_1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     child_2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_attr: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myAttr",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "myAttr",
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -54,9 +54,9 @@ class Root:
 
     foo_test: Optional[FooTest] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

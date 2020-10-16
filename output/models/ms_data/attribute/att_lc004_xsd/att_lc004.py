@@ -19,35 +19,35 @@ class AttRef:
     ca1: str = field(
         init=False,
         default="abc",
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     ca2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     aga1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     aga2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     ga2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -63,14 +63,14 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     ga1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )

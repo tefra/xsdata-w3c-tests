@@ -13,19 +13,19 @@ class FooType:
 
     my_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myElement",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     attr_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest",
+            "type": "Attribute",
+        }
     )
 
 

@@ -40,9 +40,9 @@ class TypeInteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -57,9 +57,9 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -74,9 +74,9 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -91,9 +91,9 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -108,9 +108,9 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -125,7 +125,7 @@ class NistschemaSvIvAtomicQnameEnumeration4:
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

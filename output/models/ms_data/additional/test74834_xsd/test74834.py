@@ -17,28 +17,28 @@ class MyDateTime:
 
     date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     time: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9].[0-9][0-9][0-9]"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9].[0-9][0-9][0-9]",
+        }
     )
     localized_dt: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -54,28 +54,28 @@ class MySmallDateTime:
 
     date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     time: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9]"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9]",
+        }
     )
     localized_sdt: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -91,19 +91,19 @@ class Datafile:
 
     nonstringsection: Optional["Datafile.Nonstringsection"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     stringsection: Optional["Datafile.Stringsection"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -124,129 +124,105 @@ class Datafile:
         """
         bigint: List[int] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
         int_value: List[int] = field(
             default_factory=list,
-            metadata=dict(
-                name="int",
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "name": "int",
+                "type": "Element",
+                "namespace": "",
+            }
         )
         smallint: List[int] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
         tinyint: List[int] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
         decimal: List[Decimal] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                total_digits=38,
-                fraction_digits=10
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "total_digits": 38,
+                "fraction_digits": 10,
+            }
         )
         numeric: List[Decimal] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                total_digits=38,
-                fraction_digits=10
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "total_digits": 38,
+                "fraction_digits": 10,
+            }
         )
         money: List[Decimal] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                min_inclusive=-922337203685477.5808,
-                max_inclusive=922337203685477.5807,
-                total_digits=19,
-                fraction_digits=4
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_inclusive": -922337203685477.5808,
+                "max_inclusive": 922337203685477.5807,
+                "total_digits": 19,
+                "fraction_digits": 4,
+            }
         )
         smallmoney: List[Decimal] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                min_inclusive=-214748.3648,
-                max_inclusive=214748.3647,
-                total_digits=10,
-                fraction_digits=4
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_inclusive": -214748.3648,
+                "max_inclusive": 214748.3647,
+                "total_digits": 10,
+                "fraction_digits": 4,
+            }
         )
         float_value: List[Decimal] = field(
             default_factory=list,
-            metadata=dict(
-                name="float",
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                min_inclusive=-1.79E+308,
-                max_inclusive=1.79E+308
-            )
+            metadata={
+                "name": "float",
+                "type": "Element",
+                "namespace": "",
+                "min_inclusive": -1.79E+308,
+                "max_inclusive": 1.79E+308,
+            }
         )
         real: List[float] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                min_inclusive=-3.4e+38,
-                max_inclusive=3.4e+38
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_inclusive": -3.4e+38,
+                "max_inclusive": 3.4e+38,
+            }
         )
         datetime: List[MyDateTime] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
         smalldatetime: List[MySmallDateTime] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
 
     @dataclass
@@ -256,12 +232,10 @@ class Datafile:
         """
         string: List[str] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=0,
-                max_occurs=9223372036854775807,
-                min_length=1,
-                max_length=4000
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_length": 1,
+                "max_length": 4000,
+            }
         )

@@ -39,7 +39,7 @@ class NistschemaSvIvAtomicHexBinaryEnumeration3:
 
     value: Optional[NistschemaSvIvAtomicHexBinaryEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

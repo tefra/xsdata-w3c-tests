@@ -15,9 +15,9 @@ class E:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,11 +32,11 @@ class E1:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -49,28 +49,28 @@ class T:
     """
     e1: Optional[E1] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
     e: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
     w3_org_xml_2008_xsdl_exx_ns1_e1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="e1",
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "name": "e1",
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
 
 

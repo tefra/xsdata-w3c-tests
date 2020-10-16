@@ -15,7 +15,7 @@ class Root:
 
     value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

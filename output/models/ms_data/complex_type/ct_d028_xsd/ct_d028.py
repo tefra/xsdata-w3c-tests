@@ -12,9 +12,9 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            length=5,
-            white_space="preserve"
-        )
+        metadata={
+            "required": True,
+            "length": 5,
+            "white_space": "preserve",
+        }
     )

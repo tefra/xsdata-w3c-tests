@@ -40,183 +40,183 @@ class Root:
 
     str00_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str00Aએ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str00Aએ",
+            "type": "Attribute",
+        }
     )
     str10: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str10-ઐ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str10-ઐ",
+            "type": "Attribute",
+        }
     )
     str20: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str20ઑ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str20ઑ",
+            "type": "Attribute",
+        }
     )
     str01_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str01Aઓ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str01Aઓ",
+            "type": "Attribute",
+        }
     )
     str11: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str11-ઝ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str11-ઝ",
+            "type": "Attribute",
+        }
     )
     str21: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str21ન",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str21ન",
+            "type": "Attribute",
+        }
     )
     str02_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str02Aપ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str02Aપ",
+            "type": "Attribute",
+        }
     )
     str12: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str12-ભ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str12-ભ",
+            "type": "Attribute",
+        }
     )
     str22: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str22ર",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str22ર",
+            "type": "Attribute",
+        }
     )
     str03_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str03Aલ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str03Aલ",
+            "type": "Attribute",
+        }
     )
     str13: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str13-લ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str13-લ",
+            "type": "Attribute",
+        }
     )
     str23: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str23ળ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str23ળ",
+            "type": "Attribute",
+        }
     )
     str04_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str04Aવ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str04Aવ",
+            "type": "Attribute",
+        }
     )
     str14: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str14-ષ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str14-ષ",
+            "type": "Attribute",
+        }
     )
     str24: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str24હ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str24હ",
+            "type": "Attribute",
+        }
     )
     str05_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str05Aઽ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str05Aઽ",
+            "type": "Attribute",
+        }
     )
     str06_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str06Aૠ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str06Aૠ",
+            "type": "Attribute",
+        }
     )
     str07_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str07Aଅ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str07Aଅ",
+            "type": "Attribute",
+        }
     )
     str17: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str17-ଈ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str17-ଈ",
+            "type": "Attribute",
+        }
     )
     str27: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str27ଌ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str27ଌ",
+            "type": "Attribute",
+        }
     )
     str08_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str08Aଏ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str08Aଏ",
+            "type": "Attribute",
+        }
     )
     str18: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str18-ଏ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str18-ଏ",
+            "type": "Attribute",
+        }
     )
     str28: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str28ଐ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str28ଐ",
+            "type": "Attribute",
+        }
     )
     str09_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str09Aଓ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str09Aଓ",
+            "type": "Attribute",
+        }
     )
     str19: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str19-ଝ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str19-ଝ",
+            "type": "Attribute",
+        }
     )
     str29: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str29ନ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str29ନ",
+            "type": "Attribute",
+        }
     )

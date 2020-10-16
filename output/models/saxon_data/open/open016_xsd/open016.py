@@ -17,16 +17,16 @@ class Doc:
     )
     evidence: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     open_com_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )

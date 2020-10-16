@@ -20,21 +20,21 @@ class Ct:
     )
     att1: Union[bool, int, str] = field(
         default=False,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att2: Union[bool, int, str] = field(
         default=5,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att3: Union[bool, int, str] = field(
         default="abc",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -49,9 +49,9 @@ class Root:
 
     e: List[Ct] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )

@@ -12,8 +12,8 @@ class Doc:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            min_inclusive="-P3Y",
-            max_inclusive="P3Y"
-        )
+        metadata={
+            "min_inclusive": "-P3Y",
+            "max_inclusive": "P3Y",
+        }
     )

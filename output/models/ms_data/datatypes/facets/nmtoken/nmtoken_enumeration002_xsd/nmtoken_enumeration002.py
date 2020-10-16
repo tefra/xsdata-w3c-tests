@@ -13,11 +13,11 @@ class FooType:
 
     foo: Optional["FooType.Foo"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -31,10 +31,10 @@ class FooType:
         )
         attr_test: Optional["FooType.Foo.AttrTest"] = field(
             default=None,
-            metadata=dict(
-                name="attrTest",
-                type="Attribute"
-            )
+            metadata={
+                "name": "attrTest",
+                "type": "Attribute",
+            }
         )
 
         class AttrTest(Enum):

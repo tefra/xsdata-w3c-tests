@@ -14,25 +14,25 @@ class Doc:
 
     open_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+            "required": True,
+        }
     )
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=5,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 5,
+            "max_occurs": 10,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

@@ -15,21 +15,21 @@ class Base:
 
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=2,
-            max_occurs=6
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "min_occurs": 2,
+            "max_occurs": 6,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=2,
-            max_occurs=6
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "min_occurs": 2,
+            "max_occurs": 6,
+        }
     )
 
 
@@ -45,17 +45,17 @@ class Doc:
 
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=3,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 3,
+            "max_occurs": 5,
+        }
     )

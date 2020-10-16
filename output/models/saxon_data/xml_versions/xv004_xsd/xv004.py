@@ -20,8 +20,8 @@ class DKstra:
 
     a: Optional[A] = field(
         default=None,
-        metadata=dict(
-            name="A𰀀",
-            type="Attribute"
-        )
+        metadata={
+            "name": "A𰀀",
+            "type": "Attribute",
+        }
     )

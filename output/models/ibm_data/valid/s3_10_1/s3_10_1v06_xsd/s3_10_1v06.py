@@ -15,9 +15,9 @@ class A:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,9 +32,9 @@ class B:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -49,9 +49,9 @@ class C:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,9 +66,9 @@ class D:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -85,36 +85,35 @@ class T:
 
     d: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 1,
+        }
     )
     c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
 
 

@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicAnyUriLength1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            length=11
-        )
+        metadata={
+            "required": True,
+            "length": 11,
+        }
     )

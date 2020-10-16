@@ -19,8 +19,8 @@ class Iid:
     )
     val: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="importNS"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "importNS",
+        }
     )

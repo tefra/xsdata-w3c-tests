@@ -11,7 +11,7 @@ class Test:
     """
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"1|2"
-        )
+        metadata={
+            "pattern": r"1|2",
+        }
     )

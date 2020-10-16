@@ -12,12 +12,12 @@ class MinimalA:
 
     b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="B",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "B",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -29,19 +29,19 @@ class X:
     """
     a: Optional[Union[MinimalA, "X.ACastAsXsBoolean"]] = field(
         default=None,
-        metadata=dict(
-            name="A",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "A",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     a_attribute: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="a",
-            type="Attribute"
-        )
+        metadata={
+            "name": "a",
+            "type": "Attribute",
+        }
     )
 
     @dataclass

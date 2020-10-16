@@ -11,10 +11,10 @@ class B:
     """
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+        }
     )
 
 
@@ -25,10 +25,10 @@ class R:
     """
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+        }
     )
 
 
@@ -43,8 +43,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

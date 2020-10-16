@@ -12,8 +12,8 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="preserve"
-        )
+        metadata={
+            "required": True,
+            "white_space": "preserve",
+        }
     )

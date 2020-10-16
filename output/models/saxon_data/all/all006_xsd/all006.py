@@ -12,9 +12,9 @@ class C2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r".*:00"
-        )
+        metadata={
+            "pattern": r".*:00",
+        }
     )
 
 
@@ -28,9 +28,9 @@ class A:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,9 +44,9 @@ class B:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -60,9 +60,9 @@ class C1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -79,31 +79,31 @@ class Doc:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     target_namespace_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+            "required": True,
+        }
     )
     other_ns_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://other.ns/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://other.ns/",
+            "required": True,
+        }
     )

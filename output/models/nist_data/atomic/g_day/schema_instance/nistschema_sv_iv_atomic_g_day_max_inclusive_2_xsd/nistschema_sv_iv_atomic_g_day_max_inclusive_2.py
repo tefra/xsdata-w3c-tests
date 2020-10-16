@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGDayMaxInclusive2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive="---07"
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": "---07",
+        }
     )

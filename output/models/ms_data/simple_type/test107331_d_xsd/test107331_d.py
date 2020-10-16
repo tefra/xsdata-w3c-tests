@@ -13,9 +13,9 @@ class A:
 
     value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -29,9 +29,9 @@ class B:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -45,10 +45,10 @@ class C:
 
     value: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -62,10 +62,10 @@ class D:
 
     value: List[Union[Decimal, int, bool]] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -79,9 +79,9 @@ class Item:
 
     value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -99,43 +99,38 @@ class Root:
 
     d: List[List[Union[Decimal, int, bool]]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )
     c: List[List[Decimal]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )
     b: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     item: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

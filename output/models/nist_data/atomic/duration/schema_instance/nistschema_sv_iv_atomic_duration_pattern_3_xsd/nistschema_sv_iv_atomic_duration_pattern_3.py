@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDurationPattern3:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"P20\d\dY\d3M\d1DT\d4H\d7M\d6S"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"P20\d\dY\d3M\d1DT\d4H\d7M\d6S",
+        }
     )

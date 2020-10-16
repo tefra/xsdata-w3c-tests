@@ -17,40 +17,38 @@ class Ttype:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     row: List["Ttype.Row"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="myNS.tempuri.org",
-            min_occurs=1,
-            max_occurs=10,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "myNS.tempuri.org",
+            "min_occurs": 1,
+            "max_occurs": 10,
+            "sequential": True,
+        }
     )
     ref: List["Ttype.Ref"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="myNS.tempuri.org",
-            min_occurs=1,
-            max_occurs=10,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "myNS.tempuri.org",
+            "min_occurs": 1,
+            "max_occurs": 10,
+            "sequential": True,
+        }
     )
     col: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="myNS.tempuri.org"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "myNS.tempuri.org",
+        }
     )
 
     @dataclass
@@ -64,10 +62,10 @@ class Ttype:
         )
         x: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                namespace="myNS.tempuri.org"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "myNS.tempuri.org",
+            }
         )
 
     @dataclass
@@ -81,10 +79,10 @@ class Ttype:
         )
         y: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                namespace="myNS.tempuri.org"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "myNS.tempuri.org",
+            }
         )
 
 
@@ -106,9 +104,8 @@ class Root:
 
     t: List[T] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

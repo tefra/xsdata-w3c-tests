@@ -11,13 +11,12 @@ class Nametest:
     """
     ele: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            pattern=r"\i\c"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "min_occurs": 1,
+            "pattern": r"\i\c",
+        }
     )
 
 

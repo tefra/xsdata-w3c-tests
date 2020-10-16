@@ -12,10 +12,10 @@ class Beta:
 
     w3_org_xml_1998_namespace_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
 
@@ -32,34 +32,32 @@ class Doc:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     w3_org_xml_1998_namespace_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     b: Optional[Beta] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

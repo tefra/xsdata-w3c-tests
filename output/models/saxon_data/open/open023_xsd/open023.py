@@ -12,34 +12,33 @@ class B:
     """
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     open_com_other_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/ http://other.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/ http://other.com/",
+            "required": True,
+        }
     )
 
 
@@ -54,41 +53,41 @@ class R:
     """
     a: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     open_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+            "required": True,
+        }
     )
     open_com_other_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/ http://other.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/ http://other.com/",
+            "required": True,
+        }
     )
 
 

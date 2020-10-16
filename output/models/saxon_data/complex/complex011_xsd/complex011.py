@@ -18,7 +18,7 @@ class Root:
     )
     present: bool = field(
         default=True,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

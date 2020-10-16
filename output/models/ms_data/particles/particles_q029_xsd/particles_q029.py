@@ -13,20 +13,20 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            min_occurs=1,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "min_occurs": 1,
+            "max_occurs": 4,
+        }
     )
 
 
@@ -39,28 +39,28 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            min_occurs=1,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "min_occurs": 1,
+            "max_occurs": 4,
+        }
     )
     e2: Optional[E2] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -75,8 +75,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

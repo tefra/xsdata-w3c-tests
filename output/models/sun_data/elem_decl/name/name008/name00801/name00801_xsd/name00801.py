@@ -15,9 +15,9 @@ class AA:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,9 +32,9 @@ class BB:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -49,9 +49,9 @@ class CC:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -66,9 +66,9 @@ class DD:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -83,9 +83,9 @@ class EE:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -100,9 +100,9 @@ class FF:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -117,9 +117,9 @@ class GG:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -140,57 +140,57 @@ class Root:
 
     a_a: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="a--a",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "a--a",
+            "type": "Element",
+            "required": True,
+        }
     )
     b_b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="b..b",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "b..b",
+            "type": "Element",
+            "required": True,
+        }
     )
     c_c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="c__c",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "c__c",
+            "type": "Element",
+            "required": True,
+        }
     )
     d_d: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="d··d",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "d··d",
+            "type": "Element",
+            "required": True,
+        }
     )
     e_e: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="e··e",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "e··e",
+            "type": "Element",
+            "required": True,
+        }
     )
     f_f: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="f۝۝f",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "f۝۝f",
+            "type": "Element",
+            "required": True,
+        }
     )
     g_g: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="g۞۞g",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "g۞۞g",
+            "type": "Element",
+            "required": True,
+        }
     )

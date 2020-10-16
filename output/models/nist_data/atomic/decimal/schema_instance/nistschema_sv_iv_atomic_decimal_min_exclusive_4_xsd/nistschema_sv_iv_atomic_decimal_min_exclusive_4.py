@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicDecimalMinExclusive4:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive=-294253147230818967
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": -294253147230818967,
+        }
     )

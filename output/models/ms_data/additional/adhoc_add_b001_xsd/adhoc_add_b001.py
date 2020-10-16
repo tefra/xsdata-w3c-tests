@@ -15,19 +15,19 @@ class MyType:
 
     x: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
     y: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -42,19 +42,19 @@ class NsAAft:
 
     x: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 10,
+        }
     )
     y: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -84,24 +84,24 @@ class Foo:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     abc: Optional[Abc] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
     aft: Optional[Aft] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
 
 

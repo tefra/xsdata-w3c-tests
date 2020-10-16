@@ -15,10 +15,10 @@ class Ct1:
 
     att1: Optional[Union[bool, float, int, "Ct1.Value"]] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
 
     class Value(Enum):
@@ -40,10 +40,10 @@ class Ct2:
 
     att1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -57,9 +57,9 @@ class E1:
 
     value: Optional[Union[bool, float, int, "E1.Value"]] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
     class Value(Enum):
@@ -81,9 +81,9 @@ class E2:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -106,30 +106,24 @@ class Root:
 
     e2: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="E2",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "E2",
+            "type": "Element",
+        }
     )
     e1: List[Union[bool, float, int, "Root.Value"]] = field(
         default_factory=list,
-        metadata=dict(
-            name="E1",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "E1",
+            "type": "Element",
+        }
     )
     e3: List[E3] = field(
         default_factory=list,
-        metadata=dict(
-            name="E3",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "E3",
+            "type": "Element",
+        }
     )
 
     class Value(Enum):

@@ -15,8 +15,8 @@ class Root:
 
     e1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

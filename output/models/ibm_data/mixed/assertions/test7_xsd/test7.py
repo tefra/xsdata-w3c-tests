@@ -12,8 +12,8 @@ class Message:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_length=25
-        )
+        metadata={
+            "required": True,
+            "max_length": 25,
+        }
     )

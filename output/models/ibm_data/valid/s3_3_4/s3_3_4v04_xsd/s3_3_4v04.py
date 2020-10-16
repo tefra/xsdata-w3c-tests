@@ -19,7 +19,7 @@ class Root:
 
     e1: Entities = field(
         default=Entities.ASD_QWE,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

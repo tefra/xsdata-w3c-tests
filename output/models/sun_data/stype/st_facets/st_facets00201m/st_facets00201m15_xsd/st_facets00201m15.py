@@ -15,8 +15,8 @@ class Test:
 
     value: Optional[float] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_exclusive=11.0
-        )
+        metadata={
+            "required": True,
+            "max_exclusive": 11.0,
+        }
     )

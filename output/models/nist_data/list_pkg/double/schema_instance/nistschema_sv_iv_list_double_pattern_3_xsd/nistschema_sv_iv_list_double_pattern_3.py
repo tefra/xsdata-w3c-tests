@@ -15,9 +15,9 @@ class NistschemaSvIvListDoublePattern3:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\d{1}E\-\d{3} \d{1}\.\d{3}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1} \d{1}\.\d{12}E\d{2} \d{1}\.\d{16}E\d{3}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d{1}E\-\d{3} \d{1}\.\d{3}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1} \d{1}\.\d{12}E\d{2} \d{1}\.\d{16}E\d{3}",
+            "tokens": True,
+        }
     )

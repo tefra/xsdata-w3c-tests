@@ -15,9 +15,9 @@ class Address:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -31,9 +31,9 @@ class City:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -47,9 +47,9 @@ class State:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -63,9 +63,9 @@ class Zip:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"\d{5}(-\d{4})?"
-        )
+        metadata={
+            "pattern": r"\d{5}(-\d{4})?",
+        }
     )
 
 
@@ -80,49 +80,49 @@ class MyCustomerType(CustomerType):
     """
     phone_number: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="PhoneNumber",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:customer",
-            required=True
-        )
+        metadata={
+            "name": "PhoneNumber",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
+        }
     )
     address: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Address",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:address",
-            required=True
-        )
+        metadata={
+            "name": "Address",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
+        }
     )
     city: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="City",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:address",
-            required=True
-        )
+        metadata={
+            "name": "City",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
+        }
     )
     state: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="State",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:address",
-            required=True
-        )
+        metadata={
+            "name": "State",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
+        }
     )
     zip: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Zip",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:address",
-            required=True,
-            pattern=r"\d{5}(-\d{4})?"
-        )
+        metadata={
+            "name": "Zip",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:address",
+            "required": True,
+            "pattern": r"\d{5}(-\d{4})?",
+        }
     )
 
 

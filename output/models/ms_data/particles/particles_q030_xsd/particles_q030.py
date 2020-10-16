@@ -13,20 +13,19 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "max_occurs": 4,
+        }
     )
 
 
@@ -40,41 +39,38 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "max_occurs": 4,
+        }
     )
     e2: List[E2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "max_occurs": 2,
+            "sequential": True,
+        }
     )
     bar_e2: List[E2] = field(
         default_factory=list,
-        metadata=dict(
-            name="e2",
-            type="Element",
-            namespace="bar",
-            min_occurs=0,
-            max_occurs=2,
-            sequential=True
-        )
+        metadata={
+            "name": "e2",
+            "type": "Element",
+            "namespace": "bar",
+            "max_occurs": 2,
+            "sequential": True,
+        }
     )
 
 
@@ -89,8 +85,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

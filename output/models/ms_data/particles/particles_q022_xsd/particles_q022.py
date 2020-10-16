@@ -13,20 +13,19 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
     local_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "max_occurs": 4,
+        }
     )
 
 
@@ -39,30 +38,28 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
     local_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "max_occurs": 4,
+        }
     )
     xsdtesting_foo: List[Foo] = field(
         default_factory=list,
-        metadata=dict(
-            name="foo",
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "name": "foo",
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 2,
+        }
     )
 
 
@@ -77,7 +74,7 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

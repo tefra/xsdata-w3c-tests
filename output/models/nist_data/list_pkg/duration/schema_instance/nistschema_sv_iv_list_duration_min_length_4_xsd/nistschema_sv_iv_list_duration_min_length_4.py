@@ -15,9 +15,9 @@ class NistschemaSvIvListDurationMinLength4:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            min_length=8,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "min_length": 8,
+            "tokens": True,
+        }
     )

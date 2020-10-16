@@ -15,11 +15,11 @@ class Root:
 
     elflt_union_c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="elfltUnionC",
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[0-9][0-9]"
-        )
+        metadata={
+            "name": "elfltUnionC",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[0-9][0-9]",
+        }
     )

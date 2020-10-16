@@ -17,45 +17,44 @@ class DTimeStampRoot:
 
     eld_time_stamp_pattern: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="eldTimeStampPattern",
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*"
-        )
+        metadata={
+            "name": "eldTimeStampPattern",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+        }
     )
     eld_time_stamp_list_a: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeStampListA",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "eldTimeStampListA",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )
     eld_time_stamp_list_b: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeStampListB",
-            type="Element",
-            namespace="",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "name": "eldTimeStampListB",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "tokens": True,
+        }
     )
     eld_time_stamp_list_c: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeStampListC",
-            type="Element",
-            namespace="http://xstest-tns/schema11_D3_4_28_v03",
-            required=True,
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
-            tokens=True
-        )
+        metadata={
+            "name": "eldTimeStampListC",
+            "type": "Element",
+            "namespace": "http://xstest-tns/schema11_D3_4_28_v03",
+            "required": True,
+            "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+            "tokens": True,
+        }
     )
 
 
@@ -70,10 +69,10 @@ class EldTimeStampListC:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
-            tokens=True
-        )
+        metadata={
+            "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
+            "tokens": True,
+        }
     )
 
 

@@ -19,53 +19,53 @@ class Address:
 
     street1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     street2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     city: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_length=3,
-            max_length=30
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_length": 3,
+            "max_length": 30,
+        }
     )
     zipcode: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_length=3,
-            max_length=30
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_length": 3,
+            "max_length": 30,
+        }
     )
     state: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_length=3,
-            max_length=30
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_length": 3,
+            "max_length": 30,
+        }
     )
     country: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_length=3,
-            max_length=30
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_length": 3,
+            "max_length": 30,
+        }
     )
 
 
@@ -82,35 +82,35 @@ class Buyer:
 
     f_name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fName",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "fName",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     middl_name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="middlName",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "middlName",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     l_name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="lName",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "lName",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     establishment: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Establishment",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "Establishment",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -138,80 +138,80 @@ class Order1(PoBusinessRules):
 
     buyer: Optional[Buyer] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     billing_address: Optional[Address] = field(
         default=None,
-        metadata=dict(
-            name="billing-address",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "billing-address",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     shipping_address: Optional[Address] = field(
         default=None,
-        metadata=dict(
-            name="shipping-address",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "shipping-address",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     email: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r".*@.*\..*"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r".*@.*\..*",
+        }
     )
     items: Optional[Poitems] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     tax: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            min_inclusive=0
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_inclusive": 0,
+        }
     )
     bill_amount: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="bill-amount",
-            type="Element",
-            namespace="",
-            required=True,
-            min_inclusive=0
-        )
+        metadata={
+            "name": "bill-amount",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_inclusive": 0,
+        }
     )
     currency: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 

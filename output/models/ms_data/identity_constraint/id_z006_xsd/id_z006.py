@@ -12,10 +12,10 @@ class CType:
 
     att_c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -29,9 +29,9 @@ class CsType:
 
     c: Optional[CType] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -46,18 +46,17 @@ class BType:
 
     cs: List[CsType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=11
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 11,
+        }
     )
     att_b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -71,11 +70,10 @@ class BsType:
 
     b: List[BType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=11
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 11,
+        }
     )
 
 
@@ -91,24 +89,23 @@ class AType:
 
     bs: List[BsType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=11
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 11,
+        }
     )
     cs: Optional[CsType] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     att_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -122,11 +119,10 @@ class RType:
 
     a: List[AType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 

@@ -15,34 +15,34 @@ class MyType:
 
     my_element1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement1",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_element2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_element3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     local_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local",
+        }
     )
 
 
@@ -58,24 +58,24 @@ class FooType(MyType):
 
     my_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr",
+            "type": "Attribute",
+        }
     )
     my_attr1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr1",
+            "type": "Attribute",
+        }
     )
     my_attr2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr2",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr2",
+            "type": "Attribute",
+        }
     )
 
 

@@ -12,10 +12,10 @@ class B:
     """
     foo_imported_xsd_bar_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo http://importedXSD bar"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo http://importedXSD bar",
+        }
     )
 
 
@@ -26,11 +26,11 @@ class R(B):
     """
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
 
 
@@ -45,8 +45,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

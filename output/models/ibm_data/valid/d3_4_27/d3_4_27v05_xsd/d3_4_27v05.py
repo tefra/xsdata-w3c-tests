@@ -18,48 +18,44 @@ class Root:
 
     el_max_exclusive_min_inclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elMaxExclusive_MinInclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_inclusive="-P39DT3M",
-            max_exclusive="P28D"
-        )
+        metadata={
+            "name": "elMaxExclusive_MinInclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_inclusive": "-P39DT3M",
+            "max_exclusive": "P28D",
+        }
     )
     el_max_exclusive_min_exclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elMaxExclusive_MinExclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_exclusive="-P39DT2M",
-            max_exclusive="P28D"
-        )
+        metadata={
+            "name": "elMaxExclusive_MinExclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_exclusive": "-P39DT2M",
+            "max_exclusive": "P28D",
+        }
     )
     el_max_exclusive_max_inclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elMaxExclusive_MaxInclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            max_exclusive="P28D",
-            max_inclusive="P27DT3M"
-        )
+        metadata={
+            "name": "elMaxExclusive_MaxInclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_exclusive": "P28D",
+            "max_inclusive": "P27DT3M",
+        }
     )
     el_max_exclusive_max_exclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elMaxExclusive_MaxExclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            max_exclusive="P27D"
-        )
+        metadata={
+            "name": "elMaxExclusive_MaxExclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_exclusive": "P27D",
+        }
     )

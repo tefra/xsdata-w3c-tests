@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGMonthMinInclusive1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive="--01"
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": "--01",
+        }
     )

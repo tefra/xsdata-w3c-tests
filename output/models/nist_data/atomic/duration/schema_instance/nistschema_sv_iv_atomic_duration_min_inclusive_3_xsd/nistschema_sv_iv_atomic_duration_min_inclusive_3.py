@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDurationMinInclusive3:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive="P1989Y09M10DT10H34M11S"
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": "P1989Y09M10DT10H34M11S",
+        }
     )

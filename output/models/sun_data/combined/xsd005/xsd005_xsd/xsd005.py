@@ -16,26 +16,26 @@ class Base:
 
     a: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -51,26 +51,26 @@ class Rst:
 
     a: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -85,19 +85,19 @@ class Ext(Base):
 
     d: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
     e: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -112,9 +112,8 @@ class Root:
 
     item: List[Base] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

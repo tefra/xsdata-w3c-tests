@@ -15,8 +15,8 @@ class Test:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive="2002-02-28"
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": "2002-02-28",
+        }
     )

@@ -17,29 +17,29 @@ class AType:
 
     t: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+        }
     )
     f: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+        }
     )
     switch: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     r: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -56,30 +56,30 @@ class ATypeF:
 
     t: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+        }
     )
     f: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+            "required": True,
+        }
     )
     switch: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     r: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -96,30 +96,30 @@ class ATypeT:
 
     t: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+            "required": True,
+        }
     )
     f: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="abc"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "abc",
+        }
     )
     switch: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     r: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -141,8 +141,8 @@ class Top:
 
     a: Optional[A] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

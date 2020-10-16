@@ -15,19 +15,19 @@ class CtA:
 
     a1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+            "required": True,
+        }
     )
     a2: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+            "required": True,
+        }
     )
 
 
@@ -42,12 +42,10 @@ class Root:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 

@@ -14,12 +14,11 @@ class Ttype:
 
     row: List["Ttype.Row"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="myNS.tempuri.org",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "myNS.tempuri.org",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -33,10 +32,10 @@ class Ttype:
         )
         col: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                namespace="myNS.tempuri.org"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "myNS.tempuri.org",
+            }
         )
 
 
@@ -58,9 +57,8 @@ class Root:
 
     t: List[T] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

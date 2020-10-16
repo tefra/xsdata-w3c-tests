@@ -15,15 +15,14 @@ class Root:
 
     list_value: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="List",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_length=2,
-            max_length=6,
-            pattern=r"123 (\d+\s)*456",
-            tokens=True
-        )
+        metadata={
+            "name": "List",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_length": 2,
+            "max_length": 6,
+            "pattern": r"123 (\d+\s)*456",
+            "tokens": True,
+        }
     )

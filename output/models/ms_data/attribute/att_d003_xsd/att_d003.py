@@ -12,11 +12,11 @@ class AttRef:
 
     att1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            min_length=2,
-            max_length=3
-        )
+        metadata={
+            "type": "Attribute",
+            "min_length": 2,
+            "max_length": 3,
+        }
     )
 
 
@@ -30,8 +30,8 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

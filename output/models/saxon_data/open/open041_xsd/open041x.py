@@ -12,9 +12,9 @@ class Beta:
 
     open_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+            "required": True,
+        }
     )

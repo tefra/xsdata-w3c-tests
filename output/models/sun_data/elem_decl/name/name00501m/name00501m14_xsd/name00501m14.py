@@ -15,12 +15,11 @@ class GlobalType:
 
     main: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            name="Main",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Main",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -34,9 +33,9 @@ class Main:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -51,9 +50,9 @@ class Root:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

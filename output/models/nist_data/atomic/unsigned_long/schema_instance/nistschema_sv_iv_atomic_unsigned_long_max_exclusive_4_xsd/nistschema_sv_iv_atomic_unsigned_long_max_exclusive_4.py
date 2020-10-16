@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicUnsignedLongMaxExclusive4:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_exclusive=146493734340271798
-        )
+        metadata={
+            "required": True,
+            "max_exclusive": 146493734340271798,
+        }
     )

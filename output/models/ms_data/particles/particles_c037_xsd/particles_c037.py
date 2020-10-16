@@ -14,12 +14,11 @@ class Any:
 
     foo_local_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo ##local",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo ##local",
+            "max_occurs": 100,
+        }
     )
 
 
@@ -34,11 +33,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -53,9 +52,8 @@ class Doc:
 
     elem: List[Any] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 100,
+        }
     )

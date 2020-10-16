@@ -22,9 +22,9 @@ class FooTest:
 
     value: Optional[FooType] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -38,9 +38,9 @@ class Root:
 
     foo_test: Optional[FooType] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -13,9 +13,9 @@ class Doc:
 
     value: Optional["Doc.Value"] = field(
         default=None,
-        metadata=dict(
-            explicit_timezone="required"
-        )
+        metadata={
+            "explicit_timezone": "required",
+        }
     )
 
     class Value(Enum):

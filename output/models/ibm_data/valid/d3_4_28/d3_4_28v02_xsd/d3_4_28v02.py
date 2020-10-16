@@ -50,41 +50,41 @@ class Root:
     )
     attrd_time_stamp_type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrdTimeStampType",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrdTimeStampType",
+            "type": "Attribute",
+        }
     )
     attrd_time_stamp_enumeration: Optional[DTimeStampEnumeration] = field(
         default=None,
-        metadata=dict(
-            name="attrdTimeStampEnumeration",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrdTimeStampEnumeration",
+            "type": "Attribute",
+        }
     )
     attrd_time_stamp_pattern: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrdTimeStampPattern",
-            type="Attribute",
-            pattern=r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T][0]*.*"
-        )
+        metadata={
+            "name": "attrdTimeStampPattern",
+            "type": "Attribute",
+            "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T][0]*.*",
+        }
     )
     attrd_time_stamp_min_max_inclusive: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrdTimeStampMinMaxInclusive",
-            type="Attribute",
-            min_inclusive="2003-01-01T12:00:00.990-08:00",
-            max_inclusive="2004-01-01T12:00:00.990-08:00"
-        )
+        metadata={
+            "name": "attrdTimeStampMinMaxInclusive",
+            "type": "Attribute",
+            "min_inclusive": "2003-01-01T12:00:00.990-08:00",
+            "max_inclusive": "2004-01-01T12:00:00.990-08:00",
+        }
     )
     attrd_time_stamp_min_max_exclusive: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrdTimeStampMinMaxExclusive",
-            type="Attribute",
-            min_exclusive="1998-01-01T12:00:00Z",
-            max_exclusive="1999-01-01T12:00:00Z"
-        )
+        metadata={
+            "name": "attrdTimeStampMinMaxExclusive",
+            "type": "Attribute",
+            "min_exclusive": "1998-01-01T12:00:00Z",
+            "max_exclusive": "1999-01-01T12:00:00Z",
+        }
     )

@@ -14,23 +14,23 @@ class Temp:
 
     a: Optional["Temp.A"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     x: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     y: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     @dataclass
@@ -40,7 +40,7 @@ class Temp:
         """
         b: Optional[object] = field(
             default=None,
-            metadata=dict(
-                type="Element"
-            )
+            metadata={
+                "type": "Element",
+            }
         )

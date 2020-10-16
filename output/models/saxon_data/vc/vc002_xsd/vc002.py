@@ -12,7 +12,7 @@ class Temp:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"2008.*"
-        )
+        metadata={
+            "pattern": r"2008.*",
+        }
     )

@@ -13,18 +13,18 @@ class Root:
 
     list_of_ids: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "tokens": True,
+        }
     )
     idref: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

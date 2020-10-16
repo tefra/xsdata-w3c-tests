@@ -12,8 +12,8 @@ class Test:
 
     global_att: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="globalAtt",
-            type="Attribute"
-        )
+        metadata={
+            "name": "globalAtt",
+            "type": "Attribute",
+        }
     )

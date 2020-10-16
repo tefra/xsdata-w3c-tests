@@ -20,7 +20,7 @@ class Root:
 
     value: Optional[FooType] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

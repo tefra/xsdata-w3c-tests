@@ -15,9 +15,9 @@ class NistschemaSvIvListPositiveIntegerPattern4:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}",
+            "tokens": True,
+        }
     )

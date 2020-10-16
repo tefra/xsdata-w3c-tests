@@ -12,8 +12,8 @@ class Elem:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            white_space="collapse",
-            pattern=r"Hello world"
-        )
+        metadata={
+            "white_space": "collapse",
+            "pattern": r"Hello world",
+        }
     )

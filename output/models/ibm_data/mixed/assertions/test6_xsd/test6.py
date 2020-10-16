@@ -13,19 +13,17 @@ class BaseType:
 
     body: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     must_understand: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="mustUnderstand",
-            type="Attribute"
-        )
+        metadata={
+            "name": "mustUnderstand",
+            "type": "Attribute",
+        }
     )
 
 
@@ -39,9 +37,9 @@ class DerivedType(BaseType):
 
     attr1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

@@ -15,21 +15,21 @@ class Keyname:
 
     numid: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Numid",
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "name": "Numid",
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     numname: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Numname",
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "name": "Numname",
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
 
 
@@ -44,10 +44,9 @@ class Root:
 
     number: List[Keyname] = field(
         default_factory=list,
-        metadata=dict(
-            name="Number",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Number",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

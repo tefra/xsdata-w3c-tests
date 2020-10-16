@@ -14,12 +14,11 @@ class Any:
 
     xslt_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://xslt",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://xslt",
+            "max_occurs": 4,
+        }
     )
 
 
@@ -34,11 +33,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -53,9 +52,8 @@ class Doc:
 
     elem: List[Any] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 100,
+        }
     )

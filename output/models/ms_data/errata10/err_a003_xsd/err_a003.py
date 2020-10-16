@@ -14,12 +14,12 @@ class RootType:
 
     test_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="testElement",
-            type="Element",
-            namespace="http://www.tempuri.org",
-            required=True
-        )
+        metadata={
+            "name": "testElement",
+            "type": "Element",
+            "namespace": "http://www.tempuri.org",
+            "required": True,
+        }
     )
 
 
@@ -34,9 +34,9 @@ class TestElement:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

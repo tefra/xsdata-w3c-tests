@@ -62,26 +62,24 @@ class Appinfo:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     source: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -99,33 +97,31 @@ class Documentation:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     source: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     lang: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -658,26 +654,22 @@ class Annotation:
 
     appinfo: List[Appinfo] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     documentation: List[Documentation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -768,24 +760,24 @@ class Expected:
 
     validity: Optional[ExpectedOutcome] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -802,33 +794,31 @@ class Ref:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2004/xml-schema-test-suite/",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+        }
     )
     type: TypeType = field(
         default=TypeType.LOCATOR,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     href: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -846,40 +836,38 @@ class StatusEntry:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2004/xml-schema-test-suite/",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+        }
     )
     status: Optional[Status] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     bugzilla: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            pattern=r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*"
-        )
+        metadata={
+            "type": "Attribute",
+            "pattern": r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -955,53 +943,51 @@ class TestResult:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     validity: Optional[TestOutcome] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     set: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     group: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     normalized_load: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="normalizedLoad",
-            type="Attribute"
-        )
+        metadata={
+            "name": "normalizedLoad",
+            "type": "Attribute",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -1158,56 +1144,52 @@ class TestSuiteResults:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     test_result: List[TestResult] = field(
         default_factory=list,
-        metadata=dict(
-            name="testResult",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "testResult",
+            "type": "Element",
+        }
     )
     suite: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     processor: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     submit_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="submitDate",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "submitDate",
+            "type": "Attribute",
+            "required": True,
+        }
     )
     publication_permission: Optional["TestSuiteResults.PublicationPermission"] = field(
         default=None,
-        metadata=dict(
-            name="publicationPermission",
-            type="Attribute"
-        )
+        metadata={
+            "name": "publicationPermission",
+            "type": "Attribute",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
     class PublicationPermission(Enum):
@@ -1339,62 +1321,56 @@ class InstanceTest:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     instance_document: Optional[InstanceDocument] = field(
         default=None,
-        metadata=dict(
-            name="instanceDocument",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "instanceDocument",
+            "type": "Element",
+            "required": True,
+        }
     )
     expected: List[Expected] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     current: Optional[Current] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     prior: List[Prior] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -1521,63 +1497,56 @@ class SchemaTest:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     schema_document: List[SchemaDocument] = field(
         default_factory=list,
-        metadata=dict(
-            name="schemaDocument",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "schemaDocument",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     expected: List[Expected] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     current: Optional[Current] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     prior: List[Prior] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -1665,57 +1634,53 @@ class TestSuite:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     test_set_ref: List[TestSetRef] = field(
         default_factory=list,
-        metadata=dict(
-            name="testSetRef",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "testSetRef",
+            "type": "Element",
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     release_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="releaseDate",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "releaseDate",
+            "type": "Attribute",
+            "required": True,
+        }
     )
     schema_version: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="schemaVersion",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "schemaVersion",
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -1851,57 +1816,51 @@ class TestGroup:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     documentation_reference: List[DocumentationReference] = field(
         default_factory=list,
-        metadata=dict(
-            name="documentationReference",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "documentationReference",
+            "type": "Element",
+        }
     )
     schema_test: Optional[SchemaTest] = field(
         default=None,
-        metadata=dict(
-            name="schemaTest",
-            type="Element"
-        )
+        metadata={
+            "name": "schemaTest",
+            "type": "Element",
+        }
     )
     instance_test: List[InstanceTest] = field(
         default_factory=list,
-        metadata=dict(
-            name="instanceTest",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "instanceTest",
+            "type": "Element",
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -1991,46 +1950,42 @@ class TestSet:
 
     annotation: List[Annotation] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     test_group: List[TestGroup] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGroup",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "testGroup",
+            "type": "Element",
+        }
     )
     contributor: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     version: List[Union[KnownToken, Decimal, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )

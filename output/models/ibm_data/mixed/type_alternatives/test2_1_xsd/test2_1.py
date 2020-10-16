@@ -10,12 +10,11 @@ class Example:
     """
     x: List[Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -29,10 +28,10 @@ class Example:
         )
         kind: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )
 
     @dataclass
@@ -46,10 +45,10 @@ class Example:
         )
         kind: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )
 
     @dataclass
@@ -63,8 +62,8 @@ class Example:
         )
         kind: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )

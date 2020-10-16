@@ -39,19 +39,17 @@ class Root:
 
     member1: List[Member1] = field(
         default_factory=list,
-        metadata=dict(
-            name="Member1",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Member1",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     head: List[Head] = field(
         default_factory=list,
-        metadata=dict(
-            name="Head",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Head",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

@@ -30,51 +30,49 @@ class ComplexType:
 
     in_value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="in",
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "name": "in",
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
     root: List["Root"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
     out: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
     g_att: Optional[SimpleType] = field(
         default=None,
-        metadata=dict(
-            name="gAtt",
-            type="Attribute",
-            namespace="foo"
-        )
+        metadata={
+            "name": "gAtt",
+            "type": "Attribute",
+            "namespace": "foo",
+        }
     )
     add: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     tail: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 

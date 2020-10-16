@@ -15,9 +15,9 @@ class NistschemaSvIvListGDayPattern4:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"---1\d ---2\d ---\d7 ---2\d ---\d6",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"---1\d ---2\d ---\d7 ---2\d ---\d6",
+            "tokens": True,
+        }
     )

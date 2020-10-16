@@ -9,7 +9,7 @@ class Example:
     """
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            tokens=True
-        )
+        metadata={
+            "tokens": True,
+        }
     )

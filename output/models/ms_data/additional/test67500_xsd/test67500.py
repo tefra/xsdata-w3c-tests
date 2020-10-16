@@ -13,9 +13,9 @@ class MyType:
 
     att: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

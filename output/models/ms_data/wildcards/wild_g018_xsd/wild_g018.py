@@ -15,9 +15,9 @@ class Foo:
 
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )

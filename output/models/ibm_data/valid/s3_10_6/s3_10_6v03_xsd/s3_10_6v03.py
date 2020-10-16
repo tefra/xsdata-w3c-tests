@@ -15,19 +15,19 @@ class T:
 
     e1: Optional["T.E1"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
     e2: Optional["T.E2"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -37,10 +37,10 @@ class T:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
     @dataclass
@@ -50,10 +50,10 @@ class T:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
 

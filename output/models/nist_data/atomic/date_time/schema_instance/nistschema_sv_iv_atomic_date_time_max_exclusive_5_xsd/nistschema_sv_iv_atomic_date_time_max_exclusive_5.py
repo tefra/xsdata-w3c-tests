@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDateTimeMaxExclusive5:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_exclusive="2030-12-31T23:59:59"
-        )
+        metadata={
+            "required": True,
+            "max_exclusive": "2030-12-31T23:59:59",
+        }
     )

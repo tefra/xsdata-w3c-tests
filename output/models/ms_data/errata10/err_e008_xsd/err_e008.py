@@ -15,11 +15,11 @@ class Root:
 
     test_token: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="testToken",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "testToken",
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -34,7 +34,7 @@ class TestToken:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

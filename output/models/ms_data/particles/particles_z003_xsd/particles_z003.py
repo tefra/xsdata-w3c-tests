@@ -12,11 +12,11 @@ class B:
     """
     foo: Optional[Foo] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="importedXSD",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "importedXSD",
+            "required": True,
+        }
     )
 
 

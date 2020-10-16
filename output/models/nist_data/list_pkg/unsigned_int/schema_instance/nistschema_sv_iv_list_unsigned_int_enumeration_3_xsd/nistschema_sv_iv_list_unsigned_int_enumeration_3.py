@@ -31,7 +31,7 @@ class NistschemaSvIvListUnsignedIntEnumeration3:
 
     value: Optional[NistschemaSvIvListUnsignedIntEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

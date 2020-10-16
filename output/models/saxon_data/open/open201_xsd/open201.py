@@ -14,17 +14,17 @@ class AType:
 
     extra_number: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="extra-number",
-            type="Attribute"
-        )
+        metadata={
+            "name": "extra-number",
+            "type": "Attribute",
+        }
     )
     extra_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="extra-date",
-            type="Attribute"
-        )
+        metadata={
+            "name": "extra-date",
+            "type": "Attribute",
+        }
     )
 
 
@@ -42,37 +42,37 @@ class Doc:
 
     extra_number: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="extra-number",
-            type="Attribute"
-        )
+        metadata={
+            "name": "extra-number",
+            "type": "Attribute",
+        }
     )
     extra_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="extra-date",
-            type="Attribute"
-        )
+        metadata={
+            "name": "extra-date",
+            "type": "Attribute",
+        }
     )
     a: Optional[AType] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     b: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

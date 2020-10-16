@@ -12,8 +12,8 @@ class Doc:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            pattern=r"(111|aaa)"
-        )
+        metadata={
+            "type": "Attribute",
+            "pattern": r"(111|aaa)",
+        }
     )

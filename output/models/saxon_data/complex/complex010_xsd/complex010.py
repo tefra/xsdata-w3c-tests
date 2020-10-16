@@ -17,10 +17,10 @@ class Root:
     )
     no_namespace_schema_location: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="noNamespaceSchemaLocation",
-            type="Attribute",
-            namespace="http://www.w3.org/2001/XMLSchema-instance",
-            required=True
-        )
+        metadata={
+            "name": "noNamespaceSchemaLocation",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+            "required": True,
+        }
     )

@@ -15,10 +15,10 @@ class Root:
 
     true_value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="true",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "true",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

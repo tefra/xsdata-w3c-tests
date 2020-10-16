@@ -16,28 +16,28 @@ class ExtRefType:
 
     imp_e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="impE1",
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "name": "impE1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
     imp_e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="impE2",
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "name": "impE2",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
     imp_a1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="impA1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "impA1",
+            "type": "Attribute",
+        }
     )
 
 
@@ -52,19 +52,19 @@ class ImpBase:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
     e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
 
 
@@ -79,11 +79,11 @@ class ImpElem1:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 

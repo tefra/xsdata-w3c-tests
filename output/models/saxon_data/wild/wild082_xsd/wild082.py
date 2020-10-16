@@ -16,9 +16,9 @@ class Zz:
     )
     type: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -51,19 +51,19 @@ class Zing:
 
     a: Optional[Union[Zz, ZzDouble, ZzInteger]] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "required": True,
+        }
     )
 
 

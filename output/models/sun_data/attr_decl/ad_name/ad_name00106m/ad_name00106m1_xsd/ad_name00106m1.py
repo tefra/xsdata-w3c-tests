@@ -17,22 +17,22 @@ class Root:
 
     number00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number00_",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number00_",
+            "type": "Attribute",
+        }
     )
     number01: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number01.",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number01.",
+            "type": "Attribute",
+        }
     )
     number02: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number02-",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number02-",
+            "type": "Attribute",
+        }
     )

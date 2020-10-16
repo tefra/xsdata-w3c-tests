@@ -15,10 +15,10 @@ class Root:
 
     elem: Optional["Root.Elem"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -31,24 +31,24 @@ class Root:
         attr1: int = field(
             init=False,
             default=123,
-            metadata=dict(
-                type="Attribute",
-                namespace="foo"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "foo",
+            }
         )
         attr2: str = field(
             init=False,
             default="abc",
-            metadata=dict(
-                type="Attribute",
-                namespace="foo"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "foo",
+            }
         )
         attr3: bool = field(
             init=False,
             default=True,
-            metadata=dict(
-                type="Attribute",
-                namespace="foo"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "foo",
+            }
         )

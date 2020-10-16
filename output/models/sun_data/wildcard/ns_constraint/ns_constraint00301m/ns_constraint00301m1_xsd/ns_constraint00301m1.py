@@ -15,12 +15,12 @@ class A:
 
     ns_test1_ns_test2_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="ns_test1 ns_test2",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "ns_test1 ns_test2",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -35,7 +35,7 @@ class Date:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

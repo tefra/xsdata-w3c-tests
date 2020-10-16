@@ -30,113 +30,113 @@ class Root:
 
     str00_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str00Aᅟ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str00Aᅟ",
+            "type": "Attribute",
+        }
     )
     str10: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str10-ᅠ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str10-ᅠ",
+            "type": "Attribute",
+        }
     )
     str20: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str20ᅡ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str20ᅡ",
+            "type": "Attribute",
+        }
     )
     str01_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str01Aᅣ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str01Aᅣ",
+            "type": "Attribute",
+        }
     )
     str02_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str02Aᅥ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str02Aᅥ",
+            "type": "Attribute",
+        }
     )
     str03_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str03Aᅧ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str03Aᅧ",
+            "type": "Attribute",
+        }
     )
     str04_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str04Aᅩ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str04Aᅩ",
+            "type": "Attribute",
+        }
     )
     str05_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str05Aᅭ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str05Aᅭ",
+            "type": "Attribute",
+        }
     )
     str15: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str15-ᅭ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str15-ᅭ",
+            "type": "Attribute",
+        }
     )
     str25: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str25ᅮ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str25ᅮ",
+            "type": "Attribute",
+        }
     )
     str06_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str06Aᅲ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str06Aᅲ",
+            "type": "Attribute",
+        }
     )
     str16: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str16-ᅲ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str16-ᅲ",
+            "type": "Attribute",
+        }
     )
     str26: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str26ᅳ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str26ᅳ",
+            "type": "Attribute",
+        }
     )
     str07_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str07Aᅵ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str07Aᅵ",
+            "type": "Attribute",
+        }
     )
     str08_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str08Aᆞ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str08Aᆞ",
+            "type": "Attribute",
+        }
     )
     str09_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str09Aᆨ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str09Aᆨ",
+            "type": "Attribute",
+        }
     )

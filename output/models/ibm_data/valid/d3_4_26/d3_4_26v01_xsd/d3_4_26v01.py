@@ -32,45 +32,41 @@ class Root:
 
     ely_mdtype: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDType",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elyMDType",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     ely_mdenumeration: List[YMdenumeration] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDEnumeration",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elyMDEnumeration",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     ely_mdmin_max_inclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDMinMaxInclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_inclusive="-P2Y",
-            max_inclusive="P30Y23M"
-        )
+        metadata={
+            "name": "elyMDMinMaxInclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_inclusive": "-P2Y",
+            "max_inclusive": "P30Y23M",
+        }
     )
     ely_mdmin_max_exclusive: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDMinMaxExclusive",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_exclusive="-P2Y",
-            max_exclusive="P30Y23M"
-        )
+        metadata={
+            "name": "elyMDMinMaxExclusive",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_exclusive": "-P2Y",
+            "max_exclusive": "P30Y23M",
+        }
     )

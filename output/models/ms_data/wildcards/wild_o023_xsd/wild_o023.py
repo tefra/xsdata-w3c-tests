@@ -15,8 +15,8 @@ class Foo:
 
     foobar_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://foobar"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://foobar",
+        }
     )

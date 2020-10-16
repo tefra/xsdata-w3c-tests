@@ -15,8 +15,8 @@ class Foo:
 
     local_foobar_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local http://foobar"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local http://foobar",
+        }
     )

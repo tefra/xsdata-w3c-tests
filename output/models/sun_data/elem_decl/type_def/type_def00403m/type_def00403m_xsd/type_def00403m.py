@@ -16,51 +16,51 @@ class ComplexType:
     """
     global_value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="Global",
-            type="Element",
-            namespace="ElemDecl/typeDef",
-            required=True
-        )
+        metadata={
+            "name": "Global",
+            "type": "Element",
+            "namespace": "ElemDecl/typeDef",
+            "required": True,
+        }
     )
     global_pre_defined_type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="GlobalPreDefinedType",
-            type="Element",
-            namespace="ElemDecl/typeDef",
-            required=True,
-            pattern=r"1|true"
-        )
+        metadata={
+            "name": "GlobalPreDefinedType",
+            "type": "Element",
+            "namespace": "ElemDecl/typeDef",
+            "required": True,
+            "pattern": r"1|true",
+        }
     )
     local: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     local_pre_defined_type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="LocalPreDefinedType",
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"1|true"
-        )
+        metadata={
+            "name": "LocalPreDefinedType",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"1|true",
+        }
     )
     local_inline: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="LocalInline",
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"0|false"
-        )
+        metadata={
+            "name": "LocalInline",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"0|false",
+        }
     )
 
 
@@ -75,9 +75,9 @@ class GlobalType:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -91,10 +91,10 @@ class GlobalPreDefinedType:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"1|true"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"1|true",
+        }
     )
 
 

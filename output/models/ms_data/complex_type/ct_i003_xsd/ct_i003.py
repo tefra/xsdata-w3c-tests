@@ -14,28 +14,28 @@ class FooType:
 
     my_ele3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myEle3",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myEle3",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_ele4: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="myEle4",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myEle4",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooType",
-            type="Attribute"
-        )
+        metadata={
+            "name": "fooType",
+            "type": "Attribute",
+        }
     )
 
 

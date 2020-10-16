@@ -19,59 +19,59 @@ class Foo:
 
     s1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     s2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     s3: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     s4: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     n1_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://n1"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://n1",
+        }
     )
     n2_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://n2"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://n2",
+        }
     )
     n3_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://n3"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://n3",
+        }
     )
     n4_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://n4"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://n4",
+        }
     )
 
 

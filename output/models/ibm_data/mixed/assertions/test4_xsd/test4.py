@@ -14,24 +14,24 @@ class Phonebill:
 
     plan: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     rent: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     cust_id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="custId",
-            type="Attribute"
-        )
+        metadata={
+            "name": "custId",
+            "type": "Attribute",
+        }
     )

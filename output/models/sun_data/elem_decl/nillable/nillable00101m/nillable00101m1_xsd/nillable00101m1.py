@@ -16,7 +16,7 @@ class Root:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

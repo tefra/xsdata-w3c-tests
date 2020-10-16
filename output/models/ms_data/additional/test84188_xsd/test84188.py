@@ -12,8 +12,8 @@ class Root:
 
     local_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local",
+        }
     )

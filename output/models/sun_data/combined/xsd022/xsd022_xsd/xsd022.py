@@ -16,20 +16,16 @@ class Root:
 
     child1: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_length=5,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_length": 5,
+            "tokens": True,
+        }
     )
     child2: List[Union[bool, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_length=5
-        )
+        metadata={
+            "type": "Element",
+            "min_length": 5,
+        }
     )

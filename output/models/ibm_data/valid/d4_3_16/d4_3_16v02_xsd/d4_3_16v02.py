@@ -23,40 +23,40 @@ class Root:
     )
     attr_dtime_type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrDTimeType",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrDTimeType",
+            "type": "Attribute",
+        }
     )
     attr_dtime_type_et: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrDTimeTypeET",
-            type="Attribute",
-            explicit_timezone="optional"
-        )
+        metadata={
+            "name": "attrDTimeTypeET",
+            "type": "Attribute",
+            "explicit_timezone": "optional",
+        }
     )
     attr_dtetprohibited: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrDTETProhibited",
-            type="Attribute",
-            explicit_timezone="prohibited"
-        )
+        metadata={
+            "name": "attrDTETProhibited",
+            "type": "Attribute",
+            "explicit_timezone": "prohibited",
+        }
     )
     attr_dtetrequired: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrDTETRequired",
-            type="Attribute",
-            explicit_timezone="required"
-        )
+        metadata={
+            "name": "attrDTETRequired",
+            "type": "Attribute",
+            "explicit_timezone": "required",
+        }
     )
     attr_dtetoptional: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrDTETOptional",
-            type="Attribute",
-            explicit_timezone="optional"
-        )
+        metadata={
+            "name": "attrDTETOptional",
+            "type": "Attribute",
+            "explicit_timezone": "optional",
+        }
     )

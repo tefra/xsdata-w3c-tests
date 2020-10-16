@@ -17,31 +17,28 @@ class Root:
 
     ely_mdunion_a: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDUnionA",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elyMDUnionA",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     ely_mdunion_b: List[Union[str, int]] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDUnionB",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elyMDUnionB",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     ely_mdunion_c: List[Union[str, int]] = field(
         default_factory=list,
-        metadata=dict(
-            name="elyMDUnionC",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elyMDUnionC",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )

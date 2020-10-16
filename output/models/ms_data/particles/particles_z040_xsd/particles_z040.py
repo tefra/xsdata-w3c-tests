@@ -12,9 +12,9 @@ class A:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -28,9 +28,9 @@ class B:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -46,32 +46,29 @@ class Doc:
 
     a: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=3,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 3,
+            "sequential": True,
+        }
     )
     other_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            min_occurs=0,
-            max_occurs=3,
-            sequential=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "max_occurs": 3,
+            "sequential": True,
+        }
     )
     b: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=3,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 3,
+            "sequential": True,
+        }
     )
 
 
@@ -85,7 +82,7 @@ class E:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

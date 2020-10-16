@@ -12,12 +12,12 @@ class ComplexfooType:
 
     comp_foo: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -31,10 +31,10 @@ class SimpleTest:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -55,18 +55,18 @@ class Root:
 
     complex_test: Optional[ComplexTest] = field(
         default=None,
-        metadata=dict(
-            name="complexTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "complexTest",
+            "type": "Element",
+            "required": True,
+        }
     )
     simple_test: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="simpleTest",
-            type="Element",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "name": "simpleTest",
+            "type": "Element",
+            "required": True,
+            "tokens": True,
+        }
     )

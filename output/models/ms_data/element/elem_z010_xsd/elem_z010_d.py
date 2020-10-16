@@ -14,9 +14,9 @@ class D:
 
     d: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="d",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "d",
+            "required": True,
+        }
     )

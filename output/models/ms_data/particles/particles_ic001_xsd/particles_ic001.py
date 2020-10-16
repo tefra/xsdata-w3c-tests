@@ -15,21 +15,21 @@ class Base:
 
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=1,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "min_occurs": 1,
+            "max_occurs": 5,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=1,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "min_occurs": 1,
+            "max_occurs": 5,
+        }
     )
 
 
@@ -44,19 +44,19 @@ class Testing:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
     e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
 
 

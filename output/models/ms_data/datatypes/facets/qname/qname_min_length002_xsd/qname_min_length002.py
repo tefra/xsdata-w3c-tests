@@ -13,12 +13,12 @@ class FooType:
 
     foo: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            min_length=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_length": 5,
+        }
     )
 
 

@@ -9,10 +9,10 @@ class Example:
     """
     even_number: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="even-number",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "even-number",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

@@ -14,11 +14,11 @@ class AnyTypeElement:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -32,11 +32,11 @@ class DefaultTypeElement:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -52,17 +52,17 @@ class Root:
 
     any_type_element: Optional[AnyTypeElement] = field(
         default=None,
-        metadata=dict(
-            name="AnyTypeElement",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "AnyTypeElement",
+            "type": "Element",
+            "required": True,
+        }
     )
     default_type_element: Optional[DefaultTypeElement] = field(
         default=None,
-        metadata=dict(
-            name="DefaultTypeElement",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "DefaultTypeElement",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -15,9 +15,9 @@ class NistschemaSvIvListUnsignedIntLength4:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            length=8,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "length": 8,
+            "tokens": True,
+        }
     )

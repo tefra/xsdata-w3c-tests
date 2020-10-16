@@ -15,9 +15,9 @@ class NistschemaSvIvListByteLength2:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            length=6,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "length": 6,
+            "tokens": True,
+        }
     )

@@ -13,31 +13,28 @@ class B:
     """
     foo_foo: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            name="foo",
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=1000
-        )
+        metadata={
+            "name": "foo",
+            "type": "Element",
+            "namespace": "foo",
+            "max_occurs": 1000,
+        }
     )
     e1: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=1000
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "max_occurs": 1000,
+        }
     )
     foo: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=1000
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 1000,
+        }
     )
 
 
@@ -52,9 +49,9 @@ class E1:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -69,9 +66,9 @@ class Foo:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

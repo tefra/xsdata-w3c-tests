@@ -15,11 +15,10 @@ class Root:
 
     el_duration: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDuration",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elDuration",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )

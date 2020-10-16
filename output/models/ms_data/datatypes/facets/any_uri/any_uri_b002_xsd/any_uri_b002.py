@@ -28,9 +28,9 @@ class Ct:
     )
     att: Optional[St] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -50,9 +50,9 @@ class Root:
 
     bar: List[Bar] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 100,
+        }
     )

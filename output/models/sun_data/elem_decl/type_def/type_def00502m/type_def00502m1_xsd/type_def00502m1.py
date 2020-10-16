@@ -15,10 +15,10 @@ class GlobalType:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"false"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"false",
+        }
     )
 
 
@@ -33,7 +33,7 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"false"
-        )
+        metadata={
+            "pattern": r"false",
+        }
     )

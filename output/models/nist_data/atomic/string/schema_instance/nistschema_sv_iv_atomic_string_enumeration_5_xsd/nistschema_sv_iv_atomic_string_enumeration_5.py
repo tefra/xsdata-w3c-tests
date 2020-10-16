@@ -31,7 +31,7 @@ class NistschemaSvIvAtomicStringEnumeration5:
 
     value: Optional[NistschemaSvIvAtomicStringEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

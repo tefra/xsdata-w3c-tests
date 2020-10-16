@@ -13,8 +13,8 @@ class Root:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_exclusive=5
-        )
+        metadata={
+            "required": True,
+            "max_exclusive": 5,
+        }
     )

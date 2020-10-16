@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicNcnamePattern4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"[\i-[:]][\c-[:]]{12}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[\i-[:]][\c-[:]]{12}",
+        }
     )

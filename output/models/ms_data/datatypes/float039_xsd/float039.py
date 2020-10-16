@@ -12,12 +12,12 @@ class ComplexfooType:
 
     comp_foo: List[float] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -31,10 +31,10 @@ class SimpleTest:
 
     value: List[float] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -55,19 +55,18 @@ class Root:
 
     complex_test: Optional[ComplexTest] = field(
         default=None,
-        metadata=dict(
-            name="complexTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "complexTest",
+            "type": "Element",
+            "required": True,
+        }
     )
     simple_test: List[List[float]] = field(
         default_factory=list,
-        metadata=dict(
-            name="simpleTest",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "simpleTest",
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )

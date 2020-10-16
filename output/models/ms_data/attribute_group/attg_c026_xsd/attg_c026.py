@@ -12,9 +12,9 @@ class Foo:
 
     currency: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -30,23 +30,23 @@ class TestElem(Foo):
 
     model: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     age: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att_fix: int = field(
         init=False,
         default=37,
-        metadata=dict(
-            name="attFix",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attFix",
+            "type": "Attribute",
+        }
     )
 
 
@@ -60,11 +60,11 @@ class DocElem:
 
     test: Optional[TestElem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 

@@ -13,8 +13,8 @@ class Root:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            fraction_digits=5
-        )
+        metadata={
+            "required": True,
+            "fraction_digits": 5,
+        }
     )

@@ -12,12 +12,12 @@ class FooType:
 
     foo: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            total_digits=4
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "total_digits": 4,
+        }
     )
 
 

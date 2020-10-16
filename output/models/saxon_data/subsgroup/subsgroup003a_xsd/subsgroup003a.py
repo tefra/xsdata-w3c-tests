@@ -11,9 +11,9 @@ class ActionType:
     """
     result: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -33,10 +33,9 @@ class Command:
 
     action: List[Action] = field(
         default_factory=list,
-        metadata=dict(
-            name="Action",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Action",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

@@ -23,75 +23,73 @@ class InlineType:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     phrase: Optional["Phrase"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     superscript: Optional["Superscript"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     subscript: Optional["Subscript"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     abbrev: Optional["Abbrev"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     emphasis: Optional["Emphasis"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     property: Optional["Property"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     base: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
 
@@ -106,10 +104,10 @@ class Xsdextra:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 
@@ -177,36 +175,36 @@ class Blockquote:
 
     title: Optional[Title] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     p: Optional["P"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     base: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
 
@@ -230,82 +228,80 @@ class ParaType:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     phrase: Optional[Phrase] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     superscript: Optional[Superscript] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     subscript: Optional[Subscript] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     abbrev: Optional[Abbrev] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     emphasis: Optional[Emphasis] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     property: Optional[Property] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     blockquote: Optional[Blockquote] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://example.org/ns/document"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://example.org/ns/document",
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     base: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
 
@@ -333,50 +329,46 @@ class Doc:
 
     title: Optional[Title] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     xsdextra: Optional[Xsdextra] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     p: List[P] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     blockquote: List[Blockquote] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
     base: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )

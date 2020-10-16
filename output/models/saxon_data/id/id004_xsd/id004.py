@@ -15,35 +15,31 @@ class Node:
 
     node: List["Node"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     id: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "tokens": True,
+        }
     )
     id_one: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="id-one",
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "name": "id-one",
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -57,9 +53,8 @@ class Doc:
 
     node: List[Node] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

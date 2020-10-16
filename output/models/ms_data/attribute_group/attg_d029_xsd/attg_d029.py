@@ -15,17 +15,17 @@ class AttRef:
 
     foo: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     target_namespace_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##targetNamespace"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##targetNamespace",
+        }
     )
 
 
@@ -40,7 +40,7 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

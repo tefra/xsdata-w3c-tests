@@ -14,11 +14,11 @@ class CInvalid:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -33,16 +33,16 @@ class Cs:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            min_length=1,
-            max_length=4
-        )
+        metadata={
+            "min_length": 1,
+            "max_length": 4,
+        }
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -57,11 +57,11 @@ class Fe1Valid:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_length=1,
-            max_length=4
-        )
+        metadata={
+            "required": True,
+            "min_length": 1,
+            "max_length": 4,
+        }
     )
 
 
@@ -76,10 +76,10 @@ class FeValid:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_length=4
-        )
+        metadata={
+            "required": True,
+            "max_length": 4,
+        }
     )
 
 
@@ -95,20 +95,20 @@ class Root:
 
     fe1_valid: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True,
-            min_length=1,
-            max_length=4
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+            "min_length": 1,
+            "max_length": 4,
+        }
     )
     fe_valid: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True,
-            max_length=4
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+            "max_length": 4,
+        }
     )
 
 
@@ -122,7 +122,7 @@ class Cc(Cs):
 
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

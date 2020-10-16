@@ -12,34 +12,32 @@ class PublicationType:
     """
     title: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Title",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Title",
+            "type": "Element",
+            "required": True,
+        }
     )
     author: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Author",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Author",
+            "type": "Element",
+        }
     )
     date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Date",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Date",
+            "type": "Element",
+            "required": True,
+        }
     )
     kind: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -50,12 +48,11 @@ class Example:
     """
     publication: List[Union[PublicationType, "Example.KindBook"]] = field(
         default_factory=list,
-        metadata=dict(
-            name="Publication",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Publication",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -66,17 +63,17 @@ class Example:
         """
         isbn: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="ISBN",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "ISBN",
+                "type": "Element",
+                "required": True,
+            }
         )
         publisher: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="Publisher",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "Publisher",
+                "type": "Element",
+                "required": True,
+            }
         )

@@ -12,9 +12,9 @@ class AppendixContent:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -28,9 +28,9 @@ class ChapContent:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -44,11 +44,11 @@ class Content:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -62,9 +62,9 @@ class Para:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -81,37 +81,29 @@ class Back:
 
     appendix_content: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="appendixContent",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "appendixContent",
+            "type": "Element",
+        }
     )
     para: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=18446744073709551614
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     chap_content: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="chapContent",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "chapContent",
+            "type": "Element",
+        }
     )
     content: List[Content] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -128,37 +120,29 @@ class Body:
 
     appendix_content: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="appendixContent",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "appendixContent",
+            "type": "Element",
+        }
     )
     para: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=18446744073709551614
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     chap_content: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="chapContent",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "chapContent",
+            "type": "Element",
+        }
     )
     content: List[Content] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -173,15 +157,15 @@ class Doc:
 
     body: Optional[Body] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     back: Optional[Back] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

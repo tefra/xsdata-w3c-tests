@@ -12,10 +12,10 @@ class FooTest:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"[A-E]{1,2}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[A-E]{1,2}",
+        }
     )
 
 
@@ -29,10 +29,10 @@ class Root:
 
     foo_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True,
-            pattern=r"[A-E]{1,2}"
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+            "pattern": r"[A-E]{1,2}",
+        }
     )

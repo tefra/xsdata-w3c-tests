@@ -15,9 +15,9 @@ class A123456:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,9 +32,9 @@ class A123456:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -50,16 +50,16 @@ class Root:
 
     a_1_2_3_4_5_6: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="a-1.2_3·4·5۝6۞",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "a-1.2_3·4·5۝6۞",
+            "type": "Element",
+            "required": True,
+        }
     )
     a123456: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

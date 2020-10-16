@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicLongWhiteSpace1:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="collapse"
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+        }
     )

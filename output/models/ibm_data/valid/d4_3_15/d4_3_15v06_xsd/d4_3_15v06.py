@@ -13,20 +13,18 @@ class BaseType:
 
     base_ely: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="baseEly",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "baseEly",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     base_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="baseAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "baseAttr",
+            "type": "Attribute",
+        }
     )
 
 
@@ -40,10 +38,10 @@ class DerivedType(BaseType):
 
     derived_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="derivedAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "derivedAttr",
+            "type": "Attribute",
+        }
     )
 
 

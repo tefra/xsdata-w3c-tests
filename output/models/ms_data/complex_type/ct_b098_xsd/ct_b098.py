@@ -13,17 +13,17 @@ class FooType:
 
     attr_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest",
+            "type": "Attribute",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 

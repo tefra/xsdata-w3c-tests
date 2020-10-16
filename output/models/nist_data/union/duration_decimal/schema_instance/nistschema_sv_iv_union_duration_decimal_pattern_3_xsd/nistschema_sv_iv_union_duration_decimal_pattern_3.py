@@ -15,8 +15,8 @@ class NistschemaSvIvUnionDurationDecimalPattern3:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\-\d{10}\.\d{3}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\-\d{10}\.\d{3}",
+        }
     )

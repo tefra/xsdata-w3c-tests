@@ -14,20 +14,18 @@ class Doc:
 
     a_ns_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://a.ns/",
-            mixed=True,
-            min_occurs=2,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://a.ns/",
+            "mixed": True,
+            "min_occurs": 2,
+            "max_occurs": 5,
+        }
     )
     b_ns_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://b.ns/",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://b.ns/",
+        }
     )

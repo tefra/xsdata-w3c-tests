@@ -35,7 +35,7 @@ class NistschemaSvIvListGMonthDayEnumeration5:
 
     value: Optional[NistschemaSvIvListGMonthDayEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

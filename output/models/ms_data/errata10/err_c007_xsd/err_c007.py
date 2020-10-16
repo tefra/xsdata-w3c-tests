@@ -16,21 +16,21 @@ class Root:
 
     local_element1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="localElement1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "localElement1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     local_element2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="localElement2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "localElement2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -45,7 +45,7 @@ class TestContent:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

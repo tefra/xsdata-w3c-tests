@@ -22,75 +22,59 @@ class Root:
 
     skip_any: List["Root.SkipAny"] = field(
         default_factory=list,
-        metadata=dict(
-            name="skipAny",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "skipAny",
+            "type": "Element",
+        }
     )
     lax_any: List["Root.LaxAny"] = field(
         default_factory=list,
-        metadata=dict(
-            name="laxAny",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "laxAny",
+            "type": "Element",
+        }
     )
     strict_any: List["Root.StrictAny"] = field(
         default_factory=list,
-        metadata=dict(
-            name="strictAny",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "strictAny",
+            "type": "Element",
+        }
     )
     skip_other: List["Root.SkipOther"] = field(
         default_factory=list,
-        metadata=dict(
-            name="skipOther",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "skipOther",
+            "type": "Element",
+        }
     )
     lax_local: List["Root.LaxLocal"] = field(
         default_factory=list,
-        metadata=dict(
-            name="laxLocal",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "laxLocal",
+            "type": "Element",
+        }
     )
     strict_local: List["Root.StrictLocal"] = field(
         default_factory=list,
-        metadata=dict(
-            name="strictLocal",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "strictLocal",
+            "type": "Element",
+        }
     )
     strict_target: List["Root.StrictTarget"] = field(
         default_factory=list,
-        metadata=dict(
-            name="strictTarget",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "strictTarget",
+            "type": "Element",
+        }
     )
     skip_bar: List["Root.SkipBar"] = field(
         default_factory=list,
-        metadata=dict(
-            name="skipBar",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "skipBar",
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -100,10 +84,10 @@ class Root:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
     @dataclass
@@ -113,10 +97,10 @@ class Root:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
     @dataclass
@@ -126,10 +110,10 @@ class Root:
         """
         any_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##any"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##any",
+            }
         )
 
     @dataclass
@@ -139,10 +123,10 @@ class Root:
         """
         other_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##other"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##other",
+            }
         )
 
     @dataclass
@@ -152,10 +136,10 @@ class Root:
         """
         local_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##local"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##local",
+            }
         )
 
     @dataclass
@@ -165,10 +149,10 @@ class Root:
         """
         local_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##local"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##local",
+            }
         )
 
     @dataclass
@@ -178,10 +162,10 @@ class Root:
         """
         target_namespace_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="##targetNamespace"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "##targetNamespace",
+            }
         )
 
     @dataclass
@@ -191,8 +175,8 @@ class Root:
         """
         bar_attributes: Dict = field(
             default_factory=dict,
-            metadata=dict(
-                type="Attributes",
-                namespace="bar"
-            )
+            metadata={
+                "type": "Attributes",
+                "namespace": "bar",
+            }
         )

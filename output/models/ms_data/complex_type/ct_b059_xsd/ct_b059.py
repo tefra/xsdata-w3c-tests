@@ -12,11 +12,11 @@ class FooType:
 
     my_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 

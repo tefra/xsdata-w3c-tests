@@ -58,299 +58,299 @@ class Root:
 
     aaaa: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     bbb_b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="bbbB",
-            type="Attribute"
-        )
+        metadata={
+            "name": "bbbB",
+            "type": "Attribute",
+        }
     )
     cc_cc: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ccCc",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ccCc",
+            "type": "Attribute",
+        }
     )
     dd_dd: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ddDD",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ddDD",
+            "type": "Attribute",
+        }
     )
     e_eee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="eEee",
-            type="Attribute"
-        )
+        metadata={
+            "name": "eEee",
+            "type": "Attribute",
+        }
     )
     f_ff_f: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="fFfF",
-            type="Attribute"
-        )
+        metadata={
+            "name": "fFfF",
+            "type": "Attribute",
+        }
     )
     p_ppp: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="pPPp",
-            type="Attribute"
-        )
+        metadata={
+            "name": "pPPp",
+            "type": "Attribute",
+        }
     )
     g_ggg: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="gGGG",
-            type="Attribute"
-        )
+        metadata={
+            "name": "gGGG",
+            "type": "Attribute",
+        }
     )
     hhhh: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Hhhh",
-            type="Attribute"
-        )
+        metadata={
+            "name": "Hhhh",
+            "type": "Attribute",
+        }
     )
     iii_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="IiiI",
-            type="Attribute"
-        )
+        metadata={
+            "name": "IiiI",
+            "type": "Attribute",
+        }
     )
     jj_jj: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="JjJj",
-            type="Attribute"
-        )
+        metadata={
+            "name": "JjJj",
+            "type": "Attribute",
+        }
     )
     kk_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="KkKK",
-            type="Attribute"
-        )
+        metadata={
+            "name": "KkKK",
+            "type": "Attribute",
+        }
     )
     llll: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LLll",
-            type="Attribute"
-        )
+        metadata={
+            "name": "LLll",
+            "type": "Attribute",
+        }
     )
     mmm_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MMmM",
-            type="Attribute"
-        )
+        metadata={
+            "name": "MMmM",
+            "type": "Attribute",
+        }
     )
     nnnn: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNNn",
-            type="Attribute"
-        )
+        metadata={
+            "name": "NNNn",
+            "type": "Attribute",
+        }
     )
     oooo: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="OOOO",
-            type="Attribute"
-        )
+        metadata={
+            "name": "OOOO",
+            "type": "Attribute",
+        }
     )
     bbb0: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     cc0c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     dd00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     e0ee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     f0f0: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     p00p: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     g000: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     bbb: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="bbb_",
-            type="Attribute"
-        )
+        metadata={
+            "name": "bbb_",
+            "type": "Attribute",
+        }
     )
     cc_c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     dd: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="dd__",
-            type="Attribute"
-        )
+        metadata={
+            "name": "dd__",
+            "type": "Attribute",
+        }
     )
     e_ee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     f_f: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="f_f_",
-            type="Attribute"
-        )
+        metadata={
+            "name": "f_f_",
+            "type": "Attribute",
+        }
     )
     p_p: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="p__p",
-            type="Attribute"
-        )
+        metadata={
+            "name": "p__p",
+            "type": "Attribute",
+        }
     )
     g: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="g___",
-            type="Attribute"
-        )
+        metadata={
+            "name": "g___",
+            "type": "Attribute",
+        }
     )
     h111: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="H111",
-            type="Attribute"
-        )
+        metadata={
+            "name": "H111",
+            "type": "Attribute",
+        }
     )
     i11_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="I11I",
-            type="Attribute"
-        )
+        metadata={
+            "name": "I11I",
+            "type": "Attribute",
+        }
     )
     j1_j1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="J1J1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "J1J1",
+            "type": "Attribute",
+        }
     )
     k1_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="K1KK",
-            type="Attribute"
-        )
+        metadata={
+            "name": "K1KK",
+            "type": "Attribute",
+        }
     )
     ll11: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LL11",
-            type="Attribute"
-        )
+        metadata={
+            "name": "LL11",
+            "type": "Attribute",
+        }
     )
     mm1_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MM1M",
-            type="Attribute"
-        )
+        metadata={
+            "name": "MM1M",
+            "type": "Attribute",
+        }
     )
     nnn1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNN1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "NNN1",
+            "type": "Attribute",
+        }
     )
     h: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="H---",
-            type="Attribute"
-        )
+        metadata={
+            "name": "H---",
+            "type": "Attribute",
+        }
     )
     i_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="I--I",
-            type="Attribute"
-        )
+        metadata={
+            "name": "I--I",
+            "type": "Attribute",
+        }
     )
     j_j: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="J-J-",
-            type="Attribute"
-        )
+        metadata={
+            "name": "J-J-",
+            "type": "Attribute",
+        }
     )
     k_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="K-KK",
-            type="Attribute"
-        )
+        metadata={
+            "name": "K-KK",
+            "type": "Attribute",
+        }
     )
     ll: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LL--",
-            type="Attribute"
-        )
+        metadata={
+            "name": "LL--",
+            "type": "Attribute",
+        }
     )
     mm_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MM-M",
-            type="Attribute"
-        )
+        metadata={
+            "name": "MM-M",
+            "type": "Attribute",
+        }
     )
     nnn: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNN-",
-            type="Attribute"
-        )
+        metadata={
+            "name": "NNN-",
+            "type": "Attribute",
+        }
     )

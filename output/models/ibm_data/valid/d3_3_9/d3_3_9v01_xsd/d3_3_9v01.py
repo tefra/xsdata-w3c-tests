@@ -18,45 +18,37 @@ class Root:
 
     el_time1: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elTime1",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_inclusive="08:00:00+10:00"
-        )
+        metadata={
+            "name": "elTime1",
+            "type": "Element",
+            "namespace": "",
+            "min_inclusive": "08:00:00+10:00",
+        }
     )
     el_time2: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elTime2",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_inclusive="00:00:00+01:00"
-        )
+        metadata={
+            "name": "elTime2",
+            "type": "Element",
+            "namespace": "",
+            "min_inclusive": "00:00:00+01:00",
+        }
     )
     el_time3: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elTime3",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_inclusive="10:00:00+13:00"
-        )
+        metadata={
+            "name": "elTime3",
+            "type": "Element",
+            "namespace": "",
+            "min_inclusive": "10:00:00+13:00",
+        }
     )
     el_time4: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elTime4",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_inclusive="03:00:00+04:00"
-        )
+        metadata={
+            "name": "elTime4",
+            "type": "Element",
+            "namespace": "",
+            "min_inclusive": "03:00:00+04:00",
+        }
     )

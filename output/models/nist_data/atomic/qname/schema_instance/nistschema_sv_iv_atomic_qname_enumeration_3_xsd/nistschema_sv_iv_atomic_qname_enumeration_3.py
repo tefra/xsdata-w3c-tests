@@ -38,9 +38,9 @@ class TypeLanguagesAndTransformingTechnologiesIsImpa:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -55,9 +55,9 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -72,9 +72,9 @@ class TonAndItsT:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -89,9 +89,9 @@ class XstandardFileUseEa:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -106,9 +106,9 @@ class YinvolvedEEffor:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -123,7 +123,7 @@ class NistschemaSvIvAtomicQnameEnumeration3:
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -15,19 +15,19 @@ class Type1:
 
     element1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.schemaTest.org/schema11_S3_2_3",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
+            "required": True,
+        }
     )
     element2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 

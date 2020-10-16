@@ -14,12 +14,11 @@ class DocType:
 
     chap: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://simple016.ly/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://simple016.ly/",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -41,9 +40,8 @@ class Book:
 
     doc: List[Doc] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

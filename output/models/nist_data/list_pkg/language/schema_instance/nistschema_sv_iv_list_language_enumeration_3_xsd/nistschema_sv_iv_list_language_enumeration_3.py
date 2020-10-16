@@ -41,7 +41,7 @@ class NistschemaSvIvListLanguageEnumeration3:
 
     value: Optional[NistschemaSvIvListLanguageEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

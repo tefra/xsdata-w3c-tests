@@ -13,10 +13,10 @@ class FooTest:
 
     value: List[Union[int, "FooTest.Value"]] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
     class Value(Enum):
@@ -38,12 +38,12 @@ class Root:
 
     foo_test: List[Union[int, "Root.Value"]] = field(
         default_factory=list,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+            "tokens": True,
+        }
     )
 
     class Value(Enum):

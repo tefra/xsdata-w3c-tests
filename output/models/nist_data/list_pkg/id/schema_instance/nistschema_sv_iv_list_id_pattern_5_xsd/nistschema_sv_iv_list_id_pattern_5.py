@@ -15,11 +15,11 @@ class NistschemaSvIvListIdPattern5:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"[\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{51} [\i-[:]][\c-[:]]{49} [\i-[:]][\c-[:]]{43} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{11} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{15}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[\i-[:]][\c-[:]]{59} [\i-[:]][\c-[:]]{51} [\i-[:]][\c-[:]]{49} [\i-[:]][\c-[:]]{43} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{11} [\i-[:]][\c-[:]]{28} [\i-[:]][\c-[:]]{15}",
+            "tokens": True,
+        }
     )
 
 
@@ -34,9 +34,9 @@ class Out:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

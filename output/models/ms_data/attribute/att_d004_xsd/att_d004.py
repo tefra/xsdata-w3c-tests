@@ -28,10 +28,10 @@ class AttRef:
 
     att1: List[ListType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
 
 
@@ -45,8 +45,8 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

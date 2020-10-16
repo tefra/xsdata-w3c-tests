@@ -9,12 +9,10 @@ class B:
     """
     open_com_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+        }
     )
 
 
@@ -25,11 +23,11 @@ class R:
     """
     open_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://open.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://open.com/",
+            "required": True,
+        }
     )
 
 

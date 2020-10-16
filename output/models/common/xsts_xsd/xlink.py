@@ -67,66 +67,64 @@ class ArcType:
 
     title: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.ARC,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     arcrole: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     title_attribute: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "name": "title",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     show: Optional[ShowType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     actuate: Optional[ActuateType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     from_value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="from",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "name": "from",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     to: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
 
 
@@ -146,52 +144,50 @@ class LocatorType:
 
     title: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.LOCATOR,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     href: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     title_attribute: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "name": "title",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     label: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
 
 
@@ -209,44 +205,42 @@ class ResourceType:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.RESOURCE,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     title: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     label: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
 
 
@@ -269,65 +263,63 @@ class Simple:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.SIMPLE,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     href: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     arcrole: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     title: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     show: Optional[ShowType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     actuate: Optional[ActuateType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
 
 
@@ -345,29 +337,27 @@ class TitleEltType:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.TITLE,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     lang: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
 
@@ -419,62 +409,54 @@ class Extended:
 
     title: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     resource: List[Resource] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     locator: List[Locator] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     arc: List[Arc] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/1999/xlink",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )
     type: TypeType = field(
         init=False,
         default=TypeType.EXTENDED,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
     )
     role: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink",
-            min_length=1
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
     )
     title_attribute: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="title",
-            type="Attribute",
-            namespace="http://www.w3.org/1999/xlink"
-        )
+        metadata={
+            "name": "title",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
     )

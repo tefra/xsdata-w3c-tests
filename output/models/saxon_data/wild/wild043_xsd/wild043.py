@@ -12,9 +12,9 @@ class Computer:
 
     local_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local",
+            "required": True,
+        }
     )

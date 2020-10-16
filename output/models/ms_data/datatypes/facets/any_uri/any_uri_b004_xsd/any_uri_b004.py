@@ -116,9 +116,9 @@ class Bar:
 
     value: Optional[St] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -132,9 +132,9 @@ class Root:
 
     bar: List[St] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 100,
+        }
     )

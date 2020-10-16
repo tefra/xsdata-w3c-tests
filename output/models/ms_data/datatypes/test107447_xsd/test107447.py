@@ -20,66 +20,66 @@ class Root:
 
     token: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     language: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     ncname: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     idref: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     idrefs: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+            "tokens": True,
+        }
     )
     nmtoken: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     nmtokens: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+            "tokens": True,
+        }
     )

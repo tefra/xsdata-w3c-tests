@@ -13,17 +13,17 @@ class ExtendedZing:
 
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
     local_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local",
+        }
     )
 
 

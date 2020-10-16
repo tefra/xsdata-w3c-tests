@@ -15,10 +15,10 @@ class Root:
 
     e1: Optional["Root.E1"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
     @dataclass

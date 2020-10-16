@@ -13,16 +13,16 @@ class Doc:
 
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_length=6
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_length": 6,
+        }
     )
     att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            min_length=6
-        )
+        metadata={
+            "type": "Attribute",
+            "min_length": 6,
+        }
     )

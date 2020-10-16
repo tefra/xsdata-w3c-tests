@@ -14,11 +14,11 @@ class Root:
 
     element: float = field(
         default=0.0,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            namespace="",
-            required=True,
-            max_inclusive=0.0
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "max_inclusive": 0.0,
+        }
     )

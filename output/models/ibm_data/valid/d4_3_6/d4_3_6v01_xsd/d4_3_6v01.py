@@ -23,10 +23,10 @@ class Root:
 
     el_white_space: Optional[DurWhiteSpace] = field(
         default=None,
-        metadata=dict(
-            name="elWhiteSpace",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "elWhiteSpace",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

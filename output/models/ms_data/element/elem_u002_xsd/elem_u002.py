@@ -12,11 +12,11 @@ class Root:
 
     r: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=10,
-            pattern=r"Chapter\s{1,2}\d"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 10,
+            "pattern": r"Chapter\s{1,2}\d",
+        }
     )

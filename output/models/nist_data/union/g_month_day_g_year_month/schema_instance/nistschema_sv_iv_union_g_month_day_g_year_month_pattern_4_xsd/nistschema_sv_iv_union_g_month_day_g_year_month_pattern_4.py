@@ -15,8 +15,8 @@ class NistschemaSvIvUnionGMonthDayGYearMonthPattern4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"18\d\d-\d0"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"18\d\d-\d0",
+        }
     )

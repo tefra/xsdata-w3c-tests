@@ -33,7 +33,7 @@ class NistschemaSvIvUnionDurationDecimalEnumeration3:
 
     value: Optional[NistschemaSvIvUnionDurationDecimalEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

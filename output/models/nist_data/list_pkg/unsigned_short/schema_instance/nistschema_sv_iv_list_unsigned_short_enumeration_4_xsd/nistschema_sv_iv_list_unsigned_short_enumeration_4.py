@@ -35,7 +35,7 @@ class NistschemaSvIvListUnsignedShortEnumeration4:
 
     value: Optional[NistschemaSvIvListUnsignedShortEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -13,23 +13,23 @@ class Ct:
 
     e1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            min_exclusive=2,
-            min_inclusive=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_exclusive": 2,
+            "min_inclusive": 2,
+        }
     )
     e2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            min_exclusive=2,
-            min_inclusive=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_exclusive": 2,
+            "min_inclusive": 3,
+        }
     )
 
 

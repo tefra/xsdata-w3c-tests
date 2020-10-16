@@ -12,33 +12,33 @@ class A:
     """
     x1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     x2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     y1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     y2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -55,41 +55,37 @@ class Elem:
 
     x1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+            "sequential": True,
+        }
     )
     x2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+            "sequential": True,
+        }
     )
     y1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+        }
     )
     y2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+        }
     )
 
 
@@ -103,8 +99,8 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

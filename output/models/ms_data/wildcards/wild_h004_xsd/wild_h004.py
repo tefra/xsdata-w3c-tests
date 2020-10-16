@@ -15,9 +15,9 @@ class Foo:
 
     target_namespace_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+            "required": True,
+        }
     )

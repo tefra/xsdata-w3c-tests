@@ -14,12 +14,11 @@ class DocType:
 
     chap: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://simple010.ly/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://simple010.ly/",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -33,12 +32,11 @@ class SubDocType:
 
     chap: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://simple010.ly/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://simple010.ly/",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -68,19 +66,17 @@ class Book:
 
     subdoc: List[Subdoc] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )
     doc: List[Doc] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )

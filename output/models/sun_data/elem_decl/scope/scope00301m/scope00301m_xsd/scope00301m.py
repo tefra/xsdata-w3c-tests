@@ -16,19 +16,19 @@ class Root:
 
     local_element1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="LocalElement1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "LocalElement1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     local_element2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="LocalElement2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "LocalElement2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

@@ -31,7 +31,7 @@ class NistschemaSvIvAtomicFloatEnumeration3:
 
     value: Optional[NistschemaSvIvAtomicFloatEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

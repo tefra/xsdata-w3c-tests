@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGYearMinExclusive2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive="2008"
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": "2008",
+        }
     )

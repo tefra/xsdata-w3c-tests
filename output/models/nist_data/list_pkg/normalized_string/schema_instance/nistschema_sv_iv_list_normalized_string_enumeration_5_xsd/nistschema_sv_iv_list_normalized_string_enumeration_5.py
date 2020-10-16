@@ -41,7 +41,7 @@ class NistschemaSvIvListNormalizedStringEnumeration5:
 
     value: Optional[NistschemaSvIvListNormalizedStringEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicDecimalFractionDigits1:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            fraction_digits=0
-        )
+        metadata={
+            "required": True,
+            "fraction_digits": 0,
+        }
     )

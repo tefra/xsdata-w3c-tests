@@ -11,29 +11,27 @@ class B:
     """
     e: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 5,
+        }
     )
     f: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 5,
+        }
     )
     type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/2001/XMLSchema-instance",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+            "required": True,
+        }
     )
 
 
@@ -46,25 +44,25 @@ class R:
     """
     e: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     f: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/2001/XMLSchema-instance",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+            "required": True,
+        }
     )
 
 

@@ -16,10 +16,10 @@ class Nillable1:
 
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -35,10 +35,10 @@ class Nillable2:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            min_length=2,
-            tokens=True
-        )
+        metadata={
+            "min_length": 2,
+            "tokens": True,
+        }
     )
 
 
@@ -53,10 +53,10 @@ class NonNillable:
 
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -73,29 +73,23 @@ class Root:
 
     non_nillable: List[NonNillable] = field(
         default_factory=list,
-        metadata=dict(
-            name="non-nillable",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "non-nillable",
+            "type": "Element",
+        }
     )
     nillable1: List[Nillable1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     nillable2: List[List[int]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            min_length=2,
-            nillable=True,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_length": 2,
+            "nillable": True,
+            "tokens": True,
+        }
     )

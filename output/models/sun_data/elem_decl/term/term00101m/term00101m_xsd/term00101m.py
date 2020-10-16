@@ -14,9 +14,9 @@ class Local:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -31,9 +31,9 @@ class Root:
 
     local: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "required": True,
+        }
     )

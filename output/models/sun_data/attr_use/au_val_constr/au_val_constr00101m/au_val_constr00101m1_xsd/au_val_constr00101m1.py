@@ -16,10 +16,10 @@ class ElementWithAttr:
     number: int = field(
         init=False,
         default=12,
-        metadata=dict(
-            type="Attribute",
-            namespace="AttrUse/valConstr"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "AttrUse/valConstr",
+        }
     )
 
 
@@ -34,9 +34,9 @@ class Root:
 
     element_with_attr: Optional[ElementWithAttr] = field(
         default=None,
-        metadata=dict(
-            name="elementWithAttr",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "elementWithAttr",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -16,9 +16,9 @@ class NistschemaSvIvListQnameWhiteSpace1:
 
     value: List[QName] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            white_space="collapse",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+            "tokens": True,
+        }
     )

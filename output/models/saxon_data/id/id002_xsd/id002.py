@@ -17,17 +17,17 @@ class Para:
     )
     id_one: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="id-one",
-            type="Attribute"
-        )
+        metadata={
+            "name": "id-one",
+            "type": "Attribute",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -41,9 +41,8 @@ class Doc:
 
     para: List[Para] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

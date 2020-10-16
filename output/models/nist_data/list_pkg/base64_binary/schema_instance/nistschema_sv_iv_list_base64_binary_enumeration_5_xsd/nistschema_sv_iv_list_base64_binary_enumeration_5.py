@@ -35,7 +35,7 @@ class NistschemaSvIvListBase64BinaryEnumeration5:
 
     value: Optional[NistschemaSvIvListBase64BinaryEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

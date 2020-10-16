@@ -15,9 +15,9 @@ class NistschemaSvIvListGYearMonthPattern1:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d 18\d\d-\d5 19\d\d-1\d \d\d68-0\d",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"18\d\d-0\d \d\d92-\d2 \d\d99-0\d \d\d49-\d4 19\d\d-\d1 \d\d74-0\d 18\d\d-\d5 19\d\d-1\d \d\d68-0\d",
+            "tokens": True,
+        }
     )

@@ -16,10 +16,10 @@ class Foo:
 
     attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="あ"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "あ",
+        }
     )
 
 
@@ -45,7 +45,7 @@ class Bar:
 
     value: Optional[St] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

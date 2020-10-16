@@ -12,13 +12,11 @@ class ElementType1:
 
     sub_element1: List["RootType"] = field(
         default_factory=list,
-        metadata=dict(
-            name="subElement1",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "subElement1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -32,13 +30,11 @@ class ElementType2:
 
     sub_element2: List["RootType"] = field(
         default_factory=list,
-        metadata=dict(
-            name="subElement2",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "subElement2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -53,21 +49,17 @@ class RootType:
 
     ele1: List[ElementType1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     ele2: List[ElementType2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 

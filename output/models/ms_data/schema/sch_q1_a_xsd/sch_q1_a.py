@@ -17,31 +17,31 @@ class BCt:
 
     b1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
     b2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
     b3: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
     b4: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+        }
     )
 
 
@@ -56,12 +56,10 @@ class Root:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 

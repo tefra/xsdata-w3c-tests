@@ -16,9 +16,9 @@ class Para:
     )
     entity: Union[str, int] = field(
         default="entity1",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -32,9 +32,8 @@ class Doc:
 
     para: List[Para] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

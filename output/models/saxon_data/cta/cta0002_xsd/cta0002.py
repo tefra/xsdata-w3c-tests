@@ -17,19 +17,17 @@ class T:
 
     e: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://cta0002/",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://cta0002/",
+        }
     )
     min: Optional["T.Min"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://cta0002/"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://cta0002/",
+        }
     )
 
     class Min(Enum):
@@ -52,19 +50,18 @@ class Treq:
 
     e: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://cta0002/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://cta0002/",
+            "min_occurs": 1,
+        }
     )
     min: Optional["Treq.Min"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://cta0002/"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://cta0002/",
+        }
     )
 
     class Min(Enum):
@@ -94,9 +91,8 @@ class Messages:
 
     message: List[Message] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

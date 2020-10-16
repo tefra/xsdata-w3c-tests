@@ -14,12 +14,11 @@ class BookStore:
 
     book: List["BookStore.Book"] = field(
         default_factory=list,
-        metadata=dict(
-            name="Book",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Book",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -34,48 +33,48 @@ class BookStore:
         """
         id: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )
         title: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="Title",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "Title",
+                "type": "Element",
+                "required": True,
+            }
         )
         author: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="Author",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "Author",
+                "type": "Element",
+                "required": True,
+            }
         )
         date: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="Date",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "Date",
+                "type": "Element",
+                "required": True,
+            }
         )
         isbn: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="ISBN",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "ISBN",
+                "type": "Element",
+                "required": True,
+            }
         )
         publisher: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="Publisher",
-                type="Element",
-                required=True
-            )
+            metadata={
+                "name": "Publisher",
+                "type": "Element",
+                "required": True,
+            }
         )

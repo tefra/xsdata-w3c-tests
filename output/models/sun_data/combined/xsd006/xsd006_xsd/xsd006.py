@@ -15,9 +15,9 @@ class Item0To1:
 
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -32,11 +32,10 @@ class Item0To2:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 2,
+        }
     )
 
 
@@ -51,11 +50,9 @@ class Item0ToX:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -70,11 +67,11 @@ class Item1To2:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -89,11 +86,10 @@ class Item1ToX:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -108,11 +104,11 @@ class Item2To2:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -127,11 +123,10 @@ class Item2ToX:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+        }
     )
 
 
@@ -146,11 +141,11 @@ class Item3To7:
 
     x: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=3,
-            max_occurs=7
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 3,
+            "max_occurs": 7,
+        }
     )
 
 
@@ -172,68 +167,52 @@ class Root:
 
     item0to1: List[Item0To1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     item0to2: List[Item0To2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     item0to_x: List[Item0ToX] = field(
         default_factory=list,
-        metadata=dict(
-            name="item0toX",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "item0toX",
+            "type": "Element",
+        }
     )
     item1to2: List[Item1To2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     item1to_x: List[Item1ToX] = field(
         default_factory=list,
-        metadata=dict(
-            name="item1toX",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "item1toX",
+            "type": "Element",
+        }
     )
     item2to2: List[Item2To2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     item2to_x: List[Item2ToX] = field(
         default_factory=list,
-        metadata=dict(
-            name="item2toX",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "item2toX",
+            "type": "Element",
+        }
     )
     item3to7: List[Item3To7] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )

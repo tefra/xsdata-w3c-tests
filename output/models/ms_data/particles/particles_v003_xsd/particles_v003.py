@@ -12,21 +12,21 @@ class B:
     """
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=3,
-            max_occurs=9
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 3,
+            "max_occurs": 9,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=3,
-            max_occurs=9
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 3,
+            "max_occurs": 9,
+        }
     )
 
 
@@ -38,23 +38,23 @@ class R:
     """
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=2,
-            max_occurs=4,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 2,
+            "max_occurs": 4,
+            "sequential": True,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=2,
-            max_occurs=4,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 2,
+            "max_occurs": 4,
+            "sequential": True,
+        }
     )
 
 
@@ -69,8 +69,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

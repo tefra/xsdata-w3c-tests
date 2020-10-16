@@ -16,40 +16,40 @@ class FooType:
 
     my_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myElement",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     attr_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest",
+            "type": "Attribute",
+        }
     )
     attr_test2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest2",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest2",
+            "type": "Attribute",
+        }
     )
     attr_test3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest3",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest3",
+            "type": "Attribute",
+        }
     )
     attr_test4: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest4",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest4",
+            "type": "Attribute",
+        }
     )
 
 

@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicTokenMinLength4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_length=202
-        )
+        metadata={
+            "required": True,
+            "min_length": 202,
+        }
     )

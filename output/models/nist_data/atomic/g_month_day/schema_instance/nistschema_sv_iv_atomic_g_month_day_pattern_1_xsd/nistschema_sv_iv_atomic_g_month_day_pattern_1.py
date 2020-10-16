@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGMonthDayPattern1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"--\d2-1\d"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"--\d2-1\d",
+        }
     )

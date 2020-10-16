@@ -11,12 +11,11 @@ class A:
     """
     part: List["A.Part"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -31,15 +30,15 @@ class A:
         )
         number: Optional[int] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
         number2: Optional[int] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
 
 
@@ -54,9 +53,9 @@ class Root:
 
     a: Optional[A] = field(
         default=None,
-        metadata=dict(
-            name="A",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "A",
+            "type": "Element",
+            "required": True,
+        }
     )

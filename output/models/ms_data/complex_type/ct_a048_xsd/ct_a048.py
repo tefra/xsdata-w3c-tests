@@ -16,10 +16,10 @@ class Type1:
     )
     attr_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest",
+            "type": "Attribute",
+        }
     )
 
 

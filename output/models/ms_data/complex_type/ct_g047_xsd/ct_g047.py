@@ -16,42 +16,42 @@ class FooType:
 
     my_element1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myElement1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_element2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_element3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -68,34 +68,34 @@ class MyType:
 
     my_element1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement1",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_element2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     my_element3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 

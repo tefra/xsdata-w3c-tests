@@ -24,38 +24,36 @@ class SchemaType:
     """
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="ID",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml",
-            required=True
-        )
+        metadata={
+            "name": "ID",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+            "required": True,
+        }
     )
     namespace: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Namespace",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml",
-            required=True
-        )
+        metadata={
+            "name": "Namespace",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+            "required": True,
+        }
     )
     schema_ref: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="SchemaRef",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml"
-        )
+        metadata={
+            "name": "SchemaRef",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+        }
     )
 
 
@@ -78,37 +76,36 @@ class MapInfoType:
     """
     schema: List[SchemaType] = field(
         default_factory=list,
-        metadata=dict(
-            name="Schema",
-            type="Element",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Schema",
+            "type": "Element",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+            "min_occurs": 1,
+        }
     )
     hide_inactive_list_border: MapInfoTypeHideInactiveListBorder = field(
         default=MapInfoTypeHideInactiveListBorder.FALSE_VALUE,
-        metadata=dict(
-            name="HideInactiveListBorder",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml"
-        )
+        metadata={
+            "name": "HideInactiveListBorder",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+        }
     )
     selection_namespaces: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="SelectionNamespaces",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml"
-        )
+        metadata={
+            "name": "SelectionNamespaces",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+        }
     )
     hide_single_mapped_cell_border: TruefalseType = field(
         default=TruefalseType.TRUE_VALUE,
-        metadata=dict(
-            name="HideSingleMappedCellBorder",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/office/excel/2003/xml"
-        )
+        metadata={
+            "name": "HideSingleMappedCellBorder",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
+        }
     )
 
 

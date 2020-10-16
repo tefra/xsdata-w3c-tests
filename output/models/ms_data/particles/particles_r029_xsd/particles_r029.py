@@ -13,19 +13,19 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "required": True,
+        }
     )
 
 
@@ -38,27 +38,27 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_bar_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+            "required": True,
+        }
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="foo"
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
 
 
@@ -73,8 +73,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

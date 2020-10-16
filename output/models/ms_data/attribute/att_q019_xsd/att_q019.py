@@ -17,33 +17,33 @@ class AttRef:
 
     aga1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     aga2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     imported_xsd_aga1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="aga1",
-            type="Attribute",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "aga1",
+            "type": "Attribute",
+            "namespace": "http://importedXSD",
+        }
     )
     imported_xsd_aga2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="aga2",
-            type="Attribute",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "aga2",
+            "type": "Attribute",
+            "namespace": "http://importedXSD",
+        }
     )
 
 
@@ -58,7 +58,7 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

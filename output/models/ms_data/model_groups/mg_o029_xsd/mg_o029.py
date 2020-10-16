@@ -12,10 +12,10 @@ class Bar:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -29,10 +29,10 @@ class Foo:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 

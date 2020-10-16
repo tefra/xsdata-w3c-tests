@@ -37,7 +37,7 @@ class NistschemaSvIvUnionAnyUriFloatEnumeration4:
 
     value: Optional[NistschemaSvIvUnionAnyUriFloatEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

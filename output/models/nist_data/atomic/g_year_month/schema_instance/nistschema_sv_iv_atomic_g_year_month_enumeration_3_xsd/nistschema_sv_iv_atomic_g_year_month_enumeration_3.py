@@ -31,7 +31,7 @@ class NistschemaSvIvAtomicGYearMonthEnumeration3:
 
     value: Optional[NistschemaSvIvAtomicGYearMonthEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

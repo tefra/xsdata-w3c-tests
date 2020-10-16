@@ -9,10 +9,10 @@ class B:
     """
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -23,10 +23,10 @@ class E(B):
     """
     abel_com_adam_com_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://abel.com/ http://adam.com/"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://abel.com/ http://adam.com/",
+        }
     )
 
 

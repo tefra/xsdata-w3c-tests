@@ -13,18 +13,18 @@ class MyType:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -39,19 +39,19 @@ class FooType(MyType):
 
     my_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "myElement",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     my_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr",
+            "type": "Attribute",
+        }
     )
 
 

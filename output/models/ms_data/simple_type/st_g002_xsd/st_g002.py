@@ -12,11 +12,11 @@ class FooTest:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            max_length=3,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "max_length": 3,
+            "tokens": True,
+        }
     )
 
 
@@ -30,11 +30,11 @@ class Root:
 
     foo_test: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True,
-            max_length=3,
-            tokens=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+            "max_length": 3,
+            "tokens": True,
+        }
     )

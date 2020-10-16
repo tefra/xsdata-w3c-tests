@@ -15,15 +15,15 @@ class AttRef:
 
     ca1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     ca2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -38,7 +38,7 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

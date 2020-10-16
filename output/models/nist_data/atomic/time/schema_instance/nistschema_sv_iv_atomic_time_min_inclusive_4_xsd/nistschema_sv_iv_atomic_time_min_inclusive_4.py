@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicTimeMinInclusive4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive="19:31:35"
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": "19:31:35",
+        }
     )

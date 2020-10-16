@@ -34,9 +34,9 @@ class TypeForBeProvideRelat:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -51,9 +51,9 @@ class TypeThoseToBusinessAndIssuesDataFor:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -68,9 +68,9 @@ class RinfluenceCreateInformationReviewedAsRe:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -85,9 +85,9 @@ class WspecificationsEmergingThatAndIs:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -102,7 +102,7 @@ class NistschemaSvIvAtomicQnameEnumeration1:
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration1Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

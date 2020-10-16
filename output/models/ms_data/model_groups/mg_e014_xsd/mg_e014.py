@@ -12,10 +12,10 @@ class PersonName:
 
     title: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -29,10 +29,10 @@ class SimpleName:
 
     title: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 

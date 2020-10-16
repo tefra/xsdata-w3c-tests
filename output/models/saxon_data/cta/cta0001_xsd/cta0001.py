@@ -15,26 +15,24 @@ class MessageType:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     kind: Optional["MessageType.Value"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
     class Value(Enum):
@@ -68,24 +66,24 @@ class MessageTypeXml:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
     kind: Optional["MessageTypeXml.Value"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
     class Value(Enum):
@@ -123,9 +121,8 @@ class Messages:
 
     message: List[Message] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

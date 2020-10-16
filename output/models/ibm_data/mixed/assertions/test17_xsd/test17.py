@@ -12,31 +12,31 @@ class X:
     """
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -50,31 +50,31 @@ class Y:
     """
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -89,17 +89,17 @@ class Test:
 
     x: Optional[X] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     y: Optional[Y] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

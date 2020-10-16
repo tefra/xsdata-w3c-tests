@@ -15,11 +15,11 @@ class Ct:
 
     a: Optional[A] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="main",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "main",
+            "required": True,
+        }
     )
 
 

@@ -12,7 +12,7 @@ class Root:
 
     value: List[Union[bool, int, str]] = field(
         default_factory=list,
-        metadata=dict(
-            tokens=True
-        )
+        metadata={
+            "tokens": True,
+        }
     )

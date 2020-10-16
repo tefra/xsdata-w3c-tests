@@ -19,28 +19,28 @@ class ElementWithAttr:
 
     good: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     number: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     height: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -55,9 +55,9 @@ class Root:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

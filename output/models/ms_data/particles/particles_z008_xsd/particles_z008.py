@@ -12,21 +12,21 @@ class ContainHead2Type:
     """
     member2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Member2",
-            type="Element",
-            namespace="urn:my-namespace",
-            required=True
-        )
+        metadata={
+            "name": "Member2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
+            "required": True,
+        }
     )
     head2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Head2",
-            type="Element",
-            namespace="urn:my-namespace",
-            required=True
-        )
+        metadata={
+            "name": "Head2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
+            "required": True,
+        }
     )
 
 
@@ -38,21 +38,21 @@ class ContainMember2Type:
     """
     member2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Member2",
-            type="Element",
-            namespace="urn:my-namespace",
-            required=True
-        )
+        metadata={
+            "name": "Member2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
+            "required": True,
+        }
     )
     head2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Head2",
-            type="Element",
-            namespace="urn:my-namespace",
-            required=True
-        )
+        metadata={
+            "name": "Head2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
+            "required": True,
+        }
     )
 
 
@@ -66,9 +66,9 @@ class Head2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -82,9 +82,9 @@ class Member2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

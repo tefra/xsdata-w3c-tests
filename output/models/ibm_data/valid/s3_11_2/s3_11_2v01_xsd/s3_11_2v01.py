@@ -15,10 +15,9 @@ class Root:
 
     number: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="Number",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Number",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

@@ -23,9 +23,9 @@ class A:
 
     value: Optional[St] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -40,8 +40,8 @@ class Doc:
 
     a: Optional[St] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

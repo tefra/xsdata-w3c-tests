@@ -16,20 +16,20 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -43,36 +43,36 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
     imp_elem2: Optional[ImpElem2] = field(
         default=None,
-        metadata=dict(
-            name="impElem2",
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "impElem2",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
 
 
@@ -87,8 +87,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

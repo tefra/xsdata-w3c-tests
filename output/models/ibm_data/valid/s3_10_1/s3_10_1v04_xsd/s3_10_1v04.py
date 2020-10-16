@@ -15,18 +15,18 @@ class T:
 
     z: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -41,9 +41,9 @@ class Z:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

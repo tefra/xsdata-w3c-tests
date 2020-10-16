@@ -14,23 +14,23 @@ class RootType:
 
     ele: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     min: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     max: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

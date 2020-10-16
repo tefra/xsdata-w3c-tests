@@ -27,9 +27,9 @@ class Doc:
 
     elem: Optional["Doc.Elem"] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -40,8 +40,8 @@ class Doc:
         att: MySimpleType = field(
             init=False,
             default=MySimpleType.VALUE_1,
-            metadata=dict(
-                type="Attribute",
-                namespace="http://xsdtesting"
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "http://xsdtesting",
+            }
         )

@@ -14,24 +14,24 @@ class Elt1:
 
     elt2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     elt3: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     elt4: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -45,9 +45,7 @@ class Root:
 
     elt1: List[Elt1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )

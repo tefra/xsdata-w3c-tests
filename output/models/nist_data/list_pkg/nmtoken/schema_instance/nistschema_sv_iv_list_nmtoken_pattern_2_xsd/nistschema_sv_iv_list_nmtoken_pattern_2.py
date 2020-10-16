@@ -15,9 +15,9 @@ class NistschemaSvIvListNmtokenPattern2:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\c{20} \c{60} \c{47} \c{22} \c{42} \c{14}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\c{20} \c{60} \c{47} \c{22} \c{42} \c{14}",
+            "tokens": True,
+        }
     )

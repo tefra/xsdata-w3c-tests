@@ -15,9 +15,9 @@ class Test:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"1|2",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"1|2",
+            "tokens": True,
+        }
     )

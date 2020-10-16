@@ -12,11 +12,11 @@ class C2:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -30,11 +30,11 @@ class D2:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -48,11 +48,11 @@ class C1:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -66,11 +66,11 @@ class D1:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -89,49 +89,46 @@ class Doc:
 
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 5,
+        }
     )
     c_element: List[C2] = field(
         default_factory=list,
-        metadata=dict(
-            name="C",
-            type="Element",
-            min_occurs=2,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "C",
+            "type": "Element",
+            "min_occurs": 2,
+        }
     )
     c: List[C1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+        }
     )
     d_element: Optional[D2] = field(
         default=None,
-        metadata=dict(
-            name="D",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "D",
+            "type": "Element",
+            "required": True,
+        }
     )
     d: Optional[D1] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

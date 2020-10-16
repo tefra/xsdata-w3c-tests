@@ -26,25 +26,23 @@ class AddressType:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     type: Optional["AddressType.Type"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     country: Optional[CountryType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     class Type(Enum):
@@ -69,38 +67,36 @@ class CanaddressType(AddressType):
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     province: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     currency: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     postal: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"([A-Z]\d){3}"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"([A-Z]\d){3}",
+        }
     )
 
 
@@ -117,37 +113,35 @@ class UsaddressType(AddressType):
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     state: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     currency: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     zip: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -161,12 +155,11 @@ class ItemType:
 
     address: List[Union[AddressType, CanaddressType, UsaddressType]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -181,10 +174,9 @@ class Invoice:
 
     item: List[ItemType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )

@@ -12,21 +12,21 @@ class HeadType:
     """
     ear: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Ear",
-            type="Element",
-            namespace="ElemDecl/substGroupExclusions",
-            required=True
-        )
+        metadata={
+            "name": "Ear",
+            "type": "Element",
+            "namespace": "ElemDecl/substGroupExclusions",
+            "required": True,
+        }
     )
     eye: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Eye",
-            type="Element",
-            namespace="ElemDecl/substGroupExclusions",
-            required=True
-        )
+        metadata={
+            "name": "Eye",
+            "type": "Element",
+            "namespace": "ElemDecl/substGroupExclusions",
+            "required": True,
+        }
     )
 
 
@@ -52,11 +52,11 @@ class Member3(HeadType):
 
     nose: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Nose",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Nose",
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -73,28 +73,25 @@ class Root:
 
     member3: List[Member3] = field(
         default_factory=list,
-        metadata=dict(
-            name="Member3",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Member3",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     member1: List[Member1] = field(
         default_factory=list,
-        metadata=dict(
-            name="Member1",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Member1",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     head: List[Head] = field(
         default_factory=list,
-        metadata=dict(
-            name="Head",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Head",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

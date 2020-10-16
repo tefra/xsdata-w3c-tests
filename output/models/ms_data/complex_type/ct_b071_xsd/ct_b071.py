@@ -13,18 +13,18 @@ class FooType:
 
     my_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myElement",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "myElement",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 

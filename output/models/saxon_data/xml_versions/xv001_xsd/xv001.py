@@ -12,9 +12,9 @@ class DKstra:
 
     vr_tag: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="vrĳtag",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "vrĳtag",
+            "type": "Attribute",
+            "required": True,
+        }
     )

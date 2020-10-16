@@ -16,13 +16,13 @@ class Doc:
 
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     bar: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

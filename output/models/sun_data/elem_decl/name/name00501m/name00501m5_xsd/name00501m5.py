@@ -16,12 +16,12 @@ class GlobalType:
     local: bool = field(
         init=False,
         default=True,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -35,9 +35,9 @@ class Main:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -52,9 +52,9 @@ class Root:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

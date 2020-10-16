@@ -16,24 +16,24 @@ class Any1:
 
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+        }
     )
     bbb: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
     ccc: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
 
 
@@ -49,15 +49,15 @@ class Imp:
 
     att1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -73,17 +73,15 @@ class Doc1:
 
     elem1: List[Any1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 100,
+        }
     )
     elem2: List[Any1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 100,
+        }
     )

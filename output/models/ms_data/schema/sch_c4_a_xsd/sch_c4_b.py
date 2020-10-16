@@ -15,19 +15,19 @@ class CtB:
 
     b1: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+            "required": True,
+        }
     )
     b2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="ns-a",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "ns-a",
+            "required": True,
+        }
     )
 
 

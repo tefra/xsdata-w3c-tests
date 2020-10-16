@@ -13,9 +13,9 @@ class Ids:
 
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -37,9 +37,9 @@ class Idrefs:
     idref: ValueConstraint = field(
         init=False,
         default=ValueConstraint.ASD,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -54,17 +54,17 @@ class Root:
 
     a: Optional[Ids] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     b: Optional[Idrefs] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

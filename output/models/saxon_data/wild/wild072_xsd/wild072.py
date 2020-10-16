@@ -12,11 +12,11 @@ class A2:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -30,9 +30,9 @@ class A1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -50,39 +50,37 @@ class Zing:
 
     a_element: Optional[A2] = field(
         default=None,
-        metadata=dict(
-            name="A",
-            type="Element"
-        )
+        metadata={
+            "name": "A",
+            "type": "Element",
+        }
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 

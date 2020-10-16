@@ -45,11 +45,11 @@ class AttRef:
 
     att1: List[Union[No, Char, int]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+            "tokens": True,
+        }
     )
 
 
@@ -64,8 +64,8 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

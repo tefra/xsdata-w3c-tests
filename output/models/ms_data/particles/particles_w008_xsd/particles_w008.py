@@ -13,30 +13,28 @@ class B:
     """
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 3,
+        }
     )
     e3: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 3,
+        }
     )
 
 
@@ -49,30 +47,28 @@ class R:
     """
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=2,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 2,
+            "max_occurs": 3,
+        }
     )
     e2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 3,
+        }
     )
     e3: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 3,
+        }
     )
 
 
@@ -87,8 +83,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

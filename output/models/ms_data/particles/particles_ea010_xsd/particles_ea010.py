@@ -16,14 +16,14 @@ class Doc:
 
     a1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     a2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

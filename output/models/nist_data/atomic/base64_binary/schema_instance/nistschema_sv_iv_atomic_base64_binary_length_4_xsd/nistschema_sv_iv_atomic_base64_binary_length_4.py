@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicBase64BinaryLength4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            length=47
-        )
+        metadata={
+            "required": True,
+            "length": 47,
+        }
     )

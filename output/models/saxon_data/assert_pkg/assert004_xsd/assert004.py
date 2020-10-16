@@ -14,24 +14,23 @@ class Inner:
 
     a: List["Inner.A"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 4,
+        }
     )
     x: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     y: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     @dataclass
@@ -41,11 +40,10 @@ class Inner:
         """
         b: List[object] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=4
-            )
+            metadata={
+                "type": "Element",
+                "max_occurs": 4,
+            }
         )
 
 
@@ -59,9 +57,8 @@ class Outer:
 
     inner: List[Inner] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

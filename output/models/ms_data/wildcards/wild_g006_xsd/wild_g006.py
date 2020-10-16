@@ -15,9 +15,9 @@ class Foo:
 
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "required": True,
+        }
     )

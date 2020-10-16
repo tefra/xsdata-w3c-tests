@@ -15,8 +15,8 @@ class Foo:
 
     target_namespace_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##targetNamespace"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##targetNamespace",
+        }
     )

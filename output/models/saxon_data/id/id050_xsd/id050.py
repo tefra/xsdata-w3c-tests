@@ -16,26 +16,26 @@ class EmpType:
 
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://id050.ly/",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://id050.ly/",
+            "required": True,
+        }
     )
     nr: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://id050.ly/",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://id050.ly/",
+            "required": True,
+        }
     )
     manager: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://id050.ly/"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://id050.ly/",
+        }
     )
 
 
@@ -50,9 +50,8 @@ class Doc:
 
     emp: List[EmpType] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

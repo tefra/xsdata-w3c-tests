@@ -15,36 +15,36 @@ class FooType:
 
     foo_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooEle1",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="fooEle2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_ele3: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="fooEle3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "fooEle3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -61,37 +61,37 @@ class MyType:
 
     foo_ele1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooEle1",
-            type="Element",
-            namespace="",
-            required=True,
-            max_length=4
-        )
+        metadata={
+            "name": "fooEle1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "max_length": 4,
+        }
     )
     foo_ele2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="fooEle2",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "fooEle2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     foo_ele3: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="fooEle3",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "fooEle3",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -111,9 +111,9 @@ class Root:
 
     foo_test: Optional[FooTest] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

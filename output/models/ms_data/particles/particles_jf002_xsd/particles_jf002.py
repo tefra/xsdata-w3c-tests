@@ -12,12 +12,11 @@ class B:
     """
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -28,12 +27,12 @@ class R(B):
     """
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
 
 
@@ -48,8 +47,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

@@ -17,22 +17,22 @@ class Root:
 
     aa111a2_aa: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa111a2Aa",
-            type="Attribute"
-        )
+        metadata={
+            "name": "aa111a2Aa",
+            "type": "Attribute",
+        }
     )
     aa22_b3c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa22B3c",
-            type="Attribute"
-        )
+        metadata={
+            "name": "aa22B3c",
+            "type": "Attribute",
+        }
     )
     aa3_4: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa3-4_",
-            type="Attribute"
-        )
+        metadata={
+            "name": "aa3-4_",
+            "type": "Attribute",
+        }
     )

@@ -12,10 +12,10 @@ class Para:
 
     e: str = field(
         default="entity1",
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -29,9 +29,8 @@ class Doc:
 
     para: List[Para] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

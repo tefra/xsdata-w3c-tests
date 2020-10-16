@@ -9,10 +9,10 @@ class Regex:
     """
     att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            pattern=r"a{0,1}b{1,2}c{2,3}"
-        )
+        metadata={
+            "type": "Attribute",
+            "pattern": r"a{0,1}b{1,2}c{2,3}",
+        }
     )
 
 
@@ -26,10 +26,8 @@ class Doc:
 
     elem: List[Regex] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

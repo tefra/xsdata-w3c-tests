@@ -11,12 +11,12 @@ class B:
     """
     local_target_namespace_ns_foo_ns_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local ##targetNamespace nsFoo nsBar",
-            min_occurs=1,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local ##targetNamespace nsFoo nsBar",
+            "min_occurs": 1,
+            "max_occurs": 10,
+        }
     )
 
 
@@ -31,11 +31,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -46,12 +46,12 @@ class R(B):
     """
     foo: List[Foo] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=2,
-            max_occurs=9
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "min_occurs": 2,
+            "max_occurs": 9,
+        }
     )
 
 
@@ -66,8 +66,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

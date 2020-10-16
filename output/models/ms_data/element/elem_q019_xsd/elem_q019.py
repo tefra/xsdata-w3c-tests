@@ -25,8 +25,8 @@ class Root:
 
     foo_test: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element"
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+        }
     )

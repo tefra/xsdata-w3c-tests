@@ -14,26 +14,26 @@ class B:
     """
     a0: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
     a2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -46,26 +46,26 @@ class R:
     """
     a0: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD",
-            required=True
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "required": True,
+        }
     )
     a2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -80,8 +80,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

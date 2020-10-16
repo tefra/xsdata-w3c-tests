@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGDayMinInclusive3:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive="---24"
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": "---24",
+        }
     )

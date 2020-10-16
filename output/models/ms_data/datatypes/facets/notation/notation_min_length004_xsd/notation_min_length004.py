@@ -24,11 +24,11 @@ class FooType:
 
     foo: Optional["FooType.Foo"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -42,12 +42,12 @@ class FooType:
         )
         attr_test: Optional[BuildNotation] = field(
             default=None,
-            metadata=dict(
-                name="attrTest",
-                type="Attribute",
-                min_length=3,
-                max_length=5
-            )
+            metadata={
+                "name": "attrTest",
+                "type": "Attribute",
+                "min_length": 3,
+                "max_length": 5,
+            }
         )
 
 

@@ -16,8 +16,8 @@ class Test:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive=100.0
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": 100.0,
+        }
     )

@@ -12,17 +12,17 @@ class B:
     """
     e: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     f: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -37,17 +37,17 @@ class Base:
 
     e: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     f: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 

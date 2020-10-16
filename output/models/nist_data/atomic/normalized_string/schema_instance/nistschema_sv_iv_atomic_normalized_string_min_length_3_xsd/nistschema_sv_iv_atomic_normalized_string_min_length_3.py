@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicNormalizedStringMinLength3:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_length=628
-        )
+        metadata={
+            "required": True,
+            "min_length": 628,
+        }
     )

@@ -21,50 +21,50 @@ class Root:
 
     number00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number00一",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number00一",
+            "type": "Attribute",
+        }
     )
     number10: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number10盒",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number10盒",
+            "type": "Attribute",
+        }
     )
     number20: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number20龥",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number20龥",
+            "type": "Attribute",
+        }
     )
     number01: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number01〇",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number01〇",
+            "type": "Attribute",
+        }
     )
     number02: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number02〡",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number02〡",
+            "type": "Attribute",
+        }
     )
     number12: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number12〥",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number12〥",
+            "type": "Attribute",
+        }
     )
     number22: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="number22〩",
-            type="Attribute"
-        )
+        metadata={
+            "name": "number22〩",
+            "type": "Attribute",
+        }
     )

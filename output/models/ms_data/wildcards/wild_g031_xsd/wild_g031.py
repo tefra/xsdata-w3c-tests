@@ -15,9 +15,9 @@ class Bar:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,10 +32,9 @@ class Foo:
 
     a_b_c_d_e_target_namespace_local_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="A B C D E ##targetNamespace ##local",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "A B C D E ##targetNamespace ##local",
+            "min_occurs": 1,
+        }
     )

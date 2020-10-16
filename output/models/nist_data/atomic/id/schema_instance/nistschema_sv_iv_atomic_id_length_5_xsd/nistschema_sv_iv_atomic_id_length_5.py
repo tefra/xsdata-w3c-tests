@@ -15,10 +15,10 @@ class NistschemaSvIvAtomicIdLength5:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            length=64
-        )
+        metadata={
+            "required": True,
+            "length": 64,
+        }
     )
 
 
@@ -33,9 +33,9 @@ class Out:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

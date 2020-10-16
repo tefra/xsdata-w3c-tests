@@ -15,13 +15,11 @@ class Root:
 
     element: List["Root.Element"] = field(
         default_factory=list,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
     @dataclass
@@ -33,23 +31,23 @@ class Root:
         """
         id: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="ID",
-                type="Attribute"
-            )
+            metadata={
+                "name": "ID",
+                "type": "Attribute",
+            }
         )
         idref: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="IDREF",
-                type="Attribute"
-            )
+            metadata={
+                "name": "IDREF",
+                "type": "Attribute",
+            }
         )
         idrefs: List[str] = field(
             default_factory=list,
-            metadata=dict(
-                name="IDREFS",
-                type="Attribute",
-                tokens=True
-            )
+            metadata={
+                "name": "IDREFS",
+                "type": "Attribute",
+                "tokens": True,
+            }
         )

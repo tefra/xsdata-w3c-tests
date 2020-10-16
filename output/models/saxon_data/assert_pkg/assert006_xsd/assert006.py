@@ -12,9 +12,8 @@ class Outer:
 
     inner: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 4,
+        }
     )

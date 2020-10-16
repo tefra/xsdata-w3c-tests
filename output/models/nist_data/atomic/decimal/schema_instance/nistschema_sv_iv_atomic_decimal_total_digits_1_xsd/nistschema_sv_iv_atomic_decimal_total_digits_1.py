@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicDecimalTotalDigits1:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            total_digits=1
-        )
+        metadata={
+            "required": True,
+            "total_digits": 1,
+        }
     )

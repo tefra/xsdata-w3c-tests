@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicDecimalMaxInclusive4:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive=-95776055693671313
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": -95776055693671313,
+        }
     )

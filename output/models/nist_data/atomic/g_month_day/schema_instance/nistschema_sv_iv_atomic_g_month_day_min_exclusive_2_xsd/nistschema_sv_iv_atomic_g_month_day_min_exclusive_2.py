@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGMonthDayMinExclusive2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive="--10-23"
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": "--10-23",
+        }
     )

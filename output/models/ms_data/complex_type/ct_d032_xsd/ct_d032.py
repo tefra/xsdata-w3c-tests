@@ -16,10 +16,10 @@ class MyType:
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 
@@ -34,17 +34,17 @@ class FooType(MyType):
 
     my_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr",
+            "type": "Attribute",
+        }
     )
     my_attr1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr1",
+            "type": "Attribute",
+        }
     )
 
 

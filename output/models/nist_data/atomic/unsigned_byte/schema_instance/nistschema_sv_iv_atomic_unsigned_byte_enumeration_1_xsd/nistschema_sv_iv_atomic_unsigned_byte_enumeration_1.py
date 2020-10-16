@@ -41,7 +41,7 @@ class NistschemaSvIvAtomicUnsignedByteEnumeration1:
 
     value: Optional[NistschemaSvIvAtomicUnsignedByteEnumeration1Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

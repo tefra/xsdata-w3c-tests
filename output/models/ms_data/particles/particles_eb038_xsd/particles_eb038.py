@@ -16,19 +16,19 @@ class Doc:
 
     a1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=4,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 4,
+            "sequential": True,
+        }
     )
     a2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=4,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 4,
+            "sequential": True,
+        }
     )

@@ -10,13 +10,12 @@ class Test:
     """
     rule: List["Test.Rule"] = field(
         default_factory=list,
-        metadata=dict(
-            name="Rule",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Rule",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -26,8 +25,8 @@ class Test:
         """
         name: Optional[QName] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )

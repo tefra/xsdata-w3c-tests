@@ -15,16 +15,16 @@ class Type1:
 
     attr1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.schemaTest.org/schema11_S3_2_3"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
+        }
     )
     attr2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -39,8 +39,8 @@ class Root:
 
     element1: Optional[Type1] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

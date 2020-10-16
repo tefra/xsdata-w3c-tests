@@ -15,8 +15,8 @@ class A:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )

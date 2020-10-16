@@ -11,12 +11,11 @@ class B:
     """
     local_foo_bar_target_namespace_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local foo bar ##targetNamespace",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local foo bar ##targetNamespace",
+            "max_occurs": 2,
+        }
     )
 
 
@@ -27,12 +26,11 @@ class R(B):
     """
     local_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local bar",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local bar",
+            "max_occurs": 2,
+        }
     )
 
 
@@ -47,8 +45,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

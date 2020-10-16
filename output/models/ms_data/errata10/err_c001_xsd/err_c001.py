@@ -15,8 +15,8 @@ class Root:
     test_attr: object = field(
         init=False,
         default="This   is   a    fixed value",
-        metadata=dict(
-            name="testAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "testAttr",
+            "type": "Attribute",
+        }
     )

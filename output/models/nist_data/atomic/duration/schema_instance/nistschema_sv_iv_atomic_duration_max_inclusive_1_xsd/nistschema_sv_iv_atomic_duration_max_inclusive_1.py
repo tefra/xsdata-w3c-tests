@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDurationMaxInclusive1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive="P1970Y01M01DT00H00M00S"
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": "P1970Y01M01DT00H00M00S",
+        }
     )

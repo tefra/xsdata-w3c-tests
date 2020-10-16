@@ -15,21 +15,19 @@ class Base:
 
     foo: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=6
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 6,
+        }
     )
     foo1: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=6
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 6,
+        }
     )
 
 
@@ -45,17 +43,15 @@ class Doc:
 
     foo: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 2,
+        }
     )
     foo1: List[bool] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=6
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 6,
+        }
     )

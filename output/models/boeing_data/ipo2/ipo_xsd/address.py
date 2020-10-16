@@ -14,27 +14,27 @@ class AddressType:
     """
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     street: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     city: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -64,20 +64,20 @@ class Ukaddress(AddressType):
 
     postcode: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[A-Z]{2}\d\s\d[A-Z]{2}"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
+        }
     )
     export_code: int = field(
         init=False,
         default=1,
-        metadata=dict(
-            name="exportCode",
-            type="Attribute"
-        )
+        metadata={
+            "name": "exportCode",
+            "type": "Attribute",
+        }
     )
 
 
@@ -92,17 +92,17 @@ class Usaddress(AddressType):
 
     state: Optional[Usstate] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     zip: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

@@ -14,16 +14,16 @@ class Foo:
 
     idrefs_attr: List["Foo.IdrefsAttr"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     id_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     class IdrefsAttr(Enum):
@@ -43,10 +43,10 @@ class FooType:
 
     foo: Optional[Foo] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 

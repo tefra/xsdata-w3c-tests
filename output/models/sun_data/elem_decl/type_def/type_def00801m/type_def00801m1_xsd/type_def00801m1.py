@@ -11,9 +11,9 @@ class Type:
     """
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -27,9 +27,9 @@ class DerivedType(Type):
 
     value1: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -44,10 +44,10 @@ class Root:
 
     element: Optional[Type] = field(
         default=None,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

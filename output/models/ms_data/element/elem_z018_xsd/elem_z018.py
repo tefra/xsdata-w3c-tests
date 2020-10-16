@@ -12,12 +12,10 @@ class Signatures:
 
     w3_org_2000_09_xmldsig_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://www.w3.org/2000/09/xmldsig#",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://www.w3.org/2000/09/xmldsig#",
+        }
     )
 
 
@@ -31,10 +29,10 @@ class Zzz:
 
     signatures: Optional[Signatures] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -48,10 +46,10 @@ class Yyy:
 
     zzz: Optional[Zzz] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -65,10 +63,10 @@ class Xxx:
 
     yyy: Optional[Yyy] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -82,10 +80,10 @@ class Www:
 
     xxx: Optional[Xxx] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -99,10 +97,10 @@ class Uuu:
 
     www: Optional[Www] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -116,10 +114,10 @@ class Ttt:
 
     uuu: Optional[Uuu] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -133,10 +131,10 @@ class Sss:
 
     ttt: Optional[Ttt] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -150,10 +148,10 @@ class Rrr:
 
     sss: Optional[Sss] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -167,10 +165,10 @@ class Qqq:
 
     rrr: Optional[Rrr] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -184,10 +182,10 @@ class Ppp:
 
     qqq: Optional[Qqq] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -201,10 +199,10 @@ class Ooo:
 
     ppp: Optional[Ppp] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -218,10 +216,10 @@ class Nnn:
 
     ooo: Optional[Ooo] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -235,10 +233,10 @@ class Mmm:
 
     nnn: Optional[Nnn] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -252,10 +250,10 @@ class Lll:
 
     mmm: Optional[Mmm] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -269,10 +267,10 @@ class Kkk:
 
     lll: Optional[Lll] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -286,10 +284,10 @@ class Jjj:
 
     kkk: Optional[Kkk] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -303,10 +301,10 @@ class Iii:
 
     jjj: Optional[Jjj] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -320,10 +318,10 @@ class Hhh:
 
     iii: Optional[Iii] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -337,10 +335,10 @@ class Ggg:
 
     hhh: Optional[Hhh] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -354,10 +352,10 @@ class Fff:
 
     ggg: Optional[Ggg] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -371,10 +369,10 @@ class Eee:
 
     fff: Optional[Fff] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -388,10 +386,10 @@ class Ddd:
 
     eee: Optional[Eee] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -405,10 +403,10 @@ class Ccc:
 
     ddd: Optional[Ddd] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -422,10 +420,10 @@ class Bbb:
 
     ccc: Optional[Ccc] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -439,10 +437,10 @@ class Aaa:
 
     bbb: Optional[Bbb] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -457,15 +455,15 @@ class Root:
 
     aaa: Optional[Aaa] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     w3_org_xml_1998_namespace_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )

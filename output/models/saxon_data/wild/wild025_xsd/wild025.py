@@ -10,17 +10,17 @@ class T:
     """
     adam_com_eve_com_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://adam.com/ http://eve.com/"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://adam.com/ http://eve.com/",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )
 
 

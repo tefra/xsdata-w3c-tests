@@ -37,7 +37,7 @@ class NistschemaSvIvListDoubleEnumeration3:
 
     value: Optional[NistschemaSvIvListDoubleEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

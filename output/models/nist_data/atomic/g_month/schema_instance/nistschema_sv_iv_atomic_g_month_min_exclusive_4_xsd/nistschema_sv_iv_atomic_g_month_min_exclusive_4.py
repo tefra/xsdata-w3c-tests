@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGMonthMinExclusive4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive="--04"
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": "--04",
+        }
     )

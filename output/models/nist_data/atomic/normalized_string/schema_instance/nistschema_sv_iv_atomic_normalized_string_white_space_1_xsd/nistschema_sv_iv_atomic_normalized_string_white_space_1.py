@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicNormalizedStringWhiteSpace1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="replace"
-        )
+        metadata={
+            "required": True,
+            "white_space": "replace",
+        }
     )

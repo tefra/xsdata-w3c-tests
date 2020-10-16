@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDateTimeMinExclusive1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive="1970-01-01T00:00:00"
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": "1970-01-01T00:00:00",
+        }
     )

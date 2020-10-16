@@ -25,17 +25,17 @@ class ComplexType:
 
     root: Optional["Root"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://foo.com"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://foo.com",
+        }
     )
     att: Optional[SimpleType] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://foo.com"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://foo.com",
+        }
     )
 
 

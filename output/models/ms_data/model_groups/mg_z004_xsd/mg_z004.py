@@ -20,64 +20,57 @@ class Root:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="A",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "A",
+            "type": "Element",
+            "required": True,
+        }
     )
     b1: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="B1",
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "name": "B1",
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b2: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="B2",
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "name": "B2",
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b3: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="B3",
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "name": "B3",
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b4: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="B4",
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "name": "B4",
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b5: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="B5",
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "name": "B5",
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )

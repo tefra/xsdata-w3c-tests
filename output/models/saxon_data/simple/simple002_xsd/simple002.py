@@ -14,12 +14,11 @@ class Chap:
 
     section: List["Chap.Section"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://simple001.ly/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://simple001.ly/",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -34,16 +33,16 @@ class Chap:
         )
         nr: float = field(
             default=float('inf'),
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
         ref: float = field(
             init=False,
             default=float('inf'),
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
 
 
@@ -59,17 +58,13 @@ class Doc:
 
     chap: List[Chap] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     appx: List[Chap] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )

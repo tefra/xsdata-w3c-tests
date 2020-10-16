@@ -12,15 +12,15 @@ class Ids:
 
     id_attr: str = field(
         default="zxc",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     idref_attr: str = field(
         default="abc",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

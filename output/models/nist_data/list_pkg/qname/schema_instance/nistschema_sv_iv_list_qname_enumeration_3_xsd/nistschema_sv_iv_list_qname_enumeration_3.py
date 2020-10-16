@@ -35,9 +35,9 @@ class TypeCompetenceCommerceSeriesOfC:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -52,9 +52,9 @@ class TypeCorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -69,9 +69,9 @@ class TypeFileFilterAReviewedThoseCreationWellFor:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -86,9 +86,9 @@ class TypeThemSemanticsProblemsVirtuallyWideTheToolsTesti:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -103,9 +103,9 @@ class TypeToInTheVirtuall:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -120,9 +120,9 @@ class TypeWillRepositoryEffectivelyObjectBuildWirelessMetrol:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -137,9 +137,9 @@ class AandPrototypesWebWorkContributeHasTh:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -154,9 +154,9 @@ class AtoBenefits:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -171,9 +171,9 @@ class BbyTheTheseTestByAndH:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -188,9 +188,9 @@ class HlandscapeOfIncludedIssuesVoice:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -205,9 +205,9 @@ class IaMakeOfProcessWouldInLaunchingOfTheObjectTransac:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -222,9 +222,9 @@ class IforPartnersForIsAndUnbia:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -239,9 +239,9 @@ class J:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -256,9 +256,9 @@ class JbeRecommendingAbilityStandardizationToTheToUsedAnd:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -273,9 +273,9 @@ class MfromInteract:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -290,9 +290,9 @@ class Nan:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -307,9 +307,9 @@ class OvocabularyDifferent:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -324,9 +324,9 @@ class QdesignAndSoftwareAndAndTheWas:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -341,9 +341,9 @@ class RalsoToLibrariesPr:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -358,9 +358,9 @@ class RdependsA:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -375,9 +375,9 @@ class TdesktopToRepositoryAsOfThatTheAreKnownProblemsOfG:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -392,9 +392,9 @@ class TparticularToolsEntireReviewTechnologiesToToToAlre:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -409,9 +409,9 @@ class WisN:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -426,9 +426,9 @@ class XanWithBu:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -443,9 +443,9 @@ class XandRetrieveStan:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -460,9 +460,9 @@ class XwellChallenge:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -477,9 +477,9 @@ class YspecificationsAsPervasiveWeb:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -494,7 +494,7 @@ class NistschemaSvIvListQnameEnumeration3:
 
     value: Optional[NistschemaSvIvListQnameEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -12,10 +12,10 @@ class Element1:
 
     attribute1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            pattern=r"(あ|ｱ)*"
-        )
+        metadata={
+            "type": "Attribute",
+            "pattern": r"(あ|ｱ)*",
+        }
     )
 
 
@@ -29,9 +29,7 @@ class Root:
 
     element1: List[Element1] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )

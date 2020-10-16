@@ -15,9 +15,9 @@ class NistschemaSvIvListDecimalPattern4:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\d{1} \d{1}\.\d{1} \d{1}\.\d{2} \-\d{2}\.\d{2} \d{3}\.\d{2} \d{5}\.\d{1} \-\d{5}\.\d{2} \-\d{8} \-\d{8}\.\d{1} \-\d{4}\.\d{14}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d{1} \d{1}\.\d{1} \d{1}\.\d{2} \-\d{2}\.\d{2} \d{3}\.\d{2} \d{5}\.\d{1} \-\d{5}\.\d{2} \-\d{8} \-\d{8}\.\d{1} \-\d{4}\.\d{14}",
+            "tokens": True,
+        }
     )

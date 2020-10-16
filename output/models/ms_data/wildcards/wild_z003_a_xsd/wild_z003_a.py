@@ -18,25 +18,25 @@ class Elt1:
 
     elt2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="urn:bar",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "urn:bar",
+            "required": True,
+        }
     )
     other_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )

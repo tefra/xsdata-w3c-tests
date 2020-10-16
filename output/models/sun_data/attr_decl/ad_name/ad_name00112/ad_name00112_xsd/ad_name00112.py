@@ -16,14 +16,14 @@ class Root:
 
     a_1_2_3_4_5_6: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="a-1.2_3·4·5۝6۞",
-            type="Attribute"
-        )
+        metadata={
+            "name": "a-1.2_3·4·5۝6۞",
+            "type": "Attribute",
+        }
     )
     a123456: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

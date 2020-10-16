@@ -11,12 +11,12 @@ class PublicationType:
     """
     title: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Title",
-            type="Element",
-            namespace="ElemDecl/substGroupAffilation",
-            required=True
-        )
+        metadata={
+            "name": "Title",
+            "type": "Element",
+            "namespace": "ElemDecl/substGroupAffilation",
+            "required": True,
+        }
     )
 
 
@@ -33,13 +33,11 @@ class BookType(PublicationType):
     """
     author: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Author",
-            type="Element",
-            namespace="ElemDecl/substGroupAffilation",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Author",
+            "type": "Element",
+            "namespace": "ElemDecl/substGroupAffilation",
+        }
     )
 
 
@@ -50,12 +48,12 @@ class MagazineType(PublicationType):
     """
     date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Date",
-            type="Element",
-            namespace="ElemDecl/substGroupAffilation",
-            required=True
-        )
+        metadata={
+            "name": "Date",
+            "type": "Element",
+            "namespace": "ElemDecl/substGroupAffilation",
+            "required": True,
+        }
     )
 
 
@@ -89,28 +87,25 @@ class BookStore:
 
     magazine: List[Magazine] = field(
         default_factory=list,
-        metadata=dict(
-            name="Magazine",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Magazine",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     book: List[Book] = field(
         default_factory=list,
-        metadata=dict(
-            name="Book",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Book",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     publication: List[Publication] = field(
         default_factory=list,
-        metadata=dict(
-            name="Publication",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Publication",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

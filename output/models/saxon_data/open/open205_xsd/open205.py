@@ -14,19 +14,19 @@ class AType:
 
     extra_number: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="extra-number",
-            type="Attribute",
-            namespace="http://open205x.com/"
-        )
+        metadata={
+            "name": "extra-number",
+            "type": "Attribute",
+            "namespace": "http://open205x.com/",
+        }
     )
     extra_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="extra-date",
-            type="Attribute",
-            namespace="http://open205x.com/"
-        )
+        metadata={
+            "name": "extra-date",
+            "type": "Attribute",
+            "namespace": "http://open205x.com/",
+        }
     )
 
 
@@ -44,40 +44,40 @@ class Doc:
 
     extra_number: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="extra-number",
-            type="Attribute",
-            namespace="http://open205x.com/"
-        )
+        metadata={
+            "name": "extra-number",
+            "type": "Attribute",
+            "namespace": "http://open205x.com/",
+        }
     )
     extra_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="extra-date",
-            type="Attribute",
-            namespace="http://open205x.com/"
-        )
+        metadata={
+            "name": "extra-date",
+            "type": "Attribute",
+            "namespace": "http://open205x.com/",
+        }
     )
     a: Optional[AType] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     c: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

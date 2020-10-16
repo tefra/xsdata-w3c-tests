@@ -16,17 +16,17 @@ class Doc:
 
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 4,
+        }
     )
     b: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=2,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 4,
+        }
     )

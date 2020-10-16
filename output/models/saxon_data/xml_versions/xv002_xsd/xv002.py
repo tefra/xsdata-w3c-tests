@@ -12,8 +12,8 @@ class Doc:
 
     att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )

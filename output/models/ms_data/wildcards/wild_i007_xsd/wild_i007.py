@@ -15,11 +15,11 @@ class Bar:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -35,19 +35,17 @@ class Foo:
 
     other_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "max_occurs": 10,
+        }
     )
     target_namespace_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+            "max_occurs": 10,
+        }
     )

@@ -15,11 +15,11 @@ class A:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -34,11 +34,11 @@ class B:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -53,11 +53,11 @@ class C:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -73,20 +73,16 @@ class Root:
 
     mixed: List["Root.Mixed"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     element_only: List["Root.ElementOnly"] = field(
         default_factory=list,
-        metadata=dict(
-            name="elementOnly",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elementOnly",
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -99,37 +95,29 @@ class Root:
         """
         content: List[object] = field(
             default_factory=list,
-            metadata=dict(
-                type="Wildcard",
-                namespace="##any",
-                mixed=True,
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Wildcard",
+                "namespace": "##any",
+                "mixed": True,
+            }
         )
         a: List[A] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )
         b: List[B] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )
         c: List[C] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )
 
     @dataclass
@@ -141,25 +129,19 @@ class Root:
         """
         a: List[A] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )
         b: List[B] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )
         c: List[C] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=0,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+            }
         )

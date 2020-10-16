@@ -9,11 +9,11 @@ class B:
     """
     target001_com_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://www.target001.com/",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://www.target001.com/",
+            "required": True,
+        }
     )
 
 
@@ -24,11 +24,11 @@ class R(B):
     """
     child: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.target001.com/",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.target001.com/",
+            "required": True,
+        }
     )
 
 

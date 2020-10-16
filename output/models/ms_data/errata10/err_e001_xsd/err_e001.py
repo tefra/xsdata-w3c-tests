@@ -15,11 +15,11 @@ class Root:
 
     test_element: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="testElement",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "testElement",
+            "type": "Element",
+            "required": True,
+        }
     )
 
 
@@ -34,7 +34,7 @@ class TestElement:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

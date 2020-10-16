@@ -15,11 +15,11 @@ class A:
 
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )
 
 
@@ -34,7 +34,7 @@ class Date:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

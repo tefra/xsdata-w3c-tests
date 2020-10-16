@@ -11,10 +11,10 @@ class B:
     """
     local_foo_bar_target_namespace_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local foo bar ##targetNamespace"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local foo bar ##targetNamespace",
+        }
     )
 
 
@@ -25,10 +25,10 @@ class R:
     """
     local_foo_bar_target_namespace_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local foo bar ##targetNamespace"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local foo bar ##targetNamespace",
+        }
     )
 
 
@@ -43,11 +43,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -62,8 +62,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

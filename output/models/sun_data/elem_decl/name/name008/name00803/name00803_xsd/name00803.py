@@ -15,9 +15,9 @@ class Aa111A2Aa:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,9 +32,9 @@ class Aa22B3C:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -49,9 +49,9 @@ class Aa34:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -68,25 +68,25 @@ class Root:
 
     aa111a2_aa: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa111a2Aa",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "aa111a2Aa",
+            "type": "Element",
+            "required": True,
+        }
     )
     aa22_b3c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa22B3c",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "aa22B3c",
+            "type": "Element",
+            "required": True,
+        }
     )
     aa3_4: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="aa3-4_",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "aa3-4_",
+            "type": "Element",
+            "required": True,
+        }
     )

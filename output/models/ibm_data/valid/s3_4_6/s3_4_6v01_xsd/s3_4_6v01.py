@@ -15,20 +15,20 @@ class C:
 
     a: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )
 
 

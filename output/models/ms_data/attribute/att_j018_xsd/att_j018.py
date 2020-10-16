@@ -23,81 +23,81 @@ class Test:
 
     complex_att1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="complexAtt1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "complexAtt1",
+            "type": "Attribute",
+        }
     )
     complex_att2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="complexAtt2",
-            type="Attribute"
-        )
+        metadata={
+            "name": "complexAtt2",
+            "type": "Attribute",
+        }
     )
     global_att1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="globalAtt1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "globalAtt1",
+            "type": "Attribute",
+        }
     )
     item1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     item2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     global_att2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="globalAtt2",
-            type="Attribute"
-        )
+        metadata={
+            "name": "globalAtt2",
+            "type": "Attribute",
+        }
     )
     foo1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     foo2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     global_att3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="globalAtt3",
-            type="Attribute"
-        )
+        metadata={
+            "name": "globalAtt3",
+            "type": "Attribute",
+        }
     )
     foo3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     item3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     complex_att3: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="complexAtt3",
-            type="Attribute"
-        )
+        metadata={
+            "name": "complexAtt3",
+            "type": "Attribute",
+        }
     )
 
 
@@ -111,8 +111,8 @@ class Doc:
 
     test: Optional[Test] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

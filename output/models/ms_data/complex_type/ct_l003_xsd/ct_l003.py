@@ -13,16 +13,16 @@ class FooTest:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            white_space="collapse"
-        )
+        metadata={
+            "white_space": "collapse",
+        }
     )
     my_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="myAttr",
-            type="Attribute"
-        )
+        metadata={
+            "name": "myAttr",
+            "type": "Attribute",
+        }
     )
 
 
@@ -36,9 +36,9 @@ class Root:
 
     foo_test: Optional[FooTest] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

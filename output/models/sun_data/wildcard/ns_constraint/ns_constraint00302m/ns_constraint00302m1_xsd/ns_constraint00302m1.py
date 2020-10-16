@@ -15,8 +15,8 @@ class A:
 
     ns_test1_ns_test2_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="ns_test1 ns_test2"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "ns_test1 ns_test2",
+        }
     )

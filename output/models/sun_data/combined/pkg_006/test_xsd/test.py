@@ -11,11 +11,11 @@ class B:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -26,11 +26,11 @@ class Dr:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -41,11 +41,11 @@ class Drr:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -98,11 +98,11 @@ class Der(De):
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -151,64 +151,50 @@ class Root:
 
     e_dee: List[EDee] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDee",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDee",
+            "type": "Element",
+        }
     )
     e_der: List[EDer] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDer",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDer",
+            "type": "Element",
+        }
     )
     e_de: List[EDe] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDe",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDe",
+            "type": "Element",
+        }
     )
     e_dre: List[EDre] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDre",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDre",
+            "type": "Element",
+        }
     )
     e_drr: List[EDrr] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDrr",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDrr",
+            "type": "Element",
+        }
     )
     e_dr: List[EDr] = field(
         default_factory=list,
-        metadata=dict(
-            name="eDr",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eDr",
+            "type": "Element",
+        }
     )
     e_b: List[EB] = field(
         default_factory=list,
-        metadata=dict(
-            name="eB",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "eB",
+            "type": "Element",
+        }
     )

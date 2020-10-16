@@ -15,12 +15,11 @@ class Chap:
 
     section: List["Chap.Section"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://id043.ly/",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://id043.ly/",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -34,10 +33,10 @@ class Chap:
         )
         nr: Optional[Decimal] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )
 
 
@@ -53,17 +52,13 @@ class Doc:
 
     chap: List[Chap] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     appx: List[Chap] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )

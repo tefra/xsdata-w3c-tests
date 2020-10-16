@@ -21,7 +21,7 @@ class Doc:
 
     elem: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

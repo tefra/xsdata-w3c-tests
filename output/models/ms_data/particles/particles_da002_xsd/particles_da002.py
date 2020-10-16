@@ -12,17 +12,17 @@ class A:
     """
     a1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     a2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -37,11 +37,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -57,15 +57,15 @@ class Doc:
 
     elem1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     elem2: Optional[A] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -17,17 +17,17 @@ class FooType:
     )
     attr_test1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest1",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest1",
+            "type": "Attribute",
+        }
     )
     attr_test2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest2",
-            type="Attribute"
-        )
+        metadata={
+            "name": "attrTest2",
+            "type": "Attribute",
+        }
     )
 
 

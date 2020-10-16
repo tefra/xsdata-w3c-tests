@@ -15,19 +15,19 @@ class Testing:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
     e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
 
 

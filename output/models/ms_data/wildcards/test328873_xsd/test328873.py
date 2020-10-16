@@ -14,10 +14,10 @@ class Base2:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -31,10 +31,10 @@ class Base3:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -48,10 +48,10 @@ class Base4:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -66,17 +66,17 @@ class Intersection1:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
     local_b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local b c",
+        }
     )
 
 
@@ -90,10 +90,10 @@ class Intersection2:
 
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -107,10 +107,10 @@ class Derived2(Base2):
 
     b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "b c",
+        }
     )
 
 
@@ -124,10 +124,10 @@ class Derived3(Base3):
 
     target_namespace_local_b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##targetNamespace ##local b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##targetNamespace ##local b c",
+        }
     )
 
 
@@ -141,10 +141,10 @@ class Derived4(Base4):
 
     local_b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##local b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##local b c",
+        }
     )
 
 
@@ -158,10 +158,10 @@ class Derived5(Base4):
 
     b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "b c",
+        }
     )
 
 
@@ -195,52 +195,52 @@ class Base:
 
     sub: Optional[Derived2] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     sub2: Optional[Derived3] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     sub3: Optional[Derived4] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     sub4: Optional[Derived5] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     sub5: Optional[Intersection1] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     sub6: Optional[Intersection2] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##other"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
     )
 
 
@@ -282,10 +282,10 @@ class Derived(Base):
 
     target_namespace_b_c_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##targetNamespace b c"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##targetNamespace b c",
+        }
     )
 
 

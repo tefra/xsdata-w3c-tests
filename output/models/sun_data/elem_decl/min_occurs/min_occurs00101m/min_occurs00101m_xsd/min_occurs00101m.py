@@ -15,10 +15,10 @@ class Root:
 
     local: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

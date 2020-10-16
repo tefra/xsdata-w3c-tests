@@ -15,18 +15,18 @@ class Foo:
 
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     bar: Optional["Foo.Bar"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
     @dataclass
@@ -37,18 +37,18 @@ class Foo:
         """
         foo: Optional[object] = field(
             default=None,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                required=True
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "required": True,
+            }
         )
         bar: Optional["Foo.Bar"] = field(
             default=None,
-            metadata=dict(
-                type="Element",
-                namespace=""
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+            }
         )
 
 

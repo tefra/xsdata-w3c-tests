@@ -13,10 +13,10 @@ class Root:
 
     space: Optional["Root.Value"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/XML/1998/namespace"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
+        }
     )
 
     class Value(Enum):

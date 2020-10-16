@@ -13,17 +13,17 @@ class Foo:
 
     idrefs_attr: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            max_length=2,
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "max_length": 2,
+            "tokens": True,
+        }
     )
     id1_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -38,16 +38,16 @@ class FooType:
 
     foo: Optional[Foo] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     id2_attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

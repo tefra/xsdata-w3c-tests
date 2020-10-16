@@ -9,12 +9,11 @@ class C1:
     """
     e1: List["C1"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 10,
+        }
     )
 
 

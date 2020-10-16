@@ -16,16 +16,16 @@ class Facet:
 
     annotation: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -41,16 +41,16 @@ class IntType:
 
     annotation: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -65,17 +65,17 @@ class LongType:
 
     annotation: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -91,16 +91,16 @@ class YesNo:
 
     annotation: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -125,37 +125,33 @@ class Generic:
 
     int_value: List[IntType] = field(
         default_factory=list,
-        metadata=dict(
-            name="int",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "int",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     long: List[Long] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     yes_no: List[YesNo] = field(
         default_factory=list,
-        metadata=dict(
-            name="yesNo",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "yesNo",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     facet: List[Facet] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -171,15 +167,15 @@ class Root:
 
     generic: Optional[Generic] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     restricted: Optional["Root.Restricted"] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -190,18 +186,16 @@ class Root:
         """
         int_value: List[IntType] = field(
             default_factory=list,
-            metadata=dict(
-                name="int",
-                type="Element",
-                min_occurs=1,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "name": "int",
+                "type": "Element",
+                "min_occurs": 1,
+            }
         )
         long: List[Long] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                min_occurs=1,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "min_occurs": 1,
+            }
         )

@@ -11,10 +11,10 @@ class B:
     """
     foo_bar_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+        }
     )
 
 
@@ -25,10 +25,10 @@ class R(B):
     """
     bar_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="bar"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "bar",
+        }
     )
 
 
@@ -43,8 +43,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

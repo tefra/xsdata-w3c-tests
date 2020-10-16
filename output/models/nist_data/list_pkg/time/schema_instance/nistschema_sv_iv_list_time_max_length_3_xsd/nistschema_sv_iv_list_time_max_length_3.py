@@ -15,9 +15,9 @@ class NistschemaSvIvListTimeMaxLength3:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            max_length=7,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "max_length": 7,
+            "tokens": True,
+        }
     )

@@ -9,11 +9,11 @@ class B:
     """
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -28,19 +28,19 @@ class Elem(B):
 
     a1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="A1",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "A1",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     a2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="A2",
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "name": "A2",
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -54,8 +54,8 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

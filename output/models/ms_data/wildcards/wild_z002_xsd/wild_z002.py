@@ -15,12 +15,10 @@ class A:
 
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 
@@ -35,12 +33,10 @@ class B:
 
     target_namespace_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+        }
     )
 
 
@@ -55,12 +51,10 @@ class C:
 
     foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo bar",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo bar",
+        }
     )
 
 
@@ -75,12 +69,10 @@ class D:
 
     target_namespace_foo_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace foo",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace foo",
+        }
     )
 
 
@@ -98,37 +90,29 @@ class Root:
 
     a: List[A] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "sequential": True,
+        }
     )
     b: List[B] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "sequential": True,
+        }
     )
     c: List[C] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "sequential": True,
+        }
     )
     d: List[D] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "sequential": True,
+        }
     )

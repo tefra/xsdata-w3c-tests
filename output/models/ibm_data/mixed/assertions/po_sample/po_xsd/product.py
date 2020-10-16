@@ -14,16 +14,16 @@ class Item:
 
     quantity: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     price: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            min_inclusive=0
-        )
+        metadata={
+            "type": "Attribute",
+            "min_inclusive": 0,
+        }
     )
 
 
@@ -37,11 +37,11 @@ class LongItemDefn(Item):
 
     description: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -55,9 +55,9 @@ class ShortItemDefn(Item):
 
     id: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -71,10 +71,9 @@ class Poitems:
 
     item: List[Union[Item, LongItemDefn, ShortItemDefn]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )

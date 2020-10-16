@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicTimeMaxInclusive2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive="13:46:08"
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": "13:46:08",
+        }
     )

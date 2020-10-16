@@ -19,27 +19,27 @@ class Add:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -56,24 +56,24 @@ class Base:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -90,21 +90,21 @@ class Default:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -121,21 +121,21 @@ class Override:
 
     a: Optional["Override.A"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     class A(Enum):
@@ -158,19 +158,19 @@ class Prohibit:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

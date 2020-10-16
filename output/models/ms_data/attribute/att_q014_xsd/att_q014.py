@@ -20,10 +20,10 @@ class InternationalPrice:
     )
     currency: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -38,9 +38,9 @@ class Doc:
 
     international_price: Optional[InternationalPrice] = field(
         default=None,
-        metadata=dict(
-            name="internationalPrice",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "internationalPrice",
+            "type": "Element",
+            "required": True,
+        }
     )

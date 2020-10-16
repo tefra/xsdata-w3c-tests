@@ -15,9 +15,9 @@ class NistschemaSvIvListIntegerMinLength3:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            min_length=7,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "min_length": 7,
+            "tokens": True,
+        }
     )

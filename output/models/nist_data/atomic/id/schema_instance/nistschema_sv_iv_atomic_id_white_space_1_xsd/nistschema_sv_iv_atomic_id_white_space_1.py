@@ -15,10 +15,10 @@ class NistschemaSvIvAtomicIdWhiteSpace1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="collapse"
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+        }
     )
 
 
@@ -33,9 +33,9 @@ class Out:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

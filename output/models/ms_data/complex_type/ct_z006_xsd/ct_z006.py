@@ -12,10 +12,9 @@ class Root:
 
     element1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=2,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 2,
+        }
     )

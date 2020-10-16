@@ -17,46 +17,46 @@ class DTimeRoot:
 
     el_dtime_et: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="elDTimeET",
-            type="Element",
-            namespace="",
-            required=True,
-            explicit_timezone="required"
-        )
+        metadata={
+            "name": "elDTimeET",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "explicit_timezone": "required",
+        }
     )
     el_dtime_list_required: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeListRequired",
-            type="Element",
-            namespace="http://xstest-tns/schema11_F4_3_16_v03",
-            required=True,
-            explicit_timezone="required",
-            tokens=True
-        )
+        metadata={
+            "name": "elDTimeListRequired",
+            "type": "Element",
+            "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
+            "required": True,
+            "explicit_timezone": "required",
+            "tokens": True,
+        }
     )
     el_dtime_list_prohibited: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeListProhibited",
-            type="Element",
-            namespace="http://xstest-tns/schema11_F4_3_16_v03",
-            required=True,
-            explicit_timezone="prohibited",
-            tokens=True
-        )
+        metadata={
+            "name": "elDTimeListProhibited",
+            "type": "Element",
+            "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
+            "required": True,
+            "explicit_timezone": "prohibited",
+            "tokens": True,
+        }
     )
     el_dtime_list_optional: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeListOptional",
-            type="Element",
-            namespace="http://xstest-tns/schema11_F4_3_16_v03",
-            required=True,
-            explicit_timezone="optional",
-            tokens=True
-        )
+        metadata={
+            "name": "elDTimeListOptional",
+            "type": "Element",
+            "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
+            "required": True,
+            "explicit_timezone": "optional",
+            "tokens": True,
+        }
     )
 
 
@@ -71,10 +71,10 @@ class ElDtimeListOptional:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            explicit_timezone="optional",
-            tokens=True
-        )
+        metadata={
+            "explicit_timezone": "optional",
+            "tokens": True,
+        }
     )
 
 
@@ -89,10 +89,10 @@ class ElDtimeListProhibited:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            explicit_timezone="prohibited",
-            tokens=True
-        )
+        metadata={
+            "explicit_timezone": "prohibited",
+            "tokens": True,
+        }
     )
 
 
@@ -107,10 +107,10 @@ class ElDtimeListRequired:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            explicit_timezone="required",
-            tokens=True
-        )
+        metadata={
+            "explicit_timezone": "required",
+            "tokens": True,
+        }
     )
 
 

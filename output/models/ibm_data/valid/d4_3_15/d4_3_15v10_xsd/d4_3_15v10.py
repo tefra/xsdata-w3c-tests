@@ -13,19 +13,17 @@ class BaseType:
 
     base_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="baseElement",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "baseElement",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -40,19 +38,17 @@ class DerivedType:
 
     base_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="baseElement",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "baseElement",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     attr: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 

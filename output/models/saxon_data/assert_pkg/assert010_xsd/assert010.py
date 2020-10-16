@@ -16,9 +16,9 @@ class Temp:
     )
     start_date: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="startDate",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "startDate",
+            "type": "Attribute",
+            "required": True,
+        }
     )

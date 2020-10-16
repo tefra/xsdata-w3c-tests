@@ -13,17 +13,17 @@ class FooType:
 
     elem1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     elem2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -43,9 +43,9 @@ class Root:
 
     foo_test: Optional[FooTest] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -12,27 +12,27 @@ class One:
     """
     elem1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     elem2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     att1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -48,10 +48,10 @@ class Three(Two):
     """
     att1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
     )
 
 
@@ -67,22 +67,22 @@ class Doc:
 
     e1: Optional[One] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     e2: Optional[Two] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     e3: Optional[Three] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

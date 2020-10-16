@@ -15,12 +15,11 @@ class Root:
 
     el_date: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDate",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_inclusive="---16+13:00"
-        )
+        metadata={
+            "name": "elDate",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_inclusive": "---16+13:00",
+        }
     )

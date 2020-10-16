@@ -17,34 +17,34 @@ class AttRef:
 
     att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     red_att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="redAtt",
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "name": "redAtt",
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     inc_att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="incAtt",
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "name": "incAtt",
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     imp_att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="impAtt",
-            type="Attribute",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "impAtt",
+            "type": "Attribute",
+            "namespace": "http://importedXSD",
+        }
     )
 
 
@@ -59,18 +59,18 @@ class Red:
 
     red_ctatt: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="redCTAtt",
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "name": "redCTAtt",
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     xx: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -85,7 +85,7 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

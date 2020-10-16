@@ -29,7 +29,7 @@ class NistschemaSvIvAtomicGMonthEnumeration5:
 
     value: Optional[NistschemaSvIvAtomicGMonthEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -10,22 +10,22 @@ class Root:
     """
     total1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Total1",
-            type="Element",
-            namespace="",
-            required=True,
-            total_digits=3
-        )
+        metadata={
+            "name": "Total1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "total_digits": 3,
+        }
     )
     total2: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Total2",
-            type="Element",
-            namespace="",
-            required=True,
-            min_exclusive=100,
-            total_digits=3
-        )
+        metadata={
+            "name": "Total2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_exclusive": 100,
+            "total_digits": 3,
+        }
     )

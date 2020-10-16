@@ -11,11 +11,11 @@ class Test:
     """
     abc: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -26,12 +26,12 @@ class Test1:
     """
     abc: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 

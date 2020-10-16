@@ -12,8 +12,8 @@ class Doc:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            pattern=r"([\P{Ll}][\p{Ll}]*)\s([\P{Ll}][\p{Ll}]*)"
-        )
+        metadata={
+            "type": "Attribute",
+            "pattern": r"([\P{Ll}][\p{Ll}]*)\s([\P{Ll}][\p{Ll}]*)",
+        }
     )

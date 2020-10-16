@@ -11,12 +11,12 @@ class A:
     """
     c: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )
 
 
@@ -27,12 +27,12 @@ class C:
     """
     c: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -43,11 +43,11 @@ class B(A):
     """
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 

@@ -13,12 +13,10 @@ class Root:
 
     sub: List["Root.Sub"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
     @dataclass
@@ -28,9 +26,9 @@ class Root:
         """
         idelt: Optional[Decimal] = field(
             default=None,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                required=True
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "required": True,
+            }
         )

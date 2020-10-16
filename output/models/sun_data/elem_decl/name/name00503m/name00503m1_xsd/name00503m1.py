@@ -14,9 +14,9 @@ class Global1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"false"
-        )
+        metadata={
+            "pattern": r"false",
+        }
     )
 
 
@@ -30,9 +30,9 @@ class Global2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"false"
-        )
+        metadata={
+            "pattern": r"false",
+        }
     )
 
 
@@ -47,9 +47,9 @@ class Root:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )

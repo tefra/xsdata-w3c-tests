@@ -12,11 +12,11 @@ class Bar:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -35,52 +35,49 @@ class Foo:
 
     foo_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo",
+            "min_occurs": 1,
+        }
     )
     a_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="a",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "a",
+            "min_occurs": 1,
+        }
     )
     b_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="b",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "b",
+            "min_occurs": 1,
+        }
     )
     target_namespace_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+            "required": True,
+        }
     )
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "required": True,
+        }
     )
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )

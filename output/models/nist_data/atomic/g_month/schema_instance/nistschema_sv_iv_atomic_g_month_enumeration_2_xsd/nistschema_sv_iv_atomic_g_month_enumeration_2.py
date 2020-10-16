@@ -31,7 +31,7 @@ class NistschemaSvIvAtomicGMonthEnumeration2:
 
     value: Optional[NistschemaSvIvAtomicGMonthEnumeration2Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

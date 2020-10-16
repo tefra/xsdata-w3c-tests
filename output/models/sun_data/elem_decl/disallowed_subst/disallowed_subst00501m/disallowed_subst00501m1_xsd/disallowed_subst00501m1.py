@@ -14,9 +14,9 @@ class Head:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -30,9 +30,9 @@ class Member1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -48,19 +48,17 @@ class Root:
 
     member1: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Member1",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Member1",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     head: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Head",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Head",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

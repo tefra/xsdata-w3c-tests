@@ -26,11 +26,11 @@ class A2:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive=0,
-            max_inclusive=10
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": 0,
+            "max_inclusive": 10,
+        }
     )
 
 
@@ -55,11 +55,11 @@ class B2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_length=0,
-            max_length=10
-        )
+        metadata={
+            "required": True,
+            "min_length": 0,
+            "max_length": 10,
+        }
     )
 
 
@@ -118,9 +118,9 @@ class Item:
 
     value: Optional[object] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -134,9 +134,9 @@ class A3:
 
     value: Optional[A1] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -150,9 +150,9 @@ class B3:
 
     value: Optional[B1] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -166,10 +166,10 @@ class La:
 
     value: List[A1] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -183,10 +183,10 @@ class Lab:
 
     value: List[UnionAb] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -200,9 +200,9 @@ class Ra:
 
     value: Optional[RA] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -225,89 +225,79 @@ class Root:
 
     ra: List[RA] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     lab: List[List[UnionAb]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )
     la: List[List[A1]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )
     uab: List[UnionAb] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     ua: List[UnionA] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     b_element: List[B1] = field(
         default_factory=list,
-        metadata=dict(
-            name="b",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "b",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     a_element: List[A1] = field(
         default_factory=list,
-        metadata=dict(
-            name="a",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "a",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     b: List[B1] = field(
         default_factory=list,
-        metadata=dict(
-            name="B",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "B",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     a: List[A1] = field(
         default_factory=list,
-        metadata=dict(
-            name="A",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "A",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     item: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -321,9 +311,9 @@ class Ua:
 
     value: Optional[UnionA] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -337,7 +327,7 @@ class Uab:
 
     value: Optional[UnionAb] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

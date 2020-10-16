@@ -9,18 +9,18 @@ class Employees:
     """
     employee: int = field(
         default=1,
-        metadata=dict(
-            name="Employee",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Employee",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     dept: int = field(
         default=9,
-        metadata=dict(
-            name="Dept",
-            type="Attribute",
-            required=True
-        )
+        metadata={
+            "name": "Dept",
+            "type": "Attribute",
+            "required": True,
+        }
     )

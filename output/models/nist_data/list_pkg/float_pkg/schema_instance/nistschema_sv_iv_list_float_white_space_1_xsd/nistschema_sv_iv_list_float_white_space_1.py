@@ -15,9 +15,9 @@ class NistschemaSvIvListFloatWhiteSpace1:
 
     value: List[float] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            white_space="collapse",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+            "tokens": True,
+        }
     )

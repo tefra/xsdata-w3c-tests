@@ -12,10 +12,10 @@ class Root:
 
     e: List[Union[bool, int, str]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )

@@ -33,7 +33,7 @@ class NistschemaSvIvAtomicLongEnumeration1:
 
     value: Optional[NistschemaSvIvAtomicLongEnumeration1Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

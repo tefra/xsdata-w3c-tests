@@ -33,7 +33,7 @@ class NistschemaSvIvListNameEnumeration4:
 
     value: Optional[NistschemaSvIvListNameEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

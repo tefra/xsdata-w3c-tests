@@ -13,9 +13,9 @@ class Foo:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            total_digits=5,
-            fraction_digits=2
-        )
+        metadata={
+            "required": True,
+            "total_digits": 5,
+            "fraction_digits": 2,
+        }
     )

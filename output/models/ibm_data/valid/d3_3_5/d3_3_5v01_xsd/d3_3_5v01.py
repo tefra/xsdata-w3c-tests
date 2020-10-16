@@ -15,9 +15,9 @@ class Root:
 
     value: Optional[float] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive=0.0,
-            max_inclusive=5.0
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": 0.0,
+            "max_inclusive": 5.0,
+        }
     )

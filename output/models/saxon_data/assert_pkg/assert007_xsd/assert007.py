@@ -15,23 +15,20 @@ class T1:
 
     white: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://chess/ns/",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://chess/ns/",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )
     black: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://chess/ns/",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://chess/ns/",
+            "sequential": True,
+        }
     )
 
 
@@ -46,23 +43,20 @@ class T2:
 
     white: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://chess/ns/",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://chess/ns/",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )
     black: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://chess/ns/",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://chess/ns/",
+            "sequential": True,
+        }
     )
 
 
@@ -76,11 +70,11 @@ class T3(T2):
 
     result: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://chess/ns/",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://chess/ns/",
+            "required": True,
+        }
     )
 
 

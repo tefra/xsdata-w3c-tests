@@ -16,47 +16,41 @@ class Node:
 
     node: List["Node"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     mixed_a: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="mixedA",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "mixedA",
+            "type": "Element",
+            "tokens": True,
+        }
     )
     mixed_b: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="mixedB",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "mixedB",
+            "type": "Element",
+            "tokens": True,
+        }
     )
     mixed_a_attribute: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="mixedA",
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "name": "mixedA",
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
     mixed_b_attribute: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="mixedB",
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "name": "mixedB",
+            "type": "Attribute",
+            "tokens": True,
+        }
     )
 
 
@@ -70,9 +64,8 @@ class Doc:
 
     node: List[Node] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

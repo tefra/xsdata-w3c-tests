@@ -24,10 +24,9 @@ class Root:
 
     c: List[U3] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=40
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 40,
+        }
     )

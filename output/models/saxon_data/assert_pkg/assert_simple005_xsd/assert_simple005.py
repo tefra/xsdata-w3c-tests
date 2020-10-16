@@ -12,9 +12,9 @@ class ListType:
 
     value: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            tokens=True
-        )
+        metadata={
+            "tokens": True,
+        }
     )
 
 
@@ -28,11 +28,10 @@ class Outer:
 
     list_value: List[List[int]] = field(
         default_factory=list,
-        metadata=dict(
-            name="list",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "list",
+            "type": "Element",
+            "min_occurs": 1,
+            "tokens": True,
+        }
     )

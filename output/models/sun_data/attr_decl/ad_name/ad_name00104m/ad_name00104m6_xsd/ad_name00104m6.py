@@ -40,183 +40,183 @@ class Root:
 
     value_00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ٱ00",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ٱ00",
+            "type": "Attribute",
+        }
     )
     value_01: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ڔ01",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ڔ01",
+            "type": "Attribute",
+        }
     )
     value_02: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ڷ02",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ڷ02",
+            "type": "Attribute",
+        }
     )
     value_10: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ں10",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ں10",
+            "type": "Attribute",
+        }
     )
     value_11: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ڼ11",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ڼ11",
+            "type": "Attribute",
+        }
     )
     value_12: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ھ12",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ھ12",
+            "type": "Attribute",
+        }
     )
     value_20: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۀ20",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۀ20",
+            "type": "Attribute",
+        }
     )
     value_21: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۇ21",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۇ21",
+            "type": "Attribute",
+        }
     )
     value_22: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ێ22",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ێ22",
+            "type": "Attribute",
+        }
     )
     value_30: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ې30",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ې30",
+            "type": "Attribute",
+        }
     )
     value_31: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۑ31",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۑ31",
+            "type": "Attribute",
+        }
     )
     value_32: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۓ32",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۓ32",
+            "type": "Attribute",
+        }
     )
     value_40: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ە40",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ە40",
+            "type": "Attribute",
+        }
     )
     value_50: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۥ50",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۥ50",
+            "type": "Attribute",
+        }
     )
     value_51: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۥ51",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۥ51",
+            "type": "Attribute",
+        }
     )
     value_52: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ۦ52",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ۦ52",
+            "type": "Attribute",
+        }
     )
     value_60: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="अ60",
-            type="Attribute"
-        )
+        metadata={
+            "name": "अ60",
+            "type": "Attribute",
+        }
     )
     value_61: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ट61",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ट61",
+            "type": "Attribute",
+        }
     )
     value_62: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ह62",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ह62",
+            "type": "Attribute",
+        }
     )
     value_70: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ऽ70",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ऽ70",
+            "type": "Attribute",
+        }
     )
     value_80: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="क़80",
-            type="Attribute"
-        )
+        metadata={
+            "name": "क़80",
+            "type": "Attribute",
+        }
     )
     value_81: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ड़81",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ड़81",
+            "type": "Attribute",
+        }
     )
     value_82: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ॡ82",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ॡ82",
+            "type": "Attribute",
+        }
     )
     value_90: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="অ90",
-            type="Attribute"
-        )
+        metadata={
+            "name": "অ90",
+            "type": "Attribute",
+        }
     )
     value_91: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ঈ91",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ঈ91",
+            "type": "Attribute",
+        }
     )
     value_92: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ঌ92",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ঌ92",
+            "type": "Attribute",
+        }
     )

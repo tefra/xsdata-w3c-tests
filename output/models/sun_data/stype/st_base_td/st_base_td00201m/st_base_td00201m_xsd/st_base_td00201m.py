@@ -15,8 +15,8 @@ class Test:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            length=4
-        )
+        metadata={
+            "required": True,
+            "length": 4,
+        }
     )

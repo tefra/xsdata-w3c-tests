@@ -12,11 +12,11 @@ class FooTest:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"[A-C]{0,2}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[A-C]{0,2}",
+            "tokens": True,
+        }
     )
 
 
@@ -30,11 +30,11 @@ class Root:
 
     foo_test: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True,
-            pattern=r"[A-C]{0,2}",
-            tokens=True
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+            "pattern": r"[A-C]{0,2}",
+            "tokens": True,
+        }
     )

@@ -33,7 +33,7 @@ class NistschemaSvIvAtomicAnyUriEnumeration5:
 
     value: Optional[NistschemaSvIvAtomicAnyUriEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

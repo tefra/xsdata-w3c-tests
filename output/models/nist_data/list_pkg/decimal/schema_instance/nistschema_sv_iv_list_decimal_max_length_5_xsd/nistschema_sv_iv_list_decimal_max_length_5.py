@@ -16,9 +16,9 @@ class NistschemaSvIvListDecimalMaxLength5:
 
     value: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            max_length=10,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "max_length": 10,
+            "tokens": True,
+        }
     )

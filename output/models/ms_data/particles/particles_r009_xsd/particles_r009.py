@@ -11,12 +11,12 @@ class B:
     """
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=4,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "min_occurs": 4,
+            "max_occurs": 4,
+        }
     )
 
 
@@ -27,12 +27,11 @@ class R(B):
     """
     e1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 4,
+        }
     )
 
 
@@ -47,8 +46,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

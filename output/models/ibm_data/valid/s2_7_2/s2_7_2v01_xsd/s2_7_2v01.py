@@ -16,9 +16,9 @@ class B:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,12 +32,12 @@ class T:
 
     b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="a",
-            required=True,
-            nillable=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "a",
+            "required": True,
+            "nillable": True,
+        }
     )
 
 

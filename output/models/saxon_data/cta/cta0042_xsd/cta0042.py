@@ -16,9 +16,9 @@ class Zz:
     )
     type: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -44,12 +44,12 @@ class Zing:
 
     a: List[Union[Zz, ZzDouble, ZzInteger]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )
 
 

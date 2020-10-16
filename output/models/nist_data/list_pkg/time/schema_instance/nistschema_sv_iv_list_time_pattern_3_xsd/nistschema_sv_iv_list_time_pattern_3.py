@@ -15,9 +15,9 @@ class NistschemaSvIvListTimePattern3:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\d4:4\d:\d8 \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d \d3:0\d:\d6 \d6:4\d:\d6 \d8:\d2:2\d",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d4:4\d:\d8 \d4:2\d:2\d 0\d:4\d:3\d \d3:\d4:1\d 1\d:\d8:5\d \d2:\d3:4\d \d3:0\d:\d6 \d6:4\d:\d6 \d8:\d2:2\d",
+            "tokens": True,
+        }
     )

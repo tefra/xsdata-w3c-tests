@@ -15,12 +15,11 @@ class People:
 
     person: List["People.Person"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -35,13 +34,13 @@ class People:
         )
         parent: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
         birthday: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )

@@ -15,9 +15,9 @@ class H:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -31,9 +31,9 @@ class H111:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -47,9 +47,9 @@ class Hhhh:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -64,9 +64,9 @@ class II:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -80,9 +80,9 @@ class I11I:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -96,9 +96,9 @@ class IiiI:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -113,9 +113,9 @@ class JJ:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -129,9 +129,9 @@ class J1J1:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -145,9 +145,9 @@ class JjJj:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -162,9 +162,9 @@ class KKk:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -179,9 +179,9 @@ class K1Kk:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -196,9 +196,9 @@ class KkKk:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -213,9 +213,9 @@ class Ll:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -230,9 +230,9 @@ class Ll11:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -247,9 +247,9 @@ class Llll:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -264,9 +264,9 @@ class MmM:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -281,9 +281,9 @@ class Mm1M:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -298,9 +298,9 @@ class MmmM:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -315,9 +315,9 @@ class Nnn:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -332,9 +332,9 @@ class Nnn1:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -349,9 +349,9 @@ class Nnnn:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -366,9 +366,9 @@ class Oooo:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -383,9 +383,9 @@ class Aaaa:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -400,9 +400,9 @@ class Bbb0:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -417,9 +417,9 @@ class BbbB:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -434,9 +434,9 @@ class Bbb:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -451,9 +451,9 @@ class Cc0C:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -468,9 +468,9 @@ class CcCc:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -485,9 +485,9 @@ class CcC:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -502,9 +502,9 @@ class Dd00:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -519,9 +519,9 @@ class DdDd:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -536,9 +536,9 @@ class Dd:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -553,9 +553,9 @@ class E0Ee:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -570,9 +570,9 @@ class EEee:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -587,9 +587,9 @@ class EEe:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -604,9 +604,9 @@ class F0F0:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -621,9 +621,9 @@ class FFfF:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -638,9 +638,9 @@ class FF:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -655,9 +655,9 @@ class G000:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -672,9 +672,9 @@ class GGgg:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -689,9 +689,9 @@ class G:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -706,9 +706,9 @@ class P00P:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -723,9 +723,9 @@ class PPpp:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -740,9 +740,9 @@ class PP:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -800,343 +800,343 @@ class Root:
 
     aaaa: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     bbb_b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="bbbB",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "bbbB",
+            "type": "Element",
+            "required": True,
+        }
     )
     cc_cc: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ccCc",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "ccCc",
+            "type": "Element",
+            "required": True,
+        }
     )
     dd_dd: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="ddDD",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "ddDD",
+            "type": "Element",
+            "required": True,
+        }
     )
     e_eee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="eEee",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "eEee",
+            "type": "Element",
+            "required": True,
+        }
     )
     f_ff_f: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="fFfF",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "fFfF",
+            "type": "Element",
+            "required": True,
+        }
     )
     p_ppp: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="pPPp",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "pPPp",
+            "type": "Element",
+            "required": True,
+        }
     )
     g_ggg: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="gGGG",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "gGGG",
+            "type": "Element",
+            "required": True,
+        }
     )
     hhhh: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Hhhh",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Hhhh",
+            "type": "Element",
+            "required": True,
+        }
     )
     iii_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="IiiI",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "IiiI",
+            "type": "Element",
+            "required": True,
+        }
     )
     jj_jj: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="JjJj",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "JjJj",
+            "type": "Element",
+            "required": True,
+        }
     )
     kk_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="KkKK",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "KkKK",
+            "type": "Element",
+            "required": True,
+        }
     )
     llll: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LLll",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "LLll",
+            "type": "Element",
+            "required": True,
+        }
     )
     mmm_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MMmM",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "MMmM",
+            "type": "Element",
+            "required": True,
+        }
     )
     nnnn: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNNn",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "NNNn",
+            "type": "Element",
+            "required": True,
+        }
     )
     oooo: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="OOOO",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "OOOO",
+            "type": "Element",
+            "required": True,
+        }
     )
     bbb0: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     cc0c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     dd00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     e0ee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     f0f0: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     p00p: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     g000: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     bbb: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="bbb_",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "bbb_",
+            "type": "Element",
+            "required": True,
+        }
     )
     cc_c: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     dd: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="dd__",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "dd__",
+            "type": "Element",
+            "required": True,
+        }
     )
     e_ee: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     f_f: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="f_f_",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "f_f_",
+            "type": "Element",
+            "required": True,
+        }
     )
     p_p: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="p__p",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "p__p",
+            "type": "Element",
+            "required": True,
+        }
     )
     g: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="g___",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "g___",
+            "type": "Element",
+            "required": True,
+        }
     )
     h111: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="H111",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "H111",
+            "type": "Element",
+            "required": True,
+        }
     )
     i11_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="I11I",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "I11I",
+            "type": "Element",
+            "required": True,
+        }
     )
     j1_j1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="J1J1",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "J1J1",
+            "type": "Element",
+            "required": True,
+        }
     )
     k1_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="K1KK",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "K1KK",
+            "type": "Element",
+            "required": True,
+        }
     )
     ll11: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LL11",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "LL11",
+            "type": "Element",
+            "required": True,
+        }
     )
     mm1_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MM1M",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "MM1M",
+            "type": "Element",
+            "required": True,
+        }
     )
     nnn1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNN1",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "NNN1",
+            "type": "Element",
+            "required": True,
+        }
     )
     h: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="H---",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "H---",
+            "type": "Element",
+            "required": True,
+        }
     )
     i_i: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="I--I",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "I--I",
+            "type": "Element",
+            "required": True,
+        }
     )
     j_j: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="J-J-",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "J-J-",
+            "type": "Element",
+            "required": True,
+        }
     )
     k_kk: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="K-KK",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "K-KK",
+            "type": "Element",
+            "required": True,
+        }
     )
     ll: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="LL--",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "LL--",
+            "type": "Element",
+            "required": True,
+        }
     )
     mm_m: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="MM-M",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "MM-M",
+            "type": "Element",
+            "required": True,
+        }
     )
     nnn: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="NNN-",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "NNN-",
+            "type": "Element",
+            "required": True,
+        }
     )

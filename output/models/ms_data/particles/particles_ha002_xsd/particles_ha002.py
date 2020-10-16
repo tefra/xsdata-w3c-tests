@@ -15,18 +15,18 @@ class Base:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
     e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -42,14 +42,14 @@ class Doc:
 
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     e2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

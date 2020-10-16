@@ -13,18 +13,18 @@ class B:
     """
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -37,26 +37,26 @@ class R:
     """
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD"
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+        }
     )
     e1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -71,8 +71,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

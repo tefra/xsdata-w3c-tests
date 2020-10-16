@@ -12,11 +12,11 @@ class B:
     """
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "required": True,
+        }
     )
 
 
@@ -27,12 +27,12 @@ class R(B):
     """
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
 
 
@@ -47,8 +47,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

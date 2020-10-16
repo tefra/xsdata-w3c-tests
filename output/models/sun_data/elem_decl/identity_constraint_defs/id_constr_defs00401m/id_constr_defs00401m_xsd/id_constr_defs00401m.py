@@ -15,12 +15,11 @@ class Root:
 
     person: List["Root.Person"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -35,14 +34,14 @@ class Root:
         )
         ssn: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                required=True
-            )
+            metadata={
+                "type": "Attribute",
+                "required": True,
+            }
         )
         parent: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )

@@ -15,11 +15,11 @@ class AttRef:
     att: str = field(
         init=False,
         default="37",
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting",
-            required=True
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+            "required": True,
+        }
     )
 
 
@@ -34,7 +34,7 @@ class Doc:
 
     elem: Optional[AttRef] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

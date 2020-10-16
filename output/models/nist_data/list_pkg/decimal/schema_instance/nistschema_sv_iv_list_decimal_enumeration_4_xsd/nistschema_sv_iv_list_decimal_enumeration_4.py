@@ -39,7 +39,7 @@ class NistschemaSvIvListDecimalEnumeration4:
 
     value: Optional[NistschemaSvIvListDecimalEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

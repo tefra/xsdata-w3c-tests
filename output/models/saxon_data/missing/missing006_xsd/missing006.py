@@ -12,10 +12,10 @@ class Bad:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -29,7 +29,7 @@ class Good:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

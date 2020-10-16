@@ -15,11 +15,11 @@ class GlobalType:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -35,18 +35,18 @@ class Root:
 
     global_value: Optional[GlobalType] = field(
         default=None,
-        metadata=dict(
-            name="Global",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Global",
+            "type": "Element",
+            "required": True,
+        }
     )
     local: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

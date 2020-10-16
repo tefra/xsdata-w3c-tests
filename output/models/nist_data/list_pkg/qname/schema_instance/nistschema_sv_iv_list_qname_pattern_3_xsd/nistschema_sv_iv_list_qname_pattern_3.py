@@ -15,9 +15,9 @@ class NistschemaSvIvListQnamePattern3:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{55} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{21} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{18} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{41} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{18}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{55} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{21} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{18} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{41} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{18}",
+            "tokens": True,
+        }
     )

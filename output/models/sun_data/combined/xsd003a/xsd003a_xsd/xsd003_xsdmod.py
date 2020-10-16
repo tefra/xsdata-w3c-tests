@@ -15,20 +15,18 @@ class ComplexType:
 
     root: List["Root"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+        }
     )
     g_att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="gAtt",
-            type="Attribute",
-            namespace="foo"
-        )
+        metadata={
+            "name": "gAtt",
+            "type": "Attribute",
+            "namespace": "foo",
+        }
     )
 
 

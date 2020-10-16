@@ -13,11 +13,11 @@ class FooTest:
 
     value: Optional[Union[int, "FooTest.Value"]] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_inclusive=100,
-            max_inclusive=200
-        )
+        metadata={
+            "required": True,
+            "min_inclusive": 100,
+            "max_inclusive": 200,
+        }
     )
 
     class Value(Enum):
@@ -41,13 +41,13 @@ class Root:
 
     foo_test: Optional[Union[int, "Root.Value"]] = field(
         default=None,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            required=True,
-            min_inclusive=100,
-            max_inclusive=200
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "required": True,
+            "min_inclusive": 100,
+            "max_inclusive": 200,
+        }
     )
 
     class Value(Enum):

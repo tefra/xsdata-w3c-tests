@@ -12,11 +12,10 @@ class Doc:
 
     e: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            pattern=r"[\C]+"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "pattern": r"[\C]+",
+        }
     )

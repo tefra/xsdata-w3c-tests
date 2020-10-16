@@ -13,16 +13,16 @@ class Root:
 
     idref_element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     list_of_ids_attr: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Attribute",
-            tokens=True
-        )
+        metadata={
+            "type": "Attribute",
+            "tokens": True,
+        }
     )

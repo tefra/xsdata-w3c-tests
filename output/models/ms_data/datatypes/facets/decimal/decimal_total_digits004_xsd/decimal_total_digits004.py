@@ -13,10 +13,10 @@ class T1:
 
     att9: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            required=True,
-            total_digits=5,
-            fraction_digits=5
-        )
+        metadata={
+            "type": "Attribute",
+            "required": True,
+            "total_digits": 5,
+            "fraction_digits": 5,
+        }
     )

@@ -19,19 +19,19 @@ class Zing:
 
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     local_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "required": True,
+        }
     )
 
 

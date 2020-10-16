@@ -15,7 +15,7 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"[01]+"
-        )
+        metadata={
+            "pattern": r"[01]+",
+        }
     )

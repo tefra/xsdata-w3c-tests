@@ -18,44 +18,39 @@ class Root:
 
     el_dtime_type: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeType",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "elDTimeType",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     el_dtime_etprohibited: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeETProhibited",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            explicit_timezone="prohibited"
-        )
+        metadata={
+            "name": "elDTimeETProhibited",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "explicit_timezone": "prohibited",
+        }
     )
     el_dtime_etrequired: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeETRequired",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            explicit_timezone="required"
-        )
+        metadata={
+            "name": "elDTimeETRequired",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "explicit_timezone": "required",
+        }
     )
     el_dtime_etoptional: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="elDTimeETOptional",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            explicit_timezone="optional"
-        )
+        metadata={
+            "name": "elDTimeETOptional",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "explicit_timezone": "optional",
+        }
     )

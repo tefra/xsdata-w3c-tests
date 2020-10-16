@@ -15,19 +15,18 @@ class Bar:
 
     f1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 4,
+        }
     )
     f2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -42,19 +41,18 @@ class Foo:
 
     f1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 5,
+        }
     )
     f2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -66,17 +64,17 @@ class B:
     """
     c1: Optional[Foo] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     c2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -88,17 +86,17 @@ class R:
     """
     c1: Optional[Bar] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     c2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -120,7 +118,7 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

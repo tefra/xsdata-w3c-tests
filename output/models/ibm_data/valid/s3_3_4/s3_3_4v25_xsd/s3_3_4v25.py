@@ -13,15 +13,15 @@ class Ids:
 
     id1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     id2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -35,11 +35,11 @@ class Root:
 
     multiple_ids: Optional["Root.MultipleIds"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -50,13 +50,13 @@ class Root:
         """
         idref1: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )
         idref2: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )

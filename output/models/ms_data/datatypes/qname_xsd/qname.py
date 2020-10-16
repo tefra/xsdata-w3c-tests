@@ -13,11 +13,11 @@ class ComplexfooType:
 
     comp_foo: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -31,9 +31,9 @@ class SimpleTest:
 
     value: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -54,17 +54,17 @@ class Root:
 
     complex_test: Optional[ComplexTest] = field(
         default=None,
-        metadata=dict(
-            name="complexTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "complexTest",
+            "type": "Element",
+            "required": True,
+        }
     )
     simple_test: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            name="simpleTest",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "simpleTest",
+            "type": "Element",
+            "required": True,
+        }
     )

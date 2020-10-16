@@ -12,11 +12,11 @@ class T0020V1Type:
     """
     e: Optional[GlobalAddressTypeValues] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 

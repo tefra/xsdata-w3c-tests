@@ -9,11 +9,11 @@ class B:
     """
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -28,23 +28,21 @@ class Elem(B):
 
     a1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="A1",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999
-        )
+        metadata={
+            "name": "A1",
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+        }
     )
     a2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="A2",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=999999999999999
-        )
+        metadata={
+            "name": "A2",
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 999999999999999,
+        }
     )
 
 
@@ -58,8 +56,8 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

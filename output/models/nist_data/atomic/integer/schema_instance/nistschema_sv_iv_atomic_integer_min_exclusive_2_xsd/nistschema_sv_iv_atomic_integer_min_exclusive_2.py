@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicIntegerMinExclusive2:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            min_exclusive=511594901568435787
-        )
+        metadata={
+            "required": True,
+            "min_exclusive": 511594901568435787,
+        }
     )

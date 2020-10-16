@@ -12,10 +12,10 @@ class Para:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"[0-9]+-[0-9]+-[0-9]+"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[0-9]+-[0-9]+-[0-9]+",
+        }
     )
 
 
@@ -29,8 +29,8 @@ class Para2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"[0-9]+-[0-9]+-[0-9]+"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[0-9]+-[0-9]+-[0-9]+",
+        }
     )

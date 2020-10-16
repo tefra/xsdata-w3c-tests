@@ -14,11 +14,11 @@ class CInvalid:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -33,16 +33,16 @@ class Cs:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            min_length=1,
-            max_length=4
-        )
+        metadata={
+            "min_length": 1,
+            "max_length": 4,
+        }
     )
     a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -56,9 +56,9 @@ class Cc(Cs):
 
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -88,15 +88,15 @@ class Root:
 
     fr1_valid: Optional[Fr1Valid] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     fr_valid: Optional[FrValid] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -17,9 +17,9 @@ class Info2:
 
     value: Optional[Union[Decimal, "Info2.Value"]] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
     class Value(Enum):

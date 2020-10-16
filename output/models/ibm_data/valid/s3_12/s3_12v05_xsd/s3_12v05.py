@@ -15,16 +15,16 @@ class ChildTypeBase:
 
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     dob: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="DOB",
-            type="Attribute"
-        )
+        metadata={
+            "name": "DOB",
+            "type": "Attribute",
+        }
     )
 
 
@@ -39,16 +39,16 @@ class ChildTypeDerived:
 
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     dob: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="DOB",
-            type="Attribute"
-        )
+        metadata={
+            "name": "DOB",
+            "type": "Attribute",
+        }
     )
 
 
@@ -63,19 +63,18 @@ class CtAlt1:
 
     child: List[ChildTypeDerived] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
     number_of_children: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="numberOfChildren",
-            type="Attribute"
-        )
+        metadata={
+            "name": "numberOfChildren",
+            "type": "Attribute",
+        }
     )
 
 
@@ -90,19 +89,17 @@ class CtAlt2:
 
     child: List[ChildTypeBase] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     number_of_children: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="numberOfChildren",
-            type="Attribute"
-        )
+        metadata={
+            "name": "numberOfChildren",
+            "type": "Attribute",
+        }
     )
 
 
@@ -117,19 +114,17 @@ class CtBase:
 
     child: List[ChildTypeBase] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     number_of_children: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="numberOfChildren",
-            type="Attribute"
-        )
+        metadata={
+            "name": "numberOfChildren",
+            "type": "Attribute",
+        }
     )
 
 
@@ -144,10 +139,9 @@ class Root:
 
     person: List[Union[CtAlt1, CtAlt2, CtBase]] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )

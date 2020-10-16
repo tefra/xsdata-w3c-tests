@@ -19,8 +19,8 @@ class Root:
     nil: str = field(
         init=False,
         default="true",
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/2001/XMLSchema-instance"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+        }
     )

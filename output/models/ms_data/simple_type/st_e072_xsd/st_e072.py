@@ -12,10 +12,10 @@ class Doc:
 
     root: Optional[Union[str, int]] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
 

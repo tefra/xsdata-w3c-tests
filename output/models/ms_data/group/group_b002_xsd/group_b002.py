@@ -12,11 +12,11 @@ class ComplexType:
 
     x: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -32,24 +32,24 @@ class Elem(ComplexType):
 
     group_elem: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="groupElem",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "groupElem",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     att2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     att3: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -63,8 +63,8 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )

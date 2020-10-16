@@ -36,33 +36,33 @@ class Root:
     )
     ay_mdtype: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="ayMDType",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ayMDType",
+            "type": "Attribute",
+        }
     )
     ay_mdenumeration: Optional[YMdenumeration] = field(
         default=None,
-        metadata=dict(
-            name="ayMDEnumeration",
-            type="Attribute"
-        )
+        metadata={
+            "name": "ayMDEnumeration",
+            "type": "Attribute",
+        }
     )
     ay_mdmin_max_inclusive: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="ayMDMinMaxInclusive",
-            type="Attribute",
-            min_inclusive="-P2Y",
-            max_inclusive="P30Y23M"
-        )
+        metadata={
+            "name": "ayMDMinMaxInclusive",
+            "type": "Attribute",
+            "min_inclusive": "-P2Y",
+            "max_inclusive": "P30Y23M",
+        }
     )
     ay_mdmin_max_exclusive: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="ayMDMinMaxExclusive",
-            type="Attribute",
-            min_exclusive="-P2Y",
-            max_exclusive="P30Y23M"
-        )
+        metadata={
+            "name": "ayMDMinMaxExclusive",
+            "type": "Attribute",
+            "min_exclusive": "-P2Y",
+            "max_exclusive": "P30Y23M",
+        }
     )

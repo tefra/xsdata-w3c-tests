@@ -12,9 +12,9 @@ class Picture:
     """
     type: Optional["Picture.Type"] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
     class Type(Enum):
@@ -35,7 +35,7 @@ class A:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

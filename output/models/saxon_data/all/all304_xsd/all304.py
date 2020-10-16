@@ -15,36 +15,32 @@ class B:
 
     a: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     b: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=5
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 5,
+        }
     )
     c: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     one_com_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://one.com/",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://one.com/",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -60,26 +56,25 @@ class E(B):
 
     e: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     f: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Element",
+            "max_occurs": 4,
+        }
     )
     two_com_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="http://two.com/",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://two.com/",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
 
 

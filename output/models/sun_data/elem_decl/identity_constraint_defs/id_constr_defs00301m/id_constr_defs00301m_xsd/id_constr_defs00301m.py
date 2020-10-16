@@ -17,32 +17,26 @@ class Root:
 
     element: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     element_ref: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="ElementRef",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "ElementRef",
+            "type": "Element",
+            "namespace": "",
+        }
     )
     element_refs: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="ElementRefs",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            tokens=True
-        )
+        metadata={
+            "name": "ElementRefs",
+            "type": "Element",
+            "namespace": "",
+            "tokens": True,
+        }
     )

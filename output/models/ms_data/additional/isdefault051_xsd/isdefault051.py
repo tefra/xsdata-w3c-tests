@@ -14,21 +14,21 @@ class Root:
     attr1: int = field(
         init=False,
         default=123,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     attr2: str = field(
         init=False,
         default="abc",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     attr3: bool = field(
         init=False,
         default=True,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

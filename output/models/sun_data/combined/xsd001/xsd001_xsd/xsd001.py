@@ -15,12 +15,12 @@ class Root:
 
     child: List["Root.Child"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=3,
-            max_occurs=7
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 3,
+            "max_occurs": 7,
+        }
     )
 
     @dataclass
@@ -31,16 +31,16 @@ class Root:
         """
         value: Optional[str] = field(
             default=None,
-            metadata=dict(
-                min_length=3,
-                max_length=10
-            )
+            metadata={
+                "min_length": 3,
+                "max_length": 10,
+            }
         )
         attr: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute",
-                min_length=5,
-                max_length=10
-            )
+            metadata={
+                "type": "Attribute",
+                "min_length": 5,
+                "max_length": 10,
+            }
         )

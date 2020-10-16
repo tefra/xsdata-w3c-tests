@@ -12,12 +12,12 @@ class FooType:
 
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            min_exclusive="1999-01-31"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "min_exclusive": "1999-01-31",
+        }
     )
 
 

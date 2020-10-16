@@ -19,8 +19,8 @@ class Foo:
     )
     target_namespace_w3_org_1999_xhtml_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##targetNamespace http://www.w3.org/1999/xhtml"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##targetNamespace http://www.w3.org/1999/xhtml",
+        }
     )

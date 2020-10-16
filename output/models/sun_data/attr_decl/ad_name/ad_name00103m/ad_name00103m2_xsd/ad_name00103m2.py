@@ -17,22 +17,22 @@ class Root:
 
     str00_a: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str00Aー",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str00Aー",
+            "type": "Attribute",
+        }
     )
     str10: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str10-ヽ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str10-ヽ",
+            "type": "Attribute",
+        }
     )
     str20: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="str20ヾ",
-            type="Attribute"
-        )
+        metadata={
+            "name": "str20ヾ",
+            "type": "Attribute",
+        }
     )

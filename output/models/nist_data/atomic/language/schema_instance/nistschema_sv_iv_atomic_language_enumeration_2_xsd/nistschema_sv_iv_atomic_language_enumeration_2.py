@@ -35,7 +35,7 @@ class NistschemaSvIvAtomicLanguageEnumeration2:
 
     value: Optional[NistschemaSvIvAtomicLanguageEnumeration2Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

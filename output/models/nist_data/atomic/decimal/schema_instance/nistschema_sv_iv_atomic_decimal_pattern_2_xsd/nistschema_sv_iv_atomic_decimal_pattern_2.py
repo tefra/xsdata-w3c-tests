@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicDecimalPattern2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\-\d{2}\.\d{3}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\-\d{2}\.\d{3}",
+        }
     )

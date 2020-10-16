@@ -12,7 +12,7 @@ class Root:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            tokens=True
-        )
+        metadata={
+            "tokens": True,
+        }
     )

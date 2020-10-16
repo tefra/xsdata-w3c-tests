@@ -19,19 +19,19 @@ class FooType:
     )
     attr_test1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="attrTest1",
-            type="Attribute",
-            namespace="a"
-        )
+        metadata={
+            "name": "attrTest1",
+            "type": "Attribute",
+            "namespace": "a",
+        }
     )
     attr_test2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest2",
-            type="Attribute",
-            namespace="a"
-        )
+        metadata={
+            "name": "attrTest2",
+            "type": "Attribute",
+            "namespace": "a",
+        }
     )
 
 
@@ -50,17 +50,17 @@ class Mytype1:
     )
     attr_test1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="attrTest1",
-            type="Attribute",
-            namespace="a"
-        )
+        metadata={
+            "name": "attrTest1",
+            "type": "Attribute",
+            "namespace": "a",
+        }
     )
     attr_test2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="attrTest2",
-            type="Attribute",
-            namespace="a"
-        )
+        metadata={
+            "name": "attrTest2",
+            "type": "Attribute",
+            "namespace": "a",
+        }
     )

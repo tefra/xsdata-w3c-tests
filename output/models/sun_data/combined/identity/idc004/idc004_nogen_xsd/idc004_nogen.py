@@ -15,11 +15,10 @@ class Person:
 
     car: List["Person.Car"] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -30,17 +29,17 @@ class Person:
         """
         reg_state: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="regState",
-                type="Attribute"
-            )
+            metadata={
+                "name": "regState",
+                "type": "Attribute",
+            }
         )
         reg_plate: Optional[int] = field(
             default=None,
-            metadata=dict(
-                name="regPlate",
-                type="Attribute"
-            )
+            metadata={
+                "name": "regPlate",
+                "type": "Attribute",
+            }
         )
 
 
@@ -56,16 +55,16 @@ class Vehicle:
 
     plate_number: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="plateNumber",
-            type="Attribute"
-        )
+        metadata={
+            "name": "plateNumber",
+            "type": "Attribute",
+        }
     )
     state: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -82,27 +81,22 @@ class State:
 
     code: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     vehicle: List[Vehicle] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     person: List[Person] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
 
@@ -117,9 +111,8 @@ class Root:
 
     state: List[State] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

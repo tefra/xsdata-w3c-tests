@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicAnyUriPattern2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\c{3,6}://(\c{1,3}\.){1,4}\c{3}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\c{3,6}://(\c{1,3}\.){1,4}\c{3}",
+        }
     )

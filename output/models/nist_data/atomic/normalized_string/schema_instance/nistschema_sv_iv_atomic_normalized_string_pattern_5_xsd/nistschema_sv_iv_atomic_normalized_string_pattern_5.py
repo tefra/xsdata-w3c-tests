@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicNormalizedStringPattern5:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-Z]{2}\s19099-1858"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d{1,5}\s([A-Z][a-z]{1,20}\s){1}Street\s([A-Z][a-z]{1,20}\s){3},\s[A-Z]{2}\s19099-1858",
+        }
     )

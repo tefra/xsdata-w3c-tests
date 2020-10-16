@@ -17,34 +17,31 @@ class Root:
 
     account: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Account",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "name": "Account",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )
     name: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Name",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "name": "Name",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )
     manager: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="Manager",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "name": "Manager",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "sequential": True,
+        }
     )

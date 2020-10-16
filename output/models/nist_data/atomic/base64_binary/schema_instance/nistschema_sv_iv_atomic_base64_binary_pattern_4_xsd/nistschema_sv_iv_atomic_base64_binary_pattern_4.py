@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicBase64BinaryPattern4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"[a-zA-Z0-9+/]{24}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"[a-zA-Z0-9+/]{24}",
+        }
     )

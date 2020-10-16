@@ -16,11 +16,11 @@ class Root:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -34,12 +34,12 @@ class Type1:
 
     local: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 
@@ -53,10 +53,10 @@ class Type2:
 
     local: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            name="Local",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "Local",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

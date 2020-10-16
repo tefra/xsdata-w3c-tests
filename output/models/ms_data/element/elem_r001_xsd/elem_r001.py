@@ -16,25 +16,25 @@ class Usaddress:
 
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="testNS",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "testNS",
+            "required": True,
+        }
     )
     street: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="testNS",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "testNS",
+            "required": True,
+        }
     )
     country: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -49,9 +49,9 @@ class Comment:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -64,28 +64,28 @@ class PurchaseOrderType:
     """
     ship_to: Optional[Usaddress] = field(
         default=None,
-        metadata=dict(
-            name="shipTo",
-            type="Element",
-            namespace="testNS",
-            required=True
-        )
+        metadata={
+            "name": "shipTo",
+            "type": "Element",
+            "namespace": "testNS",
+            "required": True,
+        }
     )
     bill_to: Optional[Usaddress] = field(
         default=None,
-        metadata=dict(
-            name="billTo",
-            type="Element",
-            namespace="testNS",
-            required=True
-        )
+        metadata={
+            "name": "billTo",
+            "type": "Element",
+            "namespace": "testNS",
+            "required": True,
+        }
     )
     comment: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="testNS"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "testNS",
+        }
     )
 
 

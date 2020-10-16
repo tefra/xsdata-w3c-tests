@@ -12,7 +12,7 @@ class E:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            pattern=r"[a-z-[m-n]]*"
-        )
+        metadata={
+            "pattern": r"[a-z-[m-n]]*",
+        }
     )

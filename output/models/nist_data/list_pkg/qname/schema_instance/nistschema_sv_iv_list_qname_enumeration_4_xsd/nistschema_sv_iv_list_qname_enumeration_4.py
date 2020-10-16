@@ -33,9 +33,9 @@ class TypeAllThemSemanticsAndToolReferenceAndTheIncludeImprove:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -50,9 +50,9 @@ class TypeAndAddressingPartnershipsAAndDataTool:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -67,9 +67,9 @@ class TypeContainingUsedVisiblyTestConsortiumsThisSecurityProf:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -84,9 +84,9 @@ class TypeHamperedOnHasBackMeasureAndBrowsersInvestigatio:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -101,9 +101,9 @@ class TypeOfMustInLiesTheRequestingStructureSyst:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -118,9 +118,9 @@ class TypeSpecificationCalledCorrectio:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -135,9 +135,9 @@ class TypeTestFrameworksTechnicalWirel:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -152,9 +152,9 @@ class AcareFileSecurityFile:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -169,9 +169,9 @@ class Area:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -186,9 +186,9 @@ class DbasisAndContainsThatAnd2000ParadigmRevolutionDes:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -203,9 +203,9 @@ class IisDesktopInformationIn:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -220,9 +220,9 @@ class KsupplyOfferSUsingYea:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -237,9 +237,9 @@ class MenvironmentForSupplyOfDevel:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -254,9 +254,9 @@ class QalsoCorrectionInContextRichAndIsD:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -271,9 +271,9 @@ class SofAsAndTheIndustrySoftwareAndTheNetworksCompetence:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -288,9 +288,9 @@ class VandConsor:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -305,9 +305,9 @@ class XcompetenceBusinessAndIsDyn:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -322,7 +322,7 @@ class NistschemaSvIvListQnameEnumeration4:
 
     value: Optional[NistschemaSvIvListQnameEnumeration4Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

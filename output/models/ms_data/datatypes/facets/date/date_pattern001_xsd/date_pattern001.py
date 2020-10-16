@@ -12,12 +12,12 @@ class FooType:
 
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True,
-            pattern=r"[0-9]{4}-[0-9]{2}-[0-9]{2}"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+            "pattern": r"[0-9]{4}-[0-9]{2}-[0-9]{2}",
+        }
     )
 
 

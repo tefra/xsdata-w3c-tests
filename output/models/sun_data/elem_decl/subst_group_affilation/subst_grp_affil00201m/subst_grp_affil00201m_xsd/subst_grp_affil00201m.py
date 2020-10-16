@@ -14,11 +14,11 @@ class Element:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -32,11 +32,11 @@ class SuperElement:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -50,11 +50,11 @@ class SuperSuperElement:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -72,36 +72,33 @@ class Root:
 
     super_element: List[SuperElement] = field(
         default_factory=list,
-        metadata=dict(
-            name="SuperElement",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "SuperElement",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     super_super_element: List[SuperSuperElement] = field(
         default_factory=list,
-        metadata=dict(
-            name="SuperSuperElement",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "SuperSuperElement",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
     separator: Optional[object] = field(
         default=None,
-        metadata=dict(
-            name="Separator",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "Separator",
+            "type": "Element",
+            "required": True,
+        }
     )
     element: List[Element] = field(
         default_factory=list,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            min_occurs=1,
-            max_occurs=18446744073709551614
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

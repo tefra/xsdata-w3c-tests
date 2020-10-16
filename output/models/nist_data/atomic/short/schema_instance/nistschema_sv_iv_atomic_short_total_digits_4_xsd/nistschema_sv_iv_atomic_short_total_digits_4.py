@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicShortTotalDigits4:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            total_digits=4
-        )
+        metadata={
+            "required": True,
+            "total_digits": 4,
+        }
     )

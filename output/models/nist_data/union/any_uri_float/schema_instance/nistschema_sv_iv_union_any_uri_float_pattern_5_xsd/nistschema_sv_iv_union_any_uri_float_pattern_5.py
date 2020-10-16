@@ -15,8 +15,8 @@ class NistschemaSvIvUnionAnyUriFloatPattern5:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\d{1}E\-\d{2}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d{1}E\-\d{2}",
+        }
     )

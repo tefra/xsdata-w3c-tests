@@ -12,12 +12,12 @@ class B:
     """
     local_foo_target_namespace_imported_xsd_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local foo ##targetNamespace http://importedXSD bar",
-            min_occurs=1,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local foo ##targetNamespace http://importedXSD bar",
+            "min_occurs": 1,
+            "max_occurs": 10,
+        }
     )
 
 
@@ -28,13 +28,13 @@ class R(B):
     """
     imp_elem1: List[ImpElem1] = field(
         default_factory=list,
-        metadata=dict(
-            name="impElem1",
-            type="Element",
-            namespace="http://importedXSD",
-            min_occurs=2,
-            max_occurs=5
-        )
+        metadata={
+            "name": "impElem1",
+            "type": "Element",
+            "namespace": "http://importedXSD",
+            "min_occurs": 2,
+            "max_occurs": 5,
+        }
     )
 
 
@@ -49,8 +49,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

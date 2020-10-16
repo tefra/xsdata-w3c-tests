@@ -15,27 +15,27 @@ class Test:
 
     complex_att: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="complexAtt",
-            type="Attribute"
-        )
+        metadata={
+            "name": "complexAtt",
+            "type": "Attribute",
+        }
     )
     global_att: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="globalAtt",
-            type="Attribute"
-        )
+        metadata={
+            "name": "globalAtt",
+            "type": "Attribute",
+        }
     )
     item1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
     item2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )

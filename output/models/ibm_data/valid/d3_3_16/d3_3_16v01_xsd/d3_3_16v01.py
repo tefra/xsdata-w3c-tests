@@ -15,11 +15,10 @@ class Root:
 
     ele: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            max_length=4
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_length": 4,
+        }
     )

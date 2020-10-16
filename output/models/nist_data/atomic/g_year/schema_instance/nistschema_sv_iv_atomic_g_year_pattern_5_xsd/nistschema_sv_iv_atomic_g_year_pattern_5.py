@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicGYearPattern5:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\d\d21"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\d\d21",
+        }
     )

@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicPositiveIntegerTotalDigits1:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            total_digits=1
-        )
+        metadata={
+            "required": True,
+            "total_digits": 1,
+        }
     )

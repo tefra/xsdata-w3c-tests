@@ -13,27 +13,27 @@ class Root:
 
     str_value: str = field(
         default="abc",
-        metadata=dict(
-            name="str",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "str",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     number: int = field(
         default=123,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     bool_value: bool = field(
         default=True,
-        metadata=dict(
-            name="bool",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "bool",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

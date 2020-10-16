@@ -111,66 +111,52 @@ class Container1:
 
     g: List[G] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     f: List[F] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     e: List[E] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     d: List[D] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     c: List[C] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     b: List[B] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
     a: List[A] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.microsoft.com/schema/1",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.microsoft.com/schema/1",
+        }
     )
 
 

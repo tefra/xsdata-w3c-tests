@@ -17,20 +17,20 @@ class ElementWithAttr:
 
     number: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="AttrDecl/type",
-            min_exclusive=0,
-            max_exclusive=13
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "AttrDecl/type",
+            "min_exclusive": 0,
+            "max_exclusive": 13,
+        }
     )
     price: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            min_exclusive=0.0,
-            max_exclusive=13.0
-        )
+        metadata={
+            "type": "Attribute",
+            "min_exclusive": 0.0,
+            "max_exclusive": 13.0,
+        }
     )
 
 
@@ -45,9 +45,9 @@ class Root:
 
     element_with_attr: Optional[ElementWithAttr] = field(
         default=None,
-        metadata=dict(
-            name="elementWithAttr",
-            type="Element",
-            required=True
-        )
+        metadata={
+            "name": "elementWithAttr",
+            "type": "Element",
+            "required": True,
+        }
     )

@@ -15,13 +15,12 @@ class Root:
 
     meeting: List["Root.Meeting"] = field(
         default_factory=list,
-        metadata=dict(
-            name="Meeting",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Meeting",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
     )
 
     @dataclass
@@ -32,16 +31,16 @@ class Root:
         """
         beverage: Optional[Union[int, str]] = field(
             default=None,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                required=True
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "required": True,
+            }
         )
         end_time: Optional[int] = field(
             default=None,
-            metadata=dict(
-                name="end-time",
-                type="Attribute"
-            )
+            metadata={
+                "name": "end-time",
+                "type": "Attribute",
+            }
         )

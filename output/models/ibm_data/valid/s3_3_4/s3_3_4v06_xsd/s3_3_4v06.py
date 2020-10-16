@@ -12,9 +12,9 @@ class Ids:
 
     id1: str = field(
         default="zxc",
-        metadata=dict(
-            type="Attribute"
-        )
+        metadata={
+            "type": "Attribute",
+        }
     )
 
 
@@ -28,9 +28,9 @@ class Root:
 
     a: Optional[Ids] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

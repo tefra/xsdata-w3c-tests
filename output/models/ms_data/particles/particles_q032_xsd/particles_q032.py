@@ -13,20 +13,19 @@ class B:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     target_namespace_foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace foo bar",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace foo bar",
+            "max_occurs": 4,
+        }
     )
 
 
@@ -41,11 +40,11 @@ class E2:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -60,45 +59,43 @@ class R:
     """
     foo: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     target_namespace_foo_bar_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace foo bar",
-            min_occurs=0,
-            max_occurs=4
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace foo bar",
+            "max_occurs": 4,
+        }
     )
     e2: List[ParticlesQ032ImpE2] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "max_occurs": 2,
+        }
     )
     e2_1: Optional[E2] = field(
         default=None,
-        metadata=dict(
-            name="e2",
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "name": "e2",
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     e2_2: Optional[E2] = field(
         default=None,
-        metadata=dict(
-            name="e2",
-            type="Element",
-            namespace="bar"
-        )
+        metadata={
+            "name": "e2",
+            "type": "Element",
+            "namespace": "bar",
+        }
     )
 
 
@@ -113,8 +110,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

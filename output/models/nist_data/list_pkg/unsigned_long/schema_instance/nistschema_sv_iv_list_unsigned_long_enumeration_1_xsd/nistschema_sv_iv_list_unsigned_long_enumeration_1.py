@@ -31,7 +31,7 @@ class NistschemaSvIvListUnsignedLongEnumeration1:
 
     value: Optional[NistschemaSvIvListUnsignedLongEnumeration1Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

@@ -15,13 +15,12 @@ class Root:
 
     elflt_union_c: List[float] = field(
         default_factory=list,
-        metadata=dict(
-            name="elfltUnionC",
-            type="Element",
-            namespace="",
-            min_occurs=1,
-            max_occurs=9223372036854775807,
-            min_inclusive=-12.0,
-            max_inclusive=12.0
-        )
+        metadata={
+            "name": "elfltUnionC",
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "min_inclusive": -12.0,
+            "max_inclusive": 12.0,
+        }
     )

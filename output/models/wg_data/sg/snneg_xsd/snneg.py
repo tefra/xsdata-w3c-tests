@@ -14,36 +14,34 @@ class T:
     """
     s1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
     s: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
     n: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "required": True,
+        }
     )
     any_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+        }
     )
 
 
@@ -58,9 +56,9 @@ class E:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -75,9 +73,9 @@ class N:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -92,9 +90,9 @@ class N1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -109,9 +107,9 @@ class S:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -126,9 +124,9 @@ class S1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 

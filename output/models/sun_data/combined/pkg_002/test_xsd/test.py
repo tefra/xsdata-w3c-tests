@@ -11,11 +11,11 @@ class B:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -26,11 +26,11 @@ class Dr:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -41,11 +41,11 @@ class Drr:
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )
 
 
@@ -76,11 +76,10 @@ class Root:
 
     item: List[B] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )
 
 
@@ -96,9 +95,9 @@ class Der(De):
     """
     foo: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="foo",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
     )

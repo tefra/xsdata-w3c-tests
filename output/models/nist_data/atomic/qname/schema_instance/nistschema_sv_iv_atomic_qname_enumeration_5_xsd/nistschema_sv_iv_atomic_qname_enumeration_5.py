@@ -34,9 +34,9 @@ class TypeForFilesSupplyForToMustMeasur:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -51,9 +51,9 @@ class HmanipulateUs:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -68,9 +68,9 @@ class PsPervasiveInHouseOnPerformanceAls:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -85,9 +85,9 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -102,7 +102,7 @@ class NistschemaSvIvAtomicQnameEnumeration5:
 
     value: Optional[NistschemaSvIvAtomicQnameEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

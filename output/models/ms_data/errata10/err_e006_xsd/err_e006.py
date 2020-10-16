@@ -20,57 +20,57 @@ class Root:
 
     test_date: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testDate",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testDate",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     test_gyear_month: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGYearMonth",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testGYearMonth",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     test_gmonth_day: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGMonthDay",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testGMonthDay",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     test_gday: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGDay",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testGDay",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     test_gmonth: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGMonth",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testGMonth",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
     test_gyear: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="testGYear",
-            type="Element",
-            min_occurs=2,
-            max_occurs=2
-        )
+        metadata={
+            "name": "testGYear",
+            "type": "Element",
+            "min_occurs": 2,
+            "max_occurs": 2,
+        }
     )
 
 
@@ -85,9 +85,9 @@ class TestDate:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -102,9 +102,9 @@ class TestGday:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -119,9 +119,9 @@ class TestGmonth:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -136,9 +136,9 @@ class TestGmonthDay:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -153,9 +153,9 @@ class TestGyear:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -170,7 +170,7 @@ class TestGyearMonth:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

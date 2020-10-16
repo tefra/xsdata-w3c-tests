@@ -61,21 +61,21 @@ class Root:
 
     el_enumeration_a: List["Root.Value"] = field(
         default_factory=list,
-        metadata=dict(
-            name="elEnumerationA",
-            type="Element",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "name": "elEnumerationA",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )
     el_enumeration_b: List["Root.Value"] = field(
         default_factory=list,
-        metadata=dict(
-            name="elEnumerationB",
-            type="Element",
-            min_occurs=1,
-            max_occurs=3
-        )
+        metadata={
+            "name": "elEnumerationB",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 3,
+        }
     )
 
     class Value(Enum):

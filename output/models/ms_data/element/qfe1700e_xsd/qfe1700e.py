@@ -13,9 +13,9 @@ class E1:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -29,9 +29,9 @@ class Root:
 
     e1: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True,
-            nillable=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+            "nillable": True,
+        }
     )

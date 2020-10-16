@@ -12,9 +12,9 @@ class FooTest:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -28,10 +28,10 @@ class Root:
 
     foo_test: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="fooTest",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2
-        )
+        metadata={
+            "name": "fooTest",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
     )

@@ -12,31 +12,31 @@ class X:
     """
     a: Optional["X.A"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
     @dataclass
@@ -47,19 +47,18 @@ class X:
         """
         a1: List[str] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=1,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_occurs": 1,
+            }
         )
         a_count: Optional[int] = field(
             default=None,
-            metadata=dict(
-                name="aCount",
-                type="Attribute"
-            )
+            metadata={
+                "name": "aCount",
+                "type": "Attribute",
+            }
         )
 
 
@@ -73,31 +72,31 @@ class Y:
     """
     a: Optional["Y.A"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     b: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     c: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
     d: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
     @dataclass
@@ -108,19 +107,18 @@ class Y:
         """
         a1: List[str] = field(
             default_factory=list,
-            metadata=dict(
-                type="Element",
-                namespace="",
-                min_occurs=1,
-                max_occurs=9223372036854775807
-            )
+            metadata={
+                "type": "Element",
+                "namespace": "",
+                "min_occurs": 1,
+            }
         )
         a_count: Optional[int] = field(
             default=None,
-            metadata=dict(
-                name="aCount",
-                type="Attribute"
-            )
+            metadata={
+                "name": "aCount",
+                "type": "Attribute",
+            }
         )
 
 
@@ -135,17 +133,17 @@ class Test:
 
     x: Optional[X] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
     y: Optional[Y] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

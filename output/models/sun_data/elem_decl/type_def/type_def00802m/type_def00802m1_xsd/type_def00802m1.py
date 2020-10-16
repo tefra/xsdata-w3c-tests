@@ -14,10 +14,10 @@ class Element:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"1|0"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"1|0",
+        }
     )
 
 
@@ -32,10 +32,10 @@ class Root:
 
     element: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="Element",
-            type="Element",
-            required=True,
-            pattern=r"1|0"
-        )
+        metadata={
+            "name": "Element",
+            "type": "Element",
+            "required": True,
+            "pattern": r"1|0",
+        }
     )

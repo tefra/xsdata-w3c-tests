@@ -12,12 +12,12 @@ class RootType:
 
     date_ele: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="dateEle",
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "name": "dateEle",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 

@@ -16,15 +16,15 @@ class Root:
 
     a_a: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="Aƻa",
-            type="Attribute"
-        )
+        metadata={
+            "name": "Aƻa",
+            "type": "Attribute",
+        }
     )
     b_b: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="bƻB",
-            type="Attribute"
-        )
+        metadata={
+            "name": "bƻB",
+            "type": "Attribute",
+        }
     )

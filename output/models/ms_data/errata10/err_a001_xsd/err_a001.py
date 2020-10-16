@@ -29,155 +29,127 @@ class Root:
 
     test_byte: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testByte",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testByte",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_unsigned_byte: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testUnsignedByte",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testUnsignedByte",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_integer: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testInteger",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testInteger",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_positive_integer: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testPositiveInteger",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testPositiveInteger",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_negative_integer: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testNegativeInteger",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testNegativeInteger",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_non_negative_integer: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testNonNegativeInteger",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testNonNegativeInteger",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_non_positive_integer: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testNonPositiveInteger",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testNonPositiveInteger",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_int: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testInt",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testInt",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_unsigned_int: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testUnsignedInt",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testUnsignedInt",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_long: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testLong",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testLong",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_unsigned_long: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testUnsignedLong",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testUnsignedLong",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_short: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testShort",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testShort",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_unsigned_short: List[int] = field(
         default_factory=list,
-        metadata=dict(
-            name="testUnsignedShort",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=0
-        )
+        metadata={
+            "name": "testUnsignedShort",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 0,
+        }
     )
     test_decimal: List[Decimal] = field(
         default_factory=list,
-        metadata=dict(
-            name="testDecimal",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            fraction_digits=5
-        )
+        metadata={
+            "name": "testDecimal",
+            "type": "Element",
+            "namespace": "",
+            "fraction_digits": 5,
+        }
     )

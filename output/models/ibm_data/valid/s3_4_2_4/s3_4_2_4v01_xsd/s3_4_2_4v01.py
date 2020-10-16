@@ -17,26 +17,26 @@ class Root:
 
     default_attr: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="defaultAttr",
-            type="Attribute",
-            namespace="http://xstest-tns/schema11_S3_4_2_4",
-            required=True
-        )
+        metadata={
+            "name": "defaultAttr",
+            "type": "Attribute",
+            "namespace": "http://xstest-tns/schema11_S3_4_2_4",
+            "required": True,
+        }
     )
     e1: Optional["Root.E1"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
     e2: Optional["Root.E2"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -46,12 +46,12 @@ class Root:
         """
         default_attr: Optional[bool] = field(
             default=None,
-            metadata=dict(
-                name="defaultAttr",
-                type="Attribute",
-                namespace="http://xstest-tns/schema11_S3_4_2_4",
-                required=True
-            )
+            metadata={
+                "name": "defaultAttr",
+                "type": "Attribute",
+                "namespace": "http://xstest-tns/schema11_S3_4_2_4",
+                "required": True,
+            }
         )
 
     @dataclass
@@ -61,10 +61,10 @@ class Root:
         """
         default_attr: Optional[bool] = field(
             default=None,
-            metadata=dict(
-                name="defaultAttr",
-                type="Attribute",
-                namespace="http://xstest-tns/schema11_S3_4_2_4",
-                required=True
-            )
+            metadata={
+                "name": "defaultAttr",
+                "type": "Attribute",
+                "namespace": "http://xstest-tns/schema11_S3_4_2_4",
+                "required": True,
+            }
         )

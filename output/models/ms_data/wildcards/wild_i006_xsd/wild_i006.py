@@ -15,11 +15,11 @@ class Bar:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -37,37 +37,33 @@ class Foo:
 
     a_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="a",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "a",
+            "max_occurs": 10,
+        }
     )
     b_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="b",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "b",
+            "max_occurs": 10,
+        }
     )
     target_namespace_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##targetNamespace",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##targetNamespace",
+            "max_occurs": 10,
+        }
     )
     local_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##local",
-            min_occurs=0,
-            max_occurs=10
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "max_occurs": 10,
+        }
     )

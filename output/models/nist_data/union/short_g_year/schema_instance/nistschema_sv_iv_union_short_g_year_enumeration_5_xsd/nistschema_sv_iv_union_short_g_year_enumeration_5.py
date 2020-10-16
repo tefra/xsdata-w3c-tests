@@ -35,7 +35,7 @@ class NistschemaSvIvUnionShortGYearEnumeration5:
 
     value: Optional[NistschemaSvIvUnionShortGYearEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

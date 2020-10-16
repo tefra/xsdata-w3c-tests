@@ -13,23 +13,21 @@ class Doc:
 
     id: List["Doc.Id"] = field(
         default_factory=list,
-        metadata=dict(
-            name="ID",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "name": "ID",
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 2,
+        }
     )
     elem: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=2,
-            pattern=r"\c[\c\d]*"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "max_occurs": 2,
+            "pattern": r"\c[\c\d]*",
+        }
     )
 
     @dataclass
@@ -39,7 +37,7 @@ class Doc:
         """
         att: Optional[str] = field(
             default=None,
-            metadata=dict(
-                type="Attribute"
-            )
+            metadata={
+                "type": "Attribute",
+            }
         )

@@ -9,10 +9,10 @@ class B:
     """
     target003_com_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="http://www.target003.com/"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "http://www.target003.com/",
+        }
     )
 
 
@@ -23,10 +23,10 @@ class R(B):
     """
     att: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.target003.com/"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.target003.com/",
+        }
     )
 
 

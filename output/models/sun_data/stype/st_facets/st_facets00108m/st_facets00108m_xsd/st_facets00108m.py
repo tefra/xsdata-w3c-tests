@@ -15,8 +15,8 @@ class Test:
 
     value: Optional[int] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            max_inclusive=-10
-        )
+        metadata={
+            "required": True,
+            "max_inclusive": -10,
+        }
     )

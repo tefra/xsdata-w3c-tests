@@ -39,7 +39,7 @@ class NistschemaSvIvListAnyUriEnumeration5:
 
     value: Optional[NistschemaSvIvListAnyUriEnumeration5Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

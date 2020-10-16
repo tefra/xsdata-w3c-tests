@@ -11,9 +11,9 @@ class Root:
 
     e1: str = field(
         default="asd",
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )

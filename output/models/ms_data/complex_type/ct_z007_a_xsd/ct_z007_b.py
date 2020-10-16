@@ -14,28 +14,28 @@ class CustomerType:
     """
     first_name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="FirstName",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:customer",
-            required=True
-        )
+        metadata={
+            "name": "FirstName",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
+        }
     )
     last_name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="LastName",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:customer",
-            required=True
-        )
+        metadata={
+            "name": "LastName",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:customer",
+            "required": True,
+        }
     )
     customer_id: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="customerID",
-            type="Attribute"
-        )
+        metadata={
+            "name": "customerID",
+            "type": "Attribute",
+        }
     )
 
 
@@ -49,9 +49,9 @@ class FirstName:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -65,9 +65,9 @@ class LastName:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -81,9 +81,9 @@ class PhoneNumber:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -104,20 +104,18 @@ class Customers:
 
     my_customer: List[MyCustomer] = field(
         default_factory=list,
-        metadata=dict(
-            name="MyCustomer",
-            type="Element",
-            namespace="urn:xmlns:25hoursaday-com:address",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "MyCustomer",
+            "type": "Element",
+            "namespace": "urn:xmlns:25hoursaday-com:address",
+            "min_occurs": 1,
+        }
     )
     customer: List[Customer] = field(
         default_factory=list,
-        metadata=dict(
-            name="Customer",
-            type="Element",
-            min_occurs=1,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "Customer",
+            "type": "Element",
+            "min_occurs": 1,
+        }
     )

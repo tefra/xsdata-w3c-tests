@@ -17,8 +17,8 @@ class Root:
     )
     type: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://www.w3.org/2001/XMLSchema-instance"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+        }
     )

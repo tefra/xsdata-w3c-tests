@@ -12,11 +12,11 @@ class Ct:
     a: object = field(
         init=False,
         default="fixed_value",
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
 

@@ -14,43 +14,35 @@ class B:
     """
     c1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     c2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     d1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     d2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
 
 
@@ -64,42 +56,34 @@ class R:
     """
     c1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     c2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     d1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            sequential=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "sequential": True,
+        }
     )
     d2: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )
 
 
@@ -114,8 +98,8 @@ class Doc:
 
     elem: Optional[R] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace=""
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
     )

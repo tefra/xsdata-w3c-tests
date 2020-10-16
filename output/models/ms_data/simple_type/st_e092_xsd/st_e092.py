@@ -13,7 +13,7 @@ class Root:
 
     value: List[Union[float, Decimal, int]] = field(
         default_factory=list,
-        metadata=dict(
-            tokens=True
-        )
+        metadata={
+            "tokens": True,
+        }
     )

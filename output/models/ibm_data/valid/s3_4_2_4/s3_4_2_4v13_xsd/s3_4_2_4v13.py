@@ -15,21 +15,21 @@ class AttrGoupType:
 
     default_attr1: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="defaultAttr1",
-            type="Attribute",
-            namespace="http://xstest-tns/schema11_S3_4_2_4",
-            required=True
-        )
+        metadata={
+            "name": "defaultAttr1",
+            "type": "Attribute",
+            "namespace": "http://xstest-tns/schema11_S3_4_2_4",
+            "required": True,
+        }
     )
     default_attr2: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            name="defaultAttr2",
-            type="Attribute",
-            namespace="http://xstest-tns/schema11_S3_4_2_4",
-            required=True
-        )
+        metadata={
+            "name": "defaultAttr2",
+            "type": "Attribute",
+            "namespace": "http://xstest-tns/schema11_S3_4_2_4",
+            "required": True,
+        }
     )
 
 

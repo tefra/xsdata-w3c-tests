@@ -13,25 +13,25 @@ class AddressType:
     """
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.example.com/add",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/add",
+            "required": True,
+        }
     )
     street: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.example.com/add",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/add",
+            "required": True,
+        }
     )
     city: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://www.example.com/add",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/add",
+            "required": True,
+        }
     )

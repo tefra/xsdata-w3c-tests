@@ -11,34 +11,34 @@ class DataTypes:
     """
     id: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="ID",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True
-        )
+        metadata={
+            "name": "ID",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 2,
+            "sequential": True,
+        }
     )
     idref: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="IDREF",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True
-        )
+        metadata={
+            "name": "IDREF",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 2,
+            "sequential": True,
+        }
     )
     idrefs: List[List[str]] = field(
         default_factory=list,
-        metadata=dict(
-            name="IDREFS",
-            type="Element",
-            min_occurs=1,
-            max_occurs=2,
-            sequential=True,
-            tokens=True
-        )
+        metadata={
+            "name": "IDREFS",
+            "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 2,
+            "sequential": True,
+            "tokens": True,
+        }
     )
 
 
@@ -52,9 +52,9 @@ class Id:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -68,9 +68,9 @@ class Idref:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -84,10 +84,10 @@ class Idrefs:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "tokens": True,
+        }
     )
 
 
@@ -98,10 +98,8 @@ class Root:
     """
     data_types: List[DataTypes] = field(
         default_factory=list,
-        metadata=dict(
-            name="DataTypes",
-            type="Element",
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "name": "DataTypes",
+            "type": "Element",
+        }
     )

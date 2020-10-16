@@ -15,9 +15,9 @@ class Doc:
 
     elem: Optional["Doc.Elem"] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
 
     @dataclass
@@ -28,9 +28,9 @@ class Doc:
         att: List[str] = field(
             init=False,
             default_factory=lambda: ["X", "Y", "Z"],
-            metadata=dict(
-                type="Attribute",
-                namespace="http://xsdtesting",
-                tokens=True
-            )
+            metadata={
+                "type": "Attribute",
+                "namespace": "http://xsdtesting",
+                "tokens": True,
+            }
         )

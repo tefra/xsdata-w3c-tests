@@ -15,9 +15,9 @@ class Elem1:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -32,9 +32,9 @@ class Elem2:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -49,19 +49,19 @@ class RootType:
 
     elem2: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xstest-tns/ibms3_3_6_v01",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xstest-tns/ibms3_3_6_v01",
+            "required": True,
+        }
     )
     elem1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xstest-tns/ibms3_3_6_v01",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xstest-tns/ibms3_3_6_v01",
+            "required": True,
+        }
     )
 
 

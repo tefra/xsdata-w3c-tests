@@ -14,11 +14,11 @@ class T:
 
     q_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="q",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "q",
+            "required": True,
+        }
     )
 
 

@@ -18,32 +18,30 @@ class Doc:
 
     content: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            mixed=True,
-            min_occurs=0,
-            max_occurs=9223372036854775807
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
     )
     att1: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     abc: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
     )
     any_attributes: Dict = field(
         default_factory=dict,
-        metadata=dict(
-            type="Attributes",
-            namespace="##any"
-        )
+        metadata={
+            "type": "Attributes",
+            "namespace": "##any",
+        }
     )

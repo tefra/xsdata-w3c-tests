@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicBooleanWhiteSpace3:
 
     value: Optional[bool] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="collapse"
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+        }
     )

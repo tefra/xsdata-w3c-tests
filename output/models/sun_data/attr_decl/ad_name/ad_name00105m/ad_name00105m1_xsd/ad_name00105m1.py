@@ -15,8 +15,8 @@ class Root:
 
     value_00: Optional[int] = field(
         default=None,
-        metadata=dict(
-            name="_00",
-            type="Attribute"
-        )
+        metadata={
+            "name": "_00",
+            "type": "Attribute",
+        }
     )

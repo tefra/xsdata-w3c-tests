@@ -17,34 +17,28 @@ class Root:
 
     eld_time_union_a: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeUnionA",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="required"
-        )
+        metadata={
+            "name": "eldTimeUnionA",
+            "type": "Element",
+            "namespace": "",
+            "explicit_timezone": "required",
+        }
     )
     eld_time_union_b: List[Union[str, int]] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeUnionB",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="prohibited"
-        )
+        metadata={
+            "name": "eldTimeUnionB",
+            "type": "Element",
+            "namespace": "",
+            "explicit_timezone": "prohibited",
+        }
     )
     eld_time_union_c: List[Union[str, int]] = field(
         default_factory=list,
-        metadata=dict(
-            name="eldTimeUnionC",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            explicit_timezone="optional"
-        )
+        metadata={
+            "name": "eldTimeUnionC",
+            "type": "Element",
+            "namespace": "",
+            "explicit_timezone": "optional",
+        }
     )

@@ -37,7 +37,7 @@ class NistschemaSvIvListPositiveIntegerEnumeration3:
 
     value: Optional[NistschemaSvIvListPositiveIntegerEnumeration3Type] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

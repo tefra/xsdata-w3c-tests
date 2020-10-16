@@ -12,7 +12,7 @@ class Doc:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            explicit_timezone="optional"
-        )
+        metadata={
+            "explicit_timezone": "optional",
+        }
     )

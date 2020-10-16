@@ -15,41 +15,41 @@ class ProductType:
     """
     number: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://datypic.com/ord",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://datypic.com/ord",
+            "required": True,
+        }
     )
     name: Optional[str] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://datypic.com/ord",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://datypic.com/ord",
+            "required": True,
+        }
     )
     size: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://datypic.com/ord"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://datypic.com/ord",
+        }
     )
     gift_wrap: Optional[str] = field(
         default=None,
-        metadata=dict(
-            name="giftWrap",
-            type="Element",
-            namespace="http://datypic.com/spc"
-        )
+        metadata={
+            "name": "giftWrap",
+            "type": "Element",
+            "namespace": "http://datypic.com/spc",
+        }
     )
     points: Optional[int] = field(
         default=None,
-        metadata=dict(
-            type="Attribute",
-            namespace="http://datypic.com/spc"
-        )
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://datypic.com/spc",
+        }
     )
 
 
@@ -60,11 +60,11 @@ class OrderType:
     """
     product: Optional[ProductType] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://datypic.com/ord",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://datypic.com/ord",
+            "required": True,
+        }
     )
 
 

@@ -18,39 +18,37 @@ class Array:
 
     item: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            name="Item",
-            type="Element",
-            namespace="",
-            min_occurs=0,
-            max_occurs=9223372036854775807,
-            nillable=True
-        )
+        metadata={
+            "name": "Item",
+            "type": "Element",
+            "namespace": "",
+            "nillable": True,
+        }
     )
     item_type: QName = field(
         default=QName("{http://www.w3.org/2001/XMLSchema}anyType"),
-        metadata=dict(
-            name="ItemType",
-            type="Attribute",
-            namespace="http://schemas.microsoft.com/2003/10/Serialization/",
-            required=True
-        )
+        metadata={
+            "name": "ItemType",
+            "type": "Attribute",
+            "namespace": "http://schemas.microsoft.com/2003/10/Serialization/",
+            "required": True,
+        }
     )
     dimensions: List[int] = field(
         default_factory=lambda: [1],
-        metadata=dict(
-            name="Dimensions",
-            type="Attribute",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "name": "Dimensions",
+            "type": "Attribute",
+            "required": True,
+            "tokens": True,
+        }
     )
     lower_bounds: List[int] = field(
         default_factory=lambda: [0],
-        metadata=dict(
-            name="LowerBounds",
-            type="Attribute",
-            required=True,
-            tokens=True
-        )
+        metadata={
+            "name": "LowerBounds",
+            "type": "Attribute",
+            "required": True,
+            "tokens": True,
+        }
     )

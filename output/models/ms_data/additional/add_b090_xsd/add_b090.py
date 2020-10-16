@@ -12,12 +12,11 @@ class Base:
 
     foo_element: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Wildcard",
-            namespace="foo",
-            min_occurs=0,
-            max_occurs=3
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "foo",
+            "max_occurs": 3,
+        }
     )
 
 
@@ -31,11 +30,11 @@ class Foo:
 
     any_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##any",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 
@@ -50,13 +49,13 @@ class Doc(Base):
 
     c1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )
     c2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

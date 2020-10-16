@@ -12,19 +12,18 @@ class B:
     """
     c1: List[object] = field(
         default_factory=list,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting",
-            min_occurs=0,
-            max_occurs=2
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "max_occurs": 2,
+        }
     )
     c2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -36,17 +35,17 @@ class R:
     """
     c1: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
     c2: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="http://xsdtesting"
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+        }
     )
 
 
@@ -68,7 +67,7 @@ class Doc:
 
     elem: Optional[Elem] = field(
         default=None,
-        metadata=dict(
-            type="Element"
-        )
+        metadata={
+            "type": "Element",
+        }
     )

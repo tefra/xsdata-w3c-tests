@@ -15,8 +15,8 @@ class NistschemaSvIvAtomicNmtokenPattern4:
 
     value: Optional[str] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            pattern=r"\c{33}"
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\c{33}",
+        }
     )

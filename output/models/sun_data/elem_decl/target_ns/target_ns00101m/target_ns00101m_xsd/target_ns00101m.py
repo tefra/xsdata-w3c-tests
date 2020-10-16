@@ -16,7 +16,7 @@ class Number:
 
     value: Optional[Decimal] = field(
         default=None,
-        metadata=dict(
-            required=True
-        )
+        metadata={
+            "required": True,
+        }
     )

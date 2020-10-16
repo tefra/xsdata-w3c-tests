@@ -16,8 +16,8 @@ class NistschemaSvIvAtomicQnameWhiteSpace1:
 
     value: Optional[QName] = field(
         default=None,
-        metadata=dict(
-            required=True,
-            white_space="collapse"
-        )
+        metadata={
+            "required": True,
+            "white_space": "collapse",
+        }
     )

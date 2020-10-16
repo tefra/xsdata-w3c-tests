@@ -15,9 +15,9 @@ class NistschemaSvIvListBytePattern5:
 
     value: List[str] = field(
         default_factory=list,
-        metadata=dict(
-            required=True,
-            pattern=r"\-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}",
-            tokens=True
-        )
+        metadata={
+            "required": True,
+            "pattern": r"\-\d{3} \-\d{2} \-\d{1} \d{1} \d{2} \d{3} \-\d{3} \-\d{2} \-\d{1}",
+            "tokens": True,
+        }
     )

@@ -14,11 +14,11 @@ class FooType:
 
     foo: Optional["FooType.Foo"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     class Foo(Enum):

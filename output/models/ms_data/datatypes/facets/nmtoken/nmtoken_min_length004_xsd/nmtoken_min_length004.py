@@ -12,11 +12,11 @@ class FooType:
 
     foo: Optional["FooType.Foo"] = field(
         default=None,
-        metadata=dict(
-            type="Element",
-            namespace="",
-            required=True
-        )
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
     )
 
     @dataclass
@@ -30,12 +30,12 @@ class FooType:
         )
         attr_test: Optional[str] = field(
             default=None,
-            metadata=dict(
-                name="attrTest",
-                type="Attribute",
-                min_length=4,
-                max_length=6
-            )
+            metadata={
+                "name": "attrTest",
+                "type": "Attribute",
+                "min_length": 4,
+                "max_length": 6,
+            }
         )
 
 

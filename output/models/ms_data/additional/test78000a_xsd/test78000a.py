@@ -11,11 +11,11 @@ class LaxContainerType:
     """
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )
 
 
@@ -26,11 +26,11 @@ class SkipContainerType:
     """
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )
 
 
@@ -41,11 +41,11 @@ class StrictContainerType:
     """
     other_element: Optional[object] = field(
         default=None,
-        metadata=dict(
-            type="Wildcard",
-            namespace="##other",
-            required=True
-        )
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##other",
+            "required": True,
+        }
     )
 
 
@@ -76,27 +76,27 @@ class RootContainerType:
     """
     strict_container: Optional[StrictContainer] = field(
         default=None,
-        metadata=dict(
-            name="StrictContainer",
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "name": "StrictContainer",
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     lax_container: Optional[LaxContainer] = field(
         default=None,
-        metadata=dict(
-            name="LaxContainer",
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "name": "LaxContainer",
+            "type": "Element",
+            "namespace": "a",
+        }
     )
     skip_container: Optional[SkipContainer] = field(
         default=None,
-        metadata=dict(
-            name="SkipContainer",
-            type="Element",
-            namespace="a"
-        )
+        metadata={
+            "name": "SkipContainer",
+            "type": "Element",
+            "namespace": "a",
+        }
     )
 
 
@@ -117,10 +117,9 @@ class Doc:
 
     root_container: List[RootContainer] = field(
         default_factory=list,
-        metadata=dict(
-            name="RootContainer",
-            type="Element",
-            min_occurs=0,
-            max_occurs=100
-        )
+        metadata={
+            "name": "RootContainer",
+            "type": "Element",
+            "max_occurs": 100,
+        }
     )

@@ -1,6 +1,6 @@
 {
     "elem": {
-        "choice": [
+        "c1": [
             {
                 "qname": "c1",
                 "text": null,
@@ -392,6 +392,8 @@
                 "attributes": {}
             }
         ],
-        "c1": []
+        "c2": null,
+        "d1": null,
+        "d2": null
     }
 }

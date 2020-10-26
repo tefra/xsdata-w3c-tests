@@ -39,9 +39,10 @@ class Base:
 
 
 @dataclass
-class Doc(Base):
+class Doc:
     """
     :ivar e1:
+    :ivar e2_or_e3:
     """
     class Meta:
         name = "doc"
@@ -52,5 +53,22 @@ class Doc(Base):
         metadata={
             "type": "Element",
             "required": True,
+        }
+    )
+    e2_or_e3: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e2",
+                    "type": object,
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                },
+            ),
+            "max_occurs": 2,
         }
     )

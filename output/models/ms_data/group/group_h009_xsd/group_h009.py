@@ -38,7 +38,7 @@ class A:
 
 
 @dataclass
-class Elem(A):
+class Elem:
     """
     :ivar choice:
     """

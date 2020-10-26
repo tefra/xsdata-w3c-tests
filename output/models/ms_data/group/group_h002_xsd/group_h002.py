@@ -39,7 +39,7 @@ class A:
 
 
 @dataclass
-class Elem(A):
+class Elem:
     """
     :ivar x1:
     :ivar x2:

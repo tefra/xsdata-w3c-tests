@@ -41,8 +41,8 @@ class Base:
 class Derived:
     """
     :ivar annotation:
-    :ivar element_or_any:
     :ivar element:
+    :ivar any:
     """
     annotation: Optional[object] = field(
         default=None,
@@ -51,25 +51,14 @@ class Derived:
             "namespace": "",
         }
     )
-    element_or_any: List[object] = field(
+    element: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "element",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "any",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
+            "type": "Element",
+            "namespace": "",
         }
     )
-    element: List[object] = field(
+    any: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

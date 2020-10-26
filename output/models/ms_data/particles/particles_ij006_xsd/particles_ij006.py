@@ -5,6 +5,35 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
+class Bar:
+    """
+    :ivar f1_or_f2:
+    """
+    class Meta:
+        name = "bar"
+
+    f1_or_f2: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "f1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "f2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
+            "max_occurs": 4,
+        }
+    )
+
+
+@dataclass
 class Foo:
     """
     :ivar f1_or_f2:
@@ -29,35 +58,6 @@ class Foo:
                 },
             ),
             "max_occurs": 5,
-        }
-    )
-
-
-@dataclass
-class Bar(Foo):
-    """
-    :ivar f1_or_f2:
-    """
-    class Meta:
-        name = "bar"
-
-    f1_or_f2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "f1",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-                {
-                    "name": "f2",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-            ),
-            "max_occurs": 4,
         }
     )
 

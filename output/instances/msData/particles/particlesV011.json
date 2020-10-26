@@ -1,18 +1,16 @@
 {
     "elem": {
-        "e1_or_e2_or_e3": [
-            {
-                "qname": "e3",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "e3": null
+        "e1_or_e2": [],
+        "e3": {
+            "qname": "e3",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "a": "http://xsdtesting"
+            },
+            "children": [],
+            "attributes": {}
+        }
     }
 }

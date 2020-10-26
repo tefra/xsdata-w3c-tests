@@ -36,10 +36,30 @@ class B:
 
 
 @dataclass
-class R(B):
+class R:
     """
+    :ivar e1_or_e2:
     :ivar e3:
     """
+    e1_or_e2: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 2,
+        }
+    )
     e3: Optional[object] = field(
         default=None,
         metadata={

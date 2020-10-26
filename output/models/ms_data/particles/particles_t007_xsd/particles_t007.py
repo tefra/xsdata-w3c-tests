@@ -46,33 +46,9 @@ class B:
 @dataclass
 class R:
     """
-    :ivar c1_or_c2_or_c3_choice:
     :ivar c1_or_c2_or_c3:
     :ivar foo:
     """
-    c1_or_c2_or_c3_choice: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "c1",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "c2",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "c3",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
-        }
-    )
     c1_or_c2_or_c3: List[object] = field(
         default_factory=list,
         metadata={

@@ -38,7 +38,7 @@ class Foo:
                 },
                 {
                     "name": "w3_org/1999/xhtml_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "http://www.w3.org/1999/xhtml",
                 },

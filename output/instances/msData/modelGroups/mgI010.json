@@ -1,6 +1,9 @@
 {
-    "a_or_w3_org_1999_xhtml_element_or_d": [],
-    "c": null,
-    "b": "I am a stringy string",
-    "b2": null
+    "choice": [
+        {
+            "qname": "b",
+            "value": "I am a stringy string"
+        }
+    ],
+    "c": null
 }

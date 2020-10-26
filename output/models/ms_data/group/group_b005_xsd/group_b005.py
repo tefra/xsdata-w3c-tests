@@ -5,30 +5,28 @@ from typing import List, Optional
 @dataclass
 class ComplexType:
     """
-    :ivar r1:
-    :ivar r2:
+    :ivar r1_or_r2:
     """
     class Meta:
         name = "complexType"
 
-    r1: List[object] = field(
+    r1_or_r2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    r2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 2,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "r1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "r2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 100,
-            "sequential": True,
         }
     )
 

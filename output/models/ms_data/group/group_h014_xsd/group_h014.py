@@ -5,43 +5,35 @@ from typing import List, Optional
 @dataclass
 class A:
     """
-    :ivar x1:
-    :ivar x2:
-    :ivar y1:
-    :ivar y2:
+    :ivar choice:
     """
-    x1: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "x1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "x2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 3,
-            "sequential": True,
-        }
-    )
-    x2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 3,
-            "sequential": True,
-        }
-    )
-    y1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    y2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 
@@ -49,46 +41,38 @@ class A:
 @dataclass
 class Elem:
     """
-    :ivar x1:
-    :ivar x2:
-    :ivar y1:
-    :ivar y2:
+    :ivar choice:
     """
     class Meta:
         name = "elem"
 
-    x1: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 2,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "x1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "x2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    x2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    y1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    y2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 

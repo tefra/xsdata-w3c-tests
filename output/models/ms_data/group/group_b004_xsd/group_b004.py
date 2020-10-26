@@ -12,11 +12,13 @@ class ComplexType:
     class Meta:
         name = "complexType"
 
-    r1: Optional[object] = field(
-        default=None,
+    r1: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
+            "max_occurs": 2,
+            "sequential": True,
         }
     )
     r2: List[object] = field(
@@ -24,14 +26,17 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "max_occurs": 2,
+            "max_occurs": 4,
+            "sequential": True,
         }
     )
-    r3: Optional[object] = field(
-        default=None,
+    r3: List[object] = field(
+        default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
+            "max_occurs": 2,
+            "sequential": True,
         }
     )
 

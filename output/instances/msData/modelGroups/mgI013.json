@@ -1,5 +1,5 @@
 {
-    "d_or_a_or_w3_org_1999_xhtml_element": [
+    "choice": [
         {
             "qname": "d",
             "text": null,
@@ -12,7 +12,5 @@
             "attributes": {}
         }
     ],
-    "b": null,
-    "b2": null,
     "c": null
 }

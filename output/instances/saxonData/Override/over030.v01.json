@@ -3,53 +3,39 @@
         "content": [
             "Document Title"
         ],
-        "phrase": null,
-        "superscript": null,
-        "subscript": null,
-        "abbrev": null,
-        "emphasis": null,
-        "property": null,
+        "choice": [],
         "role": null,
         "id": null,
         "base": null
     },
     "xsdextra": null,
-    "p": [
+    "p_or_blockquote": [
         {
-            "content": [
-                "This is some ",
-                {
-                    "qname": "{http://example.org/ns/document}emphasis",
-                    "value": {
-                        "content": [
-                            "text",
-                            "."
-                        ],
-                        "phrase": null,
-                        "superscript": null,
-                        "subscript": null,
-                        "abbrev": null,
-                        "emphasis": null,
-                        "property": null,
-                        "role": null,
-                        "id": null,
-                        "base": null
+            "qname": "{http://example.org/ns/document}p",
+            "value": {
+                "content": [
+                    "This is some ",
+                    {
+                        "qname": "{http://example.org/ns/document}emphasis",
+                        "value": {
+                            "content": [
+                                "text",
+                                "."
+                            ],
+                            "choice": [],
+                            "role": null,
+                            "id": null,
+                            "base": null
+                        }
                     }
-                }
-            ],
-            "phrase": null,
-            "superscript": null,
-            "subscript": null,
-            "abbrev": null,
-            "emphasis": null,
-            "property": null,
-            "blockquote": null,
-            "role": null,
-            "id": null,
-            "base": null
+                ],
+                "choice": [],
+                "role": null,
+                "id": null,
+                "base": null
+            }
         }
     ],
-    "blockquote": [],
     "role": null,
     "id": null,
     "base": null

@@ -5,15 +5,13 @@ from typing import List, Optional
 @dataclass
 class Foo:
     """
-    :ivar w3_org_1999_xhtml_element_or_d_or_a:
-    :ivar b:
-    :ivar b2:
+    :ivar choice:
     :ivar c:
     """
     class Meta:
         name = "foo"
 
-    w3_org_1999_xhtml_element_or_d_or_a: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -30,25 +28,21 @@ class Foo:
                     "namespace": "",
                 },
                 {
+                    "name": "b",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "b2",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
                     "name": "a",
                     "type": int,
                     "namespace": "",
                 },
             ),
-        }
-    )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b2: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
     c: Optional[bool] = field(

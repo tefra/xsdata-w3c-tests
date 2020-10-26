@@ -1,6 +1,6 @@
 {
     "elem": {
-        "c1_or_c2_or_c3_choice": [
+        "c1_or_c2_or_c3": [
             {
                 "qname": "c3",
                 "value": {
@@ -2522,7 +2522,6 @@
                 }
             }
         ],
-        "c1_or_c2_or_c3": [],
         "foo": {
             "qname": "foo",
             "text": null,

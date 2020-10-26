@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 __NAMESPACE__ = "http://example.org/ns/document"
 
@@ -8,12 +8,7 @@ __NAMESPACE__ = "http://example.org/ns/document"
 class InlineType:
     """
     :ivar content:
-    :ivar phrase:
-    :ivar superscript:
-    :ivar subscript:
-    :ivar abbrev:
-    :ivar emphasis:
-    :ivar property:
+    :ivar choice:
     :ivar role:
     :ivar id:
     :ivar base:
@@ -29,46 +24,42 @@ class InlineType:
             "mixed": True,
         }
     )
-    phrase: Optional["Phrase"] = field(
-        default=None,
+    choice: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    superscript: Optional["Superscript"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    subscript: Optional["Subscript"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    abbrev: Optional["Abbrev"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    emphasis: Optional["Emphasis"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    property: Optional["Property"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "phrase",
+                    "type": Type["Phrase"],
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "superscript",
+                    "type": Type["Superscript"],
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "subscript",
+                    "type": Type["Subscript"],
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "abbrev",
+                    "type": Type["Abbrev"],
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "emphasis",
+                    "type": Type["Emphasis"],
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "property",
+                    "type": Type["Property"],
+                    "namespace": "http://example.org/ns/document",
+                },
+            ),
         }
     )
     role: Optional[str] = field(
@@ -212,13 +203,7 @@ class Blockquote:
 class ParaType:
     """
     :ivar content:
-    :ivar phrase:
-    :ivar superscript:
-    :ivar subscript:
-    :ivar abbrev:
-    :ivar emphasis:
-    :ivar property:
-    :ivar blockquote:
+    :ivar choice:
     :ivar role:
     :ivar id:
     :ivar base:
@@ -234,53 +219,47 @@ class ParaType:
             "mixed": True,
         }
     )
-    phrase: Optional[Phrase] = field(
-        default=None,
+    choice: List[object] = field(
+        default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    superscript: Optional[Superscript] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    subscript: Optional[Subscript] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    abbrev: Optional[Abbrev] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    emphasis: Optional[Emphasis] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    property: Optional[Property] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
-        }
-    )
-    blockquote: Optional[Blockquote] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://example.org/ns/document",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "phrase",
+                    "type": Phrase,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "superscript",
+                    "type": Superscript,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "subscript",
+                    "type": Subscript,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "abbrev",
+                    "type": Abbrev,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "emphasis",
+                    "type": Emphasis,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "property",
+                    "type": Property,
+                    "namespace": "http://example.org/ns/document",
+                },
+                {
+                    "name": "blockquote",
+                    "type": Blockquote,
+                    "namespace": "http://example.org/ns/document",
+                },
+            ),
         }
     )
     role: Optional[str] = field(
@@ -317,8 +296,7 @@ class Doc:
     """
     :ivar title:
     :ivar xsdextra:
-    :ivar p:
-    :ivar blockquote:
+    :ivar p_or_blockquote:
     :ivar role:
     :ivar id:
     :ivar base:
@@ -340,16 +318,20 @@ class Doc:
             "type": "Element",
         }
     )
-    p: List[P] = field(
+    p_or_blockquote: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    blockquote: List[Blockquote] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "p",
+                    "type": P,
+                },
+                {
+                    "name": "blockquote",
+                    "type": Blockquote,
+                },
+            ),
         }
     )
     role: Optional[str] = field(

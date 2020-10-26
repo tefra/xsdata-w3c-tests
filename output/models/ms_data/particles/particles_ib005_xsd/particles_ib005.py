@@ -55,23 +55,26 @@ class Base:
 @dataclass
 class Doc(Base):
     """
-    :ivar foo:
-    :ivar bar:
+    :ivar foo_or_bar:
     """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    foo: List[Foo] = field(
+    foo_or_bar: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": Foo,
+                },
+                {
+                    "name": "bar",
+                    "type": object,
+                },
+            ),
             "max_occurs": 3,
-        }
-    )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
         }
     )

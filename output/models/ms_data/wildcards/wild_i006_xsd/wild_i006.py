@@ -39,25 +39,25 @@ class Foo:
             "choices": (
                 {
                     "name": "a_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "a",
                 },
                 {
                     "name": "b_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "b",
                 },
                 {
                     "name": "targetNamespace_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "##targetNamespace",
                 },
                 {
                     "name": "local_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "##local",
                 },

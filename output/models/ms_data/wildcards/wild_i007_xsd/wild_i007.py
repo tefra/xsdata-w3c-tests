@@ -39,13 +39,13 @@ class Foo:
             "choices": (
                 {
                     "name": "other_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "##other",
                 },
                 {
                     "name": "targetNamespace_element",
-                    "tag": "Wildcard",
+                    "wildcard": True,
                     "type": object,
                     "namespace": "##targetNamespace",
                 },

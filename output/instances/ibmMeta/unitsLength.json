@@ -1,16 +1,18 @@
 {
     "annotation": [
         {
-            "appinfo": [],
-            "documentation": [
+            "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        " test Units of length for list datatype\n\t      "
-                    ],
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#dt-list"
+                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                    "value": {
+                        "any_element": [
+                            " test Units of length for list datatype\n\t      "
+                        ],
+                        "source": null,
+                        "lang": null,
+                        "other_attributes": {
+                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#dt-list"
+                        }
                     }
                 }
             ],
@@ -21,15 +23,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for hexBinary datatype.  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test Units of length for hexBinary datatype.  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -114,15 +118,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test hexBinary datatype   "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test hexBinary datatype   "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -209,15 +215,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for hexBinary datatype   "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test Units of length for hexBinary datatype   "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -304,15 +312,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for base64Binary datatype.  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test Units of length for base64Binary datatype.  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -399,15 +409,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test base64Binary datatype "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test base64Binary datatype "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -494,15 +506,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " test Units of length for list datatype    "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " test Units of length for list datatype    "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -589,15 +603,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.    "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " Unions with no member types (and thus with empty value space and lexical space) are now explicitly allowed.    "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -654,15 +670,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " use of the namespace http://www.w3.org/2001/XMLSchema-datatypes has been deprecated.  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

@@ -1,45 +1,50 @@
 {
     "node": [
         {
-            "node": [
+            "node_or_id_or_idrefs": [
                 {
-                    "node": [],
-                    "id": [],
-                    "idrefs": [],
-                    "id_attribute": [],
-                    "idrefs_attribute": [
-                        "bbb",
-                        "ccc",
-                        "ggg"
-                    ]
+                    "qname": "node",
+                    "value": {
+                        "node_or_id_or_idrefs": [],
+                        "id": [],
+                        "idrefs": [
+                            "bbb",
+                            "ccc",
+                            "ggg"
+                        ]
+                    }
                 },
                 {
-                    "node": [],
-                    "id": [],
-                    "idrefs": [
-                        [
-                            "aaa",
-                            "ddd"
-                        ]
-                    ],
-                    "id_attribute": [
-                        "ggg"
-                    ],
-                    "idrefs_attribute": []
+                    "qname": "node",
+                    "value": {
+                        "node_or_id_or_idrefs": [
+                            {
+                                "qname": "idrefs",
+                                "value": [
+                                    "aaa",
+                                    "ddd"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            "ggg"
+                        ],
+                        "idrefs": []
+                    }
+                },
+                {
+                    "qname": "id",
+                    "value": [
+                        "ccc",
+                        "ddd"
+                    ]
                 }
             ],
             "id": [
-                [
-                    "ccc",
-                    "ddd"
-                ]
-            ],
-            "idrefs": [],
-            "id_attribute": [
                 "aaa",
                 "bbb"
             ],
-            "idrefs_attribute": []
+            "idrefs": []
         }
     ]
 }

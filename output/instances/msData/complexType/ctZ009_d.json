@@ -1,13 +1,30 @@
 {
     "element1": {
-        "group2_element1": [
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a"
-        ],
-        "group2_element2": []
+        "group2_element1_or_group2_element2": [
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            },
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            },
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            },
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            },
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            },
+            {
+                "qname": "Group2_Element1",
+                "value": "a"
+            }
+        ]
     }
 }

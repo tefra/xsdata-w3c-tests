@@ -1,7 +1,7 @@
 {
     "elem": {
         "c1": {
-            "f1": [
+            "f1_or_f2": [
                 {
                     "qname": "{http://xsdtesting}f1",
                     "text": "\n\t\ttest\n\t",
@@ -50,8 +50,7 @@
                     "children": [],
                     "attributes": {}
                 }
-            ],
-            "f2": null
+            ]
         },
         "c2": null
     }

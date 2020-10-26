@@ -1,43 +1,54 @@
 {
-    "non_nillable": [
+    "non_nillable_or_nillable1_or_nillable2": [
         {
-            "x": {
-                "qname": "{foo}x",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
-        }
-    ],
-    "nillable1": [
-        {
-            "x": {
-                "qname": "{foo}x",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+            "qname": "{foo}non-nillable",
+            "value": {
+                "x": {
+                    "qname": "{foo}x",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "foo",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
             }
         },
         {
-            "x": null
+            "qname": "{foo}nillable1",
+            "value": {
+                "x": {
+                    "qname": "{foo}x",
+                    "text": null,
+                    "tail": null,
+                    "ns_map": {
+                        "null": "foo",
+                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                    },
+                    "children": [],
+                    "attributes": {}
+                }
+            }
+        },
+        {
+            "qname": "{foo}nillable1",
+            "value": {
+                "x": null
+            }
+        },
+        {
+            "qname": "{foo}nillable2",
+            "value": [
+                51,
+                32,
+                59
+            ]
+        },
+        {
+            "qname": "{foo}nillable2",
+            "value": null
         }
-    ],
-    "nillable2": [
-        [
-            51,
-            32,
-            59
-        ],
-        ""
     ]
 }

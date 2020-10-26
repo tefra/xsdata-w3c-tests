@@ -5,9 +5,7 @@ from typing import List, Optional
 @dataclass
 class Foo:
     """
-    :ivar a:
-    :ivar w3_org_1999_xhtml_element:
-    :ivar d:
+    :ivar a_or_w3_org_1999_xhtml_element_or_d:
     :ivar c:
     :ivar b:
     :ivar b2:
@@ -15,25 +13,28 @@ class Foo:
     class Meta:
         name = "foo"
 
-    a: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    w3_org_1999_xhtml_element: List[object] = field(
+    a_or_w3_org_1999_xhtml_element_or_d: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Wildcard",
-            "namespace": "http://www.w3.org/1999/xhtml",
-        }
-    )
-    d: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": int,
+                    "namespace": "",
+                },
+                {
+                    "name": "w3_org/1999/xhtml_element",
+                    "tag": "Wildcard",
+                    "type": object,
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                },
+                {
+                    "name": "d",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
     c: Optional[bool] = field(

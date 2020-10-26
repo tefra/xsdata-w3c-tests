@@ -109,119 +109,90 @@ class Datafile:
     @dataclass
     class Nonstringsection:
         """
-        :ivar bigint:
-        :ivar int_value:
-        :ivar smallint:
-        :ivar tinyint:
-        :ivar decimal:
-        :ivar numeric:
-        :ivar money:
-        :ivar smallmoney:
-        :ivar float_value:
-        :ivar real:
-        :ivar datetime:
-        :ivar smalldatetime:
+        :ivar choice:
         """
-        bigint: List[int] = field(
+        choice: List[object] = field(
             default_factory=list,
             metadata={
-                "type": "Element",
-                "namespace": "",
-            }
-        )
-        int_value: List[int] = field(
-            default_factory=list,
-            metadata={
-                "name": "int",
-                "type": "Element",
-                "namespace": "",
-            }
-        )
-        smallint: List[int] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-            }
-        )
-        tinyint: List[int] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-            }
-        )
-        decimal: List[Decimal] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "total_digits": 38,
-                "fraction_digits": 10,
-            }
-        )
-        numeric: List[Decimal] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "total_digits": 38,
-                "fraction_digits": 10,
-            }
-        )
-        money: List[Decimal] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "min_inclusive": -922337203685477.5808,
-                "max_inclusive": 922337203685477.5807,
-                "total_digits": 19,
-                "fraction_digits": 4,
-            }
-        )
-        smallmoney: List[Decimal] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "min_inclusive": -214748.3648,
-                "max_inclusive": 214748.3647,
-                "total_digits": 10,
-                "fraction_digits": 4,
-            }
-        )
-        float_value: List[Decimal] = field(
-            default_factory=list,
-            metadata={
-                "name": "float",
-                "type": "Element",
-                "namespace": "",
-                "min_inclusive": -1.79E+308,
-                "max_inclusive": 1.79E+308,
-            }
-        )
-        real: List[float] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-                "min_inclusive": -3.4e+38,
-                "max_inclusive": 3.4e+38,
-            }
-        )
-        datetime: List[MyDateTime] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-            }
-        )
-        smalldatetime: List[MySmallDateTime] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-                "namespace": "",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "bigint",
+                        "type": int,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "int",
+                        "type": int,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "smallint",
+                        "type": int,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "tinyint",
+                        "type": int,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "decimal",
+                        "type": Decimal,
+                        "namespace": "",
+                        "total_digits": 38,
+                        "fraction_digits": 10,
+                    },
+                    {
+                        "name": "numeric",
+                        "type": Decimal,
+                        "namespace": "",
+                        "total_digits": 38,
+                        "fraction_digits": 10,
+                    },
+                    {
+                        "name": "money",
+                        "type": Decimal,
+                        "namespace": "",
+                        "min_inclusive": -922337203685477.5808,
+                        "max_inclusive": 922337203685477.5807,
+                        "total_digits": 19,
+                        "fraction_digits": 4,
+                    },
+                    {
+                        "name": "smallmoney",
+                        "type": Decimal,
+                        "namespace": "",
+                        "min_inclusive": -214748.3648,
+                        "max_inclusive": 214748.3647,
+                        "total_digits": 10,
+                        "fraction_digits": 4,
+                    },
+                    {
+                        "name": "float",
+                        "type": Decimal,
+                        "namespace": "",
+                        "min_inclusive": -1.79E+308,
+                        "max_inclusive": 1.79E+308,
+                    },
+                    {
+                        "name": "real",
+                        "type": float,
+                        "namespace": "",
+                        "min_inclusive": -3.4e+38,
+                        "max_inclusive": 3.4e+38,
+                    },
+                    {
+                        "name": "datetime",
+                        "type": MyDateTime,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "smalldatetime",
+                        "type": MySmallDateTime,
+                        "namespace": "",
+                    },
+                ),
             }
         )
 

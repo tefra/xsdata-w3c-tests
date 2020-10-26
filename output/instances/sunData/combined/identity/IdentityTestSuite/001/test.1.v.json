@@ -1,8 +1,12 @@
 {
-    "key": [
-        "5"
-    ],
-    "ref": [
-        "5.0"
+    "key_or_ref": [
+        {
+            "qname": "{foo}key",
+            "value": "5"
+        },
+        {
+            "qname": "{foo}ref",
+            "value": "5.0"
+        }
     ]
 }

@@ -1,17 +1,36 @@
 {
-    "child1": [
-        [
-            "123456",
-            "abcdef",
-            "xxxxxxxx"
-        ]
-    ],
-    "child2": [
-        true,
-        false,
-        false,
-        true,
-        "abcdef",
-        "xxxxxxxx"
+    "child1_or_child2": [
+        {
+            "qname": "{http://foo.com}child1",
+            "value": [
+                "123456",
+                "abcdef",
+                "xxxxxxxx"
+            ]
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": true
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": false
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": false
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": true
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": "abcdef"
+        },
+        {
+            "qname": "{http://foo.com}child2",
+            "value": "xxxxxxxx"
+        }
     ]
 }

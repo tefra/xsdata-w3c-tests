@@ -1,8 +1,8 @@
 {
     "elem": {
-        "e1": [
+        "choice": [
             {
-                "qname": "e1",
+                "qname": "e4",
                 "text": null,
                 "tail": null,
                 "ns_map": {
@@ -10,13 +10,9 @@
                 },
                 "children": [],
                 "attributes": {}
-            }
-        ],
-        "e2": [],
-        "e3": [],
-        "e4": [
+            },
             {
-                "qname": "e4",
+                "qname": "e1",
                 "text": null,
                 "tail": null,
                 "ns_map": {

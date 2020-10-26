@@ -1,32 +1,33 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 @dataclass
 class Doc:
     """
-    :ivar id:
-    :ivar elem:
+    :ivar id_or_elem:
     """
     class Meta:
         name = "doc"
 
-    id: List["Doc.Id"] = field(
+    id_or_elem: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "ID",
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "ID",
+                    "type": Type["Doc.Id"],
+                    "namespace": "",
+                },
+                {
+                    "name": "elem",
+                    "type": str,
+                    "namespace": "",
+                    "pattern": r"\c[\c\d]*",
+                },
+            ),
             "max_occurs": 2,
-        }
-    )
-    elem: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 2,
-            "pattern": r"\c[\c\d]*",
         }
     )
 

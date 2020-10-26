@@ -1,7 +1,13 @@
 {
-    "foo": [
-        true,
-        true
+    "foo_or_foo1": [
+        {
+            "qname": "{http://xsdtesting}foo",
+            "value": true
+        },
+        {
+            "qname": "{http://xsdtesting}foo",
+            "value": true
+        }
     ],
-    "foo1": []
+    "foo": []
 }

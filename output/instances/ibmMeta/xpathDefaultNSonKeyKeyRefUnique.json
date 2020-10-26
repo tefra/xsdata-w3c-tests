@@ -1,16 +1,18 @@
 {
     "annotation": [
         {
-            "appinfo": [],
-            "documentation": [
+            "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "\n        Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions \n\t      "
-                    ],
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                    "value": {
+                        "any_element": [
+                            "\n        Impact of xpathDefaultNamespace locally and globally on key/keyref/unique selection expressions \n\t      "
+                        ],
+                        "source": null,
+                        "lang": null,
+                        "other_attributes": {
+                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-key"
+                        }
                     }
                 }
             ],
@@ -21,15 +23,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "unique selection expressions  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "unique selection expressions  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -116,15 +120,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "unique selection expressions 2 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "unique selection expressions 2 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -211,15 +217,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "key selection expressions_1 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "key selection expressions_1 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -306,15 +314,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "key selection expressions_2 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "key selection expressions_2 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -401,15 +411,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "key/keyref selection expressions_1 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "key/keyref selection expressions_1 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -496,15 +508,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "key/keyref selection expressions_2  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "key/keyref selection expressions_2  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -591,15 +605,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance unique selection expressions_1 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance unique selection expressions_1 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -686,15 +702,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance unique selection expressions_2 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance unique selection expressions_2 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -781,15 +799,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance unique selection expressions_3 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance unique selection expressions_3 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -876,15 +896,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance key selection expressions_1 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance key selection expressions_1 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -971,15 +993,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance key selection expressions_2 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance key selection expressions_2 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1066,15 +1090,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance key/keyref selection expressions_1 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance key/keyref selection expressions_1 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1161,15 +1187,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid instance key/keyref selection expressions_2 "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid instance key/keyref selection expressions_2 "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

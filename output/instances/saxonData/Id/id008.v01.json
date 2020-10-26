@@ -1,32 +1,38 @@
 {
     "node": [
         {
-            "node": [],
-            "id": [
+            "node_or_id_or_idref": [
                 {
-                    "value": "aaa",
-                    "a": null
-                }
-            ],
-            "idref": [
+                    "qname": "id",
+                    "value": {
+                        "value": "aaa",
+                        "a": null
+                    }
+                },
                 {
-                    "value": "bbb",
-                    "a": null
+                    "qname": "idref",
+                    "value": {
+                        "value": "bbb",
+                        "a": null
+                    }
                 }
             ]
         },
         {
-            "node": [],
-            "id": [
+            "node_or_id_or_idref": [
                 {
-                    "value": "bbb",
-                    "a": null
-                }
-            ],
-            "idref": [
+                    "qname": "id",
+                    "value": {
+                        "value": "bbb",
+                        "a": null
+                    }
+                },
                 {
-                    "value": "aaa",
-                    "a": null
+                    "qname": "idref",
+                    "value": {
+                        "value": "aaa",
+                        "a": null
+                    }
                 }
             ]
         }

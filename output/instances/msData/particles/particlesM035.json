@@ -1,9 +1,6 @@
 {
     "elem": {
-        "c1": [],
-        "c2": [],
-        "d1": [],
-        "d2": [
+        "choice": [
             {
                 "qname": "d2",
                 "text": null,
@@ -30,6 +27,7 @@
                 "children": [],
                 "attributes": {}
             }
-        ]
+        ],
+        "d2": []
     }
 }

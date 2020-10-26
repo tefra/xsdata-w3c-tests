@@ -7,33 +7,30 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class B:
     """
-    :ivar c1:
-    :ivar c2:
-    :ivar c3:
+    :ivar c1_or_c2_or_c3:
     :ivar foo:
     """
-    c1: List[object] = field(
+    c1_or_c2_or_c3: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
-        }
-    )
-    c2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
-        }
-    )
-    c3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c3",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
     foo: Optional[object] = field(
@@ -49,33 +46,54 @@ class B:
 @dataclass
 class R:
     """
-    :ivar c1:
-    :ivar c2:
-    :ivar c3:
+    :ivar c1_or_c2_or_c3_choice:
+    :ivar c1_or_c2_or_c3:
     :ivar foo:
     """
-    c1: List[object] = field(
+    c1_or_c2_or_c3_choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c3",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
-    c2: List[object] = field(
+    c1_or_c2_or_c3: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
-        }
-    )
-    c3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "c3",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
     foo: Optional[object] = field(

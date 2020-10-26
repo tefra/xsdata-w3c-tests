@@ -26,26 +26,30 @@ class Bar:
 @dataclass
 class Foo:
     """
-    :ivar other_element:
-    :ivar target_namespace_element:
+    :ivar other_element_or_target_namespace_element:
     """
     class Meta:
         name = "foo"
         namespace = "http://xsdtesting"
 
-    other_element: List[object] = field(
+    other_element_or_target_namespace_element: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Wildcard",
-            "namespace": "##other",
-            "max_occurs": 10,
-        }
-    )
-    target_namespace_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##targetNamespace",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "other_element",
+                    "tag": "Wildcard",
+                    "type": object,
+                    "namespace": "##other",
+                },
+                {
+                    "name": "targetNamespace_element",
+                    "tag": "Wildcard",
+                    "type": object,
+                    "namespace": "##targetNamespace",
+                },
+            ),
             "max_occurs": 10,
         }
     )

@@ -7,10 +7,8 @@ class Foo:
     """
     :ivar b:
     :ivar b2:
-    :ivar w3_org_1999_xhtml_element:
+    :ivar w3_org_1999_xhtml_element_or_a_or_d:
     :ivar c:
-    :ivar a:
-    :ivar d:
     """
     class Meta:
         name = "foo"
@@ -29,28 +27,31 @@ class Foo:
             "namespace": "",
         }
     )
-    w3_org_1999_xhtml_element: List[object] = field(
+    w3_org_1999_xhtml_element_or_a_or_d: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Wildcard",
-            "namespace": "http://www.w3.org/1999/xhtml",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "w3_org/1999/xhtml_element",
+                    "tag": "Wildcard",
+                    "type": object,
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                },
+                {
+                    "name": "a",
+                    "type": int,
+                    "namespace": "",
+                },
+                {
+                    "name": "d",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
     c: Optional[bool] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    a: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <x:products xmlns:x="urn:products">
+  <clothing id="cl101">
+    <price>32.11</price>
+    <description>Nice pink crew-neck t-shirt.</description>
+    <size>M</size>
+    <style>T</style>
+  </clothing>
+  <cd id="cd101">
+    <price>44.95</price>
+    <description>An in-depth look at creating applications with
+      XML.</description>
+    <title>XML Developer's Guide</title>
+    <category>Computer</category>
+    <artist>Gambardella, Matthew</artist>
+    <release_date>2000-10-01</release_date>
+  </cd>
   <book id="bk101">
     <price>44.95</price>
     <description>An in-depth look at creating applications with
@@ -17,19 +32,4 @@
     <director>Hancock, Trevor</director>
     <release_date>2000-10-01</release_date>
   </dvd>
-  <clothing id="cl101">
-    <price>32.11</price>
-    <description>Nice pink crew-neck t-shirt.</description>
-    <size>M</size>
-    <style>T</style>
-  </clothing>
-  <cd id="cd101">
-    <price>44.95</price>
-    <description>An in-depth look at creating applications with
-      XML.</description>
-    <title>XML Developer's Guide</title>
-    <category>Computer</category>
-    <artist>Gambardella, Matthew</artist>
-    <release_date>2000-10-01</release_date>
-  </cd>
 </x:products>

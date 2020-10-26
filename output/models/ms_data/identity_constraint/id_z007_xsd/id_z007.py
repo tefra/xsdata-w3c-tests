@@ -1,25 +1,28 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 @dataclass
 class NewDataSet:
     """
-    :ivar t1:
-    :ivar t2:
+    :ivar t1_or_t2:
     """
-    t1: List["NewDataSet.T1"] = field(
+    t1_or_t2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    t2: List["NewDataSet.T2"] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "t1",
+                    "type": Type["NewDataSet.T1"],
+                    "namespace": "",
+                },
+                {
+                    "name": "t2",
+                    "type": Type["NewDataSet.T2"],
+                    "namespace": "",
+                },
+            ),
         }
     )
 

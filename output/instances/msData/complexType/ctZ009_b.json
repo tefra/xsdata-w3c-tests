@@ -1,5 +1,5 @@
 {
-    "foo": [
+    "foo_or_sg": [
         {
             "qname": "foo",
             "text": null,
@@ -48,6 +48,5 @@
             "children": [],
             "attributes": {}
         }
-    ],
-    "sg": []
+    ]
 }

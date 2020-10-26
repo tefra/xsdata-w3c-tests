@@ -7,31 +7,31 @@ __NAMESPACE__ = "http://foo.com"
 @dataclass
 class Root:
     """
-    :ivar foo:
-    :ivar bar:
-    :ivar zot:
+    :ivar foo_or_bar_or_zot:
     """
     class Meta:
         name = "root"
         namespace = "http://foo.com"
 
-    foo: List[object] = field(
+    foo_or_bar_or_zot: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    bar: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    zot: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "bar",
+                    "type": object,
+                },
+                {
+                    "name": "zot",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )

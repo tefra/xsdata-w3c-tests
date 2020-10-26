@@ -1,9 +1,16 @@
 {
-    "t": [
-        "1",
-        "11"
-    ],
-    "u": [
-        "1"
+    "t_or_u": [
+        {
+            "qname": "{myNS.tempuri.org}t",
+            "value": "1"
+        },
+        {
+            "qname": "{myNS.tempuri.org}u",
+            "value": "1"
+        },
+        {
+            "qname": "{myNS.tempuri.org}t",
+            "value": "11"
+        }
     ]
 }

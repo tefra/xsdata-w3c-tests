@@ -1,48 +1,46 @@
 {
     "node": [
         {
-            "node": [],
-            "mixed_a": [],
-            "mixed_b": [],
-            "mixed_a_attribute": [
+            "node_or_mixed_a_or_mixed_b": [],
+            "mixed_a": [
                 "A001",
                 "B001"
             ],
-            "mixed_b_attribute": []
+            "mixed_b": []
         },
         {
-            "node": [],
+            "node_or_mixed_a_or_mixed_b": [],
             "mixed_a": [],
-            "mixed_b": [],
-            "mixed_a_attribute": [],
-            "mixed_b_attribute": [
+            "mixed_b": [
                 "A001",
                 "B001"
             ]
         },
         {
-            "node": [],
-            "mixed_a": [
-                [
-                    "A002",
-                    "B002"
-                ]
+            "node_or_mixed_a_or_mixed_b": [
+                {
+                    "qname": "mixedA",
+                    "value": [
+                        "A002",
+                        "B002"
+                    ]
+                }
             ],
-            "mixed_b": [],
-            "mixed_a_attribute": [],
-            "mixed_b_attribute": []
+            "mixed_a": [],
+            "mixed_b": []
         },
         {
-            "node": [],
-            "mixed_a": [],
-            "mixed_b": [
-                [
-                    "A002",
-                    "B002"
-                ]
+            "node_or_mixed_a_or_mixed_b": [
+                {
+                    "qname": "mixedB",
+                    "value": [
+                        "A002",
+                        "B002"
+                    ]
+                }
             ],
-            "mixed_a_attribute": [],
-            "mixed_b_attribute": []
+            "mixed_a": [],
+            "mixed_b": []
         }
     ]
 }

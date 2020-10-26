@@ -7,23 +7,24 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class B:
     """
-    :ivar e1:
-    :ivar e2:
+    :ivar e1_or_e2:
     """
-    e1: List[object] = field(
+    e1_or_e2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 3,
-            "max_occurs": 9,
-        }
-    )
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "min_occurs": 3,
             "max_occurs": 9,
         }
@@ -31,7 +32,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     """
     :ivar e1:
     :ivar e2:

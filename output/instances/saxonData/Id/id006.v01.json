@@ -1,52 +1,60 @@
 {
     "node": [
         {
-            "node": [
+            "node_or_id_or_idrefs": [
                 {
-                    "node": [],
-                    "id": [],
-                    "idrefs": [],
-                    "id_attribute": [],
-                    "idrefs_attribute": [
-                        "bbb",
+                    "qname": "node",
+                    "value": {
+                        "node_or_id_or_idrefs": [],
+                        "id": [],
+                        "idrefs": [
+                            "bbb",
+                            "ccc",
+                            29,
+                            "ggg"
+                        ]
+                    }
+                },
+                {
+                    "qname": "node",
+                    "value": {
+                        "node_or_id_or_idrefs": [
+                            {
+                                "qname": "idrefs",
+                                "value": [
+                                    "aaa",
+                                    97,
+                                    "ddd"
+                                ]
+                            }
+                        ],
+                        "id": [
+                            "ggg",
+                            23
+                        ],
+                        "idrefs": []
+                    }
+                },
+                {
+                    "qname": "id",
+                    "value": [
                         "ccc",
-                        29,
-                        "ggg"
+                        "ddd"
                     ]
                 },
                 {
-                    "node": [],
-                    "id": [],
-                    "idrefs": [
-                        [
-                            "aaa",
-                            97,
-                            "ddd"
-                        ]
-                    ],
-                    "id_attribute": [
-                        "ggg",
-                        23
-                    ],
-                    "idrefs_attribute": []
+                    "qname": "id",
+                    "value": [
+                        12
+                    ]
                 }
             ],
             "id": [
-                [
-                    "ccc",
-                    "ddd"
-                ],
-                [
-                    12
-                ]
-            ],
-            "idrefs": [],
-            "id_attribute": [
                 "aaa",
                 23,
                 "bbb"
             ],
-            "idrefs_attribute": []
+            "idrefs": []
         }
     ]
 }

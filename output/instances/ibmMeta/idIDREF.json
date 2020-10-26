@@ -1,16 +1,18 @@
 {
     "annotation": [
         {
-            "appinfo": [],
-            "documentation": [
+            "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "\n        ID/IDREF tests \n        "
-                    ],
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                    "value": {
+                        "any_element": [
+                            "\n        ID/IDREF tests \n        "
+                        ],
+                        "source": null,
+                        "lang": null,
+                        "other_attributes": {
+                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#coss-attribute"
+                        }
                     }
                 }
             ],
@@ -21,15 +23,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with xs:anyAttribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with xs:anyAttribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -116,15 +120,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with xs:anyAttribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with xs:anyAttribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -211,15 +217,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with fixed value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with fixed value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -306,15 +314,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITIES with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITIES with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -401,15 +411,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITY with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITY with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -496,15 +508,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -591,15 +605,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with fixed value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with fixed value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -686,15 +702,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -781,15 +799,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with fixed value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with fixed value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -876,15 +896,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, naive test case on elements"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, naive test case on elements"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -971,15 +993,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1066,15 +1090,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1161,15 +1187,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID on attributes"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID on attributes"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1256,15 +1284,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, naive test case on elements"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, naive test case on elements"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1351,15 +1381,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, simpleContent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, simpleContent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1427,15 +1459,17 @@
                     "current": {
                         "annotation": [
                             {
-                                "appinfo": [],
-                                "documentation": [
+                                "appinfo_or_documentation": [
                                     {
-                                        "any_element": [
-                                            "\n                        Added new root element to make the ID effective, in response to bug #12143\n                    "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                        "value": {
+                                            "any_element": [
+                                                "\n                        Added new root element to make the ID effective, in response to bug #12143\n                    "
+                                            ],
+                                            "source": null,
+                                            "lang": null,
+                                            "other_attributes": {}
+                                        }
                                     }
                                 ],
                                 "other_attributes": {}
@@ -1469,15 +1503,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, simpleContent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, simpleContent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1564,15 +1600,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1659,15 +1697,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in attributes"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in attributes"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1754,15 +1794,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, attributes"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, attributes"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1849,15 +1891,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, attributes"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, attributes"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1944,15 +1988,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, simpleContent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, simpleContent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2020,15 +2066,17 @@
                     "current": {
                         "annotation": [
                             {
-                                "appinfo": [],
-                                "documentation": [
+                                "appinfo_or_documentation": [
                                     {
-                                        "any_element": [
-                                            "\n                        Added new root element to make the ID effective, in response to bug #12143\n                    "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                        "value": {
+                                            "any_element": [
+                                                "\n                        Added new root element to make the ID effective, in response to bug #12143\n                    "
+                                            ],
+                                            "source": null,
+                                            "lang": null,
+                                            "other_attributes": {}
+                                        }
                                     }
                                 ],
                                 "other_attributes": {}
@@ -2062,15 +2110,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2157,15 +2207,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2252,15 +2304,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2347,15 +2401,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2442,15 +2498,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID with default value on attribute, and xs:IDREF on element"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID with default value on attribute, and xs:IDREF on element"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2537,15 +2595,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2632,15 +2692,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2727,15 +2789,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID with default value "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID with default value "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2822,15 +2886,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "equality of an atomic value with a singleton list in ID/IDREF"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "equality of an atomic value with a singleton list in ID/IDREF"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2917,15 +2983,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID, with restriction on enum "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID, with restriction on enum "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3012,15 +3080,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3107,15 +3177,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID, invalid id value "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID, invalid id value "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3202,15 +3274,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with fixed value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with fixed value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3297,15 +3371,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute, invalid id value override the default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute, invalid id value override the default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3392,15 +3468,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3487,15 +3565,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, naive test case on elements "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, naive test case on elements "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3582,15 +3662,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, invalid ID value on list of ids"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, invalid ID value on list of ids"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3677,15 +3759,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, invalid value on idref element"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, invalid value on idref element"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3772,15 +3856,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3867,15 +3953,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID on attributes, invalid idref value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID on attributes, invalid idref value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3962,15 +4050,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, invalid idref value on attribute and element "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, invalid idref value on attribute and element "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4057,15 +4147,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, simpleContent, invalid idref value on attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, simpleContent, invalid idref value on attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4152,15 +4244,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "lists of ID, simpleContent, invalid idref value on element "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "lists of ID, simpleContent, invalid idref value on element "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4247,15 +4341,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, invalid idref value on element"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, invalid idref value on element"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4342,15 +4438,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                " Unions involving ID in attributes, invalid idref value on attribute "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    " Unions involving ID in attributes, invalid idref value on attribute "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4437,15 +4535,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, invalid idref value on attribute "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, invalid idref value on attribute "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4532,15 +4632,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, invalid idref value on element "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, invalid idref value on element "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4627,15 +4729,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID, complexContent, with invalid idref value on element "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID, complexContent, with invalid idref value on element "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4722,15 +4826,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID, invalid idref value on element "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID, invalid idref value on element "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4817,15 +4923,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4912,15 +5020,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID  "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID  "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5007,15 +5117,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID with default value on attribute, and xs:IDREF on element with invalid value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID with default value on attribute, and xs:IDREF on element with invalid value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5102,15 +5214,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID/IDREF with default value on attribute "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID/IDREF with default value on attribute "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5197,15 +5311,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID with default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID with default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5292,15 +5408,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "ID on root does not denote any element"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "ID on root does not denote any element"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5387,15 +5505,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "ID on root does not denote any element"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "ID on root does not denote any element"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5482,15 +5602,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITIES, invalid default value with respect to enum"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITIES, invalid default value with respect to enum"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5549,15 +5671,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITY, invalid default value with respect to enum"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITY, invalid default value with respect to enum"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5616,15 +5740,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID, invalid default value on an id type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID, invalid default value on an id type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5683,15 +5809,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid fixed value on an id type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid fixed value on an id type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5750,15 +5878,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on an idref type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on an idref type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5817,15 +5947,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid fixed value on an idref type "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid fixed value on an idref type "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5884,15 +6016,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on a list of type id"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on a list of type id"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5951,15 +6085,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, with invalid default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, with invalid default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6018,15 +6154,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6085,15 +6223,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on a list of type id"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on a list of type id"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6152,15 +6292,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITIES, invalid default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITIES, invalid default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6219,15 +6361,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ENTITY, invalid default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ENTITY, invalid default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6286,15 +6430,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "xs:ID, invalid default value on an id type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "xs:ID, invalid default value on an id type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6353,15 +6499,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid fixed value on an id type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid fixed value on an id type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6420,15 +6568,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on an idref type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on an idref type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6487,15 +6637,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid fixed value on an idref type "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid fixed value on an idref type "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6554,15 +6706,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on a list of type id"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on a list of type id"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6621,15 +6775,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Unions involving ID in elements, with invalid default value"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Unions involving ID in elements, with invalid default value"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6688,15 +6844,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Multiple attributes of type ID"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Multiple attributes of type ID"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6755,15 +6913,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "invalid default value on a list of type id"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "invalid default value on a list of type id"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

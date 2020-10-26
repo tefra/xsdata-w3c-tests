@@ -4,38 +4,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Equality testing (enumeration) for dateTime values, use YEAR as ZERO",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Equality testing (enumeration) for dateTime values, use YEAR as ZERO",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Use Year as Zero ",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Use Year as Zero ",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -88,15 +90,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid date per enumeration\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -130,15 +134,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid date per enumeration\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -172,15 +178,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid date per enumeration\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid date per enumeration\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -214,15 +222,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid date per enumeration\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid date per enumeration\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -256,15 +266,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid date per enumeration\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid date per enumeration\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -305,38 +317,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime ",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime ",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": " Test year zero allowed for facet maxInclusive for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -389,15 +403,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -431,15 +447,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid date per maxInclusive facet\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -473,15 +491,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid date per maxInclusive facet\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid date per maxInclusive facet\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -522,38 +542,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"required\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -606,15 +628,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid, timezone present.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -648,15 +672,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone present.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid, timezone present.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -690,15 +716,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, timezone not present.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, timezone not present.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -739,38 +767,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"prohibited\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -823,15 +853,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid, timezone not present as expected\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid, timezone not present as expected\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -865,15 +897,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -907,15 +941,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -956,38 +992,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Test new timezone facet explicitTimezone, value=\"optional\" for datatype xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1027,15 +1065,17 @@
                 "current": {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Typo corrected - see bug #12189\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Typo corrected - see bug #12189\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1063,15 +1103,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid date\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1105,15 +1147,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid date\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1147,15 +1191,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                valid date\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                valid date\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1196,38 +1242,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1286,38 +1334,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1376,38 +1426,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": " Test explicitTimezone facet: cannot derive \"required\" from \"prohibited\"",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1466,38 +1518,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": " Test explicitTimezone facet: cannot derive \"prohibited\" from \"required\"",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

@@ -1,10 +1,14 @@
 {
-    "key": [
+    "key_or_ref": [
         {
-            "id": "0"
+            "qname": "{foo}key",
+            "value": {
+                "id": "0"
+            }
+        },
+        {
+            "qname": "{foo}ref",
+            "value": "-0"
         }
-    ],
-    "ref": [
-        "-0"
     ]
 }

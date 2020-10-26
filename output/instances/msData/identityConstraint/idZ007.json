@@ -1,12 +1,16 @@
 {
-    "t1": [
+    "t1_or_t2": [
         {
-            "id": "foo"
-        }
-    ],
-    "t2": [
+            "qname": "t1",
+            "value": {
+                "id": "foo"
+            }
+        },
         {
-            "id": "foo"
+            "qname": "t2",
+            "value": {
+                "id": "foo"
+            }
         }
     ]
 }

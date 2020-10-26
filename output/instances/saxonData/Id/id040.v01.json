@@ -1,46 +1,50 @@
 {
-    "chap": [
+    "chap_or_appx": [
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1"
-                },
-                {
-                    "value": null,
-                    "nr": "2"
-                },
-                {
-                    "value": null,
-                    "nr": "3"
-                },
-                {
-                    "value": null,
-                    "nr": "4"
-                }
-            ]
-        }
-    ],
-    "appx": [
+            "qname": "{http://id040.ly/}chap",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2"
+                    },
+                    {
+                        "value": null,
+                        "nr": "3"
+                    },
+                    {
+                        "value": null,
+                        "nr": "4"
+                    }
+                ]
+            }
+        },
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1"
-                },
-                {
-                    "value": null,
-                    "nr": "2"
-                },
-                {
-                    "value": null,
-                    "nr": "3"
-                },
-                {
-                    "value": null,
-                    "nr": "4"
-                }
-            ]
+            "qname": "{http://id040.ly/}appx",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2"
+                    },
+                    {
+                        "value": null,
+                        "nr": "3"
+                    },
+                    {
+                        "value": null,
+                        "nr": "4"
+                    }
+                ]
+            }
         }
     ]
 }

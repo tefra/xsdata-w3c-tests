@@ -5,53 +5,59 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
-class Bar:
+class Foo:
     """
-    :ivar f1:
-    :ivar f2:
+    :ivar f1_or_f2:
     """
     class Meta:
-        name = "bar"
+        name = "foo"
 
-    f1: List[object] = field(
+    f1_or_f2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 4,
-        }
-    )
-    f2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "f1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "f2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
+            "max_occurs": 5,
         }
     )
 
 
 @dataclass
-class Foo:
+class Bar(Foo):
     """
-    :ivar f1:
-    :ivar f2:
+    :ivar f1_or_f2:
     """
     class Meta:
-        name = "foo"
+        name = "bar"
 
-    f1: List[object] = field(
+    f1_or_f2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 5,
-        }
-    )
-    f2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "f1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "f2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
+            "max_occurs": 4,
         }
     )
 

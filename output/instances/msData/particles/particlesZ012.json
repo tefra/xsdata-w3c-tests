@@ -1,17 +1,34 @@
 {
-    "e2": [
-        1
-    ],
-    "e1": [
-        true,
-        true,
-        false,
-        "x",
-        "y"
-    ],
-    "e3": [
+    "e2_or_e1_or_e3": [
         {
-            "att1": 123
+            "qname": "{http://xsdtesting}E1",
+            "value": true
+        },
+        {
+            "qname": "{http://xsdtesting}E1",
+            "value": true
+        },
+        {
+            "qname": "{http://xsdtesting}E1",
+            "value": false
+        },
+        {
+            "qname": "{http://xsdtesting}E1",
+            "value": "x"
+        },
+        {
+            "qname": "{http://xsdtesting}E1",
+            "value": "y"
+        },
+        {
+            "qname": "{http://xsdtesting}E2",
+            "value": 1
+        },
+        {
+            "qname": "{http://xsdtesting}E3",
+            "value": {
+                "att1": 123
+            }
         }
     ]
 }

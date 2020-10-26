@@ -1,54 +1,58 @@
 {
-    "chap": [
+    "chap_or_appx": [
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "2",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "Infinity",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "Infinity",
-                    "ref": "Infinity"
-                }
-            ]
-        }
-    ],
-    "appx": [
+            "qname": "{http://simple001.ly/}chap",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "Infinity",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "Infinity",
+                        "ref": "Infinity"
+                    }
+                ]
+            }
+        },
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "2",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "Infinity",
-                    "ref": "Infinity"
-                },
-                {
-                    "value": null,
-                    "nr": "Infinity",
-                    "ref": "Infinity"
-                }
-            ]
+            "qname": "{http://simple001.ly/}appx",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "Infinity",
+                        "ref": "Infinity"
+                    },
+                    {
+                        "value": null,
+                        "nr": "Infinity",
+                        "ref": "Infinity"
+                    }
+                ]
+            }
         }
     ]
 }

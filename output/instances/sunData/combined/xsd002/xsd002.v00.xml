@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <f:root xmlns:f="http://foo.com" xmlns:x="http://foo.com">
   <foo/>
-  <foo/>
-  <f:bar/>
   <f:bar/>
   <zot/>
+  <foo/>
+  <f:bar/>
   <zot/>
 </f:root>

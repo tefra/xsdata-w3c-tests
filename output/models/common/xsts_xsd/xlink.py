@@ -396,43 +396,40 @@ class Extended:
     The intention is that by simply declaring elements with these as their
     substitutionGroup, all the right things will happen.
 
-    :ivar title:
-    :ivar resource:
-    :ivar locator:
-    :ivar arc:
+    :ivar choice:
     :ivar type:
     :ivar role:
-    :ivar title_attribute:
+    :ivar title:
     """
     class Meta:
         name = "extended"
 
-    title: List[str] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    resource: List[Resource] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    locator: List[Locator] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    arc: List[Arc] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "title",
+                    "type": str,
+                    "namespace": "http://www.w3.org/1999/xlink",
+                },
+                {
+                    "name": "resource",
+                    "type": Resource,
+                    "namespace": "http://www.w3.org/1999/xlink",
+                },
+                {
+                    "name": "locator",
+                    "type": Locator,
+                    "namespace": "http://www.w3.org/1999/xlink",
+                },
+                {
+                    "name": "arc",
+                    "type": Arc,
+                    "namespace": "http://www.w3.org/1999/xlink",
+                },
+            ),
         }
     )
     type: TypeType = field(
@@ -452,10 +449,9 @@ class Extended:
             "min_length": 1,
         }
     )
-    title_attribute: Optional[str] = field(
+    title: Optional[str] = field(
         default=None,
         metadata={
-            "name": "title",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
         }

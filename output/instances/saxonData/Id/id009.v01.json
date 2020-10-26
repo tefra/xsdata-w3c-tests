@@ -1,39 +1,51 @@
 {
     "node": [
         {
-            "node": [],
-            "id": [
-                "aaa"
-            ],
-            "idref": [
-                "ccc"
+            "node_or_id_or_idref": [
+                {
+                    "qname": "id",
+                    "value": "aaa"
+                },
+                {
+                    "qname": "idref",
+                    "value": "ccc"
+                }
             ]
         },
         {
-            "node": [],
-            "id": [
-                "bbb"
-            ],
-            "idref": [
-                "aaa"
+            "node_or_id_or_idref": [
+                {
+                    "qname": "id",
+                    "value": "bbb"
+                },
+                {
+                    "qname": "idref",
+                    "value": "aaa"
+                }
             ]
         },
         {
-            "node": [],
-            "id": [
-                "ccc"
-            ],
-            "idref": [
-                "bbb"
+            "node_or_id_or_idref": [
+                {
+                    "qname": "id",
+                    "value": "ccc"
+                },
+                {
+                    "qname": "idref",
+                    "value": "bbb"
+                }
             ]
         },
         {
-            "node": [],
-            "id": [
-                ""
-            ],
-            "idref": [
-                ""
+            "node_or_id_or_idref": [
+                {
+                    "qname": "id",
+                    "value": null
+                },
+                {
+                    "qname": "idref",
+                    "value": null
+                }
             ]
         }
     ]

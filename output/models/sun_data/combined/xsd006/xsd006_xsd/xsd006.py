@@ -152,67 +152,49 @@ class Item3To7:
 @dataclass
 class Root:
     """
-    :ivar item0to1:
-    :ivar item0to2:
-    :ivar item0to_x:
-    :ivar item1to2:
-    :ivar item1to_x:
-    :ivar item2to2:
-    :ivar item2to_x:
-    :ivar item3to7:
+    :ivar choice:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    item0to1: List[Item0To1] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    item0to2: List[Item0To2] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    item0to_x: List[Item0ToX] = field(
-        default_factory=list,
-        metadata={
-            "name": "item0toX",
-            "type": "Element",
-        }
-    )
-    item1to2: List[Item1To2] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    item1to_x: List[Item1ToX] = field(
-        default_factory=list,
-        metadata={
-            "name": "item1toX",
-            "type": "Element",
-        }
-    )
-    item2to2: List[Item2To2] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    item2to_x: List[Item2ToX] = field(
-        default_factory=list,
-        metadata={
-            "name": "item2toX",
-            "type": "Element",
-        }
-    )
-    item3to7: List[Item3To7] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "item0to1",
+                    "type": Item0To1,
+                },
+                {
+                    "name": "item0to2",
+                    "type": Item0To2,
+                },
+                {
+                    "name": "item0toX",
+                    "type": Item0ToX,
+                },
+                {
+                    "name": "item1to2",
+                    "type": Item1To2,
+                },
+                {
+                    "name": "item1toX",
+                    "type": Item1ToX,
+                },
+                {
+                    "name": "item2to2",
+                    "type": Item2To2,
+                },
+                {
+                    "name": "item2toX",
+                    "type": Item2ToX,
+                },
+                {
+                    "name": "item3to7",
+                    "type": Item3To7,
+                },
+            ),
         }
     )

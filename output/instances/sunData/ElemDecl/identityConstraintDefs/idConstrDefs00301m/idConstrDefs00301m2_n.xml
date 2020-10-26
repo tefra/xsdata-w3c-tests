@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="ElemDecl/identityConstraintDefs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Element>e001</Element>
-  <Element>e001</Element>
-  <ElementRef>e001</ElementRef>
   <ElementRef>e001</ElementRef>
   <ElementRefs>e001</ElementRefs>
+  <Element>e001</Element>
+  <ElementRef>e001</ElementRef>
   <ElementRefs>e001</ElementRefs>
 </test:root>

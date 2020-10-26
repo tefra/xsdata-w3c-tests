@@ -4,38 +4,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted  annotation for a model group schema component (all) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted  annotation for a model group schema component (all) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -114,38 +116,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted  annotation for a model group schema component (choice) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted  annotation for a model group schema component (choice) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -224,38 +228,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted double annotation for a model group schema component (choice) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted double annotation for a model group schema component (choice) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -306,38 +312,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted misplaced annotation for a model group schema component (choice) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted misplaced annotation for a model group schema component (choice) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -388,38 +396,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted  annotation for a model group schema component (sequence) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted  annotation for a model group schema component (sequence) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -498,38 +508,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted double annotation for a model group schema component (sequence) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted double annotation for a model group schema component (sequence) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -580,38 +592,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -662,38 +676,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted  annotation for a model group schema component (sequence) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted  annotation for a model group schema component (sequence) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -772,38 +788,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted double annotation for a model group schema component (sequence) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted double annotation for a model group schema component (sequence) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -854,38 +872,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -936,38 +956,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted double annotation for a model group schema component (all) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted double annotation for a model group schema component (all) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1018,38 +1040,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted misplaced annotation for a model group schema component (all) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted misplaced annotation for a model group schema component (all) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1100,38 +1124,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted  annotation for a model group schema component (all) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted  annotation for a model group schema component (all) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1210,38 +1236,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted double annotation for a model group schema component (all) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted double annotation for a model group schema component (all) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1292,38 +1320,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted misplaced annotation for a model group schema component (all) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted misplaced annotation for a model group schema component (all) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1374,38 +1404,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted  annotation for a model group schema component (choice) (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted  annotation for a model group schema component (choice) (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1484,38 +1516,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted double annotation for a model group schema component (choice) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted double annotation for a model group schema component (choice) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1566,38 +1600,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted misplaced annotation for a model group schema component (choice) (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted misplaced annotation for a model group schema component (choice) (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1648,38 +1684,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "The {compositor} is <sequence> of 3 elements, {particles} are element declarations (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "The {compositor} is <sequence> of 3 elements, {particles} are element declarations (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Validation Rule: Element Sequence Valid case #1",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Validation Rule: Element Sequence Valid case #1",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1785,38 +1823,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "The {compositor} is choice, {particles} are element declarations (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "The {compositor} is choice, {particles} are element declarations (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Validation Rule: Element Sequence Valid case #2",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Validation Rule: Element Sequence Valid case #2",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1922,38 +1962,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "The {compositor} is all, {particles} are element declarations (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "The {compositor} is all, {particles} are element declarations (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Validation Rule: Element Sequence Valid case #3",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Validation Rule: Element Sequence Valid case #3",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2059,38 +2101,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An empty sequence (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An empty sequence (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The XMLSchema specification allows an empty sequence.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The XMLSchema specification allows an empty sequence.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2169,38 +2213,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An empty choice (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An empty choice (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The XMLSchema specification allows an empty choice.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The XMLSchema specification allows an empty choice.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2279,38 +2325,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An empty all (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An empty all (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The XMLSchema specification allows an empty all.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The XMLSchema specification allows an empty all.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2389,38 +2437,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 1 <element> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 1 <element> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2526,38 +2576,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <element> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <element> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2663,38 +2715,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "<group> as one of {particles} (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "<group> as one of {particles} (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>. So <group> is prohibited.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>. So <group> is prohibited.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2745,38 +2799,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "<sequence> as one of {particles} (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "<sequence> as one of {particles} (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>. So <sequence> is prohibited.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>. So <sequence> is prohibited.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2827,46 +2883,51 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "<any> as one of {particles} (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "<any> as one of {particles} (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>. So <any> is prohibited.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>. So <any> is prohibited.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         },
                         {
-                            "any_element": [
-                                "\n                Wildcards in an xs:all group become legal in XSD 1.1 - MHK\n            "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "\n                Wildcards in an xs:all group become legal in XSD 1.1 - MHK\n            "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2932,38 +2993,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "<choice> as one of {particles} (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "<choice> as one of {particles} (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'all' must be <element>. So <choice> is prohibited.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'all' must be <element>. So <choice> is prohibited.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3014,38 +3077,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <element> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <element> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3151,38 +3216,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <group> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <group> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3288,38 +3355,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <choice> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <choice> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3425,38 +3494,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <sequence> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <sequence> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3562,38 +3633,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 1 <any> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 1 <any> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3699,38 +3772,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <element> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <element> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3836,38 +3911,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <group> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <group> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3973,38 +4050,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <choice> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <choice> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4110,38 +4189,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 2 <sequence> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 2 <sequence> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4247,38 +4328,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{particles}: 1 <any> (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{particles}: 1 <any> (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

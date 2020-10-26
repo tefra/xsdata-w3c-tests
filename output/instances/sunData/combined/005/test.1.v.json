@@ -1,42 +1,76 @@
 {
-    "item1": [
+    "item1_or_item2": [
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
-        }
-    ],
-    "item2": [
-        {
-            "foo": ""
+            "qname": "{foo}item1",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item2",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item2",
+            "value": {
+                "foo": ""
+            }
         },
         {
-            "foo": ""
+            "qname": "{foo}item2",
+            "value": {
+                "foo": ""
+            }
+        },
+        {
+            "qname": "{foo}item2",
+            "value": {
+                "foo": ""
+            }
         }
     ]
 }

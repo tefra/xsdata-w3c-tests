@@ -57,21 +57,24 @@ class StructuredDate:
 @dataclass
 class Doc:
     """
-    :ivar para:
-    :ivar bezzle:
+    :ivar para_or_bezzle:
     """
     class Meta:
         name = "doc"
 
-    para: List[StructuredDate] = field(
+    para_or_bezzle: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    bezzle: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "para",
+                    "type": StructuredDate,
+                },
+                {
+                    "name": "bezzle",
+                    "type": str,
+                },
+            ),
         }
     )

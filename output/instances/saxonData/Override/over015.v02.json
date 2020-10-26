@@ -1,4 +1,8 @@
 {
-    "para": [],
-    "bezzle": "bez"
+    "para_or_bezzle": [
+        {
+            "qname": "bezzle",
+            "value": "bez"
+        }
+    ]
 }

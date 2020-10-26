@@ -165,37 +165,34 @@ class Dvd(MediaItem):
 @dataclass
 class ProductList:
     """
-    :ivar book:
-    :ivar dvd:
-    :ivar clothing:
-    :ivar cd:
+    :ivar choice:
     """
-    book: List[Book] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    dvd: List[Dvd] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    clothing: List[Apparel] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    cd: List[Cd] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "book",
+                    "type": Book,
+                    "namespace": "",
+                },
+                {
+                    "name": "dvd",
+                    "type": Dvd,
+                    "namespace": "",
+                },
+                {
+                    "name": "clothing",
+                    "type": Apparel,
+                    "namespace": "",
+                },
+                {
+                    "name": "cd",
+                    "type": Cd,
+                    "namespace": "",
+                },
+            ),
         }
     )
 

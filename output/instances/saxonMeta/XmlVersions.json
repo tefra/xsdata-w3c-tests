@@ -4,38 +4,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in element and attribute name",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Use newly-allowed name characters in element and attribute name",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -88,15 +90,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -135,38 +139,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in NCName value",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Use newly-allowed name characters in NCName value",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Dutch ligature ij is allowed in names in XML 1.1 and XML 1.0 5th ed but not earlier",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -219,15 +225,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -266,38 +274,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed C0 characters in character content and in attribute values",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Use newly-allowed C0 characters in character content and in attribute values",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "C0 characters allowed in content in XML 1.1 but not earlier",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "C0 characters allowed in content in XML 1.1 but not earlier",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -350,15 +360,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -397,38 +409,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Use newly-allowed name characters in schema component names",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Use newly-allowed name characters in schema component names",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Non-BMP chars is allowed in names in XML 1.1 but not earlier",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Non-BMP chars is allowed in names in XML 1.1 but not earlier",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -481,15 +495,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -528,38 +544,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\i in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\i in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Initial name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Initial name characters in XML 1.1 were different from 1.0",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -612,15 +630,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -654,15 +674,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -696,15 +718,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -743,38 +767,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\I in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\I in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Initial name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Initial name characters in XML 1.1 were different from 1.0",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -827,15 +853,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -869,15 +897,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -911,15 +941,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -953,15 +985,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1000,38 +1034,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\c in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\c in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 were different from 1.0",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1084,15 +1120,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1126,15 +1164,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1168,15 +1208,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1215,38 +1257,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\C in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\C in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 were different from 1.0",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1299,15 +1343,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1341,15 +1387,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1383,15 +1431,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1430,38 +1480,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test interpretation of NMTOKENS under XML 1.1",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test interpretation of NMTOKENS under XML 1.1",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 were different from 1.0",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 were different from 1.0",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1514,15 +1566,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1556,15 +1610,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1598,15 +1654,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1640,15 +1698,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1682,15 +1742,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid against the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid against the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -1729,38 +1791,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\i in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\i in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 are the same as 1.05e",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1926,38 +1990,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\c in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\c in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 are the same as 1.05e",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2123,38 +2189,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\I in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\I in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 are the same as 1.05e",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2320,38 +2388,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Test which characters match \\C in a regex",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Test which characters match \\C in a regex",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Name characters in XML 1.1 are the same as 1.05e",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Name characters in XML 1.1 are the same as 1.05e",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

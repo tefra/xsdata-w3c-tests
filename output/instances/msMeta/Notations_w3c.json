@@ -4,15 +4,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Basic Case on Notation"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Basic Case on Notation"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -63,15 +65,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Empty notation under schema"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Empty notation under schema"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -122,15 +126,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with ID=\"foo25\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with ID=\"foo25\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -181,15 +187,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with ID=\"_foo-2.5\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with ID=\"_foo-2.5\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -240,15 +248,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with ID=\"25\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with ID=\"25\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -299,15 +309,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with ID=\"\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with ID=\"\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -358,15 +370,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Duplicate ID=\"foo25\" where foo25 is already exists"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Duplicate ID=\"foo25\" where foo25 is already exists"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -417,15 +431,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"foo\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"foo\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -476,15 +492,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"_foo\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"_foo\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -535,15 +553,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"name\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"name\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -594,15 +614,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"_foo-2.5??\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"_foo-2.5??\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -653,15 +675,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Declare a dupe Notation with the same name"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Declare a dupe Notation with the same name"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -712,15 +736,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Name the Notation with an existing non-Notation name"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Name the Notation with an existing non-Notation name"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -771,15 +797,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"foo:bar\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"foo:bar\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -830,15 +858,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\":bar\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\":bar\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -889,15 +919,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"foo:\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"foo:\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -948,15 +980,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1007,15 +1041,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\" \""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\" \""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1066,15 +1102,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"-2.5foo\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"-2.5foo\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1125,15 +1163,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"xml\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"xml\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1184,15 +1224,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"xmlns\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"xmlns\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1243,15 +1285,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=\"xsd\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=\"xsd\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1302,15 +1346,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with system=\"\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with system=\"\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1361,15 +1407,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with system=\"http://www.w3.org/TR/Schema-0/\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with system=\"http://www.w3.org/TR/Schema-0/\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1420,15 +1468,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with system = file://c/foo"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with system = file://c/foo"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1479,15 +1529,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with system = mailto:someone@microsoft.com"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with system = mailto:someone@microsoft.com"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1538,15 +1590,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with system = foo?123"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with system = foo?123"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1597,15 +1651,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with public=\"\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with public=\"\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1656,15 +1712,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with public=\"~`^&{}[]|\\<>\""
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with public=\"~`^&{}[]|\\<>\""
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1715,15 +1773,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=jpeg public=image/jpeg and system=viewer.exe"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=jpeg public=image/jpeg and system=viewer.exe"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1774,15 +1834,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=gif public=image/gif and sytem=foobar.exe"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=gif public=image/gif and sytem=foobar.exe"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1833,15 +1895,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with name=xml public=text/xml and system=iexplorer.exe"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with name=xml public=text/xml and system=iexplorer.exe"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1892,15 +1956,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with an attribute that has a non-schema namespace, a:b=\"c\" where xmlns:a=\"foo\" in xsd:schema"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with an attribute that has a non-schema namespace, a:b=\"c\" where xmlns:a=\"foo\" in xsd:schema"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1951,15 +2017,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with an attribute a:b=\"c\" where a doesn't have a non-schema namespace"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with an attribute a:b=\"c\" where a doesn't have a non-schema namespace"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2010,15 +2078,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with an attribute foo=\"bar\" where foo is a random attribute"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with an attribute foo=\"bar\" where foo is a random attribute"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2069,15 +2139,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation appearing more than once under schema"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation appearing more than once under schema"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2128,15 +2200,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with all as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with all as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2187,15 +2261,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with all as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with all as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2246,15 +2322,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with annotation as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with annotation as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2305,15 +2383,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with annotation as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with annotation as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2364,15 +2444,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with any as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with any as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2423,15 +2505,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with any as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with any as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2482,15 +2566,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with anyAttribute as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with anyAttribute as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2541,15 +2627,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with anyAttribute as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with anyAttribute as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2600,15 +2688,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with appInfo as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with appInfo as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2659,15 +2749,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with appInfo as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with appInfo as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2718,15 +2810,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with attribute as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with attribute as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2777,15 +2871,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with attribute as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with attribute as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2836,15 +2932,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with attributeGroup as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with attributeGroup as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2895,15 +2993,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with attributeGroup as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with attributeGroup as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2954,15 +3054,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with choice as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with choice as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3013,15 +3115,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with choice as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with choice as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3072,15 +3176,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with complexContent as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with complexContent as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3131,15 +3237,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with complexContent as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with complexContent as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3190,15 +3298,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with complexType as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with complexType as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3249,15 +3359,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with complexType as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with complexType as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3308,15 +3420,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with documentation as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with documentation as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3367,15 +3481,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with documentation as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with documentation as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3426,15 +3542,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with element as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with element as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3485,15 +3603,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with element as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with element as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3544,15 +3664,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with enumeration as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with enumeration as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3603,15 +3725,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with enumeration as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with enumeration as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3662,15 +3786,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with extension as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with extension as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3721,15 +3847,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with extension as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with extension as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3780,15 +3908,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with field as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with field as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3839,15 +3969,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with field as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with field as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3898,15 +4030,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with group as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with group as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3957,15 +4091,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with group as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with group as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4016,15 +4152,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with import as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with import as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4075,15 +4213,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with import as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with import as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4134,15 +4274,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with include as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with include as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4193,15 +4335,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with include as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with include as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4252,15 +4396,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with key as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with key as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4311,15 +4457,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with key as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with key as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4370,15 +4518,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with keyRef as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with keyRef as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4429,15 +4579,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with keyRef as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with keyRef as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4488,15 +4640,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with length as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with length as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4547,15 +4701,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with length as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with length as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4606,15 +4762,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with list as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with list as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4665,15 +4823,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with list as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with list as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4724,15 +4884,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with maxInclusive as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with maxInclusive as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4783,15 +4945,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with maxInclusive as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with maxInclusive as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4842,15 +5006,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with maxLength as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with maxLength as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4901,15 +5067,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with maxLength as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with maxLength as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -4960,15 +5128,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with minInclusive as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with minInclusive as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5019,15 +5189,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with minInclusive as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with minInclusive as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5078,15 +5250,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with minLength as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with minLength as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5137,15 +5311,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with minLength as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with minLength as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5196,15 +5372,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with pattern as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with pattern as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5255,15 +5433,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with pattern as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with pattern as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5314,15 +5494,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with redefine as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with redefine as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5373,15 +5555,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with redefine as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with redefine as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5432,15 +5616,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with restriction as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with restriction as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5491,15 +5677,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with restriction as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with restriction as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5550,15 +5738,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with schema as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with schema as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5609,15 +5799,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with schema as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with schema as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5668,15 +5860,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with selector as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with selector as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5727,15 +5921,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with selector as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with selector as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5786,15 +5982,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with sequence as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with sequence as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5845,15 +6043,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with sequence as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with sequence as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5904,15 +6104,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with simpleContent as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with simpleContent as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -5963,15 +6165,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with simpleContent as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with simpleContent as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6022,15 +6226,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with simpleType as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with simpleType as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6081,15 +6287,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with simpleType as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with simpleType as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6140,15 +6348,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with union as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with union as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6199,15 +6409,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with union as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with union as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6258,15 +6470,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with unique as its parent"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with unique as its parent"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6317,15 +6531,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with unique as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with unique as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6376,15 +6592,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with some text as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with some text as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6435,15 +6653,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with some well formed XML"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with some well formed XML"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6494,15 +6714,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with known entities & \" '"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with known entities & \" '"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6553,15 +6775,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Notation with comment nodes as its content"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Notation with comment nodes as its content"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6612,15 +6836,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Schema with 3 three Notations and an attribute with type=NOTATION"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Schema with 3 three Notations and an attribute with type=NOTATION"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6671,15 +6897,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Instance document declares a notation type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Instance document declares a notation type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6764,15 +6992,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Instance document doesn't declare a notation type"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Instance document doesn't declare a notation type"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -6851,15 +7081,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "TEST :Notations : Instance document with (Schema with 3 Notations and an attribute with type=NOTATION) and attribute contains two notation names"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "TEST :Notations : Instance document with (Schema with 3 Notations and an attribute with type=NOTATION) and attribute contains two notation names"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

@@ -1,7 +1,7 @@
 {
-    "a": [
+    "a_or_b": [
         {
-            "qname": "{http://xsdtesting}a",
+            "qname": "{http://xsdtesting}b",
             "text": null,
             "tail": null,
             "ns_map": {
@@ -10,11 +10,9 @@
             },
             "children": [],
             "attributes": {}
-        }
-    ],
-    "b": [
+        },
         {
-            "qname": "{http://xsdtesting}b",
+            "qname": "{http://xsdtesting}a",
             "text": null,
             "tail": null,
             "ns_map": {

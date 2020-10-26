@@ -1,9 +1,11 @@
 {
     "node": [
         {
-            "node": [],
-            "id": [
-                ""
+            "node_or_id": [
+                {
+                    "qname": "id",
+                    "value": null
+                }
             ]
         }
     ]

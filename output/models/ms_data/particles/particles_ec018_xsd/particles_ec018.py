@@ -7,24 +7,26 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Doc:
     """
-    :ivar a:
-    :ivar b:
+    :ivar a_or_b:
     """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    a: List[object] = field(
+    a_or_b: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "max_occurs": 2,
-        }
-    )
-    b: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": object,
+                },
+                {
+                    "name": "b",
+                    "type": object,
+                },
+            ),
             "max_occurs": 2,
         }
     )

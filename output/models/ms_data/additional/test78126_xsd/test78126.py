@@ -49,21 +49,24 @@ class Any:
 @dataclass
 class Root:
     """
-    :ivar any:
-    :ivar a:
+    :ivar any_or_a:
     """
     class Meta:
         name = "root"
 
-    any: List[Any] = field(
+    any_or_a: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    a: List[A] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "any",
+                    "type": Any,
+                },
+                {
+                    "name": "a",
+                    "type": A,
+                },
+            ),
         }
     )

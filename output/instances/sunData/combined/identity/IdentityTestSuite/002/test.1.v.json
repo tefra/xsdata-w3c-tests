@@ -1,8 +1,12 @@
 {
-    "key": [
-        "joe"
-    ],
-    "ref": [
-        "joe"
+    "key_or_ref": [
+        {
+            "qname": "{foo}key",
+            "value": "joe"
+        },
+        {
+            "qname": "{foo}ref",
+            "value": "joe"
+        }
     ]
 }

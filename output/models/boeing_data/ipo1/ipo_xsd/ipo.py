@@ -255,7 +255,6 @@ class PurchaseOrderType:
             "name": "shipTo",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     bill_to: Optional[AddressType] = field(
@@ -264,7 +263,6 @@ class PurchaseOrderType:
             "name": "billTo",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     single_address: Optional[AddressType] = field(

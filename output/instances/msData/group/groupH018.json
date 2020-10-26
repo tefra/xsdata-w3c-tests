@@ -1,6 +1,6 @@
 {
     "elem": {
-        "x1": [
+        "choice": [
             {
                 "qname": "x1",
                 "text": null,
@@ -12,7 +12,7 @@
                 "attributes": {}
             },
             {
-                "qname": "x1",
+                "qname": "x2",
                 "text": null,
                 "tail": null,
                 "ns_map": {
@@ -20,11 +20,9 @@
                 },
                 "children": [],
                 "attributes": {}
-            }
-        ],
-        "x2": [
+            },
             {
-                "qname": "x2",
+                "qname": "x1",
                 "text": null,
                 "tail": null,
                 "ns_map": {
@@ -43,8 +41,6 @@
                 "children": [],
                 "attributes": {}
             }
-        ],
-        "y1": null,
-        "y2": null
+        ]
     }
 }

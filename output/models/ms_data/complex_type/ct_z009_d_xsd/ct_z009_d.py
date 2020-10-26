@@ -41,6 +41,5 @@ class Root:
                         "namespace": "",
                     },
                 ),
-                "min_occurs": 2,
             }
         )

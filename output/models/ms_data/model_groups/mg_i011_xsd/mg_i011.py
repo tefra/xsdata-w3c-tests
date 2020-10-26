@@ -5,33 +5,27 @@ from typing import List, Optional
 @dataclass
 class Foo:
     """
-    :ivar b:
-    :ivar b2:
-    :ivar w3_org_1999_xhtml_element_or_a_or_d:
+    :ivar choice:
     :ivar c:
     """
     class Meta:
         name = "foo"
 
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b2: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    w3_org_1999_xhtml_element_or_a_or_d: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
+                {
+                    "name": "b",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "b2",
+                    "type": str,
+                    "namespace": "",
+                },
                 {
                     "name": "w3_org/1999/xhtml_element",
                     "tag": "Wildcard",

@@ -1,7 +1,6 @@
 {
     "elem": {
-        "r1": [],
-        "r2": [
+        "r1_or_r2": [
             {
                 "qname": "r2",
                 "text": null,

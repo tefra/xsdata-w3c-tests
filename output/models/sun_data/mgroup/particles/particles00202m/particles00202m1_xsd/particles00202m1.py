@@ -20,7 +20,6 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     marked: Optional[bool] = field(
@@ -28,7 +27,6 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     num: Optional[int] = field(
@@ -36,6 +34,5 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )

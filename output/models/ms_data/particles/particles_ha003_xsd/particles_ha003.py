@@ -7,24 +7,21 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Base:
     """
-    :ivar e1:
-    :ivar e2_or_e3:
+    :ivar e1_or_e2_or_e3:
     """
     class Meta:
         name = "base"
 
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e2_or_e3: List[object] = field(
+    e1_or_e2_or_e3: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
             "choices": (
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
                 {
                     "name": "e2",
                     "type": object,
@@ -42,10 +39,9 @@ class Base:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     """
     :ivar e1:
-    :ivar e2_or_e3:
     """
     class Meta:
         name = "doc"
@@ -56,22 +52,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
-    )
-    e2_or_e3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "e2",
-                    "type": object,
-                },
-                {
-                    "name": "e3",
-                    "type": object,
-                },
-            ),
-            "max_occurs": 2,
         }
     )

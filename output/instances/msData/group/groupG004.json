@@ -1,8 +1,6 @@
 {
     "elem": {
-        "x1": [],
-        "x2": [],
-        "y1_or_y2": [
+        "choice": [
             {
                 "qname": "y1",
                 "text": null,

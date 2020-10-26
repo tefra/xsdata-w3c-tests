@@ -31,7 +31,7 @@ class B:
 
 
 @dataclass
-class R(B):
+class R:
     """
     :ivar c1:
     :ivar c2:

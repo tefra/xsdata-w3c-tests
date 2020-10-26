@@ -1,6 +1,6 @@
 {
     "elem": {
-        "e1_or_e2": [
+        "e1": [
             {
                 "qname": "e1",
                 "text": null,
@@ -33,7 +33,9 @@
                 },
                 "children": [],
                 "attributes": {}
-            },
+            }
+        ],
+        "e2": [
             {
                 "qname": "e2",
                 "text": null,
@@ -67,8 +69,6 @@
                 "children": [],
                 "attributes": {}
             }
-        ],
-        "e1": [],
-        "e2": []
+        ]
     }
 }

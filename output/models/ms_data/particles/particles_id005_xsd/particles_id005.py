@@ -33,7 +33,7 @@ class Base:
 
 
 @dataclass
-class Testing(Base):
+class Testing:
     """
     :ivar e1_or_e2:
     """

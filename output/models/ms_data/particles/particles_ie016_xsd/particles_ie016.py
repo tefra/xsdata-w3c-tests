@@ -34,7 +34,7 @@ class Base:
 
 
 @dataclass
-class Testing(Base):
+class Testing:
     """
     :ivar e1:
     :ivar e2:

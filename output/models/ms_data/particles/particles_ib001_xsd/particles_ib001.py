@@ -34,9 +34,10 @@ class Base:
 
 
 @dataclass
-class Doc(Base):
+class Doc:
     """
     :ivar foo:
+    :ivar foo1:
     """
     class Meta:
         name = "doc"
@@ -47,5 +48,12 @@ class Doc(Base):
         metadata={
             "type": "Element",
             "max_occurs": 2,
+        }
+    )
+    foo1: List[bool] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "max_occurs": 6,
         }
     )

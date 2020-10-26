@@ -68,7 +68,7 @@ class Foo:
 
 
 @dataclass
-class Doc(Base):
+class Doc:
     """
     :ivar foo_or_bar:
     """

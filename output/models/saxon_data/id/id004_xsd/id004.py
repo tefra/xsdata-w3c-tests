@@ -1,29 +1,32 @@
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Dict, List, Type
 
 
 @dataclass
 class Node:
     """
-    :ivar node:
-    :ivar id:
+    :ivar node_or_id:
     :ivar id_one:
     :ivar any_attributes:
     """
     class Meta:
         name = "node"
 
-    node: List["Node"] = field(
+    node_or_id: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    id: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "tokens": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": Type["Node"],
+                },
+                {
+                    "name": "id",
+                    "type": List[str],
+                    "tokens": True,
+                },
+            ),
         }
     )
     id_one: List[str] = field(

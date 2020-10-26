@@ -9,11 +9,7 @@ class Root:
     """
     :ivar content:
     :ivar a:
-    :ivar b1:
-    :ivar b2:
-    :ivar b3:
-    :ivar b4:
-    :ivar b5:
+    :ivar choice:
     """
     class Meta:
         namespace = "urn:test"
@@ -34,43 +30,32 @@ class Root:
             "required": True,
         }
     )
-    b1: List[str] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "B1",
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    b2: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "B2",
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    b3: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "B3",
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    b4: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "B4",
-            "type": "Element",
-            "max_occurs": 5,
-        }
-    )
-    b5: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "B5",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "B1",
+                    "type": str,
+                },
+                {
+                    "name": "B2",
+                    "type": str,
+                },
+                {
+                    "name": "B3",
+                    "type": str,
+                },
+                {
+                    "name": "B4",
+                    "type": str,
+                },
+                {
+                    "name": "B5",
+                    "type": str,
+                },
+            ),
             "max_occurs": 5,
         }
     )

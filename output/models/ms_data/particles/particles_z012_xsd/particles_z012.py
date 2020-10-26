@@ -96,33 +96,30 @@ class E3(Ct2):
 @dataclass
 class Root:
     """
-    :ivar e2:
-    :ivar e1:
-    :ivar e3:
+    :ivar e2_or_e1_or_e3:
     """
     class Meta:
         name = "root"
         namespace = "http://xsdtesting"
 
-    e2: List[int] = field(
+    e2_or_e1_or_e3: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "E2",
-            "type": "Element",
-        }
-    )
-    e1: List[Union[bool, float, int, "Root.Value"]] = field(
-        default_factory=list,
-        metadata={
-            "name": "E1",
-            "type": "Element",
-        }
-    )
-    e3: List[E3] = field(
-        default_factory=list,
-        metadata={
-            "name": "E3",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "E2",
+                    "type": int,
+                },
+                {
+                    "name": "E1",
+                    "type": Union[bool, float, int, "Root.Value"],
+                },
+                {
+                    "name": "E3",
+                    "type": E3,
+                },
+            ),
         }
     )
 

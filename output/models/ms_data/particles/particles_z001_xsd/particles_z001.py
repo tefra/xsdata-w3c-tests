@@ -8,8 +8,7 @@ __NAMESPACE__ = "http://xsdtesting"
 class Base:
     """
     :ivar annotation:
-    :ivar element:
-    :ivar any:
+    :ivar element_or_any:
     """
     annotation: Optional[object] = field(
         default=None,
@@ -18,20 +17,22 @@ class Base:
             "namespace": "",
         }
     )
-    element: List[object] = field(
+    element_or_any: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
-        }
-    )
-    any: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "sequential": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "element",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "any",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
 
@@ -40,8 +41,8 @@ class Base:
 class Derived:
     """
     :ivar annotation:
+    :ivar element_or_any:
     :ivar element:
-    :ivar any:
     """
     annotation: Optional[object] = field(
         default=None,
@@ -50,14 +51,25 @@ class Derived:
             "namespace": "",
         }
     )
-    element: List[object] = field(
+    element_or_any: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "element",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "any",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )
-    any: List[object] = field(
+    element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

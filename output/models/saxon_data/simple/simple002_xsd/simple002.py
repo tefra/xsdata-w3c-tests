@@ -49,22 +49,25 @@ class Chap:
 @dataclass
 class Doc:
     """
-    :ivar chap:
-    :ivar appx:
+    :ivar chap_or_appx:
     """
     class Meta:
         name = "doc"
         namespace = "http://simple001.ly/"
 
-    chap: List[Chap] = field(
+    chap_or_appx: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    appx: List[Chap] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "chap",
+                    "type": Chap,
+                },
+                {
+                    "name": "appx",
+                    "type": Chap,
+                },
+            ),
         }
     )

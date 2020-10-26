@@ -4,38 +4,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "abstract type extension (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "abstract type extension (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Abstract complex types can be used as {base type definition}s.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Abstract complex types can be used as {base type definition}s.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -141,38 +143,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "declaration of element of abstract type (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "declaration of element of abstract type (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Complex types for which {abstract} is true must not be used as the\n                              {type definition} for the *validation* of element information items.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Complex types for which {abstract} is true must not be used as the\n                              {type definition} for the *validation* of element information items.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -251,38 +255,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted annotation  for complex type definition (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted annotation  for complex type definition (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -361,38 +367,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted annotation  for complex type definition (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted annotation  for complex type definition (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -471,38 +479,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "human-targeted annotation misplaced  for complex type definition (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "human-targeted annotation misplaced  for complex type definition (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -553,38 +563,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "machine-targeted annotation misplaced  for complex type definition (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "machine-targeted annotation misplaced  for complex type definition (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Annotations provide for human- and machine-targeted annotations of schema components.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -635,38 +647,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "type definition with any attributes (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "type definition with any attributes (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "any: [attributes] can include attributes with any qualified or unqualified name.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "any: [attributes] can include attributes with any qualified or unqualified name.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -745,38 +759,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "<attribute> [children] (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "<attribute> [children] (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The set of attribute uses corresponding to the <attribute> [children].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The set of attribute uses corresponding to the <attribute> [children].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -882,38 +898,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "restriction of simple content (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "restriction of simple content (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The type definition resolved to by the actual value of the base [attribute].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The type definition resolved to by the actual value of the base [attribute].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1019,38 +1037,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "extention of simple content (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "extention of simple content (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The type definition resolved to by the actual value of the base [attribute].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The type definition resolved to by the actual value of the base [attribute].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1156,38 +1176,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "extention of complex content (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "extention of complex content (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The type definition resolved to by the actual value of the base [attribute].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The type definition resolved to by the actual value of the base [attribute].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1293,38 +1315,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "restriction of complex content (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "restriction of complex content (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The type definition resolved to by the actual value of the base [attribute].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The type definition resolved to by the actual value of the base [attribute].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1430,38 +1454,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An empty content type (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An empty content type (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "A {content type} with the distinguished value empty *validates* elements with\n                              no character or element information item [children].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "A {content type} with the distinguished value empty *validates* elements with\n                              no character or element information item [children].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1567,38 +1593,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "A simple content type (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "A simple content type (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "A {content type} which is a Simple Type Definition (2.2.1.2) *validates*\n                              elements with character-only [children].",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "A {content type} which is a Simple Type Definition (2.2.1.2) *validates*\n                              elements with character-only [children].",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1704,38 +1732,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An element-only content type (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An element-only content type (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "An element-only {content type} *validates* elements with [children] that\n                              conform to the supplied *content model*.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "An element-only {content type} *validates* elements with [children] that\n                              conform to the supplied *content model*.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1841,38 +1871,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "An mixed content type (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "An mixed content type (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "A mixed {content type} *validates* elements whose element [children]\n                              (i.e. specifically ignoring other [children] such as character information\n                               items) conform to the supplied *content model*.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "A mixed {content type} *validates* elements whose element [children]\n                              (i.e. specifically ignoring other [children] such as character information\n                               items) conform to the supplied *content model*.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -1978,38 +2010,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "items: 1.1, 1.2, 1.3, 1.4.1 (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "items: 1.1, 1.2, 1.3, 1.4.1 (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2115,38 +2149,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2252,38 +2288,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "extension of the type int (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "extension of the type int (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2389,38 +2427,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "extension of the type int by adding the attribute 't' of the type int (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "extension of the type int by adding the attribute 't' of the type int (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2526,38 +2566,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "the value is extension (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "the value is extension (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2608,38 +2650,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "the value is restriction (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "the value is restriction (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2745,38 +2789,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "the value is restriction (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "the value is restriction (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2827,38 +2873,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "the value is #all (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "the value is #all (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2909,38 +2957,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "the value is #all (invalid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "the value is #all (invalid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -2991,38 +3041,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Simple types are identified by their {name} and {target namespace}. (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Simple types are identified by their {name} and {target namespace}. (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Simple types are identified by their {name} and {target namespace}.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Simple types are identified by their {name} and {target namespace}.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3128,38 +3180,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{prohibited substitutions} is empty (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{prohibited substitutions} is empty (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "If {prohibited substitutions} is empty, then all substitutions are allowed.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "If {prohibited substitutions} is empty, then all substitutions are allowed.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3319,38 +3373,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{prohibited substitutions} is extension (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{prohibited substitutions} is extension (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3510,38 +3566,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{prohibited substitutions} is restriction (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{prohibited substitutions} is restriction (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3701,38 +3759,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "{prohibited substitutions} is #all (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "{prohibited substitutions} is #all (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -3892,38 +3952,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Simple types are identified by their {name} and {target namespace}. (valid schema)",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Simple types are identified by their {name} and {target namespace}. (valid schema)",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Simple types are identified by their {name} and {target namespace}.",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Simple types are identified by their {name} and {target namespace}.",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

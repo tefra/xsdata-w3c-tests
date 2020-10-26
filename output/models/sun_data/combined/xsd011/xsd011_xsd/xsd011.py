@@ -63,33 +63,32 @@ class NonNillable:
 @dataclass
 class Root:
     """
-    :ivar non_nillable:
-    :ivar nillable1:
-    :ivar nillable2:
+    :ivar non_nillable_or_nillable1_or_nillable2:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    non_nillable: List[NonNillable] = field(
+    non_nillable_or_nillable1_or_nillable2: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "non-nillable",
-            "type": "Element",
-        }
-    )
-    nillable1: List[Nillable1] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    nillable2: List[List[int]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "min_length": 2,
-            "nillable": True,
-            "tokens": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "non-nillable",
+                    "type": NonNillable,
+                },
+                {
+                    "name": "nillable1",
+                    "type": Nillable1,
+                },
+                {
+                    "name": "nillable2",
+                    "type": List[int],
+                    "min_length": 2,
+                    "nillable": True,
+                    "tokens": True,
+                },
+            ),
         }
     )

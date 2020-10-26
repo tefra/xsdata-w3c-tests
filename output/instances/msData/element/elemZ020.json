@@ -1,11 +1,20 @@
 {
-    "foo_foo": [
-        true,
-        true
-    ],
-    "e1": [],
-    "foo": [
-        123,
-        123
+    "foo_or_e1_or_foo": [
+        {
+            "qname": "{foo}foo",
+            "value": true
+        },
+        {
+            "qname": "foo",
+            "value": 123
+        },
+        {
+            "qname": "{foo}foo",
+            "value": true
+        },
+        {
+            "qname": "foo",
+            "value": 123
+        }
     ]
 }

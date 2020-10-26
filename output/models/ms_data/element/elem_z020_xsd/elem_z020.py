@@ -7,32 +7,29 @@ __NAMESPACE__ = "foo"
 @dataclass
 class B:
     """
-    :ivar foo_foo:
-    :ivar e1:
-    :ivar foo:
+    :ivar foo_or_e1_or_foo:
     """
-    foo_foo: List[bool] = field(
+    foo_or_e1_or_foo: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "foo",
-            "type": "Element",
-            "namespace": "foo",
-            "max_occurs": 1000,
-        }
-    )
-    e1: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "max_occurs": 1000,
-        }
-    )
-    foo: List[int] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": bool,
+                    "namespace": "foo",
+                },
+                {
+                    "name": "e1",
+                    "type": bool,
+                    "namespace": "foo",
+                },
+                {
+                    "name": "foo",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 1000,
         }
     )

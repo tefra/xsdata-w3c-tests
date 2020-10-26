@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <x:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="http://xsdtesting">
-  <x:a/>
+  <x:b/>
   <x:a/>
   <x:b/>
-  <x:b/>
+  <x:a/>
 </x:doc>

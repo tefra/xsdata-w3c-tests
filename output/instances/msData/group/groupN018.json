@@ -1,8 +1,8 @@
 {
     "elem": {
-        "a1": [
+        "a1_or_a2": [
             {
-                "qname": "a1",
+                "qname": "a2",
                 "text": null,
                 "tail": null,
                 "ns_map": {
@@ -10,11 +10,9 @@
                 },
                 "children": [],
                 "attributes": {}
-            }
-        ],
-        "a2": [
+            },
             {
-                "qname": "a2",
+                "qname": "a1",
                 "text": null,
                 "tail": null,
                 "ns_map": {

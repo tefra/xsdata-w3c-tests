@@ -2,10 +2,10 @@
 <tns:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xsdtesting" xmlns:a="a" xmlns="other">
   <a:b>test</a:b>
   <ns4:b xmlns:ns4="b">test</ns4:b>
+  <tns:bar>test</tns:bar>
   <local/>
   <a:b>test</a:b>
   <ns4:b xmlns:ns4="b">test</ns4:b>
+  <tns:bar>test</tns:bar>
   <local/>
-  <tns:bar>test</tns:bar>
-  <tns:bar>test</tns:bar>
 </tns:foo>

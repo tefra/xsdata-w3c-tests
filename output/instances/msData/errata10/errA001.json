@@ -1,44 +1,60 @@
 {
-    "test_byte": [
-        -100
-    ],
-    "test_unsigned_byte": [
-        100
-    ],
-    "test_integer": [
-        -32000
-    ],
-    "test_positive_integer": [
-        50000
-    ],
-    "test_negative_integer": [
-        -50000
-    ],
-    "test_non_negative_integer": [
-        50000
-    ],
-    "test_non_positive_integer": [
-        -50000
-    ],
-    "test_int": [
-        -32000
-    ],
-    "test_unsigned_int": [
-        50000
-    ],
-    "test_long": [
-        -123456789012345
-    ],
-    "test_unsigned_long": [
-        12345789012345
-    ],
-    "test_short": [
-        -12345
-    ],
-    "test_unsigned_short": [
-        12345
-    ],
-    "test_decimal": [
-        "123456789.12345"
+    "choice": [
+        {
+            "qname": "testByte",
+            "value": -100
+        },
+        {
+            "qname": "testUnsignedByte",
+            "value": 100
+        },
+        {
+            "qname": "testInteger",
+            "value": -32000
+        },
+        {
+            "qname": "testPositiveInteger",
+            "value": 50000
+        },
+        {
+            "qname": "testNegativeInteger",
+            "value": -50000
+        },
+        {
+            "qname": "testNonNegativeInteger",
+            "value": 50000
+        },
+        {
+            "qname": "testNonPositiveInteger",
+            "value": -50000
+        },
+        {
+            "qname": "testInt",
+            "value": -32000
+        },
+        {
+            "qname": "testUnsignedInt",
+            "value": 50000
+        },
+        {
+            "qname": "testLong",
+            "value": -123456789012345
+        },
+        {
+            "qname": "testUnsignedLong",
+            "value": 12345789012345
+        },
+        {
+            "qname": "testShort",
+            "value": -12345
+        },
+        {
+            "qname": "testUnsignedShort",
+            "value": 12345
+        },
+        {
+            "qname": "testDecimal",
+            "value": "123456789.12345"
+        }
     ]
 }

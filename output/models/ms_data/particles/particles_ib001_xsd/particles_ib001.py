@@ -7,35 +7,36 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Base:
     """
-    :ivar foo:
-    :ivar foo1:
+    :ivar foo_or_foo1:
     """
     class Meta:
         name = "base"
 
-    foo: List[bool] = field(
+    foo_or_foo1: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 6,
-        }
-    )
-    foo1: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": bool,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "foo1",
+                    "type": bool,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
             "max_occurs": 6,
         }
     )
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     """
     :ivar foo:
-    :ivar foo1:
     """
     class Meta:
         name = "doc"
@@ -46,12 +47,5 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 2,
-        }
-    )
-    foo1: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 6,
         }
     )

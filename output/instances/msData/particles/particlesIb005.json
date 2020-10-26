@@ -1,14 +1,24 @@
 {
-    "foo": [
+    "foo_or_bar": [
         {
-            "any_element": null
+            "qname": "{http://xsdtesting}foo",
+            "value": {
+                "any_element": null
+            }
         },
         {
-            "any_element": null
+            "qname": "{http://xsdtesting}foo",
+            "value": {
+                "any_element": null
+            }
         },
         {
-            "any_element": null
+            "qname": "{http://xsdtesting}foo",
+            "value": {
+                "any_element": null
+            }
         }
     ],
+    "foo": [],
     "bar": null
 }

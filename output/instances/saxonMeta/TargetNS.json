@@ -4,38 +4,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Simple use of targetNamespace on a local element declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Simple use of targetNamespace on a local element declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Simple use of targetNamespace on a local element declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Simple use of targetNamespace on a local element declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -88,15 +90,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -130,15 +134,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, child element is in wrong namespace.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, child element is in wrong namespace.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -177,38 +183,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Invalid use of targetNamespace on a local element declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Invalid use of targetNamespace on a local element declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Invalid because not part of an xs:restriction",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Invalid because not part of an xs:restriction",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -265,52 +273,54 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Simple use of targetNamespace on a local attribute declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Simple use of targetNamespace on a local attribute declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Simple use of targetNamespace on a local attribute declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Simple use of targetNamespace on a local attribute declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
-                                    "text": null,
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {
-                                        "{http://www.w3.org/1999/xlink}href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
+                                        "text": null,
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {
+                                            "{http://www.w3.org/1999/xlink}href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                                        }
                                     }
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -357,15 +367,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Valid, satisfies the schema.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Valid, satisfies the schema.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -399,15 +411,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -441,15 +455,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -488,38 +504,40 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    "text": "Invalid use of targetNamespace on a local attribute declaration",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                        "text": "Invalid use of targetNamespace on a local attribute declaration",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
                                     },
-                                    "children": [],
-                                    "attributes": {}
-                                },
-                                {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    "text": "Invalid because not part of an xs:restriction",
-                                    "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
-                                    "children": [],
-                                    "attributes": {}
-                                }
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                                    {
+                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                        "text": "Invalid because not part of an xs:restriction",
+                                        "tail": null,
+                                        "ns_map": {
+                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                            "xlink": "http://www.w3.org/1999/xlink"
+                                        },
+                                        "children": [],
+                                        "attributes": {}
+                                    }
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

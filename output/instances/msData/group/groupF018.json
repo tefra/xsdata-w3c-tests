@@ -10,7 +10,7 @@
             "children": [],
             "attributes": {}
         },
-        "a1": [
+        "a1_or_a2": [
             {
                 "qname": "A1",
                 "text": null,
@@ -20,9 +20,7 @@
                 },
                 "children": [],
                 "attributes": {}
-            }
-        ],
-        "a2": [
+            },
             {
                 "qname": "A2",
                 "text": null,

@@ -1,26 +1,29 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Type
 
 
 @dataclass
 class Node:
     """
-    :ivar node:
-    :ivar id:
+    :ivar node_or_id:
     """
     class Meta:
         name = "node"
 
-    node: List["Node"] = field(
+    node_or_id: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    id: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": Type["Node"],
+                },
+                {
+                    "name": "id",
+                    "type": str,
+                },
+            ),
         }
     )
 

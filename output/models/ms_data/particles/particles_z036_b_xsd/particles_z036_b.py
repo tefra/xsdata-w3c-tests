@@ -5,26 +5,28 @@ from typing import List
 @dataclass
 class FooType:
     """
-    :ivar a:
-    :ivar b:
+    :ivar a_or_b:
     """
     class Meta:
         name = "fooType"
 
-    a: List[object] = field(
+    a_or_b: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "a",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "b",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 100000000,
-        }
-    )
-    b: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 100000,
         }
     )
 

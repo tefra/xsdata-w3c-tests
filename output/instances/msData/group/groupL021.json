@@ -1,6 +1,6 @@
 {
     "elem": {
-        "b1": [
+        "b1_or_b2": [
             {
                 "qname": "b1",
                 "text": null,
@@ -91,7 +91,6 @@
                 "children": [],
                 "attributes": {}
             }
-        ],
-        "b2": []
+        ]
     }
 }

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <a att1="123" att2="true">a1</a>
   <any>
     <foo bar="bla" a1="b" a2="b" a3="b" a4="b" a5="b" a6="b" a7="b" a8="b"/>
     <bar>
@@ -41,5 +42,4 @@
     <a att1="123" att2="false">blue</a>
     <b att1="123" att2="false"/>
   </any>
-  <a att1="123" att2="true">a1</a>
 </root>

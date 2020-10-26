@@ -8,22 +8,25 @@ __NAMESPACE__ = "foo"
 @dataclass
 class Root:
     """
-    :ivar key:
-    :ivar ref:
+    :ivar key_or_ref:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    key: List[QName] = field(
+    key_or_ref: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    ref: List[QName] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "key",
+                    "type": QName,
+                },
+                {
+                    "name": "ref",
+                    "type": QName,
+                },
+            ),
         }
     )

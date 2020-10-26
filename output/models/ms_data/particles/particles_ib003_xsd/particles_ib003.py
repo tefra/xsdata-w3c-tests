@@ -23,25 +23,28 @@ class Bar:
 @dataclass
 class Base:
     """
-    :ivar foo:
-    :ivar bar:
+    :ivar foo_or_bar:
     """
     class Meta:
         name = "base"
 
-    foo: List[object] = field(
+    foo_or_bar: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "bar",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 6,
-        }
-    )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 
@@ -65,24 +68,27 @@ class Foo:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     """
-    :ivar foo:
-    :ivar bar:
+    :ivar foo_or_bar:
     """
     class Meta:
         name = "doc"
 
-    foo: List[Foo] = field(
+    foo_or_bar: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": Foo,
+                },
+                {
+                    "name": "bar",
+                    "type": Bar,
+                },
+            ),
             "max_occurs": 3,
-        }
-    )
-    bar: Optional[Bar] = field(
-        default=None,
-        metadata={
-            "type": "Element",
         }
     )

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 @dataclass
@@ -45,29 +45,29 @@ class PseudoIdref:
 @dataclass
 class Node:
     """
-    :ivar node:
-    :ivar id:
-    :ivar idref:
+    :ivar node_or_id_or_idref:
     """
     class Meta:
         name = "node"
 
-    node: List["Node"] = field(
+    node_or_id_or_idref: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    id: List[PseudoId] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    idref: List[PseudoIdref] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": Type["Node"],
+                },
+                {
+                    "name": "id",
+                    "type": PseudoId,
+                },
+                {
+                    "name": "idref",
+                    "type": PseudoIdref,
+                },
+            ),
         }
     )
 

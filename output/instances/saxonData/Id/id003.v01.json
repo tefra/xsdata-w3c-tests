@@ -1,28 +1,39 @@
 {
     "node": [
         {
-            "node": [
+            "node_or_id": [
                 {
-                    "node": [],
-                    "id": [],
-                    "id_one": "ccc",
-                    "any_attributes": {
-                        "id-two": "ddd"
+                    "qname": "id",
+                    "value": "zzz"
+                },
+                {
+                    "qname": "node",
+                    "value": {
+                        "node_or_id": [],
+                        "id_one": "ccc",
+                        "any_attributes": {
+                            "id-two": "ddd"
+                        }
                     }
                 },
                 {
-                    "node": [],
-                    "id": [],
-                    "id_one": "eee",
-                    "any_attributes": {
-                        "id-two": "eee"
+                    "qname": "node",
+                    "value": {
+                        "node_or_id": [],
+                        "id_one": "eee",
+                        "any_attributes": {
+                            "id-two": "eee"
+                        }
                     }
+                },
+                {
+                    "qname": "id",
+                    "value": "zzz"
+                },
+                {
+                    "qname": "id",
+                    "value": "aaa"
                 }
-            ],
-            "id": [
-                "zzz",
-                "zzz",
-                "aaa"
             ],
             "id_one": "aaa",
             "any_attributes": {

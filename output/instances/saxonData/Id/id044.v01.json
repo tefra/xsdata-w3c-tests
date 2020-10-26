@@ -1,54 +1,58 @@
 {
-    "chap": [
+    "chap_or_appx": [
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1",
-                    "ref": "4"
-                },
-                {
-                    "value": null,
-                    "nr": "2",
-                    "ref": "3"
-                },
-                {
-                    "value": null,
-                    "nr": "3",
-                    "ref": "2"
-                },
-                {
-                    "value": null,
-                    "nr": "4",
-                    "ref": "1"
-                }
-            ]
-        }
-    ],
-    "appx": [
+            "qname": "{http://id044.ly/}chap",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1",
+                        "ref": "4"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2",
+                        "ref": "3"
+                    },
+                    {
+                        "value": null,
+                        "nr": "3",
+                        "ref": "2"
+                    },
+                    {
+                        "value": null,
+                        "nr": "4",
+                        "ref": "1"
+                    }
+                ]
+            }
+        },
         {
-            "section": [
-                {
-                    "value": null,
-                    "nr": "1",
-                    "ref": "1"
-                },
-                {
-                    "value": null,
-                    "nr": "2",
-                    "ref": "2"
-                },
-                {
-                    "value": null,
-                    "nr": "3",
-                    "ref": "3"
-                },
-                {
-                    "value": null,
-                    "nr": "4",
-                    "ref": "4"
-                }
-            ]
+            "qname": "{http://id044.ly/}appx",
+            "value": {
+                "section": [
+                    {
+                        "value": null,
+                        "nr": "1",
+                        "ref": "1"
+                    },
+                    {
+                        "value": null,
+                        "nr": "2",
+                        "ref": "2"
+                    },
+                    {
+                        "value": null,
+                        "nr": "3",
+                        "ref": "3"
+                    },
+                    {
+                        "value": null,
+                        "nr": "4",
+                        "ref": "4"
+                    }
+                ]
+            }
         }
     ]
 }

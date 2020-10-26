@@ -1,9 +1,16 @@
 {
-    "e1": [
-        "yo",
-        "YO!"
-    ],
-    "e2": [
-        "eh?"
+    "e1_or_e2": [
+        {
+            "qname": "e1",
+            "value": "yo"
+        },
+        {
+            "qname": "e2",
+            "value": "eh?"
+        },
+        {
+            "qname": "e1",
+            "value": "YO!"
+        }
     ]
 }

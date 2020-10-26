@@ -7,8 +7,7 @@ class A:
     """
     :ivar x1:
     :ivar x2:
-    :ivar y1:
-    :ivar y2:
+    :ivar y1_or_y2:
     """
     x1: List[object] = field(
         default_factory=list,
@@ -30,19 +29,22 @@ class A:
             "sequential": True,
         }
     )
-    y1: List[object] = field(
+    y1_or_y2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 4,
-        }
-    )
-    y2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "y1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 4,
         }
     )
@@ -53,8 +55,8 @@ class Elem:
     """
     :ivar x1:
     :ivar x2:
-    :ivar y1:
-    :ivar y2:
+    :ivar y1_or_y2_choice:
+    :ivar y1_or_y2:
     """
     class Meta:
         name = "elem"
@@ -79,19 +81,41 @@ class Elem:
             "sequential": True,
         }
     )
-    y1: List[object] = field(
+    y1_or_y2_choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 2,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "y1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "max_occurs": 4,
         }
     )
-    y2: List[object] = field(
+    y1_or_y2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "y1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "y2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 2,
         }
     )

@@ -8,8 +8,7 @@ __NAMESPACE__ = "http://xsdtesting"
 class Base:
     """
     :ivar e1:
-    :ivar e2:
-    :ivar e3:
+    :ivar e2_or_e3:
     """
     class Meta:
         name = "base"
@@ -21,19 +20,22 @@ class Base:
             "namespace": "http://xsdtesting",
         }
     )
-    e2: List[object] = field(
+    e2_or_e3: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 2,
-        }
-    )
-    e3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
             "max_occurs": 2,
         }
     )
@@ -43,8 +45,7 @@ class Base:
 class Doc:
     """
     :ivar e1:
-    :ivar e2:
-    :ivar e3:
+    :ivar e2_or_e3:
     """
     class Meta:
         name = "doc"
@@ -57,17 +58,20 @@ class Doc:
             "required": True,
         }
     )
-    e2: List[object] = field(
+    e2_or_e3: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "max_occurs": 2,
-        }
-    )
-    e3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e2",
+                    "type": object,
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                },
+            ),
             "max_occurs": 2,
         }
     )

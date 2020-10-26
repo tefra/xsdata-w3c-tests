@@ -1,7 +1,5 @@
 {
-    "a": null,
-    "w3_org_1999_xhtml_element": [],
-    "d": null,
+    "a_or_w3_org_1999_xhtml_element_or_d": [],
     "c": null,
     "b": "I am a stringy string",
     "b2": null

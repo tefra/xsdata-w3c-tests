@@ -7,32 +7,34 @@ __NAMESPACE__ = "http://xsdtesting"
 @dataclass
 class Base:
     """
-    :ivar e1:
-    :ivar e2:
+    :ivar e1_or_e2:
     """
     class Meta:
         name = "base"
 
-    e1: List[object] = field(
+    e1_or_e2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 2,
-        }
-    )
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
             "max_occurs": 2,
         }
     )
 
 
 @dataclass
-class Testing:
+class Testing(Base):
     """
     :ivar e1:
     :ivar e2:

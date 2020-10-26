@@ -1,8 +1,12 @@
 {
-    "key": [
-        "{abc}abc"
-    ],
-    "ref": [
-        "{abc}abc"
+    "key_or_ref": [
+        {
+            "qname": "{foo}key",
+            "value": "{abc}abc"
+        },
+        {
+            "qname": "{foo}ref",
+            "value": "{abc}abc"
+        }
     ]
 }

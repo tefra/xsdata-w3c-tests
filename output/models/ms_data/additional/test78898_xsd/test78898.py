@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 @dataclass
@@ -183,30 +183,30 @@ class E4(M4):
 @dataclass
 class M5:
     """
-    :ivar e3:
-    :ivar e4:
-    :ivar e5:
+    :ivar e3_or_e4_or_e5:
     :ivar att:
     """
     class Meta:
         name = "m5"
 
-    e3: List[E3] = field(
+    e3_or_e4_or_e5: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    e4: List[E4] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-        }
-    )
-    e5: List["E5"] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e3",
+                    "type": E3,
+                },
+                {
+                    "name": "e4",
+                    "type": E4,
+                },
+                {
+                    "name": "e5",
+                    "type": Type["E5"],
+                },
+            ),
         }
     )
     att: Optional[int] = field(

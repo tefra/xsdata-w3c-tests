@@ -644,24 +644,27 @@ class Annotation:
                 Schemas cannot be imported.
               </p>
       </div>
-    :ivar appinfo:
-    :ivar documentation:
+    :ivar appinfo_or_documentation:
     :ivar other_attributes:
     """
     class Meta:
         name = "annotation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    appinfo: List[Appinfo] = field(
+    appinfo_or_documentation: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    documentation: List[Documentation] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "appinfo",
+                    "type": Appinfo,
+                },
+                {
+                    "name": "documentation",
+                    "type": Documentation,
+                },
+            ),
         }
     )
     other_attributes: Dict = field(

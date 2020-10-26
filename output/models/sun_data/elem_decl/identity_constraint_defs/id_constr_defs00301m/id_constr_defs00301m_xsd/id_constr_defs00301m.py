@@ -7,36 +7,33 @@ __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 @dataclass
 class Root:
     """
-    :ivar element:
-    :ivar element_ref:
-    :ivar element_refs:
+    :ivar element_or_element_ref_or_element_refs:
     """
     class Meta:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    element: List[str] = field(
+    element_or_element_ref_or_element_refs: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "Element",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    element_ref: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "ElementRef",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    element_refs: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "name": "ElementRefs",
-            "type": "Element",
-            "namespace": "",
-            "tokens": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "Element",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "ElementRef",
+                    "type": str,
+                    "namespace": "",
+                },
+                {
+                    "name": "ElementRefs",
+                    "type": List[str],
+                    "namespace": "",
+                    "tokens": True,
+                },
+            ),
         }
     )

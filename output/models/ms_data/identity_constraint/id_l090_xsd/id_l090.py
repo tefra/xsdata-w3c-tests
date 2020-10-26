@@ -8,23 +8,26 @@ __NAMESPACE__ = "myNS.tempuri.org"
 @dataclass
 class Root:
     """
-    :ivar t:
-    :ivar u:
+    :ivar t_or_u:
     """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t: List[str] = field(
+    t_or_u: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    u: List[Decimal] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "t",
+                    "type": str,
+                },
+                {
+                    "name": "u",
+                    "type": Decimal,
+                },
+            ),
         }
     )
 

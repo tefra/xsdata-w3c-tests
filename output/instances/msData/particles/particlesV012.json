@@ -1,27 +1,30 @@
 {
     "elem": {
-        "e1": {
-            "qname": "e1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
+        "e1_or_e2_or_e3": [
+            {
+                "qname": "e1",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "http://xsdtesting"
+                },
+                "children": [],
+                "attributes": {}
             },
-            "children": [],
-            "attributes": {}
-        },
-        "e2": {
-            "qname": "e2",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "e3": []
+            {
+                "qname": "e2",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "a": "http://xsdtesting"
+                },
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "e1": null,
+        "e2": null
     }
 }

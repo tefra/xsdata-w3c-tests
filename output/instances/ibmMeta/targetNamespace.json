@@ -4,15 +4,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n\t\t    Composition of XML schemas via xs:import to be able to achive hetrogeneous namespaced elements\n\t\t\tin \"one\" XML document.\n            "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "\n\t\t    Composition of XML schemas via xs:import to be able to achive hetrogeneous namespaced elements\n\t\t\tin \"one\" XML document.\n            "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -99,15 +101,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "\n\t\t    This example demonstrates 'targetNamespace' attribute on xs:attribute schema component.\n\t\t    "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "\n\t\t    This example demonstrates 'targetNamespace' attribute on xs:attribute schema component.\n\t\t    "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

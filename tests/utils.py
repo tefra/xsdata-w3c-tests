@@ -79,7 +79,7 @@ def assert_valid(validator, tree):
 @functools.lru_cache(maxsize=5)
 def generate_models(xsd: str, package: str, class_name: str, ns_struct: bool):
     runner = CliRunner()
-    args = [xsd, "--package", package]
+    args = [xsd, "--package", package, "--compound-fields", "true"]
     if ns_struct:
         args.append("--ns-struct")
 

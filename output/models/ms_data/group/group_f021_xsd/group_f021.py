@@ -20,27 +20,27 @@ class B:
 @dataclass
 class Elem(B):
     """
-    :ivar a1:
-    :ivar a2:
+    :ivar a1_or_a2:
     """
     class Meta:
         name = "elem"
 
-    a1: List[object] = field(
+    a1_or_a2: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "A1",
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 3,
-        }
-    )
-    a2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "name": "A2",
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "A1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "A2",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
             "min_occurs": 3,
         }
     )

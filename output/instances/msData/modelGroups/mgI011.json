@@ -1,7 +1,7 @@
 {
     "b": null,
     "b2": null,
-    "w3_org_1999_xhtml_element": [
+    "w3_org_1999_xhtml_element_or_a_or_d": [
         {
             "qname": "{http://www.w3.org/1999/xhtml}html",
             "text": null,
@@ -26,7 +26,5 @@
             "attributes": {}
         }
     ],
-    "c": null,
-    "a": null,
-    "d": null
+    "c": null
 }

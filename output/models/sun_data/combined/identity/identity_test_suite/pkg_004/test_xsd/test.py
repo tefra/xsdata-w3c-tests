@@ -7,23 +7,26 @@ __NAMESPACE__ = "foo"
 @dataclass
 class Scope:
     """
-    :ivar key:
-    :ivar ref:
+    :ivar key_or_ref:
     """
     class Meta:
         name = "scope"
         namespace = "foo"
 
-    key: List[str] = field(
+    key_or_ref: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    ref: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "key",
+                    "type": str,
+                },
+                {
+                    "name": "ref",
+                    "type": str,
+                },
+            ),
         }
     )
 

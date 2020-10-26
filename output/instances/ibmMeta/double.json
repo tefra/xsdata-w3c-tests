@@ -1,16 +1,18 @@
 {
     "annotation": [
         {
-            "appinfo": [],
-            "documentation": [
+            "appinfo_or_documentation": [
                 {
-                    "any_element": [
-                        "double "
-                    ],
-                    "source": null,
-                    "lang": null,
-                    "other_attributes": {
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#double"
+                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                    "value": {
+                        "any_element": [
+                            "double "
+                        ],
+                        "source": null,
+                        "lang": null,
+                        "other_attributes": {
+                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#double"
+                        }
                     }
                 }
             ],
@@ -21,15 +23,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Valid test for +0 and -0 bound checking "
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Valid test for +0 and -0 bound checking "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}
@@ -116,15 +120,17 @@
         {
             "annotation": [
                 {
-                    "appinfo": [],
-                    "documentation": [
+                    "appinfo_or_documentation": [
                         {
-                            "any_element": [
-                                "Lexical representation +INF for double"
-                            ],
-                            "source": null,
-                            "lang": null,
-                            "other_attributes": {}
+                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                            "value": {
+                                "any_element": [
+                                    "Lexical representation +INF for double"
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
+                            }
                         }
                     ],
                     "other_attributes": {}

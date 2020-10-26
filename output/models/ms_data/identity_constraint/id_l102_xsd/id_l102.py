@@ -66,22 +66,25 @@ class U(Utype):
 @dataclass
 class Root:
     """
-    :ivar t:
-    :ivar u:
+    :ivar t_or_u:
     """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t: List[T] = field(
+    t_or_u: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    u: List[U] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "t",
+                    "type": T,
+                },
+                {
+                    "name": "u",
+                    "type": U,
+                },
+            ),
         }
     )

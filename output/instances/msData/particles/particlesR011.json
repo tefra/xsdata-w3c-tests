@@ -12,7 +12,6 @@
             "attributes": {}
         },
         "any_element": [],
-        "e1": [],
-        "e2": null
+        "e1_or_e2": []
     }
 }

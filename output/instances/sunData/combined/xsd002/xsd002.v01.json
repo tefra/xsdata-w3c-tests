@@ -1,5 +1,5 @@
 {
-    "foo": [
+    "foo_or_bar_or_zot": [
         {
             "qname": "foo",
             "text": null,
@@ -42,9 +42,7 @@
                 }
             ],
             "attributes": {}
-        }
-    ],
-    "bar": [
+        },
         {
             "qname": "{http://foo.com}bar",
             "text": null,
@@ -54,9 +52,7 @@
             },
             "children": [],
             "attributes": {}
-        }
-    ],
-    "zot": [
+        },
         {
             "qname": "zot",
             "text": "\n\t\twhen using ",

@@ -1,18 +1,18 @@
 {
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "h": "http://www.w3.org/1999/xhtml"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "d_or_a_or_w3_org_1999_xhtml_element": [
+        {
+            "qname": "d",
+            "text": null,
+            "tail": null,
+            "ns_map": {
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "h": "http://www.w3.org/1999/xhtml"
+            },
+            "children": [],
+            "attributes": {}
+        }
+    ],
     "b": null,
     "b2": null,
-    "c": null,
-    "a": null,
-    "w3_org_1999_xhtml_element": []
+    "c": null
 }

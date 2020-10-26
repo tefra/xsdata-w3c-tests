@@ -2,7 +2,7 @@
     "elem": {
         "x1": [],
         "x2": [],
-        "y1": [
+        "y1_or_y2": [
             {
                 "qname": "y1",
                 "text": null,
@@ -12,9 +12,7 @@
                 },
                 "children": [],
                 "attributes": {}
-            }
-        ],
-        "y2": [
+            },
             {
                 "qname": "y2",
                 "text": null,

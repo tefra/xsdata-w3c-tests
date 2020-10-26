@@ -26,31 +26,34 @@ class Foo:
 @dataclass
 class Base:
     """
-    :ivar foo:
-    :ivar bar:
+    :ivar foo_or_bar:
     """
     class Meta:
         name = "base"
 
-    foo: List[Foo] = field(
+    foo_or_bar: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": Foo,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "bar",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
             "max_occurs": 4,
-        }
-    )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
         }
     )
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     """
     :ivar foo:
     :ivar bar:

@@ -1,5 +1,5 @@
 {
-    "a": [
+    "a_or_b": [
         {
             "qname": "a",
             "text": null,
@@ -12319,9 +12319,7 @@
             "ns_map": {},
             "children": [],
             "attributes": {}
-        }
-    ],
-    "b": [
+        },
         {
             "qname": "b",
             "text": null,

@@ -50,15 +50,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -92,15 +94,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t\t      The instance test fails because, assertion in this example is \"false\" and that been included\n\t\t\t      in validation episode.\n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t\t      The instance test fails because, assertion in this example is \"false\" and that been included\n\t\t\t      in validation episode.\n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -187,15 +191,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n\t\t          Run instance test in XSD 1.1 mode. The validation fails (due to a different element\n\t\t\t\t  declaration been selected, whose assertion failure causes validation episode to fail).\n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n\t\t          Run instance test in XSD 1.1 mode. The validation fails (due to a different element\n\t\t\t\t  declaration been selected, whose assertion failure causes validation episode to fail).\n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -282,15 +288,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail\n\t\t\t\t  causing failure of validation episode. The facet \"totalDigits\" won't be functional since it\n\t\t\t\t  only works in XSD 1.0 mode.\n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail\n\t\t\t\t  causing failure of validation episode. The facet \"totalDigits\" won't be functional since it\n\t\t\t\t  only works in XSD 1.0 mode.\n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -377,15 +385,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Run instance test in XSD 1.1 mode. Now the type \"TEST_V2\" is used to validate an XML element and\n\t\t\t\t  assertion failure occurs causing failure of validation episode.\t\t\t\t  \n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n                  Run instance test in XSD 1.1 mode. Now the type \"TEST_V2\" is used to validate an XML element and\n\t\t\t\t  assertion failure occurs causing failure of validation episode.\t\t\t\t  \n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -419,15 +429,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Run instance test in XSD 1.1 mode. Now the type \"TEST_V2\" is used to validate an XML element and\n                  validation episode succeeds, since an assertion is also true.\t\t\t\t  \n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n                  Run instance test in XSD 1.1 mode. Now the type \"TEST_V2\" is used to validate an XML element and\n                  validation episode succeeds, since an assertion is also true.\t\t\t\t  \n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -514,15 +526,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable=\"xs:int\"] succeeds but [vc:typeAvailable=\"my:myInt\"] doesn't. This test results\n                  in validation success.\t\t\t\t  \n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable=\"xs:int\"] succeeds but [vc:typeAvailable=\"my:myInt\"] doesn't. This test results\n                  in validation success.\t\t\t\t  \n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}
@@ -609,15 +623,17 @@
                 {
                     "annotation": [
                         {
-                            "appinfo": [],
-                            "documentation": [
+                            "appinfo_or_documentation": [
                                 {
-                                    "any_element": [
-                                        "\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable=\"xs:int\"] succeeds but [vc:typeAvailable=\"xs:int my:myInt\"] doesn't. This test results\n                  in validation success.  \t\t\t\t  \n\t\t       "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
+                                    "value": {
+                                        "any_element": [
+                                            "\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable=\"xs:int\"] succeeds but [vc:typeAvailable=\"xs:int my:myInt\"] doesn't. This test results\n                  in validation success.  \t\t\t\t  \n\t\t       "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
+                                    }
                                 }
                             ],
                             "other_attributes": {}

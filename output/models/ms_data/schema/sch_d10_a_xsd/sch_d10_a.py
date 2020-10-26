@@ -7,25 +7,27 @@ __NAMESPACE__ = "ns-a"
 @dataclass
 class ACt:
     """
-    :ivar c21:
-    :ivar c22:
+    :ivar c21_or_c22:
     """
     class Meta:
         name = "a-ct"
 
-    c21: List[int] = field(
+    c21_or_c22: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 3,
-        }
-    )
-    c22: List[int] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "c21",
+                    "type": int,
+                    "namespace": "",
+                },
+                {
+                    "name": "c22",
+                    "type": int,
+                    "namespace": "",
+                },
+            ),
             "max_occurs": 3,
         }
     )

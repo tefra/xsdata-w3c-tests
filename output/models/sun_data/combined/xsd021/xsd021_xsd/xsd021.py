@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Dict, List, Type
 
 __NAMESPACE__ = "foo"
 
@@ -7,73 +7,50 @@ __NAMESPACE__ = "foo"
 @dataclass
 class Root:
     """
-    :ivar skip_any:
-    :ivar lax_any:
-    :ivar strict_any:
-    :ivar skip_other:
-    :ivar lax_local:
-    :ivar strict_local:
-    :ivar strict_target:
-    :ivar skip_bar:
+    :ivar choice:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    skip_any: List["Root.SkipAny"] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "name": "skipAny",
-            "type": "Element",
-        }
-    )
-    lax_any: List["Root.LaxAny"] = field(
-        default_factory=list,
-        metadata={
-            "name": "laxAny",
-            "type": "Element",
-        }
-    )
-    strict_any: List["Root.StrictAny"] = field(
-        default_factory=list,
-        metadata={
-            "name": "strictAny",
-            "type": "Element",
-        }
-    )
-    skip_other: List["Root.SkipOther"] = field(
-        default_factory=list,
-        metadata={
-            "name": "skipOther",
-            "type": "Element",
-        }
-    )
-    lax_local: List["Root.LaxLocal"] = field(
-        default_factory=list,
-        metadata={
-            "name": "laxLocal",
-            "type": "Element",
-        }
-    )
-    strict_local: List["Root.StrictLocal"] = field(
-        default_factory=list,
-        metadata={
-            "name": "strictLocal",
-            "type": "Element",
-        }
-    )
-    strict_target: List["Root.StrictTarget"] = field(
-        default_factory=list,
-        metadata={
-            "name": "strictTarget",
-            "type": "Element",
-        }
-    )
-    skip_bar: List["Root.SkipBar"] = field(
-        default_factory=list,
-        metadata={
-            "name": "skipBar",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "skipAny",
+                    "type": Type["Root.SkipAny"],
+                },
+                {
+                    "name": "laxAny",
+                    "type": Type["Root.LaxAny"],
+                },
+                {
+                    "name": "strictAny",
+                    "type": Type["Root.StrictAny"],
+                },
+                {
+                    "name": "skipOther",
+                    "type": Type["Root.SkipOther"],
+                },
+                {
+                    "name": "laxLocal",
+                    "type": Type["Root.LaxLocal"],
+                },
+                {
+                    "name": "strictLocal",
+                    "type": Type["Root.StrictLocal"],
+                },
+                {
+                    "name": "strictTarget",
+                    "type": Type["Root.StrictTarget"],
+                },
+                {
+                    "name": "skipBar",
+                    "type": Type["Root.SkipBar"],
+                },
+            ),
         }
     )
 

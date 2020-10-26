@@ -5,23 +5,26 @@ from typing import List
 @dataclass
 class Root:
     """
-    :ivar foo:
-    :ivar sg:
+    :ivar foo_or_sg:
     """
     class Meta:
         name = "root"
 
-    foo: List[object] = field(
+    foo_or_sg: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    sg: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "foo",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "sg",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
         }
     )

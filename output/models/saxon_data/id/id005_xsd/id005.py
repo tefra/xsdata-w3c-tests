@@ -1,51 +1,49 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Type
 
 
 @dataclass
 class Node:
     """
-    :ivar node:
+    :ivar node_or_id_or_idrefs:
     :ivar id:
     :ivar idrefs:
-    :ivar id_attribute:
-    :ivar idrefs_attribute:
     """
     class Meta:
         name = "node"
 
-    node: List["Node"] = field(
+    node_or_id_or_idrefs: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": Type["Node"],
+                },
+                {
+                    "name": "id",
+                    "type": List[str],
+                    "tokens": True,
+                },
+                {
+                    "name": "idrefs",
+                    "type": List[str],
+                    "tokens": True,
+                },
+            ),
         }
     )
-    id: List[List[str]] = field(
+    id: List[str] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    idrefs: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    id_attribute: List[str] = field(
-        default_factory=list,
-        metadata={
-            "name": "id",
             "type": "Attribute",
             "tokens": True,
         }
     )
-    idrefs_attribute: List[str] = field(
+    idrefs: List[str] = field(
         default_factory=list,
         metadata={
-            "name": "idrefs",
             "type": "Attribute",
             "tokens": True,
         }

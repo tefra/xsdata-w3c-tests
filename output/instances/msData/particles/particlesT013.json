@@ -1,2289 +1,2744 @@
 {
     "elem": {
-        "c1": [],
-        "c2": [],
-        "c3": [
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
-            },
-            {
-                "foo": {
-                    "qname": "foo",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting"
-                    },
-                    "children": [],
-                    "attributes": {}
-                },
-                "att": null,
-                "att1": "testing"
+        "c1_or_c2_or_c3_choice": [
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
+            },
+            {
+                "qname": "c3",
+                "value": {
+                    "foo": {
+                        "qname": "foo",
+                        "text": null,
+                        "tail": null,
+                        "ns_map": {
+                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                            "a": "http://xsdtesting"
+                        },
+                        "children": [],
+                        "attributes": {}
+                    },
+                    "att": null,
+                    "att1": "testing"
+                }
             }
         ],
+        "c1_or_c2_or_c3": [],
         "foo": {
             "qname": "foo",
             "text": null,

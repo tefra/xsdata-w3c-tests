@@ -1,42 +1,40 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Type
 
 
 @dataclass
 class Node:
     """
-    :ivar node:
+    :ivar node_or_mixed_a_or_mixed_b:
     :ivar mixed_a:
     :ivar mixed_b:
-    :ivar mixed_a_attribute:
-    :ivar mixed_b_attribute:
     """
     class Meta:
         name = "node"
 
-    node: List["Node"] = field(
+    node_or_mixed_a_or_mixed_b: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "node",
+                    "type": Type["Node"],
+                },
+                {
+                    "name": "mixedA",
+                    "type": List[str],
+                    "tokens": True,
+                },
+                {
+                    "name": "mixedB",
+                    "type": List[str],
+                    "tokens": True,
+                },
+            ),
         }
     )
-    mixed_a: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "name": "mixedA",
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    mixed_b: List[List[str]] = field(
-        default_factory=list,
-        metadata={
-            "name": "mixedB",
-            "type": "Element",
-            "tokens": True,
-        }
-    )
-    mixed_a_attribute: List[str] = field(
+    mixed_a: List[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedA",
@@ -44,7 +42,7 @@ class Node:
             "tokens": True,
         }
     )
-    mixed_b_attribute: List[str] = field(
+    mixed_b: List[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedB",

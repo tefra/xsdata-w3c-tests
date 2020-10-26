@@ -68,23 +68,26 @@ class Dre(Dr):
 @dataclass
 class Root:
     """
-    :ivar item1:
-    :ivar item2:
+    :ivar item1_or_item2:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    item1: List[B] = field(
+    item1_or_item2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    item2: List[B] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "item1",
+                    "type": B,
+                },
+                {
+                    "name": "item2",
+                    "type": B,
+                },
+            ),
         }
     )
 

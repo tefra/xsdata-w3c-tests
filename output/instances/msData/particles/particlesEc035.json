@@ -1,5 +1,5 @@
 {
-    "a": [
+    "a_or_b": [
         {
             "qname": "{http://xsdtesting}a",
             "text": null,
@@ -44,6 +44,5 @@
             "children": [],
             "attributes": {}
         }
-    ],
-    "b": []
+    ]
 }

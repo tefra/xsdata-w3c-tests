@@ -1,39 +1,47 @@
 {
     "node": [
         {
-            "node": [
+            "node_or_id": [
                 {
-                    "node": [],
-                    "id": [],
-                    "id_one": [
-                        "ccc",
-                        "ccc"
-                    ],
-                    "any_attributes": {
-                        "id-two": "ddd ddd"
+                    "qname": "node",
+                    "value": {
+                        "node_or_id": [],
+                        "id_one": [
+                            "ccc",
+                            "ccc"
+                        ],
+                        "any_attributes": {
+                            "id-two": "ddd ddd"
+                        }
                     }
                 },
                 {
-                    "node": [],
-                    "id": [],
-                    "id_one": [
-                        "eee"
-                    ],
-                    "any_attributes": {
-                        "id-two": ""
+                    "qname": "node",
+                    "value": {
+                        "node_or_id": [],
+                        "id_one": [
+                            "eee"
+                        ],
+                        "any_attributes": {
+                            "id-two": ""
+                        }
                     }
+                },
+                {
+                    "qname": "id",
+                    "value": [
+                        "zzz",
+                        "bbb"
+                    ]
+                },
+                {
+                    "qname": "id",
+                    "value": [
+                        "aaa",
+                        "zzz",
+                        "bbb"
+                    ]
                 }
-            ],
-            "id": [
-                [
-                    "zzz",
-                    "bbb"
-                ],
-                [
-                    "aaa",
-                    "zzz",
-                    "bbb"
-                ]
             ],
             "id_one": [],
             "any_attributes": {

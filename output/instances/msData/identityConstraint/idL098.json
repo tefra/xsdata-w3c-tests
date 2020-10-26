@@ -1,18 +1,25 @@
 {
-    "t": [
+    "t_or_u": [
         {
-            "value": null,
-            "row": "1"
+            "qname": "{myNS.tempuri.org}t",
+            "value": {
+                "value": null,
+                "row": "1"
+            }
         },
         {
-            "value": null,
-            "row": "11"
-        }
-    ],
-    "u": [
+            "qname": "{myNS.tempuri.org}u",
+            "value": {
+                "value": null,
+                "row": "2"
+            }
+        },
         {
-            "value": null,
-            "row": "2"
+            "qname": "{myNS.tempuri.org}t",
+            "value": {
+                "value": null,
+                "row": "11"
+            }
         }
     ]
 }

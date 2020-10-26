@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Type
 
 __NAMESPACE__ = "foo"
 
@@ -64,24 +64,26 @@ class C:
 @dataclass
 class Root:
     """
-    :ivar mixed:
-    :ivar element_only:
+    :ivar mixed_or_element_only:
     """
     class Meta:
         name = "root"
         namespace = "foo"
 
-    mixed: List["Root.Mixed"] = field(
+    mixed_or_element_only: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-        }
-    )
-    element_only: List["Root.ElementOnly"] = field(
-        default_factory=list,
-        metadata={
-            "name": "elementOnly",
-            "type": "Element",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "mixed",
+                    "type": Type["Root.Mixed"],
+                },
+                {
+                    "name": "elementOnly",
+                    "type": Type["Root.ElementOnly"],
+                },
+            ),
         }
     )
 
@@ -89,9 +91,7 @@ class Root:
     class Mixed:
         """
         :ivar content:
-        :ivar a:
-        :ivar b:
-        :ivar c:
+        :ivar a_or_b_or_c:
         """
         content: List[object] = field(
             default_factory=list,
@@ -101,47 +101,49 @@ class Root:
                 "mixed": True,
             }
         )
-        a: List[A] = field(
+        a_or_b_or_c: List[object] = field(
             default_factory=list,
             metadata={
-                "type": "Element",
-            }
-        )
-        b: List[B] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-            }
-        )
-        c: List[C] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "a",
+                        "type": A,
+                    },
+                    {
+                        "name": "b",
+                        "type": B,
+                    },
+                    {
+                        "name": "c",
+                        "type": C,
+                    },
+                ),
             }
         )
 
     @dataclass
     class ElementOnly:
         """
-        :ivar a:
-        :ivar b:
-        :ivar c:
+        :ivar a_or_b_or_c:
         """
-        a: List[A] = field(
+        a_or_b_or_c: List[object] = field(
             default_factory=list,
             metadata={
-                "type": "Element",
-            }
-        )
-        b: List[B] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
-            }
-        )
-        c: List[C] = field(
-            default_factory=list,
-            metadata={
-                "type": "Element",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "a",
+                        "type": A,
+                    },
+                    {
+                        "name": "b",
+                        "type": B,
+                    },
+                    {
+                        "name": "c",
+                        "type": C,
+                    },
+                ),
             }
         )

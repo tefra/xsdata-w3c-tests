@@ -23,26 +23,24 @@ class Root:
     @dataclass
     class Element1:
         """
-        :ivar group2_element1:
-        :ivar group2_element2:
+        :ivar group2_element1_or_group2_element2:
         """
-        group2_element1: List[str] = field(
+        group2_element1_or_group2_element2: List[object] = field(
             default_factory=list,
             metadata={
-                "name": "Group2_Element1",
-                "type": "Element",
-                "namespace": "",
+                "type": "Elements",
+                "choices": (
+                    {
+                        "name": "Group2_Element1",
+                        "type": str,
+                        "namespace": "",
+                    },
+                    {
+                        "name": "Group2_Element2",
+                        "type": str,
+                        "namespace": "",
+                    },
+                ),
                 "min_occurs": 2,
-                "sequential": True,
-            }
-        )
-        group2_element2: List[str] = field(
-            default_factory=list,
-            metadata={
-                "name": "Group2_Element2",
-                "type": "Element",
-                "namespace": "",
-                "min_occurs": 2,
-                "sequential": True,
             }
         )

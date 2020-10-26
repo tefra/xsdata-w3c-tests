@@ -1,86 +1,221 @@
 {
     "nonstringsection": {
-        "bigint": [
-            -92232036854775808,
-            -1,
-            0,
-            1,
-            92232036854775807
-        ],
-        "int_value": [
-            -2147483648,
-            -1,
-            0,
-            1,
-            2147483647
-        ],
-        "smallint": [
-            -32768,
-            -1,
-            0,
-            1,
-            32767
-        ],
-        "tinyint": [
-            0,
-            1,
-            33,
-            254,
-            255
-        ],
-        "decimal": [
-            "-9954645.9999",
-            "-99232423454645.999900",
-            "0.9999",
-            "995464234235.999900",
-            "9954645.9999",
-            "-9954645.9999",
-            "-99232423454645.999900",
-            "0.9999",
-            "995464234235.999900",
-            "9954645.9999"
-        ],
-        "numeric": [],
-        "money": [
-            "-18888888888.5808",
-            "-188.5808",
-            "0",
-            "188.5808",
-            "18888888888.5808"
-        ],
-        "smallmoney": [
-            "-121212.1112",
-            "-1.11",
-            "0.0",
-            "1.11",
-            "121212.1112"
-        ],
-        "float_value": [
-            "-1.79E+308",
-            "-1.79",
-            "0",
-            "1.79",
-            "1.79E+308"
-        ],
-        "real": [
-            -3.4e+38,
-            2.79e+38,
-            0.0,
-            2.79e+38,
-            3.4e+38
-        ],
-        "datetime": [
+        "choice": [
             {
-                "date": "2000-10-10",
-                "time": "12:54:00.000",
-                "localized_dt": "12-May-2000 12:54:00.345 AM"
-            }
-        ],
-        "smalldatetime": [
+                "qname": "bigint",
+                "value": -92232036854775808
+            },
             {
-                "date": "2000-10-10",
-                "time": "12:54:00",
-                "localized_sdt": "10-15-2001 12:03:00 PM"
+                "qname": "bigint",
+                "value": -1
+            },
+            {
+                "qname": "bigint",
+                "value": 0
+            },
+            {
+                "qname": "bigint",
+                "value": 1
+            },
+            {
+                "qname": "bigint",
+                "value": 92232036854775807
+            },
+            {
+                "qname": "int",
+                "value": -2147483648
+            },
+            {
+                "qname": "int",
+                "value": -1
+            },
+            {
+                "qname": "int",
+                "value": 0
+            },
+            {
+                "qname": "int",
+                "value": 1
+            },
+            {
+                "qname": "int",
+                "value": 2147483647
+            },
+            {
+                "qname": "smallint",
+                "value": -32768
+            },
+            {
+                "qname": "smallint",
+                "value": -1
+            },
+            {
+                "qname": "smallint",
+                "value": 0
+            },
+            {
+                "qname": "smallint",
+                "value": 1
+            },
+            {
+                "qname": "smallint",
+                "value": 32767
+            },
+            {
+                "qname": "tinyint",
+                "value": 0
+            },
+            {
+                "qname": "tinyint",
+                "value": 1
+            },
+            {
+                "qname": "tinyint",
+                "value": 33
+            },
+            {
+                "qname": "tinyint",
+                "value": 254
+            },
+            {
+                "qname": "tinyint",
+                "value": 255
+            },
+            {
+                "qname": "decimal",
+                "value": "-9954645.9999"
+            },
+            {
+                "qname": "decimal",
+                "value": "-99232423454645.999900"
+            },
+            {
+                "qname": "decimal",
+                "value": "0.9999"
+            },
+            {
+                "qname": "decimal",
+                "value": "995464234235.999900"
+            },
+            {
+                "qname": "decimal",
+                "value": "9954645.9999"
+            },
+            {
+                "qname": "decimal",
+                "value": "-9954645.9999"
+            },
+            {
+                "qname": "decimal",
+                "value": "-99232423454645.999900"
+            },
+            {
+                "qname": "decimal",
+                "value": "0.9999"
+            },
+            {
+                "qname": "decimal",
+                "value": "995464234235.999900"
+            },
+            {
+                "qname": "decimal",
+                "value": "9954645.9999"
+            },
+            {
+                "qname": "money",
+                "value": "-18888888888.5808"
+            },
+            {
+                "qname": "money",
+                "value": "-188.5808"
+            },
+            {
+                "qname": "money",
+                "value": "0"
+            },
+            {
+                "qname": "money",
+                "value": "188.5808"
+            },
+            {
+                "qname": "money",
+                "value": "18888888888.5808"
+            },
+            {
+                "qname": "smallmoney",
+                "value": "-121212.1112"
+            },
+            {
+                "qname": "smallmoney",
+                "value": "-1.11"
+            },
+            {
+                "qname": "smallmoney",
+                "value": "0.0"
+            },
+            {
+                "qname": "smallmoney",
+                "value": "1.11"
+            },
+            {
+                "qname": "smallmoney",
+                "value": "121212.1112"
+            },
+            {
+                "qname": "float",
+                "value": "-1.79E+308"
+            },
+            {
+                "qname": "float",
+                "value": "-1.79"
+            },
+            {
+                "qname": "float",
+                "value": "0"
+            },
+            {
+                "qname": "float",
+                "value": "1.79"
+            },
+            {
+                "qname": "float",
+                "value": "1.79E+308"
+            },
+            {
+                "qname": "real",
+                "value": -3.4e+38
+            },
+            {
+                "qname": "real",
+                "value": 2.79e+38
+            },
+            {
+                "qname": "real",
+                "value": 0.0
+            },
+            {
+                "qname": "real",
+                "value": 2.79e+38
+            },
+            {
+                "qname": "real",
+                "value": 3.4e+38
+            },
+            {
+                "qname": "datetime",
+                "value": {
+                    "date": "2000-10-10",
+                    "time": "12:54:00.000",
+                    "localized_dt": "12-May-2000 12:54:00.345 AM"
+                }
+            },
+            {
+                "qname": "smalldatetime",
+                "value": {
+                    "date": "2000-10-10",
+                    "time": "12:54:00",
+                    "localized_sdt": "10-15-2001 12:03:00 PM"
+                }
             }
         ]
     },

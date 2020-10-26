@@ -7,25 +7,28 @@ __NAMESPACE__ = "http://foo.com"
 @dataclass
 class Root:
     """
-    :ivar child1:
-    :ivar child2:
+    :ivar child1_or_child2:
     """
     class Meta:
         name = "root"
         namespace = "http://foo.com"
 
-    child1: List[List[str]] = field(
+    child1_or_child2: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "min_length": 5,
-            "tokens": True,
-        }
-    )
-    child2: List[Union[bool, str]] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "min_length": 5,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "child1",
+                    "type": List[str],
+                    "min_length": 5,
+                    "tokens": True,
+                },
+                {
+                    "name": "child2",
+                    "type": Union[bool, str],
+                    "min_length": 5,
+                },
+            ),
         }
     )
